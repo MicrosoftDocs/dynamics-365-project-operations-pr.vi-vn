@@ -1,0 +1,1 @@
+<span data-ttu-id="e2ccb-101">Áp dụng cho ứng dụng Project Service phiên bản 2.4.4.30 hoặc cũ hơn trên Dynamics 365 (online) phiên bản 9.x</span><span class="sxs-lookup"><span data-stu-id="e2ccb-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

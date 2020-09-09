@@ -1,0 +1,1 @@
+<span data-ttu-id="db589-101">Áp dụng cho ứng dụng Project Service phiên bản 3.x, 2.x và 1.x</span><span class="sxs-lookup"><span data-stu-id="db589-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>
