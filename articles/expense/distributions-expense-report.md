@@ -1,0 +1,32 @@
+---
+title: Phân phối trên báo cáo chi phí
+description: Khi nhập chi phí trên báo cáo chi phí, bạn có thể phân bổ chúng cho nhiều dự án, pháp nhân hoặc tài khoản trong tổ chức của mình.
+author: suvaidya
+manager: AnnBe
+ms.date: 10/10/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: suvaidya
+ms.openlocfilehash: a1fa7383e7715fe57380de0a006ccc4e020bb5a5
+ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.translationtype: HT
+ms.contentlocale: vi-VN
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3908726"
+---
+# <a name="distributions-on-an-expense-report"></a><span data-ttu-id="58b5a-103">Phân phối trên báo cáo chi phí</span><span class="sxs-lookup"><span data-stu-id="58b5a-103">Distributions on an expense report</span></span>
+
+<span data-ttu-id="58b5a-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_</span><span class="sxs-lookup"><span data-stu-id="58b5a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="58b5a-105">Khi nhập chi phí trên báo cáo chi phí, bạn có thể phân bổ chúng cho nhiều dự án, lĩnh vực tài chính hoặc tài khoản trong tổ chức của mình.</span><span class="sxs-lookup"><span data-stu-id="58b5a-105">When you enter expenses on an expense report, you can distribute them across multiple projects, financial dimensions, or accounts in your organization.</span></span>
+
+<span data-ttu-id="58b5a-106">Ví dụ: Nancy, một đại diện bán hàng của Fabrikam, đã đi từ Copenhagen đến Frankfurt.</span><span class="sxs-lookup"><span data-stu-id="58b5a-106">For example, Nancy, a Fabrikam sales representative, traveled from Copenhagen to Frankfurt.</span></span> <span data-ttu-id="58b5a-107">Tại Frankfurt, Nancy đã gặp hai tổ chức để thảo luận về các dự án riêng biệt cho từng tổ chức.</span><span class="sxs-lookup"><span data-stu-id="58b5a-107">In Frankfurt, Nancy met with two organizations to discuss separate projects for each organization.</span></span> <span data-ttu-id="58b5a-108">Nancy đã dành 7 ngày làm việc với tổ chức A về dự án A và 3 ngày làm việc với tổ chức B về dự án B.</span><span class="sxs-lookup"><span data-stu-id="58b5a-108">Nancy spent seven business days working with organization A on project A, and three business days working with organization B on project B.</span></span>
+
+<span data-ttu-id="58b5a-109">Bởi vì Nancy đã làm việc cho 2 dự án riêng biệt khi ở Frankfurt, khi cô ấy nhập báo cáo chi phí, Nancy phân bổ các chi phí phù hợp cho từng dự án.</span><span class="sxs-lookup"><span data-stu-id="58b5a-109">Because Nancy worked on two separate projects while was in Frankfurt, when she enters the expense report, Nancy distributes the expenses as appropriate for each project.</span></span> <span data-ttu-id="58b5a-110">Bảng sau đây cho thấy cách Nancy phân bổ chi phí.</span><span class="sxs-lookup"><span data-stu-id="58b5a-110">The following table shows how Nancy distributed the expenses.</span></span>
+
+| <span data-ttu-id="58b5a-111">Loại chi phí</span><span class="sxs-lookup"><span data-stu-id="58b5a-111">Expense type</span></span> | <span data-ttu-id="58b5a-112">Tổng số tiền chi phí</span><span class="sxs-lookup"><span data-stu-id="58b5a-112">Total expense amount</span></span> | <span data-ttu-id="58b5a-113">Số tiền phân bổ cho dự án A</span><span class="sxs-lookup"><span data-stu-id="58b5a-113">Amount distributed to project A</span></span> | <span data-ttu-id="58b5a-114">Số tiền phân bổ cho dự án B</span><span class="sxs-lookup"><span data-stu-id="58b5a-114">Amount distributed to project B</span></span> |
+|--------------|----------------------|---------------------------------|---------------------------------|
+| <span data-ttu-id="58b5a-115">Vé tàu</span><span class="sxs-lookup"><span data-stu-id="58b5a-115">Train fare</span></span>   | <span data-ttu-id="58b5a-116">DKK 578</span><span class="sxs-lookup"><span data-stu-id="58b5a-116">DKK 578</span></span>              | <span data-ttu-id="58b5a-117">DKK 405</span><span class="sxs-lookup"><span data-stu-id="58b5a-117">DKK 405</span></span>                         | <span data-ttu-id="58b5a-118">DKK 173</span><span class="sxs-lookup"><span data-stu-id="58b5a-118">DKK 173</span></span>                         |
+| <span data-ttu-id="58b5a-119">Khách sạn</span><span class="sxs-lookup"><span data-stu-id="58b5a-119">Hotel</span></span>        | <span data-ttu-id="58b5a-120">725 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-120">EUR 725</span></span>              | <span data-ttu-id="58b5a-121">557 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-121">EUR 557</span></span>                         | <span data-ttu-id="58b5a-122">168 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-122">EUR 168</span></span>                         |
+| <span data-ttu-id="58b5a-123">Bữa ăn</span><span class="sxs-lookup"><span data-stu-id="58b5a-123">Meals</span></span>        | <span data-ttu-id="58b5a-124">346 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-124">EUR 346</span></span>              | <span data-ttu-id="58b5a-125">284 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-125">EUR 284</span></span>                         | <span data-ttu-id="58b5a-126">62 EUR</span><span class="sxs-lookup"><span data-stu-id="58b5a-126">EUR 62</span></span>                          |
