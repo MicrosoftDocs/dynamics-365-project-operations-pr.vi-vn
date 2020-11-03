@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086979"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
 
@@ -23,11 +23,11 @@ Môi trường được lưu trữ trên đám mây phải được triển khai
 
 ## <a name="grant-admin-consent"></a>Cấp sự đồng ý của quản trị viên
 
-1. Trong dự án LCS, trong phần **Môi trường**, hãy chọn **cài đặt Microsoft Azure**.
+1. Trong dự án LCS, trong phần **Môi trường** , hãy chọn **cài đặt Microsoft Azure**.
 
 ![Thiết đặt Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Trên trang **Thiết đặt dự án**, trên tab **Trình kết nối Azure**, hãy chọn **Cho phép**. Thao tác này cho phép các môi trường được triển khai cho dự án này.
+2. Trên trang **Thiết đặt dự án** , trên tab **Trình kết nối Azure** , hãy chọn **Cho phép**. Thao tác này cho phép các môi trường được triển khai cho dự án này.
 
 ![Trình kết nối Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ Sự định quyền hiện đã hoàn tất.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Thêm trình kết nối gói đăng ký vào dự án LCS
 
-1. Trong dự án LCS của bạn, trên trang **cài đặt Microsoft Azure**, hãy chọn **Thêm** để thêm một trình kết nối mới.
+1. Trong dự án LCS của bạn, trên trang **cài đặt Microsoft Azure** , hãy chọn **Thêm** để thêm một trình kết nối mới.
 2. Nhập ID đăng ký Azure của bạn. Bạn có thể tìm thấy ID đăng ký Azure của mình trong [Cổng thông tin Azure](https://ms.portal.azure.com/), ở phần  **Cài đặt**  ở phía dưới bên trái của màn hình.
-3. Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager**, hãy chọn **Có**.
+3. Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager** , hãy chọn **Có**.
 4. Đảm bảo Miền của đối tượng thuê AAD đăng ký của Azure khớp với đăng ký Azure sở hữu miền mà bạn đang sử dụng rồi chọn **Tiếp theo**.
-5. Trên màn hình **Thiết lập Microsoft Azure**, hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
+5. Trên màn hình **Thiết lập Microsoft Azure** , hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
 6. Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn, sau đó tải nó lên Cổng thông tin quản lý Azure bằng cách truy cập vào phần **Cài đặt** > **Chứng chỉ quản lý**. Chứng chỉ này sẽ cho phép LCS thay mặt bạn kết nối với Azure. Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.
 7. Chọn  **Tiếp theo**.
 8. Chọn vùng Azure để triển khai và chọn một trung tâm dữ liệu gần nơi bạn định sử dụng hệ thống này.

@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087307"
 ---
 # <a name="sales-processes-overview"></a>Tổng quan về quy trình bán hàng
 
@@ -57,16 +56,16 @@ Ví dụ: công ty của bạn có thể có sáu giai đoạn sau trong quá tr
  
 Tổ chức của bạn có thể sử dụng các thực thể khác nhau để đại diện cho cùng một thỏa thuận khi nó phát triển. Vào đầu quy trình bán hàng, một giao dịch được đại diện bằng thực thể Cơ hội. Theo thời gian và chi tiết ngày một nhiều lên, bạn có thể sử dụng các ước tín cấp cao để tạo một hoặc nhiều báo giá. Nếu một trong những báo giá này được đánh giá bởi bên liên quan nội bộ và khách hàng, thì thực thể Báo giá đại diện cho giao dịch. Sau khi khách hàng chấp nhận báo giá, thì hợp đồng dự án hoặc SOW đại diện cho thỏa thuận này. Để hỗ trợ hành vi này, BPF được cấu trúc để từng giai đoạn trong quá trình được liên kết với một bảng cơ sở dữ liệu khác nhau.
 
-Giai đoạn **Định tính** trong quy trình bán hàng có thể được hỗ trợ bằng một thực thể Cơ hội. Các giai đoạn **Ước tính** và **Đánh giá nội bộ** có thể được hỗ trợ bởi một thực thể Báo giá. Các giai đoạn **Hợp đồng**, **Giao hàng** và **Đóng** có thể được hỗ trợ bởi thực thể Hợp đồng dự án.
+Giai đoạn **Định tính** trong quy trình bán hàng có thể được hỗ trợ bằng một thực thể Cơ hội. Các giai đoạn **Ước tính** và **Đánh giá nội bộ** có thể được hỗ trợ bởi một thực thể Báo giá. Các giai đoạn **Hợp đồng** , **Giao hàng** và **Đóng** có thể được hỗ trợ bởi thực thể Hợp đồng dự án.
 
 Khi bạn di chuyển các giao dịch theo giai đoạn, bạn sẽ được nhắc tạo bản ghi thực thể phù hợp để trợ giúp và hướng dẫn bạn trong suốt quy trình. Các giai đoạn có thể có điều kiện. Ví dụ: nếu bạn yêu cầu một nhận xét nội bộ của báo giá chỉ khi báo giá sử dụng bảng giá tùy chỉnh, thì bạn có thể đặt cấu hình điều kiện đó trong giai đoạn phù hợp của quy trình công việc. Khi đó, giai đoạn **Đánh giá nội bộ** chỉ hiển thị cho những báo giá sử dụng bảng giá tùy chỉnh. Đối với tất cả các thỏa thuận và báo giá khác, sau giai đoạn **Ước tính** là giai đoạn **Hợp đồng**.
 
 > [!NOTE]
-> Project Operations có các trang cụ thể cho các bản ghi thực thể Cơ hội, Báo giá, Đơn hàng và Hóa đơn. Bạn phải tạo các bản ghi này bằng cách sử dụng các trang thông tin dự án cho các thực thể này. Nếu không, bạn sẽ không thể mở các bản ghi từ trang **Thông tin dự án**. Nếu bạn muốn mở một bản ghi từ trang **Thông tin dự án**, bạn phải xóa bản ghi và tạo lại bằng cách sử dụng trang **Thông tin dự án**, sao cho logic kinh doanh cho từng loại thực thể này đảm bảo rằng trường **Kiểu** của bản ghi được đặt đúng và tất cả các khái niệm bắt buộc đều được khởi tạo đúng cách.
+> Project Operations có các trang cụ thể cho các bản ghi thực thể Cơ hội, Báo giá, Đơn hàng và Hóa đơn. Bạn phải tạo các bản ghi này bằng cách sử dụng các trang thông tin dự án cho các thực thể này. Nếu không, bạn sẽ không thể mở các bản ghi từ trang **Thông tin dự án**. Nếu bạn muốn mở một bản ghi từ trang **Thông tin dự án** , bạn phải xóa bản ghi và tạo lại bằng cách sử dụng trang **Thông tin dự án** , sao cho logic kinh doanh cho từng loại thực thể này đảm bảo rằng trường **Kiểu** của bản ghi được đặt đúng và tất cả các khái niệm bắt buộc đều được khởi tạo đúng cách.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Theo dõi các bản sửa đổi đối với báo giá và kế hoạch dự án trong chu kỳ bán hàng
-Trong Project Operations, bạn không thể theo dõi các bản sửa đổi được thực hiện đối với báo giá. Thay vào đó, bạn phải đánh dấu báo giá hiện tại là **Đóng dưới dạng thua**, sau đó tạo báo giá mới. Bạn có thể sao chép một báo giá hoặc nhân bản một báo giá dựa trên dự án.
+Trong Project Operations, bạn không thể theo dõi các bản sửa đổi được thực hiện đối với báo giá. Thay vào đó, bạn phải đánh dấu báo giá hiện tại là **Đóng dưới dạng thua** , sau đó tạo báo giá mới. Bạn có thể sao chép một báo giá hoặc nhân bản một báo giá dựa trên dự án.
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Theo dõi ý kiến và việc phê duyệt báo giá và hợp đồng dự án
 Bạn có thể quản lý việc đánh giá và phê duyệt báo giá cũng như hợp đồng dự án bằng cách sử dụng tường bản ghi và bài đăng. Tổ chức của bạn có thể tạo quy trình làm việc và phần bổ trợ tùy chỉnh để phân công, chuyển hướng, báo cáo và quản lý thông báo về việc đánh giá và phê duyệt các mục công việc.

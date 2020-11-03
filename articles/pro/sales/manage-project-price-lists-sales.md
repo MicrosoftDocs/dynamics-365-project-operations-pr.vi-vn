@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087031"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Quản lý bảng giá dự án trên báo giá dự án (Bán hàng)
 
@@ -48,8 +48,8 @@ Bảng giá dự án có thể được thiết lập mặc định trên báo g
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Thiết lập giá trị mặc định tổ chức cho bảng giá dự án
 
 1. Đi đến **Thiết đặt** > **Tổng quát** > **Tham số**.
-2. Trên trang danh sách **Tham số hiện hoạt**, tìm bản ghi rồi nhấp đúp để mở. 
-3. Trên trang **Tham số**, chọn tab **Bảng giá**. Bạn có thể thấy danh sách các bảng giá mặc định được hiển thị. Đây là danh sách chi phí tiêu chuẩn và bảng giá bán hàng. Việc có một bảng giá bán hàng được liên kết tại đây cho mọi đơn vị tiền tệ mà bạn bán hàng sẽ đảm bảo rằng bảng giá bán hàng này được đặt mặc định trên bất kỳ báo giá nào bạn tạo cho khách hàng giao dịch bằng đơn vị tiền tệ này.
+2. Trên trang danh sách **Tham số hiện hoạt** , tìm bản ghi rồi nhấp đúp để mở. 
+3. Trên trang **Tham số** , chọn tab **Bảng giá**. Bạn có thể thấy danh sách các bảng giá mặc định được hiển thị. Đây là danh sách chi phí tiêu chuẩn và bảng giá bán hàng. Việc có một bảng giá bán hàng được liên kết tại đây cho mọi đơn vị tiền tệ mà bạn bán hàng sẽ đảm bảo rằng bảng giá bán hàng này được đặt mặc định trên bất kỳ báo giá nào bạn tạo cho khách hàng giao dịch bằng đơn vị tiền tệ này.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Thiết lập bảng giá dự án dành riêng cho khách hàng
 
@@ -57,13 +57,13 @@ Bảng giá dự án dành riêng cho khách hàng cũng có thể được thi�
 
 Để thiết lập bảng giá dự án dành riêng cho khách hàng, hãy hoàn thành các bước sau.
 
-1. Trong phần **Bán hàng**, chọn **Khách hàng**.
+1. Trong phần **Bán hàng** , chọn **Khách hàng**.
 2. Trong danh sách các tài khoản hiện hoạt của bạn, hãy chọn và mở bản ghi khách hàng mà bạn có bảng giá đặc biệt.
-3. Trên tab **Bảng giá dự án**, bạn có thể tạo liên kết bảng giá mới để có bảng giá dự án dành riêng cho khách hàng này.
+3. Trên tab **Bảng giá dự án** , bạn có thể tạo liên kết bảng giá mới để có bảng giá dự án dành riêng cho khách hàng này.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Tạo giá tùy chỉnh trên báo giá dự án
 
 Sau khi bạn có bảng giá dự án mặc định cho tổ chức và dành riêng cho khách hàng, báo giá dự án của bạn sẽ tự động được tạo với các liên kết bảng giá dự án này. Tuy nhiên, trong một số trường hợp nhất định, bạn có thể cần tạo giá tùy chỉnh cho báo giá dự án cụ thể. 
 
-1. Trên **Báo giá dự án**, trên tab **Bảng giá dự án**, hãy xác minh trên lưới con là không có bản ghi bảng giá cụ thể nào được chọn.
+1. Trên **Báo giá dự án** , trên tab **Bảng giá dự án** , hãy xác minh trên lưới con là không có bản ghi bảng giá cụ thể nào được chọn.
 2. Chọn **Tạo nội dung định giá tùy chỉnh**. Thao tác này sẽ tạo bản sao của tất cả các bảng giá tiêu chuẩn hiện được liên kết với báo giá và liên kết các bản sao này với báo giá. Các liên kết hiện có với bảng giá tiêu chuẩn sẽ bị loại bỏ. Sau đó, nhân viên bán hàng có thể bắt đầu chỉnh sửa giá trên các bản sao này. Các mức giá thay đổi này sẽ chỉ áp dụng cho báo giá dự án này.

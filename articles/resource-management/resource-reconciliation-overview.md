@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087050"
 ---
 # <a name="resource-reconciliation-overview"></a>Tổng quan về điều hòa nguồn lực
 
@@ -47,7 +46,7 @@ Trong một số trường hợp, khi thấy mức thời gian cao hơn mức ng
 Khi bạn thấy thời gian ở các mức cao hơn, các ô trong tab **Điều hòa** có chỉ báo để báo cho bạn biết rằng có sự khác biệt ở các mức thấp hơn. Bằng cách bấm đúp vào một ô, bạn có thể phóng to để xem sự khác biệt. Sau đó, bạn có thể bấm chuột phải để thu nhỏ. Bằng cách chọn một nguồn lực, sau đó dùng điều khiển **Khác biệt tiếp theo** trên thanh công cụ lưới, bạn có thể chuyển đến khác biệt tiếp theo giữa đăng ký và phân công cho nguồn lực. Sau đó, bạn có thể dùng điều khiển **Khác biệt trước đó** để quay lại. Bạn cũng có thể tắt chỉ báo khác biệt và hành vi điều hướng trong **Cài đặt**.
 
 
-Nếu bạn có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, trên trang **Dự án**, trên tab **Điều hòa**, hãy chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký**. Hộp thoại **Mở rộng đăng ký** xuất hiện và hiển thị đăng ký cần thiết để khắc phục tình trạng thiếu của nguồn lực. Hộp thoại này cũng hiển thị đăng ký hiện có của nguồn lực trên tất cả dự án hoặc các thực thể có thể lập lịch khác. Nếu chọn **OK** để tạo đăng ký cho nguồn lực, bất kể trạng thái rảnh/bận của nguồn lực, bạn có thể gây ra tình trạng đăng ký vượt mức.
+Nếu bạn có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, trên trang **Dự án** , trên tab **Điều hòa** , hãy chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký**. Hộp thoại **Mở rộng đăng ký** xuất hiện và hiển thị đăng ký cần thiết để khắc phục tình trạng thiếu của nguồn lực. Hộp thoại này cũng hiển thị đăng ký hiện có của nguồn lực trên tất cả dự án hoặc các thực thể có thể lập lịch khác. Nếu chọn **OK** để tạo đăng ký cho nguồn lực, bất kể trạng thái rảnh/bận của nguồn lực, bạn có thể gây ra tình trạng đăng ký vượt mức.
 
 Người quản lý dự án hoặc người quản lý nguồn lực có thể dùng Bảng lịch trình để quản lý mọi tình huống nguồn lực bị đăng ký quá mức so với năng lực của họ.
 

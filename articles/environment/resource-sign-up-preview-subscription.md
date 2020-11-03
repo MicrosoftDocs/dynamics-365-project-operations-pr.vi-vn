@@ -3,17 +3,17 @@ title: Đăng ký gói đăng ký xem trước Project Operations cho kịch b�
 description: Chủ đề này cung cấp thông tin về cách đăng ký và triển khai Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086994"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -29,48 +29,53 @@ Chủ đề này giải thích cách đăng ký bản xem trước/ưu đãi c�
 
 ## <a name="subscribe"></a>Đăng ký
 
-Khi nhận được phê duyệt [yêu cầu xem trước](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), bạn sẽ nhận được hai ưu đãi từ Microsoft qua email. Những ưu đãi này cho phép bạn triển khai Bản xem trước của Project Operations:
+Khi nhận được phê duyệt [yêu cầu xem trước](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), bạn sẽ nhận được ba ưu đãi từ Microsoft qua email. Những ưu đãi này cho phép bạn triển khai Bản xem trước của Project Operations:
 
-- Dynamics 365 Project Operations – Bản dùng thử ở dạng xem trước
-- Dynamics 365 for Finance and Operations Bản dùng thử ở dạng xem trước.
+- Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước
+- Office 365 Project Operations – Bản dùng thử ở dạng xem trước
+- Dynamics 365 Finance - Bản dùng thử ở dạng xem trước
 
 > [!IMPORTANT]
 > Chỉ một cá nhân, quản trị viên đối tượng thuê, trong một tổ chức cần thực hiện nhiệm vụ này. Nếu bạn không phải là người đăng ký bản phát hành này, hãy đợi cho đến khi tổ chức của bạn được đăng ký và bạn đã nhận được thông tin xác thực người dùng của mình.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Bản dùng thử ở dạng xem trước
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước 
 
-1. Đổi ưu đãi đầu tiên, **Bản dùng thử Dynamics 365 Project Operations** với URL được cung cấp trong email chào mừng của bạn.
+Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập trên trình duyệt bằng tài khoản cơ quan của người dùng trong đối tượng thuê nơi bạn muốn dùng bản xem trước Project Operations.
 
-![Ưu đãi đầu tiên](./media/1FirstOffer.png)
+1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước** , bằng cách dán mã vào URL trình duyệt.
 
-2. Xác minh rằng bạn đã đăng nhập với tư cách là người dùng thuộc tổ chức sẽ đăng ký dịch vụ.
-3. Tiếp tục đổi ưu đãi. 
-4. Chọn **Có, thêm vào tài khoản của tôi**.
+![Đổi ưu đãi](./media/16RedeemFirstOfferNew.png)
 
-![Đổi ưu đãi](./media/2RedeemFirstOffer.png)
+2. Xác nhận đơn hàng của bạn.
 
-![Xác nhận ưu đãi](./media/3ConfirmFirstOffer.png)
+![Xác nhận đơn hàng](./media/17ConfirmOrderNew.png)
 
-![Đã đổi ưu đãi](./media/4OfferSuccessfulyRedeemed.png)
+Bạn sẽ thấy ưu đãi xác nhận đã được đổi thành công.
+
+![Xác nhận](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Bản dùng thử ở dạng xem trước
+
+Thực hiện các bước tương tự như với mã ưu đãi đầu tiên. Bảo đảm bạn thêm mã ưu đãi thứ hai bằng chính tài khoản người dùng đã dùng với mã ưu đãi đầu tiên.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance bản dùng thử ở dạng xem trước
 
-Lặp lại các bước tương tự với ưu đãi thứ hai từ email Chào mừng.
+Lặp lại các bước tương tự với ưu đãi cuối cùng từ email Chào mừng.
 
 ## <a name="assign-licenses"></a>Gán giấy phép
 
 > [!IMPORTANT]
-> Bạn sẽ cần quyền truy cập quản trị vào Cổng thông tin Office 365 của tổ chức bạn để hoàn thành các bước sau.
+> Bạn sẽ cần quyền truy nhập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
 
 1. Chuyển đến [Trung tâm quản trị Microsoft 365](https://portal.office.com/) để gán giấy phép cho người dùng của bạn.
 
-![Cổng thông tin quản trị Office](./media/5OfficeAdminPortal.png)
+![Trang chủ trung tâm quản trị](./media/14AdminPortal.png)
 
-2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
+2. Trên trang **Người dùng đang hoạt động** , hãy chọn người dùng mà bạn muốn gán giấy phép.
 
-![Gán giấy phép](./media/6AssignLicenses.png)
+![Gán giấy phép](./media/15AssignLicenses.png)
 
-3. Xác minh rằng giấy phép Project Operations đã được chọn và chọn **Lưu thay đổi**. 
+3. Xác minh rằng giấy phép **Bản xem trước Dynamics 365 Project Operations (CRM)** và **Office 365 Project Operations - Bản xem trước** đã được chọn và chọn **Lưu thay đổi**.
 
 > [!NOTE]
 > Ưu đãi dùng thử Finance không cần phải được gán cho người dùng.
@@ -85,9 +90,9 @@ Tạo dự án LCS mới như được mô tả trong chủ đề [Bắt đầu 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Triển khai môi trường demo Finance với Project Operations kịch bản dựa trên nguồn lực/hàng không nhập kho
 
-Làm theo hướng dẫn trong chủ đề [Cung cấp môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước.
+Làm theo hướng dẫn trong chủ đề [Cung cấp môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Cài đặt dữ liệu cấu hình và thiết lập CDS
 
 Cài đặt dữ liệu cấu hình và thiết lập CDS như được mô tả trong chủ đề [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Chỉ hoàn thành bước này sau khi môi trường demo Tài chính được triển khai và dữ liệu demo trong FO đã sẵn sàng.

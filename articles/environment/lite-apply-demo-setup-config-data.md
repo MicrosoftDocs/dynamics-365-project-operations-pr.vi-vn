@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086973"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Áp dụng dữ liệu cấu hình và thiết lập demo để triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
 
@@ -25,7 +25,7 @@ _**Triển khai Lite – từ thỏa thuận đến lập hóa đơn ước giá
 
 ![Di chuyển cấu hình](./media/1ConfigurationMigration.png)
 
-4. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Office 365** làm **Loại triển khai**.
+4. Trên trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
 5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
 6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn, sau đó chọn **Đăng nhập**.
 

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898692"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087334"
 ---
 # <a name="project-price-lists"></a>Bảng giá dự án
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations mở rộng thực thể Bảng giá trong Dynam
 
 Bảng giá bao gồm thông tin được cung cấp bởi bốn thực thể khác nhau:
 
-- **Bảng giá**: Thực thể này lưu trữ thông tin về ngữ cảnh, tiền tệ, ngày hiệu lực và đơn vị thời gian cho thời gian áp dụng giá. Ngữ cảnh cho biết liệu bảng giá hiển thị chi phí hay giá bán hàng. 
-- **Tiền tệ**: Thực thể này lưu trữ tiền tệ của giá trên bảng giá. 
-- **Ngày**: Thực thể này được sử dụng khi hệ thống cố gắng nhập một giá mặc định trên một giao dịch. Bảng giá có ngày hiệu lực bao gồm cả ngày giao dịch được chọn. Nếu tìm thấy từ hai bảng giá trở lên có hiệu quả cho ngày giao dịch và đính kèm báo giá, hợp đồng hoặc đơn vị tổ chức liên quan thì không có giá nào là mặc định. 
-- **Thời gian**: Thực thể này lưu trữ đơn vị thời gian mà giá thể hiện, chẳng hạn như mức giá hàng ngày hoặc theo giờ. 
+- **Bảng giá** : Thực thể này lưu trữ thông tin về ngữ cảnh, tiền tệ, ngày hiệu lực và đơn vị thời gian cho thời gian áp dụng giá. Ngữ cảnh cho biết liệu bảng giá hiển thị chi phí hay giá bán hàng. 
+- **Tiền tệ** : Thực thể này lưu trữ tiền tệ của giá trên bảng giá. 
+- **Ngày** : Thực thể này được sử dụng khi hệ thống cố gắng nhập một giá mặc định trên một giao dịch. Bảng giá có ngày hiệu lực bao gồm cả ngày giao dịch được chọn. Nếu tìm thấy từ hai bảng giá trở lên có hiệu quả cho ngày giao dịch và đính kèm báo giá, hợp đồng hoặc đơn vị tổ chức liên quan thì không có giá nào là mặc định. 
+- **Thời gian** : Thực thể này lưu trữ đơn vị thời gian mà giá thể hiện, chẳng hạn như mức giá hàng ngày hoặc theo giờ. 
 
 Thực thể bảng giá có ba bảng liên quan nhằm lưu trữ giá:
 
-  - **Giá theo vai trò**: Bảng này lưu trữ một mức giá cho sự kết hợp giữa các giá trị vai trò và đơn vị tổ chức, được dùng để thiết lập giá dựa trên vai trò cho nguồn nhân lực.
-  - **Giá theo loại giao dịch**: Bảng này lưu trữ giá theo loại giao dịch và được sử dụng để thiết lập giá theo loại chi phí.
-  - **Hạng mục trong bảng giá**: Bảng này lưu trữ giá cho sản phẩm theo danh mục.
+  - **Giá theo vai trò** : Bảng này lưu trữ một mức giá cho sự kết hợp giữa các giá trị vai trò và đơn vị tổ chức, được dùng để thiết lập giá dựa trên vai trò cho nguồn nhân lực.
+  - **Giá theo loại giao dịch** : Bảng này lưu trữ giá theo loại giao dịch và được sử dụng để thiết lập giá theo loại chi phí.
+  - **Hạng mục trong bảng giá** : Bảng này lưu trữ giá cho sản phẩm theo danh mục.
  
 Bảng giá là là một bảng giá. Bảng giá là sự kết hợp của thực thể Bảng giá và các hàng liên quan trong bảng giá theo vai trò, giá theo loại giao dịch và hạng mục trong bảng giá.
 
@@ -60,9 +59,9 @@ Nhóm đơn vị **Thời gian** được tạo khi bạn cài đặt Project Op
 
 Chi phí đi lại và chi phí khác mà tư vấn viên dự án phải chịu được tính cho khách hàng. Tính giá của các loại chi phí được hoàn tất bằng cách sử dụng danh sách giá. Vé máy bay, khách sạn và thuê xe là ví dụ về các loại chi phí. Mỗi dòng trong bảng giá cho các chi phí xác định giá cho một loại chi phí cụ thể. Ba phương pháp sau được sử dụng để định giá các loại chi phí:
 
-- **Theo chi phí**: Chi phí được tính cho khách hàng và không áp dụng mức tăng chi phí.
-- **Tỷ lệ phần trăm tăng**: Tỷ lệ phần trăm trên chi phí thực tế được lập hóa đơn cho khách hàng. 
-- **Giá mỗi đơn vị**: Giá thanh toán được đặt cho từng đơn vị của loại chi phí. Số tiền được lập hóa đơn cho khách hàng được tính toán dựa trên lượng đơn vị chi phí mà các tư vấn viên báo cáo. Số dặm sử dụng phương pháp giá mỗi đơn vị. Ví dụ: danh mục chi phí số dặm có thể được cấu hình là 30 đô la Mỹ (USD) mỗi ngày hoặc 2 USD mỗi dặm. Khi một tư vấn viên báo cáo số dặm trên một dự án, thì số tiền lập hóa đơn được tính toán dựa trên số dặm mà các tư vấn viên đã báo cáo.
+- **Theo chi phí** : Chi phí được tính cho khách hàng và không áp dụng mức tăng chi phí.
+- **Tỷ lệ phần trăm tăng** : Tỷ lệ phần trăm trên chi phí thực tế được lập hóa đơn cho khách hàng. 
+- **Giá mỗi đơn vị** : Giá thanh toán được đặt cho từng đơn vị của loại chi phí. Số tiền được lập hóa đơn cho khách hàng được tính toán dựa trên lượng đơn vị chi phí mà các tư vấn viên báo cáo. Số dặm sử dụng phương pháp giá mỗi đơn vị. Ví dụ: danh mục chi phí số dặm có thể được cấu hình là 30 đô la Mỹ (USD) mỗi ngày hoặc 2 USD mỗi dặm. Khi một tư vấn viên báo cáo số dặm trên một dự án, thì số tiền lập hóa đơn được tính toán dựa trên số dặm mà các tư vấn viên đã báo cáo.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Giá bán theo dự án và thay thế
 
@@ -104,7 +103,7 @@ Bạn có thể tạo thay thế giá theo thỏa thuận cho giá được ch�
 
 Theo mặc định, hợp đồng dự án luôn có một bản sao của bảng giá bán hàng chính thay vì một liên kết trực tiếp đến nó. Hành vi này giúp đảm bảo rằng thỏa thuận giá thực hiện với khách hàng cho một bảng kê công việc (SOW) không thay đổi nếu bảng giá chính thay đổi.
 
-Tuy nhiên, trên báo giá, bạn có thể sử dụng một bảng giá chính. Ngoài ra, bạn có thể sao chép một bảng giá chính và chỉnh sửa nó để tạo một bảng giá tùy chỉnh chỉ áp dụng cho báo giá đó. Để tạo một bảng giá mới dành riêng cho báo giá, trên trang báo **Báo giá**, hãy chọn **Tạo giá tùy chỉnh**. Bạn có thể truy cập danh sách giá dự án dành riêng cho thỏa thuận chỉ từ báo giá. 
+Tuy nhiên, trên báo giá, bạn có thể sử dụng một bảng giá chính. Ngoài ra, bạn có thể sao chép một bảng giá chính và chỉnh sửa nó để tạo một bảng giá tùy chỉnh chỉ áp dụng cho báo giá đó. Để tạo một bảng giá mới dành riêng cho báo giá, trên trang báo **Báo giá** , hãy chọn **Tạo giá tùy chỉnh**. Bạn có thể truy cập danh sách giá dự án dành riêng cho thỏa thuận chỉ từ báo giá. 
 
 Khi bạn tạo một bảng giá dự án tùy chỉnh, chỉ các thành phần dự án của bảng giá được sao chép. Nói cách khác, một bảng giá mới được tạo ra như một bản sao của bảng giá dự án hiện có đính kèm báo giá và bảng giá mới này chỉ có giá liên quan đến vai trò và giá theo loại giao dịch.
   

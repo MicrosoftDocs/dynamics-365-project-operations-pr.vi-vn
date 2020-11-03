@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086999"
 ---
 # <a name="project-team-members"></a>Thành viên nhóm dự án
 
@@ -47,16 +47,16 @@ Bảng sau liệt kê các thuộc tính chính của một thành viên nhóm d
 
 Từ lưới thành viên nhóm, có thể thực hiện các hành động sau:
 
-- **Đặt trước**: Đối với các tổ chức tận dụng phương pháp đặt trước kết hợp, hành động đặt trước sẽ cho phép người dùng đặt trước một nguồn lực có tên dựa trên các yêu cầu bắt buộc được tạo ra từ thành viên nhóm chung
-- **Tạo yêu cầu**: Hành động này tạo ra yêu cầu.
-- **Chỉ định quy luật**: Cho phép người quản lý dự án điều chỉnh các đường cong về yêu cầu ở cấp độ chi tiết. Người quản lý dự án có thể điều chỉnh các nhu cầu cụ thể của dự án trong trường hợp cách phân phối mặc định không phù hợp.
-- **Gửi yêu cầu**: Đối với các tổ chức sử dụng phương pháp đặt trước trung tâm.
-- **Chỉnh sửa**: Có thể chỉnh sửa các thuộc tính của thành viên nhóm, bao gồm đơn vị tổ chức, vai trò và tên vị trí.
-- **Duy trì mục đặt trước**: Khi các mục đặt trước nguồn lực cần cập nhật, việc duy trì mục đặt trước sẽ cho phép Người quản lý dự án điều chỉnh:
+- **Đặt trước** : Đối với các tổ chức tận dụng phương pháp đặt trước kết hợp, hành động đặt trước sẽ cho phép người dùng đặt trước một nguồn lực có tên dựa trên các yêu cầu bắt buộc được tạo ra từ thành viên nhóm chung
+- **Tạo yêu cầu** : Hành động này tạo ra yêu cầu.
+- **Chỉ định quy luật** : Cho phép người quản lý dự án điều chỉnh các đường cong về yêu cầu ở cấp độ chi tiết. Người quản lý dự án có thể điều chỉnh các nhu cầu cụ thể của dự án trong trường hợp cách phân phối mặc định không phù hợp.
+- **Gửi yêu cầu** : Đối với các tổ chức sử dụng phương pháp đặt trước trung tâm.
+- **Chỉnh sửa** : Có thể chỉnh sửa các thuộc tính của thành viên nhóm, bao gồm đơn vị tổ chức, vai trò và tên vị trí.
+- **Duy trì mục đặt trước** : Khi các mục đặt trước nguồn lực cần cập nhật, việc duy trì mục đặt trước sẽ cho phép Người quản lý dự án điều chỉnh:
 
     - Bắt đầu
     - Cuối
     - Phân bổ tổng mức nhân công
 
-- **Mới**: Ngoài việc thêm nguồn lực trực tiếp từ lịch, Người quản lý dự án có thể thêm các thành viên nhóm mới có tên hoặc chung từ lưới thành viên nhóm.
-- **Xóa**: Bằng cách chọn một hoặc nhiều thành viên nhóm, Người quản lý dự án có thể xóa các nguồn lực không tham gia vào dự án nữa. Việc xóa một thành viên nhóm cũng sẽ xóa tất cả các mục phân công nguồn lực được liên kết và hủy tất cả các mục đặt trước hiện có.
+- **Mới** : Ngoài việc thêm nguồn lực trực tiếp từ lịch, Người quản lý dự án có thể thêm các thành viên nhóm mới có tên hoặc chung từ lưới thành viên nhóm.
+- **Xóa** : Bằng cách chọn một hoặc nhiều thành viên nhóm, Người quản lý dự án có thể xóa các nguồn lực không tham gia vào dự án nữa. Việc xóa một thành viên nhóm cũng sẽ xóa tất cả các mục phân công nguồn lực được liên kết và hủy tất cả các mục đặt trước hiện có.

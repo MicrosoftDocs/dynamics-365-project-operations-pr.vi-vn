@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087038"
 ---
 # <a name="project-based-quote-lines-pro"></a>Mô tả báo giá dựa trên dự án (Dự án)
 
@@ -49,13 +49,13 @@ Bảng sau cung cấp thông tin về các trường trên tab **Tổng quát** 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Quy tắc xác thực cho các trường trên tab Tổng quát của các mô tả báo giá dựa trên dự án
 
-**Quy tắc 1**: Nếu trường **Các tác vụ được đưa vào** bị trống hoặc nếu nó được đặt thành **Tất cả các tác vụ dự án**, một dự án sẽ được bao gồm trong mô tả báo giá.
+**Quy tắc 1** : Nếu trường **Các tác vụ được đưa vào** bị trống hoặc nếu nó được đặt thành **Tất cả các tác vụ dự án** , một dự án sẽ được bao gồm trong mô tả báo giá.
 
-**Quy tắc 2**: Nếu trường **Các tác vụ được đưa vào** bị trống hoặc nếu nó được đặt thành **Tất cả các tác vụ dự án**, một dự án và một lớp giao dịch nhất định chỉ có thể được đưa vào một mô tả báo giá dựa trên dự án của báo giá.
+**Quy tắc 2** : Nếu trường **Các tác vụ được đưa vào** bị trống hoặc nếu nó được đặt thành **Tất cả các tác vụ dự án** , một dự án và một lớp giao dịch nhất định chỉ có thể được đưa vào một mô tả báo giá dựa trên dự án của báo giá.
 
-**Quy tắc 3**: Nếu trường **Các tác vụ được đưa vào** được đặt thành **Chỉ các tác vụ dự án đã chọn**, một dự án và một lớp giao dịch nhất định có thể được đưa vào nhiều mô tả báo giá dựa trên dự án của báo giá.
+**Quy tắc 3** : Nếu trường **Các tác vụ được đưa vào** được đặt thành **Chỉ các tác vụ dự án đã chọn** , một dự án và một lớp giao dịch nhất định có thể được đưa vào nhiều mô tả báo giá dựa trên dự án của báo giá.
 
-**Quy tắc 4**: Nếu một cơ hội có nhiều báo giá, có thể có các mô tả báo giá từ các báo giá khác nhau mà đều tham chiếu đến cùng một dự án và bao gồm cùng một lớp giao dịch.
+**Quy tắc 4** : Nếu một cơ hội có nhiều báo giá, có thể có các mô tả báo giá từ các báo giá khác nhau mà đều tham chiếu đến cùng một dự án và bao gồm cùng một lớp giao dịch.
 
 **Quy tắc 5** : Nếu các báo giá không thuộc cùng một cơ hội, chúng không thể bao gồm cùng một dự án và lớp giao dịch.
 

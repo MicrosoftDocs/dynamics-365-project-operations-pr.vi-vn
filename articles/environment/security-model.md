@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086993"
 ---
 # <a name="security-model"></a>Mô hình bảo mật
 
@@ -36,10 +36,11 @@ Các khả năng ngoại vi của Project Operations bao gồm các vai trò sau
 
 
 Microsoft Project cho Web bao gồm các vai trò sau:
-| Vai trò                          | Nội dung mô tả                                                                                                          | Phạm vi |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Người dùng dự án | Người dùng cộng tác của Dự án có thể tạo dự án của riêng họ và xem bất kỳ dự án nào được chia sẻ với họ.| Người dùng|
-| Hệ thống dự án | Vai trò được sử dụng cho ngữ cảnh ứng dụng. Khách hàng không nên sử dụng vai trò hệ thống này. | Toàn bộ|
+
+| Vai trò           | Nội dung mô tả                                                                                                        | Phạm vi  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Người dùng dự án   | Người dùng cộng tác của Dự án có thể tạo dự án của riêng họ và xem bất kỳ dự án nào được chia sẻ với họ. | Người dùng   |
+| Hệ thống dự án | Vai trò được sử dụng cho ngữ cảnh ứng dụng. Khách hàng không nên sử dụng vai trò hệ thống này.                                    | Toàn bộ |
 
 ## <a name="security-enforcement"></a>Thực thi bảo mật
 Các hành động được thực hiện ở cấp độ dự án được thực hiện trong ngữ cảnh của người dùng đã đăng nhập. Điều này có nghĩa là để tạo, mở hoặc xóa một dự án, người dùng bắt buộc phải có quyền truy cập trong CDS. Quyền truy cập trong CDS có thể được cấp thông qua bất kỳ cơ chế nào có thể có trong nền tảng. Ví dụ: người dùng có phạm vi lớn hơn có thể truy cập dự án hoặc nếu hành động chia sẻ dự án rõ ràng đã được thực hiện để cấp quyền truy cập cho người dùng.
@@ -55,7 +56,9 @@ Groups cho phép các quyền của dự án và các tạo tác hỗ trợ cộ
 
 Project Operations không tạo ra một nhóm thông qua hành động ngầm và chỉ thực hiện thông qua hành động rõ ràng của các nhóm thúc ép.
 
-Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Tìm kiếm thành viên nhóm trong **Quản lý nhóm** , được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Chế độ nhóm](./media/groupsmode.png)
 
 1. Dự án được tạo và do thuộc sở hữu của Người dùng tạo.
 2. Chủ dự án được cập nhật vào nhóm.

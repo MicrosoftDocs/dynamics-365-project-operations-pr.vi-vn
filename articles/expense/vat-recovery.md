@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086976"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Thu hồi thuế GTGT trong quản lý chi phí
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Để nhận được tiền hoàn lại cho các giao dịch đủ điều kiện về thuế giá trị gia tăng (VAT), công ty hoặc tổ chức phải xác định, thu thập, xác minh và gửi thông tin chính xác. Quá trình này bao gồm nhiều nhiệm vụ và có thể bao gồm một số nhân viên hoặc vai trò (tùy thuộc vào quy mô công ty của bạn).
 
-Để thu hồi VAT trong mô-đun **Quản lý chi tiêu**, bạn phải hoàn thành các điều kiện tiên quyết sau:
+Để thu hồi VAT trong mô-đun **Quản lý chi tiêu** , bạn phải hoàn thành các điều kiện tiên quyết sau:
 
 - Mã số thuế phải được tạo cho quốc gia/khu vực được phân bổ cho các loại chi phí.
 - Một nhóm thuế bán hàng phải được tạo cho mỗi mã số thuế.

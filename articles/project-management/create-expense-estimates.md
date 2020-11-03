@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087030"
 ---
 # <a name="expense-estimates"></a>Ước tính chi phí
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
@@ -32,9 +32,9 @@ Hoàn thành các bước sau để xem, thêm hoặc xóa chi phí dự án.
 
 Các thuộc tính sau được xác định cho từng mục chi phí:
 
-- **Thể loại**: Các nhóm chung được sử dụng để mô tả tất cả các chi phí phát sinh trên một dự án.
-- **Ngày bắt đầu**: Ngày dự báo chi phí sẽ phát sinh.
-- **Số lượng**: Số lượng mục chi phí ước tính cho một danh mục cụ thể.
-- **Giá vốn đơn vị**: Đơn giá dùng để tính toán chi phí.
-- **Giá bán hàng đơn vị**: Đơn giá dùng để tính toán giá bán hàng của chi phí.
+- **Thể loại** : Các nhóm chung được sử dụng để mô tả tất cả các chi phí phát sinh trên một dự án.
+- **Ngày bắt đầu** : Ngày dự báo chi phí sẽ phát sinh.
+- **Số lượng** : Số lượng mục chi phí ước tính cho một danh mục cụ thể.
+- **Giá vốn đơn vị** : Đơn giá dùng để tính toán chi phí.
+- **Giá bán hàng đơn vị** : Đơn giá dùng để tính toán giá bán hàng của chi phí.
 

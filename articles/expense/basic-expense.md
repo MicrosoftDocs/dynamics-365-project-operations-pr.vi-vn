@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086992"
 ---
 # <a name="expense-entry-lite"></a>Mục nhập chi phí (bản đơn giản)
 
@@ -28,7 +28,7 @@ Quản lý chi phí cơ bản hay đơn giản là khả năng ghi lại các kh
 Bạn có thể ghi lại chi phí của mình để gửi cho người phê duyệt.
 
 1. Đi đến **Chi phí** và chọn **Mới**.
-2. Trên trang **Chi phí mới**, nhập thông tin chi phí bắt buộc, sau đó chọn **Lưu**.
+2. Trên trang **Chi phí mới** , nhập thông tin chi phí bắt buộc, sau đó chọn **Lưu**.
 
 ## <a name="submit-a-basic-expense"></a>Gửi chi phí cơ bản
 
@@ -41,7 +41,7 @@ Sau khi hoàn tất việc ghi lại tất cả chi phí và sẵn sàng gửi �
 
 Khi gửi nhầm một khoản chi phí, bạn có thể thu hồi khoản chi phí đó. Thời gian cần thiết để thu hồi một mục nhập chi phí phụ thuộc vào giai đoạn phê duyệt của nó.  Nếu người phê duyệt chưa chấp thuận mục nhập, việc thu hồi có thể xảy ra ngay lập tức. Tuy nhiên, nếu mục nhập đã được phê duyệt, người phê duyệt được yêu cầu phê duyệt việc thu hồi và đảo ngược các giao dịch.
 
-1. Đi đến **Chi phí**, sau đó, trong danh sách chi phí, hãy chọn chi phí cần thu hồi.
+1. Đi đến **Chi phí** , sau đó, trong danh sách chi phí, hãy chọn chi phí cần thu hồi.
 2. Chọn **Thu hồi**. Nếu mục nhập chi phí chưa được duyệt, hệ thống sẽ thu hồi ngay lập tức. Nếu mục nhập chi phí đã được phê duyệt, một yêu cầu thu hồi sẽ được tạo để thông báo cho người phê duyệt rằng bạn muốn đảo ngược chi phí. Khi đó, người phê duyệt sẽ xác nhận rằng việc đảo ngược có thể được thực hiện và mục nhập sẽ được trả lại.
 
 ## <a name="delete-a-basic-expense"></a>Xóa chi phí cơ bản

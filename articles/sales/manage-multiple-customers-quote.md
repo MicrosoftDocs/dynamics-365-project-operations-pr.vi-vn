@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086962"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Quản lý nhiều khách hàng trên báo giá dự án
 
@@ -29,7 +29,7 @@ Khách hàng báo giá và khách hàng mô tả báo giá có thể được th
 
 Khách hàng được liệt kê trên tab **Tóm tắt** của báo giá dự án như khách hàng tiềm năng là khách hàng chính của báo giá. Nếu bạn cố gắng xóa khách hàng chính khỏi danh sách khách hàng trên báo giá, bạn sẽ nhận được lỗi rằng không thể xóa bản ghi khách hàng chính trên báo giá.
 
-Không được cập nhật khách hàng chính từ danh sách khách hàng trên báo giá. Tuy nhiên, bạn có thể tác động đến khách hàng chính bằng cách thay đổi khách hàng tiềm năng trên tab **Tóm tắt** của báo giá. Khi trường này được cập nhật trên **Tóm tắt báo giá**, khách hàng tiềm năng mới được chọn sẽ được thêm làm khách hàng báo giá mới và đặt sẵn cờ **Chính**. Khách hàng tiềm năng cũ sẽ vẫn là khách hàng trên báo giá.
+Không được cập nhật khách hàng chính từ danh sách khách hàng trên báo giá. Tuy nhiên, bạn có thể tác động đến khách hàng chính bằng cách thay đổi khách hàng tiềm năng trên tab **Tóm tắt** của báo giá. Khi trường này được cập nhật trên **Tóm tắt báo giá** , khách hàng tiềm năng mới được chọn sẽ được thêm làm khách hàng báo giá mới và đặt sẵn cờ **Chính**. Khách hàng tiềm năng cũ sẽ vẫn là khách hàng trên báo giá.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Tạo, cập nhật hoặc xóa bản ghi khách hàng báo giá
 

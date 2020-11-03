@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087075"
 ---
 # <a name="review-proposed-resources"></a>Đánh giá nguồn lực được đề xuất
 
@@ -32,11 +31,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Người quản lý nguồn lực có thể đề xuất nguồn lực với người quản lý dự án bằng yêu cầu nguồn lực.
 
 1. Từ lưới yêu cầu hoặc tự yêu cầu, hãy chọn **Tìm nguồn lực**.
-2. Trên trang **Trợ lý lập lịch biểu**, hãy chọn nguồn lực, sau đó trong ngăn **Tạo đăng ký nguồn lực**, trong trường **Trạng thái đăng ký**, hãy chọn **Đăng ký**.
+2. Trên trang **Trợ lý lập lịch biểu** , hãy chọn nguồn lực, sau đó trong ngăn **Tạo đăng ký nguồn lực** , trong trường **Trạng thái đăng ký** , hãy chọn **Đăng ký**.
 
 Các bản cập nhật trạng thái sau xảy ra:
 
-- Trên trang **Trợ lý lập lịch biểu**, chỉ báo trạng thái được cập nhật để biểu thị đăng ký được đề xuất và không được đăng ký chắc chắn.
+- Trên trang **Trợ lý lập lịch biểu** , chỉ báo trạng thái được cập nhật để biểu thị đăng ký được đề xuất và không được đăng ký chắc chắn.
 - Trên yêu cầu nguồn lực, trạng thái này được thay đổi thành **Cần đánh giá**.
 - Trên tab **Nhóm** của dự án này, giá trị **Trạng thái yêu cầu** của thành viên nhóm chung được thay đổi thành **Cần đánh giá**.
 
@@ -72,9 +71,9 @@ Vì dạng xem **Thời gian làm việc của nguồn lực** dựa trên Bản
 
 Lưới yêu cầu rằng bạn đặt thời gian làm việc mục tiêu trên vai trò hoặc nguồn lực riêng. Để thực hiện thiết lập này, hãy chuyển đến **Nguồn lực** \> **Vai trò nguồn lực**.
 
-Ngoài ra, vai trò mặc định phải được gán cho từng nguồn lực có thể đăng ký. Truy cập vào **Nguồn lực** \> **Nguồn lực**. Trên tab **Project Service**, hãy xác minh vai trò nguồn lực được định nghĩa và trường **Là mặc định** cho vai trò được đặt thành **Có**. Bạn có thể thêm các vai trò bổ sung mà **Là mặc định = Không**. Vai trò mà **Là mặc định = Có** dùng để đánh giá thời gian làm việc của nguồn lực so với mục tiêu cho vai trò đó.
+Ngoài ra, vai trò mặc định phải được gán cho từng nguồn lực có thể đăng ký. Truy cập vào **Nguồn lực** \> **Nguồn lực**. Trên tab **Project Service** , hãy xác minh vai trò nguồn lực được định nghĩa và trường **Là mặc định** cho vai trò được đặt thành **Có**. Bạn có thể thêm các vai trò bổ sung mà **Là mặc định = Không**. Vai trò mà **Là mặc định = Có** dùng để đánh giá thời gian làm việc của nguồn lực so với mục tiêu cho vai trò đó.
 
-Trên tab **Project Service**, bạn cũng có thể đặt thời gian làm việc mục tiêu riêng cho nguồn lực. Sau đó, phép tính thời gian làm việc dùng thời gian làm việc mục tiêu đó để đánh giá mục tiêu của nguồn lực thay vì mục tiêu của vai trò mặc định của nguồn lực.
+Trên tab **Project Service** , bạn cũng có thể đặt thời gian làm việc mục tiêu riêng cho nguồn lực. Sau đó, phép tính thời gian làm việc dùng thời gian làm việc mục tiêu đó để đánh giá mục tiêu của nguồn lực thay vì mục tiêu của vai trò mặc định của nguồn lực.
 
 Thời gian làm việc hiển thị cho nguồn lực chỉ khi nguồn lực được phê duyệt, thời gian tính phí trong khoảng thời gian hiển thị trong lưới.
 

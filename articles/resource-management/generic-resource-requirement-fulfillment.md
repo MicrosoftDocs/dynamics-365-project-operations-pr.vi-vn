@@ -1,29 +1,19 @@
 ---
 title: Đáp ứng các yêu về nguồn lực chung
-description: Chủ đề này cung cấp thông tin về đặt lịch nguồn lực có tên cho một yêu cầu nguồn lực chung.
+description: Chủ đề này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho một yêu cầu nguồn lực chung.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087053"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Đáp ứng các yêu về nguồn lực chung
 
@@ -31,9 +21,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể đặt một nguồn lực được đặt tên để thay thế nguồn lực chung có yêu cầu nguồn lực.
 
-1. Trên trang **Dự án**, chọn tab **Nhóm**.
+1. Trên trang **Dự án** , chọn tab **Nhóm**.
 2. Chọn nguồn lực chung có yêu cầu nguồn lực từ danh sách, sau đó chọn **Đặt lịch**. Hoặc mở yêu cầu nguồn lực rồi nhấp chọn **Đặt lịch**.
-3. Trên trang **Trợ lý lịch trình**, chọn nguồn lực có tên để đặt trước vào nhóm dự án của bạn rồi chọn **Đặt lịch**.
+3. Trên trang **Trợ lý lịch trình** , chọn nguồn lực có tên để đặt trước vào nhóm dự án của bạn rồi chọn **Đặt lịch**.
 
 Khi đặt lịch xong và được thực hiện bởi một nguồn lực có tên, thì nguồn lực chung được thay thế bằng nguồn lực có tên đó.
 

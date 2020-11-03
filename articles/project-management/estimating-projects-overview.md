@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086997"
 ---
 # <a name="estimate-projects-overview"></a>Tổng quan về ước tính dự án
 
@@ -71,11 +71,11 @@ Sử dụng bảng sau đây làm hướng dẫn để hiểu rõ logic công vi
 Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá và muốn hệ thống nhập giá trị của trường dưới dạng một giá trị mặc định trên dòng chi phí liên quan mà nó tạo ra, hãy sử dụng công cụ đăng ký phần bổ trợ **PreOperationContractLineDetailUpdate** và **PreOperationQuoteLineDetailUpdate**. Phải đăng ký lại các phần bổ trợ này sau khi thay đổi chi tiết dòng báo giá hoặc chi tiết dòng hợp đồng. Làm theo các bước sau đây để hoàn thành quy trình.
 
 1. Mở PluginRegistrationTool và kết nối với phiên bản trực tuyến của bạn.
-2. Chọn **Tìm kiếm**, và tìm kiếm phần bổ trợ để cập nhật.
+2. Chọn **Tìm kiếm** , và tìm kiếm phần bổ trợ để cập nhật.
 3. Chọn phần bổ trợ, sau đó, trên trang chính, nhấp vào **Chọn**.
 4. Chọn bước trong phần bổ trợ để cập nhật, nhấp chuột phải, sau đó chọn **Cập nhật**.
-5. Trong hộp thoại **Cập nhật bước hiện tại**, trong trường **Lọc thuộc tính**, chọn nút dấu chấm lửng (**...**):
-6. Trong hộp thoại **Chọn thuộc tính**, chọn các hộp kiểm cho thuộc tính tùy chỉnh.
+5. Trong hộp thoại **Cập nhật bước hiện tại** , trong trường **Lọc thuộc tính** , chọn nút dấu chấm lửng ( **...** ):
+6. Trong hộp thoại **Chọn thuộc tính** , chọn các hộp kiểm cho thuộc tính tùy chỉnh.
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng **PluginRegistrationTool**.

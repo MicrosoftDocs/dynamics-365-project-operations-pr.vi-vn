@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086981"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service for Project Operations
 
@@ -27,7 +27,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ![Di chuyển cấu hình](./media/1ConfigurationMigration.png)
 
-4. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Office 365** làm **Loại triển khai**.
+4. Trên trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
 5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
 6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn rồi chọn **Đăng nhập**.
 
@@ -79,11 +79,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ![Nguồn lực có thể đăng ký trước](./media/8BookableResources.png)
 
-3. Trên tab **Tổng quát**, hãy chọn người dùng là quản trị viên của bạn. Xác minh rằng múi giờ khớp với múi giờ bạn đang ở. 
+3. Trên tab **Tổng quát** , hãy chọn người dùng là quản trị viên của bạn. Xác minh rằng múi giờ khớp với múi giờ bạn đang ở. 
 
 ![Nguồn lực mới có thể đăng ký trước](./media/9NewBookableResource.png)
 
-4. Trên tab **Lên lịch**, trong trường **Công ty**, hãy chọn công ty **USPM** rồi chọn **Lưu**. 
+4. Trên tab **Lên lịch** , trong trường **Công ty** , hãy chọn công ty **USPM** rồi chọn **Lưu**. 
 
 ![Tab Lên lịch](./media/10SchedulingTab.png)
 
@@ -114,8 +114,8 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
  
 12. Cập nhật các trường sau:
 
- - **Công ty mặc định**: USPM
- - **Đơn vị tổ chức mặc định**: Contoso Robotics Global
+ - **Công ty mặc định** : USPM
+ - **Đơn vị tổ chức mặc định** : Contoso Robotics Global
  - **Tần suất hóa đơn** : Ngày thứ bảy và ngày cuối cùng
  - **Mẫu giờ làm việc** : Thay đổi mẫu bạn đã tạo.
 

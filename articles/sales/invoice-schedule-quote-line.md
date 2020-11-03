@@ -1,5 +1,5 @@
 ---
-title: lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
+title: Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
 description: Chủ đề này cung cấp thông tin về việc tạo lịch trình hóa đơn và các mốc quan trọng cho mô tả báo giá.
 author: rumant
 manager: Annbe
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087041"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
 
@@ -28,11 +28,11 @@ Nhìn chung, mục đích của lịch trình hóa đơn là cho phép tự đ�
 Khi phương thức thanh toán cho mô tả báo giá dựa trên dự án là thời gian và vật tư, hệ thống sẽ tạo lịch trình hóa đơn dựa trên ngày. Để tự động tạo lịch trình hóa đơn dựa trên ngày, hãy hoàn thành các bước sau.
 
 1. Đi đến **Thiết đặt** > **tần suất hóa đơn** và thiết lập tần suất hóa đơn.
-2. Trên trang **Báo giá**, mở báo giá Dự án và trên trang **Tóm tắt**, đặt ngày giao hàng được yêu cầu.
+2. Trên trang **Báo giá** , mở báo giá Dự án và trên trang **Tóm tắt** , đặt ngày giao hàng được yêu cầu.
 3. Mở mô tả báo giá thời gian và vật tư mà bạn cần để tạo lịch trình hóa đơn dựa trên ngày. 
-4. Trên tab **Lịch trình hóa đơn**, chọn các giá trị trong trường **Bắt đầu thanh toán** và **Tần suất hóa đơn**. 
+4. Trên tab **Lịch trình hóa đơn** , chọn các giá trị trong trường **Bắt đầu thanh toán** và **Tần suất hóa đơn**. 
 5. Trên lưới con, hãy chọn **Tạo lịch trình hóa đơn**.
-6. Ứng dụng tạo lịch trình hóa đơn với các trường **Ngày chạy hóa đơn**, **Ngày kết thúc giao dịch** và **Trạng thái chạy** được đặt theo cách sau:
+6. Ứng dụng tạo lịch trình hóa đơn với các trường **Ngày chạy hóa đơn** , **Ngày kết thúc giao dịch** và **Trạng thái chạy** được đặt theo cách sau:
 
     - **Ngày chạy hóa đơn** được đặt thành ngày được đọc dựa trên tần suất hóa đơn.
     - **Ngày kết thúc giao dịch** được đặt thành ngày trước **Ngày chạy hóa đơn**.
@@ -40,12 +40,12 @@ Khi phương thức thanh toán cho mô tả báo giá dựa trên dự án là 
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Tạo lịch trình hóa đơn giá cố định cho mô tả báo giá dựa trên dự án
 
-Khi mô tả báo giá dựa trên dự án có phương thức thanh toán **Cố định**, hệ thống sẽ tạo lịch trình hóa đơn dựa trên mốc thời gian. Hoàn thành các bước sau để tự động tạo lịch trình này cho một tập hợp các mốc thời gian cố định được phân bổ đều cho khoảng thời gian theo lịch.
+Khi mô tả báo giá dựa trên dự án có phương thức thanh toán **Cố định** , hệ thống sẽ tạo lịch trình hóa đơn dựa trên mốc thời gian. Hoàn thành các bước sau để tự động tạo lịch trình này cho một tập hợp các mốc thời gian cố định được phân bổ đều cho khoảng thời gian theo lịch.
 
 1. Đi đến **Thiết đặt** > **tần suất hóa đơn** và thiết lập tần suất hóa đơn.
-2. Trên trang **Báo giá**, mở báo giá Dự án và trên trang **Tóm tắt**, đặt ngày giao hàng được yêu cầu.
+2. Trên trang **Báo giá** , mở báo giá Dự án và trên trang **Tóm tắt** , đặt ngày giao hàng được yêu cầu.
 3. Mở mô tả báo giá cố định mà bạn cần tạo một lịch trình mốc thời gian. 
-4. Trên tab **Lịch trình hóa đơn**, chọn các giá trị trong trường **Bắt đầu thanh toán** và **Tần suất hóa đơn**. 
+4. Trên tab **Lịch trình hóa đơn** , chọn các giá trị trong trường **Bắt đầu thanh toán** và **Tần suất hóa đơn**. 
 5. Trên lưới con, hãy chọn **Tạo mốc thời gian định kỳ**.
 6. Ứng dụng tạo lịch trình hóa đơn với tên mốc thời gian, ngày tháng và số tiền.
 

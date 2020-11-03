@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087109"
 ---
 # <a name="manage-delegation"></a>Quản lý việc ủy nhiệm
 Người đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác.
@@ -30,7 +29,7 @@ Người đại diện chi phí có thể tạo và quản lý các báo cáo ch
 
 Để thiết lập người dùng làm người đại diện chi phí, hãy hoàn thành các bước sau. 
 1. Chuyển đến **Quản lý chi phí** > **Thiết lập** > **Chung** > **Đại diện**. 
-2. Trên trang **Người đại diện**, hãy chọn **Mới** rồi chọn nhân viên sẽ được xác định là người đại diện. 
+2. Trên trang **Người đại diện** , hãy chọn **Mới** rồi chọn nhân viên sẽ được xác định là người đại diện. 
 3. Nhập bí danh của người dùng đại diện, ngày bắt đầu và ngày kết thúc cho khoảng thời gian đại diện.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Quản lý chi phí thay cho một nhân viên khác

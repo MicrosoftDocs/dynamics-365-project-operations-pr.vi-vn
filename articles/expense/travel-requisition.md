@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086977"
 ---
 # <a name="travel-requisitions"></a>Tiêu chuẩn đi lại
 
@@ -33,7 +33,7 @@ Tiêu chuẩn đi lại có thể được đặt cấu hình là "bắt buộc"
 
 1. Chuyển đến **Chi phí của tôi: Tiêu chuẩn đi lại** rồi chọn **Tiêu chuẩn đi lại mới**.
 2. Nhập mục đích và điểm đến cho tiêu chuẩn.
-3. Trong trường **Mô tả đi lại**, hãy nhập mọi thông tin bổ sung. 
+3. Trong trường **Mô tả đi lại** , hãy nhập mọi thông tin bổ sung. 
 4. Đối với mỗi chi phí dự kiến, chẳng hạn như Chuyến bay, bữa ăn hoặc thuê xe hơi, hãy tạo một mục mô tả chi phí, bao gồm ngày dự tính, số tiền ước tính và đơn vị tiền tệ cho mỗi khoản chi phí. 
 5. Khi bạn đã hoàn tất việc thêm các chi phí dự kiến, hãy chọn **Lưu**.
 6. Khi bạn đã sẵn sàng gửi tiêu chuẩn đi lại, hãy chọn **Quy trình công việc** > **Gửi**.

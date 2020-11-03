@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087000"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Ánh xạ dự án và tác vụ với mô tả báo giá dựa trên dự án
 
@@ -42,13 +42,13 @@ Bạn có thể liên kết các tác vụ với các mô tả báo giá từ c�
 Trang **Dự án** cung cấp trải nghiệm tối ưu cho việc liên kết các tác vụ với mô tả báo giá. Bạn có thể sử dụng trang này để chọn nhiều tác vụ và liên kết tất cả các tác vụ đó, cộng với các tác vụ con của chúng, với mô tả báo giá đã chọn.
 
 1. Trên tab **Tổng quát** của mô tả báo giá dựa trên dự án, hãy xác minh là trường **Dự án** đã được điền vào.
-2. Trong trường **Các tác vụ được đưa vào**, chọn **Chỉ các tác vụ được chọn**.
+2. Trong trường **Các tác vụ được đưa vào** , chọn **Chỉ các tác vụ được chọn**.
 3. Lưu mô tả báo giá dựa trên dự án. Khi biểu mẫu làm mới, tab **Tác vụ có thể tính phí** sẽ hiển thị.
-4. Trên tab **Tổng quát**, chọn liên kết cho dự án từ trường **Dự án**.
-5. Trên trang **Dự án**, chọn tab **Thanh toán theo tác vụ**.
+4. Trên tab **Tổng quát** , chọn liên kết cho dự án từ trường **Dự án**.
+5. Trên trang **Dự án** , chọn tab **Thanh toán theo tác vụ**.
 6. Trong lưới thứ hai, áp dụng cho thiết lập thanh toán theo tác vụ cụ thể, hãy chọn một hoặc nhiều tác vụ rồi chọn **Liên kết các mô tả báo giá**.
 7. Trong trang hộp thoại xuất hiện, hãy chọn một mô tả báo giá hiển thị các mô tả báo giá dựa trên dự án trên báo giá.
-8. Trong trường **Loại thanh toán**, cho biết những tác vụ này có thể tính phí hay không.
+8. Trong trường **Loại thanh toán** , cho biết những tác vụ này có thể tính phí hay không.
 9. Chọn hộp kiểm để cho biết liệu liên kết có nên bao gồm tác vụ con của các tác vụ đã chọn hay không. Chọn hộp sẽ liên kết các tác vụ con của các tác vụ đã chọn với mô tả báo giá.
 10. Chọn **OK** để đóng hộp thoại.
 
@@ -57,13 +57,13 @@ Trang **Dự án** cung cấp trải nghiệm tối ưu cho việc liên kết c
 Bạn có thể liên kết các tác vụ dự án với mô tả báo giá từ tab **Tác vụ có thể tính phí** trên trang **Mô tả báo giá**.
 
 >[!NOTE]
->Nơi tối ưu để liên kết tác vụ dự án vào mô tả báo giá là trên tab **Thanh toán theo tác vụ** trên trang **Dự án**. Nếu bạn liên kết các tác vụ từ tab **Tác vụ có thể tính phí** trên trang **Mô tả báo giá**, bạn phải liên kết từng dự án theo cách thủ công.
+>Nơi tối ưu để liên kết tác vụ dự án vào mô tả báo giá là trên tab **Thanh toán theo tác vụ** trên trang **Dự án**. Nếu bạn liên kết các tác vụ từ tab **Tác vụ có thể tính phí** trên trang **Mô tả báo giá** , bạn phải liên kết từng dự án theo cách thủ công.
 
 1. Trên tab **Tổng quát** của mô tả báo giá dựa trên dự án, hãy xác minh là có dự án được chọn trong trường **Dự án**.
-2. Trong trường **Các tác vụ được đưa vào**, chọn **Chỉ các tác vụ được chọn**.
+2. Trong trường **Các tác vụ được đưa vào** , chọn **Chỉ các tác vụ được chọn**.
 3. Lưu mô tả báo giá dựa trên dự án. Khi biểu mẫu làm mới, tab **Tác vụ có thể tính phí** sẽ hiển thị.
-4. Trên tab **Tác vụ có thể tính phí**, chọn **Thêm tác vụ mô tả báo giá**.
-5. Trên trang **Tác vụ mô tả báo giá**, trong trường **Tác vụ**, chọn tác vụ và trong trường **Loại thanh toán**, chọn **Lưu**. 
+4. Trên tab **Tác vụ có thể tính phí** , chọn **Thêm tác vụ mô tả báo giá**.
+5. Trên trang **Tác vụ mô tả báo giá** , trong trường **Tác vụ** , chọn tác vụ và trong trường **Loại thanh toán** , chọn **Lưu**. 
 6. Đóng trang. Tác vụ vụ đã chọn bây giờ được liên kết với mô tả báo giá.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Dừng liên kết tác vụ với mô tả báo giá dựa trên dự án
@@ -72,8 +72,8 @@ Bạn có thể liên kết các tác vụ dự án với mô tả báo giá t�
 
 Phương thức này cung cấp trải nghiệm tối ưu nhất cho việc dừng liên kết tác vụ với mô tả báo giá. Bạn có thể chọn nhiều tác vụ và dừng liên kết tất cả các tác vụ đó và tác vụ con của chúng với mô tả báo giá đã chọn.
 
-1. Trên tab **Tổng quát** của mô tả báo giá dựa trên dự án, trong trường **Dự án**, chọn liên kết dự án.
-2. Trên trang **Dự án**, chọn tab **Thanh toán theo tác vụ**.
+1. Trên tab **Tổng quát** của mô tả báo giá dựa trên dự án, trong trường **Dự án** , chọn liên kết dự án.
+2. Trên trang **Dự án** , chọn tab **Thanh toán theo tác vụ**.
 3. Trong lưới thứ hai, áp dụng cho thiết lập thanh toán theo tác vụ cụ thể, hãy chọn một hoặc nhiều tác vụ rồi chọn **Dừng liên kết các mô tả báo giá**.
 4. Trong trang hộp thoại xuất hiện, hãy chọn một mô tả báo giá.
 5. Chọn hộp kiểm để cho biết liệu có nên loại bỏ cả liên kết khỏi các tác vụ con của tác vụ đã chọn không. Việc chọn hộp cũng sẽ dừng liên kết tác vụ con của các tác vụ đã chọn với mô tả báo giá.
@@ -84,7 +84,7 @@ Phương thức này cung cấp trải nghiệm tối ưu nhất cho việc dừ
 
 Bạn cũng có thể dừng liên kết tác vụ dự án với mô tả báo giá từ tab **Tác vụ có thể tính phí** trên trang **Mô tả báo giá**.
 
-1. Trên tab **Tác vụ có thể tính phí**, chọn **Xóa tác vụ mô tả báo giá**.
+1. Trên tab **Tác vụ có thể tính phí** , chọn **Xóa tác vụ mô tả báo giá**.
 2. Chọn **OK**. Một cảnh báo cho bạn biết rằng nếu bạn loại bỏ liên kết này, bất kỳ giá trị thực tế nào được ghi trước đó về tác vụ có thể bị đảo ngược. 
 3. Chọn **OK** để tiếp tục và loại bỏ liên kết giữa tác vụ và mô tả báo giá dựa trên dự án.
 

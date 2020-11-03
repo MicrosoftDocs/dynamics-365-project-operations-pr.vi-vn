@@ -3,23 +3,23 @@ title: Sao chép dự án
 description: Chủ đề này cung cấp thông tin về cách sao chép dự án trong Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087049"
 ---
 # <a name="copy-a-project"></a>Sao chép dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Với Dynamics 365 Project Operations, bạn có thể nhanh chóng xây dựng các dự án mới bằng cách sử dụng thao tác **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy chọn một dự án, sau đó chọn **Sao chép**. Hành động sẽ sao chép:
+Với Dynamics 365 Project Operations, bạn có thể nhanh chóng xây dựng các dự án mới bằng cách chọn **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy mở dự án mà bạn muốn sao chép, rồi chọn **Sao chép dự án**. Hành động sẽ sao chép:
 
 - Thuộc tính dự án
 - Cấu trúc phân tích công việc
@@ -58,4 +58,6 @@ Khi một nhóm dự án được sao chép từ dự án nguồn, các tài ngu
 
 ## <a name="estimates"></a>Ước tính
 
-Khi dự án được sao chép, cả dòng ước tính nguồn lực và chi phí đều được sao chép từ dự án nguồn.
+Khi dự án được sao chép, cả dòng ước tính nguồn lực và chi phí đều được sao chép từ dự án nguồn. 
+
+Để biết thông tin về cách truy nhập Sao chép dự án theo lập trình, hãy xem [Phát triển các mẫu dự án với Sao chép dự án](dev-copy-project.md).

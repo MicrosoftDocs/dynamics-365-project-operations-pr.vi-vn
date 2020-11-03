@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897072"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087110"
 ---
 # <a name="expense-using-mobile"></a>Tính chi phí qua điện thoại di động
 
@@ -106,13 +105,13 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 3. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
 4. Làm theo một trong các bước sau:
 
-   - Nếu bạn đã chọn **Chụp ảnh**, hãy làm theo các bước sau:
+   - Nếu bạn đã chọn **Chụp ảnh** , hãy làm theo các bước sau:
 
       1. Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai. 
       2. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
       3. Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.
 
-    - Nếu bạn đã chọn **Chọn hình ảnh**, hãy làm theo các bước sau:
+    - Nếu bạn đã chọn **Chọn hình ảnh** , hãy làm theo các bước sau:
 
         1. Chọn một hình ảnh trong danh sách.
         2. Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.
@@ -132,7 +131,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 9. Làm theo một trong các bước sau:
 
     - Nếu bạn đã chọn **Chụp ảnh** thì bạn được đưa đến máy ảnh trên thiết bị di động để bạn có thể chụp ảnh biên lai. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
-    - Nếu bạn đã chọn **Chọn hình ảnh**, hãy chọn một hình ảnh trong danh sách.
+    - Nếu bạn đã chọn **Chọn hình ảnh** , hãy chọn một hình ảnh trong danh sách.
 
 10. Chọn **Xong**.
 
@@ -145,7 +144,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
     
 3. Chọn một báo cáo chi phí để xem chi tiết chi phí của báo cáo.
 4. Chọn một chi phí để xem chi tiết. Thông tin được hiển thị cho một chi phí bao gồm bất kỳ chi tiết về biên lai, khách hàng và từng khoản.
-5. Quay lại trang **Báo cáo chi phí**, chọn để phê duyệt hoặc từ chối báo cáo chi phí.
+5. Quay lại trang **Báo cáo chi phí** , chọn để phê duyệt hoặc từ chối báo cáo chi phí.
 6. Nhập bất kỳ nhận xét nào cho hành động phê duyệt.
 7. Chọn **Xong**.
 
@@ -177,12 +176,12 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
             1. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
             2. Làm theo một trong các bước sau:
 
-                - Nếu bạn đã chọn **Chụp ảnh**, hãy làm theo các bước sau:
+                - Nếu bạn đã chọn **Chụp ảnh** , hãy làm theo các bước sau:
 
                     1. Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
                     2. Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.
 
-                - Nếu bạn đã chọn **Chọn hình ảnh**, hãy làm theo các bước sau:
+                - Nếu bạn đã chọn **Chọn hình ảnh** , hãy làm theo các bước sau:
 
                     1. Chọn một hình ảnh trong danh sách.
                     2. Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.
@@ -198,10 +197,10 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 
 18. Nếu chính sách của công ty yêu cầu khách hàng sở hữu chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:
 
-    1. Chọn **Khách hàng**, **Khách hàng trước đây**, hoặc **Đồng nghiệp**.
+    1. Chọn **Khách hàng** , **Khách hàng trước đây** , hoặc **Đồng nghiệp**.
     2. Làm theo một trong các bước sau:
 
-        - Nếu bạn đã chọn **Khách hàng**, hãy làm theo các bước sau:
+        - Nếu bạn đã chọn **Khách hàng** , hãy làm theo các bước sau:
 
             1. Nhập tên của khách hàng.
             2. Tùy chọn: Nhập tổ chức và / hoặc quốc gia của khách.
@@ -213,7 +212,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
             1. Chọn một hoặc nhiều khách hàng trước đây trong danh sách. Bạn sẽ thấy danh sách những khách trước đây mà bạn đã thêm vào báo cáo chi phí trước đó đã được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu khách hàng trước đây của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tổ chức, quốc gia hoặc chức vụ.
             2. Chọn **Xong**.
 
-        - Nếu bạn đã chọn **Đồng nghiệp**, hãy làm theo các bước sau:
+        - Nếu bạn đã chọn **Đồng nghiệp** , hãy làm theo các bước sau:
 
             1. Chọn một hoặc nhiều đồng nghiệp trong danh sách. Bạn nhìn thấy danh sách đồng nghiệp được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu đồng nghiệp của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo công ty hoặc chức vụ.
             2. Chọn **Xong**.

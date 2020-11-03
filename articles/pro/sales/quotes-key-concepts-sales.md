@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087032"
 ---
 # <a name="project-quote-key-concepts"></a>Khái niệm chính về báo giá của dự án
 
@@ -40,7 +40,7 @@ Không giống như chi phí, giá trị bán hàng chỉ có thể được ghi
 
 ## <a name="billing-method"></a>Phương thức thanh toán
 
-Các dự án thường có phí cố định và mô hình hợp đồng dựa trên mức sử dụng. Điều này được thể hiện trong Project Operations như**Phương thức thanh toán** và có hai giá trị: thời gian và vật tư, giá cố định.
+Các dự án thường có phí cố định và mô hình hợp đồng dựa trên mức sử dụng. Điều này được thể hiện trong Project Operations như **Phương thức thanh toán** và có hai giá trị: thời gian và vật tư, giá cố định.
 
 - **Thời gian và vật tư:** Đây là mô hình hợp đồng dựa trên mức sử dụng mà mỗi chi phí phát sinh được hỗ trợ bằng doanh thu tương ứng. Khi bạn ước tính hoặc phát sinh thêm chi phí, doanh số ước tính và thực tế tương ứng cũng sẽ tăng lên. Bạn có thể chỉ định giới hạn không vượt quá trên các mô tả báo giá có phương thức thanh toán này. Điều này sẽ giới hạn doanh thu thực tế. Doanh thu ước tính không bị ảnh hưởng bởi các giới hạn không vượt quá.
 - **Giá cố định:** Đây là một mô hình hợp đồng có phí cố định cho biết giá trị bán hàng sẽ độc lập với chi phí phát sinh. Giá trị bán hàng là cố định và không thay đổi khi bạn ước tính hoặc phát sinh thêm chi phí.
@@ -78,7 +78,7 @@ Thỏa thuận nhiều khách hàng xảy ra khi có nhiều hơn một khách h
 
 ## <a name="invoice-schedules"></a>Lịch trình hóa đơn
 
-Lịch trình hóa đơn dành riêng cho từng mô tả báo giá và không bắt buộc. Lịch trình hóa đơn được tạo dựa trên ngày bắt đầu và ngày kết thúc nhất định và tần suất lập hóa đơn. Lịch trình hóa đơn được sử dụng trong giai đoạn hợp đồng khi quy trình tạo hóa đơn tự động được đặt cấu hình. Trong giai đoạn báo giá, lịch trình là không bắt buộc. Khi lịch trình hóa đơn được tạo ở giai đoạn **Báo giá**, chúng được sao chép vào hợp đồng dự án tạo khi báo giá dự án được chốt.
+Lịch trình hóa đơn dành riêng cho từng mô tả báo giá và không bắt buộc. Lịch trình hóa đơn được tạo dựa trên ngày bắt đầu và ngày kết thúc nhất định và tần suất lập hóa đơn. Lịch trình hóa đơn được sử dụng trong giai đoạn hợp đồng khi quy trình tạo hóa đơn tự động được đặt cấu hình. Trong giai đoạn báo giá, lịch trình là không bắt buộc. Khi lịch trình hóa đơn được tạo ở giai đoạn **Báo giá** , chúng được sao chép vào hợp đồng dự án tạo khi báo giá dự án được chốt.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Những thay đổi từ báo giá Dynamics 365 Sales:
 

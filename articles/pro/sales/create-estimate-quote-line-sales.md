@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087012"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Ước tính mô tả báo giá dựa trên dự án
 
@@ -30,7 +30,7 @@ Mô tả báo giá dựa trên dự án có thông tin chi tiết giúp ước t
 
 Để tạo ước tính trên mô tả báo giá dựa trên dự án, hãy chọn tab **Chi tiết mô tả báo giá**. Mục hàng mà bạn tạo trên tab này sẽ tóm tắt giá trị được báo giá cho mô tả báo giá này. 
 
-Để tạo chi tiết mô tả báo giá, hãy chọn **+ Chi tiết mô tả báo giá mới** trên lưới con **Chi tiết mô tả báo giá**. Thanh trượt tạo nhanh sẽ mở ra. Các trường sau trên biểu mẫu **Mô tả báo giá**:
+Để tạo chi tiết mô tả báo giá, hãy chọn **+ Chi tiết mô tả báo giá mới** trên lưới con **Chi tiết mô tả báo giá**. Thanh trượt tạo nhanh sẽ mở ra. Các trường sau trên biểu mẫu **Mô tả báo giá** :
 
 | **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Mô tả báo giá dựa trên dự án có thông tin chi tiết giúp ước t
 
 ## <a name="update-prices-on-quote-line-details"></a>Cập nhật giá trên chi tiết mô tả báo giá
 
-Nếu bạn đã thay đổi giá trên bảng giá dự án đính kèm với báo giá, hoặc trên bảng giá chi phí của đơn vị ký hợp đồng, bạn có thể chọn **Tính toán lại** trên trang **Báo giá** để làm mới giá trên các chi tiết mô tả báo giá riêng lẻ để phản ánh thay đổi này. Khi bạn chọn **Tính toán lại**, một cảnh báo xuất hiện thông báo cho bạn rằng giá trên chi tiết mô tả báo giá cho tất cả các mô tả báo giá trên bảng báo giá này sẽ được đặt lại. Chọn **Có** để làm mới giá cho cả chi tiết mô tả báo giá bán hàng và chi phí.
+Nếu bạn đã thay đổi giá trên bảng giá dự án đính kèm với báo giá, hoặc trên bảng giá chi phí của đơn vị ký hợp đồng, bạn có thể chọn **Tính toán lại** trên trang **Báo giá** để làm mới giá trên các chi tiết mô tả báo giá riêng lẻ để phản ánh thay đổi này. Khi bạn chọn **Tính toán lại** , một cảnh báo xuất hiện thông báo cho bạn rằng giá trên chi tiết mô tả báo giá cho tất cả các mô tả báo giá trên bảng báo giá này sẽ được đặt lại. Chọn **Có** để làm mới giá cho cả chi tiết mô tả báo giá bán hàng và chi phí.
 
 ## <a name="access-quote-line-details-for-cost"></a>Truy cập chi tiết mô tả báo giá để biết chi phí
 
-Trên tab **Chi tiết mô tả báo giá**, chọn một hàng trong lưới để kích hoạt một số hành động trên thanh công cụ của lưới con. Hành động đầu tiên trên thanh công cụ lưới con khi chi tiết mô tả báo giá được chọn là **Mở chi tiết chi phí**. Chọn **Mở chi tiết chi phí** để xem tỷ lệ chi phí liên quan và số tiền cho mô tả báo giá này.
+Trên tab **Chi tiết mô tả báo giá** , chọn một hàng trong lưới để kích hoạt một số hành động trên thanh công cụ của lưới con. Hành động đầu tiên trên thanh công cụ lưới con khi chi tiết mô tả báo giá được chọn là **Mở chi tiết chi phí**. Chọn **Mở chi tiết chi phí** để xem tỷ lệ chi phí liên quan và số tiền cho mô tả báo giá này.
 
 > [!NOTE]
 > Việc thay đổi giá trị đơn vị cung ứng, số lượng, ngày tháng, vai trò hoặc danh mục trên chi tiết mô tả báo giá cho chi phí sẽ thay đổi các giá trị tương ứng trên chi tiết mô tả báo giá cho bán hàng.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896352"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087037"
 ---
 # <a name="manage-leads-pro"></a>Quản lý khách hàng tiềm năng (Dự án)
 
@@ -23,7 +23,7 @@ Các khách hàng tiềm năng dựa trên dự án có thể được quản l�
 
 ## <a name="list-of-project-sales-leads"></a>Danh sách mối khách hàng dự án
 
-Trong phần **Bán hàng**, trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
+Trong phần **Bán hàng** , trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
 
 Bạn có thể tạo chế độ đã lọc để chỉ xem các khách hàng tiềm năng dựa trên dự án bằng cách tạo bộ lọc trên giá trị **Loại**. Ví dụ: bạn có thể chọn chỉ hiển thị khách hàng tiềm năng dựa trên công việc.
 

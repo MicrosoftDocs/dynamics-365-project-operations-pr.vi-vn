@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086974"
 ---
 # <a name="maintain-team-members"></a>Duy trì thành viên nhóm
 
@@ -21,14 +21,14 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể thêm nguồn lực được đặt tên vào nhóm dự án của mình bằng cách đặt lịch trực tiếp họ vào nhóm.
 
-1. Trong Dynamics 365 Project Operations, chuyển đến **Dự án**, sau đó chọn mở dự án mà bạn đặt lịch.
-2. Trên trang **Dự án**, trên tab **Nhóm**, hãy chọn **Mới**. 
-3. Trong hộp thoại **Tạo nhanh thành viên nhóm dự án**, chọn nguồn lực có thể đặt lịch. Trường **Vai trò** sẽ điền bằng vai trò mặc định của nguồn lực nếu họ được chỉ định. Bạn có thể thay đổi vai trò này. 
+1. Trong Dynamics 365 Project Operations, chuyển đến **Dự án** , sau đó chọn mở dự án mà bạn đặt lịch.
+2. Trên trang **Dự án** , trên tab **Nhóm** , hãy chọn **Mới**. 
+3. Trong hộp thoại **Tạo nhanh thành viên nhóm dự án** , chọn nguồn lực có thể đặt lịch. Trường **Vai trò** sẽ điền bằng vai trò mặc định của nguồn lực nếu họ được chỉ định. Bạn có thể thay đổi vai trò này. 
 4. Chọn ngày bắt đầu và kết thúc mà nguồn lực sẽ cần và chọn phương pháp phân bổ năng lực của nguồn lực. 
 5. Nếu bạn muốn thành viên nhóm là người phê duyệt dự án, hãy chọn **Có** trong trường **Người phê duyệt dự án**. Thành viên nhóm có thể phê duyệt các mục nhập thời gian và chi phí đã gửi cho dự án này. 
 6. Chọn **Lưu**.
 
-Bây giờ bạn có thể gán nguồn lực đã đặt cho các nhiệm vụ dự án. Trên trang **Dự án**, trên tab **Lên lịch**, hãy gán nhiệm vụ cho nguồn lực mới. Bộ chọn nguồn lực được khởi chạy từ trường **Nguồn lực** trong lưới nhiệm vụ sẽ hiển thị các thành viên nhóm mà bạn có thể chọn.
+Bây giờ bạn có thể gán nguồn lực đã đặt cho các nhiệm vụ dự án. Trên trang **Dự án** , trên tab **Lên lịch** , hãy gán nhiệm vụ cho nguồn lực mới. Bộ chọn nguồn lực được khởi chạy từ trường **Nguồn lực** trong lưới nhiệm vụ sẽ hiển thị các thành viên nhóm mà bạn có thể chọn.
 
 
 Trong Project Operations, việc đăng ký nguồn lực và gán nhiệm vụ không kết hợp chặt chẽ với nhau. Khi bạn sử dụng bộ chọn nguồn lực trong lịch trình, bạn có thể gán nhiệm vụ cho các thành viên trong nhóm trong nhiều giờ hơn so với đặt lịch của họ trên dự án.

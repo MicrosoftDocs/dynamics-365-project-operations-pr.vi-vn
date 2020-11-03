@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896262"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087034"
 ---
 # <a name="product-based-opportunity-lines"></a>Mô tả cơ hội dựa trên sản phẩm
 
@@ -25,4 +25,4 @@ Mô tả dựa trên sản phẩm có thể là các mục trong danh mục ho�
 
 Một khái niệm về mô tả cơ hội dựa trên sản phẩm cụ thể cho các cơ hội dựa trên dự án là **Ngân sách khách hàng**. Sử dụng trường này để theo dõi số tiền khách hàng sẵn sàng trả cho mục mô tả.
 
-Nếu phương pháp doanh thu của tóm tắt Cơ hội được đặt thành **Hệ thống tính toán**, các giá trị ngân sách khách hàng trên mô tả dựa trên sản phẩm và dựa trên dự án được tóm tắt để tính doanh thu ước tính.
+Nếu phương pháp doanh thu của tóm tắt Cơ hội được đặt thành **Hệ thống tính toán** , các giá trị ngân sách khách hàng trên mô tả dựa trên sản phẩm và dựa trên dự án được tóm tắt để tính doanh thu ước tính.

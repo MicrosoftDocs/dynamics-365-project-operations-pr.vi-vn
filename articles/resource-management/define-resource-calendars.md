@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086956"
 ---
 # <a name="define-resource-calendars"></a>Xác định lịch nguồn lực
 
@@ -26,9 +26,9 @@ Mỗi nguồn lực có thể đặt trước làm việc trong một dự án p
 
 ## <a name="define-a-resources-working-hours"></a>Xác định giờ làm việc của nguồn lực
 
-1. Trên menu **Nguồn lực**, hãy chọn **Nguồn lực**.
+1. Trên menu **Nguồn lực** , hãy chọn **Nguồn lực**.
 2. Từ dạng xem lưới, hãy chọn **Nguồn lực có thể đặt trước**.
-3. Trê trang **Chi tiết nguồn lực**, chọn tab **Giờ làm việc**. Theo mặc định, lịch của nguồn lực có thể đặt chỗ mặc định theo giờ làm việc của mẫu giờ làm việc mặc định được xác định cho tổ chức.
+3. Trê trang **Chi tiết nguồn lực** , chọn tab **Giờ làm việc**. Theo mặc định, lịch của nguồn lực có thể đặt chỗ mặc định theo giờ làm việc của mẫu giờ làm việc mặc định được xác định cho tổ chức.
 4. Để cập nhật giờ làm việc, hãy nhấp chuột phải vào ngày bắt đầu của quy tắc lịch được đề xuất sẽ được xác định. Sử dụng menu quy tắc lịch để xác định quy tắc lịch cho một ngày cụ thể, phần còn lại của chuỗi hoặc toàn bộ lịch.
 5. Sau khi chọn tùy chọn này, bạn có thể xác định:
 
@@ -39,7 +39,7 @@ Mỗi nguồn lực có thể đặt trước làm việc trong một dự án p
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Áp dụng mẫu lịch cho nguồn lực
 
-1. Trên menu **Nguồn lực**, hãy chọn **Nguồn lực**.
+1. Trên menu **Nguồn lực** , hãy chọn **Nguồn lực**.
 2. Từ dạng xem lưới, hãy chọn tối đa 25 **Nguồn lực có thể đặt trước** để cập nhật.
 3. Chọn **Đặt lịch** và một hộp thoại sẽ nhắc bạn với danh sách các mẫu giờ làm việc có sẵn.
 4. Chọn mẫu mà bạn muốn dùng, sau đó chọn **Áp dụng**.

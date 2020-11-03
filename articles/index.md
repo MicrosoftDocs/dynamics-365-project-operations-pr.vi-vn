@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087077"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -33,7 +32,7 @@ Microsoft Dynamics 365 Project Operations kết nối các nhóm bán hàng, ngu
 -   **Bán hàng được kích hoạt** để giành được nhiều giao dịch hơn và đẩy nhanh chu kỳ bán hàng với báo giá nhanh và chính xác, định giá linh hoạt và chuyển đổi liền mạch từ ước tính sang thực hiện.
 -   **Nguồn lực được thiết lập để tối ưu hóa** việc sử dụng nguồn lực bằng cách sắp xếp đúng người, đúng kỹ năng, vào đúng dự án. Điều này cải thiện chất lượng và giúp giữ chân những nhân viên hiệu suất nhất.
 -   **Người quản lý dự án có thể tăng tốc** phân phối dự án với tính năng quản lý dự án tích hợp, hiện đại sử dụng các tính năng quen thuộc, dễ sử dụng của Microsoft Project.
--   **Các thành viên trong nhóm có thể cải thiện năng suất**, cộng tác và khả năng hiển thị tích hợp với Microsoft Teams và gửi thời gian và chi phí từ mọi nơi.
+-   **Các thành viên trong nhóm có thể cải thiện năng suất** , cộng tác và khả năng hiển thị tích hợp với Microsoft Teams và gửi thời gian và chi phí từ mọi nơi.
 -   **Tài chính có thể đơn giản hóa kế toán dự án** với quản trị theo dõi thời gian và chi phí, chi phí dự án, lập ngân sách, lập hóa đơn, ghi nhận doanh thu, tuân thủ và khả năng hiển thị các chỉ số tình trạng kinh doanh chính.
 
 Project Operations có bản chất mạnh mẽ, nhưng có thể được mở rộng bởi những khách hàng yêu cầu các khả năng bổ sung từ Dynamics 365. Điều này bao gồm Tiếp thị, Nhân sự, dịch vụ khách hàng, v.v. Cho dù bạn muốn chức năng bổ sung của một ứng dụng Dynamics 365 khác hoặc thêm vào một ứng dụng tùy chỉnh được xây dựng bằng Power Apps, mọi thứ hoạt động cùng nhau và hoạt động như bạn mong đợi vì chúng chia sẻ nền tảng chung của giải pháp phân phối trên đám mây an toàn, riêng tư và tuân thủ.

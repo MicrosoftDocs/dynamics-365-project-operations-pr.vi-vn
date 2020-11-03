@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087136"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Tạo giá trị ước tính trên một dòng báo giá
 
@@ -81,11 +80,11 @@ Sử dụng bảng sau đây làm hướng dẫn để hiểu rõ logic công vi
 Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá và muốn hệ thống nhập giá trị của trường dưới dạng một giá trị mặc định trên dòng chi phí liên quan mà nó tạo ra, hãy sử dụng công cụ đăng ký phần bổ trợ PreOperationContractLineDetailUpdate và PreOperationQuoteLineDetailUpdate. Phải đăng ký lại các phần bổ trợ này sau khi thay đổi chi tiết dòng báo giá hoặc chi tiết dòng hợp đồng. Làm theo các bước sau đây để hoàn thành quy trình.
 
 1. Mở PluginRegistrationTool và kết nối với phiên bản trực tuyến của bạn.
-2. Chọn **Tìm kiếm**, và tìm kiếm phần bổ trợ để cập nhật.
+2. Chọn **Tìm kiếm** , và tìm kiếm phần bổ trợ để cập nhật.
 3. Chọn phần bổ trợ, sau đó, trên trang chính, chọn **Chọn**.
 4. Chọn bước trong phần bổ trợ để cập nhật, nhấp chuột phải, sau đó chọn **Cập nhật**.
-5. Trong hộp thoại **Cập nhật bước hiện tại**, trong trường **Lọc thuộc tính**, chọn nút dấu chấm lửng (**...**):
-6. Trong hộp thoại **Chọn thuộc tính**, chọn các hộp kiểm cho thuộc tính tùy chỉnh.
+5. Trong hộp thoại **Cập nhật bước hiện tại** , trong trường **Lọc thuộc tính** , chọn nút dấu chấm lửng ( **...** ):
+6. Trong hộp thoại **Chọn thuộc tính** , chọn các hộp kiểm cho thuộc tính tùy chỉnh.
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng PluginRegistrationTool.

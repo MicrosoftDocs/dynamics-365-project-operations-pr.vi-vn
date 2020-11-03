@@ -8,22 +8,23 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949145"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096648"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu demo của Project Operations cho môi trường Finance được lưu trữ trên đám mây
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
->[Quan trọng] Chủ đề này chỉ có thể áp dụng cho Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong chủ đề này **TRƯỚC** khi bạn áp dụng các bản cập nhật chất lượng cho môi trường.
+> [!IMPORTANT]
+> Chủ đề này chỉ có thể áp dụng cho Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong chủ đề này **TRƯỚC** khi bạn áp dụng các bản cập nhật chất lượng cho môi trường.
 
 1. Trong dự án LCS của bạn, hãy mở trang **Chi tiết môi trường**. Lưu ý rằng trang này bao gồm các chi tiết cần thiết để kết nối với môi trường bằng cách sử dụng Giao thức Máy tính Từ xa (RDP).
 
-![Chi tiết môi trường ](./media/1EnvironmentDetails.png)
+![Chi tiết môi trường](./media/1EnvironmentDetails.png)
 
 Bộ thông tin xác thực được đánh dấu đầu tiên là thông tin xác thực tài khoản cục bộ và chứa siêu liên kết đến kết nối máy tính từ xa. Thông tin xác thực bao gồm tên người dùng và mật khẩu quản trị môi trường. Bộ thông tin xác thực thứ hai được sử dụng để đăng nhập vào SQL Server trong môi trường này.
 
