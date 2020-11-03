@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897072"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087110"
 ---
-# <a name="expense-using-mobile"></a>Tính chi phí qua điện thoại di động
+# <a name="expense-using-mobile"></a><span data-ttu-id="dc6b4-103">Tính chi phí qua điện thoại di động</span><span class="sxs-lookup"><span data-stu-id="dc6b4-103">Expense using mobile</span></span>
 
-_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+<span data-ttu-id="dc6b4-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="dc6b4-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Chủ đề này cung cấp thông tin về Không gian làm việc di động **Quản lý chi phí**. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
+<span data-ttu-id="dc6b4-105">Chủ đề này cung cấp thông tin về Không gian làm việc di động **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="dc6b4-106">Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="dc6b4-107">Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="dc6b4-108">Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops.
+<span data-ttu-id="dc6b4-109">Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Nhiều tổ chức yêu cầu đính kèm bản sao biên lai với báo cáo chi phí liên quan đến đi lại hoặc liên quan đến kinh doanh do nhân viên nộp để được hoàn lại chi phí. Không gian làm việc di động **Quản lý chi phí** cho phép người dùng tạo các dòng chi phí mới một cách nhanh chóng trên thiết bị di động mà họ lựa chọn bằng cách sử dụng ảnh biên lai đính kèm. Ngoài ra, người dùng có thể chụp ảnh biên lai rồi đính kèm nó vào báo cáo chi phí. Nhân viên cũng có thể tạo và quản lý báo cáo chi phí của mình, sau đó gửi chúng để được duyệt và hoàn trả chi phí bằng cách sử dụng thiết bị di động.
+<span data-ttu-id="dc6b4-110">Nhiều tổ chức yêu cầu đính kèm bản sao biên lai với báo cáo chi phí liên quan đến đi lại hoặc liên quan đến kinh doanh do nhân viên nộp để được hoàn lại chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="dc6b4-111">Không gian làm việc di động **Quản lý chi phí** cho phép người dùng tạo các dòng chi phí mới một cách nhanh chóng trên thiết bị di động mà họ lựa chọn bằng cách sử dụng ảnh biên lai đính kèm.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="dc6b4-112">Ngoài ra, người dùng có thể chụp ảnh biên lai rồi đính kèm nó vào báo cáo chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="dc6b4-113">Nhân viên cũng có thể tạo và quản lý báo cáo chi phí của mình, sau đó gửi chúng để được duyệt và hoàn trả chi phí bằng cách sử dụng thiết bị di động.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Cụ thể là, không gian làm việc di động **Quản lý chi phí** cho phép người dùng thực hiện các tác vụ sau:
+<span data-ttu-id="dc6b4-114">Cụ thể là, không gian làm việc di động **Quản lý chi phí** cho phép người dùng thực hiện các tác vụ sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Chụp ảnh biên lai. Tải ảnh biên lai lên và đính kèm vào báo cáo chi phí sau này.
-- Tải lên tệp dưới dạng ảnh biên lai. Bạn có thể đính kèm tệp đó vào báo cáo chi phí sau này.
-- Tạo một dòng chi phí mới bằng cách sử dụng biên lai đính kèm. Sau đó bạn có thể thêm hạng mục dòng vào báo cáo chi phí sau này và gửi nó để được duyệt và hoàn trả chi phí.
+- <span data-ttu-id="dc6b4-115">Chụp ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-115">Take a photo of a receipt.</span></span> <span data-ttu-id="dc6b4-116">Tải ảnh biên lai lên và đính kèm vào báo cáo chi phí sau này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="dc6b4-117">Tải lên tệp dưới dạng ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="dc6b4-118">Bạn có thể đính kèm tệp đó vào báo cáo chi phí sau này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="dc6b4-119">Tạo một dòng chi phí mới bằng cách sử dụng biên lai đính kèm.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="dc6b4-120">Sau đó bạn có thể thêm hạng mục dòng vào báo cáo chi phí sau này và gửi nó để được duyệt và hoàn trả chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Bạn cũng có thể sử dụng các tính năng sau:
+<span data-ttu-id="dc6b4-121">Bạn cũng có thể sử dụng các tính năng sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-121">You can also use these features:</span></span>
 
-- Tạo một báo cáo chi phí mới.
-- Đính kèm các giao dịch thẻ tín dụng và các chi phí khác đã tạo trước đó vào báo cáo chi phí.
-- Tạo các chi phí mới cho một báo cáo chi phí.
-- Đính kèm biên lai vào bất kỳ khoản chi phí nào cho báo cáo chi phí, bằng cách chụp ảnh biên lai hoặc bằng cách tải lên một tệp dưới dạng ảnh biên lai.
-- Tùy thuộc vào chính sách chi phí của công ty, hãy thêm danh sách khách hàng vào một chi phí.
-- Tùy thuộc vào chính sách chi phí của công ty, hãy phân chia các chi phí.
-- Gửi báo cáo chi phí để được duyệt và hoàn trả chi phí.
-- Phê duyệt hoặc từ chối các báo cáo chi phí mà bạn là người phê duyệt được chỉ định.
+- <span data-ttu-id="dc6b4-122">Tạo một báo cáo chi phí mới.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-122">Create a new expense report.</span></span>
+- <span data-ttu-id="dc6b4-123">Đính kèm các giao dịch thẻ tín dụng và các chi phí khác đã tạo trước đó vào báo cáo chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="dc6b4-124">Tạo các chi phí mới cho một báo cáo chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="dc6b4-125">Đính kèm biên lai vào bất kỳ khoản chi phí nào cho báo cáo chi phí, bằng cách chụp ảnh biên lai hoặc bằng cách tải lên một tệp dưới dạng ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="dc6b4-126">Tùy thuộc vào chính sách chi phí của công ty, hãy thêm danh sách khách hàng vào một chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="dc6b4-127">Tùy thuộc vào chính sách chi phí của công ty, hãy phân chia các chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="dc6b4-128">Gửi báo cáo chi phí để được duyệt và hoàn trả chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="dc6b4-129">Phê duyệt hoặc từ chối các báo cáo chi phí mà bạn là người phê duyệt được chỉ định.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Điều kiện tiên quyết
-Các điều kiện tiên quyết khác nhau, dựa trên phiên bản đã được triển khai cho tổ chức của bạn.
+## <a name="prerequisites"></a><span data-ttu-id="dc6b4-130">Điều kiện tiên quyết</span><span class="sxs-lookup"><span data-stu-id="dc6b4-130">Prerequisites</span></span>
+<span data-ttu-id="dc6b4-131">Các điều kiện tiên quyết khác nhau, dựa trên phiên bản đã được triển khai cho tổ chức của bạn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Điều kiện tiên quyết nếu bạn sử dụng Dynamics 365 Finance 
-Nếu Finance đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải phát hành không gian làm việc di động **Quản lý chi phí**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="dc6b4-132">Điều kiện tiên quyết nếu bạn sử dụng Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="dc6b4-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="dc6b4-133">Nếu Finance đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải phát hành không gian làm việc di động **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Các điều kiện tiên quyết nếu bạn sử dụng phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi
-Nếu phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải hoàn thành các điều kiện tiên quyết sau. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="dc6b4-134">Các điều kiện tiên quyết nếu bạn sử dụng phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi</span><span class="sxs-lookup"><span data-stu-id="dc6b4-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="dc6b4-135">Nếu phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải hoàn thành các điều kiện tiên quyết sau.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Điều kiện tiên quyết</th>
-<th>Vai trò</th>
-<th>Nội dung mô tả</th>
+<th><span data-ttu-id="dc6b4-136">Điều kiện tiên quyết</span><span class="sxs-lookup"><span data-stu-id="dc6b4-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="dc6b4-137">Vai trò</span><span class="sxs-lookup"><span data-stu-id="dc6b4-137">Role</span></span></th>
+<th><span data-ttu-id="dc6b4-138">Nội dung mô tả</span><span class="sxs-lookup"><span data-stu-id="dc6b4-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Triển khai KB 4019015.</td>
-<td>Quản trị viên hệ thống</td>
-<td>KB 4019015 là bản cập nhật X++ hoặc bản vá lỗi siêu dữ liệu có chứa không gian làm việc di động <strong>Quản lý thời gian</strong>. Để triển khai KB 4019015, quản trị viên hệ thống của bạn phải làm theo các bước sau.
+<td><span data-ttu-id="dc6b4-139">Triển khai KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="dc6b4-140">Quản trị viên hệ thống</span><span class="sxs-lookup"><span data-stu-id="dc6b4-140">System administrator</span></span></td>
+<td><span data-ttu-id="dc6b4-141">KB 4019015 là bản cập nhật X++ hoặc bản vá lỗi siêu dữ liệu có chứa không gian làm việc di động <strong>Quản lý thời gian</strong>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="dc6b4-142">Để triển khai KB 4019015, quản trị viên hệ thống của bạn phải làm theo các bước sau.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Tải xuống các bản cập nhật từ Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ExpenseMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</li>
+<li><span data-ttu-id="dc6b4-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Tải xuống các bản cập nhật từ Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="dc6b4-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="dc6b4-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ExpenseMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="dc6b4-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Phát hành không gian làm việc di động <strong>Quản lý chi phí</strong>.</td>
-<td>Quản trị viên hệ thống</td>
-<td>Xem <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</td>
+<td><span data-ttu-id="dc6b4-147">Phát hành không gian làm việc di động <strong>Quản lý chi phí</strong>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="dc6b4-148">Quản trị viên hệ thống</span><span class="sxs-lookup"><span data-stu-id="dc6b4-148">System administrator</span></span></td>
+<td><span data-ttu-id="dc6b4-149">Xem <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops
-Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="dc6b4-150">Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="dc6b4-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="dc6b4-151">Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Đối với điện thoại Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Đối với iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="dc6b4-152">Đối với điện thoại Android</span><span class="sxs-lookup"><span data-stu-id="dc6b4-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="dc6b4-153">Đối với iPhone</span><span class="sxs-lookup"><span data-stu-id="dc6b4-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Đăng nhập vào ứng dụng dành cho thiết bị di động
-1. Khởi động ứng dụng trên thiết bị di động của bạn.
-2. Nhập URL Dynamics 365.
-4. Lần đầu tiên đăng nhập, bạn sẽ được nhắc nhập tên người dùng và mật khẩu của mình. Nhập thông tin xác thực của bạn.
-5. Sau khi bạn đăng nhập, không gian làm việc có sẵn cho công ty của bạn sẽ được hiển thị. Nếu quản trị viên hệ thống của bạn phát hành không gian làm việc mới sau đó thì bạn sẽ phải làm mới danh sách không gian làm việc di động.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="dc6b4-154">Đăng nhập vào ứng dụng dành cho thiết bị di động</span><span class="sxs-lookup"><span data-stu-id="dc6b4-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="dc6b4-155">Khởi động ứng dụng trên thiết bị di động của bạn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="dc6b4-156">Nhập URL Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="dc6b4-157">Lần đầu tiên đăng nhập, bạn sẽ được nhắc nhập tên người dùng và mật khẩu của mình.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="dc6b4-158">Nhập thông tin xác thực của bạn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="dc6b4-159">Sau khi bạn đăng nhập, không gian làm việc có sẵn cho công ty của bạn sẽ được hiển thị.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="dc6b4-160">Nếu quản trị viên hệ thống của bạn phát hành không gian làm việc mới sau đó thì bạn sẽ phải làm mới danh sách không gian làm việc di động.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Chụp ảnh biên lai bằng cách sử dụng không gian làm việc di động Quản lý chi phí
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="dc6b4-161">Chụp ảnh biên lai bằng cách sử dụng không gian làm việc di động Quản lý chi phí</span><span class="sxs-lookup"><span data-stu-id="dc6b4-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
-2. Chọn **Chụp biên lai**.
-3. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
-4. Làm theo một trong các bước sau:
+1. <span data-ttu-id="dc6b4-162">Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="dc6b4-163">Chọn **Chụp biên lai**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="dc6b4-164">Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="dc6b4-165">Làm theo một trong các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-165">Follow one of these steps:</span></span>
 
-   - Nếu bạn đã chọn **Chụp ảnh**, hãy làm theo các bước sau:
+   - <span data-ttu-id="dc6b4-166">Nếu bạn đã chọn **Chụp ảnh** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai. 
-      2. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
-      3. Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.
+      1. <span data-ttu-id="dc6b4-167">Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="dc6b4-168">Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="dc6b4-169">Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Nếu bạn đã chọn **Chọn hình ảnh**, hãy làm theo các bước sau:
+    - <span data-ttu-id="dc6b4-170">Nếu bạn đã chọn **Chọn hình ảnh** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Chọn một hình ảnh trong danh sách.
-        2. Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.
+        1. <span data-ttu-id="dc6b4-171">Chọn một hình ảnh trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="dc6b4-172">Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Chọn **Xong**.
+5. <span data-ttu-id="dc6b4-173">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Nhập chi phí một cách nhanh chóng bằng cách sử dụng không gian làm việc di động Quản lý chi phí
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="dc6b4-174">Nhập chi phí một cách nhanh chóng bằng cách sử dụng không gian làm việc di động Quản lý chi phí</span><span class="sxs-lookup"><span data-stu-id="dc6b4-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
-2. Chọn **Nhập chi phí nhanh chóng**.
-3. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
-4. Nhập ngày giao dịch của chi phí.
-5. Tùy chọn: Nhập người bán về chi phí.
-6. Nhập khoản chi phí.
-7. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
-8. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
-9. Làm theo một trong các bước sau:
+1. <span data-ttu-id="dc6b4-175">Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="dc6b4-176">Chọn **Nhập chi phí nhanh chóng**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="dc6b4-177">Chọn thể loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-177">Select the expense category.</span></span> <span data-ttu-id="dc6b4-178">Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-179">Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-180">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-181">Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-182">Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="dc6b4-183">Nhập ngày giao dịch của chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="dc6b4-184">Tùy chọn: Nhập người bán về chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="dc6b4-185">Nhập khoản chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="dc6b4-186">Chọn đơn vị tiền tệ của chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-186">Select the currency of the expense.</span></span> <span data-ttu-id="dc6b4-187">Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-188">Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-189">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-190">Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-191">Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="dc6b4-192">Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="dc6b4-193">Làm theo một trong các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-193">Follow one of these steps:</span></span>
 
-    - Nếu bạn đã chọn **Chụp ảnh** thì bạn được đưa đến máy ảnh trên thiết bị di động để bạn có thể chụp ảnh biên lai. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
-    - Nếu bạn đã chọn **Chọn hình ảnh**, hãy chọn một hình ảnh trong danh sách.
+    - <span data-ttu-id="dc6b4-194">Nếu bạn đã chọn **Chụp ảnh** thì bạn được đưa đến máy ảnh trên thiết bị di động để bạn có thể chụp ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="dc6b4-195">Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="dc6b4-196">Nếu bạn đã chọn **Chọn hình ảnh** , hãy chọn một hình ảnh trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Chọn **Xong**.
+10. <span data-ttu-id="dc6b4-197">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Phê duyệt báo cáo chi phí bằng cách sử dụng không gian làm việc di động Quản lý chi phí (nếu bạn sử dụng bản cập nhật vào tháng 7 năm 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="dc6b4-198">Phê duyệt báo cáo chi phí bằng cách sử dụng không gian làm việc di động Quản lý chi phí (nếu bạn sử dụng bản cập nhật vào tháng 7 năm 2017)</span><span class="sxs-lookup"><span data-stu-id="dc6b4-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
-2. **Phê duyệt chi phí** hiển thị số lượng báo cáo chi phí được chỉ định cho bạn để phê duyệt. Số lượng được cập nhật khoảng 30 phút một lần. Chọn **Phê duyệt chi phí**.
+1. <span data-ttu-id="dc6b4-199">Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="dc6b4-200">**Phê duyệt chi phí** hiển thị số lượng báo cáo chi phí được chỉ định cho bạn để phê duyệt.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="dc6b4-201">Số lượng được cập nhật khoảng 30 phút một lần.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="dc6b4-202">Chọn **Phê duyệt chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-202">Select **Expense approvals**.</span></span>
 
-    Danh sách báo cáo chi phí mà bạn được chỉ định phê duyệt hiển thị.
+    <span data-ttu-id="dc6b4-203">Danh sách báo cáo chi phí mà bạn được chỉ định phê duyệt hiển thị.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Chọn một báo cáo chi phí để xem chi tiết chi phí của báo cáo.
-4. Chọn một chi phí để xem chi tiết. Thông tin được hiển thị cho một chi phí bao gồm bất kỳ chi tiết về biên lai, khách hàng và từng khoản.
-5. Quay lại trang **Báo cáo chi phí**, chọn để phê duyệt hoặc từ chối báo cáo chi phí.
-6. Nhập bất kỳ nhận xét nào cho hành động phê duyệt.
-7. Chọn **Xong**.
+3. <span data-ttu-id="dc6b4-204">Chọn một báo cáo chi phí để xem chi tiết chi phí của báo cáo.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="dc6b4-205">Chọn một chi phí để xem chi tiết.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="dc6b4-206">Thông tin được hiển thị cho một chi phí bao gồm bất kỳ chi tiết về biên lai, khách hàng và từng khoản.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="dc6b4-207">Quay lại trang **Báo cáo chi phí** , chọn để phê duyệt hoặc từ chối báo cáo chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="dc6b4-208">Nhập bất kỳ nhận xét nào cho hành động phê duyệt.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="dc6b4-209">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Tạo một báo cáo chi phí mới và nộp báo cáo để phê duyệt bằng cách sử dụng không gian làm việc di động Quản lý chi phí (nếu bạn sử dụng bản cập nhật vào tháng 7 năm 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="dc6b4-210">Tạo một báo cáo chi phí mới và nộp báo cáo để phê duyệt bằng cách sử dụng không gian làm việc di động Quản lý chi phí (nếu bạn sử dụng bản cập nhật vào tháng 7 năm 2017)</span><span class="sxs-lookup"><span data-stu-id="dc6b4-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
-2. Chọn **Nhập chi phí**.
-3. Chọn **Báo cáo mới** hoặc chọn một báo cáo chi phí hiện có trong danh sách.
-4. Đối với các báo cáo chi phí mới, hãy nhập mục đích và bất kỳ thông tin bổ sung nào có sẵn. Thông tin này khác nhau, tùy thuộc vào cách định cấu hình quản lý chi phí cho công ty của bạn.
-5. Chọn **Xong**.
-6. Để thêm các chi phí hiện có, chẳng hạn như giao dịch thẻ tín dụng, vào báo cáo chi phí, hãy chọn **Đính kèm**.
-7. Chọn một hoặc nhiều chi phí trong danh sách.
-8. Chọn **Xong**.
-9. Để thêm một chi phí mới vào báo cáo chi phí, hãy chọn **Chi phí mới**.
-10. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
-11. Tùy chọn: Nhập người bán về chi phí.
-12. Nhập ngày giao dịch của chi phí.
-13. Nhập khoản chi phí.
-14. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
-15. Chọn **Xong**.
-16. Để thêm các chi tiết khác vào chi phí, hãy chọn **Thêm chi tiết khác**. Các trường có sẵn phụ thuộc vào cài đặt định cấu hình quản lý chi phí cho công ty của bạn.
-17. Nếu chính sách của công ty yêu cầu biên lai cho chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:
+1. <span data-ttu-id="dc6b4-211">Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="dc6b4-212">Chọn **Nhập chi phí**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="dc6b4-213">Chọn **Báo cáo mới** hoặc chọn một báo cáo chi phí hiện có trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="dc6b4-214">Đối với các báo cáo chi phí mới, hãy nhập mục đích và bất kỳ thông tin bổ sung nào có sẵn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="dc6b4-215">Thông tin này khác nhau, tùy thuộc vào cách định cấu hình quản lý chi phí cho công ty của bạn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="dc6b4-216">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-216">Select **Done**.</span></span>
+6. <span data-ttu-id="dc6b4-217">Để thêm các chi phí hiện có, chẳng hạn như giao dịch thẻ tín dụng, vào báo cáo chi phí, hãy chọn **Đính kèm**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="dc6b4-218">Chọn một hoặc nhiều chi phí trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="dc6b4-219">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-219">Select **Done**.</span></span>
+9. <span data-ttu-id="dc6b4-220">Để thêm một chi phí mới vào báo cáo chi phí, hãy chọn **Chi phí mới**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="dc6b4-221">Chọn thể loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-221">Select the category for the expense.</span></span> <span data-ttu-id="dc6b4-222">Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-223">Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-224">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-225">Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-226">Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="dc6b4-227">Tùy chọn: Nhập người bán về chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="dc6b4-228">Nhập ngày giao dịch của chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="dc6b4-229">Nhập khoản chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="dc6b4-230">Chọn đơn vị tiền tệ của chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-230">Select the currency of the expense.</span></span> <span data-ttu-id="dc6b4-231">Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-232">Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-233">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-234">Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-235">Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="dc6b4-236">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-236">Select **Done**.</span></span>
+16. <span data-ttu-id="dc6b4-237">Để thêm các chi tiết khác vào chi phí, hãy chọn **Thêm chi tiết khác**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="dc6b4-238">Các trường có sẵn phụ thuộc vào cài đặt định cấu hình quản lý chi phí cho công ty của bạn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="dc6b4-239">Nếu chính sách của công ty yêu cầu biên lai cho chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Chọn **Chụp biên lai** hoặc **Đính kèm biên lai**.
-    2. Làm theo một trong các bước sau:
+    1. <span data-ttu-id="dc6b4-240">Chọn **Chụp biên lai** hoặc **Đính kèm biên lai**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="dc6b4-241">Làm theo một trong các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-241">Follow one of these steps:</span></span>
 
-        - Nếu bạn đã chọn **Chụp biên lai** thì hãy làm theo các bước sau:
+        - <span data-ttu-id="dc6b4-242">Nếu bạn đã chọn **Chụp biên lai** thì hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
-            2. Làm theo một trong các bước sau:
+            1. <span data-ttu-id="dc6b4-243">Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="dc6b4-244">Làm theo một trong các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-244">Follow one of these steps:</span></span>
 
-                - Nếu bạn đã chọn **Chụp ảnh**, hãy làm theo các bước sau:
+                - <span data-ttu-id="dc6b4-245">Nếu bạn đã chọn **Chụp ảnh** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai. Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.
-                    2. Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.
+                    1. <span data-ttu-id="dc6b4-246">Bạn được đưa đến máy ảnh trên thiết bị di động của mình để bạn có thể chụp ảnh biên lai.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="dc6b4-247">Khi bạn chụp ảnh xong, hãy chọn **OK** để chấp nhận bức ảnh.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="dc6b4-248">Tùy chọn: Nhập tên cho bức ảnh và nhập bất kỳ ghi chú nào.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Nếu bạn đã chọn **Chọn hình ảnh**, hãy làm theo các bước sau:
+                - <span data-ttu-id="dc6b4-249">Nếu bạn đã chọn **Chọn hình ảnh** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Chọn một hình ảnh trong danh sách.
-                    2. Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.
+                    1. <span data-ttu-id="dc6b4-250">Chọn một hình ảnh trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="dc6b4-251">Tùy chọn: Nhập tên cho hình ảnh và nhập bất kỳ ghi chú nào.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Chọn **Xong**.
+            3.  <span data-ttu-id="dc6b4-252">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-252">Select **Done**.</span></span>
 
-        - Nếu bạn đã chọn **Đính kèm biên lai** thì hãy làm theo các bước sau:
+        - <span data-ttu-id="dc6b4-253">Nếu bạn đã chọn **Đính kèm biên lai** thì hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Chọn một hoặc nhiều hình ảnh trong danh sách.
-            2.  Chọn **Xong**.
+            1.  <span data-ttu-id="dc6b4-254">Chọn một hoặc nhiều hình ảnh trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="dc6b4-255">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-255">Select **Done**.</span></span>
 
-    3. Chọn nút **Quay lại** để quay lại phần chi tiết chi phí.
+    3. <span data-ttu-id="dc6b4-256">Chọn nút **Quay lại** để quay lại phần chi tiết chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Nếu chính sách của công ty yêu cầu khách hàng sở hữu chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:
+18. <span data-ttu-id="dc6b4-257">Nếu chính sách của công ty yêu cầu khách hàng sở hữu chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Chọn **Khách hàng**, **Khách hàng trước đây**, hoặc **Đồng nghiệp**.
-    2. Làm theo một trong các bước sau:
+    1. <span data-ttu-id="dc6b4-258">Chọn **Khách hàng** , **Khách hàng trước đây** , hoặc **Đồng nghiệp**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="dc6b4-259">Làm theo một trong các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-259">Follow one of these steps:</span></span>
 
-        - Nếu bạn đã chọn **Khách hàng**, hãy làm theo các bước sau:
+        - <span data-ttu-id="dc6b4-260">Nếu bạn đã chọn **Khách hàng** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Nhập tên của khách hàng.
-            2. Tùy chọn: Nhập tổ chức và / hoặc quốc gia của khách.
-            3. Tùy chọn: Nhập chức vụ của khách hàng.
-            4. Chọn **Xong**.
+            1. <span data-ttu-id="dc6b4-261">Nhập tên của khách hàng.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="dc6b4-262">Tùy chọn: Nhập tổ chức và / hoặc quốc gia của khách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="dc6b4-263">Tùy chọn: Nhập chức vụ của khách hàng.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="dc6b4-264">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-264">Select **Done**.</span></span>
 
-        - Nếu bạn đã chọn **Khách hàng trước đây** thì hãy làm theo các bước sau:
+        - <span data-ttu-id="dc6b4-265">Nếu bạn đã chọn **Khách hàng trước đây** thì hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Chọn một hoặc nhiều khách hàng trước đây trong danh sách. Bạn sẽ thấy danh sách những khách trước đây mà bạn đã thêm vào báo cáo chi phí trước đó đã được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu khách hàng trước đây của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tổ chức, quốc gia hoặc chức vụ.
-            2. Chọn **Xong**.
+            1. <span data-ttu-id="dc6b4-266">Chọn một hoặc nhiều khách hàng trước đây trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="dc6b4-267">Bạn sẽ thấy danh sách những khách trước đây mà bạn đã thêm vào báo cáo chi phí trước đó đã được tải vào ứng dụng của bạn để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-268">Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-269">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-270">Nếu khách hàng trước đây của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-271">Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tổ chức, quốc gia hoặc chức vụ.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="dc6b4-272">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-272">Select **Done**.</span></span>
 
-        - Nếu bạn đã chọn **Đồng nghiệp**, hãy làm theo các bước sau:
+        - <span data-ttu-id="dc6b4-273">Nếu bạn đã chọn **Đồng nghiệp** , hãy làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Chọn một hoặc nhiều đồng nghiệp trong danh sách. Bạn nhìn thấy danh sách đồng nghiệp được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu đồng nghiệp của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo công ty hoặc chức vụ.
-            2. Chọn **Xong**.
+            1. <span data-ttu-id="dc6b4-274">Chọn một hoặc nhiều đồng nghiệp trong danh sách.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="dc6b4-275">Bạn nhìn thấy danh sách đồng nghiệp được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-276">Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-277">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-278">Nếu đồng nghiệp của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-279">Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo công ty hoặc chức vụ.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="dc6b4-280">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-280">Select **Done**.</span></span>
 
-    3. Chọn nút **Quay lại** để quay lại phần chi tiết chi phí.
+    3. <span data-ttu-id="dc6b4-281">Chọn nút **Quay lại** để quay lại phần chi tiết chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Nếu chính sách của công ty yêu cầu bạn phải ghi từng khoản chi phí thì hãy chọn **Ghi thành từng khoản** rồi sau đó làm theo các bước sau:
+19. <span data-ttu-id="dc6b4-282">Nếu chính sách của công ty yêu cầu bạn phải ghi từng khoản chi phí thì hãy chọn **Ghi thành từng khoản** rồi sau đó làm theo các bước sau:</span><span class="sxs-lookup"><span data-stu-id="dc6b4-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Chọn ngày đầu tiên để ghi lại từng khoản.
-    2. Chọn **Thêm thông tin ghi lại từng khoản**.
-    3. Chọn thể loại nhỏ để ghi lại từng khoản chi phí. Bạn nhìn thấy danh sách các thể loại phụ của chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Nếu thể loại phụ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên thể loại phụ của chi phí.
-    4. Nhập số tiền giao dịch cho từng khoản mục.
-    5. Chỉnh sửa ngày giao dịch nếu được yêu cầu.
-    6. Chọn **Xong**.
-    7. Lặp lại các bước trước đó cho đến khi bạn thêm xong tất cả các hành động ghi thành từng khoản cho ngày đã chọn.
-    8. Đối với những ngày bổ sung, bạn có thể chọn **Sao chép sang ngày tiếp theo** để sao chép các thông tin ghi thành từng khoản sang ngày tiếp theo. Ngoài ra, bạn có thể chọn ngày để ghi thành từng khoản và sau đó thêm các thông tin ghi thành từng khoản như bạn đã làm cho ngày đầu tiên.
-    9. Sau khi bạn ghi xong từng khoản cho chi phí, hãy chọn nút **Quay lại** để quay lại chi tiết chi phí.
+    1. <span data-ttu-id="dc6b4-283">Chọn ngày đầu tiên để ghi lại từng khoản.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="dc6b4-284">Chọn **Thêm thông tin ghi lại từng khoản**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="dc6b4-285">Chọn thể loại nhỏ để ghi lại từng khoản chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="dc6b4-286">Bạn nhìn thấy danh sách các thể loại phụ của chi phí được tải vào ứng dụng để sử dụng ngoại tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="dc6b4-287">Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="dc6b4-288">Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="dc6b4-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="dc6b4-289">Nếu thể loại phụ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="dc6b4-290">Tìm kiếm theo tên thể loại phụ của chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="dc6b4-291">Nhập số tiền giao dịch cho từng khoản mục.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="dc6b4-292">Chỉnh sửa ngày giao dịch nếu được yêu cầu.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="dc6b4-293">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="dc6b4-294">Lặp lại các bước trước đó cho đến khi bạn thêm xong tất cả các hành động ghi thành từng khoản cho ngày đã chọn.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="dc6b4-295">Đối với những ngày bổ sung, bạn có thể chọn **Sao chép sang ngày tiếp theo** để sao chép các thông tin ghi thành từng khoản sang ngày tiếp theo.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="dc6b4-296">Ngoài ra, bạn có thể chọn ngày để ghi thành từng khoản và sau đó thêm các thông tin ghi thành từng khoản như bạn đã làm cho ngày đầu tiên.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="dc6b4-297">Sau khi bạn ghi xong từng khoản cho chi phí, hãy chọn nút **Quay lại** để quay lại chi tiết chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Chọn nút **Quay lại** để quay lại trang **Báo cáo chi phí** .
-21. Lặp lại các bước trước đó cho đến khi bạn thêm xong mọi chi phí.
-22. Chọn **Gửi**.
-23. Nhập bất kỳ nhận xét nào dành cho người phê duyệt.
-24. Chọn **Xong**.
+20. <span data-ttu-id="dc6b4-298">Chọn nút **Quay lại** để quay lại trang **Báo cáo chi phí** .</span><span class="sxs-lookup"><span data-stu-id="dc6b4-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="dc6b4-299">Lặp lại các bước trước đó cho đến khi bạn thêm xong mọi chi phí.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="dc6b4-300">Chọn **Gửi**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="dc6b4-301">Nhập bất kỳ nhận xét nào dành cho người phê duyệt.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="dc6b4-302">Chọn **Xong**.</span><span class="sxs-lookup"><span data-stu-id="dc6b4-302">Select **Done**.</span></span>

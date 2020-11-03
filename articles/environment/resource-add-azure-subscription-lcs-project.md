@@ -9,64 +9,64 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086979"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
+# <a name="add-an-azure-subscription-to-lcs-project"></a><span data-ttu-id="d7279-103">Thêm gói đăng ký Azure vào dự án LCS</span><span class="sxs-lookup"><span data-stu-id="d7279-103">Add an Azure subscription to LCS project</span></span>
 
-_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
+<span data-ttu-id="d7279-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_</span><span class="sxs-lookup"><span data-stu-id="d7279-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Môi trường được lưu trữ trên đám mây phải được triển khai bằng cách sử dụng đăng ký Azure hiện có. Chủ đề này sẽ giải thích cách kết nối gói đăng ký Azure hiện có của bạn với dự án LCS. 
+<span data-ttu-id="d7279-105">Môi trường được lưu trữ trên đám mây phải được triển khai bằng cách sử dụng đăng ký Azure hiện có.</span><span class="sxs-lookup"><span data-stu-id="d7279-105">Cloud-hosted environments must be deployed using an existing Azure subscription.</span></span> <span data-ttu-id="d7279-106">Chủ đề này sẽ giải thích cách kết nối gói đăng ký Azure hiện có của bạn với dự án LCS.</span><span class="sxs-lookup"><span data-stu-id="d7279-106">This topic explains how to connect your existing Azure subscription to an LCS project.</span></span> 
 
-## <a name="grant-admin-consent"></a>Cấp sự đồng ý của quản trị viên
+## <a name="grant-admin-consent"></a><span data-ttu-id="d7279-107">Cấp sự đồng ý của quản trị viên</span><span class="sxs-lookup"><span data-stu-id="d7279-107">Grant admin consent</span></span>
 
-1. Trong dự án LCS, trong phần **Môi trường**, hãy chọn **cài đặt Microsoft Azure**.
+1. <span data-ttu-id="d7279-108">Trong dự án LCS, trong phần **Môi trường** , hãy chọn **cài đặt Microsoft Azure**.</span><span class="sxs-lookup"><span data-stu-id="d7279-108">In your LCS project, in the **Environments** section, select **Microsoft Azure settings**.</span></span>
 
 ![Thiết đặt Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Trên trang **Thiết đặt dự án**, trên tab **Trình kết nối Azure**, hãy chọn **Cho phép**. Thao tác này cho phép các môi trường được triển khai cho dự án này.
+2. <span data-ttu-id="d7279-110">Trên trang **Thiết đặt dự án** , trên tab **Trình kết nối Azure** , hãy chọn **Cho phép**.</span><span class="sxs-lookup"><span data-stu-id="d7279-110">On the **Project settings** page, on the **Azure connectors** tab, select **Authorize**.</span></span> <span data-ttu-id="d7279-111">Thao tác này cho phép các môi trường được triển khai cho dự án này.</span><span class="sxs-lookup"><span data-stu-id="d7279-111">This allows environments to be deployed to this project.</span></span>
 
 ![Trình kết nối Azure](./media/2AzureConnectors.png)
 
-3. Chọn **Cho phép** một lần nữa để cung cấp sự đồng ý của quản trị viên.
+3. <span data-ttu-id="d7279-113">Chọn **Cho phép** một lần nữa để cung cấp sự đồng ý của quản trị viên.</span><span class="sxs-lookup"><span data-stu-id="d7279-113">Select **Authorize** again to provide admin consent.</span></span>
 
 ![Cấp sự đồng ý của quản trị viên](./media/3GrantAdminConsent.png)
 
-4. Chấp nhận yêu cầu quyền.
+4. <span data-ttu-id="d7279-115">Chấp nhận yêu cầu quyền.</span><span class="sxs-lookup"><span data-stu-id="d7279-115">Accept the permissions request.</span></span>
 
 ![Chấp nhận yêu cầu quyền](./media/4AcceptPermissionRequest.png)
 
-Sự định quyền hiện đã hoàn tất. 
+<span data-ttu-id="d7279-117">Sự định quyền hiện đã hoàn tất.</span><span class="sxs-lookup"><span data-stu-id="d7279-117">The authorization is now complete.</span></span> 
 
 ![Định quyền thành công](./media/5AuthorizationComplete.png)
 
-## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Cung cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure của bạn
+## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a><span data-ttu-id="d7279-119">Cung cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure của bạn</span><span class="sxs-lookup"><span data-stu-id="d7279-119">Provide Dynamics Deployment Services access to your Azure subscription</span></span>
 
-1. Chuyển đến [thanh toán Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) rồi chọn gói đăng ký của bạn. Dịch vụ triển khai Dynamics cần truy cập vào gói đăng ký này để có thể triển khai các môi trường.
+1. <span data-ttu-id="d7279-120">Chuyển đến [thanh toán Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) rồi chọn gói đăng ký của bạn.</span><span class="sxs-lookup"><span data-stu-id="d7279-120">Go to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) and select your subscription.</span></span> <span data-ttu-id="d7279-121">Dịch vụ triển khai Dynamics cần truy cập vào gói đăng ký này để có thể triển khai các môi trường.</span><span class="sxs-lookup"><span data-stu-id="d7279-121">Dynamics Deployment Services needs to access this subscription to be able to deploy environments.</span></span>
 
 ![Thông tin chi tiết về Đăng ký Azure](./media/6AzureSubscription.png)
 
-2. Chọn **Kiểm soát truy cập (IAM)** trong ngăn điều hướng, sau đó chọn **Thêm gán vai trò**.
-3. Trong thanh trượt ở bên phải, hãy chọn **Vai trò người đóng góp** và trong danh sách được cung cấp, hãy tìm và chọn **Dịch vụ triển khai Dynamics**. 
-4. Chọn **Lưu**.
+2. <span data-ttu-id="d7279-123">Chọn **Kiểm soát truy cập (IAM)** trong ngăn điều hướng, sau đó chọn **Thêm gán vai trò**.</span><span class="sxs-lookup"><span data-stu-id="d7279-123">Select **Access control (IAM)** in the navigation pane, and then select **Add role assignment**.</span></span>
+3. <span data-ttu-id="d7279-124">Trong thanh trượt ở bên phải, hãy chọn **Vai trò người đóng góp** và trong danh sách được cung cấp, hãy tìm và chọn **Dịch vụ triển khai Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="d7279-124">In the slider on the right side, select **Contributor role** , and in the list provided, find and select **Dynamics Deployment Services**.</span></span> 
+4. <span data-ttu-id="d7279-125">Chọn **Lưu**.</span><span class="sxs-lookup"><span data-stu-id="d7279-125">Select **Save**.</span></span>
 
 ![Quyền truy cập vào gói đăng ký](./media/7SubscriptionAccess.png)
 
-### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Thêm trình kết nối gói đăng ký vào dự án LCS
+### <a name="add-a-subscription-connector-to-an-lcs-project"></a><span data-ttu-id="d7279-127">Thêm trình kết nối gói đăng ký vào dự án LCS</span><span class="sxs-lookup"><span data-stu-id="d7279-127">Add a subscription connector to an LCS project</span></span>
 
-1. Trong dự án LCS của bạn, trên trang **cài đặt Microsoft Azure**, hãy chọn **Thêm** để thêm một trình kết nối mới.
-2. Nhập ID đăng ký Azure của bạn. Bạn có thể tìm thấy ID đăng ký Azure của mình trong [Cổng thông tin Azure](https://ms.portal.azure.com/), ở phần  **Cài đặt**  ở phía dưới bên trái của màn hình.
-3. Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager**, hãy chọn **Có**.
-4. Đảm bảo Miền của đối tượng thuê AAD đăng ký của Azure khớp với đăng ký Azure sở hữu miền mà bạn đang sử dụng rồi chọn **Tiếp theo**.
-5. Trên màn hình **Thiết lập Microsoft Azure**, hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
-6. Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn, sau đó tải nó lên Cổng thông tin quản lý Azure bằng cách truy cập vào phần **Cài đặt** > **Chứng chỉ quản lý**. Chứng chỉ này sẽ cho phép LCS thay mặt bạn kết nối với Azure. Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.
-7. Chọn  **Tiếp theo**.
-8. Chọn vùng Azure để triển khai và chọn một trung tâm dữ liệu gần nơi bạn định sử dụng hệ thống này.
-9.  Chọn  **Kết nối**.
+1. <span data-ttu-id="d7279-128">Trong dự án LCS của bạn, trên trang **cài đặt Microsoft Azure** , hãy chọn **Thêm** để thêm một trình kết nối mới.</span><span class="sxs-lookup"><span data-stu-id="d7279-128">In your LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.</span></span>
+2. <span data-ttu-id="d7279-129">Nhập ID đăng ký Azure của bạn.</span><span class="sxs-lookup"><span data-stu-id="d7279-129">Enter your Azure subscription ID.</span></span> <span data-ttu-id="d7279-130">Bạn có thể tìm thấy ID đăng ký Azure của mình trong [Cổng thông tin Azure](https://ms.portal.azure.com/), ở phần  **Cài đặt**  ở phía dưới bên trái của màn hình.</span><span class="sxs-lookup"><span data-stu-id="d7279-130">You can find your Azure subscription ID in the [Azure portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.</span></span>
+3. <span data-ttu-id="d7279-131">Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager** , hãy chọn **Có**.</span><span class="sxs-lookup"><span data-stu-id="d7279-131">In the **Configure to use Azure Resource Manager** field, select **Yes**.</span></span>
+4. <span data-ttu-id="d7279-132">Đảm bảo Miền của đối tượng thuê AAD đăng ký của Azure khớp với đăng ký Azure sở hữu miền mà bạn đang sử dụng rồi chọn **Tiếp theo**.</span><span class="sxs-lookup"><span data-stu-id="d7279-132">Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.</span></span>
+5. <span data-ttu-id="d7279-133">Trên màn hình **Thiết lập Microsoft Azure** , hãy chọn **Tiếp theo** để xác nhận.</span><span class="sxs-lookup"><span data-stu-id="d7279-133">On the **Microsoft Azure Setup** screen, select **Next** to confirm.</span></span> <span data-ttu-id="d7279-134">Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.</span><span class="sxs-lookup"><span data-stu-id="d7279-134">If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this topic and make sure you have completed all of the steps.</span></span>
+6. <span data-ttu-id="d7279-135">Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn, sau đó tải nó lên Cổng thông tin quản lý Azure bằng cách truy cập vào phần **Cài đặt** > **Chứng chỉ quản lý**.</span><span class="sxs-lookup"><span data-stu-id="d7279-135">Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to **Settings** > **Management Certificates**.</span></span> <span data-ttu-id="d7279-136">Chứng chỉ này sẽ cho phép LCS thay mặt bạn kết nối với Azure.</span><span class="sxs-lookup"><span data-stu-id="d7279-136">This certificate will enable LCS to communicate with Azure on your behalf.</span></span> <span data-ttu-id="d7279-137">Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.</span><span class="sxs-lookup"><span data-stu-id="d7279-137">You can skip this step if your user has access to the subscription.</span></span>
+7. <span data-ttu-id="d7279-138">Chọn  **Tiếp theo**.</span><span class="sxs-lookup"><span data-stu-id="d7279-138">Select  **Next**.</span></span>
+8. <span data-ttu-id="d7279-139">Chọn vùng Azure để triển khai và chọn một trung tâm dữ liệu gần nơi bạn định sử dụng hệ thống này.</span><span class="sxs-lookup"><span data-stu-id="d7279-139">Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.</span></span>
+9.  <span data-ttu-id="d7279-140">Chọn  **Kết nối**.</span><span class="sxs-lookup"><span data-stu-id="d7279-140">Select  **Connect**.</span></span>
 
-Bạn đã kết nối thành công đăng ký Azure của mình. Bây giờ bạn có thể triển khai môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
+<span data-ttu-id="d7279-141">Bạn đã kết nối thành công đăng ký Azure của mình.</span><span class="sxs-lookup"><span data-stu-id="d7279-141">You have successfully connected your Azure subscription.</span></span> <span data-ttu-id="d7279-142">Bây giờ bạn có thể triển khai môi trường Dynamics 365 Finance được lưu trữ trên đám mây.</span><span class="sxs-lookup"><span data-stu-id="d7279-142">You can now deploy Dynamics 365 Finance cloud-hosted environments.</span></span>
 
 
