@@ -3,7 +3,7 @@ title: Tạo mẫu dự án
 description: Làm cách nào để tạo mẫu dự án trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087121"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133214"
 ---
 # <a name="create-a-project-template-project-service"></a>Tạo mẫu dự án (Project Service)
 
@@ -34,29 +34,29 @@ Mẫu dự án tiết kiệm thời gian cho bạn nếu công ty của bạn th
 ## <a name="components-of-project-template"></a>Các thành phần của mẫu dự án
  Một mẫu dự án bao gồm ba thành phần:  
   
-- **Cấu trúc phân tích công việc** : Cấu trúc phân tích công việc trong một mẫu dự án có tập hợp các yếu tố giống như trong dự án. Bạn có thể tạo một hệ thống cấp bậc nhiệm vụ, liên kết vai trò với nhiệm vụ, xác định các thuộc tính lịch trình, thiết lập quan hệ phụ thuộc và xem tất cả dữ liệu trong Gantt. Cấu trúc phân tích công việc trong mẫu dự án cũng hỗ trợ chế độ nhiệm vụ cho mỗi nhiệm vụ. Tạo lịch trình công việc cho mẫu dự án và dự án là giống nhau.  
+- **Cấu trúc phân tích công việc**: Cấu trúc phân tích công việc trong một mẫu dự án có tập hợp các yếu tố giống như trong dự án. Bạn có thể tạo một hệ thống cấp bậc nhiệm vụ, liên kết vai trò với nhiệm vụ, xác định các thuộc tính lịch trình, thiết lập quan hệ phụ thuộc và xem tất cả dữ liệu trong Gantt. Cấu trúc phân tích công việc trong mẫu dự án cũng hỗ trợ chế độ nhiệm vụ cho mỗi nhiệm vụ. Tạo lịch trình công việc cho mẫu dự án và dự án là giống nhau.  
   
-- **Dự toán dự án** : Dự toán dự án trong các mẫu hoạt động giống như trong các dự án, ngoại trừ bảng giá để đặt mặc định chi phí và giá bán luôn là chi phí và bảng giá bán mặc định được xác định trong tham số [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Các tính năng còn lại giống với các tính năng trong một dự án.  
+- **Dự toán dự án**: Dự toán dự án trong các mẫu hoạt động giống như trong các dự án, ngoại trừ bảng giá để đặt mặc định chi phí và giá bán luôn là chi phí và bảng giá bán mặc định được xác định trong tham số [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Các tính năng còn lại giống với các tính năng trong một dự án.  
   
-- **Hình thành nhóm dự án** : Khi hình thành nhóm dự án cho mẫu dự án, bạn có thể đặt lịch một nguồn lực được nêu tên trong một mẫu. Bạn có thể sử dụng **Tạo Nhóm Dự án** trong cấu trúc phân tích công việc để tạo ra một tập hợp các nguồn lực chung. Bạn cũng có thể chỉ định các kỹ năng và mức độ thành thạo cần thiết cho nguồn lực chung. Bạn không thể thay thế nguồn lực chung bằng nguồn lực có thể đặt lịch trong mẫu dự án.  
+- **Hình thành nhóm dự án**: Khi hình thành nhóm dự án cho mẫu dự án, bạn có thể đặt lịch một nguồn lực được nêu tên trong một mẫu. Bạn có thể sử dụng **Tạo Nhóm Dự án** trong cấu trúc phân tích công việc để tạo ra một tập hợp các nguồn lực chung. Bạn cũng có thể chỉ định các kỹ năng và mức độ thành thạo cần thiết cho nguồn lực chung. Bạn không thể thay thế nguồn lực chung bằng nguồn lực có thể đặt lịch trong mẫu dự án.  
   
 ## <a name="create-a-project-from-a-template"></a>Tạo dự án từ mẫu  
  Bạn có thể tạo một dự án từ mẫu theo các cách sau đây:  
   
 -   Khi tạo dự án từ báo giá, bạn có thể chọn một mẫu dự án trong biểu mẫu tạo nhanh dự án.  
   
--   Khi tạo một dự án bằng cách bấm vào **Dự án Mới** , biểu mẫu dự án sẽ hiển thị trước khi bạn lưu bản ghi. Từ đây, bạn có thể bấm vào trường **Chọn một mẫu** để chọn từ danh sách các mẫu dự án được xác định trước trong tổ chức của bạn.  
+-   Khi tạo một dự án bằng cách bấm vào **Dự án Mới**, biểu mẫu dự án sẽ hiển thị trước khi bạn lưu bản ghi. Từ đây, bạn có thể bấm vào trường **Chọn một mẫu** để chọn từ danh sách các mẫu dự án được xác định trước trong tổ chức của bạn.  
   
 -   Bấm vào **Tạo dự án từ mẫu** trên trang **Mẫu Dự án** để tạo dự án từ mẫu.  
   
 ## <a name="copying-components-of-a-template-to-a-project"></a>Sao chép các thành phần của một mẫu vào dự án  
  Khi sao chép các thành phần của mẫu vào dự án, bạn cần lưu ý một số nội dung sau.  
   
- **Sao chép một cấu trúc phân tích công việc** : Khi sao chép cấu trúc phân tích công việc từ một mẫu dự án, nếu dự án có một lịch dự án khác với mẫu, thì giờ làm việc từ lịch của dự án sẽ được áp dụng cho lịch trình công việc. Điều này điều chỉnh lịch trình về lịch dự án được hỗ trợ. Tương tự như vậy, nhiệm vụ đầu tiên trên cấu trúc phân tích công việc sẽ lấy ngày bắt đầu của dự án, do đó, phần còn lại của lịch trình hệ thống cấp bậc nhiệm vụ được cập nhật dựa trên khoảng thời gian và thành phần phụ thuộc được chỉ ra trong cấu trúc phân tích công việc của mẫu.  
+ **Sao chép một cấu trúc phân tích công việc**: Khi sao chép cấu trúc phân tích công việc từ một mẫu dự án, nếu dự án có một lịch dự án khác với mẫu, thì giờ làm việc từ lịch của dự án sẽ được áp dụng cho lịch trình công việc. Điều này điều chỉnh lịch trình về lịch dự án được hỗ trợ. Tương tự như vậy, nhiệm vụ đầu tiên trên cấu trúc phân tích công việc sẽ lấy ngày bắt đầu của dự án, do đó, phần còn lại của lịch trình hệ thống cấp bậc nhiệm vụ được cập nhật dựa trên khoảng thời gian và thành phần phụ thuộc được chỉ ra trong cấu trúc phân tích công việc của mẫu.  
   
- **Sao chép dự toán dự án** : Khi bạn sao chép giữa các dòng dự toán của dự án, bảng giá được cập nhật dựa trên đơn vị sở hữu của dự án đối với bảng giá vốn và khách hàng đối với bảng giá bán. Chi phí sản xuất và giá bán được xác định từ các bảng giá này trên các dự án được liên kết với thực thể bán hàng.  
+ **Sao chép dự toán dự án**: Khi bạn sao chép giữa các dòng dự toán của dự án, bảng giá được cập nhật dựa trên đơn vị sở hữu của dự án đối với bảng giá vốn và khách hàng đối với bảng giá bán. Chi phí sản xuất và giá bán được xác định từ các bảng giá này trên các dự án được liên kết với thực thể bán hàng.  
   
- **Sao chép một nhóm dự án** : Khi bạn sao chép nhóm dự án từ mẫu sang một dự án, các nguồn lực chung được sao chép cùng với các kỹ năng và mức độ thành thạo được xác định trong mẫu. Việc phân công nguồn lực chung cũng được duy trì như trong mẫu dự án.  
+ **Sao chép một nhóm dự án**: Khi bạn sao chép nhóm dự án từ mẫu sang một dự án, các nguồn lực chung được sao chép cùng với các kỹ năng và mức độ thành thạo được xác định trong mẫu. Việc phân công nguồn lực chung cũng được duy trì như trong mẫu dự án.  
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)

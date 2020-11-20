@@ -1,21 +1,21 @@
 ---
-title: Mô tả cơ hội dựa trên dự án (Dự án)
+title: Mô tả cơ hội dựa trên dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về mô tả cơ hội dựa trên dự án. (Dự án)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087033"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181051"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Mô tả cơ hội dựa trên dự án (Dự án)
+# <a name="project-based-opportunity-lines---lite"></a>Mô tả cơ hội dựa trên dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -25,7 +25,7 @@ Mô tả cơ hội dựa trên dự án là các mục mô tả sẽ được ph
 
 Dưới đây là các trường trên mô tả cơ hội dựa trên dự án:
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại Sản phẩm | Tab tổng quát (ẩn) | Bạn có thể chọn một trong các tùy chọn sau:</br>- Dịch vụ dựa trên dự án (chỉ khả dụng khi Dynamics 365 Project Operations được cài đặt)</br>- Sản phẩm (chỉ khả dụng khi Project Operations và Dynamics 365 Sales được cài đặt) | Giá trị của trường này được đặt thành **Dịch vụ dựa trên dự án** khi bạn tạo mô tả cơ hội dựa trên dự án từ lưới mô tả dựa trên dự án trên mục Cơ hội. <br> Nếu bạn thay đổi hoặc ghi đè giá trị này, chức năng dự án sẽ không được bật trên các mục mô tả dựa trên dự án của bạn. |
 | Cơ hội | Tab tổng quát | Trường này ở chế độ chỉ đọc và tham chiếu đến bản ghi Cơ hội chính có chứa mục mô tả này. | Không có tác động xuôi tuyến từ trường này. |

@@ -3,7 +3,7 @@ title: Tạo một cơ hội dự án
 description: Làm cách nào tạo cơ hội dự án trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087300"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133259"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Tạo cơ hội dự án (Project Service)
 
@@ -35,17 +35,17 @@ Cơ hội là bằng chứng thân thiện từ khách hàng quan tâm đến vi
   
 2.  Bấm vào **Mới**.  
   
-3.  Trong vùng **Tóm tắt** , nhập công ty của cơ hội và thông tin khác.  
+3.  Trong vùng **Tóm tắt**, nhập công ty của cơ hội và thông tin khác.  
   
 4.  Thêm bất kỳ ghi chú và các hoạt động (ví dụ, cuộc gọi điện thoại hoặc email) liên quan đến khách hàng tiềm năng này. Để tìm hiểu thêm về cách thêm chú thích và các hoạt động, hãy xem [theo dõi các ghi chú, nhiệm vụ, cuộc gọi hoặc email với các hoạt động](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Để thêm các bên liên quan, trong vùng **Bên liên quan** , bấm vào **+**.  
+5.  Để thêm các bên liên quan, trong vùng **Bên liên quan**, bấm vào **+**.  
   
-6.  Để thêm thành viên nhóm bán hàng, trong vùng **Đội ngũ bán hàng** , bấm vào **+**.  
+6.  Để thêm thành viên nhóm bán hàng, trong vùng **Đội ngũ bán hàng**, bấm vào **+**.  
   
-7.  Để thêm các đối thủ cạnh tranh, trong vùng **Đối thủ cạnh tranh** , bấm vào **+**.  
+7.  Để thêm các đối thủ cạnh tranh, trong vùng **Đối thủ cạnh tranh**, bấm vào **+**.  
   
-8.  Để thêm sản phẩm vào cơ hội, bấm vào **Mới** trong **Mô tả dựa trên sản phẩm** trong vùng **Mô tả cơ hội**. Chọn một mục trong **Tên sản phẩm** , sau đó chỉ định số lượng, giá bán và ngân sách của khách hàng.  
+8.  Để thêm sản phẩm vào cơ hội, bấm vào **Mới** trong **Mô tả dựa trên sản phẩm** trong vùng **Mô tả cơ hội**. Chọn một mục trong **Tên sản phẩm**, sau đó chỉ định số lượng, giá bán và ngân sách của khách hàng.  
   
 9. Để thêm ước tính dự án vào cơ hội, bấm vào **+** trong **Mô tả dựa trên sản phẩm** trong vùng **Mô tả cơ hội**. Nhập tên, số tiền ngân sách và dự án, nếu có sẵn. Nếu bạn cần tạo dự án có cấu trúc phân tích công việc để hiển thị ước tính, xem [Tạo dự án](../psa/create-project.md).  
   

@@ -1,21 +1,21 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của mục mô tả báo giá
+title: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách thiết lập các thành phần có thể tính phí và không thể tính phí trên mục mô tả báo giá dựa trên dự án.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087229"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177132"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Đặt cấu hình các thành phần có thể tính phí của mục mô tả báo giá
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -44,26 +44,26 @@ Khả năng tính phí được xác định trên các danh mục giao dịch c
 
 Một nhiệm vụ dự án có thể là dạng có thể tính phí hoặc không thể tính phí trong bối cảnh một mục mô tả báo giá dựa trên dự án cụ thể, vì vậy, các tổ hợp sau có thể được thiết lập:
 
-Nếu mục mô tả báo giá dựa trên dự án bao gồm **Thời gian** và nhiệm vụ **T1** , thì nhiệm vụ được liên kết với mục mô tả báo giá dưới dạng có thể tính phí. Nếu có mục mô tả báo giá thứ hai bao gồm **Chi phí** , thì bạn có thể liên kết nhiệm vụ **T1** trên mục mô tả báo giá dưới dạng không thể tính phí. Kết quả là toàn bộ thời gian được ghi lại trong nhiệm vụ đều là dạng có thể tính phí và tất cả các chi phí được ghi lại trong nhiệm vụ đều là dạng không thể tính phí.
+Nếu mục mô tả báo giá dựa trên dự án bao gồm **Thời gian** và nhiệm vụ **T1**, thì nhiệm vụ được liên kết với mục mô tả báo giá dưới dạng có thể tính phí. Nếu có mục mô tả báo giá thứ hai bao gồm **Chi phí**, thì bạn có thể liên kết nhiệm vụ **T1** trên mục mô tả báo giá dưới dạng không thể tính phí. Kết quả là toàn bộ thời gian được ghi lại trong nhiệm vụ đều là dạng có thể tính phí và tất cả các chi phí được ghi lại trong nhiệm vụ đều là dạng không thể tính phí.
 
-Bạn có thể đặt cấu hình loại thanh toán của nhiệm vụ trên tab **Nhiệm vụ có thể tính phí** của mục mô tả báo giá dựa trên dự án bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Nhiệm vụ cho mục mô tả báo giá**. Hoặc, bạn có thể cập nhật loại thanh toán cho một nhiệm vụ dự án trong trường **Loại thanh toán** trên lưới con trên nhiệm vụ thiết lập thanh toán của một dự án hiển thị các mục mô tả báo giá được liên kết với một nhiệm vụ.
+Loại thanh toán của nhiệm vụ có thể được đặt cấu hình trên tab **Nhiệm vụ có thể tính phí** của mô tả báo giá dựa trên dự án bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Nhiệm vụ trong mô tả báo giá**. Ngoài ra, bạn có thể cập nhật loại thanh toán cho nhiệm vụ dự án trong trường **Loại thanh toán** trên lưới con khi thiết lập thanh toán cho nhiệm vụ của một dự án hiển thị mô tả báo giá được liên kết với một nhiệm vụ.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Cập nhật vai trò thành dạng có thể tính phí hoặc không thể tính phí
 
 Một vai trò có thể là dạng có thể tính phí hoặc không thể tính phí trong bối cảnh một mục mô tả báo giá dựa trên dự án cụ thể.
 
-Bạn có thể đặt cấu hình loại thanh toán của vai trò trên tab **Vai trò có thể tính phí** của mục mô tả báo giá bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Vai trò có thể tính phí**.
+Loại thanh toán của một vai trò có thể được đặt cấu hình trên tab **Các vai trò có thể tính phí** của mô tả báo giá bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Các vai trò có thể tính phí**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Cập nhật danh mục giao dịch thành dạng có thể tính phí hoặc không thể tính phí
 
 Một danh mục giao dịch có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả báo giá cụ thể.
 
-Bạn có thể đặt cấu hình loại thanh toán của giao dịch trên tab **Danh mục có thể tính phí** của mục mô tả báo giá bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Danh mục có thể tính phí**.
+Loại thanh toán của một giao dịch có thể được đặt cấu hình trên tab **Thể loại có thể tính phí** của mô tả báo giá bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Thể loại có thể tính phí**.
 
 ### <a name="resolve-chargeability"></a>Giải quyết khả năng tính phí
-Giá trị ước tính hoặc thực tế được tạo cho thời gian sẽ chỉ được coi là có thể tính phí nếu **Thời gian** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ** , **Vai trò** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
+Giá trị ước tính hoặc thực tế được tạo cho thời gian sẽ chỉ được coi là có thể tính phí nếu **Thời gian** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ**, **Vai trò** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
 
-Giá trị ước tính hoặc thực tế được tạo cho chi phí sẽ chỉ được coi là có thể tính phí nếu **Chi phí** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ** , **Danh mục giao dịch** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
+Giá trị ước tính hoặc thực tế được tạo cho chi phí sẽ chỉ được coi là có thể tính phí nếu **Chi phí** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ**, **Danh mục giao dịch** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
 
 | Bao gồm thời gian | Bao gồm chi phí | Các tác vụ được đưa vào | Vai trò | Danh mục | Tác vụ | Thanh toán |
 | --- | --- | --- | --- | --- | --- | --- |

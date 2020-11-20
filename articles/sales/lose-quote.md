@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086985"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181838"
 ---
 # <a name="copy-project-based-quotes"></a>Sao chép báo giá dựa trên dự án
 
@@ -21,11 +21,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể dễ dàng tạo Báo giá dự án mới bằng cách sao chép báo giá hiện có. 
 
-- Để sao chép Báo giá dự án, trên trang danh sách **Báo giá dự án** hoặc trang chi tiết **Báo giá dự án** , hãy chọn Báo giá dự án bạn muốn sao chép, sau đó chọn **Sao chép**.
+- Để sao chép Báo giá dự án, trên trang danh sách **Báo giá dự án** hoặc trang chi tiết **Báo giá dự án**, hãy chọn Báo giá dự án bạn muốn sao chép, sau đó chọn **Sao chép**.
 
 Thao tác này sẽ mở ra một trang hộp thoại nơi bạn có thể nhập các tham số của bản sao. Bảng sau liệt kê các trường có trong trang hộp thoại. Tùy thuộc vào các giá trị bạn chọn, quá trình sao chép có thể thay đổi.
 
-| **Trường** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- |
 | Chủ đề | Nhập chủ đề hoặc tên có liên quan của báo giá đích. Khi hộp thoại mở, hệ thống sẽ đặt thành chủ đề của báo giá nguồn với **-sao chép** gắn kèm. | |
 | Khách hàng Tiềm năng | Tham chiếu đến bản ghi công ty hoặc tài khoản của khách hàng. Khi hộp thoại mở, hệ thống sẽ đặt thành khách hàng trên báo giá nguồn. | Trường này là khách hàng chính trên báo giá. |
@@ -33,7 +33,7 @@ Thao tác này sẽ mở ra một trang hộp thoại nơi bạn có thể nhậ
 Khi hộp thoại mở, hệ thống sẽ đặt thành đơn vị ký hợp đồng trên báo giá nguồn. | Đơn vị ký hợp đồng là bộ phận của công ty sẽ thực hiện các dự án sau khi thỏa thuận được chốt. Mỗi đơn vị ký hợp đồng đều có một loại tiền tệ. Đơn vị tiền tệ này được sử dụng để báo cáo chi phí ước tính và thực tế phát sinh trong quá trình thực hiện dự án. |
 | Tiền tệ | Đây là đơn vị tiền tệ mà thỏa thuận được giao dịch. Khi hộp thoại mở, hệ thống sẽ đặt thành đơn vị tiền tệ trên báo giá nguồn. Thao tác này có thể được sửa đổi và nếu được thay đổi, thì trường **Sao chép giá** luôn được đặt thành **Không**. Điều này là do bảng giá trên báo giá nguồn không còn phù hợp nữa. | Đơn vị tiền tệ được sử dụng để mặc định một bảng giá, để xây dựng ước tính tài chính cho bảng báo giá và cuối cùng là để lập hóa đơn cho khách hàng khi thỏa thuận được chốt. |
 | Ngày giao hàng đã yêu cầu | Đây là ngày giao hàng do khách hàng yêu cầu. | Ngày này được sử dụng làm ngày kết thúc khi tạo ngày lập hóa đơn theo một tần suất cụ thể. |
-| Sao chép giá | Giá trị Có/Không cho biết liệu giá trên báo giá có được sao chép từ báo giá nguồn hay không. | Nếu chọn **Có** , các tham chiếu bảng giá dự án và bảng giá sản phẩm được sao chép từ báo giá nguồn sang báo giá đích. Nếu chọn **Không** , bảng giá được mặc định lại dựa trên bảng giá mới nhất đã được thiết lập trên tài khoản hoặc tham số dự án. |
+| Sao chép giá | Giá trị Có/Không cho biết liệu giá trên báo giá có được sao chép từ báo giá nguồn hay không. | Nếu chọn **Có**, các tham chiếu bảng giá dự án và bảng giá sản phẩm được sao chép từ báo giá nguồn sang báo giá đích. Nếu chọn **Không**, bảng giá được mặc định lại dựa trên bảng giá mới nhất đã được thiết lập trên tài khoản hoặc tham số dự án. |
 
 Khi bạn chọn **OK** trên trang hộp thoại, hệ thống tạo một bản sao báo giá dự án dựa trên các tham số được chọn trong hộp thoại. Báo giá dự án mới sẽ mở. 
 

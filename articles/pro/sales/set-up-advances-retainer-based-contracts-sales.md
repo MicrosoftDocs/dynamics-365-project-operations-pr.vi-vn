@@ -1,21 +1,21 @@
 ---
-title: Hợp đồng dựa trên tiền tạm ứng và giữ lại
+title: Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
 description: Chủ đề này cung cấp thông tin về các mô hình hợp đồng dựa trên tiền giữ lại và khoản tạm ứng trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088159"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180893"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Hợp đồng dựa trên tiền tạm ứng và giữ lại 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
@@ -33,7 +33,7 @@ Ngoài lịch trình dựa trên tiền giữ lại định kỳ, Project Operat
 
 Tiền giữ lại trong Project Operations không có sẵn để sử dụng cho đến khi được lập hóa đơn cho khách hàng. Điều này được chỉ ra bởi các trường sau trên lưới con cho các khoản tạm ứng và tiền giữ lại.
 
-| Trường | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- |
 | Số tiền khả dụng | Số tiền có sẵn được sử dụng trên hồ sơ khoản tạm ứng và tiền giữ lại. | Cho đến khi được lập hóa đơn, khoản tạm ứng hoặc tiền giữ lại sẽ không được sử dụng có nghĩa là số tiền khả dụng sẽ bằng không. |
 | Số tiền đã dùng | Số tiền đã được sử dụng trên hồ sơ khoản tạm ứng và tiền giữ lại. | Khoản tạm ứng hoặc tiền giữ lại có thể được đối chiếu một phần trên hóa đơn với chi phí thực tế sẽ có một số phần được đánh dấu là đã sử dụng hoặc đã dùng. Phần còn lại của số tiền tạm ứng hoặc tiền giữ lại có sẵn để đối chiếu trên hóa đơn trong tương lai với chi phí thực tế. |

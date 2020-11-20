@@ -1,33 +1,33 @@
 ---
-title: Thiết lập tỷ lệ thanh toán nhân công
+title: Thiết lập tỷ lệ hóa đơn lao động – bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ thanh toán nhân công trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087170"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181208"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Thiết lập tỷ lệ thanh toán để lập hóa đơn giá nhân công 
+# <a name="set-up-labor-bill-rates---lite"></a>Thiết lập tỷ lệ hóa đơn lao động – bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Mỗi bảng giá có một tập hợp giá theo vai trò hoặc giá nhân công, hiệu quả cho ngữ cảnh và ngày hiệu quả có trên tiêu đề bảng giá. Tỷ giá hóa đơn cho thời gian trong Dynamics 365 Project Operations chỉ có thể được thiết lập bằng một đơn vị tiền tệ, là đơn vị tiền tệ trên tiêu đề Bảng giá.
 
 1. Để thiết lập tỷ lệ hóa đơn nhân công cho một bảng giá bán hàng, hãy tạo một bảng giá dựa trên tiêu đề bảng giá. 
-2. Trên tab **Giá theo vai trò** , trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
-3. Trên ngăn **Tạo nhanh** , nhập tổ hợp vai trò và đơn vị tổ chức mà bạn cần thiết lập tỷ lệ thanh toán.
+2. Trên tab **Giá theo vai trò**, trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
+3. Trên ngăn **Tạo nhanh**, nhập tổ hợp vai trò và đơn vị tổ chức mà bạn cần thiết lập tỷ lệ thanh toán.
 
   Bảng sau bao gồm các trường trên tab **Tổng quát** và ngăn **Tạo nhanh** của mô tả giá theo vai trò mà bạn cần lưu ý khi tạo giá theo vai trò trên bảng giá bán hoặc bảng giá bán hàng:
 
-  | Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+  | Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
   | --- | --- | --- | --- |
   | Vai trò | Tab **Tổng quát** và ngăn **Tạo nhanh** | Chọn vai trò mà bạn đang đặt tỷ lệ thanh toán. | Vai trò trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định tỷ lệ thanh toán của vai trò. |
   | Đơn vị Nguồn lực | Tab **Tổng quát** và ngăn **Tạo nhanh** | Chọn đơn vị tổ chức hoặc bộ phận của công ty có vai trò. Ví dụ: một nhà phát triển từ bộ phận Robotics của Fabrikam Ấn Độ hoặc một nhà phát triển từ bộ phận Phần mềm của Fabrikam Hoa Kỳ. | Đơn vị cung cấp nguồn lực trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định tỷ lệ thanh toán của vai trò. |

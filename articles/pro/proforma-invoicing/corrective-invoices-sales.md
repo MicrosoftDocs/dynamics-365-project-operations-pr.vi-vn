@@ -1,21 +1,21 @@
 ---
-title: Tín dụng và hóa đơn được hiệu chỉnh
+title: Hóa đơn được hiệu chỉnh - bản đơn giản
 description: Chủ đề này cung cấp thông tin về hóa đơn được hiệu chỉnh trong Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087219"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176457"
 ---
-# <a name="credits-and-corrected-invoices"></a>Tín dụng và hóa đơn được hiệu chỉnh
+# <a name="corrected-invoices---lite"></a>Hóa đơn được hiệu chỉnh - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -35,7 +35,7 @@ Một hóa đơn nháp mới được tạo từ hóa đơn đã xác nhận. T�
 - Các mục điều hòa số tiền trả trước và tạm ứng có thể được hiệu chỉnh nếu số tiền không chính xác được sử dụng để điều hòa với các khoản phí trên hóa đơn đã xác nhận trước đây.
 
 > [!IMPORTANT]
-> Đối với các chi tiết mô tả hóa đơn là phần hiệu chỉnh cho các khoản phí đã được lập hóa đơn khác, trường **Sửa chữa** tương ứng được đặt thành **Có**. Các hóa đơn được hiệu chỉnh chi tiết mô tả hóa đơn sẽ có một trường **Có nội dung điều chỉnh** , trường đó cũng được đặt thành **Có**.
+> Đối với các chi tiết mô tả hóa đơn là phần hiệu chỉnh cho các khoản phí đã được lập hóa đơn khác, trường **Sửa chữa** tương ứng được đặt thành **Có**. Các hóa đơn được hiệu chỉnh chi tiết mô tả hóa đơn sẽ có một trường **Có nội dung điều chỉnh**, trường đó cũng được đặt thành **Có**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Các giá trị thực tế sẽ được tạo khi Xác nhận hóa đơn hiệu chỉnh:
 

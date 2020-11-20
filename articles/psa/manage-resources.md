@@ -3,7 +3,7 @@ title: Quản lý nguồn lực
 description: Chủ đề này cung cấp thông tin về cách bạn có thể quản lý nguồn lực.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087309"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132359"
 ---
 # <a name="manage-resources"></a>Quản lý nguồn lực
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Service Automation bao gồm một bảng thông tin cho ng
 - **Thời gian làm việc tính phí cho tuần qua** – Biểu đồ **Thời gian làm việc theo vai trò** hiển thị tỷ lệ thời gian làm việc tính phí thực tế của tổ chức theo vai trò so với thời gian làm việc tính phí mục tiêu của tổ chức theo vai trò.
 
     > [!NOTE]
-    > Để chia sẻ biểu đồ **Thời gian làm việc theo vai trò** , hãy tạo một công việc chạy quy trình làm việc UpdateRoleUtilization. Công việc định kỳ này chạy 7 ngày 1 lần để tính thời gian làm việc tính phí cho 7 ngày trước đó. Kết quả được tổng hợp theo vai trò.
+    > Để chia sẻ biểu đồ **Thời gian làm việc theo vai trò**, hãy tạo một công việc chạy quy trình làm việc UpdateRoleUtilization. Công việc định kỳ này chạy 7 ngày 1 lần để tính thời gian làm việc tính phí cho 7 ngày trước đó. Kết quả được tổng hợp theo vai trò.
 
 ## <a name="manage-project-team-members"></a>Quản lý thành viên nhóm dự án
 
@@ -44,11 +44,11 @@ Người quản lý dự án có thể dùng bảng thông tin cho người qu�
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Thêm trực tiếp thành viên nhóm vào một dự án
 
-Để thêm trực tiếp một thành viên nhóm vào dự án, trên trang **Dự án** , trên tab **Nhóm** , hãy chọn **Mới**. Hộp thoại **Tạo nhanh: Thành viên nhóm dự án** xuất hiện. Trong hộp thoại này, bạn có thể thực hiện các tác vụ sau:
+Để thêm trực tiếp một thành viên nhóm vào dự án, trên trang **Dự án**, trên tab **Nhóm**, hãy chọn **Mới**. Hộp thoại **Tạo nhanh: Thành viên nhóm dự án** xuất hiện. Trong hộp thoại này, bạn có thể thực hiện các tác vụ sau:
 
-- **Đặt một nguồn lực có tên** – Trong trường **Nguồn lực có thể đăng ký** , hãy chọn tên nguồn lực. Sau đó, chọn vai trò, thiết lập khoảng thời gian rồi chọn một phương pháp phân bổ. Nguồn lực có tên mà bạn đã chọn được thêm vào dự án bằng phương pháp phân bổ đã chọn và lịch nguồn lực.
-- **Thêm nguồn lực chung** – Để trống trường **Tài nguyên có thể đăng ký** , sau đó chọn vai trò, chọn khoảng thời gian rồi chọn phương pháp phân bổ ưa thích. Nguồn lực chung được thêm vào nhóm ở dạng chỗ dành sẵn để giữ mẫu nhu cầu dùng để đặt nguồn lực có tên trong nhóm. Yêu cầu được thực hiện theo lịch dự án.
-- **Thêm nguồn lực có tên vào nhóm mà không dùng năng lực của nguồn lực** – Trong trường **Nguồn lực có thể đăng ký** , hãy chọn một nguồn lực. Sau đó, chọn khoảng thời gian rồi chọn **Không** làm phương pháp phân bổ. Nguồn lực được thêm vào nhóm nhưng năng lực của nguồn lực không bị hao tốn khi đăng ký.
+- **Đặt một nguồn lực có tên** – Trong trường **Nguồn lực có thể đăng ký**, hãy chọn tên nguồn lực. Sau đó, chọn vai trò, thiết lập khoảng thời gian rồi chọn một phương pháp phân bổ. Nguồn lực có tên mà bạn đã chọn được thêm vào dự án bằng phương pháp phân bổ đã chọn và lịch nguồn lực.
+- **Thêm nguồn lực chung** – Để trống trường **Tài nguyên có thể đăng ký**, sau đó chọn vai trò, chọn khoảng thời gian rồi chọn phương pháp phân bổ ưa thích. Nguồn lực chung được thêm vào nhóm ở dạng chỗ dành sẵn để giữ mẫu nhu cầu dùng để đặt nguồn lực có tên trong nhóm. Yêu cầu được thực hiện theo lịch dự án.
+- **Thêm nguồn lực có tên vào nhóm mà không dùng năng lực của nguồn lực** – Trong trường **Nguồn lực có thể đăng ký**, hãy chọn một nguồn lực. Sau đó, chọn khoảng thời gian rồi chọn **Không** làm phương pháp phân bổ. Nguồn lực được thêm vào nhóm nhưng năng lực của nguồn lực không bị hao tốn khi đăng ký.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Đăng ký một thành viên nhóm để thực hiện các yêu cầu nguồn lực cho nguồn lực chung
 
@@ -56,23 +56,23 @@ Trong PSA, bạn có thể đăng ký một nguồn lực chung trên nhóm dự
 
 Hãy làm theo các bước sau để chỉ định kỹ năng cần thiết trên nguồn lực chung cho nhà phát triển.
 
-1. Trên trang **Dự án** , trên tab **Nhóm** , hãy chọn **Mới** để đăng ký nguồn lực chung.
+1. Trên trang **Dự án**, trên tab **Nhóm**, hãy chọn **Mới** để đăng ký nguồn lực chung.
 
     ![Nguồn lực chung đã đăng ký trong nhóm](media/Resource-Management-image9.png)
 
-2. Trong dạng xem **Tất cả thành viên nhóm** , trong cột **Yêu cầu nguồn lực** , hãy chọn liên kết để thêm kỹ năng cần thiết cho nguồn lực chung.
+2. Trong dạng xem **Tất cả thành viên nhóm**, trong cột **Yêu cầu nguồn lực**, hãy chọn liên kết để thêm kỹ năng cần thiết cho nguồn lực chung.
 
     ![Liên kết yêu cầu](media/Resource-Management-image10.png)
 
-3. Trên trang **Yêu cầu nguồn lực** xuất hiện, trong lưới **Kỹ năng** , hãy chọn dấu chấm lửng ( **...** ), sau đó chọn **Thêm đặc điểm yêu cầu mới** để thêm các kỹ năng cần thiết cho nhà phát triển của bạn.
+3. Trên trang **Yêu cầu nguồn lực** xuất hiện, trong lưới **Kỹ năng**, hãy chọn dấu chấm lửng (**...**), sau đó chọn **Thêm đặc điểm yêu cầu mới** để thêm các kỹ năng cần thiết cho nhà phát triển của bạn.
 
     ![Lệnh Thêm đặc điểm yêu cầu mới](media/Resource-Management-image11.png)
 
-4. Trong hộp thoại **Tạo nhanh: Đặc điểm yêu cầu** xuất hiện, trong trường **Đặc điểm** , chọn kỹ năng cần thiết. Sau đó, trong trường **Giá trị xếp hạng** , hãy chọn mức độ thành thạo cho kỹ năng đó. Cuối cùng, trong trường **Yêu cầu nguồn lực** , hãy đặt yêu cầu thành nguồn lực nguồn từ đơn vị tổ chức hoặc thậm chí là nguồn lực có tên. Sau khi hoàn tất, hãy chọn **Lưu**.
+4. Trong hộp thoại **Tạo nhanh: Đặc điểm yêu cầu** xuất hiện, trong trường **Đặc điểm**, chọn kỹ năng cần thiết. Sau đó, trong trường **Giá trị xếp hạng**, hãy chọn mức độ thành thạo cho kỹ năng đó. Cuối cùng, trong trường **Yêu cầu nguồn lực**, hãy đặt yêu cầu thành nguồn lực nguồn từ đơn vị tổ chức hoặc thậm chí là nguồn lực có tên. Sau khi hoàn tất, hãy chọn **Lưu**.
 
     ![Hộp thoại Tạo nhanh: Đặc điểm yêu cầu](media/Resource-Management-image12.png)
 
-5. Trên trang **Yêu cầu nguồn lực** , hãy chọn **Đăng ký** để thực hiện yêu cầu nguồn lực.
+5. Trên trang **Yêu cầu nguồn lực**, hãy chọn **Đăng ký** để thực hiện yêu cầu nguồn lực.
 
     ![Nút Đăng ký trên trang Yêu cầu nguồn lực](media/Resource-Management-image13.png)
 
@@ -83,7 +83,7 @@ Hãy làm theo các bước sau để chỉ định kỹ năng cần thiết tr�
     > [!NOTE]
     > Trong ví dụ này, có 40 giờ yêu cầu nhưng không có giờ đã đăng ký thực tế vì nguồn lực chung không có đăng ký. Ngoài ra, không có giờ được gán, vì nguồn lực chung được thêm trực tiếp vào nhóm. Nguồn lực không được thêm bằng cách phân công nhiệm vụ.
 
-    Trên trang **Trợ lý lập lịch biểu** , bạn có thể lọc các nguồn lực có sẵn theo yêu cầu được chỉ định trên yêu cầu nguồn lực. Nguồn lực được sắp xếp theo các tham số sắp xếp đã chỉ định trên Bảng lịch trình.
+    Trên trang **Trợ lý lập lịch biểu**, bạn có thể lọc các nguồn lực có sẵn theo yêu cầu được chỉ định trên yêu cầu nguồn lực. Nguồn lực được sắp xếp theo các tham số sắp xếp đã chỉ định trên Bảng lịch trình.
 
     ![Trang Trợ lý lập lịch biểu](media/Resource-Management-image15.png)
 
@@ -120,11 +120,11 @@ Hãy làm theo các bước sau để chỉ định kỹ năng cần thiết tr�
 
 Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn lực chung cho các nhiệm vụ đó. Bằng cách này, nhu cầu nguồn lực có thể được chỗ dành sẵn đại diện khi bạn ước tính số tài chính và lịch trình của mình. Sau đó, bạn có thể tạo yêu cầu nguồn lực cho nguồn lực chung và thực hiện các yêu cầu đó.
 
-1. Trên trang **Dự án** , trên tab **Lịch trình** , hãy chọn **Thêm** để tạo nhiệm vụ.
+1. Trên trang **Dự án**, trên tab **Lịch trình**, hãy chọn **Thêm** để tạo nhiệm vụ.
 
     ![Nhiệm vụ mới được tạo](media/Resource-Management-image21.png)
 
-2. Trong trường **Nguồn lực** , hãy chọn biểu tượng **Bộ chọn nguồn lực**. Bộ chọn nguồn lực xuất hiện và hiển thị thành viên nhóm hiện tại cho dự án.
+2. Trong trường **Nguồn lực**, hãy chọn biểu tượng **Bộ chọn nguồn lực**. Bộ chọn nguồn lực xuất hiện và hiển thị thành viên nhóm hiện tại cho dự án.
 
     ![Bộ chọn nguồn lực](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn
 
     ![Tên của nguồn lực chung mới đã tạo](media/Resource-Management-image23.png)
 
-4. Trong hộp thoại **Tạo nhanh: Thành viên nhóm dự án** xuất hiện, trong trường **Vai trò** , hãy chọn vai trò cho nguồn lực chung. Trong trường **Đơn vị nguồn lực** , hãy chọn đơn vị tổ chức cho nguồn lực chung. Tiếp đó, chọn **Lưu**.
+4. Trong hộp thoại **Tạo nhanh: Thành viên nhóm dự án** xuất hiện, trong trường **Vai trò**, hãy chọn vai trò cho nguồn lực chung. Trong trường **Đơn vị nguồn lực**, hãy chọn đơn vị tổ chức cho nguồn lực chung. Tiếp đó, chọn **Lưu**.
 
     ![Hộp thoại Tạo nhanh: Thành viên nhóm dự án](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn
 
     ![Thành viên nhóm chung được phân công cho nhiệm vụ](media/Resource-Management-image25.png)
 
-    Trên tab **Nhóm** , bạn sẽ thấy thành viên nhóm chung mới. Lưu ý rằng nó chỉ có giờ được phân công. Các giờ này là tổng tất cả nhiệm vụ được phân công cho thành viên nhóm chung. Thành viên nhóm chung chưa có giờ yêu cầu hoặc yêu cầu nguồn lực.
+    Trên tab **Nhóm**, bạn sẽ thấy thành viên nhóm chung mới. Lưu ý rằng nó chỉ có giờ được phân công. Các giờ này là tổng tất cả nhiệm vụ được phân công cho thành viên nhóm chung. Thành viên nhóm chung chưa có giờ yêu cầu hoặc yêu cầu nguồn lực.
 
     ![Thành viên nhóm chung trên tab Nhóm](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn
 
     Khi đã hoàn tất việc phân công nguồn lực chung cho các nhiệm vụ, bạn có thể tạo yêu cầu nguồn lực cho nguồn lực chung.
 
-5. Trên tab **Nhóm** , hãy chọn nguồn lực chung rồi chọn **Tạo yêu cầu**.
+5. Trên tab **Nhóm**, hãy chọn nguồn lực chung rồi chọn **Tạo yêu cầu**.
 
     ![Lệnh Tạo yêu cầu](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn
 
     ![Nguồn lực chung được thay thế bằng nguồn lực có tên](media/Resource-Management-image30.png)
 
-    Trên tab **Lịch trình** , phân công nguồn lực chung bị xóa và thay thế bằng nguồn lực có tên.
+    Trên tab **Lịch trình**, phân công nguồn lực chung bị xóa và thay thế bằng nguồn lực có tên.
 
     ![Phân công nguồn lực chung được thay thế bằng nguồn lực có tên trên tab Lịch trình](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ Trong PSA, bạn có thể tạo các nhiệm vụ, sau đó phân công nguồn
 
     ![Nguồn lực thứ hai](media/Resource-Management-image35.png)
 
-    Trên tab **Nhóm** , bạn hiện có thể thấy nguồn lực chung không có giờ yêu cầu, nhưng giờ được phân công vẫn xuất hiện cùng với 2 nguồn lực có tên thực hiện.
+    Trên tab **Nhóm**, bạn hiện có thể thấy nguồn lực chung không có giờ yêu cầu, nhưng giờ được phân công vẫn xuất hiện cùng với 2 nguồn lực có tên thực hiện.
 
     ![2 nguồn lực có tên trên tab Nhóm](media/Resource-Management-image36.png)
 
-    Trên tab **Lịch trình** , nguồn lực chung vẫn được phân công cho nhiệm vụ.
+    Trên tab **Lịch trình**, nguồn lực chung vẫn được phân công cho nhiệm vụ.
 
     ![Nguồn lực chung trên tab Lịch trình](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Do đó, trong các trường hợp này, người quản lý dự án phụ tr�
 
 Sau khi yêu cầu nguồn lực được tạo, người quản lý dự án hoặc người quản lý nguồn lực có thể muốn chỉnh sửa thông tin chi tiết để tinh chỉnh tiêu chí tìm kiếm khi Bảng lịch trình được dùng. Để chỉnh sửa yêu cầu nguồn lực, hãy làm theo các bước sau.
 
-1. Trên trang **Dự án** , trên tab **Nhóm** , hãy chọn liên kết đến bất kỳ yêu cầu nào trên nguồn lực chung.
+1. Trên trang **Dự án**, trên tab **Nhóm**, hãy chọn liên kết đến bất kỳ yêu cầu nào trên nguồn lực chung.
 2. Trên trang **Yêu cầu nguồn lực** xuất hiện, bạn có thể cập nhật một số thuộc tính. Dưới đây là một số ví dụ:
 
     - Tên
@@ -206,7 +206,7 @@ Sau khi yêu cầu nguồn lực được tạo, người quản lý dự án ho
     - Khoảng thời gian
     - Loại Nguồn lực
 
-Trên trang **Yêu cầu nguồn lực** , người quản lý dự án hoặc người quản lý nguồn lực cũng có thể xác định thông tin sau:
+Trên trang **Yêu cầu nguồn lực**, người quản lý dự án hoặc người quản lý nguồn lực cũng có thể xác định thông tin sau:
 
 - Kỹ năng
 - Vai trò
@@ -217,7 +217,7 @@ Trên trang **Yêu cầu nguồn lực** , người quản lý dự án hoặc n
 
 Sau khi thêm nguồn lực chung hoặc có tên vào nhóm dự án, bạn có thể thay đổi đăng ký của nguồn lực.
 
-1. Trên trang **Dự án** , trên tab **Nhóm** , hãy chọn thành viên nhóm rồi chọn **Duy trì đăng ký**.
+1. Trên trang **Dự án**, trên tab **Nhóm**, hãy chọn thành viên nhóm rồi chọn **Duy trì đăng ký**.
 
     ![Bảng lịch trình mở cho thành viên nhóm đã chọn](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Chọn **Chấp nhận tất cả đề xuất** để chấp nhận tất cả 
 
 Đôi khi, người quản lý dự án phải thay thế một thành viên nhóm đã đăng ký trên một dự án.
 
-1. Trong trang **Dự án** , trên tab **Nhóm** , hãy chọn nguồn lực cần thay thế rồi chọn **Duy trì đăng ký**.
+1. Trong trang **Dự án**, trên tab **Nhóm**, hãy chọn nguồn lực cần thay thế rồi chọn **Duy trì đăng ký**.
 2. Bung rộng nguồn lực để xem các dự án mà nguồn lực này được phân công.
 
     ![Nguồn lực được bung rộng để hiển thị các dự án được phân công](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Khi bạn thấy thời gian ở các mức cao hơn, các ô trong tab **Điề
 
 ![Chỉ báo khác biệt](media/Resource-Management-image57.png)
 
-Nếu bạn có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, trên trang **Dự án** , trên tab **Điều hòa** , hãy chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký**. Hộp thoại **Mở rộng đăng ký** xuất hiện và hiển thị đăng ký cần thiết để khắc phục tình trạng thiếu của nguồn lực. Hộp thoại này cũng hiển thị đăng ký hiện có của nguồn lực trên tất cả dự án hoặc các thực thể có thể lập lịch khác. Nếu chọn **OK** để tạo đăng ký cho nguồn lực, bất kể trạng thái rảnh/bận của nguồn lực, bạn có thể gây ra tình trạng đăng ký vượt mức.
+Nếu bạn có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, trên trang **Dự án**, trên tab **Điều hòa**, hãy chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký**. Hộp thoại **Mở rộng đăng ký** xuất hiện và hiển thị đăng ký cần thiết để khắc phục tình trạng thiếu của nguồn lực. Hộp thoại này cũng hiển thị đăng ký hiện có của nguồn lực trên tất cả dự án hoặc các thực thể có thể lập lịch khác. Nếu chọn **OK** để tạo đăng ký cho nguồn lực, bất kể trạng thái rảnh/bận của nguồn lực, bạn có thể gây ra tình trạng đăng ký vượt mức.
 
 ![Hộp thoại Mở rộng đăng ký](media/Resource-Management-image58.png)
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087005"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180623"
 ---
 # <a name="set-up-labor-cost-rates"></a>Thiết lập tỷ lệ chi phí lao động
 
@@ -22,13 +22,13 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Mỗi bảng giá có một tập hợp giá nhân công (giá theo vai trò) phù hợp với ngữ cảnh và ngày hiệu quả của bảng giá.
 
-1. Tạo bảng giá trên tab **Giá theo vai trò** , trong lưới con, chọn **Vai trò mới**.
-2. Trên trang **Tạo nhanh** , chọn vai trò và đơn vị tổ chức.
+1. Tạo một bảng giá và trên tab **Giá vai trò**, trong lưới con, hãy chọn **Vai trò mới**.
+2. Trên trang **Tạo nhanh**, chọn vai trò và đơn vị tổ chức.
 3. Nhập mọi thông tin vào các trường bắt buộc khác.
 
 Bảng sau đây bao gồm một số trường quan trọng khi tạo giá nhân công trên bảng giá vốn.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Vai trò | Tab **Tổng quát** và trang **Tạo nhanh** | Chọn vai trò áp dụng tỷ lệ chi phí. | Vai trò trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định chi phí của vai trò. |
 | Công ty cung cấp nguồn lực | Tab **Tổng quát** và trang **Tạo nhanh** | Chọn pháp nhân được gán vai trò. Ví dụ: một nhà phát triển từ Fabrikam Ấn Độ hoặc một nhà phát triển từ Fabrikam Hoa Kỳ. | Công ty cung cấp nguồn lực trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định tỷ lệ chi phí của vai trò. |

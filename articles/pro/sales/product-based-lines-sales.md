@@ -1,21 +1,21 @@
 ---
-title: Mô tả cơ hội dựa trên sản phẩm
+title: Mô tả cơ hội dựa trên sản phẩm - bản đơn giản
 description: Chủ đề này cung cấp thông tin về mục mô tả cơ hội dựa trên sản phẩm trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087034"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176366"
 ---
-# <a name="product-based-opportunity-lines"></a>Mô tả cơ hội dựa trên sản phẩm
+# <a name="product-based-opportunity-lines---lite"></a>Mô tả cơ hội dựa trên sản phẩm - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -25,4 +25,4 @@ Mô tả dựa trên sản phẩm có thể là các mục trong danh mục ho�
 
 Một khái niệm về mô tả cơ hội dựa trên sản phẩm cụ thể cho các cơ hội dựa trên dự án là **Ngân sách khách hàng**. Sử dụng trường này để theo dõi số tiền khách hàng sẵn sàng trả cho mục mô tả.
 
-Nếu phương pháp doanh thu của tóm tắt Cơ hội được đặt thành **Hệ thống tính toán** , các giá trị ngân sách khách hàng trên mô tả dựa trên sản phẩm và dựa trên dự án được tóm tắt để tính doanh thu ước tính.
+Nếu phương pháp doanh thu của tóm tắt Cơ hội được đặt thành **Hệ thống tính toán**, các giá trị ngân sách khách hàng trên mô tả dựa trên sản phẩm và dựa trên dự án được tóm tắt để tính doanh thu ước tính.

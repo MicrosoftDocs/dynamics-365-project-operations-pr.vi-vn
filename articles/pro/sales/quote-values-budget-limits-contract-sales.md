@@ -1,21 +1,21 @@
 ---
-title: Thông tin tóm tắt về báo giá dự án (Bán hàng)
+title: Thông tin tóm tắt về báo giá dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về thông tin và cài đặt áp dụng và tác động đến báo giá dự án. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087039"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180983"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Thông tin tóm tắt về báo giá dự án (Bán hàng)
+# <a name="summary-information-on-a-project-quote---lite"></a>Thông tin tóm tắt về báo giá dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -23,7 +23,7 @@ Bài viết này giải thích thông tin áp dụng cho báo giá dự án. Đi
 
 Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ báo giá Dynamics 365 Sales.
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại | Tab Tóm tắt (ẩn) | Trường bộ tùy chọn này có các tùy chọn sau:</br>- Dựa trên công việc (chỉ khả dụng khi Project Operations được cài đặt)</br>- Dựa trên mục (chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- Dựa trên bảo trì dịch vụ (có sẵn khi Dynamics 365 Field Service được cài đặt) | Khi bạn sử dụng ứng dụng Project Operations, giá trị của trường này tự động được đặt thành **Dựa trên công việc**. Điều này phân loại báo giá là báo giá dựa trên dự án. Báo giá phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án. |
 | Khách hàng Tiềm năng | Tab Tóm tắt | Tham chiếu đến bản ghi công ty hoặc tài khoản của khách hàng. Khi báo giá tạo từ một cơ hội, trường này được sao chép từ trường tương ứng trên mục cơ hội. | Đơn vị tiền tệ trên báo giá dự án được mặc định dựa trên đơn vị tiền tệ của khách hàng. Tuy nhiên, có thể thay đổi đơn vị tiền tệ trước khi lưu báo giá. |
@@ -36,7 +36,7 @@ Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự 
 
 Dưới đây là các tab và KPI có sẵn trên báo giá dự án dành riêng cho Project Operations hoặc có một số thay đổi quan trọng trong hành vi từ báo giá Bán hàng:
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** |
+| **Trường** | **Vị trí** | **Mô tả** |
 | --- | --- | --- |
 | Phân tích suất sinh lợi | Tab trên Báo giá | Tab hiển thị các số liệu sau đây:</br>- Tổng chi phí có thể tính phí</br></br>- Tổng chi phí không thể tính phí</br>- Tổng doanh thu</br>- Tổng doanh thu (gốc)</br>- Lãi gộp</br>- Lãi gộp đã điều chỉnh|
 | So sánh với Kỳ vọng của Khách hàng | Tab trên Báo giá | Tab này hiển thị các số liệu sau đây:</br>- Hoàn thành ước tính</br>- Hoàn thành đã yêu cầu</br>- Ngân sách khách hàng</br>- Giá trị báo giá |

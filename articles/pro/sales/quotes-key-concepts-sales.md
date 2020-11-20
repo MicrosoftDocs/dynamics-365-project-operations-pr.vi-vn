@@ -1,21 +1,21 @@
 ---
-title: Khái niệm chính về báo giá của dự án
+title: Báo giá - Khái niệm chính - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách sử dụng báo giá dự án trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087032"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178032"
 ---
-# <a name="project-quote-key-concepts"></a>Khái niệm chính về báo giá của dự án
+# <a name="quotes---key-concepts---lite"></a>Báo giá - Khái niệm chính - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -78,7 +78,7 @@ Thỏa thuận nhiều khách hàng xảy ra khi có nhiều hơn một khách h
 
 ## <a name="invoice-schedules"></a>Lịch trình hóa đơn
 
-Lịch trình hóa đơn dành riêng cho từng mô tả báo giá và không bắt buộc. Lịch trình hóa đơn được tạo dựa trên ngày bắt đầu và ngày kết thúc nhất định và tần suất lập hóa đơn. Lịch trình hóa đơn được sử dụng trong giai đoạn hợp đồng khi quy trình tạo hóa đơn tự động được đặt cấu hình. Trong giai đoạn báo giá, lịch trình là không bắt buộc. Khi lịch trình hóa đơn được tạo ở giai đoạn **Báo giá** , chúng được sao chép vào hợp đồng dự án tạo khi báo giá dự án được chốt.
+Lịch trình hóa đơn dành riêng cho từng mô tả báo giá và không bắt buộc. Lịch trình hóa đơn được tạo dựa trên ngày bắt đầu và ngày kết thúc nhất định và tần suất lập hóa đơn. Lịch trình hóa đơn được sử dụng trong giai đoạn hợp đồng khi quy trình tạo hóa đơn tự động được đặt cấu hình. Trong giai đoạn báo giá, lịch trình là không bắt buộc. Khi lịch trình hóa đơn được tạo ở giai đoạn **Báo giá**, chúng được sao chép vào hợp đồng dự án tạo khi báo giá dự án được chốt.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Những thay đổi từ báo giá Dynamics 365 Sales:
 

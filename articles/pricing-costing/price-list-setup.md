@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088165"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180218"
 ---
 # <a name="set-up-price-lists"></a>Thiết lập bảng giá
 
@@ -23,20 +23,20 @@ Bảng giá trong Dynamics 365 Project Operations biểu thị một danh mục 
 
 Các phần mở rộng sau đây dành riêng cho Project Operations và được áp dụng cho bảng giá từ Dynamics 365 Sales.
 
-- **Bối cảnh** : Trường này có các giá trị được hỗ trợ, **Chi phí** và **Bán hàng**. Giá trị **Mua hàng** không được hỗ trợ. Đặt ngữ cảnh thành **Chi phí** để lập bảng giá vốn hoặc đặt ngữ cảnh thành **Bán hàng** cho bảng giá bán hàng. Bảng giá vốn giải quyết giá cho loại chi phí trên hồ sơ ước tính và thực tế. Bảng giá bán hàng giải quyết giá trên hồ sơ ước tính và thực tế của các loại bán hàng chưa lập hóa đơn và đã lập hóa đơn.
-- **Đơn vị thời gian** : Đây là đơn vị thời gian mặc định mà giá được thiết lập trong bảng **Giá theo vai trò** cho bảng giá này.
-- **Thực thể bảng giá** : Trường ẩn này là của Project Operations để phân biệt các bảng giá là báo giá hoặc theo hợp đồng cụ thể với các bảng giá tiêu chuẩn và có thể áp dụng trên toàn cầu.
+- **Bối cảnh**: Trường này có các giá trị được hỗ trợ, **Chi phí** và **Bán hàng**. Giá trị **Mua hàng** không được hỗ trợ. Đặt ngữ cảnh thành **Chi phí** để lập bảng giá vốn hoặc đặt ngữ cảnh thành **Bán hàng** cho bảng giá bán hàng. Bảng giá vốn giải quyết giá cho loại chi phí trên hồ sơ ước tính và thực tế. Bảng giá bán hàng giải quyết giá trên hồ sơ ước tính và thực tế của các loại bán hàng chưa lập hóa đơn và đã lập hóa đơn.
+- **Đơn vị thời gian**: Đây là đơn vị thời gian mặc định mà giá được thiết lập trong bảng **Giá theo vai trò** cho bảng giá này.
+- **Thực thể bảng giá**: Trường ẩn này là của Project Operations để phân biệt các bảng giá là báo giá hoặc theo hợp đồng cụ thể với các bảng giá tiêu chuẩn và có thể áp dụng trên toàn cầu.
 
 ## <a name="price-list-header"></a>Tiêu đề bảng giá
 
 Bảng sau bao gồm các trường trên tab **Tổng quát** của bảng giá dành riêng cho Project Operations hoặc có những thay đổi đáng kể về hành vi từ bảng giá trong Bán hàng.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Tên | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Danh tính của bảng giá. | Bảng giá được hiển thị với giá trị này trên tất cả các trang danh sách và các tùy chọn thả xuống.|
 | Ngữ cảnh | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này có thể được đặt thành **Chi phí** hoặc **Bán hàng**. | Bảng giá được đặt thành **Chi phí** dùng để tra cứu giá cho ước tính chi phí và chi phí thực tế. Bảng giá được đặt thành **Bán hàng** dùng để tra cứu giá cho ước tính chi phí bán hàng và chi phí thực tế bán hàng. Chỉ các bảng giá có ngữ cảnh được đặt thành **Bán hàng** có thể đính kèm vào bảng giá dự án cho khách hàng, báo giá dự án và hợp đồng dự án. |
-| Ngày bắt đầu | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Ngày bắt đầu khoảng thời gian có hiệu lực của bảng giá. | Với trường **Ngày cuối** , trường này được sử dụng để xác định bảng giá áp dụng cho một ước tính hoặc dòng thực tế nhất định. |
-| Ngày kết thúc | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Ngày kết thúc khoảng thời gian có hiệu lực của bảng giá. | Với trường **Ngày bắt đầu** , trường này được sử dụng để xác định bảng giá áp dụng cho một ước tính hoặc dòng thực tế nhất định. |
-| Tiền tệ | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị tiền tệ trên mỗi dòng mục vai trò, danh mục hoặc hạng mục trong bảng giá liên quan đến bảng giá này. | Trên bảng giá **Bán hàng** , không thể tạo vai trò, danh mục hoặc dòng hạng mục trong bảng giá bằng bất kỳ đơn vị tiền tệ nào khác ngoài đơn vị tiền tệ này. Trên bảng giá **Chi phí** , bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị tiền tệ nào. Đơn vị tiền tệ được xác định ở đây được sử dụng làm mặc định. Thiết lập người dùng là giá theo vai trò có liên quan có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công bằng bất kỳ đơn vị tiền tệ nào. Chỉ có thể thiết lập tỷ lệ chi phí danh mục và chi phí hạng mục trong bảng giá bằng đơn vị tiền tệ được xác định tại đây. |
-| Đơn vị Thời gian | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị thời gian trên mỗi dòng vai trò liên quan đến bảng giá này. | Giá trị trường này chỉ được sử dụng trên thiết lập giá vai trò liên quan. Trên bảng giá **Chi phí** và **Bán hàng** , bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị thời gian nào. Đơn vị thời gian được xác định ở đây được dùng làm đơn vị mặc định. Giá theo vai trò liên quan đến thiết lập người dùng có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công và tỷ lệ thanh toán bằng bất kỳ đơn vị tiền tệ nào. |
+| Ngày bắt đầu | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Ngày bắt đầu khoảng thời gian có hiệu lực của bảng giá. | Với trường **Ngày cuối**, trường này được sử dụng để xác định bảng giá áp dụng cho một ước tính hoặc dòng thực tế nhất định. |
+| Ngày kết thúc | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Ngày kết thúc khoảng thời gian có hiệu lực của bảng giá. | Với trường **Ngày bắt đầu**, trường này được sử dụng để xác định bảng giá áp dụng cho một ước tính hoặc dòng thực tế nhất định. |
+| Tiền tệ | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị tiền tệ trên mỗi dòng mục vai trò, danh mục hoặc hạng mục trong bảng giá liên quan đến bảng giá này. | Trên bảng giá **Bán hàng**, không thể tạo vai trò, danh mục hoặc dòng hạng mục trong bảng giá bằng bất kỳ đơn vị tiền tệ nào khác ngoài đơn vị tiền tệ này. Trên bảng giá **Chi phí**, bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị tiền tệ nào. Đơn vị tiền tệ được xác định ở đây được sử dụng làm mặc định. Thiết lập người dùng là giá theo vai trò có liên quan có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công bằng bất kỳ đơn vị tiền tệ nào. Chỉ có thể thiết lập tỷ lệ chi phí danh mục và chi phí hạng mục trong bảng giá bằng đơn vị tiền tệ được xác định tại đây. |
+| Đơn vị Thời gian | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị thời gian trên mỗi dòng vai trò liên quan đến bảng giá này. | Giá trị trường này chỉ được sử dụng trên thiết lập giá vai trò liên quan. Trên bảng giá **Chi phí** và **Bán hàng**, bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị thời gian nào. Đơn vị thời gian được xác định ở đây được dùng làm đơn vị mặc định. Giá theo vai trò liên quan đến thiết lập người dùng có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công và tỷ lệ thanh toán bằng bất kỳ đơn vị tiền tệ nào. |
 | Nội dung mô tả | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường văn bản này cho phép bạn cung cấp mô tả nhiều dòng về bảng giá. | Trường này được hiển thị ở các dạng xem **Được liên kết** trên bảng giá trong nhiều thực thể khác nhau có bảng giá liên quan. |

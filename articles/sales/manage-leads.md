@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086966"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181793"
 ---
 # <a name="manage-leads"></a>Quản lý khách hàng tiềm năng
 
@@ -23,7 +23,7 @@ Các khách hàng tiềm năng dựa trên dự án có thể được quản l�
 
 ## <a name="project-sales-leads"></a>Mối khách hàng dự án
 
-Trong phần **Bán hàng** , trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
+Trong phần **Bán hàng**, trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
 
 Bạn có thể tạo chế độ đã lọc để chỉ xem các khách hàng tiềm năng dựa trên dự án bằng cách tạo bộ lọc trên giá trị **Loại**. Ví dụ: bạn có thể chọn chỉ hiển thị khách hàng tiềm năng dựa trên công việc.
 
@@ -38,7 +38,7 @@ Khi khách hàng tiềm năng dựa trên dự án đủ điều kiện, cơ h�
 
 Bảng sau đây bao gồm thông tin trường quan trọng cho khách hàng tiềm năng và các tác động xuôi tuyến của những trường đó.
  
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Chủ đề | Tab tổng quát | Trường văn bản này phải chứa mô tả ngắn gọn về thỏa thuận. | Chủ đề của khách hàng tiềm năng sẽ được mặc định là chủ đề của Cơ hội, Tên báo giá và Hợp đồng dự án. |
 | Loại | Tab tổng quát | Trường bộ tùy chọn này có các tùy chọn sau:</br>- Dựa trên công việc (chỉ khả dụng khi Project Operations được cài đặt)</br>- Dựa trên mục (chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- Dựa trên bảo trì dịch vụ (khả dụng khi Field Service được cài đặt) | Khi giá trị của trường này được đặt thành **Dựa trên công việc** trên khách hàng tiềm năng, khách hàng tiềm năng đủ điều kiện để tạo Cơ hội dựa trên dự án. Cần có cơ hội dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án trong quy trình bán hàng xuôi tuyến cho thỏa thuận này. |
@@ -53,7 +53,7 @@ Khách hàng tiềm năng có giá trị **Loại** được đặt thành **D�
 
 - Tài khoản sử dụng trường **Công ty** từ khách hàng tiềm năng.
 - Bản ghi người liên hệ được liên kết với tài khoản dựa trên các giá trị trong các trường **Tên** và **Họ** trên khách hàng tiềm năng.
-- Cơ hội dựa trên dự án có trường **Loại** đặt thành &quot;**Dựa trên công việc**.
+- Cơ hội dựa trên dự án có trường **Loại** đặt thành **Dựa trên công việc**.
 
 Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem[Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

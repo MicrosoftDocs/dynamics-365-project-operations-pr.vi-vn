@@ -3,7 +3,7 @@ title: Tạo dự án
 description: Làm cách nào để tạo dự án trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133124"
 ---
 # <a name="create-a-project-project-service"></a>Tạo dự án (Project Service)
 
@@ -35,7 +35,7 @@ Tạo dự án bằng chức năng [!INCLUDE[pn_project_service_auto](../include
   
 2.  Bấm vào **Dự án mới**.  
   
-3.  Trong vùng **Tóm tắt** , nhập tên cho dự án của bạn, sau đó điền càng nhiều thông tin chi tiết càng tốt. Các mục được đánh dấu bằng dấu hoa thị (*) màu đỏ là bắt buộc.  
+3.  Trong vùng **Tóm tắt**, nhập tên cho dự án của bạn, sau đó điền càng nhiều thông tin chi tiết càng tốt. Các mục được đánh dấu bằng dấu hoa thị (*) màu đỏ là bắt buộc.  
   
 4.  Bấm vào **Lưu** để tạo dự án để bạn có thể tiếp tục chỉnh sửa.  
   

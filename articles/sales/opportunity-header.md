@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086983"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181253"
 ---
-# <a name="opportunity-headersummary"></a>Tiêu đề/tóm tắt Cơ hội
+# <a name="opportunity-settings"></a>Thiết đặt cơ hội
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
@@ -26,7 +26,7 @@ Cơ hội dựa trên dự án trong Dynamics 365 Project Operations là phần 
 
 Bảng sau đây bao gồm các trường trong cơ hội dựa trên dự án của riêng Project Operations hoặc có một số thay đổi quan trọng trong hành vi so với Cơ hội trong Sales.
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại | Tab tổng quát (ẩn) | Trường bộ tùy chọn này có các tùy chọn sau:</br>- Dựa trên công việc (chỉ khả dụng với Project Operations)</br>- Dựa trên mục (chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- Dựa trên bảo trì dịch vụ (khả dụng khi Field Service được cài đặt) | Khi bạn sử dụng ứng dụng Project Operations, giá trị của trường này tự động được đặt thành **Dựa trên công việc** nhằm phân loại Cơ hội là dựa trên dự án. Cơ hội phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án trong quy trình bán hàng xuôi tuyến cho thỏa thuận này. |
 | Công ty sở hữu | Tab tổng quát | Đây là công ty hoặc pháp nhân sẽ giao dự án cho khách hàng. | Thông tin trường này sẽ được sao chép vào trường tương ứng trên báo giá Dự án được tạo từ Cơ hội này. |

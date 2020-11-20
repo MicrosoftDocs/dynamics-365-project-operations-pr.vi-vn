@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087147"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181523"
 ---
 # <a name="copy-price-lists"></a>Sao chép bảng giá
 
@@ -26,12 +26,12 @@ Bạn có thể tạo bản sao bảng giá trong Dynamics 365 Project Operation
 1. Mở bảng giá mà bạn muốn sao chép và chọn **Sao chép**.
 2. Nhập mọi thông tin cần thiết để sao chép bảng giá. Bảng sau đây trình bày những điểm cần lưu ý khi nhập thông tin.
 
-| Trường | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- |
 | Tên | Tên của bảng giá nguồn kèm theo **- sao chép**. | Bảng giá đưa giá trị này vào tất cả các trang danh sách và tùy chọn thả xuống. |
 | Ngữ cảnh | Nhập bối cảnh mà bạn muốn dùng cho danh sách giá mục tiêu. | Bảng giá có bối cảnh được đặt thành **Chi phí** sẽ được dùng để tra cứu giá cho giá trị ước tính chi phí và chi phí thực tế. Bảng giá có bối cảnh được đặt thành **Bán hàng** sẽ được dùng để tra cứu giá cho giá trị ước tính bán hàng và giá trị bán hàng thực tế. Chỉ các bảng giá có bối cảnh được đặt thành **Bán hàng** mới có thể được đính kèm vào bảng giá dự án cho khách hàng, báo giá hoặc hợp đồng. |
-| Ngày bắt đầu | Ngày bắt đầu khoảng thời gian có hiệu lực của bảng giá. | Cùng với trường **Ngày kết thúc** , trường này được sử dụng để xác định bảng giá nào được áp dụng cho một dòng ước tính hoặc thực tế nhất định. |
-| Ngày kết thúc | Ngày kết thúc khoảng thời gian có hiệu lực của bảng giá. | Cùng với trường **Ngày bắt đầu** , trường này được sử dụng để xác định bảng giá nào được áp dụng cho một dòng ước tính hoặc thực tế nhất định. |
+| Ngày bắt đầu | Ngày bắt đầu khoảng thời gian có hiệu lực của bảng giá. | Cùng với trường **Ngày kết thúc**, trường này được sử dụng để xác định bảng giá nào được áp dụng cho một dòng ước tính hoặc thực tế nhất định. |
+| Ngày kết thúc | Ngày kết thúc khoảng thời gian có hiệu lực của bảng giá. | Cùng với trường **Ngày bắt đầu**, trường này được sử dụng để xác định bảng giá nào được áp dụng cho một dòng ước tính hoặc thực tế nhất định. |
 | Tiền tệ | Đơn vị tiền tệ của bảng giá nguồn. Mục này có thể thay đổi. | Khi mục này được thay đổi, tất cả các mục mô tả giá tạo ra cho nhân công, chi phí và hạng mục danh mục sản phẩm sẽ được chuyển đổi sang đơn vị tiền tệ của bảng giá mục tiêu trong quá trình sao chép. |
 | Đơn vị Thời gian | Đơn vị tiền tệ của bảng giá nguồn. Mục này có thể thay đổi. | Khi mục này được thay đổi, các mục mô tả giá tạo ra cho nhân công, chi phí và hạng mục danh mục sản phẩm sẽ được chuyển đổi sang đơn vị của bảng giá mục tiêu trong quá trình sao chép. Dữ liệu chuyển đổi từ phần thiết lập đơn vị cho đơn vị thời gian bảng giá nguồn và đơn vị thời gian bảng giá mục tiêu sẽ được sử dụng. |
 | Nội dung mô tả | Phần mô tả bảng giá nguồn kèm theo **- sao chép**. Đây là trường văn bản, bạn có thể có nhiều dòng mô tả về bảng giá. | Trường này được hiển thị ở các dạng xem **Được liên kết** trên bảng giá trong nhiều thực thể khác nhau có bảng giá liên quan. |
@@ -40,6 +40,6 @@ Bạn có thể tạo bản sao bảng giá trong Dynamics 365 Project Operation
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Cập nhật bảng giá bằng cách áp dụng khoảng tăng cho tất cả các mức giá
 
-1. Trên các tab **Vai trò** , **Danh mục** và **Hạng mục trong bảng giá** của danh sách giá, bạn có thể chọn **Cập nhật giá** để áp dụng khoảng tăng cho tất cả các giá trong lưới con. 
+1. Trên các tab **Vai trò**, **Thể loại** và **Hạng mục trong bảng giá** của bảng giá, bạn có thể chọn **Cập nhật giá** để áp dụng một mức tăng cho tất cả các mức giá trong lưới con. 
 2. Trên trang hộp thoại mở ra, hãy nhập khoảng tăng. Bạn cũng có thể nhập tỷ lệ phần trăm tăng âm để giảm giá theo một tỷ lệ phần trăm nhất định. 
-3. Chọn **OK** trên trang hộp thoại, rồi xác minh rằng giá trong lưới con phản ánh những thay đổi bạn đã thực hiện.
+3. Chọn **OK** trên trang hộp thoại, sau đó xác minh rằng các mức giá trong lưới con phản ánh những thay đổi bạn đã thực hiện.

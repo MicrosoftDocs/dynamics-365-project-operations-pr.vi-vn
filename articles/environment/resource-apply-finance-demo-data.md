@@ -1,21 +1,21 @@
 ---
-title: Áp dụng dữ liệu demo của Project Operations cho môi trường Finance được lưu trữ trên đám mây
+title: Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 description: Chủ đề này sẽ giải thích cách áp dụng dữ liệu demo từ Project Operations cho môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096648"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365264"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu demo của Project Operations cho môi trường Finance được lưu trữ trên đám mây
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 

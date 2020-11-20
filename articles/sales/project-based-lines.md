@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086969"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181973"
 ---
 # <a name="project-based-opportunity-lines"></a>Mô tả cơ hội dựa trên dự án
 
@@ -26,7 +26,7 @@ Mô tả cơ hội dựa trên dự án là các mục mô tả sẽ được ph
 
 Dưới đây là các trường trên mô tả cơ hội dựa trên dự án:
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại Sản phẩm | Tab tổng quát (ẩn) | Đây là trường bộ tùy chọn. Nếu bạn đã cài đặt Dynamics 365 Operations, một trong những tùy chọn khả dụng là **Dịch vụ dựa trên dự án**.  | Giá trị của trường này được đặt thành **Dịch vụ dựa trên dự án** khi bạn tạo mô tả cơ hội dựa trên dự án từ lưới mô tả dựa trên dự án trên mục Cơ hội. <br> Nếu bạn thay đổi hoặc ghi đè giá trị này, chức năng dự án sẽ không được bật trên các mục mô tả dựa trên dự án của bạn. |
 | Cơ hội | Tab tổng quát | Trường này ở chế độ chỉ đọc và tham chiếu đến bản ghi Cơ hội chính có chứa mục mô tả này. | Không có tác động xuôi tuyến của trường này. |

@@ -1,28 +1,28 @@
 ---
-title: Nhập giá trị ước tính cho dự án vào mục mô tả báo giá dựa trên dự án
+title: Nhập số liệu ước tính cho dự án vào phần mô tả báo giá dựa trên dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách nhập giá trị ước tính từ dự án vào mục mô tả báo giá.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087010"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177762"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Nhập giá trị ước tính cho dự án vào mục mô tả báo giá dựa trên dự án
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Nhập số liệu ước tính cho dự án vào phần mô tả báo giá dựa trên dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Nếu một dự án được tạo trong giai đoạn trước khi bán hàng, bạn có thể chọn nhập ước tính tài chính từ dự án vào mô tả báo giá dựa trên dự án.
 
 1. Đảm bảo rằng mô tả báo giá dựa trên dự án có thông tin dự án trong trường **Dự án**.
-2. Trên tab **Chi tiết mô tả báo giá** , chọn **Nhập từ ước tính dự án**.
+2. Trên tab **Chi tiết mô tả báo giá**, chọn **Nhập từ ước tính dự án**.
 3. Trên trang hộp thoại mở ra, hãy chọn một trong các tùy chọn tóm tắt sau.
 
   - **Lớp giao dịch**
@@ -30,7 +30,7 @@ Nếu một dự án được tạo trong giai đoạn trước khi bán hàng, 
   - **Vai trò** 
   - **Nhiệm vụ dự án**
 
-Dựa trên lựa chọn của bạn, ước tính từ dự án cho tất cả các lớp giao dịch bao gồm trên mô tả báo giá này được sao chép qua. Để kiểm tra những lớp giao dịch nào được bao gồm, hãy chọn tab **Tổng quát** trên mô tả báo giá dựa trên dự án và kiểm tra các giá trị cho **Bao gồm thời gian** , **Bao gồm chi phí** và **Bao gồm phí**.  Để kiểm tra xem những nhiệm vụ nào được bao gồm, hãy chọn tab **Nhiệm vụ có thể tính phí** trên mục mô tả báo giá.
+Dựa trên lựa chọn của bạn, ước tính từ dự án cho tất cả các lớp giao dịch bao gồm trên mô tả báo giá này được sao chép qua. Để kiểm tra những lớp giao dịch nào được bao gồm, hãy chọn tab **Tổng quát** trên mô tả báo giá dựa trên dự án và kiểm tra các giá trị cho **Bao gồm thời gian**, **Bao gồm chi phí** và **Bao gồm phí**.  Để kiểm tra xem những nhiệm vụ nào được bao gồm, hãy chọn tab **Nhiệm vụ có thể tính phí** trên mục mô tả báo giá.
 
 Tùy theo Nhiệm vụ được liên kết và Lớp giao dịch được bao gồm, các giá trị ước tính cho những tổ hợp nhiệm vụ và lớp giao dịch đó sẽ được nhập vào mục mô tả báo giá.
 

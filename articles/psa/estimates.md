@@ -3,7 +3,7 @@ title: Ước tính
 description: Chủ đề này cung cấp thông tin về ước tính trong Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087310"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132839"
 ---
 # <a name="estimates"></a>Ước tính
 
@@ -81,7 +81,7 @@ Sử dụng bảng sau đây làm hướng dẫn để hiểu rõ logic công vi
 Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá và muốn hệ thống nhập giá trị của trường dưới dạng một giá trị mặc định trên dòng chi phí liên quan mà nó tạo ra, hãy sử dụng công cụ đăng ký phần bổ trợ PreOperationContractLineDetailUpdate và PreOperationQuoteLineDetailUpdate. Phải đăng ký lại các phần bổ trợ này sau khi thay đổi chi tiết dòng báo giá hoặc chi tiết dòng hợp đồng. Làm theo các bước sau đây để hoàn thành quy trình.
 
 1. Mở PluginRegistrationTool và kết nối với phiên bản trực tuyến của bạn.
-2. Chọn **Tìm kiếm** , và tìm kiếm phần bổ trợ để cập nhật.
+2. Chọn **Tìm kiếm**, và tìm kiếm phần bổ trợ để cập nhật.
 
     ![Hộp thoại Cây tìm kiếm](media/basic-guide-19.png)
 
@@ -90,11 +90,11 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 
     ![Chọn một bước trong phần bổ trợ](media/basic-guide-20.png)
 
-5. Trong hộp thoại **Cập nhật bước hiện tại** , trong trường **Lọc thuộc tính** , chọn nút dấu chấm lửng ( **...** ):
+5. Trong hộp thoại **Cập nhật bước hiện tại**, trong trường **Lọc thuộc tính**, chọn nút dấu chấm lửng (**...**):
  
     ![Hộp thoại cập nhật bước hiện có](media/basic-guide-21.png)
 
-6. Trong hộp thoại **Chọn thuộc tính** , chọn các hộp kiểm cho thuộc tính tùy chỉnh.
+6. Trong hộp thoại **Chọn thuộc tính**, chọn các hộp kiểm cho thuộc tính tùy chỉnh.
 
     ![Hộp thoại Chọn thuộc tính](media/basic-guide-22.png)
 

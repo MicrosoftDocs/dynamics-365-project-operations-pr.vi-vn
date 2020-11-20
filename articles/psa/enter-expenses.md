@@ -3,7 +3,7 @@ title: Nhập vào chi phí
 description: Làm cách nào để nhập chi phí trong Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087312"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132944"
 ---
 # <a name="enter-expenses-project-service"></a>Nhập chi phí (Project Service)
 
@@ -49,7 +49,7 @@ Nhập chi phí của bạn ít nhất là theo tuần—hoặc theo tần số 
   
    Nếu bạn đang sử dụng ứng dụng dành cho thiết bị di động:  
   
-8. Từ menu, chuyển tới **Chi phí**.     Bạn có thể chuyển sang chế độ xem **Ngày** , **Tuần** hoặc **Tháng** hoặc đi tới khoảng thời gian trước đó hoặc kế tiếp.  
+8. Từ menu, chuyển tới **Chi phí**.     Bạn có thể chuyển sang chế độ xem **Ngày**, **Tuần** hoặc **Tháng** hoặc đi tới khoảng thời gian trước đó hoặc kế tiếp.  
   
 9. Nhấn vào **…** và nhấn vào **Mới**.  
   

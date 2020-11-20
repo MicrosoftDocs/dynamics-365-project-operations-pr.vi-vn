@@ -1,21 +1,21 @@
 ---
-title: Thông tin tóm tắt về báo giá dự án
+title: Thiết đặt báo giá dự án
 description: Chủ đề này cung cấp thông tin về thông tin và cài đặt áp dụng và tác động đến báo giá dự án.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086954"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180263"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Thông tin tóm tắt về báo giá dự án
+# <a name="project-quote-settings"></a>Thiết đặt báo giá dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
@@ -24,7 +24,7 @@ Bài viết này giải thích thông tin áp dụng cho báo giá dự án. Đi
 
 Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ báo giá Dynamics 365 Sales.
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại | Tab Tóm tắt (ẩn) | Trường bộ tùy chọn này có các tùy chọn sau:</br>- Dựa trên công việc (chỉ khả dụng khi Project Operations được cài đặt)</br>- Dựa trên mục (chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- Dựa trên bảo trì dịch vụ (có sẵn khi Dynamics 365 Field Service được cài đặt) | Khi bạn sử dụng ứng dụng Project Operations, giá trị của trường này tự động được đặt thành **Dựa trên công việc**. Điều này phân loại báo giá là báo giá dựa trên dự án. Báo giá phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án. |
 | Công ty sở hữu | Tóm lược | Pháp nhân sẽ chịu chi phí và doanh thu tích lũy từ dự án này hoặc các dự án liên quan đến báo giá này. Khi báo giá tạo từ một cơ hội, trường này được sao chép từ trường tương ứng trên mục Cơ hội. | Công ty sở hữu tương đương với khái niệm pháp nhân trong mô-đun **Quản lý dự án và kế toán** của Project Operations. Tất cả chi phí và doanh thu phát sinh từ dự án này sẽ được hạch toán trên sổ cái của công ty sở hữu, |
@@ -38,7 +38,7 @@ Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự 
 
 Dưới đây là các tab và KPI có sẵn trên báo giá dự án dành riêng cho Project Operations hoặc có một số thay đổi quan trọng trong hành vi từ báo giá Bán hàng:
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** |
+| **Trường** | **Vị trí** | **Mô tả** |
 | --- | --- | --- |
 | Phân tích suất sinh lợi | Tab trên Báo giá | Tab hiển thị các số liệu sau đây:</br>- Tổng chi phí có thể tính phí</br></br>- Tổng chi phí không thể tính phí</br>- Tổng doanh thu</br>- Tổng doanh thu (gốc)</br>- Lãi gộp</br>- Lãi gộp đã điều chỉnh|
 | So sánh với Kỳ vọng của Khách hàng | Tab trên Báo giá | Tab này hiển thị các số liệu sau đây:</br>- Hoàn thành ước tính</br>- Hoàn thành đã yêu cầu</br>- Ngân sách khách hàng</br>- Giá trị báo giá |

@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087132"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180745"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Thiết lập tỷ lệ thanh toán để lập hóa đơn giá nhân công 
+# <a name="set-up-labor-bill-rates"></a>Thiết lập tỷ lệ hóa đơn lao động
 
 _ **Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
 Mỗi bảng giá có một tập hợp giá theo vai trò hoặc giá nhân công, hiệu quả cho ngữ cảnh và ngày hiệu quả có trên tiêu đề bảng giá. Tỷ giá hóa đơn cho thời gian trong Dynamics 365 Project Operations chỉ có thể được thiết lập bằng một đơn vị tiền tệ, là đơn vị tiền tệ trên tiêu đề Bảng giá.
 
 1. Để thiết lập tỷ lệ hóa đơn nhân công cho một bảng giá bán hàng, hãy tạo một bảng giá dựa trên tiêu đề bảng giá. 
-2. Trên tab **Giá theo vai trò** , trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
-3. Trên ngăn **Tạo nhanh** , nhập tổ hợp vai trò và đơn vị tổ chức mà bạn cần thiết lập tỷ lệ thanh toán.
+2. Trên tab **Giá theo vai trò**, trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
+3. Trên ngăn **Tạo nhanh**, nhập tổ hợp vai trò và đơn vị tổ chức mà bạn cần thiết lập tỷ lệ thanh toán.
 
    Bảng sau bao gồm các trường trên tab **Tổng quát** và ngăn **Tạo nhanh** của mô tả giá theo vai trò mà bạn cần lưu ý khi tạo giá theo vai trò trên bảng giá bán hoặc bảng giá bán hàng:
 
-    | Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+    | Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
     | --- | --- | --- | --- |
     | Vai trò | Tab **Tổng quát** và ngăn **Tạo nhanh** | Chọn vai trò mà bạn đang đặt tỷ lệ thanh toán. | Vai trò trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định tỷ lệ thanh toán của vai trò. |
     | Công ty cung cấp nguồn lực | Tab **Tổng quát** và ngăn **Tạo nhanh** | Chọn công ty hoặc pháp nhân có vai trò. Ví dụ: một nhà phát triển từ Fabrikam Ấn Độ hoặc một nhà phát triển từ Fabrikam Hoa Kỳ. | Công ty cung cấp nguồn lực trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định tỷ lệ thanh toán của vai trò. |

@@ -1,21 +1,21 @@
 ---
-title: Đăng ký gói đăng ký bản xem trước
+title: Đăng ký gói xem trước - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách đăng ký và triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086971"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175917"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Đăng ký gói đăng ký bản xem trước để triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Đăng ký gói xem trước - bản đơn giản 
 
 Chủ đề này sẽ giải thích cách đăng ký bản xem trước của đề xuất từ đối tác và triển khai Dynamics 365 Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá.
 
@@ -42,7 +42,7 @@ Khi được phê duyệt [yêu cầu xem trước](https://forms.office.com/For
 
 Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập trên trình duyệt bằng tài khoản cơ quan của người dùng trong đối tượng thuê nơi bạn muốn dùng bản xem trước Project Operations.
 
-1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước** , bằng cách dán mã vào URL trình duyệt.
+1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước**, bằng cách dán mã vào URL trình duyệt.
 
 ![Đổi ưu đãi](./media/16RedeemFirstOfferNew.png)
 
@@ -67,7 +67,7 @@ Thực hiện các bước tương tự như với mã ưu đãi đầu tiên. B
 
 ![Trang chủ trung tâm quản trị](./media/14AdminPortal.png)
 
-2. Trên trang **Người dùng đang hoạt động** , hãy chọn người dùng mà bạn muốn gán giấy phép.
+2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
 
 ![Gán giấy phép](./media/15AssignLicenses.png)
 

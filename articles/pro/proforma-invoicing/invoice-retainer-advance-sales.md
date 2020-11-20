@@ -1,21 +1,21 @@
 ---
-title: Lập hóa đơn khoản trả trước hoặc khoản tạm ứng
+title: Lập hóa đơn khoản tạm ứng hoặc trả trước - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách lập hóa đơn khoản trả trước hoặc khoản tạm ứng trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088162"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180578"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Lập hóa đơn khoản trả trước hoặc khoản tạm ứng
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Lập hóa đơn khoản tạm ứng hoặc trả trước - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations hỗ trợ các hợp đồng dựa trên khoả
 Hãy hoàn thành các bước sau để lập hóa đơn khoản trả trước hoặc tạm ứng.
 
 1. Chọn **Bán hàng** > **Thanh toán** > **Khoản trả trước và tạm ứng**. 
-2. Trên trang **Khoản tạm ứng và trả trước** , hãy sử dụng bộ lọc để chọn khoản trả trước hoặc tạm ứng cụ thể cần lập hóa đơn và đánh dấu mục đó là **Đã sẵn sàng để lập hóa đơn**.
+2. Trên trang **Khoản tạm ứng và trả trước**, hãy sử dụng bộ lọc để chọn khoản trả trước hoặc tạm ứng cụ thể cần lập hóa đơn và đánh dấu mục đó là **Đã sẵn sàng để lập hóa đơn**.
 3. Tạo thủ công hóa đơn từ danh sách **Hợp đồng dự án** hoặc trang chi tiết. Khoản trả trước hoặc tạm ứng được hiển thị trên hóa đơn nháp trong phần **Khoản tạm ứng và trả trước** trên trang **Hóa đơn**.
 4. Xác nhận hóa đơn. Điều này sẽ làm cho khoản trả trước hoặc tạm ứng chuyển sang trạng thái sẵn dùng. Bạn có thể xác minh hóa đơn trên trang danh sách **Khoản trả trước và tạm ứng**. Đối với khoản Tạm ứng hoặc Giữ lại được lập hóa đơn, số tiền khả dụng được hiển thị trong lưới.
 
@@ -32,8 +32,8 @@ Hãy hoàn thành các bước sau để lập hóa đơn khoản trả trước
 
 Bạn có thể tạo trực tiếp khoản trả trước hoặc tạm ứng trên hóa đơn.
 
-1. Trên hóa đơn nháp, ở lưới con **Khoản tạm ứng và trả trước** , hãy chọn **Mới** để tạo khoản trả trước hoặc tạm ứng mới. 
-2. Trên trang **Tạo nhanh** , hãy thêm thông tin cần thiết rồi chọn **Lưu**. Khoản trả trước hoặc tạm ứng được tạo trên hợp đồng dự án liên quan đến hóa đơn. Khoản tạm ứng hoặc trả trước được tự động đánh dấu là **Đã sẵn sàng để lập hóa đơn** , rồi được thêm vào lưới con **Khoản tạm ứng và trả trước** trên trang **Hóa đơn**.
+1. Trên hóa đơn nháp, ở lưới con **Khoản tạm ứng và trả trước**, hãy chọn **Mới** để tạo khoản trả trước hoặc tạm ứng mới. 
+2. Trên trang **Tạo nhanh**, hãy thêm thông tin cần thiết rồi chọn **Lưu**. Khoản trả trước hoặc tạm ứng được tạo trên hợp đồng dự án liên quan đến hóa đơn. Khoản tạm ứng hoặc trả trước được tự động đánh dấu là **Đã sẵn sàng để lập hóa đơn**, rồi được thêm vào lưới con **Khoản tạm ứng và trả trước** trên trang **Hóa đơn**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Điều hòa khoản trả trước hoặc tạm ứng đã lập hóa đơn
 
@@ -43,7 +43,7 @@ Trên mọi hóa đơn được tạo cho một hợp đồng dự án có kho�
 
 Bạn có thể thấy mục này trong lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn**. Bảng sau cung cấp thông tin về các trường trên trang **Khoản trả trước và tạm ứng đã áp dụng** của trang **Hóa đơn dự án**.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Nội dung mô tả | Lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn dự án** |Trường chỉ đọc này cung cấp nội dung mô tả về khoản trả trước hoặc tạm ứng được sử dụng trên hóa đơn này. Bạn không thể thay đổi giá trị này trên hóa đơn. Giá trị này có thể được cập nhật trên lưới con ở trang **Hợp đồng dự án**. | Trường này có thể được hiển thị cho khách hàng trên hóa đơn đã in để cho biết khoản trả trước hoặc tạm ứng nào được áp dụng trên hóa đơn. |
 | Ngày giao | Lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn dự án**  | Trường chỉ đọc này cung cấp ngày lập hóa đơn của khoản trả trước hoặc tạm ứng được sử dụng trên hóa đơn này. Bạn không thể thay đổi giá trị này trên hóa đơn. Giá trị này có thể được cập nhật trên lưới con ở trang **Hợp đồng dự án**. | Trường này có thể được hiển thị cho khách hàng trên hóa đơn đã in để cho biết ngày lập hóa đơn đầu tiên của khoản trả trước hoặc tạm ứng cho khách hàng. |

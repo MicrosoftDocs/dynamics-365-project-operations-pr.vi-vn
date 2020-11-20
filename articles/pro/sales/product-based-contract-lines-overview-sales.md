@@ -1,21 +1,21 @@
 ---
-title: Tổng quan về mô tả hợp đồng dựa trên sản phẩm
+title: Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 description: Chủ đề này cung cấp thông tin về mô tả hợp đồng dựa trên sản phẩm.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087035"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177897"
 ---
-# <a name="product-based-contract-lines-overview"></a>Tổng quan về mô tả hợp đồng dựa trên sản phẩm
+# <a name="product-based-contract-lines-overview---lite"></a>Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -43,6 +43,6 @@ Nếu mô tả hợp đồng dựa trên danh mục sản phẩm, bạn có th�
 - **Thay thế giá**
 - **Dùng mặc định**
 
-Nếu bạn đặt trường **Giá** thành **Ghi đè giá** , giá mặc định không được đặt. Nhập giá cho sản phẩm trên mô tả hợp đồng. Nếu bạn đặt trường thành **Sử dụng mặc định** , giá bán mặc định được sử dụng và không thể chỉnh sửa trường.
+Nếu bạn đặt trường **Giá** thành **Ghi đè giá**, giá mặc định không được đặt. Nhập giá cho sản phẩm trên mô tả hợp đồng. Nếu bạn đặt trường thành **Sử dụng mặc định**, giá bán mặc định được sử dụng và không thể chỉnh sửa trường.
 
 Sau khi bạn cài đặt Project Operations, giá bán hàng mặc định được nhập trên mô tả dựa trên sản phẩm trên hợp đồng. Sau đó, trường **Giá** được đặt thành **Thay thế giá** để bạn có thể chỉnh sửa giá mặc định trên mô tả hợp đồng. Đây là giá trị ghi đè dành riêng cho Project Operations đối với hành vi mô tả dựa trên sản phẩm trong Dynamics 365 Sales.

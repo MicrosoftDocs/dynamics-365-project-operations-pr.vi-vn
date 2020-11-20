@@ -3,7 +3,7 @@ title: Giá danh mục sản phẩm
 description: Chủ đề này cung cấp thông tin về cách giá danh mục sản phẩm hoạt động trong Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087139"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132314"
 ---
 # <a name="product-catalog-pricing"></a>Giá danh mục sản phẩm 
 
@@ -46,11 +46,11 @@ PSA hỗ trợ nhiều tùy chọn làm tròn khi giá được đặt cấu hì
 
 > ![Thêm các sản phẩm từ danh mục vào bảng giá khác](media/basic-guide-16.png)
 
-Khi bạn tạo một bảng giá tùy chỉnh mới cho báo giá bằng cách chọn **Tạo giá tùy chỉnh** trên trang **Báo giá dự án** , PSA tạo một bản sao của bảng giá và trường **Thực thể** trên tiêu đề của bảng giá mới được đặt thành **Thực thể bán hàng**. Tên của bảng giá mới được gắn với tên của báo giá và dấu thời gian. Bạn cũng có thể dùng tên của bảng giá mới và tên của báo giá trong quy trình làm việc tùy chỉnh để kích hoạt đánh giá hoặc phê duyệt bổ sung cho báo giá sử dụng giá tùy chỉnh.
+Khi bạn tạo một bảng giá tùy chỉnh mới cho báo giá bằng cách chọn **Tạo giá tùy chỉnh** trên trang **Báo giá dự án**, PSA tạo một bản sao của bảng giá và trường **Thực thể** trên tiêu đề của bảng giá mới được đặt thành **Thực thể bán hàng**. Tên của bảng giá mới được gắn với tên của báo giá và dấu thời gian. Bạn cũng có thể dùng tên của bảng giá mới và tên của báo giá trong quy trình làm việc tùy chỉnh để kích hoạt đánh giá hoặc phê duyệt bổ sung cho báo giá sử dụng giá tùy chỉnh.
 
  
 ## <a name="default-product-price-list"></a>Bảng giá sản phẩm mặc định
-Mỗi bản ghi khách hàng có trường **Bảng giá mặc định** , nơi bạn có thể chỉ định bảng giá khớp với đơn vị tiền tệ của khách hàng. Trong PSA, giá trị mặc định không tự động nhập trong trường này. Khi một thỏa thuận giá tùy chỉnh có khách hàng cụ thể tồn tại, bạn có thể dùng trường này để liên kết bảng giá với khách hàng đó.
+Mỗi bản ghi khách hàng có trường **Bảng giá mặc định**, nơi bạn có thể chỉ định bảng giá khớp với đơn vị tiền tệ của khách hàng. Trong PSA, giá trị mặc định không tự động nhập trong trường này. Khi một thỏa thuận giá tùy chỉnh có khách hàng cụ thể tồn tại, bạn có thể dùng trường này để liên kết bảng giá với khách hàng đó.
 
 Các thực thể Cơ hội, Báo giá và Hợp đồng dự án dùng các đơn hàng sau để nhập bảng giá sản phẩm mặc định. Cùng một thứ tự được dùng cho bảng giá sản phẩm.
 

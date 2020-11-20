@@ -1,21 +1,21 @@
 ---
-title: Quản lý nhiều khách hàng trên báo giá dự án
+title: Quản lý nhiều khách hàng trên các báo giá dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách làm việc trên các báo giá có nhiều khách hàng sẽ tài trợ cho dự án. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087008"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181682"
 ---
-# <a name="managing-multiple-customers-on-project-quotes-sales"></a>Quản lý nhiều khách hàng trên báo giá dự án (Bán hàng)
+# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Quản lý nhiều khách hàng trên các báo giá dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -31,13 +31,13 @@ Khách hàng báo giá và khách hàng mô tả báo giá có thể được th
 
 Khách hàng trên tab tóm tắt của báo giá dự án như khách hàng tiềm năng là khách hàng chính của báo giá. Khi bạn cố gắng xóa khách hàng chính khỏi danh sách khách hàng trên báo giá, bạn sẽ thấy lỗi rằng không thể xóa bản ghi khách hàng chính trên báo giá.
 
-Không được cập nhật khách hàng chính từ danh sách khách hàng trên báo giá. Tuy nhiên, bạn có thể tác động đến khách hàng chính bằng cách thay đổi khách hàng tiềm năng trên tab **Tóm tắt** của báo giá. Khi trường này được cập nhật trên **Tóm tắt báo giá** , khách hàng tiềm năng mới được chọn sẽ được thêm làm khách hàng báo giá mới và đặt sẵn cờ **Chính**. Khách hàng tiềm năng cũ sẽ vẫn là khách hàng trên báo giá.
+Không được cập nhật khách hàng chính từ danh sách khách hàng trên báo giá. Tuy nhiên, bạn có thể tác động đến khách hàng chính bằng cách thay đổi khách hàng tiềm năng trên tab **Tóm tắt** của báo giá. Khi trường này được cập nhật trên **Tóm tắt báo giá**, khách hàng tiềm năng mới được chọn sẽ được thêm làm khách hàng báo giá mới và đặt sẵn cờ **Chính**. Khách hàng tiềm năng cũ sẽ vẫn là khách hàng trên báo giá.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Tạo, cập nhật hoặc xóa bản ghi khách hàng báo giá
 
 Một khách hàng nhận báo giá có thể được tạo, cập nhật hoặc xóa trên tab **khách hàng nhận báo giá** trên trang **Báo giá**. Các trường được liệt kê trong bảng sau có trong bản ghi khách hàng nhận báo giá của một báo giá dự án.
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | T.khoản | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Liệt kê tất cả các tài khoản đang hoạt động. Trường này bị khóa sau khi bản ghi được tạo. Nếu bạn muốn cập nhật nó, hãy xóa bản ghi và tạo lại nó. Nếu bạn đã ghi lại bất kỳ giá trị thực tế nào hoặc nếu bản ghi khách hàng nhận báo giá là khách hàng chính, bạn sẽ được phép xóa bản ghi. | Khách hàng nhận báo giá được sao chép dưới dạng khách hàng nhận mô tả báo giá khi mô tả báo giá được tạo. Khách hàng nhận báo giá cũng được sao chép cho khách hàng hợp đồng dự án khi báo giá được chốt. |
 | Phần trăm thanh toán chia tách | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Cho biết tỷ lệ phần trăm của mỗi giao dịch bán hàng chưa thanh toán sẽ được quy cho khách hàng nhận báo giá này. | Sao chép sang mô tả báo giá mới tạo và sang khách hàng hợp đồng dự án. |
@@ -51,4 +51,4 @@ Một khách hàng nhận báo giá có thể được tạo, cập nhật hoặ
 
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán chia tách bằng cách sử dụng trải nghiệm chỉnh sửa lưới nội tuyến. Khi tỷ lệ phần trăm thanh toán chia tách không có tổng bằng 100%, sẽ xảy ra lỗi. Sau khi bạn cập nhật tỷ lệ phần trăm thanh toán chia tách, hãy làm mới trang để xóa lỗi.
 
-Bạn cũng có thể thử chọn **Phân phối đồng đều** trên lưới con của khách hàng nhận báo giá. Hành động này phân bổ phần tách thanh toán cho tất cả các khách hàng nhận báo giá. Nếu có bất kỳ hệ số làm tròn nào, yếu tố đó sẽ được thêm vào khách hàng làm tròn. Một trong những khách hàng nhận báo giá luôn được gắn thẻ là khách hàng làm tròn. điều này có nghĩa là bản ghi khách hàng nhận báo giá có cờ **Làm tròn** được đặt thành **Đúng**. Thông thường, đây là khách hàng chính của báo giá, nhưng điều đó có thể được thay đổi.
+Bạn cũng có thể thử chọn **Phân phối đồng đều** trên lưới con của khách hàng báo giá. Hành động này phân bổ phần tách thanh toán cho tất cả các khách hàng nhận báo giá. Nếu có bất kỳ hệ số làm tròn nào, yếu tố đó sẽ được thêm vào khách hàng làm tròn. Một trong những khách hàng nhận báo giá luôn được gắn thẻ là khách hàng làm tròn. điều này có nghĩa là bản ghi khách hàng nhận báo giá có cờ **Làm tròn** được đặt thành **Đúng**. Thông thường, đây là khách hàng chính của báo giá, nhưng điều đó có thể được thay đổi.

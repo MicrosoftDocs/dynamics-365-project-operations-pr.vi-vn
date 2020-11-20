@@ -3,7 +3,7 @@ title: Lên lịch các nguồn lực cho dự án
 description: Làm cách nào để lên lịch nguồn lực cho dự án trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087314"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132179"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Lên lịch nguồn lực cho dự án (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4087314"
 
 Bạn có thể kiểm tra nguồn lực sẵn có để có được một cái nhìn tổng thể về cách đặt nguồn lực của bạn hoặc bạn có thể lọc xem theo kỹ năng, nhóm, vị trí và các tùy chọn khác.  
   
-Bảng lịch trình hiển thị danh sách các nguồn lực và tính sẵn có của nguồn lực. Chọn một dạng xem để hiển thị tính sẵn có theo **Giờ** , **Ngày** , **Tuần** hoặc **Tháng**.  
+Bảng lịch trình hiển thị danh sách các nguồn lực và tính sẵn có của nguồn lực. Chọn một dạng xem để hiển thị tính sẵn có theo **Giờ**, **Ngày**, **Tuần** hoặc **Tháng**.  
   
 Trước khi sử dụng bảng lịch trình, bạn cần thiết lập bảng đó. Để biết thêm thông tin, hãy xem phần [Đặt cấu hình bảng lịch trình (Field Service hoặc Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,13 +43,13 @@ Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính s�
 > 1. Trên menu chính, hãy chọn **Lập lịch trình Nguồn lực** > **Quản trị**.  
 > 2. Bấm vào **Tham số lập lịch trình**.  
 > 3. Mở bản ghi rồi cuộn xuống phần **Resource Scheduling Optimization**.  
-> 4. Trên trường **Kết nối với Bản đồ** , chọn **Có**.  
+> 4. Trên trường **Kết nối với Bản đồ**, chọn **Có**.  
 > 5. Chấp nhận điều khoản và lưu bản ghi.  
 > 6. Trên menu chính, hãy chọn **Project Service** > **Bảng lịch trình**. Từ đây, có vài cách để lên lịch thủ công một yêu cầu đăng ký. Chọn phương thức phù hợp với bạn.
   
 ## <a name="find-available-resources"></a>Tìm nguồn lực sẵn có
 
-1.  Từ danh sách **Yêu cầu Đăng ký** , bấm chuột phải một đăng ký chưa được lên lịch và chọn một trong các cách sau:  
+1.  Từ danh sách **Yêu cầu Đăng ký**, bấm chuột phải một đăng ký chưa được lên lịch và chọn một trong các cách sau:  
   
 - Chọn **Tìm tính sẵn có – Nguồn lực hiện tại** để tìm kiếm nguồn lực có sẵn từ danh sách trên bảng lịch trình.  
 - Chọn **Tìm tính sẵn có – Tất cả Nguồn lực** để tìm kiếm nguồn lực có sẵn từ các nguồn lực trong hệ thống  
@@ -67,7 +67,7 @@ Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính s�
   
 2.  Nhấp vào tên nguồn lực bạn muốn đăng ký rồi chọn **Đăng ký**.  
   
-3.  Trên hộp thoại **Đăng ký nguồn lực (tạo)** , hãy chọn dự án mà bạn muốn đăng ký nguồn lực cùng với phương pháp đăng ký và thời gian bắt đầu cũng như kết thúc.  
+3.  Trên hộp thoại **Đăng ký nguồn lực (tạo)**, hãy chọn dự án mà bạn muốn đăng ký nguồn lực cùng với phương pháp đăng ký và thời gian bắt đầu cũng như kết thúc.  
   
 4.  Sau khi hoàn tất, hãy chọn **Đăng ký**.  
   

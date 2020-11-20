@@ -1,33 +1,33 @@
 ---
-title: Thiết lập tỷ lệ chi phí lao động
+title: Thiết lập tỷ lệ chi phí lao động – bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ chi phí cho nhân công trong Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087019"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180757"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Thiết lập tỷ lệ chi phí lao động 
+# <a name="set-up-labor-cost-rates---lite"></a>Thiết lập tỷ lệ chi phí lao động – bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Mỗi bảng giá có một tập hợp giá nhân công (giá theo vai trò) phù hợp với ngữ cảnh và ngày hiệu quả của bảng giá.
 
-1. Tạo bảng giá trên tab **Giá theo vai trò** , trong lưới con, chọn **Vai trò mới**.
-2. Trên trang **Tạo nhanh** , chọn vai trò và đơn vị tổ chức.
+1. Tạo một bảng giá và trên tab **Giá vai trò**, trong lưới con, hãy chọn **Vai trò mới**.
+2. Trên trang **Tạo nhanh**, chọn vai trò và đơn vị tổ chức.
 3. Nhập mọi thông tin vào các trường bắt buộc khác.
 
 Bảng sau đây bao gồm một số trường quan trọng khi tạo giá nhân công trên bảng giá vốn.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Vai trò | Tab **Tổng quát** và trang **Tạo nhanh** | Chọn vai trò áp dụng tỷ lệ chi phí. | Vai trò trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định chi phí của vai trò. |
 | Đơn vị Nguồn lực | Tab **Tổng quát** và trang **Tạo nhanh** | Chọn đơn vị tổ chức hoặc bộ phận của công ty sẽ sử dụng vai trò này. Ví dụ: một nhà phát triển từ bộ phận Robotics của Fabrikam Ấn Độ hoặc một nhà phát triển từ bộ phận Phần mềm của Fabrikam Hoa Kỳ. | Đơn vị cung cấp nguồn lực trên giá trị ước tính sắp đến hoặc thực tế sẽ được đối chiếu với mô tả này để đặt mặc định chi phí của vai trò. |

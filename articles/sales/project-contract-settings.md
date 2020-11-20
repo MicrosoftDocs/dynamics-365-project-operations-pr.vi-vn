@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088166"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181171"
 ---
 # <a name="project-contract-settings"></a>Thiết đặt hợp đồng dự án
 
@@ -23,7 +23,7 @@ Chủ đề này cung cấp thông tin về các trường áp dụng cho toàn 
 
 Bảng sau liệt kê các trường thông tin tóm tắt trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ đơn bán hàng trong Dynamics 365 Sales.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
+| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Loại | Tab **Tóm tắt** (ẩn) | Đây là trường bộ tùy chọn có các tùy chọn sau:</br>- **Dựa trên công việc** (Chỉ khả dụng khi Project Operations được cài đặt)</br>- **Dựa trên mục** (Chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- **Dựa trên bảo trì dịch vụ** (Khả dụng khi Dynamics 365 Field Service được cài đặt) | Trong Project Operations, giá trị của trường này mặc định là **Dựa trên công việc** và phân loại hợp đồng là hợp đồng dựa trên dự án. Hợp đồng phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án. |
 | Công ty sở hữu | Tab **Tóm tắt** | Pháp nhân sẽ chịu chi phí và doanh thu tích lũy từ dự án này hoặc các dự án liên quan đến hợp đồng dự án này. Khi hợp đồng được tạo từ một báo giá, trường này được sao chép từ trường tương ứng trên bản ghi báo giá. | Công ty sở hữu tương đương với khái niệm pháp nhân trong mô-đun **Kế toán và quản lý dự án** của Project Operations. Tất cả chi phí và doanh thu phát sinh từ dự án này sẽ được hạch toán trên Sổ cái của công ty sở hữu. |
@@ -37,7 +37,7 @@ Bảng sau liệt kê các trường thông tin tóm tắt trên hợp đồng d
 
 Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của hợp đồng dự án.
 
-| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn |
+| Trường | Vị trí | Nội dung mô tả |
 | --- | --- | --- |
 | Giá trị hợp đồng | Hợp đồng tổng thể | Tổng giá trị của Hợp đồng dự án. |
 | Số tiền Đã lập hóa đơn thanh toán | Hợp đồng tổng thể | Tổng số tiền trên tất cả các hóa đơn đối với hợp đồng này. |

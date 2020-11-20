@@ -1,22 +1,22 @@
 ---
-title: Đặt cấu hình hoạt động tạo tự động hóa đơn ước giá
+title: Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
 description: Chủ đề này cung cấp thông tin về việc đặt cấu hình hoạt động tạo tự động hóa đơn ước giá.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087017"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176592"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Đặt cấu hình hoạt động tạo tự động hóa đơn ước giá
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
+ 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Bạn có thể đặt cấu hình việc tạo hóa đơn tự động trong Dynamics 365 Project Operations. Hệ thống tạo một hóa đơn ước giá nháp dựa trên lịch hóa đơn cho từng hợp đồng dự án và mục mô tả hợp đồng. Lịch trình hóa đơn được đặt cấu hình ở cấp độ mô tả hợp đồng. Mỗi mục mô tả trên hợp đồng có thể có một lịch trình hóa đơn riêng biệt hoặc cùng một lịch trình hóa đơn có thể được áp dụng cho mọi mục mô tả của hợp đồng.
@@ -48,30 +48,30 @@ Lịch trình hóa đơn được xác định trên lần lượt một trong h
 
 Trong ví dụ này, khi chức năng lập hóa đơn tự động chạy vào:
 
-- **Ngày 4 tháng 10 trở về trước** : Không có hóa đơn nào được tạo cho hợp đồng này vì bảng **Lịch trình hóa đơn** cho mỗi mục mô tả hợp đồng này không xác định ngày 4 tháng 10, Chủ nhật là ngày chạy hóa đơn.
-- **Ngày 5 tháng 10, thứ Hai** : Một hóa đơn được tạo cho:
+- **Ngày 4 tháng 10 trở về trước**: Không có hóa đơn nào được tạo cho hợp đồng này vì bảng **Lịch trình hóa đơn** cho mỗi mục mô tả hợp đồng này không xác định ngày 4 tháng 10, Chủ nhật là ngày chạy hóa đơn.
+- **Ngày 5 tháng 10, thứ Hai**: Một hóa đơn được tạo cho:
 
     - Công việc tạo bản mẫu có mốc, nếu mục đó được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
     - Công việc triển khai có tất cả các giao dịch Thời gian được tạo trước ngày dứt điểm giao dịch là ngày 4 tháng 10, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
     - Các chi phí phát sinh có tất cả các giao dịch Chi phí được tạo trước ngày dứt điểm giao dịch là ngày 4 tháng 10, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
   
-- **Ngày 6 tháng 10 hoặc bất kỳ ngày nào trước 19 tháng 10** : Không có hóa đơn nào được tạo cho hợp đồng này vì bảng **Lịch trình hóa đơn** cho mỗi mục mô tả hợp đồng này không xác định ngày 6 tháng 10 hay bất kỳ ngày nào trước 19 tháng 10 là ngày chạy hóa đơn.
-- **Ngày 19 tháng 10, thứ Hai** : Một hóa đơn được tạo cho công việc triển khai có tất cả các giao dịch Thời gian được tạo trước ngày dứt điểm giao dịch là ngày 18 tháng 10, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
-- **Ngày 2 tháng 11, thứ Hai** : Một hóa đơn được tạo cho:
+- **Ngày 6 tháng 10 hoặc bất kỳ ngày nào trước 19 tháng 10**: Không có hóa đơn nào được tạo cho hợp đồng này vì bảng **Lịch trình hóa đơn** cho mỗi mục mô tả hợp đồng này không xác định ngày 6 tháng 10 hay bất kỳ ngày nào trước 19 tháng 10 là ngày chạy hóa đơn.
+- **Ngày 19 tháng 10, thứ Hai**: Một hóa đơn được tạo cho công việc triển khai có tất cả các giao dịch Thời gian được tạo trước ngày dứt điểm giao dịch là ngày 18 tháng 10, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
+- **Ngày 2 tháng 11, thứ Hai**: Một hóa đơn được tạo cho:
 
     - Công việc triển khai có tất cả các giao dịch Thời gian được tạo trước ngày dứt điểm giao dịch là ngày 1 tháng 11, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
     - Các chi phí phát sinh có tất cả các giao dịch Chi phí được tạo trước ngày dứt điểm giao dịch là ngày 1 tháng 11, Chủ nhật và được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
 
-- **Ngày 3 tháng 11, thứ Ba** : Một hóa đơn được tạo cho công việc tạo bản mẫu có mốc cho 12.000 USD, nếu mục đó được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
+- **Ngày 3 tháng 11, thứ Ba**: Một hóa đơn được tạo cho công việc tạo bản mẫu có mốc cho 12.000 USD, nếu mục đó được đánh dấu là **Đã sẵn sàng để lập hóa đơn**.
 
 ## <a name="configure-automatic-invoicing"></a>Đặt cấu hình chức năng lập hóa đơn tự động
 
 Hãy hoàn thành các bước sau để đặt cấu hình một lần chạy hóa đơn tự động.
 
-1. Trong **Project Operations** , hãy chuyển tới **Thiết đặt** > **Thiết lập hóa đơn lặp lại**.
+1. Trong **Project Operations**, hãy chuyển tới **Thiết đặt** > **Thiết lập hóa đơn lặp lại**.
 2. Tạo một công việc theo lô và đặt tên là **Tạo hóa đơn trong Project Operations**. Tên của công việc theo lô phải có cụm từ "tạo hóa đơn".
-3. Ở trường **Loại công việc** , hãy chọn **Không có**. Theo mặc định, các trường **Tần suất hằng ngày** và **Đang hiện hoạt** được đặt thành **Có**.
-4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi** , bạn sẽ thấy 3 quy trình làm việc:
+3. Ở trường **Loại công việc**, hãy chọn **Không có**. Theo mặc định, các trường **Tần suất hằng ngày** và **Đang hiện hoạt** được đặt thành **Có**.
+4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi**, bạn sẽ thấy 3 quy trình làm việc:
 
 - ProcessRunCaller
 - ProcessRunner
@@ -81,11 +81,11 @@ Hãy hoàn thành các bước sau để đặt cấu hình một lần chạy h
 6. Trong hộp thoại tiếp theo, hãy chọn **OK**. Quy trình làm việc **Ngủ** nằm trước quy trình công việc **Xử lý**. 
 
 > [!NOTE]
-> Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK** , quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
+> Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK**, quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
 
 Các quy trình làm việc **ProcessRunCaller** và **ProcessRunner** tạo các hóa đơn. **ProcessRunCaller** gọi **ProcessRunner**. **ProcessRunner** là quy trình làm việc thực sự tạo ra hóa đơn. Quy trình làm việc kiểm tra tất cả mục mô tả hợp đồng cần phải lập hóa đơn và tạo hóa đơn cho các mục mô tả đó. Để xác định mô tả hợp đồng mà hóa đơn phải được tạo cho, công việc xem xét ngày chạy hóa đơn cho mô tả hợp đồng. Nếu mô tả hợp đồng thuộc một hợp đồng có cùng ngày chạy hóa đơn, thì các giao dịch được kết hợp thành một hóa đơn và có 2 mô tả hóa đơn. Nếu không có giao dịch nào cần lập hóa đơn, thì công việc này sẽ bỏ qua bước tạo hóa đơn.
 
-Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller** , cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** sẽ khởi động một bộ đếm ngược 24 giờ tính từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
+Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller**, cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** sẽ khởi động một bộ đếm ngược 24 giờ tính từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
 
 Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp lại. Nếu quy trình lô này chạy nhiều lần, thì nhiều trường hợp công việc sẽ được tạo và gây ra lỗi. Do đó, bạn chỉ nên bắt đầu quy trình lô này một lần và chỉ bắt đầu lại nếu quy trình này dừng chạy.
 

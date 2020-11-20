@@ -3,7 +3,7 @@ title: Nhập thời gian
 description: Làm cách nào để nhập thời gian trong Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087311"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132899"
 ---
 # <a name="enter-time-project-service"></a>Nhập thời gian (Project Service)
 
@@ -51,7 +51,7 @@ Nhập giờ của bạn ít nhất hàng tuần—hoặc theo tần số ngư�
   
    Nếu bạn đang sử dụng ứng dụng dành cho thiết bị di động:  
   
-9. Từ menu, chuyển tới **Mục nhập Thời gian**.     Bạn có thể chuyển sang chế độ xem **Ngày** , **Tuần** hoặc **Tháng** hoặc điều hướng đến khoảng thời gian trước đó hoặc kế tiếp.  
+9. Từ menu, chuyển tới **Mục nhập Thời gian**.     Bạn có thể chuyển sang chế độ xem **Ngày**, **Tuần** hoặc **Tháng** hoặc điều hướng đến khoảng thời gian trước đó hoặc kế tiếp.  
   
 10. Nhấn vào **…** và nhấn vào **Mới**.  
   

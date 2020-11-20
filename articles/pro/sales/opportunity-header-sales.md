@@ -1,21 +1,21 @@
 ---
-title: Thông tin cơ bản về cơ hội
-description: Chủ đề này cung cấp thông tin về thông tin tổng thể về các thỏa thuận dựa trên dự án và mô tả cơ hội dựa trên dự án.
+title: Thiết đặt cơ hội - bản đơn giản
+description: Chủ đề này cung cấp thông tin về các giao dịch dựa trên dự án và các mô tả cơ hội dựa trên dự án.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087036"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181073"
 ---
-# <a name="opportunity-header"></a>Thông tin cơ bản về cơ hội
+# <a name="opportunity-header---lite"></a>Tiêu đề cơ hội - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -25,7 +25,7 @@ Cơ hội dựa trên dự án trong Dynamics 365 Project Operations là phần 
 
 Bảng sau đây bao gồm các trường trong cơ hội dựa trên dự án của riêng Project Operations hoặc có một số thay đổi quan trọng trong hành vi so với Cơ hội trong Sales.
 
-| **Trường** | **Vị trí** | **Mức độ liên quan, mục đích và hướng dẫn** | **Tác động xuôi tuyến** |
+| **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
 | Loại | Tab tổng quát (ẩn) | Trường bộ tùy chọn này có các tùy chọn sau:</br>- Dựa trên công việc (chỉ khả dụng với Project Operations)</br>- Dựa trên mục (chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- Dựa trên bảo trì dịch vụ (khả dụng khi Field Service được cài đặt) | Khi bạn sử dụng ứng dụng Project Operations, giá trị của trường này tự động được đặt thành **Dựa trên công việc** nhằm phân loại Cơ hội là dựa trên dự án. Cơ hội phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án trong quy trình bán hàng xuôi tuyến cho thỏa thuận này. |
 | Liên hệ | Tab tổng quát | Tham chiếu đến người liên hệ chính của khách hàng cho thỏa thuận này. | |
