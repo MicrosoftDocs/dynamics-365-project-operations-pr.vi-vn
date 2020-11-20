@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086991"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122775"
 ---
 # <a name="cash-advance"></a>Tạm ứng tiền mặt
 
@@ -25,16 +25,16 @@ Tạm ứng tiền mặt cho phép nhân viên vay tiền từ công ty của h�
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Tạo và gửi yêu cầu tạm ứng tiền mặt
 
-1. Trong **Chi phí của tôi** , chọn **Tạm ứng tiền mặt** > **Mới** để tạo yêu cầu tạm ứng tiền mặt mới. 
-2. Trên trang **Yêu cầu tạm ứng tiền mặt mới** , nhập mục đích chi phí và chọn địa điểm sẽ phát sinh chi phí.
+1. Trong **Chi phí của tôi**, chọn **Tạm ứng tiền mặt** > **Mới** để tạo yêu cầu tạm ứng tiền mặt mới. 
+2. Trên trang **Yêu cầu tạm ứng tiền mặt mới**, nhập mục đích chi phí và chọn địa điểm sẽ phát sinh chi phí.
 3. Nhập số tiền và đơn vị tiền tệ được yêu cầu, sau đó chọn **Lưu**. 
-4. Khi bạn sẵn sàng gửi yêu cầu tạm ứng tiền mặt, trên trang **Yêu cầu tạm ứng tiền mặt** , chọn **Quy trình làm việc** > **Gửi**.
+4. Khi bạn sẵn sàng gửi yêu cầu tạm ứng tiền mặt, trên trang **Yêu cầu tạm ứng tiền mặt**, chọn **Quy trình làm việc** > **Gửi**.
 
 ## <a name="modify-a-cash-advance-request"></a>Sửa đổi yêu cầu tạm ứng tiền mặt
 
 Bạn có thể sửa đổi yêu cầu tạm ứng tiền mặt nếu yêu cầu chưa được gửi để phê duyệt.
 
-1. Trong **Chi phí của tôi: Tạm ứng tiền mặt** , tìm và chọn tạm ứng tiền mặt mà bạn muốn chỉnh sửa.
+1. Trong **Chi phí của tôi: Tạm ứng tiền mặt**, tìm và chọn tạm ứng tiền mặt mà bạn muốn chỉnh sửa.
 2. Chọn **Chỉnh sửa** và thực hiện các thay đổi cần thiết đối với yêu cầu tạm ứng tiền mặt. 
 3. Chọn **Lưu và đóng**.
 
@@ -46,13 +46,13 @@ Bạn có thể xem lại danh sách tất cả các khoản tạm ứng tiền 
 
 Người quản lý hoặc người dùng được định cấu hình làm người phê duyệt trong quy trình làm việc sẽ có thể phê duyệt các khoản tạm ứng tiền mặt được gửi cho họ để đánh giá. 
 
-1. Để chấp thuận tạm ứng tiền mặt, trong **Xử lý các khoản tạm ứng tiền mặt** , chọn **Tạm ứng tiền mặt để tôi đánh giá**.
+1. Để chấp thuận tạm ứng tiền mặt, trong **Xử lý các khoản tạm ứng tiền mặt**, chọn **Tạm ứng tiền mặt để tôi đánh giá**.
 2. Chọn tạm ứng tiền mặt mà bạn cần đánh giá và chọn **Phê duyệt**.  
 
 ## <a name="pay-cash-advances"></a>Thanh toán tạm ứng tiền mặt 
 Quy trình sau đây thường được hoàn thành bởi kế toán viên hoặc người dùng có quyền kế toán.
 
-1. Để đăng các khoản tạm ứng tiền mặt đã được phê duyệt, hãy chọn **Các khoản tạm ứng tiền mặt được chấp thuận** , sau đó chọn **Thanh toán và chuyển khoản**.  
+1. Để đăng các khoản tạm ứng tiền mặt đã được phê duyệt, hãy chọn **Các khoản tạm ứng tiền mặt được chấp thuận**, sau đó chọn **Thanh toán và chuyển khoản**.  
 2. Cung cấp chi tiết nhật ký cho các khoản tạm ứng tiền mặt, sau đó chọn **OK**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Gửi báo cáo chi phí so với khoản tạm ứng tiền mặt đã trả 

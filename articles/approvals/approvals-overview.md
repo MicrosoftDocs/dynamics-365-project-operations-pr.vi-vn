@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123854"
 ---
 # <a name="approvals-overview"></a>Tổng quan về phê duyệt
 
@@ -27,7 +27,7 @@ Khi bạn tạo và gửi mục nhập thời gian hoặc chi phí, mục nhập
 ## <a name="approve-an-entry"></a>Phê duyệt một mục nhập
 Biểu mẫu **Phê duyệt** cho phép bạn chuyển đổi giữa các dạng xem khác nhau để bạn có thể xem các loại phê duyệt khác nhau.
   
-1. Đi đến biểu mẫu **Phê duyệt** và chọn **Chi phí** , **Thời gian** hoặc **Thu hồi**.
+1. Đi đến biểu mẫu **Phê duyệt** và chọn **Chi phí**, **Thời gian** hoặc **Thu hồi**.
 2. Đánh giá từng phê duyệt và chọn những phê duyệt mà bạn muốn phê duyệt.
 3. Chọn **Phê duyệt** để phê duyệt các mục nhập đã chọn.
 Hệ thống sẽ xử lý các mục nhập này và tạo các giá trị thực tế hoặc đăng ký.
@@ -47,7 +47,7 @@ Tại một số thời điểm, bạn có thể cần phải thu hồi mục nh
 Mỗi dự án có một số thành viên trong nhóm dự án. Bạn có thể chỉ định thành viên nào trong nhóm cũng là người phê duyệt dự án.
 
 1. Đi đến biểu mẫu **Dự án** và mở dự án từ danh sách.
-2. Tên tab **Nhóm** , chọn thành viên nhóm sẽ là người phê duyệt dự án, sau đó chọn **Chỉnh sửa**.
+2. Tên tab **Nhóm**, chọn thành viên nhóm sẽ là người phê duyệt dự án, sau đó chọn **Chỉnh sửa**.
 3. Đặt trường **Người phê duyệt dự án** thành **Có**.
 4. Chọn **Lưu**.
 5. Lặp lại các bước 2-4 để thêm người phê duyệt dự án bổ sung.
@@ -55,7 +55,7 @@ Mỗi dự án có một số thành viên trong nhóm dự án. Bạn có thể
 ## <a name="configure-the-users-manager"></a>Định cấu hình người quản lý của người dùng
 
 1. Đi tới **Thiết đặt** > **Bảo mật** > **Người dùng**.
-2. Chọn người dùng mà bạn đang phân công người quản lý và trong vùng **Thông tin tổ chức** , chọn người quản lý từ danh sách. 
+2. Chọn người dùng mà bạn đang phân công người quản lý và trong vùng **Thông tin tổ chức**, chọn người quản lý từ danh sách. 
 3. Chọn **Lưu**.
 
 

@@ -3,7 +3,7 @@ title: Mô tả báo giá dựa trên sản phẩm
 description: Chủ đề này cung cấp thông tin về mô tả báo giá dựa trên sản phẩm.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087288"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123246"
 ---
 # <a name="product-based-quote-lines"></a>Mô tả báo giá dựa trên sản phẩm
 
@@ -54,7 +54,7 @@ Nếu mô tả báo giá dựa trên danh mục sản phẩm, bạn có thể th
 - Thay thế giá  
 - Dùng mặc định
 
-Nếu bạn đặt trường này thành **Thay thế giá** , Dynamics 365 không đặt giá mặc định. Bạn phải nhập giá cho sản phẩm trên mô tả báo giá. Nếu bạn đặt trường này thành **Dùng mặc định** , Dynamics 365 sử dụng giá bán hàng mặc định và khóa trường để ngăn chỉnh sửa.
+Nếu bạn đặt trường này thành **Thay thế giá**, Dynamics 365 không đặt giá mặc định. Bạn phải nhập giá cho sản phẩm trên mô tả báo giá. Nếu bạn đặt trường này thành **Dùng mặc định**, Dynamics 365 sử dụng giá bán hàng mặc định và khóa trường để ngăn chỉnh sửa.
 
 Sau khi bạn cài đặt PSA, giá bán hàng mặc định được nhập trên mô tả dựa trên sản phẩm trên báo giá. Sau đó, trường **Giá** được đặt thành **Thay thế giá** để bạn có thể chỉnh sửa giá mặc định trên mô tả báo giá.
 

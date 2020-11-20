@@ -3,7 +3,7 @@ title: Định giá dự án
 description: Chủ đề này cung cấp thông tin về cách định giá hoạt động trong Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087305"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120794"
 ---
 # <a name="project-pricing"></a>Định giá dự án 
 
@@ -56,7 +56,7 @@ Thuật ngữ *vai trò nguồn lực* đề cập đến một bộ kỹ năng,
 
 Thời gian của nguồn lực thường được báo giá dựa trên vai trò mà một nguồn lực thực hiện dự án cụ thể. Đối với thời gian nguồn nhân lực, PSA hỗ trợ chi phí và thanh toán dựa trên vai trò tài nguyên. Có thể báo giá thời gian ở bất kỳ đơn vị nào trong nhóm đơn vị đo **Thời gian**.
 
-Nhóm đơn vị đo **Thời gian** được tạo khi cài đặt PSA. Nó có một đơn vị mặc định là **Giờ**. Bạn không thể xóa, đổi tên hoặc chỉnh sửa các thuộc tính nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ**. Tuy nhiên, bạn có thể thêm các đơn vị vào nhóm đơn vị đo **Thời gian**. Nếu bạn cố gắng xóa hoặc nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ** , thì bạn có thể gây ra lỗi trong logic kinh doanh PSA.
+Nhóm đơn vị đo **Thời gian** được tạo khi cài đặt PSA. Nó có một đơn vị mặc định là **Giờ**. Bạn không thể xóa, đổi tên hoặc chỉnh sửa các thuộc tính nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ**. Tuy nhiên, bạn có thể thêm các đơn vị vào nhóm đơn vị đo **Thời gian**. Nếu bạn cố gắng xóa hoặc nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ**, thì bạn có thể gây ra lỗi trong logic kinh doanh PSA.
 
 > ![Cấu hình giá theo vai trò](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ Trong PSA, bạn có thể tạo thay thế giá theo thỏa thuận cho giá đ
 
 Theo mặc định, hợp đồng dự án luôn có một bản sao của bảng giá bán hàng chính thay vì một liên kết trực tiếp đến nó. Hành vi này giúp đảm bảo rằng thỏa thuận giá thực hiện với khách hàng cho một bảng kê công việc (SOW) không thay đổi nếu bảng giá chính thay đổi.
 
-Tuy nhiên, trên báo giá, bạn có thể sử dụng một bảng giá chính. Ngoài ra, bạn có thể sao chép một bảng giá chính và chỉnh sửa nó để tạo một bảng giá tùy chỉnh chỉ áp dụng cho báo giá đó. Để tạo một bảng giá mới dành riêng cho báo giá, trên trang báo **Báo giá** , hãy chọn **Tạo giá tùy chỉnh**. Bạn có thể truy cập danh sách giá dự án dành riêng cho thỏa thuận chỉ từ báo giá. 
+Tuy nhiên, trên báo giá, bạn có thể sử dụng một bảng giá chính. Ngoài ra, bạn có thể sao chép một bảng giá chính và chỉnh sửa nó để tạo một bảng giá tùy chỉnh chỉ áp dụng cho báo giá đó. Để tạo một bảng giá mới dành riêng cho báo giá, trên trang báo **Báo giá**, hãy chọn **Tạo giá tùy chỉnh**. Bạn có thể truy cập danh sách giá dự án dành riêng cho thỏa thuận chỉ từ báo giá. 
 
 Khi bạn tạo một bảng giá dự án tùy chỉnh, chỉ các thành phần dự án của bảng giá được sao chép. Nói cách khác, một bảng giá mới được tạo ra như một bản sao của bảng giá dự án hiện có đính kèm báo giá và bảng giá mới này chỉ có giá liên quan đến vai trò và giá theo loại giao dịch.
 

@@ -3,7 +3,7 @@ title: Các loại giai đoạn dự án
 description: Chủ đề này cung cấp thông tin về các giai đoạn dự án.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087159"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123089"
 ---
 # <a name="project-stage-types"></a>Các loại giai đoạn dự án 
 
@@ -46,11 +46,11 @@ Khi bạn tạo một dự án, giai đoạn dự án sẽ được đặt thàn
 
 ## <a name="quote"></a>Báo giá
 
-Khi bạn liên kết một dự án với một báo giá hoặc tạo một dự án từ báo giá, giai đoạn dự án được đặt thành **Báo giá** và ngày bắt đầu và ngày kết thúc ước tính được cập nhật. Khi dự án trong giai đoạn **Báo giá** , tab **Bán hàng** trên trang **Thực thể dự án** hiển thị thông tin chi tiết về báo giá.
+Khi bạn liên kết một dự án với một báo giá hoặc tạo một dự án từ báo giá, giai đoạn dự án được đặt thành **Báo giá** và ngày bắt đầu và ngày kết thúc ước tính được cập nhật. Khi dự án trong giai đoạn **Báo giá**, tab **Bán hàng** trên trang **Thực thể dự án** hiển thị thông tin chi tiết về báo giá.
 
 ## <a name="plan"></a>Kế hoạch
 
-Khi bạn thắng báo giá liên kết với dự án, dự án được chuyển đến giai đoạn **Hợp đồng** , giai đoạn dự án được cập nhật thành **Kế hoạch**. Khi dự án ở giai đoạn **Kế hoạch** , trang **Thực thể dự án** hiển thị thông tin chi tiết về hợp đồng.
+Khi bạn thắng báo giá liên kết với dự án, dự án được chuyển đến giai đoạn **Hợp đồng**, giai đoạn dự án được cập nhật thành **Kế hoạch**. Khi dự án ở giai đoạn **Kế hoạch**, trang **Thực thể dự án** hiển thị thông tin chi tiết về hợp đồng.
 
 ## <a name="deliver"></a>Chuyển giao
 
@@ -58,7 +58,7 @@ Khi kế hoạch dự án hoàn tất và bạn đã sẵn sàng để bắt đ�
 
 ## <a name="complete"></a>Hoàn thành 
 
-Khi công việc cho dự án được hoàn thành, người quản lý dự án có thể cập nhật giai đoạn thành **Hoàn thành**. Bằng cách cập nhật giai đoạn dự án thành **Hoàn thành** , người quản lý dự án chỉ ra rằng công việc được hoàn thành 100% nhưng dự án được giữ ở trạng thái mở để mọi mục nhập thời gian hoặc chi phí đang chờ xử lý có thể được ghi lại.
+Khi công việc cho dự án được hoàn thành, người quản lý dự án có thể cập nhật giai đoạn thành **Hoàn thành**. Bằng cách cập nhật giai đoạn dự án thành **Hoàn thành**, người quản lý dự án chỉ ra rằng công việc được hoàn thành 100% nhưng dự án được giữ ở trạng thái mở để mọi mục nhập thời gian hoặc chi phí đang chờ xử lý có thể được ghi lại.
 
 ## <a name="close"></a>Đóng
 

@@ -3,7 +3,7 @@ title: Tạo danh sách giá
 description: Làm cách nào để tạo bảng giá trong Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087144"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122054"
 ---
 # <a name="create-a-price-list-project-service"></a>Tạo bảng giá (Project Service)
 
@@ -39,33 +39,33 @@ Bảng giá dựa vào các loại vai trò và chi phí, vì vậy trước khi
   
 2.  Bấm vào **Mới**.  
   
-3.  Trong **Ngữ cảnh** , chọn xem bảng giá này có dành cho **Chi phí** , **Mua** hoặc **Bán hàng** không.  
+3.  Trong **Ngữ cảnh**, chọn xem bảng giá này có dành cho **Chi phí**, **Mua** hoặc **Bán hàng** không.  
   
-4.  Trong **Tên** , nhập tên cho bảng giá.  
+4.  Trong **Tên**, nhập tên cho bảng giá.  
   
-5.  Trong **Loại tiền** , chọn loại tiền bạn sẽ sử dụng để lập hóa đơn hoặc tính chi phí.  
+5.  Trong **Loại tiền**, chọn loại tiền bạn sẽ sử dụng để lập hóa đơn hoặc tính chi phí.  
   
-6.  Trong **Đơn vị thời gian** , chỉ định khoảng thời gian áp dụng giá, chẳng hạn như ngày hoặc giờ.  
+6.  Trong **Đơn vị thời gian**, chỉ định khoảng thời gian áp dụng giá, chẳng hạn như ngày hoặc giờ.  
   
-7.  Điền vào **Ngày bắt đầu** , **Ngày kết thúc** và **Mô tả** khi cần.  
+7.  Điền vào **Ngày bắt đầu**, **Ngày kết thúc** và **Mô tả** khi cần.  
   
 8.  Bấm vào **Lưu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa.  
   
 9. Để thêm giá vai trò vào bảng giá, bấm vào **+** trong **Giá vai trò**.  
   
-10. Trong ngăn **Giá vai trò** , điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm giá vai trò khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
+10. Trong ngăn **Giá vai trò**, điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm giá vai trò khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
   
 11. Để thêm giá loại chi phí vào bảng giá, bấm vào **+** trong **Giá loại**.  
   
-12. Trong ngăn **Giá loại giao dịch** , điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm giá loại khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
+12. Trong ngăn **Giá loại giao dịch**, điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm giá loại khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
   
 13. Để thêm hạng mục trong bảng giá vào bảng giá, bấm vào **+** trong **Hạng mục trong Bảng giá**.  
   
-14. Trong ngăn **Mục bảng giá** , điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm mục bảng giá khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
+14. Trong ngăn **Mục bảng giá**, điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm mục bảng giá khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
   
 15. Để thêm mối quan hệ lãnh thổ vào bảng giá, bấm vào **+** trong **Mối quan hệ Lãnh thổ**.  
   
-16. Trong cửa sổ **Kết nối mới** , điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm mối quan hệ lãnh thổ khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
+16. Trong cửa sổ **Kết nối mới**, điền thông tin chi tiết, sau đó bấm vào **Lưu**. Tiếp tục thêm mối quan hệ lãnh thổ khi cần thiết. Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service Automation](../psa/configure.md)

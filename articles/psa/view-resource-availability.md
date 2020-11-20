@@ -3,7 +3,7 @@ title: Xem nguồn lực sẵn có
 description: Làm cách nào để xem mức độ sẵn dùng của nguồn lực trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124979"
 ---
 # <a name="view-resource-availability-project-service"></a>Xem mức độ sẵn dùng của nguồn lực (Project Service)
 
@@ -38,11 +38,11 @@ Bạn có thể kiểm tra nguồn lực sẵn có để có được một cái
 
 1. Đi tới **Project Service > Nguồn lực sẵn có**.  
 
-    Thao tác này hiển thị dạng xem lịch của tất cả nguồn lực và tính sẵn có của chúng. Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày** , **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
+    Thao tác này hiển thị dạng xem lịch của tất cả nguồn lực và tính sẵn có của chúng. Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày**, **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
 
 2. Bấm vào **Tùy chọn** để thay đổi nội dung hiển thị. Ví dụ: bạn có thể hiển thị chú thích cho biết sơ đồ màu của các loại đăng ký khác nhau hoặc bạn có thể chọn chỉ hiển thị một loại đăng ký nhất định (ví dụ: đăng ký cứng hoặc đăng ký mềm).  
 
-3. Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc** , cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
+3. Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)

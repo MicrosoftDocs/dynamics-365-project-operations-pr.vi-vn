@@ -3,7 +3,7 @@ title: Hướng dẫn sử dụng cho Trung tâm nguồn lực dự án
 description: Hướng dẫn của người dùng cuối về Project Resource Hub cho Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087099"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123179"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Hướng dẫn sử dụng cho Project Resource Hub
 
@@ -66,7 +66,7 @@ Sử dụng thanh điều hướng để đến khu vực làm việc của bạ
 
 - Để truy cập vào các phần này, hãy gõ nhẹ vào nút **Menu** ![nút Menu](media/MenuButton.png "Nút Menu") trên thanh điều hướng, sau đó gõ nhẹ vào nút **Ưa thích và gần đây** nút ![Ưa thích](media/FavButton.png "Nút Yêu thích").
 
-- Để ghim một mục làm ưa thích, từ danh sách các mục **Mới dùng gần đây** , gõ nhẹ vào ghim. Điều này sẽ ghim và di chuyển mục vào Ưa thích.
+- Để ghim một mục làm ưa thích, từ danh sách các mục **Mới dùng gần đây**, gõ nhẹ vào ghim. Điều này sẽ ghim và di chuyển mục vào Ưa thích.
 
   ![Các mục Yêu thích và Gần đây](media/Favs_3.png "Các mục Yêu thích và Gần đây")
  
@@ -88,7 +88,7 @@ Nhập chi phí của bạn ít nhất là theo tuần—hoặc theo tần số 
 
 1. Nhấn vào ![nút Menu](media/MenuButton.png "Nút Menu"), sau đó nhấn vào **Chi phí**. Thao tác này sẽ hiển thị lịch của bạn.
 
-2. Bạn có thể chuyển sang chế độ xem **Ngày** , **Tuần** hoặc **Tháng** hoặc điều hướng đến khoảng thời gian trước đó hoặc kế tiếp. 
+2. Bạn có thể chuyển sang chế độ xem **Ngày**, **Tuần** hoặc **Tháng** hoặc điều hướng đến khoảng thời gian trước đó hoặc kế tiếp. 
 
 3. Để nhập vào chi phí của bạn, hãy nhấn vào **Mới** trên thanh lệnh. 
 

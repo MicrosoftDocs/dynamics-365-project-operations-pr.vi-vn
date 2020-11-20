@@ -3,7 +3,7 @@ title: Xem mức sử dụng có thể tính phí cho các nguồn lực
 description: Chủ đề này cung cấp thông tin về cách xem mức sử dụng nguồn lực.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087130"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122189"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Xem mức sử dụng có thể tính phí cho các nguồn lực
  
@@ -46,7 +46,7 @@ Thời gian làm việc mục tiêu có thể được đặt trên vai trò m�
 
 1. Truy cập vào **Nguồn lực** \> **Nguồn lực**. 
 2. Chọn một nguồn lực để mở bản ghi. 
-3. Trên tab **Project Service** , bạn có thể đặt thời gian làm việc mục tiêu của nguồn lực.
+3. Trên tab **Project Service**, bạn có thể đặt thời gian làm việc mục tiêu của nguồn lực.
 
 > ![Ảnh chụp màn hình thao tác sử dụng tab Project Service để đặt thời gian làm việc mục tiêu](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ Thời gian làm việc mục tiêu có thể được đặt trên vai trò m�
 
 1. Để đặt, hãy vào phần **Nguồn lực** \> **Nguồn lực**. 
 2. Chọn một nguồn lực, mở bản ghi, sau đó chọn tab **Project Service**. 
-3. Trong lưới **Vai trò nguồn lực** , đảm bảo có một vai trò cho nguồn lực và **Là mặc định** được đặt là **Có**.
+3. Trong lưới **Vai trò nguồn lực**, đảm bảo có một vai trò cho nguồn lực và **Là mặc định** được đặt là **Có**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Thay đổi loại thanh toán cho vai trò nguồn lực này
 

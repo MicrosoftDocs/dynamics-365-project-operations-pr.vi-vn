@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này cung cấp thông tin về tính năng mới trong Phát hành bản cập nhật Project Service Automation 12, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087069"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119984"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Phát hành bản cập nhật Project Service Automation 12, V3
 Chúng tôi vui mừng thông báo bản cập nhật mới nhất cho ứng dụng Dynamics 365 Project Service Automation (PSA). Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến và truy cập vào trang giải pháp để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
     - Đã sửa lỗi: Lưới nhập thời gian và lịch trình hiển thị chính xác thanh cuộn dọc khi được yêu cầu.
     - Đã sửa lỗi: Bạn không thể phê duyệt các mục nhập thời gian và chi phí đã gửi.
     - Đã sửa lỗi: Thông báo trên hộp thoại xác nhận hủy phê duyệt đã được sửa để phản ánh trạng thái phê duyệt khi thay đổi từ **Đã phê duyệt** thành **Đã gửi**.
-    - Đã sửa lỗi: Trường **Giá** , **Đơn vị** và **Số lượng** hiện đã bị khóa trên bản ghi Chi phí sau khi đã được phê duyệt.
+    - Đã sửa lỗi: Trường **Giá**, **Đơn vị** và **Số lượng** hiện đã bị khóa trên bản ghi Chi phí sau khi đã được phê duyệt.
 
 - Quản lý dự án
 

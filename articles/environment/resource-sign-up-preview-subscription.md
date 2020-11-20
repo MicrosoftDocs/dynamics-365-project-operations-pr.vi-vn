@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086994"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121154"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -42,7 +42,7 @@ Khi nhận được phê duyệt [yêu cầu xem trước](https://forms.office.
 
 Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập trên trình duyệt bằng tài khoản cơ quan của người dùng trong đối tượng thuê nơi bạn muốn dùng bản xem trước Project Operations.
 
-1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước** , bằng cách dán mã vào URL trình duyệt.
+1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước**, bằng cách dán mã vào URL trình duyệt.
 
 ![Đổi ưu đãi](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Lặp lại các bước tương tự với ưu đãi cuối cùng từ email Ch
 
 ![Trang chủ trung tâm quản trị](./media/14AdminPortal.png)
 
-2. Trên trang **Người dùng đang hoạt động** , hãy chọn người dùng mà bạn muốn gán giấy phép.
+2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
 
 ![Gán giấy phép](./media/15AssignLicenses.png)
 

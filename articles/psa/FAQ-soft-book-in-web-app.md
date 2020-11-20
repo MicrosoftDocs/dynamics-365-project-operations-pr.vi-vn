@@ -3,7 +3,7 @@ title: Làm thế nào để tôi "đăng ký dự kiến" các nguồn lực tr
 description: Bài viết này mô tả cách "đăng ký dự kiến" các thành viên nhóm dự án bằng Project Service.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e5d1c91f8ea98117583996552c2f2834be9c537
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a35799b422fa338c2666e1b2aa11bc2a54f5cce3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122279"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Làm thế nào để tôi "đăng ký dự kiến" nguồn lực trong ứng dụng web (ứng dụng Project Service phiên bản 2.x)?
 

@@ -2,7 +2,7 @@
 title: Thông tin cần cân nhắc khi nâng cấp - Microsoft Dynamics 365 Project Service Automation phiên bản 2.x hoặc 1.x lên phiên bản 3
 description: Chủ đề này cung cấp thông tin về những nội dung cần cân nhắc bạn phải thực hiện khi nâng cấp từ Project Service Automation phiên bản 2.x hoặc 1.x lên phiên bản 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087188"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121739"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Nội dung cần cân nhắc khi nâng cấp - PSA phiên bản 2.x hoặc 1.x lên phiên bản 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -77,7 +77,7 @@ Trong phiên bản 2 và phiên bản 1, các dự án có nguồn lực chung c
 
 Trước khi bạn bắt đầu nâng cấp, bạn nên tạo lại nhóm cho từng dự án có nhiệm vụ được gán nguồn lực chung hoặc chưa tạo quy trình nhóm để chạy.
 
-Đối với các nhiệm vụ được gán cho thành viên nhóm chung được tạo bằng tính năng **Tạo nhóm** , việc nâng cấp sẽ rời khỏi nguồn lực chung của nhóm và không gán cho thành viên nhóm chung đó. Bạn nên tạo yêu cầu nguồn lực cho thành viên nhóm chung sau khi nâng cấp nhưng trước khi bạn đặt hoặc gửi yêu cầu nguồn lực. Điều này sẽ bảo vệ mọi nội dung gán đơn vị tổ chức cho thành viên nhóm chung khác với đơn vị tổ chức hợp đồng của dự án.
+Đối với các nhiệm vụ được gán cho thành viên nhóm chung được tạo bằng tính năng **Tạo nhóm**, việc nâng cấp sẽ rời khỏi nguồn lực chung của nhóm và không gán cho thành viên nhóm chung đó. Bạn nên tạo yêu cầu nguồn lực cho thành viên nhóm chung sau khi nâng cấp nhưng trước khi bạn đặt hoặc gửi yêu cầu nguồn lực. Điều này sẽ bảo vệ mọi nội dung gán đơn vị tổ chức cho thành viên nhóm chung khác với đơn vị tổ chức hợp đồng của dự án.
 
 Ví dụ: trong dự án Project Z, đơn vị tổ chức hợp đồng là Contoso Hoa Kỳ. Trong kế hoạch dự án, các nhiệm vụ kiểm tra trong giai đoạn thực hiện đã được chỉ định vai trò Tư vấn kỹ thuật và đơn vị tổ chức đã chỉ định là Contoso India.
 

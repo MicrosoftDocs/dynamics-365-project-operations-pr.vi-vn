@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4e7572f2bc6201960ac01ce521adf39ac2577dbe
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087001"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122459"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động
 
@@ -24,8 +24,8 @@ Hoàn thành các bước sau để đặt cấu hình lần chạy hóa đơn t
 
 1. Chuyển tới **Thiết đặt** > **Công việc theo lô**.
 2. Tạo một công việc theo lô rồi đặt tên là **Tạo hóa đơn trong hoạt động dự án**. Tên của công việc theo lô phải có cụm từ "tạo hóa đơn".
-3. Ở trường **Loại công việc** , hãy chọn **Không có**. Theo mặc định, các tùy chọn **Tần suất hàng ngày** và **Hiện hoạt** được đặt thành **Có**.
-4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi** , bạn sẽ thấy 3 quy trình làm việc:
+3. Ở trường **Loại công việc**, hãy chọn **Không có**. Theo mặc định, các tùy chọn **Tần suất hàng ngày** và **Hiện hoạt** được đặt thành **Có**.
+4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi**, bạn sẽ thấy 3 quy trình làm việc:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -35,11 +35,11 @@ Hoàn thành các bước sau để đặt cấu hình lần chạy hóa đơn t
 6. Trong hộp thoại tiếp theo, hãy chọn **OK**. Quy trình làm việc **Ngủ** nằm trước quy trình công việc **Xử lý**.
 
   > [!NOTE]
-  > Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK** , quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
+  > Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK**, quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
 
 Các quy trình làm việc **ProcessRunCaller** và **ProcessRunner** tạo các hóa đơn. **ProcessRunCaller** gọi **ProcessRunner**. **ProcessRunner** là quy trình làm việc thực sự tạo ra hóa đơn. Quy trình này thông qua tất cả mô tả hợp đồng mà các hóa đơn phải được tạo cho và tạo hóa đơn cho các mô tả đó. Để xác định mô tả hợp đồng mà hóa đơn phải được tạo cho, công việc xem xét ngày chạy hóa đơn cho mô tả hợp đồng. Nếu mô tả hợp đồng thuộc một hợp đồng có cùng ngày chạy hóa đơn, thì các giao dịch được kết hợp thành một hóa đơn và có 2 mô tả hóa đơn. Nếu không có giao dịch để tạo hóa đơn cho, công việc này sẽ bỏ qua bước tạo hóa đơn.
 
-Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller** , cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** khởi động bộ hẹn giờ trong 24 giờ từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
+Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller**, cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** khởi động bộ hẹn giờ trong 24 giờ từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
 
 Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp lại. Nếu quy trình lô này chạy nhiều lần, thì nhiều trường hợp công việc được tạo và gây ra lỗi. Do đó, bạn chỉ nên bắt đầu quy trình lô một lần và bắt đầu lại chỉ khi quy trình này dừng chạy.
 

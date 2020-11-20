@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096778"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122909"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân 
 
@@ -26,7 +26,7 @@ Chủ đề này sẽ hướng dẫn bạn các bước cần thiết để đ�
 Hoàn thành các bước sau để bật các tính năng cần thiết.
 
 1. Trong Dynamics 365 Finance, đi đến không gian làm việc **Quản lý tính năng**.
-2. Trong **Danh sách tính năng** , tìm và bật các tính năng sau:
+2. Trong **Danh sách tính năng**, tìm và bật các tính năng sau:
   
     - **Cho phép nhiều mô tả hợp đồng cho một dự án**
     - **Bật Project Operations trên Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Bạn có thể bật Project Operations trên Dynamics 365 Customer Engagement 
 
 Mỗi pháp nhân sử dụng Project Operations trên Dynamics 365 Customer Engagement cần một tập hợp các tham số mặc định. Các tham số này được đặt cấu hình trên tab **Project Operations** trên trang **Tham số kế toán và quản lý dự án**. Các tham số là:
 
-  - **Loại thanh toán mặc định** : Project Operations sử dụng một tập hợp cố định các loại thanh toán mặc định phải được ánh xạ tới thuộc tính mô tả Finance. Tạo bản ghi cho từng loại thanh toán: **Không được chỉ định** , **Có thể tính phí** , **Không tính phí** , **Miễn phí** và **Không có sẵn**.
-  - **Danh mục dự án mặc định** : Chọn các danh mục dự án mặc định sẽ được sử dụng cho từng loại giao dịch. Các giá trị mặc định này sẽ được sử dụng trong **nhật ký Tích hợp Project Operations** và trong các giá trị ước tính mà không có danh mục giao dịch nào được chỉ định cho giá trị thực tế của dự án.
-  - **Dự báo** : Chọn mô hình dự báo được sử dụng để ước tính thời gian và chi phí.
+  - **Loại thanh toán mặc định**: Project Operations sử dụng một tập hợp cố định các loại thanh toán mặc định phải được ánh xạ tới thuộc tính mô tả Finance. Tạo bản ghi cho từng loại thanh toán: **Không được chỉ định**, **Có thể tính phí**, **Không tính phí**, **Miễn phí** và **Không có sẵn**.
+  - **Danh mục dự án mặc định**: Chọn các danh mục dự án mặc định sẽ được sử dụng cho từng loại giao dịch. Các giá trị mặc định này sẽ được sử dụng trong **nhật ký Tích hợp Project Operations** và trong các giá trị ước tính mà không có danh mục giao dịch nào được chỉ định cho giá trị thực tế của dự án.
+  - **Dự báo**: Chọn mô hình dự báo được sử dụng để ước tính thời gian và chi phí.

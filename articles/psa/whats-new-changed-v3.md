@@ -2,7 +2,7 @@
 title: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3
 description: Chủ đề này cung cấp thông tin về tính năng mới và đã thay đổi trong Project Service Automation phiên bản 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087070"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120029"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Khi bạn di chuyển lịch trình của một dự án hiện có, tình huố
 
 ![Tab Gán nguồn lực hiển thị các ước tính về nỗ lực và nội dung gán nguồn lực cho nhiệm vụ](media/resource-assignments-tab-02.png)
 
-Tab **Ước tính** hiển thị chi phí và doanh số cho các nhiệm vụ của nguồn lực. Các số liệu đều ở dạng chỉ đọc. Cách định giá chi phí và doanh số hiện phát triển từ nhiệm vụ của thành viên nhóm trên lịch trình. Điều này nghĩa là nếu bạn có một nhiệm vụ mà không có chỉ định, nhiệm vụ đó sẽ hiển thị bên dưới nhóm chưa chỉ định. Điều này cũng có nghĩa là nếu không có **vai trò** , thông số định giá mặc định, thì không có chi phí hay doanh số ước tính nếu bạn có khách hàng hoặc hợp đồng/báo giá liên kết với dự án. 
+Tab **Ước tính** hiển thị chi phí và doanh số cho các nhiệm vụ của nguồn lực. Các số liệu đều ở dạng chỉ đọc. Cách định giá chi phí và doanh số hiện phát triển từ nhiệm vụ của thành viên nhóm trên lịch trình. Điều này nghĩa là nếu bạn có một nhiệm vụ mà không có chỉ định, nhiệm vụ đó sẽ hiển thị bên dưới nhóm chưa chỉ định. Điều này cũng có nghĩa là nếu không có **vai trò**, thông số định giá mặc định, thì không có chi phí hay doanh số ước tính nếu bạn có khách hàng hoặc hợp đồng/báo giá liên kết với dự án. 
 
 ![Tab Ước tính hiển thị chi phí và doanh số](media/estimates-tab-03.png)
   
@@ -110,7 +110,7 @@ Trong Project Service Automation phiên bản 3, với UI ứng dụng hợp nh�
 ![Sử dụng bộ chọn nguồn lực](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Chỉ định nguồn lực thực có thể đặt 
-Trong Project Service Automation phiên bản 3, việc đặt chỗ và phân công nhiệm vụ không được đan xen chặt chẽ như trong các phiên bản trước của Project Service Automation. Bạn có thể sử dụng lưới của nhóm để đặt một thành viên nhóm **thực** , tương tự như trong thị trường.
+Trong Project Service Automation phiên bản 3, việc đặt chỗ và phân công nhiệm vụ không được đan xen chặt chẽ như trong các phiên bản trước của Project Service Automation. Bạn có thể sử dụng lưới của nhóm để đặt một thành viên nhóm **thực**, tương tự như trong thị trường.
 
 Sử dụng bộ chọn tài nguyên trên lịch trình, bạn có thể chọn thành viên nhóm được tạo trong dạng xem nhóm rồi chỉ định nhiệm vụ cho họ. Bạn có thể tiếp tục chỉ định nhiệm vụ cho họ, thậm chí quá cả nội dung đặt của họ. Sử dụng tab **Điều hòa** để điều hòa các thành viên nhóm khác nhau về nhiệm vụ và nội dung đặt.
 
@@ -158,7 +158,7 @@ Bấm vào **Mới** trong ruy băng để mở trang tạo nhanh cho mục nh�
 Các trường tra cứu được dạng xem hệ thống hỗ trợ. Ví dụ: sau khi bạn nhập thông tin dự án, trường **Nhiệm vụ dự án** được đặt theo mặc định thành dạng xem **Nhiệm vụ dự án mở của tôi**. Để tạo mục nhập thời gian cho các tác vụ chưa được chỉ định cho người dùng, hãy bấm vào **Thay đổi dạng xem** trên mục tra cứu và chọn **Tất cả nhiệm vụ dự án hiện hoạt**. Sau khi mục nhập thời gian đã được tạo và hiển thị trong lưới, bạn có thể chỉnh sửa bất kỳ giá trị dòng nào ngay trong lưới.  
 
 ### <a name="bulk-createcopy"></a>Tạo/sao chép hàng loạt 
-Sau khi một vài mục nhập thời gian đã được tạo, bạn có thể sử dụng chức năng sao chép để tạo hàng loạt các mục nhập thời gian bổ sung. Bấm vào **Sao chép** để mở hộp thoại **Sao chép**. Trong **Từ khoảng thời gian: Ngày bắt đầu** , chọn phạm vi ngày phải được sao chép khoảng thời gian. Trong **Tới khoảng thời gian: Ngày bắt đầu** , chọn ngày phải tạo mục nhập thời gian. Bấm vào **Sao chép** để sao chép các mục nhập thời gian vào ngày tương ứng trong tuần được nêu trong trường **Tới khoảng thời gian**. Ví dụ: mục nhập thời gian của Thứ hai từ tuần trước sẽ được sao chép vào Thứ hai của tuần nêu trong trường **Tới khoảng tời gian**. 
+Sau khi một vài mục nhập thời gian đã được tạo, bạn có thể sử dụng chức năng sao chép để tạo hàng loạt các mục nhập thời gian bổ sung. Bấm vào **Sao chép** để mở hộp thoại **Sao chép**. Trong **Từ khoảng thời gian: Ngày bắt đầu**, chọn phạm vi ngày phải được sao chép khoảng thời gian. Trong **Tới khoảng thời gian: Ngày bắt đầu**, chọn ngày phải tạo mục nhập thời gian. Bấm vào **Sao chép** để sao chép các mục nhập thời gian vào ngày tương ứng trong tuần được nêu trong trường **Tới khoảng thời gian**. Ví dụ: mục nhập thời gian của Thứ hai từ tuần trước sẽ được sao chép vào Thứ hai của tuần nêu trong trường **Tới khoảng tời gian**. 
 
 ![Sao chép hàng loạt mục nhập thời gian](media/bulk-copy-time-entry-09.png)
  

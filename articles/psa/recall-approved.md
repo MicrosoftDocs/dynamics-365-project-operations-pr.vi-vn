@@ -3,7 +3,7 @@ title: Thu hồi các mục nhập thời gian hoặc chi phí đã được ph�
 description: Chủ đề này cung cấp thông tin về cách thu hồi giao dịch chi phí hoặc thời gian đã được phê duyệt trước đó.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087155"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120569"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Thu hồi các mục nhập thời gian hoặc chi phí đã được phê duyệt
 
@@ -60,13 +60,13 @@ Làm theo các bước này để yêu cầu thu hồi mục nhập thời gian 
 Thực hiện theo các bước sau để phê duyệt hoặc từ chối yêu cầu thu hồi.
 
 1. Truy cập **Dự án** \> **Công việc của tôi** \> **Phê duyệt**.
-2. Trên trang danh sách **Phê duyệt** , hãy thay đổi dạng xem thành **Yêu cầu thu hồi để phê duyệt**. Danh sách các yêu cầu thu hồi đã gửi được hiển thị.
+2. Trên trang danh sách **Phê duyệt**, hãy thay đổi dạng xem thành **Yêu cầu thu hồi để phê duyệt**. Danh sách các yêu cầu thu hồi đã gửi được hiển thị.
 3. Chọn một hoặc nhiều mục nhập, sau đó chọn **Phê duyệt** hoặc **Hủy**.
-4. Nếu chọn **Phê duyệt** , bạn nhận được thông báo cảnh báo giải thích ảnh hưởng của phê duyệt. Chọn **OK** để xác nhận hoạt động. Yêu cầu thu hồi đã được phê duyệt.
+4. Nếu chọn **Phê duyệt**, bạn nhận được thông báo cảnh báo giải thích ảnh hưởng của phê duyệt. Chọn **OK** để xác nhận hoạt động. Yêu cầu thu hồi đã được phê duyệt.
 
     –hoặc–
 
-    Nếu bạn chọn **Từ chối** , yêu cầu thu hồi sẽ bị từ chối.
+    Nếu bạn chọn **Từ chối**, yêu cầu thu hồi sẽ bị từ chối.
 
 > [!NOTE]
 > Khi yêu cầu thu hồi được gửi và duyệt, hệ thống sẽ kiểm tra mọi hoạt động lập hóa đơn trên các mục nhập thời gian hoặc chi phí. Nếu mục nhập đã được lập hóa đơn hoặc có trên hóa đơn dạng nháp, thì người phê duyệt sẽ nhận thông báo lỗi cho biết rằng thời gian hoặc chi phí không thể được phê duyệt để thu hồi vì đã được lập hóa đơn.
@@ -77,7 +77,7 @@ Khi phê duyệt được thu hồi sẽ gây tác động tài chính và vận
 
 ### <a name="operational-impact"></a>Tác động đến vận hành
 
-Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Đã trả lại** hoặc **Đã từ chối** , tùy thuộc vào mục nhập đó là thời gian hay chi phí.
+Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Đã trả lại** hoặc **Đã từ chối**, tùy thuộc vào mục nhập đó là thời gian hay chi phí.
 
 Thành viên nhóm dự án có thể xem các mục nhập, chỉnh sửa rồi gửi lại các mục nhập hoặc xóa toàn bộ mục nhập.
 

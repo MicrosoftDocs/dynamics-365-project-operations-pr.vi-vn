@@ -3,7 +3,7 @@ title: Đăng ký không chắc chắn yêu cầu
 description: Chủ đề này cung cấp thông tin về cách đăng ký không chắc chắn yêu cầu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087318"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124124"
 ---
 # <a name="soft-book-requirements"></a>Đăng ký không chắc chắn yêu cầu
 
@@ -31,7 +31,7 @@ Yêu cầu nguồn lực có thể được đăng ký chắc chắn. Đăng ký
 
 ![Trạng thái đăng ký được đặt thành Không chắc chắn](media/Resource-Management-image77.png)
 
-Khi tab **Nhóm** ở trong dạng xem **Thành viên nhóm có tên** , nguồn lực xuất hiện ở đó. Giờ đăng ký không chắc chắn được báo cáo trong cột **Giờ đăng ký không chắc chắn**.
+Khi tab **Nhóm** ở trong dạng xem **Thành viên nhóm có tên**, nguồn lực xuất hiện ở đó. Giờ đăng ký không chắc chắn được báo cáo trong cột **Giờ đăng ký không chắc chắn**.
 
 ![Giờ đăng ký không chắc chắn trong dạng xem Thành viên nhóm có tên](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Có thể phân công nhiệm vụ cho các thành viên nhóm được đăng k
 
 ![Thành viên nhóm được đăng ký không chắc chắn được phân công nhiệm vụ](media/Resource-Management-image79.png)
 
-Trên tab **Điều hòa** , không có đăng ký hiển thị cho nguồn lực được đăng ký không chắc chắn do tab **Điều hòa** chỉ xem xét các đăng ký chắc chắn.
+Trên tab **Điều hòa**, không có đăng ký hiển thị cho nguồn lực được đăng ký không chắc chắn do tab **Điều hòa** chỉ xem xét các đăng ký chắc chắn.
 
 ![Nguồn lực được đăng ký không chắc chắn không có đăng ký trên tab Điều hòa](media/Resource-Management-image80.png)
 
@@ -54,10 +54,10 @@ Trên Bảng lịch trình, tô màu khác nhau được dùng cho đăng ký ch
 
 ![Thay đổi trạng thái đăng ký thành Chắc chắn](media/Resource-Management-image82.png)
 
-Đăng ký thay đổi và trạng thái được thay đổi trên Bảng lịch trình. Vì trạng thái đăng ký hiện là **Chắc chắn** , nên nguồn lực hiển thị ở trạng thái đã đăng ký và năng lực cũng như trạng thái rảnh/bận của nguồn lực được điều chỉnh.
+Đăng ký thay đổi và trạng thái được thay đổi trên Bảng lịch trình. Vì trạng thái đăng ký hiện là **Chắc chắn**, nên nguồn lực hiển thị ở trạng thái đã đăng ký và năng lực cũng như trạng thái rảnh/bận của nguồn lực được điều chỉnh.
 
 Bạn có thể dùng cùng một phương pháp để đăng ký chắc chắn hoặc không chắc chắn từ Bảng lịch trình.
 
-Để chuyển đổi nguồn lực được đăng ký không chắc chắn thành đăng ký chắc chắn trên tab **Nhóm** , hãy chọn nguồn lực rồi chọn **Xác nhận**.
+Để chuyển đổi nguồn lực được đăng ký không chắc chắn thành đăng ký chắc chắn trên tab **Nhóm**, hãy chọn nguồn lực rồi chọn **Xác nhận**.
 
 ![Lệnh xác nhận](media/Resource-Management-image83.png)

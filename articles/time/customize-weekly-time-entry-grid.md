@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087007"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124664"
 ---
 # <a name="extending-time-entries"></a>Kéo dài mục nhập thời gian
 
@@ -33,7 +33,7 @@ Có thể kéo dài mục nhập thời gian trong hai lĩnh vực:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Thêm mục nhập thời gian tùy chỉnh để chính bạn sử dụng
 
-Mục nhập thời gian là thực thể lõi được sử dụng trong nhiều tình huống. Trong bản phát hành tháng 4 năm 2020 đợt 1, giải pháp lõi TESA đã được giới thiệu. TESA cung cấp một thực thể **Thiết đặt** và một vai trò bảo mật **Người dùng nhập thời gian** mới. Các trường mới, **msdyn_start** và **msdyn_end** , có mối quan hệ trực tiếp với **msdyn_duration** cũng được cung cấp. Thực thể, vai trò bảo mật và các trường mới cho phép một cách tiếp cận thống nhất hơn về thời gian trên nhiều sản phẩm.
+Mục nhập thời gian là thực thể lõi được sử dụng trong nhiều tình huống. Trong bản phát hành tháng 4 năm 2020 đợt 1, giải pháp lõi TESA đã được giới thiệu. TESA cung cấp một thực thể **Thiết đặt** và một vai trò bảo mật **Người dùng nhập thời gian** mới. Các trường mới, **msdyn_start** và **msdyn_end**, có mối quan hệ trực tiếp với **msdyn_duration** cũng được cung cấp. Thực thể, vai trò bảo mật và các trường mới cho phép một cách tiếp cận thống nhất hơn về thời gian trên nhiều sản phẩm.
 
 
 ### <a name="time-source-entity"></a>Thực thể nguồn thời gian
@@ -103,28 +103,28 @@ Tùy chỉnh dạng xem **Mục nhập thời gian hằng tuần của tôi** v�
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Tạo mục nhập thời gian tùy chỉnh mặc định mới
 
-dạng xem này sẽ chứa các trường **Mô tả** và **Nhận xét bên ngoài** , ngoài các cột mà bạn muốn có trong lưới. 
+dạng xem này sẽ chứa các trường **Mô tả** và **Nhận xét bên ngoài**, ngoài các cột mà bạn muốn có trong lưới. 
 
 1. Chọn vị trí, kích thước và thứ tự sắp xếp mặc định cho lưới bằng cách chỉnh sửa các thuộc tính đó trong dạng xem. 
 2. Cấu hình bộ kiểm soát tùy chỉnh cho dạng xem này để trở thành bộ kiểm soát **Lưới mục nhập thời gian**. 
 3. Thêm bộ kiểm soát này vào dạng xem và chọn cho web, điện thoại và máy tính bảng. 
 4. Cấu hình các thông số cho lưới mục nhập thời gian hàng tuần. 
-5. Đặt trường **Ngày bắt đầu** thành **msdyn_date** , đặt trường **Khoảng thời gian** thành **msdyn_duration** và đặt trường **Trạng thái** thành **msdyn_entrystatus**. 
+5. Đặt trường **Ngày bắt đầu** thành **msdyn_date**, đặt trường **Khoảng thời gian** thành **msdyn_duration** và đặt trường **Trạng thái** thành **msdyn_entrystatus**. 
 6. Đối với dạng xem mặc định, trường **Danh sách trạng thái chỉ đọc** được đặt thành **192350002,192350003,192350004**. Trường **Dòng tác vụ sửa hàng** được đặt thành **msdyn_timeentryrowedit**. Trường **Dòng tác vụ sửa ô** được đặt thành **msdyn_timeentryedit**. 
 7. Bạn có thể tùy chỉnh các trường này để thêm hoặc xóa trạng thái chỉ đọc hoặc sử dụng trải nghiệm dựa trên nhiệm vụ khác (TBX) để chỉnh sửa hàng hoặc ô editing. Các trường này giờ bị ràng buộc với giá trị tĩnh.
 
 
 > [!NOTE] 
-> Cả hai tùy chọn đều sẽ loại bỏ một số bộ lọc dùng ngay cho các thực thể **Dự án** và **Nhiệm vụ dự án** , để tất cả các dạng xem tra cứu cho các thực thể này sẽ được hiển thị. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
+> Cả hai tùy chọn đều sẽ loại bỏ một số bộ lọc dùng ngay cho các thực thể **Dự án** và **Nhiệm vụ dự án**, để tất cả các dạng xem tra cứu cho các thực thể này sẽ được hiển thị. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
 
-Xác định dòng tác vụ phù hợp cho trường tùy chỉnh. Nếu bạn đã thêm trường vào lưới, thì trường đó sẽ chuyển vào dòng tác vụ sửa hàng được dùng cho các trường áp dụng cho toàn bộ hàng mục nhập thời gian. Nếu trường tùy chỉnh có giá trị duy nhất mỗi ngày, chẳng hạn như trường tùy chỉnh cho **Thời gian kết thúc** , thì trường đó sẽ chuyển vào luồng nhiệm vụ chỉnh sửa ô.
+Xác định dòng tác vụ phù hợp cho trường tùy chỉnh. Nếu bạn đã thêm trường vào lưới, thì trường đó sẽ chuyển vào dòng tác vụ sửa hàng được dùng cho các trường áp dụng cho toàn bộ hàng mục nhập thời gian. Nếu trường tùy chỉnh có giá trị duy nhất mỗi ngày, chẳng hạn như trường tùy chỉnh cho **Thời gian kết thúc**, thì trường đó sẽ chuyển vào luồng nhiệm vụ chỉnh sửa ô.
 
 Để thêm trường tùy chỉnh vào một luồng nhiệm vụ, hãy kéo thành phần **Trường** vào vị trí thích hợp trên trang, sau đó đặt thuộc tính cho trường đó. Đặt thuộc tính **Nguồn** thành **Mục nhập thời gian** và đặt thuộc tính **Trường dữ liệu** thành trường tùy chỉnh. Thuộc tính **Trường** chỉ định tên hiển thị trên trang TBX. Chọn **Áp dụng** để lưu các thay đổi của bạn vào trường, sau đó chọn **Cập nhật** để lưu các thay đổi của bạn vào trang.
 
-Để sử dụng trang TBX tùy chỉnh mới, hãy tạo một quy trình mới. Đặt danh mục thành **Luồng quy trình công việc** , đặt thực thể thành **Mục nhập thời gian** và đặt loại quy trình công việc thành **Chạy quy trình dưới dạng luồng nhiệm vụ**. Trong phần **Thuộc tính** , phải đặt thuộc tính **Tên trang** thành tên hiển thị cho trang. Thêm tất cả các trường liên quan vào trang TBX. Lưu và kích hoạt quy trình. Cập nhật thuộc tính điều khiển tùy chỉnh cho dòng tác vụ liên quan thành giá trị **Tên** trên quy trình.
+Để sử dụng trang TBX tùy chỉnh mới, hãy tạo một quy trình mới. Đặt danh mục thành **Luồng quy trình công việc**, đặt thực thể thành **Mục nhập thời gian** và đặt loại quy trình công việc thành **Chạy quy trình dưới dạng luồng nhiệm vụ**. Trong phần **Thuộc tính**, phải đặt thuộc tính **Tên trang** thành tên hiển thị cho trang. Thêm tất cả các trường liên quan vào trang TBX. Lưu và kích hoạt quy trình. Cập nhật thuộc tính điều khiển tùy chỉnh cho dòng tác vụ liên quan thành giá trị **Tên** trên quy trình.
 
 ### <a name="add-new-option-set-values"></a>Thêm các giá trị bộ tùy chọn mới
-Để thêm các giá trị bộ tùy chọn vào một trường dùng ngay, hãy mở trang sửa cho trường đó và trong **Loại** , hãy chọn **Sửa** bên cạnh bộ tùy chọn. Thêm tùy chọn mới có nhãn và màu tùy chỉnh. Nếu bạn muốn thêm trạng thái mục nhập thời gian mới, thì trường dùng ngay phải được đặt tên là **Trạng thái mục nhập** chứ không phải là **Trạng thái**.
+Để thêm các giá trị bộ tùy chọn vào một trường dùng ngay, hãy mở trang sửa cho trường đó và trong **Loại**, hãy chọn **Sửa** bên cạnh bộ tùy chọn. Thêm tùy chọn mới có nhãn và màu tùy chỉnh. Nếu bạn muốn thêm trạng thái mục nhập thời gian mới, thì trường dùng ngay phải được đặt tên là **Trạng thái mục nhập** chứ không phải là **Trạng thái**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Chỉ định trạng thái mục nhập thời gian mới là chỉ đọc
 Để chỉ định trạng thái mục nhập thời gian mới thành chỉ đọc, hãy thêm giá trị mục nhập thời gian mới vào thuộc tính **Danh sách trạng thái chỉ đọc**. Phần có thể chỉnh sửa của lưới mục nhập thời gian sẽ bị khóa cho các hàng có trạng thái mới.

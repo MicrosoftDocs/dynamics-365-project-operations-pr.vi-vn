@@ -3,7 +3,7 @@ title: Thiết lập mô hình thành thạo
 description: Làm cách nào thiết lập mô hình thành thạo trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087325"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123012"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Thiết lập mô hình thành thạo (Project Service)
 
@@ -35,7 +35,7 @@ Bây giờ mà bạn đã thêm các kỹ năng cho các dự án khách hàng c
   
 2.  Để xem hoặc chỉnh sửa mô hình thành thạo mặc định, bấm vào **Mô hình xếp hạng mặc định** trong danh sách hoặc tạo mô hình thành thạo mới, bấm vào **Mới**.  
   
-3.  Nếu bạn đang tạo một mô hình thành thạo mới, điền vào các trường trong vùng **Chung** , sau đó bấm vào **Lưu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa. Khi bạn tạo mô hình thành thạo riêng, hãy nhớ rằng các con số cao hơn là tốt hơn.  
+3.  Nếu bạn đang tạo một mô hình thành thạo mới, điền vào các trường trong vùng **Chung**, sau đó bấm vào **Lưu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa. Khi bạn tạo mô hình thành thạo riêng, hãy nhớ rằng các con số cao hơn là tốt hơn.  
   
      Ví dụ: nếu bạn đang xem hoặc chỉnh sửa mô hình xếp hạng mặc định, bạn sẽ thấy mức độ thành thạo sau trong **Giá trị xếp hạng**.  
   

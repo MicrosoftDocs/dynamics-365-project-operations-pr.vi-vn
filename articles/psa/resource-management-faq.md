@@ -3,7 +3,7 @@ title: Câu hỏi thường gặp về quản lý nguồn lực
 description: Chủ đề này cung cấp câu trả lời cho các câu hỏi thường gặp về quản lý nguồn lực.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120164"
 ---
 # <a name="resource-management-faq"></a>Câu hỏi thường gặp về quản lý nguồn lực
 
@@ -47,7 +47,7 @@ Sau khi nguồn lực được đăng ký, hãy chọn **Duy trì đăng ký** �
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation hỗ trợ những loại nguồn lực nào?
 
-Chỉ có các loại nguồn lực **Người dùng** và **Liên hệ** được hỗ trợ trong Dynamics 365 Project Service Automation. Mặc dù bạn có thể tạo các loại nguồn lực khác (ví dụ: **Thiết bị** và **Nhóm** ), nhưng không có trường hợp sử dụng toàn diện nào được hỗ trợ cho các nguồn lực này.
+Chỉ có các loại nguồn lực **Người dùng** và **Liên hệ** được hỗ trợ trong Dynamics 365 Project Service Automation. Mặc dù bạn có thể tạo các loại nguồn lực khác (ví dụ: **Thiết bị** và **Nhóm**), nhưng không có trường hợp sử dụng toàn diện nào được hỗ trợ cho các nguồn lực này.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Sự khác biệt giữa phân công và đăng ký là gì?
 

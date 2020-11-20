@@ -3,7 +3,7 @@ title: Xem lại tồn đọng về vấn đề lập hóa đơn đối với c�
 description: Chủ đề này cung cấp thông tin về cách xem lại các tồn đọng về thời gian, chi phí và sản phẩm, cũng như cách đánh dấu các mục này là sẵn sàng để lập hóa đơn.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123989"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
 

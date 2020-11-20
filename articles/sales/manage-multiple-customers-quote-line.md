@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086984"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118589"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
 
@@ -33,11 +33,11 @@ Bảng sau hiển thị các trường trên bản ghi khách hàng nhận mô t
 
 | Trường | Vị trí | Mô tả và hướng dẫn | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
-| **T.khoản** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá** , biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Liệt kê tất cả các tài khoản đang hoạt động. Trường này bị khóa sau khi bản ghi được tạo. Nếu bạn cần cập nhật trường, hãy xóa và tạo lại bản ghi. Nếu bạn đã ghi lại bất kỳ giá trị thực tế nào, bạn không thể xóa bản ghi. | Khi bạn chọn một tài khoản từ danh sách tài khoản chính để thêm, Khách hàng nhận mô tả báo giá cũng được thêm vào làm Khách hàng nhận báo giá. Khách hàng nhận mô tả báo giá cũng được sao chép cho khách hàng nhận mô tả hợp đồng dự án khi báo giá được chốt. |
-| **Phần trăm thanh toán chia tách** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá** , biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết tỷ lệ phần trăm của mỗi giao dịch bán hàng chưa thanh toán sẽ được quy cho khách hàng nhận mô tả báo giá này. | Được sao chép sang khách hàng nhận mô tả hợp đồng dự án. |
-| **Giới hạn không vượt quá** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá** , biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết liệu có giới hạn thương lượng hoặc hạn mức cho tổng số tiền sẽ được lập hóa đơn cho khách hàng này đối với mô tả báo giá này hay không. | Sáp chép sang khách hàng nhận mô tả hợp đồng dự án khi báo giá được chốt. |
-| **Công ty sở hữu** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá** , biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Pháp nhân mà khách hàng này được thiết lập trong mô-đun **Quản lý dự án và kế toán**. Trường này ở chế độ chỉ đọc và được đặt thành công ty sở hữu của chính báo giá. Danh sách khách hàng cần thêm vào trường **Tài khoản** đã được lọc vào danh sách từ công ty sở hữu trong mô-đun **Quản lý dự án và kế toán** của Project Operations. | Công ty sở hữu tương đương với khái niệm pháp nhân. Tất cả chi phí và doanh thu phát sinh từ dự án này được hạch toán trên sổ cái của công ty sở hữu. |
-| **Là làm tròn** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá** , biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết liệu khách hàng này có phải là khách hàng làm tròn mặc định cho mô tả báo giá dựa trên dự án này hay không. | Sáp chép sang khách hàng nhận hợp đồng dự án khi báo giá được chốt. |
+| **T.khoản** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá**, biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Liệt kê tất cả các tài khoản đang hoạt động. Trường này bị khóa sau khi bản ghi được tạo. Nếu bạn cần cập nhật trường, hãy xóa và tạo lại bản ghi. Nếu bạn đã ghi lại bất kỳ giá trị thực tế nào, bạn không thể xóa bản ghi. | Khi bạn chọn một tài khoản từ danh sách tài khoản chính để thêm, Khách hàng nhận mô tả báo giá cũng được thêm vào làm Khách hàng nhận báo giá. Khách hàng nhận mô tả báo giá cũng được sao chép cho khách hàng nhận mô tả hợp đồng dự án khi báo giá được chốt. |
+| **Phần trăm thanh toán chia tách** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá**, biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết tỷ lệ phần trăm của mỗi giao dịch bán hàng chưa thanh toán sẽ được quy cho khách hàng nhận mô tả báo giá này. | Được sao chép sang khách hàng nhận mô tả hợp đồng dự án. |
+| **Giới hạn không vượt quá** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá**, biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết liệu có giới hạn thương lượng hoặc hạn mức cho tổng số tiền sẽ được lập hóa đơn cho khách hàng này đối với mô tả báo giá này hay không. | Sáp chép sang khách hàng nhận mô tả hợp đồng dự án khi báo giá được chốt. |
+| **Công ty sở hữu** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá**, biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Pháp nhân mà khách hàng này được thiết lập trong mô-đun **Quản lý dự án và kế toán**. Trường này ở chế độ chỉ đọc và được đặt thành công ty sở hữu của chính báo giá. Danh sách khách hàng cần thêm vào trường **Tài khoản** đã được lọc vào danh sách từ công ty sở hữu trong mô-đun **Quản lý dự án và kế toán** của Project Operations. | Công ty sở hữu tương đương với khái niệm pháp nhân. Tất cả chi phí và doanh thu phát sinh từ dự án này được hạch toán trên sổ cái của công ty sở hữu. |
+| **Là làm tròn** | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận mô tả báo giá**, biểu mẫu chính và biểu mẫu tạo nhanh cho khách hàng nhận mô tả báo giá. | Cho biết liệu khách hàng này có phải là khách hàng làm tròn mặc định cho mô tả báo giá dựa trên dự án này hay không. | Sáp chép sang khách hàng nhận hợp đồng dự án khi báo giá được chốt. |
 
 ## <a name="edit-billing-split-percentages"></a>Chỉnh sửa tỷ lệ phần trăm thanh toán chia tách
 

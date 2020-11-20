@@ -3,7 +3,7 @@ title: Huỷ mục nhập thời gian và chi phí đã được phê duyệt tr
 description: Chủ đề này cung cấp thông tin về cách hủy giao dịch chi phí và thời gian dự án được phê duyệt.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087283"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123359"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Huỷ mục nhập thời gian hoặc chi phí đã được phê duyệt trước đó
 
@@ -36,7 +36,7 @@ Trong phiên bản mới nhất của Dynamics 365 Project Service Automation, n
 Hãy làm theo các bước sau để hủy mục nhập thời gian hoặc chi phí mà bạn đã phê duyệt trước đó.
 
 1. Truy cập **Dự án** \> **Công việc của tôi** \> **Phê duyệt**.
-2. Trên trang danh sách **Phê duyệt** , thay đổi dạng xem thành **Phê duyệt trước đây của tôi**. Danh sách các mục nhập thời gian và chi phí mà bạn đã phê duyệt trước đó được hiển thị.
+2. Trên trang danh sách **Phê duyệt**, thay đổi dạng xem thành **Phê duyệt trước đây của tôi**. Danh sách các mục nhập thời gian và chi phí mà bạn đã phê duyệt trước đó được hiển thị.
 3. Chọn một hoặc nhiều mục nhập, sau đó chọn **Hủy phê duyệt**. Bạn nhận được một thông báo cảnh báo.
 4. Chọn **OK** để hủy phê duyệt.
 
@@ -46,7 +46,7 @@ Khi hủy bỏ một chấp thuận, bạn sẽ tác động đến cả tài ch
 
 ### <a name="operational-impact"></a>Tác động đến vận hành
 
-Về phía vận hành, khi hủy một phê duyệt, trạng thái của bản ghi sẽ được đặt lại thành **Bản nháp** và phê duyệt không còn xuất hiện trong dạng xem **Phê duyệt trước đây của tôi** nữa. Thay vào đó, phê duyệt bị hủy sẽ xuất hiện trong dạng xem **Mục nhập thời gian cần phê duyệt** hoặc dạng xem **Mục nhập chi phí cần phê duyệt** , tùy thuộc vào đó là mục nhập thời gian hay chi phí. Ngoài ra, trạng thái của mục nhập thời gian hoặc chi phí liên quan được đổi thành **Đã gửi** để mục nhập liên quan nhất quán với phê duyệt có trạng thái **Bản nháp**.
+Về phía vận hành, khi hủy một phê duyệt, trạng thái của bản ghi sẽ được đặt lại thành **Bản nháp** và phê duyệt không còn xuất hiện trong dạng xem **Phê duyệt trước đây của tôi** nữa. Thay vào đó, phê duyệt bị hủy sẽ xuất hiện trong dạng xem **Mục nhập thời gian cần phê duyệt** hoặc dạng xem **Mục nhập chi phí cần phê duyệt**, tùy thuộc vào đó là mục nhập thời gian hay chi phí. Ngoài ra, trạng thái của mục nhập thời gian hoặc chi phí liên quan được đổi thành **Đã gửi** để mục nhập liên quan nhất quán với phê duyệt có trạng thái **Bản nháp**.
 
 Là người phê duyệt, bạn có thể chỉnh sửa một số trường của phê duyệt có trạng thái **Bản nháp**. Các trường này bao gồm **Loại thanh toán** và **Số giờ có thể lập hóa đơn cho mục nhập thời gian**. Sau khi thực hiện thay đổi, bạn có thể phê duyệt lại bản ghi. Ngoài ra, bạn có thể từ chối mục nhập. Nếu bạn từ chối phê duyệt mục nhập thời gian, thì trạng thái của mục nhập được thay đổi thành **Đã trả lại**. Nếu bạn từ chối phê duyệt một mục nhập chi phí, thì trạng thái được thay đổi thành **Đã từ chối**. Về mặt chức năng, cả mục nhập đã trả về và đã từ chối đều hoạt động giống như mục nhập có trạng thái **Bản nháp**. Thành viên nhóm dự án có thể thực hiện bất kỳ thay đổi nào cần thiết cho mục nhập và sau đó gửi lại để phê duyệt hoặc xóa hoàn toàn mục nhập.
 

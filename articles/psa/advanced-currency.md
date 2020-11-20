@@ -3,7 +3,7 @@ title: Tình huống nhiều loại tiền tệ (phiên bản 3.x)
 description: Chủ đề này cung cấp thông tin về các trường hợp nhiều loại tiền tệ.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087218"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123404"
 ---
 # <a name="multiple-currency-scenarios"></a>Tình huống nhiều loại tiền tệ
 
@@ -56,7 +56,7 @@ Các thực thể sau đây được coi là giao dịch kinh doanh:
 - Chi tiết dòng hóa đơn
 - Thực tế
 
-Trong mỗi thực thể này, có một bản ghi đại diện cho số tiền chi phí hoặc số tiền bán hàng. Đối với bất kỳ thực thể Dynamics 365 nào có trường **Số tiền** , thì mỗi hồ sơ sẽ bao gồm số tiền ở cả loại tiền tệ giao dịch và cơ sở. 
+Trong mỗi thực thể này, có một bản ghi đại diện cho số tiền chi phí hoặc số tiền bán hàng. Đối với bất kỳ thực thể Dynamics 365 nào có trường **Số tiền**, thì mỗi hồ sơ sẽ bao gồm số tiền ở cả loại tiền tệ giao dịch và cơ sở. 
 
 PSA mở rộng khái niệm về tiền tệ giao dịch cho chi phí và bán hàng theo các cách sau:
 

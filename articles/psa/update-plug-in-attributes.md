@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087191"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121874"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
 
@@ -50,7 +50,7 @@ Các bước sau đây giải thích cho bạn quy trình đăng ký phần bổ
 
  ![Ảnh chụp màn hình về phần bổ trợ sẽ được cập nhật](media/PRT-2.png)
  
-5. Trong cửa sổ cập nhật, hãy bấm vào dấu ba chấm ( **...** ) trong các thuộc tính lọc.
+5. Trong cửa sổ cập nhật, hãy bấm vào dấu ba chấm (**...**) trong các thuộc tính lọc.
 
  ![Ảnh chụp màn hình về Cập nhật thông tin cấu hình bước hiện có](media/PRT-3.png)
  

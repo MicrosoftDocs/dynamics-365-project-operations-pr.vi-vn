@@ -3,7 +3,7 @@ title: Thiết lập đơn vị thời gian
 description: Làm cách nào thiết lập đơn vị thời gian trong Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087203"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120119"
 ---
 # <a name="set-up-time-units-project-service"></a>Thiết lập đơn vị thời gian (Project Service)
 
@@ -37,7 +37,7 @@ Cấu hình đơn vị thời gian trong danh mục sản phẩm mà bạn sẽ 
   
 3. Bấm vào nhóm đơn vị **Thời gian** (được tạo trong quá trình cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]).  
   
-4. Trên tab **Đơn vị** , bấm vào **Thêm Đơn vị Mới** rồi thay đổi các giá trị khi cần. Thêm nhiều đơn vị theo nhu cầu của bạn. Ví dụ: Bạn có thể muốn tạo các đơn vị sau:  
+4. Trên tab **Đơn vị**, bấm vào **Thêm Đơn vị Mới** rồi thay đổi các giá trị khi cần. Thêm nhiều đơn vị theo nhu cầu của bạn. Ví dụ: Bạn có thể muốn tạo các đơn vị sau:  
   
    - **Ngày** có **Đơn vị cơ sở** = **Giờ** và **Số lượng** = 8  
   

@@ -3,7 +3,7 @@ title: Thiết đặt dự án
 description: Chủ đề này cung cấp thông tin về thiết đặt quản lý dự án.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087271"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123134"
 ---
 # <a name="project-settings"></a>Thiết đặt dự án
 
@@ -36,12 +36,12 @@ Sử dụng các thiết đặt sau để truy cập vào các tính năng hoạ
 Để tạo lịch trình dự án, bạn tạo mẫu lịch dự án xác định số giờ làm việc mỗi ngày và thời gian đóng cửa. Để tạo mẫu lịch dự án, bạn liên kết công việc với trường **Mẫu lịch** cho dự án. Làm theo các bước sau để tạo mẫu công việc.
 
 1. Trong PSA, trong ngăn điều hướng, hãy bấm vào **Nguồn lực**. 
-2. Trên trang danh sách **Nguồn lực** , hãy mở bản ghi người dùng rồi chọn **Hiển thị giờ làm việc**.
+2. Trên trang danh sách **Nguồn lực**, hãy mở bản ghi người dùng rồi chọn **Hiển thị giờ làm việc**.
 
   > [!NOTE]
   > Đảm bảo rằng bạn cho phép cửa sổ bật lên trên trang trình duyệt. Điều này cho phép bạn xem giờ làm việc đã đặt cho nguồn lực.
   
-3. Trên tab **Xem hàng tháng** , hãy bấm vào **Thiết lập**. Danh sách ba tùy chọn xuất hiện: 
+3. Trên tab **Xem hàng tháng**, hãy bấm vào **Thiết lập**. Danh sách ba tùy chọn xuất hiện: 
 
   - Lịch trình hàng tuần mới
   - Lịch trình công việc cho một ngày
@@ -53,7 +53,7 @@ Sử dụng các thiết đặt sau để truy cập vào các tính năng hoạ
 5. Để đặt phạm vi ngày, hãy chọn **Lưu** rồi bấm vào **Đóng**. 
 6. Quay lại trang danh sách **Nguồn lực** rồi chọn nguồn lực mà bạn đặt giờ làm việc. 
 7. Chọn **Đặt lịch ở dạng** để đặt mẫu công việc. 
-8. Trong hộp thoại **Mẫu công việc** , hãy nhập tên cho mẫu công việc rồi chọn **Áp dụng**. 
+8. Trong hộp thoại **Mẫu công việc**, hãy nhập tên cho mẫu công việc rồi chọn **Áp dụng**. 
 
 Bạn hiện có thể liên kết mẫu công việc với mẫu lịch dự án.
 
@@ -65,4 +65,4 @@ Mỗi tổ chức phải thiết lập các vai trò này trên trang **Loại n
 
 ## <a name="price-lists"></a>Bảng giá
 
-Bảng giá cho phép bạn đặt chi phí và giá bán hàng cho vai trò nguồn lực, loại chi phí, sản phẩm và các yếu tố khác trong tổ chức. Trước khi đặt ước tính tài chính cho công việc phải được giao cho dự án, bạn nên tạo bảng giá bán hàng và chi phí hỗ trợ. Trong phần tham số, bạn cũng nên thiết lập một bảng giá bán hàng và chi phí mặc định áp dụng cho tất cả dự án được tạo trong tổ chức. Trên trang **Tham số dự án hiện hoạt** , hãy đảm bảo bạn thiết lập bảng giá bán hàng và chi phí mặc định.
+Bảng giá cho phép bạn đặt chi phí và giá bán hàng cho vai trò nguồn lực, loại chi phí, sản phẩm và các yếu tố khác trong tổ chức. Trước khi đặt ước tính tài chính cho công việc phải được giao cho dự án, bạn nên tạo bảng giá bán hàng và chi phí hỗ trợ. Trong phần tham số, bạn cũng nên thiết lập một bảng giá bán hàng và chi phí mặc định áp dụng cho tất cả dự án được tạo trong tổ chức. Trên trang **Tham số dự án hiện hoạt**, hãy đảm bảo bạn thiết lập bảng giá bán hàng và chi phí mặc định.

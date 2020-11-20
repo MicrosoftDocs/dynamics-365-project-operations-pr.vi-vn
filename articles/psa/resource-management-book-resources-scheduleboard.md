@@ -3,7 +3,7 @@ title: Dùng Bảng lịch trình để đăng ký các nguồn lực dự án
 description: Chủ đề này cung cấp thông tin về cách đăng ký các nguồn lực.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087330"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120254"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Dùng Bảng lịch trình để đăng ký các nguồn lực dự án
 
@@ -32,7 +32,7 @@ Ngoài việc đăng ký nguồn lực trên dự án từ trong một dự án,
 Bạn phải tạo các yêu cầu nguồn lực rồi mới có thể đăng ký từ Bảng lịch trình. Thực hiện theo các bước sau để tạo các yêu cầu nguồn lực từ Bảng lịch trình.
 
 1. Nếu ngăn **Yêu cầu đăng ký** ở cuối trang bị thu gọn, hãy chọn điều khiển trình mở rộng để mở rộng ngăn đó.
-2. Trong ngăn **Yêu cầu đăng ký** , trên tab **Dự án** , hãy chọn yêu cầu để đăng ký.
+2. Trong ngăn **Yêu cầu đăng ký**, trên tab **Dự án**, hãy chọn yêu cầu để đăng ký.
 
     ![Yêu cầu đã chọn trên tab Dự án](media/Resource-Management-image73.png)
 
@@ -42,12 +42,12 @@ Bạn phải tạo các yêu cầu nguồn lực rồi mới có thể đăng k�
 
     ![Tạo ngăn Đăng ký nguồn lực cho nguồn lực có thể đăng ký đã chọn](media/Resource-Management-image74.png)
 
-6. Khi yêu cầu được chọn trong ngăn **Tạo đăng ký nguồn lực** , hãy chọn một hoặc nhiều ô của nguồn lực để tạo đăng ký.
+6. Khi yêu cầu được chọn trong ngăn **Tạo đăng ký nguồn lực**, hãy chọn một hoặc nhiều ô của nguồn lực để tạo đăng ký.
 
     ![Nhiều ô được chọn cho nguồn lực](media/Resource-Management-image75.png)
 
 7. Chọn **Đăng ký**.
 
-Yêu cầu được thực hiện bằng cách sử dụng nguồn lực đã chọn. Trong ngăn **Yêu cầu đăng ký** , hãy lưu ý rằng yêu cầu đã được cập nhật và nguồn lực hiển thị ở trạng thái đã đăng ký trên dự án.
+Yêu cầu được thực hiện bằng cách sử dụng nguồn lực đã chọn. Trong ngăn **Yêu cầu đăng ký**, hãy lưu ý rằng yêu cầu đã được cập nhật và nguồn lực hiển thị ở trạng thái đã đăng ký trên dự án.
 
 ![Nguồn lực đã đăng ký trên dự án](media/Resource-Management-image76.png)

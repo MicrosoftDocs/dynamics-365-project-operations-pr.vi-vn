@@ -3,7 +3,7 @@ title: Làm việc với mô hình dữ liệu Project Service Automation
 description: Chủ đề này cung cấp thông tin về cách làm việc với mô hình dữ liệu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087293"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120299"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Làm việc với mô hình dữ liệu Project Service Automation
 
@@ -39,7 +39,7 @@ Thực thể **Mô tả cơ hội** cũng bao gồm các trường liên quan đ
 
 ## <a name="reporting-on-quotes"></a>Báo cáo về báo giá
 
-PSA mở rộng thực thể **Báo giá** Bán hàng bằng cách thêm các trường liên quan đến dự án. **Loại đơn hàng** phân biệt báo giá PSA với báo giá không phải PSA. Giá trị **Dựa trên công việc** cho trường này cho biết báo giá đó là báo giá PSA. Các trường khác có thể liên quan đến việc báo cáo về báo giá PSA bao gồm trường khoản tiền, như **Chi phí có thể tính** , **Chi phí không thể tính** , **Lãi gộp** , **Ước tính** và **Ngân sách**. Các trường hữu ích khác cho biết liệu báo giá có lợi nhuận hay không, cho dù nó sẽ được hoàn thành đúng tiến trình, và liệu nó có đáp ứng kỳ vọng ngân sách của khách hàng hay không.
+PSA mở rộng thực thể **Báo giá** Bán hàng bằng cách thêm các trường liên quan đến dự án. **Loại đơn hàng** phân biệt báo giá PSA với báo giá không phải PSA. Giá trị **Dựa trên công việc** cho trường này cho biết báo giá đó là báo giá PSA. Các trường khác có thể liên quan đến việc báo cáo về báo giá PSA bao gồm trường khoản tiền, như **Chi phí có thể tính**, **Chi phí không thể tính**, **Lãi gộp**, **Ước tính** và **Ngân sách**. Các trường hữu ích khác cho biết liệu báo giá có lợi nhuận hay không, cho dù nó sẽ được hoàn thành đúng tiến trình, và liệu nó có đáp ứng kỳ vọng ngân sách của khách hàng hay không.
 
 PSA cũng mở rộng thực thể **Mô tả báo giá** Bán hàng. Một trường mà PSA thêm là **Phương thức thanh toán** cho biết cách mô tả báo giá sẽ được lập hóa đơn (thời gian và tài liệu hoặc giá cố định). Các trường khác được thêm vào thực thể ghi lại dự án liên quan hỗ trợ mô tả báo giá, lập hóa đơn, chi phí và ngân sách.
 
@@ -50,13 +50,13 @@ PSA cũng thêm các thực thể liên quan đến báo giá mới vào mô hì
 - **Mốc mô tả báo giá** – Thực thể này chứa mốc thanh toán cho mô tả báo giá cố định.
 - **Chi tiết phân tích mô tả báo giá** – Thực thể này chứa chi tiết tài chính của một mô tả báo giá. Thông tin chi tiết này có thể hữu ích cho việc báo cáo số tiền bán hàng đã báo giá và số tiền chi phí ước tính theo nhiều tham số khác nhau.
 
-Các thực thể khác mà PSA thêm vào báo giá là **Bảng giá dự án mô tả báo giá** , **Loại nguồn lực mô tả báo giá** và **Loại giao dịch mô tả báo giá**.
+Các thực thể khác mà PSA thêm vào báo giá là **Bảng giá dự án mô tả báo giá**, **Loại nguồn lực mô tả báo giá** và **Loại giao dịch mô tả báo giá**.
 
 ![Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án](media/PS-Reporting-image2.png "Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án")
 
 ## <a name="reporting-on-project-contracts"></a>Báo cáo về hợp đồng dự án
 
-PSA mở rộng thực thể **Đơn** bán hàng được dùng khi hợp đồng dự án được ghi lại. PSA thêm một trường quan trọng mới, **Loại đơn hàng** , xác định hợp đồng ở dạng hợp đồng dự án PSA thay vì đơn bán hàng. Giá trị **Dựa trên công việc** cho trường này chỉ ra đơn hàng này là hợp đồng dự án PSA. Các trường mới khác được thêm vào thực thể **Đơn hàng** ghi lại thông tin chi tiết về chi phí, trạng thái hợp đồng PSA và tổ chức sở hữu hợp đồng.
+PSA mở rộng thực thể **Đơn** bán hàng được dùng khi hợp đồng dự án được ghi lại. PSA thêm một trường quan trọng mới, **Loại đơn hàng**, xác định hợp đồng ở dạng hợp đồng dự án PSA thay vì đơn bán hàng. Giá trị **Dựa trên công việc** cho trường này chỉ ra đơn hàng này là hợp đồng dự án PSA. Các trường mới khác được thêm vào thực thể **Đơn hàng** ghi lại thông tin chi tiết về chi phí, trạng thái hợp đồng PSA và tổ chức sở hữu hợp đồng.
 
 PSA cũng mở rộng thực thể **Mô tả đơn bán hàng**. Trong số các trường mà nó thêm là trường ghi phương thức thanh toán (thời gian và tài liệu hoặc giá cố định), số tiền ngân sách khách hàng và dự án cơ bản.
 
@@ -66,7 +66,7 @@ PSA cũng thêm một số các thực thể được thiết kế dành cho h�
 - **Lịch trình hóa đơn mô tả hợp đồng** – Thực thể này chứa lịch trình thanh toán được tạo dựa trên tần suất hóa đơn được gán cho mô tả hợp đồng.
 - **Mốc hợp đồng** – Thực thể này chứa mốc thanh toán cho mô tả hợp đồng có điều khoản thanh toán giá cố định.
 
-Các thực thể khác mà PSA thêm vào hợp đồng là **Bảng giá dự án mô tả hợp đồng dự án** , **Loại nguồn lực mô tả hợp đồng dự án** và **Loại giao dịch mô tả hợp đồng dự án**.
+Các thực thể khác mà PSA thêm vào hợp đồng là **Bảng giá dự án mô tả hợp đồng dự án**, **Loại nguồn lực mô tả hợp đồng dự án** và **Loại giao dịch mô tả hợp đồng dự án**.
 
 ![Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án](media/PS-Reporting-image3.png "Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án")
 
@@ -97,7 +97,7 @@ Nguồn lực dự án dùng các thực thể **Nguồn lực có thể đăng 
 
 Khi bạn phê duyệt phiếu chấm công hoặc chi phí, hoặc lập hóa đơn hợp đồng trong PSA, giao dịch doanh nghiệp được ghi lại trong thực thể **Thực tế**. Thực thể này có thể dùng làm cơ sở cho hầu hết các báo cáo liên quan đến tài chính trong PSA. Thực thể **Thực tế** ghi lại chi phí và giao dịch bán hàng cho sự kiện kinh doanh. Thực thể này cũng ghi lại nhiều thuộc tính liên quan.
 
-Khi đang làm việc với thực thể **Thực tế** , bạn phải hiểu giao dịch hoặc các giao dịch được ghi trong thực thể và thời điểm giao dịch được ghi. Dưới đây là các luồng thông thường mà bạn có thể làm việc với các mục nhập thời gian (luồng cho thực thể chi phí là tương tự):
+Khi đang làm việc với thực thể **Thực tế**, bạn phải hiểu giao dịch hoặc các giao dịch được ghi trong thực thể và thời điểm giao dịch được ghi. Dưới đây là các luồng thông thường mà bạn có thể làm việc với các mục nhập thời gian (luồng cho thực thể chi phí là tương tự):
 
 1. Khi mục nhập thời gian được lưu, không có bản ghi nào được tạo trong thực thể **Thực tế**.
 2. Khi mục nhập thời gian được gửi, không có bản ghi nào được tạo trong thực thể **Thực tế**.

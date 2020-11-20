@@ -3,7 +3,7 @@ title: Lịch trình dự án
 description: Chủ đề này cung cấp thông tin về cách tạo lịch trình.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087143"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123269"
 ---
 # <a name="project-schedules"></a>Lịch trình dự án 
 
@@ -83,12 +83,12 @@ Các nút **Chuyển lên** và **Chuyển xuống** thay đổi vị trí của
 
 Bạn hoàn toàn có thể truy cập lưới và dùng lưới **Lịch trình** với các trình đọc màn hình như Trình tường thuật, JAWS hoặc NVDA. Bạn có thể di chuyển qua vùng lưới bằng cách dùng các phím mũi tên (như trong Microsoft Excel), dùng phím Tab để cải thiện thông qua các yếu tố giao diện người dùng mang tính tương tác, dùng phím Mũi tên xuống, phím Enter hoặc Dấu cách để chọn hoặc gọi các menu thả xuống. Tiêu đề cột cũng mang tính tương tác. Bạn có thể ẩn và hiển thị các cột, dùng phím Tab và các phím mũi tên xuống để di chuyển qua các tiêu đề cột và dùng các nút hành động trên thanh công cụ. Ngoài ra, bạn có thể sử dụng các phím tắt sau:
 
-- **Làm mới** : ALT+SHIFT+F5
-- **Thêm** : ALT+SHIFT+Insert
-- **Xóa** : ALT+SHIFT+Delete
-- **Chuyển lên/xuống** : ALT+SHIFT+Up/Mũi tên xuống
-- **Thụt lề/Nhô lề** : ALT_SHIFT+Left/Mũi tên phải
-- **Bung rộng/Thu gọn hệ thống cấp bậc** : ALT+SHIFT+Plus/Phím trừ
+- **Làm mới**: ALT+SHIFT+F5
+- **Thêm**: ALT+SHIFT+Insert
+- **Xóa**: ALT+SHIFT+Delete
+- **Chuyển lên/xuống**: ALT+SHIFT+Up/Mũi tên xuống
+- **Thụt lề/Nhô lề**: ALT_SHIFT+Left/Mũi tên phải
+- **Bung rộng/Thu gọn hệ thống cấp bậc**: ALT+SHIFT+Plus/Phím trừ
 
 ## <a name="task-attributes"></a>Thuộc tính nhiệm vụ
 
@@ -98,19 +98,19 @@ Tên nhiệm vụ mô tả công việc phải hoàn thành. Trong PSA, các thu
  
 ### <a name="schedule-attributes"></a>Thuộc tính lịch trình
 
-Các thuộc tính **Nhân công** , **Ngày bắt đầu** , **Ngày kết thúc** và **Khoảng thời gian** xác định lịch trình cho nhiệm vụ.
+Các thuộc tính **Nhân công**, **Ngày bắt đầu**, **Ngày kết thúc** và **Khoảng thời gian** xác định lịch trình cho nhiệm vụ.
 
 Các thuộc tính lịch trình bổ sung bao gồm:
 
-- **Giờ nhân công** : Nhập ước tính thời gian cần thiết để hoàn thành nhiệm vụ. 
-- **Khoảng thời gian** : Chỉ định số ngày làm việc cần thiết để hoàn thành nhiệm vụ.
-- **ID lịch trình** : ID được tạo tự động này dùng để sắp xếp nhiệm vụ trong hệ thống cấp bậc. Sự phụ thuộc giữa các nhiệm vụ quản lý thứ tự thực tế của các nhiệm vụ.
+- **Giờ nhân công**: Nhập ước tính thời gian cần thiết để hoàn thành nhiệm vụ. 
+- **Khoảng thời gian**: Chỉ định số ngày làm việc cần thiết để hoàn thành nhiệm vụ.
+- **ID lịch trình**: ID được tạo tự động này dùng để sắp xếp nhiệm vụ trong hệ thống cấp bậc. Sự phụ thuộc giữa các nhiệm vụ quản lý thứ tự thực tế của các nhiệm vụ.
  
 ### <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 
-Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc bấm vào **Tạo** và trong khung **Tạo nhanh** , thêm thành viên nhóm dự án ở dạng nguồn lực mới.
+Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc bấm vào **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.
 
-Các trường **Vai trò** , **Đơn vị nguồn lực** và **Tên vị trí** dùng để mô tả các yêu cầu bố trí nhân viên cho nhiệm vụ. Các thuộc tính bố trí nhân viên này cùng với lịch trình nhiệm vụ dùng để tìm các nguồn lực có sẵn để thực hiện nhiệm vụ này.
+Các trường **Vai trò**, **Đơn vị nguồn lực** và **Tên vị trí** dùng để mô tả các yêu cầu bố trí nhân viên cho nhiệm vụ. Các thuộc tính bố trí nhân viên này cùng với lịch trình nhiệm vụ dùng để tìm các nguồn lực có sẵn để thực hiện nhiệm vụ này.
 
 **Vai trò** – Chỉ định loại nguồn lực cần thiết để thực hiện nhiệm vụ này.
 

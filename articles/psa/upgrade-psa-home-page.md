@@ -2,7 +2,7 @@
 title: Trang chủ nâng cấp
 description: Chủ đề này cho biết nơi tìm thông tin quan trọng về các tính năng mới và đã thay đổi trong Dynamics 365 Project Service Automation và quá trình nâng cấp lên phiên bản mới nhất.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087189"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121784"
 ---
 # <a name="upgrade-home-page"></a>Trang chủ nâng cấp
 
@@ -61,4 +61,4 @@ Kể từ ngày 17/5/2019, tất cả các phiên bản mới sẽ có UCI là �
 Bắt đầu từ ngày 1 tháng 3 năm 2020, khách hàng của Dynamics PSA sẽ không thể tạo môi trường mới với các phiên bản PSA cũ nữa, ví dụ: PSA phiên bản 2.x trở xuống. Mọi môi trường mới sẽ chỉ nhận phiên bản PSA 3.x.
 
 > [!NOTE]
-> Để có trải nghiệm tốt nhất khi sử dụng các phiên bản cũ của ứng dụng Field Service và PSA, hãy chuyển đến trang **Cài đặt hệ thống** và đối với trường **Chỉ sử dụng Giao diện hợp nhất mới (đề xuất)** , hãy chọn **Không** vì các phiên bản này không được thiết kế để được tải chính xác trong UCI. Sau khi đã tắt UCI, bạn có thể mở và chạy các phiên bản Field Service và PSA này bằng cách sử dụng ứng dụng web cũ. 
+> Để có trải nghiệm tốt nhất khi sử dụng các phiên bản cũ của ứng dụng Field Service và PSA, hãy chuyển đến trang **Cài đặt hệ thống** và đối với trường **Chỉ sử dụng Giao diện hợp nhất mới (đề xuất)**, hãy chọn **Không** vì các phiên bản này không được thiết kế để được tải chính xác trong UCI. Sau khi đã tắt UCI, bạn có thể mở và chạy các phiên bản Field Service và PSA này bằng cách sử dụng ứng dụng web cũ. 

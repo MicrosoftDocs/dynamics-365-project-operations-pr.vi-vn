@@ -3,7 +3,7 @@ title: Điều hòa đăng ký và phân công
 description: Chủ đề này cung cấp thông tin về số liệu thực tế.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087154"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120479"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Điều hòa đăng ký và phân công
 
@@ -35,7 +35,7 @@ Do việc kết hợp lỏng lẻo của đăng ký dự án và phân công nhi
 
 Đối với mỗi thành viên nhóm có tên, tab **Điều hòa** hiển thị đăng ký và phân công đến từng phân công nhiệm vụ riêng. Tab này hiển thị giờ trong các ô có thể thể hiện cho khoảng thời gian từ tháng đến ngày.
 
-Trong tường **Thang thời gian** , bạn có thể chọn **Tháng** , **Tuần** hoặc **Ngày**. Theo mặc định, **Tuần** sẽ được chọn. Tuy nhiên, bạn có thể thay đổi giá trị mặc định bằng cách chọn nút **Thiết đặt**. Khi tab **Điều hòa** mở, tab này hiển thị ngày hiện tại, nhưng bạn có thể dùng điều khiển lịch để di chuyển tiến hoặc lùi theo thời gian. Khi dự án có ngày bắt đầu trong tương lai, tab hiển thị ngày đó khi ngày được mở. Điều khiển lịch cũng có các tùy chọn cho phép bạn di chuyển đến ngày bắt đầu và kết thúc dự án.
+Trong tường **Thang thời gian**, bạn có thể chọn **Tháng**, **Tuần** hoặc **Ngày**. Theo mặc định, **Tuần** sẽ được chọn. Tuy nhiên, bạn có thể thay đổi giá trị mặc định bằng cách chọn nút **Thiết đặt**. Khi tab **Điều hòa** mở, tab này hiển thị ngày hiện tại, nhưng bạn có thể dùng điều khiển lịch để di chuyển tiến hoặc lùi theo thời gian. Khi dự án có ngày bắt đầu trong tương lai, tab hiển thị ngày đó khi ngày được mở. Điều khiển lịch cũng có các tùy chọn cho phép bạn di chuyển đến ngày bắt đầu và kết thúc dự án.
 
 Bạn có thể sử dụng điều khiển trình mở rộng trên mỗi nguồn lực để hiển thị chi tiết của đăng ký nguồn lực. Bạn cũng có thể mở rộng phân công của mỗi nguồn lực đến cấp nhiệm vụ riêng.
 
@@ -47,9 +47,9 @@ Bạn có thể sử dụng điều khiển trình mở rộng trên mỗi ngu�
 > [!NOTE]
 > Chú thích cho những trạng thái này có thể bị ẩn để nhường chỗ cho lưới. Trong trường hợp này, bạn có thể hiển thị chú thích bằng cách chọn nút **Thiết đặt**.
 
-Trong một số trường hợp, khi trường **Thang thời gian** được đặt thành mức cao hơn **Ngày** , thì chênh lệch có thể được tính bằng 0 (không). Ví dụ: ở cấp **Tháng** , chênh lệch thực cho nguồn lực có thể bằng 0 (không) để chỉ ra đăng ký bằng phân công. Tuy nhiên, nếu thấy cấp **Tuần** , bạn có thể thấy 0 (không) giờ phân công và 40 giờ đăng ký trong tuần đầu tiên của tháng, và 40 giờ phân công và 0 (không) giờ đăng ký trong tuần thứ hai của tháng. Mặc dù tổng số đăng ký và phân công cho tháng bằng nhau nhưng sẽ khác nhau theo tuần.
+Trong một số trường hợp, khi trường **Thang thời gian** được đặt thành mức cao hơn **Ngày**, thì chênh lệch có thể được tính bằng 0 (không). Ví dụ: ở cấp **Tháng**, chênh lệch thực cho nguồn lực có thể bằng 0 (không) để chỉ ra đăng ký bằng phân công. Tuy nhiên, nếu thấy cấp **Tuần**, bạn có thể thấy 0 (không) giờ phân công và 40 giờ đăng ký trong tuần đầu tiên của tháng, và 40 giờ phân công và 0 (không) giờ đăng ký trong tuần thứ hai của tháng. Mặc dù tổng số đăng ký và phân công cho tháng bằng nhau nhưng sẽ khác nhau theo tuần.
 
-Khi bạn thấy cấp thời gian cao hơn, tab **Điều hòa** hiển thị các chỉ báo cho thông báo cho bạn biết rằng có sự khác biệt giữa các cấp thời gian thấp hơn. Ví dụ, trong hình minh họa sau đây, một chỉ báo ô xuất hiện trong ô cho tháng 10 năm 2018 cho nguồn lực có tên là Đỗ Ngọc Bích. Do đó, bạn có thể thấy rằng mặc dù đăng ký và phân công của nguồn lực tương đương khi chúng được tổng hợp ở cấp **Tháng** , nhưng chúng không khớp ở các cấp thấp hơn.
+Khi bạn thấy cấp thời gian cao hơn, tab **Điều hòa** hiển thị các chỉ báo cho thông báo cho bạn biết rằng có sự khác biệt giữa các cấp thời gian thấp hơn. Ví dụ, trong hình minh họa sau đây, một chỉ báo ô xuất hiện trong ô cho tháng 10 năm 2018 cho nguồn lực có tên là Đỗ Ngọc Bích. Do đó, bạn có thể thấy rằng mặc dù đăng ký và phân công của nguồn lực tương đương khi chúng được tổng hợp ở cấp **Tháng**, nhưng chúng không khớp ở các cấp thấp hơn.
 
 ![Các mục đặt trước và chỉ định không khớp ở cấp độ hàng tháng](media/reconcile-assignments-01.JPG)
 
@@ -61,7 +61,7 @@ Bạn có thể bấm chuột phải vào một ô để thu nhỏ cấp cao hơ
 
 Bạn cũng có thể dùng các nút **Trước** và **Tiếp theo** trên lưới để di chuyển qua mọi chênh lệch trong dự án. Để sử dụng các nút này, trước tiên bạn phải chọn một nguồn lực. Chọn **Tiếp theo** để di chuyển đến chênh lệch tiếp theo giữa đăng ký và phân công cho nguồn lực đó. Chọn **Trước đó** để chuyển về chênh lệch trước đó.
 
-Trong các trường hợp có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, bạn có thể chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký** , Sau đó, bạn có thể xem đăng ký cần thiết để giải quyết tình trạng thiếu của nguồn lực. Bạn cũng có thể xem đăng ký trên dự án hiện tại và các dự án khác. Chọn **OK** để tạo đăng ký cho nguồn lực mà không có trạng thái rảnh/bận hiện tại. Sau đó, người quản lý dự án hoặc người quản lý nguồn lực có thể dùng Bảng lịch trình để quản lý tình huống mà nguồn lực bị đăng ký quá mức so với năng lực do đăng ký của họ được mở rộng.
+Trong các trường hợp có phân công nhiệm vụ cho nguồn lực nhưng không có đăng ký, bạn có thể chọn thiếu đăng ký rồi chọn **Mở rộng đăng ký**, Sau đó, bạn có thể xem đăng ký cần thiết để giải quyết tình trạng thiếu của nguồn lực. Bạn cũng có thể xem đăng ký trên dự án hiện tại và các dự án khác. Chọn **OK** để tạo đăng ký cho nguồn lực mà không có trạng thái rảnh/bận hiện tại. Sau đó, người quản lý dự án hoặc người quản lý nguồn lực có thể dùng Bảng lịch trình để quản lý tình huống mà nguồn lực bị đăng ký quá mức so với năng lực do đăng ký của họ được mở rộng.
 
 ## <a name="managing-with-time-zones"></a>Quản lý theo múi giờ
 Để đảm bảo kết quả chính xác và có thể dự đoán được khi sử dụng Gia hạn đăng ký, có hai điều kiện tiên quyết chính phải được đáp ứng:  

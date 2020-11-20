@@ -3,7 +3,7 @@ title: Tạo đăng ký dự án từ bảng Lịch trình
 description: Chủ đề này cung cấp thông tin về cách tạo đặt chỗ dự án từ bảng lịch trình.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087125"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122324"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Tạo đăng ký dự án từ bảng Lịch trình
 
@@ -81,7 +81,7 @@ Hoàn tất các bước sau để đặt lịch từ một yêu cầu nguồn l
 
 1. Chuyển tới **Yêu cầu nguồn lực** và chọn **Mới** để tạo yêu cầu nguồn lực mới.
 
-2. Trên tab **Dự án** , chọn một dự án liên kết yêu cầu dự án.
+2. Trên tab **Dự án**, chọn một dự án liên kết yêu cầu dự án.
  
     Trên bảng Lịch trình, yêu cầu mới này hiển thị là **Yêu cầu Mở** trên bảng lịch trình mà bạn có thể thực hiện.
 

@@ -3,7 +3,7 @@ title: Cung cấp dự toán công việc cho một dự án trong quá trình b
 description: Làm cách nào để cung cấp ước tính công việc cho dự án trong quy trình bán hàng ở Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087158"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120614"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Cung cấp ước tính công việc cho dự án trong quy trình bán hàng (Project Service)
 
@@ -46,7 +46,7 @@ Trong quá trình bán hàng, bạn có thể tạo ước tính bán hàng từ
 ## <a name="import-estimates-from-a-project-into-a-quote"></a>Nhập ước tính từ dự án vào báo giá  
  Sau khi có ước tính dự án trong dự án, bạn có thể nhập những ước tính này vào mô tả báo giá:  
   
--   Trong **Chi tiết mô tả báo giá** , bấm vào **Nhập từ ước tính**. 
+-   Trong **Chi tiết mô tả báo giá**, bấm vào **Nhập từ ước tính**. 
 
 -   Chọn nhập ước tính dự án được tóm tắt theo loại giao dịch, vai trò hoặc cấp độ nút cấu trúc phân tích công việc.  
   

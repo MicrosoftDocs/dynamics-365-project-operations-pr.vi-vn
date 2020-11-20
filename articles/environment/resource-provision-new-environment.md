@@ -3,17 +3,17 @@ title: Cung cấp môi trường mới
 description: Chủ đề này cung cấp thông tin về cách cung cấp môi trường Project Operations mới.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086995"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121199"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
@@ -26,7 +26,7 @@ Chủ đề này cung cấp thông tin về cách cung cấp môi trường Dyna
 Sử dụng các bước sau để bật quy trình tự động cung cấp Project Operations cho dự án LCS của bạn.
 
 1. Chuyển đến [LCS](https://lcs.dynamics.com/v2) và chọn ngăn xếp **Quản lý tính năng xem trước**.
-2. Trong danh sách **Tính năng xem trước** , hãy chọn **Tính năng Project Operations** , sau đó chọn **Đã bật tính năng xem trước** để kích hoạt Project Operations.
+2. Trong danh sách **Tính năng xem trước**, hãy chọn **Tính năng Project Operations**, sau đó chọn **Đã bật tính năng xem trước** để kích hoạt Project Operations.
 
 > [!NOTE]
 > Bước này chỉ được thực hiện một lần cho mỗi dự án LCS.
@@ -39,7 +39,7 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
 > [!IMPORTANT]
 > Đảm bảo phiên bản ứng dụng đã chọn là 10.0.13 trở lên.
 
-3. Để cung cấp Project Operations, trong phần **Cài đặt nâng cao** , hãy chọn **Common Data Service**. 
+3. Để cung cấp Project Operations, trong phần **Cài đặt nâng cao**, hãy chọn **Common Data Service**. 
 4. Bật **Thiết đặt Common Data Service** bằng việc chọn **Có** và sau đó nhập thông tin vào các trường bắt buộc:
 
   - Tên
@@ -47,7 +47,7 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
   - Ngôn ngữ
   - Tiền tệ
  
-5. Trong trường **Mẫu Common Data Service** , hãy chọn **Project Operations** 
+5. Trong trường **Mẫu Common Data Service**, hãy chọn **Project Operations** 
 
 6. Chọn loại môi trường để triển khai. Bản dùng thử dựa trên đăng ký sẽ cho phép bạn triển khai môi trường CDS trong 30 ngày. 
 
@@ -76,11 +76,11 @@ Project Operations yêu cầu môi trường Finance có phiên bản ứng dụ
 
 Bạn có thể cần áp dụng các bản cập nhật chất lượng cho môi trường Finance của mình để nhận được phiên bản này.
 
-1. Trong LCS, trên trang **Chi tiết môi trường** , trong phần **Bản cập nhật có sẵn** , hãy chọn **Xem bản cập nhật**.
+1. Trong LCS, trên trang **Chi tiết môi trường**, trong phần **Bản cập nhật có sẵn**, hãy chọn **Xem bản cập nhật**.
 
 ![Xem bản cập nhập](./media/5ViewUpdates.png)
 
-2. Trên trang **Bản cập nhật nhị phân** , hãy chọn **Lưu gói.**
+2. Trên trang **Bản cập nhật nhị phân**, hãy chọn **Lưu gói.**
 
 ![Lưu gói](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ Việc cung cấp dịch vụ môi trường sẽ mất một thời gian. Sau k
 ## <a name="establish-a-dual-write-connection"></a>Thiết lập kết nối Ghi kép 
 
 1. Trong dự án LCS của bạn, hãy chuyển đến trang **Chi tiết môi trường**.
-2. Trong phần **Thông tin môi trường Common Data Service** , hãy chọn **Liên kết tới CDS for Apps**.
+2. Trong phần **Thông tin môi trường Common Data Service**, hãy chọn **Liên kết tới CDS for Apps**.
 3. Sau khi liên kết hoàn tất, hãy chọn **Liên kết tới CDS for Apps** lần nữa. Bạn sẽ được chuyển hướng đến Ghi kép trong Finance.
 
 ![Liên kết tới CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ Việc cung cấp dịch vụ môi trường sẽ mất một thời gian. Sau k
 
 ![Áp dụng giải pháp](./media/13ApplySolutions.png)
 
-5. Chọn cả hai giải pháp, **Bản đồ thực thể ghi kép của Dynamics 365 Finance and Operations** và **Bản đồ thực thể ghi kép của Dynamics 365 Project Operations** , và sau đó chọn **Áp dụng**.
+5. Chọn cả hai giải pháp,**Bản đồ thực thể ghi kép của Dynamics 365 Finance and Operations** và **Bản đồ thực thể ghi kép của Dynamics 365 Project Operations**, và sau đó chọn **Áp dụng**.
 
 ![Xác nhận giải pháp](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Sau khi các thực thể được áp dụng, tất cả các ánh xạ có s�
 
 ![Tham số khung](./media/17FrameworkParameters.png)
 
-3. Trên trang **Cài đặt thực thể** , hãy chọn **Làm mới danh sách thực thể**.
+3. Trên trang **Cài đặt thực thể**, hãy chọn **Làm mới danh sách thực thể**.
 
 ![Làm mới danh sách thực thể](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Quá trình làm mới sẽ mất khoảng 20 phút. Bạn sẽ nhận được 
 ## <a name="run-project-operations-dual-write-maps"></a>Chạy bản đồ ghi kép Project Operations
 
 1. Trong dự án LCS của bạn, hãy chuyển đến trang **Chi tiết môi trường**.
-2. Trong phần **Thông tin môi trường Common Data Service** , hãy chọn **Liên kết tới CDS for Apps.** Sau khi bạn chọn liên kết, bạn sẽ được chuyển hướng đến danh sách các thực thể trong ánh xạ.
+2. Trong phần **Thông tin môi trường Common Data Service**, hãy chọn **Liên kết tới CDS for Apps.** Sau khi bạn chọn liên kết, bạn sẽ được chuyển hướng đến danh sách các thực thể trong ánh xạ.
 3. Bắt đầu bản đồ như mô tả trong bảng sau. Đảm bảo làm theo trình tự như đã liệt kê.
 
 | **Sơ đồ thực thể** | **Làm mới thực thể** | **Đồng bộ ban đầu** | **Bản cái cho đồng bộ hóa ban đầu** | **Chạy điều kiện tiên quyết** | **Đồng bộ hóa ban đầu điều kiện tiên quyết** |
@@ -177,7 +177,7 @@ Quá trình làm mới sẽ mất khoảng 20 phút. Bạn sẽ nhận được 
 
 5. Sau khi quá trình làm mới hoàn tất, hãy chạy bản đồ. Trước khi bạn bật bản đồ tiếp theo, hãy xác minh rằng bản đồ trong bảng ở trạng thái **Đang chạy**. Việc chạy bản đồ với số lượng điều kiện tiên quyết lớn hơn có thể mất một chút thời gian.
 
-Để chạy bản đồ với các điều kiện tiên quyết, hãy bật tùy chọn chuyển đổi **Hiển thị bản đồ thực thể liên quan**. Nếu bảng cho biết **Đồng bộ hóa ban đầu điều kiện tiên quyết** là **Không** , hãy xác minh rằng cờ **Đồng bộ ban đầu** đang **Tắt** trong tất cả các bản đồ tiên quyết trước khi bạn chạy.
+Để chạy bản đồ với các điều kiện tiên quyết, hãy bật tùy chọn chuyển đổi **Hiển thị bản đồ thực thể liên quan**. Nếu bảng cho biết **Đồng bộ hóa ban đầu điều kiện tiên quyết** là **Không**, hãy xác minh rằng cờ **Đồng bộ ban đầu** đang **Tắt** trong tất cả các bản đồ tiên quyết trước khi bạn chạy.
 
 ![Chạy bản đồ](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Quá trình làm mới sẽ mất khoảng 20 phút. Bạn sẽ nhận được 
 
 ![Tất cả các bản đồ đang chạy](./media/22AllMapsRunning.png)
 
-Môi trường Project Operations của bạn hiện đã được cung cấp và đặt cấu hình.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Áp dụng dữ liệu cấu hình trong CDS cho Project Operations (tùy chọn)
+
+Nếu bạn đã áp dụng dữ liệu demo cho môi trường Tài chính, hãy xem [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service cho Project Operations](resource-apply-pro-setup-config-data.md) để áp dụng dữ liệu demo cho môi trường CDS.
+
+
+Môi trường Project Operations của bạn hiện đã được cung cấp và đặt cấu hình. 

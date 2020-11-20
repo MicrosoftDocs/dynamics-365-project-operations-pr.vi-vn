@@ -3,7 +3,7 @@ title: Tại sao giá được mặc định là 0 trên thực tế chi phí b�
 description: Ba bước kiểm tra sau đây sẽ giúp bạn khắc phục sự cố tại sao giá mặc định là 0 trên thực tế chi phí bán hàng.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5840bda4f74c720bfcdc7f4e84c8f22e0c6163ec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087128"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122099"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Tại sao giá được mặc định là 0 trên thực tế chi phí bán hàng?
 
