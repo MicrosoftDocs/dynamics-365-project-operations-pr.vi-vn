@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4087343"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126419"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Nhập giá trị ước tính vào mục mô tả hợp đồng dựa trên dự án
 
@@ -22,8 +22,8 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Trong Dynamics 365 Project Operations, bạn có thể nhập các giá trị ước tính từ dự án vào mục mô tả hợp đồng dựa trên dự án.
 
 1. Xác minh rằng trường **Dự án** được điền trên mục mô tả hợp đồng dựa trên dự án.
-2. Trên tab **Chi tiết mô tả hợp đồng** , hãy chọn **Nhập từ ước tính dự án**. Trang hộp thoại với các tùy chọn tóm tắt sẽ mở ra. Các tùy chọn tóm tắt có sẵn là: **Lớp giao dịch** , **Danh mục** , **Vai trò** và **Nhiệm vụ dự án**. Dựa trên sự lựa chọn tóm tắt, giá trị ước tính từ dự án cho tất cả các lớp giao dịch có trong mục mô tả hợp đồng này sẽ được sao chép. 
-3. Để kiểm tra những lớp giao dịch nào được bao gồm, trên tab **Tổng quát** của mục mô tả hợp đồng dựa trên dự án, hãy kiểm tra giá trị trong các trường **Bao gồm thời gian** , **Bao gồm chi phí** và **Bao gồm phí**.
+2. Trên tab **Chi tiết mô tả hợp đồng**, hãy chọn **Nhập từ ước tính dự án**. Trang hộp thoại với các tùy chọn tóm tắt sẽ mở ra. Các tùy chọn tóm tắt có sẵn là: **Lớp giao dịch**, **Danh mục**, **Vai trò** và **Nhiệm vụ dự án**. Dựa trên sự lựa chọn tóm tắt, giá trị ước tính từ dự án cho tất cả các lớp giao dịch có trong mục mô tả hợp đồng này sẽ được sao chép. 
+3. Để kiểm tra những lớp giao dịch nào được bao gồm, trên tab **Tổng quát** của mục mô tả hợp đồng dựa trên dự án, hãy kiểm tra giá trị trong các trường **Bao gồm thời gian**, **Bao gồm chi phí** và **Bao gồm phí**.
 
 Khi bạn nhập giá trị ước tính, ứng dụng sẽ lấy mặc định giá dựa trên bảng giá dự án được đính kèm với hợp đồng và loại thanh toán được thiết lập trên mục mô tả hợp đồng. Nếu một vai trò hoặc danh mục được thiết lập trên mục mô tả hợp đồng là không thể tính phí, thì mục mô tả ước tính đã nhập cho vai trò hoặc danh mục đó sẽ là dạng không thể tính phí và sẽ không cộng vào giá trị theo hợp đồng của mục mô tả hợp đồng.
 
@@ -39,20 +39,20 @@ Chẳng hạn, nếu dự án có các mục mô tả giá trị ước tính sa
 | Nhiệm vụ B | Khách sạn | 10/1/2020 | 4 | 200 | 800 |
 | Nhiệm vụ C | Khách sạn | 11/1/2020 | 2 | 200 | 400 |
 
-Khi người dùng chọn tóm tắt theo **Lớp giao dịch** , thông tin sau sẽ được nhập:
+Khi người dùng chọn tóm tắt theo **Lớp giao dịch**, thông tin sau sẽ được nhập:
 
 | Tác vụ | Danh mục | Ngày | Số lượng | Đơn giá | Số lượng |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp;  | &nbsp;  | 10/1/2020 | 3.34 | 840 | 2800 |
 
-Khi người dùng chọn tóm tắt theo **Lớp giao dịch** và **Danh mục** , thông tin sau sẽ được nhập:
+Khi người dùng chọn tóm tắt theo **Lớp giao dịch** và **Danh mục**, thông tin sau sẽ được nhập:
 
 | Tác vụ | Danh mục | Ngày | Số lượng | Đơn giá | Số lượng |
 | --- | --- | --- | --- | --- | --- |
 | Nhiệm vụ A | Vé máy bay | 10/1/2020 | 4 | 400 | 1600 |
 | &nbsp;  | Khách sạn | 10/1/2020 | 6 | 200 | 1200 |
 
-Khi người dùng chọn tóm tắt theo **Lớp giao dịch** , **Danh mục** và **Nhiệm vụ nút lá** , thông tin sau sẽ được nhập. Xin lưu ý rằng kết quả này giống như những gì có trên dự án:
+Khi người dùng chọn tóm tắt theo **Lớp giao dịch**, **Danh mục** và **Nhiệm vụ nút lá**, thông tin sau sẽ được nhập. Xin lưu ý rằng kết quả này giống như những gì có trên dự án:
 
 | Tác vụ | Danh mục | Ngày | Số lượng | Đơn giá | Số lượng |
 | --- | --- | --- | --- | --- | --- |

@@ -3,7 +3,7 @@ title: Cho phép người khác để nhập mục nhập thời gian hoặc chi
 description: Làm cách nào để cho phép người khác nhập mục nhập thời gian hoặc chi phí của bạn trong Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130420"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Cho phép ai đó nhập mục nhập thời gian và chi phí của bạn (Project Service)
 
@@ -37,13 +37,13 @@ Thiết lập đại diện để cho phép người khác thay mặt bạn th�
   
 2.  Trên thanh lệnh, bấm vào **Mới**.  
   
-3. **Tên** : Nhập tên cho bản ghi.  
+3. **Tên**: Nhập tên cho bản ghi.  
   
-4. **Loại** : Chọn xem đại diện có thể thay mặt bạn nhập các mục nhập chi phí hay thời gian không.  
+4. **Loại**: Chọn xem đại diện có thể thay mặt bạn nhập các mục nhập chi phí hay thời gian không.  
   
-5. **Đại diện** : Chọn tên của người mà bạn muốn chỉ định làm đại diện.  
+5. **Đại diện**: Chọn tên của người mà bạn muốn chỉ định làm đại diện.  
   
-6. **Ngày bắt đầu và kết thúc** : Chọn ngày bắt đầu và kết thúc tính năng đại diện.  
+6. **Ngày bắt đầu và kết thúc**: Chọn ngày bắt đầu và kết thúc tính năng đại diện.  
   
 7.  Khi bạn đã hoàn tất, bấm vào **Lưu và Đóng**.  
   
@@ -55,7 +55,7 @@ Thiết lập đại diện để cho phép người khác thay mặt bạn th�
   
 3.  Trên thanh lệnh, bấm vào **Hủy kích hoạt**.  
   
-4.  Trên hộp thoại **Xác nhận hủy kích hoạt** , bấm vào **Hủy kích hoạt**.  
+4.  Trên hộp thoại **Xác nhận hủy kích hoạt**, bấm vào **Hủy kích hoạt**.  
   
 ## <a name="enter-time-for-someone-else"></a>Nhập thời gian cho người khác  
   

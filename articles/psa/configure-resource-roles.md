@@ -3,7 +3,7 @@ title: Cấu hình vai trò nguồn lực
 description: Làm cách nào để đặt cấu hình các vai trò nguồn lực trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087106"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129164"
 ---
 # <a name="configure-resource-roles-project-service"></a>Đặt cấu hình các vai trò nguồn lực (Project Service)
 
@@ -41,13 +41,13 @@ Vai trò đóng một phần quan trọng trong lập kế hoạch dự án, khi
   
 2.  Bấm vào **Mới**.  
   
-3.  Trong vùng **Chung** , nhập tên cho vai trò vào **Tên** , sau đó điền vào các trường khác nếu cần.  
+3.  Trong vùng **Chung**, nhập tên cho vai trò vào **Tên**, sau đó điền vào các trường khác nếu cần.  
   
 4.  Bấm vào **Lưu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa.  
   
-5.  Trong vùng **Kỹ năng** , bấm vào **+** để thêm kỹ năng.  
+5.  Trong vùng **Kỹ năng**, bấm vào **+** để thêm kỹ năng.  
   
-6.  Trong ngăn **Yêu cầu năng lực vai trò** , bấm vào trường **Kỹ năng** , bấm vào nút **Tìm kiếm** , sau đó chọn một kỹ năng.  
+6.  Trong ngăn **Yêu cầu năng lực vai trò**, bấm vào trường **Kỹ năng**, bấm vào nút **Tìm kiếm**, sau đó chọn một kỹ năng.  
   
 7.  Chọn mức độ thành thạo cho kỹ năng đó, sau đó bấm vào **Lưu**.  
   

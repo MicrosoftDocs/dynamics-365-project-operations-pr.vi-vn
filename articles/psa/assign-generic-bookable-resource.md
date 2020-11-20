@@ -3,7 +3,7 @@ title: Phân công nhiệm vụ và nhóm dự án cho nguồn lực có thể �
 description: Chủ đề này cung cấp thông tin về cách đặt nguồn lực chung cho nhóm dự án và nhiệm vụ.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087123"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127094"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Phân công nhiệm vụ cho nguồn lực có thể đặt lịch chung và tạo yêu cầu nguồn lực 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4087123"
 
 Ngoài việc đặt và phân công các nguồn lực có tên hoặc nguồn lực thực tế cho dự án của bạn, bạn có thể phân công nhiệm vụ dự án cho các nguồn lực chung. Các nguồn lực này có thể đóng vai trò như là chỗ dành sẵn cho nguồn lực được đặt tên cho đến khi bạn đã sẵn sàng phân công dự án cho nguồn lực có tên. 
 
-1. Trong Project Service Automation (PSA), mở trang **Dự án** và trên tab **Lịch trình** , nhập tên vị trí của nguồn lực chung trong ô **Nguồn lực** của lịch trình. Hoặc nhấp vào biểu tượng **Nguồn lực** trong ô để mở bộ chọn nguồn lực, sau đó nhập tên của nguồn lực chung mà bạn muốn tạo.
+1. Trong Project Service Automation (PSA), mở trang **Dự án** và trên tab **Lịch trình**, nhập tên vị trí của nguồn lực chung trong ô **Nguồn lực** của lịch trình. Hoặc nhấp vào biểu tượng **Nguồn lực** trong ô để mở bộ chọn nguồn lực, sau đó nhập tên của nguồn lực chung mà bạn muốn tạo.
 
 ![Tạo và chỉ định một thành viên nhóm chung](media/RM-how-to-9.png)
 

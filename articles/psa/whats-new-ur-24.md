@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087060"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126599"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Phát hành bản cập nhật Project Service Automation 24, V3
 
@@ -67,7 +67,7 @@ Các vấn đề sau đã được khắc phục:
 
 Các vấn đề sau đã được khắc phục:
 
-- Trong **Lịch trình dự án** , khi chuyển từ **Thủ công** sang **Tự động** , quá trình lưu tự động không hoàn thành.
+- Trong **Lịch trình dự án**, khi chuyển từ **Thủ công** sang **Tự động**, quá trình lưu tự động không hoàn thành.
 - Chí phí không được phép tính vào mức chênh lệch trên **Lưới theo dõi dự án**.
 - Hành vi không nhất quán đối với cột **Thẻ ước tính** trong khi tải so với thay đổi loại **Thời gian - Giai đoạn**.
 - Chi phí thực tế của một dự án có thể không phản ánh tổng số từ **Thực tế**.

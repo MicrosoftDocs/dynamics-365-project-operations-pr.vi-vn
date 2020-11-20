@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087024"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125609"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Nhập ước tính cho dự án vào mô tả báo giá dựa trên dự án
 
@@ -23,7 +23,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Nếu một dự án được tạo trong giai đoạn trước khi bán hàng, bạn có thể chọn nhập ước tính tài chính từ dự án vào mô tả báo giá dựa trên dự án.
 
 1. Đảm bảo rằng mô tả báo giá dựa trên dự án có thông tin dự án trong trường **Dự án**.
-2. Trên tab **Chi tiết mô tả báo giá** , chọn **Nhập từ ước tính dự án**.
+2. Trên tab **Chi tiết mô tả báo giá**, chọn **Nhập từ ước tính dự án**.
 3. Trên trang hộp thoại mở ra, hãy chọn một trong các tùy chọn tóm tắt sau:
 
   - **Lớp giao dịch**
@@ -31,7 +31,7 @@ Nếu một dự án được tạo trong giai đoạn trước khi bán hàng, 
   - **Vai trò** 
   - **Nhiệm vụ dự án**
 
-Dựa trên lựa chọn của bạn, ước tính từ dự án cho tất cả các lớp giao dịch bao gồm trên mô tả báo giá này được sao chép qua. Để kiểm tra những lớp giao dịch nào được bao gồm, hãy chọn tab **Tổng quát** trên mô tả báo giá dựa trên dự án và kiểm tra các giá trị cho **Bao gồm thời gian** , **Bao gồm chi phí** và **Bao gồm phí**.
+Dựa trên lựa chọn của bạn, ước tính từ dự án cho tất cả các lớp giao dịch bao gồm trên mô tả báo giá này được sao chép qua. Để kiểm tra những lớp giao dịch nào được bao gồm, hãy chọn tab **Tổng quát** trên mô tả báo giá dựa trên dự án và kiểm tra các giá trị cho **Bao gồm thời gian**, **Bao gồm chi phí** và **Bao gồm phí**.
 
 Khi bạn nhập giá trị ước tính, hệ thống sẽ lấy mặc định giá dựa trên bảng giá dự án được đính kèm với báo giá và loại thanh toán được thiết lập trên mục mô tả báo giá dựa trên dự án. Nếu một vai trò hoặc danh mục được thiết lập trên mô tả báo giá dựa trên dự án là không tính phí, thì mô tả ước tính đã nhập sẽ được đặt là không tính phí và sẽ không cộng vào giá trị được báo giá của mô tả báo giá.
 

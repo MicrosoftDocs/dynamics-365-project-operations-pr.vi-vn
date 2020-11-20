@@ -3,7 +3,7 @@ title: Lên lịch dự án với cấu trúc phân tích công việc
 description: Làm cách nào để lên lịch dự án bằng cấu trúc phân tích công việc trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087290"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127904"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Lên lịch dự án bằng cấu trúc phân tích công việc (Project Service)
 
@@ -86,14 +86,14 @@ Bạn sẽ sử dụng các loại nhiệm vụ sau khi tạo cấu trúc phân 
   
 ### <a name="schedule-attributes"></a>Thuộc tính lịch trình
 
- - Gán giá trị cho **Số giờ nỗ lực** , **Số nguồn lực** , **Ngày bắt đầu** , **Ngày kết thúc** và **Khoảng thời gian** để xác định lịch trình cho nhiệm vụ. 
+ - Gán giá trị cho **Số giờ nỗ lực**, **Số nguồn lực**, **Ngày bắt đầu**, **Ngày kết thúc** và **Khoảng thời gian** để xác định lịch trình cho nhiệm vụ. 
  - **Nỗ lực** là ước tính giờ cần để hoàn thành nhiệm vụ.
  - **Số nguồn lực** là ước tính mà người quản lý dự án đặt trong nhiệm vụ để giúp tạo lịch trình tốt nhất có thể. 
  - **Khoảng thời gian** (tính theo ngày) cho biết số ngày làm việc sẽ cần hoàn thành nhiệm vụ.  
   
 ### <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 
- - **Vai trò** , **Đơn vị tổ chức nguồn lực** , **Số nguồn lực** và **Nguồn lực** mô tả các yêu cầu sắp xếp nhân viên cho nhiệm vụ. 
+ - **Vai trò**, **Đơn vị tổ chức nguồn lực**, **Số nguồn lực** và **Nguồn lực** mô tả các yêu cầu sắp xếp nhân viên cho nhiệm vụ. 
  - **Vai trò** mô tả loại nguồn lực cần thiết để thực hiện nhiệm vụ. 
  - **Đơn vị tổ chức nguồn lực** biểu thị đơn vị tổ chức mà từ đó nguồn lực phải được sắp xếp nhân viên cho nhiệm vụ đó; điều này cũng tác động đến ước tính chi phí và bán hàng của nhiệm vụ, vì điều này được cân nhắc khi xác định giá bán đơn vị cho nguồn lực. 
  - **Nguồn lực** chứa nguồn lực chung hoặc nguồn lực được đặt tên khi tìm thấy nguồn lực.  

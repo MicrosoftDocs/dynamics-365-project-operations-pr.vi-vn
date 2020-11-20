@@ -3,7 +3,7 @@ title: Sử dụng Trình bổ sung của Project Service để hoạch định 
 description: Chủ đề này cung cấp thông tin về cách thêm, cấu hình và sử dụng phần bổ trợ Microsoft Project cho Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087238"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129704"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Sử dụng Trình bổ sung Project Service Automation để lập kế hoạch công việc của bạn trong Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4087238"
 ## <a name="read-from-a-template"></a>Đọc từ một mẫu  
  Đọc từ một mẫu mà bạn tạo trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] và sao chép vào [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] để bắt đầu lên kế hoạch dự án của bạn. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tạo mẫu dự án (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Từ thẻ **Project Service** , bấm vào **Đọc** > **Mẫu Dự án Project Service Automation**.  
+1.  Từ thẻ **Project Service**, bấm vào **Đọc** > **Mẫu Dự án Project Service Automation**.  
 
 2.  Chọn một mẫu dự án từ danh sách rồi bấm vào **Mở**.  
 
@@ -78,7 +78,7 @@ ms.locfileid: "4087238"
 
 1.  Từ thẻ Project Service, chọn một hàng và bấm vào **Tìm Nguồn lực**.  
 
-2.  Trên màn hình **Đăng ký Nguồn lực** , chọn nguồn lực bạn muốn sử dụng cho dự án.  
+2.  Trên màn hình **Đăng ký Nguồn lực**, chọn nguồn lực bạn muốn sử dụng cho dự án.  
 
 3.  Bấm vào **Đăng ký** rồi bấm vào **OK**.  
 
@@ -95,9 +95,9 @@ Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../include
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Mức sử dụng**    |    Nhập vào màn hình [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Ước tính dự án**.     |
 
 **Để nhập và phát hành dự án của bạn**  
-1. Từ thẻ **Project Service** , bấm vào **Phát hành** > **Dự án Project Service Automation mới**.  
+1. Từ thẻ **Project Service**, bấm vào **Phát hành** > **Dự án Project Service Automation mới**.  
 
-2. Trên hộp thoại **Phát hành dự án mới trong Project Service** , nhập **Tên Dự án** và chọn **Khách hàng**.  
+2. Trên hộp thoại **Phát hành dự án mới trong Project Service**, nhập **Tên Dự án** và chọn **Khách hàng**.  
 
 3. Bạn có thể chọn **Liên kết kế hoạch dự án với Project Service Automation** để liên kết tệp kế hoạch Project với Project Service Automation.  
 
@@ -139,11 +139,11 @@ Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../include
 
 2. Chọn **Lên Tài liệu Dự án trong Project Service Automation**.  
 
-3. Trên hộp thoại **Bật Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , hãy chọn **Có** hoặc **Không**.  
+3. Trên hộp thoại **Bật Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, hãy chọn **Có** hoặc **Không**.  
 
-   - Nếu bạn bấm vào **Có** , bạn có thể chọn nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** trong Project Service Automation, chạy [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rồi tải tệp Dự án từ thư viện tài liệu SharePoint.  
+   - Nếu bạn bấm vào **Có**, bạn có thể chọn nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** trong Project Service Automation, chạy [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rồi tải tệp Dự án từ thư viện tài liệu SharePoint.  
 
-   - Nếu bạn bấm vào **Không** , liên kết cho nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sẽ không hoạt động.  
+   - Nếu bạn bấm vào **Không**, liên kết cho nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sẽ không hoạt động.  
 
 4. Bạn có thể tìm thấy tệp [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] trong **Tài liệu** cho dự án [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] cụ thể.  
 
@@ -153,20 +153,20 @@ Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../include
 
 2. Chọn **Lên Tài liệu Dự án trong Project Service Automation**.  
 
-3. Trên hộp thoại **Bật Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , hãy chọn **Có** hoặc **Không**.  
+3. Trên hộp thoại **Bật Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, hãy chọn **Có** hoặc **Không**.  
 
-   - Nếu bấm vào **Có** , bạn sẽ có thể chọn nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** trong Project Service Automation, chạy [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rồi tải tệp Dự án từ thư viện tài liệu SharePoint.  
+   - Nếu bấm vào **Có**, bạn sẽ có thể chọn nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** trong Project Service Automation, chạy [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] rồi tải tệp Dự án từ thư viện tài liệu SharePoint.  
 
-   - Nếu bạn bấm vào **Không** , liên kết cho nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sẽ không hoạt động.  
+   - Nếu bạn bấm vào **Không**, liên kết cho nút **Mở trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sẽ không hoạt động.  
 
 4. Bạn có thể tìm thấy tệp [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] trong **Tài liệu** cho dự án [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] cụ thể.  
 
 ## <a name="publish--your-project-as-a-template"></a>Phát hành dự án của bạn dưới dạng mẫu  
  Bạn có thể lưu dự án của mình và tái sử dụng bằng cách lưu dự án đó làm mẫu dự án trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Mẫu dự án là các kế hoạch dự án có thể tái sử dụng trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tạo mẫu dự án (Project Service Automation)](../psa/create-project-template.md)  
 
-1. Từ thẻ **Project Service** , bấm vào **Phát hành** > **Mẫu Dự án Project Service Automation mới**.  
+1. Từ thẻ **Project Service**, bấm vào **Phát hành** > **Mẫu Dự án Project Service Automation mới**.  
 
-2. Trên hộp thoại **Phát hành dự án mới trong mẫu Project Service** , nhập **Tên mẫu dự án**.  
+2. Trên hộp thoại **Phát hành dự án mới trong mẫu Project Service**, nhập **Tên mẫu dự án**.  
 
 3. Hoặc, chọn **Liên kết kế hoạch dự án với Project Service Automation** để liên kết tệp Dự án với [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

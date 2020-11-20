@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087002"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128849"
 ---
 # <a name="submit-a-resource-request"></a>Gửi đề nghị nguồn lực
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng yêu cầu nguồn lực. Sau đó, yêu cầu này được gửi tới người quản lý nguồn lực để thực hiện.
 
-1. Trong Dynamics 365 Project Operations, trên trang **Dự án** , hãy chọn tab **Nhóm** để xem danh sách các nguồn lực có thể đặt. 
+1. Trong Dynamics 365 Project Operations, trên trang **Dự án**, hãy chọn tab **Nhóm** để xem danh sách các nguồn lực có thể đặt. 
 2. Chọn nguồn lực chung có yêu cầu nguồn lực từ danh sách rồi nhấp vào **Gửi yêu cầu**.
 
 Trạng thái yêu cầu của thành viên nhóm chung sẽ thay đổi thành **Đã gửi**.

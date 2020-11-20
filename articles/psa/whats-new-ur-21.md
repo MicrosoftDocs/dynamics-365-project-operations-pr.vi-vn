@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087059"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126734"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Phát hành bản cập nhật Project Service Automation 21, V3
 
@@ -54,7 +54,7 @@ Các vấn đề sau đã được khắc phục:
 
 Các vấn đề sau đã được khắc phục:
 
-- Lưới biểu mẫu **Dự án** ( **Gán Nguồn lực** , **Nhiệm vụ** , dạng xem **Đối chiếu** , **Ước tính Chi phí** ) vẫn có thể chỉnh sửa ngay cả khi dự án không hoạt động.
+- Lưới biểu mẫu **Dự án** (**Gán Nguồn lực**, **Nhiệm vụ**, dạng xem **Đối chiếu**, **Ước tính Chi phí**) vẫn có thể chỉnh sửa ngay cả khi dự án không hoạt động.
 - Không thể hợp nhất các khách hàng trùng lặp với những khách hàng liên kết với hợp đồng dự án đã xác nhận.
 - Khi một nguồn lực không có lịch hợp lệ được thêm vào, hệ thống sẽ không trả về thông báo lỗi thân thiện với người dùng.
 - Nút **Thêm Nhiệm vụ** trên lưới nhiệm vụ được bật khi dự án liên kết với **Phần bổ trợ Microsoft Project**.
@@ -71,7 +71,7 @@ Các vấn đề sau đã được khắc phục:
 - **Tổng Giá bán** của **Thể loại** bằng không (0) mặc dù **Vai trò** có tổng giá bán khác 0.
 - Khách hàng không thể thay đổi giá trị của trường **Trạng thái Hóa đơn** thành **Đã sẵn sàng để lập hóa đơn** khi một quy trình tùy chỉnh khác đang cập nhật một trường bổ sung.
 - Nút **Làm mới Thông tin Hóa đơn** có thể tạo nhiều dòng trùng lặp nếu được chọn nhiều lần.
-- Nút **Cập nhật Giá** không hoạt động trên lưới con **Giá Vai trò** trong biểu mẫu **Xem Nhanh**.
+- Nút **Cập nhật giá** không hoạt động trên lưới con **Giá vai trò** trong biểu mẫu **Xem nhanh**.
 - Logic **Giải pháp Bảng giá Bán hàng** xử lý không đúng múi giờ, dẫn đến việc lựa chọn bảng giá không chính xác.
 - **Tổng Chi phí Thực tế** của dự án có thể được giảm một phần nhỏ sau khi một mục nhập thời gian được chấp thuận.
 - Logic **Giải pháp Giá bán** không trả về thông báo lỗi thân thiện với người dùng nếu **Giá Vai trò Đã truy xuất** không có giá trị trong trường **"Đơn vị Chính"** và **"Giá theo Đơn vị Chính"**.

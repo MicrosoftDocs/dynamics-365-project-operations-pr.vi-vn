@@ -3,7 +3,7 @@ title: Quy trình bán hàng
 description: Chủ đề này cung cấp thông tin về các quy trình bán hàng cơ bản.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087222"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129344"
 ---
 # <a name="sales-processes"></a>Quy trình bán hàng
 
@@ -70,24 +70,24 @@ Sáu giai đoạn này được ký hiệu bằng nút hình V (\>) mà bạn ch
  
 Tổ chức của bạn có thể sử dụng các thực thể khác nhau để đại diện cho cùng một thỏa thuận khi nó phát triển. Vào đầu quy trình bán hàng, một giao dịch được đại diện bằng thực thể Cơ hội. Theo thời gian và chi tiết ngày một nhiều lên, bạn có thể sử dụng các ước tín cấp cao để tạo một hoặc nhiều báo giá. Nếu một trong những báo giá này được đánh giá bởi bên liên quan nội bộ và khách hàng, thì thực thể Báo giá đại diện cho giao dịch. Sau khi khách hàng chấp nhận báo giá, thì hợp đồng dự án hoặc SOW đại diện cho thỏa thuận này. Để hỗ trợ hành vi này, BPF được cấu trúc để từng giai đoạn trong quá trình được liên kết với một bảng cơ sở dữ liệu khác nhau.
 
-Giai đoạn **Định tính** trong quy trình bán hàng có thể được hỗ trợ bằng một thực thể Cơ hội. Các giai đoạn **Ước tính** và **Đánh giá nội bộ** có thể được hỗ trợ bởi một thực thể Báo giá. Các giai đoạn **Hợp đồng** , **Giao hàng** và **Đóng** có thể được hỗ trợ bởi thực thể Hợp đồng dự án.
+Giai đoạn **Định tính** trong quy trình bán hàng có thể được hỗ trợ bằng một thực thể Cơ hội. Các giai đoạn **Ước tính** và **Đánh giá nội bộ** có thể được hỗ trợ bởi một thực thể Báo giá. Các giai đoạn **Hợp đồng**, **Giao hàng** và **Đóng** có thể được hỗ trợ bởi thực thể Hợp đồng dự án.
 
 Khi bạn di chuyển các giao dịch theo giai đoạn, bạn sẽ được nhắc tạo bản ghi thực thể phù hợp để trợ giúp và hướng dẫn bạn trong suốt quy trình. Các giai đoạn có thể có điều kiện. Ví dụ: nếu bạn yêu cầu một nhận xét nội bộ của báo giá chỉ khi báo giá sử dụng bảng giá tùy chỉnh, thì bạn có thể đặt cấu hình điều kiện đó trong giai đoạn phù hợp của quy trình công việc. Khi đó, giai đoạn **Đánh giá nội bộ** chỉ hiển thị cho những báo giá sử dụng bảng giá tùy chỉnh. Đối với tất cả các thỏa thuận và báo giá khác, sau giai đoạn **Ước tính** là giai đoạn **Hợp đồng**.
 
 > [!NOTE]
-> PSA có các trang cụ thể cho các thực thể cơ hội, báo giá, đơn đặt hàng và hóa đơn. Bạn phải tạo cơ hội project service, báo giá, đơn đặt hàng và hóa đơn bằng cách sử dụng trang thông tin dự án cho các thực thể này. Nếu bạn sử dụng một trang khác để tạo bản ghi, bạn sẽ không thể mở bản ghi từ trang **Thông tin dự án**. Nếu bạn muốn mở một bản ghi từ trang **thông tin dự án** , thì bạn phải xóa bản ghi và tạo lại nó bằng cách sử dụng trang **Thông tin dự án**. Trên trang **thông tin dự án** , logic kinh doanh cho mỗi loại thực thể này đảm bảo rằng trường **Loại** của bản ghi được đặt chính xác, và tất cả các khái niệm bắt buộc được khởi tạo đúng cách.
+> PSA có các trang cụ thể cho các thực thể cơ hội, báo giá, đơn đặt hàng và hóa đơn. Bạn phải tạo cơ hội project service, báo giá, đơn đặt hàng và hóa đơn bằng cách sử dụng trang thông tin dự án cho các thực thể này. Nếu bạn sử dụng một trang khác để tạo bản ghi, bạn sẽ không thể mở bản ghi từ trang **Thông tin dự án**. Nếu bạn muốn mở một bản ghi từ trang **thông tin dự án**, thì bạn phải xóa bản ghi và tạo lại nó bằng cách sử dụng trang **Thông tin dự án**. Trên trang **thông tin dự án**, logic kinh doanh cho mỗi loại thực thể này đảm bảo rằng trường **Loại** của bản ghi được đặt chính xác, và tất cả các khái niệm bắt buộc được khởi tạo đúng cách.
 
 > ![Thông tin dự án cho một đơn đặt hàng mới](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Sự khác biệt giữa Project Service Automation và Sales
 Mặc dù quá trình bán hàng trong PSA sử dụng khả năng cơ bản của quá trình bán hàng trong Sales, nhưng nó có một số khác biệt quan trọng vì các biến thể trong thực tiễn kinh doanh của các tổ chức dựa trên dự án. Dưới đây là một số ví dụ:
 
-- **Báo giá dự án** - Trong Project Service Automation, báo giá được đóng sau khi hợp đồng dự án được tạo từ báo giá. Trong Sales, bạn có thể giữ một báo giá mở sau khi bạn đã giành được nó. Lý do cho sự khác biệt này là một kết quả trùng khớp giữa báo giá và hợp đồng dự án sẽ tốt hơn cho các tổ chức dựa trên dự án. 
+- **Báo giá dự án**- Trong Project Service Automation, báo giá được đóng sau khi hợp đồng dự án được tạo từ báo giá. Trong Sales, bạn có thể giữ một báo giá mở sau khi bạn đã giành được nó. Lý do cho sự khác biệt này là một kết quả trùng khớp giữa báo giá và hợp đồng dự án sẽ tốt hơn cho các tổ chức dựa trên dự án. 
 - **Kích hoạt và sửa đổi** - Trong PSA, kích hoạt và sửa đổi không được hỗ trợ cho báo giá dự án. Trong Sales, báo giá có thể bị khóa để tránh các chỉnh sửa bổ sung.
 - **Đóng một báo giá dưới dạng thua hoặc thắng** - Trong PSA, khi một báo giá dự án đóng dưới dạng thắng hoặc thua, thì cơ hội vẫn mở. Tất cả các báo giá khác trên cơ hội được đóng dưới dạng thua. Trong Sales, khi một báo giá được đóng dưới dạng thắng hoặc thua, thì người dùng sẽ được nhắc thực hiện hành động trên cơ hội. Tùy thuộc vào thông tin nhập của người dùng, cơ hội đó có thể bị đóng hoặc vẫn mở.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Theo dõi các bản sửa đổi với báo giá và kế hoạch dự án trong chu kỳ bán hàng
-Trong PSA, bạn không thể theo dõi các sửa đổi được thực hiện đối với báo giá. Thay vào đó, bạn phải đánh dấu báo giá hiện tại là **Đóng dưới dạng thua** , sau đó tạo báo giá mới. Bạn có thể sao chép một báo giá hoặc nhân bản một dự án dựa trên dự án bằng cách sử dụng PSA.
+Trong PSA, bạn không thể theo dõi các sửa đổi được thực hiện đối với báo giá. Thay vào đó, bạn phải đánh dấu báo giá hiện tại là **Đóng dưới dạng thua**, sau đó tạo báo giá mới. Bạn có thể sao chép một báo giá hoặc nhân bản một dự án dựa trên dự án bằng cách sử dụng PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Theo dõi ý kiến và phê duyệt của báo giá và hợp đồng dự án
 Bạn có thể quản lý việc đánh giá và phê duyệt báo giá cũng như hợp đồng dự án bằng cách sử dụng tường bản ghi và bài đăng. Tổ chức của bạn có thể tạo luồng công việc và phần bổ trợ tùy chỉnh để chỉ định, chuyển hướng, báo cáo vượt cấp và quản lý thông báo về các mục hoạt động đánh giá và phê duyệt.

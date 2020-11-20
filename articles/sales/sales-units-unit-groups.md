@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087231"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131054"
 ---
 # <a name="units-and-unit-groups"></a>Đơn vị và nhóm đơn vị
 
@@ -35,14 +35,14 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 ## <a name="create-a-unit-group"></a>Tạo nhóm đơn vị đo
 
 1. Trong sơ đồ trang web, hãy chọn **Đơn vị**.
-2. Chọn **Mới** và trong hộp hội thoại **Tạo nhóm đơn vị đo** , nhập tên đơn vị đo.
-3. Trong trường **Đơn vị chính** , nhập đơn vị đo thông dụng thấp nhấp dùng để bán sản phẩm. Ví dụ: bạn có thể nhập "cái" hoặc "ounce".
+2. Chọn **Mới** và trong hộp hội thoại **Tạo nhóm đơn vị đo**, nhập tên đơn vị đo.
+3. Trong trường **Đơn vị chính**, nhập đơn vị đo thông dụng thấp nhấp dùng để bán sản phẩm. Ví dụ: bạn có thể nhập "cái" hoặc "ounce".
 4. Chọn **OK**.
 
 ## <a name="add-units-to-a-unit-group"></a>Thêm đơn vị đo vào nhóm đơn vị đo
 
-1. Mở nhóm đơn vị đo và trên tab **Có liên quan** , chọn **Đơn vị**. Bạn sẽ thấy rằng đơn vị chính đã được thêm vào.
-2. Chọn **Thêm đơn vị mới** và trên trang **Tạo nhanh: Đơn vị** , trong trường **Tên** , nhập tên của đơn vị.
-3. Trong trường **Số lượng** , nhập số lượng mà đơn vị sẽ chứa đựng. Ví dụ, nếu một hộp có chứa 2 cái, bạn nên nhập "2". 
-4. Trong trường **Đơn vị cơ sở** , chọn một đơn vị cơ sở để thiết lập đơn vị đo thấp nhất cho đơn vị đó. Ví dụ: bạn có thể chọn "Cái".
-5. Chọn **Lưu** :
+1. Mở nhóm đơn vị đo và trên tab **Có liên quan**, chọn **Đơn vị**. Bạn sẽ thấy rằng đơn vị chính đã được thêm vào.
+2. Chọn **Thêm đơn vị mới** và trên trang **Tạo nhanh: Đơn vị**, trong trường **Tên**, nhập tên của đơn vị.
+3. Trong trường **Số lượng**, nhập số lượng mà đơn vị sẽ chứa đựng. Ví dụ, nếu một hộp có chứa 2 cái, bạn nên nhập "2". 
+4. Trong trường **Đơn vị cơ sở**, chọn một đơn vị cơ sở để thiết lập đơn vị đo thấp nhất cho đơn vị đó. Ví dụ: bạn có thể chọn "Cái".
+5. Chọn **Lưu**:

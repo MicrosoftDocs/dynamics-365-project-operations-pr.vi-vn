@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087178"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128444"
 ---
 # <a name="define-expense-policies"></a>Xác định chính sách chi phí
 
@@ -36,12 +36,12 @@ xác định chính sách.
         
 Bạn có thể xác định 3 loại chính sách:         
         
-- **Cảnh báo** : Cho phép nhân viên gửi báo cáo chi phí hoặc tiêu chuẩn đi lại nhưng chi phí sẽ được đánh dấu cho tất cả những người phê duyệt và         
+- **Cảnh báo**: Cho phép nhân viên gửi báo cáo chi phí hoặc tiêu chuẩn đi lại nhưng chi phí sẽ được đánh dấu cho tất cả những người phê duyệt và         
   cho báo cáo về sau.        
 
-- **Lỗi** : Yêu cầu nhân viên sửa đổi chi phí để tuân thủ chính sách trước khi gửi báo cáo chi phí hoặc tiêu chuẩn đi lại.        
+- **Lỗi**: Yêu cầu nhân viên sửa đổi chi phí để tuân thủ chính sách trước khi gửi báo cáo chi phí hoặc tiêu chuẩn đi lại.        
  
- - **Chứng minh** : Yêu cầu nhân viên hoặc người quản lý nhập chứng minh cho việc vượt quá số tiền theo chính sách trước khi gửi báo cáo chi phí hoặc tiêu chuẩn đi lại.        
+ - **Chứng minh**: Yêu cầu nhân viên hoặc người quản lý nhập chứng minh cho việc vượt quá số tiền theo chính sách trước khi gửi báo cáo chi phí hoặc tiêu chuẩn đi lại.        
 
 ## <a name="policy-tips"></a>Mẹo chính sách
 Dưới đây là một số gợi ý có thể hỗ trợ bạn khi tạo các chính sách mới để quản lý chi phí: 

@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 17, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087064"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126839"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Phát hành bản cập nhật Project Service Automation 17, V3
 
@@ -52,6 +52,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 **Sales**
 
 - Sửa lỗi: **Invoice.PreValidateInvoiceUpdate** giờ sẽ xử lý kịch bản về quá trình gán lại chủ sở hữu đúng cách.
-- Sửa lỗi: Khi lớp giao dịch là **Thời gian** , thì không chỉnh sửa được **UnitGroup** đối với tất cả thực thể, bao gồm **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** và **ContractLineDetails**. Tuy nhiên, chỉ không chỉnh sửa được **Đơn vị** đối với **JournalLine** và **InvoiceLineDetails**.
+- Sửa lỗi: Khi lớp giao dịch là **Thời gian**, thì không chỉnh sửa được **UnitGroup** đối với tất cả thực thể, bao gồm **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** và **ContractLineDetails**. Tuy nhiên, chỉ không chỉnh sửa được **Đơn vị** đối với **JournalLine** và **InvoiceLineDetails**.
 
 

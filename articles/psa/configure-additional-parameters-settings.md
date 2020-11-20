@@ -3,7 +3,7 @@ title: Đặt cấu hình cài đặt tham số bổ sung
 description: Làm cách nào đặt cấu hình các thiết đặt cho tham số bổ sung trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087108"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129389"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Đặt cấu hình các thiết đặt cho tham số bổ sung (Project Service)
 
@@ -54,9 +54,9 @@ Trong bước này, bạn cũng sẽ cho biết loại phân bổ nguồn lực 
   
 2. Bấm vào cài đặt tham số bạn muốn đặt cấu hình (cài đặt bạn đã tạo khi cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] lần đầu) hoặc bấm vào **Mới** để tạo cài đặt mới.  
   
-3. Trong vùng **Chung** , đặt tất cả tùy chọn cho các tham số dự án của bạn.  
+3. Trong vùng **Chung**, đặt tất cả tùy chọn cho các tham số dự án của bạn.  
   
-4. Trong vùng **Bảng Giá** , bấm vào **+** để thêm bảng giá, chọn bảng giá trong danh sách thả xuống **Bảng Giá Tham số Dự án** và sau đó bấm vào **Lưu**.  
+4. Trong vùng **Bảng Giá**, bấm vào **+** để thêm bảng giá, chọn bảng giá trong danh sách thả xuống **Bảng Giá Tham số Dự án** và sau đó bấm vào **Lưu**.  
   
 5. Bấm vào nút **Lưu** ở góc dưới cùng bên phải màn hình.  
 

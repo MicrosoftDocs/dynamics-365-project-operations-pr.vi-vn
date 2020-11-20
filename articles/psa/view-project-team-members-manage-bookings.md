@@ -3,7 +3,7 @@ title: Xem các thành viên nhóm dự án và quản lý đặt chỗ
 description: Làm cách nào để xem thành viên nhóm dự án và quản lý việc đăng ký trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087183"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127813"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Xem thành viên nhóm dự án và quản lý việc đăng ký (Project Service)
 
@@ -41,11 +41,11 @@ Bạn có thể xem danh sách các thành viên trong nhóm dự án của bạ
   
 5.  Để đăng ký cứng tài nguyên thay vào đó, chọn vai trò, sau đó bấm vào **Đăng ký Cứng**. Thao tác này sẽ hiển thị dạng xem lịch của tất cả nguồn lực và khả năng sẵn sàng của chúng, với mã hóa màu cung cấp hiển thị trực quan của trạng thái đăng ký của nguồn lực. Thực hiện bất kỳ điều nào sau đây để tối ưu hóa tìm kiếm của bạn:  
   
-    -   Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày** , **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
+    -   Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày**, **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
   
     -   Bấm vào **Tùy chọn** để thay đổi nội dung hiển thị. Ví dụ: bạn có thể hiển thị chú thích cho biết sơ đồ màu của các loại đăng ký khác nhau hoặc bạn có thể chọn chỉ hiển thị một loại đăng ký nhất định (ví dụ: đăng ký cứng hoặc đăng ký mềm).  
   
-    -   Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc** , cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
+    -   Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
   
     -   Trong lịch cho nguồn lực mà bạn muốn đăng ký, chọn khoảng thời gian đăng ký nguồn lực, sau đó bấm vào **Đăng ký** để đăng ký nguồn lực hoặc **Đề xuất đăng ký** để đề xuất đăng ký và yêu cầu người yêu cầu phê duyệt.  
   

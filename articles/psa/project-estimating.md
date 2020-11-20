@@ -3,7 +3,7 @@ title: Chi phí và doanh thu dự án
 description: Chủ đề này cung cấp thông tin về ước tính chi phí và doanh thu dự án.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087138"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127994"
 ---
 # <a name="project-costs-and-revenue"></a>Chi phí và doanh thu dự án
 
@@ -80,7 +80,7 @@ Trong dạng xem theo giai đoạn thời gian, bạn phân bổ tổng nhân c�
 
 ### <a name="work-hours-based-allocation"></a>Phân bổ dựa trên giờ làm việc
  
-Trong chế độ tự động lập lịch nhiệm vụ, giờ làm việc mặc định hàng ngày cho các nguồn lực nhiệm vụ được đặt thành tỷ lệ giờ làm việc đầy đủ. Hành vi này áp dụng khi nhân công được phân bổ bằng cách phân chia trên khoảng thời gian của nhiệm vụ trong dạng xem theo giai đoạn thời gian. Ví dụ: nếu bạn ước tính nhiệm vụ sẽ được một nguồn lực hoàn thành trong thang thời gian **Ngày** , thì nhân công được phân bổ mỗi ngày sẽ không vượt quá giờ làm việc mỗi ngày được xác định trong lịch dự án. Vì vậy, việc phân bổ nhân công luôn đảm bảo rằng các nguồn lực được ước tính để sử dụng cho cả ngày.
+Trong chế độ tự động lập lịch nhiệm vụ, giờ làm việc mặc định hàng ngày cho các nguồn lực nhiệm vụ được đặt thành tỷ lệ giờ làm việc đầy đủ. Hành vi này áp dụng khi nhân công được phân bổ bằng cách phân chia trên khoảng thời gian của nhiệm vụ trong dạng xem theo giai đoạn thời gian. Ví dụ: nếu bạn ước tính nhiệm vụ sẽ được một nguồn lực hoàn thành trong thang thời gian **Ngày**, thì nhân công được phân bổ mỗi ngày sẽ không vượt quá giờ làm việc mỗi ngày được xác định trong lịch dự án. Vì vậy, việc phân bổ nhân công luôn đảm bảo rằng các nguồn lực được ước tính để sử dụng cho cả ngày.
 
 ### <a name="even-allocation"></a>Phân bổ đều
 

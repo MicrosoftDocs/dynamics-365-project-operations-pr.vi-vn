@@ -3,7 +3,7 @@ title: Phê duyệt thời gian và chi phí
 description: Làm cách nào để phê duyệt thời gian và chi phí trong Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087286"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127139"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Phê duyệt thời gian và chi phí (Project Service)
 
@@ -35,7 +35,7 @@ Sau khi tư vấn viên nhập thời gian và chi phí cho dự án, bạn cầ
   
 2.  Bấm vào hạng mục để phê duyệt.  
   
-3.  Trong các thẻ **Mục nhập Thời gian** , **Mục nhập Chi phí** và **Vắng mặt/Nghỉ phép** , xem lại từng mục và thực hiện thay đổi nếu cần.  
+3.  Trong các thẻ **Mục nhập Thời gian**, **Mục nhập Chi phí** và **Vắng mặt/Nghỉ phép**, xem lại từng mục và thực hiện thay đổi nếu cần.  
   
 4.  Để phê duyệt một mục, chọn mục đó và bấm vào **Phê duyệt**. Bạn có thể chọn và phê duyệt nhiều mục một lúc.  
   

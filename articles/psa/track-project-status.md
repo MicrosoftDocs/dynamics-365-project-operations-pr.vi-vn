@@ -3,7 +3,7 @@ title: Theo dõi trạng thái của dự án
 description: Làm cách nào để theo dõi tình trạng dự án trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087194"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127859"
 ---
 # <a name="track-a-projects-status-project-service"></a>Theo dõi tình trạng dự án (Project Service)
 
@@ -40,7 +40,7 @@ Về khía cạnh tiến độ cam kết, các giai đoạn dự án sẽ cập 
 |  **Báo giá**   |      Khi bạn liên kết một dự án với một báo giá hoặc tạo dự án từ báo giá, giai đoạn dự án được đặt thành **Báo giá** và ngày bắt đầu và kết thúc ước tính cũng sẽ được cập nhật. Khi dự án đang trong giai đoạn báo giá, các chi tiết về báo giá sẽ hiển thị trên tab **Kinh doanh** trên trang **Dự án**.      |
 |   **Kế hoạch**   |                                     Khi báo giá được liên kết với một dự án của bạn giành chiến thắng thì tiến độ cam kết cho giai đoạn hợp đồng, giai đoạn dự án sẽ cập nhật thành **Kế hoạch**. Chi tiết hợp đồng sẽ hiển thị trên tab **Kinh doanh** trên trang **Dự án**.                                      |
 | **Hoàn thành** |                    Khi đã hoàn tất công việc dự án, bạn có thể chuyển giai đoạn thành **Hoàn tất**. Khi giai đoạn dự án được đặt thành hoàn tất, mọi người sẽ hiểu rằng các công việc đã hoàn thành 100% nhưng dự án vẫn được để mở cho việc ghi lại bất kỳ mục nhập chi phí hoặc thời gian đang chờ xử lý nào.                     |
-|  **Đóng**   |           Khi tất cả các giao dịch đã được ghi lại trên dự án và bạn không muốn ghi thêm bất kỳ chi tiết nào nữa thì bạn có thể đặt giai đoạn thành **Đóng** theo cách thủ công. Khi dự án được đặt thành **Đóng** , bạn không thể ghi thêm bất kỳ giao dịch nào khác trên dự án và dự án sẽ ở trạng thái chỉ đọc.           |
+|  **Đóng**   |           Khi tất cả các giao dịch đã được ghi lại trên dự án và bạn không muốn ghi thêm bất kỳ chi tiết nào nữa thì bạn có thể đặt giai đoạn thành **Đóng** theo cách thủ công. Khi dự án được đặt thành **Đóng**, bạn không thể ghi thêm bất kỳ giao dịch nào khác trên dự án và dự án sẽ ở trạng thái chỉ đọc.           |
 
 ## <a name="to-track-a-projects-status"></a>Cách theo dõi trạng thái của dự án  
 

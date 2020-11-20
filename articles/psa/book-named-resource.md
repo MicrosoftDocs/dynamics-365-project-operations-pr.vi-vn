@@ -3,7 +3,7 @@ title: Đặt nguồn lực có tên từ yêu cầu nguồn lực
 description: Chủ đề này cung cấp thông tin về đặt lịch nguồn lực có tên cho một yêu cầu nguồn lực chung.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087313"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125924"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Đặt nguồn lực có tên từ yêu cầu nguồn lực
 
@@ -31,14 +31,14 @@ ms.locfileid: "4087313"
 
 Bạn có thể đặt một nguồn lực được đặt tên để thay thế nguồn lực chung có yêu cầu nguồn lực.
 
-1. Trong Project Service Automation (PSA), trên trang **Dự án** , nhấp vào tab **Nhóm**.
+1. Trong Project Service Automation (PSA), trên trang **Dự án**, nhấp vào tab **Nhóm**.
 2. Chọn nguồn lực chung có yêu cầu nguồn lực từ danh sách, sau đó nhấp vào **Đặt lịch**. Hoặc mở yêu cầu nguồn lực rồi nhấp vào **Đặt lịch**.
 
 
 ![Đặt một thành viên nhóm chung](media/RM-how-to-14.png)
 
 
-3. Trên trang **Trợ lý lịch trình** , chọn nguồn lực có tên để đặt lịch vào nhóm dự án của bạn rồi nhấp vào **Đặt lịch**.
+3. Trên trang **Trợ lý lịch trình**, chọn nguồn lực có tên để đặt lịch vào nhóm dự án của bạn rồi nhấp vào **Đặt lịch**.
 
 ![Đặt một thành viên nhóm chung bằng trợ lý lịch trình](media/RM-how-to-15.png)
 

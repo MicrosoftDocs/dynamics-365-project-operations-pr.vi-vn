@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087057"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126779"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Phát hành bản cập nhật Project Service Automation 20, V3
 
@@ -48,7 +48,7 @@ Các vấn đề sau đã được khắc phục:
 
 Các vấn đề sau đã được khắc phục:
 
-- Trên biểu mẫu **Hợp đồng** , nhấp đúp vào **Tạo hóa đơn** tạo ra hai hóa đơn cho một bản ghi thực tế duy nhất.
+- Trên biểu mẫu **Hợp đồng**, nhấp đúp vào **Tạo hóa đơn** tạo ra hai hóa đơn cho một bản ghi thực tế duy nhất.
 - Trong Internet Explorer 11, người dùng không thể tạo các mục nhập chi phí.
 - Đảo ngược Chi phí và đảo ngược Dữ liệu thực tế về doanh thu bán hàng chưa lập hóa đơn không được liên kết.
 - Nút **Làm mới số liệu thực tế** trên biểu mẫu **Dự án** không làm mới **Số giờ thực tế cho nhiệm vụ**.
@@ -59,4 +59,4 @@ Các vấn đề sau đã được khắc phục:
 - Giá trị đơn vị và nhóm đơn vị không mặc định chính xác cho các danh mục chi phí trên các biểu mẫu **Chi tiết mô tả hợp đồng** và **Chi tiết mô tả báo giá**.
 - Danh sách **Giá vốn đơn vị tổ chức** cho phép chồng chéo trong hiệu lực ngày tháng.
 - Người dùng không được phép thay đổi **Đơn vị tổ chức** khi loại đơn hàng không dựa trên công việc vì điều này sẽ dẫn đến lỗi ngoại lệ tham chiếu null.
-- Khi cố gắng điều hướng từ biểu mẫu **Chi tiết mô tả báo giá** , quay lại tab **Báo giá** , biểu mẫu làm mới và hiển thị tab **Tóm tắt**.
+- Khi cố gắng điều hướng từ biểu mẫu **Chi tiết mô tả báo giá**, quay lại tab **Báo giá**, biểu mẫu làm mới và hiển thị tab **Tóm tắt**.

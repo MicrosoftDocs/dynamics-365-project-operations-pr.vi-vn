@@ -3,7 +3,7 @@ title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập n
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087056"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126644"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Phát hành bản cập nhật Project Service Automation 22, V3
 
@@ -69,4 +69,4 @@ Các vấn đề sau đã được khắc phục:
 - Thông báo lỗi xác thực không hiển thị khi một Hạng mục trong Bảng Giá được chọn khi tra cứu Bảng Giá trên biểu mẫu/thực thể "Bảng Giá Dự án Báo giá Mới".
 - Việc đóng báo giá ở trạng thái thành công sẽ không chuyển đến hợp đồng đã tạo nếu BPF đính kèm với báo giá đang ở giai đoạn cuối cùng.
 - **Bán hàng Chưa lập hóa đơn** đảo ngược được liên kết với chi phí ban đầu khi mục nhập thời gian được thu hồi.
-- Sau khi chọn nút **Xác nhận** , trạng thái hóa đơn chỉ thay đổi thành **Đã xác nhận** khi hóa đơn được làm mới.
+- Sau khi chọn nút **Xác nhận**, trạng thái hóa đơn chỉ thay đổi thành **Đã xác nhận** khi hóa đơn được làm mới.

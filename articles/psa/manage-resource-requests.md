@@ -3,7 +3,7 @@ title: Quản lý yêu cầu nguồn lực
 description: Làm cách nào quản lý yêu cầu nguồn lực trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087107"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129029"
 ---
 # <a name="manage-resource-requests-project-service"></a>Quản lý yêu cầu nguồn lực (Project Service)
 
@@ -37,11 +37,11 @@ Những người quản lý khách hàng và người quản lý dự án thư�
   
     Thực hiện bất kỳ điều nào sau đây để tối ưu hóa tìm kiếm của bạn:  
   
-   -   Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày** , **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
+   -   Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình. Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày**, **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó. Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.  
   
    -   Bấm vào **Tùy chọn** để thay đổi nội dung hiển thị. Ví dụ: bạn có thể hiển thị chú thích cho biết sơ đồ màu của các loại đăng ký khác nhau hoặc bạn có thể chọn chỉ hiển thị một loại đăng ký nhất định (ví dụ: đăng ký cứng hoặc đăng ký mềm).  
   
-   -   Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc** , cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
+   -   Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
   
        ![Màn hình Yêu cầu tài nguyên Project Service](../psa/media/project-service-resource-request-screen.png "Màn hình Yêu cầu tài nguyên Project Service")  
   

@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086982"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128534"
 ---
 # <a name="per-diems"></a>Công nhật
 
@@ -26,8 +26,8 @@ Công tác phí là một khoản phụ cấp được trả cho người lao đ
 
 1. Để thêm địa điểm cấp công tác phí, hãy truy cập **Thiết lập** > **Phép tính và mã** > **Địa điểm cấp công tác phí**.
 2. Đối với mỗi địa điểm đã thêm ở trên, hãy chọn mức công tác phí và đơn vị tiền tệ hợp lệ giữa ngày bắt đầu và ngày kết thúc cụ thể cho khách sạn, bữa ăn và các chi phí khác. Mức công tác phí và đơn vị tiền tệ được đặt cấu hình trong phần **Thiết lập** > **Phép tính và mã** > **Công tác phí**.
-3. Trên trang **Địa điểm cấp công tác phí** , đặt cấu hình các bậc mức công tác phí. Các bậc mức công tác phí cho phép bạn xác định tỷ lệ phần trăm của phụ cấp hàng ngày cho khách sạn, bữa ăn và các chi phí khác. 
+3. Trên trang **Địa điểm cấp công tác phí**, đặt cấu hình các bậc mức công tác phí. Các bậc mức công tác phí cho phép bạn xác định tỷ lệ phần trăm của phụ cấp hàng ngày cho khách sạn, bữa ăn và các chi phí khác. 
 4. Để chỉ định mức giảm phần trăm bữa ăn cho bữa sáng, bữa trưa hoặc bữa tối, hãy cập nhật các trường trên trang **Các tham số quản lý chi phí** trên tab **Công tác phí**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Gửi chi phí bằng công tác phí
-Để gửi chi phí bằng công tác phí, hãy sử dụng danh mục chi phí **Công tác phí** khi bạn tạo báo cáo chi phí. Nhập **Công tác phí từ ngày** , **Công tác phí đến nay** và **Địa điểm cấp công tác phí**. Số tiền sẽ được tính dựa trên mức công tác phí cho địa điểm đã chọn và mức giảm trừ bữa ăn sẽ được tính dựa trên mức công tác phí.
+Để gửi chi phí bằng công tác phí, hãy sử dụng danh mục chi phí **Công tác phí** khi bạn tạo báo cáo chi phí. Nhập **Công tác phí từ ngày**, **Công tác phí đến nay** và **Địa điểm cấp công tác phí**. Số tiền sẽ được tính dựa trên mức công tác phí cho địa điểm đã chọn và mức giảm trừ bữa ăn sẽ được tính dựa trên mức công tác phí.

@@ -3,7 +3,7 @@ title: Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm 
 description: Chủ đề này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho nhóm dự án và chỉ định nhiệm vụ cho nguồn lực.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087227"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130199"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ 
 
@@ -31,12 +31,12 @@ ms.locfileid: "4087227"
 
 Bạn có thể thêm nguồn lực được đặt tên vào nhóm dự án của mình bằng cách đặt lịch trực tiếp họ vào nhóm. Để làm như vậy, hãy hoàn thành các bước sau đây.
 
-1. Trong Project Service Automation, truy cập **Dự án** , sau đó chọn mở dự án mà bạn đặt lịch.
-2. Trên trang **Dự án** , trên tab **Nhóm** , nhấp vào **Mới**. 
+1. Trong Project Service Automation, truy cập **Dự án**, sau đó chọn mở dự án mà bạn đặt lịch.
+2. Trên trang **Dự án**, trên tab **Nhóm**, nhấp vào **Mới**. 
 
 ![Thêm thành viên nhóm từ tab Nhóm](media/RM-how-to-1.png)
 
-3. Trong hộp thoại **Tạo nhanh thành viên nhóm dự án** , chọn nguồn lực có thể đặt lịch. Trường **Vai trò** sẽ điền bằng vai trò mặc định của nguồn lực nếu họ được chỉ định. Bạn có thể thay đổi vai trò này nếu cần. 
+3. Trong hộp thoại **Tạo nhanh thành viên nhóm dự án**, chọn nguồn lực có thể đặt lịch. Trường **Vai trò** sẽ điền bằng vai trò mặc định của nguồn lực nếu họ được chỉ định. Bạn có thể thay đổi vai trò này nếu cần. 
 4. Chọn ngày bắt đầu và kết thúc mà nguồn lực sẽ cần và chọn phương pháp phân bổ năng lực của nguồn lực. 
 5. Nếu bạn muốn thành viên nhóm là người phê duyệt dự án, chọn **Có** trong trường **Người phê duyệt dự án**. Điều này có nghĩa là thành viên nhóm có thể phê duyệt các mục nhập thời gian và chi phí đã gửi cho dự án này. 
 6. Bấm vào **Lưu**.
@@ -44,7 +44,7 @@ Bạn có thể thêm nguồn lực được đặt tên vào nhóm dự án c�
 ![Thêm thành viên nhóm trên biểu mẫu tạo nhanh](media/RM-how-to-2.png)
 
 
-Bây giờ bạn có thể gán nguồn lực đã đặt cho các nhiệm vụ dự án. Trên trang **Dự án** , nhấp và tab **Lên lịch** để gán nhiệm vụ cho tài nguyên mới. Bộ chọn nguồn lực được khởi chạy từ trường **Nguồn lực** trong lưới nhiệm vụ sẽ hiển thị các thành viên nhóm mà bạn có thể chọn.
+Bây giờ bạn có thể gán nguồn lực đã đặt cho các nhiệm vụ dự án. Trên trang **Dự án**, nhấp và tab **Lên lịch** để gán nhiệm vụ cho tài nguyên mới. Bộ chọn nguồn lực được khởi chạy từ trường **Nguồn lực** trong lưới nhiệm vụ sẽ hiển thị các thành viên nhóm mà bạn có thể chọn.
 
 ![Chỉ định thành viên nhóm cho nhiệm vụ trên tab lịch trình](media/RM-how-to-3.png)
 

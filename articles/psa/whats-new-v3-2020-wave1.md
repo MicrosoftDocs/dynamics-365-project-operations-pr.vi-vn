@@ -2,7 +2,7 @@
 title: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3.x đợt 1 2020
 description: Chủ đề này cung cấp thông tin về tính năng mới và đã thay đổi trong Project Service Automation phiên bản 3 đợt 1 2020.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087054"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126509"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3 đợt 1 2020
 Chủ đề nêu bật những thông tin cần cân nhắc chính khi nâng cấp khi chuyển sang bản phát hành mới nhất của Project Service Automation (PSA) phiên bản 3.x đợt 1 2020.
 
 ## <a name="time-entry"></a>Mục nhập thời gian
-Trải nghiệm mục nhập thời gian đã được gia hạn để cung cấp khả năng kéo dài mục nhập thời gian vào nhiều tình huống khách hàng hơn. Điều này bao gồm khả năng thêm các loại mục nhập, hiện điều khiển hành vi cụ thể dựa vào tên lược đồ trường **Cài đặt mục nhập thời gian** , hiển thị dưới dạng **Nguồn thời gian**. Một giải pháp mới, được gọi là Thời gian, Chi phí, Trạng thái và Phê duyệt (TESA) đã được thêm vào để hỗ trợ chức năng này.
+Trải nghiệm mục nhập thời gian đã được gia hạn để cung cấp khả năng kéo dài mục nhập thời gian vào nhiều tình huống khách hàng hơn. Điều này bao gồm khả năng thêm các loại mục nhập, hiện điều khiển hành vi cụ thể dựa vào tên lược đồ trường **Cài đặt mục nhập thời gian**, hiển thị dưới dạng **Nguồn thời gian**. Một giải pháp mới, được gọi là Thời gian, Chi phí, Trạng thái và Phê duyệt (TESA) đã được thêm vào để hỗ trợ chức năng này.
 
 ### <a name="upgrade-consideration"></a>Xem xét việc nâng cấp
 Để hỗ trợ chức năng này, các vai trò trong PSA đã được cập nhật để bao gồm các đặc quyền mới. Những đặc quyền này cấp quyền truy cập đọc vào thực thể mới, **Cài đặt mục nhập thời gian**.

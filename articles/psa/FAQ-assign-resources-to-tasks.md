@@ -3,7 +3,7 @@ title: Chỉ định nguồn lực cho nhiệm vụ
 description: Chủ đề này cung cấp thông tin về cách gán tài nguyên cho công việc.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087297"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125159"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Chỉ định nguồn lực cho nhiệm vụ
 
@@ -33,7 +33,7 @@ Có ba cách để gán nguồn lực cho một nhiệm vụ trong Microsoft Dyn
 
 Bạn có thể thêm nguồn lực vào nhóm dự án và sau đó gán nguồn lực cho nhiệm vụ trong lịch trình dự án.
 
-1. Trên tab **Thành viên nhóm** , thêm một thành viên nhóm bằng cách chọn **Mới**. 
+1. Trên tab **Thành viên nhóm**, thêm một thành viên nhóm bằng cách chọn **Mới**. 
 
 2. Bảng điều khiển **Tạo nhanh Thành viên nhóm** mở ra, ở đây bạn có thể chọn tên nguồn lực có thể đăng ký được và đặt vai trò. 
 
@@ -45,10 +45,10 @@ Bạn có thể thêm nguồn lực vào nhóm dự án và sau đó gán nguồ
     - **Phân phối không đồng đều** đăng ký nguồn lực cho số giờ được chỉ định, phương pháp này phân phối không đồng đều thời gian cho mỗi ngày trong các ngày được chỉ định từ khi bắt đầu cho tới khi kết thúc.
     - Lựa chọn **Không có** sẽ thêm nguồn lực cho nhóm nhưng không tạo bất kỳ đăng kỳ nào mà sử dụng năng lực của nguồn lực.
 
-3. Trên lưới **Lịch trình** cho nhiệm vụ, chọn biểu tượng **Nguồn lực** trong ô nguồn lực, sau đó trong **Thành viên nhóm** , chọn thành viên nhóm bạn vừa mới thêm vào. 
+3. Trên lưới **Lịch trình** cho nhiệm vụ, chọn biểu tượng **Nguồn lực** trong ô nguồn lực, sau đó trong **Thành viên nhóm**, chọn thành viên nhóm bạn vừa mới thêm vào. 
 
 > [!NOTE]
-> Trên cả tab **Thành viên Nhóm** và **Hợp nhất** , nguồn lực hiển thị số giờ đã được đăng ký và số giờ được gán. Số giờ nên giống nhau nhưng không bắt buộc vì đặt lịch và phân công không ghép đôi chặt chẽ với nhau. Tab **Hợp nhất** cho bạn chi tiết khi chúng khác nhau, như khi bạn gán cho một nguồn lực số giờ nhiều hơn số giờ mà bạn đã đăng ký. Nếu cần, bạn có sửa thông tin này bằng cách mở rộng đăng ký của nguồn lực hoặc đổi phân công.
+> Trên cả tab **Thành viên Nhóm** và **Hợp nhất**, nguồn lực hiển thị số giờ đã được đăng ký và số giờ được gán. Số giờ nên giống nhau nhưng không bắt buộc vì đặt lịch và phân công không ghép đôi chặt chẽ với nhau. Tab **Hợp nhất** cho bạn chi tiết khi chúng khác nhau, như khi bạn gán cho một nguồn lực số giờ nhiều hơn số giờ mà bạn đã đăng ký. Nếu cần, bạn có sửa thông tin này bằng cách mở rộng đăng ký của nguồn lực hoặc đổi phân công.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Tạo thành viên nhóm chung bằng phân công nhiệm vụ
 
@@ -58,7 +58,7 @@ Khi bạn tạo thành viên nhóm chung thông qua chỉ định nhiệm vụ, 
 
 2. Nhập một tên để làm tên của nguồn lực đặt chỗ. Ví dụ: Người quản lý Chương trình.
 
-3. Chọn **Tạo** và trong trường **Tạo nhanh Thành viên Nhóm Dự án** , đặt vai trò cho nguồn lực chung.
+3. Chọn **Tạo** và trong trường **Tạo nhanh Thành viên Nhóm Dự án**, đặt vai trò cho nguồn lực chung.
 
 4. Bạn có thể tiếp tục gán nhiệm vụ cho nguồn lực giữ chỗ này bằng cách chọn nguồn lực trên **Bộ chọn nguồn lực** cho nhiệm vụ. Chúng được liệt kê trong phần **Thành viên Nhóm**.
 

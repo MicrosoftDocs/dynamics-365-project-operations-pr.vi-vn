@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087053"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130334"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Đáp ứng các yêu về nguồn lực chung
 
@@ -21,9 +21,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể đặt một nguồn lực được đặt tên để thay thế nguồn lực chung có yêu cầu nguồn lực.
 
-1. Trên trang **Dự án** , chọn tab **Nhóm**.
+1. Trên trang **Dự án**, chọn tab **Nhóm**.
 2. Chọn nguồn lực chung có yêu cầu nguồn lực từ danh sách, sau đó chọn **Đặt lịch**. Hoặc mở yêu cầu nguồn lực rồi nhấp chọn **Đặt lịch**.
-3. Trên trang **Trợ lý lịch trình** , chọn nguồn lực có tên để đặt trước vào nhóm dự án của bạn rồi chọn **Đặt lịch**.
+3. Trên trang **Trợ lý lịch trình**, chọn nguồn lực có tên để đặt trước vào nhóm dự án của bạn rồi chọn **Đặt lịch**.
 
 Khi đặt lịch xong và được thực hiện bởi một nguồn lực có tên, thì nguồn lực chung được thay thế bằng nguồn lực có tên đó.
 

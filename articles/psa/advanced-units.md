@@ -3,7 +3,7 @@ title: Nhóm đơn vị và đơn vị
 description: Chủ đề này cung cấp thông tin về nhóm đơn vị đo và đơn vị đo.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130604"
 ---
 # <a name="unit-groups-and-units"></a>Nhóm đơn vị và đơn vị
 
@@ -33,16 +33,16 @@ Nhóm đơn vị đo và đơn vị đo là các thực thể cơ bản trong Mi
 
 Dưới đây là một số ví dụ về các đơn vị và nhóm đơn vị đo:
  
-- **Nhóm đơn vị đo** : Khoảng cách 
-    - **Đơn vị** : Dặm, Km, v.v.
-- **Nhóm đơn vị đo** : Thời gian
-    - **Đơn vị** : Giờ, ngày, tuần, v.v. 
+- **Nhóm đơn vị đo**: Khoảng cách 
+    - **Đơn vị**: Dặm, Km, v.v.
+- **Nhóm đơn vị đo**: Thời gian
+    - **Đơn vị**: Giờ, ngày, tuần, v.v. 
 
 Khi bạn thiết lập nhiều đơn vị trong một nhóm đơn vị, bạn cũng phải thiết lập một hệ số chuyển đổi giữa chúng bằng cách chỉ định đơn vị đầu tiên mà bạn thiết lập làm đơn vị chính hoặc mặc định cho nhóm đơn vị đo. 
 
-Ví dụ: trong nhóm đơn vị đo **Thời gian** , nếu bạn thiết lập **Giờ** làm đơn vị đầu tiên, thì hệ thống sẽ chỉ định **Giờ** là đơn vị mặc định. Nếu đơn vị tiếp theo mà bạn thiết lập là **Ngày** , thì bạn phải thiết lập một hệ số chuyển đổi cho **Ngày** thành **Giờ**. Nếu sau đó bạn thêm **Tuần** làm đơn vị thứ ba, thì bạn phải thiết lập một hệ số chuyển đổi cho **Tuần** theo **Ngày** hoặc **Giờ**. 
+Ví dụ: trong nhóm đơn vị đo **Thời gian**, nếu bạn thiết lập **Giờ** làm đơn vị đầu tiên, thì hệ thống sẽ chỉ định **Giờ** là đơn vị mặc định. Nếu đơn vị tiếp theo mà bạn thiết lập là **Ngày**, thì bạn phải thiết lập một hệ số chuyển đổi cho **Ngày** thành **Giờ**. Nếu sau đó bạn thêm **Tuần** làm đơn vị thứ ba, thì bạn phải thiết lập một hệ số chuyển đổi cho **Tuần** theo **Ngày** hoặc **Giờ**. 
 
-Hình ảnh sau đây minh họa một thiết lập ví dụ cho đơn vị **Ngày** , trong đó trường **Số lượng** hiển thị số giờ trong một ngày và **Tuần** , trong đó trường **Số lượng** hiển thị số ngày trong một tuần.
+Hình ảnh sau đây minh họa một thiết lập ví dụ cho đơn vị **Ngày**, trong đó trường **Số lượng** hiển thị số giờ trong một ngày và **Tuần**, trong đó trường **Số lượng** hiển thị số ngày trong một tuần.
 
 > ![Nhóm đơn vị đo: Trang thông tin](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation sử dụng các đơn vị và nhóm đ
 
 Đối với chi phí, mỗi loại chi phí có nhóm đơn vị và đơn vị mặc định. Các giá trị này được nhập như giá trị mặc định trên mục nhập bảng giá cho loại chi phí. 
 
-Ví dụ: bạn có một loại chi phí có tên **Quãng đường**. Nó có một nhóm đơn vị có tên là **Khoảng cách** và một đơn vị mặc định là **Dặm**. Nếu bạn thiết lập nhóm đơn vị đo **Khoảng cách** để nó có hai đơn vị ( **Dặm** và **Km** ), bạn có thể đặt hai giá cho danh mục **Quãng đường** trên một bảng giá: giá mỗi dặm và giá mỗi km.
+Ví dụ: bạn có một loại chi phí có tên **Quãng đường**. Nó có một nhóm đơn vị có tên là **Khoảng cách** và một đơn vị mặc định là **Dặm**. Nếu bạn thiết lập nhóm đơn vị đo **Khoảng cách** để nó có hai đơn vị (**Dặm** và **Km**), bạn có thể đặt hai giá cho danh mục **Quãng đường** trên một bảng giá: giá mỗi dặm và giá mỗi km.
 
 | Thể loại chi phí  | Nhóm đơn vị đo  | Đơn vị      | Phương pháp định giá  | Đơn giá  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Các dòng ước tính cho trường **Thời gian trên báo giá** có thể 
 Ví dụ sau cho thấy cách PSA sử dụng nhóm đơn vị đo, đơn vị và hệ số chuyển đổi.
 - Đơn vị
 
-   - **Nhóm đơn vị đo** : Thời gian 
-   - **Đơn vị** : Giờ 
+   - **Nhóm đơn vị đo**: Thời gian 
+   - **Đơn vị**: Giờ 
     
     - **Ngày** - Hệ số chuyển đổi: 8 giờ       
     - **Tuần** - Hệ số chuyển đổi: 40 giờ  
         
 - Thiết lập bảng giá trên dự án A:
 
-    - **Tên** : Giá bán hàng ở Anh năm 2016 
-    - **Đơn vị thời gian mặc định** : Ngày 
-    - **Tiền tệ** : GBP
+    - **Tên**: Giá bán hàng ở Anh năm 2016 
+    - **Đơn vị thời gian mặc định**: Ngày 
+    - **Tiền tệ**: GBP
 
 | Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Không. Chuyển đổi đơn vị chỉ hoạt động cho thời gian. Đối 
 Không. Ước tính lịch trình hiện bị giới hạn ở giờ và không thể thay đổi.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Có thể chỉnh sửa, xóa và thêm đơn vị cũng như nhóm đơn vị đo không?
-Có chứ. Trừ trường hợp nhóm đơn vị đo **Thời gian** và đơn vị **Giờ** , có thể xóa hoặc chỉnh sửa tất cả các đơn vị, đồng thời có thể thêm đơn vị mới. Trong PSA, không thể xóa nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**. Tuy nhiên, có thể cập nhật các đơn vị này bằng một văn bản đã dịch cho trường **Tên**.
+Có chứ. Trừ trường hợp nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**, có thể xóa hoặc chỉnh sửa tất cả các đơn vị, đồng thời có thể thêm đơn vị mới. Trong PSA, không thể xóa nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**. Tuy nhiên, có thể cập nhật các đơn vị này bằng một văn bản đã dịch cho trường **Tên**.

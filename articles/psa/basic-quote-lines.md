@@ -3,7 +3,7 @@ title: Báo giá và mô tả báo giá
 description: Chủ đề này cung cấp thông tin về báo giá và mô tả báo giá.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129479"
 ---
 # <a name="quotes-and-quote-lines"></a>Báo giá và mô tả báo giá
 
@@ -35,7 +35,7 @@ Trong Dynamics 365 Project Service Automation, có hai loại báo giá: báo gi
 - Báo giá bán hàng hỗ trợ kích hoạt và sửa đổi. Báo giá dự án không hỗ trợ các quy trình đó.
 - Bạn có thể đính kèm nhiều đơn đặt hàng vào một báo giá bán hàng. Bạn chỉ có thể đính kèm một hợp đồng dự án vào báo giá dự án.
 - Bạn có thể giành được một báo giá bán hàng và duy trì trạng thái mở cho cơ hội liên quan. Sau khi giành được một báo cáo dự án, cơ hội liên quan sẽ đóng lại.
-- Báo giá hàng không bao gồm một số trường và khái niệm được bao gồm trong báo giá dự án có các trường. Các trường này bao gồm **Đơn vị ký hợp đồng** , **Người quản lý tài khoản** và **Tên người thanh toán**.  
+- Báo giá hàng không bao gồm một số trường và khái niệm được bao gồm trong báo giá dự án có các trường. Các trường này bao gồm **Đơn vị ký hợp đồng**, **Người quản lý tài khoản** và **Tên người thanh toán**.  
 - Báo giá bán hàng và báo giá dự án cũng được xác định theo một trường dựa trên bộ tùy chọn tên là **Loại**. Đối với báo giá bán hàng, trường này có giá trị **Dựa trên mục hàng**. Đối với báo giá dự án, nó có giá trị **Dựa trên công việc**.
 
 Chủ đề này sẽ tập trung vào các chi tiết của báo giá dự án.
@@ -76,7 +76,7 @@ PSA hỗ trợ tất cả ba loại lịch trình hóa đơn cho các mô tả b
 Các tổ chức dịch vụ chuyên nghiệp thường báo giá và lập hóa đơn khách hàng của họ bằng cách phân loại chi phí. Trong PSA, chi phí được chia thành các loại giao dịch sau đây:
 
 - **Thời gian** – Phân loại này đại diện cho chi phí nhân công hoặc thời gian của nhân lực trên một dự án.
-- **Chi phí** : – Phân loại này đại diện cho tất cả các loại chi phí của một dự án. Vì có thể chia chi phí thành nhiều loại nên hầu hết các tổ chức đều tạo các danh mục con, chẳng hạn như đi lại, thuê xe, khách sạn hoặc văn phòng phẩm.
+- **Chi phí**: – Phân loại này đại diện cho tất cả các loại chi phí của một dự án. Vì có thể chia chi phí thành nhiều loại nên hầu hết các tổ chức đều tạo các danh mục con, chẳng hạn như đi lại, thuê xe, khách sạn hoặc văn phòng phẩm.
 - **Phí** – Phân loại này đại diện cho chi phí khác, tiền phạt và các mục khác được tính cho khách hàng. 
 - **Thuế** -phân loại này đại diện cho số tiền thuế mà người dùng thêm trong khi họ nhập chi phí.
 - **Giao dịch vật tư** – Phân loại này đại diện cho doanh thu từ dòng sản phẩm trên một hóa đơn dự án đã xác nhận.
@@ -91,7 +91,7 @@ Ví dụ: báo giá có thể chứa hai dòng báo giá sau đây:
 - Chi phí đi lại liên quan sử dụng phương thức thanh toán giá cố định. Ví dụ: tất cả chi phí đi đi lại cho dự án ví dụ **Triển khai Dynamics AX** được lập hóa đơn ở giá trị tiền tệ cố định.
 
 > [!NOTE]
-> Tổ hợp phân loại dự án và giao dịch của **Thời gian** , **Chi phí** và **Phí** được liên kết với một dòng báo giá hoặc dòng hợp đồng phải thống nhất. Nếu cùng một kết hợp loại dự án và giao dịch được liên kết ới nhiều dòng hợp đồng hoặc báo giá, thì PSA sẽ hoạt động không chính xác.
+> Tổ hợp phân loại dự án và giao dịch của **Thời gian**, **Chi phí** và **Phí** được liên kết với một dòng báo giá hoặc dòng hợp đồng phải thống nhất. Nếu cùng một kết hợp loại dự án và giao dịch được liên kết ới nhiều dòng hợp đồng hoặc báo giá, thì PSA sẽ hoạt động không chính xác.
 
 ## <a name="billing-types"></a>Loại thanh toán
 

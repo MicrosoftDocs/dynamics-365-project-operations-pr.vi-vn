@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086959"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127401"
 ---
 # <a name="project-tracking-overview"></a>Tổng quan về theo dõi dự án
 
@@ -25,10 +25,10 @@ Sự cần thiết của việc theo dõi tiến độ đối với lịch trìn
 
 Dạng xem **Theo dõi nhân công** theo dõi tiến độ của các nhiệm vụ trong lịch trình bằng cách so sánh số giờ nhân công thực tế dành cho một nhiệm vụ với số giờ nhân công theo kế hoạch của nhiệm vụ. Dynamics 365 Project Operations sử dụng các công thức sau để tính toán các chỉ số theo dõi:
 
-- **Phần trăm tiến độ** : Nhân công thực tế đã dành ra cho đến nay ÷ Ước tính hoàn thành (EAC) 
-- **Ước tính hoàn thành (ETC)** : Nhân công theo kế hoạch – Nhân công thực tế đã dành ra cho đến nay 
-- **EAC** : Nhân công còn lại + Nhân công thực tế đã dành ra cho đến nay 
-- **Chênh lệch nhân công dự kiến** : Nhân công theo kế hoạch – EAC
+- **Phần trăm tiến độ**: Nhân công thực tế đã dành ra cho đến nay ÷ Ước tính hoàn thành (EAC) 
+- **Ước tính hoàn thành (ETC)**: Nhân công theo kế hoạch – Nhân công thực tế đã dành ra cho đến nay 
+- **EAC**: Nhân công còn lại + Nhân công thực tế đã dành ra cho đến nay 
+- **Chênh lệch nhân công dự kiến**: Nhân công theo kế hoạch – EAC
 
 Project Operations cho thấy dự đoán chênh lệch nhân công trên nhiệm vụ. Nếu EAC nhiều hơn nhân công theo kế hoạch, nghĩa là nhiệm vụ được dự kiến mất nhiều thời gian hơn so với kế hoạch ban đầu và đang chậm lịch trình. Nếu EAC ít hơn nhân công theo kế hoạch, nghĩa là nhiệm vụ được dự kiến mất ít thời gian hơn so với kế hoạch ban đầu và đang nhanh hơn lịch trình.
 
@@ -60,10 +60,10 @@ Dạng xem **Theo dõi chi phí** so sánh chi phí thực tế đã sử dụng
 > [!NOTE]
 > Dạng xem này chỉ hiển thị chi phí lao động và không gồm chi phí từ ước tính chi phí. Project Operations sử dụng các công thức sau để tính toán các chỉ số theo dõi:
 
-- **Phần trăm chi phí đã sử dụng** : Chi phí thực tế đã sử dụng cho đến nay ÷ Chi phí ước tính khi hoàn thành
-- **Chi phí hoàn thành (CTC)** : Chi phí theo kế hoạch – Chi phí thực tế đã sử dụng cho đến nay
-- **EAC** : Chi phí còn lại + Chi phí thực tế đã sử dụng cho đến nay
-- **Chênh lệch chi phí dự kiến** : Chi phí theo kế hoạch – EAC
+- **Phần trăm chi phí đã sử dụng**: Chi phí thực tế đã sử dụng cho đến nay ÷ Chi phí ước tính khi hoàn thành
+- **Chi phí hoàn thành (CTC)**: Chi phí theo kế hoạch – Chi phí thực tế đã sử dụng cho đến nay
+- **EAC**: Chi phí còn lại + Chi phí thực tế đã sử dụng cho đến nay
+- **Chênh lệch chi phí dự kiến**: Chi phí theo kế hoạch – EAC
 
 Dự kiến của chênh lệch chi phí hiển thị trên nhiệm vụ. Nếu EAC lớn hơn chi phí theo kế hoạch, nghĩa là nhiệm vụ được dự kiến mất nhiều chi phí hơn so với kế hoạch ban đầu. Do đó, chi phí của nhiệm vụ có xu hướng vượt quá ngân sách. Nếu EAC ít hơn chi phí theo kế hoạch, nghĩa là nhiệm vụ được dự kiến mất ít chi phí hơn so với kế hoạch ban đầu. Do đó, chi phí của nhiệm vụ có xu hướng ít hơn ngân sách.
 

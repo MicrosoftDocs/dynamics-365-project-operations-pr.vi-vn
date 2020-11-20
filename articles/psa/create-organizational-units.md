@@ -3,7 +3,7 @@ title: Tạo đơn vị tổ chức
 description: Làm cách nào để tạo đơn vị tổ chức trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125114"
 ---
 # <a name="create-organizational-units-project-service"></a>Tạo đơn vị tổ chức (Project Service)
 
@@ -38,13 +38,13 @@ Công ty của bạn có thể tổ chức hoạt động tư vấn theo địa 
   
 2.  Bấm vào **Mới**.  
   
-3.  Trong vùng **Chung** , nhập tên cho đơn vị tổ chức vào **Tên** và điền vào các trường khác nếu cần.  
+3.  Trong vùng **Chung**, nhập tên cho đơn vị tổ chức vào **Tên** và điền vào các trường khác nếu cần.  
   
 4.  Bấm vào **Lưu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa.  
   
-5.  Trong **Bảng Giá Vốn** , bấm vào **+** để thêm bảng giá. Bạn chỉ có thể thêm bảng giá với ngữ cảnh **Chi phí** tại đây.  
+5.  Trong **Bảng Giá Vốn**, bấm vào **+** để thêm bảng giá. Bạn chỉ có thể thêm bảng giá với ngữ cảnh **Chi phí** tại đây.  
   
-6.  Trong trường **Tên** , bấm vào nút **Tìm kiếm** và chọn bảng giá mà bạn muốn công bố cho đơn vị tổ chức này. Tiếp tục thêm bảng giá nếu cần.  
+6.  Trong trường **Tên**, bấm vào nút **Tìm kiếm** và chọn bảng giá mà bạn muốn công bố cho đơn vị tổ chức này. Tiếp tục thêm bảng giá nếu cần.  
   
 7.  Khi bạn hoàn tất, bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.  
   

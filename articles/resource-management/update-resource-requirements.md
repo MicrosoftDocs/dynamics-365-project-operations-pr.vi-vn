@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086961"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128804"
 ---
 # <a name="edit-a-resource-requirement"></a>Chỉnh sửa yêu cầu nguồn lực
 
@@ -26,7 +26,7 @@ Sau khi yêu cầu nguồn lực được hành động **Tạo yêu cầu** xá
 Với tư cách là người quản lý Dự án, hãy hoàn thành các bước sau để chỉnh sửa yêu cầu nguồn lực của một thành viên trong nhóm.
 
 1. Chuyển đến lưới thành viên nhóm, tìm thành viên nhóm trong danh sách và chọn liên kết đến các yêu cầu nguồn lực liên quan.
-2. Trên biểu mẫu **Chi tiết yêu cầu** , hãy cập nhật các thuộc tính sau khi cần.
+2. Trên biểu mẫu **Chi tiết yêu cầu**, hãy cập nhật các thuộc tính sau khi cần.
 
 - Kỹ năng
 - Vai trò
@@ -36,4 +36,4 @@ Với tư cách là người quản lý Dự án, hãy hoàn thành các bước
 
 ## <a name="edit-resource-assignment-contours"></a>Chỉnh sửa đường cong gán nguồn lực
 
-Ngoài việc chỉnh sửa thông tin chi tiết của các yêu cầu nguồn lực, người quản lý Dự án có thể cập nhật các đường cong riêng của yêu cầu nguồn lực bằng cách sử dụng chức năng **Chỉ định mẫu**. Sau khi chọn **Chỉ định mẫu** , một trang sẽ mở và bạn có thể xem các đường cong theo thang thời gian tính bằng ngày, tuần hoặc tháng. Mỗi đường cong có thể được điều chỉnh về thời gian bắt đầu, thời gian kết thúc và tổng nhân công trong một khoảng thời gian nhất định.
+Ngoài việc chỉnh sửa thông tin chi tiết của các yêu cầu nguồn lực, người quản lý Dự án có thể cập nhật các đường cong riêng của yêu cầu nguồn lực bằng cách sử dụng chức năng **Chỉ định mẫu**. Sau khi chọn **Chỉ định mẫu**, một trang sẽ mở và bạn có thể xem các đường cong theo thang thời gian tính bằng ngày, tuần hoặc tháng. Mỗi đường cong có thể được điều chỉnh về thời gian bắt đầu, thời gian kết thúc và tổng nhân công trong một khoảng thời gian nhất định.

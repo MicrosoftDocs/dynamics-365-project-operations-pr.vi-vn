@@ -3,7 +3,7 @@ title: Quản lý dự án và thông tin đăng ký trong lịch Office 365 c�
 description: Cách quản lý dự án và thông tin đăng ký trong lịch Office 365 của bạn
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087142"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129074"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Quản lý dự án và thông tin đăng ký trong lịch (Project Service) của bạn
 
@@ -70,7 +70,7 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 3.  Bấm vào thẻ **Đồng bộ hóa**.  
   
-4.  Bên dưới **Đồng bộ hóa đặt chỗ tài nguyên với Outlook** , kiểm tra các **Đồng bộ hóa đặt chỗ nguồn lực với Outlook**.  
+4.  Bên dưới **Đồng bộ hóa đặt chỗ tài nguyên với Outlook**, kiểm tra các **Đồng bộ hóa đặt chỗ nguồn lực với Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Nhập cuộc hẹn cá nhân của bạn (tác vụ của người dùng)  
  Bạn có thể nhập cuộc hẹn cá nhân của mình từ lịch sang dạng xem mục nhập thời gian của Project Service Automation  
@@ -83,7 +83,7 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 4. Chọn cuộc hẹn mà bạn muốn thêm vào dạng xem mục nhập thời gian Project Service Automation.  
   
-5. Trên hộp bật lên **Mục nhập Thời gian** , chọn tùy chọn thích hợp để chuyển đổi cuộc hẹn thành dạng xem mục nhập thời gian của Project Service Automation.  
+5. Trên hộp bật lên **Mục nhập Thời gian**, chọn tùy chọn thích hợp để chuyển đổi cuộc hẹn thành dạng xem mục nhập thời gian của Project Service Automation.  
   
 6. Bấm vào **Lưu**.  
   
