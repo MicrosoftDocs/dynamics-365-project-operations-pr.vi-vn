@@ -3,17 +3,17 @@ title: Xác định kiểu triển khai của bạn
 description: Chủ đề này cung cấp thông tin nhằm giúp bạn xác định đúng loại triển khai Project Operations cho công ty của bạn.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087112"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401244"
 ---
 # <a name="determine-your-deployment-type"></a>Xác định kiểu triển khai của bạn
 
@@ -25,11 +25,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Khách hàng hiện tại của Dynamics đang sử dụng Dynamics 365 Project Service Automation
-Project Operations bao gồm các khả năng đi kèm với Project Service Automation. Đường dẫn nâng cấp sẽ được phát hành cho những khách hàng này trong tương lai.
+Project Operations bao gồm các khả năng đi kèm với Project Service Automation. Đường dẫn nâng cấp sẽ ra mắt những khách hàng này trong bản phát hành đợt 1 năm 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Khách hàng hiện tại của Dynamics 365 Finance sử dụng kế toán và quản lý dự án 
 
-Các khách hàng Finance hiện tại đang sử dụng chức năng Quản lý dự án và kế toán có thể tiếp tục sử dụng chức năng này. Xem [Project Operations dành cho kịch bản dựa trên hàng nhập kho/lệnh sản xuất](#pma).
+Các khách hàng hiện tại của Finance sử dụng tính năng Kế toán và quản lý dự án vẫn có thể tiếp tục sử dụng tính năng này như cũ. Xem [Project Operations dành cho kịch bản dựa trên hàng nhập kho/lệnh sản xuất](#pma).
 
 
 ## <a name="deployment-types"></a>Loại triển khai
@@ -47,12 +47,13 @@ Project Operations hỗ trợ các kịch bản dựa trên hàng nhập kho/l�
 
 Việc triển khai đơn giản bao gồm các khả năng sau:
 
+- Quy trình bán hàng của các dự án mở rộng trải nghiệm cho ứng dụng Dynamics 365 Sales
 - Lập kế hoạch dự án bằng Microsoft Project dành cho web
 - Định giá dựa trên nhiều thông số
 - Quản lý nguồn lực hợp nhất
 - Theo dõi thời gian
 - Chi phí cơ bản
-- Đề xuất hóa đơn
+- Lập hóa đơn ước giá và hóa đơn dành cho khách hàng 
 
 #### <a name="deployment-steps"></a>Các bước triển khai
 Xác định mô hình triển khai tốt nhất của Project Operations bằng cách sử dụng [Bảng câu hỏi triển khai](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Xác định mô hình triển khai tốt nhất của Project Operations bằng
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations dành cho tình huống dựa trên nguồn lực/hàng không trữ kho
 Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho bao gồm các khả năng sau:
-  
+ 
+- Quy trình bán hàng của các dự án mở rộng ứng dụng Dynamics 365 Sales
 - Lập kế hoạch dự án bằng Microsoft Project dành cho web
 - Định giá dựa trên nhiều thông số
 - Quản lý nguồn lực hợp nhất
@@ -70,8 +72,8 @@ Project Operations cho các kịch bản dựa trên nguồn lực/hàng không 
 - Chi phí cơ bản
 - Chi phí đầy đủ
 - Biên nhận OCR
-- Lập hóa đơn đầy đủ
-- Ghi nhận doanh thu
+- Lập hóa đơn ước giá và hóa đơn dành cho khách hàng 
+- Ghi nhận doanh thu cho dự án
 
 #### <a name="deployment-steps"></a>Các bước triển khai
 Xác định mô hình triển khai tốt nhất của Project Operations bằng cách sử dụng [Bảng câu hỏi triển khai](https://aka.ms/provisionprojectoperations).

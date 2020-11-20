@@ -1,23 +1,33 @@
 ---
-title: Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service for Project Operations
+title: Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service
 description: Chủ đề này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086981"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401154"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service for Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service 
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
+
+## <a name="prerequisites"></a>Điều kiện tiên quyết
+
+Trước khi đặt cấu hình dữ liệu trong Common Data Service (CDS), bạn phải đáp ứng các điều kiện tiên quyết sau:
+
+1.  Cung phép cho môi trường CDS và môi trường Dynamics 365 Finance cho Project Operations.
+2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với môi trường CDS. Điều này có nghĩa là thực thể **Công ty** trong CDS có các hồ sơ công ty sau:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Cài đặt dữ liệu cấu hình và thiết lập
 
@@ -79,11 +89,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ![Nguồn lực có thể đăng ký trước](./media/8BookableResources.png)
 
-3. Trên tab **Tổng quát** , hãy chọn người dùng là quản trị viên của bạn. Xác minh rằng múi giờ khớp với múi giờ bạn đang ở. 
+3. Trên tab **Tổng quát**, hãy chọn người dùng là quản trị viên của bạn. Xác minh rằng múi giờ khớp với múi giờ bạn đang ở. 
 
 ![Nguồn lực mới có thể đăng ký trước](./media/9NewBookableResource.png)
 
-4. Trên tab **Lên lịch** , trong trường **Công ty** , hãy chọn công ty **USPM** rồi chọn **Lưu**. 
+4. Trên tab **Lên lịch**, trong trường **Công ty**, hãy chọn công ty **USPM** rồi chọn **Lưu**. 
 
 ![Tab Lên lịch](./media/10SchedulingTab.png)
 
@@ -114,8 +124,8 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
  
 12. Cập nhật các trường sau:
 
- - **Công ty mặc định** : USPM
- - **Đơn vị tổ chức mặc định** : Contoso Robotics Global
+ - **Công ty mặc định**: USPM
+ - **Đơn vị tổ chức mặc định**: Contoso Robotics Global
  - **Tần suất hóa đơn** : Ngày thứ bảy và ngày cuối cùng
  - **Mẫu giờ làm việc** : Thay đổi mẫu bạn đã tạo.
 

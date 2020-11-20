@@ -1,23 +1,30 @@
 ---
-title: Áp dụng dữ liệu cấu hình và thiết lập demo
+title: Áp dụng dữ liệu cấu hình và thiết lập bản demo – bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách áp dụng dữ liệu cấu hình và thiết lập demo cho Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086973"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401289"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Áp dụng dữ liệu cấu hình và thiết lập demo để triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Áp dụng dữ liệu cấu hình và thiết lập bản demo cho Project Operations – bản đơn giản 
 
 _**Triển khai Lite – từ thỏa thuận đến lập hóa đơn ước giá_
+
+## <a name="prerequisites"></a>Điều kiện tiên quyết
+
+Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Common Data Service (CDS) cho Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Hướng dẫn
 
 1. Tải [Gói dữ liệu chính](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip) xuống. 
 2. Chuyển đến thư mục *ProjOpsDemoDataSetupAndMaster - Integrated CMT* rồi chạy tệp thực thi là *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Triển khai Lite – từ thỏa thuận đến lập hóa đơn ước giá
 10. Quá trình nhập sẽ chạy trong khoảng hai mười phút tùy thuộc vào tốc độ mạng của bạn. Sau khi hoàn tất, hãy thoát khỏi CMT Wizard. 
 11. Kiểm tra tổ chức của bạn để tìm dữ liệu trong 20 thực thể sau:
 
-- Tiền tệ
-- Đơn vị tổ chức
-- Liên hệ
-- Nhóm thuế
-- Nhóm khách hàng
-- Đơn vị
-- Nhóm đơn vị
-- Bảng giá
-- Bảng giá Tham số Dự án
-- Tuần suất hóa đơn
-- Chi tiết Tuần suất Hóa đơn
-- Thể loại Nguồn lực có thể đăng ký trước
-- Thể loại giao dịch
-- Thể loại Chi phí
-- Giá Vai trò
-- Giá cả Thể loại Giao dịch
-- Đặc tính
-- Nguồn lực có thể đăng ký
-- LK thể loại nguồn lực có thể đăng ký trước
-- Đặc tính Nguồn lực có thể đăng ký trước
+-   Tiền tệ
+-   T.khoản
+-   Đơn vị tổ chức
+-   Liên hệ
+-   Nhóm thuế
+-   Nhóm khách hàng
+-   Đơn vị
+-   Nhóm đơn vị
+-   Bảng giá
+-   Bảng giá Tham số Dự án 
+-   Tuần suất hóa đơn
+-   Thể loại Nguồn lực có thể đăng ký trước
+-   Thể loại giao dịch
+-   Thể loại Chi phí
+-   Giá Vai trò
+-   Giá cả Thể loại Giao dịch
+-   Đặc tính
+-   Nguồn lực có thể đăng ký
+-   LK thể loại nguồn lực có thể đăng ký trước
+-   Đặc tính Nguồn lực có thể đăng ký trước
 
 ![Hoàn thành quá trình nhập](./media/6CompleteImport.png)
