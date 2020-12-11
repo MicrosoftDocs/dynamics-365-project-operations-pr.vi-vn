@@ -1,8 +1,8 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Bắt đầu
+- name: Bắt đầu
   items:
-    - name: Xác định kiểu triển khai của bạn
+    - name: Xác định loại triển khai của bạn
       href: environment/determine-deployment-type.md
     - name: Các bản cập nhật của Project Operations
       href: whats-new/project-operations-updates.md
@@ -38,7 +38,9 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Tính năng mới
       items:
-        - name: Tháng 11 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho
+        - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/không dựa trên hàng trữ kho
+          href: whats-new/whats-new-dec-2020-resource-based.md
+        - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/không dựa trên hàng trữ kho
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Quy trình bán dự án
       items:
@@ -87,7 +89,7 @@
                 - name: Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá dự án
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Tạo giá trị ước tính trên một mô tả báo giá
                   href: sales/create-estimate-quote-line.md
                 - name: Nhập ước tính từ một dự án vào mô tả báo giá dựa trên dự án
@@ -109,7 +111,7 @@
             - name: Quản lý bảng giá dự án trên hợp đồng dự án
               href: sales/contracts-manage-project-price-lists.md
             - name: Quản lý nhiều khách hàng trên một hợp đồng dự án
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Mô tả hợp đồng dựa trên dự án
               items:
                 - name: Tổng quan về mô tả hợp đồng dựa trên dự án
@@ -122,12 +124,20 @@
                   href: sales/create-estimate-contract-line.md
                 - name: Nhập ước tính từ một dự án vào mô tả hợp đồng dựa trên dự án
                   href: sales/import-estimate-project-contract-line.md
-                - name: Tạo lịch trình hóa đơn trên mô tả hợp đồng dựa trên dự án
+                - name: Tạo lịch trình hóa đơn trên phần mô tả hợp đồng dựa theo dự án
                   href: sales/invoice-schedules-contract-line.md
             - name: Xác nhận hợp đồng dự án
               href: pro/sales/confirm-contract-sales.md
             - name: Sao chép hợp đồng dự án
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Khoản trả trước và khoản tạm ứng
+              items:
+                - name: Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Thiết lập lịch trình khoản tạm ứng – bản đơn giản
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Tạo khoản trả trước cụ thể trên một hợp đồng – bản đơn giản
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Định giá và chi phí
       items:
         - name: Thiết lập bảng giá
@@ -158,10 +168,18 @@
           items:
             - name: Tổng quan về thông số định giá
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Tạo giải pháp cho thông số định giá tùy chỉnh
+              href: sales/create-solution-custompd.md
             - name: Sử dụng trường hiện có làm thông số định giá
               items:
-                - name: Các trường Project Operations làm thông số định giá
+                - name: Trường Project Operations làm thông số định giá
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Sử dụng một nguồn lực có thể đặt trước làm thông số định giá
+                  href: sales/use-br-as-pd.md
+                - name: Sử dụng Thể loại giao dịch làm thông số định giá
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Nguồn lực có thể đặt trước đóng nhiều vai trò trong một dự án
+                  href: sales/br-playing-multiple-roles.md
             - name: Trường tùy chỉnh làm thông số định giá
               items:
                 - name: Tạo thực thể và trường tùy chỉnh làm thông số định giá
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Thiết lập trường tùy chỉnh làm thông số định giá
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Cập nhật thuộc tính phần bổ trợ để bao gồm thông số định giá mới
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Tắt thông số định giá
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Quản lý dự án
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Quản trị nguồn lực
           items:
+            - name: Tạo nguồn lực
+              href: resource-management/create-resources.md
             - name: Xác định kỹ năng và độ thành thạo
               href: resource-management/define-skills-proficiencies.md
+            - name: Xác định vai trò
+              href: resource-management/define-roles.md
             - name: Xác định lịch nguồn lực
               href: resource-management/define-resource-calendars.md
-        - name: Phương thức phân bổ đặt trước
+        - name: Đặt trước phương thức phân bổ
           href: resource-management/booking-allocation-methods.md
+        - name: Trạng thái đặt trước
+          href: resource-management/booking-status.md
         - name: Mô hình kỹ năng và độ thành thạo
           href: resource-management/skills-proficiency-models.md
         - name: Điều hòa nguồn lực
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Quản lý hóa đơn ước giá dự án
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Xác nhận hóa đơn ước giá dự án
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
@@ -370,9 +398,35 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Nhật ký phần tích hợp trong Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Lập hóa đơn liên công ty
+          items:
+            - name: Tổng quan về lập hóa đơn liên công ty
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Đặt cấu hình hoạt động lập hóa đơn liên công ty
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Tạo giao dịch liên công ty
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Ghi nhận doanh thu
+      items:
+        - name: Tổng quan về ghi nhận doanh thu
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Thiết lập ghi nhận doanh thu
+          items:
+            - name: Thiết lập loại chu kỳ
+              href: project-accounting/period-types.md
+            - name: Thiết lập mẫu chi phí
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Quản lý ước tính doanh thu
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Dự án ước tính doanh thu giá cố định
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Chi phí hoàn thành phương thức
+          href: revenue-recognition/cost-complete-methods.md
 - name: Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
   items:
-    - name: Bắt đầu
+    - name: Bắt đầu
       items:
         - name: Tổng quan về việc triển khai bản đơn giản
           href: pro/project-operations-overview-lite.md
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 12 năm 2020 – triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Tính năng mới kể từ tháng 11 năm 2020 – triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Quy trình bán dự án
@@ -538,10 +594,18 @@
           items:
             - name: Tổng quan về thông số định giá
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Tạo giải pháp cho thông số định giá tùy chỉnh
+              href: sales/create-solution-custompd.md
             - name: Sử dụng trường hiện có làm thông số định giá
               items:
-                - name: Sử dụng trường hiện có làm thông số định giá
+                - name: Trường Project Operations làm thông số định giá
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Sử dụng một nguồn lực có thể đặt trước làm thông số định giá
+                  href: sales/use-br-as-pd.md
+                - name: Sử dụng Thể loại giao dịch làm thông số định giá
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Nguồn lực có thể đặt trước đóng nhiều vai trò trong một dự án
+                  href: sales/br-playing-multiple-roles.md
             - name: Trường tùy chỉnh làm thông số định giá
               items:
                 - name: Tạo thực thể và trường tùy chỉnh làm thông số định giá
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Thiết lập trường tùy chỉnh làm thông số định giá
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Cập nhật thuộc tính phần bổ trợ để bao gồm thông số định giá mới
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Tắt thông số định giá
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Quản lý dự án
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Quản trị nguồn lực
           items:
+            - name: Tạo nguồn lực
+              href: resource-management/create-resources.md
             - name: Xác định kỹ năng và độ thành thạo
               href: resource-management/define-skills-proficiencies.md
+            - name: Xác định vai trò
+              href: resource-management/define-roles.md
             - name: Xác định lịch nguồn lực
               href: resource-management/define-resource-calendars.md
         - name: Đặt trước phương thức phân bổ
           href: resource-management/booking-allocation-methods.md
+        - name: Trạng thái đặt trước
+          href: resource-management/booking-status.md
         - name: Mô hình kỹ năng và độ thành thạo
           href: resource-management/skills-proficiency-models.md
         - name: Điều hòa nguồn lực
@@ -834,6 +906,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 24, V3'
@@ -938,7 +1012,7 @@
                   href: psa/use-existing-field.md
                 - name: Sử dụng nguồn lực có thể đặt trước làm thông số định giá
                   href: psa/bookable-resource-pricing-dimension.md
-                - name: Sử dụng loại giao dịch làm thông số định giá
+                - name: Sử dụng thể loại giao dịch làm thông số định giá
                   href: psa/transaction-category-pricing-dimension.md
             - name: Nguồn lực có thể đặt trước đóng nhiều vai trò trong một dự án
               href: psa/bookable-resource-multiple-roles.md
