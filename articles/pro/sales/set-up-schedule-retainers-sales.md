@@ -1,5 +1,5 @@
 ---
-title: Thiết lập lịch trình khoản tạm ứng – bản đơn giản
+title: Thiết lập lịch trình khoản duy trì
 description: Chủ đề này cung cấp thông tin về cách thiết lập một lịch trình tiền tạm ứng trong Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181298"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596398"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Thiết lập lịch trình khoản tạm ứng – bản đơn giản
+# <a name="set-up-a-retainer-schedule"></a>Thiết lập lịch trình khoản duy trì
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Lịch trình tiền tạm ứng được thiết lập trên trang **Hợp đồng dự án** trong Dynamics 365 Project Operations.
+Lịch trình khoản duy trì được thiết lập trên trang **Hợp đồng dự án** trong Dynamics 365 Project Operations.
 
 1. Trên trang **Hợp đồng dự án**, trên tab **Tiền trả trước và Tiền tạm ứng**, hãy chọn **Thiết lập lịch trình tiền tạm ứng**.
 2. Trên trang hộp thoại mở ra, các trường được liệt kê trong bảng sau sẽ hiển thị. Bảng này cho biết cách các giá trị đã nhập tác động hoặc ảnh hưởng như thế nào đến lịch trình tiền tạm ứng sẽ được tạo.

@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087242"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642659"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Chủ đề này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các hợp đồng dự án và dự án trực tiếp từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 
@@ -95,11 +97,11 @@ Mốc thời gian mô tả hợp đồng dự án được quản lý trong Proj
 
 Trường **ID hợp đồng dự án** có sẵn trên trang **Hợp đồng dự án**. Trường này đã được tạo thành một chìa khóa tự nhiên và duy nhất để hỗ trợ quá trình tích hợp.
 
-Khi hợp đồng dự án mới được tạo, nếu giá trị **ID hợp đồng dự án** chưa tồn tại, nó sẽ được tạo tự động bằng cách sử dụng một chuỗi số. Giá trị bao gồm **ORD** , theo sau là một dãy số tăng dần và sau đó là một hậu tố gồm sáu ký tự. Đây là một ví dụ: **ORD-01022-Z4M9Q0**.
+Khi hợp đồng dự án mới được tạo, nếu giá trị **ID hợp đồng dự án** chưa tồn tại, nó sẽ được tạo tự động bằng cách sử dụng một chuỗi số. Giá trị bao gồm **ORD**, theo sau là một dãy số tăng dần và sau đó là một hậu tố gồm sáu ký tự. Đây là một ví dụ: **ORD-01022-Z4M9Q0**.
 
 Trường **Số dự án** có sẵn trên trang **Dự án**. Trường này đã được tạo thành một chìa khóa tự nhiên và duy nhất để hỗ trợ quá trình tích hợp.
 
-Khi dự án mới được tạo, nếu giá trị **Số dự án** chưa tồn tại, nó sẽ được tạo tự động bằng cách sử dụng một chuỗi số. Giá trị bao gồm **PRJ** , theo sau là một dãy số tăng dần và sau đó là một hậu tố gồm sáu ký tự. Đây là một ví dụ: **PRJ-01049-CCNID0**.
+Khi dự án mới được tạo, nếu giá trị **Số dự án** chưa tồn tại, nó sẽ được tạo tự động bằng cách sử dụng một chuỗi số. Giá trị bao gồm **PRJ**, theo sau là một dãy số tăng dần và sau đó là một hậu tố gồm sáu ký tự. Đây là một ví dụ: **PRJ-01049-CCNID0**.
 
 Khi áp dụng giải pháp tích hợp Project Service Automation với Finance, tập lệnh nâng cấp sẽ đặt trường **ID hợp đồng dự án** cho các hợp đồng dự án hiện có và trường **Số dự án** cho các dự án hiện có trong Project Service Automation.
 
@@ -133,9 +135,9 @@ Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sa
 ## <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu
 
 > [!NOTE] 
-> Các trường **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** , and **AddressZipCode** không được bao gồm trong ánh xạ mặc định cho hợp đồng dự án. Bạn có thể thêm các ánh xạ nếu bạn yêu cầu dữ liệu này được đồng bộ hóa cho các hợp đồng dự án.
+> Các trường **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState**, and **AddressZipCode** không được bao gồm trong ánh xạ mặc định cho hợp đồng dự án. Bạn có thể thêm các ánh xạ nếu bạn yêu cầu dữ liệu này được đồng bộ hóa cho các hợp đồng dự án.
 >
-> Các trường **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** và **ProjectType** không được bao gồm trong ánh xạ mặc định cho dự án. Bạn có thể thêm các ánh xạ nếu bạn yêu cầu dữ liệu này được đồng bộ hóa cho các dự án.
+> Các trường **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** và **ProjectType** không được bao gồm trong ánh xạ mặc định cho dự án. Bạn có thể thêm các ánh xạ nếu bạn yêu cầu dữ liệu này được đồng bộ hóa cho các dự án.
 
 Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 

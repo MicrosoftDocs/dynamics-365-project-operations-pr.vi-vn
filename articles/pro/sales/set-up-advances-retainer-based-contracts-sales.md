@@ -1,5 +1,5 @@
 ---
-title: Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
+title: Hợp đồng dựa trên tiền tạm ứng và giữ lại
 description: Chủ đề này cung cấp thông tin về các mô hình hợp đồng dựa trên tiền giữ lại và khoản tạm ứng trong Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180893"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596128"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
+# <a name="advances-and-retainer-based-contracts"></a>Hợp đồng dựa trên tiền tạm ứng và giữ lại
 
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations hỗ trợ các hợp đồng dựa trên tiền giữ lại. Hợp đồng dựa trên tiền giữ lại là một tập hợp các khoản thanh toán được thương lượng phân bổ đều mà khách hàng sẽ được lập hóa đơn trong suốt thời gian của một dự án. Loại hợp đồng này thường được sử dụng cho các mô hình thanh toán dựa trên thời gian và vật tư hoặc dựa trên mức tiêu thụ khi cần cung cấp cho khách hàng một hóa đơn và lịch thanh toán có thể dự đoán. Doanh thu thực tế phát sinh mỗi kỳ được đối chiếu với khoản thanh toán nhận được từ khách hàng vào đầu kỳ. Theo khái niệm của mô hình thanh toán Thời gian và vật tư, giá trị doanh thu được tích lũy trong mỗi kỳ có thể thay đổi theo chi phí phát sinh. Nếu doanh thu tích lũy được nhiều hơn số tiền nhận được vào đầu kỳ, công ty giao dự án có thể:
+Dynamics 365 Project Operations hỗ trợ các hợp đồng dựa trên khoản duy trì. Hợp đồng dựa trên tiền giữ lại là một tập hợp các khoản thanh toán được thương lượng phân bổ đều mà khách hàng sẽ được lập hóa đơn trong suốt thời gian của một dự án. Loại hợp đồng này thường được sử dụng cho các mô hình thanh toán dựa trên thời gian và vật tư hoặc dựa trên mức tiêu thụ khi cần cung cấp cho khách hàng một hóa đơn và lịch thanh toán có thể dự đoán. Doanh thu thực tế phát sinh mỗi kỳ được đối chiếu với khoản thanh toán nhận được từ khách hàng vào đầu kỳ. Theo khái niệm của mô hình thanh toán Thời gian và vật tư, giá trị doanh thu được tích lũy trong mỗi kỳ có thể thay đổi theo chi phí phát sinh. Nếu doanh thu tích lũy được nhiều hơn số tiền nhận được vào đầu kỳ, công ty giao dự án có thể:
 
 - Chỉ xuất hóa đơn cho khách hàng đối với phần vượt quá 
 - Trì hoãn việc đối chiếu doanh thu sang kỳ lập hóa đơn tiếp theo và thanh toán vào cuối dự án cho bất kỳ doanh thu nào còn lại chưa được lập hóa đơn

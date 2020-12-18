@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180803"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513950"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Tạo lịch trình hóa đơn trên mục mô tả hợp đồng dựa trên dự án 
 
@@ -49,7 +49,7 @@ Hãy hoàn thành các bước sau để tạo lịch trình hóa đơn dựa tr
 3. Mở mục mô tả hợp đồng **Giá cố định** mà bạn định tạo lịch trình mốc. Trên tab **Mốc thanh toán**, hãy chọn ngày bắt đầu lập hóa đơn và tần suất hóa đơn. 
 4. Trên lưới con, hãy chọn **Tạo các mốc định kỳ**. Lịch trình hóa đơn được tạo với các trường **Tên mốc**, **Ngày mốc** và **Số tiền mốc** được đặt như sau:
 
-    - **Tên mốc**: Ngày này được xác định theo tần suất hóa đơn.
+    - **Tên mốc**: Tên này sẽ do tần suất hóa đơn quyết định.
     - **Ngày mốc**: Ngày này được xác định theo tần suất hóa đơn.
     - **Số tiền mốc**: Số tiền này được tính bằng cách chia số tiền hợp đồng trên mục mô tả hợp đồng cho số mốc được xác định qua tần suất, ngày bắt đầu lập hóa đơn và ngày giao hàng đã yêu cầu.
 

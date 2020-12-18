@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121199"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643018"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này cung cấp thông tin về cách cung cấp môi trường Dynamics 365 Project Operations mới cho kịch bản dựa trên nguồn lực/hàng không nhập kho.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Chủ đề này cung cấp thông tin về cách cung cấp môi trường Dynamics 365 Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Bật quy trình tự động cung cấp Project Operations trong dự án LCS
 
@@ -120,7 +122,7 @@ Việc cung cấp dịch vụ môi trường sẽ mất một thời gian. Sau k
 
 ![Áp dụng giải pháp](./media/13ApplySolutions.png)
 
-5. Chọn cả hai giải pháp,**Bản đồ thực thể ghi kép của Dynamics 365 Finance and Operations** và **Bản đồ thực thể ghi kép của Dynamics 365 Project Operations**, và sau đó chọn **Áp dụng**.
+5. Chọn cả 2 giải pháp là Bản đồ thực thể ghi kép **Dynamics 365 Finance and Operations** và **Bản đồ thực thể ghi kép Dynamics 365 Project Operations** rồi chọn **Áp dụng**.
 
 ![Xác nhận giải pháp](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Quá trình làm mới sẽ mất khoảng 20 phút. Bạn sẽ nhận được 
 | --- | --- | --- | --- | --- | --- |
 | **Vai trò nguồn lực dự án cho tất cả các công ty (các thể loại nguồn lực có thể đăng ký trước)** | No | Có | Common Data Service | No | Không áp dụng |
 | **Thực thể pháp lý (cdm\_companies)** | No | Có | Ứng dụng Finance and Operations | No | Không áp dụng |
+| **Sổ cái (msdyn_ledgers)** | No | Có | Ứng dụng Finance and Operations | Có | Có, các ứng dụng Finance and Operations |
 | **Giá trị tích hợp thực tế của Project Operations (msdyn\_actuals)** | No | No | Không áp dụng | Có | No |
 | **Mô tả hợp đồng dự án (salesorderdetails)** | No | No | Không áp dụng | No | No |
 | **Thực thể tích hợp cho các mối quan hệ giao dịch dự án (msdyn\_transactionconnections)** | No | No | Không áp dụng | No | Không áp dụng |

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119444"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650254"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá
 
@@ -41,9 +41,15 @@ Chủ đề này cung cấp thông tin về cách thiết lập thông số đ�
 Để một trường trở thành thông số định giá, trường đó phải:
 
 - Được tạo dưới dạng trường trong các thực thể **Giá theo vai trò** và **Tăng Giá theo vai trò**. Để biết thêm thông tin về cách thực hiện, hãy xem phần [Thêm trường tùy chỉnh vào các thực thể giao dịch và thiết lập giá](add-custom-fields-price-setup-transactional-entities.md).
+
 - Tạo dưới dạng hàng trong bảng **Thông số định giá**. Ví dụ: thêm các hàng thông số định giá như hiển thị trong đồ thị sau. 
 
+![Hàng thông số định giá dựa trên số tiền](media/Amt-based-PD.png)
+
 Số giờ Làm việc của nguồn lực (**msdyn_resourceworkhours**) được thêm vào dưới dạng thông số dựa trên mức tăng và đã được thêm vào lưới trên tab **Thông số định giá dựa trên mức tăng**.
+
+![Hàng thông số định giá dựa trên mức tăng](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Mọi thay đổi với dữ liệu thông số định giá trong bảng này, dù là hiện có hay mới, chỉ được truyền đến logic kinh doanh định giá sau khi làm mới bộ đệm ẩn. Thời gian làm mới bộ đệm ẩn có thể mất đến 10 phút. Cho phép khoảng thời gian đó để xem các thay đổi trong logic giá mặc định phải bắt nguồn từ những thay đổi với dữ liệu Thông số định giá.

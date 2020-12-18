@@ -1,5 +1,5 @@
 ---
-title: Lập hóa đơn khoản tạm ứng hoặc trả trước - bản đơn giản
+title: Lập hóa đơn khoản trả trước hoặc khoản tạm ứng
 description: Chủ đề này cung cấp thông tin về cách lập hóa đơn khoản trả trước hoặc khoản tạm ứng trong Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180578"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596218"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Lập hóa đơn khoản tạm ứng hoặc trả trước - bản đơn giản
+# <a name="invoice-a-retainer-or-an-advance"></a>Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations hỗ trợ các hợp đồng dựa trên khoản trả trước và khoản tạm ứng một lần. Trên hợp đồng dự án, bạn có thể ghi lại lịch trình của những khoản trả trước hoặc tạm ứng một lần. Tuy nhiên, việc ghi lại ở cấp độ hợp đồng dự án sẽ không làm cho một khoản trả trước hoặc tạm ứng chuyển ngay sang trạng thái sẵn dùng. Để sử dụng khoản trả trước hoặc tạm ứng trên một hóa đơn thực sự tính phí cho khách hàng, trước tiên, bạn phải lập hóa đơn khoản trả trước hoặc tạm ứng đó.
+Dynamics 365 Project Operations hỗ trợ tạm ứng một lần và hợp đồng dựa trên khoản giữ lại. Trên hợp đồng dự án, bạn có thể ghi lại lịch trình của những khoản trả trước hoặc tạm ứng một lần. Tuy nhiên, việc ghi lại ở cấp độ hợp đồng dự án sẽ không làm cho một khoản trả trước hoặc tạm ứng chuyển ngay sang trạng thái sẵn dùng. Để sử dụng khoản trả trước hoặc tạm ứng trên một hóa đơn thực sự tính phí cho khách hàng, trước tiên, bạn phải lập hóa đơn khoản trả trước hoặc tạm ứng đó.
 
 Hãy hoàn thành các bước sau để lập hóa đơn khoản trả trước hoặc tạm ứng.
 

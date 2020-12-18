@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130874"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672257"
 ---
 # <a name="override-project-sales-price-lists"></a>Thay thế bảng giá bán hàng của dự án
 
@@ -27,7 +28,7 @@ Các thỏa thuận về giá cụ thể cho từng khách hàng có thể đư�
 
 1. Mở trang danh sách **Tài khoản**.
 2. Tìm và nhấp đúp vào hồ sơ khách hàng để mở trang chi tiết **Tài khoản**.
-3. Trên tab **Bảng giá dự án**, hãy chọn **+ Bảng giá dự án mới^^.
+3. Trên tab **Bảng giá dự án**, hãy chọn **+ Bảng giá dự án mới**.
 4. Trên **Bảng giá dự án mới**, hãy chọn một bảng giá từ danh sách thả xuống. Chỉ đưa vào các bảng giá có ngữ cảnh được đặt thành **Bán hàng** và đơn vị tiền tệ của bảng giá đó khớp với đơn vị tiền tệ của tài khoản.
 5. Đặt tên cho liên kết rồi chọn **Lưu**. Một bảng giá dự án cụ thể cho từng khách hàng được tạo. Bảng giá này sẽ được dùng để đặt mặc định giá dự án trên báo giá dự án hoặc hợp đồng được tạo cho khách hàng này, trong đó ngày tạo báo giá hoặc hợp đồng dự án nằm trong ngày có hiệu lực của bảng giá.
 

@@ -1,28 +1,20 @@
 ---
 title: Tổng quan về thông số định giá
-description: Chủ đề này cung cấp thông tin về các tham số định giá trong Dynamics 365 Project Operations.
+description: Chủ đề này cung cấp thông tin về cách thiết lập thông số giá tùy chỉnh trong Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128489"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650241"
 ---
 # <a name="pricing-dimensions-overview"></a>Tổng quan về thông số định giá
 
@@ -40,9 +32,21 @@ Do vậy, có 2 loại giá trị tham số định giá được cung cấp:
 
 ## <a name="pricing-dimensions"></a>Thông số định giá
 
-Dynamics 365 Project Operations đi kèm với một bộ tham số định giá mặc định. Bạn có thể xem các tham số định giá này bằng cách chuyển tới **Hoạt động dự án** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Khi đã bật các trường này lên, bạn có thể thiết lập giá cả và chi phí cho từng tổ hợp vai trò và đơn vị tổ chức.
+Dynamics 365 Project Operations được cung cấp với một bộ thông số giá mặc định. Bạn có thể xem các tham số định giá này bằng cách chuyển tới **Hoạt động dự án** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Khi đã bật các trường này lên, bạn có thể thiết lập giá cả và chi phí cho từng tổ hợp vai trò và đơn vị tổ chức.
 
-Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh.
+![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
+
+Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh. Để biết thêm thông tin, hãy tham khảo các chủ đề sau. 
+  
+  > [!NOTE]
+  > Bạn phải hoàn thành các thủ tục theo thứ tự liệt kê.
+
+1. [Tạo giải pháp cho thông số định giá tùy chỉnh](../sales/create-solution-custompd.md)
+2. [Tạo thực thể và trường tùy chỉnh](create-custom-fields-entities-pricing-dimensions.md)
+3. [Thêm trường tùy chỉnh vào thực thể giao dịch và thiết lập giá ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Thiết lập trường tùy chỉnh làm thông số định giá ](set-up-custom-fields-pricing-dimensions.md)
+5. [Cập nhật các thuộc tính phần bổ trợ để bao gồm tham số giá mới](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Định giá thời gian nguồn nhân lực
 Cách một tổ chức định giá thời gian nguồn nhân lực thường là một cân nhắc quan trọng mang tính chiến lược ảnh hưởng trực tiếp đến lợi nhuận của tổ chức. Làm việc với các đội ngũ tài chính và người đứng đầu phụ trách thực hành khi tổ chức của bạn sẵn sàng xác định cách mong muốn để thiết lập tỷ lệ chi phí và hóa đơn cho thời gian nguồn nhân lực.

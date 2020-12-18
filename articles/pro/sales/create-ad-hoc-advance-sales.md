@@ -1,5 +1,5 @@
 ---
-title: Tạo khoản tạm ứng đột xuất trên hợp đồng - bản đơn giản
+title: Tạo mục tạm ứng đột xuất trên hợp đồng
 description: Chủ đề này cung cấp thông tin về việc tạo khoản tạm ứng trên hợp đồng khi cần.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181388"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596038"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Tạo khoản tạm ứng đột xuất trên hợp đồng - bản đơn giản
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Tạo mục tạm ứng đột xuất trên hợp đồng
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Microsoft Dynamics 365 Project Operations hỗ trợ các tình huống lập hóa đơn liên quan đến các khoản trả trước và tạm ứng. Quy trình sử dụng khoản **Tạm ứng** trong **Project Operations** tương tự với các hợp đồng **Tạm ứng**. 
+Microsoft Dynamics 365 Project Operations hỗ trợ các trường hợp lập hóa đơn liên quan đến các khoản tạm ứng và trước thanh toán. Quy trình sử dụng khoản **Tạm ứng** trong **Project Operations** tương tự với các hợp đồng **Tạm ứng**. 
 
 Hoàn tất các bước sau để lập hóa đơn tạm ứng cho khách hàng.
 

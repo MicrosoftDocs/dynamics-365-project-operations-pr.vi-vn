@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121244"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642299"
 ---
 # <a name="currency"></a>Tiền tệ
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Loại tiền tệ quyết định giá sản phẩm trong danh mục sản phẩm và chi phí giao dịch, chẳng hạn như các đơn đặt hàng. Nếu khách hàng của bạn nằm rải rác trên nhiều vùng địa lý, hãy thêm loại tiền tệ của họ để quản lý các giao dịch của bạn. Thêm các loại tiền tệ phù hợp nhất cho nhu cầu kinh doanh hiện tại và trong tương lai của bạn.  
 

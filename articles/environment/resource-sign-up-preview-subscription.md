@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121154"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643010"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Chủ đề này giải thích cách đăng ký bản xem trước/ưu đãi của đối tác và triển khai môi trường Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho.
 
@@ -31,18 +33,18 @@ Chủ đề này giải thích cách đăng ký bản xem trước/ưu đãi c�
 
 Khi nhận được phê duyệt [yêu cầu xem trước](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), bạn sẽ nhận được ba ưu đãi từ Microsoft qua email. Những ưu đãi này cho phép bạn triển khai Bản xem trước của Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước
+- Dynamics 365 Project Operations (CRM) - Bản dùng thử xem trước
 - Office 365 Project Operations – Bản dùng thử ở dạng xem trước
 - Dynamics 365 Finance - Bản dùng thử ở dạng xem trước
 
 > [!IMPORTANT]
 > Chỉ một cá nhân, quản trị viên đối tượng thuê, trong một tổ chức cần thực hiện nhiệm vụ này. Nếu bạn không phải là người đăng ký bản phát hành này, hãy đợi cho đến khi tổ chức của bạn được đăng ký và bạn đã nhận được thông tin xác thực người dùng của mình.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Bản dùng thử xem trước 
 
 Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập trên trình duyệt bằng tài khoản cơ quan của người dùng trong đối tượng thuê nơi bạn muốn dùng bản xem trước Project Operations.
 
-1. Đổi mã ưu đãi đầu tiên, **Dynamics 365 Project Operations (CRM) – Bản dùng thử ở dạng xem trước**, bằng cách dán mã vào URL trình duyệt.
+1. Đổi mã ưu đãi đầu tiên **Dynamics 365 Project Operations (CRM) - Bản dùng thử xem trước** bằng cách dán mã này vào URL trên trình duyệt.
 
 ![Đổi ưu đãi](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Lặp lại các bước tương tự với ưu đãi cuối cùng từ email Ch
 
 ![Gán giấy phép](./media/15AssignLicenses.png)
 
-3. Xác minh rằng giấy phép **Bản xem trước Dynamics 365 Project Operations (CRM)** và **Office 365 Project Operations - Bản xem trước** đã được chọn và chọn **Lưu thay đổi**.
+3. Xác minh rằng giấy phép **Bản xem trước Dynamics 365 Project Operations (CRM)** và **Office 365 Project Operations - Bản xem trước** đã được lựa chọn, sau đó bấm vào **Lưu thay đổi**.
 
 > [!NOTE]
 > Ưu đãi dùng thử Finance không cần phải được gán cho người dùng.

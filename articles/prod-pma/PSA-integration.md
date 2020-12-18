@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087249"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642479"
 ---
 # <a name="project-service-automation-overview"></a>Tổng quan về Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Giải pháp tích hợp Project Service Automation sang Finance sử dụng tính năng Tích hợp dữ liệu để đồng bộ hóa dữ liệu giữa các phiên bản của Dynamics 365 Finance và Dynamics 365 Project Service Automation qua Common Data Service. Mẫu tích hợp có sẵn với tính năng Tích hợp dữ liệu cho phép dòng dữ liệu về dự án, hợp đồng dự án, mô tả hợp đồng dự án, mốc thời gian mô tả hợp đồng dự án, nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ và ước tính chi phí từ Project Service Automation sang Finance.
 

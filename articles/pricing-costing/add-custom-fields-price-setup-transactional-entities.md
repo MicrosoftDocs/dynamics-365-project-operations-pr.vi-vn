@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131009"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590927"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
 
@@ -49,6 +49,8 @@ Khi kích thước giá tùy chỉnh dựa trên bộ tùy chọn, hãy thêm n�
 > [!IMPORTANT]
 > Khi bạn thêm một trường vào nhiều thực thể, hãy sử dụng cùng một tên trường trên tất cả các tổ chức. 
 
+> ![Thêm vị trí làm việc của nguồn lực vào giá theo vai trò](media/RWL-Field.png)
+
 Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính của nỗ lực công việc cần thiết để hoàn tất công việc **Tại địa phương** và **Tại chỗ**, trong **Giờ làm việc** và **Giờ làm thêm** được dùng để ước tính giá trị của Báo giá/Dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** sẽ được thêm vào thực thể ước tính, **Chi tiết về dòng báo giá**, **Chi tiết về dòng hợp đồng**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 
 1. Trong Hoạt động dự án, hãy chọn **Chế độ Cài đặt** > **Giải pháp**, và nhấp đúp vào **\<your organization name> kích thước giá**. 
@@ -58,6 +60,8 @@ Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính 
 5. Chọn **Sử dụng bộ tùy chọn hiện có** và **Vị trí làm việc của nhân lực**, sau đó chọn **Lưu**.
 6. Lặp lại các bước 1-5 để thêm trường này vào các thực thể **chi tiết dòng hợp đồng dự án**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
+
+> ![Thêm vị trí làm việc của nguồn lực vào dòng ước tính](media/RWL-Default-Value.png)
 
 Đối với giao hàng và lập hóa đơn, công việc đã hoàn thành phải có giá chính xác để chọn liệu công việc đó được thực hiện **Tại địa phương** hay **Tại chỗ** và liệu công việc được thực hiện trong **Giờ làm việc** hay **Ngoài giờ làm việc** trên Thực tế dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** phải được thêm vào **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký**.
 
@@ -69,6 +73,8 @@ Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính 
 6. Lặp lại bước 1-5 để thêm trường này vào các thực thể **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
 
+> ![Thêm vị trí làm việc của nguồn lực vào mục nhập thời gian](media/RWL-time-entry.png)
+
 Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiết cho các kích thước tùy chỉnh dựa trên bộ tùy chọn.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Kích thước giá tùy chỉnh dựa trên thực thể
@@ -79,6 +85,8 @@ Khi kích thước giá tùy chỉnh là một thực thể, bạn sẽ thêm m�
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Chức vụ tiêu chuẩn**.
 3. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
 4. Chọn **Mới** để tạo mối quan hệ 1:N mới gọi là **Chức vụ tiêu chuẩn cho nguồn lực có thể đặt lịch**. Nhập các thông tin cần thiết, sau đó chọn **Lưu**.
+
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu vào tài nguyên có thể đặt lịch](media/ST-BR.png)
 
 Bạn cũng cần thêm Chức vụ tiêu chuẩn vào các thực thể Giá, **Giá theo vai trò** và **Tăng giá theo vai trò**. Bạn cũng có thể hoàn tất việc này bằng cách sử dụng mối quan hệ 1:N giữa các thực thể **Chức vụ tiêu chuẩn** và **Giá theo vai trò** và các thực thể **Chức vụ tiêu chuẩn** và **Tăng giá theo vai trò**.
 
@@ -96,9 +104,13 @@ Trong các giai đoạn bán hàng và dự toán cho dự án, để định gi
 
 5. Lặp lại các bước 1-5 để tạo mối quan hệ 1:N từ **Chức vụ tiêu chuẩn** thành **Chi tiết dòng báo giá**, **Chi tiết dòng hợp đồng dự án**, **Thành viên nhóm hợp đồng** và **Dòng ước tính**.
 
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho dòng ước tính](media/ST-Estimate-Line.png)
+
   Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thành bởi mỗi chức vụ tiêu chuẩn phải được định giá chính xác trên Thực tế dự án. Điều này có nghĩa là cần có mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 
 6. Lặp lại các bước 1-6 để tạo mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
+
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho mục nhập thời gian](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Thiết lập giá trị kích thước mặc định bằng cách sử dụng các tính năng ánh xạ của nền tảng
 Đối với Mục nhập thời gian, việc để hệ thống mặc định chức vụ tiêu chuẩn trên Mục nhập thời gian từ Nguồn lực có thể đặt lịch đang ghi mục nhập thời gian rất hữu ích. Sử dụng các bước sau để thêm ánh xạ trường trên mối quan hệ 1:N từ **Tài nguyên có thể đặt lịch** thành **Mục nhập thời gian**.
@@ -107,6 +119,8 @@ Trong các giai đoạn bán hàng và dự toán cho dự án, để định gi
 2. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
 3. Nhấp đúp vào **Tài nguyên có thể đặt lịch cho mục nhập thời gian**. Trên trang **Mối quan hệ**, chọn **Sử dụng ánh xạ trường**. 
 4. Nhấp vào **Mới** để tạo ánh xạ trường mới giữa trường **Chức vụ tiêu chuẩn** trên thực thể **Nguồn lực có thể đặt lịch** thành trường tham chiếu **Chức vụ tiêu chuẩn** trên thực thể **Mục nhập thời gian**. 
+
+> ![Thiết lập ánh xạ trường để cho phép mặc định chức vụ tiêu chuẩn từ nguồn lực có thể đặt lịch vào mục nhập thời gian](media/ST-Mapping2.png)
 
 Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiết cho các kích thước tùy chỉnh dựa trên thực thể.
 

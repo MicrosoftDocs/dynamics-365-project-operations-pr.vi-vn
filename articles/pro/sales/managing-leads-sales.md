@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180533"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513815"
 ---
 # <a name="manage-leads---lite"></a>Quản lý khách hàng tiềm năng - bản đơn giản
 
@@ -23,7 +23,7 @@ Các khách hàng tiềm năng dựa trên dự án có thể được quản l�
 
 ## <a name="list-of-project-sales-leads"></a>Danh sách mối khách hàng dự án
 
-Trong phần **Bán hàng**, trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
+Trong phần **Bán hàng**, trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Khách hàng tiềm năng trong danh sách này là dựa trên công việc và các loại khách hàng tiềm năng khác có thể được tạo nếu bạn cũng có ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
 
 Bạn có thể tạo chế độ đã lọc để chỉ xem các khách hàng tiềm năng dựa trên dự án bằng cách tạo bộ lọc trên giá trị **Loại**. Ví dụ: bạn có thể chọn chỉ hiển thị khách hàng tiềm năng dựa trên công việc.
 
@@ -53,9 +53,9 @@ Khách hàng tiềm năng có giá trị **Loại** được đặt thành **D�
 
 - Tài khoản sử dụng trường **Công ty** từ khách hàng tiềm năng.
 - Bản ghi người liên hệ được liên kết với tài khoản dựa trên các giá trị trong các trường **Tên** và **Họ** trên khách hàng tiềm năng.
-- Cơ hội dựa trên dự án có trường **Loại** đặt thành **Dựa trên công việc**.
+- Cơ hội dựa trên dự án có trường **Loại** được đặt thành **Dựa trên công việc**.
 
-Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem[Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem [Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Dòng quy trình công việc cho các thỏa thuận dựa trên dự án
 

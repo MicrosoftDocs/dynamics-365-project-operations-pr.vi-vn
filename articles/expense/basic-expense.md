@@ -3,17 +3,17 @@ title: Mục nhập chi phí (bản đơn giản)
 description: Chủ đề này cung cấp thông tin về cách làm việc với mục nhập chi phí trong một triển khai bản đơn giản.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121109"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590972"
 ---
 # <a name="expense-entry-lite"></a>Mục nhập chi phí (bản đơn giản)
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 Quản lý chi phí cơ bản hay đơn giản là khả năng ghi lại các khoản chi phí đơn giản. Bạn có thể ghi lại các chi phí cho một dự án, sau đó người phê duyệt dự án sẽ đánh giá và phê duyệt chúng.
 
-Để biết thêm thông tin về khả năng chi phí trong Dynamics 365 Project Operations, hãy xem [Tổng quan về chi phí](expense-overview.md).
+Để biết thêm thông tin về các chức năng liên quan đến chi phí trong Dynamics 365 Project Operations, hãy xem [Tổng quan về chi phí](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Ghi lại chi phí cơ bản
 
@@ -36,6 +36,10 @@ Sau khi hoàn tất việc ghi lại tất cả chi phí và sẵn sàng gửi �
 
 1. Đi đến **Chi phí** và chọn một chi phí. Hoặc chọn tất cả các chi phí bằng cách sử dụng hộp kiểm trên tiêu đề.
 2. Chọn **Gửi**. Hệ thống xử lý các mục nhập đã chọn, sau đó tạo các yêu cầu phê duyệt chi phí.
+
+## <a name="add-an-attachment"></a>Thêm tệp đính kèm
+
+Bạn có thể phải cung cấp cho người phê duyệt tài liệu bổ sung về chi phí của bạn. Bạn có thể đính kèm biên nhận vào dòng thời gian của mục chi phí. Chọn **Chỉnh sửa** rồi trong phần **Dòng thời gian**, chọn biểu tượng kẹp giấy để đính kèm biên nhận.
 
 ## <a name="recall-a-basic-expense"></a>Thu hồi chi phí cơ bản
 

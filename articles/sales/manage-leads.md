@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181793"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513860"
 ---
 # <a name="manage-leads"></a>Quản lý khách hàng tiềm năng
 
@@ -53,9 +53,9 @@ Khách hàng tiềm năng có giá trị **Loại** được đặt thành **D�
 
 - Tài khoản sử dụng trường **Công ty** từ khách hàng tiềm năng.
 - Bản ghi người liên hệ được liên kết với tài khoản dựa trên các giá trị trong các trường **Tên** và **Họ** trên khách hàng tiềm năng.
-- Cơ hội dựa trên dự án có trường **Loại** đặt thành **Dựa trên công việc**.
+- Cơ hội dựa trên dự án có trường **Loại** được đặt thành **Dựa trên công việc**.
 
-Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem[Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem [Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Thông tin về thực thể pháp lý và định tính khách hàng tiềm năng 
 

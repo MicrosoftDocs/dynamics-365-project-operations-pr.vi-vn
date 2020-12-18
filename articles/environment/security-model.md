@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124394"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642929"
 ---
 # <a name="security-model"></a>Mô hình bảo mật
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Microsoft Dynamics 365 Project Operations chứa một mô hình bảo mật duy nhất cho phép mô hình bảo mật kinh doanh dựa trên vai trò hợp tác với Microsoft Office Groups. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations chứa mô hình bảo mật độc đáo, tạo điều kiện cho mô hình bảo mật doanh nghiệp dựa trên vai trò phối hợp với Microsoft Office Groups. 
 
 
 ## <a name="security-roles"></a>Vai trò bảo mật

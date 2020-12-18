@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129704"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642794"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Sử dụng Trình bổ sung Project Service Automation để lập kế hoạch công việc của bạn trong Microsoft Project
 
@@ -85,7 +85,7 @@ ms.locfileid: "4129704"
 ## <a name="publish-your-project"></a>Phát hành dự án của bạn  
 Khi bạn hoàn tất lập kế hoạch dự án, bước tiếp theo là nhập và phát hành dự án trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Quy trình tạo nhóm và định giá sẽ được áp dụng. Mở dự án trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], bạn sẽ thấy nhóm, ước tính dự án và cấu trúc phân tích công việc đã được tạo. Bảng sau hiển thị nơi để tìm thấy các kết quả:
+Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Quy trình tạo nhóm và định giá sẽ được áp dụng. Khi mở dự án trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], bạn sẽ thấy nhóm, ước tính dự án và cấu trúc phân tích công việc đã được tạo. Bảng sau hiển thị nơi để tìm thấy các kết quả:
 
 
 |                                                                                          |                                                                                                                                   |
@@ -173,6 +173,59 @@ Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../include
 4. Bấm vào **xuất bản**.  
 
 Việc liên kết tệp Project với [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] làm cho tệp Project thành tệp chính và đặt cấu trúc phân tích công việc trong mẫu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] thành chỉ đọc.  Để thực hiện thay đổi cho kế hoạch dự án, bạn cần làm điều đó trong [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] và phát hành thay đổi dưới dạng cập nhật vào [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Đọc lịch trình đã tải của nguồn lực
+
+Khi đọc một dự án từ Project Service Automation, lịch của nguồn lực sẽ không được đồng bộ với máy khách trên máy tính. Nếu có sự khác biệt về thời lượng, mức nỗ lực hoặc ngày kết thúc nhiệm vụ, nguyên nhân có thể là do nguồn lực và máy khách trên máy tính không có cùng lịch mẫu giờ làm việc áp dụng cho dự án.
+
+
+## <a name="data-synchronization"></a>Đồng bộ hóa dữ liệu
+
+Bảng sau trình bày cách đồng bộ hóa dữ liệu giữa Project Service Automation và phần bổ trợ trên máy tính Microsoft Project.
+
+| **Thực thể** | **Trường** | **Microsoft Project với Project Service Automation** | **Project Service Automation với Microsoft Project** |
+| --- | --- | --- | --- |
+| Nhiệm vụ dự án | Ngày đến hạn | ● | - |
+| Nhiệm vụ dự án | Nỗ lực Dự kiến | ● | - |
+| Nhiệm vụ dự án | ID máy khách MS Project | ● | - |
+| Nhiệm vụ dự án | Nhiệm vụ Mẹ | ● | - |
+| Nhiệm vụ dự án | Dự án | ● | - |
+| Nhiệm vụ dự án | Nhiệm vụ dự án | ● | - |
+| Nhiệm vụ dự án | Tên Nhiệm vụ Dự án | ● | - |
+| Nhiệm vụ dự án | Đơn vị nguồn lực (Không còn dùng trong v3.0) | ● | - |
+| Nhiệm vụ dự án | Khoảng thời gian theo lịch | ● | - |
+| Nhiệm vụ dự án | Ngày bắt đầu | ● | - |
+| Nhiệm vụ dự án | ID WBS | ● | - |
+
+| **Thực thể** | **Trường** | **Microsoft Project với Project Service Automation** | **Project Service Automation với Microsoft Project** |
+| --- | --- | --- | --- |
+| Thành viên Nhóm | ID máy khách MS Project | ● | - |
+| Thành viên Nhóm | Tên Vị trí | ● | - |
+| Thành viên Nhóm | dự án | ● | ● |
+| Thành viên Nhóm | Nhóm Dự án | ● | ● |
+| Thành viên Nhóm | Đơn vị Nguồn lực | - | ● |
+| Thành viên Nhóm | Vai trò | - | ● |
+| Thành viên Nhóm | Giờ làm việc | Chưa đồng bộ | Chưa đồng bộ |
+
+| **Thực thể** | **Trường** | **Microsoft Project với Project Service Automation** | **Project Service Automation với Microsoft Project** |
+| --- | --- | --- | --- |
+| Gán Nguồn lực | Từ Ngày | ● | - |
+| Gán Nguồn lực | Giờ | ● | - |
+| Gán Nguồn lực | ID máy khách MS Project | ● | - |
+| Gán Nguồn lực | Công việc Đã lên kế hoạch | ● | - |
+| Gán Nguồn lực | Dự án | ● | - |
+| Gán Nguồn lực | Nhóm Dự án | ● | - |
+| Gán Nguồn lực | Gán Nguồn lực | ● | - |
+| Gán Nguồn lực | Tác vụ | ● | - |
+| Gán Nguồn lực | Đến Ngày | ● | - |
+
+| **Thực thể** | **Trường** | **Microsoft Project với Project Service Automation** | **Project Service Automation với Microsoft Project** |
+| --- | --- | --- | --- |
+| Quan hệ phụ thuộc Nhiệm vụ Dự án | Quan hệ phụ thuộc Nhiệm vụ Dự án | ● | - |
+| Quan hệ phụ thuộc Nhiệm vụ Dự án | Loại liên kết | ● | - |
+| Quan hệ phụ thuộc Nhiệm vụ Dự án | Nhiệm vụ Người tiền nhiệm | ● | - |
+| Quan hệ phụ thuộc Nhiệm vụ Dự án | Dự án | ● | - |
+| Quan hệ phụ thuộc Nhiệm vụ Dự án | Nhiệm vụ Người kế nhiệm | ● | - |
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
