@@ -6,11 +6,11 @@
       href: environment/determine-deployment-type.md
     - name: Các bản cập nhật của Project Operations
       href: whats-new/project-operations-updates.md
-- name: Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho
+- name: Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
   items:
-    - name: Bắt đầu
+    - name: Bắt đầu
       items:
-        - name: Tổng quan về việc triển khai Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho
+        - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: environment/project-operations-integrated-deployment-overview.md
         - name: Đăng ký gói xem trước
           href: environment/resource-sign-up-preview-subscription.md
@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Áp dụng dữ liệu minh họa
           items:
-            - name: Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
-              href: environment/resource-apply-finance-demo-data.md
             - name: Áp dụng dữ liệu cấu hình trong Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Triển khai môi trường
@@ -34,17 +32,21 @@
               href: environment/resource-provision-new-environment.md
             - name: Mô hình bảo mật
               href: environment/security-model.md
-            - name: Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân
+            - name: Đặt cấu hình phần tích hợp Project Operations cho mỗi pháp nhân
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Tính năng mới
       items:
-        - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/không dựa trên hàng trữ kho
+        - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-jan-2021-resource-based.md
+        - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/không dựa trên hàng trữ kho
+        - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-nov-2020-resource-based.md
-    - name: Quy trình bán dự án
+    - name: Quy trình bán hàng trong dự án
       items:
-        - name: Tổng quan về quy trình bán dự án
+        - name: Tổng quan về quy trình bán hàng trong dự án
           href: sales/sales-overview.md
         - name: Thiết lập
           items:
@@ -130,13 +132,13 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Sao chép hợp đồng dự án
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Khoản trả trước và khoản tạm ứng
+            - name: Khoản ứng trước và khoản đặt cọc
               items:
-                - name: Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
+                - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Thiết lập lịch trình khoản tạm ứng – bản đơn giản
+                - name: Thiết lập lịch trình khoản đặt cọc
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tạo khoản trả trước cụ thể trên một hợp đồng – bản đơn giản
+                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Định giá và chi phí
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Hoạch định cấu trúc phân tích công việc
           items:
+            - name: Tạo cấu trúc phân tích công việc
+              href: project-management/create-wbs.md
             - name: Tạo mục chỉ định
               href: project-management/create-assignments.md
         - name: Ước tính dự án
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Duy trì thành viên nhóm
               href: project-management/maintain-team-members.md
+        - name: Khắc phục sự cố khi làm việc trong lưới Tác vụ
+          href: project-management/projectplanningUIFAQ.md
         - name: Cộng tác
           items:
             - name: Cộng tác với Nhóm Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Đánh giá nguồn lực được đề xuất
               href: resource-management/review-proposed-resources.md
+            - name: Chỉnh sửa mục đăng ký
+              href: resource-management/edit-existing-bookings.md
         - name: Đặt trước nguồn lực phi tập trung (kết hợp)
           items:
             - name: Thêm thành viên nhóm từ lưới Thành viên nhóm
@@ -320,12 +328,14 @@
                   href: expense/set-up-workflows.md
                 - name: Quản lý việc ủy nhiệm
                   href: expense/manage-delegation.md
-                - name: Đặt cấu hình các tham số quản lý chi phí
+                - name: Đặt cấu hình các tham số quản lý Chi phí
                   href: expense/configure-expense-management-parameters.md
                 - name: Thiết lập phần tích hợp thẻ tín dụng
                   href: expense/set-up-credit-card-integration.md
                 - name: Thiết lập danh mục chi phí
                   href: expense/set-up-expense-categories.md
+            - name: Làm việc với chi phí cá nhân trên báo cáo chi phí
+              href: expense/personal-expenses-expense-report.md
             - name: Tạo báo cáo chi phí
               items:
                 - name: Phân phối trên báo cáo chi phí
@@ -370,22 +380,28 @@
           items:
             - name: Tạo và xác nhận Nhật ký sửa chữa
               href: actuals/create-confirm-correction-journals.md
-    - name: Lập hóa đơn ước giá
+    - name: Lập hóa đơn
       items:
-        - name: Quản lý tồn đọng lập hóa đơn dự án
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Quản lý trạng thái không được vượt quá và các mục xác thực
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Tạo thủ công hóa đơn ước giá dự án
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Quản lý hóa đơn ước giá dự án
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Xác nhận hóa đơn ước giá dự án
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Tổng quan về quy trình lập hóa đơn
+          href: invoicing/post-project-invoices.md
+        - name: Quản lý đề xuất hóa đơn dự án
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Lập hóa đơn ước giá
+          items:
+            - name: Quản lý tồn đọng lập hóa đơn dự án
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Quản lý trạng thái không được vượt quá và các mục xác thực
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Tạo thủ công hóa đơn ước giá dự án
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Quản lý hóa đơn ước giá dự án
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Lập hóa đơn khoản ứng trước hoặc khoản đặt cọc
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Xác nhận hóa đơn ước giá dự án
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Kế toán dự án
       items:
         - name: Giá trị mặc định cho thông số tài chính
@@ -402,12 +418,12 @@
           items:
             - name: Tổng quan về lập hóa đơn liên công ty
               href: project-accounting/intercompany-invoicing-overview.md
-            - name: Đặt cấu hình hoạt động lập hóa đơn liên công ty
+            - name: Đặt cấu hình quy trình lập hóa đơn liên công ty
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Tạo giao dịch liên công ty
               href: project-accounting/create-intercompany-transactions.md
+            - name: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Ghi nhận doanh thu
       items:
         - name: Tổng quan về ghi nhận doanh thu
@@ -418,17 +434,17 @@
               href: project-accounting/period-types.md
             - name: Thiết lập mẫu chi phí
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Quản lý ước tính doanh thu
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Dự án ước tính doanh thu giá cố định
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Chi phí hoàn thành phương thức
           href: revenue-recognition/cost-complete-methods.md
+        - name: Quản lý ước tính doanh thu
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
   items:
     - name: Bắt đầu
       items:
-        - name: Tổng quan về việc triển khai bản đơn giản
+        - name: Tổng quan về quá trình triển khai bản đơn giản
           href: pro/project-operations-overview-lite.md
         - name: Đăng ký gói xem trước – bản đơn giản
           href: environment/lite-preview-subscription-sign-up.md
@@ -440,13 +456,17 @@
           href: environment/security-model.md
     - name: Tính năng mới
       items:
-        - name: Tính năng mới kể từ tháng 12 năm 2020 – triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
+        - name: Tính năng mới kể từ tháng 2 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Tính năng mới kể từ tháng 1 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Tính năng mới kể từ tháng 12 năm 2020 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Tính năng mới kể từ tháng 11 năm 2020 – triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
+        - name: Tính năng mới kể từ tháng 11 năm 2020 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-nov-2020-lite.md
-    - name: Quy trình bán dự án
+    - name: Quy trình bán hàng trong dự án
       items:
-        - name: Tổng quan về quy trình bán dự án
+        - name: Tổng quan về quy trình bán hàng trong dự án
           href: sales/sales-overview.md
         - name: Thiết lập
           items:
@@ -554,13 +574,13 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Xác nhận hợp đồng dự án
               href: pro/sales/confirm-contract-sales.md
-            - name: Khoản trả trước và khoản tạm ứng
+            - name: Khoản ứng trước và khoản đặt cọc
               items:
-                - name: Hợp đồng dựa trên khoản trả trước và khoản tạm ứng – bản đơn giản
+                - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc – bản đơn giản
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Thiết lập lịch trình khoản tạm ứng – bản đơn giản
+                - name: Thiết lập lịch trình khoản đặt cọc – bản đơn giản
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tạo khoản trả trước cụ thể trên một hợp đồng – bản đơn giản
+                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng – bản đơn giản
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Định giá và chi phí
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Hoạch định cấu trúc phân tích công việc
           items:
+            - name: Tạo cấu trúc phân tích công việc
+              href: project-management/create-wbs.md
             - name: Tạo mục chỉ định
               href: project-management/create-assignments.md
         - name: Ước tính dự án
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Duy trì thành viên nhóm
               href: project-management/maintain-team-members.md
+        - name: Khắc phục sự cố khi làm việc trong lưới Tác vụ
+          href: project-management/projectplanningUIFAQ.md
         - name: Cộng tác
           items:
             - name: Cộng tác với Nhóm Office
               href: project-management/collaboration-groups.md
+        - name: Ghi chú dành cho nhà phát triển
+          items:
+            - name: Phát triển các mẫu dự án với Sao chép dự án
+              href: project-management/dev-copy-project.md
     - name: Quản lý nguồn lực
       items:
         - name: Khái niệm chính
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Đánh giá nguồn lực được đề xuất
               href: resource-management/review-proposed-resources.md
+            - name: Chỉnh sửa mục đăng ký
+              href: resource-management/edit-existing-bookings.md
         - name: Đặt trước nguồn lực phi tập trung (kết hợp)
           items:
             - name: Thêm thành viên nhóm từ lưới Thành viên nhóm
@@ -760,7 +790,7 @@
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Quản lý hóa đơn ước giá dự án
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-        - name: Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
+        - name: Lập hóa đơn khoản đặt cọc hoặc khoản ứng trước
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Xác nhận hóa đơn ước giá dự án
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
@@ -768,13 +798,17 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
+- name: Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
   items:
     - name: Tính năng mới
       items:
-        - name: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
+        - name: Tính năng mới kể từ tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Tính năng mới kể từ tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Tổng quan về việc triển khai Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
+    - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Tổng quan về quản lý dự án và kế toán
       href: prod-pma/overview-project-management-accounting.md
@@ -906,39 +940,49 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 26, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 28.5, Bản vá lỗi khẩn cấp, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 27.5, Bản vá lỗi khẩn cấp, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 27, V3'
+          href: psa/whats-new-ur-27.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 26, V3'
           href: psa/whats-new-ur-26.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 25, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 25, V3'
           href: psa/whats-new-ur-25.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 24, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 24, V3'
           href: psa/whats-new-ur-24.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 23, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 23, V3'
           href: psa/whats-new-ur-23.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 22, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 22, V3'
           href: psa/whats-new-ur-21.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 20, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 20, V3'
           href: psa/whats-new-ur-20.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 19, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 19, V3'
           href: psa/whats-new-ur-19.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 18, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 18, V3'
           href: psa/whats-new-ur-18.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 17.5, Bản vá lỗi nóng, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 17.5, Bản vá lỗi khẩn cấp, V3'
           href: psa/whats-new-ur-17-5.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 17, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 17, V3'
           href: psa/whats-new-ur-17.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 16, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 16, V3'
           href: psa/whats-new-ur-16.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 15, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 15, V3'
           href: psa/whats-new-ur-15.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 14, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 14, V3'
           href: psa/whats-new-ur-14.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 13, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 13, V3'
           href: psa/whats-new-ur-13.md
-        - name: 'Tính năng mới hoặc nội dung đã thay đổi trong Bản phát hành cập nhật 12, V3'
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 12, V3'
           href: psa/whats-new-ur-12.md
-        - name: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản V3.x đợt 1 năm 2020
+        - name: Tính năng mới hoặc điểm thay đổi trong Project Service Automation V3.x đợt 1 năm 2021
+          href: psa/whats-new-2021-wave1.md
+        - name: Tính năng mới hoặc điểm thay đổi trong Project Service Automation V3.x đợt 1 năm 2020
           href: psa/whats-new-v3-2020-wave1.md
-        - name: Tính năng mới hoặc đã thay đổi trong Project Service Automation V3
+        - name: Tính năng mới hoặc điểm thay đổi trong Project Service Automation V3
           href: psa/whats-new-changed-v3.md
     - name: Hoạch định việc triển khai của bạn (phiên bản ứng dụng 3.x)
       items:
@@ -992,9 +1036,11 @@
               href: psa/project-stages.md
             - name: Thiết đặt dự án
               href: psa/project-settings.md
-        - name: Thông số giá và chi phí
+            - name: Hoạch định công việc trong Microsoft Project với phần bổ trợ Project Service
+              href: psa/add-in-plan-work-projects.md
+        - name: Thông số định giá và chi phí
           items:
-            - name: Trang chủ về thông số giá và chi phí
+            - name: Trang chủ về thông số định giá và chi phí
               href: psa/pricing-costing-dimensions.md
             - name: Tạo giải pháp cho thông số định giá tùy chỉnh
               href: psa/custompricingdimensionssolution.md
@@ -1054,7 +1100,7 @@
               href: psa/review-invoicing-backlog.md
             - name: Lập hóa đơn
               href: psa/invoicing.md
-            - name: Tình huống nhiều loại tiền tệ
+            - name: Kịch bản nhiều loại tiền tệ
               href: psa/advanced-currency.md
         - name: Cung cấp nguồn lực cho dự án
           items:
