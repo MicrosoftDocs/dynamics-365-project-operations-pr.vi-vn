@@ -3,6 +3,7 @@ title: Xác định ước tính doanh thu và chi phí dự án
 description: Làm cách nào để xác định ước tính doanh thu và chi phí dự án trong Project Service
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133034"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148849"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Xác định ước tính doanh thu và chi phí dự án 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,7 +49,7 @@ Nếu sự kết hợp giữa vai trò và đơn vị tổ chức không dẫn �
  Tất cả số tiền chi phí trên dòng ước tính chi phí dự án sẽ theo đơn vị tiền tệ của đơn vị tổ chức sở hữu.  
   
 ## <a name="sales-price-defaulting"></a>Đặt mặc định giá bán  
-Biểu giá bán sẽ dựa vào thực thể bán mà dự án được gán đến. Biểu giá bán được liên kết với báo giá hoặc hợp đồng sẽ xác định đơn giá bán. Nếu báo giá hoặc hợp đồng có biểu giá tùy chỉnh, đó sẽ là biểu giá bán mặc định cho các ước tính dự án. Nếu không có liên kết với các thực thể bán thì biểu giá bán mặc định được định cấu hình trong cài đặt tham số sẽ là biểu giá bán mặc định cho dự án. Mỗi dòng ước tính được liên kết với một đơn vị tổ chức nguồn tài nguyên để chỉ ra đơn vị tổ chức nơi sẽ đặt nguồn tài nguyên để hoàn tất nhiệm vụ. Giá bán cho các vai trò được liên kết được xác định bằng cách tìm kiếm các cách kết hợp giữa vai trò, đơn vị và thiết bị tổ chức nguồn tài nguyên trong biểu giá bán để nhận đúng giá bán cho ngày có hiệu lực trên dòng ước tính.  
+Biểu giá bán sẽ dựa vào thực thể bán mà dự án được gán đến. Biểu giá bán được liên kết với báo giá hoặc hợp đồng sẽ xác định đơn giá bán. Nếu báo giá hoặc hợp đồng có biểu giá tùy chỉnh, đấy sẽ là biểu giá bán mặc định cho các ước tính dự án. Nếu không có liên kết với các thực thể bán thì biểu giá bán mặc định được định cấu hình trong cài đặt tham số sẽ là biểu giá bán mặc định cho dự án. Mỗi dòng ước tính được liên kết với một đơn vị tổ chức nguồn tài nguyên để chỉ ra đơn vị tổ chức nơi sẽ đặt nguồn tài nguyên để hoàn tất nhiệm vụ. Giá bán cho các vai trò được liên kết được xác định bằng cách tìm kiếm các cách kết hợp giữa vai trò, đơn vị và thiết bị tổ chức nguồn tài nguyên trong biểu giá bán để nhận đúng giá bán cho ngày có hiệu lực trên dòng ước tính.  
   
 Nếu sự kết hợp giữa vai trò, đơn vị và đơn vị tổ chức nguồn tài nguyên không đưa ra một mức giá bán từ biểu giá bán, hệ thống sẽ bỏ qua đơn vị và tìm kiếm sự kết hợp giữa vai trò và đơn vị tổ chức nguồn tài nguyên. Nếu thấy giá bán, giá này sẽ được chuyển đổi sang đơn vị bạn đã chọn trên dòng ước tính bán hàng.  
   
@@ -58,7 +61,7 @@ Dạng xem ước tính có dạng xem lưới hiển thị lưới đồng đ�
 Trong dạng xem theo giai đoạn thời gian cho ước tính dự án, dữ liệu ước tính từ dạng xem lưới được xoay theo mặc định theo vai trò và hiển thị bảng tính của các dữ liệu ước tính trên dòng thời gian trong tỷ lệ thời gian đã chọn.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Phân bổ ước tính nỗ lực dựa trên chế độ nhiệm vụ  
-Trong dạng xem theo giai đoạn thời gian, toàn bộ nỗ lực được ước tính cho nhiệm vụ được phân phối bằng cách phân bổ số giờ cố gắng cụ thể cho mỗi khoảng thời gian đơn vị của tỷ lệ thời gian đã chọn. Trong Project Service, chế độ nhiệm vụ xác định cách thức phân bổ nỗ lực trên khoảng thời gian của nhiệm vụ. Hai loại phân bổ là phân bổ đều và phân bổ dựa trên giờ làm việc  
+Trong dạng xem theo giai đoạn thời gian, toàn bộ nỗ lực được ước tính cho nhiệm vụ được phân phối bằng cách phân bổ số giờ cố gắng cụ thể cho mỗi khoảng thời gian đơn vị của tỷ lệ thời gian đã chọn. Trong Project Service, chế độ nhiệm vụ xác định cách thức phân bổ nỗ lực trên khoảng thời gian của nhiệm vụ. Hai loại phân bổ là phân bổ đều và phân bổ dựa trên giờ làm việc. 
   
 ## <a name="work-hours-based-allocation"></a>Phân bổ dựa trên giờ làm việc  
 Chế độ Tự động lên lịch nhiệm vụ với một nhiệm vi chi phối số lượng tài nguyên được dự tính trên nhiệm vụ, chúng được ước tính để được tận dụng cho toàn bộ số giờ làm việc mỗi ngày. Chế độ này sẽ áp dụng khi phân bổ nỗ lực bằng cách phân chia trên khoảng thời gian của nhiệm vụ trong dạng xem dựa trên giai đoạn thời gian. Ví dụ: trên một tỷ lệ thời gian 'Ngày', với một nhiệm vụ được ước tính cần hoàn tất bởi một tài nguyên, nhân công được phân bổ mỗi ngày sẽ không vượt quá số giờ làm việc mỗi ngày được xác định trong lịch của dự án. Vì vậy, việc phân bổ nỗ lực luôn đảm bảo rằng các nguồn lực được ước tính để tận dụng cho cả ngày.  
@@ -69,12 +72,12 @@ Chế độ nhiệm vụ được lên lịch theo cách thủ công không tuâ
 Bằng cách này, chế độ nhiệm vụ được xác định cho nhiệm vụ sẽ xác định cách phân phối hoặc phân bổ nỗ lực trên mỗi khoảng thời gian đơn vị trong ước tính theo giai đoạn thời gian.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Tùy chọn theo giai đoạn thời gian và phân nhóm  
-Dạng xem này giúp bạn hiểu về cách phân phối nỗ lực, chi phí và ước tính bán hàn trên cơ sở mỗi ngày, mỗi tuần, mỗi tháng hoặc mỗi năm. Tùy chọn Nhóm theo cho phép thay đổi dữ liệu ước tính dựa trên hai thứ nguyên khác: danh mục và tài nguyên. Trên cả dạng xem lưới và dạng xem theo giai đoạn thời gian, bạn đều có thể chọn các trường cần được hiển thị. Tổng số cho mỗi khối thời gian được hiển thị ở dưới cùng cho biết tổng số nỗ lực, chi phí được ước tính. và doanh số cho ngày, tuần, tháng hoặc năm.  
+Dạng xem này giúp bạn hiểu về cách phân phối nỗ lực, chi phí và ước tính bán hàn trên cơ sở mỗi ngày, mỗi tuần, mỗi tháng hoặc mỗi năm. Tùy chọn Nhóm theo cho phép thay đổi dữ liệu ước tính dựa trên hai thứ nguyên khác: danh mục và tài nguyên. Trên cả dạng xem lưới và dạng xem theo giai đoạn thời gian, bạn đều có thể chọn các trường cần được hiển thị. Tổng số cho mỗi khối thời gian được hiển thị ở dưới cùng cho biết tổng số nhân công, chi phí và doanh số ước tính cho ngày, tuần, tháng hoặc năm.  
   
-Việc đặt mặc định giá bán và giá vốn sẽ được thực hiện vào ngày có hiệu lực—khi tỷ lệ cho các vai trò thay đổi, dạng xem theo giai đoạn thời gian sẽ rõ ràng hơn khi xem dữ liệu ước tính được thay đổi theo ‘Tài nguyên’ và theo giai đoạn thời gian theo tuần.  
+Giá vốn và giá bán hàng mặc định có hiệu lực theo ngày. Khi tỷ lệ cho các vai trò thay đổi, dạng xem theo giai đoạn thời gian sẽ rõ ràng hơn khi xem dữ liệu ước tính được thay đổi theo ‘Tài nguyên’ và theo giai đoạn thời gian theo tuần.  
   
 ## <a name="expense-estimates"></a>Ước tính chi phí  
-Bất kỳ chi phí nào phát sinh trong dự án mà không trực tiếp liên quan đến nhân công được sử dụng có thể được ghi lại trong dự toán của dự án ở dạng xem lưới. Sử dụng tùy chọn **Thêm ước tính chi phí** trong dạng xem lưới, bạn có thể hoàn thành tác vụ này. Dự toán chi phí có thể được ghi lại cho một nhiệm vụ cụ thể hoặc toàn bộ dự án; bạn có thể chọn danh mục chi phí trên những dòng này và chọn ngày dự kiến phát sinh chi phí. Nếu biểu giá bán và giá vốn được liên kết có giá mặc định hoặc tỷ lệ đánh dấu được xác định cho danh mục chi phí, giá đó sẽ được đặt mặc định trên dòng ước tính khi liên kết.  
+Bất kỳ chi phí nào phát sinh trong dự án mà không trực tiếp liên quan đến lao động được sử dụng có thể được ghi lại trong ước tính dự án ở dạng xem lưới. Sử dụng tùy chọn **Thêm ước tính chi phí** trong dạng xem lưới, bạn có thể hoàn thành tác vụ này. Có thể ghi lại các ước tính chi phí cho một nhiệm vụ cụ thể hoặc cho toàn bộ dự án. Bạn có thể chọn loại chi phí trên những dòng này và chọn ngày dự kiến phát sinh chi phí dự kiến. Nếu biểu giá bán và giá vốn được liên kết có giá mặc định hoặc tỷ lệ đánh dấu được xác định cho danh mục chi phí, giá đó sẽ được đặt mặc định trên dòng ước tính khi liên kết.  
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)

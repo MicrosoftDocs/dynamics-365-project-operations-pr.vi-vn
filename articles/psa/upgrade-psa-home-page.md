@@ -2,6 +2,7 @@
 title: Trang chủ nâng cấp
 description: Chủ đề này cho biết nơi tìm thông tin quan trọng về các tính năng mới và đã thay đổi trong Dynamics 365 Project Service Automation và quá trình nâng cấp lên phiên bản mới nhất.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121784"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150109"
 ---
 # <a name="upgrade-home-page"></a>Trang chủ nâng cấp
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Kể từ ngày 17/5/2019, khi Project Service Automation được chọn trong 
 
 ### <a name="existing-instances"></a>Các phiên bản hiện có
 
-Trước đây, khách hàng có PSA phiên bản 2.x và cần nâng cấp lên phiên bản 3.x, là phiên bản PSA dựa trên Giao diện khách hàng hợp nhất (UCI), phải liên hệ với Bộ phận Hỗ trợ của Microsoft và cung cấp thông tin chi tiết về phiên bản của họ để đội ngũ hỗ trợ có thể cho phép nâng cấp lên phiên bản 3.x. Kể từ ngày 1 tháng 3 năm 2020, khách hàng có phiên bản PSA 2.x và cần nâng cấp lên phiên bản 3.x, sẽ có thể nâng cấp phiên bản của họ ngay từ Cổng thông tin quản trị mà không phải liên hệ với Bộ phận Hỗ trợ của Microsoft.  
+Trước đây, nếu khách hàng đã có bản thể hiện PSA phiên bản 2.x và muốn nâng cấp lên phiên bản 3.x (tức phiên bản dựa trên giao diện máy khách hợp nhất (UCI) của PSA), thì họ phải liên hệ với bộ phận Hỗ trợ của Microsoft và cung cấp thông tin chi tiết về bản thể hiện của họ để được hỗ trợ nâng cấp phiên bản lên 3.x. Kể từ ngày 1 tháng 3 năm 2020, nếu khách hàng có bản thể hiện PSA phiên bản 2.x và muốn nâng cấp lên phiên bản3.x, họ có thể nâng cấp trực tiếp từ cổng Quản trị viên mà không cần liên hệ với bộ phận Hỗ trợ của Microsoft.  
 
 > [!NOTE]
 > PSA phiên bản 3.x bao gồm những thay đổi đáng kể. Phiên bản này được xây dựng trên khung Giao diện hợp nhất để giúp cung cấp trải nghiệm người dùng được cải thiện. Ứng dụng cải tiến cung cấp giao diện người dùng (UI) nhất quán, thống nhất và tuân theo các nguyên tắc thiết kế phản hồi để tối ưu hóa trải nghiệm xem trên mọi kích thước màn hình hoặc thiết bị. Ứng dụng còn có các thay đổi khác. Một số khía cạnh đã thay đổi, bao gồm giá, đăng ký và chỉ định nguồn lực, thời gian, chi phí và quy trình phê duyệt.
@@ -58,7 +61,7 @@ Sau khi bạn đã xem lại các chủ đề được đề cập trước đâ
 
 Kể từ ngày 17/5/2019, tất cả các phiên bản mới sẽ có UCI là ứng dụng mặc định. Để phù hợp với thay đổi này, PSA phiên bản 3.x và Field Service phiên bản 8.x sẽ được cung cấp theo mặc định, vì những phiên bản này được thiết kế để hoạt động với ứng dụng UCI.
 
-Bắt đầu từ ngày 1 tháng 3 năm 2020, khách hàng của Dynamics PSA sẽ không thể tạo môi trường mới với các phiên bản PSA cũ nữa, ví dụ: PSA phiên bản 2.x trở xuống. Mọi môi trường mới sẽ chỉ nhận phiên bản PSA 3.x.
+Kể từ ngày 1 tháng 3 năm 2020, khách hàng Dynamics PSA sẽ không thể tạo môi trường mới bằng các phiên bản PSA cũ nữa, chẳng hạn như phiên bản PSA 2.x hoặc thấp hơn. Mọi môi trường mới sẽ chỉ nhận phiên bản PSA 3.x.
 
 > [!NOTE]
 > Để có trải nghiệm tốt nhất khi sử dụng các phiên bản cũ của ứng dụng Field Service và PSA, hãy chuyển đến trang **Cài đặt hệ thống** và đối với trường **Chỉ sử dụng Giao diện hợp nhất mới (đề xuất)**, hãy chọn **Không** vì các phiên bản này không được thiết kế để được tải chính xác trong UCI. Sau khi đã tắt UCI, bạn có thể mở và chạy các phiên bản Field Service và PSA này bằng cách sử dụng ứng dụng web cũ. 

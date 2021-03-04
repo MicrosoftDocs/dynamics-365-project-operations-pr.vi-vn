@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68eb9d4334bed7562ffe0de7951a2d364bbf9a5d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087301"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148714"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Trang chủ phát triển (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Dynamics 365 Project Service Automation 3.x cung cấp các tính năng mới, thực hiện các khả năng nền tảng mới và cải tiến các tính năng hiện có trong các lĩnh vực khác nhau. Các chủ đề sau cung cấp thêm thông tin về các thay đổi được thực hiện trong phiên bản mới nhất của PSA:
 

@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087214"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148489"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Thêm các trường tùy chỉnh vào thực thể thiết lập giá và thực thể giao dịch 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Chủ đề này giả định rằng bạn đã hoàn tất các quy trình trong chủ đề [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại chủ đề này. 
 
 Trong chủ đề này, các quy trình sẽ hiển thị cho bạn cách thêm tham chiếu trường tùy chỉnh bắt buộc vào các thực thể và vào các thành phần giao diện người dùng (UI) như biểu mẫu và dạng xem.
@@ -35,11 +38,11 @@ Sau khi các trường và thực thể tùy chỉnh được tạo, bước ti�
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Kích thước giá tùy chỉnh dựa trên bộ tùy chọn
 Khi kích thước giá tùy chỉnh là dựa trên bộ tùy chọn, hãy thêm nó như một trường vào các thực thể Project Service chính. Trong quy trình sau đây, **Vị trí làm việc của nhân lực** và **Số giờ làm việc của nhân lực** được dùng làm kích thước giá dựa trên bộ tùy chọn. Trước tiên phải thêm các thành phần này dưới dạng trường vào các thực thể giá, **Giá theo vai trò** và **Tăng giá theo vai trò**.
 
-1. Trong Project Service Automation (PSA), nhấp vào **Cài đặt** > **Giải pháp** , sau đó nhấp đúp vào **\<your organization name> thông số định giá**. 
+1. Trong Project Service Automation (PSA), nhấp vào **Cài đặt** > **Giải pháp**, sau đó nhấp đúp vào **\<your organization name> thông số định giá**. 
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Giá theo vai trò**.
 3. Mở rộng thực thể **Giá theo vai trò** và chọn **Trường**.
 4. Nhấp vào **Mới** để tạo một trường mới tên là **Vị trí làm việc của nguồn lực** và chọn **Bộ tùy chọn** là loại trường. 
-5. Chọn **Sử dụng bộ tùy chọn hiện có** , chọn bộ tùy chọn **Vị trí làm việc của nhân lực** , sau đó nhấp vào **Lưu**.
+5. Chọn **Sử dụng bộ tùy chọn hiện có**, chọn bộ tùy chọn **Vị trí làm việc của nhân lực**, sau đó nhấp vào **Lưu**.
 6. Lặp lại các bước 1-5 để thêm trường này vào thực thể **Tăng giá theo vai trò**. 
 7. Lặp lại bước 1-5 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**.
 
@@ -48,27 +51,27 @@ Khi kích thước giá tùy chỉnh là dựa trên bộ tùy chọn, hãy thê
 
 > ![Thêm vị trí làm việc của nguồn lực vào giá theo vai trò](media/RWL-Field.png)
 
-Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính của nỗ lực công việc cần thiết để hoàn tất công việc **Tại địa phương** và **Tại chỗ** , trong **Giờ làm việc** và **Giờ làm thêm** được dùng để ước tính giá trị của Báo giá/Dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** sẽ được thêm vào thực thể ước tính, **Chi tiết về dòng báo giá** , **Chi tiết về dòng hợp đồng** , **Nhiệm vụ dự án** , **Thành viên nhóm dự án** và **Dòng ước tính**.
+Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính của nỗ lực công việc cần thiết để hoàn tất công việc **Tại địa phương** và **Tại chỗ**, trong **Giờ làm việc** và **Giờ làm thêm** được dùng để ước tính giá trị của Báo giá/Dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** sẽ được thêm vào thực thể ước tính, **Chi tiết về dòng báo giá**, **Chi tiết về dòng hợp đồng**, **Nhiệm vụ dự án**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 
-1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp** , rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
+1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Chi tiết dòng báo giá**.
-3. Mở rộng thực thể **Chi tiết dòng báo giá** , chọn **Trường**.
+3. Mở rộng thực thể **Chi tiết dòng báo giá**, chọn **Trường**.
 4. Nhấp vào **Mới** để tạo một trường mới tên là **Vị trí làm việc của nguồn lực** và chọn loại trường là **Bộ tùy chọn**. 
-5. Chọn **Sử dụng bộ tùy chọn hiện có** và **Vị trí làm việc của nhân lực** , sau đó nhấp vào **Lưu**.
-6. Lặp lại các bước 1-5 để thêm trường này vào các thực thể **Chi tiết dòng hợp đồng dự án** , **Nhiệm vụ dự án** , **Thành viên nhóm dự án** và **Dòng ước tính**.
+5. Chọn **Sử dụng bộ tùy chọn hiện có** và **Vị trí làm việc của nhân lực**, sau đó nhấp vào **Lưu**.
+6. Lặp lại các bước 1-5 để thêm trường này vào các thực thể **Chi tiết dòng hợp đồng dự án**, **Nhiệm vụ dự án**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
 
 > ![Thêm vị trí làm việc của nguồn lực vào dòng ước tính](media/RWL-Default-Value.png)
 
 
-Đối với giao hàng và lập hóa đơn, công việc đã hoàn thành phải có giá chính xác để chọn liệu công việc đó được thực hiện **Tại địa phương** hay **Tại chỗ** và liệu công việc được thực hiện trong **Giờ làm việc** hay **Ngoài giờ làm việc** trên Thực tế dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** phải được thêm vào **Mục nhập thời gian** , **Thực tế** , **Chi tiết dòng hóa đơn** và **Dòng nhật ký**.
+Đối với giao hàng và lập hóa đơn, công việc đã hoàn thành phải có giá chính xác để chọn liệu công việc đó được thực hiện **Tại địa phương** hay **Tại chỗ** và liệu công việc được thực hiện trong **Giờ làm việc** hay **Ngoài giờ làm việc** trên Thực tế dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** phải được thêm vào **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký**.
 
-1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp** , rồi nhấp đúp vào **\<your organization name> thông số định giá**.
+1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> thông số định giá**.
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Mục nhập thời gian**.
-3. Mở rộng thực thể **Chi tiết dòng báo giá** , sau đó chọn **Trường**.
+3. Mở rộng thực thể **Chi tiết dòng báo giá**, sau đó chọn **Trường**.
 4. Nhấp vào **Mới** để tạo một trường mới tên là **Vị trí làm việc của nguồn lực** và chọn **Bộ tùy chọn** là loại trường. 
-5. Chọn **Sử dụng bộ tùy chọn hiện có** , chọn bộ tùy chọn **Vị trí làm việc của nhân lực** , sau đó nhấp vào **Lưu**.
-6. Lặp lại bước 1-5 để thêm trường này vào các thực thể **Thực tế** , **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
+5. Chọn **Sử dụng bộ tùy chọn hiện có**, chọn bộ tùy chọn **Vị trí làm việc của nhân lực**, sau đó nhấp vào **Lưu**.
+6. Lặp lại bước 1-5 để thêm trường này vào các thực thể **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
 
 > ![Thêm vị trí làm việc của nguồn lực vào mục nhập thời gian](media/RWL-time-entry.png)
@@ -79,7 +82,7 @@ Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiế
 
 Khi kích thước giá tùy chỉnh là một thực thể, bạn sẽ thêm mối quan hệ 1:N giữa thực thể kích thước và thực thể Project Service chính. Sử dụng ví dụ Chức vụ tiêu chuẩn ở trên, có thể kỳ vọng rằng mỗi nhân viên sẽ được chỉ định một chức vụ tiêu chuẩn. Kết quả là bạn sẽ cần một mối quan hệ 1: N từ chức vụ tiêu chuẩn để có thể đặt lịch tài nguyên hoặc mối quan hệ N:1 nếu nó được tạo từ tài nguyên có thể đặt lịch thành chức vụ tiêu chuẩn.
 
-1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp** , rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
+1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Chức vụ tiêu chuẩn**.
 3. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
 4. Nhấp vào **Mới** để tạo mối quan hệ 1:N mới gọi là **Chức vụ tiêu chuẩn cho nguồn lực có thể đặt lịch**. Nhập các thông tin cần thiết, sau đó nhấp vào **Lưu**.
@@ -91,7 +94,7 @@ Bạn cũng cần thêm Chức vụ tiêu chuẩn vào các thực thể Giá Pr
 1. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Chức vụ tiêu chuẩn**.
 2. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
 3. Nhấp vào **Mới** để tạo mối quan hệ 1:N mới gọi là **Chức vụ tiêu chuẩn cho Giá theo vai trò**. Nhập các thông tin cần thiết, sau đó nhấp vào **Lưu**.
-4. Lặp lại các bước 1-4 để tạo mối quan hệ 1:N giữa các thực thể **Chức vụ tiêu chuẩn** và **Tăng giá theo vai trò** ,
+4. Lặp lại các bước 1-4 để tạo mối quan hệ 1:N giữa các thực thể **Chức vụ tiêu chuẩn** và **Tăng giá theo vai trò**,
 
 Trong các giai đoạn bán hàng và dự toán cho dự án, để định giá cho Dự án/Báo giá, cần có ước tính nỗ lực làm việc cho mỗi chức vụ tiêu chuẩn. Điều này có nghĩa là cần có mối quan hệ 1: N từ chức vụ chuẩn cho mỗi thực thể ước tính trong Project Service: 
 
@@ -101,13 +104,13 @@ Trong các giai đoạn bán hàng và dự toán cho dự án, để định gi
 - **Thành viên Nhóm Dự án**
 - **Mô tả Ước tính**
 
-5. Lặp lại các bước 1-5 để tạo mối quan hệ 1:N từ **Chức vụ tiêu chuẩn** thành **Chi tiết dòng báo giá** , **Chi tiết dòng hợp đồng dự án** , **Nhiệm vụ dự án** , **Thành viên nhóm hợp đồng** và **Dòng ước tính**.
+5. Lặp lại các bước 1-5 để tạo mối quan hệ 1:N từ **Chức vụ tiêu chuẩn** thành **Chi tiết dòng báo giá**, **Chi tiết dòng hợp đồng dự án**, **Nhiệm vụ dự án**, **Thành viên nhóm hợp đồng** và **Dòng ước tính**.
 
 > ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho dòng ước tính](media/ST-Estimate-Line.png)
 
-Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thành bởi mỗi chức vụ tiêu chuẩn phải được định giá chính xác trên Thực tế dự án. Điều này có nghĩa là cần có mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian** , **Thực tế** , **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
+Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thành bởi mỗi chức vụ tiêu chuẩn phải được định giá chính xác trên Thực tế dự án. Điều này có nghĩa là cần có mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 
-6. Lặp lại các bước 1-6 để tạo mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian** , **Thực tế** , **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
+6. Lặp lại các bước 1-6 để tạo mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 
 > ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho mục nhập thời gian](media/ST-Mapping.png)
 
@@ -116,7 +119,7 @@ Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thàn
 
 1. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể > Chức vụ tiêu chuẩn**.
 2. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
-3. Nhấp đúp vào **Tài nguyên có thể đặt lịch cho mục nhập thời gian**. Trên trang **Mối quan hệ** , nhấp vào **Sử dụng ánh xạ trường**. 
+3. Nhấp đúp vào **Tài nguyên có thể đặt lịch cho mục nhập thời gian**. Trên trang **Mối quan hệ**, nhấp vào **Sử dụng ánh xạ trường**. 
 4. Nhấp vào **Mới** để tạo ánh xạ trường mới giữa trường **Chức vụ tiêu chuẩn** trên thực thể **Nguồn lực có thể đặt lịch** thành trường tham chiếu **Chức vụ tiêu chuẩn** trên thực thể **Mục nhập thời gian**. 
 
 > ![Thiết lập ánh xạ trường để cho phép mặc định chức vụ tiêu chuẩn từ nguồn lực có thể đặt lịch vào mục nhập thời gian](media/ST-Mapping2.png)
@@ -129,7 +132,7 @@ Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiế
 Sau khi bạn đã thực hiện tất cả các thay đổi cần thiết với giản đồ, bước tiếp theo là làm cho các trường hiển thị trong giao diện người dùng bằng cách thêm các trường vào biểu mẫu và dạng xem.
 
 1. Mở biểu mẫu hoặc dạng xem. Trên ngăn điều hướng bên phải, chọn trường và kéo nó vào bảng tùy biến biểu mẫu. 
-2. Nếu bạn đang chỉnh sửa dạng xem, hãy sử dụng ngăn điều hướng bên phải, nhấp vào **Thêm trường** và trong hộp thoại **Danh sách trường** , chọn các trường mà bạn cần rồi nhấp vào **OK**.
+2. Nếu bạn đang chỉnh sửa dạng xem, hãy sử dụng ngăn điều hướng bên phải, nhấp vào **Thêm trường** và trong hộp thoại **Danh sách trường**, chọn các trường mà bạn cần rồi nhấp vào **OK**.
 
 Bảng sau đây cung cấp một danh sách toàn diện các biểu mẫu và dạng xem sẵn dùng, theo thực thể sẽ cần phải được cập nhật với các trường mới. Nếu bạn có bất kỳ dạng xem bổ sung hoặc biểu mẫu nào trong tùy chỉnh của mình trên các thực thể này, hãy thêm các trường mới vào các mục đó.
 

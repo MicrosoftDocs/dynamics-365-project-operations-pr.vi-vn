@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087119"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148579"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Các tài nguyên web không dùng nữa trong Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Do giao diện ứng dụng mới và các thay đổi khác đã được thực hiện đối với giải pháp  Dynamics 365 Project Service Automation, một số nguồn lực web cho giải pháp hiện không dùng được nữa. Do đó, chúng đã lỗi thời (không dùng được nữa) kể từ phiên bản 3.0.
 

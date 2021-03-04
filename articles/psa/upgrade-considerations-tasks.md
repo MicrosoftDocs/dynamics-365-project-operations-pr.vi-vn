@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121829"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149569"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nâng cấp thông tin cân nhắc cho cấu trúc phân tích công việc
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Chủ đề này cung cấp thông tin về cách nâng cấp cấu trúc phân tích công việc từ Project Service Automation 2.x lên 3.x. Chủ đề này xác định trạng thái ổn định của một dự án trong Project Service Automation (PSA) được yêu cầu để nâng cấp thành công. Cũng có thông tin về các điều kiện chặn phổ biến sẽ khiến không nâng cấp được. Để biết thêm thông tin về cách xác định nhiệm vụ dự án và các chức năng trong lịch trình dự án, hãy xem [Lịch biểu dự án](project-creating.md).
 
 ## <a name="key-entities"></a>Các thực thể chính
