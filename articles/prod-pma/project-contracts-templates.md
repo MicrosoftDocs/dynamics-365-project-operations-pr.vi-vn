@@ -1,9 +1,9 @@
 ---
-title: Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance and Operations
+title: Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance
 description: Chủ đề này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các hợp đồng dự án và dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642659"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764845"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ h�
 Các mẫu sau và các nhiệm vụ cơ bản được sử dụng để đồng bộ hóa giá trị thực tế trong hợp đồng dự án và dự án từ Project Service Automation sang Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Tích hợp với Dynamics 365 Project Service Automation v2.x
-- **Tên mẫu trong Tích hợp dữ liệu:** Dự án và hợp đồng (PSA sang Fin và Ops)
+- **Tên của mẫu trong Tích hợp dữ liệu:** Dự án và hợp đồng (Project Service Automation sang Finance)
 - **Tên của nhiệm vụ trong dự án:**
 
-    - Hợp đồng dự án PSA sang Fin và Ops
-    - Dự án PSA sang Fin và Ops
-    - Mô tả hợp đồng dự án PSA sang Fin và Ops
-    - Các mốc thời gian mô tả hợp đồng dự án PSA sang Fin và Ops
+    - Hợp đồng dự án Project Service Automation sang Finance
+    - Dự án Project Service Automation sang Finance
+    - Mô tả hợp đồng dự án Project Service Automation sang Finance
+    - Các mốc thời gian mô tả hợp đồng dự án Project Service Automation sang Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Tích hợp với Dynamics 365 Project Service Automation v3.x
 Có một sự thay đổi về lược đồ trong Project Service Automation ảnh hưởng đến mẫu mốc thời gian mô tả hợp đồng dự án và cần sử dụng phiên bản v2 của mẫu để tích hợp Project Service Automation v3.x với Dynamics 365.
 
-- **Tên mẫu trong Tích hợp dữ liệu:** Dự án và hợp đồng (PSA 3.x sang Fin và Ops) - v2
+- **Tên của mẫu trong Tích hợp dữ liệu:** Dự án và Hợp đồng (Project Service Automation 3.x sang Finance) - v2
 - **Tên của nhiệm vụ trong dự án:**
 
-    - Hợp đồng dự án PSA sang Fin và Ops
-    - Dự án PSA sang Fin và Ops
-    - Mô tả hợp đồng dự án PSA sang Fin và Ops
-    - Các mốc thời gian mô tả hợp đồng dự án PSA sang Fin và Ops
+    - Hợp đồng dự án Project Service Automation sang Finance
+    - Dự án Project Service Automation sang Finance
+    - Mô tả hợp đồng dự án Project Service Automation sang Finance
+    - Các mốc thời gian mô tả hợp đồng dự án Project Service Automation sang Finance
 
 Trước khi quá trình đồng bộ hóa hợp đồng dự án và dự án có thể xảy ra, bạn phải đồng bộ hóa các tài khoản.
 
@@ -87,7 +87,8 @@ Trước khi quá trình đồng bộ hóa hợp đồng dự án và dự án c
 
 Hợp đồng dự án được quản lý trong Project Service Automation và được đồng bộ hóa với Finance dưới dạng hợp đồng dự án. Là một phần của mẫu tích hợp, bạn có thể thiết lập nguồn tích hợp trong Finance cho hợp đồng dự án.
 
-Dự án Thời gian và vật liệu và dự án Giá cố định được quản lý trong Project Service Automation và được đồng bộ hóa với Finance dưới dạng dự án. Là một phần của tích hợp mẫu, bạn có thể thiết lập nguồn tích hợp trong Finance cho dự án.
+Dự án thời gian và vật liệu và dự án giá cố định được quản lý trong Project Service Automation và được đồng bộ hóa sang Finance dưới dạng dự án. Là một phần của tích hợp mẫu, bạn có thể thiết lập nguồn tích hợp trong Finance cho dự án. Hiện tại, chỉ hỗ trợ dự án thời gian và vật liệu và dự án giá cố định.
+
 
 Mô tả hợp đồng dự án được quản lý trong Project Service Automation và được đồng bộ hóa với Finance dưới dạng quy tắc thanh toán hợp đồng dự án. Nếu phương thức thanh toán khác với loại dự án mặc định, việc đồng bộ hóa sẽ cập nhật loại dự án cho dự án mô tả hợp đồng và nhóm dự án.
 
@@ -118,11 +119,11 @@ Khi áp dụng giải pháp tích hợp Project Service Automation với Finance
     | 1     | Tổng 30        |
     | 2     | 2% 10, Tổng 30 |
     | 3     | Tổng 45        |
-    | 4     | Tổng 60        |
+    | Tệp 4     | Tổng 60        |
 
 ## <a name="power-query"></a>Power Query
 
-Bạn phải sử dụng Microsoft Power Query dành cho Excel để lọc dữ liệu nếu các điều kiện sau được đáp ứng:
+Sử dụng Microsoft Power Query dành cho Excel để lọc dữ liệu nếu các điều kiện sau được đáp ứng:
 
 - Bạn có đơn đặt hàng trong Dynamics 365 Sales.
 - Bạn có nhiều đơn vị tổ chức trong Project Service Automation và các đơn vị tổ chức này sẽ được ánh xạ tới nhiều pháp nhân trong Finance.
@@ -130,7 +131,7 @@ Bạn phải sử dụng Microsoft Power Query dành cho Excel để lọc dữ 
 Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sau:
 
 - Mẫu Dự án và hợp đồng (PSA sang Fin và Ops) có bộ lọc mặc định chỉ bao gồm đơn đặt hàng thuộc loại **Mục công việc (msdyn\_ordertype = 192350001)**. Bộ lọc này giúp đảm bảo rằng hợp đồng dự án không được tạo cho đơn đặt hàng trong Finance. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm bộ lọc này.
-- Bạn phải tạo bộ lọc Power Query chỉ bao gồm các tổ chức hợp đồng sẽ được đồng bộ hóa với pháp nhân của bộ kết nối tích hợp. Ví dụ: các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso US phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso Global phải được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
+- Tạo bộ lọc Power Query chỉ bao gồm các tổ chức hợp đồng sẽ được đồng bộ hóa với pháp nhân của bộ kết nối tích hợp. Ví dụ: các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso US phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso Global phải được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
 
 ## <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu
 

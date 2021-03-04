@@ -3,17 +3,18 @@ title: Cung cấp môi trường mới
 description: Chủ đề này cung cấp thông tin về cách cung cấp môi trường Project Operations mới.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643018"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727816"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
@@ -60,17 +61,15 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
 
 ![Đồng ý triển khai](./media/2DeploymentConsent.png)
 
-7. Hoàn thành các trường bắt buộc còn lại trong trình hướng dẫn và xác nhận việc triển khai. Thời gian cung cấp môi trường thay đổi tùy theo loại môi trường. Việc cung cấp có thể mất đến sáu giờ.
+7. Không bắt buộc - Áp dụng dữ liệu demo cho môi trường. Đi đến **Cài đặt nâng cao**, chọn **Tuy chỉnh cấu hình Cơ sở dữ liệu SQL** rồi đặt tùy chọn **Xác định tập dữ liệu cho cơ sở dữ liệu ứng dụng** thành **Demo**.
+
+8. Hoàn thành các trường bắt buộc còn lại trong trình hướng dẫn và xác nhận việc triển khai. Thời gian cung cấp môi trường sẽ khác nhau tùy theo loại môi trường. Việc cung cấp có thể mất đến sáu giờ.
 
   Sau khi quá trình triển khai hoàn tất thành công, môi trường sẽ hiển thị là **Đã triển khai**.
 
-8. Để xác nhận môi trường đã được triển khai thành công, hãy chọn **Đăng nhập** và đăng nhập vào môi trường để xác nhận.
+9. Để chắc chắn rằng môi trường đã được triển khai thành công, hãy chọn **Đăng nhập** rồi đăng nhập vào môi trường cần xác nhận.
 
 ![Chi tiết môi trường](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Áp dụng dữ liệu demo Project Operations Finance (bước tùy chọn)
-
-Áp dụng dữ liệu demo Project Operations Finance cho bản phát hành dịch vụ 10.0.13 Môi trường lưu trữ trên đám mây như được mô tả trong [bài viết này](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Áp dụng nội dung cập nhật cho môi trường Finance
 
@@ -151,6 +150,21 @@ Sau khi các thực thể được áp dụng, tất cả các ánh xạ có s�
 Quá trình làm mới sẽ mất khoảng 20 phút. Bạn sẽ nhận được một cảnh báo khi quá trình hoàn tất.
 
 ![Xác nhận làm mới](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Cập nhật các tùy chọn cài đặt bảo mật trong Project Operations trên Dataverse
+
+1. Đi đến Project Operations trên môi trường Dataverse của bạn. 
+2. Đi đến **Cài đặt** > **Bảo mật** > **Vai trò bảo mật**. 
+3. Trên trang **Vai trò bảo mật**, trong danh sách vai trò, hãy chọn **người dùng ứng dụng ghi kép** rồi chọn tab **Thực thể tùy chỉnh**.  
+4. Xác minh rằng vai trò có quyền **Đọc** và **Gắn thêm vào** đối với:
+      
+      - **Loại tỷ giá hối đoái**
+      - **Biểu đồ tài khoản**
+      - **Lịch tài khóa**
+      - **Sổ cái**
+
+5. Sau khi cập nhật xong vai trò bảo mật, hãy đi đến **Cài đặt** > **Bảo mật** > **Nhóm**, rồi chọn nhóm mặc định trong chế độ xem nhóm **Chủ sở hữu doanh nghiệp địa phương**.
+6. Chọn **Quản lý vai trò** và xác minh rằng quyền bảo mật **người dùng ứng dụng ghi kép** đã được áp dụng cho nhóm này.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Chạy bản đồ ghi kép Project Operations
 

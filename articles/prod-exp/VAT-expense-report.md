@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087150"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960228"
 ---
 # <a name="vat-recovery"></a>Hoàn thuế GTGT 
-
-[!include [banner](../includes/banner.md)]
 
 Để nhận được tiền hoàn lại cho các giao dịch đủ điều kiện về thuế giá trị gia tăng (VAT), công ty hoặc tổ chức phải xác định, thu thập, xác minh và gửi thông tin chính xác. Quá trình này bao gồm nhiều nhiệm vụ và có thể bao gồm một số nhân viên hoặc vai trò (tùy thuộc vào quy mô công ty của bạn).
 

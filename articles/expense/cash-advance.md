@@ -3,19 +3,19 @@ title: Tạm ứng tiền mặt
 description: Chủ đề này cung cấp thông tin về tạm ứng tiền mặt.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122775"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098910"
 ---
 # <a name="cash-advance"></a>Tạm ứng tiền mặt
 
@@ -24,8 +24,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Tạm ứng tiền mặt cho phép nhân viên vay tiền từ công ty của họ trước khi phát sinh bất kỳ chi phí nào. Khi một khoản tạm ứng tiền mặt theo yêu cầu được chấp thuận và thanh toán, nhân viên có thể sử dụng số tiền này cho các chi phí kinh doanh mà họ có thể phải chịu. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Tạo và gửi yêu cầu tạm ứng tiền mặt
+Để tạo một khoản tạm ứng tiền mặt mới và gửi yêu cầu tạm ứng, hãy làm các bước sau: 
 
-1. Trong **Chi phí của tôi**, chọn **Tạm ứng tiền mặt** > **Mới** để tạo yêu cầu tạm ứng tiền mặt mới. 
+1. Trong phần **Chi phí của tôi**, chọn **Tạm ứng tiền mặt** > **Mới**. 
 2. Trên trang **Yêu cầu tạm ứng tiền mặt mới**, nhập mục đích chi phí và chọn địa điểm sẽ phát sinh chi phí.
 3. Nhập số tiền và đơn vị tiền tệ được yêu cầu, sau đó chọn **Lưu**. 
 4. Khi bạn sẵn sàng gửi yêu cầu tạm ứng tiền mặt, trên trang **Yêu cầu tạm ứng tiền mặt**, chọn **Quy trình làm việc** > **Gửi**.
@@ -34,7 +35,7 @@ Tạm ứng tiền mặt cho phép nhân viên vay tiền từ công ty của h�
 
 Bạn có thể sửa đổi yêu cầu tạm ứng tiền mặt nếu yêu cầu chưa được gửi để phê duyệt.
 
-1. Trong **Chi phí của tôi: Tạm ứng tiền mặt**, tìm và chọn tạm ứng tiền mặt mà bạn muốn chỉnh sửa.
+1. Trong phần **Chi phí của tôi: Tạm ứng tiền mặt**, xác định vị trí và chọn khoản tạm ứng tiền mặt mà bạn muốn chỉnh sửa.
 2. Chọn **Chỉnh sửa** và thực hiện các thay đổi cần thiết đối với yêu cầu tạm ứng tiền mặt. 
 3. Chọn **Lưu và đóng**.
 
@@ -57,7 +58,8 @@ Quy trình sau đây thường được hoàn thành bởi kế toán viên ho�
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Gửi báo cáo chi phí so với khoản tạm ứng tiền mặt đã trả 
 
-Khi bạn tạo và gửi báo cáo chi phí cho khoản tạm ứng tiền mặt mà bạn đã nhận được, chi phí sẽ được tự động điều chỉnh so với khoản tạm ứng đó. Nếu số tiền tạm ứng của bạn lớn hơn số tiền đã chi tiêu, bạn phải trả lại số dư cho công ty bằng cách sử dụng danh mục chi phí **Trả lại tiền mặt**. Nếu khoản tạm ứng tiền mặt do công ty thanh toán ít hơn số tiền bạn đã chi tiêu, công ty phải hoàn trả số dư cho bạn. 
+Khi bạn tạo và gửi báo cáo chi phí cho khoản tạm ứng tiền mặt mà bạn đã nhận, chi phí sẽ được tự động điều chỉnh theo khoản tạm ứng đó. Nếu số tiền tạm ứng của bạn lớn hơn số tiền đã chi tiêu, bạn phải trả lại số dư cho công ty bằng cách sử dụng danh mục chi phí **Trả lại tiền mặt**. Nếu khoản tạm ứng tiền mặt do công ty trả ít hơn số tiền bạn đã chi tiêu, công ty phải hoàn trả cho bạn số tiền còn thiếu. 
 
 ### <a name="example"></a>Ví dụ:
-Bạn dự định đi dự hội nghị từ Seattle đến Thành phố New York. Bạn tạo yêu cầu tạm ứng tiền mặt cho 3000 USD vì bạn đã ước tính chi phí vé hội nghị, vé máy bay, khách sạn, bữa ăn và taxi gần bằng số tiền này. Bạn sẽ không được trả tiền trừ khi người quản lý của bạn chấp thuận yêu cầu này. Sau khi người quản lý của bạn phê duyệt, khoản tạm ứng tiền mặt được yêu cầu sẽ được thanh toán bằng 3000 USD vào tài khoản ngân hàng của bạn. Sau đó bạn tham dự hội nghị. Sau khi hoàn thành chuyến đi của mình, bạn thấy rằng tổng chi tiêu chỉ là 2790 USD. Chọn **Tiền mặt** trong trường **Phương thức thanh toán** và gửi chi phí của bạn cho 2790 USD. Số tiền chi phí đã gửi của bạn tự động được điều chỉnh dựa trên khoản tạm ứng tiền mặt 3000 USD đã cho bạn vay. Bạn hiện nợ công ty số dư 210 USD (3000-2790) và bạn có thể trả lại công ty bằng cách sử dụng danh mục chi phí **Trả lại tiền mặt**. 
+Bạn dự định đi từ Seattle đến Thành phố New York để tham dự hội nghị. Bạn tạo yêu cầu tạm ứng tiền mặt 3000 USD dựa trên chi phí ước tính bao gồm vé dự hội nghị, vé máy bay, khách sạn, tiền ăn và taxi. Bạn sẽ không được nhận tiền nếu người quản lý của bạn không phê duyệt yêu cầu này. Sau khi người quản lý của bạn phê duyệt, khoản tạm ứng tiền mặt được yêu cầu sẽ được thanh toán bằng 3000 USD vào tài khoản ngân hàng của bạn. Sau đó bạn tham dự hội nghị. Sau khi hoàn thành chuyến đi của mình, bạn thấy rằng tổng chi tiêu chỉ là 2790 USD. Chọn **Tiền mặt** trong trường **Phương thức thanh toán**, rồi gửi chi phí của bạn là 2790 USD. Số tiền chi phí đã gửi của bạn tự động được điều chỉnh dựa trên khoản tạm ứng tiền mặt 3000 USD đã cho bạn vay. Hiện bạn còn nợ số dư 210 USD (3000 - 2790), bạn có thể trả lại cho công ty bằng cách sử dụng thể loại chi phí **Trả lại tiền mặt**.
+

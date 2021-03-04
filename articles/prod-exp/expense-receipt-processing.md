@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087266"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960318"
 ---
 # <a name="expense-receipt-processing"></a>Xử lý biên lai chi phí
-
-[!include [banner](../includes/banner.md)]
 
 Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung quy trình xử lý nhận dạng ký tự quang học (OCR) cho biên lai. Tính năng này được thiết kế để cải thiện trải nghiệm người dùng khi tạo báo cáo chi phí.
 
@@ -39,17 +37,17 @@ Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung q
 Để tự động đính kèm biên lai có giao dịch bằng thẻ tín dụng khi báo cáo chi phí được tạo, hãy làm như sau:
 
   1. Mở không gian làm việc **Quản lý chi phí**.
-  2. Trên tab **Biên lai** , hãy xác minh rằng biên lai chưa đính kèm có tồn tại. Bạn cũng có thể tải lên biên lai trên tab **Biên lai**.
-  3. Trên tab **Biên lai** , hãy xác minh rằng chi phí chưa đính kèm có tồn tại. Thông thường, người quản lý chi phí nhập các chi phí này từ nhà cung cấp thẻ tín dụng.
+  2. Trên tab **Biên lai**, hãy xác minh rằng biên lai chưa đính kèm có tồn tại. Bạn cũng có thể tải lên biên lai trên tab **Biên lai**.
+  3. Trên tab **Biên lai**, hãy xác minh rằng chi phí chưa đính kèm có tồn tại. Thông thường, người quản lý chi phí nhập các chi phí này từ nhà cung cấp thẻ tín dụng.
   4. Chọn **Báo cáo chi phí mới**. Lưu ý rằng kể cả bây giờ, bạn cũng có thể kèm theo chi phí và biên lai khi tạo báo cáo chi phí. Nếu bạn thêm cả chi phí và biên lai, thao tác đối sánh tự động giữa các khoản thu với chi phí sẽ được kích hoạt.
 
 Để tạo chi phí hoặc so khớp chi phí từ biên lai, hãy làm như sau:
 
-  1. Trên báo cáo chi phí, trên tab **Biên lai** , hãy đính kèm biên lai bằng cách chọn **Thêm biên lai**.
+  1. Trên báo cáo chi phí, trên tab **Biên lai**, hãy đính kèm biên lai bằng cách chọn **Thêm biên lai**.
   2. Dưới hình ảnh đã tải lên của biên lai, hãy lưu ý các tùy chọn **Tạo** và **So khớp**.
 
       - Chọn **Tạo** để tạo một giao dịch chi phí được nhập theo cách thủ công và điền vào các giá trị được trích xuất từ biên lai.
-      - Nếu bạn chọn **So khớp** , hệ thống cố gắng khớp một khoản chi phí hiện có với biên lai.
+      - Nếu bạn chọn **So khớp**, hệ thống cố gắng khớp một khoản chi phí hiện có với biên lai.
 
 ## <a name="installation"></a>Cài đặt
 
@@ -65,7 +63,7 @@ Tính năng này hoạt động kết hợp với tính năng **Báo cáo chi ph
 6. Làm theo hướng dẫn cài đặt và đồng ý với các điều khoản và điều kiện.
 7. Chọn **Cài đặt**.
 
-Trong không gian làm việc **Quản lý tính năng** , hãy bật các tính năng sau:
+Trong không gian làm việc **Quản lý tính năng**, hãy bật các tính năng sau:
 
 - Báo cáo chi phí đã được xây dựng lại
 - Tự động so khớp và tạo chi phí từ biên lai

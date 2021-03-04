@@ -16,22 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087262"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960543"
 ---
 # <a name="set-up-expense-management-workflows"></a>Thiết lập quy trình làm việc Quản lý chi phí
-
-[!include [banner](../includes/banner.md)]
 
 Bạn có thể thiết lập một quy trình làm việc được sử dụng để xem xét và phê duyệt các tài liệu về chi phí và đi lại. Bạn có thể xác định quy trình làm việc cho các tài liệu như: báo cáo chi phí, yêu cầu đi lại và yêu cầu tạm ứng tiền mặt.
 
 Mỗi quy trình làm việc đại diện cho một quy trình công việc. Quy trình này xác định cách thức đưa một tài liệu qua hệ thống và cho biết ai phải hoàn thành một nhiệm vụ hoặc phê duyệt một tài liệu. Có một vài lợi ích khi sử dụng hệ thống quy trình làm việc trong tổ chức của bạn:
 
--   **Quy trình nhất quán** : Bạn có thể xác định quy trình phê duyệt cho các tài liệu cụ thể, như yêu cầu mua hàng và báo cáo chi phí. Việc sử dụng hệ thống quy trình làm việc giúp bảo đảm rằng các tài liệu được xử lý và phê duyệt một cách nhất quán và hiệu quả.
+-   **Quy trình nhất quán**: Bạn có thể xác định quy trình phê duyệt cho các tài liệu cụ thể, như yêu cầu mua hàng và báo cáo chi phí. Việc sử dụng hệ thống quy trình làm việc giúp bảo đảm rằng các tài liệu được xử lý và phê duyệt một cách nhất quán và hiệu quả.
 
 -   Khả năng hiển thị trên quy trình: Bạn có thể theo dõi trạng thái, lịch sử và số liệu hiệu suất của một phiên bản quy trình làm việc cụ thể. Điều này giúp bạn xác định xem có nên thực hiện các thay đổi đối với quy trình làm việc để nâng cao hiệu quả hay không.
 

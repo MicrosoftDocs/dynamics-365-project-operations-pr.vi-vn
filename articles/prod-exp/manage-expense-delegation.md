@@ -1,6 +1,6 @@
 ---
 title: Quản lý việc ủy nhiệm chi phí
-description: Người dùng đại diện chi phí có thể tạo và quản lý các báo cáo chi phí thay mặt cho một nhân viên khác trong tổ chức.
+description: Người dùng đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác trong tổ chức.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087260"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960813"
 ---
 # <a name="manage-expense-delegation"></a>Quản lý việc ủy nhiệm chi phí
 
-[!include [banner](../includes/banner.md)]
+Người đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác.
 
-Người dùng đại diện chi phí có thể tạo và quản lý các báo cáo chi phí thay mặt cho một nhân viên khác trong tổ chức.
+## <a name="configure-expense-delegation"></a>Đặt cấu hình ủy nhiệm chi phí
 
-## <a name="configuring-expense-delegation"></a>Đặt cấu hình đại diện chi phí
+1. Để thiết lập người dùng làm đại diện chi phí, hãy chuyển đến **Quản lý chi phí > Thiết lập > Chung > Đại diện**.
+2. Trên trang **Đại diện**, hãy chọn **Mới**.
+3. Chọn nhân viên sẽ được xác định làm đại diện. 
+4. Nhập bí danh của người dùng đại diện, ngày bắt đầu và ngày kết thúc cho khoảng thời gian đại diện.
 
-Để thiết lập người dùng làm đại diện chi phí, hãy chuyển tới **Quản lý chi phí > Thiết lập > Tổng quát > Đại diện** để mở trang **Đại diện**. Chọn **Mới** rồi chọn nhân viên sẽ được xác định người đại diện. Nhập bí danh của người dùng đại diện, ngày bắt đầu và ngày kết thúc cho khoảng thời gian đại diện.
+## <a name="manage-expense-delegation-for-another-employee"></a>Quản lý việc ủy nhiệm chi phí cho một nhân viên khác
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Quản lý việc đại diện chi phí thay cho một nhân viên khác
+Khi bật phím quản lý tính năng **Bật trang danh sách đại diện chi phí**, trang danh sách **Các khoản chi phí do tôi đại diện** sẽ khả dụng. Chuyển đến **Quản lý chi phí** > **Chi phí của tôi** > **Chi phí do tôi đại diện**.
 
-Nếu phím quản lý tính năng **Kích hoạt trang danh sách đại diện chi phí** được bật, thì trang danh sách **Chi phí được ủy thác cho tôi** sẽ có sẵn bằng cách điều hướng đến **Quản lý chi phí > Chi phí của tôi > Chi phí được ủy thác cho tôi**.
+Người dùng đại diện có thể nhanh chóng lọc và tìm kiếm các báo cáo chi phí hiện được ủy nhiệm cho họ. Họ cũng có thể tạo một báo cáo chi phí mới cho những người dùng khác bằng cách chọn **Báo cáo chi phí mới**.
 
-Người dùng đại diện có thể nhanh chóng lọc và tìm kiếm trên các báo cáo chi phí được ủy thác cho người đó. Người dùng cũng có thể nhanh chóng tạo báo cáo chi phí mới thay mặt cho người dùng khác bằng cách chọn **Báo cáo chi phí mới**.
-
-Người dùng đại diện cũng có thể tạo và quản lý báo cáo chi phí thay mặt cho các nhân viên khác bằng cách điều hướng đến **Quản lý chi phí > Chi phí của tôi > Báo cáo chi phí** và bấm vào nút **Mở chi phí của người dùng khác**.
+Người dùng đại diện cũng có thể tạo và quản lý báo cáo chi phí cho các nhân viên khác bằng cách truy cập vào **Quản lý chi phí** > **Chi phí của tôi** > **Báo cáo chi phí** và chọn **Mở chi phí của người dùng khác**.
