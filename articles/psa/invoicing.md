@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087172"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151414"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Lập hóa đơn trong Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ Hóa đơn dự án có thể được tạo lần lượt từng bản hoặc h
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Tạo hóa đơn dự án trong PSA theo cách thủ công
 
-Từ trang danh sách **Hợp đồng dự án** , bạn có thể tạo hóa đơn riêng cho từng hợp đồng dự án hoặc tạo hàng loạt cho nhiều hợp đồng dự án.
+Từ trang danh sách **Hợp đồng dự án**, bạn có thể tạo hóa đơn riêng cho từng hợp đồng dự án hoặc tạo hàng loạt cho nhiều hợp đồng dự án.
 
 Làm theo bước này để tạo hóa đơn cho một hợp đồng dự án cụ thể.
 
-- Trên trang danh sách **Hợp đồng dự án** , hãy mở hợp đồng dự án rồi chọn **Tạo hóa đơn**.
+- Trên trang danh sách **Hợp đồng dự án**, hãy mở hợp đồng dự án rồi chọn **Tạo hóa đơn**.
 
     ![Tạo hóa đơn dự án cho hợp đồng dự án cụ thể](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Làm theo bước này để tạo hóa đơn cho một hợp đồng dự án c
 
 Làm theo các bước sau để tạo hóa đơn hàng loạt.
 
-1. Trên trang danh sách **Hợp đồng dự án** , hãy chọn một hoặc nhiều hợp đồng dự án mà bạn phải tạo hóa đơn rồi chọn **Tạo hóa đơn hợp đồng**.
+1. Trên trang danh sách **Hợp đồng dự án**, hãy chọn một hoặc nhiều hợp đồng dự án mà bạn phải tạo hóa đơn rồi chọn **Tạo hóa đơn hợp đồng**.
 
     ![Tạo hóa đơn dự án hàng loạt](media/CreateProjectInvoicesBulk.png)
 
@@ -74,8 +76,8 @@ Làm theo các bước sau để đặt cấu hình một lượt chạy hóa đ
 
 1. Chuyển đến **Project Service** \> **Cài đặt** \> **Công việc lô**.
 2. Tạo một công việc lô rồi đặt tên là **Tạo hóa đơn trong PSA**. Tên của công việc lô phải gồm cụm từ "Tạo hóa đơn".
-3. Trong trường **Loại công việc** , hãy chọn **Không**. Theo mặc định, các tùy chọn **Tần suất hàng ngày** và **Hiện hoạt** được đặt thành **Có**.
-4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi** , bạn sẽ thấy 3 quy trình làm việc:
+3. Trong trường **Loại công việc**, hãy chọn **Không**. Theo mặc định, các tùy chọn **Tần suất hàng ngày** và **Hiện hoạt** được đặt thành **Có**.
+4. Chọn **Chạy quy trình làm việc**. Trong hộp thoại **Tra cứu bản ghi**, bạn sẽ thấy 3 quy trình làm việc:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -84,11 +86,11 @@ Làm theo các bước sau để đặt cấu hình một lượt chạy hóa đ
 5. Chọn **ProcessRunCaller** rồi chọn **Thêm**.
 6. Trong hộp thoại tiếp theo, hãy chọn **OK**. Quy trình làm việc **Ngủ** nằm trước quy trình công việc **Xử lý**.
 
-    Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK** , quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
+    Bạn cũng có thể chọn **ProcessRunner** trong bước 5. Sau đó, khi bạn chọn **OK**, quy trình làm việc **Xử lý** nằm trước quy trình làm việc **Ngủ**.
 
 Các quy trình làm việc **ProcessRunCaller** và **ProcessRunner** tạo các hóa đơn. **ProcessRunCaller** gọi **ProcessRunner**. **ProcessRunner** là quy trình làm việc thực sự tạo ra hóa đơn. Quy trình này thông qua tất cả mô tả hợp đồng mà các hóa đơn phải được tạo cho và tạo hóa đơn cho các mô tả đó. Để xác định mô tả hợp đồng mà hóa đơn phải được tạo cho, công việc xem xét ngày chạy hóa đơn cho mô tả hợp đồng. Nếu mô tả hợp đồng thuộc một hợp đồng có cùng ngày chạy hóa đơn, thì các giao dịch được kết hợp thành một hóa đơn và có 2 mô tả hóa đơn. Nếu không có giao dịch để tạo hóa đơn cho, công việc này sẽ bỏ qua bước tạo hóa đơn.
 
-Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller** , cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** khởi động bộ hẹn giờ trong 24 giờ từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
+Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller**, cung cấp thời gian kết thúc và đóng lại. Sau đó, **ProcessRunCaller** khởi động bộ hẹn giờ trong 24 giờ từ thời gian kết thúc đã chỉ định. Khi hết bộ hẹn giờ, **ProcessRunCaller** sẽ đóng lại.
 
 Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp lại. Nếu quy trình lô này chạy nhiều lần, thì nhiều trường hợp công việc được tạo và gây ra lỗi. Do đó, bạn chỉ nên bắt đầu quy trình lô một lần và bắt đầu lại chỉ khi quy trình này dừng chạy.
 
@@ -103,7 +105,7 @@ Khi bạn tạo một hóa đơn dự án nháp, tất cả giao dịch bán hà
 - Chỉnh sửa và điều chỉnh loại thanh toán và số lượng.
 - Trực tiếp thêm thời gian, chi phí và phí ở dạng các giao dịch trên hóa đơn. Bạn có thể sử dụng tính năng này nếu mô tả hóa đơn được ánh xạ đến mô tả hợp đồng cho phép các lớp giao dịch này.
 
-Chọn **Xác nhận** để xác nhận hóa đơn. Hành động Xác nhận là hành động một chiều. khi bạn chọn **Xác nhận** , hệ thống đặt hóa đơn ở chế độ chỉ đọc và tạo doanh số bán hàng thực tế đã lập hóa đơn từ mỗi chi tiết mô tả hóa đơn cho mỗi mô tả hóa đơn. Nếu chi tiết mô tả hóa đơn tham chiếu doanh số bán hàng thực tế chưa lập hóa đơn, thì hệ thống cũng đảo ngược doanh số bán hàng thực tế chưa lập hóa đơn đó. (Mọi chi tiết mô tả hóa đơn được tạo từ mục nhập thời gian hoặc chi phí sẽ tham chiếu doanh số bán hàng thực tế chưa được lập hóa đơn). Các hệ thống tích hợp sổ cái chung có thể dùng đảo ngược này để đảo ngược công việc dự án đang tiến hành (WIP) cho mục đích kế toán.
+Chọn **Xác nhận** để xác nhận hóa đơn. Hành động Xác nhận là hành động một chiều. khi bạn chọn **Xác nhận**, hệ thống đặt hóa đơn ở chế độ chỉ đọc và tạo doanh số bán hàng thực tế đã lập hóa đơn từ mỗi chi tiết mô tả hóa đơn cho mỗi mô tả hóa đơn. Nếu chi tiết mô tả hóa đơn tham chiếu doanh số bán hàng thực tế chưa lập hóa đơn, thì hệ thống cũng đảo ngược doanh số bán hàng thực tế chưa lập hóa đơn đó. (Mọi chi tiết mô tả hóa đơn được tạo từ mục nhập thời gian hoặc chi phí sẽ tham chiếu doanh số bán hàng thực tế chưa được lập hóa đơn). Các hệ thống tích hợp sổ cái chung có thể dùng đảo ngược này để đảo ngược công việc dự án đang tiến hành (WIP) cho mục đích kế toán.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Sửa hóa đơn PSA đã xác nhận
 

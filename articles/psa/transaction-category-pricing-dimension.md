@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087192"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150784"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Sử dụng loại giao dịch làm thông số định giá
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Chủ đề này trình bày cách sử dụng loại giao dịch làm thông số định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thông số định giá mới cho tổ chức của mình, hãy hoàn tất quy trình trong chủ đề [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Thêm loại giao dịch vào biểu mẫu và chế độ xem
@@ -47,6 +50,6 @@ Bảng sau đây cung cấp danh sách toàn diện các biểu mẫu và dạng
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Thiết lập loại giao dịch làm thông số định giá
 
 1. Trong giao diện web, hãy đi tới phần **Project Service** > **Cài đặt** > **Thông số**. 
-2. Trên trang **Thông số** , trên tab **Thông số định giá dựa trên số lượng** , lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể **Thông số định giá**.
+2. Trên trang **Thông số**, trên tab **Thông số định giá dựa trên số lượng**, lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể **Thông số định giá**.
 3. Thêm **loại giao dịch** vào danh sách này và đặt các trường **Áp dụng cho chi phí** và **Áp dụng cho doanh số** thành **Có**.
-4. Trong trường **Loại thông số** , hãy chọn **Dựa trên số lượng** , sau đó chọn mức ưu tiên cho **loại giao dịch** liên quan đến chi phí và doanh số.
+4. Trong trường **Loại thông số**, hãy chọn **Dựa trên số lượng**, sau đó chọn mức ưu tiên cho **loại giao dịch** liên quan đến chi phí và doanh số.

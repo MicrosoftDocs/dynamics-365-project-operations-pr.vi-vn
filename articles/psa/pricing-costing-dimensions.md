@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087149"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151324"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Trang chủ tham số giá và chi phí
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Các thông số được sử dụng để đặt giá và tính chi phí nhân công trong các tổ chức dựa trên dự án chịu ảnh hưởng của các thuộc tính sau:
 
@@ -38,7 +40,7 @@ Do tính chất điển hình của các loại công việc này và những ng
 
 ## <a name="pricing-dimensions"></a>Thông số định giá
 
-PSA vận chuyển với một bộ tham số giá mặc định. Bạn có thể xem các tham số này bằng các chuyển đến **Project Service** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền** , hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Điều này sẽ cho phép bạn thiết lập giá cả và chi phí cho mỗi kết hợp vai trò và đơn vị tổ chức.
+PSA vận chuyển với một bộ tham số giá mặc định. Bạn có thể xem các tham số này bằng các chuyển đến **Project Service** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Điều này sẽ cho phép bạn thiết lập giá cả và chi phí cho mỗi kết hợp vai trò và đơn vị tổ chức.
 
 ![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thu�
 ## <a name="pricing-human-resource-time"></a>Định giá thời gian nguồn nhân lực
 Cách một tổ chức định giá thời gian nguồn nhân lực thường là một cân nhắc quan trọng mang tính chiến lược ảnh hưởng trực tiếp đến lợi nhuận của tổ chức. Làm việc với các đội ngũ tài chính và người đứng đầu phụ trách thực hành khi tổ chức của bạn sẵn sàng xác định cách mong muốn để thiết lập tỷ lệ chi phí và hóa đơn cho thời gian nguồn nhân lực.
 
-Các cân nhắc khác về giá bao gồm việc có tái sử dụng trường hoặc thực thể không phải là tham số giá hiện tại nhưng áp dụng dưới dạng tham số giá cho tổ chức của bạn hay không. Các trường như **Loại giao dịch** ( **msdyn_transactioncategory** ) và **Nguồn lực có thể đăng ký** ( **bookableresource** ) là các ví dụ về tham số của ứng viên. 
+Các cân nhắc khác về giá bao gồm việc có tái sử dụng trường hoặc thực thể không phải là tham số giá hiện tại nhưng áp dụng dưới dạng tham số giá cho tổ chức của bạn hay không. Các trường như **Loại giao dịch** (**msdyn_transactioncategory**) và **Nguồn lực có thể đăng ký** (**bookableresource**) là các ví dụ về tham số của ứng viên. 
 
 Bạn cũng nên cân nhắc xem liệu tham số định giá nên ở dạng bảng biểu hay bộ tùy chọn. Nếu thấy trước các thay đổi về giá trị của tham số sẽ vượt quá 10 hoặc 12 và bạn cần các thuộc tính bổ sung trên các giá trị này, hãy tạo một thực thể thay vì bộ tùy chọn. Duy trì một bộ tùy chọn, chẳng hạn như thêm hoặc loại bỏ các giá trị, yêu cầu một quản trị viên hoặc nhà phát triển trong khi thêm hàng mới vào bảng có thể được hầu hết người dùng doanh nghiệp thực hiện.
 

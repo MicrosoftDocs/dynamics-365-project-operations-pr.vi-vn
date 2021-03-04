@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131408"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151639"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Phương thức phân bổ đặt trước trong Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Cho dù bạn thêm một thành viên nhóm trực tiếp vào một dự án trên tab **Nhóm** hay đăng ký một nguồn lực cho một dự án hoặc yêu cầu từ bảng Lịch trình, bạn có thể sử dụng một vài phương pháp phân bổ đăng ký khác nhau. Chủ đề này giải thích cách mỗi phương pháp hoạt động và phương pháp nào có thể dẫn tới quá tải nguồn lực.
 
