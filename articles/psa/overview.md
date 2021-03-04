@@ -18,69 +18,71 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128039"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150559"
 ---
-# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="5d2ff-103">Dynamics 365 Project Service Automation là gì?</span><span class="sxs-lookup"><span data-stu-id="5d2ff-103">What is Dynamics 365 Project Service Automation?</span></span>
+# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="78b5c-103">Dynamics 365 Project Service Automation là gì?</span><span class="sxs-lookup"><span data-stu-id="78b5c-103">What is Dynamics 365 Project Service Automation?</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
-<span data-ttu-id="5d2ff-104">Ứng dụng Project Service Automation (PSA) giúp các tổ chức theo dõi, quản lý và cung cấp các dịch vụ dựa trên dự án một cách hiệu quả, từ giai đoạn bán hàng ban đầu đến bước lập hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="5d2ff-105">Ứng dụng cho phép bạn:</span><span class="sxs-lookup"><span data-stu-id="5d2ff-105">The app enables you to:</span></span>
+<span data-ttu-id="78b5c-104">Ứng dụng Project Service Automation (PSA) giúp các tổ chức theo dõi, quản lý và cung cấp các dịch vụ dựa trên dự án một cách hiệu quả, từ giai đoạn bán hàng ban đầu đến bước lập hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="78b5c-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="78b5c-105">Ứng dụng cho phép bạn:</span><span class="sxs-lookup"><span data-stu-id="78b5c-105">The app enables you to:</span></span>
 
-- <span data-ttu-id="5d2ff-106">Hoạch định dự án và tạo ước tính và lịch biểu công việc</span><span class="sxs-lookup"><span data-stu-id="5d2ff-106">Plan projects, and create estimates and work schedules</span></span>
-- <span data-ttu-id="5d2ff-107">Ước tính và theo dõi chi phí và doanh thu dự án</span><span class="sxs-lookup"><span data-stu-id="5d2ff-107">Estimate and track project cost and revenue</span></span>
-- <span data-ttu-id="5d2ff-108">Dự báo các yêu cầu về nguồn lực cho các dự án trong quy trình bán hàng</span><span class="sxs-lookup"><span data-stu-id="5d2ff-108">Forecast resource requirements for projects in the pipeline</span></span>
-- <span data-ttu-id="5d2ff-109">Theo dõi tiến độ dự án và mức sử dụng chi phí</span><span class="sxs-lookup"><span data-stu-id="5d2ff-109">Track project progress and cost consumption</span></span>
-- <span data-ttu-id="5d2ff-110">Quản lý báo giá, định giá và thanh toán cho dự án</span><span class="sxs-lookup"><span data-stu-id="5d2ff-110">Manage quoting, pricing, and billing for projects</span></span>
-- <span data-ttu-id="5d2ff-111">Gán và quản lý các nguồn lực</span><span class="sxs-lookup"><span data-stu-id="5d2ff-111">Assign and manage resources</span></span>
-- <span data-ttu-id="5d2ff-112">Sử dụng các báo cáo và bảng điều khiển tương tác để theo dõi chỉ số đo lường hiệu suất chính cho các dự án thành công</span><span class="sxs-lookup"><span data-stu-id="5d2ff-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
-- <span data-ttu-id="5d2ff-113">...và hơn thế nữa</span><span class="sxs-lookup"><span data-stu-id="5d2ff-113">...and more</span></span>
+- <span data-ttu-id="78b5c-106">Hoạch định dự án và tạo ước tính và lịch biểu công việc</span><span class="sxs-lookup"><span data-stu-id="78b5c-106">Plan projects, and create estimates and work schedules</span></span>
+- <span data-ttu-id="78b5c-107">Ước tính và theo dõi chi phí và doanh thu dự án</span><span class="sxs-lookup"><span data-stu-id="78b5c-107">Estimate and track project cost and revenue</span></span>
+- <span data-ttu-id="78b5c-108">Dự báo các yêu cầu về nguồn lực cho các dự án trong quy trình bán hàng</span><span class="sxs-lookup"><span data-stu-id="78b5c-108">Forecast resource requirements for projects in the pipeline</span></span>
+- <span data-ttu-id="78b5c-109">Theo dõi tiến độ dự án và mức sử dụng chi phí</span><span class="sxs-lookup"><span data-stu-id="78b5c-109">Track project progress and cost consumption</span></span>
+- <span data-ttu-id="78b5c-110">Quản lý báo giá, định giá và thanh toán cho dự án</span><span class="sxs-lookup"><span data-stu-id="78b5c-110">Manage quoting, pricing, and billing for projects</span></span>
+- <span data-ttu-id="78b5c-111">Gán và quản lý các nguồn lực</span><span class="sxs-lookup"><span data-stu-id="78b5c-111">Assign and manage resources</span></span>
+- <span data-ttu-id="78b5c-112">Sử dụng các báo cáo và bảng điều khiển tương tác để theo dõi chỉ số đo lường hiệu suất chính cho các dự án thành công</span><span class="sxs-lookup"><span data-stu-id="78b5c-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
+- <span data-ttu-id="78b5c-113">...và hơn thế nữa</span><span class="sxs-lookup"><span data-stu-id="78b5c-113">...and more</span></span>
 
-<span data-ttu-id="5d2ff-114">Ngoài ra, để giúp bạn giám sát và kiểm soát chi phí cho công việc dựa trên dự án, các tư vấn viên cá nhân dễ dàng nhập và theo dõi thời gian cũng như chi phí dự án cả trên di động lẫn trên trình duyệt web.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
+<span data-ttu-id="78b5c-114">Ngoài ra, để giúp bạn giám sát và kiểm soát chi phí cho công việc dựa trên dự án, các tư vấn viên cá nhân dễ dàng nhập và theo dõi thời gian cũng như chi phí dự án cả trên di động lẫn trên trình duyệt web.</span><span class="sxs-lookup"><span data-stu-id="78b5c-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
 
-## <a name="whats-new-in-psa"></a><span data-ttu-id="5d2ff-115">Nội dung mới trong PSA</span><span class="sxs-lookup"><span data-stu-id="5d2ff-115">What's new in PSA</span></span>
-<span data-ttu-id="5d2ff-116">Nhóm rất hào hứng được thông báo về những cập nhật mới nhất của chúng tôi!</span><span class="sxs-lookup"><span data-stu-id="5d2ff-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="5d2ff-117">Từ những điểm cải tiến về giao diện người dùng đến việc sửa lỗi và bổ sung các tính năng và khả năng mới quan trọng.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="5d2ff-118">Chúng tôi luôn lắng nghe ý kiến của bạn.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-118">You asked; we listened.</span></span>
+## <a name="whats-new-in-psa"></a><span data-ttu-id="78b5c-115">Nội dung mới trong PSA</span><span class="sxs-lookup"><span data-stu-id="78b5c-115">What's new in PSA</span></span>
+<span data-ttu-id="78b5c-116">Nhóm rất hào hứng được thông báo về những cập nhật mới nhất của chúng tôi!</span><span class="sxs-lookup"><span data-stu-id="78b5c-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="78b5c-117">Từ những điểm cải tiến về giao diện người dùng đến việc sửa lỗi và bổ sung các tính năng và khả năng mới quan trọng.</span><span class="sxs-lookup"><span data-stu-id="78b5c-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="78b5c-118">Chúng tôi luôn lắng nghe ý kiến của bạn.</span><span class="sxs-lookup"><span data-stu-id="78b5c-118">You asked; we listened.</span></span>
 
-<span data-ttu-id="5d2ff-119">Hãy xem [Ghi chú phát hành ngày 19 tháng 10](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) để biết những điểm cải tiến và bổ sung mới nhất của chúng tôi.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-119">Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
+<span data-ttu-id="78b5c-119">Hãy xem [Ghi chú phát hành ngày 19 tháng 10](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) để biết những điểm cải tiến và bổ sung mới nhất của chúng tôi.</span><span class="sxs-lookup"><span data-stu-id="78b5c-119">Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
 
-### <a name="in-development"></a><span data-ttu-id="5d2ff-120">Đang phát triển</span><span class="sxs-lookup"><span data-stu-id="5d2ff-120">In development</span></span>
-<span data-ttu-id="5d2ff-121">Để xem những điều chúng tôi đã hoạch định trong tương lai gần, hãy xem [Dynamics 365: kế hoạch phát hành đợt 1 năm 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span><span class="sxs-lookup"><span data-stu-id="5d2ff-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span></span>
+### <a name="in-development"></a><span data-ttu-id="78b5c-120">Đang phát triển</span><span class="sxs-lookup"><span data-stu-id="78b5c-120">In development</span></span>
+<span data-ttu-id="78b5c-121">Để xem những điều chúng tôi đã hoạch định trong tương lai gần, hãy xem [Dynamics 365: kế hoạch phát hành đợt 1 năm 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span><span class="sxs-lookup"><span data-stu-id="78b5c-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span></span>
 
-## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="5d2ff-122">Nhận trợ giúp với phiên bản PSA 3.x</span><span class="sxs-lookup"><span data-stu-id="5d2ff-122">Get help with PSA version 3.x</span></span>
-<span data-ttu-id="5d2ff-123">Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai?</span><span class="sxs-lookup"><span data-stu-id="5d2ff-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="5d2ff-124">Tìm hiểu các hướng dẫn có thể tải xuống này.</span><span class="sxs-lookup"><span data-stu-id="5d2ff-124">Check out these downloadable guides.</span></span>
+## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="78b5c-122">Nhận trợ giúp với phiên bản PSA 3.x</span><span class="sxs-lookup"><span data-stu-id="78b5c-122">Get help with PSA version 3.x</span></span>
+<span data-ttu-id="78b5c-123">Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai?</span><span class="sxs-lookup"><span data-stu-id="78b5c-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="78b5c-124">Tìm hiểu các hướng dẫn có thể tải xuống này.</span><span class="sxs-lookup"><span data-stu-id="78b5c-124">Check out these downloadable guides.</span></span>
 
- [<span data-ttu-id="5d2ff-125">Hướng dẫn hoạch định và theo dõi dự án</span><span class="sxs-lookup"><span data-stu-id="5d2ff-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
+ [<span data-ttu-id="78b5c-125">Hướng dẫn hoạch định và theo dõi dự án</span><span class="sxs-lookup"><span data-stu-id="78b5c-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
 
- [<span data-ttu-id="5d2ff-126">Hướng dẫn báo giá, định giá và thanh toán cơ bản</span><span class="sxs-lookup"><span data-stu-id="5d2ff-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
+ [<span data-ttu-id="78b5c-126">Hướng dẫn báo giá, định giá và thanh toán cơ bản</span><span class="sxs-lookup"><span data-stu-id="78b5c-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
 
- [<span data-ttu-id="5d2ff-127">Hướng dẫn báo giá, định giá và thanh toán nâng cao</span><span class="sxs-lookup"><span data-stu-id="5d2ff-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
+ [<span data-ttu-id="78b5c-127">Hướng dẫn báo giá, định giá và thanh toán nâng cao</span><span class="sxs-lookup"><span data-stu-id="78b5c-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
 
- [<span data-ttu-id="5d2ff-128">Hướng dẫn quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="5d2ff-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
+ [<span data-ttu-id="78b5c-128">Hướng dẫn quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="78b5c-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
 
- [<span data-ttu-id="5d2ff-129">Hướng dẫn báo cáo</span><span class="sxs-lookup"><span data-stu-id="5d2ff-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
+ [<span data-ttu-id="78b5c-129">Hướng dẫn báo cáo</span><span class="sxs-lookup"><span data-stu-id="78b5c-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
 
- [<span data-ttu-id="5d2ff-130">Ghi chú cho nhà phát triển</span><span class="sxs-lookup"><span data-stu-id="5d2ff-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
+ [<span data-ttu-id="78b5c-130">Ghi chú cho nhà phát triển</span><span class="sxs-lookup"><span data-stu-id="78b5c-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
 
-## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="5d2ff-131">Hướng dẫn cho các phiên bản cũ hơn (phiên bản ứng dụng 2.x hoặc 1.x)</span><span class="sxs-lookup"><span data-stu-id="5d2ff-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
- [<span data-ttu-id="5d2ff-132">Hướng dẫn của quản trị viên</span><span class="sxs-lookup"><span data-stu-id="5d2ff-132">Administrator guide</span></span>](../psa/admin-guide.md)
+## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="78b5c-131">Hướng dẫn cho các phiên bản cũ hơn (phiên bản ứng dụng 2.x hoặc 1.x)</span><span class="sxs-lookup"><span data-stu-id="78b5c-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
+ [<span data-ttu-id="78b5c-132">Hướng dẫn của quản trị viên</span><span class="sxs-lookup"><span data-stu-id="78b5c-132">Administrator guide</span></span>](../psa/admin-guide.md)
 
- [<span data-ttu-id="5d2ff-133">Hướng dẫn của người quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="5d2ff-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+ [<span data-ttu-id="78b5c-133">Hướng dẫn của người quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="78b5c-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
 
- [<span data-ttu-id="5d2ff-134">Hướng dẫn của quản lý dự án</span><span class="sxs-lookup"><span data-stu-id="5d2ff-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
+ [<span data-ttu-id="78b5c-134">Hướng dẫn của quản lý dự án</span><span class="sxs-lookup"><span data-stu-id="78b5c-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
 
- [<span data-ttu-id="5d2ff-135">Hướng dẫn của quản lý khách hàng</span><span class="sxs-lookup"><span data-stu-id="5d2ff-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
+ [<span data-ttu-id="78b5c-135">Hướng dẫn của quản lý khách hàng</span><span class="sxs-lookup"><span data-stu-id="78b5c-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
 
- [<span data-ttu-id="5d2ff-136">Thời gian, chi phí và hợp tác</span><span class="sxs-lookup"><span data-stu-id="5d2ff-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
+ [<span data-ttu-id="78b5c-136">Thời gian, chi phí và hợp tác</span><span class="sxs-lookup"><span data-stu-id="78b5c-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
 
- [<span data-ttu-id="5d2ff-137">Bạch thư (phiên bản ứng dụng 2.x hoặc 1.x)</span><span class="sxs-lookup"><span data-stu-id="5d2ff-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
+ [<span data-ttu-id="78b5c-137">Bạch thư (phiên bản ứng dụng 2.x hoặc 1.x)</span><span class="sxs-lookup"><span data-stu-id="78b5c-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
 
- [<span data-ttu-id="5d2ff-138">Ghi chú dành cho nhà phát triển (phiên bản ứng dụng 2.x)</span><span class="sxs-lookup"><span data-stu-id="5d2ff-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [<span data-ttu-id="78b5c-138">Ghi chú dành cho nhà phát triển (phiên bản ứng dụng 2.x)</span><span class="sxs-lookup"><span data-stu-id="78b5c-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
- ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="5d2ff-139">Xem video tổng quan 2 phút</span><span class="sxs-lookup"><span data-stu-id="5d2ff-139">Watch a 2-minute overview video</span></span>
- <a name="heroArea"></a> <span data-ttu-id="5d2ff-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="5d2ff-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
+ ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="78b5c-139">Xem video tổng quan 2 phút</span><span class="sxs-lookup"><span data-stu-id="78b5c-139">Watch a 2-minute overview video</span></span>
+ <a name="heroArea"></a> <span data-ttu-id="78b5c-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="78b5c-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
 
 

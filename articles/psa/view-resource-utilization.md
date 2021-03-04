@@ -18,26 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5cab86cd6ce797d912ae17178c34bdcb2c87d1e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124934"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150739"
 ---
-# <a name="view-resource-utilization-project-service"></a><span data-ttu-id="feab6-103">Xem mức độ sử dụng nguồn lực (Project Service)</span><span class="sxs-lookup"><span data-stu-id="feab6-103">View resource utilization (Project Service)</span></span>
+# <a name="view-resource-utilization-project-service"></a><span data-ttu-id="97d65-103">Xem mức độ sử dụng nguồn lực (Project Service)</span><span class="sxs-lookup"><span data-stu-id="97d65-103">View resource utilization (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="feab6-104">Bạn có thể kiểm tra việc sử dụng tài nguyên để xác định mức độ sử dụng tài nguyên của mình và giúp bạn đưa ra quyết định về cách tận dụng triệt để thời gian của tài nguyên.</span><span class="sxs-lookup"><span data-stu-id="feab6-104">You can check resource utilization to determine utilization levels for your resources and help you make decisions about how to fully take advantage of your resources’ time.</span></span>  
+<span data-ttu-id="97d65-104">Bạn có thể kiểm tra việc sử dụng tài nguyên để xác định mức độ sử dụng tài nguyên của mình và giúp bạn đưa ra quyết định về cách tận dụng triệt để thời gian của tài nguyên.</span><span class="sxs-lookup"><span data-stu-id="97d65-104">You can check resource utilization to determine utilization levels for your resources and help you make decisions about how to fully take advantage of your resources’ time.</span></span>  
   
-1. <span data-ttu-id="feab6-105">Đi tới **Project Service > Sử dụng Tài nguyên**.</span><span class="sxs-lookup"><span data-stu-id="feab6-105">Go to **Project Service > Resource Utilization**.</span></span> 
+1. <span data-ttu-id="97d65-105">Đi tới **Project Service > Sử dụng Tài nguyên**.</span><span class="sxs-lookup"><span data-stu-id="97d65-105">Go to **Project Service > Resource Utilization**.</span></span> 
 
-     <span data-ttu-id="feab6-106">Thao tác này hiển thị dạng xem lịch của tất cả nguồn lực và tính sẵn có của chúng.</span><span class="sxs-lookup"><span data-stu-id="feab6-106">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="feab6-107">Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình.</span><span class="sxs-lookup"><span data-stu-id="feab6-107">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="feab6-108">Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày**, **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó.</span><span class="sxs-lookup"><span data-stu-id="feab6-108">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="feab6-109">Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.</span><span class="sxs-lookup"><span data-stu-id="feab6-109">Use the search box to find a specific resource.</span></span>      
+     <span data-ttu-id="97d65-106">Thao tác này hiển thị dạng xem lịch của tất cả nguồn lực và tính sẵn có của chúng.</span><span class="sxs-lookup"><span data-stu-id="97d65-106">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="97d65-107">Chọn một dạng xem hoặc thứ tự sắp xếp từ đầu màn hình.</span><span class="sxs-lookup"><span data-stu-id="97d65-107">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="97d65-108">Bạn cũng có thể chọn hiển thị tính sẵn có cho **Ngày**, **Tuần** hoặc **Tháng** và sử dụng mũi tên để xem khoảng thời gian tiếp theo hoặc trước đó.</span><span class="sxs-lookup"><span data-stu-id="97d65-108">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="97d65-109">Sử dụng hộp tìm kiếm để tìm một nguồn lực cụ thể.</span><span class="sxs-lookup"><span data-stu-id="97d65-109">Use the search box to find a specific resource.</span></span>      
   
-2. <span data-ttu-id="feab6-110">Bấm vào **Tùy chọn** để thay đổi nội dung hiển thị.</span><span class="sxs-lookup"><span data-stu-id="feab6-110">Click **Options** to change what displays.</span></span> <span data-ttu-id="feab6-111">Ví dụ: bạn có thể hiển thị chú thích cho biết sơ đồ màu của các loại đăng ký khác nhau hoặc bạn có thể chọn chỉ hiển thị một loại đăng ký nhất định (ví dụ: đăng ký cứng hoặc đăng ký mềm).</span><span class="sxs-lookup"><span data-stu-id="feab6-111">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+2. <span data-ttu-id="97d65-110">Bấm vào **Tùy chọn** để thay đổi nội dung hiển thị.</span><span class="sxs-lookup"><span data-stu-id="97d65-110">Click **Options** to change what displays.</span></span> <span data-ttu-id="97d65-111">Ví dụ: bạn có thể hiển thị chú thích cho biết sơ đồ màu của các loại đăng ký khác nhau hoặc bạn có thể chọn chỉ hiển thị một loại đăng ký nhất định (ví dụ: đăng ký cứng hoặc đăng ký mềm).</span><span class="sxs-lookup"><span data-stu-id="97d65-111">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
 
-3. <span data-ttu-id="feab6-112">Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.</span><span class="sxs-lookup"><span data-stu-id="feab6-112">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+3. <span data-ttu-id="97d65-112">Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.</span><span class="sxs-lookup"><span data-stu-id="97d65-112">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="feab6-113">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="feab6-113">See Also</span></span>  
- [<span data-ttu-id="feab6-114">Hướng dẫn của Quản lý Nguồn lực</span><span class="sxs-lookup"><span data-stu-id="feab6-114">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="97d65-113">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="97d65-113">See Also</span></span>  
+ [<span data-ttu-id="97d65-114">Hướng dẫn của Quản lý Nguồn lực</span><span class="sxs-lookup"><span data-stu-id="97d65-114">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
