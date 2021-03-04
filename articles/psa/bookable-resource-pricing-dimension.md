@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087207"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145024"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Sử dụng tài nguyên có thể đặt lịch làm phương diện giá
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Chủ đề này cung cấp thông tin về cách sử dụng nguồn lực có thể đặt lịch làm phương diện định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thông số định giá mới cho tổ chức của mình, hãy hoàn tất quy trình trong chủ đề [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Thêm nguồn lực có thể đặt lịch vào biểu mẫu và dạng xem
@@ -48,18 +51,18 @@ Mở Solution Explorer cho giải pháp phương diện định giá rồi nhấ
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Thiết lập tài nguyên có thể đặt lịch làm phương diện giá
 
-1. Trong giao diện web, hãy đi tới phần **Project Service** > **Cài đặt** > **Thông số**. Trên trang **Tham số** , trên tab **Phương diện định giá dựa trên số lượng** , lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể phương diện định giá. 
+1. Trong giao diện web, hãy đi tới phần **Project Service** > **Cài đặt** > **Thông số**. Trên trang **Tham số**, trên tab **Phương diện định giá dựa trên số lượng**, lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể phương diện định giá. 
 2. Thêm **Nguồn lực có thể đặt lịch** và danh sách phương diện định giá này dưới dạng **msdyn_bookableresource**. 
 3. Cho biết bối cảnh mà nguồn lực có thể đặt lịch hoạt động như một phương diện định giá và đặt các giá trị **Áp dụng cho chi phí** và **Áp dụng cho bán hàng**.
-4. Trong trường **Loại phương diện** , chọn **Dựa trên số lượng**. 
+4. Trong trường **Loại phương diện**, chọn **Dựa trên số lượng**. 
 5. Chọn ưu tiên chi phí và bán hàng cho nguồn lực có thể đặt lịch. Thông thường, khi bao gồm như là một phương diện định giá, một nguồn lực có thể đặt lịch có ưu tiên cao nhất, nên việc đặt thành **1** (hoặc **0** tùy thuộc vào cách bạn đếm ưu tiên) sẽ đảm bảo hành vi đó.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Thiết lập tên trường phương diện định giá
 
 Khi tên trường của một phương diện định giá trong bảng **Giá theo vai trò** khác với tên trường trong bất kỳ thực thể nào khác, trong đó giá mặc định cần để làm việc, thì bản ghi phương diện định giá phải cho biết các tên khác nhau.    
-Đối với nguồn lực có thể đặt chỗ, thực thể **Thành viên nhóm dự án** có tên trường hơi khác một chút ( **msdyn_bookableresourceid** ) so với trên thực thể **Giá theo vai trò** ( **msdyn_bookableresource** ). Bản ghi phương diện định giá cho **msydn_bookableresource** phải thể hiện điều này. 
+Đối với nguồn lực có thể đặt chỗ, thực thể **Thành viên nhóm dự án** có tên trường hơi khác một chút (**msdyn_bookableresourceid**) so với trên thực thể **Giá theo vai trò** (**msdyn_bookableresource**). Bản ghi phương diện định giá cho **msydn_bookableresource** phải thể hiện điều này. 
 1. Để thực hiện việc này, nhấp đúp vào hàng trong lưới **Phương diện định giá** để mở trang phương diện của **msdyn_bookableresource**.
-2. Trên trang phương diện, trên tab **Liên quan** , nhấp vào **Tên trường phương diện định giá**.
+2. Trên trang phương diện, trên tab **Liên quan**, nhấp vào **Tên trường phương diện định giá**.
 
  ![Tab tên trường phương diện định giá](media/PD-fieldname.png)
 

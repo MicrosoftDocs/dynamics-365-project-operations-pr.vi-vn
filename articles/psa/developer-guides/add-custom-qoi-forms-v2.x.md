@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087302"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144619"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Thêm biểu mẫu thực thể tuỳ chỉnh mới (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Trường loại 
 
-Dynamics 365 Project Service Automation phụ thuộc vào trường **Loại** ( **msdyn\_ordertype** ) của thực thể Cơ hội, Báo giá, Đơn đặt hàng và Hóa đơn để phân biệt các phiên bản **dựa trên công việc** của các thực thể này từ phiên bản **dựa trên mục** và **dựa trên dịch vụ**. Các phiên bản dựa trên công việc của các thực thể này được xử lý bởi PSA. Rất nhiều logic kinh doanh phía máy khách và phía máy chủ của giải pháp phụ thuộc vào trường **Loại**. Do đó, điều quan trọng là trường được khởi tạo với một giá trị chính xác khi các thực thể được tạo. Một giá trị không đúng có thể gây ra các hành vi không chính xác và một số logic kinh doanh có thể không chạy đúng.
+Dynamics 365 Project Service Automation phụ thuộc vào trường **Loại** (**msdyn\_ordertype**) của thực thể Cơ hội, Báo giá, Đơn đặt hàng và Hóa đơn để phân biệt các phiên bản **dựa trên công việc** của các thực thể này từ phiên bản **dựa trên mục** và **dựa trên dịch vụ**. Các phiên bản dựa trên công việc của các thực thể này được xử lý bởi PSA. Rất nhiều logic kinh doanh phía máy khách và phía máy chủ của giải pháp phụ thuộc vào trường **Loại**. Do đó, điều quan trọng là trường được khởi tạo với một giá trị chính xác khi các thực thể được tạo. Một giá trị không đúng có thể gây ra các hành vi không chính xác và một số logic kinh doanh có thể không chạy đúng.
 
 ## <a name="automatic-form-switching"></a>Chuyển đổi biểu mẫu tự động
 
@@ -47,7 +49,7 @@ Hãy làm theo các bước sau để tạo phiên bản tùy chỉnh của bi�
     > [!IMPORTANT]
     > Không loại bỏ các tập lệnh này. Ngoài ra, một số dữ liệu có thể được khởi tạo không đúng.
 
-3. Xác minh rằng trường **Loại** ( **msdyn\_ordertype** ) có trong biểu mẫu. 
+3. Xác minh rằng trường **Loại** (**msdyn\_ordertype**) có trong biểu mẫu. 
 
     > [!IMPORTANT]
     > Không loại bỏ trường này. Nếu không, các tập lệnh khởi tạo sẽ bị lỗi.

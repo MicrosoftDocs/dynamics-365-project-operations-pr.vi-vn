@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087177"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144889"
 ---
 # <a name="create-custom-fields-and-entities"></a>Tạo các trường và thực thể tùy chỉnh 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Hoàn tất các bước sau bất kỳ lúc nào bạn muốn tạo bộ tùy chọn hoặc thực thể tùy chỉnh trên nền tảng Power Apps.  
 Các quy trình trong chủ đề này sẽ được hoàn thành bằng cách sử dụng giao diện web của Project Service Automation (PSA).
@@ -39,7 +41,7 @@ Kích thước giá có thể là một bộ tùy chọn hoặc một thực th�
 
 ### <a name="entity-based-dimensions"></a>Kích thước dựa trên thực thể
 
-1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp** , rồi nhấp đúp vào **\<your organization name> thông số định giá**.
+1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> thông số định giá**.
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể**.
 3. Nhấp vào **Mới** để tạo một thực thể mới gọi là **Chức vụ tiêu chuẩn**. Nhập các thông tin cần thiết còn lại, sau đó nhấp vào **Lưu**.
 
@@ -47,10 +49,10 @@ Kích thước giá có thể là một bộ tùy chọn hoặc một thực th�
 
 
 ### <a name="option-set-based-dimensions"></a>Kích thước dựa trên bộ tùy chọn 
-Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn. Sử dụng **Vị trí làm việc của nguồn lực** để theo dõi giá của công việc ở vị trí **Nhà** và công việc **Tại chỗ** , cũng như sử dụng **Số giờ làm việc của nguồn lực** với các giá trị **Giờ làm việc** và **Ngoài giờ** để áp dụng đánh dấu khi công việc hoàn tất.
+Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn. Sử dụng **Vị trí làm việc của nguồn lực** để theo dõi giá của công việc ở vị trí **Nhà** và công việc **Tại chỗ**, cũng như sử dụng **Số giờ làm việc của nguồn lực** với các giá trị **Giờ làm việc** và **Ngoài giờ** để áp dụng đánh dấu khi công việc hoàn tất.
 
 
-1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp** , rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
+1. Trong PSA, nhấp vào **Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> thông số định giá**. 
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Bộ tùy chọn**. 
 3. Nhấp vào **Mới** để tạo bộ tùy chọn mới, nhập thông tin yêu cầu còn lại, và sau đó nhấp vào **Lưu**.
 
@@ -63,8 +65,8 @@ Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn. Sử dụ
 
 Bạn có thể tạo dữ liệu cho kích thước dựa trên thực thể theo cách thủ công hoặc bằng cách sử dụng lệnh gọi dịch vụ hoặc nhập Microsoft Excel. Sử dụng các bước trong quy trình này để tạo hai chức vụ tiêu chuẩn là **Kỹ sư hệ thống** và **Kỹ sư hệ thống cấp cao** từ kích thước dựa trên thực thể **Chức vụ tiêu chuẩn**. Nếu dữ liệu bạn muốn tạo nhỏ, như trong ví dụ sau đây, bạn có thể sử dụng biểu mẫu chuẩn.
 
-1. Trong PSA, nhấp vào **Tìm kiếm nâng cao**. Chọn thực thể **Chức vụ tiêu chuẩn** , sau đó nhấp vào **Kết quả**. Tất cả các hàng trong thực thể **Chức vụ tiêu chuẩn** sẽ hiển thị.
-2. Bấm vào **Mới**. Trong trường **Tên** , nhập "Kỹ sư hệ thống", sau đó nhấp vào **Lưu**.
+1. Trong PSA, nhấp vào **Tìm kiếm nâng cao**. Chọn thực thể **Chức vụ tiêu chuẩn**, sau đó nhấp vào **Kết quả**. Tất cả các hàng trong thực thể **Chức vụ tiêu chuẩn** sẽ hiển thị.
+2. Bấm vào **Mới**. Trong trường **Tên**, nhập "Kỹ sư hệ thống", sau đó nhấp vào **Lưu**.
 3. Đóng biểu mẫu. 
 4. Lặp lại bước 1-3 để tạo một chức vụ tiêu chuẩn khác cho "Kỹ sư hệ thống cao cấp".
 
