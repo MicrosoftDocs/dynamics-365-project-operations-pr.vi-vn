@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124124"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147413"
 ---
 # <a name="soft-book-requirements"></a>Đăng ký không chắc chắn yêu cầu
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Yêu cầu nguồn lực có thể được đăng ký chắc chắn. Đăng ký chắc chắn tạo ra đề xuất chiếm năng lực của nguồn lực. Sau đó, đề xuất này được gửi lại cho người yêu cầu để phê duyệt. Đăng ký không chắc chắn dự định bổ sung nguồn lực vào nhóm dự án và có trạng thái khác trên Bảng lịch trình nhưng không chiếm năng lực của nguồn lực. Để đăng ký không chắc chắn nguồn lực từ Bảng lịch trình, hãy đặt trường **Trạng thái đăng ký** thành **Không chắc chắn**.
 

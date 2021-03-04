@@ -17,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d6e0bb669513185ca266858ea9b8a89ed6dd4408
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119894"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147229"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Phát hành bản cập nhật Project Service Automation 18, V3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến, rồi chuyển đến trang giải pháp để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
