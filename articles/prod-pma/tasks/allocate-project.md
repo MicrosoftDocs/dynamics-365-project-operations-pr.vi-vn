@@ -44,3 +44,6 @@ Sau khi ngân sách hoặc mục sửa đổi ngân sách đã được phân b�
 10. Khi cách phân bổ đã đúng như ý bạn muốn, hãy bấm vào Gửi trong trang Ngân sách dự án để gửi ngân sách hoặc mục sửa đổi ngân sách sang quy trình phê duyệt.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

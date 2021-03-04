@@ -61,3 +61,6 @@ Trước khi bạn có thể bắt đầu quá trình thiết lập, các quyế
 
     - Có bất kỳ danh mục phụ nào bị loại trừ khỏi việc thu hồi thuế không?
     - Nhóm thuế bán hàng của các danh mục phụ là gì?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

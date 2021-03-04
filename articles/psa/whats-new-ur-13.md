@@ -59,3 +59,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
      - Đã sửa: Các nút bổ sung cho **Cơ hội mới**, **Báo giá**, **Mô tả đơn hàng** và **Thêm sản phẩm** hiển thị trong các lệnh cho Cơ hội, Báo giá, Sản phẩm đặt hàng và lưới con Mô tả dựa trên dự án.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

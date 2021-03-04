@@ -43,3 +43,6 @@ Nếu báo giá dự án được đóng dưới dạng Đã mất có một d�
 
 > [!NOTE]
 > Trong Project Operations, việc đóng báo giá dưới dạng Đã giành được hay Đã mất sẽ không ảnh hưởng đến trạng thái đó của Cơ hội. Cơ hội sẽ vẫn mở cho đến khi được đóng theo cách thủ công.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

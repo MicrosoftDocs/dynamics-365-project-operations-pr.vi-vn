@@ -67,3 +67,6 @@ Các vấn đề sau đã được khắc phục:
 Các vấn đề sau đã được khắc phục:
 
 - **Tìm nạp tất cả các hạng mục giao dịch** nhấp đúp để tạo nhiều dòng.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Microsoft Power BI cùng Dynamics 365 mang đến cho bạn cách thức mạnh 
 - [Làm việc với mô hình dữ liệu Project Service](reports-working-project-service-data-model.md)
 - [Bảng thông tin](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

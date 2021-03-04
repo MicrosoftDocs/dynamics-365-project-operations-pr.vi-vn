@@ -110,3 +110,6 @@ Khi nâng cấp xong, đơn vị tổ chức trên nhiệm vụ dòng tương �
  
 Việc thay đổi giá trị mặc định của các đơn vị tổ chức thuê ngoài trên các thành viên nhóm chưa tạo là lý do chúng tôi khuyên bạn tạo hoặc tạo lại nhóm trên mỗi dự án có nguồn lực chung trước khi nâng cấp để gán đơn vị không bị mất.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

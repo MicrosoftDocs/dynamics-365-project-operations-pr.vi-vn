@@ -59,3 +59,6 @@ Mỗi dự án có một số thành viên trong nhóm dự án. Bạn có thể
 3. Chọn **Lưu**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

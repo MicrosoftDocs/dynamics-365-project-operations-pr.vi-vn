@@ -43,3 +43,6 @@ Mỗi nguồn lực có thể đặt trước làm việc trong một dự án p
 2. Từ dạng xem lưới, hãy chọn tối đa 25 **Nguồn lực có thể đặt trước** để cập nhật.
 3. Chọn **Đặt lịch** và một hộp thoại sẽ nhắc bạn với danh sách các mẫu giờ làm việc có sẵn.
 4. Chọn mẫu mà bạn muốn dùng, sau đó chọn **Áp dụng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

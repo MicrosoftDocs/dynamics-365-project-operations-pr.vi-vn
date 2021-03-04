@@ -83,3 +83,6 @@ Chủ đề này mô tả các tham số kiểm soát hành vi chung trong Quả
 | Hiển thị chứng thực chống tham nhũng   | Chọn tùy chọn này để hiển thị văn bản chống tham nhũng khi tạo báo cáo chi phí. Khi đó, các danh mục chi phí cụ thể có thể được kích hoạt và yêu cầu phải chọn chứng thực chống tham nhũng trên báo cáo chi phí. Ví dụ: danh mục quà tặng liên quan đến chi phí chính thức của chính phủ có thể yêu cầu nhân viên xác nhận rằng chi phí đó đáp ứng chính sách của công ty liên quan đến các quan chức chính phủ. |
 | Thông điệp chống tham nhũng dành cho người gửi | Nhập văn bản sẽ được hiển thị cho nhân viên đang tạo báo cáo chi phí. Để nhập văn bản theo ngôn ngữ cụ thể sẽ được hiển thị, dựa trên ngôn ngữ người dùng, hãy chọn **Bản dịch**. |
 | Thông điệp chống tham nhũng dành cho người phê duyệt  | Nhập văn bản sẽ được hiển thị cho người phê duyệt khi tạo báo cáo chi phí. Để nhập văn bản theo ngôn ngữ cụ thể sẽ được hiển thị, dựa trên ngôn ngữ người dùng, hãy chọn **Bản dịch**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

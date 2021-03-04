@@ -73,3 +73,6 @@ ms.locfileid: "5144304"
 >[!Note]
 > - Ngày ở tất cả các khu vực ngoại trừ Government Community Cloud (GCC) cho biết thời điểm tiếp theo sẽ tự động cập nhật. Ngày trong GCC cho biết tính khả dụng của phiên bản. Hiện chưa có bản cập nhật tự động cho các khu vực này.
 > - Đối với tất cả các khu vực khác, trong khi hầu hết các bản cập nhật phải được hoàn thành vào đêm hẹn; các bản cập nhật cần nhiều thời gian hơn để hoàn thành vào giờ tối cuối tuần, được chỉ định trong cột **Ngày hẹn**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

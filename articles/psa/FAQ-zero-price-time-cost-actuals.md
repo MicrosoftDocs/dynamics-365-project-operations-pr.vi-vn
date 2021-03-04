@@ -66,3 +66,6 @@ Nếu bạn vẫn không thấy một mức giá hợp lệ trên thực tế th
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

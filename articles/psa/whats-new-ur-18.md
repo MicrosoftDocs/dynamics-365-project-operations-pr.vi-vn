@@ -63,3 +63,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 **Sales**
 
 - Đã sửa: Khi các mục nhập thời gian được phê duyệt lại (**Phê duyệt > Hủy>** phê duyệt lại), giá trị thực tế không tính phí trùng lặp được tạo ra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -288,3 +288,6 @@ Không Được hỗ trợ </p>
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

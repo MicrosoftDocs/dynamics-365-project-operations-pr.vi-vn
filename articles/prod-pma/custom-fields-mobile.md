@@ -429,3 +429,6 @@ Việc nhập danh mục dự án mặc định vào các mục nhập bảng ch
 1. Ứng dụng cố gắng đặt danh mục mặc định từ tài nguyên dự án. Danh mục mặc định này được đặt trong phương pháp **getCurrentUserResource** và **getDeleratingResourcesForCurrentUser** ở lớp **TSTimesheetSettingsService**.
 2. Nếu danh mục mặc định không được cung cấp ở cấp tài nguyên dự án, thì ứng dụng sẽ cố gắng lấy dữ liệu này từ hoạt động dự án. Danh mục mặc định này được đặt trong phương pháp **getActictivityForProject** ở lớp **TSTimesheetProjectService**.
 3. Nếu danh mục mặc định không được cung cấp ở cấp hoạt động, thì dữ liệu này sẽ được lấy từ tham số dự án. Danh mục mặc định này được đặt trong phương pháp **getProjectDetailsbyRule** ở lớp **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Danh mục dự án đại diện cho mức độ chi tiết nhất của cấu 
 Nhóm danh mục được sử dụng để chia sẻ thuộc tính, chủ yếu đăng hồ sơ, giữa các danh mục dự án có liên quan. Phải có ít nhất một nhóm danh mục cho mỗi loại giao dịch và mỗi danh mục dự án được chỉ định một nhóm.
 
 Thông số kỹ thuật đăng trong Project Operations được xác định bởi các quy tắc về hồ sơ doanh thu và chi phí dự án, danh mục dự án và nhóm danh mục. Bạn có thể thiết lập các nhóm danh mục bằng cách đi đến **Kế toán và quản lý dự án** \> **Thiết lập** \> **Danh mục** \> **Nhóm danh mục**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

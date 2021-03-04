@@ -72,3 +72,6 @@ Các vấn đề sau đã được khắc phục:
 - Việc đóng báo giá ở trạng thái thành công sẽ không chuyển đến hợp đồng đã tạo nếu BPF đính kèm với báo giá đang ở giai đoạn cuối cùng.
 - **Bán hàng Chưa lập hóa đơn** đảo ngược được liên kết với chi phí ban đầu khi mục nhập thời gian được thu hồi.
 - Sau khi chọn nút **Xác nhận**, trạng thái hóa đơn chỉ thay đổi thành **Đã xác nhận** khi hóa đơn được làm mới.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

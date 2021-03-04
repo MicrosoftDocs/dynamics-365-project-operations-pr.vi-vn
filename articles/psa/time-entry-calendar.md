@@ -42,3 +42,6 @@ Lịch không hỗ trợ hành động đối với các mục riêng lẻ trên
 ## <a name="extensibility"></a>Khả năng mở rộng
 
 Trên trang **Mục nhập thời gian** có lưới mục nhập thời gian, bạn có thể thêm các trường tùy chỉnh, thiết lập trường tra cứu và tạo dạng xem tùy chỉnh. Bạn cũng có thể thiết lập logic kinh doanh tùy chỉnh dựa trên các giá trị được chọn hoặc nhập vào các trường tùy chỉnh.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Báo giá Project Operations được xây dựng dựa trên báo giá Dynamics
 - Báo giá Project Operations có biểu mẫu và thành phần giao diện người dùng riêng, quy tắc công việc, logic kinh doanh trong phần bổ trợ và kịch bản phía khách hàng khiến chúng trở nên riêng biệt so với báo giá Sales.
 
 Vì những lý do này, không nên sử dụng báo giá Sales và báo giá Project Operations thay thế cho nhau.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

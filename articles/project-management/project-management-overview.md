@@ -26,3 +26,6 @@ Các công cụ quản lý dự án trong Dynamics 365 Project Operations giúp 
 - Sử dụng ước tính dự án trong quá trình bán hàng.
 - Dự báo yêu cầu nguồn lực cho dự án đang trong quy trình bán hàng.
 - Cung cấp thành công dự án bằng theo dõi tiến độ và mức sử dụng chi phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

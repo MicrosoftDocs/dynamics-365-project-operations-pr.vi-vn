@@ -96,3 +96,6 @@ Việc đặt ra ưu tiên thông số sẽ giúp tính năng định giá tạo
 
 - **Ưu tiên về chi phí**: Giá trị ưu tiên chi phí của một thông số sẽ chỉ ra trọng số của thông số đó khi so khớp trong quá trình thiết lập giá chi phí. Giá trị **Ưu tiên chi phí** phải là duy nhất trên các thông số **Áp dụng cho chi phí**.
 - **Ưu tiên về doanh số**: Giá trị ưu tiên doanh số của một thông số sẽ chỉ ra trọng số của thông số đó khi so khớp trong quá trình thiết lập giá bán hàng hoặc tỷ suất hóa đơn. Giá trị **Ưu tiên doanh số** phải là duy nhất trên các thông số **Áp dụng cho doanh số**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

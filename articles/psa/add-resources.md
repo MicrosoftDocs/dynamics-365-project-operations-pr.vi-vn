@@ -55,3 +55,6 @@ Bạn có thể gán nguồn lực cho đơn vị tổ chức nếu bạn cần 
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

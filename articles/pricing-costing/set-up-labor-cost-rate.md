@@ -84,3 +84,6 @@ Trong bảng giá vốn cho Fabrikam UK-Robotics, tỷ lệ chi phí có thể �
 | Nhà phát triển | Fabrikam Vương quốc Anh | 115 GBP |
 
 Bảng giá vốn có thể cung cấp tỷ giá nhân công bằng nhiều đơn vị tiền tệ. Khi tạo ước tính chi phí cho dự án, Project Operations sẽ chuyển đổi các tỷ lệ chi phí này thành đơn vị tiền tệ của dự án và hiển thị cho người dùng. Khi mục nhập thời gian được chấp thuận và chi phí thực tế được tạo, chi phí thực tế được định giá bằng đơn vị tiền tệ của mô tả giá theo vai trò phù hợp trên bảng giá vốn. Chi phí thực tế cho thời gian cho một dự án có thể được ghi lại bằng nhiều đơn vị tiền tệ. Tuy nhiên, khi tính tổng hoặc tổng hợp chi phí lao động thực tế ở cấp độ dự án, Project Operations sẽ chuyển đổi tất cả các khoản chi phí lao động sang đơn vị tiền tệ của dự án mà người dùng có thể xem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

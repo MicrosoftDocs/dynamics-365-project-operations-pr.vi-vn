@@ -46,3 +46,6 @@ Khi mô tả báo giá dựa trên danh mục sản phẩm, bạn có thể thay
 Nếu bạn chọn **Thay thế giá**, giá mặc định sẽ không được đặt. Thay vào đó, bạn phải nhập giá cho sản phẩm trên mô tả báo giá. Nếu bạn chọn **Sử dụng giá mặc định**, giá bán mặc định sẽ được dùng và trường bị khóa không cho chỉnh sửa.
 
 Giá bán mặc định được nhập trên mô tả theo sản phẩm trong báo giá. Sau đó, trường **Giá** được đặt thành **Thay thế giá** để bạn có thể chỉnh sửa giá mặc định trên mô tả báo giá. Đây là một tính năng thay thế dành riêng cho Project Operations đối với các hành vi mô tả dựa trên sản phẩm trong Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

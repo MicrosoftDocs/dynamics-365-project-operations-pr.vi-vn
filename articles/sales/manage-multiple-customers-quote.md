@@ -51,3 +51,6 @@ Một khách hàng nhận báo giá có thể được tạo, cập nhật hoặ
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán chia tách bằng cách sử dụng trải nghiệm chỉnh sửa lưới nội tuyến. Khi tỷ lệ phần trăm thanh toán chia tách không có tổng bằng 100%, sẽ xảy ra lỗi. Sau khi bạn cập nhật tỷ lệ phần trăm thanh toán chia tách, hãy làm mới trang để xóa lỗi.
 
 Bạn cũng có thể thử chọn **Phân phối đồng đều** trên lưới con của khách hàng báo giá. Hành động này phân bổ phần tách thanh toán cho tất cả các khách hàng nhận báo giá. Nếu có bất kỳ hệ số làm tròn nào, yếu tố đó sẽ được thêm vào khách hàng làm tròn. Một trong những khách hàng nhận báo giá luôn được gắn thẻ là khách hàng làm tròn. điều này có nghĩa là bản ghi khách hàng nhận báo giá có cờ **Làm tròn** được đặt thành **Đúng**. Thông thường, đây là khách hàng chính của báo giá, nhưng điều đó có thể được thay đổi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

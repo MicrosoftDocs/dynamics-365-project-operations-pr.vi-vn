@@ -33,3 +33,6 @@ Từ lưới **Thành viên Nhóm**, Người quản lý dự án có thể nế
 ## <a name="schedule-board"></a>Bảng lịch trình
 
 Từ **Bảng lịch trình**, Người quản lý nguồn lực có chế độ xem hồ sơ của tất cả các đăng ký trong một tổ chức. Từ dạng xem này, Người quản lý nguồn lực có thể mở rộng, rút ngắn hoặc di chuyển các đăng ký hiện có tương tự như các khả năng được cung cấp trong **Duy trì Đăng ký**. Người quản lý nguồn lực cũng có thể thay thế các nguồn lực hiện được phân bổ cho một đăng ký cụ thể bằng cách bấm chuột phải vào đăng ký đó và chọn **Thay thế Nguồn lực**. Người quản lý nguồn lực cũng có thể chỉnh sửa mục phân phối giờ làm việc của các đăng ký hiện có bằng cách bấm chuột phải vào đăng ký và chọn **Chỉnh sửa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

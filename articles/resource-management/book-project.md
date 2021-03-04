@@ -66,3 +66,6 @@ Là người quản lý dự án, bạn có thể cần đăng ký nguồn lực
 
 > [!NOTE]
 > Phương pháp này không tạo bất kỳ lượt đăng ký nào cho nguồn lực. Thay vào đó, phương thức này sẽ thêm nguồn lực vào nhóm. Sau khi thành viên trong nhóm đã được thêm vào dự án, người quản lý dự án có thể sử dụng các lượt đăng ký duy trì hoặc mở rộng lượt đăng ký để thêm các lượt đăng ký cần thiết vào nguồn lực.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

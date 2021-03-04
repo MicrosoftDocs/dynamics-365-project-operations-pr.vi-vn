@@ -35,3 +35,6 @@ Khi bạn tạo một dòng hợp đồng với những thuộc tính sau trong 
 
   Bạn có thể thiết lập chi phí dự án, hồ sơ doanh thu, mẫu chi phí và mã chu kỳ theo cách thủ công. Nếu không đặt được theo cách thủ công, giá trị ước tính mặc định trong lần tính toán đầu tiên của dự án sẽ áp dụng các quy tắc như trong cấu hình hồ sơ doanh thu và chi phí dự án.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Bảng giá dựa vào các loại vai trò và chi phí, vì vậy trước khi
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

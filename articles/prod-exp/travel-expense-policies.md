@@ -51,3 +51,6 @@ Dưới đây là một số gợi ý có thể hỗ trợ bạn khi tạo các 
 ## <a name="when-to-evaluate-policies"></a>Thời điểm đánh giá chính sách
 
 Trong các tham số quản lý chi phí, có thể đánh giá các chính sách quản lý chi phí khi một dòng được lưu hoặc khi báo cáo chi phí được gửi. Nếu bạn chọn đánh giá vào thời điểm lưu dòng, điều này đảm bảo rằng người dùng sớm thấy được những gì mình cần làm để hoàn thành báo cáo chi phí của mình cùng một lúc. Nếu không, bạn có thể trì hoãn việc đánh giá chính sách và tiết kiệm thời gian nếu có xác thực vào lúc cuối, trong khi gửi lên quy trình làm việc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Công ty của bạn có thể tổ chức hoạt động tư vấn theo địa 
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Dưới đây là các tab và KPI có sẵn trên báo giá dự án dành riê
 | Phân tích suất sinh lợi | Tab trên Báo giá | Tab hiển thị các số liệu sau đây:</br>- Tổng chi phí có thể tính phí</br></br>- Tổng chi phí không thể tính phí</br>- Tổng doanh thu</br>- Tổng doanh thu (gốc)</br>- Lãi gộp</br>- Lãi gộp đã điều chỉnh|
 | So sánh với Kỳ vọng của Khách hàng | Tab trên Báo giá | Tab này hiển thị các số liệu sau đây:</br>- Hoàn thành ước tính</br>- Hoàn thành đã yêu cầu</br>- Ngân sách khách hàng</br>- Giá trị báo giá |
 | Phân tích báo giá | Tab trên Báo giá | Tab này tóm tắt các KPI hàng đầu sau đây cho báo giá dự án</br>- So sánh với kỳ vọng của khách hàng về ngân sách và lịch trình</br>- Lãi gộp</br>- Lãi gộp đã điều chỉnh |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

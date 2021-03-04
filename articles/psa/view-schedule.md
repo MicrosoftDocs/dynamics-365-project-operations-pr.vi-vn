@@ -45,3 +45,6 @@ Khi bạn muốn xem những việc bạn đang làm trong tuần, hãy xem lị
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

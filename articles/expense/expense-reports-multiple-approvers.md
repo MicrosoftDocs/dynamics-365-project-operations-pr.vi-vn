@@ -41,3 +41,6 @@ Nếu quyết định yêu cầu nhiều người phê duyệt báo cáo chi ph�
 
     1. Người quản lý của nhân viên phê duyệt báo cáo chi phí.
     2. Chủ ngân sách phê duyệt báo cáo chi phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

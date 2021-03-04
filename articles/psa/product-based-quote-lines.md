@@ -82,3 +82,6 @@ Các thuộc tính **Không có người dùng** và **Không có tháng** có t
 
 > ![Gắn cờ Không có người dùng và Không có tháng ở dạng các yếu tố chất lượng](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

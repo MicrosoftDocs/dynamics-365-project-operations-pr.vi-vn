@@ -81,3 +81,6 @@ Các vấn đề sau đã được khắc phục:
 - Nút **Làm mới giá trị thực tế** tính toán không chính xác các nhiệm vụ tóm tắt.
 - Phần bổ trợ Microsoft Project: Khắc phục lỗi tham chiếu rỗng nếu bất kỳ thành viên nào trong nhóm có đơn vị cung ứng nguồn lực trống.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Bạn nên sử dụng các quy tắc xác thực bổ trợ đối với mọi 
 
 > [!IMPORTANT] 
 > Hiện tại, một sự cố đã biết trên trang TBX ngăn người dùng điều chỉnh thông tin và chọn lại Xong khi bản cập nhật không xác nhận được phần bổ trợ. Để khắc phục, hãy thiết lập các quy tắc xác thực quy tắc công việc để ngăn chặn tình huống này nhiều nhất có thể.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

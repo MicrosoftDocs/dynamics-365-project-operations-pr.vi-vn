@@ -91,3 +91,6 @@ Thực hiện các bước tương tự như với mã ưu đãi đầu tiên. B
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Cài đặt cấu hình CDS và thiết lập dữ liệu demo
 
 Cài đặt cấu hình CDS và thiết lập dữ liệu demo bằng cách làm theo các hướng dẫn trong chủ đề [Áp dụng dữ liệu cấu hình và thiết lập demo](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

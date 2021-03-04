@@ -41,3 +41,6 @@ Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng 
 Trạng thái yêu cầu của thành viên nhóm chung sẽ thay đổi thành **Đã gửi**.
 
 Sau khi người quản lý nguồn lực thực hiện yêu cầu này, nguồn lực chung sẽ được thay thế bằng một nguồn lực được đặt tên nếu người quản lý nguồn lực thực hiện yêu cầu và đặt nguồn lực được đặt tên. Ngoài ra, nguồn lực chung sẽ vẫn còn trong nhóm và trạng thái yêu cầu sẽ thay đổi thành **Cần đánh giá**, nếu người quản lý nguồn lực đã đề xuất một tài nguyên được đặt tên.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

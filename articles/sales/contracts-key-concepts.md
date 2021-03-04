@@ -88,3 +88,6 @@ Lịch trình hóa đơn là dữ liệu cụ thể cho từng mục mô tả h�
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Các thay đổi so với đơn hàng Dynamics 365 Sales
 
 Hợp đồng trong Project Operations được xây dựng dựa trên Đơn hàng trong Dynamics 365 Sales. Tuy nhiên, có một số điểm khác biệt quan trọng về chức năng. Hợp đồng có biểu mẫu, thành phần giao diện người dùng, quy tắc công việc, phần bổ trợ lô-gic kinh doanh và tập lệnh phía máy khách riêng, khác hẳn với những dữ liệu trong Đơn hàng. Vì vậy, bạn không được sử dụng đơn hàng Sales và hợp đồng Project Operations hoán đổi cho nhau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

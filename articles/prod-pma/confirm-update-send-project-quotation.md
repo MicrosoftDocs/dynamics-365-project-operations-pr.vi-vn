@@ -57,3 +57,6 @@ Nếu bạn muốn sửa đổi báo giá dự án hiện có, thì trạng thá
 
 > [!NOTE]
 > Bạn không thể sửa đổi báo giá dự án sau khi trạng thái được thay đổi thành **Đã gửi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

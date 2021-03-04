@@ -43,3 +43,6 @@ Chọn loại hình triển khai này để sử dụng Dynamics 365 Project Ope
 - Một công cụ cho tỷ giá hối đoái và thuế bán hàng cấp doanh nghiệp để tạo hóa đơn dành cho khách hàng của dự án.
 - Hệ thống ghi nhận doanh thu và kế toán của dự án tuân thủ Tiêu chuẩn báo cáo tài chính quốc tế (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

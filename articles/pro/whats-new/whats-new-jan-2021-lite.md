@@ -41,3 +41,6 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | **Quản lý cơ hội** | 2040713 | Đã sửa lỗi tập lệnh xảy ra khi tạo hóa đơn từ hợp đồng và khi cài đặt Field Service. |
 | **Hoạch định và theo dõi dự án** | 2090202 | Đã đánh dấu các quy tắc công việc không còn dùng đến là **Không dùng nữa**. |
 | **Thời gian và Chi phí** | 2091249 | Đã siết chặt các tùy chọn kiểm soát để người dùng không thể thay đổi nhiệm vụ trên mục nhập thời gian đã gửi hoặc đã phê duyệt. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

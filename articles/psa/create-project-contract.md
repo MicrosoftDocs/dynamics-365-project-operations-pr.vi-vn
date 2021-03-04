@@ -47,3 +47,6 @@ Bây giờ bạn đã giành được báo giá cho dự án của bạn, đây 
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

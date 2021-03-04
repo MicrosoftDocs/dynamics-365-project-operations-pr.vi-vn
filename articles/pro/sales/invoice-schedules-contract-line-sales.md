@@ -74,3 +74,6 @@ Bạn có thể tạo các mốc giá cố định theo cách thủ công khi c�
 | Thuế | Tạo nhanh | Số tiền thuế được áp cho mốc. | Ngày này được bao gồm trong hóa đơn và mốc của phần mô tả hợp đồng dự án. |
 
 4. Chọn **Lưu và Đóng**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
     - Đã sửa lỗi: Đã tìm thấy ID đối tượng trùng lặp trong biểu mẫu **chính của Hợp động**.
     - Đã sửa lỗi: Logic đã được cập nhật để hiển thị tab **Phân tích báo giá** sao cho tab này hiển thị thiết lập siêu dữ liệu của tab.
     - Đã sửa lỗi: Ngày tháng kế toán trên bản ghi thực bắt nguồn từ ngày nhập thời gian/chi phí và không phải ngày phê duyệt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

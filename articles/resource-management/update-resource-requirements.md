@@ -37,3 +37,5 @@ Với tư cách là người quản lý Dự án, hãy hoàn thành các bước
 ## <a name="edit-resource-assignment-contours"></a>Chỉnh sửa đường cong gán nguồn lực
 
 Ngoài việc chỉnh sửa thông tin chi tiết của các yêu cầu nguồn lực, người quản lý Dự án có thể cập nhật các đường cong riêng của yêu cầu nguồn lực bằng cách sử dụng chức năng **Chỉ định mẫu**. Sau khi chọn **Chỉ định mẫu**, một trang sẽ mở và bạn có thể xem các đường cong theo thang thời gian tính bằng ngày, tuần hoặc tháng. Mỗi đường cong có thể được điều chỉnh về thời gian bắt đầu, thời gian kết thúc và tổng nhân công trong một khoảng thời gian nhất định.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Danh sách tất cả báo giá dự án có trên trang danh sách **Báo giá*
 2. Sử dụng **Bộ chuyển dạng xem** để chọn các chế độ đã lọc khác của báo giá. Sử dụng tiêu chí bộ lọc tùy chỉnh, bạn có thể định cấu hình các dạng xem và tùy chọn điều hướng của riêng mình.
 
 Có thể tạo hoặc xóa báo giá khỏi trang danh sách này hoặc các trang chi tiết.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

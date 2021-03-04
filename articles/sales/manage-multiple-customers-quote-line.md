@@ -44,3 +44,6 @@ Bảng sau hiển thị các trường trên bản ghi khách hàng nhận mô t
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán chia tách nội tuyến. Khi tỷ lệ phần trăm thanh toán chia tách không có tổng bằng 100% thì lỗi sẽ xảy ra. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán chia tách, hãy làm mới trang mô tả báo giá để xóa lỗi.
 
 Sử dụng hành động phân bổ đồng đều trên lưới con của khách hàng nhận mô tả báo giá để phân bổ phần tách thanh toán cho tất cả khách hàng nhận mô tả báo giá. Nếu có hệ số làm tròn, yếu tố đó sẽ được thêm vào khách hàng làm tròn. Một trong những khách hàng nhận mô tả báo giá luôn được gắn thẻ là khách hàng làm tròn, có nghĩa là bản ghi khách hàng nhận mô tả báo giá có cờ làm tròn được đặt thành **Đúng**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

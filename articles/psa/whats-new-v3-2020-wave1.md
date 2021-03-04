@@ -43,3 +43,6 @@ Ngoài ra, nếu bạn có bất kỳ mô-đun ứng dụng tùy chỉnh nào ba
 
 ### <a name="currently-extended-time-entry-changes"></a>Các thay đổi của mục nhập thời gian hiện được gia hạn
 Để giảm thiểu tác động đến người dùng hiện tại của mục nhập thời gian, thay đổi vai trò này là yêu cầu cốt lõi duy nhất cần thiết để tiếp tục sử dụng mục nhập thời gian. Nếu bạn đã tạo dạng xem tùy chỉnh hoặc trải nghiệm mục nhập thời gian riêng biệt, bạn phải đặt trường **Cài đặt mục nhập thời gian** thành giá trị PSA chính xác.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

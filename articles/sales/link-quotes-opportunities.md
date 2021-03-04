@@ -56,3 +56,6 @@ Báo giá hiện có có thể được liên kết với Cơ hội. Hoàn thàn
    Khi bạn chuyển một cơ hội sang giai đoạn này, bạn có thể chọn báo giá này từ danh sách các báo giá được liên kết với cơ hội này. Việc chọn báo giá này cho thấy rằng bạn đang tiếp tục với báo giá.
 
    Tất cả báo giá khác được liên kết với Cơ hội sẽ vẫn có sẵn và hiện hoạt cho đến khi bạn giành được một trong số các báo giá đó. Bạn có thể chuyển quy trình bán hàng trở lại giai đoạn trước đó là giai đoạn **Định tính** rồi chọn một báo giá khác để tiếp tục.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations hỗ trợ nhiều mô hình triển khai. Để xác định
 2. Cài đặt **Microsoft Dynamics 365 Project Operations** từ danh sách triển khai của các ứng dụng Dynamics 365. Để biết thêm thông tin, hãy xem [Quản lý ứng dụng Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Khi pháp nhân cho vay USSI đăng hóa đơn cho khách hàng liên công ty, 
 Để biết thêm thông tin, hãy xem [Đặt cấu hình việc lập hóa đơn dự án liên công ty](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

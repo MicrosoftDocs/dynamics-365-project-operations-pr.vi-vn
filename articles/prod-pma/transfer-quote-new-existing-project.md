@@ -36,3 +36,6 @@ Khi báo giá dự án có trạng thái **Đã xác nhận** , bạn có thể 
 1. Chuyển tới **Quản lý dự án và kế toán** > **Báo giá** > **Báo giá dự án**.
 2. Chọn báo giá bạn muốn chuyển và trên tab **Theo dõi** , trong nhóm **Sửa đổi** , chọn **Chuyển sang dự án**.
 3. Làm theo thuật sĩ **Chuyển báo giá sang dự án** để liên kết và chuyển báo giá với một dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

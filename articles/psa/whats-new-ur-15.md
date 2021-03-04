@@ -63,3 +63,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
   - Đã sửa lỗi: Không còn nhận thông báo lỗi trong **Tra cứu dự án** trong biểu mẫu **Mô tả báo giá** khi có hơn 1000 dự án.
   - Đã sửa lỗi: Lưới **ước tính** cho ước tính lao động và ước tính chi phí hiện hiển thị ký hiệu tiền tệ chính xác.
   - Đã sửa lỗi: Sau khi tổ chức cập nhật PSA từ Bản phát hành cập nhật 14 thành Bản phát hành cập nhật 15, tab **Lịch trình** không còn xuất hiện dưới dạng trống trên biểu mẫu **Dự án**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

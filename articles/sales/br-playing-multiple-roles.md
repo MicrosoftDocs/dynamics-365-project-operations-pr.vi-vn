@@ -106,3 +106,6 @@ Khi mở rộng hàng này cho bản ghi thành viên nhóm đó, bạn có th�
 ### <a name="estimates-grid"></a>Lưới ước tính 
 
 Trên lưới **Ước tính**, 2 lượt phân công của cùng một nguồn lực sẽ có giá khác nhau. Lượt phân công nguồn lực cho **Nhiệm vụ A** được tính theo giá trị của thuộc tính **Vai trò** là **Tư vấn trưởng**. Lượt phân công cũng của nguồn lực đó cho **Nhiệm vụ B** được tính theo giá trị của thuộc tính **Vai trò** là **Kỹ thuật viên mạng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

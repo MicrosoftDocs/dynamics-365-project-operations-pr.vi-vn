@@ -47,3 +47,6 @@ Dự án của khách hàng yêu cầu nhiều kỹ năng khác nhau để hoàn
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

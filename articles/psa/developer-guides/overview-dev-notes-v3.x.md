@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x cung cấp các tính năng mới, t
 - [Các thay đổi về thời gian và chi phí (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Thay đổi quản lý nguồn lực (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Nguồn lực web không dùng nữa trong Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

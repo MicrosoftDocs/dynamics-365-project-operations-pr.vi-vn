@@ -70,3 +70,6 @@ Bạn có thể nhập dữ liệu từ các mục đặt trước và chỉ đ�
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Nhóm theo, sắp xếp, tìm kiếm và lọc khả năng
 
 Bạn có thể nhóm và lọc các mục nhập thời gian theo các thứ nguyên được chỉ định trong các cột. Trong trường **Nhóm theo**, hãy chọn thông số cần sử dụng để lọc các mục nhập thời gian. Bạn cũng có thể sắp xếp các bản ghi mục nhập thời gian theo thứ tự tăng dần hoặc giảm dần bằng cách sử dụng mũi tên sắp xếp trên các tiêu đề cột. Ngoài ra, bạn có thể hiển thị hoặc ẩn các mục nhập bằng cách chọn nút **Lọc** trên tiêu đề cột, rồi sau đó, trong hộp **Tìm kiếm**, nhập văn bản sẽ được sử dụng để tìm kiếm mục nhập thời gian theo tên dự án, nhiệm vụ dự án, mục nhập thời gian hoặc nguồn lực.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

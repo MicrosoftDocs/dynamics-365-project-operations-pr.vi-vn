@@ -43,3 +43,6 @@ Nên chọn loại hình triển khai này nếu điều kỳ vọng ở Project
 - Yêu cầu một công cụ hiệu quả cho tỷ giá hối đoái và thuế bán hàng cấp doanh nghiệp để tạo hóa đơn dành cho khách hàng của dự án.
 - Hệ thống ghi nhận doanh thu và kế toán của dự án tuân thủ Tiêu chuẩn báo cáo tài chính quốc tế (IFRS).
 - Các ứng dụng Finance hoặc Supply Chain Management và sự tích hợp các giao dịch dựa trên dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

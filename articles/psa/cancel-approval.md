@@ -62,3 +62,6 @@ Dự án cũng bị ảnh hưởng về tài chính khi phê duyệt bị hủy 
 Tiếp theo, mục nhập đảo ngược được tạo trong bảng Thực tế. Để tạo các mục nhập đảo ngược, hệ thống sẽ sao chép trên các giá trị trường từ thực tế gốc. Giá trị duy nhất không được sao chép sang là giá trị số lượng. Các giá trị này bị đảo ngược. Thực tế đảo ngược được tạo cho cả thực tế **Chi phí** và **Doanh số chưa lập hóa đơn**. Trường **Trạng thái điều chỉnh** trên thực tế đảo ngược được đặt thành **Không thể điều chỉnh** và trạng thái lập hóa đơn được đặt thành **Đã hủy**.
 
 Sau khi thực hiện các thay đổi này, số lượng được ghi dưới dạng đã sử dụng trên dự án và nhật ký doanh thu trên dự án sẽ không tính đến số lượng của những thực tế này nữa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

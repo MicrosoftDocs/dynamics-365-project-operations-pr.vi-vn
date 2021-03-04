@@ -35,3 +35,6 @@ Tất cả các hóa đơn dự án đã tạo đều có sẵn trên trang **H�
 Hóa đơn ước giá cũng có thể được tạo từ trang chi tiết **Hợp đồng dự án**. Hệ thống xác minh hợp đồng dự án có mục tồn đọng **Đã sẵn sàng để lập hóa đơn** được đề ngày trước ngày hôm nay. Từ các hợp đồng này, hệ thống tạo hóa đơn ước giá nháp dựa trên số lượng khách hàng trên mỗi mục mô tả hợp đồng.
 
 Khi có một hóa đơn ước giá được tạo,trang **Hóa đơn** sẽ mở ra. Nếu có nhiều hóa đơn được tạo cho hợp đồng dự án đó, trang danh sách **Hóa đơn** mở ra để hiển thị tất cả các hóa đơn đã tạo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

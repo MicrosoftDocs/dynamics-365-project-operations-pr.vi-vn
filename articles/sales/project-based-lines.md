@@ -33,3 +33,6 @@ Dưới đây là các trường trên mô tả cơ hội dựa trên dự án:
 | Tên | Tab tổng quát | Đây là trường văn bản có thể chỉnh sửa dùng để cung cấp thông tin nhận dạng ngắn gọn cho mục mô tả này | Giá trị này được đưa sang mô tả báo giá khi bạn tạo báo giá từ cơ hội này |
 | Ngân sách Khách hàng | Tab tổng quát | Trường đơn vị tiền tệ có thể chỉnh sửa này dùng để theo dõi số tiền mà khách hàng sẵn sàng chi cho mục mô tả này. | Giá trị này được đưa sang trường tương ứng trên mô tả báo giá khi bạn tạo báo giá từ cơ hội này |
 | Phương thức Thanh toán | Tab tổng quát | Trường có thể chỉnh sửa này có các giá trị sau đây:</br>- Thời gian và vật tư</br>- Giá cố định | Giá trị này được đưa sang trường tương ứng trên mô tả báo giá khi bạn tạo báo giá từ cơ hội này. Sau khi mô tả báo giá được tạo, trường bị khóa và không thay đổi được. Gán giá trị trường này càng chính xác càng tốt. Nếu bạn cần thay đổi giá trị của trường này trên mô tả báo giá, hãy xóa và tạo lại mô tả báo giá. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

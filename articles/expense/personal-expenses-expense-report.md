@@ -28,3 +28,6 @@ Có hai phương pháp bạn có thể sử dụng để giải quyết các chi
   - **Do công ty trả**: Tổ chức của bạn thanh toán toàn bộ hóa đơn tính vào thẻ tín dụng công ty, sau đó ghi nợ các chi phí cá nhân vào tài khoản của nhân viên.
 
 Bạn có thể chọn phương pháp mà tổ chức sẽ sử dụng trên trang **Các tham số quản lý chi phí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

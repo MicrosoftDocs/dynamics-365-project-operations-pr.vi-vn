@@ -440,3 +440,6 @@ Sau khi báo cáo được tính toán, bạn có thể xem thông tin sau ở c
 -   **Tiêu dùng** – Thông tin về mức tiêu dùng giờ, mặt hàng, chi phí và các giao dịch tính lương.
 -   **Hóa đơn** – Thông tin về hóa đơn và việc lập hóa đơn trên tài khoản.
 -   **Tỷ lệ giờ** – Tỷ lệ giờ đối với những giờ được đăng vào tài khoản doanh thu và chi phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

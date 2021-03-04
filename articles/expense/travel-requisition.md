@@ -56,3 +56,6 @@ Chọn tiêu chuẩn đi lại mà bạn muốn phê duyệt, sau đó chọn **
 
 > [!NOTE]
 > Khi bạn lập bản đồ báo cáo chi phí với tiêu chuẩn đi lại đã được phê duyệt, số tiền giao dịch không được lớn hơn số tiền được ủy quyền. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

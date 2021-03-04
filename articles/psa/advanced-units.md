@@ -112,3 +112,6 @@ Không. Ước tính lịch trình hiện bị giới hạn ở giờ và không
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Có thể chỉnh sửa, xóa và thêm đơn vị cũng như nhóm đơn vị đo không?
 Có chứ. Trừ trường hợp nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**, có thể xóa hoặc chỉnh sửa tất cả các đơn vị, đồng thời có thể thêm đơn vị mới. Trong PSA, không thể xóa nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**. Tuy nhiên, có thể cập nhật các đơn vị này bằng một văn bản đã dịch cho trường **Tên**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

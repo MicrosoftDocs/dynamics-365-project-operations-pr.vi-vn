@@ -72,3 +72,6 @@ Bạn cũng có thể thiết lập bảng giá dự án dành riêng cho khách
 ## <a name="custom-pricing-on-a-project-contract"></a>Mức giá tùy chỉnh trên hợp đồng dự án
 
 Sau khi bạn có bảng giá dự án mặc định cho tổ chức và khách hàng cụ thể, các hợp đồng dự án của bạn sẽ tự động được tạo với các liên kết bảng giá dự án này. Tuy nhiên, các bảng giá dự án trong hợp đồng dự án sẽ luôn được sao chép cùng với ngày tháng và tên hợp đồng được gắn kèm. Khi đó, người quản lý dự án và khách hàng có thể bắt đầu chỉnh sửa mức giá trên các bản sao nói trên. Các mức giá đã thay đổi sẽ chỉ áp dụng cho hợp đồng dự án này.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

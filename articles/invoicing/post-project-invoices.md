@@ -30,3 +30,6 @@ Người quản lý dự án có thể xem xét các giao dịch bán hàng chư
 Bạn có thể [tạo thủ công hóa đơn ước giá](../proforma-invoicing/create-manual-proforma-invoice.md) hoặc sử dụng một [quy trình định kỳ](../proforma-invoicing/configure-automated-invoice-creation.md). Người quản lý dự án có thể [điều chỉnh bản nháp hóa đơn ước giá](../proforma-invoicing/manage-proforma-invoice.md) khi cần rồi xác nhận hóa đơn.
 
 Hóa đơn ước giá đã xác nhận được gửi đến mô-đun **Quản lý dự án và kế toán** trong phần Finance. Kế toán dự án định dạng và cập nhật đề xuất hóa đơn dự án, sau đó đăng và in tài liệu đó. Các hóa đơn dự án đã đăng được ghi cả trong Sổ cái chung lẫn sổ cái phụ của Khách hàng và Dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

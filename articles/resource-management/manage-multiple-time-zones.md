@@ -68,3 +68,6 @@ Sau khi chức năng gia hạn đặt trước đã được sử dụng cho m�
 Lưu ý rằng việc xem xét kỹ hơn các chi tiết của đặt chỗ sẽ cho thấy sự khác biệt về thời gian bắt đầu của mục đặt trước. Việc đặt trước bắt đầu không sớm hơn thời gian bắt đầu của ranh giới phân công và không sớm hơn thời gian bắt đầu có sẵn của nguồn lực.
 
 ![Các đăng ký nguồn lực mới trong bảng lịch trình](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

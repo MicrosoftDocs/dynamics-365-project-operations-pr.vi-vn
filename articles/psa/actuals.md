@@ -330,3 +330,6 @@ PSA ghi lại các giao dịch tài chính xảy ra trong một dự án. Các g
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Tổ chức của bạn có thể yêu cầu rằng bản tiêu chuẩn đi lạ
 Các chính sách và tiêu chuẩn đi lại có thể được sử dụng để giúp quản lý ngân sách. Ví dụ: nếu tổ chức của bạn đang thực hiện một dự án theo giá cố định tiêu chuẩn đi lại, thì chi phí đi lại của các thành viên trong nhóm của dự án phải phù hợp với ngân sách dự án. Bằng cách yêu cầu chi phí đi lại phải được phê duyệt trước khi phát sinh, tổ chức có thể giúp đảm bảo rằng dự án vẫn nằm trong ngân sách.
 
 Bạn có thể thiết lập chính sách cho các tiêu chuẩn đi lại từ trang **Tiêu chuẩn đi lại**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

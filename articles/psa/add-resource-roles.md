@@ -47,3 +47,6 @@ Thiết lập tỷ lệ thời gian làm việc mục tiêu cho từng vai trò.
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Trong PSA, bạn không thể theo dõi các sửa đổi được thực hiện
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Theo dõi ý kiến và phê duyệt của báo giá và hợp đồng dự án
 Bạn có thể quản lý việc đánh giá và phê duyệt báo giá cũng như hợp đồng dự án bằng cách sử dụng tường bản ghi và bài đăng. Tổ chức của bạn có thể tạo luồng công việc và phần bổ trợ tùy chỉnh để chỉ định, chuyển hướng, báo cáo vượt cấp và quản lý thông báo về các mục hoạt động đánh giá và phê duyệt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

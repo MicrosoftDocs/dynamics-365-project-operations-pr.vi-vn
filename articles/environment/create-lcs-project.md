@@ -36,3 +36,6 @@ Sử dụng Lifecycle Services (LCS) để quản lý môi trường Dynamics 36
 
 Sử dụng dự án LCS này để triển khai môi trường Project Operations của bạn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

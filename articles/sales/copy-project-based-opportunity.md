@@ -34,3 +34,6 @@ Cơ hội dự án có thể được sao chép dễ dàng để tạo cơ hội
     | Sao chép giá | Giá trị Có/Không cho biết liệu giá trên cơ hội có được sao chép từ cơ hội nguồn hay không. | Nếu là **Có**, thì bảng giá được sao chép từ cơ hội nguồn sang cơ hội mục tiêu. Nếu bạn chọn **Không**, thì bảng giá được lấy mặc định dựa trên bảng giá mới nhất đã được thiết lập. |
 
 3. Chọn **OK**. Hệ thống tạo một bản sao cơ hội dự án dựa trên các tham số đã chọn và cơ hội dự án mới được mở ra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

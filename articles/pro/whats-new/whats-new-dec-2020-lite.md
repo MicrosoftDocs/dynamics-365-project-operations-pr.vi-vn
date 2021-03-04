@@ -57,3 +57,6 @@ Bảng sau liệt kê các bản cập nhật cho Project Operations trên môi 
 | Thời gian và chi phí | 2034882 | Nút **Mới** hiển thị 2 lần trên thanh lệnh của các mục thời gian khi cài đặt Dynamics 365 Field Service. |
 | Thời gian và chi phí | 2056028 | Cập nhật trang **Chỉnh sửa thời gian** để bao gồm dòng thời gian. |
 | Thời gian và chi phí | 1983747 | Sơ đồ mục thời gian hiển thị thêm dữ liệu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

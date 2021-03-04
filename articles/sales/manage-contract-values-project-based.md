@@ -57,3 +57,6 @@ Quy tắc: Một dự án và một lớp giao dịch nhất định chỉ có t
 | C1       | CL2           | Kỳ 1      | No           | Có             | No          | Hợp lệ           | Thời gian và các khoản phí của dự án P1 được đưa vào CL1. Chi phí của dự án P1 được đưa vào CL2. </br>   Những số liệu đưa vào từng mô tả hợp đồng không bị chồng chéo, do đó hợp lệ.  |
 | C1       | CL1           | Kỳ 1      | Có          | Có             | Có         | Không hợp lệ       | Vi phạm quy tắc. Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào phần mô tả của 2 hợp đồng.                                                                                               |
 | CL2      | CL2           | Kỳ 1      | Có          | Có             | Có         | Không hợp lệ       | Vi phạm quy tắc. Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào phần mô tả của 2 hợp đồng.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

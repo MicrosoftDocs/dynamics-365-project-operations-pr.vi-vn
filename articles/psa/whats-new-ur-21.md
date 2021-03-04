@@ -77,3 +77,6 @@ Các vấn đề sau đã được khắc phục:
 - Logic **Giải pháp Bảng giá Bán hàng** xử lý không đúng múi giờ, dẫn đến việc lựa chọn bảng giá không chính xác.
 - **Tổng Chi phí Thực tế** của dự án có thể được giảm một phần nhỏ sau khi một mục nhập thời gian được chấp thuận.
 - Logic **Giải pháp Giá bán** không trả về thông báo lỗi thân thiện với người dùng nếu **Giá Vai trò Đã truy xuất** không có giá trị trong trường **"Đơn vị Chính"** và **"Giá theo Đơn vị Chính"**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

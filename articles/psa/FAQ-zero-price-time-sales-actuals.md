@@ -57,3 +57,6 @@ Nếu không có hàng nào trong lưới giá vai trò cho kích thước đị
 
 Nếu bạn vẫn không thấy một mức giá hợp lệ trên thực tế thời gian bán hàng của mình sau khi làm theo ba bước kiểm tra ở trên, vui lòng ghi một phiếu hỗ trợ. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

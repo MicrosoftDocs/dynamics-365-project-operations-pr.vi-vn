@@ -46,3 +46,6 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 3. Trong trường **Số lượng**, nhập số lượng mà đơn vị sẽ chứa đựng. Ví dụ, nếu một hộp có chứa 2 cái, bạn nên nhập "2". 
 4. Trong trường **Đơn vị cơ sở**, chọn một đơn vị cơ sở để thiết lập đơn vị đo thấp nhất cho đơn vị đó. Ví dụ: bạn có thể chọn "Cái".
 5. Chọn **Lưu**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

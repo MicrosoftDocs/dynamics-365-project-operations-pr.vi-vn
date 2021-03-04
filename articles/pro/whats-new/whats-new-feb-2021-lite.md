@@ -38,3 +38,6 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | **Hoạch định và theo dõi dự án** | 2164035 | Đã khắc phục sự cố đối với chức năng **Sao chép dự án**. |
 | **Mục nhập thời gian** | 2129161 | Đã áp dụng các giới hạn chặt chẽ hơn để đảm bảo rằng người dùng không thể thay đổi hoặc cập nhật mục nhập thời gian đã phê duyệt hoặc gửi. |
 | **Mục nhập thời gian** | 2103572 | Việc phê duyệt thời gian đối với các mục nhập thời gian không thuộc dự án sẽ không tìm đến vai trò người phê duyệt dự án. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

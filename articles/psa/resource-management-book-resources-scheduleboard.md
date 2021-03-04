@@ -53,3 +53,6 @@ Bạn phải tạo các yêu cầu nguồn lực rồi mới có thể đăng k�
 Yêu cầu được thực hiện bằng cách sử dụng nguồn lực đã chọn. Trong ngăn **Yêu cầu đăng ký**, hãy lưu ý rằng yêu cầu đã được cập nhật và nguồn lực hiển thị ở trạng thái đã đăng ký trên dự án.
 
 ![Nguồn lực đã đăng ký trên dự án](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

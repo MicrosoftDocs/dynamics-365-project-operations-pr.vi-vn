@@ -131,3 +131,6 @@ Tần suất hóa đơn là một thực thể lưu trữ các giá trị thuộ
 - Để tạo các mốc lập hóa đơn được chia bằng nhau, hãy chọn một tần suất hóa đơn, nhập ngày bắt đầu lập hóa đơn trên một dòng báo giá và chọn **Ngày hoàn thành yêu cầu** cho báo giá trong phần **Tóm tắt** của tiêu đề báo giá. Sau đó chọn **Tạo mốc định kỳ** để tạo các mốc chia đều dựa trên tần suất hóa đơn đã chọn. 
 - Để tạo một cột mốc thanh toán trọn gói, hãy tạo ra một mốc, sau đó nhập giá trị dòng báo giá làm số lượng cột mốc.
 - Để tạo các cột mốc lập hóa đơn dựa trên các tác vụ cụ thể trong kế hoạch dự án, hãy tạo một cột mốc và ánh xạ tới thành phần lịch biểu của dự án trong giao diện người dùng cột mốc thanh toán.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

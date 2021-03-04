@@ -54,3 +54,6 @@ Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất cá
     | &nbsp; | Tăng cao hơn chi phí | Áp dụng mức tăng như được xác định bởi mô tả giá theo danh mục trên tỷ lệ chi phí đơn vị của chi phí thực tế liên quan |
 
 4. Nếu hệ thống không thể đối chiếu các giá trị trường **Danh mục** và **Đơn vị**, thì tỷ lệ bán hàng được đặt mặc định về không (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

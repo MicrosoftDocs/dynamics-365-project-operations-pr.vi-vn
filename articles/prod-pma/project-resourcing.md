@@ -55,3 +55,6 @@ Các chủ đề sau đây cung cấp thông tin về các nhiệm vụ cần ph
 - [Hiệu suất lập kế hoạch nguồn lực dự án](project-scheduling-performance.md)
 - [Thiết lập vai trò trên các mẫu cấu trúc phân tích công việc](set-up-roles-wbs-template.md)
 - [Đáp ứng nguồn lực cho nguồn lực theo kế hoạch](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

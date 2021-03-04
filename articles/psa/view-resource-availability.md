@@ -48,3 +48,6 @@ Bạn có thể kiểm tra nguồn lực sẵn có để có được một cái
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

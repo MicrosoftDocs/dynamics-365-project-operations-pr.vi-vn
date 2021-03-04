@@ -23,3 +23,6 @@ Dynamics 365 Project Operations bao gồm logic xác thực giúp đảm bảo q
 
   - Tất cả các hàng hỗ trợ được tạo trong các bảng liên quan, chẳng hạn như nhật ký và thực tế.
   - Trước khi tiếp tục, người phê duyệt được đánh dấu trong dự án là **Người phê duyệt dự án**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

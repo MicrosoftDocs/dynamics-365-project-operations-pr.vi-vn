@@ -55,3 +55,6 @@ Các vấn đề sau đã được khắc phục:
 - Hệ thống sẽ tạo một ngoại lệ tham chiếu rỗng khi phần bổ trợ **GetEstimatesForProject** được gọi.
 - **Đánh dấu là sẵn sàng lập hóa đơn** trên lưới mốc chỉ cập nhật một phần các thuộc tính, ngoại trừ thuộc tính **Trạng thái hóa đơn** đã được cập nhật.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

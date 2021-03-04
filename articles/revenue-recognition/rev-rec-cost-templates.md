@@ -79,3 +79,6 @@ Bạn có thể cân nhắc một vài yếu tố sau đây khi đưa ra quyết
 7. Trên tab **Hạng mục**, hãy chọn những hạng mục dự án bạn muốn đưa vào dòng mẫu chi phí.
 8. Trên tab **Chung**, hãy chọn xem có đưa dòng này vào phép tính phần trăm hoàn thành hay không.
 9. Chọn phương pháp phần trăm hoàn thành bạn muốn dùng khi tính toán tỷ lệ phần trăm hoàn thành.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

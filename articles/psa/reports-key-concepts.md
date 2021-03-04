@@ -48,3 +48,6 @@ Bảng sau đây xác định các khái niệm chính được sử dụng tron
 | Đường cong                    | Nhiệm vụ, yêu cầu hoặc giờ phân công được chia thành phân phối hàng ngày. Ví dụ: nhiệm vụ 5 ngày, 40 giờ có thể được đánh dấu bằng đường mức thành 8 giờ mỗi ngày trong 5 ngày. |
 | Dạng xem điều hòa        | Dạng xem cho biết các đăng ký và phân công cho từng thành viên nhóm dự án. Dạng xem cho phép người quản lý dự án tìm mọi điểm không phù hợp giữa đăng ký và nhiệm vụ và thực hiện hành động khắc phục nếu có điểm không phù hợp xảy ra. |
 | Giờ làm việc                 | Một thực thể dùng để xác định năng lực nguồn lực, giờ làm việc và không làm việc. Thực thể này cũng được gọi là lịch nguồn lực. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

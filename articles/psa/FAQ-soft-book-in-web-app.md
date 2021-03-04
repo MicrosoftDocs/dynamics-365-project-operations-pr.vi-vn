@@ -87,3 +87,6 @@ Khi bạn sẵn sàng đổi nguồn lực thành viên nhóm được đăng k�
 2. Khi bảng lịch trình mở ra, hãy mở rộng nguồn lực để hiện các đăng ký. Bạn sẽ thấy đăng ký được đánh dấu là Dự kiến.
 3. Nhấp chuột phải vào đăng ký, dưới Thay đổi Trạng thái, chọn Đăng ký Xác nhận và sau đó là Xác nhận. Trạng thái đăng ký bây giờ là Xác nhận.
 4. Sau khi đóng bảng lịch trình, bạn sẽ thấy số giờ dành cho nguồn lực đã thay đổi từ Dự kiến thành Xác nhận trên lưới thành viên nhóm. Bây giờ bạn có thể gán tài nguyên cho nhiệm vụ (miễn là có sự liên kết giữa số giờ đăng ký xác nhận và số giờ nỗ lực của nhiệm vụ). Lưu ý rằng nếu bạn làm theo các bước hoàn thành nguồn lực chung trong mục #3 ở trên, khi bạn thay đổi trạng thái của nguồn lực được đăng ký dự kiến sang xác nhận, thành viên nhóm chung sẽ bị loại khỏi nhóm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

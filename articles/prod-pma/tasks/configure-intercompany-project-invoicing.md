@@ -64,3 +64,6 @@ Chủ đề này trình bày cách thiết lập việc lập hóa đơn dự á
 32. Nhập số vào trường **Định giá**.
 33. Chọn **Lưu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

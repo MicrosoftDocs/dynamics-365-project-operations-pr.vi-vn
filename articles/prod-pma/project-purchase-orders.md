@@ -76,3 +76,6 @@ Bạn có thể sử dụng một trong các phương pháp sau để tạo đơ
 
 Để biết thêm thông tin, hãy xem [Nhận các mặt hàng theo đơn đặt hàng từ yêu cầu mặt hàng](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

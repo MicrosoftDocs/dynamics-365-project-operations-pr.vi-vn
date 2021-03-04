@@ -38,3 +38,6 @@ Chọn Nhật ký **Đăng nhập** > **Đăng nhập vào môi trường** đ�
 
 > [!NOTE]
 > Bạn có thể truy cập trực tiếp vào Project Operations trong Common Data Service và mô-đun **Quản lý dự án và kế toán** bằng cách sử dụng các URL tương ứng của chúng. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

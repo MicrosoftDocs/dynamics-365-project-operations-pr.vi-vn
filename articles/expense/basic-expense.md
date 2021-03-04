@@ -55,3 +55,6 @@ Các chi phí chưa được gửi có thể bị xóa. Để xóa một khoản
 ## <a name="see-also"></a>Xem thêm
 
 - [Tổng quan về phê duyệt](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

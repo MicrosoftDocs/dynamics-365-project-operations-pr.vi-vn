@@ -41,3 +41,6 @@ Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên d
 - [Yêu cầu đăng ký không chắc chắn](resource-management-softbook-requirements.md)
 - [Các mô hình kỹ năng và mức độ thành thạo](resource-management-skills-proficiency.md)
 - [Câu hỏi thường gặp về quản lý nguồn lực](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

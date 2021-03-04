@@ -45,3 +45,6 @@ Khi bạn chọn **OK** trên trang hộp thoại, hệ thống tạo một bả
 > - Tham chiếu dự án trên các mô tả báo giá dựa trên dự án – Thông tin ngân sách khách hàng
 >
 >Vì thông tin này rất cụ thể cho từng báo giá, các trường và bản ghi này không được sao chép. Các mô tả báo giá cho các dự án và sản phẩm, ước tính về chi tiết mô tả báo giá và các giá trị không vượt quá mức báo giá được sao chép. Giá và tỷ lệ chi phí mặc định phụ thuộc vào tùy chọn **Sao chép giá** được chọn trên trang hộp thoại **Sao chép tham số**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

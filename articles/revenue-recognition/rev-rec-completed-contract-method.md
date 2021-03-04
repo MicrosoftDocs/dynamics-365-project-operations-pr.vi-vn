@@ -90,3 +90,6 @@ Phép ước tính sẽ chuyển trạng thái thành **Đã loại bỏ**.
 Dùng trang này để đảo ngược tất cả các lần loại bỏ với ngày ước tính cụ thể và với trạng thái ước tính là **Đã loại bỏ**. Trạng thái giao dịch sẽ thay đổi sau khi bạn chọn đúng các trường.
 
 Trạng thái dự án cũng sẽ tự động chuyển sang **Đang trong quy trình** nếu giai đoạn dự án được đặt là đã kết thúc. Trạng thái loại bỏ của chu kỳ dự án sẽ thay đổi lại thành **Đã đăng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

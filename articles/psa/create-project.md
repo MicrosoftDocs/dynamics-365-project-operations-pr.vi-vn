@@ -48,3 +48,6 @@ Tiếp theo, bạn sẽ tạo một cấu trúc phân tích công việc cho d�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

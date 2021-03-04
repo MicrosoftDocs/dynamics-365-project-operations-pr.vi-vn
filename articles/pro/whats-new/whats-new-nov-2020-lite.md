@@ -37,3 +37,6 @@ Bảng sau liệt kê các bản cập nhật cho Project Operations trên môi 
 | Mục nhập chi phí nhanh và thời gian | 2047499          | Nút **Mới** trên trang Mục nhập thời gian sẽ mở ra trang **Chữ ký email mới**.                                                                                               |
 | Mục nhập chi phí nhanh và thời gian | 2059859          | Cửa sổ bật lên bất ngờ mở ra khi tạo mục nhập chi phí.                                                                                                                         |
 | Khác                        | 2044181          | [Gỡ cài đặt PO] - Lỗi "Bản ghi không khả dụng" xảy ra khi bạn cố gỡ cài đặt **msdyn_ProjectServiceCore_Patch** và các giải pháp cốt lõi của Dịch vụ dự án msdyn.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

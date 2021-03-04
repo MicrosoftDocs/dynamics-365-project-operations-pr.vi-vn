@@ -74,3 +74,6 @@ Bạn có thể tạo thủ công các mốc có giá cố định khi chúng kh
 | Thuế | Tạo nhanh | Số tiền thuế được áp cho mốc. | Mục này được chuyển qua mốc cho mục mô tả hợp đồng dự án và hóa đơn. |
 
 3. Chọn **Lưu và Đóng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

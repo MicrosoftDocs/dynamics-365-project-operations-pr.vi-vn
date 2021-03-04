@@ -47,3 +47,6 @@ Khi thêm vai trò nguồn lực, bạn có thể đã kết hợp một số k�
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

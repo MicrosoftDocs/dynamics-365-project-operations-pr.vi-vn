@@ -52,3 +52,6 @@ Bạn có thể sử dụng từng bảng giá đó và cập nhật giá nhân 
 Trên hợp đồng dự án, giá dự án luôn được đặt mặc định dưới dạng bảng giá tùy chỉnh với tên hợp đồng và dấu ngày giờ tạo được thêm vào tên. Điều này cũng đúng cho dù hợp đồng được tạo khi đã có báo giá hay hợp đồng được tạo từ đầu. Nếu cần, bạn có thể loại bỏ liên kết này khỏi bảng giá tùy chỉnh và liên kết bảng giá chuẩn với hợp đồng dự án.
 
 Khi bạn liên kết một bảng giá chuẩn với bảng giá dự án trên báo giá hoặc hợp đồng, bất kỳ thay đổi nào được thực hiện đối với giá trong bảng giá đó sẽ ảnh hưởng đến tất cả báo giá và hợp đồng sử dụng bảng giá đó.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

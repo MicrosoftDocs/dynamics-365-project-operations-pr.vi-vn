@@ -96,3 +96,6 @@ Nhấp vào **Gửi** để gửi bảng chấm công tới quy trình làm vi�
 ## <a name="review-timesheets"></a>Xem lại bảng chấm công
 
 Danh sách các bảng chấm công cần được xem lại có sẵn trong menu. Tùy chọn này chỉ khả dụng nếu bạn đã được chỉ định làm người phê duyệt quy trình làm việc. Cả phê duyệt tiêu đề và dòng đều được hỗ trợ. Phê duyệt cấp độ dòng cung cấp khả năng đánh dấu một hoặc nhiều dòng để phê duyệt. Sau khi xem lại thông tin bảng chấm công, hãy nhấp vào **Phê duyệt** , **Đại diện** hoặc **Trở về** để tiếp tục quy trình làm việc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Loại chu kỳ xác định tần suất ước tính doanh thu của dự án.
 4. Chọn bản ghi loại chu kỳ rồi bấm vào **Tạo chu kỳ** để tạo các chu kỳ cho loại chu kỳ. Dựa trên tần suất chu kỳ vừa chọn, bạn có thể dùng tùy chọn này để xác định ngày bắt đầu hoặc số lượng chu kỳ cần tạo.
 5. Chọn **Chu kỳ** để xem lại các chu kỳ vừa tạo.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

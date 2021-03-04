@@ -149,3 +149,6 @@ Bảng sau hiển thị các bản ghi trong thực thể kết nối giao dịc
 | Chỉn sửa hóa đơn nháp       | GUID giao dịch dòng hóa đơn | Thay thế          | msdyn_invoicelinetransaction | GUID doanh số đã lập hóa đơn            | Gốc           | msdyn_actual       |
 | Xác nhận sửa hóa đơn     | GUID đảo ngược doanh số đã lập hóa đơn    | Đảo ngược          | msdyn_actual                 | GUID doanh số đã lập hóa đơn            | Gốc           | msdyn_actual       |
 | GUID thực tế doanh số chưa lập hóa đơn mới | Thay thế                     | msdyn_actual       | GUID doanh số đã lập hóa đơn            | Gốc                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

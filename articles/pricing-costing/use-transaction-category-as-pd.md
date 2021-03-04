@@ -50,3 +50,6 @@ Bảng sau liệt kê tất cả mọi biểu mẫu và dạng xem sẵn dùng, 
 2. Trên trang **Tham số**, trên tab **Thông số định giá dựa trên số tiền**, hãy xác minh rằng lưới này hiển thị các bản ghi trong thực thể **Thông số định giá**.
 3. Thêm **Thể loại giao dịch** vào danh sách này rồi đặt các trường **Áp dụng cho chi phí** và **Áp dụng cho doanh số** thành **Có**.
 4. Trong trường **Loại thông số**, hãy chọn **Dựa trên số tiền**, sau đó chọn mức ưu tiên cho **Thể loại giao dịch** có liên quan đến chi phí và doanh số.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Khi có một hoặc nhiều bản cập nhật cho cấu trúc phân tích côn
   - Hệ thống Project Operations
   - Hệ thống Dự án
   - Hệ thống ghi kép của Project Operations (Vai trò này là bắt buộc nếu bạn đang triển khai kịch bản dựa trên nguồn lực/hàng không nhập kho của Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

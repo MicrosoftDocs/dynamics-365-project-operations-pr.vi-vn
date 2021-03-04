@@ -107,3 +107,6 @@ Hình minh họa sau hiển thị các thay đổi xảy ra đối với các m�
 Hình minh họa sau hiển thị các thay đổi xảy ra đối với các mục nhập chi phí đã được phê duyệt khi chúng được thu hồi.
 
 ![Giao dịch trạng thái Mục nhập chi phí](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

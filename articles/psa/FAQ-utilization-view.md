@@ -101,3 +101,6 @@ Nếu không thấy thời gian làm việc có thể tính phí, bạn có th�
   - Vai trò trên mô tả hợp đồng hỗ trợ dự án đã được đặt thành không thể tính phí.
   - Dự án không có mô tả hợp đồng được liên kết.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

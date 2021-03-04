@@ -78,3 +78,6 @@ Các tính năng sau đây có trên trang hiện có nhưng chưa có trên tra
 - Quy trình làm việc cấp dòng
 - Hỗ trợ người phê duyệt tạm thời
 - Thông tin phân khoản nâng cao
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

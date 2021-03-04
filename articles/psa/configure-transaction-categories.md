@@ -43,3 +43,6 @@ Thiết lập thể loại giao dịch để xác định một tập hợp lớ
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

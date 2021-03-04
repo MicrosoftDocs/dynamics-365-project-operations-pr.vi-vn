@@ -102,3 +102,6 @@ Sau đây là tổng quan ngắn gọn về các tùy chọn điều khiển đi
 **Thêm cột**: Cho phép người dùng xác định các cột hiển thị trong lưới. Chỉ có các cột bên ngoài mới được thêm vào lưới trong biểu mẫu **Lập kế hoạch dự án**.
 
 ![Nút Thêm cột mới](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

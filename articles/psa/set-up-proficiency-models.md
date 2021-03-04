@@ -53,3 +53,6 @@ Bây giờ mà bạn đã thêm các kỹ năng cho các dự án khách hàng c
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

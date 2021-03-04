@@ -68,3 +68,6 @@ Mở mô tả báo giá giá cố định mà bạn cần tạo một mốc th�
 | Trạng thái hóa đơn | Tạo nhanh | Khi một mốc thời gian được tạo, trạng thái này luôn được đặt thành **Chưa sẵn sàng để lập hóa đơn**. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
 | Số tiền mô tả | Tạo nhanh | Số tiền hoặc giá trị của mốc thời gian sẽ được lập hóa đơn cho khách hàng. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
 | Thuế | Tạo nhanh | Số tiền thuế sẽ được áp dụng cho mốc thời gian. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,5 @@ Việc thêm các đặc tính vào yêu cầu nguồn lực cho phép bạn ghi
 3. Trong lưới con **Kỹ năng**, hãy chọn **+ Thêm đặc tính yêu cầu mới.**
 4. Trong ngăn tạo nhanh, hãy tìm và chọn các đặc tính cần thiết và thêm **Giá trị xếp hạng**.
 5. Chọn **Lưu & Đóng**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Các bước sau đây giải thích cho bạn quy trình đăng ký phần bổ
 
 9. Đóng công cụ đăng ký phần bổ trợ.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

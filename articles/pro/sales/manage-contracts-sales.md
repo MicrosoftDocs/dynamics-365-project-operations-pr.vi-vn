@@ -33,3 +33,6 @@ Trang danh sách **Hợp đồng** hiển thị danh sách tất cả các hợp
 2. Chọn **Bộ chuyển dạng xem** (mũi tên thả xuống bên cạnh tên của dạng xem) để chọn các chế độ đã lọc khác. Bạn có thể tạo dạng xem của riêng mình bằng các tiêu chí lọc tùy chỉnh.
 
 Các hợp đồng có thể được tạo hoặc xóa khỏi trang danh sách này hay các trang chi tiết.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

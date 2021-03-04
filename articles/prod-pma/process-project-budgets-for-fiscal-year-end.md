@@ -98,3 +98,6 @@ Khi xử lý số tiền ngân sách còn lại, bạn có thể tạo các giao
 5. Đối với mỗi dự án mà bạn muốn xử lý, hãy chọn tùy chọn ở đầu dòng cho dự án. 
 6. Chọn **Xử lý** để chuyển số tiền ngân sách còn lại cho các dự án đã chọn sang năm tài chính đã chọn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

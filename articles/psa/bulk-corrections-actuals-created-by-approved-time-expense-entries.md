@@ -90,3 +90,6 @@ Hoàn thành các bước sau để chỉnh sửa một hoặc nhiều mục nh�
 8. Trong trang dự án, trên tab **Dữ liệu thực tế**, hãy xem lại **Dạng xem Liên kết Thực tế**. Các mục nhập ban đầu và mục nhập đã chỉnh sửa đều được liệt kê. Hình ảnh sau đây cho thấy số tiền trong mục nhập chi phí ban đầu và số tiền trong mục nhập chi phí tương ứng đã điều chỉnh. 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

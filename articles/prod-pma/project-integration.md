@@ -127,3 +127,6 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 8.  Chọn **Lịch** để sử dụng cho việc cấp nguồn lực.
 
 11. Bấm **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

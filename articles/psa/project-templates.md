@@ -69,3 +69,6 @@ Khi bạn sao chép trên các mô tả ước tính dự án, bảng giá sẽ 
 ### <a name="copying-a-project-team"></a>Sao chép một nhóm dự án
 
 Khi nhóm dự án được sao chép từ mẫu dự án vào dự án, nguồn lực chung được sao chép cùng với kỹ năng và mức độ thành thạo được xác định trong mẫu. Việc phân công nguồn lực chung cũng được duy trì như khi chúng ở trong mẫu dự án. Nguồn lực có tên không được hỗ trợ trong mẫu dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

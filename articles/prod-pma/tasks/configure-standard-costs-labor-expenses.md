@@ -54,3 +54,6 @@ Chủ đề này giải thích cách thiết lập chi phí tiêu chuẩn cho nh
 22. Nhập số vào trường **Định giá**. Giá bán thực tế được áp dụng khi nhân viên nhập giao dịch vào nhật ký chi phí sẽ là giá bán có mức độ chi tiết cao nhất. Chẳng hạn, nếu cả giá bán chung và giá bán riêng theo nhân viên đều được thiết lập, thì giá bán riêng theo nhân viên sẽ được sử dụng.  
 23. Chọn **Lưu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

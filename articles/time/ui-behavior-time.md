@@ -85,3 +85,6 @@ Sau khi tạo một vài mục nhập thời gian, người dùng có thể tạ
 
 ## <a name="import"></a>Nhập
 Quá trình cơ bản tương tự được dùng để nhập từ các thông tin đặt trước, nội dung chỉ định và thông tin trao đổi. Bạn có thể chỉ định phạm vi ngày mà mục đặt trước được nhập từ đó, sau đó chọn rõ ràng các mục đặt trước cần được sao chép vào mục nhập thời gian nháp. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

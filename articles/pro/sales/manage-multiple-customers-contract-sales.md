@@ -52,3 +52,6 @@ Bạn có thể tạo, cập nhật hoặc xóa một khách hàng trên hợp �
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán bằng cách sử dụng trải nghiệm chỉnh sửa lưới nội dòng. Khi tổng các tỷ lệ phần trăm thanh toán không bằng 100 phần trăm, bạn sẽ nhận được thông báo lỗi. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán, hãy làm mới trang để loại bỏ lỗi nói trên.
 
 Bạn cũng có thể chọn **Phân phối đồng đều** trên lưới con hiển thị **Khách hàng trên hợp đồng** để phân bổ đồng đều các phần thanh toán cho tất cả các khách hàng trên hợp đồng. Nếu có hệ số làm tròn, hệ số này sẽ được thêm cho khách hàng làm tròn. Một trong số khách hàng trên hợp đồng sẽ luôn được gắn thẻ là khách hàng **làm tròn**, nghĩa là hồ sơ của khách hàng trên hợp đồng đó có cờ làm tròn được đặt thành **Có**. Thông thường, đây là khách hàng chính của hợp đồng, nhưng điều đó cũng có thể được thay đổi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

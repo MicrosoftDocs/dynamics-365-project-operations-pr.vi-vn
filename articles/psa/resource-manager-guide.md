@@ -73,3 +73,6 @@ Các khả năng [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md)   
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)   
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Khi bạn chọn, nguồn lực đó sẽ được thêm vào nhóm dự án và
 Bạn có thể sử dụng khả năng đặt lịch mở rộng của tab **Hợp nhất** hoặc **Bảng lịch trình** để đặt lịch năng lực của nguồn lực cho dự án.
 
 Sau khi một thành viên nhóm được đặt lịch trên dự án của bạn, bạn có thể sử dụng **Duy trì đăng ký** hoặc sử dụng **Bảng lịch trình** để trực tiếp quản lý đăng ký của họ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

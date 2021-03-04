@@ -43,3 +43,6 @@ Cung cấp không gian nơi các thành viên nhóm của một dự án có th�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

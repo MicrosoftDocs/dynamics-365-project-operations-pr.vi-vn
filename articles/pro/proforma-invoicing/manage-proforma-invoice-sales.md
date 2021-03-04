@@ -144,3 +144,6 @@ Nếu có các giá trị thực tế sau khi tạo hóa đơn, bạn có thể 
 Trong Project Operations, bạn có thể tạo các mô tả hóa đơn cho những sản phẩm không áp dụng cho bất kỳ dự án nào hoặc cho tất cả dự án cùng với các mô tả hóa đơn dựa trên dự án. Những mô tả hóa đơn này được tạo dưới dạng các mô tả hợp đồng dựa trên sản phẩm và sau khi được đánh dấu là sẵn sàng để lập hóa đơn, chúng sẽ được thêm vào dưới dạng các mô tả hóa đơn dựa trên sản phẩm.
 
 Sau khi thêm các mô tả hóa đơn dựa trên sản phẩm, bạn không thể thay đổi chúng. Tuy nhiên, chúng có thể bị xóa khỏi bản nháp hóa đơn ước giá.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

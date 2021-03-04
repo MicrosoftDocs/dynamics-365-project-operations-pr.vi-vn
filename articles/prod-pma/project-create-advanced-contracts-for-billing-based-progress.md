@@ -103,3 +103,6 @@ Danh mục ngân sách được sử dụng để tự động tính toán số 
 8. Tùy chọn: Chỉ định quy tắc thanh toán cho các dự án bổ sung. Trên FastTab **Dự án** , trong phần **Dự án có sẵn** , chọn một dự án, sau đó chọn nút mũi tên phải để thêm dự án vào phần **Dự án đã chọn**.
 9. Tùy chọn: Tính số tiền phần trăm mà khách hàng giữ lại từ các khoản thanh toán trên hóa đơn. Trên FastTab **Điều khoản lưu giữ thanh toán** , chọn nguồn tiền, sau đó, trong trường **Tỷ lệ phần trăm lưu giữ** , nhập tỷ lệ phần trăm lưu giữ.
 10. Lặp lại các bước này để tạo các quy tắc thanh toán bổ sung cho hợp đồng dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

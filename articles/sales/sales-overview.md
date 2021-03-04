@@ -63,3 +63,6 @@ Trong Project Operations, bạn không thể theo dõi các bản sửa đổi �
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Theo dõi ý kiến và việc phê duyệt báo giá và hợp đồng dự án
 Bạn có thể quản lý việc đánh giá và phê duyệt báo giá cũng như hợp đồng dự án bằng cách sử dụng tường bản ghi và bài đăng. Tổ chức của bạn có thể tạo quy trình làm việc và phần bổ trợ tùy chỉnh để phân công, chuyển hướng, báo cáo và quản lý thông báo về việc đánh giá và phê duyệt các mục công việc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

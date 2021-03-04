@@ -45,3 +45,6 @@ Lưới trên tab **Nguồn lực đề xuất** trên trang **Thành viên nhó
 ![Chấp nhận đề xuất nguồn lực](media/RM-how-to-20.png) 
 
 Tương tự như việc trực tiếp hoàn thành yêu cầu nguồn lực chung với một nguồn lực có tên, nguồn lực chung sẽ được thay thế và nhiệm vụ được giao sẽ được cập nhật bằng thành viên nhóm có tên.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

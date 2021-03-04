@@ -34,3 +34,6 @@ Bảng sau đây bao gồm các trường trong cơ hội dựa trên dự án c
 | Đơn vị Hợp đồng | Tab tổng quát | Đơn vị tổ chức chịu trách nhiệm bàn giao dự án hoặc các dự án liên quan đến thỏa thuận này. | Đơn vị ký hợp đồng là bộ phận của công ty sẽ hoàn thành dự án khi thỏa thuận được chốt. Mỗi đơn vị ký hợp đồng đều có một loại tiền tệ và đơn vị tiền tệ này được sử dụng để báo cáo chi phí ước tính và thực tế phát sinh trong dự án. |
 
 Đối với tất cả các trường và phần khác trên tab **Tóm tắt** của cơ hội, hãy xem [Tạo hoặc chỉnh sửa cơ hội (Bán hàng và Trung tâm bán hàng)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

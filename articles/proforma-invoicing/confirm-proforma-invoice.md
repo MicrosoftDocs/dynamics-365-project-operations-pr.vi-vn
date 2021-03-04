@@ -198,3 +198,6 @@ Giá trị thực tế doanh số đã lập hóa đơn cho số tiền mốc tr
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

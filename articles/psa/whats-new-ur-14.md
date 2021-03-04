@@ -64,3 +64,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
      - Đã sửa lỗi: Tổng giá bán không được tính cho đến khi người dùng cũng nhập giá vốn cho ước tính chi phí cho một dự án.
      - Đã sửa lỗi: Việc đóng một báo giá là **Thắng** không thành công nếu hợp đồng dự án được liên kết không ở trạng thái **Bản nháp**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

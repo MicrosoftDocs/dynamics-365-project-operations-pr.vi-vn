@@ -45,3 +45,6 @@ Thông tin sau không được sao chép từ **Hợp đồng nguồn** sang **H
   - Thông tin về ngân sách của khách hàng
 
 Vì đây là thông tin cụ thể cho từng hợp đồng, nên các trường và bản ghi này không được sao chép. Các mục mô tả hợp đồng cho các dự án và sản phẩm, giá trị ước tính trên thông tin chi tiết mô tả hợp đồng và các giá trị không vượt quá ở cấp độ hợp đồng sẽ được sao chép. Giá và tỷ lệ chi phí được lấy mặc định theo phần lựa chọn ở trường **Sao chép giá** trên trang hộp thoại **Sao chép tham số**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

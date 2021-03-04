@@ -59,3 +59,6 @@ Vai trò đóng một phần quan trọng trong lập kế hoạch dự án, khi
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

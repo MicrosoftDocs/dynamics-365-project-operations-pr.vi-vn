@@ -63,3 +63,6 @@ Bạn có thể dùng cùng một phương pháp để đăng ký chắc chắn 
 Để chuyển đổi nguồn lực được đăng ký không chắc chắn thành đăng ký chắc chắn trên tab **Nhóm**, hãy chọn nguồn lực rồi chọn **Xác nhận**.
 
 ![Lệnh xác nhận](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

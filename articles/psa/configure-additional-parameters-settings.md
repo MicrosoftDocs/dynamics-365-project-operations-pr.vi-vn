@@ -67,3 +67,6 @@ Trong bước này, bạn cũng sẽ cho biết loại phân bổ nguồn lực 
 
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

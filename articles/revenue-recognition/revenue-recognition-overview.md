@@ -60,3 +60,6 @@ Trong Dynamics 365 Project Operations, các nguyên tắc ghi nhận doanh thu s
 [Quản lý ước tính doanh thu](rev-rec-completed-contract-method.md)
 
 [Phương pháp chi phí hoàn thành](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

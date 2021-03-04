@@ -39,3 +39,6 @@ Hoàn tất các bước sau để lập hóa đơn tạm ứng cho khách hàng
     | **Trạng thái hóa đơn** | Đây là cài đặt tùy chọn cho biết liệu khoản tạm ứng này có được thêm vào hóa đơn nháp lập cho khách hàng này hay không. Các giá trị có thể có bao gồm:</br>- **Chưa sẵn sàng để lập hóa đơn**</br>- **Đã sẵn sàng để lập hóa đơn** | Khi một khoản tạm ứng hoặc trả trước được đánh dấu là **Sẵn sàng để lập hóa đơn**, khoản đó sẽ được thêm vào dưới dạng một dòng thời gian trên hóa đơn nháp. Chỉ khoản tạm ứng đã được lập hóa đơn đầy đủ mới có thể được dùng để đối chiếu với chi phí dự án cho kỳ hóa đơn tiếp theo. |
 
 4. Chọn **Lưu và đóng** trên hộp thoại tạo nhanh để ghi lại khoản tạm ứng hoặc khoản trả trước đó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

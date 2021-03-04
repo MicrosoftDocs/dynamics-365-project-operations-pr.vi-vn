@@ -95,3 +95,6 @@ Hướng dẫn này cung cấp các thông tin bạn cần để tạo và quả
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)   
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

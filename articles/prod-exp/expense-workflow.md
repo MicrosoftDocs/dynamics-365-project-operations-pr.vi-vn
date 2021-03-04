@@ -55,3 +55,6 @@ Quy trình sau đây là một ví dụ về quy trình làm việc quản lý c
 Sau khi các yêu cầu này được xác minh, báo cáo chi phí sẽ được đăng.
 
 Sau khi báo cáo chi phí được đăng, việc thanh toán được chấp thuận đối với báo cáo chi phí và nhân viên được hoàn trả.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

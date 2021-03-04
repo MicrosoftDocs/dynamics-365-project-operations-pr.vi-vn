@@ -36,3 +36,6 @@ Người quản lý dự án có thể lên kế hoạch lại nhân công cho n
 - Thay thế phần trăm tiến trình mặc định bằng ước tính mới của tiến trình đúng trên nhiệm vụ.
 
 Mỗi cách tiếp cận này mang đến một phép tính lại ETC, EAC (ước tính hoàn thành) và phần trăm tiến trình của nhiệm vụ cũng như chênh lệch nhân công dự kiến trên nhiệm vụ. EAC, ETC và phần trăm tiến trình trên các nhiệm vụ tóm tắt được tính toán lại và cung cấp dự kiến mới về chênh lệch nhân công.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

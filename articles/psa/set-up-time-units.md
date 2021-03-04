@@ -47,3 +47,6 @@ Cấu hình đơn vị thời gian trong danh mục sản phẩm mà bạn sẽ 
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Khi bạn sẵn sàng đổi nguồn lực thành viên nhóm được đăng k�
 2. Nhấp chuột phải vào đăng ký, trong **Thay đổi Trạng thái**, chọn **Đăng ký Xác nhận** \> **Xác nhận**. Trạng thái đăng ký bây giờ là **Xác nhận**.
 3. Sau khi bạn đóng bảng Lịch trình, hãy quay trở lại dự án và mở tab **Nhóm**, bạn sẽ thấy số giờ cho nguồn lực được di chuyển từ cột **Số giờ được Đăng ký Dự kiến** sang cột **Số giờ được đăng ký Xác nhận** trên tab **Nhóm** khi ở dạng xem **Thành viên Nhóm được Đặt tên**. Nếu nguồn lực đã được gán cho nhiệm vụ, nguồn lực sẽ không còn hiện sự thâm hụt đăng ký trên tab **Hợp nhất** vì các đăng ký hiện đang là xác nhận.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

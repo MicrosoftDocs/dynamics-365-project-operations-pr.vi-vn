@@ -46,3 +46,6 @@ Các thuộc tính **Sô người dùng** và **Số tháng** có thể được
 7. Lặp lại các bước từ 2 đến 6 cho tất cả các thuộc tính sẽ tạo nên số lượng trong phần mô tả hợp đồng dựa trên sản phẩm.
 
 Nếu hệ số số lượng đã được thiết lập, khi người dùng tạo phần mô tả hợp đồng cho sản phẩm này, số lượng trong phần mô tả hợp đồng sẽ bị khóa. Sau đó, số lượng được tính dưới dạng sản phẩm gồm các giá trị thuộc tính cho phần mô tả hợp đồng đó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

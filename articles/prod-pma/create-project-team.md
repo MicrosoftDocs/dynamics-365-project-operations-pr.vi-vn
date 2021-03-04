@@ -62,3 +62,6 @@ Quy trình sau đây giải thích cách tạo nhóm dự án.
 ## <a name="monitor-project-teams"></a>Giám sát các nhóm dự án
 1. Trên trang **Tất cả dự án** , chọn liên kết **ID dự án** cho dự án **Nâng cấp XYZ Giai đoạn 2**.
 2. Trên **Nhóm dự án và lập lịch trình** FastTab, xác minh rằng các nguồn lực dự án được liệt kê là chính xác.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Bảng sau liệt kê các loại quy trình làm việc mà bạn có thể t�
 |       <strong>Tiêu chuẩn đi lại</strong>       |          Tạo quy trình làm việc phê duyệt cho tiêu chuẩn đi lại.           |
 |      <strong>Yêu cầu tạm ứng tiền mặt</strong>      |         Tạo quy trình làm việc phê duyệt cho yêu cầu tạm ứng tiền mặt.          |
 |        <strong>Hoàn thuế GTGT</strong>        | Tạo quy trình làm việc phê duyệt cho việc hoàn thuế giá trị gia tăng (VAT).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Ngày phát hành dự kiến có thể thay đổi. Để biết thêm thông t
 | --- | --- |
 | 10.0.17 | Ngày 19 tháng 3 năm 2021 |
 | 10.0.18 | Ngày 16 tháng 4 năm 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

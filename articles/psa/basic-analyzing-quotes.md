@@ -60,3 +60,6 @@ Bạn có thể phân tích báo giá và tạo biểu đồ cho kỳ vọng c�
 Phân tích các kỳ vọng của khách hàng về lịch trình được thực hiện bằng cách so sánh ngày kết thúc mới nhất của chi tiết dòng báo giá với ngày giao hàng yêu cầu trên tất cả các dòng báo giá trong báo giá.
 
 Phân tích các kỳ vọng của khách hàng về ngân sách được thực hiện bằng cách so sánh tổng của tổng ngân sách khách hàng với số tiền báo giá trên tất cả các dòng báo giá.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

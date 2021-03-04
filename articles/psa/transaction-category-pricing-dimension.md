@@ -53,3 +53,6 @@ Bảng sau đây cung cấp danh sách toàn diện các biểu mẫu và dạng
 2. Trên trang **Thông số**, trên tab **Thông số định giá dựa trên số lượng**, lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể **Thông số định giá**.
 3. Thêm **loại giao dịch** vào danh sách này và đặt các trường **Áp dụng cho chi phí** và **Áp dụng cho doanh số** thành **Có**.
 4. Trong trường **Loại thông số**, hãy chọn **Dựa trên số lượng**, sau đó chọn mức ưu tiên cho **loại giao dịch** liên quan đến chi phí và doanh số.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

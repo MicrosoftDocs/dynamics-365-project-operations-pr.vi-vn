@@ -65,3 +65,6 @@ Sau khi bạn thiết lập các điều khoản lưu giữ cho nhà cung cấp,
 6. Nếu dự án cũng được thiết lập các điều khoản trả tiền khi được trả tiền (PWP) cho nhà cung cấp, hãy nhập tỷ lệ phần trăm ngưỡng cho dự án trong trường **Tỷ lệ phần trăm ngưỡng PWP**.
 
 Các điều khoản lưu giữ cho nhà cung cấp cũng được hiển thị trên các đơn đặt hàng mà bạn tạo cho nhà cung cấp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

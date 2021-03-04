@@ -40,3 +40,6 @@ Bảng thông tin **Practice Manager** cung cấp cho người quản lý thực
 ## <a name="resource-manager"></a>Resource Manager 
 
 Bảng thông tin **Resource Manager** cung cấp cho người quản lý nguồn lực trải nghiệm bảng thông tin đồ họa để theo dõi yêu cầu nguồn lực, nhu cầu nguồn lực và thời gian làm việc. Bảng thông tin cũng cho phép người quản lý nguồn lực chia thông tin được giám sát theo nhiều tham số khác nhau.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

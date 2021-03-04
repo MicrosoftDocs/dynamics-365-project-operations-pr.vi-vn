@@ -153,3 +153,6 @@ Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Ánh xạ mốc thời gian mô tả hợp đồng dự án trong Dự án và Hợp đồng (PSA 3.x sang Dynamics) - mẫu v2:
 
 [![Ánh xạ mốc thời gian mô tả hợp đồng dự án với phiên bản 2 mẫu](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

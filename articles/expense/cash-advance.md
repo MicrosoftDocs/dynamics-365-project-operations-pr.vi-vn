@@ -63,3 +63,6 @@ Khi bạn tạo và gửi báo cáo chi phí cho khoản tạm ứng tiền mặ
 ### <a name="example"></a>Ví dụ:
 Bạn dự định đi từ Seattle đến Thành phố New York để tham dự hội nghị. Bạn tạo yêu cầu tạm ứng tiền mặt 3000 USD dựa trên chi phí ước tính bao gồm vé dự hội nghị, vé máy bay, khách sạn, tiền ăn và taxi. Bạn sẽ không được nhận tiền nếu người quản lý của bạn không phê duyệt yêu cầu này. Sau khi người quản lý của bạn phê duyệt, khoản tạm ứng tiền mặt được yêu cầu sẽ được thanh toán bằng 3000 USD vào tài khoản ngân hàng của bạn. Sau đó bạn tham dự hội nghị. Sau khi hoàn thành chuyến đi của mình, bạn thấy rằng tổng chi tiêu chỉ là 2790 USD. Chọn **Tiền mặt** trong trường **Phương thức thanh toán**, rồi gửi chi phí của bạn là 2790 USD. Số tiền chi phí đã gửi của bạn tự động được điều chỉnh dựa trên khoản tạm ứng tiền mặt 3000 USD đã cho bạn vay. Hiện bạn còn nợ số dư 210 USD (3000 - 2790), bạn có thể trả lại cho công ty bằng cách sử dụng thể loại chi phí **Trả lại tiền mặt**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

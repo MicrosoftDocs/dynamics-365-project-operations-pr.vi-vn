@@ -63,3 +63,6 @@ Khi công việc cho dự án được hoàn thành, người quản lý dự á
 
 Khi tất cả giao dịch được ghi lại cho dự án, người quản lý dự án có thể cập nhật giai đoạn thành **Đóng**. Tại thời điểm đó, không thể ghi lại giao dịch nào và dự án được đặt thành chế độ chỉ đọc.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

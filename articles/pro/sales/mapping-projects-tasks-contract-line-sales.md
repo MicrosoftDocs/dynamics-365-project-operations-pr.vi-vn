@@ -82,3 +82,6 @@ Hoàn thành các bước sau để hủy liên kết các nhiệm vụ dự án
 4. Trong trang hộp thoại mở ra, hãy chọn một mô tả hợp đồng từ danh sách thả xuống.
 5. Chọn hộp kiểm để cho biết liệu có nên loại bỏ cả quy trình liên kết khỏi nhiệm vụ con bất kỳ của các nhiệm vụ đã chọn hay không. Chọn hộp này cũng sẽ hủy liên kết nhiệm vụ con của các nhiệm vụ đã chọn với mô tả hợp đồng.
 6. Chọn **OK**. Một thông báo cảnh báo cho biết rằng thao tác loại bỏ liên kết này có thể dẫn đến việc đảo ngược bất kỳ giá trị thực tế nào đã được ghi lại trước đó trên nhiệm vụ. Chọn **OK** trên hộp thoại cảnh báo để loại bỏ liên kết giữa nhiệm vụ và mô tả hợp đồng dựa trên dự án.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

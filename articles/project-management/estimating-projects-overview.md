@@ -79,3 +79,6 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

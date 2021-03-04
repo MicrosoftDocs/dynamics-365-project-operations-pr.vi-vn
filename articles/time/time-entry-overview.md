@@ -27,3 +27,6 @@ Các thành viên trong nhóm dự án tạo và gửi các mục nhập thời 
 
 Để biết thông tin về cách tạo, gửi hoặc thu hồi một mục nhập và các công cụ khác để giúp hoàn thành báo cáo của bạn, hãy xem [Hành vi của người dùng mục nhập thời gian](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

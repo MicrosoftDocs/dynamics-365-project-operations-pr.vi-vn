@@ -44,3 +44,6 @@ Kịch bản triển khai chi phí cơ bản chỉ cho phép bạn ghi lại cá
 
 ## <a name="determine-your-expense-deployment"></a>Xác định triển khai chi phí của bạn
 Để xác định xem bạn có đang chạy triển khai quản lý chi phí cơ bản hay không, hãy xác minh rằng URL địa chỉ kết thúc bằng **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

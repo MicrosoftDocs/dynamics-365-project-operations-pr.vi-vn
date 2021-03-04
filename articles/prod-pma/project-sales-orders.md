@@ -41,3 +41,6 @@ Bạn có thể tạo đơn đặt hàng dựa trên dự án theo hai cách:
 - Truy cập vào chính dự án. Trên Ngăn hành động, chọn **Quản lý > Nhiệm vụ mặt hàng > Đơn đặt hàng**. Thông tin dự án sẽ mặc định theo đơn đặt hàng từ dự án. Nếu hợp đồng dự án có nhiều nguồn tài trợ, bạn sẽ cần chọn nguồn tài trợ để thiết lập khách hàng cho đơn đặt hàng. Nếu chỉ có một nguồn tài trợ cho dự án, khách hàng sẽ được tự động thiết lập.
 - Đi đến trang danh sách **Tất cả đơn đặt hàng** và tạo đơn đặt hàng mới. Bạn sẽ cần phải chọn dự án cho đơn đặt hàng. Sau khi dự án được chọn, khách hàng sẽ được thiết lập từ nguồn tài trợ hoặc bạn sẽ cần chọn nguồn tài trợ nếu hợp đồng dự án có nhiều nguồn vốn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

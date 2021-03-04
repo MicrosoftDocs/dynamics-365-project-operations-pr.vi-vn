@@ -52,3 +52,6 @@ Hướng dẫn này sẽ đưa bạn qua quá trình cài đặt và cấu hình
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md) [Hướng dẫn của Quản lý Khách hàng](../psa/project-manager-guide.md)   
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)   
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

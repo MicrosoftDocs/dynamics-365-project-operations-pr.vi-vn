@@ -69,3 +69,6 @@ Các vấn đề về hiệu suất liên quan đến lập kế hoạch nguồn
 
 > [!NOTE]
 > Điều này sẽ phân phối dữ liệu chung tới bảng **ResRollup** trên tất cả các công ty trong môi trường của bạn, vì vậy, công việc hàng loạt chỉ cần được chạy trong một pháp nhân. Công việc hàng loạt này là cần thiết cho tất cả dạng xem **Tính sẵn sàng của nguồn lực**. Nếu công việc hàng loạt này không được chạy, dữ liệu **ResRollup** sẽ được tạo nhanh chóng, có thể mất thời gian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

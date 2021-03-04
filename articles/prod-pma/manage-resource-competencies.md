@@ -53,3 +53,6 @@ Các quy trình sau đây giải thích cách thiết lập một số năng l�
 5. Trong trường **Ngày cấp độ** , chọn **1-/14/2014**.
 6. Trong trường **Số năm kinh nghiệm** , nhập **10**.
 7. Chọn **Lưu** rồi đóng trang.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

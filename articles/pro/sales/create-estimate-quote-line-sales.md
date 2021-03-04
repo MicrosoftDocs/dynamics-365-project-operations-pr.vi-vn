@@ -67,3 +67,6 @@ Trên tab **Chi tiết mô tả báo giá**, chọn một hàng trong lưới đ
 Tính toán lợi nhuận sẽ chuyển đổi số tiền trên chi tiết mô tả báo giá cho chi phí và bán hàng thành tiền tệ cơ bản của môi trường để báo cáo tổng lợi nhuận ước tính trên báo giá.
 
 Điều này có thể dẫn đến lỗi làm tròn tiền tệ và thay đổi lợi nhuận do thiếu tỷ giá hối đoái có hiệu lực theo ngày. Chỉ sử dụng các tính toán này trên báo giá dự án dưới dạng ước lượng chứ không phải báo cáo thực tế theo luật định hoặc báo cáo khác đòi hỏi độ chính xác cao hơn trong việc làm tròn và nhận thức về ngày có hiệu lực đối với tỷ giá hối đoái.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

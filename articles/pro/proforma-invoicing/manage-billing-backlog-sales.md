@@ -60,3 +60,6 @@ Bạn không thể đánh dấu các giao dịch bán hàng thực tế chưa th
 Nếu phần mô tả hợp đồng với nhiều khách hàng có phương thức thanh toán theo thời gian và vật tư, thì khi thời gian và chi phí được phê duyệt, một giao dịch bán hàng thực tế chưa thanh toán sẽ được tạo cho từng khách hàng trên phần mô tả hợp đồng theo tỷ lệ phần trăm thanh toán được xác định cho từng khách hàng đó. Ở dạng xem **Tồn đọng thanh toán cho thời gian và vật tư**, bạn sẽ thấy các giao dịch bán hàng thực tế chưa thanh toán cho từng khách hàng cụ thể này. Mỗi bản ghi giá trị thực tế doanh số chưa lập hóa đơn này có thể được đánh dấu riêng biệt là **Đã sẵn sàng để lập hóa đơn** ở dạng xem này.
 
 Một giao dịch bán hàng thực tế chưa thanh toán có trên hóa đơn nháp sẽ hiển thị trong dạng xem này với trạng thái thanh toán là **Đã tạo hóa đơn cho khách hàng**. Khi hóa đơn nháp được xác nhận, trạng thái thanh toán trên bản ghi này được cập nhật thành **Đã đăng hóa đơn khách hàng**. Không cập nhật giá trị trạng thái này bằng mã tùy chỉnh. Project Operations không hoạt động chính xác khi các giá trị trạng thái này được cập nhật bằng mã tùy chỉnh.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

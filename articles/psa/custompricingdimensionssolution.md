@@ -68,3 +68,6 @@ Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải p
 > ![Không bao gồm tất cả thành phần liên quan](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

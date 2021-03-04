@@ -64,3 +64,6 @@ Thêm các thực thể Project Service sau vào giải pháp giá của bạn �
 5.  Khi được nhắc đưa vào bất kỳ thực thể phụ thuộc nào cho các thực thể đã chọn, hãy bấm vào **Không, không đưa vào các thành phần bắt buộc.**
 
     ![Đưa vào các thực thể phụ thuộc](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

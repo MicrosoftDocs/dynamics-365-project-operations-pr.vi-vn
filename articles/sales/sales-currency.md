@@ -71,3 +71,6 @@ Trước khi bạn bắt đầu quy trình này, hãy xác minh rằng vai trò 
 
 > [!IMPORTANT]
 >  Bạn không thể xóa loại tiền tệ mà các hồ sơ khác đang sử dụng; bạn chỉ có thể hủy kích hoạt loại tiền tệ đó. Việc hủy kích hoạt hồ sơ tiền tệ sẽ không xóa thông tin tiền tệ được lưu trữ trong các hồ sơ hiện có, chẳng hạn như cơ hội hoặc đơn hàng. Tuy nhiên, bạn sẽ không thể chọn loại tiền tệ đã hủy kích hoạt cho các giao dịch mới.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

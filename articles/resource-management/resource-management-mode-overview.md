@@ -48,3 +48,6 @@ Ngoài quy trình ở Chế độ trung tâm được hỗ trợ, hãy xem các 
 Đặt trước nguồn lực từ yêu cầu nguồn lực:
 - [Chỉ định nguồn lực chung có thể đăng ký trước cho nhiệm vụ và tạo yêu cầu về nguồn lực](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Đặt trước nguồn lực được nêu tên từ yêu cầu nguồn lực](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

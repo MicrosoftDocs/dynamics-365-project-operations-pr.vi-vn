@@ -42,3 +42,6 @@ Bạn có thể dùng hộp tìm kiếm trong **Bộ chọn nguồn lực** đ�
 1. Từ lưới nhiệm vụ, bảng hoặc dòng thời gian, hãy điều hướng đến ô **Đã phân công cho**.
 2. Trong hộp tìm kiếm, bắt đầu nhập tên. Kết quả tìm kiếm cho tên được hiện thị trong **Bộ chọn nguồn lực** trong phần **Các nguồn lực khác**.
 3. Chọn nguồn lực mà bạn muốn gán cho nhiệm vụ hoặc chọn tên của nguồn lực trong **Các nguồn lực nhóm khác**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -240,3 +240,6 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 22. Chọn **Gửi**.
 23. Nhập bất kỳ nhận xét nào dành cho người phê duyệt.
 24. Chọn **Xong**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

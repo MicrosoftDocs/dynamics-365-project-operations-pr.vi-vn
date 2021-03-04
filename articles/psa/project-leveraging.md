@@ -54,3 +54,6 @@ Bạn có thể xác định nhân công công việc và ước tính lịch tr
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Nhập ước tính từ dự án vào báo giá
 
 Sau khi xác định ước tính dự án, bạn có thể nhập các ước tính đó vào mô tả báo giá. Trên trang **Chi tiết mô tả báo giá**, hãy chọn **Nhập từ ước tính** trên ruy băng để tóm tắt ước tính dự án theo loại giao dịch, vai trò hoặc cấp nhiệm vụ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

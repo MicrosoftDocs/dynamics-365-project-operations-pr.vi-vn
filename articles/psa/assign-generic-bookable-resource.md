@@ -59,3 +59,6 @@ Bạn cũng có thể nhấp vào liên kết **Yêu cầu nguồn lực** trong
 
 ![Yêu cầu nguồn lực](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

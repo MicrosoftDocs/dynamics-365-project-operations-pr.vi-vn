@@ -113,3 +113,6 @@ Tải xuống và cài đặt ứng dụng dành cho thiết bị di động Fin
 11. Chọn thuộc tính dòng.
 12. Tùy chọn: Nhập nhận xét bên ngoài và nội bộ.
 13. Chọn **Xong**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

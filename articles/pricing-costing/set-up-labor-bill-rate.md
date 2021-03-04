@@ -55,3 +55,6 @@ Ví dụ: một nhà phát triển từ bộ phận Robotics của Fabrikam Ấn
     | Nhà phát triển | Fabrikam Hoa Kỳ | Fabrikam Hoa Kỳ - Robotics | 150 USD |
 
 3. Đính kèm bảng giá bán hàng, **Tỷ lệ thanh toán Fabrikam Hoa Kỳ** vào bảng giá dự án của hợp đồng dự án hoặc vào một tài khoản nhất định.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Lịch trình khoản duy trì được thiết lập trên trang **Hợp đồn
 | Số khoản tiền tạm ứng cần tạo | Khi bạn nhập số lượng khoản tạm ứng cần tạo, hệ thống sẽ sử dụng ngày bắt đầu và tần suất để tạo số lượng trong trường này. | Khi trường này được cập nhật theo cách thủ công, hệ thống sẽ bỏ qua giá trị trong trường **Kết thúc lịch trình tiền tạm ứng** và thay vào đó, tạo số lượng khoản tạm ứng hoặc trả trước cụ thể. |
 | Tuần suất hóa đơn | Tần suất ứng dụng sẽ tạo các khoản tạm ứng và trả trước. | Giá trị này ảnh hưởng trực tiếp đến số lượng khoản tạm ứng và trả trước cũng như ngày được tạo. |
 | Tổng số tiền | Tổng số tiền là số tiền được chia thành từng khoản tạm ứng hoặc trả trước sẽ được tạo. | Không có tác động xuôi tuyến đối với trường này. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145744"
 Tất cả các giao dịch tài chính xảy ra trong một dự án đều được ghi lại. Các giao dịch này được ghi lại là **thực tế**. Bảng sau đây hiển thị các loại thực tế khác nhau được tạo, phụ thuộc vào việc dự án là dự án thời gian và thời gian và vật tư, giá cố định, dự án nội bộ hay ở giai đoạn trước khi bán hàng.
 
 > ![Bảng minh họa cách ghi thực tế](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

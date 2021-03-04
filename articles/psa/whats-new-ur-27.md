@@ -81,3 +81,6 @@ Các vấn đề sau đã được khắc phục:
 - Khi cài đặt cả Dynamics 365 Field Service và Project Service Automation, các tùy chọn **Khóa giá** và **Dùng giá hiện tại** không hiển thị cùng lúc trên trang **Hóa đơn**.
 - Đối với tiếng Nhật, bản dịch không nhất quán với các trang khác dựa trên lịch.
 - Tùy chọn **Kích hoạt** và **Hủy kích hoạt** bị xóa khỏi thực thể **Liên kết bảng giá** trong Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

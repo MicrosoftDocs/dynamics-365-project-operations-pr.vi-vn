@@ -55,3 +55,6 @@ Khi phương thức định giá này được chọn trên mô tả giá theo d
 
 ### <a name="markup-over-cost"></a>Tăng cao hơn chi phí
 Khi phương thức định giá này được chọn trên mô tả giá theo danh mục được liên kết với bảng giá bán hàng, giá chỉ mặc định cho kết hợp danh mục và đơn vị cho chi phí thực tế. Ví dụ: giá trị bán hàng thực tế chưa lập hóa đơn cho lớp giao dịch chi phí. Đơn giá này được đặt trên giá trị bán hàng thực tế chưa lập hóa đơn thành một giá trị được tính toán từ đơn giá trên chi phí thực tế cho khoản chi phí đó sau khi áp dụng tỷ lệ phần trăm tăng. Mặc định giá dựa trên chi phí không được thực hiện trên giá trị ước tính dự án cho các chi phí hoặc mô tả báo giá và chi tiết mô tả hợp đồng cho các chi phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

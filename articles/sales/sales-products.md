@@ -124,3 +124,6 @@ Ví dụ, nếu có các thuộc tính sau đây:
 - **SKU sản phẩm** 
 
 Các thuộc tính **Sô người dùng** và **Số tháng** có thể được gắn cờ ở dạng yếu tố số lượng bằng cách chỉnh sửa các thuộc tính của mô tả sản phẩm. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

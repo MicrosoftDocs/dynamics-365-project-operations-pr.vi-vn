@@ -26,3 +26,6 @@ _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng tr�
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
 Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Dynamics 365 Finance and Operations, hãy xem [Bản cập nhật theo quy định](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

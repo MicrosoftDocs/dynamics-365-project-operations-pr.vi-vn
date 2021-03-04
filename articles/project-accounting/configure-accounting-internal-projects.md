@@ -32,3 +32,6 @@ Mọi dự án không được liên kết với hợp đồng trong Dynamics 36
 Sau khi các giao dịch được đăng vào dự án, nếu dự án được liên kết với hợp đồng dự án, thì hệ thống sẽ đảo ngược tất cả các giao dịch đã tích lũy và tạo giao dịch có thể lập hóa đơn mới. Giao dịch có thể lập hóa đơn tuân theo các quy tắc kế toán được xác định trong hồ sơ chi phí và doanh thu tương ứng của Dự án.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

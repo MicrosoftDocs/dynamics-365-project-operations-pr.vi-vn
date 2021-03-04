@@ -73,3 +73,6 @@ Bấm vào liên kết bên dưới để tìm hiểu thêm về những gì b�
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md)   
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)   
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Trước khi yêu cầu hoặc chỉ định nguồn lực trong [!INCLUDE[pn_pr
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

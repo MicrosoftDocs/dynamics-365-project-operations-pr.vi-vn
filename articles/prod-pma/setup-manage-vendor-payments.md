@@ -80,3 +80,6 @@ Khi một nhà cung cấp hoàn thành công việc của mình trên một dự
 2. Trên trang **Hóa đơn của nhà cung cấp có điều khoản trả khi được trả tiền** , trong trường tìm kiếm, hãy nhập các giá trị để tìm hóa đơn của nhà cung cấp mà bạn muốn xem lại, sau đó chọn **Tìm kiếm**.
 3. Trên FastTab **Mô tả hóa đơn của nhà cung cấp** , hãy chọn các mô tả mà bạn muốn thay đổi.
 4. Nếu điều kiện **Trả khi được trả tiền** được đáp ứng cho mô tả hóa đơn, hãy chọn **Thanh toán cho nhà cung cấp**. Tùy chọn **Trả khi được trả tiền** được bỏ chọn và giá trị của trường **Sẵn sàng thanh toán** được thay đổi thành **Có**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

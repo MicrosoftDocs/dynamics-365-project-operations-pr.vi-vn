@@ -48,3 +48,6 @@ Dưới đây là thông tin tóm tắt về các trường có thể được c
 - **Trạng thái tổng thể của dự án**: Tình trạng tổng thể của dự án do người quản lý Dự án cung cấp.
 - **Nhận xét**: Bản tường thuật về tình trạng hiện tại của dự án do người quản lý Dự án cung cấp.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

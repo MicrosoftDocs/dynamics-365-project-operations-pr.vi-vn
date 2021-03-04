@@ -55,3 +55,6 @@ Sau khi giành được hợp đồng dự án, bạn sẽ cần sắp xếp nh�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

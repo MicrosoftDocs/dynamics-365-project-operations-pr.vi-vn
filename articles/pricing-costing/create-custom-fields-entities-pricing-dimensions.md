@@ -77,3 +77,6 @@ Bạn có thể tạo dữ liệu cho kích thước dựa trên thực thể th
 5. Lặp lại bước 1-3 để tạo một chức vụ tiêu chuẩn khác cho "Kỹ sư hệ thống cao cấp".
 
 > ![Dữ liệu mẫu cho thực thể Chức vụ tiêu chuẩn](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

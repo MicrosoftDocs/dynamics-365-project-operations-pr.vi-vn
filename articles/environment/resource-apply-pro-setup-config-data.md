@@ -134,3 +134,6 @@ Trước khi đặt cấu hình dữ liệu trong Common Data Service (CDS), b�
 13. Chọn **Lưu**. 
 
 ![Đã cập nhật tham số dự án](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

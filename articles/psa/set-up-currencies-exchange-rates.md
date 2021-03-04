@@ -43,3 +43,6 @@ ms.locfileid: "5150424"
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

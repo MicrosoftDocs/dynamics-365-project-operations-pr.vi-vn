@@ -49,3 +49,6 @@ Bảng thông tin và báo cáo cho bạn biết vị thế công việc của b
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

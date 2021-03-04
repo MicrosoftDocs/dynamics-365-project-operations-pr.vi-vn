@@ -342,3 +342,6 @@ Project Operations ghi lại các giao dịch tài chính xảy ra trong một d
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

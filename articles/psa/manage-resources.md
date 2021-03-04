@@ -344,3 +344,6 @@ Nếu bạn có phân công nhiệm vụ cho nguồn lực nhưng không có đ�
 ![Hộp thoại Mở rộng đăng ký](media/Resource-Management-image58.png)
 
 Người quản lý dự án hoặc người quản lý nguồn lực có thể dùng Bảng lịch trình để quản lý mọi tình huống nguồn lực bị đăng ký quá mức so với năng lực của họ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

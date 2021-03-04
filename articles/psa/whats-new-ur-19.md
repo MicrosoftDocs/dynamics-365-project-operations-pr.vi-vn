@@ -66,3 +66,6 @@ Các vấn đề sau đã được khắc phục:
 - Khách hàng có thể gặp hiệu suất xuống cấp khi tạo dự án vì **GetBookableResourceIdFromUser** truy xuất tất cả các cột của nguồn lực có thể đặt trước thay vì chỉ truy xuất ID chính.
 - Thực thể **Loại giao dịch** thiếu phần bổ trợ cập nhật xác thực trước để ngăn người dùng nhập **Đơn vị** và **Nhóm đơn vị** không hợp lệ cho các loại giao dịch.
 - Bước **Loại bỏ** không hoạt động để nhập mục nhập thời gian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

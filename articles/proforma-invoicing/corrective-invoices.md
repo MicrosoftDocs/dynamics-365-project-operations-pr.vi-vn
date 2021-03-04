@@ -36,3 +36,6 @@ Khi bạn xác nhận hóa đơn chỉnh sửa, doanh số bán hàng thực t�
 
 - Doanh số bán hàng thực tế được lập hóa đơn cho 6 giờ.
 - Doanh số bán hàng thực tế được lập hóa đơn cho 2 giờ còn lại. Giao dịch này có thể được lập hóa đơn sau hoặc đánh dấu là không tính phí, tùy thuộc vào các cuộc đàm phán với khách hàng.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

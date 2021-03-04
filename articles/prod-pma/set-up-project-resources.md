@@ -75,3 +75,6 @@ Sau khi hoàn thành các nhiệm vụ liên trước, bạn có thể hoàn th�
 - Thực hiện các đề nghị nguồn lực.
 - Yêu cầu nguồn lực biên chế từ WBS.
 - Đặt trước nguồn lực cho dự án mà không có yêu cầu về nguồn lực biên chế.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

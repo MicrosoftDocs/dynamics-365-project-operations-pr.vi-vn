@@ -170,3 +170,6 @@ Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ
 [![Ánh xạ mẫu của giao dịch ước tính chi phí](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Ánh xạ mẫu của ước tính chi phí](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

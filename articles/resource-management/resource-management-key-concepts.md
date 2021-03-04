@@ -35,3 +35,6 @@ Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên d
 
 
 Bạn có thể bố trí nhân viên cho dự án bằng nhóm nguồn lực chung hoặc có tên trong Project Operations. Bạn có thể dùng nhiều phương pháp khác nhau để thêm và phân công các thành viên nhóm và để quản ký đăng ký cũng như phân công của bạn. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

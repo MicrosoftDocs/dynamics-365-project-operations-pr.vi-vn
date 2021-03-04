@@ -45,3 +45,6 @@ Bạn có thể gắn cờ **Số người dùng** và **Số tháng** có thể
 6. Lưu và đóng biểu mẫu. Lặp lại các bước này cho tất cả các thuộc tính để tính toán số lượng cho mô tả báo giá dựa trên sản phẩm.
 
 Khi bạn tạo mô tả báo giá dựa trên sản phẩm cho một sản phẩm, số lượng của mô tả báo giá sẽ bị khóa. Số lượng sẽ được tính dưới dạng tích số của các giá trị thuộc tính mà bạn nhập cho mô tả báo giá đó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

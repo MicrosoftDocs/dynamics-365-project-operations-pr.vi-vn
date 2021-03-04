@@ -94,3 +94,6 @@ Hiện tại, có Hoa Kỳ được hỗ trợ.
 Finance sẽ liên hệ với Cognitive Services để trích xuất dữ liệu trong trường này. Cognitive Services sẽ giữ lại bản sao biên lai của bạn trong tối đa 24 giờ trong khi quy trình xử lý diễn ra. Sau khi quy trình xử lý đã hoàn tất, Cognitive Services sẽ xóa biên lai. Biên lai vẫn được lưu trữ trong Finance.
 
 Để biết thêm thông tin, hãy xem [Cho phép tìm hiểu về biên lai bằng chức năng mới của Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

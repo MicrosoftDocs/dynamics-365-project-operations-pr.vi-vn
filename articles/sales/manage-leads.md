@@ -80,3 +80,6 @@ Quy trình công việc từ khách hàng tiềm năng thành cơ hội hỗ tr�
 | Phát triển | Cơ hội | Tạo cơ hội để bổ sung thêm thông tin về công việc liên quan, các bên liên quan chính và đối thủ cạnh tranh. |
 | Đề xuất | Cơ hội | Xây dựng đề xuất và nhận sự phê duyệt của nhóm đánh giá nội bộ. |
 | Đóng | Cơ hội | Giành được cơ hội để chốt thỏa thuận. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

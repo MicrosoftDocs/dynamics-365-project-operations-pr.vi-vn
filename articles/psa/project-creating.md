@@ -149,3 +149,6 @@ Theo mặc định, nếu nhiệm vụ nút lá không có nhiệm vụ tiếp t
 ### <a name="manual-scheduling"></a>Lên lịch thủ công
 
 Nếu quy tắc của lập lịch tự động không đáp ứng các yêu cầu của bạn, thì bạn có thể đặt chế độ nhiệm vụ cho nhiệm vụ thành **Đã lập lịch theo cách thủ công**. Cài đặt này sẽ ngăn công cụ lập lịch không tính toán giá trị của các thuộc tính lập lịch khác. Bất kể chế độ nhiệm vụ, nếu đặt nhiệm vụ tiếp trước trên các nhiệm vụ, bạn sẽ luôn làm ảnh hưởng đến ngày bắt đầu của nhiệm vụ phụ thuộc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

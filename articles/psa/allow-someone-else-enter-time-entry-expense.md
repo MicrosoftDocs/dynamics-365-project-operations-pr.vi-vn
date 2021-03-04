@@ -93,3 +93,6 @@ Thiết lập đại diện để cho phép người khác thay mặt bạn th�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

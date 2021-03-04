@@ -72,3 +72,6 @@ Nếu việc thiết lập giá cho thể loại chi phí không hợp lệ thì
 Nếu bạn vẫn không thấy một mức giá hợp lệ trên thực tế chi phí bán hàng của mình sau khi làm theo ba bước kiểm tra ở trên, hãy ghi phiếu hỗ trợ.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

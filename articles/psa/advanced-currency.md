@@ -105,3 +105,6 @@ Dynamics 365 tự động xử lý cuốn chiếu các số tiền bằng nhiề
 | Chi phí           | Bán hàng chưa lập hóa đơn   | 17 tháng 6 | Đức  | Thuê xe           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Để tính tổng giá trị bán hàng chưa thanh toán trên dự án, bạn có thể tạo trường cuốn chiếu cho trường **Số tiền** trên tất cả doanh thu bán hàng chưa lập hóa đơn liên quan. Trường tổng số là một cấu trúc của Dynamics 365 cho phép tạo các công thức nhanh trên bản ghi liên quan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

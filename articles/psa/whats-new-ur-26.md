@@ -74,3 +74,6 @@ Các vấn đề sau đã được khắc phục:
 - Khi chọn một dòng dựa trên dự án trong báo giá hoặc hợp đồng, nút **Gợi ý** chỉ hiển thị khi chọn một dòng dựa trên sản phẩm có liên kết với sản phẩm hiện tại.
 - Tách quyền **Create_Product** khỏi quyền **Create_ProjectContract**.
 - Thao tác xóa dòng hóa đơn gây ra lỗi tham chiếu rỗng **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

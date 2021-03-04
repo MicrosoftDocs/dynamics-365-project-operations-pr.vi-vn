@@ -67,3 +67,6 @@ Sau khi bạn có bảng giá dự án mặc định cho tổ chức và dành r
 
 1. Trên **Báo giá dự án**, trên tab **Bảng giá dự án**, hãy xác minh trên lưới con là không có bản ghi bảng giá cụ thể nào được chọn.
 2. Chọn **Tạo nội dung định giá tùy chỉnh**. Thao tác này sẽ tạo bản sao của tất cả các bảng giá tiêu chuẩn hiện được liên kết với báo giá và liên kết các bản sao này với báo giá. Các liên kết hiện có với bảng giá tiêu chuẩn sẽ bị loại bỏ. Sau đó, nhân viên bán hàng có thể bắt đầu chỉnh sửa giá trên các bản sao này. Các mức giá thay đổi này sẽ chỉ áp dụng cho báo giá dự án này.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Bạn có thể tạo cùng lúc nhiều hóa đơn liên công ty cho tất c�
 ## <a name="post-the-intercompany-vendor-invoice"></a>Đăng hóa đơn nhà cung cấp liên công ty
 
 Kế toán viên dự án của pháp nhân đi thuê có thể xem xét các hóa đơn đang chờ xử lý của nhà cung cấp khi họ đăng hóa đơn khách hàng liên công ty tương ứng. Trong phần Tài chính của pháp nhân đi thuê, hãy chuyển đến **Khoản phải trả** > **Hóa đơn** > **Hóa đơn đang chờ xử lý của nhà cung cấp**. Mã số hóa đơn đang chờ xử lý sẽ khớp với mã số hóa đơn khách hàng liên công ty. Hãy xác minh rằng hóa đơn là chính xác rồi đăng hóa đơn. Thao tác đăng háo đơn nhà cung cấp liên công ty sẽ tạo một sổ cái phụ dự án và một giao dịch sổ cái chung, phản ánh chi phí giao dịch trong pháp nhân đi thuê.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

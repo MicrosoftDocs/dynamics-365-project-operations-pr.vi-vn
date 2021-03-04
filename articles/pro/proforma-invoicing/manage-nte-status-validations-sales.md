@@ -73,3 +73,6 @@ Bạn có thể thực hiện đánh giá lại hàng loạt trạng thái khôn
 Để đặt lại trạng thái không vượt quá, hãy chọn một hoặc nhiều giá trị thực tế từ dạng xem **Tồn đọng thanh toán cho thời gian và vật tư** hoặc **Giá trị thực tế**, sau đó chọn **Đánh giá lại trạng thái không vượt quá**.
 
 Tất cả giá trị thực tế phù hợp được chọn với giới hạn không vượt quá sẽ được đánh giá dựa trên sự thiết lập giới hạn không vượt quá. Các giá trị thực tế phù hợp để đánh giá lại trạng thái không vượt quá là các doanh số thực tế chưa được thanh toán. Các giá trị này chưa được lập hóa đơn, không có trên hóa đơn nháp và được đánh dấu là phải thanh toán. Bất kỳ giá trị thực tế nào khác được chọn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

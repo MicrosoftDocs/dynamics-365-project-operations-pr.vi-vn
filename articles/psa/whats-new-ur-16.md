@@ -64,3 +64,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 
     -   Sửa lỗi: Khi người dùng nâng cấp từ 2.X lên 3.X, các dự án có giá trị RỖNG cho tên dự án sẽ được cho phép.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

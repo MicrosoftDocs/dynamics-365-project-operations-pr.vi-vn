@@ -28,3 +28,6 @@ Mô tả dựa trên sản phẩm có thể là các mục trong danh mục ho�
 
 Khi phương pháp doanh thu của Tóm tắt cơ hội được **Hệ thống tính toán**, các giá trị ngân sách khách hàng trên mô tả cơ hội được tóm tắt để tính toán doanh thu ước tính. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

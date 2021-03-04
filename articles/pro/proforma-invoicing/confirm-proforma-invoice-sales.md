@@ -273,3 +273,6 @@ Giá trị thực tế doanh số được lập hóa đơn cho mục mô tả s
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

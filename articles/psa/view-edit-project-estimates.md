@@ -45,3 +45,6 @@ Với các khả năng [!INCLUDE[pn_project_service_auto](../includes/pn-project
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

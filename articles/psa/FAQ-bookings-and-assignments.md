@@ -68,3 +68,6 @@ Do việc đăng ký và phân công không liên kết quá chặt chẽ nên c
 > [!NOTE]
 > Nếu bạn di chuyển nhiệm vụ mà bạn đã phân phối giờ làm việc cho chính mình, những sự phân phối giờ làm việc đó sẽ không được duy trì. Phân phối giờ làm việc được tạo cho khách hàng theo lịch dự án cho các thay đổi về giờ làm việc và ngày nghỉ lễ. Điều này là do thiết kế vì hệ thống không hiểu được mục đích của phân phối giờ làm việc gốc và không thể xác định được việc duy trì phân phối giờ làm việc đó có ý nghĩa với khung thời gian mới hay không. Vì việc đăng ký và phân công đã bị mất kết nối, việc đăng ký duy trì theo các phân phối giờ làm việc mà ban đầu đăng ký. Trong trường hợp này, bạn sẽ cần hủy và đăng ký lại cho phân phối giờ làm việc được phân công mới.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

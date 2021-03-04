@@ -104,3 +104,6 @@ Trong quá trình dự trữ nguồn lực, người quản lý dự án có th�
 
 3. Chọn **Lưu** rồi đóng trang.
 4. Trên tab **Năng lực** , thêm kỹ năng **Quản lý dự án** và chứng chỉ **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

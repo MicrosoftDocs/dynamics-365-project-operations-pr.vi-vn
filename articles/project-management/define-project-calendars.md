@@ -49,3 +49,6 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 8. Trong hộp thoại **Mẫu công việc**, hãy nhập tên cho mẫu công việc rồi chọn **Áp dụng**. 
 
 Bạn hiện có thể liên kết mẫu công việc với mẫu lịch dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

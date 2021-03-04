@@ -57,3 +57,6 @@ Bạn có thể xem danh sách các thành viên trong nhóm dự án của bạ
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

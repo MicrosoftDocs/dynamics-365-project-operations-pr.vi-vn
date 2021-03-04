@@ -20,3 +20,6 @@ ms.locfileid: "4514606"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Bạn có thể dùng chức năng có sẵn trong Universal Resource Scheduling dành cho Dynamics 365 Field Service để thiết lập trạng thái đăng ký cho tổ chức. Để biết thêm thông tin về cách thiết lập, hãy xem [Thiết lập trạng thái đăng ký](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

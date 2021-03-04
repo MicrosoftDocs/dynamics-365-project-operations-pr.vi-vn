@@ -42,3 +42,6 @@ Kỹ năng của nguồn lực được đánh giá bằng mô hình thành th�
 
 
 Các giá trị xếp hạng này hiển thị trên các bộ lọc **Yêu cầu nguồn lực**, **Bảng lịch trình** và **Trợ lý lập lịch biểu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

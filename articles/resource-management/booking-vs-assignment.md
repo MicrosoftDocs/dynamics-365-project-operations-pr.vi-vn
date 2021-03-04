@@ -26,3 +26,6 @@ Khác với các lượt đăng ký, nhiệm vụ là cam kết về nguồn l�
 Thông thường, tổng số lượt đăng ký cho một nguồn lực sẽ bằng tổng các nhiệm vụ của một hoặc nhiều tác vụ được chỉ định cho nguồn lực đó. Tuy nhiên, Project Operations không đảm bảo sự thống nhất này. Dạng xem **Điều hòa** cho Người quản lý dự án thấy các vị trí mà lượt đăng ký và nhiệm vụ của nguồn lực không thống nhất với nhau.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

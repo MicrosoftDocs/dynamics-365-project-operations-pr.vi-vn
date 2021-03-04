@@ -107,3 +107,6 @@ Các tùy chọn bổ sung đã được thêm vào WBS để sử dụng tốt 
     > Bạn không nhận được cảnh báo rằng nguồn lực được chỉ định hiện là 2, vì số lượng nguồn lực vẫn là 1.
 
 14. Trên trang **Cấu trúc phân tích công việc** , xác thực phân công nguồn lực trên WBS rồi chọn **Lưu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

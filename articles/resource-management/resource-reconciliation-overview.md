@@ -48,3 +48,6 @@ Nếu bạn có các lượt chỉ định nhiệm vụ cho nguồn lực nhưng
 Các lượt đăng ký được tạo thông qua hành động **Mở rộng đăng ký** sẽ liên kết với yêu cầu chính của dự án. Khi bắt đầu một lượt mở rộng, yêu cầu cụ thể cần phải mở rộng sẽ không thể được xác định bởi vì nguồn lực có thể liên kết với nhiều hơn một yêu cầu đối với dự án.
 
 Người quản lý dự án hoặc người quản lý nguồn lực có thể dùng Bảng lịch biểu để quản lý mọi tình huống nguồn lực bị đăng ký quá mức so với năng lực của họ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Người quản lý dự án có thể lập kế hoạch các vai trò nguồn 
 7. Chọn nhân viên, sau đó chọn **Gán**.
 8. Xác minh rằng dòng cho **Kỹ sư phát triển phần mềm 1** đã được loại bỏ cho trong **Dự án nâng cấp XYZ Giai đoạn 2**.
 9. Trên tab **Nhóm dự án và lập lịch trình** , đối với dự án **Nâng cấp XYZ Giai đoạn 2** , hãy xác minh rằng nhân viên mà bạn chọn trong bước trước đó đã được thêm làm **Kỹ sư phát triển phần mềm**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

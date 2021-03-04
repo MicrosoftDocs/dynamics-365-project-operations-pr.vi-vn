@@ -76,3 +76,6 @@ Thao tác này sẽ mở ra trang **Tên trường phương diện định giá 
 5. Thêm **msdyn_projectteam** vào trường **Tên logic thực thể** và **msdyn_bookableresourceid** vào trường **Tên trường**. Lưu bản ghi.
 
  ![Biểu mẫu tên trường phương diện định giá mới](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

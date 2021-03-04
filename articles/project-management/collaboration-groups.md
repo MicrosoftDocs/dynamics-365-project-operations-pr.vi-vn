@@ -26,3 +26,6 @@ Nhóm Office cho phép bạn chia sẻ dự án với các thành viên nhóm kh
 > [!NOTE] 
 > Người dùng chỉ được thêm vào nhóm nếu bạn nhấn vào **Nhóm** và thêm người dùng. Điều này khác với hành vi của Dự án cho web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

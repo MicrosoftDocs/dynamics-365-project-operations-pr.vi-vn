@@ -42,3 +42,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 Các vấn đề sau đã được khắc phục:
 
 - Lập lịch hạ cấp hiệu suất tìm kiếm hỗ trợ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

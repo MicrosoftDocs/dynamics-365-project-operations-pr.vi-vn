@@ -33,3 +33,6 @@ Có hai phương pháp để xử lý chi phí cá nhân của nhân viên:
 - **Do công ty trả** – Tổ chức của bạn thanh toán toàn bộ hóa đơn cho thẻ tín dụng công ty, sau đó tính các khoản chi phí cá nhân vào tài khoản của nhân viên.
 
 Bạn có thể chọn phương pháp mà tổ chức sẽ sử dụng trên trang **Các tham số quản lý chi phí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

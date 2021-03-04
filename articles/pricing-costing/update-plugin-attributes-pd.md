@@ -52,3 +52,6 @@ Hoàn tất các bước sau để cập nhật và đăng ký lại các phần
 7. Chọn **OK** để đóng trang rồi chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 2-7 cho phần bổ trợ thứ hai **PreOperationQuoteLineDetail**. Đối với phần bổ trợ này, bạn cần cập nhật bước **Update of msdyn_quotelinetransaction**.
 9. Đóng **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

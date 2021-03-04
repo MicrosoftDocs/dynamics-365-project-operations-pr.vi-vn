@@ -34,3 +34,6 @@ Giá bán hàng được áp dụng một lần cho mỗi thỏa thuận. Hệ t
 1. Tổ chức
 2. Khách hàng
 3. Báo giá/hợp đồng
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

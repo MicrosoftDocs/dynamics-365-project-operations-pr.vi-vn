@@ -60,3 +60,6 @@ Từ lưới thành viên nhóm, có thể thực hiện các hành động sau:
 
 - **Mới**: Ngoài việc thêm nguồn lực trực tiếp từ lịch, Người quản lý dự án có thể thêm các thành viên nhóm mới có tên hoặc chung từ lưới thành viên nhóm.
 - **Xóa**: Bằng cách chọn một hoặc nhiều thành viên nhóm, Người quản lý dự án có thể xóa các nguồn lực không tham gia vào dự án nữa. Việc xóa một thành viên nhóm cũng sẽ xóa tất cả các mục phân công nguồn lực được liên kết và hủy tất cả các mục đặt trước hiện có.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

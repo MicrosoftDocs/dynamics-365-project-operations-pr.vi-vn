@@ -98,3 +98,6 @@ Xác định mô hình triển khai tốt nhất của Project Operations bằng
 
 Đối với việc triển khai này, hãy xem [Đăng ký gói đăng ký xem trước](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) và [Cung cấp môi trường mới](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

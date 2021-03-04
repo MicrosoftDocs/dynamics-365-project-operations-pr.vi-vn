@@ -140,3 +140,6 @@ Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ
 [![Ánh xạ mẫu - Cập nhật giá trị thực tế](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Ánh xạ mẫu - Cập nhật giao dịch](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

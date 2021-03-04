@@ -78,3 +78,6 @@ Bản ghi thông số định giá của **msydn_bookableresource** phải đư�
 5. Thêm **msdyn_bookableresourceid** vào **Tên trường**.
 
  ![Biểu mẫu tên trường phương diện định giá mới](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

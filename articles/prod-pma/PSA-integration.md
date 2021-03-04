@@ -75,3 +75,6 @@ Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ h�
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Cài đặt giải pháp tích hợp Project Service Automation sang Finance trong phiên bản Project Service Automation của bạn
 
 Tải xuống giải pháp tích hợp Project Service Automation sang Finance từ [Trung tâm Tải xuống của Microsoft ](https://www.microsoft.com/download/details.aspx?id=57016) và làm theo hướng dẫn đi kèm với giải pháp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

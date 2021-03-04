@@ -96,3 +96,6 @@ Hãy làm theo các bước sau để tạo phiên bản tùy chỉnh của bi�
     ```
 
 6. Lưu và xuất bản các mục tùy chỉnh.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

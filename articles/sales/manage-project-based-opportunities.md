@@ -65,3 +65,6 @@ Quy trình bán hàng Cơ hội trong Project Operations là phần mở rộng 
 > Nếu thỏa thuận dựa trên dự án của bạn bắt đầu với Cơ hội, thì quy trình bán hàng Cơ hội sẽ được ưu tiên.
 
 Bạn có thể sửa dòng quy trình công việc cho sản phẩm hoặc tạo dòng quy trình công việc của riêng mình để theo dõi quy trình bán hàng khi cần. Để biết thêm thông tin về dòng quy trình công việc, hãy xem [Tổng quan về dòng quy trình công việc](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

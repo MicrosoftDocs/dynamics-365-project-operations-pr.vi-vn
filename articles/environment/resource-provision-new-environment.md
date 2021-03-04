@@ -209,3 +209,6 @@ Nếu bạn đã áp dụng dữ liệu demo cho môi trường Tài chính, hã
 
 
 Môi trường Project Operations của bạn hiện đã được cung cấp và đặt cấu hình. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

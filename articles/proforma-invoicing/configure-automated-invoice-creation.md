@@ -45,3 +45,6 @@ Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp l�
 
 > [!NOTE]
 > Việc lập hóa đơn theo lô chỉ chạy cho các dòng hợp đồng dự án được định cấu hình theo lịch trình hóa đơn. Mô tả hợp đồng với phương thức thanh toán giá cố định phải được định cấu hình các mốc. Mô tả hợp đồng dự án với phương thức thanh toán theo thời gian và vật tư cần thiết lập lịch trình lập hóa đơn theo ngày. Điều này cũng áp dụng cho mô tả hợp đồng dựa trên dự án.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

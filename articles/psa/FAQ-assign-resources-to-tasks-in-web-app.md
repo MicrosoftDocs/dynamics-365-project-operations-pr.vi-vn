@@ -116,3 +116,6 @@ Chọn **Đăng ký** đối với nguồn lực chung và sau đó bạn có th
 Khi nguồn lực chung được hoàn thành bằng nguồn lực được đặt tên, nguồn lực chung sẽ được loại bỏ khỏi nhóm và các phân công nhiệm vụ cho nguồn lực chung được gán cho nguồn lực được đặt tên mà hoàn thành yêu cầu nguồn lực của nguồn lực.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

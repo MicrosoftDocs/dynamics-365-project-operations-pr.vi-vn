@@ -51,3 +51,6 @@ Mỗi pháp nhân sử dụng Project Operations trên Dynamics 365 Customer Eng
   - **Loại thanh toán mặc định**: Project Operations sử dụng một tập hợp cố định các loại thanh toán mặc định phải được ánh xạ tới thuộc tính mô tả Finance. Tạo bản ghi cho từng loại thanh toán: **Không được chỉ định**, **Có thể tính phí**, **Không tính phí**, **Miễn phí** và **Không có sẵn**.
   - **Danh mục dự án mặc định**: Chọn các danh mục dự án mặc định sẽ được sử dụng cho từng loại giao dịch. Các giá trị mặc định này sẽ được sử dụng trong **nhật ký Tích hợp Project Operations** và trong các giá trị ước tính mà không có danh mục giao dịch nào được chỉ định cho giá trị thực tế của dự án.
   - **Dự báo**: Chọn mô hình dự báo được sử dụng để ước tính thời gian và chi phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

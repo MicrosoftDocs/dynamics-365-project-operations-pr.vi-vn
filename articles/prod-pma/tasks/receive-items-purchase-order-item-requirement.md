@@ -56,3 +56,6 @@ Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 21. Trong trường **Biên lai sản phẩm** , nhập giá trị.
 22. Chọn **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

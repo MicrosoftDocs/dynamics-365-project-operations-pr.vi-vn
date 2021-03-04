@@ -170,3 +170,6 @@ Các trường sau cho chi phí và doanh thu dự kiến, thực tế và còn 
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

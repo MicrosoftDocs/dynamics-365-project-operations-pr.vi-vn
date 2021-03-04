@@ -57,3 +57,6 @@ Bảng giá vốn không được đặt mặc định cho bất kỳ thực th�
 5. Tiếp theo, hệ thống sẽ xem xét khoảng ngày hiệu lực của các bảng giá khớp với ngày của dòng ước tính hoặc thực tế đến. 
 6. Nếu có nhiều bảng giá có hiệu lực đối với ngày trên dòng ước tính hoặc thực tế đến, thì bảng giá được tạo gần đây nhất sẽ được chọn.
 7. Nếu không có bảng giá vốn nào được đính kèm với tham số dự án khớp với đơn vị tiền tệ và ngày có hiệu lực, thì hệ thống sẽ đặt mặc định tỷ lệ chi phí thành không (0) trên dòng ước tính hoặc thực tế đến.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

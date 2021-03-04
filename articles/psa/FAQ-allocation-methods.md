@@ -71,3 +71,6 @@ Tổng kết lại, các phương pháp phân bổ sau sẽ dẫn tới quá t�
 - Giờ phân phối đồng đều
 
 Khi sử dụng một trong ba phương pháp phân bổ này, bạn sẽ không được thông báo khi nguồn lực bị quá tải đăng ký. Để khắc phục việc quá tải đăng ký, bạn sẽ cần sử dụng bảng Lịch trình.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

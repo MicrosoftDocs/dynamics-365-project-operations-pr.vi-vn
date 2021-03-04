@@ -82,3 +82,6 @@ Các tài nguyên được chỉ định theo cách này sẽ được thêm và
 
 3. Chọn tài nguyên mà bạn muốn gán cho tác vụ.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

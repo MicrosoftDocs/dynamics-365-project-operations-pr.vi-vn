@@ -93,3 +93,6 @@ Hợp đồng Project Operations được xây dựng dựa trên hợp đồng 
 - Hợp đồng Project Operations có biểu mẫu, thành phần giao diện người dùng, quy tắc công việc, phần bổ trợ lô-gic kinh doanh và tập lệnh phía máy khách riêng, khác hẳn với những dữ liệu trong hợp đồng Sales.
 
 Vì vậy, bạn không nên sử dụng hợp đồng Sales và hợp đồng Project hoán đổi cho nhau.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Chỉ các thuộc tính kế toán sau mới được cập nhật trong các d
 Các dòng nhật ký kế toán tích hợp có thể bị xóa. Tuy nhiên, bất kỳ dòng nào chưa được đăng sẽ được chèn lại vào nhật ký sau khi bạn chạy lại quy trình định kỳ **Nhập từ bảng tách chuyển**.
 
 Khi bạn đăng Nhật ký tích hợp, một sổ cái phụ của dự án và các giao dịch trên sổ cái chung sẽ được tạo. Chúng được dùng trong việc lập hóa đơn cho khách hàng hạ nguồn, ghi nhận doanh thu và báo cáo tài chính.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

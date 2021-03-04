@@ -231,3 +231,6 @@ Bảng sau trình bày cách đồng bộ hóa dữ liệu giữa Project Servic
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

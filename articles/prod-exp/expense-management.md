@@ -58,3 +58,6 @@ Nội dung trợ giúp bổ sung có sẵn dưới dạng phần hướng dẫn 
 ### <a name="videos"></a>Video
 
 Hãy xem các video hướng dẫn cách thức hiện có ở [kênh Microsoft Dynamics 365 trên YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

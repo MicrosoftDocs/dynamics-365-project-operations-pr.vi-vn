@@ -37,3 +37,6 @@ Nếu bạn muốn bao gồm các sản phẩm, chẳng hạn như giấy phép 
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

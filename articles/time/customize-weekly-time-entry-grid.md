@@ -144,3 +144,6 @@ Sử dụng các mục xác thực phần bổ trợ đối với mọi mục x�
 
 ### <a name="copying-time-entries"></a>Sao chép mục nhập thời gian
 Sử dụng dạng xem **Sao chép cột mục nhập thời gian** để xác định danh sách các trường sẽ sao chép trong quá trình nhập thời gian. **Ngày** và **Khoảng thời gian** là các trường bắt buộc và không nên bị loại bỏ khỏi dạng xem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

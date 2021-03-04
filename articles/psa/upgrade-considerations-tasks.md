@@ -96,3 +96,6 @@ Chủ đề này cung cấp thông tin về cách nâng cấp cấu trúc phân 
 
 - Tất cả yếu tố phụ thuộc nhiệm vụ dự án phải liên quan đến cùng một dự án.
 - Trong một nhiệm vụ, không được tham chiếu cùng một yếu tố phụ thuộc nhiều hơn một lần.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

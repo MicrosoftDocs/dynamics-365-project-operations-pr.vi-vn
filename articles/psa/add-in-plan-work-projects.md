@@ -242,3 +242,6 @@ Bảng sau trình bày cách đồng bộ hóa dữ liệu thực thể Quan h�
 
 ### <a name="additional-resources"></a>Tài nguyên bổ sung
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

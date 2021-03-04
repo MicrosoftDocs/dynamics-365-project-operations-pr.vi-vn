@@ -135,3 +135,6 @@ Nếu có các giá trị thực tế sau khi tạo hóa đơn, bạn có thể 
 2. Mở bản thảo hóa đơn ước giá và trên ruy băng **Hành động**, hãy nhấp vào **Làm mới các giao dịch trên mô tả hóa đơn**.
 
   Thao tác này sẽ tạo thông tin chi tiết mô tả hóa đơn cho bất kỳ giá trị thực tế nào trước đây và được đánh dấu là **Sẵn sàng lập hóa đơn**; nhưng không có trong hóa đơn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Các sách trắng này được thiết kế để cung cấp thông tin chuyê
 
 ### <a name="see-also"></a>Xem thêm
  [Tổng quan về Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

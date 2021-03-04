@@ -62,3 +62,6 @@ Android sẽ tương thích với bản cập nhật Nền tảng 16, khi bản 
 13. Tùy chọn: Nhập thêm dòng bảng chấm công.
 
 14. Sau khi bạn nhập xong dòng bảng chấm công, hãy chọn hành động **Quy trình làm việc** \> **Gửi** để gửi bảng chấm công của bạn sang quy trình phê duyệt quy trình làm việc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

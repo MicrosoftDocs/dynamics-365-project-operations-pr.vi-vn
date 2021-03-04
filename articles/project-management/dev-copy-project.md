@@ -112,3 +112,6 @@ Ví dụ sau đây cho thấy cách gọi hành động tùy chỉnh **CopyProje
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

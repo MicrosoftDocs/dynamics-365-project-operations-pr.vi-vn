@@ -84,3 +84,6 @@ Các tài nguyên web sau đã bị ngừng hoạt động:
 > Để biết danh sách đầy đủ các tài nguyên không dùng nữa, hãy xem [Tài nguyên web không dùng nữa trong Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

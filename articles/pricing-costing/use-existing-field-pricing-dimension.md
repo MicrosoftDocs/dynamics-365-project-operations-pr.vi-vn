@@ -31,3 +31,6 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Thực thể **Thực tế** có nhiều trường có thể dùng làm thông số định giá để định giá dựa trên nguồn lực. Ví dụ: một trường thường gặp là **Nguồn lực có thể đặt**. Các công ty nhỏ hơn có ít hơn 20-30 nguồn lực có thể tính phí có thể thấy rằng việc có tỷ lệ chi phí và hóa đơn cụ thể cho từng nguồn lực là cách tiếp cận đơn giản hơn. Tuy nhiên, khi lực lượng lao động có thể thanh toán tăng lên, tỷ lệ dành riêng cho nguồn lực có thể không duy trì được do không thực tế. Chi phí nguồn lực và mức tính phí bắt đầu thay đổi khi nguồn lực được thăng chức, có thêm kinh nghiệm hoặc có được các bộ kỹ năng khác nhau. 
 
 Một ví dụ khác là đối với loại giao dịch. Khách hàng và Người thực hiện đã sử dụng loại giao dịch để phân loại công việc và sử dụng trường để định giá và chi phí dựa trên loại công việc.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -257,3 +257,6 @@ Sơ đồ sau đây là sau khi tạo bảng giá tùy chỉnh.
 
 > [!NOTE]
 > Có thể xuất hiện tình trạng chậm trễ trong thời gian ngắn khi bạn bấm vào **Tạo nội dung định giá tùy chỉnh** khi bảng giá được tạo. Bạn nên làm mới lưới thay vì bấm nhiều lần. Một bảng giá tùy chỉnh đã được tạo nếu tên bảng giá liên kết có tên báo giá hoặc tên hợp đồng dự án đi kèm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

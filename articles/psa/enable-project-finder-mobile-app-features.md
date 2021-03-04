@@ -68,3 +68,6 @@ Nguồn lực của bạn có thể sử dụng ứng dụng Project Finder Mobi
   
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

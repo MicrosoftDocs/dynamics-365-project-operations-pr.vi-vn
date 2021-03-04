@@ -53,3 +53,6 @@ Bạn có thể bố trí nhân viên cho dự án bằng nhóm nguồn lực ch
 - [Đặt nguồn lực có tên từ yêu cầu nguồn lực](book-named-resource.md)
 - [Gửi yêu cầu nguồn lực](submit-resource-request.md)
 - [Chấp nhận hoặc từ chối nguồn lực được đề xuất từ yêu cầu nguồn lực](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

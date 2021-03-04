@@ -44,3 +44,6 @@ Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội d
 
 > [!NOTE]
 > Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

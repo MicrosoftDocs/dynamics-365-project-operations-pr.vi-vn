@@ -55,3 +55,6 @@ Ví dụ: một nhà phát triển từ Fabrikam Ấn Độ đang làm việc tr
     | Nhà phát triển | Fabrikam Hoa Kỳ | 150 USD |
 
 3. Đính kèm bảng giá bán hàng, **Tỷ lệ thanh toán Fabrikam Hoa Kỳ** vào bảng giá dự án của hợp đồng dự án hoặc vào một tài khoản nhất định.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

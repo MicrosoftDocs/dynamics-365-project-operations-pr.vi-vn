@@ -146,3 +146,6 @@ Bảng sau đây cung cấp một danh sách toàn diện các biểu mẫu và 
 |  Thực tế|• Thông tin<br>• Thực tế hiện hoạt|• Dạng xem liên kết thực tế|
 
 Trường tùy chỉnh cũng có thể cần được thêm vào các quy tắc kinh doanh tùy thuộc vào những gì bạn đã xác định. Một ví dụ sẵn dùng là đối với quy tắc công việc **Khả năng chỉnh sửa mục nhập thời gian dựa trên trạng thái**. Quy tắc này xác định các trường cần bị khóa khi mục nhập thời gian ở trạng thái không thể chỉnh sửa như **Đã phê duyệt**. Thêm các trường vào quy tắc công việc này để không thể chỉnh sửa các trường khi mục nhập thời gian ở trạng thái không phải **Bản nháp** hoặc **Đã trả lại**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

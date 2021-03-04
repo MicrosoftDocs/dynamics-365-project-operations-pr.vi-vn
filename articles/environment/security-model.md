@@ -81,3 +81,6 @@ Project Operations bao gồm các vai trò sau:
 Để biết thêm thông tin về vai trò bảo mật trong Finance, hãy xem [Bảo mật dựa trên vai trò](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

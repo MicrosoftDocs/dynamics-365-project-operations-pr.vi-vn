@@ -120,3 +120,6 @@ Giống như tỉ suất hóa đơn, tỷ suất chi phí cho nguồn nhân lự
     1. Bảng giá chi phí được đính kèm vào đơn vị tổ chức.
     2. Bảng giá chi phí được đính kèm vào các thông số trên Project Operations. Vì có thể đính kèm bảng giá chi phí ở nhiều loại tiền tệ khác nhau vào các tham số, nên việc khớp tiền tệ sẽ được hoàn tất giữa các loại tiền tệ của đơn vị tổ chức giao kết hợp đồng của dự án, hợp đồng hoặc báo giá và tiền tệ của danh sách giá chi phí.
     3. Đối với chi phí, các phương pháp định giá theo chi phí và cố định không áp dụng cho danh sách giá chi phí. Ngay cả khi các phương pháp định giá này được sử dụng trên các dòng danh sách giá chi phí để thiết lập chi phí theo loại giao dịch, thì hệ thống cũng bỏ qua chúng và không có giá chi phí mặc định được nhập.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

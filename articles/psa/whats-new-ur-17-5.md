@@ -44,3 +44,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 - Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng 24 giờ thêm ngày bổ sung không chính xác vào nhiệm vụ.
 - Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng +13 GMT chuyển các nhiệm vụ trước một ngày không chính xác.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

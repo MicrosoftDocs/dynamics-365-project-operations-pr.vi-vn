@@ -53,3 +53,6 @@ Giá trị ước tính hoặc thực tế của chi phí chỉ được xem là
 | No | Có | Không thể đặt | Không thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không khả dụng </br>Loại thanh toán trên giá trị chi phí thực tế: Không thể tính phí |
 | Có | No | Có thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </br>Loại thanh toán trên giá trị chi phí thực tế: Không khả dụng |
 | Có | No | Không thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí </br> Loại thanh toán trên giá trị chi phí thực tế: Không khả dụng |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

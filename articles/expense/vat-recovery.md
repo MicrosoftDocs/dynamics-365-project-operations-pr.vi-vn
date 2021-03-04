@@ -66,3 +66,6 @@ Khi Arnie đã sẵn sàng gửi dữ liệu báo cáo chi phí cho nhà cung c�
 Arnie phải xác minh rằng các giao dịch báo cáo chi phí đủ điều kiện để thu hồi VAT và các biên lai kỹ thuật số được đính kèm với báo cáo. Để bắt đầu xử lý các chi phí đủ điều kiện hoàn thuế nội địa, Arnie mở trang **Hoàn thuế chi phí** rồi chọn báo cáo chi phí cần xác minh. Anh xác minh rằng biên lai đứng tên công ty thay vì nhân viên. (Đối với việc thu hồi thuế GTGT, biên lai phải đứng tên công ty). Sau đó, Arnie xác minh rằng tất cả các biên lai bắt buộc đã được đính kèm và đã nhập đúng nhóm thuế bán hàng và mục mã số thuế bán hàng.
 
 Sau khi nhận được biên lai giấy, Arnie thay đổi trạng thái của báo cáo chi phí thành **Sẵn sàng hoàn thuế**. Sau đó, anh có thể nộp tờ khai cho cơ quan thuế thích hợp. Trong trường hợp này, cơ quan thuế thích hợp ở Hoa Kỳ là Sở Thuế vụ (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

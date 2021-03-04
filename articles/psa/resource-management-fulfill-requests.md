@@ -46,3 +46,6 @@ Trợ lý lập lịch biểu xuất hiện và được lọc theo yêu cầu. 
 > ![Nguồn lực đã chọn](media/Resource-Management-image61.png)
 
 Thành viên nhóm chung được thay thế bằng nguồn lực được đăng ký chắc chắn trên nhóm dự án và phân công nhiệm vụ trong lịch trình dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

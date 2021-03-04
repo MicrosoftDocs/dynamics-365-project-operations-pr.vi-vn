@@ -83,3 +83,6 @@ Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính s�
   
 ### <a name="additional-resources"></a>Tài nguyên bổ sung  
  [Hướng dẫn của người quản lý nguồn lực](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

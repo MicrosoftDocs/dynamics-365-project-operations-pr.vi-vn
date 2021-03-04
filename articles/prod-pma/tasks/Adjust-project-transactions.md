@@ -44,3 +44,6 @@ Hướng dẫn nhiệm vụ này cho bạn biết cách điều chỉnh giao d�
 13. Trong danh sách, đánh dấu hàng được chọn. 
 14. Trong trường Giá vốn, hãy nhập một số. 
 15. Bấm vào Đăng. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

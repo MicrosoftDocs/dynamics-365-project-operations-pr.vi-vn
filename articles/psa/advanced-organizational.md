@@ -167,3 +167,6 @@ Nếu công ty của bạn hoạt động như một đơn vị có một bảng
 Khi một dự án được tạo, đơn vị hợp đồng mặc định của dự án sẽ dựa trên người dùng tạo ra nó. Người dùng đó cũng là người quản lý dự án mặc định. Nếu dự án được ánh xạ tới một thực thể bán hàng như một báo giá hoặc hợp đồng dự án, thì đơn vị ký kết dự án dựa trên các tổ chức bán hàng. Trong trường hợp này, ước tính dự án có thể được tính toán lại, vì bảng giá chi phí được sử dụng để tính toán chi phí ước tính sẽ thay đổi nếu đơn vị ký hợp đồng thay đổi. Bảng giá bán được sử dụng để tính toán ước tính bán hàng sẽ thay đổi để chúng đồng bộ với danh sách giá dự án trên báo giá.
 
 Các trường **Đơn vị hợp đồng** và **Tiền tệ** trên dự án không chỉnh sửa được vì chúng phải đồng bộ với các giá trị trên thực thể bán hàng (báo giá hoặc hợp đồng dự án) mà dự án được ánh xạ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

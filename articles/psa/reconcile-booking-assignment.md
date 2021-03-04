@@ -101,3 +101,6 @@ Sau khi chức năng Gia hạn đăng ký đã được thực thi trên mỗi n
 
 Tuy nhiên, xem xét kỹ hơn các chi tiết của các đặt phòng cho thấy sự khác biệt trong thời gian bắt đầu của các đăng ký. Đăng ký sẽ bắt đầu không sớm hơn thời gian bắt đầu phân phối giờ làm việc theo phân công và không sớm hơn thời gian bắt đầu có sẵn của nguồn lực.
  ![Các đăng ký nguồn lực mới trong bảng lịch trình](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

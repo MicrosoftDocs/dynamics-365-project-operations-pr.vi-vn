@@ -45,3 +45,6 @@ Ngoài ra, vai trò mặc định phải được gán cho từng nguồn lực 
 Trên tab **Project Service**, bạn cũng có thể đặt thời gian làm việc mục tiêu riêng cho nguồn lực. Sau đó, phép tính thời gian làm việc dùng thời gian làm việc mục tiêu đó để đánh giá mục tiêu của nguồn lực thay vì mục tiêu của vai trò mặc định của nguồn lực.
 
 Thời gian làm việc chỉ hiển thị cho nguồn lực chỉ khi nguồn lực đã phê duyệt, thời gian phải thanh toán trong khoảng thời gian hiển thị trong lưới.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

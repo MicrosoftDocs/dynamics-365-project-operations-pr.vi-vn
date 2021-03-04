@@ -74,3 +74,6 @@ Khi bạn mở rộng hàng của bản ghi Thành viên nhóm đó, bạn có t
 Khi bạn điều hướng đến lưới **Ước tính**, bạn sẽ nhận thấy rằng cả hai mục phân công cho cùng một nguồn lực có giá khác nhau.
 Việc phân công nguồn lực trong Nhiệm vụ A được định giá bằng giá trị thuộc tính **Vai trò** của **Trưởng nhóm tư vấn**. Việc phân công nguồn lực đó trong Nhiệm vụ B được định giá bằng giá trị thuộc tính **Vai trò** của **Kỹ thuật viên mạng**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

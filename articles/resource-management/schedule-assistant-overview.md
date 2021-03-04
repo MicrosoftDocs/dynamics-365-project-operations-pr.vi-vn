@@ -57,3 +57,6 @@ Ngăn bộ lọc hiển thị các tùy chọn liên quan đến công việc, b
 -   Công ty cung cấp nguồn lực
 -   Loại nguồn lực
 -   Nguồn lực ưu tiên
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

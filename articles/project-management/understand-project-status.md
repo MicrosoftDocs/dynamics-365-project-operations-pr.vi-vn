@@ -29,3 +29,6 @@ Phần **Trạng thái** trên trang **Thực thể dự án** cung cấp thông
 - Trường **Nhận xét** cho phép người quản lý dự án nhập nhận xét cụ thể về trạng thái. 
 - Trường **Ngày cập nhật trạng thái** không chỉnh sửa được. Giá trị trong trường này là dấu thời gian cho biết thời điểm trạng thái được cập nhật lần gần đây nhất.
 - Các trường **Hiệu suất lịch trình** và **Hiệu suất chi phí** được đặt từ lưới theo dõi. Khi mức chênh lệch chi phí và lịch trình cho nút gốc trong dạng xem **Theo dõi nhân công** là số dương, các trường này có thể được cập nhật thành **Trước**. Khi mức chênh lệch chi phí và lịch trình cho nút gốc là số âm, các trường này được đặt thành **Sau**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

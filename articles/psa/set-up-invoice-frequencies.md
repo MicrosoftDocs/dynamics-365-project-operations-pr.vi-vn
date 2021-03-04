@@ -51,3 +51,6 @@ Tần suất hóa đơn [!INCLUDE[pn_project_service_auto](../includes/pn-projec
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Câu hỏi thường gặp này áp dụng cho các thực tế chi phí mà l�
 Hãy đến mục nhập chi phí liên quan và đảm bảo rằng có một số tiền trong trường mục nhập chi phí. Nếu mục nhập chi phí khởi đầu không có trường số tiền được điền thì bạn đã cô lập được vấn đề.
  
 Để giải quyết vấn đề này, hãy tạo lại mục nhập chi phí với một số tiền hợp lệ và phê duyệt mục nhập này.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

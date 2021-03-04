@@ -97,3 +97,6 @@ Trong cả dạng xem lưới và dạng xem theo giai đoạn thời gian, bạ
 ## <a name="expense-estimates"></a>Ước tính chi phí
 
 Nút **Thêm ước tính chi phí mới** trong dạng xem lưới cho phép bạn ghi lại mọi chi phí phát sinh trong dự án nhưng không liên quan trực tiếp tới lao động. Bạn có thể ghi lại các ước tính chi phí cho một nhiệm vụ cụ thể hoặc cho toàn bộ dự án. Chọn loại chi phí và ngày dự định khi bạn muốn chịu chi phí. Nếu bảng giá vốn và bảng giá bán hàng được liên kết có giá mặc định (hoặc nếu tỷ lệ tăng được xác định cho loại chi phí), các giá này tự động được nhập vào mô tả ước tính khi liên kết xuất hiện.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

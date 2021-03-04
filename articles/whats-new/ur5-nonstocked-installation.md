@@ -125,3 +125,6 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
  
  ![Đồng bộ hóa sơ đồ sổ cái](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

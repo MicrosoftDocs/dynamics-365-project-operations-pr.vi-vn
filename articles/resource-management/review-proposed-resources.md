@@ -62,3 +62,6 @@ Do Dynamics 365 Project Operations sử dụng công cụ Universal Resource Sch
 
 Để xem thêm chi tiết về nguồn lực riêng, hãy bấm chuột phải để mở thẻ nguồn lực.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Các vấn đề sau đã được khắc phục:
 
 - Ngày kết thúc sẽ tự động được điền khi một mục nhập thời gian được tạo, với điều kiện thời lượng có giá trị rỗng.
 - Người dùng có thể thay đổi nhiệm vụ trên mục thời gian đã được phê duyệt hoặc gửi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

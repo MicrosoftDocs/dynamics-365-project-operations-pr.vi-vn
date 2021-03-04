@@ -90,3 +90,6 @@ Bạn cũng có thể dừng liên kết tác vụ dự án với mô tả báo 
 
 >[!NOTE]
 > Quy trình này không xóa tác vụ khỏi dự án. Nó chỉ xóa liên kết tác vụ khỏi mô tả báo giá dựa trên dự án.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

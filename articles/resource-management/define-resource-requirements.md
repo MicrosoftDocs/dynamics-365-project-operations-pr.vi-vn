@@ -26,3 +26,5 @@ Các yêu cầu về nguồn lực được xác định bởi người quản l
 3.  Trên tab **Thành viên nhóm**, hãy chọn thành viên nhóm rồi chọn **Tạo yêu cầu**.
 
 Để biết thông tin về cách sửa đổi yêu cầu nguồn lực, hãy xem [Cập nhật chi tiết yêu cầu nguồn lực](define-resource-requirements.md) để sửa đổi yêu cầu nguồn lực.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

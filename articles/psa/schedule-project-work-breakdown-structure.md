@@ -152,3 +152,6 @@ Bạn sẽ sử dụng các loại nhiệm vụ sau khi tạo cấu trúc phân 
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của quản lý dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

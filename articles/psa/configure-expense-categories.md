@@ -55,3 +55,6 @@ Mỗi danh mục chi phí có một đơn vị và nhóm đơn vị riêng. Bạ
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

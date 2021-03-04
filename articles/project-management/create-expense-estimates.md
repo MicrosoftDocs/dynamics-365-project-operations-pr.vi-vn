@@ -38,3 +38,6 @@ Các thuộc tính sau được xác định cho từng mục chi phí:
 - **Giá vốn đơn vị**: Đơn giá dùng để tính toán chi phí.
 - **Giá bán hàng đơn vị**: Đơn giá dùng để tính toán giá bán hàng của chi phí.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Khi đang làm việc với thực thể **Thực tế**, bạn phải hiểu gi
 Thực thể **Nguồn gốc giao dịch** ghi lại nguồn gốc của bản ghi **Thực tế** và các bản ghi thực thể **Kết nối giao dịch** ghi lại các bản ghi cho bản ghi **Thực tế**. Ngoài ra, bản ghi **Thực tế** chứa tham chiếu dự án, hợp đồng dự án (đơn hàng), nguồn lực có thể đăng ký và khách hàng.
 
 ![Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế](media/PS-Reporting-image6.png "Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

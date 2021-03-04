@@ -51,3 +51,6 @@ Những người quản lý khách hàng và người quản lý dự án thư�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

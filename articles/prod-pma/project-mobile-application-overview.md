@@ -49,3 +49,6 @@ Bảng chấm công của tôi (Được tối ưu hóa cho thiết bị di đ�
 - [Mục nhập thời gian dự án]( project-time-entry-mobile-workspace.md)
 - [Bảng chấm công dự án trên thiết bị di động](Mobile-timesheets.md)
 - [Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

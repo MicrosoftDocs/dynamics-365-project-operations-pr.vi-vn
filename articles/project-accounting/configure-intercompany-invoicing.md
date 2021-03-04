@@ -101,3 +101,6 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
           - **Công ty cung ứng nguồn lực** = **Contoso Robotics UK**
           - **Mức thu** = **200 USD**
       9. Chuyển đến **Bán hàng** > **Hợp đồng dự án** rồi đính kèm bảng giá **tỷ lệ hóa đơn Adventure Works** vào bảng giá dự án Adventure Works của hợp đồng dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

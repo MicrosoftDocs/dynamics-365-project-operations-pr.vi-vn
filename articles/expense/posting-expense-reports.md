@@ -31,3 +31,6 @@ Nếu các chi phí trên báo cáo chi phí được tính cho một công ty k
 Để đăng báo cáo chi phí, trên trang **Báo cáo chi phí được phê duyệt**, chọn báo cáo chi phí, sau đó, trên Ngăn hành động, hãy chọn **Đăng**.
 
 Bạn cũng có thể đăng tất cả các báo cáo chi phí trong danh sách cùng một lúc. Chọn tất cả các báo cáo chi phí, sau đó chọn **Đăng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

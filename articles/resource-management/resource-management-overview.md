@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119804"
 ---
 # <a name="resource-management-overview"></a>Tổng quan về quản lý nguồn lực
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

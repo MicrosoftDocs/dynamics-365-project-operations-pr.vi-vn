@@ -68,3 +68,6 @@ Bạn có thể sử dụng khả năng đặt lịch mở rộng của tab **H�
 ![Mở rộng các đặt lịch cho một thành viên nhóm trên tab hợp nhất nguồn lực](media/RM-how-to-7.png)
 
 Sau khi một thành viên nhóm được đặt lịch trên dự án của bạn, bạn có thể sử dụng duy trì đặt phòng hoặc sử dụng Bảng lịch trình để trực tiếp quản lý đặt lịch của họ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

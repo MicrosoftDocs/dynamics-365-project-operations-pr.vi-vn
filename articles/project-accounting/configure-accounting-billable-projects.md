@@ -125,3 +125,6 @@ Giá cố định – phần trăm hoàn thành
 Các quy tắc về hồ sơ doanh thu và chi phí dự án xác định hồ sơ doanh thu và chi phí dự án phải được sử dụng khi xử lý bất kỳ giao dịch dự án có thể lập hóa đơn nào. Xác định các quy tắc bằng cách đi tới **Kế toán và quản lý dự án** \> **Thiết lập** \> **Đăng** \> **Quy tắc về hồ sơ doanh thu và chi phí dự án**.
 
 Các quy tắc có thể được xác định theo hợp đồng dự án, nhóm dự án hoặc theo một dự án cụ thể. Hệ thống sẽ luôn chọn quy tắc chi tiết cao nhất trước.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Các chủ đề sau cung cấp thông tin sẽ giúp người quản lý dự �
 - [Mẫu dự án](project-templates.md)
 - [Giai đoạn dự án](project-stages.md)
 - [Thiết đặt dự án](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Khi bật phím quản lý tính năng **Bật trang danh sách đại diện ch
 Người dùng đại diện có thể nhanh chóng lọc và tìm kiếm các báo cáo chi phí hiện được ủy nhiệm cho họ. Họ cũng có thể tạo một báo cáo chi phí mới cho những người dùng khác bằng cách chọn **Báo cáo chi phí mới**.
 
 Người dùng đại diện cũng có thể tạo và quản lý báo cáo chi phí cho các nhân viên khác bằng cách truy cập vào **Quản lý chi phí** > **Chi phí của tôi** > **Báo cáo chi phí** và chọn **Mở chi phí của người dùng khác**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

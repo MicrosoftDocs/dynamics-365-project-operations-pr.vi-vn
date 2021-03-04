@@ -49,3 +49,6 @@ Chúng tôi khuyên bạn nên sử dụng loạt. Các tùy chọn có sẵn tr
     | Ngày kết thúc    | Nhập ngày kết thúc cho quá trình đồng bộ hóa để tổng hợp năng lực của nguồn lực. |
 
 [![Quá trình đồng bộ hóa](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

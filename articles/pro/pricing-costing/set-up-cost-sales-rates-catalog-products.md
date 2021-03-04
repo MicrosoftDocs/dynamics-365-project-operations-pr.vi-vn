@@ -26,3 +26,6 @@ Cách thiết lập giá cho các mục thuộc danh mục sản phẩm trong Dy
 Trong Project Operations, bạn không thể ước tính hoặc sử dụng sản phẩm trên dự án, nên không cần thiết lập giá của danh mục sản phẩm trên bảng giá dự án đối với báo giá và hợp đồng.
 
 Sử dụng trường **Giá sản phẩm** của một báo giá, hợp đồng hoặc tài khoản để thiết lập giá của danh mục sản phẩm. Không nên thiết lập giá của danh mục sản phẩm trong bảng giá dự án. Bảng giá dự án dành riêng cho Project Operations. Logic kinh doanh dành riêng cho ứng dụng sẽ sao chép bảng giá từ báo giá sang hợp đồng. Kết quả là bảng giá dự án theo hợp đồng. Thao tác sao chép có thể trì hoãn quá trình nhận được báo giá nếu bảng giá dự án trên báo giá quá lớn. Bảng giá sản phẩm không được sao chép để tạo bảng giá tùy chỉnh trên hợp đồng. Do không có hoạt động sao chép nào liên quan, nên hiệu quả của quy trình báo giá không bị ảnh hưởng.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc 
 - Sửa lỗi: Khi lớp giao dịch là **Thời gian**, thì không chỉnh sửa được **UnitGroup** đối với tất cả thực thể, bao gồm **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** và **ContractLineDetails**. Tuy nhiên, chỉ không chỉnh sửa được **Đơn vị** đối với **JournalLine** và **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

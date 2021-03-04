@@ -74,3 +74,6 @@ Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Co
     -   Đặc tính Nguồn lực có thể đăng ký trước
 
     ![Hoàn thành quá trình nhập](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

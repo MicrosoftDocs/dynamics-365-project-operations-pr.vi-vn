@@ -113,3 +113,6 @@ Molly Clark, nhà phát triển được GBPM thuê có 10 giờ làm việc cho
     - Có: Dự án – Doanh thu tích lũy 120 USD
 
     Hệ thống giờ đã sẵn sàng để tọa hóa đơn khách hàng liên công ty.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

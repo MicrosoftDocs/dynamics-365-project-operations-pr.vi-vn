@@ -113,3 +113,6 @@ Vì Dynamics 365 Project Service Automation dùng công cụ Universal Resource 
 Để xem thêm chi tiết về nguồn lực riêng, hãy bấm chuột phải để mở thẻ nguồn lực.
 
 ![Thẻ nguồn lực](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

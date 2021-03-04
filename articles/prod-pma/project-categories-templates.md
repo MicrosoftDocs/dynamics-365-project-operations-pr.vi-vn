@@ -124,3 +124,6 @@ Hình sau đây minh họa một ví dụ về việc ánh xạ nhiệm vụ m�
 > Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 
 [![Ánh xạ mẫu Project Service Automation với Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

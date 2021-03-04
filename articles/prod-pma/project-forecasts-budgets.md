@@ -81,3 +81,6 @@ Nếu bạn sử dụng dự báo dự án, bạn có thể xác định các m�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

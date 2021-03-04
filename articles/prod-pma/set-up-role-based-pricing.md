@@ -34,3 +34,6 @@ Tất cả chi phí, giá bán và giá chuyển nhượng có thể được th
 1. Trên trang **Giá bán (giờ)** , chọn **Mới** rồi nhập ngày có hiệu lực.
 2. Trong cột **Vai trò** , chọn vai trò.
 3. Trong cột **Giá** , nhập giá cho vai trò nguồn lực đã chọn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

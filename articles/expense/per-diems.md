@@ -31,3 +31,6 @@ Công tác phí là một khoản phụ cấp được trả cho người lao đ
     
 ## <a name="submit-expenses-using-per-diem"></a>Gửi chi phí bằng công tác phí
 Để gửi chi phí bằng công tác phí, hãy sử dụng danh mục chi phí **Công tác phí** khi bạn tạo báo cáo chi phí. Nhập **Công tác phí từ ngày**, **Công tác phí đến nay** và **Địa điểm cấp công tác phí**. Số tiền sẽ được tính dựa trên mức công tác phí cho địa điểm đã chọn và mức giảm trừ bữa ăn sẽ được tính dựa trên mức công tác phí.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

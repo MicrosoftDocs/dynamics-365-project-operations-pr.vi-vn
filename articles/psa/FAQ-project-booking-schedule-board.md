@@ -91,3 +91,6 @@ Hoàn tất các bước sau để đặt lịch từ một yêu cầu nguồn l
 
 4. Bây giờ, nguồn lực đã được đăng ký, bạn phải gán nhiệm vụ theo cách thủ công.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

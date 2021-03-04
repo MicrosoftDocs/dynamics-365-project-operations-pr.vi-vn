@@ -297,3 +297,6 @@ Chọn một người dùng (ví dụ: Spencer Low) và thay đổi giờ làm v
 
 > [!div class="mx-imgBorder"]
 > ![Ảnh chụp màn hình nguồn lực có thể đặt trước hiện hoạt](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Bởi vì Nancy đã làm việc cho 2 dự án riêng biệt ở Frankfurt, nê
 |Khách sạn         |725 EUR              |557 EUR                        |168 EUR                          |
 |Bữa ăn         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

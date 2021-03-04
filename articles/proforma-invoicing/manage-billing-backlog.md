@@ -38,3 +38,6 @@ Các giá trị thực tế doanh số chưa lập hóa đơn có trạng thái 
 Trong trường hợp mục mô tả hợp đồng nhiều khách hàng có phương thức thanh toán là thời gian và vật tư, khi thời gian và chi phí được chấp thuận, giá trị thực tế doanh số chưa lập hóa đơn sẽ được tạo cho mỗi khách hàng trên mục mô tả hợp đồng theo tỷ lệ phần trăm phân chia thanh toán được xác định cho từng khách hàng trên mục mô tả hợp đồng. Ở dạng xem **Tồn đọng thanh toán thời gian và vật tư**, bạn sẽ thấy các giá trị thực tế doanh số chưa lập hóa đơn riêng cho khách hàng cụ thể. Mỗi bản ghi giá trị thực tế doanh số chưa lập hóa đơn này có thể được đánh dấu riêng biệt là **Đã sẵn sàng để lập hóa đơn** ở dạng xem này.
 
 Một giá trị thực tế doanh số chưa lập hóa đơn trên hóa đơn nháp được hiển thị ở dạng xem này với **Trạng thái thanh toán** là **Đã tạo hóa đơn khách hàng**. Khi hóa đơn nháp được xác nhận, trạng thái thanh toán trên bản ghi này được cập nhật thành **Đã đăng hóa đơn khách hàng**. Bạn không nên cập nhật giá trị trạng thái này bằng mã tùy chỉnh khi bản ghi ở trạng thái này. Project Operations sẽ không hoạt động chính xác khi các giá trị trạng thái này được cập nhật bằng mã tùy chỉnh.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

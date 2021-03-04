@@ -51,3 +51,6 @@ Giá trị ước tính dự án cung cấp dạng xem tài chính cho công vi�
 5. Sau khi quy trình loại bỏ hoàn tất, dự án ước tính đã loại bỏ sẽ được hiển thị với giá trị âm. 
 
 Nếu bạn không định loại bỏ giá trị ước tính, thì bạn có thể chọn giá trị ước tính đã loại bỏ và chọn **Đảo ngược hoạt động loại bỏ**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

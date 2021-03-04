@@ -37,3 +37,6 @@ Sử dụng loại hình triển khai này nếu điều bạn kỳ vọng ở P
 - Một hệ thống tích hợp giúp quản lý các dự án nội bộ và dự án phải thanh toán đối với các vấn đề liên quan đến lịch trình và tài chính, từ bán hàng cho đến lập hóa đơn của dự án.
 - Hoạch định nguồn lực doanh nghiệp bên thứ ba (Hệ thống kế toán tài chính/ERP để tích hợp với Project Operations).
 - Một hệ thống bên thứ ba để xử lý các khoản thuế bán hàng, tỷ giá hối đoái, hoàn trả chi phí và chi phí không thuộc dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

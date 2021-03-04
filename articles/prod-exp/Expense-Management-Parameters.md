@@ -89,3 +89,6 @@ Các tham số này kiểm soát hành vi chung trong phần Quản lý chi phí
 | <strong>Thông điệp chống tham nhũng dành cho người gửi</strong> |                                                                                             Nhập nội dung sẽ được hiển thị cho nhân viên khi tạo báo cáo chi phí mới. Bấm vào nút <strong>Bản dịch</strong> để nhập nội dung bằng ngôn ngữ cụ thể sẽ được hiển thị dựa trên ngôn ngữ người dùng.                                                                                             |
 | <strong>Thông điệp chống tham nhũng dành cho người phê duyệt</strong>  |                                                                                             Nhập nội dung sẽ được hiển thị cho người phê duyệt khi tạo báo cáo chi phí mới. Bấm vào nút <strong>Bản dịch</strong> để nhập nội dung bằng ngôn ngữ cụ thể sẽ được hiển thị dựa trên ngôn ngữ người dùng.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

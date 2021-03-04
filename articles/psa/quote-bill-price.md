@@ -44,3 +44,6 @@ Các chủ đề sau cung cấp thêm thông tin về chức năng báo giá, đ
 - [Nhóm đơn vị và đơn vị](advanced-units.md)
 - [Tiền tệ đa đơn vị](advanced-currency.md)
 - [Ghi số liệu thực tế](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

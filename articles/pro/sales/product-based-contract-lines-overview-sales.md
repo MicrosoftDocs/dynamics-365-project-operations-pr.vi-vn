@@ -46,3 +46,6 @@ Nếu mô tả hợp đồng dựa trên danh mục sản phẩm, bạn có th�
 Nếu bạn đặt trường **Giá** thành **Ghi đè giá**, giá mặc định không được đặt. Nhập giá cho sản phẩm trên mô tả hợp đồng. Nếu bạn đặt trường thành **Sử dụng mặc định**, giá bán mặc định được sử dụng và không thể chỉnh sửa trường.
 
 Sau khi bạn cài đặt Project Operations, giá bán hàng mặc định được nhập trên mô tả dựa trên sản phẩm trên hợp đồng. Sau đó, trường **Giá** được đặt thành **Thay thế giá** để bạn có thể chỉnh sửa giá mặc định trên mô tả hợp đồng. Đây là giá trị ghi đè dành riêng cho Project Operations đối với hành vi mô tả dựa trên sản phẩm trong Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

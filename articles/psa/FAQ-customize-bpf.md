@@ -107,3 +107,6 @@ Trong Project Service 2.4.4.30 trở về trước trên nền tảng 9.0, với
 
    ![Ảnh chụp màn hình khi chỉnh sửa dạng xem trên thực thể Dự án](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Kể từ ngày 1 tháng 3 năm 2020, khách hàng Dynamics PSA sẽ không th�
 
 > [!NOTE]
 > Để có trải nghiệm tốt nhất khi sử dụng các phiên bản cũ của ứng dụng Field Service và PSA, hãy chuyển đến trang **Cài đặt hệ thống** và đối với trường **Chỉ sử dụng Giao diện hợp nhất mới (đề xuất)**, hãy chọn **Không** vì các phiên bản này không được thiết kế để được tải chính xác trong UCI. Sau khi đã tắt UCI, bạn có thể mở và chạy các phiên bản Field Service và PSA này bằng cách sử dụng ứng dụng web cũ. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

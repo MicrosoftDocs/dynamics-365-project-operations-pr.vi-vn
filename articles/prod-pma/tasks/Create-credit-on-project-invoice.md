@@ -39,3 +39,6 @@ ms.locfileid: "4087085"
 10. Bấm OK. 
 
 Sau bước này, Ghi chú tín dụng sẽ có sẵn cho Đề xuất hóa đơn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

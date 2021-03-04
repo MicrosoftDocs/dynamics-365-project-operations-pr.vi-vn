@@ -35,3 +35,6 @@ Các giai đoạn của dự án có thể đóng vai trò như một hướng d
 4. Trong danh sách, chọn giai đoạn được xác định trước hoặc do người dùng xác định mà bạn muốn sửa đổi. 
 5. Trong trường Giai đoạn dự án, hãy nhập tên mới.
 6. Bấm vào Lưu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
 Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

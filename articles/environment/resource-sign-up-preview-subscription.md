@@ -98,3 +98,6 @@ Làm theo hướng dẫn trong chủ đề [Cung cấp môi trường mới](res
 
 Cài đặt dữ liệu cấu hình và thiết lập CDS như được mô tả trong chủ đề [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service](resource-apply-pro-setup-config-data.md).
 Chỉ hoàn thành bước này sau khi môi trường demo Tài chính được triển khai và dữ liệu demo trong FO đã sẵn sàng.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

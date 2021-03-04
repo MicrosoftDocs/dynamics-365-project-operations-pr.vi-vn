@@ -43,3 +43,6 @@ Bạn có thể kiểm tra việc sử dụng tài nguyên để xác định m�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

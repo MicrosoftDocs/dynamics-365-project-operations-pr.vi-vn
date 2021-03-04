@@ -116,3 +116,6 @@ Chế độ nhiệm vụ không ảnh hưởng đến các thông tin cập nh�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Trợ năng và phím tắt
 
 Bạn hoàn toàn có thể truy cập lưới và dùng lưới **Lịch trình** với các trình đọc màn hình như Trình tường thuật, JAWS hoặc NVDA. Bạn có thể di chuyển qua vùng lưới bằng cách dùng các phím mũi tên (như trong Microsoft Excel), dùng phím Tab để cải thiện thông qua các yếu tố giao diện người dùng mang tính tương tác, dùng phím Mũi tên xuống, phím Enter hoặc Dấu cách để chọn hoặc mở các menu thả xuống.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

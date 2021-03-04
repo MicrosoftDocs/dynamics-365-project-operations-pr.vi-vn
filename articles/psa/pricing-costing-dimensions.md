@@ -77,3 +77,6 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
 | My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

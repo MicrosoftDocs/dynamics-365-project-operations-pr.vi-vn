@@ -70,3 +70,6 @@ Sự định quyền hiện đã hoàn tất.
 Bạn đã kết nối thành công đăng ký Azure của mình. Bây giờ bạn có thể triển khai môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Các chức năng [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)   
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)   
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Bạn có thể tạo bản sao bảng giá trong Dynamics 365 Project Operation
 1. Trên các tab **Vai trò**, **Thể loại** và **Hạng mục trong bảng giá** của bảng giá, bạn có thể chọn **Cập nhật giá** để áp dụng một mức tăng cho tất cả các mức giá trong lưới con. 
 2. Trên trang hộp thoại mở ra, hãy nhập khoảng tăng. Bạn cũng có thể nhập tỷ lệ phần trăm tăng âm để giảm giá theo một tỷ lệ phần trăm nhất định. 
 3. Chọn **OK** trên trang hộp thoại, sau đó xác minh rằng các mức giá trong lưới con phản ánh những thay đổi bạn đã thực hiện.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

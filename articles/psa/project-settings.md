@@ -68,3 +68,6 @@ Mỗi tổ chức phải thiết lập các vai trò này trên trang **Loại n
 ## <a name="price-lists"></a>Bảng giá
 
 Bảng giá cho phép bạn đặt chi phí và giá bán hàng cho vai trò nguồn lực, loại chi phí, sản phẩm và các yếu tố khác trong tổ chức. Trước khi đặt ước tính tài chính cho công việc phải được giao cho dự án, bạn nên tạo bảng giá bán hàng và chi phí hỗ trợ. Trong phần tham số, bạn cũng nên thiết lập một bảng giá bán hàng và chi phí mặc định áp dụng cho tất cả dự án được tạo trong tổ chức. Trên trang **Tham số dự án hiện hoạt**, hãy đảm bảo bạn thiết lập bảng giá bán hàng và chi phí mặc định.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

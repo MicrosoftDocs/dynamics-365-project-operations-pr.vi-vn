@@ -69,3 +69,6 @@ Các tính toán lợi nhuận chuyển đổi số tiền trong chi tiết mô 
 
 > [!NOTE]
 > Lỗi làm tròn theo đơn vị tiền tệ và thay đổi lợi nhuận có thể xảy ra do thiếu tỷ giá hối đoái thực tế theo ngày. Chỉ sử dụng các tính toán trên những hợp đồng dự án này dưới dạng ước lượng và không áp dụng cho các báo cáo thực tế theo luật định hoặc các báo cáo khác đòi hỏi độ chính xác cao hơn liên quan đến việc làm tròn và tỷ giá hối đoái thực tế theo ngày.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

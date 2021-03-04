@@ -43,3 +43,6 @@ Sơ đồ sau minh họa quy trình lập hóa đơn liên công ty vì quy trì
 - [Đặt cấu hình hoạt động lập hóa đơn liên công ty](configure-intercompany-invoicing.md)
 - [Ghi lại giao dịch liên công ty](create-intercompany-transactions.md)
 - [Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

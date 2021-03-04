@@ -160,3 +160,6 @@ Bằng cách tạo các chính sách báo cáo chi phí, bạn có thể giúp t
 - Khi nào chính sách hết hạn?
 - Quy tắc chính sách là gì?
 - Kết quả của quy tắc chính sách là gì?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

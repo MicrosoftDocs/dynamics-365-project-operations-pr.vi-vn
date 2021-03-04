@@ -106,3 +106,6 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Nếu hợp đồng dự án đã đóng ở dạng bị mất tham chiếu đ�
 
 > [!NOTE]
 > Trong Dynamics 365 Project Operations, việc đóng hợp đồng dự án ở dạng bị mất sẽ không ảnh hưởng đến trạng thái của cơ hội được liên kết. Cơ hội sẽ vẫn mở và phải được đóng thủ công.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

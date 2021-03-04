@@ -32,3 +32,6 @@ Khi bạn chạy truy vấn để xem các giao dịch trong Sổ cái hoặc Th
 Để xem chi tiết báo cáo chi phí ban đầu mà một giao dịch đã xuất hiện, hãy chọn giao dịch, sau đó chọn **Tài liệu gốc**.
 
 Khi xem các giao dịch riêng lẻ, bạn cũng có thể xem bất kỳ dữ liệu bổ sung nào được đính kèm với một giao dịch. Ví dụ: đối với khoản chi phí khách sạn được chia thành từng khoản, bạn có thể xem danh sách chi tiết các chi phí như truy cập Internet, gọi điện thoại và dịch vụ phòng.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

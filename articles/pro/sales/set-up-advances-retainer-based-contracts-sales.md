@@ -37,3 +37,6 @@ Tiền giữ lại trong Project Operations không có sẵn để sử dụng c
 | --- | --- | --- |
 | Số tiền khả dụng | Số tiền có sẵn được sử dụng trên hồ sơ khoản tạm ứng và tiền giữ lại. | Cho đến khi được lập hóa đơn, khoản tạm ứng hoặc tiền giữ lại sẽ không được sử dụng có nghĩa là số tiền khả dụng sẽ bằng không. |
 | Số tiền đã dùng | Số tiền đã được sử dụng trên hồ sơ khoản tạm ứng và tiền giữ lại. | Khoản tạm ứng hoặc tiền giữ lại có thể được đối chiếu một phần trên hóa đơn với chi phí thực tế sẽ có một số phần được đánh dấu là đã sử dụng hoặc đã dùng. Phần còn lại của số tiền tạm ứng hoặc tiền giữ lại có sẵn để đối chiếu trên hóa đơn trong tương lai với chi phí thực tế. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

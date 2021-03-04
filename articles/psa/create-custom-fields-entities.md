@@ -73,3 +73,6 @@ Bạn có thể tạo dữ liệu cho kích thước dựa trên thực thể th
 > ![Dữ liệu mẫu cho thực thể chức vụ tiêu chuẩn ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

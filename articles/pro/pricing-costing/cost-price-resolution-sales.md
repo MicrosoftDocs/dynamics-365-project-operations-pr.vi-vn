@@ -36,3 +36,6 @@ Sau khi bảng giá vốn được giải quyết, các trường **Vai trò** v
 Mục mô tả ước tính cho Chi phí đề cập đến thông tin chi tiết mô tả hợp đồng và báo giá cho các chi phí và mục mô tả ước tính chi phí trên một dự án.
 
 Sau khi bảng giá vốn được giải quyết, hệ thống dùng kết hợp các trường **Thể loại** và **Đơn vị** trên mục mô tả ước tính chi phí để so khớp với các dòng **Giá cả Thể loại** trong bảng giá vốn đã giải quyết. Nếu hệ thống tìm thấy một mô tả giá theo danh mục có tỷ lệ chi phí cho tổ hợp trường **Danh mục** và **Đơn vị**, thì tỷ lệ chi phí đó sẽ được lấy mặc định. Nếu hệ thống không thể khớp với giá trị **Thể loại** và **Đơn vị** hoặc nếu có thể tìm thấy dòng giá cả thể loại phù hợp nhưng phương pháp định giá không phải là **Đơn giá**, thì tỷ lệ chi phí mặc định bằng không (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

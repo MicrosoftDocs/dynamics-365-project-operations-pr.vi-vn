@@ -59,3 +59,6 @@ Mỗi nội dung mô tả hợp đồng dự án có một phương thức lập
 Để xem lại các cột mốc lập hóa đơn, hãy chuyển đến **Doanh số** \> **Lập hóa đơn** \> **Mốc giá cố định**. Chọn tất cả doanh số thực tế chưa lập hóa đơn đã sẵn sàng được lập hóa đơn rồi chọn **Sẵn sàng lập hóa đơn**. Trạng thái lập hóa đơn của các mốc này được thay đổi thành **Sẵn sàng lập hóa đơn**.
 
 ![Mốc giá cố định](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

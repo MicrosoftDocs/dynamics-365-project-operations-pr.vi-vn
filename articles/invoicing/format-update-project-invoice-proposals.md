@@ -143,3 +143,6 @@ Sau khi hóa đơn đã được xem xét và chỉnh sửa, các dòng đề xu
 Ngoài trang **Đề xuất hóa đơn**, bạn cũng có thể đăng đề xuất hóa đơn bằng cách chạy công việc định kỳ là **Đăng đề xuất hóa đơn**. Để tìm công việc này, hãy truy cập vào **Quản lý dự án và kế toán** > **Định kỳ** > **Hóa đơn dự án** > **Đăng đề xuất hóa đơn**.
 
 Trang này hiển thị tất cả các đề xuất hóa đơn đã sẵn sàng để đăng. Bạn có thể lên lịch đăng các đề xuất hóa đơn bằng cách chọn **Hàng loạt**. Đặt **Tham số xử lý hàng loạt** thành **Có** và đặt lặp lại quá trình xử lý hàng loạt bằng cách chọn **Lặp lại**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Tạo một tài khoản cho mỗi khách hàng mà bạn đang làm việc vớ
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

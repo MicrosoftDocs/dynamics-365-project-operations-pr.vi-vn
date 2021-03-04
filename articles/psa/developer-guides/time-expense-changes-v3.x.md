@@ -32,3 +32,6 @@ Trong Dynamics 365 Project Service Automation phiên bản 3.0, các dạng xem 
 Trước đó, các dạng xem lịch và lưới cho Thời gian và chi phí được thực hiện dưới dạng bộ kiểm soát DHTMLX. Các yếu tố có liên quan đến việc triển khai dạng xem lịch và lưới hiện đã lỗi thời (không dùng nữa).
 
 Để biết danh sách đầy đủ các nguồn lực không dùng nữa, hãy xem phần [Nguồn lực web không dùng nữa trong Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

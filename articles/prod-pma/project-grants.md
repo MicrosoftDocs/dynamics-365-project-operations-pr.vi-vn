@@ -79,3 +79,6 @@ Bạn có thể tạo một khoản trợ cấp bằng cách nhập tất cả c
 2. Chọn khoản trợ cấp cần sửa đổi.
 3. Trên ngăn Hành động, trên tab **Trợ cấp** , trong nhóm **Duy trì** , hãy chọn **Chỉnh sửa**.
 4. Xem lại chi tiết khoản trợ cấp và thực hiện bất kỳ thay đổi nào được yêu cầu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

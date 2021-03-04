@@ -67,3 +67,6 @@ Khi người dùng chọn tóm tắt theo lớp giao dịch, danh mục và nhi�
 | Nhiệm vụ A | Vé máy bay | 10/1/2020 | 4 | 400 | 1600 |
 | Nhiệm vụ B | Khách sạn | 10/1/2020 | 4 | 200 | 800 |
 | Nhiệm vụ C | Khách sạn | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

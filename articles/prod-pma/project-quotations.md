@@ -41,3 +41,6 @@ Nếu khách hàng chấp thuận báo giá dự án, bạn có thể sao chép 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
