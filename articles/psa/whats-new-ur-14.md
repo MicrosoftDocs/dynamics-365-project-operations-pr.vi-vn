@@ -17,47 +17,50 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b811bf7ccfb626e6944801dffa943d2afab0c5e8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124844"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147184"
 ---
-# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="fcd1d-103">Phát hành bản cập nhật Project Service Automation 14, V3</span><span class="sxs-lookup"><span data-stu-id="fcd1d-103">Project Service Automation Update Release 14, V3</span></span>
-<span data-ttu-id="fcd1d-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất cho ứng dụng Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="fcd1d-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="fcd1d-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="fcd1d-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="fcd1d-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến và truy cập vào trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="fcd1d-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="fcd1d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="8df09-103">Phát hành bản cập nhật Project Service Automation 14, V3</span><span class="sxs-lookup"><span data-stu-id="8df09-103">Project Service Automation Update Release 14, V3</span></span>
 
-<span data-ttu-id="fcd1d-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho PSA V3, Bản phát hành cập nhật 14.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="fcd1d-110">Phiên bản này có số bản dựng là V3.10.4.21 và có sẵn theo lịch trình sau:</span><span class="sxs-lookup"><span data-stu-id="fcd1d-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-- <span data-ttu-id="fcd1d-111">**Tính sẵn có chung (tự cập nhật):** Tháng 1 năm 2020</span><span class="sxs-lookup"><span data-stu-id="fcd1d-111">**General availability (self-update):** January 2020</span></span>
-- <span data-ttu-id="fcd1d-112">**Cập nhật tự động:** Tháng 2 năm 2020</span><span class="sxs-lookup"><span data-stu-id="fcd1d-112">**Auto-update:** February 2020</span></span>
+<span data-ttu-id="8df09-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất cho ứng dụng Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="8df09-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="8df09-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="8df09-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="8df09-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="8df09-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="8df09-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến và truy cập vào trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="8df09-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="8df09-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="8df09-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-## <a name="update-release-14"></a><span data-ttu-id="fcd1d-113">Phát hành bản cập nhật 14</span><span class="sxs-lookup"><span data-stu-id="fcd1d-113">Update Release 14</span></span>
+<span data-ttu-id="8df09-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho PSA V3, Bản phát hành cập nhật 14.</span><span class="sxs-lookup"><span data-stu-id="8df09-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="8df09-110">Phiên bản này có số bản dựng là V3.10.4.21 và có sẵn theo lịch trình sau:</span><span class="sxs-lookup"><span data-stu-id="8df09-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
 
-### <a name="enhancements"></a><span data-ttu-id="fcd1d-114">Cải tiến</span><span class="sxs-lookup"><span data-stu-id="fcd1d-114">Enhancements</span></span>
+- <span data-ttu-id="8df09-111">**Tính sẵn có chung (tự cập nhật):** Tháng 1 năm 2020</span><span class="sxs-lookup"><span data-stu-id="8df09-111">**General availability (self-update):** January 2020</span></span>
+- <span data-ttu-id="8df09-112">**Cập nhật tự động:** Tháng 2 năm 2020</span><span class="sxs-lookup"><span data-stu-id="8df09-112">**Auto-update:** February 2020</span></span>
 
-- <span data-ttu-id="fcd1d-115">Sales</span><span class="sxs-lookup"><span data-stu-id="fcd1d-115">Sales</span></span>
+## <a name="update-release-14"></a><span data-ttu-id="8df09-113">Phát hành bản cập nhật 14</span><span class="sxs-lookup"><span data-stu-id="8df09-113">Update Release 14</span></span>
 
-     - <span data-ttu-id="fcd1d-116">Các giá trị của trường tùy chỉnh từ **Chi tiết mô tả báo giá** được sao chép sang **Chi tiết mô tả hợp đồng dự án** khi báo giá được cập nhật thành **Đóng dưới dạng thắng**.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
-     - <span data-ttu-id="fcd1d-117">Có thể **Đóng dưới dạng thua** các dự án đã xác nhận.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-117">Confirmed projects can be **Closed as lost**.</span></span>
+### <a name="enhancements"></a><span data-ttu-id="8df09-114">Cải tiến</span><span class="sxs-lookup"><span data-stu-id="8df09-114">Enhancements</span></span>
 
-- <span data-ttu-id="fcd1d-118">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="fcd1d-118">Resource Management</span></span>
+- <span data-ttu-id="8df09-115">Sales</span><span class="sxs-lookup"><span data-stu-id="8df09-115">Sales</span></span>
 
-     - <span data-ttu-id="fcd1d-119">Khi gia hạn đặt trước, người dùng sẽ được nhắc với hộp thoại xác nhận để tóm tắt kết quả đặt trước và cung cấp liên kết để Duy trì đặt trước.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
+     - <span data-ttu-id="8df09-116">Các giá trị của trường tùy chỉnh từ **Chi tiết mô tả báo giá** được sao chép sang **Chi tiết mô tả hợp đồng dự án** khi báo giá được cập nhật thành **Đóng dưới dạng thắng**.</span><span class="sxs-lookup"><span data-stu-id="8df09-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
+     - <span data-ttu-id="8df09-117">Có thể **Đóng dưới dạng thua** các dự án đã xác nhận.</span><span class="sxs-lookup"><span data-stu-id="8df09-117">Confirmed projects can be **Closed as lost**.</span></span>
+
+- <span data-ttu-id="8df09-118">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="8df09-118">Resource Management</span></span>
+
+     - <span data-ttu-id="8df09-119">Khi gia hạn đặt trước, người dùng sẽ được nhắc với hộp thoại xác nhận để tóm tắt kết quả đặt trước và cung cấp liên kết để Duy trì đặt trước.</span><span class="sxs-lookup"><span data-stu-id="8df09-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="fcd1d-120">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="fcd1d-120">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="8df09-120">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="8df09-120">Bug fixes</span></span>
 
-- <span data-ttu-id="fcd1d-121">Thời gian và Chi phí</span><span class="sxs-lookup"><span data-stu-id="fcd1d-121">Time and Expense</span></span>
+- <span data-ttu-id="8df09-121">Thời gian và Chi phí</span><span class="sxs-lookup"><span data-stu-id="8df09-121">Time and Expense</span></span>
 
-     - <span data-ttu-id="fcd1d-122">Đã sửa lỗi: Cải thiện trải nghiệm người dùng khi người dùng chưa chọn bất kỳ mục nhập nào cần sửa.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
+     - <span data-ttu-id="8df09-122">Đã sửa lỗi: Cải thiện trải nghiệm người dùng khi người dùng chưa chọn bất kỳ mục nhập nào cần sửa.</span><span class="sxs-lookup"><span data-stu-id="8df09-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
 
-- <span data-ttu-id="fcd1d-123">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="fcd1d-123">Resource Management</span></span>
+- <span data-ttu-id="8df09-123">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="8df09-123">Resource Management</span></span>
 
-     - <span data-ttu-id="fcd1d-124">Đã sửa lỗi: Đặt trước một nguồn lực nhiều lần vượt quá tên của nguồn lực có thể đặt được.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
+     - <span data-ttu-id="8df09-124">Đã sửa lỗi: Đặt trước một nguồn lực nhiều lần vượt quá tên của nguồn lực có thể đặt được.</span><span class="sxs-lookup"><span data-stu-id="8df09-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
 
-- <span data-ttu-id="fcd1d-125">Sales</span><span class="sxs-lookup"><span data-stu-id="fcd1d-125">Sales</span></span>
+- <span data-ttu-id="8df09-125">Sales</span><span class="sxs-lookup"><span data-stu-id="8df09-125">Sales</span></span>
 
-     - <span data-ttu-id="fcd1d-126">Đã sửa lỗi: Tổng giá bán không được tính cho đến khi người dùng cũng nhập giá vốn cho ước tính chi phí cho một dự án.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
-     - <span data-ttu-id="fcd1d-127">Đã sửa lỗi: Việc đóng một báo giá là **Thắng** không thành công nếu hợp đồng dự án được liên kết không ở trạng thái **Bản nháp**.</span><span class="sxs-lookup"><span data-stu-id="fcd1d-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
+     - <span data-ttu-id="8df09-126">Đã sửa lỗi: Tổng giá bán không được tính cho đến khi người dùng cũng nhập giá vốn cho ước tính chi phí cho một dự án.</span><span class="sxs-lookup"><span data-stu-id="8df09-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
+     - <span data-ttu-id="8df09-127">Đã sửa lỗi: Việc đóng một báo giá là **Thắng** không thành công nếu hợp đồng dự án được liên kết không ở trạng thái **Bản nháp**.</span><span class="sxs-lookup"><span data-stu-id="8df09-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
 

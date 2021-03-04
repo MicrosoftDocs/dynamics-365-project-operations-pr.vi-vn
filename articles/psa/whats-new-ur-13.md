@@ -17,42 +17,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121649"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147274"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="3fd66-103">Phát hành bản cập nhật Project Service Automation 13, V3</span><span class="sxs-lookup"><span data-stu-id="3fd66-103">Project Service Automation Update Release 13, V3</span></span>
-<span data-ttu-id="3fd66-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất cho ứng dụng Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="3fd66-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="3fd66-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="3fd66-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="3fd66-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="3fd66-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="3fd66-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến và truy cập vào trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="3fd66-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="3fd66-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="3fd66-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="fa88d-103">Phát hành bản cập nhật Project Service Automation 13, V3</span><span class="sxs-lookup"><span data-stu-id="fa88d-103">Project Service Automation Update Release 13, V3</span></span>
 
-<span data-ttu-id="3fd66-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 13.</span><span class="sxs-lookup"><span data-stu-id="3fd66-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="3fd66-110">Phiên bản này có số bản dựng là V3.10.3.18 và có sẵn theo lịch trình sau:</span><span class="sxs-lookup"><span data-stu-id="3fd66-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-- <span data-ttu-id="3fd66-111">**Tính sẵn có chung (tự cập nhật):** Tháng 11 năm 2019</span><span class="sxs-lookup"><span data-stu-id="3fd66-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="3fd66-112">**Tự động cập nhật:** Tháng 12 năm 2019</span><span class="sxs-lookup"><span data-stu-id="3fd66-112">**Auto-update:** December 2019</span></span>
+<span data-ttu-id="fa88d-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất cho ứng dụng Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="fa88d-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="fa88d-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="fa88d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="fa88d-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="fa88d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="fa88d-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến và truy cập vào trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="fa88d-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="fa88d-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="fa88d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="fa88d-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 13.</span><span class="sxs-lookup"><span data-stu-id="fa88d-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="fa88d-110">Phiên bản này có số bản dựng là V3.10.3.18 và có sẵn theo lịch trình sau:</span><span class="sxs-lookup"><span data-stu-id="fa88d-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+
+- <span data-ttu-id="fa88d-111">**Tính sẵn có chung (tự cập nhật):** Tháng 11 năm 2019</span><span class="sxs-lookup"><span data-stu-id="fa88d-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="fa88d-112">**Tự động cập nhật:** Tháng 12 năm 2019</span><span class="sxs-lookup"><span data-stu-id="fa88d-112">**Auto-update:** December 2019</span></span>
 
 
-## <a name="update-release-13"></a><span data-ttu-id="3fd66-113">Phát hành bản cập nhật 13</span><span class="sxs-lookup"><span data-stu-id="3fd66-113">Update Release 13</span></span> 
+## <a name="update-release-13"></a><span data-ttu-id="fa88d-113">Phát hành bản cập nhật 13</span><span class="sxs-lookup"><span data-stu-id="fa88d-113">Update Release 13</span></span> 
 
-### <a name="bug-fixes"></a><span data-ttu-id="3fd66-114">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="3fd66-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="fa88d-114">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="fa88d-114">Bug fixes</span></span>
 
-- <span data-ttu-id="3fd66-115">Thời gian và Chi phí</span><span class="sxs-lookup"><span data-stu-id="3fd66-115">Time and Expense</span></span>
+- <span data-ttu-id="fa88d-115">Thời gian và Chi phí</span><span class="sxs-lookup"><span data-stu-id="fa88d-115">Time and Expense</span></span>
 
-     - <span data-ttu-id="3fd66-116">Đã sửa lỗi: Chức năng tìm kiếm trên trang **Phê duyệt chi phí** không hoạt động khi tìm kiếm theo mục đích chi phí.</span><span class="sxs-lookup"><span data-stu-id="3fd66-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+     - <span data-ttu-id="fa88d-116">Đã sửa lỗi: Chức năng tìm kiếm trên trang **Phê duyệt chi phí** không hoạt động khi tìm kiếm theo mục đích chi phí.</span><span class="sxs-lookup"><span data-stu-id="fa88d-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
 
-- <span data-ttu-id="3fd66-117">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="3fd66-117">Resource Management</span></span>
+- <span data-ttu-id="fa88d-117">Quản lý nguồn lực</span><span class="sxs-lookup"><span data-stu-id="fa88d-117">Resource Management</span></span>
 
-     - <span data-ttu-id="3fd66-118">Đã sửa lỗi: Các số trong phần điều hòa đã được cập nhật để được chứng minh là đúng.</span><span class="sxs-lookup"><span data-stu-id="3fd66-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="3fd66-119">Đã sửa lỗi: Không thể gán Nguồn lực được đặt tên cho các nhiệm vụ thông qua tab **Lịch trình**.</span><span class="sxs-lookup"><span data-stu-id="3fd66-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+     - <span data-ttu-id="fa88d-118">Đã sửa lỗi: Các số trong phần điều hòa đã được cập nhật để được chứng minh là đúng.</span><span class="sxs-lookup"><span data-stu-id="fa88d-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="fa88d-119">Đã sửa lỗi: Không thể gán Nguồn lực được đặt tên cho các nhiệm vụ thông qua tab **Lịch trình**.</span><span class="sxs-lookup"><span data-stu-id="fa88d-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
 
-- <span data-ttu-id="3fd66-120">Quản lý dự án</span><span class="sxs-lookup"><span data-stu-id="3fd66-120">Project Management</span></span>
+- <span data-ttu-id="fa88d-120">Quản lý dự án</span><span class="sxs-lookup"><span data-stu-id="fa88d-120">Project Management</span></span>
 
-     - <span data-ttu-id="3fd66-121">Đã sửa lỗi: Ngoại lệ tham chiếu null khi gán thành viên nhóm khi **Loại giao dịch** thiếu thông tin thiết lập cho **Đơn vị** và **Nhóm mặc định**.</span><span class="sxs-lookup"><span data-stu-id="3fd66-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+     - <span data-ttu-id="fa88d-121">Đã sửa lỗi: Ngoại lệ tham chiếu null khi gán thành viên nhóm khi **Loại giao dịch** thiếu thông tin thiết lập cho **Đơn vị** và **Nhóm mặc định**.</span><span class="sxs-lookup"><span data-stu-id="fa88d-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
 
-- <span data-ttu-id="3fd66-122">Sales</span><span class="sxs-lookup"><span data-stu-id="3fd66-122">Sales</span></span>
+- <span data-ttu-id="fa88d-122">Sales</span><span class="sxs-lookup"><span data-stu-id="fa88d-122">Sales</span></span>
 
-     - <span data-ttu-id="3fd66-123">Đã sửa lỗi: Bản ghi loại giao dịch trùng lặp trả về lỗi khi bản ghi giá vai trò được tạo.</span><span class="sxs-lookup"><span data-stu-id="3fd66-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="3fd66-124">Đã sửa: Các nút bổ sung cho **Cơ hội mới**, **Báo giá**, **Mô tả đơn hàng** và **Thêm sản phẩm** hiển thị trong các lệnh cho Cơ hội, Báo giá, Sản phẩm đặt hàng và lưới con Mô tả dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="3fd66-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+     - <span data-ttu-id="fa88d-123">Đã sửa lỗi: Bản ghi loại giao dịch trùng lặp trả về lỗi khi bản ghi giá vai trò được tạo.</span><span class="sxs-lookup"><span data-stu-id="fa88d-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="fa88d-124">Đã sửa: Các nút bổ sung cho **Cơ hội mới**, **Báo giá**, **Mô tả đơn hàng** và **Thêm sản phẩm** hiển thị trong các lệnh cho Cơ hội, Báo giá, Sản phẩm đặt hàng và lưới con Mô tả dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="fa88d-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
 
 
