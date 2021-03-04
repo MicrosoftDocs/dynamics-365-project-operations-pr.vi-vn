@@ -18,35 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb90c1ac2880dc07414276618a8259d17932b4a0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132584"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149164"
 ---
-# <a name="basic-guide-to-quoting-pricing-and-billing"></a><span data-ttu-id="a832f-103">Hướng dẫn cơ bản về báo giá, định giá và lập hóa đơn</span><span class="sxs-lookup"><span data-stu-id="a832f-103">Basic guide to quoting, pricing and billing</span></span>
+# <a name="basic-guide-to-quoting-pricing-and-billing"></a><span data-ttu-id="91e4e-103">Hướng dẫn cơ bản về báo giá, định giá và lập hóa đơn</span><span class="sxs-lookup"><span data-stu-id="91e4e-103">Basic guide to quoting, pricing and billing</span></span>
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="a832f-104">Khả năng tìm đúng nguồn lực vào đúng thời gian, đặt những nguồn lực đó vào các dự án và tiếp tục sử dụng các nguồn lực giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng.</span><span class="sxs-lookup"><span data-stu-id="a832f-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
+<span data-ttu-id="91e4e-104">Khả năng tìm đúng nguồn lực vào đúng thời gian, đặt những nguồn lực đó vào các dự án và tiếp tục sử dụng các nguồn lực giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng.</span><span class="sxs-lookup"><span data-stu-id="91e4e-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
 
-<span data-ttu-id="a832f-105">Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội dung đã được chuyển đến các chủ đề sau:</span><span class="sxs-lookup"><span data-stu-id="a832f-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="91e4e-105">Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội dung đã được chuyển đến các chủ đề sau:</span><span class="sxs-lookup"><span data-stu-id="91e4e-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="a832f-106">Báo giá, định giá và lập hóa đơn</span><span class="sxs-lookup"><span data-stu-id="a832f-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
-- [<span data-ttu-id="a832f-107">Quy trình bán hàng</span><span class="sxs-lookup"><span data-stu-id="a832f-107">Sales processes</span></span>](../basic-sales-process.md)
-- [<span data-ttu-id="a832f-108">Báo giá và mô tả báo giá</span><span class="sxs-lookup"><span data-stu-id="a832f-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
-- [<span data-ttu-id="a832f-109">Mô tả báo giá dựa trên sản phẩm</span><span class="sxs-lookup"><span data-stu-id="a832f-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
-- [<span data-ttu-id="a832f-110">Định giá</span><span class="sxs-lookup"><span data-stu-id="a832f-110">Pricing</span></span>](../basic-pricing.md)
-- [<span data-ttu-id="a832f-111">Định giá danh mục sản phẩm</span><span class="sxs-lookup"><span data-stu-id="a832f-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
-- [<span data-ttu-id="a832f-112">Giao dịch kinh doanh</span><span class="sxs-lookup"><span data-stu-id="a832f-112">Business transactions</span></span>](../basic-business-transactions.md)
-- [<span data-ttu-id="a832f-113">Ước tính</span><span class="sxs-lookup"><span data-stu-id="a832f-113">Estimates</span></span>](../estimates.md)
-- [<span data-ttu-id="a832f-114">Thực tế</span><span class="sxs-lookup"><span data-stu-id="a832f-114">Actuals</span></span>](../actuals.md)
-- [<span data-ttu-id="a832f-115">Phân tích báo giá dự án</span><span class="sxs-lookup"><span data-stu-id="a832f-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
-- [<span data-ttu-id="a832f-116">Đơn vị tổ chức</span><span class="sxs-lookup"><span data-stu-id="a832f-116">Organizational units</span></span>](../advanced-organizational.md)
-- [<span data-ttu-id="a832f-117">Nhóm đơn vị và đơn vị</span><span class="sxs-lookup"><span data-stu-id="a832f-117">Unit groups and units</span></span>](../advanced-units.md)
-- [<span data-ttu-id="a832f-118">Tình huống nhiều loại tiền tệ</span><span class="sxs-lookup"><span data-stu-id="a832f-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
-- [<span data-ttu-id="a832f-119">Ghi thực tế</span><span class="sxs-lookup"><span data-stu-id="a832f-119">Recording actuals</span></span>](../advanced-actuals.md)
+- [<span data-ttu-id="91e4e-106">Báo giá, định giá và lập hóa đơn</span><span class="sxs-lookup"><span data-stu-id="91e4e-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
+- [<span data-ttu-id="91e4e-107">Quy trình bán hàng</span><span class="sxs-lookup"><span data-stu-id="91e4e-107">Sales processes</span></span>](../basic-sales-process.md)
+- [<span data-ttu-id="91e4e-108">Báo giá và mô tả báo giá</span><span class="sxs-lookup"><span data-stu-id="91e4e-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
+- [<span data-ttu-id="91e4e-109">Mô tả báo giá dựa trên sản phẩm</span><span class="sxs-lookup"><span data-stu-id="91e4e-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
+- [<span data-ttu-id="91e4e-110">Định giá</span><span class="sxs-lookup"><span data-stu-id="91e4e-110">Pricing</span></span>](../basic-pricing.md)
+- [<span data-ttu-id="91e4e-111">Định giá danh mục sản phẩm</span><span class="sxs-lookup"><span data-stu-id="91e4e-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
+- [<span data-ttu-id="91e4e-112">Giao dịch kinh doanh</span><span class="sxs-lookup"><span data-stu-id="91e4e-112">Business transactions</span></span>](../basic-business-transactions.md)
+- [<span data-ttu-id="91e4e-113">Ước tính</span><span class="sxs-lookup"><span data-stu-id="91e4e-113">Estimates</span></span>](../estimates.md)
+- [<span data-ttu-id="91e4e-114">Thực tế</span><span class="sxs-lookup"><span data-stu-id="91e4e-114">Actuals</span></span>](../actuals.md)
+- [<span data-ttu-id="91e4e-115">Phân tích báo giá dự án</span><span class="sxs-lookup"><span data-stu-id="91e4e-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
+- [<span data-ttu-id="91e4e-116">Đơn vị tổ chức</span><span class="sxs-lookup"><span data-stu-id="91e4e-116">Organizational units</span></span>](../advanced-organizational.md)
+- [<span data-ttu-id="91e4e-117">Nhóm đơn vị và đơn vị</span><span class="sxs-lookup"><span data-stu-id="91e4e-117">Unit groups and units</span></span>](../advanced-units.md)
+- [<span data-ttu-id="91e4e-118">Tình huống nhiều loại tiền tệ</span><span class="sxs-lookup"><span data-stu-id="91e4e-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
+- [<span data-ttu-id="91e4e-119">Ghi thực tế</span><span class="sxs-lookup"><span data-stu-id="91e4e-119">Recording actuals</span></span>](../advanced-actuals.md)
 
 > [!NOTE]
-> <span data-ttu-id="a832f-120">Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai.</span><span class="sxs-lookup"><span data-stu-id="a832f-120">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="91e4e-120">Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai.</span><span class="sxs-lookup"><span data-stu-id="91e4e-120">This topic will be removed in a future documentation update.</span></span> 
