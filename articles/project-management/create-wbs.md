@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287039"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -92,6 +92,8 @@ Bảng sau đây hiển thị các thuộc tính lịch trình bổ sung.
 | Bắt đầu | Ngày và giờ bắt đầu. |
 | Tên | Tên của nhiệm vụ. |
 | ID | ID của nhiệm vụ trong cấu trúc phân tích công việc. |
+
+Với tư cách là quản trị viên, bạn có thể xác định các trường tùy chỉnh trên thực thể nhiệm vụ. Tuy nhiên, các trường không thể được hiển thị trên lưới lịch biểu. Để xem các trường tùy chỉnh của bạn, hãy thêm chúng vào trang chi tiết **Nhiệm vụ dự án**.
 
 ## <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 

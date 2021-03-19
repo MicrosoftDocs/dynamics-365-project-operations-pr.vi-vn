@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287534"
 ---
 # <a name="configure-project-categories"></a>Đặt cấu hình danh mục dự án
 
@@ -37,7 +37,7 @@ Các danh mục giao dịch được xác định trong mô-đun Project Operati
 
 ## <a name="shared-categories"></a>Danh mục chia sẻ
 
-Dynamics 365 sử dụng khái niệm Danh mục được chia sẻ để phân loại chi phí trong các ứng dụng khác nhau, chẳng hạn như Dynamics 365 Finance, Dynamics 365 Supply Chain và Dynamics 365 Project Operations. Đối với mỗi danh mục giao dịch được tạo, Project Operations tự động tạo bốn danh mục được chia sẻ có liên quan: Giờ, Chi phí, Phí và Mục. Bạn có thể xem lại và điều chỉnh các danh mục được chia sẻ bằng cách đi tới **Kế toán và quản lý dự án** \> **Thiết lập** \> **Thể loại** \> **Danh mục được chia sẻ**.
+Dynamics 365 sử dụng khái niệm Danh mục được chia sẻ để phân loại chi phí trong các ứng dụng khác nhau, chẳng hạn như Dynamics 365 Finance, Chuỗi cung ứng Dynamics 365 và Dynamics 365 Project Operations. Đối với mỗi danh mục giao dịch được tạo, Project Operations tự động tạo bốn danh mục được chia sẻ có liên quan: Giờ, Chi phí, Phí và Mục. Bạn có thể xem lại và điều chỉnh các danh mục được chia sẻ bằng cách đi tới **Kế toán và quản lý dự án** \> **Thiết lập** \> **Thể loại** \> **Danh mục được chia sẻ**.
 
 ## <a name="project-categories"></a>Thể loại dự án
 

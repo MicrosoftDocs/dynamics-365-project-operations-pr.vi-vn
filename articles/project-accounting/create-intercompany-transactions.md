@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287444"
 ---
 # <a name="create-intercompany-transactions"></a>Tạo giao dịch liên công ty
 
@@ -69,7 +69,7 @@ Molly Clark, nhà phát triển được GBPM thuê có 10 giờ làm việc cho
     5. Tạo dự án mới và liên kết dự án đó với dòng hợp đồng này.
 4. Đăng nhập với tư cách nguồn lực, **Molly Clark**. Đi tới **Dự án** > **Mục thời gian** rồi tạo một mục thời gian cho Adventure Works.
 5. Đăng nhập với tư cách Quản lý dự án. Đi tới **Dự án** > **Phê duyệt** và phê duyệt giao dịch mục thời gian mà Molly Clark đã ghi.
-6. Chuyển đến dự án Adventure Works rồi chọn **Có liên quan** > **Thực tế**. Những giao dịch thực tế sau đây sẽ được tạo.
+6. Chuyển đến dự án Adventure Works rồi chọn **Có liên quan** > **Giá trị thực tế**. Những giao dịch thực tế sau đây sẽ được tạo.
 
 | **Loại giao dịch** | **Giá** | **Loại tiền giao dịch** | **Số lượng** |
 | --- | --- | --- | --- |

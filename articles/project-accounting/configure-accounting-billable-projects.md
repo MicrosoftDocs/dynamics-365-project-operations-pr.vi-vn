@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131999"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287669"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations hỗ trợ các tùy chọn kế toán khác nhau cho những dự án có thể lập hóa đơn bao gồm các giao dịch về thời gian, vật tư và giá cố định.
+Dynamics 365 Project Operations hỗ trợ các lựa chọn kế toán khác nhau cho các dự án có thể lập hóa đơn, bao gồm cả các dự án theo giá cố định và theo thời gian và vật tư.
 
 - **Giao dịch thời gian và vật tư**: Những giao dịch này được lập hóa đơn theo tiến độ công việc dựa trên mức sử dụng giờ, chi phí, mặt hàng hoặc phí trên dự án. Các chi phí giao dịch này có thể được khớp với doanh thu trên mỗi giao dịch và dự án được lập hóa đơn theo tiến độ công việc. Doanh thu dự án cũng có thể được tích lũy tại thời điểm diễn ra giao dịch. Trong quá trình lập hóa đơn, doanh thu được ghi nhận và nếu có, doanh thu tích lũy sẽ được đảo ngược.
 - **Giao dịch giá cố định**: Những giao dịch này được lập hóa đơn theo lịch trình thanh toán dựa trên hợp đồng dự án. Doanh thu cho các giao dịch giá cố định có thể được ghi nhận khi lập hóa đơn hoặc được tính toán và đăng tải định kỳ, theo phương pháp **Hợp đồng đã hoàn thành** hoặc **Phần trăm hoàn thành**.

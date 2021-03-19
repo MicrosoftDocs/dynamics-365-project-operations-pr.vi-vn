@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287624"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án nội bộ
 
@@ -24,7 +24,7 @@ Dự án nội bộ giúp cho các công ty theo dõi chi phí liên quan đến
 - Phát triển sản phẩm, chẳng hạn như ứng dụng dành cho thiết bị di động, và theo dõi chi phí liên quan đến việc phát triển.
 - Quản lý thời gian và chi phí trước khi bán hàng. Sau này, dự án nội bộ trước khi bán hàng này có thể được chuyển đổi thành dự án có thể lập hóa đơn nếu bạn giành được báo giá.
 
-Mọi dự án không được liên kết với hợp đồng trong Dynamics 365 Project Operations đều được coi là dự án nội bộ. Hồ sơ doanh thu và chi phí dự án không được sử dụng để xác định các quy tắc kế toán cho dự án này. Chi phí của dự án nội bộ luôn được đăng theo nguyên tắc lãi và lỗ. Tài khoản sổ dùng cho các mục đăng được xác định trên trang **Thiết lập đăng sổ**.
+Bất kỳ dự án nào không liên kết với một hợp đồng trong Dynamics 365 Project Operations đều được xem là nội bộ. Hồ sơ doanh thu và chi phí dự án không được sử dụng để xác định các quy tắc kế toán cho dự án này. Chi phí của dự án nội bộ luôn được đăng theo nguyên tắc lãi và lỗ. Tài khoản sổ dùng cho các mục đăng được xác định trên trang **Thiết lập đăng sổ**.
 
 - Các giao dịch thời gian được đăng bằng cách ghi nợ vào tài khoản **Chi phí** và ghi có vào tài khoản **Phân bổ bảng lương**.
 - Các giao dịch chi phí được đăng bằng cách ghi nợ vào tài khoản **Chi phí** và ghi có vào tài khoản **Tài khoản bù trừ chi phí**.

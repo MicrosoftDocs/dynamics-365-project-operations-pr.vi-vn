@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131729"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287084"
 ---
 # <a name="expense-estimates"></a>Ước tính chi phí
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Cùng với việc xác định các ước tính dựa trên nguồn lực, Dynamics 365 Project Operations cho phép người quản lý dự án xác định chi phí dựa trên dự án cho từng dự án. Mỗi hạng mục chi phí có thể được liên kết với một nhiệm vụ hoặc hạng mục chi phí cụ thể của dự án. Các loại chi phí thường được xác định ở cấp độ tổ chức. Giá cho từng loại chi phí thường được xác định theo hệ thống cấp bậc sau:
+Cùng với việc xác định các ước tính dựa trên nguồn lực, Dynamics 365 Project Operations cho phép Người quản lý dự án xác định chi phí dựa trên dự án cho từng dự án. Mỗi hạng mục chi phí có thể được liên kết với một nhiệm vụ hoặc hạng mục chi phí cụ thể của dự án. Các loại chi phí thường được xác định ở cấp độ tổ chức. Giá cho từng loại chi phí thường được xác định theo hệ thống cấp bậc sau:
 
 - Tổ chức
 - Khách hàng
