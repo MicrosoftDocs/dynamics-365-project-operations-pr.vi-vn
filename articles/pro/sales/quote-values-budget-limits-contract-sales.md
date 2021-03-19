@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180983"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272459"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Thông tin tóm tắt về báo giá dự án - bản đơn giản
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 Bài viết này giải thích thông tin áp dụng cho báo giá dự án. Điều này bao gồm các cài đặt ảnh hưởng đến tất cả các mô tả báo giá và thông tin về báo giá được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của báo giá dự án.
 
-Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ báo giá Dynamics 365 Sales.
+Bảng sau liệt kê các trường thông tin tóm tắt trên báo giá dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng trong hoạt động so với báo giá trong Dynamics 365 Sales.
 
 | **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |

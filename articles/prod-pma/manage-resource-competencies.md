@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270659"
 ---
 # <a name="manage-resource-competencies"></a>Quản lý năng lực của nguồn lực
 
@@ -39,19 +39,19 @@ Các quy trình sau đây giải thích cách thiết lập một số năng l�
 
 ## <a name="set-up-competencies-certificates"></a>Thiết lập năng lực: Chứng chỉ
 
-1. Trên trang danh sách **Nhân viên** , chọn dòng cho nhân viên để thêm thông tin chứng chỉ.
-2. Trên Ngăn hành động, trên tab **Nhân viên** , trong nhóm **năng lực** , chọn **Chứng chỉ**.
-3. Chọn **Mới** rồi trong trường **Loại chứng chỉ** , chọn **PMP**.
-4. Trong trường **Ngày bắt đầu** , chọn **10/1/2015** rồi chọn **Lưu**.
+1. Trên trang danh sách **Nhân viên**, chọn dòng cho nhân viên để thêm thông tin chứng chỉ.
+2. Trên Ngăn hành động, trên tab **Nhân viên**, trong nhóm **năng lực**, chọn **Chứng chỉ**.
+3. Chọn **Mới** rồi trong trường **Loại chứng chỉ**, chọn **PMP**.
+4. Trong trường **Ngày bắt đầu**, chọn **10/1/2015** rồi chọn **Lưu**.
 
 ## <a name="set-up-competencies-skills"></a>Thiết lập năng lực: Kỹ năng
 
-1. Trên trang danh sách **Nhân viên** , hãy đảm bảo rằng nhân viên mà bạn đã sử dụng trong quy trình trước đó vẫn được chọn. Sau đó, trên Ngăn hành động, trên tab **Nhân viên** , trong nhóm **Năng lực** , chọn **Kỹ năng**.
+1. Trên trang danh sách **Nhân viên**, hãy đảm bảo rằng nhân viên mà bạn đã sử dụng trong quy trình trước đó vẫn được chọn. Sau đó, trên Ngăn hành động, trên tab **Nhân viên**, trong nhóm **Năng lực**, chọn **Kỹ năng**.
 2. Chọn **Mới**.
-3. Trong trường **Kỹ năng** , chọn **Quản lý dự án**.
-4. Trong trường **Cấp độ** , chọn **5 Chuyên gia**.
-5. Trong trường **Ngày cấp độ** , chọn **1-/14/2014**.
-6. Trong trường **Số năm kinh nghiệm** , nhập **10**.
+3. Trong trường **Kỹ năng**, chọn **Quản lý dự án**.
+4. Trong trường **Cấp độ**, chọn **5 Chuyên gia**.
+5. Trong trường **Ngày cấp độ**, chọn **1-/14/2014**.
+6. Trong trường **Số năm kinh nghiệm**, nhập **10**.
 7. Chọn **Lưu** rồi đóng trang.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Báo cáo chi phí được thiết kế lại
-description: Chủ đề này cung cấp thông tin về trải nghiệm được thiết kế lại và xây dựng lại cho mục nhập báo cáo chi phí trong Microsoft Dynamics 365 Finance. Trong trải nghiệm mới, quá trình hoàn thành báo cáo chi phí sẽ đơn giản hơn và giảm bớt thời gian thực hiện.
+description: Chủ đề này cung cấp thông tin về trải nghiệm được thiết kế lại và xây dựng lại cho mục nhập báo cáo chi phí.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960273"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272009"
 ---
 # <a name="redesigned-expense-reports"></a>Báo cáo chi phí được thiết kế lại
 
@@ -41,15 +41,9 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để tinh gi�
 - Không có mục menu hiện có nào cho báo cáo chi phí (trang hiện có) hoặc các trường báo cáo chi phí bị xóa.
 - Quy trình làm việc và mọi mục phê duyệt vẫn đưa bạn đến trang báo cáo chi phí hiện có.
 
-## <a name="getting-started-video-for-new-users"></a>Video hướng dẫn dành cho người dùng mới
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Trải nghiệm chi phí trong Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (hiển thị bên trên) được bao gồm trong danh sách phát [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) có sẵn trên YouTube.
-
 ## <a name="new-features"></a>Tính năng mới
 
-| Tính năng mới | Nội dung mô tả |
+| Tính năng mới | Mô tả |
 |---|----|
 | Khả năng hiển thị trường chi phí | Trang thiết lập mới cho phép bạn chỉ định trường nào nên tắt cho tổ chức, trường nào bắt buộc và trường nào được khuyến nghị. |
 | Trường bắt buộc | Cấu hình đơn giản mới cho phép bạn thực hiện một số trường bắt buộc mà không cần phải sử dụng khung chính sách. |

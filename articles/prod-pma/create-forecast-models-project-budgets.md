@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087244"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271064"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Tạo mô hình dự báo cho ngân sách dự án 
 
@@ -39,11 +39,11 @@ Chủ đề này mô tả cách tạo mô hình dự báo cho ngân sách còn l
 3. Đặt tùy chọn **Đã dừng** thành **Có** để ngăn chặn mọi sự thay đổi đối với dòng dự báo cho mô hình dự báo. 
 4. Nếu mô hình được liên kết với các dòng dự báo sẽ tạo ra dự báo dòng tiền trong sổ cái, hãy đặt **Đưa vào dự báo dòng tiền** thành **Có**. 
 5. Để sử dụng ngày dự án làm ngày lập hóa đơn, hãy đặt **Dự báo ngày lập hóa đơn** thành **Có**. 
-6. Ở trường **Loại ngân sách** , hãy chọn một trong các loại mô hình sau:
+6. Ở trường **Loại ngân sách**, hãy chọn một trong các loại mô hình sau:
 
-   - **Ngân sách ban đầu** : Sử dụng số tiền ngân sách ban đầu đã cam kết khi ngân sách ban đầu được tạo và phê duyệt.
-   - **Ngân sách còn lại** : Sử dụng số tiền ngân sách còn lại trong suốt vòng đời của dự án. Số dư trong mô hình dự báo này bị giảm đi do các giao dịch thực tế và tăng hoặc giảm theo các mục sửa đổi ngân sách.
-   - **Chuyển tiếp** : Sử dụng số tiền ngân sách chuyển tiếp cho dự án. Chuyển tiếp là một quy trình không bắt buộc, có thể được chạy để chuyển số tiền ngân sách chưa sử dụng từ năm tài chính này sang năm tài chính khác.
+   - **Ngân sách ban đầu**: Sử dụng số tiền ngân sách ban đầu đã cam kết khi ngân sách ban đầu được tạo và phê duyệt.
+   - **Ngân sách còn lại**: Sử dụng số tiền ngân sách còn lại trong suốt vòng đời của dự án. Số dư trong mô hình dự báo này bị giảm đi do các giao dịch thực tế và tăng hoặc giảm theo các mục sửa đổi ngân sách.
+   - **Chuyển tiếp**: Sử dụng số tiền ngân sách chuyển tiếp cho dự án. Chuyển tiếp là một quy trình không bắt buộc, có thể được chạy để chuyển số tiền ngân sách chưa sử dụng từ năm tài chính này sang năm tài chính khác.
 
 7. Đặt các tùy chọn sau theo yêu cầu:
 

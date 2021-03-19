@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124709"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277274"
 ---
 # <a name="close-a-quote"></a>Đóng báo giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Báo giá dự án ở trạng thái Đã giành được hoặc Đã mất. Các chức năng Kích hoạt và Sửa đổi không được hỗ trợ trên báo giá trong Microsoft Dynamics 365 Project Operations. Do đó, bạn có thể đóng báo giá nháp.
+Báo giá dự án ở trạng thái Đã giành được hoặc Đã mất. Do các chức năng Kích hoạt và Xem lại không được hỗ trợ trên báo giá trong Microsoft Dynamics 365 Project Operations, bạn có thể đóng báo giá nháp.
 
 ## <a name="close-a-quote-as-won"></a>Đóng báo giá dưới dạng Đã giành được
 

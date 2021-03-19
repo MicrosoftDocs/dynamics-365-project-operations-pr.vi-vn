@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087245"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270974"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Tạo và áp dụng các điều khoản lưu giữ khoản thanh toán cho nhà cung cấp
 
@@ -39,11 +39,11 @@ Hãy sử dụng các bước sau để thiết lập và duy trì các điều 
 
 1. Chuyển tới **Quản lý dự án và kế toán** > **Lưu giữ** > **Điều khoản lưu giữ khoản thanh toán cho nhà cung cấp**.
 2. Chọn **Mới** để thêm điều khoản lưu giữ mới. Giá trị **ID quy tắc** cho điều khoản mới sẽ được nhập tự động. 
-3. Nhập phần mô tả ngắn gọn vào trường **Mô tả** và trên FastTab **Điều khoản** , hãy chọn **Thêm dòng** để nhập các giá trị điều khoản cho những mục sau:
+3. Nhập phần mô tả ngắn gọn vào trường **Mô tả** và trên FastTab **Điều khoản**, hãy chọn **Thêm dòng** để nhập các giá trị điều khoản cho những mục sau:
 
-   - **Phần trăm đơn vị được giao** : Nhập tỷ lệ phần trăm hoàn thành cho điều khoản. Số tiền sẽ tự động được giữ lại trên hóa đơn của nhà cung cấp cho đến khi giai đoạn hoàn thành của dự án đạt đến tỷ lệ phần trăm đã chỉ định. Chẳng hạn, nếu bạn nhập 50, thì số tiền sẽ được giữ lại cho đến khi dự án hoàn thành 50 phần trăm.
-   - **Tỷ lệ phần trăm giữ lại** : Nhập tỷ lệ phần trăm số tiền sẽ được giữ lại trên hóa đơn của nhà cung cấp. Lấy ví dụ, nếu bạn nhập 10, thì 10 phần trăm số tiền trên hóa đơn của nhà cung cấp sẽ được giữ lại cho đến khi dự án đạt được tỷ lệ phần trăm hoàn thành như đã đặt trong trường **Phần trăm đơn vị được giao**.
-   - **Tỷ lệ phần trăm sẽ giải phóng** : Chọn **Thêm dòng** để nhập tỷ lệ phần trăm của bất kỳ số tiền nào đã giữ lại trước đây sẽ được giải phóng khi dự án đạt đến mức độ hoàn thành đã chọn.
+   - **Phần trăm đơn vị được giao**: Nhập tỷ lệ phần trăm hoàn thành cho điều khoản. Số tiền sẽ tự động được giữ lại trên hóa đơn của nhà cung cấp cho đến khi giai đoạn hoàn thành của dự án đạt đến tỷ lệ phần trăm đã chỉ định. Chẳng hạn, nếu bạn nhập 50, thì số tiền sẽ được giữ lại cho đến khi dự án hoàn thành 50 phần trăm.
+   - **Tỷ lệ phần trăm giữ lại**: Nhập tỷ lệ phần trăm số tiền sẽ được giữ lại trên hóa đơn của nhà cung cấp. Lấy ví dụ, nếu bạn nhập 10, thì 10 phần trăm số tiền trên hóa đơn của nhà cung cấp sẽ được giữ lại cho đến khi dự án đạt được tỷ lệ phần trăm hoàn thành như đã đặt trong trường **Phần trăm đơn vị được giao**.
+   - **Tỷ lệ phần trăm sẽ giải phóng**: Chọn **Thêm dòng** để nhập tỷ lệ phần trăm của bất kỳ số tiền nào đã giữ lại trước đây sẽ được giải phóng khi dự án đạt đến mức độ hoàn thành đã chọn.
 
 > [!NOTE]
 > Nếu bạn có nhiều mốc cho các mức độ hoàn thành dự án khác nhau, hãy nhập một dòng điều khoản lưu giữ riêng biệt cho mỗi quy tắc lưu giữ. Mỗi dòng có thể chỉ định một tỷ lệ phần trăm lưu giữ khác nhau và một tỷ lệ phần trăm giải phóng khác nhau đối với mỗi mức độ hoàn thành dự án được chỉ định.
@@ -53,15 +53,15 @@ Sau khi bạn thiết lập các điều khoản lưu giữ cho nhà cung cấp,
 ## <a name="apply-vendor-retention-terms-to-a-project"></a>Áp dụng điều khoản lưu giữ cho dự án của nhà cung cấp
 
 1. Chuyển tới **Quản lý dự án và kế toán** > **Dự án** > **Tất cả dự án** và mở một dự án trong trang danh sách dự án.
-2. Trên FastTab **Thỏa thuận của nhà cung cấp** , hãy chọn **Thêm dòng**.
-3. Ở trường **Mã tài khoản** , hãy chọn một trong các tùy chọn sau: 
+2. Trên FastTab **Thỏa thuận của nhà cung cấp**, hãy chọn **Thêm dòng**.
+3. Ở trường **Mã tài khoản**, hãy chọn một trong các tùy chọn sau: 
 
-   - **Bảng** : Các điều khoản lưu giữ được áp dụng cho một nhà cung cấp.
-   - **Nhóm** : Các điều khoản lưu giữ được áp dụng cho tất cả các nhà cung cấp trong một nhóm nhà cung cấp.
-   - **Tất cả** : Các điều khoản lưu giữ được áp dụng cho tất cả các nhà cung cấp.
+   - **Bảng**: Các điều khoản lưu giữ được áp dụng cho một nhà cung cấp.
+   - **Nhóm**: Các điều khoản lưu giữ được áp dụng cho tất cả các nhà cung cấp trong một nhóm nhà cung cấp.
+   - **Tất cả**: Các điều khoản lưu giữ được áp dụng cho tất cả các nhà cung cấp.
 
-4. Ở trường **Nhà cung cấp/nhóm nhà cung cấp** , hãy chọn nhà cung cấp hoặc nhóm nhà cung cấp sẽ được áp dụng các điều khoản lưu giữ. Nếu bạn đã chọn **Tất cả** ở bước trước, thì trường này sẽ không khả dụng.
-5. Ở trường **Điều khoản lưu giữ cho nhà cung cấp** , hãy chọn các điều khoản lưu giữ mà bạn đã tạo trong quy trình trước.
+4. Ở trường **Nhà cung cấp/nhóm nhà cung cấp**, hãy chọn nhà cung cấp hoặc nhóm nhà cung cấp sẽ được áp dụng các điều khoản lưu giữ. Nếu bạn đã chọn **Tất cả** ở bước trước, thì trường này sẽ không khả dụng.
+5. Ở trường **Điều khoản lưu giữ cho nhà cung cấp**, hãy chọn các điều khoản lưu giữ mà bạn đã tạo trong quy trình trước.
 6. Nếu dự án cũng được thiết lập các điều khoản trả tiền khi được trả tiền (PWP) cho nhà cung cấp, hãy nhập tỷ lệ phần trăm ngưỡng cho dự án trong trường **Tỷ lệ phần trăm ngưỡng PWP**.
 
 Các điều khoản lưu giữ cho nhà cung cấp cũng được hiển thị trên các đơn đặt hàng mà bạn tạo cho nhà cung cấp.

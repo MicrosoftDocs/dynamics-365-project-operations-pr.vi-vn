@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087243"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270749"
 ---
 # <a name="create-a-new-project"></a>Tạo dự án mới
 
@@ -31,7 +31,7 @@ ms.locfileid: "4087243"
 
 Hoàn thành các bước sau để tạo dự án mới.
 
-1. Trên trang **Quản lý dự án** , chọn **Dự án mới** rồi nhập các giá trị sau đây:
+1. Trên trang **Quản lý dự án**, chọn **Dự án mới** rồi nhập các giá trị sau đây:
 
     - **Loại dự án:** Thời gian và vật liệu
     - **Tên dự án:** Nâng cấp XYZ Giai đoạn 2
@@ -42,10 +42,10 @@ Hoàn thành các bước sau để tạo dự án mới.
 
 ## <a name="assign-a-resource-to-a-project"></a>Chỉ định nguồn lực cho dự án
 
-1. Trên trang **Nhân viên** trong danh sách **Nhân viên** , chọn bản ghi cho nhân viên mà bạn đã thiết lập năng lực và mở bản ghi nhân viên.
-2. Trên Ngăn hành động, trên tab **Dự án** , trong nhóm **Thiết lập** , chọn **Chỉ định dự án**.
-3. Trên trang **Phân công dự án xác thực nguồn lực** , trên tab **Dự án** , trong trường **Thêm dự án vào các dự án đã chọn** , lọc trên dự án **Nâng cấp XYZ Giai đoạn 2**.
-4. Trong ngăn **Dự án còn lại** , chọn dự án rồi chọn nút mũi tên để thêm vào ngăn **Dự án đã chọn**.
+1. Trên trang **Nhân viên** trong danh sách **Nhân viên**, chọn bản ghi cho nhân viên mà bạn đã thiết lập năng lực và mở bản ghi nhân viên.
+2. Trên Ngăn hành động, trên tab **Dự án**, trong nhóm **Thiết lập**, chọn **Chỉ định dự án**.
+3. Trên trang **Phân công dự án xác thực nguồn lực**, trên tab **Dự án**, trong trường **Thêm dự án vào các dự án đã chọn**, lọc trên dự án **Nâng cấp XYZ Giai đoạn 2**.
+4. Trong ngăn **Dự án còn lại**, chọn dự án rồi chọn nút mũi tên để thêm vào ngăn **Dự án đã chọn**.
 
 Bạn cũng có thể chỉ định các thể loại cho nguồn lực mà mình cần. Thể loại là **Chi phí** hoặc **Doanh thu**. Thể loại được xác định bởi tổ chức của bạn. Nếu không có thể loại nào được chỉ định cho nguồn lực, Finance sẽ tra cứu thể loại mặc định trên giá theo giờ để biết chi phí và doanh thu.
 
@@ -59,26 +59,26 @@ Người quản lý dự án có thể sử dụng chức năng nguồn lực d�
 
 Các bước sau đây cho thấy cách người quản lý nguồn lực có thể thiết lập vai trò Người quản lý dự án cấp cao và liên kết các đặc điểm của nguồn lực với vai trò đó. Sau đó, vai trò có thể được sử dụng để tìm kiếm các nguồn lực có sẵn phù hợp với năng lực của nguồn lực được yêu cầu.
 
-1. Trên trang **Thiết lập vai trò** , chọn **Mới** rồi nhập các giá trị sau đây:
+1. Trên trang **Thiết lập vai trò**, chọn **Mới** rồi nhập các giá trị sau đây:
 
     - **ID vai trò:** Người quản lý dự án cấp cao
     - **Mô tả:** Người quản lý dự án cấp cao
 
 2. Chọn **Tạo**.
 3. Chọn vai trò **Người quản lý dự án cấp cao** rồi chọn **Đặt cấu hình đặc điểm**.
-4. Trong trường **Loại đặc điểm** , chọn **Kỹ năng**.
-5. Trong trường **Đặc điểm có sẵn** , nhập kỹ năng để tìm kiếm.
-6. Trong trường **Loại đặc điểm** , chọn **Chứng chỉ**.
-7. Trong trường **Đặc điểm có sẵn** , nhập loại chứng chỉ để tìm kiếm.
+4. Trong trường **Loại đặc điểm**, chọn **Kỹ năng**.
+5. Trong trường **Đặc điểm có sẵn**, nhập kỹ năng để tìm kiếm.
+6. Trong trường **Loại đặc điểm**, chọn **Chứng chỉ**.
+7. Trong trường **Đặc điểm có sẵn**, nhập loại chứng chỉ để tìm kiếm.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Chỉ định nguồn lực dự án cho dự án
 
-1. Trên trang **Tất cả dự án** , chọn dự án **Nâng cấp XYZ Giai đoạn 2**.
-2. Trên tab **Nhóm dự án và lập lịch trình** , chọn **Thêm**.
-3. Trong trường **Vai trò** , chọn **Thành viên nhóm**.
+1. Trên trang **Tất cả dự án**, chọn dự án **Nâng cấp XYZ Giai đoạn 2**.
+2. Trên tab **Nhóm dự án và lập lịch trình**, chọn **Thêm**.
+3. Trong trường **Vai trò**, chọn **Thành viên nhóm**.
 4. Chọn **Đặt từ lịch**.
-5. Trên trang **Khả năng dùng nguồn lực** , chọn **Thiết đặt dạng xem**.
-6. Trên trang **Điều chỉnh thiết đặt dạng xem** , nhập các giá trị sau đây:
+5. Trên trang **Khả năng dùng nguồn lực**, chọn **Thiết đặt dạng xem**.
+6. Trên trang **Điều chỉnh thiết đặt dạng xem**, nhập các giá trị sau đây:
 
     - **Định dạng cho dạng xem phạm vi ngày:** Ngày
     - **Hiển thị mô tả tình trạng rảnh/bận:** Có
@@ -95,15 +95,15 @@ Trong quá trình dự trữ nguồn lực, người quản lý dự án có th�
 
 **Tình huống:** Một dự án được phê duyệt đã bắt đầu và vai trò Người quản lý dự án cấp cao được dự trữ như một nguồn lực theo kế hoạch trong giai đoạn lập kế hoạch dự án. Người quản lý nguồn lực hiện đã có được một nguồn lực để thực hiện vai trò Người quản lý dự án cấp cao.
 
-1. Trên trang **Danh sách nguồn lực** , chọn **Daniel Goldschmidt**.
-2. Trên trang **Vai trò nguồn lực** , chọn **Mới** rồi nhập các giá trị sau đây:
+1. Trên trang **Danh sách nguồn lực**, chọn **Daniel Goldschmidt**.
+2. Trên trang **Vai trò nguồn lực**, chọn **Mới** rồi nhập các giá trị sau đây:
 
     - **Có hiệu lực:** Nhập ngày hiện tại.
     - **Hết hạn:** Nhập **Không bao giờ**.
     - **Vai trò:** Nhập **Người quản lý dự án cấp cao**.
 
 3. Chọn **Lưu** rồi đóng trang.
-4. Trên tab **Năng lực** , thêm kỹ năng **Quản lý dự án** và chứng chỉ **PMP**.
+4. Trên tab **Năng lực**, thêm kỹ năng **Quản lý dự án** và chứng chỉ **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

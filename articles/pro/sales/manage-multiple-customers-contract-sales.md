@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273179"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Quản lý nhiều khách hàng trên hợp đồng dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Hợp đồng dự án trong Dynamics 365 Project Operations hỗ trợ trường hợp một thỏa thuận theo hợp đồng liên quan đến nhiều khách hàng đang trả tiền cho thỏa thuận. Tab **Tóm tắt** trên trang **Hợp đồng dự án** bao gồm trường **Khách hàng**. Trường này xác định khách hàng chính của thỏa thuận. Các khách hàng khác của thỏa thuận có thể được thiết lập trên tab **Khách hàng** của trang **Hợp đồng dự án**.
+Hợp đồng dự án trong Dynamics 365 Project Operations hỗ trợ trường hợp một thỏa thuận theo hợp đồng liên quan đến nhiều khách hàng đang cấp vốn cho thỏa thuận. Tab **Tóm tắt** trên trang **Hợp đồng dự án** bao gồm trường **Khách hàng**. Trường này xác định khách hàng chính của thỏa thuận. Các khách hàng khác của thỏa thuận có thể được thiết lập trên tab **Khách hàng** của trang **Hợp đồng dự án**.
 
 Tất cả các khách hàng theo hợp đồng được liệt kê trên hợp đồng dự án đều mặc định là khách hàng trong phần mô tả hợp đồng của bất kỳ mô tả hợp đồng dựa trên dự án mới nào được tạo cho hợp đồng dự án. Các mô tả hợp đồng dựa trên dự án hiện có không kế thừa khách hàng mới theo hợp đồng khi hồ sơ mới được tạo.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274079"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Quản lý hóa đơn ước giá - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Trong Dynamics 365 Project Operations, hóa đơn ước giá được tạo như một phần bổ sung cho các hóa đơn trong Dynamics 365 Sales. Tuy nhiên, có nhiều điểm khác biệt trong quy trình lập hóa đơn giữa Sales và Project Operations khi nói đến việc lập hóa đơn. Ví dụ: không thể tạo hóa đơn mới từ trang **Danh sách hóa đơn** trong Project Operations, nhưng có thể làm như vậy trong Sales. Những điểm khác biệt và tiện ích mở rộng này nhằm hỗ trợ quy trình lập hóa đơn cho các dự án khác với hóa đơn điển hình cho đơn bán hàng.
+Trong Dynamics 365 Project Operations, hóa đơn ước giá được tích hợp dưới dạng phần mở rộng cho các hóa đơn trong Dynamics 365 Sales. Tuy nhiên, có nhiều điểm khác biệt trong quy trình lập hóa đơn giữa Sales và Project Operations khi nói đến việc lập hóa đơn. Ví dụ: không thể tạo hóa đơn mới từ trang **Danh sách hóa đơn** trong Project Operations, nhưng có thể làm như vậy trong Sales. Những điểm khác biệt và tiện ích mở rộng này nhằm hỗ trợ quy trình lập hóa đơn cho các dự án khác với hóa đơn điển hình cho đơn bán hàng.
 
 > [!IMPORTANT]
 > Do các điểm khác biệt, không sử dụng hóa đơn trong Sales và Project Operations thay thế cho nhau.

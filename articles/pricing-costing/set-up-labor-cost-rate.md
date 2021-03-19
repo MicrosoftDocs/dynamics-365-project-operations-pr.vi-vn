@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180623"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274799"
 ---
 # <a name="set-up-labor-cost-rates"></a>Thiết lập tỷ lệ chi phí lao động
 
@@ -40,7 +40,7 @@ Bảng sau đây bao gồm một số trường quan trọng khi tạo giá nhâ
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Chuyển giá và chi phí cho các nguồn lực bên ngoài bộ phận hoặc pháp nhân của bạn
 
-Các công ty dựa trên dự án thường sử dụng nhân viên từ các pháp nhân hoặc bộ phận khác nhau trên dự án. Một dự án có thể được thực hiện bởi một pháp nhân, nhưng nhân viên hoặc chuyên gia tư vấn làm việc trong dự án có thể đến từ cùng một pháp nhân hoặc từ một pháp nhân khác hoặc có thể kết hợp cả hai. Trong Dynamics 365 Project Operations, pháp nhân sở hữu việc bàn giao dự án được gọi là **Sở hữu công ty** và bộ phận sở hữu việc phân phối được gọi là **Đơn vị hợp đồng**. Các pháp nhân khác cung cấp nguồn lực được gọi là **Công ty cung cấp nguồn lực** và các bộ phận cung cấp nguồn lực được gọi là **Đơn vị cung cấp nguồn lực**. Ở hầu hết các quốc gia, các công ty phải đảm bảo rằng pháp nhân hoặc bộ phận cung cấp nguồn lực, tính phí cho công ty sở hữu và đơn vị ký hợp đồng sử dụng các nguồn lực.
+Các công ty dựa trên dự án thường sử dụng nhân viên từ các pháp nhân hoặc bộ phận khác nhau trên dự án. Một dự án có thể được thực hiện bởi một pháp nhân, nhưng nhân viên hoặc chuyên gia tư vấn làm việc trong dự án có thể đến từ cùng một pháp nhân hoặc từ một pháp nhân khác hoặc có thể kết hợp cả hai. Trong Dynamics 365 Project Operations, pháp nhân sở hữu việc bàn giao dự án là **Công ty sở hữu** và bộ phận sở hữu việc giao hàng là **Đơn vị ký kết**. Các pháp nhân khác cung cấp nguồn lực được gọi là **Công ty cung cấp nguồn lực** và các bộ phận cung cấp nguồn lực được gọi là **Đơn vị cung cấp nguồn lực**. Ở hầu hết các quốc gia, các công ty phải đảm bảo rằng pháp nhân hoặc bộ phận cung cấp nguồn lực, tính phí cho công ty sở hữu và đơn vị ký hợp đồng sử dụng các nguồn lực.
 
 Ví dụ: tập đoàn Fabrikam phải đảm bảo rằng Fabrikam India-Robotics có một thẻ tỷ lệ chi phí thương lượng với Fabrikam US-Robotics hoặc Fabrikam UK-Robotics.
 

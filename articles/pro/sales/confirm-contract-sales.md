@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128313"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273854"
 ---
 # <a name="confirm-a-project-contract"></a>Xác nhận hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Hợp đồng dự án trong Dynamics 365 Project Operations có thể ở trạng thái hiện hoạt với lý do **Đã xác nhận** hoặc bị đóng với lý do **Đã mất**. Khi bạn xác nhận hợp đồng dự án, trạng thái sẽ được cập nhật từ **Bản nháp** thành **Hiện hoạt** và lý do dẫn đến trạng thái là **Đã xác nhận**. Bạn không thể chỉnh sửa hoặc mở lại hợp đồng hiện hoạt hoặc đã đóng. 
+Một hợp đồng dự án trong Dynamics 365 Project Operations có thể hoạt động với lý do **Đã xác nhận** hoặc đóng với lý do **Đã mất**. Khi bạn xác nhận hợp đồng dự án, trạng thái sẽ được cập nhật từ **Bản nháp** thành **Hiện hoạt** và lý do dẫn đến trạng thái là **Đã xác nhận**. Bạn không thể chỉnh sửa hoặc mở lại hợp đồng hiện hoạt hoặc đã đóng. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Tác động tài chính của việc xác nhận hợp đồng dự án
 
@@ -34,7 +34,7 @@ Khi bạn đóng hợp đồng dự án ở dạng đã mất, trạng thái h�
 Nếu hợp đồng dự án đã đóng ở dạng bị mất tham chiếu đến một dự án trên các mục mô tả của nó, thì dự án đó cũng được đánh dấu là đã đóng. Mọi mục đặt trước nguồn lực từ ngày đó trở đi sẽ bị hủy. Nếu có giá trị thực tế doanh số chưa lập hóa đơn nào trong hợp đồng dự án chưa được đưa vào hóa đơn, thì mục đó sẽ được đảo ngược.
 
 > [!NOTE]
-> Trong Dynamics 365 Project Operations, việc đóng hợp đồng dự án ở dạng bị mất sẽ không ảnh hưởng đến trạng thái của cơ hội được liên kết. Cơ hội sẽ vẫn mở và phải được đóng thủ công.
+> Trong Dynamics 365 Project Operations, việc kết thúc một hợp đồng dự án là đã mất sẽ không ảnh hưởng đến trạng thái của cơ hội liên quan. Cơ hội sẽ vẫn mở và phải được đóng thủ công.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

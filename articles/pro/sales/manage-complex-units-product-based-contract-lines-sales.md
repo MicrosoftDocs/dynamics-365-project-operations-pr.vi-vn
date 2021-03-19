@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273359"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Quản lý nhiều đơn vị phức tạp cho các mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations sử dụng các yếu tố số lượng để hỗ trợ việc bán các sản phẩm dựa trên đăng ký. Đối với các sản phẩm dựa trên đăng ký, số lượng trên hợp đồng hoặc phần mô tả hợp đồng dự án được thể hiện dưới dạng số tháng làm người dùng.
+Dynamics 365 Project Operations sử dụng các yếu tố số lượng để hỗ trợ bán các sản phẩm dựa trên đăng ký. Đối với các sản phẩm dựa trên đăng ký, số lượng trên hợp đồng hoặc phần mô tả hợp đồng dự án được thể hiện dưới dạng số tháng làm người dùng.
 
 Giá của phần mềm đăng ký được lưu trữ trong danh mục dưới dạng giá cho mỗi người dùng mỗi tháng. Trong quá trình bán hàng, giá trên phần mô tả hợp đồng thường là giá trên mỗi người dùng, mỗi tháng do đại lý bán hàng thương lượng và giảm giá. Mỗi thỏa thuận có một số lượng người dùng khác nhau và số lượng tháng đăng ký khác nhau. Số lượng dùng để tính số tiền trong phần mô tả hợp đồng là sản phẩm gồm số lượng người dùng và số lượng tháng đăng ký.
 

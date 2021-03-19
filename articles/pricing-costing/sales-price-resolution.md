@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274979"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Giải quyết giá bán cho ước tính và thực tế
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Khi giá bán hàng trên ước tính và thực tế được giải quyết trong Dynamics 365 Project Operations, trước tiên hệ thống sử dụng ngày và đơn vị tiền tệ của báo giá hoặc hợp đồng dự án liên quan để giải quyết bảng giá bán. Sau khi giải quyết xong bảng giá bán hàng, hệ thống sẽ giải quyết tỷ giá bán hàng hoặc hóa đơn.
+Khi giá bán trên ước tính và thực tế được giải quyết trong Dynamics 365 Project Operations, hệ thống trước tiên sử dụng ngày và đơn vị tiền tệ của báo giá dự án hoặc hợp đồng liên quan để giải quyết bảng giá bán hàng. Sau khi giải quyết xong bảng giá bán hàng, hệ thống sẽ giải quyết tỷ giá bán hàng hoặc hóa đơn.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Giải quyết tỷ lệ bán hàng trên mô tả thực tế và ước tính cho thời gian
 

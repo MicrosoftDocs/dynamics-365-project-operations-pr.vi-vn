@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273989"
 ---
-# <a name="lite-deployment-overview"></a>Tổng quan về triển khai Lite
+# <a name="lite-deployment-overview"></a>Tổng quan về quá trình triển khai bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Loại hình triển khai Lite của Dynamics 365 Project Operations có các tính năng sau cho những công ty dựa trên dự án:
+Loại hình triển khai Lite của Dynamics 365 Project Operations có các khả năng sau đối với dự án dựa trên công ty:
 
 - Lập kế hoạch dự án bằng Microsoft Project dành cho web
 - Định giá và chi phí đa chiều cho nguồn lực lao động

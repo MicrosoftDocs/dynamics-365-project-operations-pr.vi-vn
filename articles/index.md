@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120839"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275924"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations kết nối các nhóm bán hàng, nguồn cung ứng, quản lý dự án và tài chính trong một ứng dụng duy nhất để giành được nhiều giao dịch hơn, đẩy nhanh tiến độ phân phối dự án và tối đa hóa lợi nhuận.
+Microsoft Dynamics 365 Project Operations kết nối các nhóm bán hàng, nguồn lực, quản lý dự án và tài chính vào một ứng dụng để giành được nhiều thỏa thuận hơn, thúc đẩy quá trình giao dự án và tối đa hóa lợi nhuận.
 
 -   **Các nhà lãnh đạo có được thông tin chi tiết về doanh nghiệp** để tăng khả năng hiển thị trên tất cả các nhóm, dữ liệu và quy trình, cộng với khả năng của AI để đưa ra các quyết định kinh doanh tốt hơn và nhanh hơn.
 -   **Bán hàng được kích hoạt** để giành được nhiều giao dịch hơn và đẩy nhanh chu kỳ bán hàng với báo giá nhanh và chính xác, định giá linh hoạt và chuyển đổi liền mạch từ ước tính sang thực hiện.
@@ -40,7 +40,7 @@ Project Operations có bản chất mạnh mẽ, nhưng có thể được mở 
 Để biết thêm thông tin, xem:
 
 - [Tổng quan về Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Tổng quan về phiên bản Dynamics 365 Project Operations 2020 đợt 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Thông tin tổng quan về bản phát hành Dynamics 365 Project Operations 2020 đợt 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

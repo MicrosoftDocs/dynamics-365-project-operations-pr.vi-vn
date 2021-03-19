@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277184"
 ---
 # <a name="extending-time-entries"></a>Kéo dài mục nhập thời gian
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations bao gồm điều khiển tùy chỉnh mục nhập thời gian có thể mở rộng. Điều khiển này bao gồm những tính năng sau đây:
+Dynamics 365 Project Operations bao gồm một kiểm soát tùy chỉnh nhập giờ có thể mở rộng. Điều khiển này bao gồm những tính năng sau đây:
 
 - Nhập thời gian theo chiều ngang trong một tuần
 - Tổng số theo ngày, hàng hoặc tuần

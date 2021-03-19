@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087162"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271019"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android
 
@@ -61,11 +61,11 @@ Thuộc tính **FieldBaseType** trên đối tượng **TsTimesheetCustom** xác
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Nếu thuộc tính **stringOptions** không được cung cấp trên đối tượng **TSTimesheetCustomField** , thì người dùng sẽ được cung cấp một trường văn bản tự do.
+- Nếu thuộc tính **stringOptions** không được cung cấp trên đối tượng **TSTimesheetCustomField**, thì người dùng sẽ được cung cấp một trường văn bản tự do.
 
     Thuộc tính **stringLength** có thể được sử dụng để thiết lập độ dài chuỗi tối đa mà người dùng có thể nhập.
 
-- Nếu thuộc tính **stringOptions** được cung cấp trên đối tượng **TSTimesheetCustomField** , thì các phần tử danh sách đó là những giá trị duy nhất mà người dùng có thể chọn bằng các nút tùy chọn (nút radio).
+- Nếu thuộc tính **stringOptions** được cung cấp trên đối tượng **TSTimesheetCustomField**, thì các phần tử danh sách đó là những giá trị duy nhất mà người dùng có thể chọn bằng các nút tùy chọn (nút radio).
 
     Trong trường hợp này, trường chuỗi có thể đóng vai trò như một giá trị enum để người dùng nhập. Để lưu giá trị vào cơ sở dữ liệu dưới dạng enum, hãy ánh xạ thủ công giá trị chuỗi trở lại giá trị enum trước khi bạn lưu vào cơ sở dữ liệu bằng chuỗi lệnh (hãy xem ví dụ trong "Sử dụng chuỗi lệnh trên lớp TSTimesheetEntryService để lưu mục nhập bảng chấm công từ ứng dụng trở lại cơ sở dữ liệu" ở phần sau của chủ đề này).
 
@@ -125,31 +125,31 @@ Thuộc tính này kiểm soát thứ tự hiển thị các trường tùy ch�
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Đối với các trường thuộc loại **Boolean** , thuộc tính này chuyển giá trị Boolean của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **Boolean**, thuộc tính này chuyển giá trị Boolean của trường giữa máy chủ và ứng dụng.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Đối với các trường thuộc loại **GUID** , thuộc tính này chuyển giá trị mã định danh duy nhất toàn cầu (GUID) của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **GUID**, thuộc tính này chuyển giá trị mã định danh duy nhất toàn cầu (GUID) của trường giữa máy chủ và ứng dụng.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Đối với các trường thuộc loại **Int64** , thuộc tính này chuyển giá trị int64 của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **Int64**, thuộc tính này chuyển giá trị int64 của trường giữa máy chủ và ứng dụng.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Đối với các trường thuộc loại **Int** , thuộc tính này chuyển giá trị int của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **Int**, thuộc tính này chuyển giá trị int của trường giữa máy chủ và ứng dụng.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Đối với các trường thuộc loại **Thực** , thuộc tính này chuyển giá trị thực của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **Thực**, thuộc tính này chuyển giá trị thực của trường giữa máy chủ và ứng dụng.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Đối với các trường thuộc loại **Chuỗi** , thuộc tính này chuyển giá trị chuỗi của trường giữa máy chủ và ứng dụng. Mục này cũng được sử dụng cho các trường thuộc loại **Thực** được định dạng làm tiền tệ. Đối với các trường đó, thuộc tính được dùng để chuyển mã tiền tệ đến ứng dụng.
+Đối với các trường thuộc loại **Chuỗi**, thuộc tính này chuyển giá trị chuỗi của trường giữa máy chủ và ứng dụng. Mục này cũng được sử dụng cho các trường thuộc loại **Thực** được định dạng làm tiền tệ. Đối với các trường đó, thuộc tính được dùng để chuyển mã tiền tệ đến ứng dụng.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Đối với các trường thuộc loại **Ngày** , thuộc tính này chuyển giá trị ngày của trường giữa máy chủ và ứng dụng.
+Đối với các trường thuộc loại **Ngày**, thuộc tính này chuyển giá trị ngày của trường giữa máy chủ và ứng dụng.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Hiển thị và lưu trường tùy chỉnh trong phần mục nhập bảng chấm công
 
@@ -179,9 +179,9 @@ Dưới đây là ảnh chụp màn hình Cây đối tượng ứng dụng trê
 
 Mã này kiểm soát giá trị thiết đặt hiển thị cho trường trong ứng dụng. Chẳng hạn, nó kiểm soát loại trường, nhãn, liệu trường đó có phải là bắt buộc hay không và trường xuất hiện ở phần nào.
 
-Ví dụ sau đây cho thấy một trường chuỗi trên các mục nhập thời gian. Trường này có hai tùy chọn, **Lựa chọn đầu tiên** và **Lựa chọn thứ hai** , có sẵn thông qua các nút tùy chọn (nút radio). Trường trong ứng dụng được liên kết với trường **TestLineString** đã thêm vào bảng TSTimesheetLine.
+Ví dụ sau đây cho thấy một trường chuỗi trên các mục nhập thời gian. Trường này có hai tùy chọn, **Lựa chọn đầu tiên** và **Lựa chọn thứ hai**, có sẵn thông qua các nút tùy chọn (nút radio). Trường trong ứng dụng được liên kết với trường **TestLineString** đã thêm vào bảng TSTimesheetLine.
 
-Ghi lại cách sử dụng phương pháp **TSTimesheetCustomField::newFromMetatdata()** để rút gọn quá trình khởi tạo thuộc tính trường tùy chỉnh: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** và **numberOfDecimals**. Bạn cũng có thể thiết lập thủ công các tham số này tùy thích.
+Ghi lại cách sử dụng phương pháp **TSTimesheetCustomField::newFromMetatdata()** để rút gọn quá trình khởi tạo thuộc tính trường tùy chỉnh: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** và **numberOfDecimals**. Bạn cũng có thể thiết lập thủ công các tham số này tùy thích.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ final class TsTimesheetEntry_Extension
 - Phương pháp **populateTimesheetWeekFromEntry** cũng có thể được mở rộng nếu trường tùy chỉnh ánh xạ tới đối tượng **TSTimesheetEntry** phải ghi lại vào bảng cơ sở dữ liệu TSTimesheetLineweek.
 
 > [!NOTE]
-> Ví dụ sau đây lưu giá trị **firstOption** hoặc **secondOption** mà người dùng lựa chọn vào cơ sở dữ liệu dưới dạng giá trị chuỗi thô. Nếu trường của cơ sở dữ liệu thuộc loại **Enum** , thì các giá trị đó có thể được ánh xạ thủ công với một giá trị enum rồi được lưu vào một trường enum trên bảng cơ sở dữ liệu.
+> Ví dụ sau đây lưu giá trị **firstOption** hoặc **secondOption** mà người dùng lựa chọn vào cơ sở dữ liệu dưới dạng giá trị chuỗi thô. Nếu trường của cơ sở dữ liệu thuộc loại **Enum**, thì các giá trị đó có thể được ánh xạ thủ công với một giá trị enum rồi được lưu vào một trường enum trên bảng cơ sở dữ liệu.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Logic hiện có cho chức năng bảng chấm công ở cấp cơ sở dữ li
 
 - Nếu **validateWrite** trên bảng TSTimesheetLine trả về **sai** trong thao tác lưu cho một dòng bảng chấm công, thì thông báo lỗi sẽ được hiển thị trong ứng dụng dành cho thiết bị di động.
 - Nếu **validateSubmit** trên bảng TSTimesheetTable trả về **sai** trong thao tác gửi bảng chấm công trong ứng dụng, thì thông báo lỗi sẽ được hiển thị cho người dùng.
-- Logic điền giá trị vào các trường (ví dụ: **Thuộc tính dòng** ) trong phương pháp **chèn** trên bảng TSTimesheetLine sẽ vẫn chạy.
+- Logic điền giá trị vào các trường (ví dụ: **Thuộc tính dòng**) trong phương pháp **chèn** trên bảng TSTimesheetLine sẽ vẫn chạy.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ẩn và đánh dấu các trường sẵn dùng là chỉ đọc thông qua cấu hình
 

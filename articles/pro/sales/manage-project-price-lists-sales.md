@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273044"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Quản lý bảng giá dự án trên báo giá dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Báo giá dự án được thiết kế để hỗ trợ nhiều bảng giá bán hàng hiệu quả theo ngày. Với Dynamics 365 Project Operations, một thực thể liên kết mới có tên **Bảng giá dự án** được thêm vào. Thực thể này có mối quan hệ 1 - nhiều với báo giá dự án.
+Báo giá dự án được thiết kế để hỗ trợ nhiều bảng giá bán hàng hiệu quả theo ngày. Với Dynamics 365 Project Operations, một thực thể mới được liên kết gọi là **Bảng giá dự án** sẽ được thêm vào. Thực thể này có mối quan hệ 1 - nhiều với báo giá dự án.
 
 Bảng giá dự án được sử dụng để định giá các giao dịch thời gian và chi phí trên một dự án. Khi một báo giá có một hoặc nhiều bảng giá dự án, những bảng giá này được sử dụng để định giá ước tính thời gian và chi phí, cũng như giá trị thực tế cho các dự án được liên kết với báo giá thông qua mô tả báo giá.
 

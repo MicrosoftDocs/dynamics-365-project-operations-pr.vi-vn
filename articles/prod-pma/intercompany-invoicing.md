@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087134"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270794"
 ---
 # <a name="intercompany-invoicing"></a>Lập hóa đơn liên công ty
 
@@ -31,7 +31,7 @@ ms.locfileid: "4087134"
 
 Bài viết này cung cấp thông tin và ví dụ về việc lập hóa đơn liên công ty cho dự án.
 
-Tổ chức của bạn có thể có nhiều bộ phận, công ty con và pháp nhân khác chuyển sản phẩm và dịch vụ cho nhau trong các dự án. Pháp nhân cung cấp dịch vụ hoặc sản phẩm được gọi là *pháp nhân cho vay* , còn pháp nhân nhận dịch vụ hoặc sản phẩm được gọi là *pháp nhân vay*. 
+Tổ chức của bạn có thể có nhiều bộ phận, công ty con và pháp nhân khác chuyển sản phẩm và dịch vụ cho nhau trong các dự án. Pháp nhân cung cấp dịch vụ hoặc sản phẩm được gọi là *pháp nhân cho vay*, còn pháp nhân nhận dịch vụ hoặc sản phẩm được gọi là *pháp nhân vay*. 
 
 Hình sau đây minh họa một kịch bản điển hình: hai pháp nhân SI FR (pháp nhân vay) và SI USA (pháp nhân cho vay) chia sẻ nguồn lực để thực hiện một dự án cho khách hàng A. Trong kịch bản này, SI FR đã ký hợp đồng để cung cấp sản phẩm cho khách hàng A. 
 
@@ -65,7 +65,7 @@ Trong ví dụ này, FRSI phải là khách hàng ở pháp nhân USSI và USSI 
    |  C   |                                  Trong FRSI, mở bản ghi nhà cung cấp mà bạn vừa tạo.                                  | Trên ngăn Hành động, ở tab <strong>Chung</strong>, trong nhóm <strong>Thiết lập</strong>, bấm vào <strong>Liên công ty</strong>. Trên trang <strong>Liên công ty</strong>, ở tab <strong>Quan hệ giao dịch</strong>, chuyển thanh trượt <strong>Hiện hoạt</strong> sang <strong>Có</strong>. Trong trường <strong>Công ty khách hàng</strong>, chọn bản ghi khách hàng mà bạn đã tạo ở bước A. |
 
 
-2. Bấm vào **Quản lý dự án và kế toán** &gt; **Thiết lập** &gt; **Tham số quản lý dự án và kế toán** , rồi bấm vào tab **Liên công ty**. Cách thức thiết lập tham số sẽ phụ thuộc vào việc bạn là pháp nhân vay hay pháp nhân cho vay.
+2. Bấm vào **Quản lý dự án và kế toán** &gt; **Thiết lập** &gt; **Tham số quản lý dự án và kế toán**, rồi bấm vào tab **Liên công ty**. Cách thức thiết lập tham số sẽ phụ thuộc vào việc bạn là pháp nhân vay hay pháp nhân cho vay.
    -   Nếu bạn là pháp nhân vay, hãy chọn danh mục mua sắm sẽ dùng để khớp các hóa đơn của nhà cung cấp được tạo tự động.
    -   Nếu bạn là pháp nhân cho vay, đối với mỗi pháp nhân vay, hãy chọn danh mục dự án mặc định cho từng loại giao dịch. Danh mục dự án được sử dụng cho cấu hình thuế khi danh mục được lập hóa đơn trong các giao dịch liên công ty chỉ tồn tại ở pháp nhân vay. Bạn có thể chọn tích lũy doanh thu đối với các giao dịch liên công ty. Khoản tích lũy này được thực hiện khi các giao dịch được đăng, sau đó, khoản này sẽ được đảo ngược khi hóa đơn liên công ty được đăng.
 
@@ -78,7 +78,7 @@ Pháp nhân cho vay USSI phải tạo và đăng bảng chấm công cho một d
 
 | Bước | Điểm nhập                                                                       | Mô tả                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Quản lý dự án và kế toán** &gt; **Bảng chấm công** &gt; **Tất cả bảng chấm công** | Tạo bảng chấm công mới. Trên dòng bảng chấm công, ở trường **Pháp nhân** , chọn **FRSI**. Ở trường **ID dự án** , chọn dự án trong FRSI. Nhập số giờ cho mỗi ngày trong tuần. |
+| A    | **Quản lý dự án và kế toán** &gt; **Bảng chấm công** &gt; **Tất cả bảng chấm công** | Tạo bảng chấm công mới. Trên dòng bảng chấm công, ở trường **Pháp nhân**, chọn **FRSI**. Ở trường **ID dự án**, chọn dự án trong FRSI. Nhập số giờ cho mỗi ngày trong tuần. |
 | B    | Trang **Bảng chấm công**                                                                | Sau khi quy trình làm việc chạy, hãy đăng bảng chấm công và ghi lại số chứng từ.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Ví dụ 3: Tạo và đăng hóa đơn của nhà cung cấp liên công ty
@@ -87,7 +87,7 @@ Pháp nhân cho vay USSI phải tạo và đăng hóa đơn của nhà cung cấ
 | Bước | Điểm nhập                                                                                      | Mô tả                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Tài khoản phải trả** &gt; **Hóa đơn** &gt; **Hóa đơn của nhà cung cấp đang mở** &gt; **Hóa đơn mới của nhà cung cấp** | Tạo hóa đơn mới của nhà cung cấp và nhập các dịch vụ đã được mua cho dự án của FRSI.                                                                                                                                                                                  |
-| B    | Trang **Hóa đơn của nhà cung cấp**                                                                      | Nhập các dòng đại diện cho dịch vụ được thuê làm bên ngoài thay mặt cho FRSI. Trên FastTab **Chi tiết dòng** , trên tab **Dự án** cho dòng hóa đơn, ở trường **Công ty dự án** , nhập **FRSI**. Nhập dự án và thông tin tương ứng. Sau đó, đăng hóa đơn của nhà cung cấp. |
+| B    | Trang **Hóa đơn của nhà cung cấp**                                                                      | Nhập các dòng đại diện cho dịch vụ được thuê làm bên ngoài thay mặt cho FRSI. Trên FastTab **Chi tiết dòng**, trên tab **Dự án** cho dòng hóa đơn, ở trường **Công ty dự án**, nhập **FRSI**. Nhập dự án và thông tin tương ứng. Sau đó, đăng hóa đơn của nhà cung cấp. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Ví dụ 4: Tạo và đăng hóa đơn liên công ty
 Pháp nhân cho vay USSI phải tạo và đăng hóa đơn liên công ty. Có hai điểm nhập cho các bước cần thiết cho nhiệm vụ này.
@@ -95,7 +95,7 @@ Pháp nhân cho vay USSI phải tạo và đăng hóa đơn liên công ty. Có 
 | Bước | Điểm nhập                                                                                             | Mô tả                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Quản lý dự án và kế toán** &gt; **Hóa đơn dự án** &gt; **Hóa đơn cho khách hàng liên công ty**  | Bấm vào **Mới** để mở trang **Tạo hóa đơn liên công ty**.                                                                                  |
-| B    | **Quản lý dự án và kế toán** &gt; **Hóa đơn dự án** &gt; **Hóa đơn cho khách hàng liên công ty** | Trên trang **Tạo hóa đơn liên công ty** , nhập pháp nhân, chỉ định giao dịch cần đưa vào, rồi bấm vào **Tìm kiếm**. |
+| B    | **Quản lý dự án và kế toán** &gt; **Hóa đơn dự án** &gt; **Hóa đơn cho khách hàng liên công ty** | Trên trang **Tạo hóa đơn liên công ty**, nhập pháp nhân, chỉ định giao dịch cần đưa vào, rồi bấm vào **Tìm kiếm**. |
 | C    | **Quản lý dự án và kế toán** &gt; **Hóa đơn dự án** &gt; **Hóa đơn cho khách hàng liên công ty** | Chọn các giao dịch cần lập hóa đơn hoặc bấm vào **Chọn tất cả** để lập hóa đơn cho tất cả các giao dịch trong danh sách, rồi bấm vào **OK**.                  |
 | D    | Trang **Hóa đơn liên công ty**                                                                       | Đề xuất hóa đơn cho khách hàng liên công ty được hiển thị.                                                                                             |
 | E    | Trang **Hóa đơn liên công ty**                                                                       | Bấm vào **Đăng**.                                                                                                                                  |

@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về thời gian
-description: Chủ đề này cung cấp thông tin về các chức năng Thời gian trong Dynamics 365 Project Operations.
+description: Chủ đề này cung cấp thông tin về chức năng Thời gian trong Dynamics 365 Project Operations.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277139"
 ---
 # <a name="time-overview"></a>Tổng quan về thời gian
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Mục nhập thời gian là quá trình ghi lại thời gian thực tế mà nguồn lực sử dụng. Các mục nhập thời gian trong Project Operations Dynamics 365 cho phép tính chi phí và giá bán hàng theo tiến độ nhiệm vụ. Các mục nhập này giúp người quản lý Dự án luôn cập nhật các dự án và nhiệm vụ. Mục thời gian cũng thông báo cho người quản lý Nguồn lực về bất kỳ kỳ nghỉ hoặc vắng mặt tiềm năng nào xuất hiện trên bảng lịch trình là **Vắng**. Những thông báo này cho phép người quản lý Tài nguyên lập kế hoạch xung quanh các sự kiện đó.
+Mục nhập thời gian là quá trình ghi lại thời gian thực tế mà nguồn lực sử dụng. Các mục thời gian trong Dynamics 365 Project Operations cho phép tính toán chi phí và giá bán theo tiến độ nhiệm vụ. Các mục nhập này giúp người quản lý Dự án luôn cập nhật các dự án và nhiệm vụ. Mục thời gian cũng thông báo cho người quản lý Nguồn lực về bất kỳ kỳ nghỉ hoặc vắng mặt tiềm năng nào xuất hiện trên bảng lịch trình là **Vắng**. Những thông báo này cho phép người quản lý Tài nguyên lập kế hoạch xung quanh các sự kiện đó.
 
 Khi ghi lại thời gian trong Project Operations, người dùng có thể theo dõi bất kỳ cấp độ nào trong dự án. Điều này bao gồm nhiệm vụ, tóm tắt hoặc cấp dự án.
 

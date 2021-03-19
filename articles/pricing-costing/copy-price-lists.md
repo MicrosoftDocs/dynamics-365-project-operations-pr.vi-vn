@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275744"
 ---
 # <a name="copy-price-lists"></a>Sao chép bảng giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bạn có thể tạo bản sao bảng giá trong Dynamics 365 Project Operations. Chẳng hạn, bạn có thể tạo bảng giá cho năm sắp tới bằng bảng giá của năm hiện tại.  Hoặc, bạn có thể sao chép một bảng giá cho tỷ lệ hóa đơn và giá bán hàng từ bảng giá cho chi phí. 
+Bạn có thể tạo bản sao của bảng giá trong Dynamics 365 Project Operations. Chẳng hạn, bạn có thể tạo bảng giá cho năm sắp tới bằng bảng giá của năm hiện tại.  Hoặc, bạn có thể sao chép một bảng giá cho tỷ lệ hóa đơn và giá bán hàng từ bảng giá cho chi phí. 
 
 Để tạo bản sao bảng giá, hãy hoàn thành các bước sau.
 

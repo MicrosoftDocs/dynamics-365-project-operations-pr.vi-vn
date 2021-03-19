@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130964"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275609"
 ---
 # <a name="default-price-lists"></a>Bảng giá mặc định
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="sales-price-lists"></a>Bảng giá bán hàng
 
-Mọi báo giá và hợp đồng dự án trong Dynamics 365 Project Operations đều có một bảng giá bán hàng mặc định. 
+Mọi báo giá dự án và hợp đồng trong Dynamics 365 Project Operations chứa một bảng giá bán hàng mặc định. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Bảng giá mặc định trên báo giá dự án
 Hệ thống hoàn tất quá trình sau để xác định bảng giá nào được đặt mặc định trên báo giá dự án:

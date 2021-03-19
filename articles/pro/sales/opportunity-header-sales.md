@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272729"
 ---
 # <a name="opportunity-header---lite"></a>Tiêu đề cơ hội - bản đơn giản
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 Tiêu đề Cơ hội nắm bắt thông tin tổng thể về giao dịch dựa trên dự án áp dụng cho tất cả các mô tả trên cơ hội dựa trên dự án.
 
-Cơ hội dựa trên dự án trong Dynamics 365 Project Operations là phần mở rộng của cơ hội trong Dynamics 365 Sales. Các phần mở rộng này cung cấp chức năng bổ sung dành riêng cho và cần thiết cho các cơ hội dựa trên dự án. Các phần mở rộng này có thể bao gồm các trường mới và các hành động ruy băng có sẵn trong cơ hội dựa trên dự án. Bạn có thể thấy một số trường, chức năng và logic mặc định có sẵn trong Sales nhưng không có trong Project Operations.
+Các cơ hội theo dự án trong Dynamics 365 Project Operations là phần mở rộng của các cơ hội trong Dynamics 365 Sales. Các phần mở rộng này cung cấp chức năng bổ sung dành riêng cho và cần thiết cho các cơ hội dựa trên dự án. Các phần mở rộng này có thể bao gồm các trường mới và các hành động ruy băng có sẵn trong cơ hội dựa trên dự án. Bạn có thể thấy một số trường, chức năng và logic mặc định có sẵn trong Sales nhưng không có trong Project Operations.
 
 Bảng sau đây bao gồm các trường trong cơ hội dựa trên dự án của riêng Project Operations hoặc có một số thay đổi quan trọng trong hành vi so với Cơ hội trong Sales.
 

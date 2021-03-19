@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277004"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân 
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này sẽ hướng dẫn bạn các bước cần thiết để đặt cấu hình Dynamics 365 Project Operations cho mỗi pháp nhân.
+Chủ đề này sẽ hướng dẫn bạn qua các bước cần thiết để định cấu hình Dynamics 365 Project Operations mỗi pháp nhân.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Bật các khóa tính năng trong Dynamics 365 Finance
 

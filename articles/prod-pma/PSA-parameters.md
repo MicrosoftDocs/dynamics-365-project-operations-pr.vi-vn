@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270930"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Tham số tích hợp Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Trên trang **Tham số tích hợp Project Service Automation** , bạn có thể đặt cấu hình cách nhập dữ liệu mặc định khi tích hợp Dynamics 365 Project Service Automation với Dynamics 365 Finance. Để các dự án được đồng bộ hóa thành công từ Project Service Automation sang Finance, bạn phải thiết lập các trường sau đây.
+Trên trang **Tham số tích hợp Project Service Automation**, bạn có thể đặt cấu hình cách nhập dữ liệu mặc định khi tích hợp Dynamics 365 Project Service Automation với Dynamics 365 Finance. Để các dự án được đồng bộ hóa thành công từ Project Service Automation sang Finance, bạn phải thiết lập các trường sau đây.
 
-Để mở trang **Tham số tích hợp Project Service Automation** , hãy đi đến **Quản lý dự án và kế toán** \> **Thiết lập** \> **Tham số tích hợp Dynamics 365 for Project Service Automation**. 
+Để mở trang **Tham số tích hợp Project Service Automation**, hãy đi đến **Quản lý dự án và kế toán** \> **Thiết lập** \> **Tham số tích hợp Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.

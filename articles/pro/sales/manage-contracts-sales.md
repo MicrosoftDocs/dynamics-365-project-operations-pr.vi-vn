@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273240"
 ---
 # <a name="manage-project-contracts"></a>Quản lý hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Các hợp đồng dự án trong Dynamics 365 Project Operations ghi lại và quản lý các cam kết đã thỏa thuận theo hợp đồng và các chi tiết thanh toán của dự án. Cấu trúc của một hợp đồng dự án trong Project Operations được điều chỉnh cho công việc dựa trên dự án có các thành phần sau:
+Các hợp đồng dự án trong Dynamics 365 Project Operations giúp ghi chép và quản lý các cam kết theo hợp đồng và thông tin chi tiết về lập hóa đơn dự án. Cấu trúc của một hợp đồng dự án trong Project Operations được điều chỉnh cho công việc dựa trên dự án có các thành phần sau:
 
 - Mô tả hợp đồng xác định các thành phần riêng biệt của công việc sẽ được trình bày dưới dạng các thành phần cấp cao trên hóa đơn dự án.
 - Các chi tiết mô tả hợp đồng xác định và ước tính công việc cho từng thành phần cấp cao hoặc mô tả hợp đồng. Số liệu ước tính bao gồm lịch và các khía cạnh tài chính của công việc được liên kết với phần mô tả hợp đồng.

@@ -1,6 +1,6 @@
 ---
 title: Các trường Project Operations làm thông số định giá
-description: Chủ đề này cung cấp thông tin sử dụng các trường làm thông số định giá trong Dynamics 365 Project Operations.
+description: Chủ đề này cung cấp thông tin về cách sử dụng các trường làm tham số giá trong Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119264"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274664"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Các trường Project Operations làm thông số định giá
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Trường Project Operations làm thông số định giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
