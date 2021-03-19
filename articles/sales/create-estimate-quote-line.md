@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278489"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Tạo giá trị ước tính trên một dòng báo giá
 
@@ -30,7 +30,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Trên báo giá dựa trên dự án, bạn có thể sử dụng thực thể chi tiết dòng Báo giá để ước tính công việc cần thiết nhằm cung cấp một dự án. Sau đó, bạn có thể chia sẻ ước tính đó với khách hàng.
 
-Các dòng báo giá dựa trên dự án không cần phải có bất kỳ chi tiết dòng báo giá nào. Ngoài ra, chúng có thể có nhiều chi tiết dòng báo giá. Chi tiết dòng báo giá được sử dụng để ước tính thời gian, chi phí, hoặc lệ phí. Hoạt động Dự án trên Dynamics 365 không cho phép các ước tính vật tư trên chi tiết dòng báo giá. Chúng được gọi là các lớp giao dịch. Ước tính số tiền thuế cũng có thể được nhập vào một lớp giao dịch.
+Các dòng báo giá dựa trên dự án không cần phải có bất kỳ chi tiết dòng báo giá nào. Ngoài ra, chúng có thể có nhiều chi tiết dòng báo giá. Chi tiết dòng báo giá được sử dụng để ước tính thời gian, chi phí, hoặc lệ phí. Dynamics 365 Project Operations không cho phép ước tính vật tư trên chi tiết dòng báo giá. Chúng được gọi là các lớp giao dịch. Ước tính số tiền thuế cũng có thể được nhập vào một lớp giao dịch.
 
 Ngoài các lớp giao dịch, chi tiết dòng báo giá còn có một loại giao dịch. Có hai loại giao dịch đối với chi tiết dòng báo giá là **Chi phí** và **Hợp đồng dự án**.
 

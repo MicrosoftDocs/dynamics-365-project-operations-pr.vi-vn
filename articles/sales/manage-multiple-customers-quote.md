@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277904"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Quản lý nhiều khách hàng trên một báo giá dự án
 
@@ -23,7 +23,7 @@ Báo giá dự án hỗ trợ tình huống mà đề xuất có liên quan đ�
 
 Tất cả các khách hàng báo giá trên tab **Khách hàng** của báo giá dự án mặc định là khách hàng mô tả báo giá trên bất kỳ mô tả báo giá dựa trên dự án **mới** nào được tạo cho báo giá. Bất kỳ mô tả báo giá dựa trên dự án hiện có nào sẽ không kế thừa các bản ghi khách hàng báo giá mới được tạo sau chúng.
 
-Khách hàng báo giá và khách hàng mô tả báo giá có thể được thêm, cập nhật hoặc xóa bất kỳ lúc nào trước khi báo giá được chốt. Khách hàng hợp lệ trên báo giá phải được thiết lập là khách hàng trong Công ty sở hữu hoặc Pháp nhân trên trang **Khách hàng**. Các pháp nhân được thiết lập trong mô-đun **Quản lý dự án và kế toán** của Dynamics 365 Project Operations và được hiển thị là các Công ty trong mô-đun **Bán hàng và phân phối dự án** của Project Operations.
+Khách hàng báo giá và khách hàng mô tả báo giá có thể được thêm, cập nhật hoặc xóa bất kỳ lúc nào trước khi báo giá được chốt. Khách hàng hợp lệ trên báo giá phải được thiết lập là khách hàng trong Công ty sở hữu hoặc Pháp nhân trên trang **Khách hàng**. Các pháp nhân được thiết lập trong mô-đun **Quản lý dự án và kế toán** của Dynamics 365 Project Operations được cung cấp dưới dạng Công ty trong mô-đun **Bán hàng dự án và Giao hàng** của Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Khái niệm về khách hàng chính
 

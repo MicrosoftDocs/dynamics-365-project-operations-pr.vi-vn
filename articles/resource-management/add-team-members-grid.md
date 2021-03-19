@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280109"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Thêm thành viên nhóm từ lưới Thành viên nhóm
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations bao gồm một bảng thông tin dành cho người quản lý nguồn lực, cung cấp tổng quan trực quan về nhu cầu nguồn lực và thời gian làm việc trong toàn tổ chức. Bạn có thể dùng biểu đồ trên bảng thông tin này để hình dung thông tin sau:
+Dynamics 365 Project Operations bao gồm một bảng thông tin cho Người quản lý nguồn lực cung cấp tổng quan trực quan về nhu cầu nguồn lực và thời gian làm việc trong toàn tổ chức. Bạn có thể dùng biểu đồ trên bảng thông tin này để hình dung thông tin sau:
 
 - **Nhu cầu nguồn lực**: Biểu đồ **Yêu cầu nguồn lực hiện hoạt** cho biết các nguồn lực đã được gửi. Các nguồn lực được tổng hợp theo vai trò hoặc dự án.
 - **Nhu cầu nguồn lực chưa được gửi**: Biểu đồ **Nhu cầu nguồn lực chưa được gán** cho biết tất cả yêu cầu nguồn lực chưa được gửi. Biểu đồ này giúp người quản lý nguồn lực xem nhu cầu chưa chắc chắn và có thể được gửi thông qua yêu cầu nguồn lực.

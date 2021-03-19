@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279524"
 ---
 # <a name="resource-management-key-concepts"></a>Các khái niệm chính về quản lý nguồn lực
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên dịch vụ. Khả năng tìm đúng nguồn lực vào đúng thời gian, đặt những nguồn lực đó vào các dự án và tiếp tục sử dụng các nguồn lực giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng. Bạn có thể dùng chức năng cung cấp nguồn lực cho dự án trong Dynamics 365 Project Operations để làm những nhiệm vụ sau:
+Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên dịch vụ. Khả năng tìm đúng nguồn lực vào đúng thời gian, đặt những nguồn lực đó vào các dự án và tiếp tục sử dụng các nguồn lực giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng. Bạn có thể dùng chức năng nguồn lực dự án trong Dynamics 365 Project Operations để thực hiện các nhiệm vụ sau:
 
 - Tạo nhóm dự án bằng cách đăng ký các nguồn lực sẵn có và đủ điều kiện.
 - Tạo hồ sơ thành viên nhóm chung và xác định vai trò cũng như đơn vị tổ chức nguồn lực của họ.

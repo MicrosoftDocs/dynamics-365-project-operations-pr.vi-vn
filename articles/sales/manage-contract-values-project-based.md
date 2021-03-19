@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278129"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Làm việc với phần mô tả hợp đồng dựa trên dự án
 
-Phần mô tả hợp đồng dựa trên dự án trong Dynamics 365 Project Operations được thiết kế để duy trì sự phù hợp giữa số liệu ước tính và thanh toán cho các thành phần công việc cụ thể theo dự án cho một cam kết. Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:
+Mô tả hợp đồng theo dự án trong Dynamics 365 Project Operations được thiết kế để ghi lại ước tính và thỏa thuận thanh toán cho các thành phần cụ thể của dự án theo cam kết. Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:
 
 - Phương thức thanh toán
 - Ánh xạ dự án và nhiệm vụ

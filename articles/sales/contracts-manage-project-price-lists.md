@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133475"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278624"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Quản lý bảng giá dự án trên hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Hợp đồng dự án trong Dynamics 365 Project Operations được thiết kế để hỗ trợ nhiều bảng giá bán hàng có hiệu lực theo ngày trên một hợp đồng. Trong Project Operations, có một thực thể liên kết mới có tên là **Bảng giá dự án**. Thực thể này có mối quan hệ một-nhiều đối với hợp đồng dự án.
+Hợp đồng dự án trong Dynamics 365 Project Operations được thiết kế để hỗ trợ nhiều bảng giá bán hàng có hiệu lực theo ngày trên hợp đồng. Trong Project Operations, có một thực thể liên kết mới có tên là **Bảng giá dự án**. Thực thể này có mối quan hệ một-nhiều đối với hợp đồng dự án.
 
 Bảng giá dự án được sử dụng để định giá các giao dịch thời gian và chi phí trên một dự án. Khi hợp đồng có một hoặc nhiều bảng giá dự án, các bảng giá này sẽ dùng để đưa ra mức giá dựa trên các số liệu thực tế và ước tính về thời gian, chi phí cho các dự án có liên quan đến hợp đồng thông qua mô tả hợp đồng.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125654"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279254"
 ---
 # <a name="schedule-assistant-overview"></a>Tổng quan về trợ lý lịch trình
 
@@ -25,7 +25,7 @@ Sau khi các nguồn lực phù hợp được xác định, Người quản lý
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
-Trợ lý lịch trình là một phần của giải pháp Universal Resource Scheduling. Giải pháp này được bao gồm và cài đặt với Dynamics 365 Project Operations, Dynamics 365 Field Service và Dynamics 365 Customer Service.
+Trợ lý lịch trình là một phần của giải pháp Universal Resource Scheduling. Giải pháp này được bao gồm và cài đặt với Dynamics 365 Project Operations,Dynamics 365 Field Service và Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Khớp yêu cầu và nguồn lực
 

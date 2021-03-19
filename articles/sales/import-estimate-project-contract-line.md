@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278399"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Nhập giá trị ước tính vào mục mô tả hợp đồng dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Trong Dynamics 365 Project Operations, bạn có thể nhập các giá trị ước tính từ dự án vào mục mô tả hợp đồng dựa trên dự án.
+Trong Dynamics 365 Project Operations, bạn có thể nhập ước tính từ một dự án vào mô tả hợp đồng theo dự án.
 
 1. Xác minh rằng trường **Dự án** được điền trên mục mô tả hợp đồng dựa trên dự án.
 2. Trên tab **Chi tiết mô tả hợp đồng**, hãy chọn **Nhập từ ước tính dự án**. Trang hộp thoại với các tùy chọn tóm tắt sẽ mở ra. Các tùy chọn tóm tắt có sẵn là: **Lớp giao dịch**, **Danh mục**, **Vai trò** và **Nhiệm vụ dự án**. Dựa trên sự lựa chọn tóm tắt, giá trị ước tính từ dự án cho tất cả các lớp giao dịch có trong mục mô tả hợp đồng này sẽ được sao chép. 
