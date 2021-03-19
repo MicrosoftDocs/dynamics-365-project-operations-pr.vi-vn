@@ -1,5 +1,5 @@
 ---
-title: Tính chi phí qua điện thoại di động
+title: Ứng dụng Chi phí dành cho thiết bị di động
 description: Chủ đề này cung cấp thông tin về Không gian làm việc di động Quản lý chi phí.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120929"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499922"
 ---
-# <a name="expense-using-mobile"></a>Tính chi phí qua điện thoại di động
+# <a name="mobile-expense-app"></a>Ứng dụng Chi phí dành cho thiết bị di động
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

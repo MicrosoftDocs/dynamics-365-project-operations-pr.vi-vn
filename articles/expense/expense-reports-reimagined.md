@@ -1,9 +1,9 @@
 ---
 title: Báo cáo chi phí được xây dựng lại
-description: Chủ đề này cung cấp thông tin về trải nghiệm được thiết kế lại và xây dựng lại cho mục nhập báo cáo chi phí.
+description: Chủ đề này giải thích trải nghiệm được thiết kế lại đối với mục nhập báo cáo chi phí.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122836"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499742"
 ---
 # <a name="expense-reports-reimagined"></a>Báo cáo chi phí được xây dựng lại
 
@@ -59,25 +59,22 @@ Video [Trải nghiệm chi phí trong Dynamics 365 for Finance and Operations](h
 | Giảm số lượng tin nhắn trong thanh tin nhắn| Số lượng tin nhắn Infolog đã giảm và một nỗ lực đã được thực hiện để ngăn các tin nhắn trùng lặp xuất hiện trong nhiều trường hợp. |
 | Được nhóm cùng các thao tác chung | Giao diện đã được dọn dẹp với việc bổ sung nút thao tác mới cho hầu hết các hành động cấp dòng phổ biến và thêm nút dấu chấm lửng (...) cho tiêu đề và các thao tác ít thường xuyên khác. |
 | Không gian làm việc mới để tăng khả năng hiển thị | Một không gian làm việc mới hợp nhất các tính năng và liên kết cho phép người dùng di chuyển đến các khu vực khác nhau. |
-| Thêm các chi phí và biên lai hiện có trong quá trình tạo chi phí | Khi tạo báo cáo chi phí, bạn có thể thêm tất cả hoặc các khoản chi phí và biên lai đã chọn. |
+| Thêm các chi phí và biên lai hiện có trong quá trình tạo chi phí | Khi tạo báo cáo chi phí, bạn có thể thêm tất cả các khoản chi phí hoặc chọn các khoản chi phí không kèm theo. Chi phí không kèm theo là chi phí được nhập từ nguồn cấp dữ liệu thẻ tín dụng của công ty hoặc chi phí được người dùng tạo theo cách thủ công nhưng chưa được kèm theo báo cáo chi phí.|
 | Bộ tính toán tỷ giá hối đoái | Một bộ tính toán tỷ giá hối đoái được thêm vào cho phép bạn tính toán tỷ giá hối đoái cho các giao dịch thanh toán bằng nhiều loại tiền. |
 | Lưu và thêm các mô tả chi phí mới | Các nút **Lưu** và **Mới** có sẵn khi chi phí mới được nhập, nhằm giúp bạn nhanh chóng nhập mô tả chi phí. |
 | Khả năng hiển thị tốt hơn thành các mô tả chia nhỏ và được chia thành từng khoản mục | Các dòng được chia nhỏ và chia thành từng khoản mục được thêm trực tiếp vào danh sách chi phí để tăng khả năng hiển thị và giúp bạn dễ dàng xác định xem có bất kỳ sai sót nào hay không. |
 | Hiển thị biên lai trong quá trình chia thành từng khoản mục | Biên lai có thể được hiển thị trong quá trình chia thành từng khoản mục. |
+| Lựa chọn tạm ứng tiền mặt | Chọn một hoặc nhiều khoản tạm ứng tiền mặt để thực hiện một giao dịch chi phí duy nhất. |
+| Số dư khoản tạm ứng tiền mặt | Xem xét số dư tạm ứng tiền mặt theo thời gian thực khi bạn tạo bút toán chi phí so với các khoản tạm ứng tiền mặt đã được phê duyệt và đã thanh toán. |
 
 Bản phát hành ban đầu tập trung vào các kịch bản nhập chi phí. Mọi kịch bản phê duyệt hoặc đánh giá báo cáo chi phí sẽ tiếp tục sử dụng trang mục nhập chi phí hiện có.
 
-Các tính năng sau đây có trên trang hiện có nhưng chưa có trên trang mới. Các tính năng này sẽ được giới thiệu lại trong một số bản phát hành tiếp theo:
+Các tính năng sau không được hỗ trợ trên Không gian làm việc chi phí được thiết kế lại:
 
-- Phê duyệt
-- Các phê duyệt khoản phải trả và khả năng chỉnh sửa kế toán
-- Nhiều điểm nhập
 - Tích hợp yêu cầu đi lại
-- Thực thể dữ liệu để hiển thị trường chi phí
 - Mục nhập chi phí công tác phí
-- Quy trình làm việc cấp dòng
 - Hỗ trợ người phê duyệt tạm thời
-- Thông tin phân khoản nâng cao
+- Khả năng xem lịch sử quy trình làm việc
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

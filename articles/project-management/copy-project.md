@@ -1,27 +1,27 @@
 ---
 title: Sao chép dự án
-description: Chủ đề này cung cấp thông tin về cách sao chép dự án trong Dynamics 365 Project Operations.
+description: Chủ đề này cung cấp thông tin về việc sao chép dự án trong Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131819"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479545"
 ---
 # <a name="copy-a-project"></a>Sao chép dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Với Dynamics 365 Project Operations, bạn có thể nhanh chóng xây dựng các dự án mới bằng cách chọn **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy mở dự án mà bạn muốn sao chép, rồi chọn **Sao chép dự án**. Hành động sẽ sao chép:
+Với Dynamics 365 Project Operations, bạn có thể nhanh chóng tạo các dự án mới bằng cách chọn **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy mở dự án mà bạn muốn sao chép, rồi chọn **Sao chép dự án**. Hành động sẽ sao chép:
 
-- Thuộc tính dự án
+- Thuộc tính dự án (Ngày bắt đầu ước tính được sao chép từ dự án nguồn)
 - Cấu trúc phân tích công việc
 - Thành viên nhóm dự án
 - Ước tính dự án

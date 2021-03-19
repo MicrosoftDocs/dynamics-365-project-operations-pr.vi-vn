@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401244"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479590"
 ---
 # <a name="determine-your-deployment-type"></a>Xác định kiểu triển khai của bạn
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 > [!IMPORTANT]
-> Sau khi bạn mua giấy phép, hãy bắt đầu tại đây để xác định mô hình triển khai tốt nhất của Dynamics 365 Project Operations bằng cách sử dụng [Quy trình cài đặt có hướng dẫn](https://aka.ms/provisionprojectoperations).
+> Sau khi bạn mua giấy phép, hãy bắt đầu tại đây để xác định mô hình triển khai tốt nhất cho Dynamics 365 Project Operations sử dụng [Quy trình cài đặt có hướng dẫn](https://aka.ms/provisionprojectoperations).
 > Sau khi hoàn thành quy trình cài đặt có hướng dẫn, bạn sẽ được chuyển đến đúng cổng quản lý để hoàn tất quá trình cài đặt của mình. Xem thông tin chi tiết triển khai để hoàn tất việc cài đặt.
 
 
@@ -31,6 +31,9 @@ Project Operations bao gồm các khả năng đi kèm với Project Service Aut
 
 Các khách hàng hiện tại của Finance sử dụng tính năng Kế toán và quản lý dự án vẫn có thể tiếp tục sử dụng tính năng này như cũ. Xem [Project Operations dành cho kịch bản dựa trên hàng nhập kho/lệnh sản xuất](#pma).
 
+
+## <a name="deployment-regions"></a>Khu vực triển khai
+Để xác định khu vực nào hỗ trợ triển khai Project Operations, hãy xem [Báo cáo khả năng cung cấp theo khu vực địa lý của Dynamics 365 và Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Chọn **Xem báo cáo** và mở rộng **Dynamics 365 > Ứng dụng Operations > Dynamics 365 Project Operations** để xem các khu vực được hỗ trợ.
 
 ## <a name="deployment-types"></a>Loại triển khai
 Project Operations hỗ trợ nhiều tùy chọn triển khai để phù hợp với yêu cầu của bạn. Bất kể bạn là khách hàng Dynamics 365 mới hay là khách hàng hiện tại, Project Operations cũng có thể hỗ trợ nhu cầu của bạn.

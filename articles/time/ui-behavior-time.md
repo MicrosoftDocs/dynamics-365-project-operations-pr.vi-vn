@@ -3,17 +3,17 @@ title: Hành vi trên giao diện người dùng của mục nhập thời gian
 description: Chủ đề này cung cấp thông tin về hành vi trên giao diện người dùng của mục nhập thời gian.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124529"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499640"
 ---
 # <a name="time-entry-ui-behavior"></a>Hành vi trên giao diện người dùng của mục nhập thời gian
 
@@ -22,7 +22,20 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Lưới **Mục nhập thời gian hàng tuần** là kiểm soát tùy chỉnh có thanh công cụ và hai phần chính **Thông số** và **Khoảng thời gian**.
 
-## <a name="dimensions"></a>Chiều
+## <a name="keyboard-shortcuts"></a>Lối tắt bàn phím
+| Hành động        | Lối tắt                  |
+|------------   |------------------------   |
+| Mới           | Alt + Shift + n           |
+| Sao chép hàng      | Alt + Shift + c           |
+| Chỉnh sửa mục nhập    | Alt + Shift + e           |
+| Sửa hàng      | Alt + Shift + Ctrl + e    |
+| Mở mục nhập    | Alt + Shift + o           |
+| Gửi        | Alt + Shift + s           |
+| Thu hồi        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Sao chép tuần     | Alt + Shift + w           |
+
+## <a name="dimensions"></a>Kích thước
 Phần **Thông số** hiển thị các thông số có thể nhập được thời gian vào đó. Các thông số sau đây được hỗ trợ ngay lập tức:
 
   - Dự án
