@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283304"
 ---
 # <a name="reporting-home-page"></a>Trang chủ báo cáo
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147724"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation cho phép các tổ chức dựa trên dự án quản lý hoạt động doanh nghiệp của họ một cách hiệu quả. Trên mọi dự án, thành viên nhóm phải quản lý cơ hội, báo giá và lên kế hoạch công việc, bố trí nguồn lực dự án, quản lý công việc theo kế hoạch, thanh toán cho công việc, sau đó làm việc để hoàn thành dự án. Khả năng báo cáo hoạt động là chìa khóa để xác định tình trạng của tổ chức và thực hiện bất kỳ hành động khắc phục nào cần thiết. PSA sử dụng các phương pháp và công nghệ báo cáo Microsoft Dynamics 365 cho tất cả các hoạt động báo cáo. Để biết thêm thông tin về các tùy chọn để báo cáo, hãy xem [Hướng dẫn viết báo cáo cho Dynamics 365 Customer Engagement (on-premises), phiên bản 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation cho phép các tổ chức dựa trên dự án quản lý hoạt động của doanh nghiệp một cách hiệu quả. Trên mọi dự án, thành viên nhóm phải quản lý cơ hội, báo giá và lên kế hoạch công việc, bố trí nguồn lực dự án, quản lý công việc theo kế hoạch, thanh toán cho công việc, sau đó làm việc để hoàn thành dự án. Khả năng báo cáo hoạt động là chìa khóa để xác định tình trạng của tổ chức và thực hiện bất kỳ hành động khắc phục nào cần thiết. PSA sử dụng các phương pháp và công nghệ báo cáo Microsoft Dynamics 365 cho tất cả các hoạt động báo cáo. Để biết thêm thông tin về các tùy chọn để báo cáo, hãy xem [Hướng dẫn viết báo cáo cho Dynamics 365 Customer Engagement (on-premises), phiên bản 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Trình hướng dẫn Báo cáo
 
@@ -43,7 +43,7 @@ Nếu doanh nghiệp của bạn yêu cầu một báo cáo cụ thể không th
 
 ## <a name="power-bi-insights-apps"></a>Ứng dụng thông tin chi tiết Power BI
 
-Microsoft Power BI cùng Dynamics 365 mang đến cho bạn cách thức mạnh mẽ để làm việc với dữ liệu, dưới dạng các ứng dụng thông tin chi tiết. Để biết thông tin về trạng thái rảnh/bận của ứng dụng thông tin chi tiết, hãy xem [trang ứng dụng thông tin chi tiết Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/)
+Microsoft Power BI và Dynamics 365 mang lại cho bạn một cách hiệu quả để làm việc với dữ liệu, dưới dạng các ứng dụng thông tin chi tiết. Để biết thông tin về trạng thái rảnh/bận của ứng dụng thông tin chi tiết, hãy xem [trang ứng dụng thông tin chi tiết Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/)
 
 
 ## <a name="additional-resources"></a>Tài nguyên bổ sung
