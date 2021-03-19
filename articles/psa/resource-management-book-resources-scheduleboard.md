@@ -18,38 +18,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89eac463fd80378a6cfdb53741afbbd1444d5662
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144439"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283214"
 ---
-# <a name="use-the-schedule-board-to-book-project-resources"></a><span data-ttu-id="3c407-103">Dùng Bảng lịch trình để đăng ký các nguồn lực dự án</span><span class="sxs-lookup"><span data-stu-id="3c407-103">Use the Schedule Board to book project resources</span></span>
+# <a name="use-the-schedule-board-to-book-project-resources"></a><span data-ttu-id="aec52-103">Dùng Bảng lịch trình để đăng ký các nguồn lực dự án</span><span class="sxs-lookup"><span data-stu-id="aec52-103">Use the Schedule Board to book project resources</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="3c407-104">Ngoài việc đăng ký nguồn lực trên dự án từ trong một dự án, bạn có thể đăng ký nguồn lực một cách chắc chắn hoặc không chắc chắn từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="3c407-104">In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.</span></span>
+<span data-ttu-id="aec52-104">Ngoài việc đăng ký nguồn lực trên dự án từ trong một dự án, bạn có thể đăng ký nguồn lực một cách chắc chắn hoặc không chắc chắn từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="aec52-104">In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.</span></span>
 
-<span data-ttu-id="3c407-105">Bạn phải tạo các yêu cầu nguồn lực rồi mới có thể đăng ký từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="3c407-105">Before you can book from the Schedule Board, you must create or generate resource requirements.</span></span> <span data-ttu-id="3c407-106">Thực hiện theo các bước sau để tạo các yêu cầu nguồn lực từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="3c407-106">Follow these steps to create resource requirements from the Schedule Board.</span></span>
+<span data-ttu-id="aec52-105">Bạn phải tạo các yêu cầu nguồn lực rồi mới có thể đăng ký từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="aec52-105">Before you can book from the Schedule Board, you must create or generate resource requirements.</span></span> <span data-ttu-id="aec52-106">Thực hiện theo các bước sau để tạo các yêu cầu nguồn lực từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="aec52-106">Follow these steps to create resource requirements from the Schedule Board.</span></span>
 
-1. <span data-ttu-id="3c407-107">Nếu ngăn **Yêu cầu đăng ký** ở cuối trang bị thu gọn, hãy chọn điều khiển trình mở rộng để mở rộng ngăn đó.</span><span class="sxs-lookup"><span data-stu-id="3c407-107">If the **Booking Requirements** pane at the bottom of the page is collapsed, select the expander control to expand it.</span></span>
-2. <span data-ttu-id="3c407-108">Trong ngăn **Yêu cầu đăng ký**, trên tab **Dự án**, hãy chọn yêu cầu để đăng ký.</span><span class="sxs-lookup"><span data-stu-id="3c407-108">In the **Booking Requirements** pane, on the **Project** tab, select the requirement to book.</span></span>
+1. <span data-ttu-id="aec52-107">Nếu ngăn **Yêu cầu đăng ký** ở cuối trang bị thu gọn, hãy chọn điều khiển trình mở rộng để mở rộng ngăn đó.</span><span class="sxs-lookup"><span data-stu-id="aec52-107">If the **Booking Requirements** pane at the bottom of the page is collapsed, select the expander control to expand it.</span></span>
+2. <span data-ttu-id="aec52-108">Trong ngăn **Yêu cầu đăng ký**, trên tab **Dự án**, hãy chọn yêu cầu để đăng ký.</span><span class="sxs-lookup"><span data-stu-id="aec52-108">In the **Booking Requirements** pane, on the **Project** tab, select the requirement to book.</span></span>
 
     ![Yêu cầu đã chọn trên tab Dự án](media/Resource-Management-image73.png)
 
-3. <span data-ttu-id="3c407-110">Chọn **Tìm trạng thái rảnh/bận** để lọc các nguồn lực có thể đăng ký và xem các nguồn lực có sẵn.</span><span class="sxs-lookup"><span data-stu-id="3c407-110">Select **Find Availability** to filter the bookable resources and view the available resources.</span></span> 
-4. <span data-ttu-id="3c407-111">Chọn một hoặc nhiều tài nguyên từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="3c407-111">Select one or more resources from the Schedule Board.</span></span> 
-5. <span data-ttu-id="3c407-112">Trong ngăn **Tạo đăng ký nguồn lực** trên bên phải trang, hãy nhập thông tin đăng ký rồi chọn **Đăng ký và thoát**.</span><span class="sxs-lookup"><span data-stu-id="3c407-112">In the **Create Resource Booking** pane on the right side of the page, enter the booking information, and then select **Book and exit**.</span></span>
+3. <span data-ttu-id="aec52-110">Chọn **Tìm trạng thái rảnh/bận** để lọc các nguồn lực có thể đăng ký và xem các nguồn lực có sẵn.</span><span class="sxs-lookup"><span data-stu-id="aec52-110">Select **Find Availability** to filter the bookable resources and view the available resources.</span></span> 
+4. <span data-ttu-id="aec52-111">Chọn một hoặc nhiều tài nguyên từ Bảng lịch trình.</span><span class="sxs-lookup"><span data-stu-id="aec52-111">Select one or more resources from the Schedule Board.</span></span> 
+5. <span data-ttu-id="aec52-112">Trong ngăn **Tạo đăng ký nguồn lực** trên bên phải trang, hãy nhập thông tin đăng ký rồi chọn **Đăng ký và thoát**.</span><span class="sxs-lookup"><span data-stu-id="aec52-112">In the **Create Resource Booking** pane on the right side of the page, enter the booking information, and then select **Book and exit**.</span></span>
 
     ![Tạo ngăn Đăng ký nguồn lực cho nguồn lực có thể đăng ký đã chọn](media/Resource-Management-image74.png)
 
-6. <span data-ttu-id="3c407-114">Khi yêu cầu được chọn trong ngăn **Tạo đăng ký nguồn lực**, hãy chọn một hoặc nhiều ô của nguồn lực để tạo đăng ký.</span><span class="sxs-lookup"><span data-stu-id="3c407-114">While the requirement is selected in the **Create Resource Booking** pane, select one or more cells of a resource to create the booking.</span></span>
+6. <span data-ttu-id="aec52-114">Khi yêu cầu được chọn trong ngăn **Tạo đăng ký nguồn lực**, hãy chọn một hoặc nhiều ô của nguồn lực để tạo đăng ký.</span><span class="sxs-lookup"><span data-stu-id="aec52-114">While the requirement is selected in the **Create Resource Booking** pane, select one or more cells of a resource to create the booking.</span></span>
 
     ![Nhiều ô được chọn cho nguồn lực](media/Resource-Management-image75.png)
 
-7. <span data-ttu-id="3c407-116">Chọn **Đăng ký**.</span><span class="sxs-lookup"><span data-stu-id="3c407-116">Select **Book**.</span></span>
+7. <span data-ttu-id="aec52-116">Chọn **Đăng ký**.</span><span class="sxs-lookup"><span data-stu-id="aec52-116">Select **Book**.</span></span>
 
-<span data-ttu-id="3c407-117">Yêu cầu được thực hiện bằng cách sử dụng nguồn lực đã chọn.</span><span class="sxs-lookup"><span data-stu-id="3c407-117">The requirement is fulfilled by using the selected resource.</span></span> <span data-ttu-id="3c407-118">Trong ngăn **Yêu cầu đăng ký**, hãy lưu ý rằng yêu cầu đã được cập nhật và nguồn lực hiển thị ở trạng thái đã đăng ký trên dự án.</span><span class="sxs-lookup"><span data-stu-id="3c407-118">In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.</span></span>
+<span data-ttu-id="aec52-117">Yêu cầu được thực hiện bằng cách sử dụng nguồn lực đã chọn.</span><span class="sxs-lookup"><span data-stu-id="aec52-117">The requirement is fulfilled by using the selected resource.</span></span> <span data-ttu-id="aec52-118">Trong ngăn **Yêu cầu đăng ký**, hãy lưu ý rằng yêu cầu đã được cập nhật và nguồn lực hiển thị ở trạng thái đã đăng ký trên dự án.</span><span class="sxs-lookup"><span data-stu-id="aec52-118">In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.</span></span>
 
 ![Nguồn lực đã đăng ký trên dự án](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
