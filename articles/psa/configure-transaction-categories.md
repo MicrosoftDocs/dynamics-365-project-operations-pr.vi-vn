@@ -18,28 +18,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8a0edd4ca5bb175d67e645b1a6903a1bbde4ecca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290655"
 ---
-# <a name="configure-transaction-categories-project-service"></a><span data-ttu-id="b4614-103">Đặt cấu hình các danh mục giao dịch (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b4614-103">Configure transaction categories (Project Service)</span></span>
+# <a name="configure-transaction-categories-project-service"></a><span data-ttu-id="a50cf-103">Đặt cấu hình các danh mục giao dịch (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a50cf-103">Configure transaction categories (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="b4614-104">Thiết lập thể loại giao dịch để xác định một tập hợp lớn các loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="b4614-104">Set up transaction categories to define a superset of expense categories.</span></span>  
+<span data-ttu-id="a50cf-104">Thiết lập thể loại giao dịch để xác định một tập hợp lớn các loại chi phí.</span><span class="sxs-lookup"><span data-stu-id="a50cf-104">Set up transaction categories to define a superset of expense categories.</span></span>  
   
-1.  <span data-ttu-id="b4614-105">Đi tới **Project Service> Danh mục Giao dịch**.</span><span class="sxs-lookup"><span data-stu-id="b4614-105">Go to **Project Service > Transaction Categories**.</span></span>  
+1.  <span data-ttu-id="a50cf-105">Đi tới **Project Service> Danh mục Giao dịch**.</span><span class="sxs-lookup"><span data-stu-id="a50cf-105">Go to **Project Service > Transaction Categories**.</span></span>  
   
-2.  <span data-ttu-id="b4614-106">Bấm vào **Mới**.</span><span class="sxs-lookup"><span data-stu-id="b4614-106">Click **New**.</span></span>  
+2.  <span data-ttu-id="a50cf-106">Bấm vào **Mới**.</span><span class="sxs-lookup"><span data-stu-id="a50cf-106">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="b4614-107">Trong vùng **Chung**, điền vào các trường cần thiết.</span><span class="sxs-lookup"><span data-stu-id="b4614-107">In the **General** area, fill in the fields as needed.</span></span>  
+3.  <span data-ttu-id="a50cf-107">Trong vùng **Chung**, điền vào các trường cần thiết.</span><span class="sxs-lookup"><span data-stu-id="a50cf-107">In the **General** area, fill in the fields as needed.</span></span>  
   
-4.  <span data-ttu-id="b4614-108">Bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.</span><span class="sxs-lookup"><span data-stu-id="b4614-108">Click **Save** at the bottom right corner of the screen.</span></span>  
+4.  <span data-ttu-id="a50cf-108">Bấm vào **Lưu** ở góc dưới cùng bên phải của màn hình.</span><span class="sxs-lookup"><span data-stu-id="a50cf-108">Click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="b4614-109">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="b4614-109">See Also</span></span>  
- [<span data-ttu-id="b4614-110">Đặt cấu hình Project Service</span><span class="sxs-lookup"><span data-stu-id="b4614-110">Configure Project Service</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="a50cf-109">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="a50cf-109">See Also</span></span>  
+ [<span data-ttu-id="a50cf-110">Đặt cấu hình Project Service</span><span class="sxs-lookup"><span data-stu-id="a50cf-110">Configure Project Service</span></span>](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
