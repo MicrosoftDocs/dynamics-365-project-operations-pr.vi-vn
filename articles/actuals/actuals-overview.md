@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126352"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291825"
 ---
 # <a name="actuals"></a>Thực tế 
 
@@ -70,7 +70,7 @@ Mục nhập dựa trên danh mục của giá mặc định cho mỗi đơn v�
 Bạn có thể sử dụng bút toán để ghi lại chi phí hoặc doanh thu trong lớp giao dịch thuế, chi phí, thời gian, phí hoặc vật tư. Có thể sử dụng nhật ký cho các mục đích sau:
 
 - Ghi lại chi phí vật tư thực tế và bán hàng trên một dự án.
-- Di chuyển thực tế giao dịch từ một hệ thống khác sang Microsoft Dynamics 365 Project Operations.
+- Di chuyển các giá trị thực tế của giao dịch từ một hệ thống khác sang Microsoft Dynamics 365 Project Operations.
 - Ghi lại chi phí đã xảy ra trong hệ thống khác. Các chi phí này có thể bao gồm chi phí mua sắm hoặc chi phí thầu phụ.
 
 > [!IMPORTANT]

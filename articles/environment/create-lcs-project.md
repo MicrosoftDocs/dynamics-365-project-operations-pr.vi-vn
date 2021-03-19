@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175647"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290250"
 ---
 # <a name="start-a-new-lcs-project"></a>Bắt đầu một dự án LCS mới
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Sử dụng Lifecycle Services (LCS) để quản lý môi trường Dynamics 365 Project Operations của bạn. Hoàn thành các bước sau để tạo một dự án LCS mới.
+Sử dụng Lifecycle Services (LCS) để quản lý môi trường Dynamics 365 Project Operations. Hoàn thành các bước sau để tạo một dự án LCS mới.
 
 1. Đi đến [LCS](https://lcs.dynamics.com/Logon/Index) và chọn **Đăng nhập** bằng tài khoản mà bạn đã dùng để đăng ký.
 2. Nếu được nhắc, hãy chấp nhận các điều khoản pháp lý và quyền riêng tư.
