@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087087"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288629"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Thiết lập và sử dụng các khoản thanh toán của nhà cung cấp trả khi được trả tiền
 
@@ -49,27 +49,27 @@ Khi bạn thiết lập các điều khoản PWP cho một dự án, bạn phả
 
 1. Chuyển đến **Quản lý dự án và kế toán** \> **Dự án** \> **Tất cả dự án**.
 2. Tìm và mở dự án mà bạn muốn thiết lập các điều khoản PWP.
-3. Trên FastTab **Thỏa thuận của nhà cung cấp** , hãy chọn **Thêm dòng**.
-3. Trong trường **Mã tài khoản** , hãy chọn một trong các tùy chọn sau:
+3. Trên FastTab **Thỏa thuận của nhà cung cấp**, hãy chọn **Thêm dòng**.
+3. Trong trường **Mã tài khoản**, hãy chọn một trong các tùy chọn sau:
 
     - **Bảng** – Các điều khoản PWP được áp dụng cho một nhà cung cấp.
     - **Nhóm** – Các điều khoản PWP được áp dụng cho tất cả các nhà cung cấp trong một nhóm nhà cung cấp.
     - **Tất cả** – Các điều khoản PWP được áp dụng cho tất cả các nhà cung cấp.
 
-4. Nếu bạn đã chọn **Bảng** hoặc **Nhóm** trong bước trước, trong trường **Nhà cung cấp/Nhóm nhà cung cấp** , hãy chọn nhà cung cấp hoặc nhóm nhà cung cấp được áp dụng các điều khoản PWP. Nếu bạn đã chọn **Tất cả** trong bước trước, bạn không thể chỉnh sửa trường **Nhà cung cấp/Nhóm nhà cung cấp**.
-5. Nếu điều khoản giữ khoản thanh toán cho nhà cung cấp được thiết lập cho nhà cung cấp trong dự án, trong trường **Điều khoản giữ khoản thanh toán cho nhà cung cấp** , chọn ID quy tắc cho các điều khoản giữ khoản thanh toán.
-6. Trong trường **Phần trăm ngưỡng PWP** , nhập tỷ lệ phần trăm ngưỡng cho dự án. Tỷ lệ phần trăm mà bạn nhập cho dự án xác định số tiền tối thiểu mà khách hàng phải trả cho bạn trước khi bạn trả tiền cho nhà cung cấp.
+4. Nếu bạn đã chọn **Bảng** hoặc **Nhóm** trong bước trước, trong trường **Nhà cung cấp/Nhóm nhà cung cấp**, hãy chọn nhà cung cấp hoặc nhóm nhà cung cấp được áp dụng các điều khoản PWP. Nếu bạn đã chọn **Tất cả** trong bước trước, bạn không thể chỉnh sửa trường **Nhà cung cấp/Nhóm nhà cung cấp**.
+5. Nếu điều khoản giữ khoản thanh toán cho nhà cung cấp được thiết lập cho nhà cung cấp trong dự án, trong trường **Điều khoản giữ khoản thanh toán cho nhà cung cấp**, chọn ID quy tắc cho các điều khoản giữ khoản thanh toán.
+6. Trong trường **Phần trăm ngưỡng PWP**, nhập tỷ lệ phần trăm ngưỡng cho dự án. Tỷ lệ phần trăm mà bạn nhập cho dự án xác định số tiền tối thiểu mà khách hàng phải trả cho bạn trước khi bạn trả tiền cho nhà cung cấp.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Tạo một đơn đặt hàng có các điều khoản PWP
 
 Khi bạn đăng hóa đơn từ một nhà cung cấp, nếu nhà cung cấp phải tuân theo các điều khoản PWP, các điều khoản đó sẽ được hiển thị trên mô tả đơn đặt hàng. Để tạo một đơn đặt hàng có các điều khoản PWP, hãy làm theo các bước sau.
 
 1. Đi đến **Thu mua và tìm nguồn cung ứng** \> **Đơn đặt hàng** \> **Tất cả đơn đặt hàng**.
-2. Ở ngăn Hành động, chọn **Mới**. Sau đó, trong hộp thoại **Tạo đơn đặt hàng** , nhập thông tin cần thiết và chọn **OK**.
+2. Ở ngăn Hành động, chọn **Mới**. Sau đó, trong hộp thoại **Tạo đơn đặt hàng**, nhập thông tin cần thiết và chọn **OK**.
 
     Ngoài ra, hãy mở một đơn đặt hàng hiện có trên trang danh sách **Tất cả đơn đặt hàng**.
 
-4. Trên trang **Đơn đặt hàng** , trên FastTab **Mô tả đơn đặt hàng** , xem lại chi tiết mô tả đơn đặt hàng cho nhà cung cấp. Tùy chọn **Trả khi được trả tiền** tự động được chọn và giá trị trong trường **Tỷ lệ phần trăm ngưỡng PWP** tự động được sao chép từ trường **Tỷ lệ phần trăm ngưỡng PWP** trên trang **Dự án**.
+4. Trên trang **Đơn đặt hàng**, trên FastTab **Mô tả đơn đặt hàng**, xem lại chi tiết mô tả đơn đặt hàng cho nhà cung cấp. Tùy chọn **Trả khi được trả tiền** tự động được chọn và giá trị trong trường **Tỷ lệ phần trăm ngưỡng PWP** tự động được sao chép từ trường **Tỷ lệ phần trăm ngưỡng PWP** trên trang **Dự án**.
 6. Nếu bạn không muốn áp dụng các điều khoản PWP cho nhà cung cấp cho một mô tả đơn đặt hàng, hãy bỏ chọn tùy chọn **Trả khi được trả tiền**. Trong trường hợp này, **Tỷ lệ phần trăm ngưỡng PWP** cho mô tả đơn đặt hàng sẽ được đặt lại thành 0 (không).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Cập nhật khoản thanh toán của khách hàng và thanh toán cho nhà cung cấp
@@ -77,8 +77,8 @@ Khi bạn đăng hóa đơn từ một nhà cung cấp, nếu nhà cung cấp ph
 Khi một nhà cung cấp hoàn thành công việc của mình trên một dự án và gửi cho bạn hóa đơn, bạn phải xem lại tình trạng dự án và hóa đơn của khách hàng để xác định xem các điều khoản PWP đã được đáp ứng cho dự án hay chưa. Nếu các điều khoản PWP dành cho nhà cung cấp được đáp ứng, bạn có thể xác định mô tả nào trên hóa đơn nhà cung cấp cần thanh toán, dựa trên các khoản thanh toán của khách hàng cho dự án. Nếu bạn quyết định thanh toán cho nhà cung cấp mặc dù các điều khoản PWP không được đáp ứng, bạn có thể ghi đè các điều khoản PWP trên trang **Hóa đơn của nhà cung cấp có điều khoản trả khi được trả tiền**.
 
 1. Đi đến **Quản lý dự án và kế toán** \> **Yêu cầu và báo cáo** \> **Yêu cầu giữ lại khoản thanh toán** \> **Hóa đơn của nhà cung cấp có điều khoản trả khi được trả tiền**.
-2. Trên trang **Hóa đơn của nhà cung cấp có điều khoản trả khi được trả tiền** , trong trường tìm kiếm, hãy nhập các giá trị để tìm hóa đơn của nhà cung cấp mà bạn muốn xem lại, sau đó chọn **Tìm kiếm**.
-3. Trên FastTab **Mô tả hóa đơn của nhà cung cấp** , hãy chọn các mô tả mà bạn muốn thay đổi.
+2. Trên trang **Hóa đơn của nhà cung cấp có điều khoản trả khi được trả tiền**, trong trường tìm kiếm, hãy nhập các giá trị để tìm hóa đơn của nhà cung cấp mà bạn muốn xem lại, sau đó chọn **Tìm kiếm**.
+3. Trên FastTab **Mô tả hóa đơn của nhà cung cấp**, hãy chọn các mô tả mà bạn muốn thay đổi.
 4. Nếu điều kiện **Trả khi được trả tiền** được đáp ứng cho mô tả hóa đơn, hãy chọn **Thanh toán cho nhà cung cấp**. Tùy chọn **Trả khi được trả tiền** được bỏ chọn và giá trị của trường **Sẵn sàng thanh toán** được thay đổi thành **Có**.
 
 

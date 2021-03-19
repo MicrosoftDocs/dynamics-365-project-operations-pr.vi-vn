@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087289"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289395"
 ---
 # <a name="project-grants"></a>Trợ cấp cho dự án
 
@@ -42,9 +42,9 @@ Bạn có thể tạo một khoản trợ cấp bằng cách nhập tất cả c
 
 1. Đi đến **Quản lý dự án và kế toán** \> **Khoản trợ cấp** \> **Khoản trợ cấp**.
 2. Chọn **Mới** \> **Trợ cấp**.
-3. Trên trang chi tiết khoản trợ cấp, trên FastTab **Tổng quát** , trong trường **ID khoản trợ cấp** , hãy nhập mã nhận dạng chữ và số cho khoản trợ cấp.
-4. Trong trường **Tên khoản trợ cấp** , hãy nhập tên cho khoản trợ cấp.
-5. Trong trường **Mô tả** , hãy thêm thông tin chi tiết về khoản trợ cấp mới.
+3. Trên trang chi tiết khoản trợ cấp, trên FastTab **Tổng quát**, trong trường **ID khoản trợ cấp**, hãy nhập mã nhận dạng chữ và số cho khoản trợ cấp.
+4. Trong trường **Tên khoản trợ cấp**, hãy nhập tên cho khoản trợ cấp.
+5. Trong trường **Mô tả**, hãy thêm thông tin chi tiết về khoản trợ cấp mới.
 
     Hầu hết các trường khác trên trang là tùy chọn và bạn có thể nhập bao nhiêu thông tin tùy ý.
 
@@ -59,7 +59,7 @@ Bạn có thể tạo một khoản trợ cấp bằng cách nhập tất cả c
         - **Thêm hợp đồng dự án** – Thêm hoặc cập nhật thông tin hợp đồng dự án.
         - **Thêm dự án** – Thêm hoặc cập nhật chi tiết dự án.
 
-    - **Thiết lập** – Nhập thông tin chi tiết về các nguồn tiền phù hợp, nếu thông tin này là bắt buộc. Nhiều tổ chức trợ cấp yêu cầu người nhận phải chi một số tiền hoặc nguồn lực cụ thể của riêng họ để phù hợp với số tiền được trao trong khoản trợ cấp. Trong trường **Dự án địa phương hoặc ID theo dõi** , bạn có thể nhập số nhận dạng khác với số nhận dạng của dự án.
+    - **Thiết lập** – Nhập thông tin chi tiết về các nguồn tiền phù hợp, nếu thông tin này là bắt buộc. Nhiều tổ chức trợ cấp yêu cầu người nhận phải chi một số tiền hoặc nguồn lực cụ thể của riêng họ để phù hợp với số tiền được trao trong khoản trợ cấp. Trong trường **Dự án địa phương hoặc ID theo dõi**, bạn có thể nhập số nhận dạng khác với số nhận dạng của dự án.
 
         > [!NOTE]
         > Nếu một phần của khoản trợ cấp sẽ được trao cho một tổ chức khác, hãy đặt tùy chọn **Người trợ cấp phụ** thành **Có**. Đối với các khoản trợ cấp được trao ở Hoa Kỳ, bạn có thể chỉ định xem khoản trợ cấp sẽ được trao theo ủy quyền của tiểu bang hay liên bang.
@@ -77,7 +77,7 @@ Bạn có thể tạo một khoản trợ cấp bằng cách nhập tất cả c
 
 1. Đi đến **Quản lý dự án và kế toán** \> **Khoản trợ cấp** \> **Khoản trợ cấp**.
 2. Chọn khoản trợ cấp cần sửa đổi.
-3. Trên ngăn Hành động, trên tab **Trợ cấp** , trong nhóm **Duy trì** , hãy chọn **Chỉnh sửa**.
+3. Trên ngăn Hành động, trên tab **Trợ cấp**, trong nhóm **Duy trì**, hãy chọn **Chỉnh sửa**.
 4. Xem lại chi tiết khoản trợ cấp và thực hiện bất kỳ thay đổi nào được yêu cầu.
 
 

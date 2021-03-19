@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087169"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289350"
 ---
 # <a name="microsoft-project-client-integration"></a>Tích hợp Microsoft Project Client
 
@@ -39,10 +39,10 @@ Việc lập kế hoạch và duy trì lịch trình dự án có thể phức t
 
 •   Nhấp vào **Đặt cấu hình phần bổ trợ máy khách dự án** từ phần **Liên kết** > **Thiết lập** của không gian làm việc.
 
-•   Nhấp vào **Mở** , sau đó nhấp vào **Chạy** khi được nhắc.
+•   Nhấp vào **Mở**, sau đó nhấp vào **Chạy** khi được nhắc.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Mở và chỉnh sửa cấu trúc phân tích công việc bản nháp hiện có trong Microsoft Project Client
-Nếu một dự án trong Dynamics 365 Finance đã được tạo cấu trúc phân tích công việc, cấu trúc phân tích công việc đó có thể được mở trong ứng dụng Microsoft Project Client nếu cấu trúc phân tích công việc ở trạng thái bản nháp. Để mở từ trang **Dự án** , nhấp vào liên kết **Mở trong Microsoft Project** từ tab **Kế hoạch**. Trang này cũng có thể được mở từ trong ứng dụng Microsoft Project Client bằng cách nhấp vào **Mở** trong tab **Microsoft Dynamics 365**. Chọn **Pháp nhân** và **Dự án** từ danh sách.
+Nếu một dự án trong Dynamics 365 Finance đã được tạo cấu trúc phân tích công việc, cấu trúc phân tích công việc đó có thể được mở trong ứng dụng Microsoft Project Client nếu cấu trúc phân tích công việc ở trạng thái bản nháp. Để mở từ trang **Dự án**, nhấp vào liên kết **Mở trong Microsoft Project** từ tab **Kế hoạch**. Trang này cũng có thể được mở từ trong ứng dụng Microsoft Project Client bằng cách nhấp vào **Mở** trong tab **Microsoft Dynamics 365**. Chọn **Pháp nhân** và **Dự án** từ danh sách.
 
 > [!NOTE]
 > Nếu bạn đang sử dụng Internet Explorer là trình duyệt của mình, bạn sẽ cần nhấp vào **Lưu** để mở thủ công từ vị trí tệp được tải xuống. Hoặc, nhấp vào **Lưu và mở** để mở tệp trong Microsoft Project Client. Không đổi tên tệp khi lưu.
@@ -82,7 +82,7 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 
 1.  Mở Microsoft Project Client.
 
-2.  Trên tab **Microsoft Dynamics 365** , nhấp vào **Mở**.
+2.  Trên tab **Microsoft Dynamics 365**, nhấp vào **Mở**.
 
 3.  Chọn **Pháp nhân** cho dự án.
 
@@ -99,7 +99,7 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 
 2.  Tạo lịch trình Microsoft Project Client.
 
-3.  Trên tab **Microsoft Dynamics 365** , nhấp vào **Lưu thay đổi** > **Thay thế dự án hiện có**.
+3.  Trên tab **Microsoft Dynamics 365**, nhấp vào **Lưu thay đổi** > **Thay thế dự án hiện có**.
 
 4.  Chọn **Pháp nhân** cho dự án.
 
@@ -114,7 +114,7 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 
 2.  Tạo lịch trình Microsoft Project Client.
 
-3.  Trên tab **Microsoft Dynamics 365** , nhấp vào **Lưu thay đổi** > **Lưu vào Dự án mới**.
+3.  Trên tab **Microsoft Dynamics 365**, nhấp vào **Lưu thay đổi** > **Lưu vào Dự án mới**.
 
 4.  Chọn **Pháp nhân** cho dự án.
 
@@ -122,7 +122,7 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 
 6.  Nhập **Tên dự án**.
 
-7.  Chọn **Loại dự án** , **Nhóm dự án** và **ID hợp đồng dự án**. Ngoài ra, bạn có thể tạo hợp đồng dự án mới bằng cách nhấp vào **Mới**.
+7.  Chọn **Loại dự án**, **Nhóm dự án** và **ID hợp đồng dự án**. Ngoài ra, bạn có thể tạo hợp đồng dự án mới bằng cách nhấp vào **Mới**.
 
 8.  Chọn **Lịch** để sử dụng cho việc cấp nguồn lực.
 

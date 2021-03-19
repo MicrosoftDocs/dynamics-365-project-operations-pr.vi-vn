@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087240"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289710"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Project Service Automation vào nhật ký tích hợp dự án để đăng trong Finance and Operations
 
@@ -88,7 +88,7 @@ Trong mẫu giá trị thực tế trong dự án, bạn phải sử dụng Micr
 #### <a name="contract-organizational-unit"></a>Đơn vị tổ chức trong hợp đồng
 Để cập nhật cột có điều kiện đã chèn trong mẫu, hãy bấm vào mũi tên **Bản đồ** để mở phần ánh xạ. Chọn liên kết **Truy vấn nâng cao và lọc** để mở Power Query.
 
-- Nếu bạn đang sử dụng mẫu Giá trị thực tế trong dự án (PSA sang Fin and Ops) mặc định, thì trong Power Query, hãy chọn **Điều kiện đã chèn** ở phần **Các bước được áp dụng**. Trong mục nhập **Hàm** , thay **USSI** bằng tên của pháp nhân sẽ dùng với phần tích hợp. Thêm các điều kiện bổ sung vào mục nhập **Hàm** theo như yêu cầu của bạn và cập nhật điều kiện **khác** từ **USMF** thành đúng pháp nhân.
+- Nếu bạn đang sử dụng mẫu Giá trị thực tế trong dự án (PSA sang Fin and Ops) mặc định, thì trong Power Query, hãy chọn **Điều kiện đã chèn** ở phần **Các bước được áp dụng**. Trong mục nhập **Hàm**, thay **USSI** bằng tên của pháp nhân sẽ dùng với phần tích hợp. Thêm các điều kiện bổ sung vào mục nhập **Hàm** theo như yêu cầu của bạn và cập nhật điều kiện **khác** từ **USMF** thành đúng pháp nhân.
 - Nếu bạn tạo mẫu mới, thì bạn phải thêm cột để hỗ trợ các mục thời gian và chi phí liên công ty. Chọn **Thêm cột có điều kiện** và nhập tên cho cột, chẳng hạn như **Pháp nhân**. Nhập điều kiện cho cột, trong đó, nếu **msdyn\_contractorganizationalunitid.msdyn\_name** là \<organizational unit\>, thì \<enter the legal entity\>; nếu không thì nhập null.
 
 ### <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu

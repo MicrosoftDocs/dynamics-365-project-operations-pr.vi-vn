@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087088"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288675"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Thiết lập vai trò trên các mẫu cấu trúc phân tích công việc
 
@@ -33,7 +33,7 @@ Người quản lý dự án có thể thiết lập các mẫu Cấu trúc phâ
 
 1. Chọn **Kế toán và quản lý dự án** > **Thiết lập** > **Dự án** > **Mẫu cấu trúc phân tích công việc**.
 2. Chọn **Chi tiết** cho mẫu WBS đã chọn.
-3. Chọn một nhiệm vụ trong danh sách, trong **Vai trò** , chọn một vai trò để gán cho nhiệm vụ.
+3. Chọn một nhiệm vụ trong danh sách, trong **Vai trò**, chọn một vai trò để gán cho nhiệm vụ.
 
 ## <a name="work-with-a-wbs"></a>Làm việc với WBS
 
@@ -79,7 +79,7 @@ Các tùy chọn bổ sung đã được thêm vào WBS để sử dụng tốt 
 </tbody>
 </table>
 
-1. Trên trang **Tất cả dự án** , chọn dự án **Nâng cấp XYZ Giai đoạn 2**.
+1. Trên trang **Tất cả dự án**, chọn dự án **Nâng cấp XYZ Giai đoạn 2**.
 2. Chọn **Kế hoạch** > **Hoạt động** > **Cấu trúc phân tích công việc**.
 3. Chọn **Mới** để thêm các hoạt động cấp độ một sau đây vào WBS:
 
@@ -93,20 +93,20 @@ Các tùy chọn bổ sung đã được thêm vào WBS để sử dụng tốt 
 
     [![Thiết lập ngày và nhân công](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Chọn dòng nhiệm vụ **Bắt đầu** rồi trong trường **Vai trò** , chọn **Người quản lý dự án cấp cao**.
+5. Chọn dòng nhiệm vụ **Bắt đầu** rồi trong trường **Vai trò**, chọn **Người quản lý dự án cấp cao**.
 6. Chọn **Xuất bản**.
-7. Trên cùng một dòng, trong trường **Nguồn lực** , chọn **Daniel Goldschmidt** rồi chọn **Chấp nhận**.
-8. Chọn dòng công việc **Lập kế hoạch** , rồi trong trường **Vai trò** , chọn **Phân tích viên kinh doanh**.
+7. Trên cùng một dòng, trong trường **Nguồn lực**, chọn **Daniel Goldschmidt** rồi chọn **Chấp nhận**.
+8. Chọn dòng công việc **Lập kế hoạch**, rồi trong trường **Vai trò**, chọn **Phân tích viên kinh doanh**.
 9. Chọn **Phát hành** rồi chọn **Tự động tạo nhóm**.
 10. Trong hộp thông báo xuất hiện, chọn **Có**.
-11. Trong trường **Nguồn lực** , xác minh rằng giá trị là **Phân tích viên kinh doanh 1**.
-12. Đối với nguồn lực **Phân tích viên kinh doanh 1** , mở mục tra cứu rồi chọn **Triển khai phân công nguồn lực**. Sau đó, chọn nhân viên cho nhiệm vụ.
+11. Trong trường **Nguồn lực**, xác minh rằng giá trị là **Phân tích viên kinh doanh 1**.
+12. Đối với nguồn lực **Phân tích viên kinh doanh 1**, mở mục tra cứu rồi chọn **Triển khai phân công nguồn lực**. Sau đó, chọn nhân viên cho nhiệm vụ.
 13. Chọn **Gán dự kiến** &gt; **Năng lực đầy đủ**.
 
     > [!NOTE] 
     > Bạn không nhận được cảnh báo rằng nguồn lực được chỉ định hiện là 2, vì số lượng nguồn lực vẫn là 1.
 
-14. Trên trang **Cấu trúc phân tích công việc** , xác thực phân công nguồn lực trên WBS rồi chọn **Lưu**.
+14. Trên trang **Cấu trúc phân tích công việc**, xác thực phân công nguồn lực trên WBS rồi chọn **Lưu**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

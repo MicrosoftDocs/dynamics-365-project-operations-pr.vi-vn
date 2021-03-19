@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289125"
 ---
 # <a name="project-resourcing-home-page"></a>Trang chủ về nguồn lực dự án
 
@@ -50,7 +50,7 @@ Các chủ đề sau đây cung cấp thông tin về các nhiệm vụ cần ph
 - [Quản lý năng lực của nguồn lực](manage-resource-competencies.md)
 - [Tạo dự án mới](create-new-project.md)
 - [Thiết lập giá dựa trên vai trò](set-up-role-based-pricing.md)
-- [Tạo nhóm dự án](create-project-team.md)
+- [Tạo nhóm dự án](create-project-team.md)
 - [Đồng bộ hóa năng lực của nguồn lực](synchronize-resource-capacity.md)
 - [Hiệu suất lập kế hoạch nguồn lực dự án](project-scheduling-performance.md)
 - [Thiết lập vai trò trên các mẫu cấu trúc phân tích công việc](set-up-roles-wbs-template.md)

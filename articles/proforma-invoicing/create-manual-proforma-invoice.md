@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287804"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Tạo hóa đơn ước giá thủ công
 
@@ -30,7 +30,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Việc lập hóa đơn cung cấp cho người quản lý dự án mức phê duyệt thứ hai trước khi họ tạo hóa đơn cho khách hàng. Mức phê duyệt thứ nhất hoàn thành khi các mục nhập thời gian và chi phí mà thành viên nhóm dự án gửi được phê duyệt.
 
-Hoạt động Dự án trên Dynamics 365 không được thiết kế để tạo hóa đơn dành cho khách hàng vì các lý do sau:
+Dynamics 365 Project Operations không được thiết kế để tạo ra hóa đơn dành cho khách hàng, vì những lý do sau:
 
 - PSA không chứa thông tin thuế.
 - PSA không thể chuyển đổi các loại tiền tệ khác thành tiền hệ lập hóa đơn bằng cách dùng tỷ giá hối đoái được đặt cấu hình chính xác.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087239"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289575"
 ---
 # <a name="project-contracts"></a>Hợp đồng dự án
 
@@ -260,7 +260,7 @@ Bạn có thể thiết lập các loại quy tắc thanh toán sau:
 
 Đối với tất cả các loại quy tắc thanh toán, bạn có thể chỉ định tỷ lệ phần trăm giữ lại được khấu trừ vào hóa đơn cho khách hàng cho đến khi dự án đạt đến giai đoạn đã thỏa thuận. Tỷ lệ giữ lại thanh toán được quy định trong hợp đồng dự án. Số tiền được tính toán và trừ đi dựa trên tổng giá trị của các dòng trong hóa đơn cho khách hàng. 
 
-Đối với quy tắc thanh toán **Thời gian và vật tư** và **Tiến độ** , bạn có thể chỉ định các danh mục có thể tính phí. Danh mục có thể tính phí cho biết những giao dịch nào cần được đưa vào hóa đơn cho khách hàng. 
+Đối với quy tắc thanh toán **Thời gian và vật tư** và **Tiến độ**, bạn có thể chỉ định các danh mục có thể tính phí. Danh mục có thể tính phí cho biết những giao dịch nào cần được đưa vào hóa đơn cho khách hàng. 
 
 Khi bạn đã sẵn sàng lập hóa đơn cho khách hàng, số tiền cần lập hóa đơn cho dự án sẽ được tính toán dựa trên các quy tắc thanh toán và một bản đề xuất hóa đơn dự án sẽ được tạo. 
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087281"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288855"
 ---
 # <a name="project-timesheet-mobile-application"></a>Ứng dụng di động bảng chấm công dự án
 
@@ -68,21 +68,21 @@ Bạn có thể nhập thông tin dự án bằng cách nhấp vào hành độn
 
 Thông tin dự án được hiển thị phụ thuộc vào các tham số di động mà bạn đã xác định trên trang **Tham số quản lý dự án và kế toán**.
 
-Trong trường **Pháp nhân** , chọn pháp nhân mà bạn đã thực hiện công việc dự án. Trường **Pháp lý** chỉ hiển thị nếu tính năng hỗ trợ bảng chấm công liên công ty đã được bật cho pháp nhân của bạn.
+Trong trường **Pháp nhân**, chọn pháp nhân mà bạn đã thực hiện công việc dự án. Trường **Pháp lý** chỉ hiển thị nếu tính năng hỗ trợ bảng chấm công liên công ty đã được bật cho pháp nhân của bạn.
 
 Chọn khách hàng được liên kết với dự án cho bảng chấm công. Đối với bản phát hành ban đầu trên Android, mục nhập của khách hàng không được hỗ trợ, vì bạn phải chọn dự án trước tiên. Nếu bạn chọn dự án trước tiên, trường **Khách hàng** sẽ được điền tự động.
 
-Trong trường **Dự án** , chọn dự án mà bạn nhập thời gian. Trường **Khách hàng** được tự động điền.
+Trong trường **Dự án**, chọn dự án mà bạn nhập thời gian. Trường **Khách hàng** được tự động điền.
 
 Mục tra cứu khách hàng và dự án cho phép tìm kiếm cả khách hàng và dự án.
 
-Chọn thông tin trong các trường **Thể loại** , **Hoạt động** , **Thuộc tính dòng** , **Nhóm thuế bán hàng** và **Nhóm thuế bán hàng theo hạng mục** theo yêu cầu. Các trường này có thể được ghi đè.
+Chọn thông tin trong các trường **Thể loại**, **Hoạt động**, **Thuộc tính dòng**, **Nhóm thuế bán hàng** và **Nhóm thuế bán hàng theo hạng mục** theo yêu cầu. Các trường này có thể được ghi đè.
 
 Trường **Thuộc tính dòng** sẽ được đặt thành giá trị mặc định, dựa trên tham số quản lý dự án và kế toán. Khi các tham số dự án/thể loại và thể loại/nguồn lực được bật, giá trị **Thuộc tính dòng** sẽ được đặt thành giá trị mặc định mà bạn đã xác định cho việc xác thực này. Khi các tham số dự án/thể loại và thể loại/nguồn lực không được bật, giá trị **Thuộc tính dòng** sẽ mặc định theo trường **Bật thuộc tính dòng mặc định** trên trang **Tham số quản lý dự án và kế toán**. Giá trị **Thuộc tính dòng** có thể bị ghi đè.
 
 Chọn một ngày để thêm thời gian. Nhập số giờ bạn đã làm việc mỗi ngày.
 
-Để thêm nhận xét về giờ bạn đang nhập, hãy nhấp vào **Thêm nhận xét** , rồi nhập nhận xét cho đối tượng nội bộ, đối tượng khách hàng hoặc cả hai.
+Để thêm nhận xét về giờ bạn đang nhập, hãy nhấp vào **Thêm nhận xét**, rồi nhập nhận xét cho đối tượng nội bộ, đối tượng khách hàng hoặc cả hai.
 Người quản lý dự án có thể xem nhận xét nội bộ. Nhận xét của khách hàng được bao gồm trên hóa đơn.
 
 Để lưu dòng làm mục ưa thích, hãy chọn hộp kiểm, sau đó nhấp vào **Lưu làm mục yêu thích**.
@@ -95,7 +95,7 @@ Nhấp vào **Gửi** để gửi bảng chấm công tới quy trình làm vi�
 
 ## <a name="review-timesheets"></a>Xem lại bảng chấm công
 
-Danh sách các bảng chấm công cần được xem lại có sẵn trong menu. Tùy chọn này chỉ khả dụng nếu bạn đã được chỉ định làm người phê duyệt quy trình làm việc. Cả phê duyệt tiêu đề và dòng đều được hỗ trợ. Phê duyệt cấp độ dòng cung cấp khả năng đánh dấu một hoặc nhiều dòng để phê duyệt. Sau khi xem lại thông tin bảng chấm công, hãy nhấp vào **Phê duyệt** , **Đại diện** hoặc **Trở về** để tiếp tục quy trình làm việc.
+Danh sách các bảng chấm công cần được xem lại có sẵn trong menu. Tùy chọn này chỉ khả dụng nếu bạn đã được chỉ định làm người phê duyệt quy trình làm việc. Cả phê duyệt tiêu đề và dòng đều được hỗ trợ. Phê duyệt cấp độ dòng cung cấp khả năng đánh dấu một hoặc nhiều dòng để phê duyệt. Sau khi xem lại thông tin bảng chấm công, hãy nhấp vào **Phê duyệt**, **Đại diện** hoặc **Trở về** để tiếp tục quy trình làm việc.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

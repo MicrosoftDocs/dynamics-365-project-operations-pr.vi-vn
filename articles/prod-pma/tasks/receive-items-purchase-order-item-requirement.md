@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288254"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Nhận các mặt hàng theo đơn đặt hàng từ yêu cầu mặt hàng
 
@@ -45,7 +45,7 @@ Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 10. Chọn **Chức năng**.
 11. Chọn **Tạo đơn đặt hàng**.
 12. Chọn hộp kiểm **Bao gồm tất cả**.
-13. Trong trường **Tài khoản nhà cung cấp** , nhập hoặc chọn một giá trị.
+13. Trong trường **Tài khoản nhà cung cấp**, nhập hoặc chọn một giá trị.
 14. Chọn **OK**.
 15. Ở ngăn điều hướng, chuyển tới **Mô-đun > Tài khoản phải trả > Đơn đặt hàng > Tất cả đơn đặt hàng**.
 16. Trong danh sách, chọn liên kết trong hàng mong muốn.
@@ -53,7 +53,7 @@ Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 18. Chọn **Xác nhận**.
 19. Ở ngăn Hành động, chọn **Nhận**.
 20. Chọn **Biên lai sản phẩm**.
-21. Trong trường **Biên lai sản phẩm** , nhập giá trị.
+21. Trong trường **Biên lai sản phẩm**, nhập giá trị.
 22. Chọn **OK**.
 
 

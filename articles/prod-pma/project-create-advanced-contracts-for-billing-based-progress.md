@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289530"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
 [!include [banner](../includes/banner.md)]
@@ -51,17 +51,17 @@ Người quản lý ngân sách tạo ngân sách cho các hạng mục dự án
 Trước khi tạo một dự án sử dụng quy tắc thanh toán, bạn phải thiết lập chuỗi số cho quy tắc thanh toán và nhật ký phí được sử dụng để đăng các hóa đơn tiến độ.
 
 1. Đi đến **Kế toán và quản lý dự án** \> **Thiết lập** \> **Tham số quản lý dự án và kế toán**.
-2. Trên trang **Tham số quản lý dự án và kế toán** , trên tab **Số chuỗi** , hãy thiết lập chuỗi số mà bạn muốn sử dụng khi tạo quy tắc thanh toán.
+2. Trên trang **Tham số quản lý dự án và kế toán**, trên tab **Số chuỗi**, hãy thiết lập chuỗi số mà bạn muốn sử dụng khi tạo quy tắc thanh toán.
 3. Đi đến **Quản lý dự án và kế toán** \> **Nhật ký** \> **Phí**.
-4. Trên trang **Nhật ký phí** , chọn **Mới** và nhập tên nhật ký.
+4. Trên trang **Nhật ký phí**, chọn **Mới** và nhập tên nhật ký.
 
 ## <a name="create-a-contract-for-progress-billings"></a>Tạo hợp đồng để lập hóa đơn tiến độ
 
 Sử dụng quy trình này để tạo hợp đồng dự án cho một dự án theo giá cố định. Bạn tạo hóa đơn dự án khi công việc được hoàn thành trên dự án đạt tỷ lệ phần trăm được chỉ định.
 
 1. Đi đến **Quản lý dự án và kế toán** \> **Dự án** \> **Hợp đồng dự án**.
-2. Trên trang **Hợp đồng dự án** , chọn **Mới**.
-3. Trong hộp thoại **Hợp đồng dự án mới** , hãy cài đặt các trường sau:
+2. Trên trang **Hợp đồng dự án**, chọn **Mới**.
+3. Trong hộp thoại **Hợp đồng dự án mới**, hãy cài đặt các trường sau:
 
     - **Tên**
     - **Loại ràng buộc**
@@ -69,15 +69,15 @@ Sử dụng quy trình này để tạo hợp đồng dự án cho một dự á
     - **Đơn vị tiền tệ bán hàng** – Theo mặc định, đơn vị tiền tệ này được sử dụng cho các hóa đơn của khách hàng có liên quan đến hợp đồng dự án. Tuy nhiên, bạn có thể thay đổi đơn vị tiền tệ bán hàng trên hóa đơn của một khách hàng cụ thể.
 
 4. Chọn **OK**. Thông tin được sao chép vào tiêu đề của trang **Hợp đồng dự án**.
-5. Trên trang **Hợp đồng dự án** , điền vào phần còn lại của thông tin cần thiết cho dự án.
+5. Trên trang **Hợp đồng dự án**, điền vào phần còn lại của thông tin cần thiết cho dự án.
 
 ## <a name="create-a-project-for-progress-billings"></a>Tạo dự án để lập hóa đơn tiến độ
 
 Làm theo các bước sau để tạo một dự án và bất kỳ dự án con nào được liên kết với hợp đồng dự án.
 
 1. Chuyển đến **Quản lý dự án và kế toán** \> **Dự án** \> **Tất cả dự án**.
-2. Trên trang **Tất cả dự án** , chọn **Mới**.
-3. Trong hộp thoại **Dự án mới** , trong trường **Loại dự án** , chọn **Thời gian và vật tư**.
+2. Trên trang **Tất cả dự án**, chọn **Mới**.
+3. Trong hộp thoại **Dự án mới**, trong trường **Loại dự án**, chọn **Thời gian và vật tư**.
 4. Chọn nhóm dự án. Nhóm dự án xác định thông tin đăng cho các dự án được chỉ định cho nhóm.
 5. Chọn **Tạo dự án**.
 6. Sau khi dự án được tạo, hãy đặt giai đoạn dự án thành **Đang diễn ra**.
@@ -87,21 +87,21 @@ Làm theo các bước sau để tạo một dự án và bất kỳ dự án co
 Danh mục ngân sách được sử dụng để tự động tính toán số tiền trên hóa đơn cho tỷ lệ phần trăm công việc đã hoàn thành cho từng hạng mục. Thực hiện theo các bước sau để tạo danh mục ngân sách cho chi phí ước tính.
 
 1. Chuyển đến **Quản lý dự án và kế toán** \> **Dự án** \> **Tất cả dự án**.
-2. Trên trang **Tất cả dự án** , chọn và mở dự án mà bạn muốn.
-3. Trên trang **Dự án** , trên ngăn Hành động, trên tab **Kế hoạch** , trong nhóm **Ngân sách** , chọn **Ngân sách dự án**.
-4. Trên trang **Ngân sách dự án** , nhập chi phí ước tính cho từng hạng mục trong dự án.
+2. Trên trang **Tất cả dự án**, chọn và mở dự án mà bạn muốn.
+3. Trên trang **Dự án**, trên ngăn Hành động, trên tab **Kế hoạch**, trong nhóm **Ngân sách**, chọn **Ngân sách dự án**.
+4. Trên trang **Ngân sách dự án**, nhập chi phí ước tính cho từng hạng mục trong dự án.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Tạo quy tắc thanh toán cho các hóa đơn tiến độ
 
 1. Đi đến **Quản lý dự án và kế toán** \> **Dự án** \> **Hợp đồng dự án**.
-2. Trên trang **Hợp đồng dự án** , hãy chọn và mở hợp đồng dự án.
-3. Trên trang hợp đồng dự án, trên FastTab **Quy tắc thanh toán** , chọn **Thêm**.
-4. Trên trang **Quy tắc thanh toán** , trong trường **Loại mô tả** , chọn **Tiến độ**.
-5. Trên FastTab **Chi tiết mô tả quy tắc thanh toán** , trong trường **Giá trị hợp đồng** , hãy nhập tổng giá trị của hợp đồng.
-6. Trong trường **Danh mục** , chọn danh mục để đăng giao dịch phí.
-7. Trong trường **Dự án** , hãy chọn dự án sử dụng quy tắc thanh toán này.
-8. Tùy chọn: Chỉ định quy tắc thanh toán cho các dự án bổ sung. Trên FastTab **Dự án** , trong phần **Dự án có sẵn** , chọn một dự án, sau đó chọn nút mũi tên phải để thêm dự án vào phần **Dự án đã chọn**.
-9. Tùy chọn: Tính số tiền phần trăm mà khách hàng giữ lại từ các khoản thanh toán trên hóa đơn. Trên FastTab **Điều khoản lưu giữ thanh toán** , chọn nguồn tiền, sau đó, trong trường **Tỷ lệ phần trăm lưu giữ** , nhập tỷ lệ phần trăm lưu giữ.
+2. Trên trang **Hợp đồng dự án**, hãy chọn và mở hợp đồng dự án.
+3. Trên trang hợp đồng dự án, trên FastTab **Quy tắc thanh toán**, chọn **Thêm**.
+4. Trên trang **Quy tắc thanh toán**, trong trường **Loại mô tả**, chọn **Tiến độ**.
+5. Trên FastTab **Chi tiết mô tả quy tắc thanh toán**, trong trường **Giá trị hợp đồng**, hãy nhập tổng giá trị của hợp đồng.
+6. Trong trường **Danh mục**, chọn danh mục để đăng giao dịch phí.
+7. Trong trường **Dự án**, hãy chọn dự án sử dụng quy tắc thanh toán này.
+8. Tùy chọn: Chỉ định quy tắc thanh toán cho các dự án bổ sung. Trên FastTab **Dự án**, trong phần **Dự án có sẵn**, chọn một dự án, sau đó chọn nút mũi tên phải để thêm dự án vào phần **Dự án đã chọn**.
+9. Tùy chọn: Tính số tiền phần trăm mà khách hàng giữ lại từ các khoản thanh toán trên hóa đơn. Trên FastTab **Điều khoản lưu giữ thanh toán**, chọn nguồn tiền, sau đó, trong trường **Tỷ lệ phần trăm lưu giữ**, nhập tỷ lệ phần trăm lưu giữ.
 10. Lặp lại các bước này để tạo các quy tắc thanh toán bổ sung cho hợp đồng dự án.
 
 

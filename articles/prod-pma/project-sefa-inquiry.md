@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087092"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288990"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Truy vấn về Lịch trình chi tiêu của Giải thưởng Liên bang
 
@@ -52,23 +52,23 @@ Bạn phải thiết lập số CFDA có thể được thêm vào khoản trợ
 
 1. Đi đến **Quản lý dự án và kế toán \> Thiết lập \> Khoản trợ cấp \> số hiệu Sản phẩm hỗ trợ liên bang trong nước**.
 2. Chọn **Mới** để tạo số hiệu CFDA.
-3. Trong cột **Số hiệu** , hãy nhập số hiệu CFDA.
+3. Trong cột **Số hiệu**, hãy nhập số hiệu CFDA.
 4. Nhấn phím **Tab**.
-5. Trong cột **Mô tả** , hãy nhập tiêu đề CFDA.
+5. Trong cột **Mô tả**, hãy nhập tiêu đề CFDA.
 6. Nhấn phím **Tab**.
-7. Tùy chọn: Trong trường **Cụm chương trình** , thêm cụm CFDA thích hợp.
+7. Tùy chọn: Trong trường **Cụm chương trình**, thêm cụm CFDA thích hợp.
 8. Chọn **Lưu** để lưu thay đổi của bạn.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Thiết lập các khoản trợ cấp để báo cáo cho truy vấn về Lịch trình chi tiêu của Giải thưởng Liên bang
 
 1. Đi đến **Quản lý dự án và kế toán \> Khoản trợ cấp \> Khoản trợ cấp** và chọn một khoản trợ cấp hiện có.
-2. Trên FastTab **Thiết lập** , trong trường **Sản phẩm hỗ trợ liên bang trong nước** , hãy gán số hiệu CFDA. Số hiệu CFDA trên khoản trợ cấp xác định cụm CFDA để báo cáo.
-3. Trên FastTab **Thông tin liên lạc** , nhập thông tin người tài trợ bằng cách làm theo các bước sau:
+2. Trên FastTab **Thiết lập**, trong trường **Sản phẩm hỗ trợ liên bang trong nước**, hãy gán số hiệu CFDA. Số hiệu CFDA trên khoản trợ cấp xác định cụm CFDA để báo cáo.
+3. Trên FastTab **Thông tin liên lạc**, nhập thông tin người tài trợ bằng cách làm theo các bước sau:
 
-    1. Trong trường **Khách hàng trợ cấp** , nhập khách hàng chịu trách nhiệm cho khoản trợ cấp. Đối với một khoản trợ cấp hiện có, thông tin này có thể đã được nhập.
+    1. Trong trường **Khách hàng trợ cấp**, nhập khách hàng chịu trách nhiệm cho khoản trợ cấp. Đối với một khoản trợ cấp hiện có, thông tin này có thể đã được nhập.
     2. Cho biết khách hàng trợ cấp có phải là nhà tài trợ hay không. Nếu khách hàng trợ cấp là nhà tài trợ, không chọn hộp kiểm **Chuyển tiếp**. Nếu khách hàng khác là nhà tài trợ và khách hàng trợ cấp chịu trách nhiệm chi tiêu và theo dõi số tiền, hãy chọn hộp kiểm **Chuyển tiếp**.
 
-4. Nếu bạn đã chọn hộp kiểm **Chuyển tiếp** trong bước trước đó, trong trường **Cơ quan trợ cấp** , hãy nhập khách hàng đã cung cấp khoản trợ cấp. Cơ quan trợ cấp và khách hàng trợ cấp không được là cùng một khách hàng.
+4. Nếu bạn đã chọn hộp kiểm **Chuyển tiếp** trong bước trước đó, trong trường **Cơ quan trợ cấp**, hãy nhập khách hàng đã cung cấp khoản trợ cấp. Cơ quan trợ cấp và khách hàng trợ cấp không được là cùng một khách hàng.
 
 Dưới đây là một ví dụ về khoản trợ cấp chuyển tiếp:
 
@@ -79,16 +79,16 @@ Chính phủ liên bang đã tài trợ một dự án cơ sở hạ tầng cho 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Loại trừ các khoản trợ cấp khỏi báo cáo SEFA dựa trên loại trợ cấp
 
-1. Đi đến **Quản lý dự án và kế toán \> Thiết lập \> Khoản trợ cấp \> Các loại trợ cấp**.
-2. Trên FastTab **Thông tin mặc định** , chọn hộp kiểm **Loại trừ khỏi Lịch trình chi tiêu của Giải thưởng Liên bang**.
+1. Chuyển đến **Quản lý dự án và kế toán \> Thiết lập \> Khoản trợ cấp \> Các loại trợ cấp**.
+2. Trên FastTab **Thông tin mặc định**, chọn hộp kiểm **Loại trừ khỏi Lịch trình chi tiêu của Giải thưởng Liên bang**.
 3. Chọn **Lưu** để lưu thay đổi của bạn.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Chạy truy vấn về Lịch trình chi tiêu của Giải thưởng Liên bang
 
 1. Đi đến **Quản lý dự án và kế toán \> Truy vấn và báo cáo \> Truy vấn về khoản trợ cấp \> Lịch trình chi tiêu của Giải thưởng Liên bang**.
-2. Trong phần **Tham số** , hãy làm theo các bước sau:
+2. Trong phần **Tham số**, hãy làm theo các bước sau:
 
-    1. Trong trường **Khoảng ngày** , chọn mã cho khoảng ngày. Hoặc, trong các trường **Từ ngày** và **Đến ngày** , hãy xác định khoảng ngày.
+    1. Trong trường **Khoảng ngày**, chọn mã cho khoảng ngày. Hoặc, trong các trường **Từ ngày** và **Đến ngày**, hãy xác định khoảng ngày.
     2. Tùy chọn: Để chỉ bao gồm các giao dịch đã lập hóa đơn dưới dạng doanh thu trong truy vấn, hãy đặt tùy chọn **Chỉ bao gồm doanh thu đã lập hóa đơn** thành **Có**.
 
 ## <a name="columns"></a>Cột

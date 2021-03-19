@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289800"
 ---
 # <a name="project-management-and-accounting-overview"></a>Tổng quan về quản lý dự án và kế toán
 
@@ -205,7 +205,7 @@ Bạn có thể đặt hàng các mặt hàng từ kho của công ty để tiê
 
 Cách thức đặt hàng sẽ phụ thuộc vào nơi bạn đặt hàng:
 
--   Để đặt hàng từ kho của công ty, bạn phải nhập đơn hàng dưới dạng yêu cầu về mặt hàng. Nếu sử dụng trang **Yêu cầu về mặt hàng** , bạn có thể thiết lập yêu cầu để các mặt hàng được giao từng phần. Do đó, bạn có thể trì hoãn việc tiêu thụ một lượng mặt hàng nhất định cho đến khi cần dùng mặt hàng đó.
+-   Để đặt hàng từ kho của công ty, bạn phải nhập đơn hàng dưới dạng yêu cầu về mặt hàng. Nếu sử dụng trang **Yêu cầu về mặt hàng**, bạn có thể thiết lập yêu cầu để các mặt hàng được giao từng phần. Do đó, bạn có thể trì hoãn việc tiêu thụ một lượng mặt hàng nhất định cho đến khi cần dùng mặt hàng đó.
 -   Để đặt hàng từ nhà cung cấp bên ngoài, bạn phải tạo đơn hàng dưới dạng đơn đặt hàng trên trang **Đơn đặt hàng**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Trước khi tạo hóa đơn dự án cho khách hàng, bạn có thể tạo h
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Tính toán chi phí hoàn thành dự án
 
-Khi tạo mục ước tính, bạn có thể chọn phương pháp dùng để tính toán chi phí hoàn thành dự án. Bạn chọn một phương pháp trong trường **Phương pháp chi phí hoàn thành** trên trang **Tạo ước tính**. Phương pháp bạn chọn sẽ được áp dụng riêng cho từng dòng chi phí trong mục ước tính chi phí. Khi dòng có trạng thái **Đã tạo** , bạn có thể thay đổi phương pháp được áp dụng cho nó trên trang **Ước tính chi phí**. 
+Khi tạo mục ước tính, bạn có thể chọn phương pháp dùng để tính toán chi phí hoàn thành dự án. Bạn chọn một phương pháp trong trường **Phương pháp chi phí hoàn thành** trên trang **Tạo ước tính**. Phương pháp bạn chọn sẽ được áp dụng riêng cho từng dòng chi phí trong mục ước tính chi phí. Khi dòng có trạng thái **Đã tạo**, bạn có thể thay đổi phương pháp được áp dụng cho nó trên trang **Ước tính chi phí**. 
 
 Bảng sau đây mô tả các phương pháp tính toán chi phí hoàn thành dự án.
 
@@ -300,12 +300,12 @@ Dựa trên phần thiết lập của bạn, bạn có thể dự báo dòng ti
 -   **Ngày dự án:** 05/03/2012.
 -   **Ngày xuất hóa đơn:** 31/03/2012. Ngày này được xác định dựa trên tần suất xuất hóa đơn. Đối với ví dụ này, bạn thiết lập tần suất lập hóa đơn là tháng hiện tại. Do đó, tất cả các giao dịch đã đăng trong tháng 3 đều được lập hóa đơn vào ngày cuối tháng.
 -   **Ngày đến hạn:** 14/04/2012. Ngày này được xác định dựa trên điều khoản thanh toán đã thiết lập cho dự án. Đối với ví dụ này, bạn đã chọn thời hạn thanh toán là 14 ngày. Do đó, 14 ngày sau ngày lập hóa đơn chính là ngày đến hạn: 14/04/2012.
--   **Ngày thanh toán bán hàng dự kiến:** 27/04/2012. Ngày này được tính bằng cách cộng số ngày trong trường **Số ngày đệm chung** trên trang **Tham số quản lý dự án và kế toán** với số ngày trong trường **Số ngày đệm riêng lẻ** trên trang **Hợp đồng dự án** , rồi cộng tổng đó với số ngày trong trường **Ngày đến hạn**. Đối với ví dụ này, bạn đã nhập **3** vào trường **Số ngày đệm chung** và **10** vào trường **Số ngày đệm riêng lẻ**. Do đó, ngày thanh toán bán hàng dự kiến sẽ là 13 ngày sau ngày đến hạn, tức là 27/04/2012.
+-   **Ngày thanh toán bán hàng dự kiến:** 27/04/2012. Ngày này được tính bằng cách cộng số ngày trong trường **Số ngày đệm chung** trên trang **Tham số quản lý dự án và kế toán** với số ngày trong trường **Số ngày đệm riêng** trên trang **Hợp đồng dự án**, sau đó cộng tổng số ngày trong trường **Ngày đến hạn**. Đối với ví dụ này, bạn đã nhập **3** vào trường **Số ngày đệm chung** và **10** vào trường **Số ngày đệm riêng lẻ**. Do đó, ngày thanh toán bán hàng dự kiến sẽ là 13 ngày sau ngày đến hạn, tức là 27/04/2012.
 
 Số ngày đệm chung có thể thay thế số ngày đệm riêng lẻ hoặc cộng thêm với số ngày đệm riêng lẻ:
 
 -   Để sử dụng số ngày đệm chung thay thế cho số ngày đệm riêng lẻ, hãy nhập số ngày trung bình giữa ngày đến hạn và ngày thanh toán thực tế cho khách hàng.
--   Để cộng số ngày đệm chung với số ngày đệm riêng lẻ, trong trường **Số ngày đệm chung** , hãy nhập giá trị ước tính của bạn cho số ngày từ khi khách hàng gửi thanh toán đến khi tổ chức của bạn nhận được khoản thanh toán.
+-   Để cộng số ngày đệm chung với số ngày đệm riêng lẻ, trong trường **Số ngày đệm chung**, hãy nhập giá trị ước tính của bạn cho số ngày từ khi khách hàng gửi thanh toán đến khi tổ chức của bạn nhận được khoản thanh toán.
 
 Thiết lập số ngày đệm riêng lẻ trong hợp đồng của dự án. Số ngày này được tính dựa trên cả ngày đến hạn của hóa đơn bán hàng và trải nghiệm của tổ chức bạn với hình thức thanh toán của khách hàng.
 
@@ -323,9 +323,9 @@ Dựa trên số ngày đã xác định, ngày thanh toán chi phí có thể k
 
 Lấy ví dụ, ngày thực hiện giao dịch trong dự án là 05/03/2012 và các điều khoản thanh toán được thiết lập như sau:
 
--   **Giờ công:** Tháng hiện tại ( **M** )
--   **Chi phí:** 14 ngày ( **D14** )
--   **Mặt hàng:** 30 ngày ( **D30** )
+-   **Giờ công:** Tháng hiện tại (**M**)
+-   **Chi phí:** 14 ngày (**D14**)
+-   **Mặt hàng:** 30 ngày (**D30**)
 
 Dựa trên các mục thiết đặt này, sau đây là ngày thanh toán chi phí cho từng loại giao dịch:
 
@@ -364,14 +364,14 @@ Bạn có thể giám sát các chi phí mà tổ chức của bạn phải ch�
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Xem số tiền ngân sách còn lại
 
-Nếu bạn chọn **Ngân sách còn lại** làm phương pháp kiểm soát chi phí trên trang **Tham số quản lý dự án và kế toán** , thì trang **Kiểm soát chi phí** sẽ tính toán cả các chi phí chưa được đăng là thực tế hay được đánh dấu là cam kết. Cụ thể, các giá trị số tiền trên tab **Chung** ở ngăn dưới của trang **Kiểm soát chi phí** được tính theo những cách sau:
+Nếu bạn chọn **Ngân sách còn lại** làm phương pháp kiểm soát chi phí trên trang **Tham số quản lý dự án và kế toán**, thì trang **Kiểm soát chi phí** sẽ tính toán cả các chi phí chưa được đăng là thực tế hay được đánh dấu là cam kết. Cụ thể, các giá trị số tiền trên tab **Chung** ở ngăn dưới của trang **Kiểm soát chi phí** được tính theo những cách sau:
 
 -   **Chi phí thực tế** – Tổng số tiền đã chi cho dự án đối với dòng chi phí được chọn. Số tiền chi phí thực tế được tính trên trang **Cập nhật sổ cái**.
 -   **Chi phí đã cam kết** – Số tiền chi phí bổ sung mà pháp nhân đã cam kết chi trả. Số tiền chi phí đã cam kết cụ thể được tính trên trang **Chi phí đã cam kết**.
 -   **Ngân sách còn lại** – Số tiền còn có thể chi tiêu trong khoản dự trù ban đầu đối với dòng chi phí đã chọn. Số tiền ngân sách còn lại được tính trên trang **Xem trước sổ cái**.
 -   **Tổng chi phí** – Tổng của chi phí thực tế, chi phí đã cam kết và ngân sách còn lại.
 
-Trên trang **Kiểm soát chi phí** , trên tab **Độ lệch** , bạn có thể xem phần so sánh tổng chi phí dự kiến với ngân sách ban đầu. So sánh này thể hiện mọi sự khác biệt giữa các số tiền này. Do đó, bạn có thể thấy dữ liệu không khớp nhau ở đâu. Số tiền sai lệch được tính theo những cách sau:
+Trên trang **Kiểm soát chi phí**, trên tab **Độ lệch**, bạn có thể xem phần so sánh tổng chi phí dự kiến với ngân sách ban đầu. So sánh này thể hiện mọi sự khác biệt giữa các số tiền này. Do đó, bạn có thể thấy dữ liệu không khớp nhau ở đâu. Số tiền sai lệch được tính theo những cách sau:
 
 -   **Ngân sách ban đầu** – Số tiền dự trù ban đầu đối với dòng chi phí đã chọn. Số tiền ngân sách ban đầu được tính trên trang **Xem trước sổ cái**.
 -   **Tổng chi phí** – Tổng của chi phí thực tế, chi phí đã cam kết và ngân sách còn lại, như giá trị được báo cáo trên tab **Chung**.
@@ -381,14 +381,14 @@ Trên trang **Kiểm soát chi phí** , trên tab **Độ lệch** , bạn có 
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Xem tổng số tiền dự trù
 
-Nếu bạn chọn **Tổng ngân sách** làm phương pháp kiểm soát chi phí trên trang **Tham số quản lý dự án và kế toán** , thì trang **Kiểm soát chi phí** sẽ tính toán chi phí thực tế và tổng chi phí của dự án để giúp bạn phát hiện mọi sự chênh lệch giữa hai giá trị này. Cụ thể, trên trang **Kiểm soát chi phí** , các giá trị số tiền trong các cột ở ngăn dưới trên tab **Chung** được tính theo những cách sau:
+Nếu bạn chọn **Tổng ngân sách** làm phương pháp kiểm soát chi phí trên trang **Tham số quản lý dự án và kế toán**, thì trang **Kiểm soát chi phí** sẽ tính toán chi phí thực tế và tổng chi phí của dự án để giúp bạn phát hiện mọi sự chênh lệch giữa hai giá trị này. Cụ thể, trên trang **Kiểm soát chi phí**, các giá trị số tiền trong các cột ở ngăn dưới trên tab **Chung** được tính theo những cách sau:
 
 -   **Tổng chi phí dự trù** – Tổng số tiền dự trù cho dòng chi phí đã chọn.
 -   **Chi phí thực tế** – Tổng số tiền chi phí phát sinh trong dự án đến hiện tại đối với dòng chi phí được chọn.
 -   **Chi phí đã cam kết** – Tổng số tiền chi phí đã cam kết đối với dòng chi phí được chọn.
 -   **Phương sai** – Chênh lệch giữa tổng chi phí và tổng của chi phí thực tế cộng chi phí đã cam kết. Phương sai cho biết liệu bạn có phải chỉ định chi phí bổ sung cho tổng ngân sách hay không.
 
-Trên trang **Kiểm soát chi phí** , trên tab **Độ lệch** , bạn có thể biết chênh lệch giữa tổng ngân sách và ngân sách ban đầu bằng cách xem các trường sau:
+Trên trang **Kiểm soát chi phí**, trên tab **Độ lệch**, bạn có thể biết chênh lệch giữa tổng ngân sách và ngân sách ban đầu bằng cách xem các trường sau:
 
 -   **Ngân sách ban đầu** – Số tiền dự trù ban đầu đối với dòng chi phí. Ngân sách ban đầu được tính trên trang **Xem trước sổ cái**.
 -   **Tổng ngân sách dự trù** – Tổng chi phí dự trù ban đầu đối với dòng chi phí. Tổng chi phí dự trù được tính trên trang **Xem trước sổ cái**.
@@ -414,7 +414,7 @@ Bạn tính toán tỷ lệ thời gian làm việc trên trang **Số giờ là
 -   **Theo thuộc tính dòng** – Thuộc tính dòng của một giao dịch giờ cụ thể sẽ xác định xem số giờ đó có được xem xét trong phép tính thời gian làm việc có hiệu quả hoặc có thể tính phí hay không.
 -   **Không bao gồm** – Số giờ không được xem là hệ số trong phép tính thời gian làm việc có hiệu quả hoặc có thể tính phí.
 
-Trên trang **Số giờ làm việc** , ngoài tỷ lệ phần trăm thời gian làm việc tổng thể cho một nhân viên hoặc dự án, bạn có thể xem số giờ đã dùng để tính toán tỷ lệ thời gian làm việc đối với từng loại giờ sau:
+Trên trang **Số giờ làm việc**, ngoài tỷ lệ phần trăm thời gian làm việc tổng thể cho một nhân viên hoặc dự án, bạn có thể xem số giờ đã dùng để tính toán tỷ lệ thời gian làm việc đối với từng loại giờ sau:
 
 -   **Số giờ không bao gồm** – Những giờ này không được đưa vào phép tính tỷ lệ thời gian làm việc.
 -   **Số giờ đã bao gồm** – Những giờ này được tính bằng cách cộng số giờ làm việc và số giờ hao phí. Những giờ này được tính trong tỷ lệ thời gian làm việc.
@@ -432,7 +432,7 @@ Bạn có thể tạo báo cáo dự án để xem nhanh tiến độ của mộ
 -   Ngày dự án/ngày ghi vào sổ cái
 -   Dữ liệu
 
-Sau khi báo cáo được tính toán, bạn có thể xem thông tin sau ở các tab khác nhau trên trang **Báo cáo dự án** :
+Sau khi báo cáo được tính toán, bạn có thể xem thông tin sau ở các tab khác nhau trên trang **Báo cáo dự án**:
 
 -   **Chung** – Thông tin chung về cơ cấu lãi và lỗ cơ bản của dự án.
 -   **Lãi và lỗ** – Thông tin về doanh thu dồn tích.

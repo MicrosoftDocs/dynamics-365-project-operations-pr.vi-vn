@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087083"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287984"
 ---
 # <a name="work-breakdown-structures-overview"></a>Tổng quan về cấu trúc phân tích công việc
 
@@ -49,7 +49,7 @@ Xây dựng WBS là một quá trình chuyên sâu thường được thực hi�
 Để tận dụng khả năng lập lịch của các tính năng WBS, hãy hoàn tất quá trình thiết lập sau:
 
 1.  Thiết lập lịch mặc định và lịch dự án:
-    1.  Nhấp vào **Quản lý dự án và kế toán** &gt; **Thiết lập** &gt; **Tham số quản lý dự án và kế toán** &gt; **Lập lịch trình**. Trong trường **Lịch làm việc mặc định** , chỉ định lịch mặc định. Đây sẽ là lịch làm việc mặc định cho bất kỳ dự án mới nào được tạo.
+    1.  Nhấp vào **Quản lý dự án và kế toán** &gt; **Thiết lập** &gt; **Tham số quản lý dự án và kế toán** &gt; **Lập lịch trình**. Trong trường **Lịch làm việc mặc định**, chỉ định lịch mặc định. Đây sẽ là lịch làm việc mặc định cho bất kỳ dự án mới nào được tạo.
     2.  Bạn có thể thay đổi lịch mặc định cho một dự án cụ thể. Nhấp vào trang chi tiết của dự án, sau đó, trên **Nhóm dự án và lập lịch trình** FastTab, cập nhật trường **Lịch lập lịch** bằng cách chọn một lịch khác.
 
 2.  Thiết lập ngày làm việc tiêu chuẩn và giờ làm việc. Lịch mà bạn đặt làm lịch làm việc cho dự án của mình sẽ được sử dụng trong WBS để xác định thông tin sau:
@@ -98,7 +98,7 @@ Hiện tại, bạn không thể tùy chỉnh việc đánh số WBS.
 
 **Tăng lề nhiệm vụ** Khi bạn tăng lề nhiệm vụ, nó không còn là một nhiệm vụ cấu thành của nhiệm vụ mẹ nữa. Số WBS của nhiệm vụ này được tự động tính toán lại để phản ánh cấp độ mới của nhiệm vụ trong hệ thống cấp bậc. Nhân công, chi phí và ngày của nhiệm vụ mẹ phía trước được tính toán lại để loại trừ nhiệm vụ đó. 
 
-**Chuyển lên và chuyển xuống** Khi bạn nhấp vào **Chuyển lên** và **Chuyển xuống** , bạn thay đổi vị trí của một nhiệm vụ trong hệ thống cấp bậc của nhiệm vụ mẹ. Vị trí của nhiệm vụ không ảnh hưởng đến nhân công, chi phí, ngày hoặc khoảng thời gian của nhiệm vụ. Tuy nhiên, số WBS của nhiệm vụ được tự động tính toán lại để phản ánh vị trí mới của nhiệm vụ.
+**Chuyển lên và chuyển xuống** Khi bạn nhấp vào **Chuyển lên** và **Chuyển xuống**, bạn thay đổi vị trí của một nhiệm vụ trong hệ thống cấp bậc của nhiệm vụ mẹ. Vị trí của nhiệm vụ không ảnh hưởng đến nhân công, chi phí, ngày hoặc khoảng thời gian của nhiệm vụ. Tuy nhiên, số WBS của nhiệm vụ được tự động tính toán lại để phản ánh vị trí mới của nhiệm vụ.
 
 ### <a name="schedule-estimation"></a>Ước tính lịch trình
 

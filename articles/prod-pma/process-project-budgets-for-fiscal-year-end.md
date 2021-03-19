@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087241"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289755"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Chuyển ngân sách dự án vào cuối năm tài chính
 
@@ -36,12 +36,12 @@ Khi thực hiện một dự án kéo dài nhiều năm, bạn có thể còn l�
 Hoàn thành các bước sau để xem xét số tiền ngân sách cuối năm cho các dự án, nhưng không chuyển số tiền này.
 
 1. Đi đến **Kế toán và quản lý dự án** > **Định kỳ** > **Ngân sách** > **Chuyển tiếp ngân sách**. 
-2. Trên trang **Quy trình chuyển tiếp ngân sách dự án** , trên tab **Tùy chọn cuối năm** , xác minh rằng **Chuyển tiếp số tiền ngân sách dự án còn lại** không được kích hoạt.
-3. Trên tab **Tham số** , trong trường **Năm ngân sách dự án** , hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
-4. Trong trường **Bắt đầu năm tài chính** , hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
-5. Trong trường **Từ mô hình dự báo** , chọn **Ngân sách còn lại**. 
+2. Trên trang **Quy trình chuyển tiếp ngân sách dự án**, trên tab **Tùy chọn cuối năm**, xác minh rằng **Chuyển tiếp số tiền ngân sách dự án còn lại** không được kích hoạt.
+3. Trên tab **Tham số**, trong trường **Năm ngân sách dự án**, hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
+4. Trong trường **Bắt đầu năm tài chính**, hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
+5. Trong trường **Từ mô hình dự báo**, chọn **Ngân sách còn lại**. 
 6. Để bao gồm các dự án đáp ứng tiêu chí bạn đã chọn và không còn ngân sách, hãy chọn **Hiển thị không còn lại**.  
-7. Trên tab **Chọn ngân sách** , chọn **Truy xuất tất cả ngân sách** để tải tất cả các ngân sách phù hợp với tiêu chí bạn đã chọn, sau đó chọn **Xử lý**. 
+7. Trên tab **Chọn ngân sách**, chọn **Truy xuất tất cả ngân sách** để tải tất cả các ngân sách phù hợp với tiêu chí bạn đã chọn, sau đó chọn **Xử lý**. 
 8. Để thiết kế truy vấn cơ sở dữ liệu tải một tập hợp ngân sách cụ thể vào ngăn, hãy chọn **Truy xuất các ngân sách đã chọn**.
 
 Để biết thêm thông tin về một dòng cụ thể trong ngăn, hãy chọn dòng, sau đó chọn **Xem chi tiết ngân sách** hoặc **Xem tài khoản**.
@@ -56,27 +56,27 @@ Khi xử lý số tiền ngân sách còn lại, bạn có thể tạo các giao
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Chuyển tiếp số tiền ngân sách và tạo các giao dịch sổ cái
 
 1.  Chọn **Kế toán và quản lý dự án** > **Định kỳ** > **Ngân sách** > **Chuyển tiếp ngân sách**. 
-2. Trên trang **Quy trình chuyển tiếp ngân sách dự án** , chọn **Cuối năm** , sau đó bật **Chuyển tiếp số tiền ngân sách dự án còn lại** và **Tạo mục đăng ký ngân sách trong sổ cái**. 
-3. Trên tab **Tham số** , trong nhóm trường **Tham số dự án** , chọn các mục sau:
+2. Trên trang **Quy trình chuyển tiếp ngân sách dự án**, chọn **Cuối năm**, sau đó bật **Chuyển tiếp số tiền ngân sách dự án còn lại** và **Tạo mục đăng ký ngân sách trong sổ cái**. 
+3. Trên tab **Tham số**, trong nhóm trường **Tham số dự án**, chọn các mục sau:
 
-   - **Năm ngân sách dự án** : Chọn đầu năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
-   - **Lãi và lỗ** : Tạo giao dịch lãi và lỗ trong sổ cái. 
-   -  **WIP** : Tạo các giao dịch Đang tiến hành (WIP) trong sổ cái.
-   -  **Bảng lương** : Tạo giao dịch phân bổ bảng lương trong sổ cái. 
+   - **Năm ngân sách dự án**: Chọn đầu năm tài chính mà bạn muốn xem số tiền ngân sách còn lại. 
+   - **Lãi và lỗ**: Tạo giao dịch lãi và lỗ trong sổ cái. 
+   -  **WIP**: Tạo các giao dịch Đang tiến hành (WIP) trong sổ cái.
+   -  **Bảng lương**: Tạo giao dịch phân bổ bảng lương trong sổ cái. 
 
-5. Trong nhóm trường **Sổ cái** , hãy cung cấp thông tin sau: 
+5. Trong nhóm trường **Sổ cái**, hãy cung cấp thông tin sau: 
 
-   - Trong trường **Bắt đầu năm tài chính** , hãy chọn năm tài chính mà bạn muốn chuyển tiếp số tiền ngân sách còn lại cho dự án. Giá trị mặc định là một năm sau giá trị trong trường **Năm ngân sách dự án**.
-   -  Trong trường **Kỳ chuyển tiếp** , chọn kỳ mà bạn muốn tạo chi tiết đăng ký nhật ký trong sổ cái. Đây thường là kỳ đầu tiên trong năm tài chính mở.
+   - Trong trường **Bắt đầu năm tài chính**, hãy chọn năm tài chính mà bạn muốn chuyển tiếp số tiền ngân sách còn lại cho dự án. Giá trị mặc định là một năm sau giá trị trong trường **Năm ngân sách dự án**.
+   -  Trong trường **Kỳ chuyển tiếp**, chọn kỳ mà bạn muốn tạo chi tiết đăng ký nhật ký trong sổ cái. Đây thường là kỳ đầu tiên trong năm tài chính mở.
 
-6. Trong nhóm trường **Sao chép từ/tới** , hãy cung cấp thông tin sau:
+6. Trong nhóm trường **Sao chép từ/tới**, hãy cung cấp thông tin sau:
 
-   - Trong trường **Từ mô hình dự báo** , chọn mô hình dự báo ngân sách dự án liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển cho dự án. 
-   - Trong trường **Đến mô hình ngân sách sổ cái** , chọn mô hình ngân sách sổ cái liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển sang sổ cái. 
+   - Trong trường **Từ mô hình dự báo**, chọn mô hình dự báo ngân sách dự án liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển cho dự án. 
+   - Trong trường **Đến mô hình ngân sách sổ cái**, chọn mô hình ngân sách sổ cái liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển sang sổ cái. 
    -  Chọn **Chuyển đơn vị tiền tệ bán hàng** để sử dụng đơn vị tiền tệ bán hàng của dự án cho các giao dịch sổ cái được tạo khi bạn chuyển số tiền ngân sách cho dự án. Khi tùy chọn không được chọn, các giao dịch sẽ sử dụng đơn vị tiền tệ kế toán. 
    -  Chọn **Hiển thị không còn lại** để bao gồm các dự án không còn số tiền ngân sách, nhưng đáp ứng các tiêu chí khác mà bạn chọn trong các dự án được hiển thị ở ngăn dưới cùng.
 
-7. Trên tab **Chọn ngân sách** , hãy chọn **Truy xuất tất cả ngân sách** để tải tất cả ngân sách phù hợp với tiêu chí bạn đã chọn. Nếu bạn muốn thiết kế truy vấn cơ sở dữ liệu tải một tập hợp ngân sách dự án cụ thể vào ngăn, hãy chọn **Truy xuất các ngân sách đã chọn**.
+7. Trên tab **Chọn ngân sách**, hãy chọn **Truy xuất tất cả ngân sách** để tải tất cả ngân sách phù hợp với tiêu chí bạn đã chọn. Nếu bạn muốn thiết kế truy vấn cơ sở dữ liệu tải một tập hợp ngân sách dự án cụ thể vào ngăn, hãy chọn **Truy xuất các ngân sách đã chọn**.
 8. Đối với mỗi dự án mà bạn muốn xử lý, hãy chọn tùy chọn ở đầu dòng cho dự án.
 
     > [!TIP]
@@ -87,13 +87,13 @@ Khi xử lý số tiền ngân sách còn lại, bạn có thể tạo các giao
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Chuyển tiếp số tiền ngân sách mà không tạo các giao dịch sổ cái
 
 1. Đi đến **Kế toán và quản lý dự án** > **Định kỳ** > **Ngân sách** > **Chuyển tiếp ngân sách**.
-2. Trên trang **Quy trình chuyển tiếp ngân sách dự án** , trong trường **Tùy chọn cuối năm** , chọn **Chuyển tiếp số tiền ngân sách dự án còn lại**.
-3. Trong nhóm **Tham số** , trong trường **Năm ngân sách dự án** , hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại.
-4. Trong nhóm **Sao chép từ/tới** , hãy cung cấp thông tin sau:
+2. Trên trang **Quy trình chuyển tiếp ngân sách dự án**, trong trường **Tùy chọn cuối năm**, chọn **Chuyển tiếp số tiền ngân sách dự án còn lại**.
+3. Trong nhóm **Tham số**, trong trường **Năm ngân sách dự án**, hãy chọn năm tài chính mà bạn muốn xem số tiền ngân sách còn lại.
+4. Trong nhóm **Sao chép từ/tới**, hãy cung cấp thông tin sau:
 
-   - Trong trường **Từ mô hình dự báo** , chọn mô hình dự báo ngân sách dự án liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển cho dự án. 
+   - Trong trường **Từ mô hình dự báo**, chọn mô hình dự báo ngân sách dự án liên quan đến số tiền ngân sách còn lại mà bạn muốn chuyển cho dự án. 
    - Chọn **Hiển thị không còn lại** để bao gồm các dự án không còn ngân sách, nhưng đáp ứng các tiêu chí khác mà bạn đã chọn.
-   - Trong nhóm **Chọn ngân sách** , hãy chọn **Truy xuất tất cả ngân sách** để tải tất cả ngân sách phù hợp với tiêu chí bạn đã chọn. Để thiết kế truy vấn cơ sở dữ liệu tải một tập hợp ngân sách dự án cụ thể vào ngăn, hãy chọn **Truy xuất các ngân sách đã chọn**.
+   - Trong nhóm **Chọn ngân sách**, hãy chọn **Truy xuất tất cả ngân sách** để tải tất cả ngân sách phù hợp với tiêu chí bạn đã chọn. Để thiết kế truy vấn cơ sở dữ liệu tải một tập hợp ngân sách dự án cụ thể vào ngăn, hãy chọn **Truy xuất các ngân sách đã chọn**.
 
 5. Đối với mỗi dự án mà bạn muốn xử lý, hãy chọn tùy chọn ở đầu dòng cho dự án. 
 6. Chọn **Xử lý** để chuyển số tiền ngân sách còn lại cho các dự án đã chọn sang năm tài chính đã chọn.
