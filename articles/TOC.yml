@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Tính năng mới
       items:
+        - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -64,7 +66,7 @@
           items:
             - name: Tổng quan về quản lý cơ hội dự án
               href: sales/manage-project-based-opportunities.md
-            - name: Thiết đặt cơ hội dựa trên dự án
+            - name: Chi tiết của tiêu đề cho các cơ hội dựa trên dự án
               href: sales/opportunity-header.md
             - name: Mô tả cơ hội dựa trên dự án
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Tổng quan về quản lý báo giá dự án
               href: pro/sales/manage-quotes-sales.md
-            - name: Khái niệm về báo giá dự án
+            - name: Các khái niệm duy nhất cho báo giá dựa trên dự án
               href: sales/quotes-key-concepts.md
-            - name: Thiết đặt báo giá dự án
+            - name: Chi tiết của tiêu đề cho các báo giá dựa trên dự án
               href: sales/quote-values-budget-limits-contract.md
             - name: Quản lý nhiều khách hàng trên một báo giá dự án
               href: sales/manage-multiple-customers-quote.md
             - name: Quản lý bảng giá dự án trên một báo giá
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Mô tả báo giá dựa trên dự án
               items:
                 - name: Tổng quan về mô tả báo giá dựa trên dự án
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Ánh xạ dự án và nhiệm vụ với mô tả báo giá dựa trên dự án
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Đặt cấu hình các thành phần có thể tính phí cho mô tả báo giá dựa trên dự án
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá dự án
                   href: sales/configure-chargeable-quoteline.md
-                - name: Tạo giá trị ước tính trên một mô tả báo giá
+                - name: Ước tính mô tả báo giá dự án
                   href: sales/create-estimate-quote-line.md
                 - name: Nhập ước tính từ một dự án vào mô tả báo giá dựa trên dự án
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Tổng quan về quản lý hợp đồng dự án
               href: pro/sales/manage-contracts-sales.md
-            - name: Khái niệm về hợp đồng dự án
+            - name: Các khái niệm duy nhất cho hợp đồng dựa trên dự án
               href: sales/contracts-key-concepts.md
-            - name: Thiết đặt hợp đồng dự án
+            - name: Chi tiết của tiêu đề cho các hợp đồng dựa trên dự án
               href: sales/project-contract-settings.md
             - name: Quản lý bảng giá dự án trên hợp đồng dự án
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Mô tả hợp đồng dựa trên dự án
               items:
                 - name: Tổng quan về mô tả hợp đồng dựa trên dự án
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Quản lý nhiều khách hàng trên mô tả hợp đồng dựa trên dự án
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Ước tính mô tả hợp đồng dựa trên dự án
+                - name: Ánh xạ dự án và nhiệm vụ trên mô tả hợp đồng dự án
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dự án
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Ước tính mô tả hợp đồng dự án
                   href: sales/create-estimate-contract-line.md
                 - name: Nhập ước tính từ một dự án vào mô tả hợp đồng dựa trên dự án
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Xác nhận hợp đồng dự án
               href: pro/sales/confirm-contract-sales.md
-            - name: Sao chép hợp đồng dự án
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Khoản ứng trước và khoản đặt cọc
               items:
                 - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc
@@ -146,16 +152,16 @@
       items:
         - name: Thiết lập bảng giá
           items:
-            - name: Thiết lập bảng giá
+            - name: Định nghĩa về bảng giá
               href: pricing-costing/price-list-setup.md
-            - name: Bảng giá sản phẩm
-              href: pricing-costing/product-price-list.md
             - name: Thiết lập tỷ lệ hóa đơn lao động
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Thiết lập tỷ lệ chi phí lao động
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Thiết lập chi phí và tỷ lệ bán hàng cho các chi phí
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Thiết lập chi phí và tỷ lệ bán hàng cho vật tư
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Giá trị mặc định và giá trị thay thế
           items:
             - name: Bảng giá mặc định
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Sao chép bảng giá
               href: pricing-costing/copy-price-lists.md
+            - name: Hủy kích hoạt bảng giá
+              href: pricing-costing/deactivatepricelists.md
         - name: Thông số định giá
           items:
             - name: Tổng quan về thông số định giá
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Tạo mục chỉ định
               href: project-management/create-assignments.md
-        - name: Ước tính dự án
+        - name: Dự toán tài chính cho dự án
           items:
-            - name: Tổng quan về ước tính dự án
+            - name: Khái niệm về dự toán tài chính
               href: project-management/estimating-projects-overview.md
-            - name: Ước tính nguồn lực
+            - name: Dự toán tài chính về thời gian nguồn lực cho dự án
               href: project-management/resource-estimates.md
-            - name: Tạo giá trị ước tính chi phí
+            - name: Dự toán tài chính về chi phí cho dự án
               href: project-management/create-expense-estimates.md
+            - name: Dự toán tài chính về vật tư cho dự án
+              href: project-management/create-material-estimate.md
         - name: Theo dõi dự án
           items:
-            - name: Tổng quan về theo dõi dự án
+            - name: Theo dõi chi phí dự án
               href: project-management/project-tracking-overview.md
+            - name: Theo dõi chi phí nhân công của dự án
+              href: project-management/project-cost-tracking.md
+            - name: Theo dõi doanh thu nhân công của dự án
+              href: project-management/project-sales-tracking.md
             - name: Cập nhật giá trị ước tính lúc hoàn thành
               href: project-management/update-completed-estimate.md
         - name: Thành viên nhóm dự án
@@ -248,6 +262,8 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
+            - name: Sử dụng API lịch trình (Bản xem trước công khai)
+              href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
         - name: Khái niệm chính
@@ -364,8 +380,12 @@
           href: expense/expense-using-mobile.md
         - name: Quản lý tài chính
           items:
-            - name: Hoàn thuế GTGT
+            - name: Hoàn thuế VAT
               href: expense/vat-recovery.md
+    - name: Sử dụng vật tư
+      items:
+        - name: Ghi mức sử dụng vật tư của dự án và nhiệm vụ dự án
+          href: material/material-usage-log.md
     - name: Phê duyệt
       items:
         - name: Tổng quan về phê duyệt
@@ -374,10 +394,12 @@
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
-    - name: Thực tế
+    - name: Số liệu thực tế
       items:
         - name: Tổng quan về giá trị thực tế
           href: actuals/actuals-overview.md
+        - name: Liên kết số liệu thực tế với hồ sơ gốc
+          href: actuals/linkingactuals.md
         - name: Nhật ký sửa chữa
           items:
             - name: Tạo và xác nhận Nhật ký sửa chữa
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Lập hóa đơn ước giá
           items:
-            - name: Quản lý tồn đọng lập hóa đơn dự án
+            - name: Quản lý tồn đọng lập hóa đơn dựa trên dự án
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Quản lý trạng thái không được vượt quá và các mục xác thực
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Tạo thủ công hóa đơn ước giá dự án
+            - name: Hóa đơn ước giá dựa trên dự án
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Quản lý hóa đơn ước giá dự án
+            - name: Quản lý hóa đơn ước giá dựa trên dự án
               href: proforma-invoicing/manage-proforma-invoice.md
-            - name: Lập hóa đơn khoản ứng trước hoặc khoản đặt cọc
+            - name: Lập hóa đơn khoản đặt cọc hoặc khoản ứng trước
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Xác nhận hóa đơn ước giá dự án
+            - name: Xác nhận hóa đơn ước giá dựa trên dự án
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
+            - name: Tạo hóa đơn hiệu chỉnh dựa trên dự án
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Đặt cấu hình hoạt động tạo hóa đơn dựa trên dự án tự động
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Kế toán dự án
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 4 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Tính năng mới kể từ tháng 3 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Tính năng mới kể từ tháng 2 năm 2021 – triển khai bản đơn giản
@@ -486,7 +512,7 @@
           items:
             - name: Tổng quan về cơ hội dự án
               href: sales/manage-project-based-opportunities.md
-            - name: Thiết đặt cơ hội dự án
+            - name: Chi tiết của tiêu đề cho các cơ hội dự án
               href: pro/sales/opportunity-header-sales.md
             - name: Quản lý mô tả cơ hội dựa trên sản phẩm
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Tổng quan về báo giá dựa trên dự án
               href: pro/sales/manage-quotes-sales.md
-            - name: Khái niệm về báo giá dự án
+            - name: Các khái niệm duy nhất cho báo giá dự án
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Thiết đặt báo giá dự án
+            - name: Chi tiết của tiêu đề cho các báo giá dự án
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Nhiều khách hàng trên báo giá dự án
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Tổng quan về hợp đồng dựa trên dự án
               href: pro/sales/manage-contracts-sales.md
-            - name: Khái niệm về hợp đồng dự án
+            - name: Các khái niệm duy nhất cho hợp đồng dự án
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Thiết đặt hợp đồng dự án
+            - name: Chi tiết của tiêu đề cho các hợp đồng dự án
               href: pro/sales/project-contract-settings-sales.md
             - name: Nhiều khách hàng trên một hợp đồng dự án
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Thiết lập bảng giá
           items:
-            - name: Thiết lập bảng giá
+            - name: Định nghĩa về bảng giá
               href: pricing-costing/price-list-setup.md
-            - name: Thiết lập bảng giá bán hàng
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Thiết lập tỷ lệ hóa đơn lao động – bản đơn giản
+            - name: Thiết lập bảng giá sản phẩm
+              href: pricing-costing/product-price-list.md
+            - name: Thiết lập tỷ lệ hóa đơn cho nhân công
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Thiết lập tỷ lệ chi phí lao động – bản đơn giản
+            - name: Thiết lập tỷ lệ chi phí cho nhân công
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Thiết lập chi phí và tỷ lệ bán hàng cho sản phẩm trên danh mục – bản đơn giản
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Thiết lập chi phí và tỷ lệ bán hàng cho các chi phí
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Thiết lập chi phí và tỷ lệ bán hàng cho vật tư
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Giá trị mặc định và giá trị thay thế
           items:
             - name: Bảng giá mặc định
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Thay thế bảng giá bán dự án
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Giải quyết giá vốn cho ước tính và thực tế – bản đơn giản
+            - name: Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Giải quyết giá bán hàng cho ước tính và thực tế – bản đơn giản
+            - name: Giải quyết giá bán hàng cho số liệu thực tế và ước tính của dự án
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Sao chép bảng giá
               href: pricing-costing/copy-price-lists.md
+            - name: Hủy kích hoạt bảng giá dự án
+              href: pricing-costing/deactivatepricelists.md
         - name: Thông số định giá
           items:
             - name: Tổng quan về thông số định giá
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Tạo mục chỉ định
               href: project-management/create-assignments.md
-        - name: Ước tính dự án
+        - name: Dự toán tài chính cho dự án
           items:
-            - name: Tổng quan về ước tính dự án
+            - name: Khái niệm về dự toán tài chính
               href: project-management/estimating-projects-overview.md
-            - name: Ước tính nguồn lực
+            - name: Dự toán tài chính về thời gian nguồn lực cho dự án
               href: project-management/resource-estimates.md
-            - name: Tạo giá trị ước tính chi phí
+            - name: Dự toán tài chính về chi phí cho dự án
               href: project-management/create-expense-estimates.md
+            - name: Dự toán tài chính về vật tư cho dự án
+              href: project-management/create-material-estimate.md
         - name: Theo dõi dự án
           items:
-            - name: Tổng quan về theo dõi dự án
+            - name: Theo dõi chi phí dự án
               href: project-management/project-tracking-overview.md
+            - name: Theo dõi chi phí nhân công của dự án
+              href: project-management/project-cost-tracking.md
+            - name: Theo dõi doanh thu nhân công của dự án
+              href: project-management/project-sales-tracking.md
             - name: Cập nhật giá trị ước tính lúc hoàn thành
               href: project-management/update-completed-estimate.md
         - name: Thành viên nhóm dự án
@@ -694,6 +728,8 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
+            - name: Sử dụng API lịch trình (Bản xem trước công khai)
+              href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
         - name: Khái niệm chính
@@ -768,7 +804,11 @@
           href: expense/expense-overview.md
         - name: Mục nhập chi phí (bản đơn giản)
           href: expense/basic-expense.md
-    - name: Phê duyệt
+    - name: Sử dụng vật tư
+      items:
+        - name: Ghi mức sử dụng vật tư của dự án và nhiệm vụ dự án
+          href: material/material-usage-log.md
+    - name: Phê duyệt
       items:
         - name: Tổng quan về phê duyệt
           href: approvals/approvals-overview.md
@@ -776,10 +816,12 @@
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
-    - name: Thực tế
+    - name: Số liệu thực tế
       items:
         - name: Tổng quan về giá trị thực tế
           href: actuals/actuals-overview.md
+        - name: Liên kết số liệu thực tế với hồ sơ gốc
+          href: actuals/linkingactuals.md
         - name: Nhật ký sửa chữa
           items:
             - name: Tạo và xác nhận Nhật ký sửa chữa
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Quản lý trạng thái không được vượt quá và các mục xác thực
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Tạo thủ công hóa đơn ước giá dự án
+        - name: Hóa đơn ước giá dự án
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Quản lý hóa đơn ước giá dự án
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Tính năng mới kể từ tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Tính năng mới kể từ tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Lập hóa đơn dự án
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Hiệu suất của đề xuất hóa đơn dự án
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Hợp đồng dự án
       href: prod-pma/project-contracts.md
     - name: Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
@@ -942,7 +988,7 @@
       href: expense/expense-using-mobile.md
     - name: Quản lý tài chính
       items:
-        - name: Hoàn thuế GTGT
+        - name: Hoàn thuế VAT
           href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
@@ -952,6 +998,10 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 29.5, Bản vá lỗi khẩn cấp, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 28.6, Bản vá lỗi khẩn cấp, V3'
@@ -1110,7 +1160,7 @@
               href: psa/recall-approved.md
             - name: Hủy việc phê duyệt các mục nhập thời gian hoặc chi phí đã được phê duyệt trước đây
               href: psa/cancel-approval.md
-            - name: Thực tế
+            - name: Số liệu thực tế
               href: psa/actuals.md
             - name: Chỉnh sửa hàng loạt dữ liệu thực tế được tạo bởi các mục nhập thời gian và chi phí đã phê duyệt
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
