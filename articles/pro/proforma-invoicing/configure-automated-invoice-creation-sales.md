@@ -1,29 +1,27 @@
 ---
-title: Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
-description: Chủ đề này cung cấp thông tin về việc đặt cấu hình hoạt động tạo tự động hóa đơn ước giá.
+title: Thiết lập chế độ tự động tạo hóa đơn
+description: Chủ đề này cung cấp thông tin về cách thiết lập và định cấu hình chế độ tự động tạo hóa đơn ước giá.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274349"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866843"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
+# <a name="set-up-automatic-invoice-creation"></a>Thiết lập chế độ tự động tạo hóa đơn 
  
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_
 
 Bạn có thể đặt cấu hình hoạt động tạo hóa đơn tự động trong Dynamics 365 Project Operations. Hệ thống tạo một hóa đơn ước giá nháp dựa trên lịch hóa đơn cho từng hợp đồng dự án và mục mô tả hợp đồng. Lịch trình hóa đơn được đặt cấu hình ở cấp độ mô tả hợp đồng. Mỗi mục mô tả trên hợp đồng có thể có một lịch trình hóa đơn riêng biệt hoặc cùng một lịch trình hóa đơn có thể được áp dụng cho mọi mục mô tả của hợp đồng.
 
-Khi bạn tạo hóa đơn, hệ thống luôn tạo ít nhất một hóa đơn cho mỗi hợp đồng dự án. Trong một số trường hợp, có thể có nhiều hóa đơn được tạo.
-
-Chẳng hạn, nếu hợp đồng có nhiều khách hàng thì số lượng hóa đơn được tạo sẽ bằng với số lượng khách hàng có giao dịch có thể tính phí cần lập hóa đơn trên hợp đồng dự án đó.
+Khi bạn tạo hóa đơn, hệ thống luôn tạo ít nhất một hóa đơn cho mỗi hợp đồng dự án. Trong một số trường hợp, có thể có nhiều hóa đơn được tạo. Chẳng hạn, nếu hợp đồng có nhiều khách hàng thì số lượng hóa đơn được tạo sẽ bằng với số lượng khách hàng có giao dịch có thể tính phí cần lập hóa đơn trên hợp đồng dự án đó.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Tìm hiểu cách xác định các giao dịch sẽ được đưa vào hóa đơn 
 

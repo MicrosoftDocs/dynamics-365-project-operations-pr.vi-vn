@@ -1,31 +1,41 @@
 ---
-title: Tổng quan về ước tính dự án
-description: Chủ đề này cung cấp thông tin về ước tính trong Dynamics 365 Project Operations.
-author: ruhercul
+title: Khái niệm về dự toán tài chính
+description: Chủ đề này cung cấp thông tin về dự toán tài chính của dự án trong Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286904"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701762"
 ---
-# <a name="estimate-projects-overview"></a>Tổng quan về ước tính dự án
+# <a name="financial-estimation-concepts"></a>Khái niệm về dự toán tài chính
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
+Trong Dynamics 365 Project Operations, bạn có thể dự toán tài chính cho các dự án của mình theo hai giai đoạn: 
+1. Trong giai đoạn trước bán hàng trước khi đạt được thoả thuận. 
+2. Trong giai đoạn thực hiện sau khi tạo hợp đồng dự án. 
+
+Bạn có thể tạo dự toán tài chính cho công việc dựa trên dự án bằng cách sử dụng bất kỳ trang nào trong 3 trang sau:
+- Trang **Mô tả báo giá**, sử dụng chi tiết mô tả báo giá.  
+- Trang **Mô tả hợp đồng dự án**, sử dụng chi tiết mô tả hợp đồng. 
+- Trang **Dự án**, sử dụng các trang tab **Nhiệm vụ** hoặc **Ước tính chi phí**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Sử dụng báo giá dự án để tạo ước tính
 Trên báo giá dựa trên dự án, bạn có thể sử dụng thực thể **Chi tiết dòng Báo giá** để ước tính công việc cần thiết cung cấp cho dự án. Sau đó, bạn có thể chia sẻ ước tính đó với khách hàng.
 
 Các dòng báo giá dựa trên dự án không cần phải có nhiều chi tiết dòng báo giá. Chi tiết dòng báo giá được sử dụng để ước tính thời gian, chi phí, hoặc lệ phí. Microsoft Dynamics 365 Project Operations không cho phép ước tính vật tư trên chi tiết dòng báo giá. Chúng được gọi là các lớp giao dịch. Ước tính số tiền thuế cũng có thể được nhập vào một lớp giao dịch.
 
 Ngoài các lớp giao dịch, chi tiết dòng báo giá còn có một loại giao dịch. Hai loại giao dịch được hỗ trợ cho chi tiết dòng báo giá là: **Chi phí** và **Hợp đồng dự án**.
 
-## <a name="estimate-by-using-a-contract"></a>Ước tính bằng cách sử dụng hợp đồng
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Sử dụng hợp đồng dự án để tạo ước tính
 
 Nếu bạn sử dụng một báo giá khi tạo một hợp đồng dựa trên dự án, ước tính mà bạn đã thực hiện cho mỗi dòng báo giá trên báo giá sẽ được sao chép vào hợp đồng dự án. Cấu trúc của một hợp đồng dự án giống như cấu trúc của báo giá dự án có các dòng, chi tiết về dòng và lịch trình hóa đơn.
 
@@ -35,27 +45,21 @@ Chi tiết dòng hợp đồng có thể được sử dụng để ước tính
 
 Không cho phép các ước tính vật tư trên chi tiết dòng hợp đồng.
 
-Quy trình được hỗ trợ trên hợp đồng dự án là tạo và xác nhận hóa đơn. Tạo hóa đơn sẽ tạo một bản nháp của một hóa đơn dựa trên dự án bao gồm tất cả doanh thu bán hàng chưa lập hóa đơn cho đến ngày hiện tại.
+## <a name="use-a-project-to-create-an-estimate"></a>Sử dụng dự án để tạo ước tính 
 
-Xác nhận khiến hợp đồng chuyển sang trạng thái chỉ đọc và từ **Bản nháp** thành **Đã xác nhận**. Sau khi bạn thực hiện hành động này, bạn không thể hoàn tác nó. Bởi vì hành động này là vĩnh viễn, bạn nên duy trì hợp đồng ở trạng thái **Bản nháp**.
-
-Sự khác biệt duy nhất giữa hợp đồng bản nháp và hợp đồng đã xác nhận là trạng thái của chúng và sự thật rằng hợp đồng bản nháp có thể chỉnh sửa trong khi hợp đồng đã xác nhận thì không thể. Có thể tạo hóa đơn và theo dõi doanh thu trên cả hợp đồng bản nháp và hợp đồng đã xác nhận.
-
-Project operations không hỗ trợ thay đổi đơn đặt hàng trên hợp đồng hoặc dự án.
-
-## <a name="estimating-projects"></a>Ước tính dự án
-
-Bạn có thể ước tính thời gian và chi phí cho dự án. Project operations không cho phép ước tính vật tư hoặc phí trên dự án.
+Bạn có thể ước tính thời gian và chi phí cho dự án. Project Operations không hỗ trợ ước tính vật tư hoặc phí cho các dự án.
 
 Ước tính thời gian được tạo khi bạn tạo một nhiệm vụ và xác định các thuộc tính cho một tài nguyên chung cần có để thực hiện nhiệm vụ. Ước tính thời gian được tạo từ nhiệm vụ theo lịch. Ước tính thời gian không được tạo nếu bạn tạo các thành viên nhóm chung bên ngoài ngữ cảnh của lịch biểu.
 
-Ước tính chi phí được nhập vào lưới trên trang **Ước tính**.
+Chi phí ước tính được nhập vào lưới trên trang **Ước tính chi phí**.
 
-## <a name="understanding-estimation"></a>Tìm hiểu về ước tính
+Tạo giá trị ước tính cho một dự án được coi là phương pháp hay nhất vì bạn có thể xây dựng các giá trị ước tính chi tiết từ dưới lên cho nhân công hoặc thời gian và chi phí cho từng nhiệm vụ trong kế hoạch dự án. Sau đó, bạn có thể sử dụng giá trị ước tính chi tiết này để tạo các giá trị ước tính cho từng mục mô tả báo giá và xây dựng báo giá đáng tin cậy hơn cho khách hàng. Khi bạn nhập hoặc tạo giá trị ước tính chi tiết trên mục mô tả báo giá bằng cách sử dụng kế hoạch dự án, Project Operations sẽ nhập giá trị bán hàng và giá trị chi phí của những giá trị ước tính này. Sau khi nhập, bạn có thể xem các chỉ số về lợi nhuận, lợi nhuận biên và tính khả thi trên báo giá dự án.
 
-Sử dụng bảng sau đây làm hướng dẫn để hiểu rõ logic công việc trong giai đoạn ước tính.
+## <a name="understanding-estimates"></a>Tìm hiểu về các giá trị ước tính
 
-| Kịch bản                                                                                                                                                                                                                                                                                                                                          | Bản ghi thực thể                                                                                                                                                                                                       | Loại Giao dịch | Lớp Giao dịch | Thông tin bổ sung                                                            |
+Sử dụng bảng sau đây làm hướng dẫn để hiểu rõ logic nghiệp vụ trong giai đoạn ước tính.
+
+| Kịch bản                                                                                                                                                                                                                                                                                                                                          | Bản ghi thực thể                                                                                                                                                                                                       | Loại Giao dịch | Lớp giao dịch | Thông tin bổ sung                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Khi bạn cần ước tính giá trị thời gian bán hàng trên báo giá                                                                                                                                                                                                                                                                                    | Bản ghi chi tiết dòng báo giá (QLD) được tạo                                                                                                                                                                               | Hợp đồng dự án | Time        | Trường nguồn giao dịch trên hàng QLD phía bán hàng sẽ tham chiếu QLD phía chi phí |
 |                                                                                                                                                                                                                                                                                     | Bản ghi QLD thứ hai được tạo bởi hệ thống để lưu trữ giá trị chi phí tương ứng. Tất cả các trường không phải là tiền được sao chép từ QLD bán hàng sang chi phí QLD bởi hệ thống.                                                                                                                                                                               | Chi phí | Time        | Trường nguồn giao dịch trên hàng chi tiết dòng báo giá (QLD) phía bán hàng sẽ tham chiếu QLD phía chi phí |

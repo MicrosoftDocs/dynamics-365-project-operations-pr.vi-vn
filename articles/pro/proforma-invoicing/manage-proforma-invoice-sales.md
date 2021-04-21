@@ -1,21 +1,21 @@
 ---
-title: Quản lý hóa đơn ước giá - bản đơn giản
-description: Chủ đề này cung cấp thông tin về cách làm việc với Hóa đơn ước giá.
+title: Quản lý hóa đơn ước giá dự án
+description: Chủ đề này cung cấp thông tin về cách làm việc với các hóa đơn ước giá dựa trên dự án.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274079"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866932"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Quản lý hóa đơn ước giá - bản đơn giản
+# <a name="manage-a-proforma-project-invoice"></a>Quản lý hóa đơn ước giá dự án 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -69,9 +69,9 @@ Trong Project Operations, luôn có một mô tả hóa đơn cho mỗi mô tả
 
 Mỗi mô tả hóa đơn trong hóa đơn dự án bao gồm thông tin chi tiết mô tả hóa đơn. Các thông tin chi tiết mô tả này liên quan đến doanh số thực tế chưa được thanh toán và các mốc quan trọng liên quan đến mô tả hợp đồng được tham chiếu theo mô tả hóa đơn. Tất cả các giao dịch này được đánh dấu là **Sẵn sàng lập hóa đơn**.
 
-Đối với mô tả **Hóa đơn thời gian và vật tư**, thông tin chi tiết mô tả hóa đơn được nhóm thành **Phải thanh toán**,**Không phải thanh toán** và **Miễn** trên trang **Mô tả hóa đơn**. Thông tin chi tiết **Mô tả hóa đơn phải thanh toán** làm tăng giá trị tổng trên mô tả hóa đơn. **Miễn** và **Các giá trị thực tế không phải thanh toán** không làm tăng giá trị tổng trên mô tả hóa đơn.
+Đối với mục mô tả **Hóa đơn thời gian và vật tư**, các chi tiết mô tả hóa đơn được nhóm thành **Phải chịu phí tổn**, **Không phải chịu phí tổn** và **Miễn phí** trên trang **Mô tả hóa đơn**. Thông tin chi tiết **Mô tả hóa đơn phải thanh toán** làm tăng giá trị tổng trên mô tả hóa đơn. **Miễn phí** và **Giá trị thực thế không phải chịu phí tổn** không làm tăng giá trị tổng trên mục mô tả hóa đơn.
 
-Đối với mô tả **Hóa đơn giá cố định**, thông tin chi tiết mô tả hóa đơn được tạo từ các mốc được đánh dấu là **Sẵn sàng lập hóa đơn** trên mô tả hợp đồng có liên quan. Sau khi thông tin chi tiết mô tả hóa đơn được tạo từ một mốc, trạng thái thanh toán trên mốc đó sẽ cập nhật thành **Đã tạo hóa đơn khách hàng**.
+Đối với mục mô tả **Hóa đơn giá cố định**, chi tiết mô tả hóa đơn được tạo từ các mốc được đánh dấu là **Đã sẵn sàng để lập hóa đơn** trên mục mô tả hợp đồng có liên quan. Sau khi thông tin chi tiết mô tả hóa đơn được tạo từ một mốc, trạng thái thanh toán trên mốc đó sẽ cập nhật thành **Đã tạo hóa đơn khách hàng**.
 
 ### <a name="edit-invoice-line-details"></a>Chỉnh sửa thông tin chi tiết mô tả hóa đơn
 
@@ -98,8 +98,12 @@ Các trường sau có sẵn trên thông tin chi tiết mô tả hóa đơn đ�
 | **Thuế** | Đặt theo mặc định từ nguồn thực tế. Người dùng có thể chỉnh sửa trường này | Người dùng có thể chỉnh sửa trường này khi tạo thông tin chi tiết mô tả hóa đơn mới mà không cần sự hỗ trợ thực tế. |
 | **Số tiền Cộng thêm** | Một trường tính toán, được tính là **Số tiền + Thuế**. Trường chỉ đọc bị khóa không cho chỉnh sửa. | &nbsp; |
 | **Loại thanh toán** | Đặt theo mặc định từ nguồn thực tế. Người dùng có thể chỉnh sửa trường này. | Việc chọn **Phải thanh toán** sẽ thêm mô tả vào mục tổng cộng trên mô tả hóa đơn. Việc chọn **Miễn** và **Không phải thanh toán** sẽ loại trừ mô tả khỏi mục tổng cộng trên mô tả hóa đơn. |
+| **Chọn sản phẩm** | Đây là trường chỉ đọc được đặt theo mặc định từ giá trị thực tế của nguồn. | Khi tạo chi tiết mô tả hóa đơn mới mà không có giá trị thực tế hỗ trợ, bạn có thể chỉnh sửa trường này. |
+| **Sản phẩm** | Đây là một trường chỉ đọc được đặt theo mặc định từ giá trị thực tế của nguồn. | Khi tạo chi tiết mô tả hóa đơn mới mà không có giá trị thực tế hỗ trợ, bạn có thể chỉnh sửa trường này nếu trường **Chọn sản phẩm** được đặt thành **Sản phẩm hiện có**. |
+| **Tên Sản phẩm** | Đây là một trường chỉ đọc được đặt theo mặc định từ giá trị thực tế của nguồn. | Trên chi tiết mô tả hóa đơn mới, nơi ID sản phẩm được chọn từ danh mục, trường này được đặt thành tên sản phẩm. Đối với sản phẩm chọn thêm, tên trường được đặt thành Chọn thêm. |
+| **Mô tả sản phẩm chọn thêm** | Trường này ở chế độ chỉ đọc và được đặt theo mặc định từ giá trị thực tế của nguồn. | Khi tạo chi tiết mô tả hóa đơn mới mà không có giá trị thực tế hỗ trợ, bạn có thể thêm phần mô tả cho sản phẩm chọn thêm. |
 | **Loại Giao dịch** | Đặt theo mặc định từ nguồn thực tế. Trường chỉ đọc bị khóa không cho chỉnh sửa. | Đặt theo mặc định thành **Doanh số chưa được thanh toán** và bị khóa khi tạo mới **Thông tin chi tiết mô tả hóa đơn** mà không có sự hỗ trợ thực tế.  |
-| **Lớp giao dịch** | Đặt theo mặc định từ nguồn thực tế. Trường chỉ đọc bị khóa không cho chỉnh sửa. | Đặt theo mặc định dựa trên việc người dùng chọn tạo thông tin chi tiết mô tả hóa đơn **Thời gian**, **Chi phí**, hoặc là **Phí**, đồng thời cũng tạo mới **Thông tin chi tiết mô tả hóa đơn** mà không có sự hỗ trợ thực sự. Đã khóa không cho chỉnh sửa. |
+| **Lớp giao dịch** | Đặt theo mặc định từ nguồn thực tế. Trường chỉ đọc bị khóa không cho chỉnh sửa. | Được đặt theo mặc định dựa trên việc người dùng chọn tạo chi tiết mô tả hóa đơn **Thời gian**, **Chi phí**, **Vật tư** hoặc **Phí** trong khi cũng tạo mới **Chi tiết mô tả hóa đơn** mà không có giá trị thực tế hỗ trợ. Đã khóa không cho chỉnh sửa. |
 
 Các trường sau có sẵn trên thông tin chi tiết mô tả hóa đơn được hỗ trợ theo mốc:
 

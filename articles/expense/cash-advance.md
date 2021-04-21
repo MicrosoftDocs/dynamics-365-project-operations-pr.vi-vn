@@ -3,19 +3,19 @@ title: Tạm ứng tiền mặt
 description: Chủ đề này cung cấp thông tin về tạm ứng tiền mặt.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276734"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715586"
 ---
 # <a name="cash-advance"></a>Tạm ứng tiền mặt
 
@@ -60,7 +60,22 @@ Quy trình sau đây thường được hoàn thành bởi kế toán viên ho�
 
 Khi bạn tạo và gửi báo cáo chi phí cho khoản tạm ứng tiền mặt mà bạn đã nhận, chi phí sẽ được tự động điều chỉnh theo khoản tạm ứng đó. Nếu số tiền tạm ứng của bạn lớn hơn số tiền đã chi tiêu, bạn phải trả lại số dư cho công ty bằng cách sử dụng danh mục chi phí **Trả lại tiền mặt**. Nếu khoản tạm ứng tiền mặt do công ty trả ít hơn số tiền bạn đã chi tiêu, công ty phải hoàn trả cho bạn số tiền còn thiếu. 
 
-### <a name="example"></a>Ví dụ:
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Chọn các khoản tạm ứng tiền mặt áp dụng cho chi phí của bạn
+Trước khi gửi báo cáo chi phí, bạn có thể chọn khoản tạm ứng tiền mặt phù hợp với các giao dịch chi phí trên báo cáo. Để sử dụng chức năng này, bạn phải bật hai tính năng sau từ không gian làm việc **Quản lý tính năng**:
+
+  - Báo cáo chi phí đã được xây dựng lại
+  - Khả năng ánh xạ các khoản tạm ứng tiền mặt với các dòng chi phí
+ 
+ Khi các tính năng này được bật:
+ 
+  - Bạn có thể thêm một hoặc nhiều khoản ứng trước tiền mặt cho mỗi dòng chi phí.
+  - Số dư khả dụng của khoản tạm ứng tiền mặt được hiển thị trong thời gian thực khi lưu báo cáo chi phí. Điều này cho phép bạn xử lý các giao dịch chi phí và quay lại giao dịch tiền mặt cùng một lúc.
+  - Bạn có thể chọn nhiều khoản ứng trước tiền mặt cho một giao dịch chi phí.
+  - Dữ liệu đối chiếu khoản ứng trước tiền mặt được cung cấp bằng cách sử dụng truy vấn. 
+ 
+Nếu bạn không sử dụng các tính năng này, chức năng sẽ vẫn như cũ, với các khoản tạm ứng tiền mặt hiện có sẽ tự động giảm sau khi nộp một khoản chi phí.
+
+### <a name="example"></a>Ví dụ: 
 Bạn dự định đi từ Seattle đến Thành phố New York để tham dự hội nghị. Bạn tạo yêu cầu tạm ứng tiền mặt 3000 USD dựa trên chi phí ước tính bao gồm vé dự hội nghị, vé máy bay, khách sạn, tiền ăn và taxi. Bạn sẽ không được nhận tiền nếu người quản lý của bạn không phê duyệt yêu cầu này. Sau khi người quản lý của bạn phê duyệt, khoản tạm ứng tiền mặt được yêu cầu sẽ được thanh toán bằng 3000 USD vào tài khoản ngân hàng của bạn. Sau đó bạn tham dự hội nghị. Sau khi hoàn thành chuyến đi của mình, bạn thấy rằng tổng chi tiêu chỉ là 2790 USD. Chọn **Tiền mặt** trong trường **Phương thức thanh toán**, rồi gửi chi phí của bạn là 2790 USD. Số tiền chi phí đã gửi của bạn tự động được điều chỉnh dựa trên khoản tạm ứng tiền mặt 3000 USD đã cho bạn vay. Hiện bạn còn nợ số dư 210 USD (3000 - 2790), bạn có thể trả lại cho công ty bằng cách sử dụng thể loại chi phí **Trả lại tiền mặt**.
 
 

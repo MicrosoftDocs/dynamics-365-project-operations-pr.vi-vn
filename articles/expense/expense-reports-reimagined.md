@@ -3,7 +3,7 @@ title: Báo cáo chi phí được xây dựng lại
 description: Chủ đề này giải thích trải nghiệm được thiết kế lại đối với mục nhập báo cáo chi phí.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499742"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717721"
 ---
 # <a name="expense-reports-reimagined"></a>Báo cáo chi phí được xây dựng lại
 
@@ -41,15 +41,11 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để đơn gi�
 - Không có mục menu hiện có nào cho báo cáo chi phí (trang hiện có) hoặc các trường báo cáo chi phí bị xóa.
 - Quy trình làm việc và mọi mục phê duyệt vẫn đưa bạn đến trang báo cáo chi phí hiện có.
 
-## <a name="getting-started-video-for-new-users"></a>Video hướng dẫn dành cho người dùng mới
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Trải nghiệm chi phí trong Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (hiển thị bên trên) được bao gồm trong danh sách phát [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) có sẵn trên YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Tính năng mới
 
-| Tính năng mới | Nội dung mô tả |
+| Tính năng mới | Mô tả |
 |---|----|
 | Khả năng hiển thị trường chi phí | Trang thiết lập mới cho phép bạn chỉ định trường nào nên tắt cho tổ chức, trường nào bắt buộc và trường nào được khuyến nghị. |
 | Trường bắt buộc | Cấu hình đơn giản mới cho phép bạn thực hiện một số trường bắt buộc mà không cần phải sử dụng khung chính sách. |

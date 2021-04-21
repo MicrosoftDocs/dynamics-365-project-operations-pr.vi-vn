@@ -3,17 +3,17 @@ title: Quản lý bảng giá dự án trên hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về cách quản lý bảng giá dự án trên hợp đồng dự án.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278624"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858589"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Quản lý bảng giá dự án trên hợp đồng dự án
 
@@ -21,13 +21,13 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Hợp đồng dự án trong Dynamics 365 Project Operations được thiết kế để hỗ trợ nhiều bảng giá bán hàng có hiệu lực theo ngày trên hợp đồng. Trong Project Operations, có một thực thể liên kết mới có tên là **Bảng giá dự án**. Thực thể này có mối quan hệ một-nhiều đối với hợp đồng dự án.
 
-Bảng giá dự án được sử dụng để định giá các giao dịch thời gian và chi phí trên một dự án. Khi hợp đồng có một hoặc nhiều bảng giá dự án, các bảng giá này sẽ dùng để đưa ra mức giá dựa trên các số liệu thực tế và ước tính về thời gian, chi phí cho các dự án có liên quan đến hợp đồng thông qua mô tả hợp đồng.
+Bảng giá dự án được dùng để định giá các giao dịch về thời gian, vật tư và chi phí cho một dự án. Khi hợp đồng có một hoặc nhiều bảng giá dự án, các bảng giá này sẽ được dùng để định giá cho các số liệu ước tính và thực tế về thời gian, vật tư, chi phí của các dự án liên quan đến hợp đồng thông qua mục mô tả hợp đồng.
 
-Khi không có bảng giá dự án trên hợp đồng dự án, bạn sẽ thấy cảnh báo cho biết không có bảng giá dự án nào nên không có mức giá cho các ước tính, công việc thực tế của dự án và chi phí. Sẽ không có mức giá cho các giá trị doanh thu.
+Khi không có bảng giá dự án trong hợp đồng dự án, bạn sẽ thấy thông báo cảnh báo rằng không có bảng giá dự án nào và các số liệu ước tính, công việc thực tế của dự án, vật tư và chi phí đã ghi lại sẽ không được định giá. Sẽ không có mức giá cho các giá trị doanh thu.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Liên kết hoặc hủy liên kết bảng giá dự án trên một hợp đồng dự án
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Tạo hoặc liên kết với một bảng giá cụ thể để ước tính công việc và chi phí dựa trên dự án
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Tạo hoặc liên kết một bảng giá cụ thể để ước tính công việc, vật tư và chi phí dựa trên dự án
 
 1. Trên hợp đồng dự án, hãy chọn tab **Bảng giá dự án**.
 2. Trong lưới con, hãy chọn **+ Thêm bảng giá dự án mới**.
@@ -52,7 +52,7 @@ Khi không có bảng giá dự án trên hợp đồng dự án, bạn sẽ th�
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Thiết lập để tự động đặt các bảng giá dự án làm bảng giá mặc định trên hợp đồng
 
-Bảng giá dự án có thể được thiết lập làm bảng giá mặc định trên hợp đồng dự án. Thiết lập này có thể giúp đảm bảo rằng tất cả hợp đồng trong tổ chức của bạn luôn bắt đầu với một bảng giá tiêu chuẩn cho khoảng thời gian áp dụng mức giá đó.
+Có thể thiết lập bảng giá dự án làm bảng giá dự án mặc định. Sự thiết lập này đảm bảo rằng tất cả các hợp đồng trong tổ chức của bạn luôn bắt đầu với một bảng giá dự án tiêu chuẩn cho khoảng thời gian có giá đó.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Thiết lập bảng giá mặc định của tổ chức cho bảng giá dự án
 

@@ -1,5 +1,5 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của mục mô tả hợp đồng dựa trên dự án
+title: Đặt cấu hình các thành phần phải chịu phí tổn của mô tả hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về các thành phần bao gồm, thành phần có thể tính phí và không thể tính phí trên mục mô tả hợp đồng.
 author: rumant
 manager: Annbe
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2266d8e0fe998e7161ede4cb4eaf7d3c70c54f71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278723"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858364"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Đặt cấu hình các thành phần có thể tính phí của mục mô tả hợp đồng dựa trên dự án
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Đặt cấu hình các thành phần phải chịu phí tổn của mô tả hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 

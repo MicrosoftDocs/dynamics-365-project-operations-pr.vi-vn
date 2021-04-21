@@ -1,23 +1,23 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá - bản đơn giản
+title: Đặt cấu hình các thành phần có thể tính phí của mục mô tả báo giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập các thành phần có thể tính phí và không thể tính phí trên mục mô tả báo giá dựa trên dự án.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273899"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858319"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá - bản đơn giản
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá 
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_
 
 Một mục mô tả báo giá dựa trên dự án có các thành phần *bao gồm* và thành phần *có thể tính phí*.
 
@@ -42,7 +42,7 @@ Khả năng tính phí được xác định trên các danh mục giao dịch c
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Cập nhật nhiệm vụ dự án thành dạng có thể tính phí hoặc không thể tính phí
 
-Một nhiệm vụ dự án có thể là dạng có thể tính phí hoặc không thể tính phí trong bối cảnh một mục mô tả báo giá dựa trên dự án cụ thể, vì vậy, các tổ hợp sau có thể được thiết lập:
+Một nhiệm vụ dự án có thể là nhiệm vụ phải chịu phí tổn hoặc không phải chịu phí tổn trong bối cảnh một mục mô tả báo giá dựa trên dự án cụ thể, vì vậy, các tổ hợp sau có thể được thiết lập.
 
 Nếu mục mô tả báo giá dựa trên dự án bao gồm **Thời gian** và nhiệm vụ **T1**, thì nhiệm vụ được liên kết với mục mô tả báo giá dưới dạng có thể tính phí. Nếu có mục mô tả báo giá thứ hai bao gồm **Chi phí**, thì bạn có thể liên kết nhiệm vụ **T1** trên mục mô tả báo giá dưới dạng không thể tính phí. Kết quả là toàn bộ thời gian được ghi lại trong nhiệm vụ đều là dạng có thể tính phí và tất cả các chi phí được ghi lại trong nhiệm vụ đều là dạng không thể tính phí.
 
@@ -61,22 +61,575 @@ Một danh mục giao dịch có thể là dạng có thể tính phí hoặc kh
 Loại thanh toán của một giao dịch có thể được đặt cấu hình trên tab **Thể loại có thể tính phí** của mô tả báo giá bằng cách cập nhật trường **Loại thanh toán** trên lưới con **Thể loại có thể tính phí**.
 
 ### <a name="resolve-chargeability"></a>Giải quyết khả năng tính phí
-Giá trị ước tính hoặc thực tế được tạo cho thời gian sẽ chỉ được coi là có thể tính phí nếu **Thời gian** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ**, **Vai trò** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
+Một giá trị ước tính hoặc thực tế được tạo cho thời gian sẽ chỉ được coi là phải chịu phí tổn nếu:
 
-Giá trị ước tính hoặc thực tế được tạo cho chi phí sẽ chỉ được coi là có thể tính phí nếu **Chi phí** được bao gồm trên mục mô tả báo giá và nếu **Nhiệm vụ**, **Danh mục giao dịch** được đặt cấu hình là có thể tính phí trên mục mô tả báo giá.
+   - **Thời gian** được thêm vào mô tả báo giá.
+   - **Vai trò** được đặt cấu hình là phải chịu phí tổn trên mô tả báo giá.
+   - **Các nhiệm vụ được đưa vào** được đặt thành **Các nhiệm vụ đã chọn** trên mô tả báo giá. 
 
-| Bao gồm thời gian | Bao gồm chi phí | Các tác vụ được đưa vào | Vai trò | Danh mục | Tác vụ | Thanh toán |
-| --- | --- | --- | --- | --- | --- | --- |
-| Có | Có | Toàn bộ dự án | Có thể tính phí | Có thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </br>Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí |
-| Có | Có | Chỉ các tác vụ được chọn | Có thể tính phí | Có thể tính phí | Có thể tính phí | Thanh toán theo giá trị thời gian thực tế: Có thể tính phí</br>Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí |
-| Có | Có | Chỉ các tác vụ được chọn | Không thể tính phí | Có thể tính phí | Có thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí</br>Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí |
-| Có | Có | Chỉ các tác vụ được chọn | Có thể tính phí | Có thể tính phí | Không thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí</br> Loại thanh toán theo giá trị chi phí thực tế: Không thể tính phí |
-| Có | Có | Chỉ các tác vụ được chọn | Không thể tính phí | Có thể tính phí | Không thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí</br> Loại thanh toán theo giá trị chi phí thực tế: Không thể tính phí |
-| Có | Có | Chỉ các tác vụ được chọn | Không thể tính phí | Không thể tính phí | Có thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí</br> Loại thanh toán theo giá trị chi phí thực tế: Không thể tính phí |
-| No | Có | Toàn bộ dự án | Không thể đặt | Có thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Không khả dụng </br>Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí |
-| No | Có | Toàn bộ dự án | Không thể đặt | Không thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Không khả dụng </br>Loại thanh toán theo giá trị chi phí thực tế: Không thể tính phí |
-| Có | No | Toàn bộ dự án | Có thể tính phí | Không thể đặt | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Có thể tính phí</br>Loại thanh toán theo giá trị chi phí thực tế: Không khả dụng |
-| Có | No | Toàn bộ dự án | Không thể tính phí | Không thể đặt | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí </br>Loại thanh toán theo giá trị chi phí thực tế: Không khả dụng |
+Nếu ba điều này là đúng, thì **Nhiệm vụ** cũng được đặt cấu hình là phải chịu phí tổn. 
+
+Một giá trị ước tính hoặc thực tế được tạo cho chi phí chỉ được coi là phải chịu phí tổn nếu: 
+
+   - **Chi phí** được thêm vào mô tả báo giá.
+   - **Thể loại giao dịch** được đặt cấu hình là phải chịu phí tổn trên mô tả báo giá.
+   - **Các nhiệm vụ được đưa vào** được đặt thành **Các nhiệm vụ đã chọn** trên mô tả báo giá.
+
+Nếu ba điều này là đúng, thì **Nhiệm vụ** cũng được đặt cấu hình là phải chịu phí tổn. 
+
+Một số liệu ước tính hoặc số liệu thực tế được tạo cho vật tư sẽ chỉ được coi là phải chịu phí tổn nếu:
+
+   - **Vật tư** được thêm vào mô tả báo giá.
+   - **Các nhiệm vụ được đưa vào** được đặt thành **Các nhiệm vụ đã chọn** trên mô tả báo giá.
+
+Nếu hai điều này là đúng, thì **Nhiệm vụ** cũng nên được đặt cấu hình là phải chịu phí tổn. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Bao gồm thời gian</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Bao gồm chi phí</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Bao gồm vật tư</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Các tác vụ được đưa vào</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Vai trò</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Danh mục</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tác vụ</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Tác động đến khả năng phải chịu phí tổn</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Chỉ các tác vụ được chọn </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Chỉ các tác vụ được chọn </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Chỉ các tác vụ được chọn </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Chỉ các tác vụ được chọn </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Chỉ các tác vụ được chọn </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Có thể tính phí</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không khả dụng</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không khả dụng</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế:<strong> Không khả dụng</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế:<strong> Không khả dụng</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Có thể tính phí </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế: <strong>Không khả dụng</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Có </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Toàn bộ dự án </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Không phải chịu phí tổn</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Không thể tính phí</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Không thể đặt </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị chi phí thực tế:<strong> Không phải chịu phí tổn</strong>
+                </p>
+                <p>
+Loại thanh toán theo giá trị vật tư thực tế:<strong> Không khả dụng</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

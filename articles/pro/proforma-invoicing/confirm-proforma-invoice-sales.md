@@ -1,26 +1,26 @@
 ---
-title: Xác nhận hóa đơn ước giá - bản đơn giản
-description: Chủ đề này cung cấp thông tin về việc xác nhận hóa đơn ước giá trong Project Operations.
+title: Xác nhận hóa đơn ước giá dự án
+description: Chủ đề này cung cấp thông tin về việc xác nhận hóa đơn ước giá của dự án trong Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274304"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867116"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Xác nhận hóa đơn ước giá - bản đơn giản
+# <a name="confirm-a-proforma-project-invoice"></a>Xác nhận hóa đơn ước giá dự án 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Sau khi hóa đơn ước giá được xác nhận, trạng thái của hóa đơn dự án được cập nhật thành **Đã xác nhận**. Khi hóa đơn được xác nhận, mục đó sẽ trở thành dạng chỉ đọc. Từ giờ trở đi, hóa đơn chỉ có thể được hiệu chỉnh nếu có bất kỳ sự chỉnh sửa hoặc ghi có nào do khách hàng thực hiện hoặc nếu hóa đơn được đánh dấu là đã thanh toán.
+Sau khi hóa đơn ước giá được xác nhận, trạng thái của hóa đơn dự án được cập nhật thành **Đã xác nhận**. Khi hóa đơn được xác nhận, mục đó sẽ trở thành dạng chỉ đọc. Từ giờ trở đi, chỉ có thể sửa hóa đơn nếu có bất kỳ sự sửa đổi hoặc ghi có nào do khách hàng thực hiện.
 
 Bảng sau liệt kê các giá trị thực tế được hệ thống tạo. Các giá trị thực tế này được tạo ra khi một số hoạt động nhất định được thực hiện trên hóa đơn dự án nháp trước khi mục đó được xác nhận.
 
@@ -225,6 +225,70 @@ Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượn
             <td width="408" valign="top">
                 <p>
 Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Lập hóa đơn cho một giao dịch về vật tư mà không có bất kỳ chỉnh sửa nào trên hóa đơn dự thảo.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Giá trị thực tế của doanh số được lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Lập hóa đơn cho một giao dịch về vật tư đã được chỉnh sửa để giảm số lượng.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt thời gian ban đầu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Giá trị thực tế doanh số chưa lập hóa đơn mới, không thể tính phí cho số lượng và số tiền còn lại sau khi trừ số liệu đã hiệu chỉnh trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Lập hóa đơn cho một giao dịch về vật tư đã được chỉnh sửa để tăng số lượng.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
                 </p>
             </td>
         </tr>

@@ -3,7 +3,7 @@ title: Thực tế
 description: Chủ đề này cung cấp thông tin về cách làm việc với giá trị thực tế trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291825"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852570"
 ---
 # <a name="actuals"></a>Thực tế 
 
-_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/vật tư không tồn kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Thực tế là lượng công việc đã hoàn thành trên một dự án. Chúng được tạo ra do kết quả của mục nhập thời gian và chi phí, bút toán và hóa đơn.
+Giá trị thực tế đại diện cho tiến độ tài chính và lịch trình đã được xem xét và phê duyệt trên một dự án. Chúng được tạo ra do thời gian, chi phí, các mục nhập mức sử dụng vật tư, bút toán và hóa đơn được phê duyệt.
 
 ## <a name="journal-lines-and-time-submission"></a>Dòng nhật ký kế toán và thời gian gửi
 
@@ -45,7 +45,7 @@ Khi một mục nhập thời gian được gửi được liên kết với m�
 
 Logic để tạo giá mặc định nằm trên dòng nhật ký kế toán. Các giá trị trường từ mục nhập thời gian được sao chép vào dòng nhật ký kế toán. Các giá trị này bao gồm ngày giao dịch, mô tả hợp đồng mà dự án được ánh xạ và kết quả tiền tệ trong bảng giá phù hợp.
 
-Các trường ảnh hưởng đến giá mặc định, chẳng hạn như **Vai trò** và **Đơn vị tổ chức** được sử dụng để xác định giá thích hợp trên dòng nhật ký kế toán. Bạn có thể thêm trường tùy chỉnh trên mục nhập thời gian. Nếu bạn muốn điền giá trị trường vào giá trị thực tế, hãy tạo trường đó trên thực thể Thực tế và sử dụng ánh xạ trường để sao chép trường từ mục nhập thời gian tới giá trị thực tế.
+Các trường ảnh hưởng đến giá mặc định, chẳng hạn như **Vai trò** và **Đơn vị nguồn lực** được dùng để xác định mức giá phù hợp trên dòng nhật ký kế toán. Bạn có thể thêm trường tùy chỉnh trên mục nhập thời gian. Nếu bạn muốn giá trị trường được điền vào giá trị thực tế, hãy tạo trường trong các bảng **Giá trị thực tế** và **Dòng nhật ký kế toán**. Sử dụng mã tùy chỉnh để điền giá trị trường đã chọn từ Mục nhập thời gian vào Giá trị thực tế thông qua dòng nhật ký kế toán bằng cách sử dụng nguồn gốc giao dịch. Để biết thêm thông tin về nguồn gốc và kết nối giao dịch, hãy xem [Liên kết Giá trị thực tế với bản ghi gốc](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Các dòng nhật ký kế toán và nộp chi phí cơ bản
 
@@ -57,24 +57,42 @@ Khi một mục nhập chi phí cơ bản đã gửi đi được liên kết v�
 
 ### <a name="fixed-price"></a>Giá cố định
 
-Khi một mục nhập chi phí cơ bản được gửi được liên kết với một dự án được ánh xạ tới một mô tả hợp đồng giá cố định, thì hệ thống sẽ tạo ra một dòng nhật ký kế toán cho chi phí.
+Khi một mục nhập chi phí cơ bản đã gửi liên kết với một dự án được ánh xạ tới một mô tả hợp đồng giá cố định, thì hệ thống sẽ tạo một dòng nhật ký kế toán cho chi phí.
 
 ### <a name="default-pricing"></a>Giá mặc định
 
-Logic để nhập giá mặc định cho các chi phí dựa trên danh mục chi phí. Ngày giao dịch, dòng hợp đồng mà dự án được ánh xạ tới và tiền tệ được dùng để xác định bảng giá phù hợp. Tuy nhiên, theo mặc định, số tiền mà người dùng nhập cho giá được đặt trực tiếp trên dòng nhật ký kế toán chi phí liên quan cho chi phí và bán hàng.
+Logic để nhập giá mặc định cho các chi phí dựa trên danh mục chi phí. Ngày giao dịch, mô tả hợp đồng mà dự án được ánh xạ tới và tiền tệ đều được dùng để xác định bảng giá phù hợp. Các trường ảnh hưởng đến giá mặc định, chẳng hạn như **Thể loại giao dịch** và **Đơn vị** được dùng để xác định mức giá phù hợp trên dòng nhật ký kế toán. Tuy nhiên, điều này chỉ có tác dụng khi phương pháp định giá trong danh sách giá là **Đơn giá**. Nếu phương pháp định giá là **Theo chi phí** hoặc **Tăng trên chi phí**, thì giá được nhập khi tạo mục nhập chi phí sẽ được dùng cho chi phí và giá trên dòng nhật ký kế toán về doanh số sẽ được tính theo phương pháp định giá. 
 
-Mục nhập dựa trên danh mục của giá mặc định cho mỗi đơn vị trên các mục nhập chi phí không khả dụng.
+Bạn có thể thêm một trường tùy chỉnh vào mục nhập chi phí. Nếu bạn muốn giá trị trường được điền vào giá trị thực tế, hãy tạo trường trong các bảng **Giá trị thực tế** và **Dòng nhật ký kế toán**. Sử dụng mã tùy chỉnh để điền giá trị trường đã chọn từ Mục nhập thời gian vào Giá trị thực tế thông qua dòng nhật ký kế toán bằng cách sử dụng nguồn gốc giao dịch. Để biết thêm thông tin về nguồn gốc và kết nối giao dịch, hãy xem [Liên kết Giá trị thực tế với bản ghi gốc](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Các dòng nhật ký kế toán và việc gửi nhật ký sử dụng vật tư
+
+Để biết thêm thông tin về mục nhập chi phí, hãy xem [Nhật ký sử dụng vật tư](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Thời gian và vật tư
+
+Khi một mục nhập nhật ký sử dụng vật tư đã gửi liên kết với một dự án được ánh xạ tới mô tả hợp đồng thời gian và vật tư, hệ thống sẽ tạo ra hai dòng nhật ký kế toán, một dòng cho chi phí và một dòng cho doanh số chưa lập hóa đơn.
+
+### <a name="fixed-price"></a>Giá cố định
+
+Khi một mục nhập nhật ký sử dụng vật tư đã gửi liên kết với một dự án được ánh xạ tới một mô tả hợp đồng giá cố định, thì hệ thống sẽ tạo một dòng nhật ký kế toán cho chi phí.
+
+### <a name="default-pricing"></a>Giá mặc định
+
+Logic để nhập giá mặc định cho vật tư dựa trên sự kết hợp giữa sản phẩm và đơn vị. Ngày giao dịch, mô tả hợp đồng mà dự án được ánh xạ tới và tiền tệ đều được dùng để xác định bảng giá phù hợp. Các trường ảnh hưởng đến giá mặc định, chẳng hạn như **ID sản phẩm** và **Đơn vị** được dùng để xác định mức giá phù hợp trên dòng nhật ký kế toán. Tuy nhiên, điều này chỉ áp dụng cho các sản phẩm trong danh mục. Đối với sản phẩm chọn thêm, giá được nhập khi tạo mục nhập nhật ký sử dụng vật tư được dùng cho chi phí và giá bán trên các dòng nhật ký kế toán. 
+
+Bạn có thể thêm một trường tùy chỉnh vào mục nhập **Nhật ký sử dụng vật tư**. Nếu bạn muốn giá trị trường được điền vào giá trị thực tế, hãy tạo trường trong các bảng **Giá trị thực tế** và **Dòng nhật ký kế toán**. Sử dụng mã tùy chỉnh để điền giá trị trường đã chọn từ Mục nhập thời gian vào Giá trị thực tế thông qua dòng nhật ký kế toán bằng cách sử dụng nguồn gốc giao dịch. Để biết thêm thông tin về nguồn gốc và kết nối giao dịch, hãy xem [Liên kết Giá trị thực tế với bản ghi gốc](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Sử dụng bút toán để ghi lại chi phí
 
 Bạn có thể sử dụng bút toán để ghi lại chi phí hoặc doanh thu trong lớp giao dịch thuế, chi phí, thời gian, phí hoặc vật tư. Có thể sử dụng nhật ký cho các mục đích sau:
 
-- Ghi lại chi phí vật tư thực tế và bán hàng trên một dự án.
 - Di chuyển các giá trị thực tế của giao dịch từ một hệ thống khác sang Microsoft Dynamics 365 Project Operations.
 - Ghi lại chi phí đã xảy ra trong hệ thống khác. Các chi phí này có thể bao gồm chi phí mua sắm hoặc chi phí thầu phụ.
 
 > [!IMPORTANT]
 > Ứng dụng không xác nhận dòng nhật ký kế toán hoặc giá cả liên quan được nhập trên dòng nhật ký kế toán. Do đó, chỉ người dùng có nhận thức đầy đủ về tác động kế toán mà các giá trị thực tế có đối với dự án mới được sử dụng bút toán để tạo các giá trị thực tế. Do tác động của loại nhật ký này, bạn nên cẩn thận chọn người có quyền truy cập để tạo bút toán.
+
 ## <a name="record-actuals-based-on-project-events"></a>Ghi lại thực tế dựa trên sự kiện dự án
 
 Project Operations ghi lại các giao dịch tài chính xảy ra trong một dự án. Các giao dịch này được ghi lại là thực tế. Các bảng sau đây hiển thị các loại thực tế khác nhau được tạo, phụ thuộc vào việc dự án là dự án thời gian và vật tư hay giá cố định, ở giai đoạn trước khi bán hàng hay là dự án nội bộ.

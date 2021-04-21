@@ -1,9 +1,9 @@
 ---
 title: Thiết lập phần tích hợp thẻ tín dụng
-description: Chủ đề này giải thích cách nhập và duy trì các giao dịch thẻ tín dụng liên quan đến chi phí.
+description: Chủ đề này giải thích cách làm việc với các giao dịch thẻ tín dụng liên quan đến chi phí.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276194"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866709"
 ---
 # <a name="set-up-credit-card-integration"></a>Thiết lập phần tích hợp thẻ tín dụng
 
@@ -30,23 +30,32 @@ Các giao dịch thẻ tín dụng liên quan đến chi phí có thể được
 
 ## <a name="import-credit-card-transactions"></a>Nhập giao dịch thẻ tín dụng
 
+Để nhập giao dịch thẻ tín dụng, hãy làm theo các bước sau:
+
 1. Trên trang **Giao dịch thẻ tín dụng**, chọn **Nhập giao dịch**. Nếu bạn mở tác vụ quản lý dữ liệu lần đầu tiên, hệ thống phải cập nhật danh sách các thực thể dữ liệu trước khi bạn có thể tiếp tục.
-2. Trong trường **Tên**, nhập mô tả riêng của tác vụ nhập.
+2. Trong trường **Tên**, hãy nhập một thông tin mô tả duy nhất cho công việc nhập.
 3. Trong trường **Định dạng dữ liệu nguồn**, chọn định dạng của tệp chứa giao dịch thẻ tín dụng để nhập.
 4. Chọn **Tải lên** rồi tìm và chọn tệp để nhập.
-5. Sau khi tệp đã được tải lên, hãy xác thực ánh xạ của tệp giao dịch thẻ tín dụng và các cột của thực thể dữ liệu giao dịch thẻ tín dụng bằng cách chọn liên kết **Xem bản đồ** trên ngăn xếp. Nếu có lỗi ánh xạ hoặc nếu bạn phải thay đổi ánh xạ, hãy thực hiện các thay đổi về ánh xạ trong tab **Trực quan hóa ánh xạ** hoặc tab **Chi tiết ánh xạ**.
+5. Sau khi tệp đã được tải lên, hãy xác thực quá trình ánh xạ tệp giao dịch thẻ tín dụng và các cột của thực thể dữ liệu giao dịch thẻ tín dụng bằng cách chọn liên kết **Xem bản đồ** trên ngăn xếp. Nếu có lỗi ánh xạ hoặc nếu bạn phải thay đổi ánh xạ, hãy thực hiện các thay đổi về ánh xạ trong tab **Trực quan hóa ánh xạ** hoặc tab **Chi tiết ánh xạ**.
 6. Để tự động hóa các giao dịch thẻ tín dụng, hãy chọn **Tạo tác vụ dữ liệu định kỳ**. Sau đó, bạn có thể đặt mức lặp lại để xác định tần suất nhập giao dịch thẻ tín dụng. Sau khi hoàn tất, hãy chọn **OK**.
 7. Để nhập tệp đã chọn ngay bây giờ, hãy chọn **Nhập**.
-8. Nếu lỗi xảy ra trong quá trình nhập, bạn có thể xem nhật ký thực thi hoặc dữ liệu giai đoạn, tại đó có các lỗi mà bạn phải sửa để đảm bảo quá trình nhập diễn ra thành công.
+8. Nếu xảy ra lỗi trong quá trình nhập, bạn có thể xem nhật ký thực thi hoặc dữ liệu phân đoạn để xem các lỗi mà bạn phải sửa để giúp đảm bảo nhập thành công.
 
 > [!NOTE]
-> Nếu bạn phải nhập nhiều định dạng tệp, bạn phải tạo tác vụ nhập riêng cho từng loại định dạng.
+> Nếu cần nhập nhiều định dạng tệp, bạn phải tạo các lệnh nhập riêng cho từng loại định dạng.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Chỉ định lại giao dịch thẻ tín dụng cho nhân viên bị chấm dứt hồ sơ
 
-Sau khi hồ sơ nhân viên bị chấm dứt, tài khoản Dịch vụ miền Active Directory (AD DS) của nhân viên đó sẽ bị vô hiệu hóa. Tuy nhiên, có thể có các giao dịch thẻ tín dụng đang hoạt động vẫn phải được chi tiêu và hoàn trả. Từ trang **Giao dịch thẻ tín dụng**, bạn có thể chỉ định lại nhân viên cho bất kỳ giao dịch thẻ tín dụng nào mà nhân viên liên quan đã bị chấm dứt hồ sơ.
+Sau khi hồ sơ nhân viên bị chấm dứt, tài khoản Dịch vụ miền Active Directory (AD DS) của nhân viên đó sẽ bị vô hiệu hóa. Tuy nhiên, có thể có các giao dịch thẻ tín dụng đang hoạt động vẫn phải được chi tiêu và hoàn trả. Trên trang **Giao dịch thẻ tín dụng**, bạn có thể chỉ định lại nhân viên cho bất kỳ giao dịch thẻ tín dụng nào mà nhân viên được liên kết đã bị chấm dứt.
 
 Chọn một hoặc nhiều giao dịch thẻ tín dụng, sau đó chọn **Chỉ định lại giao dịch**. Sau đó, bạn có thể chọn một nhân viên khác để chỉ định giao dịch thẻ tín dụng. Sau khi chỉ định lại giao dịch thẻ tín dụng, bạn có thể chọn các giao dịch đó cho báo cáo chi phí và được thanh toán theo quy trình hoàn trả báo cáo chi phí thông thường.
 
+## <a name="delete-credit-card-transactions"></a>Xóa các giao dịch thẻ tín dụng 
+
+Đôi khi, sau khi nhập xong các giao dịch thẻ tín dụng, bạn có thể cần xóa một số giao dịch. Điều này có thể là do các giao dịch bị trùng lặp hoặc do dữ liệu có thể không chính xác. Quản trị viên có thể sử dụng tính năng **"Xóa giao dịch thẻ tín dụng"** để chọn và xóa các giao dịch thẻ tín dụng **không đính kèm** với báo cáo chi phí. 
+
+1. Đi đến **Nhiệm vụ định kỳ** > **Xóa giao dịch thẻ tín dụng**.
+2. Chọn **Bộ lọc** và cung cấp thông tin để xác định các bản ghi cần đưa vào.
+3. Chọn **OK** để xóa các bản ghi. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

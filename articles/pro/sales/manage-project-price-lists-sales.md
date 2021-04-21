@@ -1,27 +1,27 @@
 ---
-title: Quản lý bảng giá dự án trên báo giá dự án - bản đơn giản
-description: Chủ đề này cung cấp thông tin về cách làm việc với bảng giá dự án trên báo giá. (Sales)
+title: Quản lý bảng giá dự án trên báo giá dự án
+description: Chủ đề này cung cấp thông tin về cách làm việc với bảng giá dự án trên báo giá.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273044"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858634"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Quản lý bảng giá dự án trên báo giá dự án - bản đơn giản
+# <a name="manage-project-price-lists-on-project-quotes"></a>Quản lý bảng giá dự án trên báo giá dự án 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Báo giá dự án được thiết kế để hỗ trợ nhiều bảng giá bán hàng hiệu quả theo ngày. Với Dynamics 365 Project Operations, một thực thể mới được liên kết gọi là **Bảng giá dự án** sẽ được thêm vào. Thực thể này có mối quan hệ 1 - nhiều với báo giá dự án.
 
-Bảng giá dự án được sử dụng để định giá các giao dịch thời gian và chi phí trên một dự án. Khi một báo giá có một hoặc nhiều bảng giá dự án, những bảng giá này được sử dụng để định giá ước tính thời gian và chi phí, cũng như giá trị thực tế cho các dự án được liên kết với báo giá thông qua mô tả báo giá.
+Bảng giá dự án được dùng để định giá các giao dịch về thời gian, vật tư và chi phí cho một dự án. Khi báo giá có một hoặc nhiều bảng giá dự án, các bảng giá này sẽ được dùng để định giá cho các số liệu ước tính và thực tế về thời gian, vật tư, chi phí của các dự án liên quan đến báo giá thông qua mục mô tả báo giá.
 
 Khi không có bảng giá dự án trên báo giá dự án, bạn sẽ nhận được thông báo cảnh báo. Thông báo nói rằng vì không có bảng giá dự án, công việc và chi phí dự án ước tính và thực tế của bạn sẽ không được định giá. Thay vào đó, chúng sẽ có giá bằng không (0) cho các giá trị bán hàng.
 

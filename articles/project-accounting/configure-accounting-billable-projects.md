@@ -3,17 +3,17 @@ title: Đặt cấu hình hoạt động kế toán cho dự án có thể tính
 description: Chủ đề này cung cấp thông tin về các tùy chọn kế toán cho những dự án có thể lập hóa đơn.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287669"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858679"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 
@@ -58,13 +58,25 @@ Hoàn thành các bước sau để tạo hồ sơ doanh thu và chi phí dự �
 
          - **Số dư**: Khi đăng bút toán tích hợp Project Operations, chi phí trong giao dịch chi phí sẽ được ghi nợ vào loại tài khoản Sổ cái *WIP - Giá trị chi phí* như được xác định trên tab **Chi phí** trên trang **Thiết lập đăng sổ cái** và được ghi có vào tài khoản bù trừ trên dòng nhật ký kế toán. Các tài khoản bù trừ mặc định cho chi phí được xác định trong **Kế toán và quản lý dự án** > **Thiết lập** \> **Đăng** \> **Tài khoản bù trừ mặc định cho chi phí**. Kế toán sẽ sử dụng chức năng **Đăng chi phí** để chuyển chi phí này từ tài khoản số dư sang tài khoản lãi lỗ theo định kỳ.
         - **Lãi và lỗ**: Khi đăng bút toán tích hợp Project Operations, chi phí trong giao dịch chi phí sẽ được ghi nợ vào loại tài khoản Sổ cái *Chi phí* như được xác định trên tab **Chi phí** trên trang **Thiết lập đăng sổ cái** và được ghi có vào tài khoản bù trừ trên dòng nhật ký kế toán. Các tài khoản bù trừ mặc định cho chi phí được xác định trong **Kế toán và quản lý dự án** \> **Thiết lập** \> **Đăng** \> **Tài khoản bù trừ mặc định cho chi phí**.
+      
+    - **Đăng chi phí - hạng mục**:
+
+         - **Số dư**: Khi đăng nhật ký Tích hợp Project Operations, chi phí giao dịch hạng mục sẽ được ghi nợ vào loại tài khoản Sổ cái *WIP - Giá trị chi phí - hạng mục* như được định nghĩa trên tab **Chi phí** trên trang **Thiết lập đăng sổ cái** và ghi có vào phần sau:
+    
+              - Đối với trường hợp sử dụng loại tài liệu: Tài khoản **Chi phí - hạng mục** trên trang **Thiết lập đăng sổ cái**.  
+              - Đối với trường hợp mua loại tài liệu: **Tài khoản tích hợp mua sắm** trên **Quản lý dự án và các thông số kế toán**.
+           Kế toán sẽ sử dụng chức năng **Đăng chi phí** để chuyển chi phí này từ tài khoản số dư sang tài khoản lãi lỗ theo định kỳ.
+        - **Lợi nhuận và thua lỗ**: Khi đăng nhật ký Tích hợp Project Operations, chi phí giao dịch hạng mục sẽ được ghi nợ vào loại tài khoản Sổ cái *WIP - Giá trị chi phí - hạng mục* như được định nghĩa trên tab **Chi phí** trên trang **Thiết lập đăng sổ cái** và ghi có vào phần sau:
+         
+             - Đối với trường hợp sử dụng loại tài liệu: Tài khoản **Chi phí - hạng mục** trên trang **Thiết lập đăng sổ cái**.  
+             - Đối với trường hợp mua loại tài liệu: **Tài khoản tích hợp mua sắm** trên **Quản lý dự án và các thông số kế toán**.
        
     - **Lập hóa đơn trên tài khoản**:
 
         - **Số dư**: Khi đăng đề xuất hóa đơn dự án, giao dịch trên tài khoản (mốc thanh toán) sẽ được ghi có vào loại tài khoản Sổ cái *WIP đã lập hóa đơn - trên toàn khoản* như được xác định trên tab **Doanh thu** trên trang **Thiết lập đăng Sổ cái** và được ghi nợ vào tài khoản số dư của khách hàng.
          - **Lãi và lỗ**: Khi đăng đề xuất hóa đơn dự án, giao dịch trên tài khoản (mốc thanh toán) sẽ được ghi có vào loại tài khoản Sổ cái *Doanh thu đã lập hóa đơn - trên toàn khoản* như được xác định trên tab **Doanh thu** trên trang **Thiết lập đăng Sổ cái** và được ghi nợ vào tài khoản số dư của khách hàng. Tài khoản số dư của khách hàng được xác định trong **Khoản phải thu** \> **Thiết lập** \> **Hồ sơ đăng khách hàng**.
 
-   Khi xác định hồ sơ đăng cho các phương thức thanh toán theo thời gian và vật tư, bạn có tùy chọn để tích lũy doanh thu cho mỗi loại giao dịch (giờ, chi phí và phí). Nếu tùy chọn **Tích lũy doanh thu** được đặt thành **Có**, các giao dịch bán hàng chưa được lập hóa đơn trong bút toán tích hợp Project Operations sẽ được ghi vào sổ cái. Giá trị bán hàng được ghi nợ vào **WIP - tài khoản giá trị bán hàng** và ghi có vào tài khoản **Doanh thu tích lũy - giá trị bán hàng** đã được thiết lập trên trang **Thiết lập đăng sổ cái** trên tab **Doanh thu**. 
+   Khi xác định hồ sơ đăng cho các phương thức thanh toán theo thời gian và vật tư, bạn có tùy chọn tích lũy doanh thu cho mỗi loại giao dịch (giờ, chi phí, hạng mục và phí). Nếu tùy chọn **Tích lũy doanh thu** được đặt thành **Có**, các giao dịch bán hàng chưa được lập hóa đơn trong bút toán tích hợp Project Operations sẽ được ghi vào sổ cái. Giá trị bán hàng được ghi nợ vào **WIP - tài khoản giá trị bán hàng** và ghi có vào tài khoản **Doanh thu tích lũy - giá trị bán hàng** đã được thiết lập trên trang **Thiết lập đăng sổ cái** trên tab **Doanh thu**. 
   
   > [!NOTE]
   > Tùy chọn **Tích lũy doanh thu** chỉ khả dụng khi loại giao dịch tương ứng **Giá cả** được đăng vào tài khoản lãi và lỗ.

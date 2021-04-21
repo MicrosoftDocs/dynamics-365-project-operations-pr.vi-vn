@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272459"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664024"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Thông tin tóm tắt về báo giá dự án - bản đơn giản
+# <a name="header-details-for-project-quotes"></a>Chi tiết của tiêu đề cho các báo giá dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

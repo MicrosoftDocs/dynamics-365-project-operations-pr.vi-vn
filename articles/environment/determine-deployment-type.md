@@ -3,17 +3,17 @@ title: Xác định kiểu triển khai của bạn
 description: Chủ đề này cung cấp thông tin nhằm giúp bạn xác định đúng loại triển khai Project Operations cho công ty của bạn.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479590"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663620"
 ---
 # <a name="determine-your-deployment-type"></a>Xác định kiểu triển khai của bạn
 
@@ -44,7 +44,7 @@ Project Operations hỗ trợ nhiều tùy chọn triển khai để phù hợp 
 - [Project Operations dành cho tình huống dựa trên nguồn lực/hàng không trữ kho](#integrated)
 - [Project Operations dành cho tình huống dựa trên hàng trữ kho/lệnh sản xuất](#pma)
 
-Project Operations hỗ trợ các kịch bản dựa trên hàng nhập kho/lệnh sản xuất và các kịch bản dựa trên hàng không nhập kho/nguồn lực trên cùng một môi trường thông qua các cấu hình cấp pháp nhân. Chẳng hạn, Contoso có thể sử dụng các khả năng trữ kho/lệnh sản xuất ở cơ sở sản xuất của họ tại Hoa Kỳ (Pháp nhân = Contoso Manufacturing United States). Contoso có thể sử dụng các khả năng dựa trên tài nguyên/không trữ kho trong cơ sở dịch vụ của Contoso tại Robotics Arms ở Vương quốc Anh (Pháp nhân = Contoso Robotics United Kingdom).
+Project Operations hỗ trợ các kịch bản dựa trên hàng nhập kho/lệnh sản xuất và các kịch bản dựa trên hàng không nhập kho/nguồn lực trên cùng một môi trường thông qua các cấu hình cấp pháp nhân. Ví dụ: Contoso có thể sử dụng các khả năng của lệnh sản xuất/vật liệu tồn kho tại cơ sở sản xuất ở Hoa Kỳ của họ (Pháp nhân = Contoso Manufacturing United States). Contoso có thể sử dụng các khả năng dựa trên nguồn lực/vật tư không tồn kho trong cơ sở dịch vụ Contoso Robotics Arms ở Vương quốc Anh (Pháp nhân = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
 
@@ -56,7 +56,7 @@ Việc triển khai đơn giản bao gồm các khả năng sau:
 - Quản lý nguồn lực hợp nhất
 - Theo dõi thời gian
 - Chi phí cơ bản
-- Lập hóa đơn ước giá và hóa đơn dành cho khách hàng 
+- Lập hóa đơn ước giá để Người quản lý dự án xem xét và chỉnh sửa 
 
 #### <a name="deployment-steps"></a>Các bước triển khai
 Xác định mô hình triển khai tốt nhất của Project Operations bằng cách sử dụng [Bảng câu hỏi triển khai](https://aka.ms/provisionprojectoperations).
@@ -93,8 +93,8 @@ Xác định mô hình triển khai tốt nhất của Project Operations bằng
 - Biên nhận OCR
 - Lập hóa đơn đầy đủ
 - Ghi nhận doanh thu
-- Đơn hàng sản xuất
-- Hỗ trợ vật tư
+- Lệnh sản xuất
+- Vật tư tồn kho hỗ trợ với hàng tồn kho
 
 #### <a name="deployment-steps"></a>Các bước triển khai
 Xác định mô hình triển khai tốt nhất của Project Operations bằng cách sử dụng [Bảng câu hỏi triển khai](https://aka.ms/provisionprojectoperations).

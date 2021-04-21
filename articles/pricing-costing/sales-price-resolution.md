@@ -3,17 +3,17 @@ title: Giải quyết giá bán cho ước tính và thực tế
 description: Chủ đề này cung cấp thông tin về cách giải quyết tỷ lệ bán hàng cho các ước tính và thực tế.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274979"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877471"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Giải quyết giá bán cho ước tính và thực tế
 
@@ -54,6 +54,17 @@ Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất cá
     | &nbsp; | Tăng cao hơn chi phí | Bằng cách áp dụng mức tăng như được xác định bởi dòng giá danh mục trên tỷ lệ chi phí đơn vị của chi phí thực tế liên quan |
 
 4. Nếu hệ thống không thể đối chiếu các giá trị trường **Danh mục** và **Đơn vị**, thì tỷ lệ bán hàng được đặt mặc định về không (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Giải quyết tỷ lệ doanh thu trên dòng giá trị thực tế và giá trị ước tính cho vật tư
+
+Trong Project Operations, các dòng giá trị ước tính cho vật tư được dùng để biểu thị chi tiết mô tả báo giá và hợp đồng cho vật tư và dòng giá trị ước tính cho vật tư trong dự án.
+
+Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất các bước sau để mặc định đơn giá bán.
+
+1. Hệ thống sử dụng kết hợp trường **Sản phẩm** và **Đơn vị** trên dòng ước tính cho vật tư để khớp các dòng hạng mục trong bảng giá trong bảng giá đã được giải quyết.
+2. Nếu hệ thống tìm thấy một dòng hạng mục trong bảng giá có tỷ lệ doanh số cho tổ hợp trường **Sản phẩm** và **Đơn vị** và phương pháp định giá là **Số tiền theo loại tiền**, thì giá bán sẽ được nêu rõ trên dòng bảng giá được sử dụng.
+3. Nếu các giá trị của trường **Sản phẩm** và **Đơn vị** không khớp, thì tỷ lệ doanh số mặc định là 0.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Thiết lập tỷ lệ hóa đơn lao động
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ thanh toán nhân công trong Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274844"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877426"
 ---
 # <a name="set-up-labor-bill-rates"></a>Thiết lập tỷ lệ hóa đơn lao động
 
@@ -21,8 +21,8 @@ _ **Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Mỗi bảng giá có một tập hợp giá theo vai trò hoặc giá nhân công, hiệu quả cho ngữ cảnh và ngày hiệu quả có trên tiêu đề bảng giá. Tỷ lệ hóa đơn cho thời gian trong Dynamics 365 Project Operations chỉ có thể được thiết lập bằng một đơn vị tiền tệ, đó là đơn vị tiền tệ trên tiêu đề Bảng giá.
 
-1. Để thiết lập tỷ lệ hóa đơn nhân công cho một bảng giá bán hàng, hãy tạo một bảng giá dựa trên tiêu đề bảng giá. 
-2. Trên tab **Giá theo vai trò**, trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
+1. Để thiết lập mức lương nhân công theo giờ cho một bảng giá bán hàng, hãy đi đến **Bán hàng** > **Khách hàng** > **Bảng giá** rồi chọn **Mới** để tạo một bảng giá mới. 
+2. Trên tab **Giá theo vai trò**, trong lưới con, hãy chọn **Giá theo vai trò mới**. 
 3. Trên ngăn **Tạo nhanh**, nhập tổ hợp vai trò và đơn vị tổ chức mà bạn cần thiết lập tỷ lệ thanh toán.
 
    Bảng sau bao gồm các trường trên tab **Tổng quát** và ngăn **Tạo nhanh** của mô tả giá theo vai trò mà bạn cần lưu ý khi tạo giá theo vai trò trên bảng giá bán hoặc bảng giá bán hàng:

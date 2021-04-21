@@ -3,17 +3,17 @@ title: Quản lý trạng thái không được vượt quá và các mục xác
 description: Chủ đề này cung cấp thông tin về các hoạt động kiểm tra giới hạn không vượt quá được thực hiện trong Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274064"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866753"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Quản lý trạng thái không được vượt quá và các mục xác thực 
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="not-to-exceed-on-approvals"></a>Không vượt quá khi phê duyệt
 
-Khi một mục nhập thời gian hoặc chi phí được gửi, một hồ sơ phê duyệt sẽ được tạo. Nếu hồ sơ phê duyệt đó là phải thanh toán và ánh xạ đến một mô tả hợp đồng thời gian và vật tư, hệ thống sẽ hoàn thành quy trình kiểm tra xác thực không vượt quá ở các cấp độ sau:
+Khi bạn gửi mục nhập thời gian, chi phí hoặc mức sử dụng vật tư, thì một bản ghi phê duyệt sẽ được tạo. Nếu hồ sơ phê duyệt đó là phải thanh toán và ánh xạ đến một mô tả hợp đồng thời gian và vật tư, hệ thống sẽ hoàn thành quy trình kiểm tra xác thực không vượt quá ở các cấp độ sau:
 
   - Kiểm tra dựa trên giới hạn được thiết lập cho khách hàng trên mô tả hợp đồng dự án
   - Kiểm tra dựa trên giới hạn được thiết lập trên mô tả hợp đồng
@@ -34,11 +34,11 @@ Nếu vượt qua bước kiểm tra, bước phê duyệt sẽ có trạng thá
 
 Nếu không vượt qua bước kiểm tra, bước phê duyệt sẽ có trạng thái xác thực là **Không thành công**. Thông tin chi tiết về quy trình xác thực không vượt quá sẽ cho người dùng biết bước xác thực không thành công ở cấp nào.
 
-Khi mục nhập thời gian hoặc chi phí đã gửi được coi là không phải thanh toán, trạng thái xác thực không vượt quá được đặt thành **Không áp dụng** với thông tin chi tiết xác thực tương đương với **Không áp dụng**.
+Khi mục nhập thời gian, chi phí hoặc mức sử dụng vật tư đã gửi được coi là không phải chịu phí tổn, trạng thái xác thực không vượt quá được đặt thành **Không áp dụng** với chi tiết xác thực tương đương với **Không áp dụng**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Giới hạn không vượt quá đối với doanh số thực tế chưa được thanh toán
 
-Khi một mục nhập thời gian hoặc chi phí được phê duyệt, các bản ghi doanh số thực tế chưa được thanh toán và chi phí sẽ được tạo. Nếu doanh số thực tế chưa được thanh toán đang được tạo thuộc trường hợp phải thanh toán và ánh xạ đến một mô tả hợp đồng thời gian và vật tư, thì ứng dụng sẽ tiến hành bước kiểm tra xác thực không vượt quá ở các cấp độ sau:
+Khi một mục nhập sử dụng thời gian, chi phí hoặc mức sử dụng vật tư được phê duyệt, các bản ghi giá trị thực tế của doanh số chưa lập hóa đơn và chi phí sẽ được tạo. Nếu doanh số thực tế chưa được thanh toán đang được tạo thuộc trường hợp phải thanh toán và ánh xạ đến một mô tả hợp đồng thời gian và vật tư, thì ứng dụng sẽ tiến hành bước kiểm tra xác thực không vượt quá ở các cấp độ sau:
 
   - Kiểm tra dựa trên giới hạn được thiết lập cho khách hàng trên mô tả hợp đồng dự án
   - Kiểm tra dựa trên giới hạn được thiết lập trên mô tả hợp đồng
@@ -55,9 +55,9 @@ Khi doanh số thực tế chưa được thanh toán được coi là phải th
 
 ## <a name="reset-the-not-to-exceed-status"></a>Đặt lại trạng thái không vượt quá
 
-Bạn có thể thực hiện đặt lại hàng loạt trạng thái không vượt quá. Điều này cho phép Người quản lý dự án điều chỉnh việc xác thực không vượt quá để ưu tiên lập hóa đơn cho một phần công việc, thời gian hoặc chi phí cụ thể hơn những phần khác đã được cam kết từ số tiền không vượt quá hiện có.
+Bạn có thể thực hiện đặt lại hàng loạt trạng thái không vượt quá. Người quản lý dự án có thể điều chỉnh việc xác thực số tiền không vượt quá để ưu tiên lập hóa đơn cho một nội dung công việc, thời gian, chi phí hoặc mức sử dụng vật tư cụ thể hơn những phần khác đã được cam kết từ số tiền không vượt quá hiện có.
 
-Sau khi trạng thái không vượt quá được đặt lại cho doanh số thực tế chưa được thanh toán, số tiền đã cam kết sẽ giảm xuống. Người quản lý dự án có thể chọn một phần công việc, thời gian hoặc chi phí khác mà trước đó đã không thế tiến hành xác thực không vượt quá và đánh giá lại chúng. Với việc giảm số tiền đã cam kết, những giá trị thực tế này sẽ vượt qua quy trình xác thực. Điều này giúp Người quản lý dự án có khả năng tác động và kiểm soát tốt hơn đối với các giao dịch có thể lập hóa đơn cho giai đoạn đó.
+Sau khi trạng thái không vượt quá được đặt lại cho doanh số thực tế chưa được thanh toán, số tiền đã cam kết sẽ giảm xuống. Người quản lý dự án có thể chọn một nội dung khác trong mục nhập công việc, thời gian, chi phí hoặc mức sử dụng vật tư mà trước đó không thể xác thực số tiền không vượt quá để đánh giá lại. Với việc giảm số tiền đã cam kết, các giá trị thực tế này hiện đã vượt qua quá trình xác thực, giúp Người quản lý dự án có thể tác động và kiểm soát tốt hơn các giao dịch có thể lập hóa đơn cho giai đoạn đó.
 
 Để đặt lại trạng thái không vượt quá, hãy chọn một hoặc nhiều giá trị thực tế từ dạng xem **Tồn đọng thanh toán cho thời gian và vật tư** hoặc **Giá trị thực tế**, sau đó chọn **Đặt lại trạng thái không vượt quá**.
 

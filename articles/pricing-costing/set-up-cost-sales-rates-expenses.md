@@ -3,17 +3,17 @@ title: Thiết lập chi phí và tỷ lệ bán hàng cho các chi phí
 description: Chủ đề này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ bán hàng cho các danh mục giao dịch và chi phí.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274934"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877246"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Thiết lập chi phí và tỷ lệ bán hàng cho các chi phí
 
@@ -23,9 +23,10 @@ Bạn có thể thiết lập chi phí và giá bán cho các danh mục giao d�
 
 Để thiết lập chi phí và tỷ lệ bán hàng cho các danh mục giao dịch, hãy hoàn thành các bước sau. 
 
-1. Tạo một bảng giá dựa trên tiêu đề bảng giá. 
-2. Trên **Giá thể loại**, trên menu lưới con, hãy chọn **+ Giá thể loại mới**. 
-3. Trên trang **Tạo nhanh**, hãy nhập danh mục giao dịch và đơn vị mà bạn đang tạo giá mới.
+1. Đi đến **Bán hàng** > **Khách hàng** > **Bảng giá**.
+2. Chọn **Mới** để tạo một bảng giá mới. 
+3. Trên **Giá thể loại**, trên menu lưới con, hãy chọn **Giá thể loại mới**. 
+4. Trên trang **Tạo nhanh**, hãy nhập danh mục giao dịch và đơn vị mà bạn đang tạo giá mới.
 
 Bảng sau liệt kê các trường trên tab **Tổng quát** và trang **Tạo nhanh** của mô tả giá theo danh mục mà bạn phải lưu ý khi tạo giá theo danh mục trên bảng giá bán hoặc bảng giá vốn.
 
