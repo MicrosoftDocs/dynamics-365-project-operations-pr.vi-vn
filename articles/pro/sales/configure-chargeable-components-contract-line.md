@@ -1,5 +1,5 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án - bản đơn giản
+title: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách thêm các thành phần có thể tính phí vào mục mô tả hợp đồng trong Hoạt động Dự án.
 author: rumant
 manager: Annbe
@@ -8,77 +8,717 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273944"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858499"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a><span data-ttu-id="ad6b1-103">Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án - bản đơn giản</span><span class="sxs-lookup"><span data-stu-id="ad6b1-103">Configure chargeable components of a project-based contract line - lite</span></span>
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a><span data-ttu-id="c654d-103">Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-103">Configure chargeable components of a project-based contract line</span></span>
 
-<span data-ttu-id="ad6b1-104">_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="ad6b1-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="c654d-104">_**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_</span><span class="sxs-lookup"><span data-stu-id="c654d-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="ad6b1-105">Một mục mô tả hợp đồng dựa trên dự án có các thành phần *bao gồm* và thành phần *có thể tính phí*.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-105">A project-based contract line has *included* components and *chargeable* components.</span></span>
+<span data-ttu-id="c654d-105">Một mục mô tả hợp đồng dựa trên dự án có các thành phần *bao gồm* và thành phần *có thể tính phí*.</span><span class="sxs-lookup"><span data-stu-id="c654d-105">A project-based contract line has *included* components and *chargeable* components.</span></span>
 
-<span data-ttu-id="ad6b1-106">Thành phần bao gồm là các thành phần phải tuân theo:</span><span class="sxs-lookup"><span data-stu-id="ad6b1-106">Included components are components that are subject to:</span></span>
+<span data-ttu-id="c654d-106">Thành phần bao gồm là các thành phần phải tuân theo:</span><span class="sxs-lookup"><span data-stu-id="c654d-106">Included components are components that are subject to:</span></span>
 
-  - <span data-ttu-id="ad6b1-107">Phương thức thanh toán và phần tách của khách hàng</span><span class="sxs-lookup"><span data-stu-id="ad6b1-107">Billing method and customer splits</span></span>
-  - <span data-ttu-id="ad6b1-108">Giới hạn không vượt quá</span><span class="sxs-lookup"><span data-stu-id="ad6b1-108">Not-to-exceed limits</span></span> 
-  - <span data-ttu-id="ad6b1-109">Các mục thiết đặt tần suất hóa đơn được xác định trên mục mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-109">Invoice frequency settings defined on the project-based contract line</span></span>
+  - <span data-ttu-id="c654d-107">Phương thức thanh toán và phần tách của khách hàng</span><span class="sxs-lookup"><span data-stu-id="c654d-107">Billing method and customer splits</span></span>
+  - <span data-ttu-id="c654d-108">Giới hạn không vượt quá</span><span class="sxs-lookup"><span data-stu-id="c654d-108">Not-to-exceed limits</span></span> 
+  - <span data-ttu-id="c654d-109">Các mục thiết đặt tần suất hóa đơn được xác định trên mục mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-109">Invoice frequency settings defined on the project-based contract line</span></span>
 
-<span data-ttu-id="ad6b1-110">Một tập con các thành phần bao gồm có thể được đánh dấu là có thể tính phí bằng trường **Loại thanh toán**.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="ad6b1-111">Trường **Loại thanh toán** là một bộ tùy chọn cho phép thiết lập các giá trị sau trong bối cảnh mục mô tả hợp đồng:</span><span class="sxs-lookup"><span data-stu-id="ad6b1-111">The **Billing Type** field is an option-set that allows the following values in the context of a contract line:</span></span>
+<span data-ttu-id="c654d-110">Một tập con các thành phần bao gồm có thể được đánh dấu là có thể tính phí bằng trường **Loại thanh toán**.</span><span class="sxs-lookup"><span data-stu-id="c654d-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="c654d-111">Trường **Loại thanh toán** là một bộ tùy chọn cho phép thiết lập các giá trị sau trong bối cảnh mục mô tả hợp đồng:</span><span class="sxs-lookup"><span data-stu-id="c654d-111">The **Billing Type** field is an option-set that allows the following values in the context of a contract line:</span></span>
 
-  - <span data-ttu-id="ad6b1-112">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-112">Chargeable</span></span>
-  - <span data-ttu-id="ad6b1-113">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-113">Non-chargeable</span></span>
+  - <span data-ttu-id="c654d-112">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-112">Chargeable</span></span>
+  - <span data-ttu-id="c654d-113">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-113">Non-chargeable</span></span>
 
-<span data-ttu-id="ad6b1-114">Các thành phần có thể tính phí có thể được xác định trên nhiệm vụ, vai trò và danh mục giao dịch.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
+<span data-ttu-id="c654d-114">Các thành phần có thể tính phí có thể được xác định trên nhiệm vụ, vai trò và danh mục giao dịch.</span><span class="sxs-lookup"><span data-stu-id="c654d-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
 
-<span data-ttu-id="ad6b1-115">Khả năng tính phí được xác định trên các nhiệm vụ cho một mục mô tả hợp đồng dự án và áp dụng cho tất cả các lớp giao dịch có trong mục mô tả này.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-115">Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line.</span></span> <span data-ttu-id="ad6b1-116">Nếu trường **Bao gồm nhiệm vụ** trên một mục mô tả hợp đồng bị để trống hoặc được đặt thành **Toàn bộ dự án**, thì tab **Nhiệm vụ có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-116">If the **Include Tasks** field on a contract line is blank or set to **Entire project**, the **Chargeable tasks** tab will not be available.</span></span>
+<span data-ttu-id="c654d-115">Khả năng tính phí được xác định trên các nhiệm vụ cho một mục mô tả hợp đồng dự án và áp dụng cho tất cả các lớp giao dịch có trong mục mô tả này.</span><span class="sxs-lookup"><span data-stu-id="c654d-115">Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line.</span></span> <span data-ttu-id="c654d-116">Nếu trường **Bao gồm nhiệm vụ** trên một mục mô tả hợp đồng bị để trống hoặc được đặt thành **Toàn bộ dự án**, thì tab **Nhiệm vụ có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="c654d-116">If the **Include Tasks** field on a contract line is blank or set to **Entire project**, the **Chargeable tasks** tab will not be available.</span></span>
 
-<span data-ttu-id="ad6b1-117">Khả năng tính phí được xác định trên các vai trò cho một mục mô tả hợp đồng dự án và chỉ áp dụng cho lớp giao dịch **Thời gian**.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-117">Chargeability defined on roles for a project contract line only applies to the **Time** transaction class.</span></span> <span data-ttu-id="ad6b1-118">Nếu trường **Bao gồm thời gian** trên một mục mô tả hợp đồng dự án được đặt thành **Không**, thì tab **Vai trò có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-118">If the **Include Time** field on a contract line is set to **No**, the **Chargeable roles** tab will not be available.</span></span>
+<span data-ttu-id="c654d-117">Khả năng tính phí được xác định trên các vai trò cho một mục mô tả hợp đồng dự án và chỉ áp dụng cho lớp giao dịch **Thời gian**.</span><span class="sxs-lookup"><span data-stu-id="c654d-117">Chargeability defined on roles for a project contract line only applies to the **Time** transaction class.</span></span> <span data-ttu-id="c654d-118">Nếu trường **Bao gồm thời gian** trên một mục mô tả hợp đồng dự án được đặt thành **Không**, thì tab **Vai trò có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="c654d-118">If the **Include Time** field on a contract line is set to **No**, the **Chargeable roles** tab will not be available.</span></span>
 
-<span data-ttu-id="ad6b1-119">Khả năng tính phí được xác định trên các danh mục giao dịch cho một mục mô tả hợp đồng dự án và chỉ áp dụng cho lớp giao dịch **Chi phí**.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-119">Chargeability defined on transaction categories for a project contract line only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="ad6b1-120">Nếu trường **Bao gồm chi phí** được đặt thành **Không**, thì tab **Danh mục có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-120">If the **Include Expenses** field is set to **No**, the **Chargeable Categories** tab will not be available.</span></span>
+<span data-ttu-id="c654d-119">Khả năng tính phí được xác định trên các danh mục giao dịch cho một mục mô tả hợp đồng dự án và chỉ áp dụng cho lớp giao dịch **Chi phí**.</span><span class="sxs-lookup"><span data-stu-id="c654d-119">Chargeability defined on transaction categories for a project contract line only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="c654d-120">Nếu trường **Bao gồm chi phí** được đặt thành **Không**, thì tab **Danh mục có thể tính phí** sẽ không khả dụng.</span><span class="sxs-lookup"><span data-stu-id="c654d-120">If the **Include Expenses** field is set to **No**, the **Chargeable Categories** tab will not be available.</span></span>
 
-### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a><span data-ttu-id="ad6b1-121">Cập nhật nhiệm vụ dự án thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-121">Update a project task as chargeable or non-chargeable</span></span>
+### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a><span data-ttu-id="c654d-121">Cập nhật nhiệm vụ dự án thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-121">Update a project task as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="ad6b1-122">Một nhiệm vụ dự án có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng cụ thể, vì vậy, có thể có các cách thiết lập sau đây:</span><span class="sxs-lookup"><span data-stu-id="ad6b1-122">A project task can be chargeable or non-chargeable on a specific contract line which makes the following setup possible:</span></span>
+<span data-ttu-id="c654d-122">Một nhiệm vụ dự án có thể là nhiệm vụ phải chịu phí tổn hoặc không phải chịu phí tổn trên một mục mô tả hợp đồng cụ thể, vì vậy, có thể có các cách thiết lập sau đây:</span><span class="sxs-lookup"><span data-stu-id="c654d-122">A project task can be chargeable or non-chargeable on a specific contract line, which makes the following setup possible:</span></span>
 
-<span data-ttu-id="ad6b1-123">Nếu một mục mô tả hợp đồng dựa trên dự án có **Thời gian** và một nhiệm vụ nhất định, thì **T1** sẽ được liên kết với mục đó dưới dạng có thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-123">If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable.</span></span> <span data-ttu-id="ad6b1-124">Nếu có mục mô tả hợp đồng thứ hai bao gồm **Chi phí**, thì bạn có thể liên kết nhiệm vụ T1 trên mục mô tả hợp đồng dưới dạng không thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-124">If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable.</span></span> <span data-ttu-id="ad6b1-125">Kết quả là toàn bộ thời gian được ghi lại trong nhiệm vụ đều là dạng có thể tính phí và tất cả các chi phí là dạng không thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-125">The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.</span></span>
+<span data-ttu-id="c654d-123">Nếu một mục mô tả hợp đồng dựa trên dự án có **Thời gian** và một nhiệm vụ nhất định, thì **T1** sẽ được liên kết với mục đó dưới dạng có thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="c654d-123">If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable.</span></span> <span data-ttu-id="c654d-124">Nếu có mục mô tả hợp đồng thứ hai bao gồm **Chi phí**, thì bạn có thể liên kết nhiệm vụ T1 trên mục mô tả hợp đồng dưới dạng không thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="c654d-124">If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable.</span></span> <span data-ttu-id="c654d-125">Kết quả là toàn bộ thời gian được ghi lại trong nhiệm vụ đều là dạng có thể tính phí và tất cả các chi phí là dạng không thể tính phí.</span><span class="sxs-lookup"><span data-stu-id="c654d-125">The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.</span></span>
 
-<span data-ttu-id="ad6b1-126">Loại thanh toán của nhiệm vụ có thể được đặt cấu hình trên tab **Nhiệm vụ có thể tính phí** của mô tả hợp đồng bằng cách cập nhật trường **Loại thanh toán** trên lưới con nhiệm vụ trong mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-126">A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks subgrid.</span></span> <span data-ttu-id="ad6b1-127">Ngoài ra, bạn có thể cập nhật trường **Loại thanh toán** trên lưới con của nhiệm vụ Thiết lập thanh toán trong một dự án hiển thị mô tả hợp đồng được liên kết với một nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-127">Alternatively, you can update the **Billing Type** field on the subgrid of the task Billing setup of a project that shows the contract lines associated to a task.</span></span>
+<span data-ttu-id="c654d-126">Loại thanh toán của nhiệm vụ có thể được đặt cấu hình trên tab **Nhiệm vụ có thể tính phí** của mô tả hợp đồng bằng cách cập nhật trường **Loại thanh toán** trên lưới con nhiệm vụ trong mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="c654d-126">A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks subgrid.</span></span> <span data-ttu-id="c654d-127">Ngoài ra, bạn có thể cập nhật trường **Loại thanh toán** trên lưới con của nhiệm vụ Thiết lập thanh toán trong một dự án hiển thị mô tả hợp đồng được liên kết với một nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="c654d-127">Alternatively, you can update the **Billing Type** field on the subgrid of the task Billing setup of a project that shows the contract lines associated to a task.</span></span>
 
-### <a name="update-a-role-as-chargeable-or-non-chargeable"></a><span data-ttu-id="ad6b1-128">Cập nhật vai trò thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-128">Update a role as chargeable or non-chargeable</span></span>
+### <a name="update-a-role-as-chargeable-or-non-chargeable"></a><span data-ttu-id="c654d-128">Cập nhật vai trò thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-128">Update a role as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="ad6b1-129">Một vai trò có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng cụ thể.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-129">A role can be chargeable or non-chargeable on a specific contract line.</span></span>
+<span data-ttu-id="c654d-129">Một vai trò có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng cụ thể.</span><span class="sxs-lookup"><span data-stu-id="c654d-129">A role can be chargeable or non-chargeable on a specific contract line.</span></span>
 
-<span data-ttu-id="ad6b1-130">Bạn có thể đặt cấu hình loại thanh toán của một vai trò trên tab **Vai trò có thể tính phí** của mục mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-130">A role's billing type can be configured on the **Chargeable Roles** tab of a contract line.</span></span> <span data-ttu-id="ad6b1-131">Để làm điều này, hãy cập nhật trường **Loại thanh toán** trên lưới con **Vai trò có thể tính phí**.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-131">To do this, update the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
+<span data-ttu-id="c654d-130">Bạn có thể đặt cấu hình loại thanh toán của một vai trò trên tab **Vai trò có thể tính phí** của mục mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="c654d-130">A role's billing type can be configured on the **Chargeable Roles** tab of a contract line.</span></span> <span data-ttu-id="c654d-131">Để làm điều này, hãy cập nhật trường **Loại thanh toán** trên lưới con **Vai trò có thể tính phí**.</span><span class="sxs-lookup"><span data-stu-id="c654d-131">To do this, update the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
 
-### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a><span data-ttu-id="ad6b1-132">Cập nhật danh mục giao dịch thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-132">Update a transaction category as chargeable or non-chargeable</span></span>
+### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a><span data-ttu-id="c654d-132">Cập nhật danh mục giao dịch thành dạng có thể tính phí hoặc không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-132">Update a transaction category as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="ad6b1-133">Một danh mục giao dịch có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng cụ thể.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-133">A transaction category can be chargeable or non-chargeable on a specific contract line.</span></span>
+<span data-ttu-id="c654d-133">Một danh mục giao dịch có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng cụ thể.</span><span class="sxs-lookup"><span data-stu-id="c654d-133">A transaction category can be chargeable or non-chargeable on a specific contract line.</span></span>
 
-<span data-ttu-id="ad6b1-134">Bạn có thể đặt cấu hình loại thanh toán của một giao dịch trên tab **Danh mục có thể tính phí** của mục mô tả hợp đồng dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-134">A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line.</span></span> <span data-ttu-id="ad6b1-135">Để làm điều này, hãy cập nhật trường **Loại thanh toán** trên lưới con **Thể loại có thể tính phí**.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-135">To do this, update the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
+<span data-ttu-id="c654d-134">Bạn có thể đặt cấu hình loại thanh toán của một giao dịch trên tab **Danh mục có thể tính phí** của mục mô tả hợp đồng dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="c654d-134">A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line.</span></span> <span data-ttu-id="c654d-135">Để làm điều này, hãy cập nhật trường **Loại thanh toán** trên lưới con **Thể loại có thể tính phí**.</span><span class="sxs-lookup"><span data-stu-id="c654d-135">To do this, update the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
 
-### <a name="resolve-chargeability"></a><span data-ttu-id="ad6b1-136">Giải quyết khả năng tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-136">Resolve chargeability</span></span>
+### <a name="resolve-chargeability"></a><span data-ttu-id="c654d-136">Giải quyết khả năng tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-136">Resolve chargeability</span></span>
 
-<span data-ttu-id="ad6b1-137">Giá trị ước tính hoặc thực tế được tạo cho thời gian sẽ chỉ được coi là có thể tính phí nếu **Thời gian** được bao gồm trên mục mô tả hợp đồng và nếu **Nhiệm vụ**, **Vai trò** được đặt cấu hình là có thể tính phí trên mục mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-137">An estimate or actual created for time will only be considered chargeable if **Time** is included on the contract line, and if **Task** and **Role** are configured as chargeable on the contract line.</span></span>
+<span data-ttu-id="c654d-137">Một giá trị ước tính hoặc thực tế được tạo cho thời gian chỉ được coi là phải chịu phí tổn nếu:</span><span class="sxs-lookup"><span data-stu-id="c654d-137">An estimate or actual created for time is only considered chargeable if:</span></span>
 
-<span data-ttu-id="ad6b1-138">Giá trị ước tính hoặc thực tế được tạo cho chi phí sẽ chỉ được coi là có thể tính phí nếu **Chi phí** được bao gồm trên mục mô tả hợp đồng và nếu **Nhiệm vụ**, danh mục **Giao dịch** được đặt cấu hình là có thể tính phí trên mục mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="ad6b1-138">An estimate or actual created for expense is only considered chargeable if **Expense** is included on the contract line and if the **Task** and **Transaction** categories are configured as chargeable on the contract line.</span></span>
+   - <span data-ttu-id="c654d-138">**Thời gian** được thêm vào mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="c654d-138">**Time** is included on the contract line.</span></span>
+   - <span data-ttu-id="c654d-139">**Vai trò** được đặt cấu hình là phải chịu phí tổn trên mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="c654d-139">**Role** is configured as chargeable on the contract line.</span></span>
+   - <span data-ttu-id="c654d-140">**Các nhiệm vụ được đưa vào** được đặt thành **Các nhiệm vụ đã chọn** trên mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="c654d-140">**Included Tasks** is set to **Selected tasks** on the contract line.</span></span>
+ 
+ <span data-ttu-id="c654d-141">Nếu ba điều này là đúng, thì nhiệm vụ được đặt cấu hình là phải chịu phí tổn.</span><span class="sxs-lookup"><span data-stu-id="c654d-141">If these three things are true, the task is configured as chargeable.</span></span> 
+
+<span data-ttu-id="c654d-142">Một giá trị ước tính hoặc thực tế được tạo cho chi phí chỉ được coi là phải chịu phí tổn nếu:</span><span class="sxs-lookup"><span data-stu-id="c654d-142">An estimate or actual created for expense is only considered chargeable if:</span></span>
+
+   - <span data-ttu-id="c654d-143">**Chi phí** được thêm vào mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="c654d-143">**Expense** is included on the contract line</span></span>
+   - <span data-ttu-id="c654d-144">**Thể loại giao dịch** được đặt cấu hình là phải chịu phí tổn trên mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="c654d-144">**Transaction category** is configured as chargeable on the contract line</span></span>
+   - <span data-ttu-id="c654d-145">**Các nhiệm vụ được đưa vào** được đặt thành **Nhiệm vụ đã chọn** trên mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="c654d-145">**Included Tasks** is set to **Selected task** on the contract line</span></span>
+  
+ <span data-ttu-id="c654d-146">Nếu ba điều này là đúng, thì **Nhiệm vụ** được đặt cấu hình là phí tổn phải trả.</span><span class="sxs-lookup"><span data-stu-id="c654d-146">If these three things are true, the **Task** is configured as chargeable.</span></span> 
+
+<span data-ttu-id="c654d-147">Một số liệu ước tính hoặc số liệu thực tế được tạo cho vật tư chỉ được coi là phí tổn phải trả nếu:</span><span class="sxs-lookup"><span data-stu-id="c654d-147">An estimate or actual created for material is only considered chargeable if:</span></span>
+
+   - <span data-ttu-id="c654d-148">**Vật tư** được thêm vào mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="c654d-148">**Materials** is included on the contract line</span></span>
+   - <span data-ttu-id="c654d-149">**Các nhiệm vụ được đưa vào** được đặt thành **Các nhiệm vụ đã chọn** trên mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="c654d-149">**Included Tasks** is set to **Selected tasks** on the contract line</span></span>
+
+<span data-ttu-id="c654d-150">Nếu hai điều này là đúng, thì **Nhiệm vụ** được đặt cấu hình là phí tổn phải trả.</span><span class="sxs-lookup"><span data-stu-id="c654d-150">If these two things are true, the **Task** is configured as chargeable.</span></span> 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-151">
+                    <strong>Bao gồm thời gian</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-151">
+                    <strong>Includes Time</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="c654d-152">
+                    <strong>Bao gồm chi phí</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-152">
+                    <strong>Includes Expense</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="c654d-153">
+                    <strong>Bao gồm vật tư</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-153">
+                    <strong>Includes Materials</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p><span data-ttu-id="c654d-154">
+                    <strong>Các tác vụ được đưa vào</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-154">
+                    <strong>Included Tasks</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-155">
+                    <strong>Vai trò</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-155">
+                    <strong>Role</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-156">
+                    <strong>Danh mục</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-156">
+                    <strong>Category</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-157">
+                    <strong>Tác vụ</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-157">
+                    <strong>Task</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p><span data-ttu-id="c654d-158">
+                    <strong>Tác động đến khả năng phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-158">
+                    <strong>Chargeability impact</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-159">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-159">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-160">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-160">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-161">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-161">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-162">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-162">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-163">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-163">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-164">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-164">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-165">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-165">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-166">Thanh toán theo giá trị thời gian thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-166">Billing on a time actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-167">Loại thanh toán theo giá trị chi phí thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-167">Billing type on expense actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-168">Loại thanh toán theo giá trị vật tư thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-168">Billing type on material actual: <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-169">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-169">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-170">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-170">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-171">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-171">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-172">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="c654d-172">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-173">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-173">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-174">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-174">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-175">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-175">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-176">Thanh toán theo giá trị thời gian thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-176">Billing on a time actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-177">Loại thanh toán theo giá trị chi phí thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-177">Billing type on expense actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-178">Loại thanh toán theo giá trị vật tư thực tế: <strong>Phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-178">Billing type on material actual: <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-179">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-179">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-180">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-180">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-181">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-181">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-182">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="c654d-182">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-183">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-183">
+                    <strong>Non - Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-184">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-184">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-185">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-185">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-186">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-186">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-187">Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-187">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="c654d-188">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-188">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-189">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-189">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-190">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-190">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-191">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-191">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-192">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="c654d-192">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-193">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-193">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-194">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-194">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-195">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-195">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-196">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-196">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-197">Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-197">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-198">Loại thanh toán theo giá trị vật tư thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-198">Billing type on material actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-199">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-199">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-200">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-200">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-201">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-201">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-202">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="c654d-202">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-203">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-203">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-204">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-204">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-205">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-205">
+                    <strong>Non- Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-206">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-206">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-207">Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-207">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-208">Loại thanh toán theo giá trị vật tư thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-208">Billing type on material actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-209">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-209">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-210">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-210">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-211">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-211">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-212">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="c654d-212">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-213">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-213">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-214">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-214">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-215">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-215">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-216">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-216">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-217">Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-217">Billing type on expense actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-218">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-218">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-219">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-219">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-220">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-220">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-221">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-221">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-222">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-222">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-223">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-223">Can't be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-224">
+                    <strong>Có thể tính phí</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-224">
+                    <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-225">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-225">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-226">Thanh toán theo giá trị thời gian thực tế: <strong>Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-226">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-227">Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-227">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="c654d-228">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-228">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-229">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-229">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-230">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-230">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-231">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-231">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-232">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-232">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-233">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-233">Can't be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-234">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-234">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-235">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-235">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-236">Thanh toán theo giá trị thời gian thực tế: <strong>Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-236">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-237">Loại thanh toán theo giá trị chi phí thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-237">Billing type on expense actual: <strong> Non-chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-238">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-238">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-239">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-239">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="c654d-240">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-240">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-241">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-241">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-242">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-242">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-243">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-243">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-244">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-244">Can't be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-245">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-245">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-246">Thanh toán theo giá trị thời gian thực tế: Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-246">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="c654d-247">Loại thanh toán theo giá trị chi phí thực tế:<strong> Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-247">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-248">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-248">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-249">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-249">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="c654d-250">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-250">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="c654d-251">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-251">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-252">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-252">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-253">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-253">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-254">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-254">Can't be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-255">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-255">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-256">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-256">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-257">Loại thanh toán theo giá trị chi phí thực tế:<strong> Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-257">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-258">Loại thanh toán theo giá trị vật tư thực tế: Phải chịu phí tổn</span><span class="sxs-lookup"><span data-stu-id="c654d-258">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-259">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-259">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-260">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-260">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="c654d-261">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-261">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-262">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-262">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-263">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-263">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-264">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-264">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-265">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-265">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-266">Thanh toán theo giá trị thời gian thực tế: Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-266">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="c654d-267">Loại thanh toán theo giá trị chi phí thực tế: Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="c654d-267">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="c654d-268">Loại thanh toán theo giá trị vật tư thực tế: <strong>Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-268">Billing type on material actual: <strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="c654d-269">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-269">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="c654d-270">Có</span><span class="sxs-lookup"><span data-stu-id="c654d-270">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="c654d-271">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-271">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="c654d-272">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="c654d-272">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="c654d-273">
+                    <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-273">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="c654d-274">
+                    <strong>Không thể tính phí</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-274">
+                    <strong>Non-chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="c654d-275">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="c654d-275">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="c654d-276">Thanh toán theo giá trị thời gian thực tế: <strong>Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-276">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-277">Loại thanh toán theo giá trị chi phí thực tế:<strong> Không phải chịu phí tổn</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-277">Billing type on expense actual:<strong> Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="c654d-278">Loại thanh toán theo giá trị vật tư thực tế:<strong> Không khả dụng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="c654d-278">Billing type on material actual:<strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| <span data-ttu-id="ad6b1-139">Bao gồm thời gian</span><span class="sxs-lookup"><span data-stu-id="ad6b1-139">Includes Time</span></span> | <span data-ttu-id="ad6b1-140">Bao gồm chi phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-140">Includes Expense</span></span> | <span data-ttu-id="ad6b1-141">Bao gồm nhiệm vụ</span><span class="sxs-lookup"><span data-stu-id="ad6b1-141">Includes Tasks</span></span> | <span data-ttu-id="ad6b1-142">Vai trò</span><span class="sxs-lookup"><span data-stu-id="ad6b1-142">Role</span></span>           | <span data-ttu-id="ad6b1-143">Danh mục</span><span class="sxs-lookup"><span data-stu-id="ad6b1-143">Category</span></span>       | <span data-ttu-id="ad6b1-144">Tác vụ</span><span class="sxs-lookup"><span data-stu-id="ad6b1-144">Task</span></span>                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="ad6b1-145">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-145">Yes</span></span>           | <span data-ttu-id="ad6b1-146">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-146">Yes</span></span>              | <span data-ttu-id="ad6b1-147">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-147">Entire project</span></span> | <span data-ttu-id="ad6b1-148">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-148">Chargeable</span></span>     | <span data-ttu-id="ad6b1-149">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-149">Chargeable</span></span>     | <span data-ttu-id="ad6b1-150">Thanh toán theo giá trị Thời gian thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-150">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="ad6b1-151">Loại thanh toán theo giá trị Chi phí thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-151">Billing type on Expense actual: **Chargeable**</span></span>           |
-| <span data-ttu-id="ad6b1-152">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-152">Yes</span></span>           | <span data-ttu-id="ad6b1-153">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-153">Yes</span></span>              | <span data-ttu-id="ad6b1-154">Nhiệm vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="ad6b1-154">Selected tasks</span></span> | <span data-ttu-id="ad6b1-155">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-155">Chargeable</span></span>     | <span data-ttu-id="ad6b1-156">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-156">Chargeable</span></span>     | <span data-ttu-id="ad6b1-157">Thanh toán theo giá trị Thời gian thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-157">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="ad6b1-158">Loại thanh toán theo giá trị Chi phí thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-158">Billing type on Expense actual: **Chargeable**</span></span>           |
-| <span data-ttu-id="ad6b1-159">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-159">Yes</span></span>           | <span data-ttu-id="ad6b1-160">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-160">Yes</span></span>              | <span data-ttu-id="ad6b1-161">Nhiệm vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="ad6b1-161">Selected tasks</span></span> | <span data-ttu-id="ad6b1-162">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-162">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-163">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-163">Chargeable</span></span>     | <span data-ttu-id="ad6b1-164">Thanh toán theo giá trị Thời gian thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-164">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="ad6b1-165">Loại thanh toán theo giá trị Chi phí thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-165">Billing type on Expense actual: **Chargeable**</span></span>       |
-| <span data-ttu-id="ad6b1-166">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-166">Yes</span></span>           | <span data-ttu-id="ad6b1-167">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-167">Yes</span></span>              | <span data-ttu-id="ad6b1-168">Nhiệm vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="ad6b1-168">Selected tasks</span></span> | <span data-ttu-id="ad6b1-169">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-169">Chargeable</span></span>     | <span data-ttu-id="ad6b1-170">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-170">Chargeable</span></span>     | <span data-ttu-id="ad6b1-171">Thanh toán theo giá trị Thời gian thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-171">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="ad6b1-172">Loại thanh toán theo giá trị Chi phí thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-172">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="ad6b1-173">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-173">Yes</span></span>           | <span data-ttu-id="ad6b1-174">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-174">Yes</span></span>              | <span data-ttu-id="ad6b1-175">Nhiệm vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="ad6b1-175">Selected tasks</span></span> | <span data-ttu-id="ad6b1-176">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-176">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-177">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-177">Chargeable</span></span>     | <span data-ttu-id="ad6b1-178">Thanh toán theo giá trị Thời gian thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-178">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="ad6b1-179">Loại thanh toán theo giá trị Chi phí thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-179">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="ad6b1-180">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-180">Yes</span></span>           | <span data-ttu-id="ad6b1-181">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-181">Yes</span></span>              | <span data-ttu-id="ad6b1-182">Nhiệm vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="ad6b1-182">Selected tasks</span></span> | <span data-ttu-id="ad6b1-183">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-183">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-184">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-184">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-185">Thanh toán theo giá trị Thời gian thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-185">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="ad6b1-186">Loại thanh toán theo giá trị Chi phí thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-186">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="ad6b1-187">No</span><span class="sxs-lookup"><span data-stu-id="ad6b1-187">No</span></span>            | <span data-ttu-id="ad6b1-188">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-188">Yes</span></span>              | <span data-ttu-id="ad6b1-189">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-189">Entire project</span></span> | <span data-ttu-id="ad6b1-190">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="ad6b1-190">Can't be set</span></span>   | <span data-ttu-id="ad6b1-191">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-191">Chargeable</span></span>     | <span data-ttu-id="ad6b1-192">Thanh toán theo giá trị Thời gian thực tế: **Không khả dụng**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-192">Billing on a Time actual: **Not available**</span></span></br><span data-ttu-id="ad6b1-193">Loại thanh toán theo giá trị Chi phí thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-193">Billing type on Expense actual: **Chargeable**</span></span>          |
-| <span data-ttu-id="ad6b1-194">No</span><span class="sxs-lookup"><span data-stu-id="ad6b1-194">No</span></span>            | <span data-ttu-id="ad6b1-195">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-195">Yes</span></span>              | <span data-ttu-id="ad6b1-196">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-196">Entire project</span></span> | <span data-ttu-id="ad6b1-197">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="ad6b1-197">Can't be set</span></span>   | <span data-ttu-id="ad6b1-198">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-198">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-199">Thanh toán theo giá trị Thời gian thực tế: **Không khả dụng**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-199">Billing on a Time actual: **Not available**</span></span></br> <span data-ttu-id="ad6b1-200">Loại thanh toán theo giá trị Chi phí thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-200">Billing type on Expense actual: **Non-chargeable**</span></span>     |
-| <span data-ttu-id="ad6b1-201">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-201">Yes</span></span>           | <span data-ttu-id="ad6b1-202">No</span><span class="sxs-lookup"><span data-stu-id="ad6b1-202">No</span></span>               | <span data-ttu-id="ad6b1-203">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-203">Entire project</span></span> | <span data-ttu-id="ad6b1-204">Có thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-204">Chargeable</span></span>     | <span data-ttu-id="ad6b1-205">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="ad6b1-205">Can't be set</span></span>   | <span data-ttu-id="ad6b1-206">Thanh toán theo giá trị Thời gian thực tế: **Có thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-206">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="ad6b1-207">Loại thanh toán theo giá trị Chi phí thực tế: **Không khả dụng**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-207">Billing type on Expense actual: **Not available**</span></span>        |
-| <span data-ttu-id="ad6b1-208">Có</span><span class="sxs-lookup"><span data-stu-id="ad6b1-208">Yes</span></span>           | <span data-ttu-id="ad6b1-209">No</span><span class="sxs-lookup"><span data-stu-id="ad6b1-209">No</span></span>               | <span data-ttu-id="ad6b1-210">Toàn bộ dự án</span><span class="sxs-lookup"><span data-stu-id="ad6b1-210">Entire project</span></span> | <span data-ttu-id="ad6b1-211">Không thể tính phí</span><span class="sxs-lookup"><span data-stu-id="ad6b1-211">Non-chargeable</span></span> | <span data-ttu-id="ad6b1-212">Không thể đặt</span><span class="sxs-lookup"><span data-stu-id="ad6b1-212">Can't be set</span></span>   | <span data-ttu-id="ad6b1-213">Thanh toán theo giá trị Thời gian thực tế: **Không thể tính phí**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-213">Billing on a Time actual: **Non-chargeable**</span></span> </br><span data-ttu-id="ad6b1-214">Loại thanh toán theo giá trị Chi phí thực tế: **Không khả dụng**</span><span class="sxs-lookup"><span data-stu-id="ad6b1-214">Billing type on Expense actual: **Not   available**</span></span>   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

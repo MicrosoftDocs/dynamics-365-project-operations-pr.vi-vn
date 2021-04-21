@@ -1,5 +1,5 @@
 ---
-title: Làm việc với phần mô tả hợp đồng dựa trên dự án - bản đơn giản
+title: Tổng quan về mô tả hợp đồng dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách làm việc với phần mô tả hợp đồng dựa trên dự án.
 author: rumant
 manager: Annbe
@@ -8,64 +8,628 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273314"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858184"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a><span data-ttu-id="8f3d9-103">Làm việc với phần mô tả hợp đồng dựa trên dự án - bản đơn giản</span><span class="sxs-lookup"><span data-stu-id="8f3d9-103">Work with project–based contract lines - lite</span></span>
+# <a name="project-based-contract-lines-overview"></a><span data-ttu-id="eecd8-103">Tổng quan về mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="eecd8-103">Project-based contract lines overview</span></span>
 
-<span data-ttu-id="8f3d9-104">_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="8f3d9-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="eecd8-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="eecd8-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="8f3d9-105">Mô tả hợp đồng theo dự án trong Dynamics 365 Project Operations được thiết kế để ghi lại ước tính và thỏa thuận thanh toán cho các thành phần cụ thể của dự án theo cam kết.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="8f3d9-106">Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:</span><span class="sxs-lookup"><span data-stu-id="8f3d9-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
+<span data-ttu-id="eecd8-105">Mô tả hợp đồng theo dự án trong Dynamics 365 Project Operations được thiết kế để ghi lại ước tính và thỏa thuận thanh toán cho các thành phần cụ thể của dự án theo cam kết.</span><span class="sxs-lookup"><span data-stu-id="eecd8-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="eecd8-106">Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:</span><span class="sxs-lookup"><span data-stu-id="eecd8-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
 
-- <span data-ttu-id="8f3d9-107">Phương thức thanh toán</span><span class="sxs-lookup"><span data-stu-id="8f3d9-107">Billing method</span></span>
-- <span data-ttu-id="8f3d9-108">Ánh xạ dự án và nhiệm vụ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-108">Project and task mapping</span></span>
-- <span data-ttu-id="8f3d9-109">Các lớp giao dịch được bao gồm</span><span class="sxs-lookup"><span data-stu-id="8f3d9-109">Included transaction classes</span></span>
-- <span data-ttu-id="8f3d9-110">Giới hạn không vượt quá</span><span class="sxs-lookup"><span data-stu-id="8f3d9-110">Not-to-exceed limit</span></span>
-- <span data-ttu-id="8f3d9-111">Thiết lập khả năng tính phí</span><span class="sxs-lookup"><span data-stu-id="8f3d9-111">Chargeability setup</span></span>
-- <span data-ttu-id="8f3d9-112">Các ước tính dựa trên chi tiết mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="8f3d9-112">Estimates using contract line details</span></span>
-- <span data-ttu-id="8f3d9-113">Khách hàng trong phần mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="8f3d9-113">Contract line customers</span></span>
+- <span data-ttu-id="eecd8-107">Phương thức thanh toán</span><span class="sxs-lookup"><span data-stu-id="eecd8-107">Billing method</span></span>
+- <span data-ttu-id="eecd8-108">Ánh xạ dự án và nhiệm vụ</span><span class="sxs-lookup"><span data-stu-id="eecd8-108">Project and task mapping</span></span>
+- <span data-ttu-id="eecd8-109">Các lớp giao dịch được bao gồm</span><span class="sxs-lookup"><span data-stu-id="eecd8-109">Included transaction classes</span></span>
+- <span data-ttu-id="eecd8-110">Giới hạn không vượt quá</span><span class="sxs-lookup"><span data-stu-id="eecd8-110">Not-to-exceed limit</span></span>
+- <span data-ttu-id="eecd8-111">Thiết lập khả năng tính phí</span><span class="sxs-lookup"><span data-stu-id="eecd8-111">Chargeability setup</span></span>
+- <span data-ttu-id="eecd8-112">Các ước tính dựa trên chi tiết mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="eecd8-112">Estimates using contract line details</span></span>
+- <span data-ttu-id="eecd8-113">Khách hàng trong phần mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="eecd8-113">Contract line customers</span></span>
 
-<span data-ttu-id="8f3d9-114">Bảng sau bao gồm các trường trên tab **Chung** của phần mô tả hợp đồng dựa trên dự án giúp thiết lập cơ sở cho số liệu ước tính chi tiết, cơ bản và sắp xếp thanh toán cho công việc theo dự án.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
+<span data-ttu-id="eecd8-114">Bảng sau bao gồm các trường trên tab **Chung** của phần mô tả hợp đồng dựa trên dự án giúp thiết lập cơ sở cho số liệu ước tính chi tiết, cơ bản và sắp xếp thanh toán cho công việc theo dự án.</span><span class="sxs-lookup"><span data-stu-id="eecd8-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
 
-| <span data-ttu-id="8f3d9-115">Trường</span><span class="sxs-lookup"><span data-stu-id="8f3d9-115">Field</span></span> | <span data-ttu-id="8f3d9-116">Nội dung mô tả</span><span class="sxs-lookup"><span data-stu-id="8f3d9-116">Description</span></span> | <span data-ttu-id="8f3d9-117">Tác động xuôi tuyến</span><span class="sxs-lookup"><span data-stu-id="8f3d9-117">Downstream impact</span></span> |
+| <span data-ttu-id="eecd8-115">Trường</span><span class="sxs-lookup"><span data-stu-id="eecd8-115">Field</span></span> | <span data-ttu-id="eecd8-116">Nội dung mô tả</span><span class="sxs-lookup"><span data-stu-id="eecd8-116">Description</span></span> | <span data-ttu-id="eecd8-117">Tác động xuôi tuyến</span><span class="sxs-lookup"><span data-stu-id="eecd8-117">Downstream impact</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="8f3d9-118">**Tên**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-118">**Name**</span></span> | <span data-ttu-id="8f3d9-119">Tên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-119">Name of the contract line.</span></span> <span data-ttu-id="8f3d9-120">Tên này xác định thành phần riêng biệt của hợp đồng đang được ước tính.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="8f3d9-121">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ giá trị tương ứng của phần mô tả báo giá dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="8f3d9-122">Tên được sao chép sang phần mô tả hóa đơn dự án được tạo từ phần mô tả hợp đồng này khi tạo hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
-| <span data-ttu-id="8f3d9-123">**Phương thức Thanh toán**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-123">**Billing Method**</span></span> | <span data-ttu-id="8f3d9-124">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ trường tương ứng trên phần mô tả báo giá.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="8f3d9-125">Dưới đây là bộ tùy chọn đại diện cho 2 mô hình hợp đồng chính được Project Operations hỗ trợ:</span><span class="sxs-lookup"><span data-stu-id="8f3d9-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="8f3d9-126">- **Giá cố định**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-126">- **Fixed Price**</span></span></br><span data-ttu-id="8f3d9-127">- **Thời gian và Vật tư**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-127">- **Time and Material**</span></span> | <span data-ttu-id="8f3d9-128">Dựa trên phương thức thanh toán được tham chiếu trong phần mô tả hợp đồng, giao dịch thực tế sẽ được xử lý.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="8f3d9-129">Nếu phần mô tả hợp đồng tham chiếu theo giao dịch thực tế có phương thức thanh toán theo thời gian và vật tư, thì các hồ sơ chi phí và doanh số bán hàng thực tế chưa thanh toán sẽ được tạo.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="8f3d9-130">Nếu phần mô tả hợp đồng tham chiếu theo giao dịch thực tế có phương thức thanh toán theo giá cố định, thì chỉ một hồ sơ chi phí thực tế được tạo.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
-| <span data-ttu-id="8f3d9-131">**Dự án**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-131">**Project**</span></span> | <span data-ttu-id="8f3d9-132">Sử dụng trường này để xác định dự án sẽ dùng để thực hiện công việc theo cam kết này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="8f3d9-133">Giá trị này sẽ được sử dụng cùng với **Các nhiệm vụ được đưa vào** và **Các lớp giao dịch được bao gồm** để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="8f3d9-134">**Các tác vụ được đưa vào**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-134">**Included Tasks**</span></span> | <span data-ttu-id="8f3d9-135">Cho biết liệu phần mô tả hợp đồng này có bao gồm tất cả các nhiệm vụ dự án của dự án đã chọn hay chỉ một tập hợp con các nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="8f3d9-136">Đây là một bộ tùy chọn có các giá trị có thể có sau đây:</span><span class="sxs-lookup"><span data-stu-id="8f3d9-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="8f3d9-137">- **Tất cả Nhiệm vụ Dự án**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-137">- **All Project Tasks**</span></span></br><span data-ttu-id="8f3d9-138">- **Chỉ các nhiệm vụ dự án đã chọn**.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="8f3d9-139">Giá trị trống trong trường này tương đương với việc chọn **Tất cả nhiệm vụ dự án**.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="8f3d9-140">Nếu **Chỉ các nhiệm vụ đã chọn** được lựa chọn, thì bạn có thể chọn các nhiệm vụ cụ thể và liên kết các nhiệm vụ đó với phần mô tả hợp đồng này trên tab **Thiết lập thanh toán theo nhiệm vụ** của trang **Dự án**.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="8f3d9-141">Giá trị nói trên sẽ được sử dụng cùng với các **Dự án** và các lớp **Giao dịch được bao gồm** để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="8f3d9-142">**Bao gồm Thời gian**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-142">**Include Time**</span></span> | <span data-ttu-id="8f3d9-143">Một cờ cho biết liệu các giao dịch theo thời gian hoặc chi phí lao động của dự án đã chọn có được đưa vào phần mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-143">A flag indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="8f3d9-144">Giá trị **Không** chỉ ra rằng các giao dịch theo thời gian hoặc chi phí lao động sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="8f3d9-145">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="8f3d9-146">Giá trị này được sử dụng cùng với dự án để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-146">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="8f3d9-147">**Bao gồm Chi phí**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-147">**Include Expense**</span></span> | <span data-ttu-id="8f3d9-148">Một cờ cho biết liệu các chi phí của dự án đã chọn có được đưa vào phần mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-148">A flag indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="8f3d9-149">Giá trị **Không** chỉ ra rằng các chi phí sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="8f3d9-150">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="8f3d9-151">Giá trị này được sử dụng cùng với dự án để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-151">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="8f3d9-152">**Bao gồm Phí**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-152">**Include Fee**</span></span> | <span data-ttu-id="8f3d9-153">Một cờ cho biết liệu các khoản phí của dự án đã chọn có được đưa vào phần mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-153">A flag indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="8f3d9-154">Giá trị **Không** chỉ ra rằng các khoản phí sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-154">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="8f3d9-155">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-155">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="8f3d9-156">Giá trị này được sử dụng cùng với dự án để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-156">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="8f3d9-157">**Số tiền Theo hợp đồng**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-157">**Contracted Amount**</span></span> | <span data-ttu-id="8f3d9-158">Đối với phần mô tả hợp đồng có giá cố định, số tiền này là giá trị đã thỏa thuận mà khách hàng sẽ được lập hóa đơn cho tất cả các thành phần công việc liên quan đến phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-158">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="8f3d9-159">Đối với phần mô tả hợp đồng vật tư và thời gian, số tiền này là giá trị ước tính của số tiền mà khách hàng sẽ được lập hóa đơn cho tất cả các thành phần công việc liên quan đến phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-159">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="8f3d9-160">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ trường tương ứng trên phần mô tả báo giá.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-160">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="8f3d9-161">Khi phần mô tả hợp đồng dựa trên dự án có các chi tiết mô tả, bạn sẽ không chỉnh sửa được trường này. Ngoài ra, trường này có nội dung được tóm tắt dựa trên số tiền có trong các chi tiết mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-161">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="8f3d9-162">Khi phần mô tả hợp đồng có các chi tiết mô tả, giá trị này có thể được sửa đổi bằng cách thay đổi số tiền có trong các chi tiết mô tả.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-162">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="8f3d9-163">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra số tiền trước thuế cho các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-163">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="8f3d9-164">**Thuế Ước tính**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-164">**Estimated Tax**</span></span> | <span data-ttu-id="8f3d9-165">Người dùng có thể chỉnh sửa trường này để nhập số tiền thuế ước tính trên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-165">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="8f3d9-166">Khi phần mô tả hợp đồng dựa trên dự án có các chi tiết mô tả, bạn sẽ không chỉnh sửa được trường này. Ngoài ra, trường này có nội dung được tóm tắt dựa trên số tiền thuế có trong các chi tiết mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="8f3d9-167">Khi phần mô tả hợp đồng có các chi tiết mô tả, giá trị này có thể được sửa đổi bằng cách thay đổi số tiền thuế có trong các chi tiết mô tả.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-167">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="8f3d9-168">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra khoản thuế cho các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-168">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="8f3d9-169">**Số tiền sau thuế theo hợp đồng**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-169">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="8f3d9-170">Số tiền sau thuế theo phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-170">The contract line amount after tax.</span></span> <span data-ttu-id="8f3d9-171">Trường này là trường chỉ đọc và được tính bằng **Số tiền theo hợp đồng + Thuế**.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-171">This field is read-only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="8f3d9-172">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-172">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
-| <span data-ttu-id="8f3d9-173">**Giới hạn không vượt quá**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-173">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="8f3d9-174">Người dùng có thể chỉnh sửa trường này và đây là trường chỉ có trong phần mô tả hợp đồng dựa trên dự án có phương thức thanh toán được đặt là theo thời gian và vật tư.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-174">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="8f3d9-175">Người dùng có thể chỉnh sửa trường này.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-175">The user can edit this field.</span></span> <span data-ttu-id="8f3d9-176">Khi số liệu thực tế về thời gian và vật tư tham chiếu đến phần mô tả hợp đồng theo thời gian và vật tư này, số tiền thực tế được đánh giá theo giới hạn không vượt quá trên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-176">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="8f3d9-177">Việc đánh giá này được hoàn thành sau khi các khoản đã chi và đã cam kết được hạch toán.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-177">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
-| <span data-ttu-id="8f3d9-178">**Ngân sách Khách hàng**</span><span class="sxs-lookup"><span data-stu-id="8f3d9-178">**Customer Budget**</span></span> | <span data-ttu-id="8f3d9-179">Đây là trường có thể chỉnh sửa và được sao chép từ trường tương ứng trên phần mô tả báo giá nếu hợp đồng được tạo từ một báo giá.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-179">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="8f3d9-180">Trường này chỉ dùng để cung cấp thông tin và không có bất kỳ ý nghĩa nào theo đó.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-180">This field is only used for information and does not have any downstream significance.</span></span> |
+| <span data-ttu-id="eecd8-118">**Tên**</span><span class="sxs-lookup"><span data-stu-id="eecd8-118">**Name**</span></span> | <span data-ttu-id="eecd8-119">Tên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-119">Name of the contract line.</span></span> <span data-ttu-id="eecd8-120">Tên này xác định thành phần riêng biệt của hợp đồng đang được ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="eecd8-121">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ giá trị tương ứng của phần mô tả báo giá dựa trên dự án.</span><span class="sxs-lookup"><span data-stu-id="eecd8-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="eecd8-122">Tên được sao chép sang phần mô tả hóa đơn dự án được tạo từ phần mô tả hợp đồng này khi tạo hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="eecd8-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
+| <span data-ttu-id="eecd8-123">**Phương thức Thanh toán**</span><span class="sxs-lookup"><span data-stu-id="eecd8-123">**Billing Method**</span></span> | <span data-ttu-id="eecd8-124">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ trường tương ứng trên phần mô tả báo giá.</span><span class="sxs-lookup"><span data-stu-id="eecd8-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="eecd8-125">Dưới đây là bộ tùy chọn đại diện cho 2 mô hình hợp đồng chính được Project Operations hỗ trợ:</span><span class="sxs-lookup"><span data-stu-id="eecd8-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="eecd8-126">- **Giá cố định**</span><span class="sxs-lookup"><span data-stu-id="eecd8-126">- **Fixed Price**</span></span></br><span data-ttu-id="eecd8-127">- **Thời gian và Vật tư**</span><span class="sxs-lookup"><span data-stu-id="eecd8-127">- **Time and Material**</span></span> | <span data-ttu-id="eecd8-128">Dựa trên phương thức thanh toán được tham chiếu trong phần mô tả hợp đồng, giao dịch thực tế sẽ được xử lý.</span><span class="sxs-lookup"><span data-stu-id="eecd8-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="eecd8-129">Nếu phần mô tả hợp đồng tham chiếu theo giao dịch thực tế có phương thức thanh toán theo thời gian và vật tư, thì các hồ sơ chi phí và doanh số bán hàng thực tế chưa thanh toán sẽ được tạo.</span><span class="sxs-lookup"><span data-stu-id="eecd8-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="eecd8-130">Nếu phần mô tả hợp đồng tham chiếu theo giao dịch thực tế có phương thức thanh toán theo giá cố định, thì chỉ một hồ sơ chi phí thực tế được tạo.</span><span class="sxs-lookup"><span data-stu-id="eecd8-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
+| <span data-ttu-id="eecd8-131">**Dự án**</span><span class="sxs-lookup"><span data-stu-id="eecd8-131">**Project**</span></span> | <span data-ttu-id="eecd8-132">Sử dụng trường này để xác định dự án sẽ dùng để thực hiện công việc theo cam kết này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="eecd8-133">Giá trị này sẽ được sử dụng cùng với **Nhiệm vụ được đưa vào** và **Các loại giao dịch được đưa vào** để giải quyết tham chiếu mô tả hợp đồng trên bản ghi dòng giá trị thực tế hoặc ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-134">**Các tác vụ được đưa vào**</span><span class="sxs-lookup"><span data-stu-id="eecd8-134">**Included Tasks**</span></span> | <span data-ttu-id="eecd8-135">Cho biết liệu phần mô tả hợp đồng này có bao gồm tất cả các nhiệm vụ dự án của dự án đã chọn hay chỉ một tập hợp con các nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="eecd8-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="eecd8-136">Đây là một bộ tùy chọn có các giá trị có thể có sau đây:</span><span class="sxs-lookup"><span data-stu-id="eecd8-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="eecd8-137">- **Tất cả Nhiệm vụ Dự án**</span><span class="sxs-lookup"><span data-stu-id="eecd8-137">- **All Project Tasks**</span></span></br><span data-ttu-id="eecd8-138">- **Chỉ các nhiệm vụ dự án đã chọn**.</span><span class="sxs-lookup"><span data-stu-id="eecd8-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="eecd8-139">Giá trị trống trong trường này tương đương với việc chọn **Tất cả nhiệm vụ dự án**.</span><span class="sxs-lookup"><span data-stu-id="eecd8-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="eecd8-140">Nếu **Chỉ các nhiệm vụ đã chọn** được lựa chọn, thì bạn có thể chọn các nhiệm vụ cụ thể và liên kết các nhiệm vụ đó với phần mô tả hợp đồng này trên tab **Thiết lập thanh toán theo nhiệm vụ** của trang **Dự án**.</span><span class="sxs-lookup"><span data-stu-id="eecd8-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="eecd8-141">Giá trị nói trên sẽ được sử dụng cùng với các **Dự án** và các lớp **Giao dịch được bao gồm** để xử lý việc tham chiếu phần mô tả hợp đồng cho hồ sơ mô tả số liệu ước tính hoặc thực tế.</span><span class="sxs-lookup"><span data-stu-id="eecd8-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-142">**Bao gồm Thời gian**</span><span class="sxs-lookup"><span data-stu-id="eecd8-142">**Include Time**</span></span> | <span data-ttu-id="eecd8-143">Giá trị **Có**/**Không** cho biết liệu các giao dịch thời gian hoặc chi phí nhân công của dự án đã chọn có được đưa vào mục mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="eecd8-143">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="eecd8-144">Giá trị **Không** chỉ ra rằng các giao dịch theo thời gian hoặc chi phí lao động sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="eecd8-145">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="eecd8-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="eecd8-146">Giá trị này được dùng cùng với dự án để giải quyết tham chiếu mô tả hợp đồng trên bản ghi dòng giá trị thực tế hoặc ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-146">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-147">**Bao gồm Chi phí**</span><span class="sxs-lookup"><span data-stu-id="eecd8-147">**Include Expense**</span></span> | <span data-ttu-id="eecd8-148">Giá trị **Có**/**Không** cho biết liệu các chi phí của dự án đã chọn có được đưa vào mục mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="eecd8-148">A **Yes**/**No** value indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="eecd8-149">Giá trị **Không** chỉ ra rằng các chi phí sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="eecd8-150">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="eecd8-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="eecd8-151">Giá trị này được dùng cùng với dự án để giải quyết tham chiếu mô tả hợp đồng trên bản ghi dòng giá trị thực tế hoặc ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-151">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-152">**Bao gồm vật tư**</span><span class="sxs-lookup"><span data-stu-id="eecd8-152">**Include Materials**</span></span> | <span data-ttu-id="eecd8-153">Giá trị **Có**/**Không** cho biết liệu các chi phí vật tư của dự án đã chọn có được đưa vào mục mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="eecd8-153">A **Yes**/**No** value indicates if material costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="eecd8-154">Giá trị **Không** cho biết các chi phí vật tư sẽ không được đưa vào mục mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-154">A **No** value indicates that the material costs will not be included on this contract line.</span></span> <span data-ttu-id="eecd8-155">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="eecd8-155">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="eecd8-156">Giá trị này được dùng cùng với dự án để giải quyết tham chiếu mô tả hợp đồng trên bản ghi dòng giá trị thực tế hoặc ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-156">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-157">**Bao gồm Phí**</span><span class="sxs-lookup"><span data-stu-id="eecd8-157">**Include Fee**</span></span> | <span data-ttu-id="eecd8-158">Giá trị **Có**/**Không** cho biết liệu các khoản phí của dự án đã chọn có được đưa vào mục mô tả hợp đồng này hay không.</span><span class="sxs-lookup"><span data-stu-id="eecd8-158">A **Yes**/**No** value indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="eecd8-159">Giá trị **Không** chỉ ra rằng các khoản phí sẽ không được đưa vào phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-159">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="eecd8-160">Giá trị **Có** chỉ ra điều ngược lại.</span><span class="sxs-lookup"><span data-stu-id="eecd8-160">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="eecd8-161">Giá trị này được dùng cùng với dự án để giải quyết tham chiếu mô tả hợp đồng trên bản ghi dòng giá trị thực tế hoặc ước tính.</span><span class="sxs-lookup"><span data-stu-id="eecd8-161">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="eecd8-162">**Số tiền Theo hợp đồng**</span><span class="sxs-lookup"><span data-stu-id="eecd8-162">**Contracted Amount**</span></span> | <span data-ttu-id="eecd8-163">Đối với phần mô tả hợp đồng có giá cố định, số tiền này là giá trị đã thỏa thuận mà khách hàng sẽ được lập hóa đơn cho tất cả các thành phần công việc liên quan đến phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-163">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="eecd8-164">Đối với phần mô tả hợp đồng vật tư và thời gian, số tiền này là giá trị ước tính của số tiền mà khách hàng sẽ được lập hóa đơn cho tất cả các thành phần công việc liên quan đến phần mô tả hợp đồng này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-164">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="eecd8-165">Đối với hợp đồng dự án tạo từ báo giá, giá trị này sẽ được sao chép từ trường tương ứng trên phần mô tả báo giá.</span><span class="sxs-lookup"><span data-stu-id="eecd8-165">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="eecd8-166">Khi phần mô tả hợp đồng dựa trên dự án có các chi tiết mô tả, bạn sẽ không chỉnh sửa được trường này. Ngoài ra, trường này có nội dung được tóm tắt dựa trên số tiền có trong các chi tiết mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="eecd8-167">Khi phần mô tả hợp đồng có các chi tiết mô tả, giá trị này có thể được sửa đổi bằng cách thay đổi số tiền có trong các chi tiết mô tả.</span><span class="sxs-lookup"><span data-stu-id="eecd8-167">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="eecd8-168">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra số tiền trước thuế cho các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="eecd8-168">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="eecd8-169">**Thuế Ước tính**</span><span class="sxs-lookup"><span data-stu-id="eecd8-169">**Estimated Tax**</span></span> | <span data-ttu-id="eecd8-170">Người dùng có thể chỉnh sửa trường này để nhập số tiền thuế ước tính trên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-170">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="eecd8-171">Khi phần mô tả hợp đồng dựa trên dự án có các chi tiết mô tả, bạn sẽ không chỉnh sửa được trường này. Ngoài ra, trường này có nội dung được tóm tắt dựa trên số tiền thuế có trong các chi tiết mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-171">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="eecd8-172">Khi phần mô tả hợp đồng có các chi tiết mô tả, giá trị này có thể được sửa đổi bằng cách thay đổi số tiền thuế có trong các chi tiết mô tả.</span><span class="sxs-lookup"><span data-stu-id="eecd8-172">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="eecd8-173">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra khoản thuế cho các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="eecd8-173">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="eecd8-174">**Số tiền sau thuế theo hợp đồng**</span><span class="sxs-lookup"><span data-stu-id="eecd8-174">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="eecd8-175">Số tiền sau thuế theo phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-175">The contract line amount after tax.</span></span> <span data-ttu-id="eecd8-176">Trường này là trường chỉ đọc và được tính bằng công thức **Số tiền theo hợp đồng + Thuế**.</span><span class="sxs-lookup"><span data-stu-id="eecd8-176">This field is read only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="eecd8-177">Đối với phần mô tả hợp đồng có giá cố định, giá trị này dùng để đưa ra các mốc thanh toán định kỳ.</span><span class="sxs-lookup"><span data-stu-id="eecd8-177">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
+| <span data-ttu-id="eecd8-178">**Giới hạn không vượt quá**</span><span class="sxs-lookup"><span data-stu-id="eecd8-178">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="eecd8-179">Người dùng có thể chỉnh sửa trường này và đây là trường chỉ có trong phần mô tả hợp đồng dựa trên dự án có phương thức thanh toán được đặt là theo thời gian và vật tư.</span><span class="sxs-lookup"><span data-stu-id="eecd8-179">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="eecd8-180">Người dùng có thể chỉnh sửa trường này.</span><span class="sxs-lookup"><span data-stu-id="eecd8-180">The user can edit this field.</span></span> <span data-ttu-id="eecd8-181">Khi số liệu thực tế về thời gian và vật tư tham chiếu đến phần mô tả hợp đồng theo thời gian và vật tư này, số tiền thực tế được đánh giá theo giới hạn không vượt quá trên phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-181">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="eecd8-182">Việc đánh giá này được hoàn thành sau khi các khoản đã chi và đã cam kết được hạch toán.</span><span class="sxs-lookup"><span data-stu-id="eecd8-182">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
+| <span data-ttu-id="eecd8-183">**Ngân sách Khách hàng**</span><span class="sxs-lookup"><span data-stu-id="eecd8-183">**Customer Budget**</span></span> | <span data-ttu-id="eecd8-184">Đây là trường có thể chỉnh sửa và được sao chép từ trường tương ứng trên phần mô tả báo giá nếu hợp đồng được tạo từ một báo giá.</span><span class="sxs-lookup"><span data-stu-id="eecd8-184">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="eecd8-185">Trường này chỉ dùng để cung cấp thông tin và không có bất kỳ ý nghĩa nào theo đó.</span><span class="sxs-lookup"><span data-stu-id="eecd8-185">This field is only used for information and does not have any downstream significance.</span></span> |
 
-## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="8f3d9-181">Quy tắc xác thực cho các tùy chọn trên tab Chung của phần mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="8f3d9-181">Validation rules for the options on the General tab of project-based contract lines</span></span>
+## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="eecd8-186">Quy tắc xác thực cho các tùy chọn trên tab Chung của phần mô tả hợp đồng dựa trên dự án</span><span class="sxs-lookup"><span data-stu-id="eecd8-186">Validation rules for the options on the General tab of project-based contract lines</span></span>
 
-<span data-ttu-id="8f3d9-182">Quy tắc 1: Nếu trường **Các nhiệm vụ được đưa vào** bị để trống hoặc được đặt thành **Tất cả nhiệm vụ dự án**, thì tất cả các nhiệm vụ của dự án được bao gồm trong phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-182">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
+<span data-ttu-id="eecd8-187">Quy tắc 1: Nếu trường **Các nhiệm vụ được đưa vào** bị để trống hoặc được đặt thành **Tất cả nhiệm vụ dự án**, thì tất cả các nhiệm vụ của dự án được bao gồm trong phần mô tả hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-187">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
 
-<span data-ttu-id="8f3d9-183">Quy tắc 2: Khi trường **Các nhiệm vụ được đưa vào** bị để trống hoặc được đặt rõ ràng thành **Tất cả nhiệm vụ dự án**, thì một dự án và một lớp giao dịch nhất định chỉ có thể được đưa vào một phần mô tả hợp đồng dựa trên dự án của một hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-183">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
+<span data-ttu-id="eecd8-188">Quy tắc 2: Khi trường **Các nhiệm vụ được đưa vào** bị để trống hoặc được đặt rõ ràng thành **Tất cả nhiệm vụ dự án**, thì một dự án và một lớp giao dịch nhất định chỉ có thể được đưa vào một phần mô tả hợp đồng dựa trên dự án của một hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-188">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
 
-<span data-ttu-id="8f3d9-184">Quy tắc 3: Khi trường **Các nhiệm vụ được đưa vào** được đặt thành **Chỉ các nhiệm vụ dự án đã chọn**, thì một dự án và một lớp giao dịch nhất định có thể được đưa vào nhiều phần mô tả hợp đồng dựa trên dự án của một hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-184">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
+<span data-ttu-id="eecd8-189">Quy tắc 3: Khi trường **Các nhiệm vụ được đưa vào** được đặt thành **Chỉ các nhiệm vụ dự án đã chọn**, thì một dự án và một lớp giao dịch nhất định có thể được đưa vào nhiều phần mô tả hợp đồng dựa trên dự án của một hợp đồng.</span><span class="sxs-lookup"><span data-stu-id="eecd8-189">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
 
-| <span data-ttu-id="8f3d9-185">Hợp đồng</span><span class="sxs-lookup"><span data-stu-id="8f3d9-185">Contract</span></span> | <span data-ttu-id="8f3d9-186">Mô tả hợp đồng</span><span class="sxs-lookup"><span data-stu-id="8f3d9-186">Contract line</span></span> | <span data-ttu-id="8f3d9-187">Dự án</span><span class="sxs-lookup"><span data-stu-id="8f3d9-187">Project</span></span> | <span data-ttu-id="8f3d9-188">Các nhiệm vụ được đưa vào</span><span class="sxs-lookup"><span data-stu-id="8f3d9-188">Included tasks</span></span>      | <span data-ttu-id="8f3d9-189">Bao gồm thời gian</span><span class="sxs-lookup"><span data-stu-id="8f3d9-189">Include time</span></span> | <span data-ttu-id="8f3d9-190">Bao gồm chi phí</span><span class="sxs-lookup"><span data-stu-id="8f3d9-190">Include expense</span></span> | <span data-ttu-id="8f3d9-191">Bao gồm phí</span><span class="sxs-lookup"><span data-stu-id="8f3d9-191">Include fee</span></span> | <span data-ttu-id="8f3d9-192">Hợp lệ/Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-192">Valid/not valid</span></span> | <span data-ttu-id="8f3d9-193">Lý do</span><span class="sxs-lookup"><span data-stu-id="8f3d9-193">Reason</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="8f3d9-194">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-194">C1</span></span>       | <span data-ttu-id="8f3d9-195">CL1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-195">CL1</span></span>           | <span data-ttu-id="8f3d9-196">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-196">P1</span></span>      | <span data-ttu-id="8f3d9-197">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-197">Blank</span></span>               | <span data-ttu-id="8f3d9-198">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-198">Yes</span></span>          | <span data-ttu-id="8f3d9-199">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-199">Yes</span></span>             | <span data-ttu-id="8f3d9-200">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-200">Yes</span></span>         | <span data-ttu-id="8f3d9-201">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-201">Not valid</span></span>       | <span data-ttu-id="8f3d9-202">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-202">Violation of Rule #2.</span></span> <span data-ttu-id="8f3d9-203">Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào cả hai phần mô tả hợp đồng, CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-203">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="8f3d9-204">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-204">C1</span></span>       | <span data-ttu-id="8f3d9-205">CL2</span><span class="sxs-lookup"><span data-stu-id="8f3d9-205">CL2</span></span>           | <span data-ttu-id="8f3d9-206">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-206">P1</span></span>      | <span data-ttu-id="8f3d9-207">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-207">Blank</span></span>               | <span data-ttu-id="8f3d9-208">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-208">Yes</span></span>          | <span data-ttu-id="8f3d9-209">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-209">Yes</span></span>             | <span data-ttu-id="8f3d9-210">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-210">Yes</span></span>         | <span data-ttu-id="8f3d9-211">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-211">Not valid</span></span>       | <span data-ttu-id="8f3d9-212">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-212">Violation of Rule #2.</span></span> <span data-ttu-id="8f3d9-213">Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào cả hai phần mô tả hợp đồng, CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-213">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="8f3d9-214">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-214">C1</span></span>       | <span data-ttu-id="8f3d9-215">CL1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-215">CL1</span></span>           | <span data-ttu-id="8f3d9-216">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-216">P1</span></span>      | <span data-ttu-id="8f3d9-217">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-217">Blank</span></span>               | <span data-ttu-id="8f3d9-218">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-218">Yes</span></span>          | <span data-ttu-id="8f3d9-219">No</span><span class="sxs-lookup"><span data-stu-id="8f3d9-219">No</span></span>              | <span data-ttu-id="8f3d9-220">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-220">Yes</span></span>         | <span data-ttu-id="8f3d9-221">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-221">Not valid</span></span>       | <span data-ttu-id="8f3d9-222">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-222">Violation of Rule #2.</span></span> <span data-ttu-id="8f3d9-223">Thời gian và các khoản phí của dự án P1 được đưa vào cả hai phần mô tả hợp đồng, CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-223">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="8f3d9-224">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-224">C1</span></span>       | <span data-ttu-id="8f3d9-225">CL2</span><span class="sxs-lookup"><span data-stu-id="8f3d9-225">CL2</span></span>           | <span data-ttu-id="8f3d9-226">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-226">P1</span></span>      | <span data-ttu-id="8f3d9-227">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-227">Blank</span></span>               | <span data-ttu-id="8f3d9-228">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-228">Yes</span></span>          | <span data-ttu-id="8f3d9-229">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-229">Yes</span></span>             | <span data-ttu-id="8f3d9-230">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-230">Yes</span></span>         | <span data-ttu-id="8f3d9-231">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-231">Not valid</span></span>       | <span data-ttu-id="8f3d9-232">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-232">Violation of Rule #2.</span></span> <span data-ttu-id="8f3d9-233">Thời gian và các khoản phí của dự án P1 được đưa vào cả hai phần mô tả hợp đồng, CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-233">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="8f3d9-234">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-234">C1</span></span>       | <span data-ttu-id="8f3d9-235">CL1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-235">CL1</span></span>           | <span data-ttu-id="8f3d9-236">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-236">P1</span></span>      | <span data-ttu-id="8f3d9-237">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-237">Blank</span></span>               | <span data-ttu-id="8f3d9-238">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-238">Yes</span></span>          | <span data-ttu-id="8f3d9-239">No</span><span class="sxs-lookup"><span data-stu-id="8f3d9-239">No</span></span>              | <span data-ttu-id="8f3d9-240">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-240">Yes</span></span>         | <span data-ttu-id="8f3d9-241">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-241">Valid</span></span>           | <span data-ttu-id="8f3d9-242">Thời gian và các khoản phí của dự án P1 được đưa vào CL1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-242">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="8f3d9-243">Chi phí của dự án P1 được đưa vào CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-243">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="8f3d9-244">Những số liệu đưa vào từng mô tả hợp đồng không bị chồng chéo, do đó hợp lệ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-244">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="8f3d9-245">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-245">C1</span></span>       | <span data-ttu-id="8f3d9-246">CL2</span><span class="sxs-lookup"><span data-stu-id="8f3d9-246">CL2</span></span>           | <span data-ttu-id="8f3d9-247">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-247">P1</span></span>      | <span data-ttu-id="8f3d9-248">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-248">Blank</span></span>               | <span data-ttu-id="8f3d9-249">No</span><span class="sxs-lookup"><span data-stu-id="8f3d9-249">No</span></span>           | <span data-ttu-id="8f3d9-250">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-250">Yes</span></span>             | <span data-ttu-id="8f3d9-251">No</span><span class="sxs-lookup"><span data-stu-id="8f3d9-251">No</span></span>          | <span data-ttu-id="8f3d9-252">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-252">Valid</span></span>           | <span data-ttu-id="8f3d9-253">Thời gian và các khoản phí của dự án P1 được đưa vào CL1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-253">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="8f3d9-254">Chi phí của dự án P1 được đưa vào CL2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-254">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="8f3d9-255">Những số liệu đưa vào từng mô tả hợp đồng không bị chồng chéo, do đó hợp lệ.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-255">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="8f3d9-256">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-256">C1</span></span>       | <span data-ttu-id="8f3d9-257">CL1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-257">CL1</span></span>           | <span data-ttu-id="8f3d9-258">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-258">P1</span></span>      | <span data-ttu-id="8f3d9-259">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="8f3d9-259">Selected tasks only</span></span> | <span data-ttu-id="8f3d9-260">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-260">Yes</span></span>          | <span data-ttu-id="8f3d9-261">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-261">Yes</span></span>             | <span data-ttu-id="8f3d9-262">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-262">Yes</span></span>         | <span data-ttu-id="8f3d9-263">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-263">Not valid</span></span>       | <span data-ttu-id="8f3d9-264">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-264">Violation of Rule #2.</span></span>   </br><span data-ttu-id="8f3d9-265">- C1 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-265">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="8f3d9-266">- CL2 bao gồm thời gian, chi phí và các khoản phí của toàn bộ dự án P1, do đó chồng chéo với những số liệu được đưa vào C1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-266">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="8f3d9-267">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-267">C1</span></span>       | <span data-ttu-id="8f3d9-268">CL2</span><span class="sxs-lookup"><span data-stu-id="8f3d9-268">CL2</span></span>           | <span data-ttu-id="8f3d9-269">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-269">P1</span></span>      | <span data-ttu-id="8f3d9-270">Trống</span><span class="sxs-lookup"><span data-stu-id="8f3d9-270">Blank</span></span>               | <span data-ttu-id="8f3d9-271">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-271">Yes</span></span>          | <span data-ttu-id="8f3d9-272">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-272">Yes</span></span>             | <span data-ttu-id="8f3d9-273">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-273">Yes</span></span>         | <span data-ttu-id="8f3d9-274">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-274">Not valid</span></span>       | <span data-ttu-id="8f3d9-275">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-275">Violation of Rule #2.</span></span>   </br><span data-ttu-id="8f3d9-276">- C1 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-276">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="8f3d9-277">- CL2 bao gồm thời gian, chi phí và các khoản phí của toàn bộ dự án P1, do đó chồng chéo với những số liệu được đưa vào C1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-277">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="8f3d9-278">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-278">C1</span></span>       | <span data-ttu-id="8f3d9-279">CL1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-279">CL1</span></span>           | <span data-ttu-id="8f3d9-280">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-280">P1</span></span>      | <span data-ttu-id="8f3d9-281">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="8f3d9-281">Selected tasks only</span></span> | <span data-ttu-id="8f3d9-282">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-282">Yes</span></span>          | <span data-ttu-id="8f3d9-283">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-283">Yes</span></span>             | <span data-ttu-id="8f3d9-284">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-284">Yes</span></span>         | <span data-ttu-id="8f3d9-285">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-285">Valid</span></span>           | <span data-ttu-id="8f3d9-286">Theo quy tắc số 3</span><span class="sxs-lookup"><span data-stu-id="8f3d9-286">Per Rule #3</span></span></br><span data-ttu-id="8f3d9-287">- C1 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-287">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="8f3d9-288">- CL2 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-288">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="8f3d9-289">Xác thực bổ sung duy nhất là xác thực tập hợp con các nhiệm vụ trên CL1 khác với tập hợp con các nhiệm vụ trên CL2 để đảm bảo không có sự chồng chéo.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-289">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="8f3d9-290">Xác thực này do hệ thống thực hiện khi các nhiệm vụ được liên kết.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-290">This validation   is completed by the system when tasks are associated.</span></span> |
-| <span data-ttu-id="8f3d9-291">C1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-291">C1</span></span>       | <span data-ttu-id="8f3d9-292">CL2</span><span class="sxs-lookup"><span data-stu-id="8f3d9-292">CL2</span></span>           | <span data-ttu-id="8f3d9-293">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="8f3d9-293">P1</span></span>      | <span data-ttu-id="8f3d9-294">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="8f3d9-294">Selected tasks only</span></span> | <span data-ttu-id="8f3d9-295">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-295">Yes</span></span>          | <span data-ttu-id="8f3d9-296">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-296">Yes</span></span>             | <span data-ttu-id="8f3d9-297">Có</span><span class="sxs-lookup"><span data-stu-id="8f3d9-297">Yes</span></span>         | <span data-ttu-id="8f3d9-298">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="8f3d9-298">Valid</span></span>           | <span data-ttu-id="8f3d9-299">Theo quy tắc số 3</span><span class="sxs-lookup"><span data-stu-id="8f3d9-299">Per Rule #3</span></span></br><span data-ttu-id="8f3d9-300">- C1 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-300">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="8f3d9-301">- CL2 bao gồm thời gian, chi phí và các khoản phí của một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-301">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="8f3d9-302">Xác thực bổ sung duy nhất là xác thực tập hợp con các nhiệm vụ trên CL1 khác với tập hợp con các nhiệm vụ trên CL2 để đảm bảo không có sự chồng chéo.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-302">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="8f3d9-303">Xác thực này do hệ thống thực hiện khi các nhiệm vụ được liên kết.</span><span class="sxs-lookup"><span data-stu-id="8f3d9-303">This validation   is completed by the system when tasks are associated.</span></span> |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p><span data-ttu-id="eecd8-190">
+                    <strong>Hợp đồng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-190">
+                    <strong>Contract</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="eecd8-191">
+                    <strong>Mô tả hợp đồng</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-191">
+                    <strong>Contract line</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="eecd8-192">
+                    <strong>Dự án</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-192">
+                    <strong>Project</strong>
+                </span></span></p>
+            </td>
+            <td width="67" valign="top">
+                <p><span data-ttu-id="eecd8-193">
+                    <strong>Các tác vụ được đưa vào</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-193">
+                    <strong>Included tasks</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="eecd8-194">
+                    <strong>Bao gồm Thời gian</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-194">
+                    <strong>Include Time</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="eecd8-195">
+                    <strong>Bao gồm Chi phí</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-195">
+                    <strong>Include Expense</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="eecd8-196">
+                    <strong>Bao gồm vật tư</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-196">
+                    <strong>Include Materials</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="eecd8-197">
+                    <strong>Bao gồm</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-197">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="eecd8-198">
+                    <strong>Phí</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-198">
+                    <strong>Fee</strong>
+                </span></span></p>
+            </td>
+            <td width="53" valign="top">
+                <p><span data-ttu-id="eecd8-199">
+                    <strong>Hợp lệ/Không hợp lệ</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-199">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
+            </td>
+            <td width="250" valign="top">
+                <p><span data-ttu-id="eecd8-200">
+                    <strong>Lý do</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="eecd8-200">
+                    <strong>Reason</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-201">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-201">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-202">CL1</span><span class="sxs-lookup"><span data-stu-id="eecd8-202">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-203">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-203">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-204">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-204">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-205">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-205">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-206">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-206">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-207">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-207">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-208">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-208">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-209">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="eecd8-209">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-210">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="eecd8-210">Violation of Rule #2.</span></span> <span data-ttu-id="eecd8-211">Thời gian, Chi phí, Vật tư và Phí cho dự án P1 được thêm vào cả hai mục Mô tả hợp đồng CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="eecd8-211">Time, Expense, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-212">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-212">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-213">CL2</span><span class="sxs-lookup"><span data-stu-id="eecd8-213">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-214">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-214">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-215">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-215">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-216">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-216">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-217">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-217">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-218">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-218">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-219">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-219">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-220">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-220">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-221">CL1</span><span class="sxs-lookup"><span data-stu-id="eecd8-221">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-222">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-222">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-223">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-223">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-224">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-224">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-225">No</span><span class="sxs-lookup"><span data-stu-id="eecd8-225">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-226">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-226">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-227">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-227">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-228">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="eecd8-228">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-229">Vi phạm Quy tắc số 2.</span><span class="sxs-lookup"><span data-stu-id="eecd8-229">Violation of Rule #2.</span></span> <span data-ttu-id="eecd8-230">Thời gian, Vật tư và Phí cho dự án P1 được thêm vào cả hai mục Mô tả hợp đồng CL1 và CL2.</span><span class="sxs-lookup"><span data-stu-id="eecd8-230">Time, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-231">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-231">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-232">CL2</span><span class="sxs-lookup"><span data-stu-id="eecd8-232">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-233">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-233">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-234">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-234">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-235">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-235">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-236">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-236">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-237">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-237">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-238">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-238">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-239">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-239">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-240">CL1</span><span class="sxs-lookup"><span data-stu-id="eecd8-240">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-241">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-241">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-242">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-242">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-243">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-243">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-244">No</span><span class="sxs-lookup"><span data-stu-id="eecd8-244">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-245">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-245">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-246">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-246">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-247">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="eecd8-247">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-248">Thời gian, Vật tư và Phí cho dự án P1 được thêm vào CL1.</span><span class="sxs-lookup"><span data-stu-id="eecd8-248">Time, Materials, and Fees on P1 project are included on CL1.</span></span>
+                </p>
+                <ul>
+                    <li>
+<span data-ttu-id="eecd8-249">Chi phí trên dự án P1 được bao gồm trên CL2.</span><span class="sxs-lookup"><span data-stu-id="eecd8-249">Expense on P1 project is included on CL2.</span></span>
+                    </li>
+                </ul>
+                <p>
+<span data-ttu-id="eecd8-250">Những nội dung được thêm vào mỗi mục Mô tả hợp đồng là hợp lệ do không bị trùng lặp.</span><span class="sxs-lookup"><span data-stu-id="eecd8-250">No overlap in what is being included on each Contract line and therefore valid.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-251">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-251">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-252">CL2</span><span class="sxs-lookup"><span data-stu-id="eecd8-252">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-253">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-253">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-254">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-254">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-255">No</span><span class="sxs-lookup"><span data-stu-id="eecd8-255">No</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-256">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-256">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-257">No</span><span class="sxs-lookup"><span data-stu-id="eecd8-257">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-258">No</span><span class="sxs-lookup"><span data-stu-id="eecd8-258">No</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-259">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-259">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-260">CL1</span><span class="sxs-lookup"><span data-stu-id="eecd8-260">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-261">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-261">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-262">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="eecd8-262">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-263">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-263">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-264">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-264">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-265">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-265">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-266">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-266">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-267">Không hợp lệ</span><span class="sxs-lookup"><span data-stu-id="eecd8-267">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-268">Vi phạm quy tắc số 2</span><span class="sxs-lookup"><span data-stu-id="eecd8-268">Violation of Rule #2</span></span> </p>
+                <p>
+<span data-ttu-id="eecd8-269">C1 bao gồm Thời gian, Vật tư, Chi phí và Phí cho một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="eecd8-269">C1 includes Time, Materials, Expenses and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="eecd8-270">CL2 bao gồm Thời gian, Vật tư, Chi phí và Phí cho toàn bộ dự án P1 và do đó trùng lặp với những nội dung được thêm vào C1.</span><span class="sxs-lookup"><span data-stu-id="eecd8-270">CL2 includes Time, Materials, Expenses and Fees for the whole project P1 and therefore overlaps with what is included on C1.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-271">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-271">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-272">CL2</span><span class="sxs-lookup"><span data-stu-id="eecd8-272">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-273">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-273">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-274">Trống</span><span class="sxs-lookup"><span data-stu-id="eecd8-274">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-275">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-275">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-276">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-276">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-277">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-277">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-278">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-278">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-279">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-279">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-280">CL1</span><span class="sxs-lookup"><span data-stu-id="eecd8-280">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-281">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-281">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-282">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="eecd8-282">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-283">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-283">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-284">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-284">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-285">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-285">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-286">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-286">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-287">Hợp lệ</span><span class="sxs-lookup"><span data-stu-id="eecd8-287">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="eecd8-288">Theo quy tắc số 3</span><span class="sxs-lookup"><span data-stu-id="eecd8-288">Per Rule #3</span></span> </p>
+                <p>
+<span data-ttu-id="eecd8-289">C1 bao gồm Thời gian, Chi phí, Vật tư, Chi phí và Phí cho một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="eecd8-289">C1 includes Time, Expenses, Materials, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="eecd8-290">CL2 bao gồm Thời gian, Chi phí, Vật tư, Chi phí và Phí cho một tập hợp con các nhiệm vụ trong dự án P1.</span><span class="sxs-lookup"><span data-stu-id="eecd8-290">CL2 includes Time, Expenses, Materials, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="eecd8-291">Bước xác thực bổ sung duy nhất xoay quanh việc tập hợp con các nhiệm vụ trên CL1 khác với tập hợp con các nhiệm vụ trên CL2 để đảm bảo rằng không có sự trùng lặp ở đó.</span><span class="sxs-lookup"><span data-stu-id="eecd8-291">The only additional validation is around the subset of tasks on CL1 is different from the subset of tasks on CL2 to ensure that there are no overlaps there.</span></span> <span data-ttu-id="eecd8-292">Điều này được hệ thống thực hiện khi các nhiệm vụ được liên kết.</span><span class="sxs-lookup"><span data-stu-id="eecd8-292">This is done by the system when tasks are associated.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="eecd8-293">C1</span><span class="sxs-lookup"><span data-stu-id="eecd8-293">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="eecd8-294">CL2</span><span class="sxs-lookup"><span data-stu-id="eecd8-294">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-295">Kỳ 1</span><span class="sxs-lookup"><span data-stu-id="eecd8-295">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="eecd8-296">Chỉ các tác vụ được chọn</span><span class="sxs-lookup"><span data-stu-id="eecd8-296">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-297">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-297">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="eecd8-298">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-298">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-299">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-299">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="eecd8-300">Có</span><span class="sxs-lookup"><span data-stu-id="eecd8-300">Yes</span></span> </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
