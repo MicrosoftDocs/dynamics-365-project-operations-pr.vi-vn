@@ -32,11 +32,27 @@
               href: environment/resource-provision-new-environment.md
             - name: Mô hình bảo mật
               href: environment/security-model.md
-            - name: Đặt cấu hình phần tích hợp Project Operations cho mỗi pháp nhân
+            - name: Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Đặt cấu hình tích hợp ghi kép
+          items:
+            - name: Tổng quan về tích hợp ghi kép
+              href: environment/resource-dual-write-overview.md
+            - name: Các phiên bản bản đồ ghi kép Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Tích hợp dữ liệu cấu hình và thiết lập Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Ước tính dự án và tích hợp thực tế
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Tích hợp hóa đơn của dự án
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Tích hợp quản lý chi phí
+              href: environment/resource-dual-write-expense.md
+            - name: Tích hợp hóa đơn của nhà cung cấp
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Tính năng mới
       items:
-        - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+        - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-mar-2021-resource-based.md
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Xác định lịch dự án
           href: project-management/define-project-calendars.md
+        - name: Chế độ lập lịch trình
+          href: project-management/scheduling-modes.md
         - name: Cập nhật dự án
           href: project-management/update-project.md
         - name: Sao chép dự án
@@ -404,6 +422,12 @@
           items:
             - name: Tạo và xác nhận Nhật ký sửa chữa
               href: actuals/create-confirm-correction-journals.md
+    - name: Thu mua
+      items:
+        - name: Đặt cấu hình vật liệu không trữ kho và hóa đơn của nhà cung cấp đang chờ xử lý
+          href: procurement/configure-materials-nonstocked.md
+        - name: Thu mua vật liệu không trữ kho cho các dự án sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
+          href: procurement/pending-vendor-invoices.md
     - name: Lập hóa đơn
       items:
         - name: Tổng quan về quy trình lập hóa đơn
@@ -426,13 +450,15 @@
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Tạo hóa đơn hiệu chỉnh dựa trên dự án
               href: proforma-invoicing/corrective-invoices.md
-            - name: Đặt cấu hình hoạt động tạo hóa đơn dựa trên dự án tự động
+            - name: Đặt cấu hình quy trình tự động tạo hóa đơn dựa trên dự án
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Quản lý đề xuất hóa đơn dự án
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Kế toán dự án
       items:
         - name: Giá trị mặc định cho thông số tài chính
           href: project-accounting/financial-dimension-defaults.md
-        - name: Đặt cấu hình danh mục dự án
+        - name: Đặt cấu hình thể loại dự án
           href: project-accounting/configure-project-categories.md
         - name: Đặt cấu hình hoạt động kế toán cho dự án nội bộ
           href: project-accounting/configure-accounting-internal-projects.md
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Xác định lịch dự án
           href: project-management/define-project-calendars.md
+        - name: Chế độ lập lịch trình
+          hreF: project-management/scheduling-modes.md
         - name: Cập nhật dự án
           href: project-management/update-project.md
         - name: Sao chép dự án
@@ -848,6 +876,8 @@
   items:
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Tính năng mới kể từ tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Tính năng mới kể từ tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
@@ -871,9 +901,9 @@
     - name: Thiết lập và sử dụng các khoản thanh toán của nhà cung cấp trả khi được trả tiền
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Tích lũy chi phí dự án trên biên lai mua hàng
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Lập hóa đơn dự án
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Hiệu suất của đề xuất hóa đơn dự án
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Hợp đồng dự án
@@ -998,6 +1028,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 29.5, Bản vá lỗi khẩn cấp, V3'
@@ -1327,7 +1359,7 @@
             - name: Xem thời gian làm việc của nguồn lực
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Hướng dẫn cho người quản lý dự án
           items:
             - name: Hướng dẫn cho người quản lý dự án (Project Service)
