@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289800"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950515"
 ---
 # <a name="project-management-and-accounting-overview"></a>Tổng quan về quản lý dự án và kế toán
 
@@ -227,7 +227,7 @@ Loại dự án sẽ xác định quy trình lập hóa đơn nào được áp 
 Trước khi tạo hóa đơn dự án cho khách hàng, bạn có thể tạo hóa đơn sơ bộ hoặc đề xuất hóa đơn. Trong đề xuất hóa đơn, bạn có thể chọn các giao dịch dự án sẽ đưa vào hóa đơn dự án. Sau đó, bạn có thể xem lại thông tin chi tiết trên hóa đơn trước khi đăng hóa đơn dự án và gửi cho khách hàng hoặc nguồn tiền khác. 
 
 
-Để biết thêm thông tin về cách xử lý hóa đơn dự án, hãy xem [Lập hóa đơn dự án](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Để biết thêm thông tin về cách xử lý hóa đơn dự án, hãy xem [Lập hóa đơn dự án](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Tính toán chi phí hoàn thành dự án

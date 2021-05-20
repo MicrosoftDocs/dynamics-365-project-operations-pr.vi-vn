@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282314"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951415"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Đăng nhập vào Project Service Automation
 
@@ -39,7 +39,7 @@ Khi đăng nhập vào các ứng dụng Dynamics 365, bạn cần có thông ti
   
 - Mật khẩu  
   
-  Bạn có thể đã nhận được thông tin này trong email từ quản trị viên của mình. Nếu bạn không nhận được thông tin này hoặc nếu bạn gặp phải sự cố khi đăng nhập, hãy [Tìm quản trị viên hoặc người hỗ trợ của bạn](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Bạn có thể đã nhận được thông tin này trong email từ quản trị viên của mình. Nếu bạn không nhận được thông tin này hoặc nếu bạn gặp phải sự cố khi đăng nhập, hãy [Tìm quản trị viên hoặc người hỗ trợ của bạn](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Thiết lập tùy chọn cá nhân của bạn để cho phép email  
  Bạn cần phải đặt cấu hình cài đặt email để cho phép những người khác gửi email thay mặt bạn, do đó, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] có thể gửi email thông báo cho bạn khi bạn có thời gian và chi phí để phê duyệt hoặc đăng ký dự án.  

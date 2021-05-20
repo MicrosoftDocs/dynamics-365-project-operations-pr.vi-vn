@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275069"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950335"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Quản lý dự án và thông tin đăng ký trong lịch (Project Service) của bạn
 
@@ -52,7 +52,7 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 - Bạn cần phải có thông tin đăng nhập của Quản trị viên hệ thống hoặc Quản trị viên toàn cầu [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Quản trị viên của bạn sẽ cần đặt cấu hình máy chủ email và mỗi người dùng sẽ phải đặt cấu hình hộp thư của họ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Thiết lập xử lý email thông qua đồng bộ hóa phía máy chủ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Quản trị viên của bạn sẽ cần đặt cấu hình máy chủ email và mỗi người dùng sẽ phải đặt cấu hình hộp thư của họ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Thiết lập xử lý email thông qua đồng bộ hóa phía máy chủ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Bật đồng bộ hóa cho tổ chức của bạn (tác vụ của quản trị viên)  
   

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276914"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950560"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
@@ -36,7 +36,7 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Cung cấp môi trường Project Operations
 
-1. Mở Dynamics 365 Finance mới [môi trường demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) hoặc triển khai [môi trường sản xuất/hộp cát](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Mở Dynamics 365 Finance mới [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) hoặc triển khai [môi trường sản xuất/hộp cát](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Tìm hiểu trình hướng dẫn **Cung cấp môi trường**. 
 
 > [!IMPORTANT]

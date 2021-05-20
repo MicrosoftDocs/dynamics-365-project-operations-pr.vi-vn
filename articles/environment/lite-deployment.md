@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290115"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950290"
 ---
 # <a name="deploy-project-operations---lite"></a>Triển khai Project Operations - bản đơn giản
 
@@ -34,14 +34,14 @@ Project Operations hỗ trợ nhiều mô hình triển khai. Để xác định
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Cài đặt Project Operations vào môi trường CDS mới
 
-1. Là [Quản trị viên Power Platform hay Quản trị viên toàn cầu](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) có giấy phép Project Operations, hãy tạo một môi trường CDS mới trong [Trung tâm quản trị PowerPlatform](https://admin.powerplatform.com). Đảm bảo rằng **Cơ sở dữ liệu CDS** và **Ứng dụng Dynamics 365** được kích hoạt. Để biết thêm thông tin, hãy xem [Tạo và quản lý các môi trường trong trung tâm quản trị Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Là [Quản trị viên Power Platform hay Quản trị viên toàn cầu](/power-platform/admin/global-service-administrators-can-administer-without-license) có giấy phép Project Operations, hãy tạo một môi trường CDS mới trong [Trung tâm quản trị PowerPlatform](https://admin.powerplatform.com). Đảm bảo rằng **Cơ sở dữ liệu CDS** và **Ứng dụng Dynamics 365** được kích hoạt. Để biết thêm thông tin, hãy xem [Tạo và quản lý các môi trường trong trung tâm quản trị Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Chọn **Microsoft Dynamics 365 Project Operations** từ danh sách triển khai của các ứng dụng Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Cài đặt Project Operations vào môi trường CDS hiện có
 
-1. Là [Quản trị viên Power Platform hay Quản trị viên toàn cầu](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) có giấy phép Project Operations, hãy định vị môi trường trong [Trung tâm quản trị PowerPlatform](https://admin.powerplatform.com) nơi bạn muốn cài đặt Project Operations.
-2. Cài đặt **Microsoft Dynamics 365 Project Operations** từ danh sách triển khai của các ứng dụng Dynamics 365. Để biết thêm thông tin, hãy xem [Quản lý ứng dụng Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Là [Quản trị viên Power Platform hay Quản trị viên toàn cầu](/power-platform/admin/global-service-administrators-can-administer-without-license) có giấy phép Project Operations, hãy định vị môi trường trong [Trung tâm quản trị PowerPlatform](https://admin.powerplatform.com) nơi bạn muốn cài đặt Project Operations.
+2. Cài đặt **Microsoft Dynamics 365 Project Operations** từ danh sách triển khai của các ứng dụng Dynamics 365. Để biết thêm thông tin, hãy xem [Quản lý ứng dụng Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275114"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950605"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Cài đặt dữ liệu mẫu cho ứng dụng Project Service
 
@@ -136,7 +136,7 @@ Gói dữ liệu demo yêu cầu sáu người dùng. Để gói cài đặt đ�
     - Tên đầy đủ người dùng="Molly Clark" với tư cách Quản lý khách hàng   
     - Tên đầy đủ người dùng="Spencer Low" với tư cách Quản lý dự án và phương pháp  
     - Tên đầy đủ người dùng="Veronica Quek" với tư cách Thành viên nhóm   
-    - Tên đầy đủ người dùng="William Contoso"
+    - Tên đầy đủ của người dùng="William Contoso"
   
 2. Đối với các mục đích nhập dữ liệu demo, hãy chỉ định vai trò Quản trị viên cho sáu người dùng ở trên để bản ghi mẫu nhập đúng cách. 
 
@@ -149,7 +149,7 @@ Gói dữ liệu demo yêu cầu sáu người dùng. Để gói cài đặt đ�
 
 5. Lịch của người dùng đầu tiên (trong thẻ **userstocreateandconfigure** tag) được dùng để điền số giờ làm việc cho tất cả tài nguyên đã đặt lịch trên nhập dữ liệu demo. Điều hướng đến **Cài đặt** > **Bảo mật** > **Người dùng**, tìm người dùng "Spencer Low", và mở tùy chọn "Số giờ làm việc". Chỉnh sửa giờ làm việc hiện có, chọn tùy chọn **Nhập lịch trình nhắc lại hàng tuần từ bắt đầu đến kết thúc**. Đảm bảo **Giờ làm việc đặt thành 8 SA - 5 CH (9 tiếng), thứ Hai đến thứ Sáu với Múi giờ đặt thành Giờ Thái Bình Dương (Hoa Kỳ và Canada)**. Cần đặt mục này để đảm bảo rằng bảng Project và Lịch trình hiển thị như mong muốn.
 
-**Khuyến nghị:** Cân nhắc tạo bản sao của org hiện tại, phòng khi bạn cần hoàn nguyên về điểm bắt đầu nếu có sự cố trong khi cài đặt dữ liệu mẫu. Để biết thêm thông tin, hãy xem [2Sao lưu và khôi phục các phiên bản](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Khuyến nghị:** Cân nhắc tạo bản sao của org hiện tại, phòng khi bạn cần hoàn nguyên về điểm bắt đầu nếu có sự cố trong khi cài đặt dữ liệu mẫu. Để biết thêm thông tin, hãy xem [2Sao lưu và khôi phục các phiên bản](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Chạy Package Deployer
 

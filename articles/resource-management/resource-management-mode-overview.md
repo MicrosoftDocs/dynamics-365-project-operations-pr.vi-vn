@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279479"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949975"
 ---
 # <a name="resource-management-modes-overview"></a>Tổng quan về chế độ quản lý nguồn lực
 
@@ -29,11 +29,11 @@ Dynamics 365 Project Operations hỗ trợ 2 chế độ để bạn thực hi�
 
 Để quản lý nguồn lực bằng Chế độ trung tâm, hãy xem:
 
-- [Chỉ định nguồn lực chung có thể đăng ký trước cho nhiệm vụ và tạo yêu cầu về nguồn lực](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Đặt trước nguồn lực được nêu tên từ yêu cầu nguồn lực](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Gửi đề nghị nguồn lực](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Thực hiện yêu cầu nguồn lực](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Chấp nhận hoặc từ chối nguồn lực được đề xuất từ yêu cầu nguồn lực](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Chỉ định nguồn lực chung có thể đặt trước cho nhiệm vụ và tạo yêu cầu về nguồn lực](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Đặt trước nguồn lực được nêu tên từ yêu cầu nguồn lực](/dynamics365/project-service/book-named-resource)
+- [Gửi đề nghị nguồn lực](/dynamics365/project-service/submit-resource-request)
+- [Thực hiện yêu cầu nguồn lực](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Chấp nhận hoặc từ chối nguồn lực được đề xuất từ yêu cầu nguồn lực](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Chế độ kết hợp
 Đối với các tổ chức yêu cầu sự linh hoạt trong việc phân bổ nguồn lực, chế độ kết hợp cho phép cả Người quản lý dự án và Người quản lý nguồn lực có khả năng đặt trước nguồn lực.
@@ -43,11 +43,11 @@ Dynamics 365 Project Operations hỗ trợ 2 chế độ để bạn thực hi�
 Ngoài quy trình ở Chế độ trung tâm được hỗ trợ, hãy xem các chủ đề sau để quản lý tất cả các quy trình đặt trước được hỗ trợ khác trong Chế độ kết hợp:
 
 Đặt trước nguồn lực trực tiếp cho dự án:
-- [Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ](/dynamics365/project-service/assign-named-bookable-resource)
 
 Đặt trước nguồn lực từ yêu cầu nguồn lực:
-- [Chỉ định nguồn lực chung có thể đăng ký trước cho nhiệm vụ và tạo yêu cầu về nguồn lực](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Đặt trước nguồn lực được nêu tên từ yêu cầu nguồn lực](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Chỉ định nguồn lực chung có thể đặt trước cho nhiệm vụ và tạo yêu cầu về nguồn lực](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Đặt trước nguồn lực được nêu tên từ yêu cầu nguồn lực](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

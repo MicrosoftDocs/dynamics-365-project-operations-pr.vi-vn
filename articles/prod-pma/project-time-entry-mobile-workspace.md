@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288900"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950200"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Không gian làm việc di động mục nhập thời gian dự án
 
@@ -48,7 +48,7 @@ Cụ thể, trong không gian làm việc di động **Mục nhập thời gian 
 Các điều kiện tiên quyết khác nhau, dựa trên phiên bản của Microsoft Dynamics 365 đã được triển khai cho tổ chức của bạn.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Điều kiện tiên quyết nếu bạn sử dụng Dynamics 365 Finance
-Nếu Finance đã được triển khai cho tổ chức của bạn, quản trị viên hệ thống phải phát hành không gian làm việc di động **Mục nhập thời gian dự án**. Để được hướng dẫn, hãy xem [Phát hành không gian làm việc di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Nếu Finance đã được triển khai cho tổ chức của bạn, quản trị viên hệ thống phải phát hành không gian làm việc di động **Mục nhập thời gian dự án**. Để được hướng dẫn, hãy xem [Phát hành không gian làm việc di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Điều kiện tiên quyết nếu bạn sử dụng phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi
 Nếu phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi đã được triển khai cho tổ chức của bạn, quản trị viên hệ thống phải hoàn thành các điều kiện tiên quyết sau. 
@@ -68,17 +68,17 @@ Nếu phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi �
 <td>Quản trị viên hệ thống</td>
 <td>KB 4018050 là bản cập nhật X++ hoặc bản vá lỗi siêu dữ liệu có chứa không gian làm việc di động <strong>Mục nhập thời gian dự án</strong>. Để triển khai KB 4018050, quản trị viên hệ thống của bạn phải làm theo các bước sau.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Tải xuống bản sửa lỗi siêu dữ liệu từ Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ProjectMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Tải xuống bản sửa lỗi siêu dữ liệu từ Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ProjectMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Phát hành không gian làm việc <strong>Mục nhập thời gian dự án</strong>.</td>
 <td>Quản trị viên hệ thống</td>
-<td>Xem <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</td>
+<td>Xem <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Tải xuống và cài đặt ứng dụng dành cho thiết bị di động Fin
 2.  Chọn **Mục nhập thời gian**. Các ngày trong lịch cho tuần hiện tại được hiển thị.
 3.  Đối với một ngày đã chọn, hãy chọn **Hành động** &gt; **Mục nhập mới**.
 4.  Nhập số giờ để ghi lại.
-5.  Chọn dự án cho mục nhập thời gian. Danh sách hiển thị các dự án được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Chọn dự án cho mục nhập thời gian. Danh sách hiển thị các dự án được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Nếu dự án của bạn không có trong danh sách, hãy chọn **Tìm kiếm**. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tên dự án hoặc khách hàng.
-7.  Chọn thể loại. Danh sách hiển thị các thể loại được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Chọn thể loại. Danh sách hiển thị các thể loại được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Nếu thể loại của bạn không có trong danh sách, hãy chọn **Tìm kiếm**. Tìm kiếm theo thể loại hoặc chuyển sang tìm kiếm theo tên thể loại.
-9.  Chọn hoạt động. Danh sách hiển thị các hoạt động được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Chọn hoạt động. Danh sách hiển thị các hoạt động được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, hãy xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Nếu hoạt động của bạn không có trong danh sách, hãy chọn **Tìm kiếm**. Tìm kiếm theo số hoạt động hoặc chuyển sang tìm kiếm theo mục đích.
 
 11. Chọn thuộc tính dòng.

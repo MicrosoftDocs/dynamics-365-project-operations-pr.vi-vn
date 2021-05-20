@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282674"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951460"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Lên lịch nguồn lực cho dự án (Project Service)
 
@@ -35,7 +35,7 @@ Bạn có thể kiểm tra nguồn lực sẵn có để có được một cái
   
 Bảng lịch trình hiển thị danh sách các nguồn lực và tính sẵn có của nguồn lực. Chọn một dạng xem để hiển thị tính sẵn có theo **Giờ**, **Ngày**, **Tuần** hoặc **Tháng**.  
   
-Trước khi sử dụng bảng lịch trình, bạn cần thiết lập bảng đó. Để biết thêm thông tin, hãy xem phần [Đặt cấu hình bảng lịch trình (Field Service hoặc Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Trước khi sử dụng bảng lịch trình, bạn cần thiết lập bảng đó. Để biết thêm thông tin, hãy xem phần [Đặt cấu hình bảng lịch trình (Field Service hoặc Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính sẵn có của nguồn lực, hãy xem phần [Xem tính sẵn có của nguồn lực](../psa/view-resource-availability.md).  
 

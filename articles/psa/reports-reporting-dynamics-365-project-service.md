@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283304"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951505"
 ---
 # <a name="reporting-home-page"></a>Trang chủ báo cáo
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283304"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation cho phép các tổ chức dựa trên dự án quản lý hoạt động của doanh nghiệp một cách hiệu quả. Trên mọi dự án, thành viên nhóm phải quản lý cơ hội, báo giá và lên kế hoạch công việc, bố trí nguồn lực dự án, quản lý công việc theo kế hoạch, thanh toán cho công việc, sau đó làm việc để hoàn thành dự án. Khả năng báo cáo hoạt động là chìa khóa để xác định tình trạng của tổ chức và thực hiện bất kỳ hành động khắc phục nào cần thiết. PSA sử dụng các phương pháp và công nghệ báo cáo Microsoft Dynamics 365 cho tất cả các hoạt động báo cáo. Để biết thêm thông tin về các tùy chọn để báo cáo, hãy xem [Hướng dẫn viết báo cáo cho Dynamics 365 Customer Engagement (on-premises), phiên bản 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation cho phép các tổ chức dựa trên dự án quản lý hoạt động của doanh nghiệp một cách hiệu quả. Trên mọi dự án, thành viên nhóm phải quản lý cơ hội, báo giá và lên kế hoạch công việc, bố trí nguồn lực dự án, quản lý công việc theo kế hoạch, thanh toán cho công việc, sau đó làm việc để hoàn thành dự án. Khả năng báo cáo hoạt động là chìa khóa để xác định tình trạng của tổ chức và thực hiện bất kỳ hành động khắc phục nào cần thiết. PSA sử dụng các phương pháp và công nghệ báo cáo Microsoft Dynamics 365 cho tất cả các hoạt động báo cáo. Để biết thêm thông tin về các tùy chọn để báo cáo, hãy xem [Hướng dẫn viết báo cáo cho Dynamics 365 Customer Engagement (on-premises), phiên bản 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Trình hướng dẫn Báo cáo
 
-Trình hướng dẫn báo cáo cho phép những người không phải nhà phát triển tạo báo cáo đơn giản. Vì ứng dụng được xây dựng trên nền tảng hiện tại, nên trải nghiệm này giống với trải nghiệm được ghi trong [Tạo hoặc chỉnh sửa báo cáo bằng Trình hướng dẫn báo cáo](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard) Tuy nhiên, bạn sẽ dùng các thực thể dành riêng cho Project Service Automation.
+Trình hướng dẫn báo cáo cho phép những người không phải nhà phát triển tạo báo cáo đơn giản. Vì ứng dụng được xây dựng trên nền tảng hiện tại, nên trải nghiệm này giống với trải nghiệm được ghi trong [Tạo hoặc chỉnh sửa báo cáo bằng Trình hướng dẫn báo cáo](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard) Tuy nhiên, bạn sẽ dùng các thực thể dành riêng cho Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Báo cáo Dịch vụ báo cáo tùy chỉnh của SQL Server
 
-Nếu doanh nghiệp của bạn yêu cầu một báo cáo cụ thể không thể được tạo bằng cách sử dụng Trình hướng dẫn báo cáo, bạn có thể tạo báo cáo tùy chỉnh. Bạn phải cài đặt Microsoft Visual Studio cùng với Microsoft SQL Server Data Tools và Report Authoring Extension thích hợp. Để biết thêm thông tin về công cụ và phiên bản, hãy xem [Báo cáo môi trường viết bằng SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) Để biết thông tin về cách tạo báo cáo tùy chỉnh, hãy xem [Tạo báo cáo mới bằng SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
+Nếu doanh nghiệp của bạn yêu cầu một báo cáo cụ thể không thể được tạo bằng cách sử dụng Trình hướng dẫn báo cáo, bạn có thể tạo báo cáo tùy chỉnh. Bạn phải cài đặt Microsoft Visual Studio cùng với Microsoft SQL Server Data Tools và Report Authoring Extension thích hợp. Để biết thêm thông tin về công cụ và phiên bản, hãy xem [Báo cáo môi trường viết bằng SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) Để biết thông tin về cách tạo báo cáo tùy chỉnh, hãy xem [Tạo báo cáo mới bằng SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
 
 ## <a name="power-bi-insights-apps"></a>Ứng dụng thông tin chi tiết Power BI
 

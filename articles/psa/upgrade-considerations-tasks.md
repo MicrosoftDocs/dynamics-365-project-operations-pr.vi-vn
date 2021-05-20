@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281774"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951370"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nâng cấp thông tin cân nhắc cho cấu trúc phân tích công việc
 
@@ -34,20 +34,20 @@ Chủ đề này cung cấp thông tin về cách nâng cấp cấu trúc phân 
 ## <a name="key-entities"></a>Các thực thể chính
 Đối với một cấu trúc phân tích công việc chính xác đã được tải với các nguồn lực, cần có các thực thể sau:
 
-- [Dự án](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Nhóm Dự án](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Nhiệm vụ Dự án](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Gán Nguồn lực](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Quan hệ phụ thuộc Nhiệm vụ Dự án](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Nguồn lực có thể đặt trước](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Dự án](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Nhóm Dự án](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Nhiệm vụ Dự án](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Gán Nguồn lực](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Quan hệ phụ thuộc Nhiệm vụ Dự án](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Nguồn lực có thể đặt trước](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Để xác định cấu trúc phân tích công việc tải nguồn lực, bạn phải hoàn thành các bước sau:
 
-1. Tạo dự án mới. Để biết thêm thông tin về cách tạo dự án mới, hãy xem [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Tạo một hoặc nhiều nhiệm vụ. Để biết thêm thông tin về cách tạo nhiệm vụ, hãy xem [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Xác định các yếu tố phụ thuộc nhiệm vụ. Để biết thêm thông tin, hãy xem [Quan hệ phụ thuộc nhiệm vụ dự án](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Chỉ định thành viên nhóm dự án vào dự án. Để biết thêm thông tin, hãy xem [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Chỉ định thành viên nhóm dự án vào nhiệm vụ. Để biết thêm thông tin, hãy xem [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Tạo dự án mới. Để biết thêm thông tin về cách tạo dự án mới, hãy xem [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Tạo một hoặc nhiều nhiệm vụ. Để biết thêm thông tin về cách tạo nhiệm vụ, hãy xem [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Xác định các yếu tố phụ thuộc nhiệm vụ. Để biết thêm thông tin, hãy xem [Quan hệ phụ thuộc nhiệm vụ dự án](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Chỉ định thành viên nhóm dự án vào dự án. Để biết thêm thông tin, hãy xem [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Chỉ định thành viên nhóm dự án vào nhiệm vụ. Để biết thêm thông tin, hãy xem [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Mối quan hệ của nhóm dự án
 

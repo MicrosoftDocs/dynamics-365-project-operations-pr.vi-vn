@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278804"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949930"
 ---
 # <a name="close-an-opportunity"></a>Đóng cơ hội
 
@@ -23,7 +23,7 @@ Có thể đóng cơ hội dự án ở trạng thái Được hoặc Mất. H�
 
 Bạn sẽ không được phép đóng cơ hội nếu có bất kỳ báo giá hiện hoạt nào liên quan đến nó. Bạn có thể đóng tất cả báo giá hiện hoạt và báo giá nháp liên quan đến một cơ hội cùng một lúc. Sau đó, bạn sẽ được phép đóng cơ hội.
 
-Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

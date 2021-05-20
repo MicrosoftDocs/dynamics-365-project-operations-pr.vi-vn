@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292050"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950380"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Tạo mục danh mục sản phẩm (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292050"
 
 Nếu bạn muốn bao gồm các sản phẩm, chẳng hạn như giấy phép phần mềm, trên báo giá dự án và ước tính, bạn cần thêm từng sản phẩm vào danh mục sản phẩm trong danh mục sản phẩm.  
   
- Để biết thêm thông tin về việc thêm sản phẩm vào danh mục sản phẩm, hãy xem [Tạo sản phẩm (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ Để biết thêm thông tin về việc thêm sản phẩm vào danh mục sản phẩm, hãy xem [Tạo sản phẩm (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)

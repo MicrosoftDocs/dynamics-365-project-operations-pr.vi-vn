@@ -3,17 +3,17 @@ title: Quản lý đề xuất hóa đơn dự án
 description: Chủ đề này cung cấp chi tiết về quy trình xử lý hóa đơn dành cho khách hàng với Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275879"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950740"
 ---
 # <a name="manage-project-invoice-proposals"></a>Quản lý đề xuất hóa đơn dự án
 
@@ -80,7 +80,8 @@ Các giá trị **Nhóm thuế bán hàng** và **Nhóm thuế bán hàng theo m
     - **Khách hàng**: sẽ luôn mặc định nhóm thuế bán hàng thanh toán được lấy từ khách hàng.
     - **Tìm kiếm** sẽ tìm kiếm trên tất cả các thực thể trong danh sách này và chọn giá trị có sẵn đầu tiên. Việc tìm kiếm bắt đầu từ thực thể **Dự án**, rồi đến thực thể **Hợp đồng dự án**, sau đó là thực thể **Khách hàng**.
 
-- **Nhóm thuế bán hàng theo mặt hàng có mốc giá cố định** được dùng để lấy giá trị mặc định cho trường **Nhóm thuế bán hàng**.
+- **Nhóm thuế bán hàng đối với sản phẩm có mốc giá cố định** được sử dụng làm giá trị mặc định trong trường **Nhóm thuế bán sản phẩm** cho mốc thanh toán. Kế toán viên có thể xem xét và sửa đổi giá trị này trên trang **Giao dịch trên tài khoản**. Hệ thống sử dụng giá trị từ giao dịch trên tài khoản khi tạo dòng đề xuất hóa đơn dự án.
+ 
 
 ### <a name="financial-dimensions"></a>Các lĩnh vực tài chính
 
@@ -132,7 +133,7 @@ Trang **Định dạng đề xuất hóa đơn** cho phép các giao dịch nhó
 
 Tính năng Quản lý in dùng các tệp báo cáo khác nhau để in, chỉ định đích và tùy chỉnh văn bản chân trang cho hóa đơn. Bạn có thể thiết lập Quản lý in ở cấp mô-đun, tuy nhiên, những cài đặt này có thể được ghi đè cho một khách hàng, hợp đồng hoặc đề xuất hóa đơn cụ thể. Để truy cập chức năng này trên trang **Đề xuất hóa đơn dự án**, chọn **In** > **Quản lý in**.
 
-Thiết lập quản lý in được hiển thị ở chế độ xem dạng cây, trong đó mỗi cấp độ nút hiển thị các tài liệu có sẵn để điều chỉnh. Bạn có thể chỉ định các bản in tùy chỉnh ở cấp độ mô-đun, khách hàng, hợp đồng hoặc tài liệu đề xuất hóa đơn. Để sửa đổi bản in tài liệu gốc, hãy mở rộng nút mong muốn và chọn **Mục ban đầu**. Trong trường **Định dạng báo cáo**, chọn định dạng báo cáo sẽ được dùng để in. Bạn có thể dùng các định dạng báo cáo tùy chỉnh bằng cách sử dụng [Khung quản lý tài liệu kinh doanh](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Thiết lập quản lý in được hiển thị ở chế độ xem dạng cây, trong đó mỗi cấp độ nút hiển thị các tài liệu có sẵn để điều chỉnh. Bạn có thể chỉ định các bản in tùy chỉnh ở cấp độ mô-đun, khách hàng, hợp đồng hoặc tài liệu đề xuất hóa đơn. Để sửa đổi bản in tài liệu gốc, hãy mở rộng nút mong muốn và chọn **Mục ban đầu**. Trong trường **Định dạng báo cáo**, chọn định dạng báo cáo sẽ được dùng để in. Bạn có thể dùng các định dạng báo cáo tùy chỉnh bằng cách sử dụng [Khung quản lý tài liệu kinh doanh](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Đăng đề xuất hóa đơn
 

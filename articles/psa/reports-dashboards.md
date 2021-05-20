@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283394"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951550"
 ---
 # <a name="dashboards"></a>Bảng thông tin
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation gồm 2 bảng thông tin hệ thống: 
 
 ## <a name="practice-manager"></a>Practice Manager 
 
-Bảng thông tin **Practice Manager** cung cấp cho người quản lý thực hành trải nghiệm bảng thông tin đồ họa để theo dõi chi phí, doanh thu, lãi gộp và thời gian làm việc. Bảng thông tin cũng cho phép người quản lý thực hành chia thông tin theo nhiều tham số khác nhau, như khách hàng, dự án hoặc vai trò nguồn lực. Để biết thêm thông tin về cách tạo và tùy chỉnh bảng thông tin, hãy xem [Tạo hoặc chỉnh sửa bảng thông tin](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Bảng thông tin **Practice Manager** cung cấp cho người quản lý thực hành trải nghiệm bảng thông tin đồ họa để theo dõi chi phí, doanh thu, lãi gộp và thời gian làm việc. Bảng thông tin cũng cho phép người quản lý thực hành chia thông tin theo nhiều tham số khác nhau, như khách hàng, dự án hoặc vai trò nguồn lực. Để biết thêm thông tin về cách tạo và tùy chỉnh bảng thông tin, hãy xem [Tạo hoặc chỉnh sửa bảng thông tin](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Resource Manager 
 

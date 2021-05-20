@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276824"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951235"
 ---
 # <a name="security-model"></a>Mô hình bảo mật
 
@@ -58,7 +58,7 @@ Groups cho phép các quyền của dự án và các tạo tác hỗ trợ cộ
 
 Project Operations không tạo ra một nhóm thông qua hành động ngầm và chỉ thực hiện thông qua hành động rõ ràng của các nhóm thúc ép.
 
-Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](/power-platform/admin/control-user-access).
 
 ![Chế độ nhóm](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn
 ## <a name="deployment-recommendation"></a>Đề xuất triển khai
 Khi mô hình cộng tác nhóm Office phát triển, chức năng sẽ được thêm vào để cung cấp khả năng kiểm soát chi tiết hơn theo thời gian. Các khách hàng triển khai Project Operations ngày nay được khuyến khích tập trung vào Mô hình bảo mật Microsoft Dynamics 365.
 
-Để biết thêm thông tin, hãy xem [Bảo mật trong Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Để biết thêm thông tin, hãy xem [Bảo mật trong Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations và bảo mật Microsoft Dynamics 365 Finance
 Project Operations bao gồm các vai trò sau:
@@ -78,7 +78,7 @@ Project Operations bao gồm các vai trò sau:
 - Người quản lý dự án
 - Kế toán dự án
 
-Để biết thêm thông tin về vai trò bảo mật trong Finance, hãy xem [Bảo mật dựa trên vai trò](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Để biết thêm thông tin về vai trò bảo mật trong Finance, hãy xem [Bảo mật dựa trên vai trò](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 
