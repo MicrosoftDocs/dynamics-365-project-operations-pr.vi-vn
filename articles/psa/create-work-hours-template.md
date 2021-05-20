@@ -1,6 +1,6 @@
 ---
 title: Tạo mẫu giờ làm việc
-description: Làm cách nào để tạo mẫu giờ làm việc trong Project Service
+description: Chủ đề này mô tả cách tạo mẫu giờ làm việc trong Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285059"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981281"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="e31d0-103">Tạo mẫu giờ làm việc (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e31d0-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="57280-103">Tạo mẫu giờ làm việc (Project Service)</span><span class="sxs-lookup"><span data-stu-id="57280-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e31d0-104">Để có thể tạo lịch dự án, bạn cần phải thiết lập lịch dự án xác định số giờ làm việc để bố trí mỗi ngày trong lịch và bất kỳ thời gian đóng cửa nào.</span><span class="sxs-lookup"><span data-stu-id="e31d0-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="e31d0-105">Bạn làm điều này với mẫu giờ làm việc có chứa thông tin chi tiết về số giờ làm việc mỗi ngày, số ngày nghỉ và mọi giờ đóng cửa khác.</span><span class="sxs-lookup"><span data-stu-id="e31d0-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="e31d0-106">Trong khi tạo dự án, bạn kết hợp mẫu công việc với lịch dự án để áp dụng lịch trình cho dự án.</span><span class="sxs-lookup"><span data-stu-id="e31d0-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="e31d0-107">Có hai cách để bạn tạo mẫu giờ làm việc:</span><span class="sxs-lookup"><span data-stu-id="e31d0-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="e31d0-108">Tạo mẫu giờ làm việc dựa trên lịch của tài nguyên.</span><span class="sxs-lookup"><span data-stu-id="e31d0-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="e31d0-109">Tạo mẫu giờ làm việc mới.</span><span class="sxs-lookup"><span data-stu-id="e31d0-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="e31d0-110">Để tạo mẫu giờ làm việc dựa trên lịch của tài nguyên.</span><span class="sxs-lookup"><span data-stu-id="e31d0-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="e31d0-111">Đi tới **Project Service > Tài nguyên**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="e31d0-112">Chọn tài nguyên bạn muốn căn cứ vào đó để tạo giờ làm việc.</span><span class="sxs-lookup"><span data-stu-id="e31d0-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="e31d0-113">Bấm vào **Lưu Lịch Dưới dạng**, nhập tên cho mẫu giờ làm việc rồi bấm vào **Lưu**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="e31d0-114">Khi bạn thay đổi xong tùy chọn, bấm vào **Lưu và Đóng**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="e31d0-115">Bấm vào nút **Lưu** ở góc dưới cùng bên phải của màn hình.</span><span class="sxs-lookup"><span data-stu-id="e31d0-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="e31d0-116">Để tạo mẫu giờ làm việc mới</span><span class="sxs-lookup"><span data-stu-id="e31d0-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="e31d0-117">Chuyển tới **Project Service > Mẫu Giờ Làm việc**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="e31d0-118">Bấm vào **Mới**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="e31d0-119">Nhập tên cho mẫu giờ làm việc.</span><span class="sxs-lookup"><span data-stu-id="e31d0-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="e31d0-120">Chọn một tài nguyên để giờ làm việc căn cứ vào, sau đó bấm vào **Lưu**.</span><span class="sxs-lookup"><span data-stu-id="e31d0-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="e31d0-121">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="e31d0-121">See Also</span></span>  
- [<span data-ttu-id="e31d0-122">Thiết lập nguồn lực</span><span class="sxs-lookup"><span data-stu-id="e31d0-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="57280-104">Để tạo và quản lý dự án, bạn cần phải áp dụng mẫu lịch cho dự án.</span><span class="sxs-lookup"><span data-stu-id="57280-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="57280-105">Mẫu lịch xác định các thuộc tính sau của dự án:</span><span class="sxs-lookup"><span data-stu-id="57280-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="57280-106">Giờ làm việc, bao gồm thời gian bắt đầu và kết thúc</span><span class="sxs-lookup"><span data-stu-id="57280-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="57280-107">Ngày làm việc</span><span class="sxs-lookup"><span data-stu-id="57280-107">Working days</span></span>
+- <span data-ttu-id="57280-108">Trường hợp ngoại lệ của lịch, chẳng hạn như những ngày không làm việc</span><span class="sxs-lookup"><span data-stu-id="57280-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="57280-109">Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch được xác định trong cài đặt tổ chức của bạn.</span><span class="sxs-lookup"><span data-stu-id="57280-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="57280-110">Nếu bạn thay đổi mẫu lịch, những thay đổi đó sẽ không ảnh hưởng đến giờ làm việc của dự án.</span><span class="sxs-lookup"><span data-stu-id="57280-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="57280-111">Để thay đổi giờ làm việc của dự án, bạn cần áp dụng mẫu mới.</span><span class="sxs-lookup"><span data-stu-id="57280-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="57280-112">Để tạo mẫu lịch cho tổ chức của bạn, có hai yêu cầu chính:</span><span class="sxs-lookup"><span data-stu-id="57280-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="57280-113">Xác định giờ làm việc mong muốn của mẫu bằng cách sử dụng nguồn lực có thể đặt trước mới hoặc hiện có.</span><span class="sxs-lookup"><span data-stu-id="57280-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="57280-114">Tạo mẫu lịch mới và liên kết mẫu với nguồn lực có thể đặt trước.</span><span class="sxs-lookup"><span data-stu-id="57280-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="57280-115">**Xác định số giờ làm việc của mẫu**</span><span class="sxs-lookup"><span data-stu-id="57280-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="57280-116">Truy cập vào **Nguồn lực** \> **Nguồn lực**.</span><span class="sxs-lookup"><span data-stu-id="57280-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="57280-117">Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.</span><span class="sxs-lookup"><span data-stu-id="57280-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="57280-118">Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.</span><span class="sxs-lookup"><span data-stu-id="57280-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="57280-119">**Tạo mẫu lịch mới**</span><span class="sxs-lookup"><span data-stu-id="57280-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="57280-120">Chuyển đến phần **Cài đặt** \> **Mẫu lịch**.</span><span class="sxs-lookup"><span data-stu-id="57280-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="57280-121">Chọn **Mới** rồi nhập tên, mô tả và nguồn lực mẫu.</span><span class="sxs-lookup"><span data-stu-id="57280-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="57280-122">Khi nguồn lực được tham chiếu trong mẫu lịch, bản sao lịch của nguồn lực được liên kết với mẫu lịch.</span><span class="sxs-lookup"><span data-stu-id="57280-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="57280-123">Nếu giờ làm việc của mẫu đã sao chép thay đổi, những thay đổi đó sẽ không ảnh hưởng đến mẫu lịch.</span><span class="sxs-lookup"><span data-stu-id="57280-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="57280-124">Xem thêm</span><span class="sxs-lookup"><span data-stu-id="57280-124">See Also</span></span>  
+ [<span data-ttu-id="57280-125">Thiết lập nguồn lực</span><span class="sxs-lookup"><span data-stu-id="57280-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

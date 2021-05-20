@@ -1,9 +1,9 @@
 ---
 title: Xác định lịch dự án
-description: Chủ đề này cung cấp thông tin về việc sử dụng lịch dự án để theo dõi tiến độ dự án.
+description: Chủ đề này cung cấp thông tin về cách áp dụng mẫu lịch cho dự án để theo dõi tiến độ dự án.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286994"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981326"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="c615f-103">Xác định lịch dự án</span><span class="sxs-lookup"><span data-stu-id="c615f-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="b5505-103">Xác định lịch dự án</span><span class="sxs-lookup"><span data-stu-id="b5505-103">Define project calendars</span></span>
 
-<span data-ttu-id="c615f-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="c615f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="b5505-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_</span><span class="sxs-lookup"><span data-stu-id="b5505-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="c615f-105">Để tạo lịch trình dự án, bạn tạo mẫu lịch dự án xác định số giờ làm việc mỗi ngày và thời gian đóng cửa.</span><span class="sxs-lookup"><span data-stu-id="c615f-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="c615f-106">Để tạo mẫu lịch dự án, bạn liên kết công việc với trường **Mẫu lịch** cho dự án.</span><span class="sxs-lookup"><span data-stu-id="c615f-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="c615f-107">Làm theo các bước sau để tạo mẫu công việc.</span><span class="sxs-lookup"><span data-stu-id="c615f-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="b5505-105">Để tạo và quản lý dự án, bạn cần phải áp dụng mẫu lịch cho dự án.</span><span class="sxs-lookup"><span data-stu-id="b5505-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="b5505-106">Mẫu lịch xác định các thuộc tính sau của dự án:</span><span class="sxs-lookup"><span data-stu-id="b5505-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="c615f-108">Trong ngăn điều hướng bên trái, hãy chọn **Nguồn lực**.</span><span class="sxs-lookup"><span data-stu-id="c615f-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="c615f-109">Trên trang danh sách **Nguồn lực**, hãy mở bản ghi người dùng rồi chọn **Hiển thị giờ làm việc**.</span><span class="sxs-lookup"><span data-stu-id="c615f-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="b5505-107">Giờ làm việc, bao gồm thời gian bắt đầu và kết thúc</span><span class="sxs-lookup"><span data-stu-id="b5505-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="b5505-108">Ngày làm việc</span><span class="sxs-lookup"><span data-stu-id="b5505-108">Working days</span></span>
+- <span data-ttu-id="b5505-109">Trường hợp ngoại lệ của lịch, chẳng hạn như những ngày không làm việc</span><span class="sxs-lookup"><span data-stu-id="b5505-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="c615f-110">Đảm bảo rằng bạn cho phép cửa sổ bật lên trên trang trình duyệt.</span><span class="sxs-lookup"><span data-stu-id="c615f-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="c615f-111">Điều này cho phép bạn xem giờ làm việc đã đặt cho nguồn lực.</span><span class="sxs-lookup"><span data-stu-id="c615f-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="c615f-112">Trên tab **Xem hàng tháng**, hãy chọn **Thiết lập**.</span><span class="sxs-lookup"><span data-stu-id="c615f-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="c615f-113">Danh sách ba tùy chọn xuất hiện:</span><span class="sxs-lookup"><span data-stu-id="c615f-113">A list of three options appears:</span></span> 
+<span data-ttu-id="b5505-110">Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch được xác định trong cài đặt tổ chức của bạn.</span><span class="sxs-lookup"><span data-stu-id="b5505-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="c615f-114">Lịch hàng tuần mới</span><span class="sxs-lookup"><span data-stu-id="c615f-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="c615f-115">Lịch hoạt động cho một ngày</span><span class="sxs-lookup"><span data-stu-id="c615f-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="c615f-116">Thời gian Rảnh</span><span class="sxs-lookup"><span data-stu-id="c615f-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="b5505-111">Nếu bạn thay đổi mẫu lịch, những thay đổi đó sẽ không ảnh hưởng đến giờ làm việc của dự án.</span><span class="sxs-lookup"><span data-stu-id="b5505-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="b5505-112">Để thay đổi giờ làm việc của dự án, bạn cần áp dụng mẫu mới.</span><span class="sxs-lookup"><span data-stu-id="b5505-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="c615f-117">Chọn **Lịch trình hàng tuần mới** rồi đặt tùy chọn cho lịch trình nguồn lực này.</span><span class="sxs-lookup"><span data-stu-id="c615f-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="c615f-118">Bạn có thể đặt lịch trình hàng tuần định kỳ, tham số giờ hàng ngày, thời gian đóng cửa và hơn thế nữa.</span><span class="sxs-lookup"><span data-stu-id="c615f-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="c615f-119">Để đặt phạm vi ngày, hãy chọn **Lưu** rồi chọn **Đóng**.</span><span class="sxs-lookup"><span data-stu-id="c615f-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="c615f-120">Quay lại trang danh sách **Nguồn lực** rồi chọn nguồn lực mà bạn đặt giờ làm việc.</span><span class="sxs-lookup"><span data-stu-id="c615f-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="c615f-121">Chọn **Đặt lịch ở dạng** để đặt mẫu công việc.</span><span class="sxs-lookup"><span data-stu-id="c615f-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="c615f-122">Trong hộp thoại **Mẫu công việc**, hãy nhập tên cho mẫu công việc rồi chọn **Áp dụng**.</span><span class="sxs-lookup"><span data-stu-id="c615f-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="b5505-113">Để tạo mẫu lịch cho tổ chức của bạn, có hai yêu cầu chính:</span><span class="sxs-lookup"><span data-stu-id="b5505-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="c615f-123">Bạn hiện có thể liên kết mẫu công việc với mẫu lịch dự án.</span><span class="sxs-lookup"><span data-stu-id="c615f-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="b5505-114">Xác định giờ làm việc mong muốn của mẫu bằng cách sử dụng nguồn lực có thể đặt trước mới hoặc hiện có.</span><span class="sxs-lookup"><span data-stu-id="b5505-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="b5505-115">Tạo mẫu lịch mới và liên kết mẫu với nguồn lực có thể đặt trước.</span><span class="sxs-lookup"><span data-stu-id="b5505-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="b5505-116">**Xác định số giờ làm việc của mẫu**</span><span class="sxs-lookup"><span data-stu-id="b5505-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="b5505-117">Truy cập vào **Nguồn lực** \> **Nguồn lực**.</span><span class="sxs-lookup"><span data-stu-id="b5505-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="b5505-118">Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.</span><span class="sxs-lookup"><span data-stu-id="b5505-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="b5505-119">Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.</span><span class="sxs-lookup"><span data-stu-id="b5505-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="b5505-120">**Tạo mẫu lịch mới**</span><span class="sxs-lookup"><span data-stu-id="b5505-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="b5505-121">Chuyển đến phần **Cài đặt** \> **Mẫu lịch**.</span><span class="sxs-lookup"><span data-stu-id="b5505-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="b5505-122">Chọn **Mới** rồi nhập tên, mô tả và nguồn lực mẫu.</span><span class="sxs-lookup"><span data-stu-id="b5505-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b5505-123">Khi nguồn lực được tham chiếu trong mẫu lịch, bản sao lịch của nguồn lực được liên kết với mẫu lịch.</span><span class="sxs-lookup"><span data-stu-id="b5505-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="b5505-124">Nếu giờ làm việc của mẫu đã sao chép thay đổi, những thay đổi đó sẽ không ảnh hưởng đến mẫu lịch.</span><span class="sxs-lookup"><span data-stu-id="b5505-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="b5505-125">Bạn hiện có thể liên kết mẫu công việc với mẫu lịch dự án.</span><span class="sxs-lookup"><span data-stu-id="b5505-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
