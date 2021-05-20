@@ -1,6 +1,6 @@
 ---
 title: Tạo mẫu giờ làm việc
-description: Làm cách nào để tạo mẫu giờ làm việc trong Project Service
+description: Chủ đề này mô tả cách tạo mẫu giờ làm việc trong Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285059"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981281"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Tạo mẫu giờ làm việc (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Để có thể tạo lịch dự án, bạn cần phải thiết lập lịch dự án xác định số giờ làm việc để bố trí mỗi ngày trong lịch và bất kỳ thời gian đóng cửa nào. Bạn làm điều này với mẫu giờ làm việc có chứa thông tin chi tiết về số giờ làm việc mỗi ngày, số ngày nghỉ và mọi giờ đóng cửa khác.  
-  
- Trong khi tạo dự án, bạn kết hợp mẫu công việc với lịch dự án để áp dụng lịch trình cho dự án.  
-  
- Có hai cách để bạn tạo mẫu giờ làm việc:  
-  
--   Tạo mẫu giờ làm việc dựa trên lịch của tài nguyên.  
-  
--   Tạo mẫu giờ làm việc mới.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Để tạo mẫu giờ làm việc dựa trên lịch của tài nguyên.  
-  
-1.  Đi tới **Project Service > Tài nguyên**.  
-  
-2.  Chọn tài nguyên bạn muốn căn cứ vào đó để tạo giờ làm việc.  
-  
-3.  Bấm vào **Lưu Lịch Dưới dạng**, nhập tên cho mẫu giờ làm việc rồi bấm vào **Lưu**.  
-  
-4.  Khi bạn thay đổi xong tùy chọn, bấm vào **Lưu và Đóng**.  
-  
-5.  Bấm vào nút **Lưu** ở góc dưới cùng bên phải của màn hình.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Để tạo mẫu giờ làm việc mới  
-  
-1.  Chuyển tới **Project Service > Mẫu Giờ Làm việc**.  
-  
-2.  Bấm vào **Mới**.  
-  
-3.  Nhập tên cho mẫu giờ làm việc.  
-  
-4.  Chọn một tài nguyên để giờ làm việc căn cứ vào, sau đó bấm vào **Lưu**.  
-  
+Để tạo và quản lý dự án, bạn cần phải áp dụng mẫu lịch cho dự án. Mẫu lịch xác định các thuộc tính sau của dự án:
+
+- Giờ làm việc, bao gồm thời gian bắt đầu và kết thúc
+- Ngày làm việc
+- Trường hợp ngoại lệ của lịch, chẳng hạn như những ngày không làm việc
+
+Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch được xác định trong cài đặt tổ chức của bạn.
+
+> [!NOTE]
+> Nếu bạn thay đổi mẫu lịch, những thay đổi đó sẽ không ảnh hưởng đến giờ làm việc của dự án. Để thay đổi giờ làm việc của dự án, bạn cần áp dụng mẫu mới.
+
+Để tạo mẫu lịch cho tổ chức của bạn, có hai yêu cầu chính:
+
+- Xác định giờ làm việc mong muốn của mẫu bằng cách sử dụng nguồn lực có thể đặt trước mới hoặc hiện có.
+- Tạo mẫu lịch mới và liên kết mẫu với nguồn lực có thể đặt trước.
+
+**Xác định số giờ làm việc của mẫu**
+
+1. Truy cập vào **Nguồn lực** \> **Nguồn lực**.
+2. Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.
+3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.
+
+**Tạo mẫu lịch mới**
+
+1. Chuyển đến phần **Cài đặt** \> **Mẫu lịch**.
+2. Chọn **Mới** rồi nhập tên, mô tả và nguồn lực mẫu.
+
+
+> [!NOTE]
+> Khi nguồn lực được tham chiếu trong mẫu lịch, bản sao lịch của nguồn lực được liên kết với mẫu lịch. Nếu giờ làm việc của mẫu đã sao chép thay đổi, những thay đổi đó sẽ không ảnh hưởng đến mẫu lịch.
+
+
 ### <a name="see-also"></a>Xem thêm  
  [Thiết lập nguồn lực](../psa/set-up-resources.md)
 
