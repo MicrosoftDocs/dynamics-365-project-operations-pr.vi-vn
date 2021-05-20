@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287264"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948356"
 ---
 # <a name="integration-journal-in-project-operations"></a>Nhật ký tích hợp trong Project Operations
 
@@ -38,7 +38,7 @@ Hệ thống nhóm các dòng nhật ký kế toán thành các nhật ký riên
 Các dòng nhật ký kế toán được tạo dựa trên giao dịch thực tế của dự án. Danh sách sau đây bao gồm một số quy tắc mặc định và chuyển đổi đáng chú ý hơn:
 
   - Mỗi giao dịch thực tế của dự án có một dòng trong nhật ký Tích hợp Project Operations. Chi phí và các giao dịch bán hàng chưa được thanh toán của loại hình thanh toán theo thời gian và vật tư được hiển thị trên các dòng riêng biệt.
-  - Trường **Ngày** thể hiện ngày giao dịch. Trường **Ngày kế toán** thể hiện ngày giao dịch được ghi vào sổ cái. Nếu ngày kế toán là trong [kỳ tài chính đã chốt](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) và tham số **Tự động đặt ngày kế toán thành kỳ sổ cái mở** được đặt trên tab **Tài chính** của trang **Các tham số quản lý dự án và kế toán**, thì hệ thống sẽ điều chỉnh ngày kế toán của giao dịch thành ngày đầu tiên trong kỳ sổ cái mở tiếp theo.
+  - Trường **Ngày** thể hiện ngày giao dịch. Trường **Ngày kế toán** thể hiện ngày giao dịch được ghi vào sổ cái. Nếu ngày kế toán là trong [kỳ tài chính đã chốt](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) và tham số **Tự động đặt ngày kế toán thành kỳ sổ cái mở** được đặt trên tab **Tài chính** của trang **Các tham số quản lý dự án và kế toán**, thì hệ thống sẽ điều chỉnh ngày kế toán của giao dịch thành ngày đầu tiên trong kỳ sổ cái mở tiếp theo.
   - Trường **Chứng từ** cho thấy số chứng từ của mọi giao dịch thực tế. Dãy số chứng từ được xác định trên tab **Dãy số**, trên trang **Các tham số quản lý dự án và kế toán**. Mỗi dòng được chỉ định một số mới. Sau khi chứng từ được đăng, bạn có thể xem chi phí và giao dịch bán hàng chưa được thanh toán có liên quan như thế nào bằng cách chọn **Chứng từ liên quan** trên trang **Giao dịch chứng từ**.
   - Trường **Thể loại** đại diện cho một giao dịch của dự án và là trường mặc định dựa trên thể loại giao dịch của giao dịch thực tế trong dự án có liên quan.
     - Nếu **Thể loại giao dịch** được đặt trong Giao dịch thực tế của dự án và một **Thể loại dự án** có liên quan tồn tại trong một pháp nhân nhất định, thì thể loại mặc định là thể loại dự án này.

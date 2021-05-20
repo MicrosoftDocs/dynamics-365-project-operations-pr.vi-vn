@@ -3,17 +3,17 @@ title: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
 description: Chủ đề này cung cấp thông tin về cách tạo hóa đơn khách hàng liên công ty và hóa đơn nhà cung cấp.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287489"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948421"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
 
@@ -25,7 +25,9 @@ Kế toán viên dự án của pháp nhân cho thuê có thể thiếp lập qu
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Tạo thủ công hóa đơn khách hàng liên công ty cho các giao dịch dự án 
 
-Dùng quy trình này để tạo thủ công hóa đơn khách hàng liên công ty cho các giao dịch dự án. Tìm kiếm số giờ mà nhân viên đăng lên các dự án của pháp nhân đi thuê, cũng như chi phí mà pháp nhân của bạn đã bỏ ra thay mặt pháp nhân đi thuê. Bạn có thể tìm kiếm theo tên pháp nhân, số hợp đồng của dự án, số dự án, khoảng ngày hoặc kết hợp bất kỳ những tùy chọn này. Trong kết quả tìm kiếm, hãy chọn các giao dịch cần thêm vào hóa đơn liên công ty.
+Dùng quy trình này để tạo thủ công hóa đơn khách hàng liên công ty cho các giao dịch dự án. Tìm kiếm số giờ mà nhân viên đăng lên các dự án của pháp nhân đi thuê, cũng như chi phí mà pháp nhân của bạn đã bỏ ra thay mặt pháp nhân đi thuê. Bạn có thể tìm kiếm theo tên pháp nhân, số hợp đồng của dự án, số dự án, khoảng ngày hoặc kết hợp bất kỳ những tùy chọn này. Trong kết quả tìm kiếm, hãy chọn các giao dịch cần thêm vào hóa đơn liên công ty. 
+
+Các bước sau đây cần phải được thực hiện trong pháp nhân cho vay. 
 
 1. Trong Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Hóa đơn dự án** > **Hóa đơn khách hàng liên công ty**. Trong trang danh sách **Hóa đơn khách hàng liên công ty**, trên Ngăn hành động, hãy chọn **Mới**.
 2. Trên trang **Tạo hóa đơn liên công ty**, trong trường **Pháp nhân**, hãy chọn một pháp nhân đi thuê.
@@ -35,9 +37,9 @@ Dùng quy trình này để tạo thủ công hóa đơn khách hàng liên côn
 6. Trong kết quả tìm kiếm, hãy chọn các giao dịch bạn muốn thêm vào bản đề xuất hóa đơn liên công ty, sau đó chọn **OK**.
 7. Trên trang **Hóa đơn khách hàng liên công ty**, các giao dịch dự án liên công ty mà bạn đã chọn từ kết quả tìm kiếm sẽ hiển thị. Để sửa đổi các giao dịch trước khi gửi hóa đơn cho pháp nhân đi thuê, hãy làm như sau:
   
-    1. Mở trang **Tạo bản đề xuất hóa đơn**. Chọn thêm các giao dịch liên công ty cho hóa đơn hiện tại, sau đó chọn **Thêm dòng**.
+    1. Trên trang **Hóa đơn khách hàng liên công ty**, hãy mở chi tiết hóa đơn rồi chọn **Thêm dòng**.
     2. Để xóa một dòng, hãy chọn dòng đó rồi bấm vào **Xóa**.
-    3. Xem bình luận, lý do, thông số tài chính và các thông tin khác về dòng đã chọn trong tab nhanh **Dòng hóa đơn**.
+    3. Xem nhận xét, lý do, kích thước tài chính và thông tin khác về một dòng đã chọn trên chi tiết dòng hóa đơn.
     
 8. Để đăng hóa đơn khách hàng liên công ty, trên Ngăn Hành động, hãy chọn **Đăng**.
 
@@ -52,7 +54,7 @@ Bạn có thể tạo cùng lúc nhiều hóa đơn liên công ty cho tất c�
 2. Trên trang **Tạo hóa đơn khách hàng liên công ty**, trong trường **Công ty**, chọn pháp nhân cần lập hóa đơn. Nếu bạn không chọn công ty nào, mọi giao dịch khớp với tiêu chí tìm kiếm sẽ hiển thị cho tất cả pháp nhân cho thuê.
 3. Trong phần **Tạo một hóa đơn theo**, hãy chọn xem bạn muốn tạo hóa đơn cho các giao dịch liên công ty dựa trên dự án hay dựa trên pháp nhân đi thuê.
 4. Không bắt buộc: Để chọn dự án hoặc mã số dự án cụ thể cần tạo hóa đơn liên công ty, hãy bấm vào **Chọn**. Trên trang **Truy vấn**, trong trường **Tiêu chí**, hãy chọn hợp đồng dự án, mã số dự án hoặc cả hai rồi bấm vào **OK**.
-5. Trên tab **Hàng loạt**, hãy thiết lập quy trình để tạo hàng loạt hóa đơn liên công ty theo định kỳ. Để biết thêm thông tin, hãy xem [Gửi tác vụ xử lý hàng loạt từ biểu mẫu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Trên tab **Hàng loạt**, hãy thiết lập quy trình để tạo hàng loạt hóa đơn liên công ty theo định kỳ. Để biết thêm thông tin, hãy xem [Gửi tác vụ xử lý hàng loạt từ biểu mẫu](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Để đăng hóa đơn liên công ty, trên Ngăn Hành động, hãy chọn **Đăng**.
 
 > [!NOTE]

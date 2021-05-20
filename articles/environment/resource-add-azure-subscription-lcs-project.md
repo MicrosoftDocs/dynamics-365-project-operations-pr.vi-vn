@@ -3,17 +3,17 @@ title: Thêm gói đăng ký Azure vào dự án LCS
 description: Chủ đề này cung cấp thông tin về cách kết nối gói đăng ký Azure của bạn với dự án LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289935"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880564"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
 
@@ -62,7 +62,7 @@ Sự định quyền hiện đã hoàn tất.
 3. Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager**, hãy chọn **Có**.
 4. Đảm bảo Miền của đối tượng thuê AAD đăng ký của Azure khớp với đăng ký Azure sở hữu miền mà bạn đang sử dụng rồi chọn **Tiếp theo**.
 5. Trên màn hình **Thiết lập Microsoft Azure**, hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
-6. Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn, sau đó tải nó lên Cổng thông tin quản lý Azure bằng cách truy cập vào phần **Cài đặt** > **Chứng chỉ quản lý**. Chứng chỉ này sẽ cho phép LCS thay mặt bạn kết nối với Azure. Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.
+6. Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn. Yêu cầu quản trị viên đăng ký Azure của bạn tải chứng chỉ lên Cổng quản lý của Azure bằng cách chọn đăng ký rồi chuyển đến phần **Cài đặt** > **Chứng chỉ quản lý**. Chứng chỉ này cho phép LCS thay mặt bạn để giao tiếp với Azure. Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.
 7. Chọn  **Tiếp theo**.
 8. Chọn vùng Azure để triển khai và chọn một trung tâm dữ liệu gần nơi bạn định sử dụng hệ thống này.
 9.  Chọn  **Kết nối**.

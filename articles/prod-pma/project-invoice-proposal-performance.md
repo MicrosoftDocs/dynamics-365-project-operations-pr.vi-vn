@@ -3,7 +3,7 @@ title: Hiệu suất của đề xuất hóa đơn dự án
 description: Chủ đề này cung cấp thông tin về việc cải thiện hiệu suất cho các đề xuất hóa đơn của dự án.
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573585"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920328"
 ---
 # <a name="project-invoice-proposal-performance"></a>Hiệu suất của đề xuất hóa đơn dự án
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Khi tạo một đề xuất hóa đơn mới, bạn có thể gặp phải các vấn đề về hiệu suất do số lượng dự án và tiểu dự án tăng lên. Để cải thiện hiệu suất, có một tính năng giúp giảm thời gian cần có để tạo một đề xuất hóa đơn mới cho các giao dịch dự án đã đăng.
 

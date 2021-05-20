@@ -3,17 +3,17 @@ title: Tạo giao dịch liên công ty
 description: Chủ đề này cung cấp thông tin về cách tạo giao dịch liên công ty.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287444"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880474"
 ---
 # <a name="create-intercompany-transactions"></a>Tạo giao dịch liên công ty
 
@@ -62,7 +62,7 @@ Molly Clark, nhà phát triển được GBPM thuê có 10 giờ làm việc cho
     4. Đặt tiền tệ thành **USD**.
     5. Lưu bản ghi.
 3. Đi tới **Bán hàng** > **Hợp đồng dự án** rồi tạo hợp đồng dự án mới cho Adventure Works.
-    1. Đặt công ty sở hữu thành **USPM** và đơn vị hợp đồng thành **Contoso Robotics US**.
+    1. Đặt công ty sở hữu thành **USPM** và đơn vị ký hợp đồng thành **Contoso Robotics US**.
     2. Chọn Adventure Works làm khách hàng.
     3. Chọn bảng giá sản phẩm và lưu bản ghi.
     4. Trên tab **Dòng hợp đồng**, hãy tạo một dòng hợp đồng mới. Đặt tên bất kỳ, sau đó chọn **Thời gian và tài liệu** làm phương thức thanh toán.
@@ -94,7 +94,7 @@ Molly Clark, nhà phát triển được GBPM thuê có 10 giờ làm việc cho
     Giao dịch chưa thanh toán này giờ đã sẵn sàng để lập hóa đơn. Hóa đơn của khách hàng Adventure Works có thể được đăng dưới khía cạnh tài chính khi cần.
 
 10. Đăng nhập với tư cách kế toán viên **GBPM**. Mở phiên bản Tài chính của Project Operations rồi chọn công ty **GBPM**. 
-11. Đi tới **Quản lý dự án và kế toán** > **Định kỳ** > **Project Operations trên Customer Engagement** > **Nhập từ bảng tách chuyển** rồi chọn chạy quy trình định kỳ để điền nội dung vào nhật ký Tích hợp Project Operations.
+11. Chuyển đến **Quản lý dự án và kế toán** > **Định kỳ** > **Tích hợp Project Operations** > **Nhập từ bảng tách chuyển** rồi chạy quy trình định kỳ để điền vào nhật ký Tích hợp Project Operations.
 12. Đi tới **Quản lý dự án và kế toán** > **Nhật ký** > **Nhật ký tích hợp Project Operations** rồi xem lại các dòng. Hệ thống sẽ tạo các dòng sau.
 
     | **Loại giao dịch** | **Giá** | **Loại tiền giao dịch** | **Số lượng** |

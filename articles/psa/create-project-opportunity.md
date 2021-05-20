@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285239"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948220"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Tạo cơ hội dự án (Project Service)
 
@@ -39,7 +39,7 @@ Cơ hội là bằng chứng thân thiện từ khách hàng quan tâm đến vi
   
 3.  Trong vùng **Tóm tắt**, nhập công ty của cơ hội và thông tin khác.  
   
-4.  Thêm bất kỳ ghi chú và các hoạt động (ví dụ, cuộc gọi điện thoại hoặc email) liên quan đến khách hàng tiềm năng này. Để tìm hiểu thêm về cách thêm chú thích và các hoạt động, hãy xem [theo dõi các ghi chú, nhiệm vụ, cuộc gọi hoặc email với các hoạt động](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Thêm bất kỳ ghi chú và các hoạt động (ví dụ, cuộc gọi điện thoại hoặc email) liên quan đến khách hàng tiềm năng này. Để tìm hiểu thêm về cách thêm chú thích và các hoạt động, hãy xem [theo dõi các ghi chú, nhiệm vụ, cuộc gọi hoặc email với các hoạt động](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Để thêm các bên liên quan, trong vùng **Bên liên quan**, bấm vào **+**.  
   

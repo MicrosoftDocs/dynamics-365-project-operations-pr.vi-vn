@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283799"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948175"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Hướng dẫn sử dụng cho Project Resource Hub
 
@@ -48,7 +48,7 @@ Có hai cấu hình của [!INCLUDE[pn_dyn_365_project_service_auto](../includes
 ## <a name="install-the-mobile-app"></a>Cài đặt ứng dụng di động
 Trước khi có thể bắt đầu sử dụng ứng dụng Trung tâm nguồn lực dự án, bạn cần cài đặt ứng dụng di động trên thiết bị. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Cài đặt Dynamics 365 for Phones và Tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Cài đặt Dynamics 365 for Phones và Tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Điều hướng Cơ bản
 1.  Khi đăng nhập trên ứng dụng di động, bạn sẽ thấy trang MyApps với một danh sách các ứng dụng mà bạn truy cập. 
@@ -99,7 +99,7 @@ Nhập chi phí của bạn ít nhất là theo tuần—hoặc theo tần số 
 5. Tiếp tục nhập chi phí cho tuần. Khi bạn hoàn tất và mọi thứ đều chính xác, hãy nhấn vào **Gửi**. Người quản lý sẽ xem xét và phê duyệt chi phí của bạn.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Thông tin chung trên cách sử dụng ứng dụng đi động 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hướng dẫn cơ bản trên di động](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hướng dẫn cơ bản trên di động](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Xem thêm  
  [Tổng quan về Project Service](../psa/overview.md)   

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284339"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947950"
 ---
 # <a name="install-and-customize-project-service"></a>Cài đặt và tùy chỉnh (Project Service)
 
@@ -34,20 +34,20 @@ Chức năng [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-a
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Cài đặt Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] là giải pháp ưu tiên. Có nhiều cách để mua giải pháp. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tiếp nhận tổ chức và người dùng của bạn](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] là giải pháp ưu tiên. Có nhiều cách để mua giải pháp. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tiếp nhận tổ chức và người dùng của bạn](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Tùy chỉnh biểu mẫu và báo cáo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Nếu muốn tùy chỉnh bất kỳ biểu mẫu, bảng thông tin hoặc báo cáo [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] nào, bạn có thể tìm thêm thông tin trong các liên kết sau:  
   
-- [Bắt đầu tạo và tùy chỉnh ứng dụng](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Bắt đầu tạo và tùy chỉnh ứng dụng](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Tạo và thiết kế các biểu mẫu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Tạo và thiết kế các biểu mẫu](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Tạo và chỉnh sửa bảng điều khiển](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Tạo và chỉnh sửa bảng điều khiển](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Tạo và chỉnh sửa các quy trình.](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Tạo và chỉnh sửa các quy trình.](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Giới thiệu về báo cáo & phân tích](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Giới thiệu về báo cáo & phân tích](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản trị viên](../psa/admin-guide.md)   

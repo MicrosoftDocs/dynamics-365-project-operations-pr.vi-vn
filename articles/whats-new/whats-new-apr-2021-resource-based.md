@@ -3,18 +3,18 @@ title: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho
 description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Project Operations phát hành vào tháng 4 năm 2021 cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868019"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935500"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho
 
@@ -33,8 +33,26 @@ Sau đây là các tính năng có trong bản phát hành này:
   - Ước tính và định giá vật tư không tồn kho trong chu kỳ bán hàng của một dự án. Để biết thêm thông tin, hãy xem phần [Thiết lập chi phí và tỷ lệ doanh số cho các sản phẩm trong danh mục - bản đơn giản](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Theo dõi việc sử dụng vật tư không tồn kho trong quá trình thực hiện dự án. Để biết thêm thông tin, hãy xem phần [Ghi mức sử dụng vật tư của dự án và nhiệm vụ dự án](../material/material-usage-log.md).
   - Lập hóa đơn chi phí vật tư không tồn kho đã qua sử dụng. Để biết thêm thông tin, hãy xem [Quản lý mục tồn đọng lập hóa đơn](../proforma-invoicing/manage-billing-backlog.md).
+  - Để biết thông tin về cách đặt cấu hình tính năng này, hãy xem [Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](../procurement/configure-materials-nonstocked.md)
 - Thanh toán theo nhiệm vụ: Đã thêm khả năng kết hợp các nhiệm vụ dự án với các mục mô tả hợp đồng dự án, nhờ đó có thể áp dụng cùng một phương thức thanh toán, tần suất hóa đơn và khách hàng cho các nhiệm vụ đó nhưng như những nhiệm vụ trên mục mô tả hợp đồng. Sự liên kết này đảm bảo việc lập hóa đơn, kế toán, ước tính doanh thu và ghi nhận chính xác hoạt động theo cách thiết lập này cho các nhiệm vụ dự án.
 - API mới trong Dynamics 365 Dataverse cho phép thực hiện các thao tác tạo, cập nhật và xóa với **Thực thể lập lịch trình**. Để biết thêm thông tin, hãy xem [Sử dụng API lịch trình để thực hiện thao tác với các thực thể Lập lịch trình](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Cập nhật về bản đồ ghi kép của Project Operations
+
+Danh sách sau đây hiển thị các bản đồ ghi kép đã được sửa đổi hoặc bổ sung trong bản phát hành Project Operations vào tháng 4 năm 2021.
+
+| **Bản đồ thực thể** | **Phiên bản đã cập nhật** | **Nhận xét** |
+| --- | --- | --- |
+| Giá trị tích hợp thực tế của Project Operations (msdyn\_actuals) | 1.0.0.14 | Bản đồ được sửa đổi để đồng bộ hóa các giá trị thực tế của dự án vật tư. |
+| Thực thể tích hợp Project Operations để ước tính chi phí (msdyn\_estimateslines) | 1.0.0.2 | Mô tả hợp đồng dự án được thêm đã đồng bộ hóa với ứng dụng Finance and Operations để hỗ trợ thanh toán dựa trên nhiệm vụ. |
+| Thực thể tích hợp Project Operations để ước tính giờ (msdyn\_resourceassignments) | 1.0.0.5 | Mô tả hợp đồng dự án được thêm đã đồng bộ hóa với ứng dụng Finance and Operations để hỗ trợ thanh toán dựa trên nhiệm vụ. |
+| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa các ước tính vật tư từ Dataverse đến ứng dụng Finance and Operations. |
+| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa tiêu đề hóa đơn của nhà cung cấp từ ứng dụng Finance and Operations đến Dataverse. |
+| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa mô tả hóa đơn của nhà cung cấp từ ứng dụng Finance and Operations đến Dataverse. |
+
+Bạn phải luôn chạy phiên bản bản đồ mới nhất trong môi trường của mình và bật tất cả các bản đồ bảng liên quan khi cập nhật giải pháp Project Operations Dataverse và phiên bản giải pháp Finance and Operations. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Bạn có thể kích hoạt phiên bản mới của bản đồ bằng cách chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong phần [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của hướng dẫn khắc phục sự cố Ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -67,7 +85,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 
 | **Lĩnh vực tính năng** | **Số tham chiếu** | **Cập nhật chất lượng** |
 | --- | --- | --- |
-| Quản lý dự án và kế toán | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Tính năng loại bỏ giá trị ước tính đảo ngược không hoạt động trong mục **Định kỳ**.  |
+| Quản lý dự án và kế toán | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Tính năng loại bỏ ước tính ngược không hoạt động trong phần **Định kỳ**.  |
 | Quản lý dự án và kế toán | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Tính năng **Điều chỉnh kế toán** gây ra sự cố với các tài khoản sổ cái đã chọn **Không cho phép nhập thủ công**. |
 | Quản lý dự án và kế toán | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Đã thêm logic nghiệp vụ để xử lý hóa đơn điều chỉnh bao gồm số tiền đặt cọc hoặc số tiền đặt cọc đã áp dụng. |
 | Quản lý dự án và kế toán | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP - giá trị bán hàng đăng trong hóa đơn dự án liên công ty chọn một tài khoản không mong muốn. |

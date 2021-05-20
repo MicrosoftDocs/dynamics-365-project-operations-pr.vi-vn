@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284474"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947995"
 ---
 # <a name="get-the-apps-project-service"></a>Nhận ứng dụng (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284474"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Nếu bạn muốn nhập thời gian và chi phí của bạn trên thiết bị di động, [Tải và cài đặt Dynamics 365 for Phones và Tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Nếu bạn muốn nhập thời gian và chi phí của bạn trên thiết bị di động, [Tải và cài đặt Dynamics 365 for Phones và Tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Bạn cũng có thể sử dụng ứng dụng Project Finder Mobile trên điện thoại để tìm dự án mới và đăng ký. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tìm dự án tiếp theo của bạn bằng ứng dụng Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   
