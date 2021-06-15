@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Tính năng mới
       items:
+        - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -372,8 +374,10 @@
               href: expense/configure-expense-management-parameters.md
             - name: Thiết lập phần tích hợp thẻ tín dụng
               href: expense/set-up-credit-card-integration.md
-            - name: Thiết lập danh mục chi phí
+            - name: Thiết lập thể loại chi phí
               href: expense/set-up-expense-categories.md
+            - name: Thiết lập khoảng cách bằng cách sử dụng các bậc tỷ lệ khoảng cách
+              href: expense/set-up-mileage.md
         - name: Chi phí cá nhân
           href: expense/personal-expenses-expense-report.md
         - name: Chi phí liên công ty
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 5 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Tính năng mới kể từ tháng 4 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Tính năng mới kể từ tháng 3 năm 2021 – triển khai bản đơn giản
@@ -1028,6 +1034,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Tùy chỉnh mục nhập thời gian hàng tuần
               href: psa/time-entry-extensibility-v3.md
+            - name: Các bộ phê duyệt
+              href: psa/approval-set.md
     - name: Câu hỏi thường gặp và khắc phục sự cố (3.x)
       items:
         - name: Tại sao giá mặc định về 0 trên thực tế chi phí?
