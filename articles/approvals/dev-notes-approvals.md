@@ -2,18 +2,16 @@
 title: Ghi chú của nhà phát triển dành cho giai đoạn Phê duyệt
 description: Chủ đề này cung cấp thông tin bổ sung của nhà phát triển về cách xử lý giai đoạn phê duyệt.
 author: stsporen
-manager: Annbe
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a89ea669a262c145b9f391fddc19e79a425fabb5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290295"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996817"
 ---
 # <a name="developer-notes-for-approvals"></a>Ghi chú của nhà phát triển dành cho giai đoạn Phê duyệt
 

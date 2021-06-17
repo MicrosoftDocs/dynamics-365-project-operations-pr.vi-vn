@@ -2,18 +2,16 @@
 title: Tổng quan về các mô tả báo giá dựa trên dự án
 description: Chủ đề này cung cấp thông tin về việc sử dụng các mô tả báo giá dựa trên dự án cho công việc dự án.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 32337b05f09ef7c5b84fdff9870744d6367e2693
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858724"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994882"
 ---
 # <a name="project-based-quote-lines-overview"></a>Tổng quan về mô tả báo giá dựa trên dự án 
 

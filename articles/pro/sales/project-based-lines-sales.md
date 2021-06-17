@@ -2,18 +2,16 @@
 title: Mô tả cơ hội dựa trên dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về mô tả cơ hội dựa trên dự án. (Dự án)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 90b1b078d51c2842f6406c4455188a4433820a77
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272549"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994432"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Mô tả cơ hội dựa trên dự án - bản đơn giản
 

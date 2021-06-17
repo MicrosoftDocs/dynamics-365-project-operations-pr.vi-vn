@@ -2,18 +2,16 @@
 title: Ánh xạ dự án và nhiệm vụ với mô tả hợp đồng dựa trên dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách thêm dự án và nhiệm vụ vào một mô tả hợp đồng cũng như cách xóa.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 4b86e03192625b0dabb89080f2ade1ed9e3567cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858136"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994658"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Ánh xạ dự án và nhiệm vụ với mô tả hợp đồng dựa trên dự án 
 

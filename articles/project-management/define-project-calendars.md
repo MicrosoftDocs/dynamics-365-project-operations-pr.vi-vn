@@ -2,11 +2,9 @@
 title: Xác định lịch dự án
 description: Chủ đề này cung cấp thông tin về cách áp dụng mẫu lịch cho dự án để theo dõi tiến độ dự án.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981326"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999022"
 ---
 # <a name="define-project-calendars"></a>Xác định lịch dự án
 
@@ -48,7 +46,7 @@ Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch �
 
 1. Truy cập vào **Nguồn lực** \> **Nguồn lực**.
 2. Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.
-3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.
+3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](/dynamics365/field-service/set-work-hours-resource.md) để định cấu hình các quy tắc lịch.
 
 **Tạo mẫu lịch mới**
 

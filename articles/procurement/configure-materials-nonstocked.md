@@ -2,19 +2,17 @@
 title: Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880699"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993937"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -61,11 +59,11 @@ Nếu đang sử dụng dữ liệu minh họa tiêu chuẩn, bạn cũng có th
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Kích hoạt quy trình làm việc để tạo tài khoản dựa trên pháp nhân nhà cung cấp
 
-Giải pháp Điều phối ghi kép cung cấp [Tích hợp tổng thể nhà cung cấp](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Là một điều kiện tiên quyết cho tính năng này, dữ liệu nhà cung cấp phải được tạo trong thực thể **Tài khoản**. Kích hoạt quy trình làm việc mẫu để tạo nhà cung cấp trong bảng **Tài khoản** như được mô tả trong [Chuyển đổi giữa các thiết kế của nhà cung cấp](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Giải pháp Điều phối ghi kép cung cấp [Tích hợp tổng thể nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Là một điều kiện tiên quyết cho tính năng này, dữ liệu nhà cung cấp phải được tạo trong thực thể **Tài khoản**. Kích hoạt quy trình làm việc mẫu để tạo nhà cung cấp trong bảng **Tài khoản** như được mô tả trong [Chuyển đổi giữa các thiết kế của nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Đặt các sản phẩm được tạo thành hiện hoạt
 
-Vật tư không tồn kho phải được đặt cấu hình như **Sản phẩm đã phát hành** trong Tài chính. Giải pháp Điều phối ghi kép cung cấp một tính năng vượt trội giúp [Tích hợp sản phẩm đã phát hành vào Danh mục sản phẩm Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Theo mặc định, các sản phẩm từ Tài chính được đồng bộ hóa với Dataverse ở trạng thái bản nháp. Để đồng bộ hóa sản phẩm sang trạng thái hiện hoạt nhằm có thể sử dụng trực tiếp sản phẩm trong tài liệu sử dụng vật tư hoặc hóa đơn của nhà cung cấp đang chờ xử lý, hãy chuyển đến **Hệ thống** > **Quản trị** > **Quản trị hệ thống** > **Cài đặt hệ thống** và trên tab **Bán hàng**, hãy đặt **Tạo sản phẩm ở trạng thái hiện hoạt** thành **Có**.
+Vật tư không tồn kho phải được đặt cấu hình như **Sản phẩm đã phát hành** trong Tài chính. Giải pháp Điều phối ghi kép cung cấp một tính năng vượt trội giúp [Tích hợp sản phẩm đã phát hành vào Danh mục sản phẩm Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Theo mặc định, các sản phẩm từ Tài chính được đồng bộ hóa với Dataverse ở trạng thái bản nháp. Để đồng bộ hóa sản phẩm sang trạng thái hiện hoạt nhằm có thể sử dụng trực tiếp sản phẩm trong tài liệu sử dụng vật tư hoặc hóa đơn của nhà cung cấp đang chờ xử lý, hãy chuyển đến **Hệ thống** > **Quản trị** > **Quản trị hệ thống** > **Cài đặt hệ thống** và trên tab **Bán hàng**, hãy đặt **Tạo sản phẩm ở trạng thái hiện hoạt** thành **Có**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Đặt cấu hình các điều kiện tiên quyết trong Tài chính
 

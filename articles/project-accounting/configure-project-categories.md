@@ -2,18 +2,16 @@
 title: Đặt cấu hình danh mục dự án
 description: Chủ đề này cung cấp thông tin về cách thiết lập danh mục dự án.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287534"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995197"
 ---
 # <a name="configure-project-categories"></a>Đặt cấu hình danh mục dự án
 
@@ -29,7 +27,7 @@ Danh mục giao dịch là nhóm cơ bản cho các giao dịch dự án. Trong 
 
 ## <a name="transaction-categories"></a>Danh mục giao dịch
 
-Danh mục giao dịch đại diện cho nhóm cơ bản cho các giao dịch dự án và không dành riêng cho công ty hoặc loại giao dịch. Ví dụ: Contoso Robotics sử dụng các danh mục Thiết kế, Du lịch, Cài đặt và Dịch vụ để nhóm các giao dịch dự án.
+Danh mục giao dịch đại diện cho nhóm cơ bản cho các giao dịch dự án và không dành riêng cho công ty hoặc loại giao dịch. Chẳng hạn, Contoso Robotics sử dụng các danh mục Thiết kế, Du lịch, Lắp đặt và Giao dịch dịch vụ để nhóm các giao dịch Dự án.
 
 Các danh mục giao dịch được xác định trong mô-đun Project Operations. 
 1. Đi tới **Cài đặt** \> **Danh mục giao dịch** để mở biểu mẫu. 
