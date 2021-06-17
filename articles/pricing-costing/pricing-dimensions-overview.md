@@ -2,19 +2,17 @@
 title: Tổng quan về thông số định giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập thông số giá tùy chỉnh trong Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275429"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005007"
 ---
 # <a name="pricing-dimensions-overview"></a>Tổng quan về thông số định giá
 
@@ -59,18 +57,18 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 
 **Tỷ lệ hóa đơn mẫu**
 
-| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ------------|-------------|----------|----------:|----------|
-| Nhà phát triển   | Contoso US  |Hour | 200|Giải pháp USD     |
-| Nhà phát triển   | Đàm Ấn Độ |Hour|   112|Giải pháp USD     |
+| Nhà phát triển   | Contoso Hoa Kỳ  |Giờ | 200|Giải pháp USD     |
+| Nhà phát triển   | Contoso Ấn Độ |Giờ|   112|Giải pháp USD     |
 
 
 **Tỷ lệ chi phí mẫu**
 
-| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
-| My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |
+| My company_Band1 | Contoso Hoa Kỳ  |Giờ | 145|Giải pháp USD     |
+| My company_Band2 | Contoso Ấn Độ |Giờ|   67|Giải pháp USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Tổng quan về lập hóa đơn liên công ty
 description: Chủ đề này cung cấp thông tin và ví dụ về cách lập hóa đơn liên công ty cho các dự án.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287354"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002667"
 ---
 # <a name="intercompany-invoicing-overview"></a>Tổng quan về lập hóa đơn liên công ty
 
@@ -21,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Tổ chức của bạn có thể có nhiều bộ phận, công ty con và pháp nhân khác chuyển sản phẩm và dịch vụ cho nhau trong các dự án. Pháp nhân cung cấp sản phẩm hoặc dịch vụ được gọi là *pháp nhân cho thuê*. Pháp nhân nhận sản phẩm hoặc dịch vụ được gọi là *pháp nhân đi thuê*.
 
-Hình sau minh họa trường hợp thường gặp, đó là khi Contoso Robotics USA (pháp nhân đi thuê) và Contoso Robotics UK (pháp nhân cho thuê) chia sẻ nguồn lực để thực hiện dự án cho khách hàng Adventure Works. Trong tình huống này, Contoso Robotics USA đã ký hợp đồng thực hiện công việc cho Adventure Works.
+Hình sau đây minh họa một tình huống điển hình trong đó hai pháp nhân, Contoso Robotics USA (pháp nhân đi vay) và Contoso Robotics UK (pháp nhân cho vay) chia sẻ nguồn lực để thực hiện một dự án cho khách hàng Adventure works. Đối với tình huống này, Contoso Robotics USA là đơn vị ký hợp đồng thực hiện công việc cho Adventure Works.
 
 ![Lập hóa đơn liên công ty](./media/IntercompanyScenario.png) 
 

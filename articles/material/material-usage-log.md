@@ -2,18 +2,16 @@
 title: Ghi lại hoạt động sử dụng vật tư của dự án và nhiệm vụ dự án
 description: Chủ đề này cung cấp thông tin về cách ghi nhật ký sử dụng vật tư đối với dự án và nhiệm vụ của dự án.
 author: rumant
-manager: AnnBe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab431ce4c18a4283cd887de9afcba0dd556d2567
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 3c739d7fabb96a845eaf139fcc9eab21247b0860
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852908"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001587"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Ghi lại hoạt động sử dụng vật tư của dự án và nhiệm vụ dự án
 

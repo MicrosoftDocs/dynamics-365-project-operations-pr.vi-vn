@@ -2,11 +2,9 @@
 title: Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
 description: Chủ đề này cung cấp thông tin về cách thêm các thêm trường tùy chỉnh bắt buộc vào các thực thể cũng như biểu mẫu và dạng xem.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66cd638a3726cb68c0e92d3b0b54de28ff94b2a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275790"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000597"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
 

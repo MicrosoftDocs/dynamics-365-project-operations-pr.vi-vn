@@ -2,18 +2,16 @@
 title: Đặt cấu hình hoạt động tạo hóa đơn tự động
 description: Chủ đề này cung cấp thông tin về cách thức đặt cấu hình để hệ thống tự động tạo hóa đơn.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0dddd963e79f8ecd91a96a6e684ab79e1b95bd6d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dffa95c163f7f8d5074e02cd56d6f1ed429a7c72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005367"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động
 

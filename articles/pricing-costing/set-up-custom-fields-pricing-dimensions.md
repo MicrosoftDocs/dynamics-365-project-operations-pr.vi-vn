@@ -2,11 +2,9 @@
 title: Thiết lập trường tùy chỉnh làm thông số định giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập thông số định giá bằng các trường tùy chỉnh.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274889"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004737"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá
 
@@ -75,12 +73,12 @@ Có hai loại thông số định giá:
   
 | Vai trò        | Đơn vị tổ chức    |Vị trí làm việc      |Tiêu đề chuẩn      |Giờ làm việc của nguồn lực      |  Tăng giá|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
-|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
-|             | Contoso US   |Cục bộ             |                    |Làm thêm                 |20     |
+|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
+|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
+|             | Contoso Hoa Kỳ   |Cục bộ             |                    |Làm thêm                 |20     |
 
 
-Nếu một nguồn lực từ Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở, họ ghi 8 giờ làm việc bình thường và 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá sẽ sử dụng giá cơ sở là 100 cho 8 giờ để thành 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
+Nếu một nguồn lực ở Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở và người đó ghi 8 giờ làm việc bình thường, 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá sẽ sử dụng giá cơ sở là 100 cho 8 giờ để ghi lại 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
 
 ### <a name="applicable-to-cost"></a>Áp dụng cho chi phí 
 Nếu được đặt thành **Có**, thì tùy chọn này chỉ ra rằng giá trị thông số từ ngữ cảnh đầu vào sẽ được dùng để khớp với **Giá theo vai trò** và **Mức tăng Giá theo vai trò** khi truy xuất chi phí và mức tăng giá.

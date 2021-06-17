@@ -2,8 +2,6 @@
 title: Đặt cấu hình danh mục giao dịch
 description: Cách thiết lập các danh mục giao dịch trong Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a0edd4ca5bb175d67e645b1a6903a1bbde4ecca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5936bf0384e62d522bb9e1f01cd00771e1ac522c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290655"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002981"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Đặt cấu hình các danh mục giao dịch (Project Service)
 
