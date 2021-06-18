@@ -2,8 +2,6 @@
 title: Đơn vị tổ chức
 description: Chủ đề này cung cấp thông tin về các đơn vị tổ chức trong Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291690"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009642"
 ---
 # <a name="organizational-units"></a>Đơn vị tổ chức 
 
@@ -79,14 +77,14 @@ Khi bạn triển khai Dynamics 365, hãy tối ưu hóa ủy quyền bảo mậ
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Ví dụ về đơn vị tổ chức và đơn vị kinh doanh
 
-Contoso, Ltd. sử dụng rất nhiều công nghệ của Microsoft. Đức và Cúc đều là các nhà phát triển C\# nhưng Cúc ở Hoa Kỳ còn Đức lại ở Ấn Độ. Hầu hết các cam kết dự án yêu cầu tài nguyên từ Contoso Ấn Độ và Contoso Mỹ, còn Đức và Cúc yêu cầu cùng một mức độ truy cập bảo mật cho các dự án trong khu vực thực hành này. Tuy nhiên, chi phí của các nhà phát triển từ Contoso Ấn độ có sự chênh lệch đáng kể so với chi phí của các nhà phát triển từ Contoso Hoa Kỳ.
+Contoso, Ltd. sử dụng rất nhiều công nghệ của Microsoft. Đức và Cúc đều là các nhà phát triển C\# nhưng Cúc ở Hoa Kỳ còn Đức lại ở Ấn Độ. Hầu hết các hoạt động tương tác trong dự án đòi hỏi có nguồn lực từ Contoso Ấn Độ và Contoso Hoa Kỳ, còn Prakash và Tricia phải có cùng một mức độ truy nhập bảo mật đối với các dự án trong khu vực thực hành này. Tuy nhiên, chi phí cho nhà phát triển ở Contoso Ấn Độ có sự chênh lệch đáng kể với chi phí cho nhà phát triển ở Contoso Hoa Kỳ.
 
 Đây là một cách tối ưu để thiết kế cho trường hợp này bằng cách sử dụng Dynamics 365 và PSA.
 
 1. Tạo thực hành công nghệ của Microsoft dưới dạng một đơn vị kinh doanh rồi liên kết Đức và Cúc với nó. Bằng cách này, bạn giúp đảm bảo rằng cả hai nhân viên đều có cùng mức độ truy cập bảo mật vào bất kỳ dự án nào trong khu vực thực hành đó. Cả hai đều sẽ có thể kiểm tra tiến độ và báo cáo thời gian, chi phí, và Cập Nhật nhiệm vụ. 
 2. Tạo hai đơn vị tổ chức để đảm bảo rằng chi phí cho dự án được phản ánh chính xác. 
-3. Liên kết Cúc với Contoso Hoa Kỳ và liên kết Đức với Contoso Ấn Độ.
-4. Gán danh sách giá chi phí phù hợp cho cả hai đơn vị tổ chức. Theo cách này, bạn giúp đảm bảo rằng các chi phí được ghi lại trên dự án cho Đức và Cúc phản ánh chính xác sự khác biệt về chi phí giữa Contoso Mỹ và Contoso Ấn Độ.
+3. Liên kết Tricia với Contoso Hoa Kỳ và liên kết Prakash với Contoso Ấn Độ.
+4. Gán danh sách giá chi phí phù hợp cho cả hai đơn vị tổ chức. Theo cách này, bạn sẽ bảo đảm rằng các chi phí được ghi lại trên dự án cho Prakash và Tricia phản ánh chính xác sự khác biệt về chi phí giữa Contoso Hoa Kỳ và Contoso Ấn Độ.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Có phải là đơn vị tổ chức liên quan đến lãnh thổ bán hàng trong Dynamics 365 không?
 
@@ -98,9 +96,9 @@ Không có hiệp hội hoặc mối quan hệ giữa lãnh thổ bán hàng và
 
 Contoso, Ltd. có hai trung tâm phát triển: Contoso Hoa Kỳ và Contoso Ấn Độ. Chi phí tài nguyên giữa hai trung tâm phát triển chênh lệch rất lớn.
 
-Contoso bán các dịch vụ CNTT tại nhiều thị trường quốc tế như Mỹ Latinh, Bắc Mỹ, Châu Á-Thái Bình Dương, Tây Âu và Trung Đông. Mức phí cho các vai trò dự án tương tự có thể khác nhau khá lớn trên các thị trường này.
+Contoso bán các dịch vụ CNTT tại nhiều thị trường quốc tế, như: Mỹ Latinh, Bắc Mỹ, châu Á – Thái Bình Dương, Tây Âu và Trung Đông. Mức phí cho các vai trò dự án tương tự có thể khác nhau khá lớn trên các thị trường này.
 
-Contoso Hoa Kỳ và Contoso Ấn Độ phải được thiết lập là đơn vị tổ chức và mỗi đơn vị tổ chức phải có danh sách giá chi phí riêng. Cần thiết lập Châu Á-Thái Bình Dương, Mỹ Latinh, Bắc Mỹ, Tây Âu và Trung Đông là lãnh thổ bán hàng, và mỗi lãnh thổ bán hàng cần có danh sách giá bán hàng riêng.
+Contoso Hoa Kỳ và Contoso Ấn Độ phải được thiết lập là đơn vị tổ chức và mỗi đơn vị tổ chức phải có bảng giá vốn riêng. Cần thiết lập Châu Á-Thái Bình Dương, Mỹ Latinh, Bắc Mỹ, Tây Âu và Trung Đông là lãnh thổ bán hàng, và mỗi lãnh thổ bán hàng cần có danh sách giá bán hàng riêng.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Tại sao có hạn chế về liên kết các danh sách giá với các đơn vị tổ chức? 
 
@@ -136,7 +134,7 @@ Ví dụ sau cho thấy một phân cấp điển hình:
     - Tư vấn kỹ thuật
     - Tư vấn chức năng 
     
-**Contoso US**
+**Contoso Hoa Kỳ**
 
  - Phương pháp SAP 
 
@@ -149,14 +147,14 @@ Ví dụ sau cho thấy một phân cấp điển hình:
     - Tư vấn chức năng 
  
 Nếu hệ thống phân cấp của bạn tương tự, bạn phải thiết lập nó như là một danh sách phẳng, như được hiển thị ở đây:
-- Contoso Ấn Độ - Phương pháp SAP - Tư vấn kỹ thuật 
-- Contoso Ấn Độ - Phương pháp SAP - Tư vấn chức năng       
-- Contoso Ấn Độ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng 
-- Contoso Ấn Độ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng 
-- Contoso Hoa Kỳ - Phương pháp SAP - Tư vấn kỹ thuật  
-- Contoso Hoa Kỳ - Phương pháp SAP - Tư vấn chức năng  
-- Contoso Hoa Kỳ - Phương pháp Công nghệ Microsoft - Tư vấn kỹ thuật 
-- Contoso Hoa Kỳ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng
+- Contoso Ấn Độ – Phương pháp SAP – Tư vấn kỹ thuật 
+- Contoso Ấn Độ – Phương pháp SAP – Tư vấn chức năng       
+- Contoso Ấn Độ – Phương pháp công nghệ Microsoft – Tư vấn chức năng 
+- Contoso Ấn Độ – Phương pháp công nghệ Microsoft – Tư vấn chức năng 
+- Contoso Hoa Kỳ – Phương pháp SAP – Tư vấn kỹ thuật  
+- Contoso Hoa Kỳ – Phương pháp SAP – Tư vấn chức năng  
+- Contoso Hoa Kỳ – Phương pháp công nghệ Microsoft – Tư vấn kỹ thuật 
+- Contoso Hoa Kỳ – Phương pháp công nghệ Microsoft – Tư vấn chức năng
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Chúng tôi là một công ty dịch vụ chuyên nghiệp nhỏ, hoạt động chỉ như một bộ phận. Làm thế nào chúng tôi có thể tận dụng khái niệm đơn vị tổ chức trong phiên bản hiện tại của PSA?
 

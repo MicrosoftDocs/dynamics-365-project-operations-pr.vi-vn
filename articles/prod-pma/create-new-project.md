@@ -2,11 +2,9 @@
 title: Tạo dự án mới
 description: Chủ đề này cung cấp thông tin về cách tạo dự án mới.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270749"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006267"
 ---
 # <a name="create-a-new-project"></a>Tạo dự án mới
 
@@ -55,7 +53,7 @@ Người quản lý dự án có thể sử dụng chức năng nguồn lực d�
 
 [![Ví dụ về vai trò](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Tình huống:** Contoso được thuê để hoàn thành một dự án Thời gian và vật liệu có điều lệ dự án đã được phê duyệt. Người quản lý dự án cấp dưới vẫn đang hoàn thành phạm vi của dự án. Người quản lý tài nguyên hiện đang xác định các nguồn lực cụ thể sẽ được dự trữ để thực hiện dự án mới. Do tính chất quan trọng của dự án, nhà tài trợ dự án đã yêu cầu Người quản lý dự án cấp cao là một trong các vai trò. Người quản lý tài nguyên phải có được nguồn lực mới và xác định vai trò trong hệ thống trong trường hợp người quản lý dự án cấp dưới yêu cầu thông tin tài nguyên trong quá trình lập kế hoạch dự án.
+**Tình huống:** Contoso được thuê hoàn thành một dự án Thời gian và vật tư có đã được phê duyệt điều lệ dự án. Người quản lý dự án cấp dưới vẫn đang hoàn thành phạm vi của dự án. Người quản lý tài nguyên hiện đang xác định các nguồn lực cụ thể sẽ được dự trữ để thực hiện dự án mới. Do tính chất quan trọng của dự án, nhà tài trợ dự án đã yêu cầu Người quản lý dự án cấp cao là một trong các vai trò. Người quản lý tài nguyên phải có được nguồn lực mới và xác định vai trò trong hệ thống trong trường hợp người quản lý dự án cấp dưới yêu cầu thông tin tài nguyên trong quá trình lập kế hoạch dự án.
 
 Các bước sau đây cho thấy cách người quản lý nguồn lực có thể thiết lập vai trò Người quản lý dự án cấp cao và liên kết các đặc điểm của nguồn lực với vai trò đó. Sau đó, vai trò có thể được sử dụng để tìm kiếm các nguồn lực có sẵn phù hợp với năng lực của nguồn lực được yêu cầu.
 

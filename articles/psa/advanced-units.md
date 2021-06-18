@@ -2,8 +2,6 @@
 title: Nhóm đơn vị và đơn vị
 description: Chủ đề này cung cấp thông tin về nhóm đơn vị đo và đơn vị đo.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291645"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009597"
 ---
 # <a name="unit-groups-and-units"></a>Nhóm đơn vị và đơn vị
 
@@ -86,9 +84,9 @@ Ví dụ sau cho thấy cách PSA sử dụng nhóm đơn vị đo, đơn vị v
     - **Đơn vị thời gian mặc định**: Ngày 
     - **Tiền tệ**: GBP
 
-| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
+| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
 |-----------|------------|------|---------------------|---------|
-| Nhà phát triển | Time       | Day  | Contoso Hoa Kỳ          | 800 GBP |
+| Nhà phát triển | Thời gian       | Ngày  | Contoso Anh          | 800 GBP |
 
 ### <a name="time-entry"></a>Mục nhập thời gian
 
