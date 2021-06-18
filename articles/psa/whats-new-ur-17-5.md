@@ -2,8 +2,6 @@
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 17.5, Bản vá, V3
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 17.5, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,32 +15,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b3d58cb4a2f8fea1495d143dd985ad17a5cc4130
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7f78cb8974b472dab85654bffb9665f18af0ce1a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949300"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006762"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="cce17-103">Phát hành bản cập nhật Project Service Automation 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="cce17-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="4267b-103">Phát hành bản cập nhật Project Service Automation 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="4267b-103">Project Service Automation Update Release 17.5, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="cce17-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="cce17-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="cce17-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="cce17-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="cce17-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="cce17-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="cce17-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến, rồi chuyển đến trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="cce17-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="cce17-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="cce17-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="4267b-104">Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="4267b-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="4267b-105">Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng.</span><span class="sxs-lookup"><span data-stu-id="4267b-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="4267b-106">Bản phát hành này tương thích với Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="4267b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="4267b-107">Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến, rồi chuyển đến trang giải pháp để cài đặt bản cập nhật.</span><span class="sxs-lookup"><span data-stu-id="4267b-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="4267b-108">Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="4267b-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="cce17-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho V3, Bản phát hành cập nhật 17.5.</span><span class="sxs-lookup"><span data-stu-id="cce17-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="cce17-110">Phiên bản này có số bản dựng là V3.10.7.32 và thường có sẵn thông qua bản tự cập nhật vào tháng 3 năm 2020.</span><span class="sxs-lookup"><span data-stu-id="cce17-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
-
-
-## <a name="update-release-175"></a><span data-ttu-id="cce17-111">Phát hành bản cập nhật 17.5</span><span class="sxs-lookup"><span data-stu-id="cce17-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="cce17-112">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="cce17-112">Bug fixes</span></span>
+<span data-ttu-id="4267b-109">Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho V3, Bản phát hành cập nhật 17.5.</span><span class="sxs-lookup"><span data-stu-id="4267b-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="4267b-110">Phiên bản này có số bản dựng là V3.10.7.32 và thường có sẵn thông qua bản tự cập nhật vào tháng 3 năm 2020.</span><span class="sxs-lookup"><span data-stu-id="4267b-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="cce17-113">**Quản lý dự án**</span><span class="sxs-lookup"><span data-stu-id="cce17-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="4267b-111">Phát hành bản cập nhật 17.5</span><span class="sxs-lookup"><span data-stu-id="4267b-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="cce17-114">Sửa lỗi: Khắc phục các sự cố đồng bộ hóa phía máy chủ xảy ra với các nhiệm vụ có khoảng thời gian dài.</span><span class="sxs-lookup"><span data-stu-id="cce17-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="cce17-115">Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng 24 giờ thêm ngày bổ sung không chính xác vào nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="cce17-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="cce17-116">Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng +13 GMT chuyển các nhiệm vụ trước một ngày không chính xác.</span><span class="sxs-lookup"><span data-stu-id="cce17-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="4267b-112">Sửa lỗi</span><span class="sxs-lookup"><span data-stu-id="4267b-112">Bug fixes</span></span>
+
+
+<span data-ttu-id="4267b-113">**Quản lý dự án**</span><span class="sxs-lookup"><span data-stu-id="4267b-113">**Project Management**</span></span>
+
+- <span data-ttu-id="4267b-114">Sửa lỗi: Khắc phục các sự cố đồng bộ hóa phía máy chủ xảy ra với các nhiệm vụ có khoảng thời gian dài.</span><span class="sxs-lookup"><span data-stu-id="4267b-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="4267b-115">Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng 24 giờ thêm ngày bổ sung không chính xác vào nhiệm vụ.</span><span class="sxs-lookup"><span data-stu-id="4267b-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="4267b-116">Sửa lỗi: Khắc phục các mẫu giờ làm việc dạng +13 GMT chuyển các nhiệm vụ trước một ngày không chính xác.</span><span class="sxs-lookup"><span data-stu-id="4267b-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
 
 
 
