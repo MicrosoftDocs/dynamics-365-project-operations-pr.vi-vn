@@ -2,19 +2,17 @@
 title: Làm việc với chi phí cá nhân trên báo cáo chi phí
 description: Chủ đề này cung cấp thông tin về cách làm việc với các chi phí cá nhân do nhân viên phát sinh khi đi công tác.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276267"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025710"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Làm việc với chi phí cá nhân trên báo cáo chi phí
 
@@ -28,6 +26,15 @@ Có hai phương pháp bạn có thể sử dụng để giải quyết các chi
   - **Do công ty trả**: Tổ chức của bạn thanh toán toàn bộ hóa đơn tính vào thẻ tín dụng công ty, sau đó ghi nợ các chi phí cá nhân vào tài khoản của nhân viên.
 
 Bạn có thể chọn phương pháp mà tổ chức sẽ sử dụng trên trang **Các tham số quản lý chi phí**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Kích hoạt chức năng phân chia chi phí khi trường số tiền cá nhân được xác định giá trị
+
+Tính năng **Kích hoạt chức năng phân chia chi phí khi trường số tiền cá nhân được xác định giá trị** chỉ áp dụng cho các báo cáo chi phí được phê duyệt bằng quy trình làm việc ở cấp độ dòng mô tả. Bạn phê duyệt báo cáo bằng cách chuyển đến **Xử lý báo cáo chi phí** > **Báo cáo chi phí được giao cho tôi** > **Báo cáo chi phí mở**. 
+
+Để kích hoạt tính năng này, bạn hãy chuyển đến **Không gian làm việc** > **Quản lý tính năng**, chọn mục **Kích hoạt chức năng phân chia chi phí khi trường số tiền cá nhân được xác định giá trị**, rồi chọn **Kích hoạt ngay**. 
+
+Khi tính năng này được kích hoạt, các dòng chi phí sử dụng chức năng này sẽ tạo ra hai dòng trong quá trình gửi báo cáo. Hai dòng được tạo ra để người phê duyệt có thể phê duyệt riêng từng dòng.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

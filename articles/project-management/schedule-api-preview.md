@@ -2,18 +2,16 @@
 title: Sử dụng API lịch trình để thực hiện các hoạt động với các thực thể Lập lịch trình
 description: Chủ đề này cung cấp thông tin và mẫu để sử dụng API lịch trình.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950830"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116823"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng API lịch trình để thực hiện các hoạt động với các thực thể Lập lịch trình
 
@@ -268,7 +266,6 @@ Sau đây là danh sách các giới hạn và vấn đề đã biết:
 - Mỗi người dùng chỉ có tối đa 10 **OperationSets** đang mở.
 - Project Operations hiện hỗ trợ tổng cộng tối đa 500 nhiệm vụ trên một dự án.
 - Hiện không có nhật ký lỗi và trạng thái lỗi **OperationSet**.
-- API lịch trình ở Bản xem trước công khai. Microsoft không hỗ trợ sử dụng các API này trong Môi trường sản xuất.
 - [Giới hạn và ranh giới đối với các dự án và nhiệm vụ](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Xử lý lỗi

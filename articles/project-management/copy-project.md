@@ -2,30 +2,29 @@
 title: Sao chép dự án
 description: Chủ đề này cung cấp thông tin về việc sao chép dự án trong Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479545"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091280"
 ---
 # <a name="copy-a-project"></a>Sao chép dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Với Dynamics 365 Project Operations, bạn có thể nhanh chóng tạo các dự án mới bằng cách chọn **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy mở dự án mà bạn muốn sao chép, rồi chọn **Sao chép dự án**. Hành động sẽ sao chép:
+Với Dynamics 365 Project Operations, bạn có thể nhanh chóng tạo các dự án mới bằng cách chọn **Sao chép dự án** trên biểu mẫu **Dự án**. Để sao chép dự án, hãy mở dự án mà bạn muốn sao chép, rồi chọn **Sao chép dự án**. Hành động này sẽ sao chép:
 
-- Thuộc tính dự án (Ngày bắt đầu ước tính được sao chép từ dự án nguồn)
+- Thuộc tính dự án 
 - Cấu trúc phân tích công việc
 - Thành viên nhóm dự án
 - Ước tính dự án
 - Ước tính chi phí dự án
+- Ước tính vật tư của dự án
 
 ## <a name="project-properties"></a>Thuộc tính dự án
 
@@ -40,13 +39,17 @@ Khi dự án được sao chép, các giá trị trong các trường sau sẽ �
 - Trình quản lý Dự án
 - Trạng thái
 - Trạng thái của Dự án Tổng thể
-- Bình luận
+- Nhận xét
 - Ước tính
-- Ngày Bắt đầu Ước tính
-- Ngày hoàn thành
+- Ngày bắt đầu ước tính: Đây là ngày tạo dự án từ bản sao.
+- Ngày kết thúc ước tính: Ngày này được điều chỉnh dựa trên ngày bắt đầu của dự án mới được tạo từ bản sao.
 - Nỗ lực (giờ)
 - Chi phí nhân công ước tính
-- Chi phí Phí tổn Ước tính
+- Chi phí phí tổn ước tính
+- Chi phí ước tính của vật liệu
+
+> [!NOTE]
+> Thao tác sao chép dự án sẽ tốn nhiều thời gian. Bản ghi dự án, các thuộc tính tương ứng và nhiều thực thể liên quan cũng được sao chép. Do thao tác này sẽ kéo dài, nên sau khi quá trình sao chép bắt đầu, trang dự án đích sẽ bị khóa chức năng chỉnh sửa cho đến khi thao tác sao chép hoàn tất.
 
 ## <a name="work-breakdown-structure"></a>Cấu trúc phân tích công việc
 
@@ -58,7 +61,7 @@ Khi một nhóm dự án được sao chép từ dự án nguồn, các tài ngu
 
 ## <a name="estimates"></a>Ước tính
 
-Khi dự án được sao chép, cả dòng ước tính nguồn lực và chi phí đều được sao chép từ dự án nguồn. 
+Khi dự án được sao chép, các dòng ước tính tài nguyên, chi phí và vật tư được sao chép từ dự án nguồn. 
 
 Để biết thông tin về cách truy nhập Sao chép dự án theo lập trình, hãy xem [Phát triển các mẫu dự án với Sao chép dự án](dev-copy-project.md).
 
