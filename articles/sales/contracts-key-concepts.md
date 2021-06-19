@@ -2,18 +2,16 @@
 title: Hợp đồng dự án - Khái niệm chính
 description: Chủ đề này cung cấp thông tin về các khái niệm chính của hợp đồng dự án trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ba7b8955567232a46742bc234adcb2ad1875ddac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663754"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013557"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Các khái niệm duy nhất cho Hợp đồng dựa trên dự án
 

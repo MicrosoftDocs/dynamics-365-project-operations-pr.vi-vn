@@ -2,18 +2,16 @@
 title: Đặt cấu hình các thành phần có thể tính phí của một dòng mô tả báo giá theo dự án
 description: Chủ đề này cung cấp thông tin về các thành phần được bao gồm, có thể tính phí và không thể tính phí trên các dòng mô tả báo giá theo dự án.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278759"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013602"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Đặt cấu hình các thành phần có thể tính phí của một dòng mô tả báo giá theo dự án
 

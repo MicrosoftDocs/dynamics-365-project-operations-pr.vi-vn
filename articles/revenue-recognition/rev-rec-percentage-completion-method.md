@@ -2,18 +2,16 @@
 title: Dự án ước tính doanh thu giá cố định
 description: Chủ đề này cung cấp thông tin về doanh thu giá cố định trong dự án.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 639c6a104f2a90366a0f477c0d7cf384f19cdd81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013827"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Dự án ước tính doanh thu giá cố định 
 
