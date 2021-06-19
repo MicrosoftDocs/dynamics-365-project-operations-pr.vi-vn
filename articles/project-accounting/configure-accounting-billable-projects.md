@@ -2,18 +2,16 @@
 title: Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 description: Chủ đề này cung cấp thông tin về các tùy chọn kế toán cho những dự án có thể lập hóa đơn.
 author: sigitac
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012612"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 

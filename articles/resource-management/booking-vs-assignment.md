@@ -2,18 +2,16 @@
 title: Mục đặt trước và mục chỉ định
 description: Chủ đề này cung cấp thông tin về sự khác biệt giữa đặt trước nguồn lực và chỉ định nguồn lực.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3aaf8dcbae0a5762879c2b1223eba3bdc33af1a7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c1a1003af0b23c4be44fefac0b3c4ea725f96b2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279929"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012792"
 ---
 # <a name="bookings-vs-assignments"></a>Mục đặt trước và mục chỉ định
 
