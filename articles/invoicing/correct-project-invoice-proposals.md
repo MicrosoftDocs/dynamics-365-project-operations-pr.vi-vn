@@ -1,0 +1,42 @@
+---
+title: Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
+description: Chủ đề này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn nháp.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: vi-VN
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251294"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="b2c4d-103">Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp</span><span class="sxs-lookup"><span data-stu-id="b2c4d-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="b2c4d-104">_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_</span><span class="sxs-lookup"><span data-stu-id="b2c4d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="b2c4d-105">*Chi tiết hoạt động* đối với các hóa đơn dự án được quản lý dự án duy trì trên hóa đơn ước giá.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="b2c4d-106">Những chi tiết này bao gồm quyết định về giờ giấc, chi phí, vật liệu hoặc các mốc quan trọng phải lập hóa đơn, mức giá và việc áp dụng số tiền tạm ứng và trả trước.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="b2c4d-107">Sau khi xác nhận hóa đơn ước giá ban đầu, bạn có thể điều chỉnh chi tiết hoạt động bằng cách tạo và xác nhận [hóa đơn ước giá hiệu chỉnh](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="b2c4d-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="b2c4d-108">*Chi tiết kế toán* đối với các hóa đơn dự án được duy trì trong một tài liệu hóa đơn giao cho khách hàng.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="b2c4d-109">Những chi tiết này bao gồm cách tính thuế bán hàng và các thông số tài chính được áp dụng cho hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="b2c4d-110">Chủ đề này cung cấp chi tiết về cách điều chỉnh các chi tiết kế toán này trên một đề xuất hóa đơn nháp.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="b2c4d-111">Điều chỉnh thuế bán hàng</span><span class="sxs-lookup"><span data-stu-id="b2c4d-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="b2c4d-112">Nhóm thuế bán hàng lập hóa đơn mặc định và nhóm thuế bán hàng mặt hàng có thể được điều chỉnh trực tiếp trên tài liệu đề xuất hóa đơn.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="b2c4d-113">Để điều chỉnh các nhóm này, hãy chọn **Chỉnh sửa**, sau đó, trên mỗi dòng đề xuất hóa đơn dự án, hãy nhập một giá trị mới vào trường **Nhóm thuế bán hàng** hoặc **Nhóm thuế bán hàng mặt hàng**.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="b2c4d-114">Điều chỉnh các thông số tài chính</span><span class="sxs-lookup"><span data-stu-id="b2c4d-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="b2c4d-115">Các thông số tài chính không thể được chỉnh sửa trực tiếp trên dòng đề xuất hóa đơn dự án.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="b2c4d-116">Thay vào đó, hãy làm theo các bước sau để điều chỉnh các thông số tài chính trên một đề xuất hóa đơn dự án.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="b2c4d-117">Trên đề xuất hóa đơn dự án, hãy chọn **Xóa hết** để loại bỏ các dòng đề xuất hóa đơn dự án.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b2c4d-118">Nút **Xóa hết** chỉ khả dụng sau khi quản trị viên hệ thống bật tính năng **Xóa các dòng đề xuất hóa đơn khi sử dụng Project Operations cho các tình huống dựa trên tài nguyên/không có kho** trong không gian làm việc **Quản lý tính năng**.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="b2c4d-119">Điều chỉn các thông số tài chính:</span><span class="sxs-lookup"><span data-stu-id="b2c4d-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="b2c4d-120">**Giao dịch trên tài khoản (các mốc thanh toán):** Đi đến **Tất cả các dự án** \> **Quản lý** \> **Giao dịch trên tài khoản** và chọn cột mốc cần điều chỉnh.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="b2c4d-121">Sau đó, trên tab **Thông số tài chính**, hãy cập nhật các giá trị theo yêu cầu.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="b2c4d-122">**Các giao dịch về thời gian, chi phí và vật liệu:** Trên trang **Các giao dịch dự án đã kết sổ**, chọn **Điều chỉnh kế toán** để cập nhật các thông số tài chính.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="b2c4d-123">Sau khi bạn điều chỉnh xong các giá trị thông số tài chính, hãy chuyển đến **Quản lý dự án và kế toán** \> **Định kỳ** \> **Tích hợp Project Operations** và chọn **Nhập từ bảng tách chuyển** để chạy quy trình định kỳ.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="b2c4d-124">Quy trình đó sử dụng các giá trị thông số tài chính được cập nhật để tạo lại các dòng đề xuất hóa đơn dự án.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="b2c4d-125">Sau đó, các giá trị cập nhật được sử dụng trong sổ phụ của dự án và sổ cái chung khi hóa đơn dự án được kết sổ.</span><span class="sxs-lookup"><span data-stu-id="b2c4d-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>

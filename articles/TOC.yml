@@ -28,11 +28,13 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Triển khai môi trường
           items:
+            - name: Triển khai thủ công ứng dụng Project Operations Dataverse bằng hỗ trợ ghi kép
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Cung cấp môi trường mới
               href: environment/resource-provision-new-environment.md
             - name: Mô hình bảo mật
               href: environment/security-model.md
-            - name: Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân
+            - name: Đặt cấu hình phần tích hợp Project Operations cho mỗi thực thể pháp lý
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Đặt cấu hình tích hợp ghi kép
           items:
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Tính năng mới
       items:
+        - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
@@ -282,7 +288,7 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
-            - name: Sử dụng API lịch trình (Bản xem trước công khai)
+            - name: Sử dụng API lịch trình dự án (Bản xem trước công khai)
               href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Tổng quan về quy trình lập hóa đơn
           href: invoicing/post-project-invoices.md
-        - name: Quản lý đề xuất hóa đơn dự án
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Lập hóa đơn ước giá
           items:
             - name: Quản lý tồn đọng lập hóa đơn dựa trên dự án
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Đặt cấu hình quy trình tự động tạo hóa đơn dựa trên dự án
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Quản lý đề xuất hóa đơn dự án
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Kế toán dự án
-      items:
-        - name: Giá trị mặc định cho thông số tài chính
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Đặt cấu hình thể loại dự án
-          href: project-accounting/configure-project-categories.md
-        - name: Đặt cấu hình hoạt động kế toán cho dự án nội bộ
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Nhật ký phần tích hợp trong Project Operations
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Lập hóa đơn cho khách hàng
+          items:
+            - name: Quản lý đề xuất hóa đơn dự án
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Kế toán chính xác đối với bản thảo đề xuất hóa đơn dự án
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Lập hóa đơn liên công ty
           items:
             - name: Tổng quan về lập hóa đơn liên công ty
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Kế toán dự án
+      items:
+        - name: Giá trị mặc định cho thông số tài chính
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Đặt cấu hình danh mục dự án
+          href: project-accounting/configure-project-categories.md
+        - name: Đặt cấu hình hoạt động kế toán cho dự án nội bộ
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Nhật ký phần tích hợp trong Project Operations
+          href: project-accounting/project-operations-integration-journal.md
     - name: Ghi nhận doanh thu
       items:
         - name: Tổng quan về ghi nhận doanh thu
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 7 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Tính năng mới kể từ tháng 6 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Tính năng mới kể từ tháng 5 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Tính năng mới kể từ tháng 4 năm 2021 – triển khai bản đơn giản
@@ -762,7 +774,7 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
-            - name: Sử dụng API lịch trình (Bản xem trước công khai)
+            - name: Sử dụng API lịch trình dự án (Bản xem trước công khai)
               href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Tính năng mới
       items:
+        - name: Tính năng mới kể từ tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Tính năng mới kể từ tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Tính năng mới kể từ tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
@@ -1034,6 +1050,10 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 31, V3'
