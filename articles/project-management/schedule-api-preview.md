@@ -1,19 +1,19 @@
 ---
-title: Sử dụng API lịch trình để thực hiện các hoạt động với các thực thể Lập lịch trình
-description: Chủ đề này cung cấp thông tin và mẫu để sử dụng API lịch trình.
+title: Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
+description: Chủ đề này cung cấp thông tin và các mẫu để sử dụng API lịch trình dự án.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116823"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293253"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng API lịch trình để thực hiện các hoạt động với các thực thể Lập lịch trình
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -22,9 +22,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="scheduling-entities"></a>Thực thể lập lịch trình
 
-API lịch trình cung cấp khả năng thực hiện các thao tác tạo, cập nhật và xóa với **Thực thể lập lịch trình**. Các thực thể này được quản lý thông qua công cụ Lập lịch trình trong Dự án cho web. Các thao tác tạo, cập nhật và xóa với **Thực thể lập lịch trình** đã bị hạn chế trong các bản phát hành Dynamics 365 Project Operations trước đó.
+Các API lịch trình dự án cung cấp khả năng thực hiện các hoạt động tạo, cập nhật và xóa với **Các thực thể lập lịch trình**. Các thực thể này được quản lý thông qua công cụ Lập lịch trình trong Dự án cho web. Các thao tác tạo, cập nhật và xóa với **Thực thể lập lịch trình** đã bị hạn chế trong các bản phát hành Dynamics 365 Project Operations trước đó.
 
-Bảng sau cung cấp danh sách đầy đủ các **Thực thể lập lịch trình**.
+Bảng sau cung cấp danh sách đầy đủ các thực thể lịch trình của Dự án.
 
 | Tên thực thể  | Tên logic của thực thể |
 | --- | --- |
@@ -39,19 +39,19 @@ Bảng sau cung cấp danh sách đầy đủ các **Thực thể lập lịch t
 
 OperationSet là một mẫu đơn vị công việc có thể được sử dụng khi phải xử lý một số yêu cầu tác động lên lịch trình trong một giao dịch.
 
-## <a name="schedule-apis"></a>API lịch trình
+## <a name="project-schedule-apis"></a>API lịch trình dự án
 
-Sau đây là danh sách các API lịch trình hiện tại.
+Sau đây là danh sách các API lịch trình Dự án hiện tại.
 
 - **msdyn_CreateProjectV1**: API này có thể được dùng để tạo một dự án. Nhóm dự án và dự án mặc định được tạo ngay lập tức.
 - **msdyn_CreateTeamMemberV1**: API này có thể được dùng để tạo một thành viên trong nhóm dự án. Hồ sơ thành viên trong nhóm được tạo ngay lập tức.
 - **msdyn_CreateOperationSetV1**: API này có thể được dùng để lập lịch trình một số yêu cầu phải được thực hiện trong một giao dịch.
-- **msdyn_PSSCreateV1**: API này có thể được dùng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể Lập lịch trình nào hỗ trợ thao tác tạo.
-- **msdyn_PSSUpdateV1**: API này có thể được dùng để cập nhật một thực thể. Thực thể có thể là bất kỳ thực thể Lập lịch trình nào hỗ trợ thao tác cập nhật.
-- **msdyn_PSSDeleteV1**: API này có thể được dùng để xóa một thực thể. Thực thể có thể là bất kỳ thực thể Lập lịch trình nào hỗ trợ thao tác xóa.
+- **msdyn_PSSCreateV1**: API này có thể được dùng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo.
+- **msdyn_PSSUpdateV1**: API này có thể được dùng để cập nhật một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động cập nhật.
+- **msdyn_PSSDeleteV1**: API này có thể được dùng để xóa một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động xóa.
 - **msdyn_ExecuteOperationSetV1**: API này được dùng để thực thi tất cả các thao tác trong nhóm thao tác nhất định.
 
-## <a name="using-schedule-apis-with-operationset"></a>Sử dụng API lịch trình với OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Sử dụng API lịch trình dự án với OperationSet
 
 Bởi vì bản ghi có cả **CreateProjectV1** và **CreateTeamMemberV1** được tạo ngay lập tức, nên không thể dùng các API này trực tiếp trong **OperationSet**. Tuy nhiên, bạn có thể sử dụng API để tạo các bản ghi cần thiết, tạo một **OperationSet**, sau đó sử dụng các bản ghi được tạo trước này trong **OperationSet**.
 
@@ -257,7 +257,7 @@ Các bảng sau xác định các trường bị hạn chế trong **Tạo** và
 ## <a name="limitations-and-known-issues"></a>Các giới hạn và vấn đề đã biết
 Sau đây là danh sách các giới hạn và vấn đề đã biết:
 
-- Chỉ **Người dùng có giấy phép dự án của Microsoft** là có thể sử dụng API lịch trình. Những đối tượng sau không thể sử dụng API lịch trình:
+- API lịch trình dự án chỉ có thể được sử dụng bởi **Người dùng có Giấy phép dự án của Microsoft.** Những đối tượng sau không thể sử dụng API lịch trình:
     - Người dùng ứng dụng
     - Người dùng hệ thống
     - Người dùng tích hợp
@@ -271,7 +271,7 @@ Sau đây là danh sách các giới hạn và vấn đề đã biết:
 ## <a name="error-handling"></a>Xử lý lỗi
 
    - Để xem lại các lỗi được tạo từ Bộ hoạt động, hãy chuyển đến phần **Cài đặt** \> **Tích hợp lịch biểu** \> **Bộ hoạt động**.
-   - Để xem lại các lỗi được tạo từ Dịch vụ lên lịch dự án, hãy chuyển đến phần **Cài đặt** \> **Tích hợp lịch biểu** \> **Nhật ký lỗi PSS**.
+   - Để xem lại các lỗi được tạo ra từ Dịch vụ lịch trình dự án, hãy truy cập **Cài đặt** \> **Tích hợp lịch trình** \> **Nhật ký lỗi PSS**.
 
 ## <a name="sample-scenario"></a>Kịch bản mẫu
 

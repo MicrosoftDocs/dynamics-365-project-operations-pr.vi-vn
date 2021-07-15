@@ -2,7 +2,7 @@
 title: Hiệu suất của đề xuất hóa đơn dự án
 description: Chủ đề này cung cấp thông tin về việc cải thiện hiệu suất cho các đề xuất hóa đơn của dự án.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999517"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269816"
 ---
 # <a name="project-invoice-proposal-performance"></a>Hiệu suất của đề xuất hóa đơn dự án
 
@@ -44,4 +44,6 @@ Hoàn thành các bước sau để tắt tính năng nâng cao hiệu suất đ
 3.  Làm mới trình duyệt của bạn.
 
 > [!NOTE]
-> Không thể áp dụng hiệu suất đề xuất hóa đơn khi các quy tắc thanh toán đang bật hoặc các quy trình hàng loạt đang chạy.
+> Không thể áp dụng hiệu suất đề xuất hóa đơn khi các quy tắc thanh toán được bật.
+> 
+> Trong quá trình hàng loạt để tạo đề xuất hóa đơn, số lượng nhiệm vụ phụ sẽ chia nhỏ các nhiệm vụ thành số lượng tối đa dựa trên số lượng hợp đồng có giao dịch có thể lập hóa đơn, bất kể bạn đã nhập những gì. Ví dụ: nếu bạn nhập **3** đối với số lượng nhiệm vụ phụ để tạo đề xuất hóa đơn hàng loạt và chỉ có hai hợp đồng với các giao dịch có thể lập hóa đơn, chỉ có hai nhiệm vụ phụ được tạo.

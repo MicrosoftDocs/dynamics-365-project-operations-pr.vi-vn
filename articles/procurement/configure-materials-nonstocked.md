@@ -2,17 +2,17 @@
 title: Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993937"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293073"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -59,11 +59,11 @@ Nếu đang sử dụng dữ liệu minh họa tiêu chuẩn, bạn cũng có th
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Kích hoạt quy trình làm việc để tạo tài khoản dựa trên pháp nhân nhà cung cấp
 
-Giải pháp Điều phối ghi kép cung cấp [Tích hợp tổng thể nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Là một điều kiện tiên quyết cho tính năng này, dữ liệu nhà cung cấp phải được tạo trong thực thể **Tài khoản**. Kích hoạt quy trình làm việc mẫu để tạo nhà cung cấp trong bảng **Tài khoản** như được mô tả trong [Chuyển đổi giữa các thiết kế của nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Giải pháp Điều phối ghi kép cung cấp [Tích hợp tổng thể nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Là một điều kiện tiên quyết cho tính năng này, dữ liệu nhà cung cấp phải được tạo trong thực thể **Tài khoản**. Kích hoạt quy trình làm việc mẫu để tạo nhà cung cấp trong bảng **Tài khoản** như được mô tả trong [Chuyển đổi giữa các thiết kế của nhà cung cấp](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Đặt các sản phẩm được tạo thành hiện hoạt
 
-Vật tư không tồn kho phải được đặt cấu hình như **Sản phẩm đã phát hành** trong Tài chính. Giải pháp Điều phối ghi kép cung cấp một tính năng vượt trội giúp [Tích hợp sản phẩm đã phát hành vào Danh mục sản phẩm Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Theo mặc định, các sản phẩm từ Tài chính được đồng bộ hóa với Dataverse ở trạng thái bản nháp. Để đồng bộ hóa sản phẩm sang trạng thái hiện hoạt nhằm có thể sử dụng trực tiếp sản phẩm trong tài liệu sử dụng vật tư hoặc hóa đơn của nhà cung cấp đang chờ xử lý, hãy chuyển đến **Hệ thống** > **Quản trị** > **Quản trị hệ thống** > **Cài đặt hệ thống** và trên tab **Bán hàng**, hãy đặt **Tạo sản phẩm ở trạng thái hiện hoạt** thành **Có**.
+Vật tư không tồn kho phải được đặt cấu hình như **Sản phẩm đã phát hành** trong Tài chính. Giải pháp Điều phối ghi kép cung cấp một tính năng vượt trội giúp [Tích hợp sản phẩm đã phát hành vào Danh mục sản phẩm Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Theo mặc định, các sản phẩm từ Tài chính được đồng bộ hóa với Dataverse ở trạng thái bản nháp. Để đồng bộ hóa sản phẩm sang trạng thái hiện hoạt nhằm có thể sử dụng trực tiếp sản phẩm trong tài liệu sử dụng vật tư hoặc hóa đơn của nhà cung cấp đang chờ xử lý, hãy chuyển đến **Hệ thống** > **Quản trị** > **Quản trị hệ thống** > **Cài đặt hệ thống** và trên tab **Bán hàng**, hãy đặt **Tạo sản phẩm ở trạng thái hiện hoạt** thành **Có**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Đặt cấu hình các điều kiện tiên quyết trong Tài chính
 
@@ -88,7 +88,7 @@ Trong Project Operations, bạn có thể ghi lại các ước tính và hoạt
 2. Trong trường **Loại sản phẩm**, hãy chọn **Hạng mục** và trong trường **Loại phụ của sản phẩm**, chọn **Sản phẩm**.
 3. Nhập số sản phẩm (WRITEIN) và tên sản phẩm (Sản phẩm chọn thêm).
 4. Chọn nhóm mô hình hạng mục. Đảm bảo rằng nhóm mô hình hạng mục mà bạn chọn có trường **Sản phẩm tồn kho theo chính sách lưu kho** được đặt thành **Sai**.
-5. Chọn các giá trị trong **Nhóm hạng mục**, **Nhóm kích thước lưu trữ** và trường **Theo dõi nhóm kích thước**. Chỉ sử dụng **Kích thước lưu trữ** cho **Trang web** và không đặt bất kỳ kích thước theo dõi nào.
+5. Chọn các giá trị trong **Nhóm hạng mục**, **Nhóm kích thước lưu trữ** và trường **Theo dõi nhóm kích thước**. Chỉ sử dụng **Thông số lưu trữ** cho **Trang web** và trong trường **Thông số theo dõi**, chọn **Không có**.
 6. Chọn các giá trị trong **Đơn vị hàng tồn kho**, **Đơn vị mua hàng** và trường **Đơn vị bán hàng** rồi lưu các thay đổi của bạn.
 7. Trong tab **Kế hoạch**, đặt các cài đặt đơn hàng thành mặc định và trên tab **Hàng tồn kho**, đặt trang web và kho hàng thành mặc định.
 8. Chuyển đến **Quản lý dự án và kế toán** > **Thiết lập** > **Quản lý dự án và các thông số kế toán** rồi mở **Project Operations trên Dynamics 365 Dataverse**. 

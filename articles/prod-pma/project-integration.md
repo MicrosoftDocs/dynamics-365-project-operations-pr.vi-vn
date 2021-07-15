@@ -2,7 +2,7 @@
 title: Tích hợp Microsoft Project Client
 description: Việc lập kế hoạch và duy trì lịch trình dự án có thể phức tạp, vì vậy người quản lý dự án cần sử dụng các công cụ giúp họ quản lý công việc này. Tích hợp với Microsoft Project Client cung cấp sự hỗ trợ để mở và quản lý cấu trúc phân tích công việc của dự án.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999472"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269861"
 ---
 # <a name="microsoft-project-client-integration"></a>Tích hợp Microsoft Project Client
 
@@ -126,5 +126,12 @@ Dữ liệu sau đây sẽ được đồng bộ hóa trở lại Finance như m
 
 11. Bấm **OK**.
 
+> [!NOTE]
+> Phần bổ trợ Máy khách dự án không hỗ trợ các ký tự sau ở định dạng ID dự án:
+> 
+>   - Dấu gạch dưới
+>   - Dấu chấm
+>   - Dấu cách
+>   - Dấu sổ chéo
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
