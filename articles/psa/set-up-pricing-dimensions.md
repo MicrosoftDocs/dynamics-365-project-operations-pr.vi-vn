@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002357"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá 
 
@@ -41,11 +41,11 @@ Chủ đề này cung cấp thông tin về cách thiết lập thông số đ�
 - Được tạo dưới dạng trường trong các thực thể **Giá theo vai trò** và **Tăng Giá theo vai trò**. Để biết thêm thông tin về cách thực hiện, hãy xem phần [Thêm trường tùy chỉnh vào các thực thể giao dịch và thiết lập giá](field-references.md).
 - Tạo dưới dạng hàng trong bảng **Thông số định giá**. Ví dụ: thêm các hàng thông số định giá như hiển thị trong đồ thị sau. 
 
-![Hàng thông số định giá dựa trên số tiền](media/Amt-based-PD.png)
+![Hàng thông số định giá dựa trên số tiền.](media/Amt-based-PD.png)
 
 Lưu ý rằng số giờ Làm việc của nguồn lực (**msdyn_resourceworkhours**) đã được thêm vào dưới dạng thông số dựa trên mức tăng và đã được thêm vào lưới trên tab **Thông số định giá dựa trên mức tăng**.
 
-![Hàng thông số định giá dựa trên mức tăng](media/Markup-based-PD.png)
+![Hàng thông số định giá dựa trên mức tăng.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Mọi thay đổi với dữ liệu thông số định giá trong bảng này, dù là hiện có hay mới, chỉ được truyền đến logic kinh doanh định giá Project Service sau khi làm mới bộ đệm ẩn. Thời gian làm mới bộ đệm ẩn có thể mất đến 10 phút. Cho phép khoảng thời gian đó để xem các thay đổi trong logic giá mặc định phải bắt nguồn từ những thay đổi với dữ liệu Thông số định giá.

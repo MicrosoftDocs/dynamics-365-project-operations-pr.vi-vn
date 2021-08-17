@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008252"
 ---
 # <a name="resource-management-modes-overview"></a>Tổng quan về chế độ quản lý nguồn lực
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations hỗ trợ 2 chế độ để bạn thực hi�
 ## <a name="central-mode"></a>Chế độ trung tâm
 Đối với các tổ chức tập trung phân bổ nguồn lực cho các dự án, Chế độ trung tâm cung cấp cách thức để đảm bảo Người quản lý dự án có thể xác định các yêu cầu về nguồn lực ở cấp độ dự án. Việc thực hiện các yêu cầu về nguồn lực được giao cho Người quản lý nguồn lực. Người quản lý dự án có thể chấp nhận hoặc từ chối các nguồn lực do Người quản lý nguồn lực đề xuất.
 
-![Chế độ trung tâm](./media/resource-management-central.png)
+![Chế độ trung tâm.](./media/resource-management-central.png)
 
 Để quản lý nguồn lực bằng Chế độ trung tâm, hãy xem:
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations hỗ trợ 2 chế độ để bạn thực hi�
 ## <a name="hybrid-mode"></a>Chế độ kết hợp
 Đối với các tổ chức yêu cầu sự linh hoạt trong việc phân bổ nguồn lực, chế độ kết hợp cho phép cả Người quản lý dự án và Người quản lý nguồn lực có khả năng đặt trước nguồn lực.
 
-![Chế độ kết hợp](./media/resource-management-hybrid.png)
+![Chế độ kết hợp.](./media/resource-management-hybrid.png)
 
 Ngoài quy trình ở Chế độ trung tâm được hỗ trợ, hãy xem các chủ đề sau để quản lý tất cả các quy trình đặt trước được hỗ trợ khác trong Chế độ kết hợp:
 

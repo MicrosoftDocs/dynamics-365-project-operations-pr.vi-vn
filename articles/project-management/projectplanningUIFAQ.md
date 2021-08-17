@@ -2,17 +2,17 @@
 title: Khắc phục sự cố khi làm việc trong lưới Tác vụ
 description: Chủ đề này cung cấp thông tin khắc phục sự cố cần thiết khi làm việc trong lưới Tác vụ.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213426"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989127"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Khắc phục sự cố khi làm việc trong lưới Tác vụ 
 
@@ -24,7 +24,7 @@ Chủ đề này mô tả cách khắc phục các vấn đề bạn có thể g
 
 Project Operations yêu cầu bật cookie của bên thứ ba để kết xuất cấu trúc phân tích công việc. Khi cookie của bên thứ ba không được bật, thay vì thấy các nhiệm vụ, bạn sẽ thấy trang trống khi chọn tab **Nhiệm vụ** trên trang **Dự án**.
 
-![Tab trống khi cookie của bên thứ ba không được bật](media/blankschedule.png)
+![Tab trống khi cookie của bên thứ ba không được bật.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Giải pháp thay thế
@@ -52,11 +52,22 @@ Project Operations yêu cầu bật cookie của bên thứ ba để kết xuấ
 Project Operations yêu cầu tham số dự án tham chiếu đến Điểm cuối PEX. Điểm cuối này phải giao tiếp được với dịch vụ được sử dụng để kết xuất cấu trúc phân tích công việc. Nếu tham số không được bật, bạn sẽ nhận được lỗi "Tham số dự án không hợp lệ". 
 
 ### <a name="workaround"></a>Giải pháp thay thế
- ![Trường Điểm cuối PEX trên tham số dự án](media/projectparameter.png)
 
 1. Thêm trường **Điểm cuối PEX** vào trang **Tham số dự án**.
-2. Cập nhật trường này với giá trị sau: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Xóa trường khỏi trang **Tham số dự án**.
+2. Xác định loại sản phẩm mà bạn đang sử dụng. Giá trị này được sử dụng khi PEX Endpoint được đặt. Khi truy xuất, loại sản phẩm đã được xác định trong PEX Endpoint. Giữ nguyên giá trị đó. 
+   
+    ![Trường Điểm cuối PEX trên tham số dự án.](media/pex-endpoint.png)
+
+3. Cập nhật trường này với giá trị sau: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Loại sản phẩm                         | Nhập tham số |
+   |--------------------------------------|----------------|
+   | Project for the Web trên tổ chức mặc định   | loại=0         |
+   | Project for the Web trên tổ chức do CDS đặt tên | loại=1         |
+   | Project Operations                   | loại=2         |
+   
+4. Xóa trường khỏi trang **Tham số dự án**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Đặc quyền cho Dự án cho Web
 
@@ -67,7 +78,7 @@ Project Operations dựa vào một dịch vụ lập lịch bên ngoài. Dịch
 
 1. Đi đến **Cài đặt > Bảo mật > Người dùng > Người dùng ứng dụng**.  
 
-   ![Trình đọc ứng dụng](media/applicationuser.jpg)
+   ![Trình đọc ứng dụng.](media/applicationuser.jpg)
    
 2. Nhấp đúp vào hồ sơ người dùng ứng dụng để xác minh những nội dung sau:
 
@@ -76,7 +87,7 @@ Project Operations dựa vào một dịch vụ lập lịch bên ngoài. Dịch
  
 3. Nếu người dùng này chưa tồn tại, bạn có thể tạo bản ghi người dùng mới. Chọn **Người dùng mới**. Thay đổi biểu mẫu nhập thành **Người dùng Ứng dụng**, sau đó thêm **ID ứng dụng**.
 
-   ![Chi tiết người dùng ứng dụng](media/applicationuserdetails.jpg)
+   ![Chi tiết người dùng ứng dụng.](media/applicationuserdetails.jpg)
 
 4. Xác minh rằng người dùng đã được gán đúng giấy phép và dịch vụ được bật trong chi tiết gói dịch vụ của giấy phép.
 5. Xác minh rằng người dùng có thể mở project.microsoft.com.

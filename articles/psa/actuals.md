@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992502"
 ---
 # <a name="actuals-overview"></a>Tổng quan về giá trị thực tế
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368187"
 
 Thực tế là lượng công việc đã hoàn thành trên một dự án. Có thể truy nguyên thực tế dự án theo tài liệu nguồn. Các tài liệu nguồn đó bao gồm mục nhập thời gian, chi phí và nhật ký cũng như hóa đơn.
 
-![Cách truy nguyên thực tế dự án theo tài liệu nguồn](media/basic-guide-18.png)
+![Cách truy nguyên thực tế dự án theo tài liệu nguồn.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Gửi mục nhập thời gian
 

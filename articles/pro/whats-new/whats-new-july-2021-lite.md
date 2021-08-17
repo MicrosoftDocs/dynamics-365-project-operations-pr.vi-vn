@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433679"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009242"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Thông tin mới trong tháng 7 năm 2021 - Triển khai bản đơn giản Project Operations
 
@@ -20,7 +20,7 @@ _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến l�
 
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-  - Project Operations trên môi trường Dataverse phiên bản 4.12.0.148.
+  - Project Operations trên môi trường Dataverse phiên bản 4.12.0.148 hoặc 4.12.0.152.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 | **Lĩnh vực tính năng**              | **Số tham chiếu** | **Cập nhật chất lượng**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | Chung                       | 2296857              | Theo dõi tiến độ cho các công việc đang chạy trong thời gian dài.                                                                                                                                                                        |
 | Chung                       | 2253682              | Không nên cài đặt giải pháp ghi kép Project Operations khi lõi ghi kép được cài đặt trong môi trường không có giải pháp điều phối ghi kép.                                                |
 | Chung                       | 2316420              | Việc cung cấp dịch vụ dự án cốt lõi không thành công nếu đơn vị kinh doanh của người dùng ứng dụng bị thay đổi.                                                                                                                     |
+| Chung                       | 2376405              | Đã khắc phục sự cố cập nhật theo nhà xuất bản (Bản cập nhật chất lượng có sẵn trong phiên bản 4.12.0.152)                                                                                                                     |

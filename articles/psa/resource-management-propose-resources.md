@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997987"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995067"
 ---
 # <a name="propose-project-resources"></a>Đề xuất nguồn lực dự án
 
@@ -32,21 +32,21 @@ Người quản lý nguồn lực có thể đề xuất nguồn lực với ng�
 1. Từ lưới yêu cầu hoặc tự yêu cầu, hãy chọn **Tìm nguồn lực**.
 2. Trên trang **Trợ lý lập lịch biểu**, hãy chọn nguồn lực, sau đó trong ngăn **Tạo đăng ký nguồn lực**, trong trường **Trạng thái đăng ký**, hãy chọn **Đăng ký**.
 
-    ![Nguồn lực được đề xuất đã chọn](media/Resource-Management-image62.png)
+    ![Nguồn lực được đề xuất đã chọn.](media/Resource-Management-image62.png)
 
 Các bản cập nhật trạng thái sau xảy ra:
 
 - Trên trang **Trợ lý lập lịch biểu**, chỉ báo trạng thái được cập nhật để biểu thị đăng ký được đề xuất và không được đăng ký chắc chắn.
 
-    ![Chỉ báo trạng thái cho đăng ký đề xuất trên trang Trợ lý lập lịch biểu](media/Resource-Management-image63.png)
+    ![Chỉ báo trạng thái cho đăng ký đề xuất trên trang Trợ lý lập lịch biểu.](media/Resource-Management-image63.png)
 
 - Trên yêu cầu nguồn lực, trạng thái này được thay đổi thành **Cần đánh giá**.
 
-    ![Trạng thái yêu cầu nguồn lực được thay đổi thành Cần đánh giá](media/Resource-Management-image64.png)
+    ![Trạng thái yêu cầu nguồn lực được thay đổi thành Cần đánh giá.](media/Resource-Management-image64.png)
 
 - Trên tab **Nhóm** của dự án này, giá trị **Trạng thái yêu cầu** của thành viên nhóm chung được thay đổi thành **Cần đánh giá**.
 
-    ![Trạng thái yêu cầu của thành viên nhóm chung được thay đổi thành Cần đánh giá trên tab Nhóm](media/Resource-Management-image48.png)
+    ![Trạng thái yêu cầu của thành viên nhóm chung được thay đổi thành Cần đánh giá trên tab Nhóm.](media/Resource-Management-image48.png)
 
 Người quản lý dự án có thể chấp nhận hoặc từ chối đề xuất.
 
@@ -70,7 +70,7 @@ Công thức sau dùng để tính toán thời gian làm việc:
 
 Bạn có thể tìm thấy dạng xem **Thời gian làm việc của nguồn lực** trong ngăn **Nguồn lực**.
 
-![Dạng xem thời gian làm việc của nguồn lực](media/Resource-Management-image65.png)
+![Xem thời gian làm việc của nguồn lực.](media/Resource-Management-image65.png)
 
 Mỗi ô trong lưới đại diện cho phần trăm thời gian làm việc tính phí của nguồn lực trong một khoảng thời gian, chẳng hạn như ngày, tuần hoặc tháng. Công thức sau dùng để tô màu các ô:
 
@@ -84,7 +84,7 @@ Lưới yêu cầu rằng bạn đặt thời gian làm việc mục tiêu trên
 
 Ngoài ra, vai trò mặc định phải được gán cho từng nguồn lực có thể đăng ký. Truy cập vào **Nguồn lực** \> **Nguồn lực**. Trên tab **Project Service**, hãy xác minh vai trò nguồn lực được định nghĩa và trường **Là mặc định** cho vai trò được đặt thành **Có**. Bạn có thể thêm các vai trò bổ sung mà **Là mặc định = Không**. Vai trò mà **Là mặc định = Có** dùng để đánh giá thời gian làm việc của nguồn lực so với mục tiêu cho vai trò đó.
 
-![Vai trò mặc định đã đặt](media/Resource-Management-image67.png)
+![Vai trò mặc định đã đặt.](media/Resource-Management-image67.png)
 
 Trên tab **Project Service**, bạn cũng có thể đặt thời gian làm việc mục tiêu riêng cho nguồn lực. Sau đó, phép tính thời gian làm việc dùng thời gian làm việc mục tiêu đó để đánh giá mục tiêu của nguồn lực thay vì mục tiêu của vai trò mặc định của nguồn lực.
 
@@ -96,21 +96,21 @@ Thời gian làm việc hiển thị cho nguồn lực chỉ khi nguồn lực �
 
 Giờ làm việc của nguồn lực dùng làm cơ sở để tính toán trạng thái rảnh/bận của nguồn lực. Đăng ký nguồn lực tiêu thụ năng lực của nguồn lực.
 
-![Bảng thông tin lịch trình](media/Resource-Management-image68.png)
+![Bảng lịch trình.](media/Resource-Management-image68.png)
 
 Bảng lịch trình dùng màu và bóng để hiển thị đăng ký, trạng thái rảnh/bận, đăng ký quá mức và trạng thái của đăng ký. Cài đặt trong cài đặt Bảng lịch trình cho phép bạn hiển thị chú thích.
 
 Nếu một mũi tên trỏ sang phải xuất hiện bên cạnh nguồn lực riêng có thể đăng ký trên Bảng lịch trình, thì nguồn lực có thể được mở rộng để hiển thị chi tiết của công việc mà nguồn lực được đăng ký.
 
-![Nguồn lực có thể đăng ký được mở rộng trên Bảng lịch trình](media/Resource-Management-image69.png)
+![Nguồn lực có thể đăng ký được mở rộng trên Bảng lịch trình.](media/Resource-Management-image69.png)
 
 Vì Dynamics 365 Project Service Automation dùng công cụ Universal Resource Scheduling, nếu bạn cũng có Dynamics 365 Field Service được cài đặt, bạn có thể xem chi tiết của đăng ký nguồn lực cho dự án, lệnh sản xuất và mọi thực thể khác mà bạn đã mở rộng lập lịch đến.
 
-![Chi tiết đăng ký nguồn lực cho dự án và lệnh sản xuất](media/Resource-Management-image70.png)
+![Chi tiết đăng ký nguồn lực cho dự án và lệnh sản xuất.](media/Resource-Management-image70.png)
 
 Để xem thêm chi tiết về nguồn lực riêng, hãy bấm chuột phải để mở thẻ nguồn lực.
 
-![Thẻ nguồn lực](media/Resource-Management-image71.png)
+![Thẻ nguồn lực.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

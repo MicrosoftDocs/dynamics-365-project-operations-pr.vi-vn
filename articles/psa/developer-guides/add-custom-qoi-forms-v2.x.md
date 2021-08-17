@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008022"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995247"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Thêm biểu mẫu thực thể tuỳ chỉnh mới (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Hãy làm theo các bước sau để tạo phiên bản tùy chỉnh của bi�
     - Xuất biểu mẫu **Thông tin dự án của tôi** dưới dạng giải pháp không được quản lý, sau đó tra cứu giá trị **formId** trong tệp customization.xml của giải pháp xuất.
     - Mở biểu mẫu **Thông tin dự án của tôi** trong công cụ biên tập biểu mẫu, sau đó tìm mã định danh duy nhất (GUID) bên cạnh thông số **fromId** trong URL như hiển thị trong hình minh họa sau đây.
 
-    ![Giá trị formId của biểu mẫu mới trong URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Giá trị formId của biểu mẫu mới trong URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Tạo một ánh xạ **msdyn\_ordertype** cho giá trị **formId** bằng cách chỉnh sửa tài nguyên web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Loại bỏ mã khỏi nguồn, thay bằng mã sau đây.
 

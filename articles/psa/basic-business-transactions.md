@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987552"
 ---
 # <a name="business-transactions"></a>Giao dịch kinh doanh
 
@@ -88,7 +88,7 @@ Các thực thể nguồn gốc giao dịch và kết nối giao dịch kết h�
 
 Ví dụ sau đây trình bày hoạt động xử lý thông thường các mục nhập thời gian trong vòng đời dự án PSA.
 
-> ![Xử lý mục nhập thời gian trong vòng đời Project Service](media/basic-guide-17.png)
+> ![Xử lý mục nhập thời gian trong vòng đời Project Service.](media/basic-guide-17.png)
  
 1. Gửi một mục nhập thời gian sẽ tạo ra hai dòng nhật ký kế toán: một cho chi phí và một cho doanh số chưa lập hóa đơn.
 2. Việc phê duyệt mục nhập thời gian sẽ tạo ra hai thực tế: một cho chi phí và một cho doanh số chưa lập hóa đơn.

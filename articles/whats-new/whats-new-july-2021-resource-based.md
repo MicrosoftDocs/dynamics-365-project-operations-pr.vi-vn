@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008072"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433544"
 
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-   - Project Operations trong môi trường Microsoft Dataverse phiên bản 4.12.0.148.
+   - Project Operations trong môi trường Microsoft Dataverse phiên bản 4.12.0.148 hoặc 4.12.0.152.
    - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
@@ -79,7 +79,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Chung                       | 2296857              | Theo dõi tiến độ cho các công việc đang chạy trong thời gian dài.                                                                                                                                                                        |
 | Chung                       | 2253682              | Không nên cài đặt giải pháp ghi kép Project Operations khi lõi ghi kép được cài đặt trong môi trường không có giải pháp điều phối ghi kép.                                                |
 | Chung                       | 2316420              | Việc cung cấp dịch vụ dự án cốt lõi không thành công nếu đơn vị kinh doanh của người dùng ứng dụng bị thay đổi.                                                                                                                     |
-
+| Chung                       | 2376405              | Đã khắc phục sự cố cập nhật theo nhà xuất bản (Bản cập nhật chất lượng có sẵn trong phiên bản 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
 
 | Lĩnh vực tính năng                      | Số tham chiếu | Cập nhật chất lượng                                                                                                                                                                                                                                                                                                                |

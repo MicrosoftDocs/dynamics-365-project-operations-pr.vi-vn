@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985167"
 ---
 # <a name="manage-resource-requests-project-service"></a>Quản lý yêu cầu nguồn lực (Project Service)
 
@@ -43,7 +43,7 @@ Những người quản lý khách hàng và người quản lý dự án thư�
   
    -   Nhấp vào **Bộ lọc** để hiển thị ngăn **Bộ lọc**, cho phép bạn lọc kết quả theo đơn vị tổ chức, vai trò, kỹ năng hoặc các thuộc tính khác.  
   
-       ![Màn hình Yêu cầu tài nguyên Project Service](../psa/media/project-service-resource-request-screen.png "Màn hình Yêu cầu tài nguyên Project Service")  
+       ![Màn hình Yêu cầu tài nguyên Project Service.](../psa/media/project-service-resource-request-screen.png "Màn hình Yêu cầu tài nguyên Project Service")  
   
 3. Trong lịch cho nguồn lực mà bạn muốn đăng ký, chọn khoảng thời gian đăng ký nguồn lực, sau đó bấm vào **Đăng ký** để đăng ký nguồn lực hoặc **Đề xuất đăng ký** để đề xuất đăng ký và yêu cầu người yêu cầu phê duyệt. Khi đăng ký nguồn lực, bạn có thể đăng ký mềm hoặc đăng ký cứng.  
   

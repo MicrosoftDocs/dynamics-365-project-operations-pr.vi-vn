@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005777"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android
 
@@ -153,13 +153,13 @@ Thuộc tính này kiểm soát thứ tự hiển thị các trường tùy ch�
 
 Dưới đây là ảnh chụp màn hình tạo mục nhập bảng chấm công trên ứng dụng dành cho thiết bị di động. Trong hình có các trường sẵn dùng và một trường tùy chỉnh ở phần "Mục nhập thời gian" gọi là "Chuỗi thử nghiệm", với giá trị enum đặt sẵn là "Tùy chọn thứ hai".
 
-![Trường tùy chỉnh chuỗi thử nghiệm trong ứng dụng](media/timesheet-entry.jpg)
+![Trường tùy chỉnh chuỗi thử nghiệm trong ứng dụng.](media/timesheet-entry.jpg)
 
 
 
 Dưới đây là ảnh chụp màn hình người dùng chọn một trong các tùy chọn enum có sẵn cho trường tùy chỉnh "Chuỗi thử nghiệm" trên ứng dụng dành cho thiết bị di động.  Hai tùy chọn "Tùy chọn đầu tiên" và "Tùy chọn thứ hai" được hiển thị dưới dạng nút radio. Tùy chọn thứ hai hiện được chọn.
 
-![Các nút tùy chọn (nút radio) cho trường tùy chỉnh Chuỗi thử nghiệm](media/enum-option.jpg)
+![Các nút tùy chọn (nút radio) cho trường tùy chỉnh Chuỗi thử nghiệm.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Lưu ý rằng trường tùy chỉnh không nhất thiết phải có bất k�
 
 Dưới đây là ảnh chụp màn hình Cây đối tượng ứng dụng trên Visual Studio. Ảnh hiển thị phần mở rộng bảng TSTimesheetLine với trường TestLineString được thêm vào làm trường tùy chỉnh.
 
-![Chuỗi dòng](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Chuỗi dòng.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Sử dụng chuỗi lệnh trên phương pháp buildCustomFieldList của lớp TSTimesheetSettings để hiển thị trường trong phần mục nhập bảng chấm công
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Dưới đây là ảnh chụp màn hình người dùng xem bảng chấm công trên ứng dụng dành cho thiết bị di động. Nút "Thêm thông tin" được chọn ở góc trên bên phải để hiển thị tùy chọn "Xem thêm chi tiết".  
 
-![Lệnh xem thêm chi tiết](media/show-more.png)
+![Lệnh xem thêm chi tiết.](media/show-more.png)
 
 Dưới đây là ảnh chụp màn hình hiển thị phần "Thêm" của bảng chấm công trên ứng dụng dành cho thiết bị di động. Một trường tùy chỉnh gọi là "Tỷ lệ thời gian làm việc trong bảng chấm công này (trường tùy chỉnh được tính toán)" đã được thêm vào phần thông tin cơ bản về bảng chấm công. Giá trị chỉ đọc "0,667" được đặt trên trường tùy chỉnh.
 
-![Phần Thêm](media/more-section.jpg)
+![Phần Thêm.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Mở rộng bảng TSTimesheetTable để bảng có trường tùy chỉnh
 
@@ -414,7 +414,7 @@ Logic hiện có cho chức năng bảng chấm công ở cấp cơ sở dữ li
 
 Từ các tham số dự án, bạn có thể đặt các trường sẵn dùng thành chỉ đọc hoặc ẩn trong ứng dụng dành cho thiết bị di động. Thiết lập các tùy chọn trong phần **Bảng chấm công trên thiết bị di động** trên tab **Bảng chấm công** của trang **Tham số quản lý dự án và số kế toán**.
 
-![Tham số dự án](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Tham số dự án.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Thay đổi các hoạt động có thể lựa chọn thông qua phần mở rộng
 

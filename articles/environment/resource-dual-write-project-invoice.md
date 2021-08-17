@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993267"
 ---
 # <a name="project-invoice-integration"></a>Tích hợp hóa đơn của dự án
 
@@ -20,7 +20,7 @@ Chủ đề này cung cấp thông tin về tích hợp ghi kép của Project O
 
 Trong Project Operations, Người quản lý dự án quản lý tồn đọng thanh toán của dự án và tạo hóa đơn ước giá cho khách hàng trong Microsoft Dataverse. Dựa trên hóa đơn ước giá này, nhân viên Kế toán khoản phải thu hoặc Kế toán viên của dự án lập hóa đơn giao cho khách hàng. Tích hợp ghi kép đảm bảo rằng các chi tiết hóa đơn ước giá được đồng bộ hóa với ứng dụng Finance and Operations. Sau khi hóa đơn giao cho khách hàng được đăng, hệ thống sẽ cập nhật các giá trị thực tế dự án có liên quan trong Dataverse với chi tiết kế toán. Hình ảnh dưới đây cung cấp tổng quan khái niệm cấp cao về quá trình tích hợp này.
 
-   ![Tích hợp hóa đơn của dự án](./media/DW5Invoicing.png)
+   ![Tích hợp hóa đơn của dự án.](./media/DW5Invoicing.png)
 
 Sau khi Người quản lý dự án xác nhận hóa đơn ước giá trong Dataverse, thông tin tiêu đề hóa đơn ước giá đồng bộ hóa với ứng dụng Finance and Operations bằng bản đồ bảng ghi kép **Đề xuất hóa đơn dự án V2 (hóa đơn)**. Đây là tích hợp một chiều từ Dataverse đến ứng dụng Finance and Operations. Tạo hoặc xóa các đề xuất hóa đơn Dự án trực tiếp trong ứng dụng Finance and Operations không được hỗ trợ.
 

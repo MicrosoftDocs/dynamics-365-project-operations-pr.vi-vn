@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee6fda5da83e4cb3c4910af49c33243f39fc73d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000287"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation là gì?
 
@@ -79,10 +79,10 @@ Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai?
 
  [Bạch thư (phiên bản ứng dụng 2.x hoặc 1.x)](../psa/white-papers.md)
 
- [Ghi chú dành cho nhà phát triển (phiên bản ứng dụng 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Ghi chú dành cho nhà phát triển (ứng dụng phiên bản 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Xem video tổng quan 2 phút
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

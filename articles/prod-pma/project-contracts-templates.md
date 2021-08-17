@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999832"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001097"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance 
 
@@ -42,7 +42,7 @@ Giải pháp tích hợp Project Service Automation sang Finance sử dụng tí
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Mẫu và nhiệm vụ
 
@@ -140,17 +140,17 @@ Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sa
 
 Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 
-[![Ánh xạ mẫu hợp đồng dự án](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Ánh xạ mẫu hợp đồng dự án.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Ánh xạ mẫu dự án](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Ánh xạ mẫu dự án.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Ánh xạ mẫu mô tả hợp đồng dự án](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Ánh xạ mẫu mô tả hợp đồng dự án.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Ánh xạ mẫu mốc thời gian mô tả hợp đồng dự án](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Ánh xạ mẫu mốc thời gian mô tả hợp đồng dự án.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Ánh xạ mốc thời gian mô tả hợp đồng dự án trong Dự án và Hợp đồng (PSA 3.x sang Dynamics) - mẫu v2:
 
-[![Ánh xạ mốc thời gian mô tả hợp đồng dự án với phiên bản 2 mẫu](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Ánh xạ mốc thời gian mô tả hợp đồng dự án với phiên bản 2 mẫu.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

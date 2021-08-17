@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012342"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995292"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Tạo giải pháp tùy chỉnh cho thông số định giá
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012342"
 1. Chọn **Cài đặt** > **Giải pháp** rồi chọn **Mới**. 
 2. Đặt tên giải pháp, **\<your organization name> kích thước giá**, nhập thông tin yêu cầu còn lại, sau đó chọn **Lưu**.
 
-> ![Tạo giải pháp tùy chỉnh cho kích thước giá](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Tạo giải pháp tùy chỉnh cho kích thước giá.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Thêm tất cả các thực thể cần thiết và các thành phần liên quan vào giải pháp Thông số định giá
 Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải pháp giá của bạn. Hoàn thành các bước trong quy trình này để thực hiện một số thay đổi sơ đồ quan trọng trong giải pháp giá để các thực thể trở thành kích thước giá mới.
@@ -54,7 +54,7 @@ Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải p
 - Giá Vai trò 
 - Mục nhập Thời gian 
 
-> ![Thêm các thực thể hiện có vào giải pháp kích thước giá](media/Existing-entities-to-PD-solution.png)
+> ![Thêm các thực thể hiện có vào giải pháp kích thước giá.](media/Existing-entities-to-PD-solution.png)
 
 > ![Chọn thành phần giải pháp.](media/Dimension-Components.png)
 
@@ -63,7 +63,7 @@ Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải p
 
 4. Khi được nhắc đưa vào tất cả các thực thể phụ thuộc cho các thực thể đã chọn, hãy chọn **Không**.
 
-> ![Không bao gồm tất cả thành phần liên quan](media/Do-not-include-required.png)
+> ![Không bao gồm tất cả thành phần liên quan.](media/Do-not-include-required.png)
 
 
 

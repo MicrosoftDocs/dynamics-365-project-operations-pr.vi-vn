@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014232"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000557"
 ---
 # <a name="sales-processes"></a>Quy trình bán hàng
 
@@ -39,7 +39,7 @@ Quy trình bán hàng được sử dụng trong tổ chức dựa trên dự á
 
 Hình minh họa sau hiển thị quy trình bán hàng thông thường trong tổ chức dựa trên dự án.
 
-> ![Quá trình bán hàng trong một tổ chức dựa trên dự án](media/basic-guide-1.png)
+> ![Quá trình bán hàng trong một tổ chức dựa trên dự án.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Ước tính bán hàng
 Giá trị của một giao dịch bán hàng có thể được ước tính dựa trên các dự án trước đây đã được cung cấp và sự phức tạp của các dự án. Đối với dự án có liên quan đến phần mở rộng cho các dự án trước đó hoặc các dự án đòi hỏi nhà cung cấp có chuyên môn cao, cần sử dụng mẫu công việc nổi tiếng, thì bạn có thể sử dụng một quy trình ước tính đơn giản hơn. Các dự án phức tạp hơn thường có một quy trình mua hàng lâu hơn. Do đó, có nhiều giai đoạn hơn trong quá trình ước tính bán hàng. Vào đầu quy trình, đội ngũ bán hàng sử dụng thông tin của người quản lý tài khoản và chuyên gia vấn đề (SME) để bắt đầu tạo một ước tính cấp cao cho từng thành phần riêng biệt của công việc được báo giá. Các thành phần này của công việc được đại diện bởi các dòng báo giá. 
@@ -50,7 +50,7 @@ Bạn có thể tạo nhiều báo giá cho một dự án và nhóm chúng theo
 
 Bạn cũng có thể tạo báo giá thay thế theo một loại thực thể cơ hội hoặc thiết lập hệ thống để hợp đồng dự án được tạo khi giành được báo giá. Trong trường hợp này, bạn có thể đính kèm một tài liệu Word đại diện cho SOW vào bản ghi hợp đồng dự án.
 
-![Đóng báo giá để tạo hợp đồng dự án](media/basic-guide-2.png)
+![Đóng báo giá để tạo hợp đồng dự án.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Đặt cấu hình quy trình bán hàng
 Bạn có thể sử dụng dòng quy trình công việc (BPF) trong Microsoft Dynamics 365 để đặt cấu hình quy trình bán hàng của bạn. BPF cung cấp cho nhân viên bán hàng của bạn một giao diện trực quan có hướng dẫn mà họ có thể dùng để tiếp tục di chuyển giao dịch qua các giai đoạn thông thường với công ty của bạn.
@@ -66,7 +66,7 @@ Ví dụ: công ty của bạn có thể có sáu giai đoạn sau trong quá tr
 
 Sáu giai đoạn này được ký hiệu bằng nút hình V (\>) mà bạn chọn để mở rộng trong mỗi loại thực thể cơ hội mà bạn tạo.
 
-![Cấu hình quy trình công việc trong Dynamics 365](media/basic-guide-3.png)
+![Cấu hình quy trình công việc trong Dynamics 365.](media/basic-guide-3.png)
  
 Tổ chức của bạn có thể sử dụng các thực thể khác nhau để đại diện cho cùng một thỏa thuận khi nó phát triển. Vào đầu quy trình bán hàng, một giao dịch được đại diện bằng thực thể Cơ hội. Theo thời gian và chi tiết ngày một nhiều lên, bạn có thể sử dụng các ước tín cấp cao để tạo một hoặc nhiều báo giá. Nếu một trong những báo giá này được đánh giá bởi bên liên quan nội bộ và khách hàng, thì thực thể Báo giá đại diện cho giao dịch. Sau khi khách hàng chấp nhận báo giá, thì hợp đồng dự án hoặc SOW đại diện cho thỏa thuận này. Để hỗ trợ hành vi này, BPF được cấu trúc để từng giai đoạn trong quá trình được liên kết với một bảng cơ sở dữ liệu khác nhau.
 
@@ -77,7 +77,7 @@ Khi bạn di chuyển các giao dịch theo giai đoạn, bạn sẽ được nh
 > [!NOTE]
 > PSA có các trang cụ thể cho các thực thể cơ hội, báo giá, đơn đặt hàng và hóa đơn. Bạn phải tạo cơ hội project service, báo giá, đơn đặt hàng và hóa đơn bằng cách sử dụng trang thông tin dự án cho các thực thể này. Nếu bạn sử dụng một trang khác để tạo bản ghi, bạn sẽ không thể mở bản ghi từ trang **Thông tin dự án**. Nếu bạn muốn mở một bản ghi từ trang **thông tin dự án**, thì bạn phải xóa bản ghi và tạo lại nó bằng cách sử dụng trang **Thông tin dự án**. Trên trang **thông tin dự án**, logic kinh doanh cho mỗi loại thực thể này đảm bảo rằng trường **Loại** của bản ghi được đặt chính xác, và tất cả các khái niệm bắt buộc được khởi tạo đúng cách.
 
-> ![Thông tin dự án cho một đơn đặt hàng mới](media/basic-guide-4.png)
+> ![Thông tin dự án cho một đơn đặt hàng mới.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Sự khác biệt giữa Project Service Automation và Sales
 Mặc dù quá trình bán hàng trong PSA sử dụng khả năng cơ bản của quá trình bán hàng trong Sales, nhưng nó có một số khác biệt quan trọng vì các biến thể trong thực tiễn kinh doanh của các tổ chức dựa trên dự án. Dưới đây là một số ví dụ:

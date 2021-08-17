@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009417"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007127"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Phân công nhiệm vụ cho nguồn lực có thể đặt lịch chung và tạo yêu cầu nguồn lực 
 
@@ -33,21 +33,21 @@ Ngoài việc đặt và phân công các nguồn lực có tên hoặc nguồn 
 
 1. Trong Project Service Automation (PSA), mở trang **Dự án** và trên tab **Lịch trình**, nhập tên vị trí của nguồn lực chung trong ô **Nguồn lực** của lịch trình. Hoặc nhấp vào biểu tượng **Nguồn lực** trong ô để mở bộ chọn nguồn lực, sau đó nhập tên của nguồn lực chung mà bạn muốn tạo.
 
-![Tạo và chỉ định một thành viên nhóm chung](media/RM-how-to-9.png)
+![Tạo và chỉ định một thành viên nhóm chung.](media/RM-how-to-9.png)
 
 Điều này sẽ mở bảng điều khiển **Tạo nhanh: Thành viên nhóm dự án**. 
 
 2. Nhập vai trò và đơn vị tổ chức của thành viên nhóm nguồn lực chung, sau đó nhấp vào **Lưu**.
 
-![Tạo nhanh thành viên nhóm chung](media/RM-how-to-10.png)
+![Tạo nhanh thành viên nhóm chung.](media/RM-how-to-10.png)
 
 3. Sau khi bạn đã tạo thành viên nhóm nguồn lực chung mới, thành viên đó sẽ được phân công tác vụ. Bạn có thể tiếp tục phân công nhiệm vụ khác cho nguồn lực chung trong lịch trình nhiệm vụ.
 
-![Phân công nhiệm vụ cho thành viên nhóm chung hiện có](media/RM-how-to-11.png)
+![Phân công nhiệm vụ cho thành viên nhóm chung hiện có.](media/RM-how-to-11.png)
 
 4. Sau khi bạn chỉ định nguồn lực chung, bạn có thể tạo yêu cầu nguồn lực và hoàn thành bằng cách trực tiếp đặt hoặc gửi một yêu cầu nguồn lực cho Resource Manager.
 
-![Tạo yêu cầu cho thành viên nhóm chung](media/RM-how-to-12.png)
+![Tạo yêu cầu cho thành viên nhóm chung.](media/RM-how-to-12.png)
 
 Trên lưới thành viên nhóm, ngoài việc có thể sử dụng bộ chọn nguồn lực như đã đề cập ở trên, bạn có thể thêm trực tiếp các nguồn lực chung. Các nguồn lực được thêm vào với một yêu cầu nguồn lực dựa trên ngày bắt đầu/kết thúc và phương pháp phân bổ được chỉ định trong bảng điều khiển **Tạo nhanh: Thành viên nhóm dự án**.
 
@@ -55,7 +55,7 @@ Bạn có thể thấy sự khác biệt nếu bạn thêm các thành viên nh�
 
 Bạn cũng có thể nhấp vào liên kết **Yêu cầu nguồn lực** trong lưới nhóm để mở yêu cầu và thêm kỹ năng, nguồn lực ưu tiên, v.v.
 
-![Yêu cầu nguồn lực](media/RM-how-to-13.png)
+![Yêu cầu nguồn lực.](media/RM-how-to-13.png)
 
 
 

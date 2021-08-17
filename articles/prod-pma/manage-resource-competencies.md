@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999067"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007442"
 ---
 # <a name="manage-resource-competencies"></a>Quản lý năng lực của nguồn lực
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999067"
 
 Năng lực của nguồn lực là một phần thiết yếu trong quản lý nguồn lực. Năng lực có thể được sử dụng làm cơ sở để xác định các nguồn lực có sự cân bằng chính xác về kỹ năng, giáo dục, chứng nhận và kinh nghiệm dự án. Bạn nên thiết lập thông tin này cho từng nguồn lực và cập nhật nó một cách thường xuyên. Bằng cách này, bạn có thể tối đa hóa khả năng khi các năng lực của nguồn lực cụ thể được khớp trong quá trình phân công nguồn lực dự án.
 
-[![Ví dụ về kỹ năng, chứng chỉ, học vấn và kinh nghiệm dự án](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Ví dụ về kỹ năng, chứng chỉ, học vấn và kinh nghiệm dự án.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Các quy trình sau đây giải thích cách thiết lập một số năng lực cho nguồn lực.
 

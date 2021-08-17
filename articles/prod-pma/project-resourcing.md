@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369492"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007352"
 ---
 # <a name="project-resourcing-home-page"></a>Trang chủ về nguồn lực dự án
 
@@ -38,7 +38,7 @@ Một thách thức đối với các nhà quản lý dự án và quản lý ng
 - Ước tính số lượng nguồn lực cần thiết cho toàn bộ vòng đời của một dự án.
 - Soạn thảo cấu trúc phân tích công việc (WBS) bằng cách sử dụng nội dung phân công nguồn lực ban đầu.
 
-[![Vòng đời dự án](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Vòng đời dự án.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Khi tiến hành lập kế hoạch dự án, có thể thay thế các nguồn lực theo kế hoạch bằng nguồn lực có biên chế. Người quản lý dự án cũng có thể quay lại và cập nhật dự trữ nguồn lực trong bất kỳ giai đoạn nào của dự án.
 

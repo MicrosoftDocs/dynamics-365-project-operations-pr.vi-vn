@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998032"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996867"
 ---
 # <a name="fulfilling-resource-requests"></a>Thực hiện yêu cầu nguồn lực
 
@@ -33,15 +33,15 @@ Yêu cầu tài nguyên có thể được gửi dưới dạng yêu cầu ngu�
 
 Yêu cầu nguồn lực hiển thị ở dạng danh sách trong dạng xem **Yêu cầu nguồn lực hiện hoạt**.
 
-> ![Danh sách yêu cầu nguồn lực](media/Resource-Management-image59.png)
+> ![Danh sách yêu cầu nguồn lực.](media/Resource-Management-image59.png)
 
 Để thực hiện một yêu cầu, hãy chọn yêu cầu trong danh sách rồi chọn **Tìm nguồn lực**. Hoặc bấm đúp vào hàng để mở yêu cầu. Sau đó, bạn có thể chọn tab **Yêu cầu nguồn lực** để xem yêu cầu cho yêu cầu đó. Để bắt đầu thực hiện yêu cầu đó, hãy chọn **Tìm nguồn lực**.
 
-> ![Chi tiết yêu cầu nguồn lực](media/Resource-Management-image60.png)
+> ![Chi tiết yêu cầu nguồn lực.](media/Resource-Management-image60.png)
 
 Trợ lý lập lịch biểu xuất hiện và được lọc theo yêu cầu. Chọn nguồn lực rồi chọn **Đăng ký**.
 
-> ![Nguồn lực đã chọn](media/Resource-Management-image61.png)
+> ![Nguồn lực đã chọn.](media/Resource-Management-image61.png)
 
 Thành viên nhóm chung được thay thế bằng nguồn lực được đăng ký chắc chắn trên nhóm dự án và phân công nhiệm vụ trong lịch trình dự án.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002582"
 ---
 # <a name="project-costs-and-revenue"></a>Chi phí và doanh thu dự án
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009192"
 
 Ước tính dự án cung cấp dạng xem tài chính cho các công việc được ước tính và lập lịch trong lịch trình dự án. Tab **Ước tính** trên trang **Dự án** hiển thị tác động doanh thu và chi phí của công việc bạn đang lên kế hoạch. Tab này cũng cung cấp thông tin về nhiều tham số được xác định trước. 
 
-> ![Tab ước tính](media/project-5.png)
+> ![Tab ước tính.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Giá trị chi phí và kinh doanh của dự án
 
@@ -66,13 +66,13 @@ Nếu hệ thống không tìm thấy giá cho vai trò, thì giá bán hàng tr
 
 Tab **Ước tính** có dạng xem lưới hiển thị mô tả ước tính. Lưới bao gồm các cột cho đơn vị, tổng giá vốn và tổng giá bán hàng như hiển thị trong hình minh họa sau. 
 
-> ![Dạng xem lưới trên tab Ước tính](media/project-6.png)
+> ![Dạng xem lưới trên tab Ước tính.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Dạng xem theo giai đoạn thời gian cho ước tính dự án
 
 Dạng xem theo giai đoạn thời gian của các ước tính dự án hiển thị dữ liệu ước tính từ dạng xem lưới trên dòng thời gian, trong quy mô thời gian mà bạn chọn. Theo mặc định, dữ liệu ước tính dựa trên tham số **Vai trò**.
 
-> ![Dạng xem theo giai đoạn thời gian cho ước tính dự án](media/project-7.png)
+> ![Dạng xem theo giai đoạn thời gian cho ước tính dự án.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Phân bổ nhân công ước tính dựa trên chế độ nhiệm vụ
 

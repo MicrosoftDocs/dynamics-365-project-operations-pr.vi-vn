@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987957"
 ---
 # <a name="integration-journal-in-project-operations"></a>Nhật ký tích hợp trong Project Operations
 
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Các mục nhập thời gian và chi phí tạo ra các giao dịch **Thực tế** thể hiện quan điểm hoạt động của công việc đã hoàn thành dựa trên một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Nhân viên kế toán có thể thực hiện các hoạt động này bằng cách sử dụng nhật ký **Tích hợp Project Operations** (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Nhật ký** > nhật ký **Tích hợp Project Operations**).
 
-![Luồng nhật ký tích hợp](./media/IntegrationJournal.png)
+![Luồng nhật ký tích hợp.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Tạo bản ghi trong nhật ký Tích hợp Project Operations
 

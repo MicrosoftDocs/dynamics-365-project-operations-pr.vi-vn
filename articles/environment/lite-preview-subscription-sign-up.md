@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991557"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Đăng ký gói xem trước – bản đơn giản 
 
@@ -52,16 +52,16 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
 1. Cung cấp môi trường triển khai Project Operations Dataverse mới bằng cách làm theo các hướng dẫn trong chủ đề [Mô hình triển khai Dataverse](lite-deployment.md). Khi bạn chọn loại môi trường, hãy bảo đảm sử dụng **Bản dùng thử (Dựa trên gói đăng ký)**.
 
-  ![Môi trường mới](./media/19CreateEnvironment.png)
+  ![Môi trường mới.](./media/19CreateEnvironment.png)
 
 2. Chọn mục thiết đặt **Bật ứng dụng Dynamics 365** và để trống mục **Tự động triển khai các ứng dụng này**.  
 3. Chọn **Lưu** để tạo môi trường.
 
-  ![Thêm cơ sở dữ liệu](./media/20CreateEnvironment1.png)
+  ![Thêm cơ sở dữ liệu.](./media/20CreateEnvironment1.png)
 
 4. Sau khi tạo môi trường, hãy cài đặt giải pháp **Microsoft Dynamics 365 Project Operations**. 
 
-![Cài đặt giải pháp](./media/21InstallSolution.png)
+![Cài đặt giải pháp.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Cài đặt cấu hình CDS và thiết lập dữ liệu demo
 

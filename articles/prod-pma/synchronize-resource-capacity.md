@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997537"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005642"
 ---
 # <a name="synchronize-resource-capacity"></a>Đồng bộ hóa năng lực của nguồn lực
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997537"
 
 Các quy trình đồng bộ hóa nguồn lực giúp đảm bảo rằng thông tin cho lịch lịch và lịch cơ sở sẽ dần đi vào quá trình lập lịch trình nguồn lực dự án. Nếu lịch bị thay đổi, các quy trình sẽ thực hiện cập nhật bắt buộc đối với việc lập lịch trình các nguồn lực dự án. Các quy trình cũng giúp cải thiện hiệu suất, vì thông tin nguồn lực của lịch được đồng bộ hóa trước. Do đó, việc cập nhật thông tin lập lịch nguồn lực diễn ra nhanh hơn. Chúng tôi khuyên bạn nên lập lịch các quy trình theo loạt thay vì từng lần một. Nếu không, ai đó có thể quên những ngày được bao gồm khi thông tin được đồng bộ hóa lần gần nhất. Nếu các ngày bao gồm không được sử dụng, khoảng trống có thể xảy ra trong quá trình đồng bộ hóa ngày.
 
-![Đồng bộ hóa lịch](./media/projectresourcing04-1024x471.jpg)
+![Đồng bộ hóa lịch.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Đồng bồ hóa tổng hợp năng lực của nguồn lực
 
@@ -46,7 +46,7 @@ Chúng tôi khuyên bạn nên sử dụng loạt. Các tùy chọn có sẵn tr
     | Ngày bắt đầu  | Nhập ngày bắt đầu cho quá trình đồng bộ hóa để tổng hợp năng lực của nguồn lực. |
     | Ngày kết thúc    | Nhập ngày kết thúc cho quá trình đồng bộ hóa để tổng hợp năng lực của nguồn lực. |
 
-[![Quá trình đồng bộ hóa](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Quá trình đồng bộ hóa.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009692"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 
@@ -22,40 +22,40 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 1. Trong dự án LCS của bạn, hãy mở trang **Chi tiết môi trường**. Lưu ý rằng trang này bao gồm các chi tiết cần thiết để kết nối với môi trường bằng cách sử dụng Giao thức Máy tính Từ xa (RDP).
 
-![Chi tiết môi trường](./media/1EnvironmentDetails.png)
+![Chi tiết môi trường.](./media/1EnvironmentDetails.png)
 
 Bộ thông tin xác thực được đánh dấu đầu tiên là thông tin xác thực tài khoản cục bộ và chứa siêu liên kết đến kết nối máy tính từ xa. Thông tin xác thực bao gồm tên người dùng và mật khẩu quản trị môi trường. Bộ thông tin xác thực thứ hai được sử dụng để đăng nhập vào SQL Server trong môi trường này.
 
 2. Kết nối với môi trường bằng siêu liên kết trong **Tài khoản cục bộ** và sử dụng **Thông tin xác thực tài khoản cục bộ** để xác thực.
 3. Chuyển đến **Dịch vụ thông tin Internet** > **Bộ ứng dụng** > **AOSService** và ngừng dịch vụ. Bạn hiện đang ngừng dịch vụ để có thể tiếp tục thay thế cơ sở dữ liệu SQL.
 
-![Ngừng AOS](./media/2StopAOS.png)
+![Ngừng AOS.](./media/2StopAOS.png)
 
 4. Chuyển đến **Dịch vụ** và ngừng hai mục sau:
 
 - Microsoft Dynamics 365 Unified Operations: Dịch vụ quản lý lô
 - Microsoft Dynamics 365 Unified Operations: Khung xuất nhập dữ liệu
 
-![Ngừng dịch vụ](./media/3StopServices.png)
+![Ngừng dịch vụ.](./media/3StopServices.png)
 
 5. Mở Microsoft SQL Server Management Studio. Đăng nhập bằng thông tin xác thực SQL server và sử dụng mật khẩu và người dùng axdbadmin từ trang **Chi tiết môi trường** LCS.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. Trong Trình khám phá đối tượng, **Cơ sở dữ liệu** và xác định vị trí **AXDB**. Bạn sẽ thay thế cơ sở dữ liệu bằng một cơ sở dữ liệu mới nằm trong [Trung tâm tải xuống](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Sao chép tệp zip vào máy ảo mà bạn được điều khiển từ xa rồi giải nén nội dung tệp zip.
 8. Trong SQL Server Management Studio, hãy nhấp chuột phải vào **AxDB** rồi chọn **Nhiệm vụ** > **Khôi phục** > **Cơ sở dữ liệu**.
 
-![Khôi phục cơ sở dữ liệu](./media/5RestoreDatabase.png)
+![Khôi phục cơ sở dữ liệu.](./media/5RestoreDatabase.png)
 
 9. Chọn **Thiết bị nguồn** và điều hướng đến tệp được giải nén từ tệp zip bạn đã sao chép.
 
-![Thiết bị nguồn](./media/6SourceDevice.png)
+![Thiết bị nguồn.](./media/6SourceDevice.png)
 
 10. Chọn **Tùy chọn** rồi chọn **Ghi đè cơ sở dữ liệu hiện có** và **Đóng các kết nối hiện có đến cơ sở dữ liệu đích**. 
 11. Chọn **OK**.
 
-![Khôi phục thiết đặt](./media/7RestoreSetting.png)
+![Khôi phục thiết đặt.](./media/7RestoreSetting.png)
 
 Bạn sẽ nhận được xác nhận rằng khôi phục AXDB đã thành công. Sau khi nhận được xác nhận này, bạn có thể đóng SQL Services Management Studio.
 
@@ -66,17 +66,17 @@ Bạn sẽ nhận được xác nhận rằng khôi phục AXDB đã thành côn
 15. Chạy tệp .ext bằng địa chỉ người dùng của bạn trong trường **Địa chỉ email**. 
 16. Chọn **Gửi**.
 
-![Cung cấp Người dùng là quản trị viên](./media/8AdminUserProvisioning.png)
+![Cung cấp Người dùng là quản trị viên.](./media/8AdminUserProvisioning.png)
 
 Quá trình này mất vài phút để hoàn thành. Bạn sẽ nhận được thông báo xác nhận rằng Người dùng là quản trị viên đã được cập nhật thành công.
 
 17. Cuối cùng, chạy Dấu nhắc lệnh với tư cách là Quản trị viên và thực hiện iisreset
 
-![Đặt lại IIS](./media/9IISReset.png)
+![Đặt lại IIS.](./media/9IISReset.png)
 
 18. Đóng phiên máy tính từ xa và sử dụng trang **Môi trường chi tiết** LCS để đăng nhập vào môi trường để xác nhận rằng môi trường đang hoạt động như mong đợi.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

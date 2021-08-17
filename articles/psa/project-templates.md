@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002537"
 ---
 # <a name="project-templates"></a>Mẫu dự án 
 
@@ -47,7 +47,7 @@ Có một số cách để tạo một dự án từ một mẫu dự án:
 
 - Khi tạo dự án từ báo giá, bạn có thể chọn mẫu dự án trong hộp thoại **Tạo nhanh: Dự án**.
 
-> ![Hộp thoại Tạo nhanh: Dự án](media/project-11.png)
+> ![Hộp thoại Tạo nhanh: Dự án.](media/project-11.png)
 
 - Khi bạn tạo một dự án bằng cách chọn **Dự án mới**, trang **Dự án** xuất hiện trước khi bản ghi được lưu. Trong trường **Chọn mẫu**, hãy chọn một trong các mẫu dự án đã xác định trước trong tổ chức.
 - Sử dụng **Tạo dự án từ mẫu** trên trang **Thực thể mẫu**.

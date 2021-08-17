@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007532"
 ---
 # <a name="project-management-and-accounting-overview"></a>Tổng quan về quản lý dự án và kế toán
 
@@ -34,14 +34,14 @@ Dự án là một nhóm hoạt động được thiết kế để cung cấp d
 ## <a name="projects-across-industries"></a>Dự án trong các ngành
 Chức năng quản lý dự án và kế toán có thể được sử dụng trong nhiều ngành như hình minh họa sau.
 
-[![Dự án trong các ngành](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Dự án trong các ngành.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Trong tổng đài, phiếu có thể được sử dụng để mô tả tập hợp hành động phải thực hiện để giải quyết một cuộc gọi. Các công ty tư vấn, như tổ chức tư vấn quản lý hoặc kỹ thuật hay đại lý quảng cáo, coi các hoạt động của họ là dự án. Trong lĩnh vực tiếp thị, một chiến dịch đại diện cho một tập hợp công việc phải thực hiện. Trong ngành sản xuất theo dự án, đơn hàng sản xuất liên quan đến các công việc khác nhau phải thực hiện để sản xuất một thành phẩm nào đó. Bất kể các dự án này được gọi bằng cái tên nào, chúng cũng đều liên quan đến nguồn lực, lịch trình và chi phí, vậy nên, chức năng quản lý dự án và kế toán có thể giúp lập kế hoạch, thực hiện và phân tích chúng.
 
 ## <a name="project-phases"></a>Giai đoạn dự án
 Mặc dù luồng quy trình sau đây được thiết kế cho dự án bên ngoài hoặc dự án được hoàn thành cho một hoặc nhiều khách hàng, nhưng chức năng này cũng áp dụng được cho các dự án nội bộ, chỉ chi phí. 
 
-![3 giai đoạn của một dự án](./media/3-stages-of-a-project.png) 
+![3 giai đoạn của một dự án.](./media/3-stages-of-a-project.png) 
 
 Như trong hình minh họa trước, việc quản lý dự án và kế toán có thể được chia thành ba giai đoạn:
 
@@ -50,7 +50,7 @@ Như trong hình minh họa trước, việc quản lý dự án và kế toán 
 3.  Phân tích
 
 ## <a name="initiate-the-project"></a>Bắt đầu dự án
-Trong quá trình bắt đầu dự án có một số quá trình chính xảy ra. Bạn có thể sử dụng phần báo giá dự án để thông báo về nhân công, chi phí và vật liệu ước tính cho khách hàng. Bạn có thể ghi lại các điều khoản, giới hạn và thỏa thuận thanh toán trong hợp đồng dự án. Bạn có thể sử dụng cấu trúc phân chia công việc (WBS) để lập kế hoạch và ước tính công việc. Bạn có thể thiết lập thông tin dự báo và ngân sách để hướng dẫn việc thực hiện dự án. Hình minh họa sau đây cho thấy cấu trúc của một dự án.[![cấu trúc dự án](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Trong quá trình bắt đầu dự án có một số quá trình chính xảy ra. Bạn có thể sử dụng phần báo giá dự án để thông báo về nhân công, chi phí và vật liệu ước tính cho khách hàng. Bạn có thể ghi lại các điều khoản, giới hạn và thỏa thuận thanh toán trong hợp đồng dự án. Bạn có thể sử dụng cấu trúc phân chia công việc (WBS) để lập kế hoạch và ước tính công việc. Bạn có thể thiết lập thông tin dự báo và ngân sách để hướng dẫn việc thực hiện dự án. Hình minh họa sau đây cho thấy cấu trúc của một dự án.[![cấu trúc dự án.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Tạo báo giá dự án
 

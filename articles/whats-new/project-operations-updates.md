@@ -2,17 +2,17 @@
 title: Các bản cập nhật của Project Operations
 description: Chủ đề này cung cấp thông tin về các phiên bản đã phát hành của Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433589"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024809"
 ---
 # <a name="project-operations-updates"></a>Các bản cập nhật của Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations gồm 2 thành phần:
 
 | Project Operations trên môi trường Dataverse | Quản lý dự án và kế toán trong các môi trường ứng dụng Finance and Operations | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Đối với kịch bản Nguồn lực/vật tư không tồn kho của Project Operations, bạn nên sử dụng phiên bản Dual Write Orchestration 2.2.2.83 trở lên.
 
@@ -45,27 +45,29 @@ Dynamics 365 Project Operations gồm 2 thành phần:
 Các bản cập nhật của Project Operations trên môi trường Dataverse được cung cấp hàng tháng. 
 
 | Trạm | Khu vực | Số hiệu phiên bản hiện tại | Bản cập nhật tự động cho phần triển khai Lite | Bản cập nhật tự động cho phần triển khai Nguồn lực/hàng không nhập kho | Số hiệu phiên bản tiếp theo | Phiên bản tiếp theo được phát hành rộng rãi |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Trạm 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bản phát hành đầu tiên         |  4.12.0.148     | Hoàn tất     | Ngày 9 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-| Trạm 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nam Mỹ         |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-|    &nbsp; | Canada                |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-|   &nbsp;  | Ấn Độ                 |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-|   &nbsp;  | Pháp                |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-|   &nbsp;  | Các tiểu Vương quốc Ả Rập Thống nhất  |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-|   &nbsp;  | Nam Phi          |  4.12.0.148     | Ngày 9 tháng 7 năm 2021   | Ngày 16 tháng 7 năm 2021          | TBD                 | Ngày 6 tháng 8 năm 2021        |
-| Trạm 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nhật Bản                 |  4.11.0.164     | Hoàn tất     | Hoàn tất            | 4.12.0.148          | Ngày 9 tháng 7 năm 2021          |
-|   &nbsp;  | Châu Á Thái Bình Dương          |  4.11.0.164     | Hoàn tất     | Hoàn tất            | 4.12.0.148          | Ngày 9 tháng 7 năm 2021          |
-|   &nbsp;  | Đảo Anh         |  4.11.0.164     | Hoàn tất     | Hoàn tất            | 4.12.0.148          | Ngày 9 tháng 7 năm 2021          |
-|   &nbsp;  | Châu Đại Dương               |  4.11.0.164     | Hoàn tất     | Hoàn tất            | 4.12.0.148          | Ngày 9 tháng 7 năm 2021          |
-| Trạm 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Châu Âu                |  4.11.0.164     | Hoàn tất     | Hoàn tất            | 4.12.0.148          | Ngày 16 tháng 7 năm 2021          |
-| Trạm 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bắc Mỹ         |  4.11.0.164     | Hoàn tất     | Ngày 9 tháng 7 năm 2021          | 4.12.0.148          | Ngày 23 tháng 7 năm 2021          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Trạm 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Bản phát hành đầu tiên         |  4.13.0.152     | Hoàn tất           | 13 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+| Trạm 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Nam Mỹ         |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+|    &nbsp; | Canada                |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+|   &nbsp;  | Ấn Độ                 |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+|   &nbsp;  | Pháp                |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+|   &nbsp;  | Các tiểu Vương quốc Ả Rập Thống nhất  |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+|   &nbsp;  | Nam Phi          |  4.13.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | TBD                 | 27 tháng 8 năm 2021     |
+| Trạm 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Nhật Bản                 |  4.12.0.152     | Hoàn tất*          | Hoàn tất            | 4.13.0.152          | 13 tháng 8 năm 2021     |
+|   &nbsp;  | Châu Á Thái Bình Dương          |  4.12.0.152     | Hoàn tất*          | Hoàn tất            | 4.13.0.152          | 13 tháng 8 năm 2021     |
+|   &nbsp;  | Đảo Anh         |  4.12.0.152     | Hoàn tất*          | Hoàn tất            | 4.13.0.152          | 13 tháng 8 năm 2021     |
+|   &nbsp;  | Châu Đại Dương               |  4.12.0.152     | Hoàn tất*          | Hoàn tất            | 4.13.0.152          | 13 tháng 8 năm 2021     |
+| Trạm 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Châu Âu                |  4.12.0.152     | Hoàn tất           | Hoàn tất            | 4.13.0.152          | 20 tháng 8 năm 2021     |
+| Trạm 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Bắc Mỹ         |  4.12.0.152     | 13 tháng 8 năm 2021    | 20 tháng 8 năm 2021     | 4.13.0.152          | 27 tháng 8 năm 2021     |
 
 
+> [!NOTE]
+> Quá trình tự động triển khai đã hoàn tất cho phiên bản 4.12.0.148. Không có kế hoạch triển khai tự động nào cho phiên bản cập nhật của bản phát hành tháng 7 năm 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lịch phát hành của giải pháp Quản lý dự án và kế toán trong môi trường ứng dụng Finance and Operations
 
@@ -73,16 +75,16 @@ Các bản cập nhật cho giải pháp Quản lý dự án và kế toán đư
 
 |          Phiên bản được hỗ trợ          | Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         Ngày 28 tháng 5 năm 2021        |           Ngày 16 tháng 7 năm 2021           |                             30/07/2021                             |  22/10/2021  |
 |          10.0.19          |        Ngày 23 tháng 4 năm 2021       |            Ngày 18 tháng 6 năm 2021           |                             02/07/2021                             | 17/09/2021 |
-|          10.0.18          |        05/03/2021        |           Ngày 16 tháng 4 năm 2021          |                            Ngày 30 tháng 4 năm 2021                            |    Ngày 16 tháng 7 năm 2021   |
+
 
 
 Ngày phát hành dự kiến có thể thay đổi. Để biết thêm thông tin, hãy xem [Tính khả dụng của bản cập nhật dịch vụ](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Phiên bản đích          | Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         Ngày 28 tháng 5 năm 2021        |           Ngày 16 tháng 7 năm 2021           |                             30/07/2021                             |  22/10/2021  |
 |          10.0.21          |         Ngày 2 tháng 8 năm 2021     |           17/09/2021      |                             Ngày 1 tháng 10 năm 2021                           |  Tháng 10 năm 2021  |
-
+|          10.0.22          |      3 tháng 9 năm 2021      |          22/10/2021         |                           5 tháng 11 năm 2021                           |  14 tháng 1 năm 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

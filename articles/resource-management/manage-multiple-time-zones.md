@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997762"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988722"
 ---
 # <a name="manage-time-zones"></a>Quản lý múi giờ
 
@@ -32,13 +32,13 @@ Khi một tác vụ được tạo, thời gian bắt đầu, thời gian kết 
 
 - Người dùng phải đặt cấu hình múi giờ của thiết bị để khớp với múi giờ được xác định trong phần **Thiết đặt cá nhân hóa** của hệ thống.
  
-  ![Cài đặt múi giờ trong Windows 10](media/reconcile-assignments-03.png)
+  ![Cài đặt múi giờ trong Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Cài đặt múi giờ trong cài đặt cá nhân hóa](media/reconcile-assignments-04.png)
+  ![Cài đặt múi giờ trong cài đặt cá nhân hóa.](media/reconcile-assignments-04.png)
  
 - Nguồn lực có thể đặt trước phải có ít nhất một phút thời gian làm việc trùng với các phân phối được sử dụng để xác định gia hạn được yêu cầu. Ví dụ: các nguồn lực sau đây có giờ làm việc rơi vào khoảng từ 9:00 sáng đến 7:00 tối. 
 
-  ![So sánh phân phối tài nguyên](media/reconcile-assignments-05.png)
+  ![So sánh phân phối tài nguyên.](media/reconcile-assignments-05.png)
 
 Bảng sau đây hiển thị:
 
@@ -49,23 +49,23 @@ Bảng sau đây hiển thị:
 
 |Thực thể  |Lịch  |
 |-|-|
-|Mẫu lịch dự án   | ![lịch dự án](media/reconcile-assignments-06.png) |
-|Nguồn lực A  | ![Lịch nguồn lực A](media/reconcile-assignments-06.png) |
-|Nguồn lực B  |  ![Lịch nguồn lực B](media/reconcile-assignments-07.png) |
-|Nguồn lực C  |  ![Lịch nguồn lực C](media/reconcile-assignments-08.png) |
-|Nguồn lực D  | ![Lịch nguồn lực D](media/reconcile-assignments-09.png)  |
+|Mẫu lịch dự án   | ![lịch dự án.](media/reconcile-assignments-06.png) |
+|Nguồn lực A  | ![Lịch nguồn lực A.](media/reconcile-assignments-06.png) |
+|Nguồn lực B  |  ![Lịch nguồn lực B.](media/reconcile-assignments-07.png) |
+|Nguồn lực C  |  ![Lịch nguồn lực C.](media/reconcile-assignments-08.png) |
+|Nguồn lực D  | ![Lịch nguồn lực D.](media/reconcile-assignments-09.png)  |
  
 Khi bạn điều hướng đến dạng xem **Điều hòa**, các mục phân công tài nguyên và tình trạng thiếu đặt trước sẽ được hiển thị.
 
-![Dạng xem điều hòa trước khi gia hạn](media/reconcile-assignments-10.png)
+![Dạng xem điều hòa trước khi gia hạn.](media/reconcile-assignments-10.png)
 
 Sau khi chức năng gia hạn đặt trước đã được sử dụng cho mỗi nguồn lực, nội dung đặt trước được mở rộng thành công cho từng nguồn lực do giờ làm việc của mỗi nguồn lực trùng với ranh giới thiếu hụt.
 
-![Dạng xem điều hòa sau khi gia hạn đăng ký](media/reconcile-assignments-11.png) 
+![Dạng xem điều hòa sau khi gia hạn đăng ký.](media/reconcile-assignments-11.png) 
 
 Lưu ý rằng việc xem xét kỹ hơn các chi tiết của đặt chỗ sẽ cho thấy sự khác biệt về thời gian bắt đầu của mục đặt trước. Việc đặt trước bắt đầu không sớm hơn thời gian bắt đầu của ranh giới phân công và không sớm hơn thời gian bắt đầu có sẵn của nguồn lực.
 
-![Các đăng ký nguồn lực mới trong bảng lịch trình](media/reconcile-assignments-12.png)
+![Các đăng ký nguồn lực mới trong bảng lịch trình.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

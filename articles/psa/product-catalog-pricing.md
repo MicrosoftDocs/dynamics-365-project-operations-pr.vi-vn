@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000197"
 ---
 # <a name="product-catalog-pricing"></a>Giá danh mục sản phẩm 
 
@@ -44,7 +44,7 @@ Bạn có thể thêm sản phẩm từ danh mục sản phẩm vào bảng giá
 
 PSA hỗ trợ nhiều tùy chọn làm tròn khi giá được đặt cấu hình ở dạng chức năng của bảng giá, chi phí tiêu chuẩn hoặc chi phí hiện tại. Ngoài việc tận dụng nhiều phương pháp định giá và các tùy chọn làm tròn, bạn có thể liên kết danh sách giảm giá với các hạng mục trong bảng giá. 
 
-> ![Thêm các sản phẩm từ danh mục vào bảng giá khác](media/basic-guide-16.png)
+> ![Thêm các sản phẩm từ danh mục vào bảng giá khác.](media/basic-guide-16.png)
 
 Khi bạn tạo một bảng giá tùy chỉnh mới cho báo giá bằng cách chọn **Tạo giá tùy chỉnh** trên trang **Báo giá dự án**, PSA tạo một bản sao của bảng giá và trường **Thực thể** trên tiêu đề của bảng giá mới được đặt thành **Thực thể bán hàng**. Tên của bảng giá mới được gắn với tên của báo giá và dấu thời gian. Bạn cũng có thể dùng tên của bảng giá mới và tên của báo giá trong quy trình làm việc tùy chỉnh để kích hoạt đánh giá hoặc phê duyệt bổ sung cho báo giá sử dụng giá tùy chỉnh.
 

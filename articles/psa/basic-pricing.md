@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000602"
 ---
 # <a name="project-pricing"></a>Định giá dự án 
 
@@ -46,7 +46,7 @@ Thực thể bảng giá có ba bảng liên quan nhằm lưu trữ giá:
   - **Giá theo loại giao dịch** - Bảng này lưu trữ giá theo loại giao dịch và được sử dụng để thiết lập giá theo loại chi phí.
   - **Hạng mục trong bảng giá** - Bảng này lưu trữ giá cho sản phẩm theo danh mục.
 
-> ![Cấu hình giá bằng cách sử dụng bảng giá](media/basic-guide-12.png)
+> ![Cấu hình giá bằng cách sử dụng bảng giá.](media/basic-guide-12.png)
  
 Bảng giá là là một bảng giá. Bảng giá là sự kết hợp của thực thể Bảng giá và các hàng liên quan trong bảng giá theo vai trò, giá theo loại giao dịch và hạng mục trong bảng giá.
 
@@ -58,7 +58,7 @@ Thời gian của nguồn lực thường được báo giá dựa trên vai tr�
 
 Nhóm đơn vị đo **Thời gian** được tạo khi cài đặt PSA. Nó có một đơn vị mặc định là **Giờ**. Bạn không thể xóa, đổi tên hoặc chỉnh sửa các thuộc tính nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ**. Tuy nhiên, bạn có thể thêm các đơn vị vào nhóm đơn vị đo **Thời gian**. Nếu bạn cố gắng xóa hoặc nhóm đơn vị đo **Thời gian** hoặc đơn vị **Giờ**, thì bạn có thể gây ra lỗi trong logic kinh doanh PSA.
 
-> ![Cấu hình giá theo vai trò](media/basic-guide-13.png)
+> ![Cấu hình giá theo vai trò.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Danh mục giao dịch và loại chi phí
 
@@ -68,7 +68,7 @@ Chi phí đi lại và chi phí khác mà tư vấn viên dự án phải chịu
 - **Tỷ lệ phần trăm tăng** - Tỷ lệ phần trăm trên chi phí thực tế được lập hóa đơn cho khách hàng. 
 - **Giá mỗi đơn vị** - Giá thanh toán được đặt cho từng đơn vị của danh mục chi phí. Số tiền được lập hóa đơn cho khách hàng được tính toán dựa trên lượng đơn vị chi phí mà các tư vấn viên báo cáo. Số dặm sử dụng phương pháp giá mỗi đơn vị. Ví dụ: danh mục chi phí số dặm có thể được cấu hình là 30 đô la Mỹ (USD) mỗi ngày hoặc 2 USD mỗi dặm. Khi một tư vấn viên báo cáo số dặm trên một dự án, thì số tiền lập hóa đơn được tính toán dựa trên số dặm mà các tư vấn viên đã báo cáo.
 
-> ![Cấu hình giá cho loại chi phí](media/basic-guide-14.png)
+> ![Cấu hình giá cho loại chi phí.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Giá bán theo dự án và thay thế
 
@@ -114,7 +114,7 @@ Tuy nhiên, trên báo giá, bạn có thể sử dụng một bảng giá chín
 
 Khi bạn tạo một bảng giá dự án tùy chỉnh, chỉ các thành phần dự án của bảng giá được sao chép. Nói cách khác, một bảng giá mới được tạo ra như một bản sao của bảng giá dự án hiện có đính kèm báo giá và bảng giá mới này chỉ có giá liên quan đến vai trò và giá theo loại giao dịch.
 
-> ![Xem và định cấu hình giá tùy chỉnh cho hợp đồng dự án](media/basic-guide-15.png)
+> ![Xem và định cấu hình giá tùy chỉnh cho hợp đồng dự án.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Theo dõi chi phí
 

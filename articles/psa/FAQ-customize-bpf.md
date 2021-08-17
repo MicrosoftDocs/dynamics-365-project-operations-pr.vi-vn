@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002987"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Tôi có thể làm cách nào để tùy chỉnh dòng quy trình công việc ở Các giai đoạn Dự án?
 
@@ -60,11 +60,11 @@ Nếu nâng cấp không phải là một tùy chọn, bạn có thể tùy ch�
 1. Thêm các giai đoạn bổ sung vào cấu hình mặc định trong khi vẫn giữ nguyên tên giai đoạn tiếng Anh cho **Quote**, **Plan** và **Close**.
 
 
-![Ảnh chụp màn hình khi thêm các giai đoạn vào cấu hình mặc định](media/FAQ-Customize-BPF-1.png)
+![Ảnh chụp màn hình khi thêm các giai đoạn vào cấu hình mặc định.](media/FAQ-Customize-BPF-1.png)
  
 2. Tạo dòng quy trình công việc của riêng mình và biến thành dòng quy trình công việc chính cho thực thể dự án, như vậy bạn sẽ có bất kỳ tên giai đoạn nào mà bạn muốn. Tuy nhiên, nếu bạn muốn sử dụng các giai đoạn dự án theo chuẩn trước là **Quote**, **Plan** và **Close**, bạn cần thực hiện một số tùy chỉnh để bỏ tên giai đoạn tùy chỉnh của mình. Lô-gic phức tạp hơn là khi đóng dự án, khi đó bạn có thể vẫn kích hoạt bằng cách chỉ hủy kích hoạt bản ghi dự án.
 
-![Tùy chỉnh BPF](media/FAQ-Customize-BPF-2.png)
+![Tùy chỉnh BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Các cân nhắc bổ sung đối với ứng dụng Project Service phiên bản 2.4.4.30 trở về trước trên nền tảng 9.0
 
@@ -80,11 +80,11 @@ Trong Project Service 2.4.4.30 trở về trước trên nền tảng 9.0, với
 
 1. Chuyển tới **Cài đặt** > **Trung tâm Quy trình**. Không sao chép dòng quy trình công việc ở Các giai đoạn Dự án bởi vì như thế cũng sao chép lô-gic công việc của Project Service.
 
-  ![Tạo quy trình](media/FAQ-Customize-BPF-3.png)
+  ![Tạo quy trình.](media/FAQ-Customize-BPF-3.png)
 
 2. Sử dụng trình Thiết kế Quy trình để tạo tên giai đoạn mà bạn muốn. Nếu bạn muốn cùng chức năng đó là các giai đoạn mặc định cho **Quote**, **Plan** và **Close**, bạn sẽ phải tạo dựa trên những tên giai đoạn của dòng quy trình công tùy chỉnh của mình.
 
-   ![Ảnh chụp màn hình của trình Thiết kế Quy trình được dùng để tùy chỉnh BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Ảnh chụp màn hình của trình Thiết kế Quy trình được dùng để tùy chỉnh BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. Trong trình Thiết kế Quy trình, **Sắp xếp Dòng Quy trình** để tạo dòng quy trình công việc tùy chỉnh thành dòng quy trình công việc chính cho thực thể dự án bằng cách di chuyển quy trình ở phía trên dòng quy trình công việc ở Các giai đoạn Dự án lên trên cùng của danh sách.
 
@@ -95,15 +95,15 @@ Trong Project Service 2.4.4.30 trở về trước trên nền tảng 9.0, với
 
 4. Thêm một trường tùy chỉnh mới vào thực thể dự án để chụp các giai đoạn tùy chỉnh trong dòng quy trình công việc tùy chỉnh của bạn. Bạn sẽ cần thêm lô-gic công việc (phần bổ trợ/dòng công việc) để cập nhật trường này khi giai đoạn trên dòng quy trình công việc được cập nhật.
 
-   ![Ảnh chụp màn hình khi tùy chỉnh thực thể Dự án](media/FAQ-Customize-BPF-6-720.png)
+   ![Ảnh chụp màn hình khi tùy chỉnh thực thể Dự án.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Sửa đổi biểu đồ **Dự án Theo Giai đoạn** để dùng trường tùy chỉnh mới cho các giai đoạn của bạn.
 
-   ![Ảnh chụp màn hình khi sử dụng biểu đồ Dự án Theo Giai đoạn](media/FAQ-Customize-BPF-7-720.png)
+   ![Ảnh chụp màn hình khi sử dụng biểu đồ Dự án Theo Giai đoạn.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Sửa đổi bất kỳ dạng xem nào cho thực thể để đưa trường tùy chính mới cho các giai đoạn của bạn vào.
 
-   ![Ảnh chụp màn hình khi chỉnh sửa dạng xem trên thực thể Dự án](media/FAQ-Customize-BPF-8-720.png)
+   ![Ảnh chụp màn hình khi chỉnh sửa dạng xem trên thực thể Dự án.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

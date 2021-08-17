@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995472"
 ---
 # <a name="quotes-and-quote-lines"></a>Báo giá và mô tả báo giá
 
@@ -84,7 +84,7 @@ Các tổ chức dịch vụ chuyên nghiệp thường báo giá và lập hóa
 
 Một hoặc nhiều trong các phân loại giao dịch này có thể liên kết với mỗi dòng báo giá. Sau khi thắng một báo giá, ánh xạ giữa phân loại giao dịch và dòng báo giá được chuyển tới dòng hợp đồng.
  
-> ![Ảnh chụp màn hình của các loại giao dịch ánh xạ tới dòng báo giá và hợp đồng](media/basic-guide-5.png)
+> ![Ảnh chụp màn hình của các loại giao dịch ánh xạ tới dòng báo giá và hợp đồng.](media/basic-guide-5.png)
   
 Ví dụ: báo giá có thể chứa hai dòng báo giá sau đây: 
 - Công việc tư vấn sử dụng một phương thức thanh toán thời gian và vật tư, trong đó áp dụng phân loại giao dịch thời gian và phí. Ví dụ: tất cả giao dịch thời gian và phí cho dự án ví dụ **Triển khai Dynamics AX** được lập hóa đơn cho khách hàng dựa trên thời gian và vật tư sử dụng. 

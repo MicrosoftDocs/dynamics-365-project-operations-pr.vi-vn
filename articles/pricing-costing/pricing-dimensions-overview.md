@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001997"
 ---
 # <a name="pricing-dimensions-overview"></a>Tổng quan về thông số định giá
 
@@ -33,7 +33,7 @@ Do vậy, có 2 loại giá trị tham số định giá được cung cấp:
 
 Dynamics 365 Project Operations được cung cấp với một bộ thông số giá mặc định. Bạn có thể xem các tham số định giá này bằng cách chuyển tới **Hoạt động dự án** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Khi đã bật các trường này lên, bạn có thể thiết lập giá cả và chi phí cho từng tổ hợp vai trò và đơn vị tổ chức.
 
-![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
+![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu.](media/PS-OOB-parameters.png)
 
 Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh. Để biết thêm thông tin, hãy tham khảo các chủ đề sau. 
   

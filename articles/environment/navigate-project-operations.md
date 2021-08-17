@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000166"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994617"
 ---
 # <a name="navigate-project-operations"></a>Điều hướng Project Operations
 
@@ -28,11 +28,11 @@ Sau khi bạn cấp phép cho Project Operations như mô tả trong chủ đề
 
 Sử dụng tên môi trường trong phần **Tên môi trường Common Data Service** chuyển đến Project Operations trên môi trường CDS. 
 
-  ![Tên môi trường Common Data Service](./media/environment-name.PNG)
+  ![Tên môi trường Common Data Service.](./media/environment-name.PNG)
 
 Chọn Nhật ký **Đăng nhập** > **Đăng nhập vào môi trường** để chuyển đến mô-đun **Quản lý dự án và kế toán** trong mục Tài chính.  
 
-   ![Đăng nhập vào Tài chính](./media/environment-login.PNG)
+   ![Đăng nhập vào Tài chính.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Bạn có thể truy cập trực tiếp vào Project Operations trong Common Data Service và mô-đun **Quản lý dự án và kế toán** bằng cách sử dụng các URL tương ứng của chúng. 

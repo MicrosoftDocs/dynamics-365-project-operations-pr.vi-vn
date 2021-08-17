@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c756caec6cd7eda8f891446d3e8309aca3b2482
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369645"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005912"
 ---
 # <a name="project-service-automation-overview"></a>Tổng quan về Project Service Automation
 
@@ -56,7 +56,7 @@ Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ h�
 > [!NOTE]
 > Không phải tất cả các mẫu đều có sẵn. Các mẫu sẽ được phát hành khi chúng hoàn thành.
 
-[![Tích hợp Project Service Automation với Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Tích hợp Project Service Automation với Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Yêu cầu hệ thống đối với Finance
 

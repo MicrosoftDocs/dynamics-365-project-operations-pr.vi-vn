@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007937"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Tổng quan về tích hợp ghi kép của Project Operations
 
@@ -23,7 +23,7 @@ Project Operations sử dụng [tính năng ghi kép](/dynamics365/fin-ops-core/
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa như một phần của tích hợp này giữa Dataverse và Tài chính.
 
-![Tổng quan về luồng dữ liệu của Project Operations](./media/ProjectOperationsFlows.jpg)
+![Tổng quan về luồng dữ liệu của Project Operations.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations trên Dataverse cung cấp giao diện người dùng (UI) hiện đại và khả năng mở rộng dễ dàng không mã/ít mã bằng cách sử dụng tính năng Power Platform. Người quản lý dự án, Người quản lý nguồn lực, thành viên nhóm Dự án và các nhân viên văn phòng khác thực hiện các hoạt động của họ trong Project Operations trên Dataverse.
 

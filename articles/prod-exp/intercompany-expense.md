@@ -1,8 +1,8 @@
 ---
 title: Chi phí liên công ty
 description: Chủ đề này cung cấp thông tin về cách sử dụng chi phí liên công ty để chỉ định chi phí của nhân viên cho pháp nhân yêu cầu thực hiện công việc.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001232"
 ---
 # <a name="intercompany-expenses"></a>Chi phí liên công ty
 
@@ -34,5 +34,17 @@ Trước khi một nhân viên có thể tạo và gửi chi phí liên công ty
 Để có thể dùng các nhóm thuế được liên kết với pháp nhân cho mượn (nguồn) thay vì pháp nhân mượn (đích) trong báo cáo chi phí, bạn phải bật chức năng này trong thiết lập thuế bán hàng của Sổ cái chung. Khi tham số **Pháp nhân đăng thuế liên công ty** được đặt thành **Nguồn** và **Áp dụng các quy tắc đánh thuế bán hàng** được đặt thành **Không**, sự kết hợp thuế cho pháp nhân cho mượn sẽ được dùng. Khi tham số đó được đặt thành **Đích**, tổ hợp thuế cho pháp nhân mượn sẽ được sử dụng. Đối với các pháp nhân ở Hoa Kỳ, khi tham số được đặt thành **Nguồn**, trường **Thuế bán hàng phải thu** cũng phải được đặt cấu hình trên trang mới **Nhóm đăng trên Sổ Cái**. Công cụ kế toán sẽ sử dụng thông tin ở trường này cho mục nhập kế toán liên quan đến thuế.   
 Hành vi được thực hiện nhất quán đối với các mục mô tả chi phí được đăng có hoặc không có dự án.  
 
+## <a name="new-expense-expression-builder"></a>Trình tạo biểu thức chi phí mới
+
+Trình tạo biểu thức chi phí mới giải quyết các vấn đề với các tình huống chi phí liên công ty sử dụng các dự án. Tính năng này đảm bảo rằng, khi bạn tạo chi phí liên công ty, chính sách chi phí được xác thực chính xác dựa trên dự án được chọn trên dòng chi phí và báo cáo chi phí có thể được gửi thành công.
+
+Bạn phải bật tính năng trình tạo biểu thức chi phí nếu muốn sử dụng. Ngoài ra, bạn nên thiết lập chính sách chi phí có ID dự án.
+
+Nếu bạn đã định cấu hình các chính sách xác thực ID dự án trên dòng chi phí, thì phải gỡ bỏ các chính sách đó. Sau đó, bạn có thể bật tính năng này và định cấu hình lại các chính sách.
+
+Để bật tính năng này, hãy làm theo các bước bên dưới.
+
+1. Chuyển đến **Không gian làm việc** \> **Quản lý tính năng**.
+2. Trong danh sách, hãy chọn **Trình tạo biểu thức chi phí mới giải quyết các vấn đề với các tình huống chi phí liên công ty sử dụng các dự án**. Sau đó chọn **Kích hoạt ngay bây giờ**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

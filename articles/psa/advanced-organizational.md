@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009642"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005102"
 ---
 # <a name="organizational-units"></a>Đơn vị tổ chức 
 
@@ -53,7 +53,7 @@ Ngoài ra, còn có một thuộc tính cho đơn vị tổ chức trên thực 
 - **Đơn vị ký hợp đồng** – Đơn vị tổ chức đại diện cho nhóm hoặc bộ phận của công ty có trách nhiệm chính là giành được hợp đồng bán hàng và quản lý việc cung cấp công việc cũng như dịch vụ cho khách hàng. Đơn vị ký hợp đồng được xác định trong trường **Đơn vị ký hợp đồng** ở phần tiêu đề của trang **Cơ hội**, **Báo giá**, **Hợp đồng dự án** và **Dự án**.
 - **Đơn vị cấp nguồn lực** – Đơn vị tổ chức chứa một nguồn lực hoặc được chỉ định một nguồn lực. Đơn vị tổ chức này có thể cung cấp nguồn lực cho một số vai trò trên báo cáo công việc (SOW) và các dự án mà đơn vị ký hợp đồng sở hữu.
 
-> ![Đơn vị ký hợp đồng và đơn vị cấp nguồn lực](media/advanced-1.png)
+> ![Đơn vị ký hợp đồng và đơn vị cấp nguồn lực.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Câu hỏi thường gặp về đơn vị tổ chức
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000782"
 ---
 # <a name="recording-actuals"></a>Ghi thực tế 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014862"
 
 Tất cả các giao dịch tài chính xảy ra trong một dự án đều được ghi lại. Các giao dịch này được ghi lại là **thực tế**. Bảng sau đây hiển thị các loại thực tế khác nhau được tạo, phụ thuộc vào việc dự án là dự án thời gian và thời gian và vật tư, giá cố định, dự án nội bộ hay ở giai đoạn trước khi bán hàng.
 
-> ![Bảng minh họa cách ghi thực tế](media/advanced-table2.png)
+> ![Bảng minh họa cách ghi thực tế.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

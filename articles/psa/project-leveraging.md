@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998437"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995202"
 ---
 # <a name="sales-estimates-and-projects"></a>Dự án và ước tính doanh số
 
@@ -35,11 +35,11 @@ Trong quá trình bán hàng, bạn có thể tạo ước tính bán hàng bằ
 
 Khi tạo một mô tả báo giá dựa trên dự án, bạn có thể tạo một dự án mới hoặc liên kết dự án hiện tại trên trang **Mô tả báo giá**. 
 
-> ![Biểu mẫu mô tả báo giá](media/project-8.png)
+> ![Biểu mẫu mô tả báo giá.](media/project-8.png)
  
 Khi tạo một dự án mới từ chi tiết mô tả báo giá, bạn có thể tận dụng các mẫu dự án. Mẫu dự án là các dự án mẫu đại diện cho kế hoạch dự án và ước tính tài chính tiêu chuẩn tiêu biểu trong một tổ chức. Mẫu dự án cũng đại diện cho các bản sao kế hoạch và ước tính dự án từ các dự án trước đó.
 
-> ![Chi tiết dòng báo giá](media/project-9.png)
+> ![Chi tiết Mô tả Báo giá.](media/project-9.png)
   
 Khi tạo dự án từ báo giá, dự án tự động được liên kết với mô tả báo giá.
 

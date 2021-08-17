@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003842"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Các phiên bản bản đồ ghi kép Project Operations
 
@@ -32,7 +32,7 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 
 1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Trong trường **Bản cái để đồng bộ hóa ban đầu**, hãy chọn **ứng dụng Finance and Operations** cho cả bản đồ sổ cái và tất cả các bản đồ điều kiện tiên quyết. Chọn **Chạy**.
 
-![Đồng bộ hóa sơ đồ sổ cái](media/DW6.png)
+![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
 
 2. Làm theo các bước tương tự cho tất cả các sơ đồ bảng còn lại được liệt kê trong bảng trên. Không chọn hộp kiểm **Đồng bộ ban đầu** khi chạy các bản đồ đó.
 
@@ -65,7 +65,7 @@ Hoàn thành các bước sau để chạy các bản đồ được liệt kê.
 
 1. Bật các vai trò nguồn lực Dự án cho bản đồ bảng **tất cả các công ty (bookableresourcecategories)** vì bản đồ này yêu cầu đồng bộ ban đầu. Trong trường **Bản cái cho đồng bộ hóa ban đầu**, hãy chọn **Common data service**. 
 
- ![Đồng bộ hóa bản đồ vai trò nguồn lực](media/6ResourceInitialSync.jpg)
+ ![Đồng bộ hóa bản đồ vai trò nguồn lực.](media/6ResourceInitialSync.jpg)
 
  Chờ đến khi trạng thái của bản đồ là **Đang chạy** trước khi bạn chuyển sang bước tiếp theo.
 

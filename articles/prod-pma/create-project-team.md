@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006222"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005822"
 ---
 # <a name="create-a-project-team"></a>Tạo nhóm dự án
 
@@ -33,7 +33,7 @@ Cài đặt dạng xem cũng có thể được tùy chỉnh để mang lại d�
 
 Người quản lý dự án có thể chọn một vai trò trên trang và sau đó, nếu có sẵn một nguồn lực phù hợp với yêu cầu, hãy chọn dự trữ nguồn lực để thực hiện vai trò đó. Lưu ý rằng không cần dự trữ nguồn lực tại thời điểm này trong giai đoạn lập kế hoạch. Khi tạo một WBS, bạn có thể thay các vai trò bằng nguồn lực có biên chế cho dự án. Nếu vai trò được thay bằng nguồn lực có biên chế trong WBS, thiết lập nguồn lực sẽ tự động cập nhật danh sách và lịch trình của nhóm dự án.
 
-[![Danh sách nhóm dự án bao gồm cả vai trò và nguồn lực thực tế](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Danh sách nhóm dự án bao gồm cả vai trò và nguồn lực thực tế.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Người quản lý dự án có nhiều tùy chọn khác nhau để đặt trước nguồn lực cho một dự án, chẳng hạn như **Năng lực còn lại**, **Năng lực đầy đủ**, **Phần trăm năng lực** và **Chỉ định giờ**. Các tùy chọn đặt trước này có thể bị hủy bỏ bất cứ lúc nào nếu việc phân công nguồn lực thay đổi. Hai loại đặt trước được hỗ trợ:
 

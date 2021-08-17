@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998212"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998352"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Thu hồi các mục nhập thời gian hoặc chi phí đã được phê duyệt
 
@@ -98,13 +98,13 @@ Nếu yêu cầu thu hồi bị từ chối, thì không có ảnh hưởng tài
 
 Hình minh họa sau hiển thị các thay đổi xảy ra đối với các mục nhập thời gian đã được phê duyệt khi chúng được thu hồi.
 
-![Chuyển đổi trạng thái mục nhập thời gian](media/TimeEntryStateTransitions.png)
+![Chuyển đổi trạng thái mục nhập thời gian.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Các thay đổi đối với bản ghi mục nhập chi phí
 
 Hình minh họa sau hiển thị các thay đổi xảy ra đối với các mục nhập chi phí đã được phê duyệt khi chúng được thu hồi.
 
-![Giao dịch trạng thái Mục nhập chi phí](media/ExpenseEntryStateTransitions.png)
+![Giao dịch trạng thái Mục nhập chi phí.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

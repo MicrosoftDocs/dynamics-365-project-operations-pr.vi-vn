@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011217"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996282"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Dùng nguồn lực đăng ký được làm thông số định giá
 
@@ -64,18 +64,18 @@ Bản ghi thông số định giá của **msydn_bookableresource** phải đư�
 1. Bấm đúp vào hàng trong lưới **Thông số định giá** để mở trang thông số của **msdyn_bookableresource**.
 2. Trên trang thông số, ở tab **Có liên quan**, hãy chọn **Tên trường thông số định giá**.
 
-  ![Tab tên trường phương diện định giá](media/PD-fieldname.png)
+  ![Tab tên trường phương diện định giá.](media/PD-fieldname.png)
 
 3. Trong dạng xem liên kết mở ra, hãy chọn **Thêm tên trường thông số định giá mới**.
 
-  ![Thêm tên trường phương diện định giá mới](media/Add-NewPD-fieldname.png)
+  ![Thêm tên trường phương diện định giá mới.](media/Add-NewPD-fieldname.png)
 
   Thao tác này sẽ mở ra trang **Tên trường phương diện định giá mới** cho **msdyn_bookableresource**. 
 
 4. Trên trang **Tên trường thông số định giá mới**, hãy thêm **msdyn_projectteam** vào **Tên logic của thực thể**.
 5. Thêm **msdyn_bookableresourceid** vào **Tên trường**.
 
- ![Biểu mẫu tên trường phương diện định giá mới](media/PD-fieldname-Added.png)
+ ![Biểu mẫu tên trường phương diện định giá mới.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

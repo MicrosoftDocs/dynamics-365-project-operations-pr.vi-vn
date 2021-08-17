@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999877"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001142"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa danh mục chi phí của dự án giữa Finance and Operations và Project Service Automation
 
@@ -56,7 +56,7 @@ Nếu các danh mục chi phí dự án được tạo chính trong Project Serv
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Đồng bộ hóa danh mục chi phí của dự án từ Finance sang Project Service Automation
 
@@ -93,7 +93,7 @@ Khi đồng bộ hóa với Project Service Automation, bạn phải sử dụng
 
 Hình sau đây minh họa một ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Finance sang Project Service Automation.
 
-[![Ánh xạ mẫu danh mục chi phí của dự án với mẫu Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Ánh xạ mẫu danh mục chi phí của dự án với mẫu Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Đồng bộ hóa danh mục chi phí của dự án từ Project Service Automation sang Finance
 
@@ -121,7 +121,7 @@ Hình sau đây minh họa một ví dụ về việc ánh xạ nhiệm vụ m�
 > [!NOTE]
 > Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 
-[![Ánh xạ mẫu Project Service Automation với Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Ánh xạ mẫu Project Service Automation với Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
