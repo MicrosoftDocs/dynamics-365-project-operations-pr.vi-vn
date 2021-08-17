@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990831"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Tìm dự án tiếp theo bằng ứng dụng Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Với ứng dụng Project Finder Mobile trên điện thoại [!INCLUDE[tn_ipho
   
  Nhấn vào mũi tên bên phải của dự án mà bạn quan tâm để xem thêm chi tiết và đăng ký dự án đó.  
   
- ![Danh sách các dự án phù hợp với kỹ năng trong ứng dụng Tìm kiếm Dự án dành cho Thiết bị di động](../psa/media/project-service-project-finder-list.png "Danh sách các dự án phù hợp với kỹ năng trong ứng dụng Tìm kiếm Dự án dành cho Thiết bị di động")  
+ ![Danh sách các dự án phù hợp với kỹ năng trong ứng dụng Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Danh sách các dự án phù hợp với kỹ năng trong ứng dụng Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Cập nhật các kỹ năng của bạn  
  Nhấn vào nút hồ sơ ở cuối màn hình bên phải để cập nhật kỹ năng và mức độ thành thạo của bạn.  
   
- ![Nút cấu hình trong ứng dụng Tìm kiếm Dự án dành cho Thiết bị di động](../psa/media/project-service-project-finder-profile.png "Nút cấu hình trong ứng dụng Tìm kiếm Dự án dành cho Thiết bị di động")  
+ ![Nút cấu hình trong ứng dụng Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Nút cấu hình trong ứng dụng Project Finder Mobile")  
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)

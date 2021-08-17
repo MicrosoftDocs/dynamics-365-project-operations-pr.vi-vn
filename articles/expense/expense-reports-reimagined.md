@@ -2,7 +2,7 @@
 title: Báo cáo chi phí được xây dựng lại
 description: Chủ đề này giải thích trải nghiệm được thiết kế lại đối với mục nhập báo cáo chi phí.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251030"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997857"
 ---
 # <a name="expense-reports-reimagined"></a>Báo cáo chi phí được xây dựng lại
 
@@ -57,12 +57,13 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để đơn gi�
 | Bộ tính toán tỷ giá hối đoái | Một bộ tính toán tỷ giá hối đoái được thêm vào cho phép bạn tính toán tỷ giá hối đoái cho các giao dịch thanh toán bằng nhiều loại tiền. |
 | Lưu và thêm các mô tả chi phí mới | Các nút **Lưu** và **Mới** có sẵn khi chi phí mới được nhập, nhằm giúp bạn nhanh chóng nhập mô tả chi phí. |
 | Khả năng hiển thị tốt hơn thành các mô tả chia nhỏ và được chia thành từng khoản mục | Các dòng được chia nhỏ và chia thành từng khoản mục được thêm trực tiếp vào danh sách chi phí để tăng khả năng hiển thị và giúp bạn dễ dàng xác định xem có bất kỳ sai sót nào hay không. |
-| Xem chi tiết danh mục con trong các dòng được chia thành từng mục | Các dòng được chia nhỏ của chi phí chính hiển thị các nhãn danh mục con trong báo cáo chi phí, giúp bạn xem nhanh các chi tiết cụ thể.|
+| Xem chi tiết danh mục con trong các dòng được chia thành từng mục | Các dòng được lặp lại của một khoản chi phí chính hiển thị các nhãn danh mục con trên báo cáo chi phí. Việc chia thành từng khoản cho phép bạn xem nhanh các chi tiết cụ thể.|
 | Hiển thị biên lai trong quá trình chia thành từng khoản mục | Biên lai có thể được hiển thị trong quá trình chia thành từng khoản mục. |
 | Lựa chọn tạm ứng tiền mặt | Chọn một hoặc nhiều khoản tạm ứng tiền mặt để thực hiện một giao dịch chi phí duy nhất. |
 | Số dư khoản tạm ứng tiền mặt | Xem xét số dư tạm ứng tiền mặt theo thời gian thực khi bạn tạo bút toán chi phí so với các khoản tạm ứng tiền mặt đã được phê duyệt và đã thanh toán. |
 
 Bản phát hành ban đầu tập trung vào các kịch bản nhập chi phí. Mọi kịch bản phê duyệt hoặc đánh giá báo cáo chi phí sẽ tiếp tục sử dụng trang mục nhập chi phí hiện có.
+
 
 Các tính năng sau không được hỗ trợ trên không gian làm việc được mô phỏng lại của Báo cáo chi phí, nhưng được lên kế hoạch cho các bản phát hành trong tương lai: 
 

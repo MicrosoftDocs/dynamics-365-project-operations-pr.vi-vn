@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985572"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Cài đặt dữ liệu mẫu cho ứng dụng Project Service
 
@@ -86,7 +86,7 @@ Bạn nên có kế hoạch để máy tính duy trì trạng thái kết nối 
 Máy tính cần tắt chức năng trình bảo vệ màn hình. Nếu không, thông tin xác thực phiên cho quá trình cài đặt có thể mất khi trình bảo vệ màn hình hoạt động (trừ khi bạn giữ cho phiên luôn hoạt động xuyên suốt).
 
 > [!div class="mx-imgBorder"]
-> ![Ảnh chụp màn hình về cài đặt trình bảo vệ màn hình, trình bảo vệ màn hình đang tắt](media/sample-data-1.png)
+> ![Ảnh chụp màn hình về cài đặt trình bảo vệ màn hình, trình bảo vệ màn hình đang tắt.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Tải xuống và giải nén
 
@@ -142,7 +142,7 @@ Gói dữ liệu demo yêu cầu sáu người dùng. Để gói cài đặt đ�
 3. Mở **PkgFolder**, sau đó tìm và mở **ImportUserMapFile.xml**. Cập nhật các trường **New=** cho địa chỉ email của người dùng tương ứng trong hệ thống của bạn.
 
    > [!div class="mx-imgBorder"]
-   > ![Ảnh chụp màn hình của UserMapFile](media/sample-data-7.png)
+   > ![Ảnh chụp màn hình của UserMapFile.](media/sample-data-7.png)
 
 4. Nếu người dùng tên đầy đủ là "Spencer Low" có ID người dùng khác với **"spencerl"**, thì bạn cần cập nhật tệp bổ sung. Mở **DemoDataPreImportConfig.xml** và tìm thẻ **userstocreateandconfigure**. Cập nhật thẻ **\<login\>** bằng loginId (có phân biệt chữ hoa chữ thường). 
 
@@ -172,7 +172,7 @@ Gói dữ liệu demo yêu cầu sáu người dùng. Để gói cài đặt đ�
 5. Chọn **Tiếp** cho đến khi bạn thấy hộp thoại **Thiết lập dữ liệu demo**.
 
    > [!div class="mx-imgBorder"]
-   > ![Ảnh chụp màn hình cửa sổ trạng thái trình cài đặt dữ liệu demo](media/sample-data-3.png)
+   > ![Ảnh chụp màn hình cửa sổ trạng thái trình cài đặt dữ liệu demo.](media/sample-data-3.png)
 
 6. Trước khi tiếp tục, hãy lưu ý rằng việc cài đặt dữ liệu mẫu có thể mất tối đa một giờ (thông thường là ~10 phút). Bạn sẽ cần phải đảm bảo rằng máy tính duy trì trạng thái bật và kết nối với mạng trong suốt quá trình cài đặt và phiên của bạn vẫn hoạt động.   
 
@@ -191,10 +191,10 @@ Sau khi dữ liệu mẫu tải hoàn toàn, đăng nhấp với tư cách ngư�
 - Nếu ứng dụng Field Service được cài đặt, hãy đi đến **Project Service** > **Thiết đặt** > **Bảng giá**. Xác nhận chi phí và mức tính phí tồn tại. Đi đến **Field Service** > **Thiết đặt** > **Bảng giá** và kiểm tra để đảm bảo chi phí và mức tính phí tồn tại, với đơn vị tiền tệ thích hợp, cho mỗi quốc gia/vùng lãnh thổ trong tập hợp dữ liệu.
 
   > [!div class="mx-imgBorder"]
-  > ![Ảnh chụp màn hình một bảng giá hiện hoạt](media/sample-data-4.png)
+  > ![Ảnh chụp màn hình bảng giá hiện hoạt.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Ảnh chụp màn hình đơn vị tổ chức hiện hoạt](media/sample-data-5.png)
+  > ![Ảnh chụp màn hình đơn vị tổ chức hiện hoạt.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Ghi chú kỹ thuật
 
@@ -295,7 +295,7 @@ Nếu bạn cần thay đổi giờ làm việc cho các mẫu nguồn lực có
 Chọn một người dùng (ví dụ: Spencer Low) và thay đổi giờ làm việc của Spencer thành giờ bạn muốn áp dụng cho nhiều người dùng. Đi đến **Universal Resource Scheduling** > **Thiết đặt** > **Mẫu giờ làm việc** và chỉnh sửa bản ghi **Mẫu công việc mặc định**. Trong trường **Nguồn lực mẫu**, chọn một người dùng có giờ làm việc mà bạn muốn áp dụng cho các nguồn lực khác. Đi đến **Universal Resource Scheduling** > **Lập lịch** > **Tài nguyên** > **Tài nguyên có thể đặt hoạt động**. Chọn nguồn lực bạn muốn thay đổi, sau đó chọn **Đặt lịch**. Trên danh sách thả xuống **Mẫu công việc**, hãy chọn mẫu **Giờ làm việc mặc định** hoặc một mẫu khác có nguồn lực mẫu chính xác. Khi đi đến bảng lịch trình, bạn có thể thấy các nguồn lực hiện đã có giờ làm việc được cập nhật.
 
 > [!div class="mx-imgBorder"]
-> ![Ảnh chụp màn hình nguồn lực có thể đặt trước hiện hoạt](media/sample-data-6.png)
+> ![Ảnh chụp màn hình nguồn lực có thể đặt trước hiện hoạt.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

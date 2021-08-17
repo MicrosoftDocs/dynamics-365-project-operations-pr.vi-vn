@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012612"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991062"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 
@@ -101,23 +101,23 @@ Hoàn thành các bước sau để tạo hồ sơ doanh thu và chi phí dự �
 
 Thời gian và vật tư – không có WIP
 
-![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - không có WIP](media/time-material-no-wip.png)
+![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - không có WIP.](media/time-material-no-wip.png)
 
 Thời gian và vật tư – WIP (doanh thu)
 
-![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - WIP](media/time-material-with-wip.png)
+![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - WIP.](media/time-material-with-wip.png)
 
 Giá cố định – Không có WIP
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - không có WIP](media/fixed-price-no-wip.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - không có WIP.](media/fixed-price-no-wip.png)
 
 Giá cố định – hợp đồng đã hoàn thành
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - hợp đồng đã hoàn thành](media/fixed-price-completed-contract.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - hợp đồng đã hoàn thành.](media/fixed-price-completed-contract.png)
 
 Giá cố định – phần trăm hoàn thành
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - phần trăm hoàn thành](media/fixed-price-completed-percentage.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - phần trăm hoàn thành.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Ví dụ về sự kiện kế toán cho hồ sơ doanh thu và chi phí dự án mẫu.

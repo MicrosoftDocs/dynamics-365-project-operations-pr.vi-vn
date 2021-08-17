@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987642"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Tạo đăng ký dự án từ bảng Lịch trình
 
@@ -43,7 +43,7 @@ Bạn có thể tạo nguồn lực chung và gán cho nguồn lực một hoặ
 
 1.  Trên bảng Lịch trình, nguồn lực này sẽ hiển thị trên tab **Mở yêu cầu**. Bạn sẽ cần dùng các bộ lọc cột trên lưới nếu bạn có nhiều yêu cầu mở. 
 
-    ![Mở tab Yêu cầu trên bảng Lịch trình](media/FAQ-Project-Booking-Schedule-Board-1.png "Ảnh chụp màn hình khi đăng ký và bảng phân công")
+    ![Mở tab Yêu cầu trên bảng Lịch trình.](media/FAQ-Project-Booking-Schedule-Board-1.png "Ảnh chụp màn hình khi đăng ký và bảng phân công")
 
 2. Chọn yêu cầu. Tab **Tìm khả năng đáp ứng** sẽ xuất hiện ở phía trên dòng được chọn.
  
@@ -53,7 +53,7 @@ Bạn có thể tạo nguồn lực chung và gán cho nguồn lực một hoặ
 
     Chọn **Đăng ký** để đăng ký nguồn lực trên nhóm dự án.
 
-![Tạo bảng điều khiển Đăng ký Nguồn lực](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Tạo bảng điều khiển Đăng ký Nguồn lực.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Đăng ký từ Yêu cầu Chính
@@ -62,7 +62,7 @@ Tạo dự án tự động trong Project Service sẽ tự động tạo yêu c
 
 1. Để đăng ký nguồn lực bằng Yêu cầu Chính, trên bảng Lịch trình, chọn tab **Dự án**. Bạn sẽ cần dùng bộ lọc cột trên cột **Dự án** nếu bạn có nhiều dự án.
 
-   ![Bộ lọc cột trên bảng Lịch trình](media/FAQ-Project-Booking-Schedule-Board-2.png "Ảnh chụp màn hình khi đăng ký và bảng phân công")
+   ![Bộ lọc cột trên bảng Lịch trình.](media/FAQ-Project-Booking-Schedule-Board-2.png "Ảnh chụp màn hình khi đăng ký và bảng phân công")
 
 2. Chọn yêu cầu mà chỉ có tên dự án có cùng tên đó và có khoảng thời gian là không (0).
 

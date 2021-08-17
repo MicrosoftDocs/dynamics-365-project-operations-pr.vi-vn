@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011082"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986787"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Cập nhật Project Operations trong môi trường Tài chính
 
@@ -33,7 +33,7 @@ Chủ đề này cung cấp thông tin về cách cập nhật Dynamics 365 Proj
 4. Xác nhận rằng môi trường đó đang chạy. Nếu môi trường đó chưa khởi động, hãy khởi động.
 5. Trong phần **Bản phát hành mới** ở trang **Các bản cập nhật hiện có**, hãy chọn **Xem bản cập nhật** để tìm bản 10.0.15.
 
-![Nút Xem bản cập nhật](media/view-update.png)
+![Nút Xem bản cập nhật.](media/view-update.png)
 
 6. Trên trang **Bảng cập nhật nhị phân**, hãy chọn **Lưu gói**.
 7. Trên trang **Xem lại và lưu bản cập nhật**, hãy chọn **Lưu gói**.
@@ -47,11 +47,11 @@ Chủ đề này cung cấp thông tin về cách cập nhật Dynamics 365 Proj
 2. Từ danh sách, hãy chọn gói bạn đã lưu trước đó rồi chọn **Áp dụng**.
 3. Chọn **Có** để xác nhận rằng bạn muốn triển khai gói.
 
-![Xác nhận hộp thoại triển khai gói](media/confirm-package-deployment.png)
+![Xác nhận hộp thoại triển khai gói.](media/confirm-package-deployment.png)
 
 4. Chọn **Có** để xác nhận rằng bạn muốn cập nhật ứng dụng.
 
-![Xác nhận hộp thoại cập nhật ứng dụng](media/confirm-application-update.png)
+![Xác nhận hộp thoại cập nhật ứng dụng.](media/confirm-application-update.png)
 
 Quá trình triển khai và cập nhật ứng dụng sẽ bắt đầu. 
 
@@ -84,7 +84,7 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
 
 1. Trong môi trường Dataverse, hãy đi đến **Cài đặt** và trong nhóm **Hệ thống**, hãy chọn **Bảo mật**.
 
-![Cài đặt môi trường Dataverse](media/Picture21.png)
+![Thiết đặt môi trường Dataverse.](media/Picture21.png)
 
 2. Chọn **Vai trò Bảo mật**.
 3. Từ danh sách vai trò, hãy chọn **Người dùng ứng dụng ghi kép** rồi chọn tab **Thực thể tùy chỉnh**. 
@@ -121,7 +121,7 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
 6. Từ danh sách sơ đồ, hãy chọn **Sổ cái (msdyn_ledgers)** ánh xạ với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. 
 7. Trong trường **Đối tượng chính cho đồng bộ hóa ban đầu**, hãy chọn **ứng dụng Finance and Operations** rồi chọn **Chạy**.
  
- ![Đồng bộ hóa sơ đồ sổ cái](media/DW6.png)
+ ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
  
 
 

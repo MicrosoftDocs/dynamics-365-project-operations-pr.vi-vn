@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009957"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989577"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Không gian làm việc di động mục nhập thời gian dự án
 
@@ -94,7 +94,7 @@ Tải xuống và cài đặt ứng dụng dành cho thiết bị di động Fin
 3.  Lần đầu tiên đăng nhập, bạn sẽ được nhắc nhập tên người dùng và mật khẩu của mình. Nhập thông tin xác thực của bạn.
 4.  Sau khi bạn đăng nhập, không gian làm việc có sẵn cho công ty của bạn sẽ được hiển thị. Lưu ý rằng nếu quản trị viên hệ thống của bạn phát hành không gian làm việc mới sau đó, bạn sẽ phải làm mới danh sách không gian làm việc di động.
 
-[![Kéo để làm mới](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Kéo để làm mới.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Nhập thời gian bằng cách sử dụng không gian làm việc di động Mục nhập thời gian dự án
 1.  Trên thiết bị di động của bạn, hãy chọn không gian làm việc **Mục nhập thời gian dự án**.

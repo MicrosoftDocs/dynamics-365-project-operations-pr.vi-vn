@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007617"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992412"
 ---
 # <a name="estimates"></a>Ước tính
 
@@ -83,24 +83,24 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 1. Mở PluginRegistrationTool và kết nối với phiên bản trực tuyến của bạn.
 2. Chọn **Tìm kiếm**, và tìm kiếm phần bổ trợ để cập nhật.
 
-    ![Hộp thoại Cây tìm kiếm](media/basic-guide-19.png)
+    ![Hộp thoại Cây tìm kiếm.](media/basic-guide-19.png)
 
 3. Chọn phần bổ trợ, sau đó, trên trang chính, chọn **Chọn**.
 4. Chọn bước trong phần bổ trợ để cập nhật, nhấp chuột phải, sau đó chọn **Cập nhật**.
 
-    ![Chọn một bước trong phần bổ trợ](media/basic-guide-20.png)
+    ![Chọn một bước trong phần bổ trợ.](media/basic-guide-20.png)
 
 5. Trong hộp thoại **Cập nhật bước hiện tại**, trong trường **Lọc thuộc tính**, chọn nút dấu chấm lửng (**...**):
  
-    ![Hộp thoại cập nhật bước hiện có](media/basic-guide-21.png)
+    ![Hộp thoại cập nhật bước hiện có.](media/basic-guide-21.png)
 
 6. Trong hộp thoại **Chọn thuộc tính**, chọn các hộp kiểm cho thuộc tính tùy chỉnh.
 
-    ![Hộp thoại Chọn thuộc tính](media/basic-guide-22.png)
+    ![Hộp thoại Chọn thuộc tính.](media/basic-guide-22.png)
 
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
  
-    ![Nút Bước cập nhật](media/basic-guide-23.png)
+    ![Nút Bước cập nhật.](media/basic-guide-23.png)
 
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng PluginRegistrationTool.

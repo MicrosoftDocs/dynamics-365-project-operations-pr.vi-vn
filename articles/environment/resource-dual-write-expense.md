@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986607"
 ---
 # <a name="expense-management-integration"></a>Tích hợp quản lý chi phí
 
@@ -28,7 +28,7 @@ Khi triển khai toàn bộ chi phí, các danh mục chi phí được tạo v�
 2. Trong Tài chính, hãy chuyển đến **Quản lý chi phí** > **Thiết lập** > **Danh mục được chia sẻ** và chọn một danh mục được chia sẻ với lớp giao dịch **Chi phí**. Đặt thông số **Có thể được sử dụng trong Chi phí** thành **Đúng** và xác định loại chi phí sẽ sử dụng.
 3. Sử dụng bản ghi danh mục được chia sẻ này, tạo một danh mục chi phí mới bằng cách chuyển đến phần **Quản lý chi phí** > **Thiết lập** > **Danh mục chi phí** rồi chọn **Mới**. Khi bản ghi được lưu, tính năng ghi kép sử dụng sơ đồ bảng, **Thực thể xuất danh mục dự án tích hợp của Project Operations (msdyn\_expensecategories)** để đồng bộ hóa bản ghi này với Dataverse.
 
-  ![Tích hợp danh mục chi phí](./media/DW6ExpenseCategories.png)
+  ![Tích hợp danh mục chi phí.](./media/DW6ExpenseCategories.png)
 
 Các danh mục chi phí trong ứng dụng Finance and Operations dành riêng cho công ty hoặc pháp nhân. Có các bản ghi riêng biệt, tương ứng với pháp nhân cụ thể trong Dataverse. Khi người quản lý dự án ước tính chi phí, họ không thể chọn danh mục chi phí được tạo cho một dự án thuộc sở hữu của công ty khác thay cho công ty sở hữu dự án mà họ đang thực hiện. 
 
@@ -40,7 +40,7 @@ Báo cáo chi phí được tạo và phê duyệt trong ứng dụng Finance an
   - Tính năng ghi kép đồng bộ hóa Dataverse bằng bản đồ bảng **Thực thể xuất chi phí dự án tích hợp trong Project Operations (msdyn\_expenses)**.
   - Sổ cái thuế, sổ cái nhà cung cấp và các bài đăng tài chính khác được ghi nhận là có thể áp dụng tại thời điểm đăng báo cáo chi phí.
 
-  ![Tích hợp báo cáo chi phí](./media/DW6ExpenseReports.png)
+  ![Tích hợp báo cáo chi phí.](./media/DW6ExpenseReports.png)
 
 Khi một bản ghi được ghi vào thực thể **Chi phí** trong Dataverse, hệ thống sẽ kích hoạt quá trình phê duyệt hồ sơ tự động. Nếu cần, bạn có thể xem lại trạng thái quy trình phê duyệt tự động trong Dataverse bằng cách chuyển đến phần **Cài đặt nâng cao** > **Hệ thống** > **Công việc hệ thống**. Sau khi phê duyệt xong, các bản ghi lớp giao dịch chi phí được tạo trong thực thể **Giá trị thực tế**.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002306"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986517"
 ---
 # <a name="vendor-invoice-integration"></a>Tích hợp hóa đơn của nhà cung cấp
 
@@ -36,7 +36,7 @@ Trong Project Operations, các hóa đơn của nhà cung cấp liên quan đế
 
 Sổ cái thuế, sổ cái nhà cung cấp và các bài đăng tài chính khác được ghi nhận là có thể áp dụng trong Dynamics 365 Finance khi hóa đơn của nhà cung cấp được đăng.
 
-![Tích hợp hóa đơn của nhà cung cấp](media/DW7VendorInvoice.png)
+![Tích hợp hóa đơn của nhà cung cấp.](media/DW7VendorInvoice.png)
 
 Khi hồ sơ được ghi vào một thực thể **Hóa đơn bán hàng** trong Dataverse, quá trình phê duyệt tự động của các hồ sơ bắt đầu. Nếu cần, bạn có thể xem lại trạng thái quy trình phê duyệt tự động trong Dataverse bằng cách chuyển đến phần **Cài đặt nâng cao** > **Hệ thống** > **Công việc hệ thống**. Sau khi phê duyệt xong, hệ thống sẽ tạo bản ghi lớp giao dịch vật tư trong thực thể **Giá trị thực tế**.
 

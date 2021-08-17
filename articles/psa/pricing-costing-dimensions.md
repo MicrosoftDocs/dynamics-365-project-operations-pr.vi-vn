@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368907"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998487"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Trang chủ tham số giá và chi phí
 
@@ -41,7 +41,7 @@ Do tính chất điển hình của các loại công việc này và những ng
 
 PSA vận chuyển với một bộ tham số giá mặc định. Bạn có thể xem các tham số này bằng các chuyển đến **Project Service** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Điều này sẽ cho phép bạn thiết lập giá cả và chi phí cho mỗi kết hợp vai trò và đơn vị tổ chức.
 
-![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
+![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Nếu bạn đã dùng các trường sẵn dùng của vai trò và đơn vị tổ chức ở dạng tham số giá trước phiên bản 3 của PSA, thì sẽ không có thay đổi nào có thể quan sát được. Bạn có thể tiếp tục sử dụng Project Service như bình thường. 
