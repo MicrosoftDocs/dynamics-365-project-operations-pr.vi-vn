@@ -1,9 +1,11 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Bắt đầu
+- name: Bắt đầu
   items:
     - name: Xác định loại triển khai của bạn
       href: environment/determine-deployment-type.md
+    - name: Đăng ký bản dùng thử Project Operations
+      href: environment/admin-trials.md
     - name: Các bản cập nhật của Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -52,8 +54,10 @@
               href: environment/resource-dual-write-expense.md
             - name: Tích hợp hóa đơn của nhà cung cấp
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Tính năng mới
+    - name: Có gì mới
       items:
+        - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -416,15 +420,17 @@
           href: material/material-usage-log.md
     - name: Phê duyệt
       items:
-        - name: Tổng quan về phê duyệt
+        - name: Tổng quan về Phê duyệt
           href: approvals/approvals-overview.md
+        - name: Các bộ phê duyệt
+          href: approvals/approval-sets.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
     - name: Số liệu thực tế
       items:
-        - name: Tổng quan về giá trị thực tế
+        - name: Tổng quan về số liệu thực tế
           href: actuals/actuals-overview.md
         - name: Liên kết số liệu thực tế với hồ sơ gốc
           href: actuals/linkingactuals.md
@@ -518,8 +524,12 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Mô hình bảo mật
           href: environment/security-model.md
-    - name: Tính năng mới
+    - name: Có gì mới
       items:
+        - name: Quyền truy cập sớm đợt 2 năm 2021 có gì mới - triển khai bản đơn giản
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Tính năng mới kể từ tháng 8 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Tính năng mới kể từ tháng 7 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Tính năng mới kể từ tháng 6 năm 2021 – triển khai bản đơn giản
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Quản lý hợp đồng phụ trong Project Operations
       items:
-        - name: Tổng quan về quản lý hợp đồng phụ
+        - name: Quản lý hợp đồng phụ trong Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Các khái niệm chính trong hợp đồng phụ
+        - name: Giao thầu phụ trong Quyền truy cập sớm tháng 10 năm 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Các khái niệm chính trong giao thầu phụ
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Quản lý nhà cung cấp và bảng giá dự án
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Nhà thầu phụ là nguồn lực có thể đặt trước
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Chi tiết của tiêu đề cho Hợp đồng phụ
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Mô tả hợp đồng phụ cho thời gian
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Mô tả hợp đồng phụ cho chi phí
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Mô tả hợp đồng phụ cho sản phẩm
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Nguồn lực mô tả hợp đồng phụ
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Dấu mốc mô tả hợp đồng phụ
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Thời gian
       items:
         - name: Tổng quan về thời gian
@@ -866,15 +890,17 @@
           href: material/material-usage-log.md
     - name: Phê duyệt
       items:
-        - name: Tổng quan về phê duyệt
+        - name: Tổng quan về Phê duyệt
           href: approvals/approvals-overview.md
+        - name: Các bộ phê duyệt
+          href: approvals/approval-sets.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
     - name: Số liệu thực tế
       items:
-        - name: Tổng quan về giá trị thực tế
+        - name: Tổng quan về số liệu thực tế
           href: actuals/actuals-overview.md
         - name: Liên kết số liệu thực tế với hồ sơ gốc
           href: actuals/linkingactuals.md
@@ -1060,6 +1086,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 33, V3'
@@ -1306,11 +1334,11 @@
               href: psa/time-entry-calendar.md
             - name: Tùy chỉnh mục nhập thời gian hàng tuần
               href: psa/time-entry-extensibility-v3.md
-            - name: Các bộ phê duyệt
+            - name: Bộ phê duyệt trong Project Service Automation
               href: psa/approval-set.md
     - name: Câu hỏi thường gặp và khắc phục sự cố (3.x)
       items:
-        - name: Tại sao giá mặc định về 0 trên thực tế chi phí?
+        - name: Tại sao giá được mặc định là 0 trên chi phí phí tổn thực tế?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Tại sao giá được mặc định là 0 trên chi phí bán hàng thực tế?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
