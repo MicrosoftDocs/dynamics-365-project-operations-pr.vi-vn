@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001682"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440803"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Quản lý nhiều khách hàng trên các báo giá dự án - bản đơn giản
 
@@ -37,7 +37,7 @@ Một khách hàng nhận báo giá có thể được tạo, cập nhật hoặ
 
 | **Trường** | **Vị trí** | **Mô tả** | **Tác động xuôi tuyến** |
 | --- | --- | --- | --- |
-| T.khoản | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Liệt kê tất cả các tài khoản đang hoạt động. Trường này bị khóa sau khi bản ghi được tạo. Nếu bạn muốn cập nhật nó, hãy xóa bản ghi và tạo lại nó. Nếu bạn đã ghi lại bất kỳ giá trị thực tế nào hoặc nếu bản ghi khách hàng nhận báo giá là khách hàng chính, bạn sẽ được phép xóa bản ghi. | Khách hàng nhận báo giá được sao chép dưới dạng khách hàng nhận mô tả báo giá khi mô tả báo giá được tạo. Khách hàng nhận báo giá cũng được sao chép cho khách hàng hợp đồng dự án khi báo giá được chốt. |
+| T.khoản | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Liệt kê tất cả các tài khoản đang hoạt động. Trường này bị khóa sau khi bản ghi được tạo. Nếu bạn muốn cập nhật nó, hãy xóa bản ghi và tạo lại nó. Nếu bạn đã ghi lại bất kỳ số liệu thực tế nào, hoặc nếu bản ghi khách hàng báo giá là khách hàng chính, bạn sẽ không được phép xóa bản ghi. | Khách hàng nhận báo giá được sao chép dưới dạng khách hàng nhận mô tả báo giá khi mô tả báo giá được tạo. Khách hàng nhận báo giá cũng được sao chép cho khách hàng hợp đồng dự án khi báo giá được chốt. |
 | Phần trăm thanh toán chia tách | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Cho biết tỷ lệ phần trăm của mỗi giao dịch bán hàng chưa thanh toán sẽ được quy cho khách hàng nhận báo giá này. | Sao chép sang mô tả báo giá mới tạo và sang khách hàng hợp đồng dự án. |
 | Tên liên hệ xuất hóa đơn | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Đây là trường văn bản và cần được sử dụng để xác định người liên hệ Hóa đơn cho khách hàng này. Chúng được mặc định từ bản ghi tài khoản liên quan | Được sao chép sang khách hàng hợp đồng dự án khi chốt Báo giá và lần lượt đến trường Tên liên hệ xuất hóa đơn trên Hóa đơn được tạo cho khách hàng này. |
 | Tên nhận hóa đơn | Lưới có thể chỉnh sửa trên tab **Khách hàng nhận báo giá** và biểu mẫu **Chính** và **Tạo nhanh** cho khách hàng báo giá. | Trường văn bản này được sử dụng để xác định người liên hệ hóa đơn cho khách hàng này. | Được sao chép sang khách hàng hợp đồng dự án khi chốt báo giá và lần lượt đến trường **Tên liên hệ xuất hóa đơn** trên hóa đơn được tạo cho khách hàng này. |

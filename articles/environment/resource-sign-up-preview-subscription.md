@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007892"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323442"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -23,7 +23,7 @@ Chủ đề này giải thích cách đăng ký ưu đãi dùng thử và triể
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 - Người dùng triển khai bản xem trước phải có quyền quản trị viên toàn cầu đối với đối tượng thuê Azure. Bạn có thể tạo đối tượng thuê trong lần đổi ưu đãi đầu tiên. 
-- Việc triển khai môi trường Finance yêu cầu đăng ký Azure hợp lệ sẽ được lập hóa đơn cho mỗi môi trường. Bạn có thể sử dụng đăng ký hiện có của tổ chức mình hoặc sử dụng [Bản dùng thử Azure](https://azure.microsoft.com/en-us/free/) để bắt đầu. Môi trường CDS sẽ được cung cấp miễn phí trong khoảng thời gian giới hạn 30 ngày.
+- Việc triển khai môi trường Finance yêu cầu đăng ký Azure hợp lệ sẽ được lập hóa đơn cho mỗi môi trường. Bạn có thể sử dụng đăng ký hiện có của tổ chức mình hoặc sử dụng [Bản dùng thử Azure](https://azure.microsoft.com/free/) để bắt đầu. Môi trường CDS sẽ được cung cấp miễn phí trong khoảng thời gian giới hạn 30 ngày.
 
 > [!IMPORTANT]
 > Chỉ một cá nhân, quản trị viên đối tượng thuê, trong một tổ chức cần thực hiện nhiệm vụ này. Nếu bạn không phải là người đăng ký bản phát hành này, hãy đợi cho đến khi tổ chức của bạn được đăng ký và bạn đã nhận được thông tin xác thực người dùng của mình.
