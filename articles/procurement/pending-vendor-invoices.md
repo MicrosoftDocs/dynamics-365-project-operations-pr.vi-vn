@@ -2,17 +2,17 @@
 title: Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách ghi lại các hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009062"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547315"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -45,4 +45,5 @@ Hóa đơn của nhà cung cấp đang chờ xử lý có thể được ghi l�
     - Số dư của nhà cung cấp.
     - Số tiền thuế bán hàng.
     - Chi phí đối với dự án được ghi nhận vào tài khoản tính hợp mua sắm.
-    - Giao dịch thực tế của dự án tại Dataverse. Giao dịch này được tiếp tục xử lý bằng [Nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Việc đăng nhật ký này sẽ chuyển số tiền từ tài khoản tích hợp mua sắm sang tài khoản chi phí dự án.
+    - Chi phí thực tế của dự án giao dịch trong Dataverse.  Giao dịch này được tiếp tục xử lý bằng [Nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Việc đăng nhật ký này sẽ chuyển số tiền từ tài khoản tích hợp mua sắm sang tài khoản chi phí dự án. 
+    - Các giao dịch mua được thanh toán cho khách hàng của dự án bằng cách sử dụng phương thức thanh toán theo thời gian và vật liệu. Ngoài ra, các giao dịch bán hàng chưa lập hóa đơn được tạo cho các giao dịch mua trong Dataverse. Bảng giá sản phẩm trong Dataverse được sử dụng cho giá bán và số tiền cho giao dịch bán hàng chưa lập hóa đơn.

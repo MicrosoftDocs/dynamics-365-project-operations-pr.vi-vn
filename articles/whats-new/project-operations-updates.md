@@ -2,17 +2,17 @@
 title: Các bản cập nhật của Project Operations
 description: Chủ đề này cung cấp thông tin về các phiên bản đã phát hành của Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 08/09/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
-ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
+ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
+ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474539"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "7623386"
 ---
 # <a name="project-operations-updates"></a>Các bản cập nhật của Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations gồm 2 thành phần:
 - Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. Môi trường ứng dụng Finance and Operations được dùng trong Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho và Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất.
 
 ## <a name="project-operations-release-notes"></a>Ghi chú phát hành Project Operations
-- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](whats-new-august-2021-resource-based.md).
-- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](../pro/whats-new/whats-new-august-2021-lite.md).
+- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](whats-new-oct-2021-resource-based.md).
+- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](../pro/whats-new/whats-new-oct-2021-lite.md).
 - Ghi chú phát hành mới nhất của Project Operations cho trường hợp [lưu kho/sản xuất](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations phiên bản mới nhất
 
 | Project Operations trên môi trường Dataverse | Quản lý dự án và kế toán trong các môi trường ứng dụng Finance and Operations | 
 | --- | --- |
-| 4.14.0.99 | 10.0.20 |
+| 4.25.0.91 | 10.0.20 |
 
 Đối với kịch bản Nguồn lực/vật tư không tồn kho của Project Operations, bạn nên sử dụng phiên bản Dual Write Orchestration 2.2.2.83 trở lên.
 
@@ -47,41 +47,39 @@ Các bản cập nhật của Project Operations trên môi trường Dataverse 
 | Trạm | Khu vực | Số hiệu phiên bản hiện tại | Bản cập nhật tự động cho phần triển khai Lite | Bản cập nhật tự động cho phần triển khai Nguồn lực/hàng không nhập kho | Số hiệu phiên bản tiếp theo | Phiên bản tiếp theo được phát hành rộng rãi |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Trạm 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bản phát hành đầu tiên         |  4.14.0.99      | Hoàn tất           | Ngày 10 tháng 9 năm 2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
+|   &nbsp;  | Bản phát hành đầu tiên         |  4.25.0.91      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 29 tháng 10 năm 2021    |
 | Trạm 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nam Mỹ         |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
-|    &nbsp; | Canada                |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
-|   &nbsp;  | Ấn Độ                 |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
-|   &nbsp;  | Pháp                |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
-|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
-|   &nbsp;  | Nam Phi          |  4.14.0.152     | Ngày 10 tháng 9 năm 2021 | 17/09/2021  | TBD                 | Ngày 01 tháng 10 năm 2021    |
+|   &nbsp;  | Nam Mỹ         |  4.25.0.91      | Hoàn tất           | Ngày 15 tháng 10 năm 2021    | TBD                 | Ngày 29 tháng 10 năm 2021    |
+|   &nbsp;  | Canada                |  4.25.0.91      | Hoàn tất           | Ngày 15 tháng 10 năm 2021    | TBD                 | Ngày 29 tháng 10 năm 2021    |
+|   &nbsp;  | Ấn Độ                 |  4.25.0.91      | Hoàn tất           | Ngày 15 tháng 10 năm 2021    | TBD                 | Ngày 29 tháng 10 năm 2021    |
+|   &nbsp;  | Pháp                |  4.25.0.91      | Hoàn tất           | Ngày 15 tháng 10 năm 2021    | TBD                 | Ngày 29 tháng 10 năm 2021    |
+|   &nbsp;  | Nam Phi          |  4.25.0.91      | Hoàn tất           | Ngày 15 tháng 10 năm 2021    | TBD                 | Ngày 29 tháng 10 năm 2021    |
 | Trạm 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nhật Bản                 |  4.13.0.152     | Hoàn tất           | Hoàn tất            | 4.14.0.152          | Ngày 10 tháng 9 năm 2021  |
-|   &nbsp;  | Châu Á Thái Bình Dương          |  4.13.0.152     | Hoàn tất           | Hoàn tất            | 4.14.0.152          | Ngày 10 tháng 9 năm 2021  |
-|   &nbsp;  | Đảo Anh         |  4.13.0.152     | Hoàn tất           | Hoàn tất            | 4.14.0.152          | Ngày 10 tháng 9 năm 2021  |
-|   &nbsp;  | Châu Đại Dương               |  4.13.0.152     | Hoàn tất           | Hoàn tất            | 4.14.0.152          | Ngày 10 tháng 9 năm 2021  |
+|   &nbsp;  | Nhật Bản                 |  4.25.0.91      | Ngày 15 tháng 10 năm 2021   | Ngày 22 tháng 10 năm 2021    | TBD                 | Ngày 05 tháng 11 năm 2021   |
+|   &nbsp;  | Châu Á Thái Bình Dương          |  4.25.0.91      | Ngày 15 tháng 10 năm 2021   | Ngày 22 tháng 10 năm 2021    | TBD                 | Ngày 05 tháng 11 năm 2021   |
+|   &nbsp;  | Đảo Anh         |  4.25.0.91      | Ngày 15 tháng 10 năm 2021   | Ngày 22 tháng 10 năm 2021    | TBD                 | Ngày 05 tháng 11 năm 2021   |
+|   &nbsp;  | Châu Đại Dương               |  4.25.0.91      | Ngày 15 tháng 10 năm 2021   | Ngày 22 tháng 10 năm 2021    | TBD                 | Ngày 05 tháng 11 năm 2021   |
+|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.25.0.91      | Ngày 15 tháng 10 năm 2021   | Ngày 22 tháng 10 năm 2021    | TBD                 | Ngày 05 tháng 11 năm 2021   |
 | Trạm 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Châu Âu                |  4.13.0.152     | Hoàn tất           | 03 tháng 9 năm 2021  | 4.14.0.152          | 17/09/2021  |
+|   &nbsp;  | Châu Âu                |  4.14.0.99      | Hoàn tất           | Hoàn tất            | 4.25.0.91           | Ngày 15 tháng 10 năm 2021    |
 | Trạm 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bắc Mỹ         |  4.13.0.152     | 03 tháng 9 năm 2021 | Ngày 10 tháng 9 năm 2021  | 4.14.0.152          | Ngày 24 tháng 9 năm 2021  |
+|   &nbsp;  | Bắc Mỹ         |  4.14.0.99      | Hoàn tất           | Ngày 08 tháng 10 năm 2021    | 4.25.0.91           | Ngày 22 tháng 10 năm 2021    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lịch phát hành của giải pháp Quản lý dự án và kế toán trong môi trường ứng dụng Finance and Operations
 
 Các bản cập nhật cho giải pháp Quản lý dự án và kế toán được phát hành 8 lần một năm.
 
-|          Phiên bản được hỗ trợ          | Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         Ngày 28 tháng 5 năm 2021        |           Ngày 16 tháng 7 năm 2021           |                             30/07/2021                             |  22/10/2021  |
-|          10.0.19          |        Ngày 23 tháng 4 năm 2021       |            Ngày 18 tháng 6 năm 2021           |                             02/07/2021                             | 17/09/2021 |
-
-
+|Phiên bản được hỗ trợ| Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|    10.0.21      |         Ngày 2 tháng 8 năm 2021     |           Ngày 17 tháng 09 năm 2021      |                             Ngày 1 tháng 10 năm 2021                          |  Tháng 10 năm 2021 |
+|    10.0.20      |         Ngày 28 tháng 5 năm 2021        |           Ngày 16 tháng 7 năm 2021           |                             30/07/2021                            |  Ngày 22 tháng 10 năm 2021  |
 
 Ngày phát hành dự kiến có thể thay đổi. Để biết thêm thông tin, hãy xem [Tính khả dụng của bản cập nhật dịch vụ](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|          Phiên bản đích          | Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.21          |         Ngày 2 tháng 8 năm 2021     |           Ngày 17 tháng 09 năm 2021      |                             Ngày 1 tháng 10 năm 2021                           |  Tháng 10 năm 2021  |
-|          10.0.22          |      Ngày 3 tháng 9 năm 2021      |          Ngày 22 tháng 10 năm 2021         |                           Ngày 5 tháng 11 năm 2021                           |  Ngày 14 tháng 1 năm 2022  |
+|Phiên bản đích | Tính khả dụng của bản xem trước (PEAP) | Được cung cấp đại trà (tự cập nhật) | Ngày bắt đầu sản xuất theo lịch trình tự động cập nhật (qua Thiết đặt cập nhật LCS) |   Kết thúc dịch vụ   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      Ngày 3 tháng 9 năm 2021      |          Ngày 22 tháng 10 năm 2021         |                           Ngày 5 tháng 11 năm 2021                           |  Ngày 14 tháng 1 năm 2022  |
+|     10.0.23     |      Ngày 15 tháng 10 năm 2021       |        Tháng 10 năm 2021          |                          Tháng 31 năm 2021                           | Ngày 18 tháng 3 năm 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

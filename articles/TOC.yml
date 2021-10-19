@@ -54,8 +54,12 @@
               href: environment/resource-dual-write-expense.md
             - name: Tích hợp hóa đơn của nhà cung cấp
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Có gì mới
+    - name: Tính năng mới
       items:
+        - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -292,7 +296,7 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
-            - name: Sử dụng API lịch trình dự án (Bản xem trước công khai)
+            - name: Sử dụng các API lịch trình dự án
               href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Thu mua vật liệu không trữ kho cho các dự án sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
           href: procurement/pending-vendor-invoices.md
+        - name: Đặt mua vật liệu không trữ kho cho các dự án sử dụng đơn đặt hàng cho dự án
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Giữ chân nhà cung cấp
+          items:
+            - name: Tổng quan về giữ chân nhà cung cấp
+              href: procurement/vendor-retention-overview.md
+            - name: Thiết lập tỷ lệ giữ chân nhà cung cấp
+              href: procurement/set-up-vendor-retention.md
     - name: Lập hóa đơn
       items:
         - name: Tổng quan về quy trình lập hóa đơn
@@ -526,9 +538,13 @@
           href: environment/security-model.md
     - name: Có gì mới
       items:
-        - name: Quyền truy cập sớm đợt 2 năm 2021 có gì mới - triển khai bản đơn giản
+        - name: Quyền truy cập sớm đợt 2 năm 2021 có gì mới – triển khai bản đơn giản
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Tính năng mới kể từ tháng 8 năm 2021 – triển khai bản đơn giản
+        - name: Tính năng mới kể từ tháng 10 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Tính năng mới kể từ tháng 9 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: +Tính năng mới kể từ tháng 8 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Tính năng mới kể từ tháng 7 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-july-2021-lite.md
@@ -784,7 +800,7 @@
           items:
             - name: Phát triển các mẫu dự án với Sao chép dự án
               href: project-management/dev-copy-project.md
-            - name: Sử dụng API lịch trình dự án (Bản xem trước công khai)
+            - name: Sử dụng các API lịch trình dự án
               href: project-management/schedule-api-preview.md
     - name: Quản lý nguồn lực
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Mô tả hợp đồng phụ cho thời gian
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Mô tả hợp đồng phụ cho chi phí
+        - name: Mô tả hợp đồng phụ cho các hạng mục chi phí
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Mô tả hợp đồng phụ cho sản phẩm
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 34, V3'

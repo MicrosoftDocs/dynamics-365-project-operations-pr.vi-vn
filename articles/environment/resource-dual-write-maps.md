@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003842"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547135"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Các phiên bản bản đồ ghi kép Project Operations
 
@@ -49,8 +49,8 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho m�
 | Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Không cần phải cung cấp. |
 | Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. |
 | Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.14 | Không cần phải cung cấp. |
-| Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. |
-| Thực thể tích hợp Project Operations để ước tính chi phí (msdyn_estimateslines) | 1.0.0.2 | Không cần phải cung cấp. |
+| Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. |
+| Thực thể tích hợp Project Operations để dự toán chi phí (msdyn_estimatelines) | 1.0.0.2 | Không cần phải cung cấp. |
 | Thực thể tích hợp Project Operations để ước tính giờ (msdyn_resourceassignments) | 1.0.0.5 | Không cần phải cung cấp. |
 | Thực thể xuất danh mục chi phí dự án tích hợp của Project Operations (msdyn_expensecategories) | 1.0.0.1 | Không cần phải cung cấp. |
 | Thực thể xuất chi phí dự án tích hợp của Project Operations (msdyn_expenses) | 1.0.0.2 | Không cần phải cung cấp. |

@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323802"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558528"
 ---
 # <a name="subcontract-line-milestones"></a>Cột mốc mô tả hợp đồng phụ
 
@@ -50,15 +50,15 @@ Các cột mốc giá cố định trên một mô tả hợp đồng phụ có 
 3. Trên tab **Cột mốc mô tả hợp đồng phụ**, trên lưới phụ, hãy chọn **+ Cột mốc mô tả hợp đồng phụ mới**.
 4. Trên trang **Cột mốc mô tả hợp đồng phụ mới**, nhập thông tin cần thiết dựa trên bảng sau.
 
-    | Trường | Mô tả |
-    | --- | --- |
-    | Tên mốc | Tên mốc thời gian. |
-    | Mô tả | Mô tả về cột mốc.  |
-    | Ngày cột mốc | Ngày mà quá trình tạo hóa đơn tự động cần tìm trạng thái của cột mốc này để xem xét cho việc lập hóa đơn. Giá trị này được bao gồm trên dòng hóa đơn của nhà cung cấp khi lập hóa đơn cho hợp đồng phụ này. |
-    | Số lượng | Số tiền hay giá trị của mốc mà hóa đơn cho khách hàng sẽ được lập theo đó. Giá trị này được bao gồm trên dòng hóa đơn của nhà cung cấp khi lập hóa đơn cho hợp đồng phụ này. |
-    | Thuế | Số tiền thuế được áp cho mốc. Giá trị này được bao gồm trên dòng hóa đơn của nhà cung cấp khi lập hóa đơn cho hợp đồng phụ này. |
-    | Số tiền sau thuế | Trường chỉ đọc này được tính là Số tiền + Thuế. Giá trị này được bao gồm trên dòng hóa đơn của nhà cung cấp khi lập hóa đơn cho hợp đồng phụ này. |
-    | Tình trạng hóa đơn | Khi cột mốc được tạo, trạng thái này luôn được đặt thành **Chưa sẵn sàng để lập hóa đơn**.  Khi trạng thái là **Sẵn sàng lập hóa đơn**, việc tạo hóa đơn của nhà cung cấp bao gồm cột mốc này trên hóa đơn của nhà cung cấp. |
+    | Trường | Mô tả |Tác động chức năng|
+    | --- | --- |----------------------|
+    | Tên mốc | Tên mốc thời gian. |Đây sẽ được hiển thị là cột đầu tiên trong tất cả các tra cứu dựa trên các mốc mô tả của hợp đồng phụ. Mô tả hóa đơn nhà cung cấp được tạo dựa trên mốc này cũng sẽ sử dụng tên của mốc mô tả hợp đồng phụ làm tên mặc định của mô tả hóa đơn nhà cung cấp.|
+    | Mô tả | Mô tả về cột mốc. |Mô tả hóa đơn nhà cung cấp được tạo dựa trên mốc này cũng sẽ sử dụng mô tả của mốc mô tả hợp đồng phụ làm mô tả mặc định của mô tả hóa đơn nhà cung cấp.|
+    | Ngày dấu mốc | Ngày mà quá trình tạo hóa đơn tự động cần tìm trạng thái của cột mốc này để xem xét cho việc lập hóa đơn.| Giá trị này sẽ được sử dụng làm ngày mặc định của mô tả hóa đơn nhà cung cấp khi lập hóa đơn cho mô tả hợp đồng phụ này. |
+    | Số lượng | Số tiền hay giá trị của mốc mà hóa đơn cho khách hàng sẽ được lập theo đó. |Giá trị này được sử dụng làm số tiền mặc định trên mô tả hóa đơn của nhà cung cấp khi lập hóa đơn cho mô tả hợp đồng phụ này. |
+    | Thuế | Số tiền thuế được áp cho mốc.| Giá trị này được sử dụng làm số thuế mặc định trên mô tả hóa đơn của nhà cung cấp khi lập hóa đơn cho mô tả hợp đồng phụ này. |
+    | Số tiền sau thuế | Trường chỉ đọc này được tính là Số tiền + Thuế.|Giá trị này được sử dụng làm giá trị mặc định trên mô tả hóa đơn của nhà cung cấp khi lập hóa đơn cho mô tả hợp đồng phụ này. |
+    | Tình trạng hóa đơn | Khi cột mốc được tạo, trạng thái này luôn được đặt thành **Chưa sẵn sàng để lập hóa đơn**.|  Khi trạng thái là **Sẵn sàng lập hóa đơn**, việc tạo hóa đơn của nhà cung cấp bao gồm cột mốc này trên hóa đơn của nhà cung cấp. |
 
 5. Chọn **Lưu và Đóng**.
 

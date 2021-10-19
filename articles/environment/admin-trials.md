@@ -2,16 +2,16 @@
 title: Đăng ký bản dùng thử Project Operations
 description: Chủ đề này cung cấp thông tin về cách triển khai một bản dùng thử của Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418483"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599239"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Đăng ký bản dùng thử Project Operations 
 
@@ -85,15 +85,9 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
 
    Sau khi bắt đầu cấp phép, bạn được chuyển đến danh sách môi trường trong trung tâm quản trị Power Platform. Trong quá trình cấp phép, trạng thái môi trường của bạn là **Đang chuẩn bị phiên bản**.
  
-  Sau khi quá trình cấp phép hoàn tất, trạng thái môi trường của bạn là **Sẵn sàng**.
+  Khi quá trình cấp phép hoàn tất, trạng thái môi trường của bạn là **Sẵn sàng**. Quá trình cấp phép môi trường bao gồm việc triển khai dữ liệu demo.
  
-4.  Khi quá trình cấp phép hoàn tất, hãy chọn URL Microsoft Dataverse tương ứng và URL ứng dụng Finance and Operations để xác thực việc triển khai.
-
-## <a name="demo-data-installation"></a>Cài đặt dữ liệu demo
-
-Sử dụng các liên kết sau để truy cập các gói dữ liệu demo cho cả tài liệu không nhập kho và các kịch bản triển khai bản đơn giản. 
-- [Dữ liệu demo về nguyên vật liệu không nhập kho](resource-apply-pro-setup-config-data.md)
-- [Dữ liệu demo bản đơn giản](lite-apply-demo-setup-config-data.md)
+4.  Chọn URL Microsoft Dataverse tương ứng và URL ứng dụng Finance and Operations để xác thực việc triển khai.
 
 ## <a name="configuring-dual-write"></a>Đặt cấu hình ghi kép
 Nếu chỉ triển khai nguyên vật liệu không nhập kho, hãy đặt cấu hình ánh xạ ghi kép của bạn. Để biết thêm thông tin, hãy xem [Các phiên bản ánh xạ ghi kép Project Operations](resource-dual-write-maps.md).

@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323847"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506125"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Mô tả hợp đồng phụ cho các hạng mục chi phí
 
@@ -29,23 +29,23 @@ Một hợp đồng phụ trong Dynamics 365 Project Operations có thể có m�
 
 Bảng sau cung cấp thông tin về các trường trên trang chi tiết **Mô tả hợp đồng phụ** và trang **Tạo nhanh**.
 
-| **Trường** |  **Mô tả** |
-| ----------| ---------------- |
-| Tên | Tên của mô tả hợp đồng phụ. |
-| Mô tả | Mô tả ngắn gọn về các loại dịch vụ và sản phẩm đang được mua trên mô tả hợp đồng phụ. |
-| Loại mô tả | Trường này có giá trị mặc định là **Dựa trên số lượng**.  |
-| Phương thức thanh toán | Phương thức thanh toán của mô tả hợp đồng phụ. Dựa trên phương thức thanh toán của phần mô tả, lịch trình hóa đơn dựa trên cột mốc có sẵn cho phương thức thanh toán theo giá cố định.  |
-| Lớp giao dịch | Trường này có giá trị mặc định là **Thời gian**. Để tạo các mô tả hợp đồng phụ cho việc mua sản phẩm, hãy đặt trường **Lớp giao dịch** thành **Chi phí**. Giá trị trường này chỉ ra rằng mô tả hợp đồng phụ đang được sử dụng để ghi lại việc mua một loại sản phẩm hoặc dịch vụ sẽ được sử dụng cho các dự án. |
-| Danh mục giao dịch | Chọn thể loại giao dịch. |
-| Ngày bắt đầu được yêu cầu | Ngày mà các danh mục mua hàng phải có sẵn từ nhà cung cấp. Ngày yêu cầu được sử dụng để chọn một bảng giá dự án từ các bảng giá dự án kèm theo hợp đồng phụ. Chi phí của danh mục trên mô tả hợp đồng phụ được mặc định từ bảng giá đó. |
-| Ngày kết thúc được yêu cầu | Ngày mà các danh mục mua hàng không còn cần thiết nữa. Ngày này gọi là cảnh báo khi người quản lý dự án liên kết mô tả hợp đồng phụ này với các ước tính chi phí cụ thể cho các dự án được ghi ngày sau ngày này. |
-| Số lượng đã đặt hàng | Số lượng của danh mục được mua từ nhà cung cấp. Khi người quản lý dự án thấu chi từ số lượng đã mua, một cảnh báo sẽ xảy ra.  |
-| Nhóm đơn vị | Giá trị trường này mặc định dựa trên nhóm đơn vị mặc định được thiết lập cho danh mục đã chọn. |
-| Đơn vị | Giá trị trường này mặc định dựa trên đơn vị mặc định được thiết lập cho danh mục đã chọn. Sự kết hợp giữa danh mục và đơn vị được sử dụng để mặc định đơn giá trên mô tả hợp đồng phụ. |
-| Đơn giá | Giá trị trường đơn giá mặc định từ sự kết hợp của danh mục và đơn vị từ giá danh mục liên quan đến bảng giá dự án áp dụng cho việc bắt đầu mô tả hợp đồng phụ được yêu cầu.  |
-| Tổng con | Trường chỉ đọc này được tự động tính là đơn giá số lượng nếu cả giá trị số lượng và đơn giá được nhập. Nếu một trong hai hoặc cả hai trường trống, bạn có thể nhập giá trị vào trường này theo cách thủ công.  |
-| Thuế doanh thu | Nhập số tiền thuế bán hàng.  |
-| Tổng số tiền | Tổng số tiền của mô tả hợp đồng phụ bao gồm thuế. Trường này được tính là tổng phụ + thuế bán hàng.  |
+| **Trường** | **Mô tả** | **Tác động chức năng** |
+| --- | --- | --- |
+| Tên | Tên của mô tả hợp đồng phụ để giúp xác định. | Đây sẽ được hiển thị là cột đầu tiên trong tất cả các tra cứu dựa trên các mô tả hợp đồng phụ. |
+| Mô tả | Mô tả ngắn gọn về các loại chi phí đang được mua trên mô tả hợp đồng phụ. | Không có |
+|Loại mô tả | Trường này có giá trị mặc định là **Dựa trên số lượng**. |Không có |
+| Phương thức thanh toán | Đây là bộ tùy chọn đại diện cho hai mô hình hợp đồng chính được Project Operations hỗ trợ: **Giá cố định** và **Thời gian và Vật liệu**. | Lịch hóa đơn dựa trên cột mốc được cung cấp cho các mô tả hợp đồng phụ nếu phương pháp thanh toán Giá cố định được chọn. |
+| Lớp giao dịch | Trường này có giá trị mặc định là **Thời gian**. Để tạo các mô tả hợp đồng phụ cho việc mua sản phẩm, hãy đặt trường **Lớp giao dịch** thành **Chi phí**.  | Điều này cho thấy rằng mô tả hợp đồng phụ đang được sử dụng để ghi lại việc mua một loại chi phí được sử dụng cho các dự án. |
+| Danh mục giao dịch | Hiển thị danh sách các danh mục giao dịch đang hoạt động trong hệ thống. |Không có |
+| Ngày bắt đầu được yêu cầu | Nhập ngày mà các danh mục mua hàng phải có sẵn từ nhà cung cấp. | Bắt đầu được yêu cầu được sử dụng để chọn một bảng giá dự án từ các bảng giá dự án đính kèm với hợp đồng phụ. Chi phí của thể loại trên mô tả thầu phụ lấy từ bảng giá đó. |
+| Ngày kết thúc được yêu cầu | Nhập ngày mà các danh mục mua hàng sẽ không còn cần thiết nữa. | Điều này sẽ được sử dụng để hiển thị cảnh báo khi người quản lý dự án liên kết mô tả hợp đồng phụ này với các dự toán chi phí cụ thể của dự án được yêu cầu sau ngày này. |
+| Số lượng đã đặt hàng | Số lượng của danh mục được mua từ nhà cung cấp. | Điều này sẽ được sử dụng để hiển thị cảnh báo khi người quản lý dự án vẽ quá mức từ số lượng này.|
+| nhóm đơn vị đo | Giá trị mặc định dựa trên nhóm đơn vị mặc định được thiết lập cho danh mục đã chọn. |Không có |
+| Đơn vị | Giá trị mặc định dựa trên đơn vị mặc định được thiết lập cho danh mục đã chọn.  | Sự kết hợp của **Thể loại** và **Đơn vị** sẽ được sử dụng làm mặc định hoặc được tính cho đơn giá cho mô tả hợp đồng phụ.  |
+| Đơn giá | Giá trị mặc định sử dụng kết hợp của **Thể loại** và **Đơn vị** từ giá thể loại liên quan đến bảng giá dự án, áp dụng cho việc bắt đầu mô tả thầu phụ được yêu cầu. |Không có |
+| Tổng con | Đây là trường chỉ đọc được tính là Số lượng X Đơn giá, nếu cả giá trị số lượng và đơn giá đều được nhập. Nếu một trong hai hoặc cả hai trường đều trống, bạn có thể nhập giá trị vào trường này. |Không có |
+| Thuế doanh thu | Nhập số tiền thuế bán hàng. |Không có |
+| Tổng số tiền | Tổng số tiền của mô tả hợp đồng phụ bao gồm thuế. Trường này được tính là Tổng phụ + Thuế bán hàng. |Không có |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
