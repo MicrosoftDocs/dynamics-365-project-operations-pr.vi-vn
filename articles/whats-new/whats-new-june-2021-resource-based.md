@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003887"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679235"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
 
@@ -30,6 +30,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 - Khả năng xóa [Các dòng đề xuất hóa đơn dự án cho các tình huống điều chỉnh](../invoicing/correct-project-invoice-proposals.md).
 - Các dòng chi phí được chia nhỏ phản ánh tên danh mục con trong báo cáo chi phí [Báo cáo chi phí được mô phỏng lại-Tính năng mới](../expense/expense-reports-reimagined.md#new-features).
 - Phương thức thanh toán có sẵn trong ngăn chi phí mới khi tạo một khoản chi phí mới.
+- Tính khả dụng chung của các API lịch trình dự án. Chức năng mới này cho phép khách hàng thực hiện lập trình các hoạt động tạo, cập nhật và xóa các tác vụ dự án, phân công tài nguyên, phụ thuộc nhiệm vụ và bản ghi thành viên nhóm dự án. Để biết thêm thông tin, hãy xem [Sử dụng API lịch trình dự án để thực hiện các hoạt động và các thực thể lập lịch](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Cập nhật về bản đồ ghi kép của Project Operations
 

@@ -2,16 +2,16 @@
 title: Tạo cấu trúc phân tích công việc
 description: Chủ đề này giải thích cách tạo cấu trúc phân tích công việc (WBS) bao gồm bộ điều khiển cơ bản trong giao diện lập lịch mới.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998757"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655443"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -117,5 +117,26 @@ Chế độ nhiệm vụ không ảnh hưởng đến các thông tin cập nh�
 
 Bạn hoàn toàn có thể truy cập lưới và dùng lưới **Lịch trình** với các trình đọc màn hình như Trình tường thuật, JAWS hoặc NVDA. Bạn có thể di chuyển qua vùng lưới bằng cách dùng các phím mũi tên (như trong Microsoft Excel), dùng phím Tab để cải thiện thông qua các yếu tố giao diện người dùng mang tính tương tác, dùng phím Mũi tên xuống, phím Enter hoặc Dấu cách để chọn hoặc mở các menu thả xuống.
 
+## <a name="project-limitations"></a>Giới hạn dự án 
+Bạn nên biết những hạn chế sau nếu bạn đang sử dụng cấu trúc phân tích công việc trong Project Operations. Các giới hạn này áp dụng cho các dự án và nhiệm vụ. Để biết thêm thông tin, hãy xem [Các giới hạn đối với Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Trường**                                          |  **Giới hạn**           |
+|----------------------------------------------------|----------------------|
+| Tổng số nhiệm vụ tối đa cho một dự án                  | 500                  |
+| Tổng khoảng thời gian tối đa cho một dự án               | 3650 ngày (10 năm) |
+| Tổng số tài nguyên tối đa cho một dự án              | 150                  |
+| Tổng số liên kết tối đa (chỉ dành cho người kế nhiệm) cho một dự án | 600                  |
+| Tổng số trường tùy chỉnh tối đa cho một dự án          | 10                   |
+
+**Giới hạn nhiệm vụ**
+
+| **Trường**                               |   **Giới hạn**           |
+|-----------------------------------------|-----------------------|
+| Mức phân cấp tối đa                 | 10 cấp độ             |
+| Liên kết tối đa (người kế nhiệm + người tiền nhiệm) | 20                    |
+| Thời lượng tối đa của nhiệm vụ lá           | 1250 ngày             |
+| Thời lượng tối đa của một nhiệm vụ tóm tắt      | 3650 ngày (10 năm)  |
+| Tài nguyên tối đa được chỉ định cho một nhiệm vụ    | 20 tài nguyên          |
+| Phạm vi ngày được hỗ trợ cho một nhiệm vụ         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
