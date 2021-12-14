@@ -1,18 +1,18 @@
 ---
 title: Các bản cập nhật của Project Operations
-description: Chủ đề này cung cấp thông tin về các phiên bản đã phát hành của Dynamics 365 Project Operations.
+description: Chủ đề này cung cấp thông tin về việc triển khai các phiên bản đã phát hành của Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783449"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892236"
 ---
 # <a name="project-operations-updates"></a>Các bản cập nhật của Project Operations
 
@@ -22,51 +22,51 @@ _**Áp dụng đối với:** Project Operations cho tình huống dựa trên n
 
 ## <a name="project-operations-components"></a>Các thành phần của Project Operations
 
-Dynamics 365 Project Operations gồm 2 thành phần:
+Dynamics 365 Project Operations bao gồm hai thành phần:
 
-- Project Operations trên môi trường Dataverse có các tính năng từ cơ hội cho đến lập hóa đơn ước giá. Dataverse được dùng trong việc triển khai Lite và triển khai các tình huống dựa trên nguồn lực/hàng không trữ kho của Project Operations.
-- Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. Môi trường ứng dụng Finance and Operations được dùng trong Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho và Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất.
+- Hoạt động dự án trên môi trường Dataverse bao gồm các khả năng từ cơ hội đến lập hóa đơn chiếu lệ. Dataverse được sử dụng trong triển khai lite và triển khai tài nguyên / kịch bản không có kho của Hoạt động dự án.
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance bao gồm các khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. Môi trường ứng dụng Tài chính và Hoạt động được sử dụng trong Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có hàng và Hoạt động dự án cho các tình huống có hàng / dựa trên sản xuất.
 
 ## <a name="project-operations-release-notes"></a>Ghi chú phát hành Project Operations
-- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](whats-new-oct-2021-resource-based.md).
-- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [lưu kho/sản xuất](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](whats-new-nov-2021-resource-based.md).
+- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [Nguồn lực/hàng không lưu kho](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Ghi chú phát hành mới nhất của Project Operations cho trường hợp [lưu kho/sản xuất](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations phiên bản mới nhất
 
-| Project Operations trên môi trường Dataverse | Quản lý dự án và kế toán trong các môi trường ứng dụng Finance and Operations | 
+| Hoạt động dự án trên môi trường Dataverse | Quản lý dự án và kế toán trong môi trường ứng dụng Tài chính và Hoạt động | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Đối với kịch bản Nguồn lực/vật tư không tồn kho của Project Operations, bạn nên sử dụng phiên bản Dual Write Orchestration 2.2.2.83 trở lên.
+Đối với kịch bản Tài nguyên hoạt động dự án / không có sẵn, chúng tôi khuyên bạn nên sử dụng phiên bản Điều phối viết kép 2.3.1.15 hoặc cao hơn.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Lịch phát hành của Project Operations trên môi trường Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Lịch phát hành cho Hoạt động dự án trên môi trường Dataverse
 
-Các bản cập nhật của Project Operations trên môi trường Dataverse được cung cấp hàng tháng. 
+Cập nhật cho Hoạt động dự án trên môi trường Dataverse có sẵn hàng tháng. 
 
 | Trạm | Khu vực | Số hiệu phiên bản hiện tại | Bản cập nhật tự động cho phần triển khai Lite | Bản cập nhật tự động cho phần triển khai Nguồn lực/hàng không nhập kho | Số hiệu phiên bản tiếp theo | Phiên bản tiếp theo được phát hành rộng rãi |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Trạm 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bản phát hành đầu tiên         |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
+|   &nbsp;  | Bản phát hành đầu tiên         |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
 | Trạm 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nam Mỹ         |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
-|   &nbsp;  | Canada                |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
-|   &nbsp;  | Ấn Độ                 |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
-|   &nbsp;  | Pháp                |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
-|   &nbsp;  | Nam Phi          |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 03 năm 2021   |
+|   &nbsp;  | Nam Mỹ         |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
+|   &nbsp;  | Ca-na-đa                |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
+|   &nbsp;  | Ấn Độ                 |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
+|   &nbsp;  | Pháp                |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
+|   &nbsp;  | Nam Phi          |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 06 năm 2021   |
 | Trạm 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nhật Bản                 |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 10 năm 2021   |
-|   &nbsp;  | Châu Á Thái Bình Dương          |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 10 năm 2021   |
-|   &nbsp;  | Đảo Anh         |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 10 năm 2021   |
-|   &nbsp;  | Châu Đại Dương               |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 10 năm 2021   |
-|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.26.0.145     | Ngày 12 tháng 11 năm 2021  | Ngày 19 tháng 11 năm 2021   | TBD                 | Tháng 10 năm 2021   |
+|   &nbsp;  | Nhật Bản                 |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 10 năm 2021   |
+|   &nbsp;  | Châu Á Thái Bình Dương          |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 10 năm 2021   |
+|   &nbsp;  | Đảo Anh         |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 10 năm 2021   |
+|   &nbsp;  | Châu Đại Dương               |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 10 năm 2021   |
+|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.26.0.150     | Hoàn tất           | Hoàn tất            | TBD                 | Tháng 10 năm 2021   |
 | Trạm 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Châu Âu                |  4.25.0.91      | Hoàn tất           | Hoàn tất            | 4.26.0.145          | Ngày 12 tháng 11 năm 2021   |
+|   &nbsp;  | Châu Âu                |  4.26.0.150     | Hoàn tất           | Tháng 10 năm 2021   | TBD                 | Tháng 17 năm 2021   |
 | Trạm 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bắc Mỹ         |  4.25.0.91      | Hoàn tất           | Hoàn tất            | 4.26.0.145          | Ngày 19 tháng 11 năm 2021   |
+|   &nbsp;  | Bắc Mỹ         |  4.26.0.150     | Tháng 10 năm 2021  | Tháng 17 năm 2021   | TBD                 | 07 tháng 1 năm 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lịch phát hành của giải pháp Quản lý dự án và kế toán trong môi trường ứng dụng Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lịch phát hành cho Quản lý dự án và kế toán trong môi trường ứng dụng Tài chính và Hoạt động
 
 Các bản cập nhật cho giải pháp Quản lý dự án và kế toán được phát hành 8 lần một năm.
 
