@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827352"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942911"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -20,8 +20,8 @@ ms.locfileid: "7827352"
 
 Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
-- Hoạt động dự án trong phiên bản môi trường Dataverse 4.26.0.145, 4.26.0.148, hoặc 4.26.0.150
-- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.22
+- Hoạt động dự án trong một Dataverse phiên bản môi trường 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Quản lý dự án và kế toán trong một Dynamics 365 Finance phiên bản môi trường 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -33,13 +33,13 @@ Sau đây là các tính năng có trong bản phát hành này:
 
 Không có bản cập nhật nào cho bản đồ ghi kép Project Operations trong bản phát hành này. Để biết danh sách hiện tại và các phiên bản của bản đồ ghi kép Project Operations, hãy xem [Phiên bản bản đồ ghi kép Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật giải pháp Hoạt động dự án Dataverse và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Luôn chạy phiên bản mới nhất của bản đồ trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố Ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
-### <a name="project-operations-in-dataverse"></a>Hoạt động Dự án trong Dataverse
+### <a name="project-operations-in-dataverse"></a>Hoạt động dự án trong Dataverse
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
@@ -66,8 +66,8 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Quản lý dự án và kế toán | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Các điều khoản thanh toán trên hóa đơn dự án không hoạt động như mong đợi. |
 | Quản lý dự án và kế toán | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Khi việc lưu giữ nhà cung cấp được giải phóng, việc đăng phiếu thưởng có các dòng bổ sung không chính xác. |
 | Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Khi tạp chí tích hợp Hoạt động Dự án được đăng, nó không thành công do thiếu thứ nguyên cho một tài khoản không được đăng lên. |
-| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự án** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
-| Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động Dự án Dataverse. |
+| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự định** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
+| Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động dự án Dataverse. |
 | Quản lý dự án và kế toán | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Khi bạn đăng doanh thu từ hóa đơn dự án trong trường hợp lưu giữ áp dụng, một vấn đề xảy ra do các giao dịch trên chứng từ không có số dư. |
 | Quản lý dự án và kế toán | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Việc tạo ước tính sau khi bạn đăng đề xuất hóa đơn chặn các dòng sửa chữa khỏi quá trình nhập. |
 | Quản lý dự án và kế toán | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Không thể sửa đổi hồ sơ cột mốc đã lập hóa đơn đầy đủ. |

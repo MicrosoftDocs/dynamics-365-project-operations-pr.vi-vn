@@ -2,16 +2,16 @@
 title: Đăng ký bản dùng thử Project Operations
 description: Chủ đề này cung cấp thông tin về cách triển khai một bản dùng thử của Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599239"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901643"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Đăng ký bản dùng thử Project Operations 
 
@@ -90,7 +90,8 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
 4.  Chọn URL Microsoft Dataverse tương ứng và URL ứng dụng Finance and Operations để xác thực việc triển khai.
 
 ## <a name="configuring-dual-write"></a>Đặt cấu hình ghi kép
-Nếu chỉ triển khai nguyên vật liệu không nhập kho, hãy đặt cấu hình ánh xạ ghi kép của bạn. Để biết thêm thông tin, hãy xem [Các phiên bản ánh xạ ghi kép Project Operations](resource-dual-write-maps.md).
+- Để định cấu hình vai trò bảo mật cho ghi kép, hãy xem [Cập nhật cài đặt bảo mật về Hoạt động dự án trong Dataverse](resource-provision-new-environment.md).
+- Để định cấu hình bản đồ ghi kép, hãy xem [Chạy bản đồ ghi kép Hoạt động Dự án](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Gán giấy phép
 

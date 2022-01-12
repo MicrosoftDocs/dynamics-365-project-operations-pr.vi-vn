@@ -2,16 +2,16 @@
 title: Tạo cấu trúc phân tích công việc
 description: Chủ đề này giải thích cách tạo cấu trúc phân tích công việc (WBS) bao gồm bộ điều khiển cơ bản trong giao diện lập lịch mới.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655443"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928641"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -95,11 +95,11 @@ Với tư cách là quản trị viên, bạn có thể xác định các trư�
 
 ## <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 
-Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc chọn **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.
+Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc chọn **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.  Khi bạn tìm kiếm tài nguyên bằng bộ chọn tài nguyên trong lưới nhiệm vụ, chế độ xem bảng hoặc gantt, tìm kiếm sẽ trả về thành viên nhóm dự án hiện có hoặc tài nguyên có thể đặt trước đang hoạt động.
 
 Các trường **Vai trò**, **Đơn vị nguồn lực** và **Tên vị trí** dùng để mô tả các yêu cầu bố trí nhân viên cho nhiệm vụ. Các thuộc tính bố trí nhân viên này cùng với lịch trình nhiệm vụ dùng để tìm các nguồn lực có sẵn để thực hiện nhiệm vụ này.
 
-   - **Vai trò**: Chỉ định loại nguồn lực cần thiết để thực hiện nhiệm vụ này.
+   - **Vai diễn** : Chỉ định loại tài nguyên được yêu cầu để thực hiện tác vụ.,
    - **Đơn vị nguồn lực**: Chỉ định đơn vị nên dùng để phân công nguồn lực cho nhiệm vụ. Các thuộc tính này ảnh hưởng đến ước tính chi phí và doanh thu cho nhiệm vụ nếu tỷ lệ hóa đơn và chi phí cho nguồn lực được đặt dựa trên các đơn vị nguồn lực.
    - **Tên vị trí**: Nhập tên cho nguồn chung dùng làm chỗ dành sẵn cho nguồn lực cuối cùng sẽ thực hiện công việc.
 
@@ -127,10 +127,11 @@ Bạn nên biết những hạn chế sau nếu bạn đang sử dụng cấu tr
 | Tổng số tài nguyên tối đa cho một dự án              | 150                  |
 | Tổng số liên kết tối đa (chỉ dành cho người kế nhiệm) cho một dự án | 600                  |
 | Tổng số trường tùy chỉnh tối đa cho một dự án          | 10                   |
+| Các mục trong danh sách kiểm tra tối đa cho mỗi nhiệm vụ                   | 20                   |
 
 **Giới hạn nhiệm vụ**
 
-| **Trường**                               |   **Giới hạn**           |
+| **Trường**                               |   **Giới hạn**           |
 |-----------------------------------------|-----------------------|
 | Mức phân cấp tối đa                 | 10 cấp độ             |
 | Liên kết tối đa (người kế nhiệm + người tiền nhiệm) | 20                    |

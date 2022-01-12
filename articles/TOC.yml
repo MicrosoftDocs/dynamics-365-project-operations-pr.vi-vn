@@ -8,7 +8,11 @@
       href: environment/admin-trials.md
     - name: Các bản cập nhật của Project Operations
       href: whats-new/project-operations-updates.md
-- name: Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+    - name: Các tính năng bị xóa hoặc không dùng nữa
+      items:
+        - name: Các tính năng bị xóa hoặc không dùng nữa trong Project Operations
+          href: whats-new/removed-depreciated-features-project.md
+- name: Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
   items:
     - name: Bắt đầu
       items:
@@ -58,7 +62,9 @@
           href: environment/uninstall-project-operations.md
     - name: Có gì mới
       items:
-        - name: Tháng 11 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+        - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: whats-new/whats-new-oct-2021-resource-based.md
@@ -396,10 +402,12 @@
               href: expense/configure-expense-management-parameters.md
             - name: Thiết lập phần tích hợp thẻ tín dụng
               href: expense/set-up-credit-card-integration.md
-            - name: Thiết lập thể loại chi phí
+            - name: Thiết lập danh mục chi phí
               href: expense/set-up-expense-categories.md
             - name: Thiết lập khoảng cách bằng cách sử dụng các bậc tỷ lệ khoảng cách
               href: expense/set-up-mileage.md
+        - name: Phân loại thành các khoản chi phí
+          href: prod-exp/expense-itemization.md
         - name: Chi phí cá nhân
           href: expense/personal-expenses-expense-report.md
         - name: Chi phí liên công ty
@@ -526,13 +534,19 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Dự án ước tính doanh thu giá cố định
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Chi phí hoàn thành phương thức
+        - name: Chi phí hoàn thành phương pháp
           href: revenue-recognition/cost-complete-methods.md
         - name: Quản lý ước tính doanh thu
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Khắc phục sự cố
+      items:
+        - name: Quy trình bán hàng trong dự án
+          items:
+            - name: 'Lỗi không khớp đơn vị tiền tệ khi tạo dự án, hợp đồng, báo giá hoặc nguồn lực có thể đặt trước'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
   items:
-    - name: Bắt đầu
+    - name: Bắt đầu
       items:
         - name: Tổng quan về quá trình triển khai bản đơn giản
           href: pro/project-operations-overview-lite.md
@@ -546,8 +560,10 @@
           href: environment/security-model.md
     - name: Có gì mới
       items:
-        - name: Quyền truy cập sớm đợt 2 năm 2021 có gì mới – triển khai bản đơn giản
+        - name: Quyền truy cập sớm đợt 2 năm 2021 tính năng mới – triển khai bản đơn giản
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Tính năng mới kể từ tháng 12 năm 2021 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Tính năng mới kể từ tháng 11 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Tính năng mới kể từ tháng 10 năm 2021 – triển khai bản đơn giản
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Dấu mốc mô tả hợp đồng phụ
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Thành viên nhóm dự án hợp đồng phụ
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Tùy chọn hợp đồng phụ cho thành viên nhóm dự án
+          href: pro/subcontracting/subcon-options.md
+        - name: Ước tính chi phí của các nhiệm vụ nguồn lực trong hợp đồng phụ
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Đặt cấu hình Bảng lịch trình để hiển thị nhân viên hợp đồng và năng lực của hợp đồng phụ
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Ghi lại thời gian, chi phí và mức sử dụng vật liệu cho các thành phần trong hợp đồng phụ'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Chuyển đổi trạng thái trên một hợp đồng phụ
+          href: pro/subcontracting/subcon-states.md
     - name: Thời gian
       items:
         - name: Tổng quan về thời gian
@@ -1118,6 +1148,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 37, V3'
@@ -1198,12 +1230,14 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Hướng dẫn báo giá, định giá và thanh toán cơ bản.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Hướng dẫn báo giá, định giá và thanh toán nâng cao'
+        - name: 'Hướng dẫn nâng cao cho báo giá, định giá và thanh toán'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Hướng dẫn quản lý nguồn lực
           href: psa/implementation-guides/resource-management-guide.md
         - name: Hướng dẫn báo cáo
           href: psa/implementation-guides/reporting-guide.md
+    - name: Nâng cấp từ Project Service Automation lên Project Operations - bản đơn giản
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Bản nâng cấp Project Service Automation (ứng dụng phiên bản 3.x)
       items:
         - name: Bản nâng cấp Project Service Automation

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827307"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942957"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Có gì mới Tháng 11 năm 2021 - Triển khai Project Operations Lite
 
@@ -20,7 +20,7 @@ _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến l�
 
 Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
-- Hoạt động dự án trong phiên bản môi trường Dataverse 4.26.0.145, 4.26.0.148, hoặc 4.26.0.150
+- Hoạt động dự án trong một Dataverse phiên bản môi trường 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -30,7 +30,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
-### <a name="project-operations-in-dataverse"></a>Hoạt động Dự án trong Dataverse
+### <a name="project-operations-in-dataverse"></a>Hoạt động dự án trong Dataverse
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |

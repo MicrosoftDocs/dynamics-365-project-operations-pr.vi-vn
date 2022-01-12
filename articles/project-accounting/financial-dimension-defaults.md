@@ -2,16 +2,16 @@
 title: Giá trị mặc định cho thông số tài chính
 description: Chủ đề này cung cấp thông tin về cách thiết lập các giá trị mặc định cho thông số tài chính.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005462"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922964"
 ---
 # <a name="financial-dimension-defaults"></a>Giá trị mặc định cho thông số tài chính
 
@@ -60,6 +60,15 @@ Dự án được tạo và duy trì trong CDS. Các thuộc tính kế toán c�
 4. Đặt các giá trị mặc định cho thông số tài chính. Lưu ý rằng các thông số tài chính lấy giá trị mặc định từ tài khoản khách hàng. Nếu dự án được liên kết với phần mô tả hợp đồng có nhiều khách hàng trong hợp đồng dự án, thì khách hàng chính được sử dụng làm thông số tài chính mặc định.
 
 Các thông số tài chính mặc định của dự án được sử dụng để đặt các giá trị mặc định về thời gian, chi phí và phí giao dịch cho dòng nhật ký kế toán trong **Nhật ký tích hợp Project Operations** và trên các dòng mô tả hóa đơn dự án có liên quan.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Áp dụng các thứ nguyên tài chính cho các mục thời gian của dự án
+Để áp dụng thứ nguyên tài chính cho các mục thời gian của dự án, hãy lưu ý rằng giá trị thứ nguyên mặc định dựa trên thứ tự sau:
+
+1. Tài nguyên
+2. Dự án
+3. Nguồn tiền
+
+Ví dụ: nếu thứ nguyên mặc định được chỉ định trên một tài nguyên, thứ nguyên đó sẽ được áp dụng cho thứ nguyên mặc định được chỉ định trong dự án. Tương tự, thứ nguyên dự án mặc định sẽ được áp dụng thay cho thứ nguyên mặc định được chỉ định trong nguồn tài trợ.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
