@@ -2,16 +2,18 @@
 title: Loại chu kỳ
 description: Chủ đề này cung cấp thông tin về cách thiết lập loại chu kỳ cho phép ước tính doanh thu.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998802"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531593"
 ---
 # <a name="period-types"></a>Loại chu kỳ
 
@@ -32,6 +34,3 @@ Loại chu kỳ xác định tần suất ước tính doanh thu của dự án.
 4. Chọn bản ghi loại chu kỳ rồi bấm vào **Tạo chu kỳ** để tạo các chu kỳ cho loại chu kỳ. Dựa trên tần suất chu kỳ vừa chọn, bạn có thể dùng tùy chọn này để xác định ngày bắt đầu hoặc số lượng chu kỳ cần tạo.
 5. Chọn **Chu kỳ** để xem lại các chu kỳ vừa tạo.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

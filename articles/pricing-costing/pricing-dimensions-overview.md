@@ -2,18 +2,19 @@
 title: Tổng quan về thông số định giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập thông số giá tùy chỉnh trong Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001997"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650241"
 ---
 # <a name="pricing-dimensions-overview"></a>Tổng quan về thông số định giá
 
@@ -33,7 +34,7 @@ Do vậy, có 2 loại giá trị tham số định giá được cung cấp:
 
 Dynamics 365 Project Operations được cung cấp với một bộ thông số giá mặc định. Bạn có thể xem các tham số định giá này bằng cách chuyển tới **Hoạt động dự án** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Khi đã bật các trường này lên, bạn có thể thiết lập giá cả và chi phí cho từng tổ hợp vai trò và đơn vị tổ chức.
 
-![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu.](media/PS-OOB-parameters.png)
+![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
 
 Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh. Để biết thêm thông tin, hãy tham khảo các chủ đề sau. 
   
@@ -58,18 +59,15 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 
 **Tỷ lệ hóa đơn mẫu**
 
-| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ------------|-------------|----------|----------:|----------|
-| Nhà phát triển   | Contoso Hoa Kỳ  |Giờ | 200|Giải pháp USD     |
-| Nhà phát triển   | Contoso Ấn Độ |Giờ|   112|Giải pháp USD     |
+| Nhà phát triển   | Contoso US  |Hour | 200|Giải pháp USD     |
+| Nhà phát triển   | Đàm Ấn Độ |Hour|   112|Giải pháp USD     |
 
 
 **Tỷ lệ chi phí mẫu**
 
-| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso Hoa Kỳ  |Giờ | 145|Giải pháp USD     |
-| My company_Band2 | Contoso Ấn Độ |Giờ|   67|Giải pháp USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
+| My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |

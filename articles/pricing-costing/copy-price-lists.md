@@ -2,22 +2,24 @@
 title: Sao chép bảng giá
 description: Chủ đề này cung cấp thông tin về cách sao chép bảng giá trong Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003752"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181523"
 ---
 # <a name="copy-price-lists"></a>Sao chép bảng giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bạn có thể tạo bản sao của bảng giá trong Dynamics 365 Project Operations. Chẳng hạn, bạn có thể tạo bảng giá cho năm sắp tới bằng bảng giá của năm hiện tại.  Hoặc, bạn có thể sao chép một bảng giá cho tỷ lệ hóa đơn và giá bán hàng từ bảng giá cho chi phí. 
+Bạn có thể tạo bản sao bảng giá trong Dynamics 365 Project Operations. Chẳng hạn, bạn có thể tạo bảng giá cho năm sắp tới bằng bảng giá của năm hiện tại.  Hoặc, bạn có thể sao chép một bảng giá cho tỷ lệ hóa đơn và giá bán hàng từ bảng giá cho chi phí. 
 
 Để tạo bản sao bảng giá, hãy hoàn thành các bước sau.
 
@@ -41,6 +43,3 @@ Bạn có thể tạo bản sao của bảng giá trong Dynamics 365 Project Ope
 1. Trên các tab **Vai trò**, **Thể loại** và **Hạng mục trong bảng giá** của bảng giá, bạn có thể chọn **Cập nhật giá** để áp dụng một mức tăng cho tất cả các mức giá trong lưới con. 
 2. Trên trang hộp thoại mở ra, hãy nhập khoảng tăng. Bạn cũng có thể nhập tỷ lệ phần trăm tăng âm để giảm giá theo một tỷ lệ phần trăm nhất định. 
 3. Chọn **OK** trên trang hộp thoại, sau đó xác minh rằng các mức giá trong lưới con phản ánh những thay đổi bạn đã thực hiện.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

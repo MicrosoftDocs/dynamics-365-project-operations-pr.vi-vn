@@ -2,6 +2,8 @@
 title: Khái niệm chính
 description: Chủ đề này cung cấp thông tin về các khái niệm chính để quản lý nguồn lực trong Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995112"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147769"
 ---
 # <a name="key-concepts"></a>Khái niệm chính
 
@@ -46,6 +48,3 @@ Bảng sau đây xác định các khái niệm chính được sử dụng tron
 | Đường cong                    | Nhiệm vụ, yêu cầu hoặc giờ phân công được chia thành phân phối hàng ngày. Ví dụ: nhiệm vụ 5 ngày, 40 giờ có thể được đánh dấu bằng đường mức thành 8 giờ mỗi ngày trong 5 ngày. |
 | Dạng xem điều hòa        | Dạng xem cho biết các đăng ký và phân công cho từng thành viên nhóm dự án. Dạng xem cho phép người quản lý dự án tìm mọi điểm không phù hợp giữa đăng ký và nhiệm vụ và thực hiện hành động khắc phục nếu có điểm không phù hợp xảy ra. |
 | Giờ làm việc                 | Một thực thể dùng để xác định năng lực nguồn lực, giờ làm việc và không làm việc. Thực thể này cũng được gọi là lịch nguồn lực. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

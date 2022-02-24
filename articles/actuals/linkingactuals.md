@@ -2,17 +2,19 @@
 title: Liên kết giá trị thực tế với bản ghi gốc
 description: Chủ đề này giải thích cách liên kết giá trị thực tế với bản ghi gốc, chẳng hạn như mục nhập thời gian, mục nhập chi phí hoặc nhật ký sử dụng vật tư.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991782"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852615"
 ---
 # <a name="link-actuals-to-original-records"></a>Liên kết giá trị thực tế với bản ghi gốc
 
@@ -77,7 +79,7 @@ Lớp giao dịch đại diện cho các loại chi phí khác nhau phát sinh t
 
 Ví dụ sau đây trình bày hoạt động xử lý thông thường các mục nhập thời gian trong vòng đời dự án Project Operations.
 
-> ![Xử lý mục nhập thời gian trong vòng đời Project Service.](media/basic-guide-17.png)
+> ![Xử lý mục nhập thời gian trong vòng đời Project Service](media/basic-guide-17.png)
  
 1. Gửi một mục nhập thời gian sẽ tạo ra hai dòng nhật ký kế toán: một dòng cho chi phí và một dòng cho doanh số chưa lập hóa đơn.
 2. Lần phê duyệt mục nhập thời gian cuối cùng sẽ tạo ra hai giá trị thực tế: một giá trị thực tế cho chi phí và một giá trị thực tế cho doanh số chưa lập hóa đơn.

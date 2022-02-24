@@ -2,16 +2,18 @@
 title: Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
 description: Chủ đề này cung cấp thông tin về việc tạo lịch trình hóa đơn và các mốc quan trọng cho mô tả báo giá.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988632"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180848"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
 
@@ -66,6 +68,3 @@ Mở mô tả báo giá giá cố định mà bạn cần tạo một mốc th�
 | Trạng thái hóa đơn | Tạo nhanh | Khi một mốc thời gian được tạo, trạng thái này luôn được đặt thành **Chưa sẵn sàng để lập hóa đơn**. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
 | Số tiền mô tả | Tạo nhanh | Số tiền hoặc giá trị của mốc thời gian sẽ được lập hóa đơn cho khách hàng. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
 | Thuế | Tạo nhanh | Số tiền thuế sẽ được áp dụng cho mốc thời gian. | Điều này được truyền đến mốc thời gian trê mô tả hợp đồng dự án và hóa đơn. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

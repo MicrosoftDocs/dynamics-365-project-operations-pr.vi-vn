@@ -2,16 +2,18 @@
 title: Thiết lập tỷ lệ chi phí lao động
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ chi phí nhân công trong Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986202"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180623"
 ---
 # <a name="set-up-labor-cost-rates"></a>Thiết lập tỷ lệ chi phí lao động
 
@@ -38,7 +40,7 @@ Bảng sau đây bao gồm một số trường quan trọng khi tạo giá nhâ
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Chuyển giá và chi phí cho các nguồn lực bên ngoài bộ phận hoặc pháp nhân của bạn
 
-Các công ty dựa trên dự án thường sử dụng nhân viên từ các pháp nhân hoặc bộ phận khác nhau trên dự án. Một dự án có thể được thực hiện bởi một pháp nhân, nhưng nhân viên hoặc chuyên gia tư vấn làm việc trong dự án có thể đến từ cùng một pháp nhân hoặc từ một pháp nhân khác hoặc có thể kết hợp cả hai. Trong Dynamics 365 Project Operations, pháp nhân sở hữu việc bàn giao dự án là **Công ty sở hữu** và bộ phận sở hữu việc giao hàng là **Đơn vị ký kết**. Các pháp nhân khác cung cấp nguồn lực được gọi là **Công ty cung cấp nguồn lực** và các bộ phận cung cấp nguồn lực được gọi là **Đơn vị cung cấp nguồn lực**. Ở hầu hết các quốc gia, các công ty phải đảm bảo rằng pháp nhân hoặc bộ phận cung cấp nguồn lực, tính phí cho công ty sở hữu và đơn vị ký hợp đồng sử dụng các nguồn lực.
+Các công ty dựa trên dự án thường sử dụng nhân viên từ các pháp nhân hoặc bộ phận khác nhau trên dự án. Một dự án có thể được thực hiện bởi một pháp nhân, nhưng nhân viên hoặc chuyên gia tư vấn làm việc trong dự án có thể đến từ cùng một pháp nhân hoặc từ một pháp nhân khác hoặc có thể kết hợp cả hai. Trong Dynamics 365 Project Operations, pháp nhân sở hữu việc bàn giao dự án được gọi là **Sở hữu công ty** và bộ phận sở hữu việc phân phối được gọi là **Đơn vị hợp đồng**. Các pháp nhân khác cung cấp nguồn lực được gọi là **Công ty cung cấp nguồn lực** và các bộ phận cung cấp nguồn lực được gọi là **Đơn vị cung cấp nguồn lực**. Ở hầu hết các quốc gia, các công ty phải đảm bảo rằng pháp nhân hoặc bộ phận cung cấp nguồn lực, tính phí cho công ty sở hữu và đơn vị ký hợp đồng sử dụng các nguồn lực.
 
 Ví dụ: tập đoàn Fabrikam phải đảm bảo rằng Fabrikam India-Robotics có một thẻ tỷ lệ chi phí thương lượng với Fabrikam US-Robotics hoặc Fabrikam UK-Robotics.
 
@@ -82,6 +84,3 @@ Trong bảng giá vốn cho Fabrikam UK-Robotics, tỷ lệ chi phí có thể �
 | Nhà phát triển | Fabrikam Vương quốc Anh | 115 GBP |
 
 Bảng giá vốn có thể cung cấp tỷ giá nhân công bằng nhiều đơn vị tiền tệ. Khi tạo ước tính chi phí cho dự án, Project Operations sẽ chuyển đổi các tỷ lệ chi phí này thành đơn vị tiền tệ của dự án và hiển thị cho người dùng. Khi mục nhập thời gian được chấp thuận và chi phí thực tế được tạo, chi phí thực tế được định giá bằng đơn vị tiền tệ của mô tả giá theo vai trò phù hợp trên bảng giá vốn. Chi phí thực tế cho thời gian cho một dự án có thể được ghi lại bằng nhiều đơn vị tiền tệ. Tuy nhiên, khi tính tổng hoặc tổng hợp chi phí lao động thực tế ở cấp độ dự án, Project Operations sẽ chuyển đổi tất cả các khoản chi phí lao động sang đơn vị tiền tệ của dự án mà người dùng có thể xem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Thiết lập bảng giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập bảng giá vốn và bảng giá bán hàng.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009512"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180218"
 ---
 # <a name="set-up-price-lists"></a>Thiết lập bảng giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bảng giá trong Dynamics 365 Project Operations đại diện cho một danh mục tỷ giá. Các mức giá thể hiện chi phí, doanh số bán hàng và tỷ lệ thanh toán. Tùy thuộc vào việc bảng giá thể hiện tỷ lệ chi phí hay tỷ lệ bán hàng và thanh toán, bối cảnh của bảng giá là **Bán hàng** hoặc **Chi phí**.
+Bảng giá trong Dynamics 365 Project Operations biểu thị một danh mục giá. Các mức giá thể hiện chi phí, doanh số bán hàng và tỷ lệ thanh toán. Tùy thuộc vào việc bảng giá thể hiện tỷ lệ chi phí hay tỷ lệ bán hàng và thanh toán, bối cảnh của bảng giá là **Bán hàng** hoặc **Chi phí**.
 
 Các phần mở rộng sau đây dành riêng cho Project Operations và được áp dụng cho bảng giá từ Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ Bảng sau bao gồm các trường trên tab **Tổng quát** của bảng giá
 | Tiền tệ | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị tiền tệ trên mỗi dòng mục vai trò, danh mục hoặc hạng mục trong bảng giá liên quan đến bảng giá này. | Trên bảng giá **Bán hàng**, không thể tạo vai trò, danh mục hoặc dòng hạng mục trong bảng giá bằng bất kỳ đơn vị tiền tệ nào khác ngoài đơn vị tiền tệ này. Trên bảng giá **Chi phí**, bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị tiền tệ nào. Đơn vị tiền tệ được xác định ở đây được sử dụng làm mặc định. Thiết lập người dùng là giá theo vai trò có liên quan có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công bằng bất kỳ đơn vị tiền tệ nào. Chỉ có thể thiết lập tỷ lệ chi phí danh mục và chi phí hạng mục trong bảng giá bằng đơn vị tiền tệ được xác định tại đây. |
 | Đơn vị Thời gian | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường này được sử dụng để đặt mặc định đơn vị thời gian trên mỗi dòng vai trò liên quan đến bảng giá này. | Giá trị trường này chỉ được sử dụng trên thiết lập giá vai trò liên quan. Trên bảng giá **Chi phí** và **Bán hàng**, bạn có thể tạo dòng giá theo vai trò bằng bất kỳ đơn vị thời gian nào. Đơn vị thời gian được xác định ở đây được dùng làm đơn vị mặc định. Giá theo vai trò liên quan đến thiết lập người dùng có thể ghi đè giá trị này để cho phép thiết lập tỷ lệ chi phí nhân công và tỷ lệ thanh toán bằng bất kỳ đơn vị tiền tệ nào. |
 | Nội dung mô tả | Tab **Tổng quát** và biểu mẫu **Tạo nhanh** | Trường văn bản này cho phép bạn cung cấp mô tả nhiều dòng về bảng giá. | Trường này được hiển thị ở các dạng xem **Được liên kết** trên bảng giá trong nhiều thực thể khác nhau có bảng giá liên quan. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Giá danh mục sản phẩm
 description: Chủ đề này cung cấp thông tin về cách giá danh mục sản phẩm hoạt động trong Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000197"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151234"
 ---
 # <a name="product-catalog-pricing"></a>Giá danh mục sản phẩm 
 
@@ -44,7 +46,7 @@ Bạn có thể thêm sản phẩm từ danh mục sản phẩm vào bảng giá
 
 PSA hỗ trợ nhiều tùy chọn làm tròn khi giá được đặt cấu hình ở dạng chức năng của bảng giá, chi phí tiêu chuẩn hoặc chi phí hiện tại. Ngoài việc tận dụng nhiều phương pháp định giá và các tùy chọn làm tròn, bạn có thể liên kết danh sách giảm giá với các hạng mục trong bảng giá. 
 
-> ![Thêm các sản phẩm từ danh mục vào bảng giá khác.](media/basic-guide-16.png)
+> ![Thêm các sản phẩm từ danh mục vào bảng giá khác](media/basic-guide-16.png)
 
 Khi bạn tạo một bảng giá tùy chỉnh mới cho báo giá bằng cách chọn **Tạo giá tùy chỉnh** trên trang **Báo giá dự án**, PSA tạo một bản sao của bảng giá và trường **Thực thể** trên tiêu đề của bảng giá mới được đặt thành **Thực thể bán hàng**. Tên của bảng giá mới được gắn với tên của báo giá và dấu thời gian. Bạn cũng có thể dùng tên của bảng giá mới và tên của báo giá trong quy trình làm việc tùy chỉnh để kích hoạt đánh giá hoặc phê duyệt bổ sung cho báo giá sử dụng giá tùy chỉnh.
 
@@ -62,6 +64,3 @@ Các thực thể Cơ hội, Báo giá và Hợp đồng dự án dùng các đ�
 Theo sản phẩm, trường **Sản phẩm** trên mô tả báo giá liệt kê tất cả sản phẩm hiện hoạt trong bảng giá sản phẩm của báo giá. Nếu sản phẩm đã bị hủy kích hoạt hoặc nếu đó là sản phẩm nháp, thì sản phẩm đó không được liệt kê ngay cả khi có trong bảng giá. 
 
 Mô tả danh mục sản phẩm được thêm vào mô tả hóa đơn trên hóa đơn đầu tiên được tạo cho hợp đồng dự án. Trên hóa đơn nháp, những mô tả hóa đơn đó có thể bị xóa. Trong trường hợp đó, các mô tả sẽ xuất hiện trên hóa đơn tiếp theo cho đến khi chúng được lập hóa đơn hoặc cho đến khi hóa đơn được gửi đến khách hàng. Trong PSA, bạn không thể lập hóa đơn một phần số lượng của mô tả hóa đơn sản phẩm. Khi mô tả sản phẩm từ hóa đơn hợp đồng được lập hóa đơn, các số liệu thực tế sẽ được tạo. Tuy nhiên, các số liệu thực tế đó không liên kết với thực thể dự án liên quan. Nói cách khác, các mô tả hợp đồng dự án dựa trên sản phẩm độc lập với mọi việc sử dụng dựa trên dự án. PSA không theo dõi mức tiêu thụ vật liệu trên dự án.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,24 @@
 title: Tổng quan về quy trình bán hàng
 description: Chủ đề này cung cấp thông tin về các quy trình bán hàng cơ bản.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991872"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177627"
 ---
 # <a name="sales-process-overview"></a>Tổng quan về quy trình bán hàng
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Quy trình bán hàng được sử dụng trong tổ chức dựa trên dự án khác với quy trình bán hàng được sử dụng trong tổ chức dựa trên sản phẩm. Điều này là do chu kỳ bán hàng cho các tổ chức dựa trên dự án sẽ dài hơn và yêu cầu các kỹ thuật ước tính tùy chỉnh để phân tích và tạo báo giá cho từng giao dịch. Dynamics 365 Project Operations sử dụng một số chức năng sau được sử dụng trong quy trình bán hàng:
+Quy trình bán hàng được sử dụng trong tổ chức dựa trên dự án khác với quy trình bán hàng được sử dụng trong tổ chức dựa trên sản phẩm. Điều này là do chu kỳ bán hàng cho các tổ chức dựa trên dự án sẽ dài hơn và yêu cầu các kỹ thuật ước tính tùy chỉnh để phân tích và tạo báo giá cho từng giao dịch. Dynamics 365 Project Operations sử dụng một số chức năng sau như được sử dụng trong một quy trình bán hàng:
 
 - Bản ghi Khách hàng tiềm năng được sử dụng để theo dõi quy trình bán hàng.
 - Định tính khách hàng tiềm năng được theo dõi dưới dạng cơ hội.
@@ -62,6 +63,3 @@ Trong Project Operations, bạn không thể theo dõi các bản sửa đổi �
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Theo dõi ý kiến và việc phê duyệt báo giá và hợp đồng dự án
 Bạn có thể quản lý việc đánh giá và phê duyệt báo giá cũng như hợp đồng dự án bằng cách sử dụng tường bản ghi và bài đăng. Tổ chức của bạn có thể tạo quy trình làm việc và phần bổ trợ tùy chỉnh để phân công, chuyển hướng, báo cáo và quản lý thông báo về việc đánh giá và phê duyệt các mục công việc.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

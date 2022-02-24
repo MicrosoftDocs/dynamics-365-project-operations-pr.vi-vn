@@ -2,16 +2,18 @@
 title: Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách làm việc với các phần mô tả hợp đồng và các hợp đồng có nhiều khách hàng.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992142"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181928"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án
 
@@ -42,6 +44,3 @@ Dưới đây là các trường trên hồ sơ khách hàng trong phần Mô t�
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán trong lưới. Khi tổng các tỷ lệ phần trăm thanh toán không bằng 100 phần trăm, sẽ xảy ra lỗi. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán, hãy làm mới trang để loại bỏ lỗi đó.
 
 Bạn cũng có thể thử chọn **Phân phối đồng đều** trên lưới con hiển thị khách hàng trong phần mô tả hợp đồng. Thao tác này phân bổ đồng đều các phần thanh toán cho tất cả khách hàng trong phần mô tả hợp đồng. Nếu có bất kỳ hệ số làm tròn nào, hệ số này sẽ được thêm cho khách hàng làm tròn. Một khách hàng trong phần mô tả hợp đồng sẽ luôn được gắn thẻ là khách hàng **Làm tròn** với cờ **Làm tròn** được đặt thành **Có**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

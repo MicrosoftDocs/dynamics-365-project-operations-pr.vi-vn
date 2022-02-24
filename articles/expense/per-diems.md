@@ -2,16 +2,18 @@
 title: Công nhật
 description: Chủ đề này cung cấp thông tin về các quy tắc công tác phí được sử dụng trong Quản lý chi phí.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986427"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128534"
 ---
 # <a name="per-diems"></a>Công nhật
 
@@ -29,6 +31,3 @@ Công tác phí là một khoản phụ cấp được trả cho người lao đ
     
 ## <a name="submit-expenses-using-per-diem"></a>Gửi chi phí bằng công tác phí
 Để gửi chi phí bằng công tác phí, hãy sử dụng danh mục chi phí **Công tác phí** khi bạn tạo báo cáo chi phí. Nhập **Công tác phí từ ngày**, **Công tác phí đến nay** và **Địa điểm cấp công tác phí**. Số tiền sẽ được tính dựa trên mức công tác phí cho địa điểm đã chọn và mức giảm trừ bữa ăn sẽ được tính dựa trên mức công tác phí.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

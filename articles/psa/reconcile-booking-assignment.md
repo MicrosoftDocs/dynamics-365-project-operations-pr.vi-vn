@@ -2,6 +2,8 @@
 title: Điều hòa đăng ký và phân công
 description: Chủ đề này cung cấp thông tin về số liệu thực tế.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995157"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147949"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Điều hòa đăng ký và phân công
 
@@ -51,11 +53,11 @@ Trong một số trường hợp, khi trường **Thang thời gian** được �
 
 Khi bạn thấy cấp thời gian cao hơn, tab **Điều hòa** hiển thị các chỉ báo cho thông báo cho bạn biết rằng có sự khác biệt giữa các cấp thời gian thấp hơn. Ví dụ, trong hình minh họa sau đây, một chỉ báo ô xuất hiện trong ô cho tháng 10 năm 2018 cho nguồn lực có tên là Đỗ Ngọc Bích. Do đó, bạn có thể thấy rằng mặc dù đăng ký và phân công của nguồn lực tương đương khi chúng được tổng hợp ở cấp **Tháng**, nhưng chúng không khớp ở các cấp thấp hơn.
 
-![Các mục đặt trước và chỉ định không khớp ở cấp độ hàng tháng.](media/reconcile-assignments-01.JPG)
+![Các mục đặt trước và chỉ định không khớp ở cấp độ hàng tháng](media/reconcile-assignments-01.JPG)
 
 Bấm đúp vào một ô để phóng to đến cấp thấp hơn tiếp theo và xem sự khác biệt. Ví dụ, nếu bấm đúp vào chênh lệch tháng 10 năm 2018 cho Đỗ Ngọc Bích, bạn có thể xem chi tiết cấp **Tuần**. Sau đó, bạn có thể thấy nguồn lực có 16 giờ đăng ký nhưng không có phân công trong 2 tuần đầu tiên của tháng 10, và 16 giờ phân công nhưng không có đăng ký trong tuần thứ ba của tháng 10.
 
-![Các mục đặt trước và chỉ định không khớp ở cấp độ hàng tuần.](media/reconcile-assignments-02.JPG)
+![Các mục đặt trước và chỉ định không khớp ở cấp độ hàng tuần](media/reconcile-assignments-02.JPG)
 
 Bạn có thể bấm chuột phải vào một ô để thu nhỏ cấp cao hơn tiếp theo. Bạn cũng có thể tắt chỉ báo ô bằng cách chọn nút **Thiết đặt**. 
 
@@ -68,13 +70,13 @@ Trong các trường hợp có phân công nhiệm vụ cho nguồn lực nhưng
 
 - Người dùng phải đặt cấu hình múi giờ của thiết bị của họ để khớp với múi giờ được xác định trong Cài đặt cá nhân hóa hệ thống của bạn.
  
-  ![Cài đặt múi giờ trong Windows 10.](media/reconcile-assignments-03.png)
+  ![Cài đặt múi giờ trong Windows 10](media/reconcile-assignments-03.png)
 
-  ![Cài đặt múi giờ trong cài đặt cá nhân hóa.](media/reconcile-assignments-04.png)
+  ![Cài đặt múi giờ trong cài đặt cá nhân hóa](media/reconcile-assignments-04.png)
  
 - Tài nguyên có thể đặt trước phải có ít nhất một phút thời gian làm việc trùng với các phân phối được sử dụng để xác định gia hạn được yêu cầu. Chẳng hạn ví dụ sau đây cho thấy các tài nguyên đánh giá với giờ làm việc rơi vào khoảng từ 9:00 giờ sáng đến 7:00 giờ tối. 
 
-  ![So sánh phân phối tài nguyên.](media/reconcile-assignments-05.png)
+  ![So sánh phân phối tài nguyên](media/reconcile-assignments-05.png)
 
 Bảng sau đây hiển thị:
 
@@ -85,20 +87,17 @@ Bảng sau đây hiển thị:
 
 |Thực thể  |Lịch  |
 |-|-|
-|Mẫu lịch dự án   | ![lịch dự án.](media/reconcile-assignments-06.png) |
-|Nguồn lực A  | ![Lịch nguồn lực A.](media/reconcile-assignments-06.png) |
-|Nguồn lực B  |  ![Lịch nguồn lực B.](media/reconcile-assignments-07.png) |
-|Nguồn lực C  |  ![Lịch nguồn lực C.](media/reconcile-assignments-08.png) |
-|Nguồn lực D  | ![Lịch nguồn lực D.](media/reconcile-assignments-09.png)  |
+|Mẫu lịch dự án   | ![lịch dự án](media/reconcile-assignments-06.png) |
+|Nguồn lực A  | ![Lịch nguồn lực A](media/reconcile-assignments-06.png) |
+|Nguồn lực B  |  ![Lịch nguồn lực B](media/reconcile-assignments-07.png) |
+|Nguồn lực C  |  ![Lịch nguồn lực C](media/reconcile-assignments-08.png) |
+|Nguồn lực D  | ![Lịch nguồn lực D](media/reconcile-assignments-09.png)  |
  
 Khi bạn chuyển đến dạng xem điều hòa, các phân công nguồn lực và thiếu hụt đăng ký có liên quan sẽ hiển thị.
- ![Dạng xem điều hòa trước khi gia hạn.](media/reconcile-assignments-10.png)
+ ![Dạng xem điều hòa trước khi gia hạn](media/reconcile-assignments-10.png)
 
 Sau khi chức năng Gia hạn đăng ký đã được thực thi trên mỗi nguồn lực, đăng ký sẽ được gia hạn thành công cho mỗi nguồn lực. Điều này là do giờ làm việc của mỗi nguồn lực chồng chéo với phân phối giờ làm việc thiếu hụt.
- ![Dạng xem điều hòa sau khi gia hạn đăng ký.](media/reconcile-assignments-11.png) 
+ ![Dạng xem điều hòa sau khi gia hạn đăng ký](media/reconcile-assignments-11.png) 
 
 Tuy nhiên, xem xét kỹ hơn các chi tiết của các đặt phòng cho thấy sự khác biệt trong thời gian bắt đầu của các đăng ký. Đăng ký sẽ bắt đầu không sớm hơn thời gian bắt đầu phân phối giờ làm việc theo phân công và không sớm hơn thời gian bắt đầu có sẵn của nguồn lực.
- ![Các đăng ký nguồn lực mới trong bảng lịch trình.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Các đăng ký nguồn lực mới trong bảng lịch trình](media/reconcile-assignments-12.png)

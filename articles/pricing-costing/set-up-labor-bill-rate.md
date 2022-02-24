@@ -2,16 +2,18 @@
 title: Thiết lập tỷ lệ hóa đơn lao động
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ thanh toán nhân công trong Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003572"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877426"
 ---
 # <a name="set-up-labor-bill-rates"></a>Thiết lập tỷ lệ hóa đơn lao động
 

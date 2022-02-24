@@ -2,22 +2,24 @@
 title: Nhập số liệu ước tính vào phần mô tả hợp đồng dựa trên dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về việc nhập giá trị ước tính tài chính từ dự án vào mục mô tả hợp đồng.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997272"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177492"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Nhập số liệu ước tính vào phần mô tả hợp đồng dựa trên dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Trong Dynamics 365 Project Operations, bạn có thể nhập ước tính từ một dự án vào mô tả hợp đồng theo dự án.
+Trong Dynamics 365 Project Operations, bạn có thể nhập các giá trị ước tính từ dự án vào mục mô tả hợp đồng dựa trên dự án.
 
 1. Xác minh rằng trường **Dự án** đã được điền trên mục mô tả hợp đồng dựa trên dự án.
 2. Trên tab **Chi tiết mô tả hợp đồng**, hãy chọn **Nhập từ ước tính dự án**. Trang hộp thoại với các tùy chọn tóm tắt sẽ mở ra. Các tùy chọn tóm tắt có sẵn là: **Lớp giao dịch**, **Danh mục**, **Vai trò** và **Nhiệm vụ dự án**.
@@ -58,6 +60,3 @@ Khi người dùng chọn tóm tắt theo **Lớp giao dịch**, **Danh mục** 
 | Nhiệm vụ A | Vé máy bay | 10/1/2020 | 4 | 400 | 1600 |
 | Nhiệm vụ B | Khách sạn | 10/1/2020 | 4 | 200 | 800 |
 | Nhiệm vụ C | Khách sạn | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

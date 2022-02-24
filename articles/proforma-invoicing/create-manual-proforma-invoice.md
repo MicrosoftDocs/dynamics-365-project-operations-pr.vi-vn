@@ -1,25 +1,42 @@
 ---
-title: Hóa đơn ước giá
-description: Chủ đề này cung cấp thông tin về hóa đơn ước giá trong Project Operations.
+title: Tạo hóa đơn ước giá thủ công
+description: Chủ đề này cung cấp thông tin về việc tạo hóa đơn ước giá.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995652"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128084"
 ---
-# <a name="proforma-invoices"></a>Hóa đơn ước giá
+# <a name="create-a-manual-proforma-invoice"></a>Tạo hóa đơn ước giá thủ công
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Lập hóa đơn ước giá cung cấp cho người quản lý dự án mức phê duyệt thứ hai trước khi họ tạo hóa đơn cho khách hàng. Mức phê duyệt thứ nhất hoàn thành khi các mục nhập thời gian, chi phí và vật tư mà thành viên nhóm dự án gửi được phê duyệt. Hóa đơn ước giá đã xác nhận có sẵn trong mô-đun Kế toán dự án của Project Operations. Các kế toán viên của dự án có thể thực hiện các cập nhật bổ sung như thuế bán hàng, kế toán và bố cục hóa đơn.
+Việc lập hóa đơn cung cấp cho người quản lý dự án mức phê duyệt thứ hai trước khi họ tạo hóa đơn cho khách hàng. Mức phê duyệt thứ nhất hoàn thành khi các mục nhập thời gian và chi phí mà thành viên nhóm dự án gửi được phê duyệt.
 
+Hoạt động Dự án trên Dynamics 365 không được thiết kế để tạo hóa đơn dành cho khách hàng vì các lý do sau:
+
+- PSA không chứa thông tin thuế.
+- PSA không thể chuyển đổi các loại tiền tệ khác thành tiền hệ lập hóa đơn bằng cách dùng tỷ giá hối đoái được đặt cấu hình chính xác.
+- PSA không thể định dạng hóa đơn theo cách chính xác để các hóa đơn có thể được in.
+
+Thay vào đó, bạn có thể dùng hệ thống kế toán hoặc tài chính để tạo hóa đơn dành cho khách hàng sử dụng thông tin từ đề xuất hóa đơn đã tạo.
 
 ## <a name="creating-project-invoices"></a>Tạo hóa đơn dự án
 
@@ -33,7 +50,7 @@ Làm theo bước này để tạo hóa đơn cho một hợp đồng dự án c
 
 - Trên trang danh sách **Hợp đồng dự án**, hãy mở hợp đồng dự án rồi chọn **Tạo hóa đơn**.
 
-    Hóa đơn được tạo cho tất cả giao dịch cho hợp đồng dự án đã chọn có trạng thái **Sẵn sàng để lập hóa đơn**. Các giao dịch này bao gồm thời gian, chi phí, vật tư, mốc và các dòng nhật ký kế toán về doanh số bán hàng chưa lập hóa đơn khác.
+    Hóa đơn được tạo cho tất cả giao dịch cho hợp đồng dự án đã chọn có trạng thái **Sẵn sàng để lập hóa đơn**. Các giao dịch này bao gồm thời gian, chi phí, mốc và mô tả hợp đồng dựa trên sản phẩm.
 
 Làm theo các bước sau để tạo hóa đơn hàng loạt.
 
@@ -43,7 +60,7 @@ Làm theo các bước sau để tạo hóa đơn hàng loạt.
 
 2. Chọn **OK** để đóng hộp thông báo.
 
-    Hóa đơn được tạo cho tất cả giao dịch trên mô tả hợp đồng có trạng thái **Sẵn sàng để lập hóa đơn**. Các giao dịch này bao gồm thời gian, chi phí, vật tư, mốc và các dòng nhật ký kế toán về doanh số bán hàng chưa lập hóa đơn khác.
+    Hóa đơn được tạo cho tất cả giao dịch trên mô tả hợp đồng có trạng thái **Sẵn sàng để lập hóa đơn**. Các giao dịch này bao gồm thời gian, chi phí, mốc và mô tả hợp đồng dựa trên sản phẩm.
 
 3. Để xem các hóa đơn được tạo, hãy chuyển đến **Bán hàng** \> **Thanh toán** \> **Hóa đơn**. Bạn sẽ thấy một hóa đơn cho mỗi hợp đồng dự án.
 
@@ -76,10 +93,11 @@ Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp l�
  
 ### <a name="edit-a-draft-invoice"></a>Sửa hóa đơn đã xác nhận
 
-Khi bạn tạo một hóa đơn dự án nháp, tất cả giao dịch bán hàng chưa được lập hóa đơn sẽ được tạo khi các mục nhập thời gian, chi phí và mức sử dụng vật tư được phê duyệt được kéo vào hóa đơn. Bạn có thể thực hiện các điều chỉnh sau khi hóa đơn vẫn còn trong giai đoạn nháp:
+Khi bạn tạo một hóa đơn dự án nháp, tất cả giao dịch bán hàng chưa được lập hóa đơn sẽ được tạo khi các mục nhập thời gian và chi phí được phê duyệt được kéo vào hóa đơn. Bạn có thể thực hiện các điều chỉnh sau khi hóa đơn vẫn còn trong giai đoạn nháp:
 
 - Xóa hoặc chỉnh sửa chi tiết mô tả hóa đơn.
 - Chỉnh sửa và điều chỉnh loại thanh toán và số lượng.
+- Trực tiếp thêm thời gian, chi phí và phí ở dạng các giao dịch trên hóa đơn. Bạn có thể sử dụng tính năng này nếu mô tả hóa đơn được ánh xạ đến mô tả hợp đồng cho phép các lớp giao dịch này.
 
 Chọn **Xác nhận** để xác nhận hóa đơn. Hành động Xác nhận là hành động một chiều. khi bạn chọn **Xác nhận**, hệ thống đặt hóa đơn ở chế độ chỉ đọc và tạo doanh số bán hàng thực tế đã lập hóa đơn từ mỗi chi tiết mô tả hóa đơn cho mỗi mô tả hóa đơn. Nếu chi tiết mô tả hóa đơn tham chiếu doanh số bán hàng thực tế chưa lập hóa đơn, thì hệ thống cũng đảo ngược doanh số bán hàng thực tế chưa lập hóa đơn đó. (Mọi chi tiết mô tả hóa đơn được tạo từ mục nhập thời gian hoặc chi phí sẽ tham chiếu doanh số bán hàng thực tế chưa được lập hóa đơn). Các hệ thống tích hợp sổ cái chung có thể dùng đảo ngược này để đảo ngược công việc dự án đang tiến hành (WIP) cho mục đích kế toán.
 
@@ -93,6 +111,3 @@ Khi bạn xác nhận hóa đơn chỉnh sửa, doanh số bán hàng thực t�
 
 - Doanh số bán hàng thực tế được lập hóa đơn cho 6 giờ.
 - Doanh số bán hàng thực tế được lập hóa đơn cho 2 giờ còn lại. Giao dịch này có thể được lập hóa đơn sau hoặc đánh dấu là không tính phí, tùy thuộc vào các cuộc đàm phán với khách hàng.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

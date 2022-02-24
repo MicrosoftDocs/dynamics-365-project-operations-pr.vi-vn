@@ -1,6 +1,8 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3
 description: Chủ đề này cung cấp thông tin về tính năng mới và đã thay đổi trong Project Service Automation phiên bản 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987102"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150694"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3
 
@@ -36,7 +38,7 @@ Chủ đề này cung cấp thông tin về các thay đổi đối với giao d
 ## <a name="project-scheduling"></a>Lên lịch dự án
 Lịch trình dự án, còn được gọi là Cấu trúc phân tích công việc (WBS) trong các phiên bản trước, đã được đổi tên thành Lịch trình và có thể truy cập bằng cách bấm vào tab **Lịch trình**. 
 
-![Lịch trình dự án.](media/psa-schedule-01.png)
+![Lịch trình dự án](media/psa-schedule-01.png)
 
 Lịch trình hiện có một giao diện tương tác mới vừa hiện đại vừa dễ tiếp cận. Tuy nhiên, công cụ lập lịch trình Project Service Automation cơ bản không thay đổi. Các nút điều khiển trong ruy băng lưới lịch trình cho phép bạn tương tác với lịch trình, tương tự như phiên bản Project Service Automation trước. Các thay đổi bổ sung với lịch trình bao gồm:
 
@@ -95,22 +97,22 @@ Khi bạn di chuyển lịch trình của một dự án hiện có, tình huố
 ## <a name="estimates"></a>Ước tính
 Ước tính đã được chia thành hai tab **Nhiệm vụ nguồn lực** và **Ước tính**. Tab **Chỉ định nguồn lực** chứa các ước tính về nguồn lực và cho thấy các nội dung chỉ định nguồn lực của các nhiệm vụ trong dạng xem theo theo thời gian. Bạn có thể chỉnh sửa ước tính dựa trên những gì công cụ lên lịch đã tạo.
 
-![Tab Gán nguồn lực hiển thị các ước tính về nỗ lực và nội dung gán nguồn lực cho nhiệm vụ.](media/resource-assignments-tab-02.png)
+![Tab Gán nguồn lực hiển thị các ước tính về nỗ lực và nội dung gán nguồn lực cho nhiệm vụ](media/resource-assignments-tab-02.png)
 
 Tab **Ước tính** hiển thị chi phí và doanh số cho các nhiệm vụ của nguồn lực. Các số liệu đều ở dạng chỉ đọc. Cách định giá chi phí và doanh số hiện phát triển từ nhiệm vụ của thành viên nhóm trên lịch trình. Điều này nghĩa là nếu bạn có một nhiệm vụ mà không có chỉ định, nhiệm vụ đó sẽ hiển thị bên dưới nhóm chưa chỉ định. Điều này cũng có nghĩa là nếu không có **vai trò**, thông số định giá mặc định, thì không có chi phí hay doanh số ước tính nếu bạn có khách hàng hoặc hợp đồng/báo giá liên kết với dự án. 
 
-![Tab Ước tính hiển thị chi phí và doanh số.](media/estimates-tab-03.png)
+![Tab Ước tính hiển thị chi phí và doanh số](media/estimates-tab-03.png)
   
 Danh mục cũng được hỗ trợ đối với các nhiệm vụ trong dạng xem lịch trình. Việc nhóm theo danh mục trên dạng xem ước tính dựa trên thời gian sẽ mang lại trải nghiệm tốt hơn, đặc biệt là khi bạn cũng có ước tính chi phí trong dự án. Ước tính chi phí được nhập qua lưới trên tab riêng. 
 
 Có thể nhập ước tính chi phí vào lưới trên tab **Ước tính chi phí**. 
 
-![Tab Ước tính chi phí hiển thị lưới ước tính chi phí.](media/expense-estimates-tab-04.png)
+![Tab Ước tính chi phí hiển thị lưới ước tính chi phí](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Quản lý nguồn lực
 Trong Project Service Automation phiên bản 3, với UI ứng dụng hợp nhất mới và các thay đổi trong mối quan hệ giữa nhiệm vụ và nội dung đặt trước, việc chia ca một dự án có các nguồn lực chung hoặc thực tế đã thay đổi đáng kể so với phiên bản 2 và phiên bản 1. Tuy nhiên, các khái niệm nguồn lực có thể đặt, cả **thực** và **chung** đều giữ nguyên, giống như thành viên nhóm, yêu cầu, nhiệm vụ và đăng ký.   
 
-![Sử dụng bộ chọn nguồn lực.](media/resource-management-05.png)
+![Sử dụng bộ chọn nguồn lực](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Chỉ định nguồn lực thực có thể đặt 
 Trong Project Service Automation phiên bản 3, việc đặt chỗ và phân công nhiệm vụ không được đan xen chặt chẽ như trong các phiên bản trước của Project Service Automation. Bạn có thể sử dụng lưới của nhóm để đặt một thành viên nhóm **thực**, tương tự như trong thị trường.
@@ -151,21 +153,21 @@ Phần này cung cấp thông tin về thay đổi đối với thời gian, chi
 ### <a name="landing-page"></a>Trang đích
 Trải nghiệm mục nhập thời gian tùy chỉnh không thể mở rộng đã không được dùng nữa trong phiên bản 3. Thay vào đó, hiện có một trải nghiệm lưới tự nhiên có thể mở rộng và truy cập. Bạn có thể truy cập chức năng mục nhập thời gian bằng cách sử dụng sơ đồ trang web ở bên trái. Với thay đổi này, bạn sẽ không thể nhập thời gian cho một tuần vào cùng một thời điểm nữa. Thay vào đó, bạn cần tạo một mục nhập thời gian cho từng ngày trong lưới. Sau khi một vài mục nhập thời gian đã được tạo, người dùng có thể tạo hàng loạt mục nhập thời gian bằng chức năng **Sao chép** được giải thích ở phần sau của chủ đề này. 
 
-![Trang đích mục nhập thời gian.](media/time-entry-landing-page-07.png)
+![Trang đích mục nhập thời gian](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Tạo mục nhập thời gian mới 
 Bấm vào **Mới** trong ruy băng để mở trang tạo nhanh cho mục nhập thời gian khi bạn nhập khoảng thời gian theo phút, giờ hoặc ngày. Để làm điều này, chỉ cần bắt đầu nhập giờ, tháng hoặc ngày cùng với số lượng.  
 
-![Tạo nhanh mục nhập thời gian.](media/quick-create-time-entry-08.png)
+![Tạo nhanh mục nhập thời gian](media/quick-create-time-entry-08.png)
 
 Các trường tra cứu được dạng xem hệ thống hỗ trợ. Ví dụ: sau khi bạn nhập thông tin dự án, trường **Nhiệm vụ dự án** được đặt theo mặc định thành dạng xem **Nhiệm vụ dự án mở của tôi**. Để tạo mục nhập thời gian cho các tác vụ chưa được chỉ định cho người dùng, hãy bấm vào **Thay đổi dạng xem** trên mục tra cứu và chọn **Tất cả nhiệm vụ dự án hiện hoạt**. Sau khi mục nhập thời gian đã được tạo và hiển thị trong lưới, bạn có thể chỉnh sửa bất kỳ giá trị dòng nào ngay trong lưới.  
 
 ### <a name="bulk-createcopy"></a>Tạo/sao chép hàng loạt 
 Sau khi một vài mục nhập thời gian đã được tạo, bạn có thể sử dụng chức năng sao chép để tạo hàng loạt các mục nhập thời gian bổ sung. Bấm vào **Sao chép** để mở hộp thoại **Sao chép**. Trong **Từ khoảng thời gian: Ngày bắt đầu**, chọn phạm vi ngày phải được sao chép khoảng thời gian. Trong **Tới khoảng thời gian: Ngày bắt đầu**, chọn ngày phải tạo mục nhập thời gian. Bấm vào **Sao chép** để sao chép các mục nhập thời gian vào ngày tương ứng trong tuần được nêu trong trường **Tới khoảng thời gian**. Ví dụ: mục nhập thời gian của Thứ hai từ tuần trước sẽ được sao chép vào Thứ hai của tuần nêu trong trường **Tới khoảng tời gian**. 
 
-![Sao chép hàng loạt mục nhập thời gian.](media/bulk-copy-time-entry-09.png)
+![Sao chép hàng loạt mục nhập thời gian](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Nhập dữ liệu 
+### <a name="import-data"></a>Nhập dữ liệu 
 Nội dung chỉ định và thay đổi tuân theo cùng một mẫu giao diện người dùng, cho phép người dùng chỉ định phạm vi ngày mà cần nhập đăng ký. Sau đó, bạn phải chọn rõ ràng các mục đặt trước sẽ được sao chép vào mục nhập thời gian **Nháp**. Trong phiên bản 3, bạn không còn thấy mẫu mục nhập thời gian **Đề xuất** trên lưới và trên lịch nữa.  
 
 ### <a name="change-in-calendar-control"></a>Thay đổi trong bộ kiểm soát lịch
@@ -179,7 +181,7 @@ Trong phiên bản 3, chúng tôi đã bỏ bộ kiểm soát lịch tùy chỉn
 
 **Chụp dữ liệu trên các trường tùy chỉnh trong mục nhập thời gian và chi phí, rồi lan truyền thông qua các thực thể hỗ trợ luồng gửi và phê duyệt** - Quá trình xử lý mục nhập thời gian thông thường được hiển thị trong sơ đồ sau.
 
-![Luồng xử lý mục nhập thời gian.](media/process-time-entries-10.png)
+![Luồng xử lý mục nhập thời gian](media/process-time-entries-10.png)
 
 Nếu yêu cầu công việc quy định rằng các thực thể thời gian và chi phí phải bao gồm các thông số định giá tùy chỉnh và lan truyền các giá trị do một nguồn lực thời gian và mục nhập trong thông số định giá tùy chỉnh thông qua tất cả các thực thể trong sơ đồ trước, hãy xem phần [Thiết lập các trường tùy chỉnh làm thông số định giá](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ Trong phiên bản 1 và 2, việc thiết lập khả năng tính phí cho vai 
 
 Kể từ phiên bản 3, việc thiết lập các tùy chọn về khả năng tính phí theo vai trò và danh mục chi phí sẽ được thực hiện ở cấp mô tả báo giá hoặc hợp đồng. Quá trình thiết lập giá sẽ tách biệt với thiết lập khả năng tính phí. Bạn sẽ có thể tìm **Vai trò có thể tính phí** và **Danh mục có thể tính phí** dưới dạng tab trên các trang **Mô tả báo giá** và **Mô tả hợp đồng** mà không phải sử dụng phần điều hướng ở trên cùng.
 
-![Các vai trò có thể tính phí.](media/chargeable-12.png)
+![Các vai trò có thể tính phí](media/chargeable-12.png)
  
 Việc thiết lập Vai trò có thể tính phí và Danh mục có thể tính phí cũng tận dụng bộ kiểm soát lưới có thể chỉnh sửa sẵn dùng. Đối với mỗi vai trò và danh mục, các lựa chọn được hỗ trợ đối với loại lập hóa đơn trong giai đoạn Báo giá và Tạo hợp đồng sẽ không thay đổi so với các phiên bản trước, đó là **Có thể tính phí** và **Không thể tính phí**. **Miễn phí** không phải là loại được hỗ trợ trong giai đoạn Báo giá hoặc Tạo hợp đồng. **Miễn phí** chỉ được hỗ trợ trong quá trình phê duyệt Thời gian hoặc Chi phí.  
  
@@ -247,14 +249,11 @@ Kể từ phiên bản 3, việc tạo và sử dụng bảng giá tùy chỉnh 
   
 Sơ đồ sau đây là trước khi tạo bảng giá tùy chỉnh.
 
-![Trước bảng giá tùy chỉnh.](media/before-custom-price-lists-13.png)
+![Trước bảng giá tùy chỉnh](media/before-custom-price-lists-13.png)
 
 Sơ đồ sau đây là sau khi tạo bảng giá tùy chỉnh.
 
-![Sau bảng giá tùy chỉnh.](media/after-custom-price-lists-14.png)
+![Sau bảng giá tùy chỉnh](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Có thể xuất hiện tình trạng chậm trễ trong thời gian ngắn khi bạn bấm vào **Tạo nội dung định giá tùy chỉnh** khi bảng giá được tạo. Bạn nên làm mới lưới thay vì bấm nhiều lần. Một bảng giá tùy chỉnh đã được tạo nếu tên bảng giá liên kết có tên báo giá hoặc tên hợp đồng dự án đi kèm.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

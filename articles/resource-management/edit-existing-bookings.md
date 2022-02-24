@@ -2,16 +2,18 @@
 title: Chỉnh sửa mục đăng ký
 description: Chủ đề này cung cấp thông tin về cách cập nhật và thực hiện các thay đổi đối với mục đăng ký.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008342"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841420"
 ---
 # <a name="edit-bookings"></a>Chỉnh sửa mục Đăng ký
 
@@ -31,6 +33,3 @@ Từ lưới **Thành viên Nhóm**, Người quản lý dự án có thể nế
 ## <a name="schedule-board"></a>Bảng lịch trình
 
 Từ **Bảng lịch trình**, Người quản lý nguồn lực có chế độ xem hồ sơ của tất cả các đăng ký trong một tổ chức. Từ dạng xem này, Người quản lý nguồn lực có thể mở rộng, rút ngắn hoặc di chuyển các đăng ký hiện có tương tự như các khả năng được cung cấp trong **Duy trì Đăng ký**. Người quản lý nguồn lực cũng có thể thay thế các nguồn lực hiện được phân bổ cho một đăng ký cụ thể bằng cách bấm chuột phải vào đăng ký đó và chọn **Thay thế Nguồn lực**. Người quản lý nguồn lực cũng có thể chỉnh sửa mục phân phối giờ làm việc của các đăng ký hiện có bằng cách bấm chuột phải vào đăng ký và chọn **Chỉnh sửa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

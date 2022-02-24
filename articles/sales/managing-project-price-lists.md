@@ -2,9 +2,11 @@
 title: Quản lý bảng giá dự án trên một báo giá
 description: Chủ đề này cung cấp thông tin về thực thể bảng giá cho Dự án.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003932"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177222"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Quản lý bảng giá dự án trên một báo giá
 
@@ -118,6 +120,3 @@ Giống như tỉ suất hóa đơn, tỷ suất chi phí cho nguồn nhân lự
     1. Bảng giá chi phí được đính kèm vào đơn vị tổ chức.
     2. Bảng giá chi phí được đính kèm vào các thông số trên Project Operations. Vì có thể đính kèm bảng giá chi phí ở nhiều loại tiền tệ khác nhau vào các tham số, nên việc khớp tiền tệ sẽ được hoàn tất giữa các loại tiền tệ của đơn vị tổ chức giao kết hợp đồng của dự án, hợp đồng hoặc báo giá và tiền tệ của danh sách giá chi phí.
     3. Đối với chi phí, các phương pháp định giá theo chi phí và cố định không áp dụng cho danh sách giá chi phí. Ngay cả khi các phương pháp định giá này được sử dụng trên các dòng danh sách giá chi phí để thiết lập chi phí theo loại giao dịch, thì hệ thống cũng bỏ qua chúng và không có giá chi phí mặc định được nhập.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

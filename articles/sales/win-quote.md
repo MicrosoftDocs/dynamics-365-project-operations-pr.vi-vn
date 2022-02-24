@@ -2,22 +2,24 @@
 title: Đóng báo giá
 description: Chủ đề này cung cấp thông tin về cách đóng báo giá trong Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993447"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124709"
 ---
 # <a name="close-a-quote"></a>Đóng báo giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Báo giá dự án ở trạng thái Đã giành được hoặc Đã mất. Do các chức năng Kích hoạt và Xem lại không được hỗ trợ trên báo giá trong Microsoft Dynamics 365 Project Operations, bạn có thể đóng báo giá nháp.
+Báo giá dự án ở trạng thái Đã giành được hoặc Đã mất. Các chức năng Kích hoạt và Sửa đổi không được hỗ trợ trên báo giá trong Microsoft Dynamics 365 Project Operations. Do đó, bạn có thể đóng báo giá nháp.
 
 ## <a name="close-a-quote-as-won"></a>Đóng báo giá dưới dạng Đã giành được
 
@@ -41,6 +43,3 @@ Nếu báo giá dự án được đóng dưới dạng Đã mất có một d�
 
 > [!NOTE]
 > Trong Project Operations, việc đóng báo giá dưới dạng Đã giành được hay Đã mất sẽ không ảnh hưởng đến trạng thái đó của Cơ hội. Cơ hội sẽ vẫn mở cho đến khi được đóng theo cách thủ công.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

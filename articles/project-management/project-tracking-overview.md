@@ -2,17 +2,18 @@
 title: Theo dõi công số dự án
 description: Chủ đề này cung cấp thông tin về cách theo dõi công số dự án và tiến độ công việc.
 author: ruhercul
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993987"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710966"
 ---
 # <a name="project-effort-tracking"></a>Theo dõi công số dự án
 

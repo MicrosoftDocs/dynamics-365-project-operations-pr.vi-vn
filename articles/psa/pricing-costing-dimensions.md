@@ -2,11 +2,12 @@
 title: Trang chủ tham số giá và chi phí
 description: Chủ đề này cung cấp tổng quan về tham số giá.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998487"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151324"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Trang chủ tham số giá và chi phí
 
@@ -41,7 +42,7 @@ Do tính chất điển hình của các loại công việc này và những ng
 
 PSA vận chuyển với một bộ tham số giá mặc định. Bạn có thể xem các tham số này bằng các chuyển đến **Project Service** > **Tham số**. Trong bản ghi tham số, trên tab **Tham số giá dựa trên số tiền**, hãy xác minh rằng vai trò **msdyn_resourcecategory** và đơn vị tổ chức nguồn lực **msdyn_organizationalunit** có các trường **Áp dụng cho bán hàng** và **Áp dụng cho chi phí** được đặt thành **Có**. Điều này sẽ cho phép bạn thiết lập giá cả và chi phí cho mỗi kết hợp vai trò và đơn vị tổ chức.
 
-![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu.](media/PS-OOB-parameters.png)
+![Ảnh chụp màn hình của tham số Project Service với "Áp dụng cho bán hàng" được đánh dấu](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Nếu bạn đã dùng các trường sẵn dùng của vai trò và đơn vị tổ chức ở dạng tham số giá trước phiên bản 3 của PSA, thì sẽ không có thay đổi nào có thể quan sát được. Bạn có thể tiếp tục sử dụng Project Service như bình thường. 
@@ -64,18 +65,15 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 
 **Tỷ lệ hóa đơn mẫu**
 
-| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ------------|-------------|----------|----------:|----------|
-| Nhà phát triển   | Contoso Hoa Kỳ  |Giờ | 200|Giải pháp USD     |
-| Nhà phát triển   | Contoso Ấn Độ |Giờ|   112|Giải pháp USD     |
+| Nhà phát triển   | Contoso US  |Hour | 200|Giải pháp USD     |
+| Nhà phát triển   | Đàm Ấn Độ |Hour|   112|Giải pháp USD     |
 
 
 **Tỷ lệ chi phí mẫu**
 
-| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso Hoa Kỳ  |Giờ | 145|Giải pháp USD     |
-| My company_Band2 | Contoso Ấn Độ |Giờ|   67|Giải pháp USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
+| My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |

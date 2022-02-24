@@ -2,6 +2,8 @@
 title: Tùy chỉnh mục nhập thời gian hàng tuần
 description: Chủ đề này cung cấp thông tin về cách triển khai các quy tắc kinh doanh tùy chỉnh hỗ trợ cách thức của một tổ chức.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002312"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149659"
 ---
 # <a name="customize-weekly-time-entry"></a>Tùy chỉnh mục nhập thời gian hàng tuần 
 
@@ -29,7 +31,7 @@ ms.locfileid: "7002312"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Trong Microsoft Dynamics 365 Project Service Automation phiên bản 3.3, Microsoft đã giới thiệu một lưới hiện đại cho phép nguồn lực dự án nhanh chóng nhập thời gian cho tối đa 1 tuần 1 lúc. Lưới mục nhập thời gian hàng tuần mới này có thể hiển thị tổng số cho các mục theo ngày, theo hàng hoặc theo tuần. Các nguồn lực có thể tạo bản sao của mục nhập thời gian trong tuần và cũng sao chép hàng loạt từ các tuần trước. Bộ tùy chỉnh hệ thống có thể tùy chỉnh dạng xem bằng cách thêm các trường, thêm thông tin tra cứu cho các thực thể khác và triển khai quy tắc kinh doanh tùy chỉnh để hỗ trợ phương thức của tổ chức.
+Trong Microsoft Dynamics 365 Project Service Automation phiên bản 3.3, Microsoft đã giới thiệu một lưới hiện đại cho phép các nguồn lực dự án nhanh chóng nhập thời gian tối đa là 1 tuần một lúc. Lưới mục nhập thời gian hàng tuần mới này có thể hiển thị tổng số cho các mục theo ngày, theo hàng hoặc theo tuần. Các nguồn lực có thể tạo bản sao của mục nhập thời gian trong tuần và cũng sao chép hàng loạt từ các tuần trước. Bộ tùy chỉnh hệ thống có thể tùy chỉnh dạng xem bằng cách thêm các trường, thêm thông tin tra cứu cho các thực thể khác và triển khai quy tắc kinh doanh tùy chỉnh để hỗ trợ phương thức của tổ chức.
 
 Mục nhập thời gian và lưới thời gian hàng tuần mới được truy cập thông qua bản đồ trang web. Trải nghiệm mục nhập thời gian tùy chỉnh không mở rộng là một phần của phiên bản PSA trước đó đã được thay thế bằng lưới mục nhập thời gian hàng tuần mở rộng, đồng thời bằng một trải nghiệm thay thế trong lưới chỉ đọc và lịch. Do sự thay đổi này, người dùng có thể nhập thời gian vào số tiền hàng tuần.
 
@@ -130,6 +132,3 @@ Bạn nên sử dụng các quy tắc xác thực bổ trợ đối với mọi 
 
 > [!IMPORTANT] 
 > Hiện tại, một sự cố đã biết trên trang TBX ngăn người dùng điều chỉnh thông tin và chọn lại Xong khi bản cập nhật không xác nhận được phần bổ trợ. Để khắc phục, hãy thiết lập các quy tắc xác thực quy tắc công việc để ngăn chặn tình huống này nhiều nhất có thể.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

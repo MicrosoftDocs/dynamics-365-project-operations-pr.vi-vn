@@ -2,16 +2,18 @@
 title: Thiết lập mẫu chi phí
 description: Chủ đề này cung cấp thông tin về cách tạo và sử dụng mẫu chi phí trong Project Operations.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993582"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642749"
 ---
 # <a name="set-up-cost-templates"></a>Thiết lập mẫu chi phí
 
@@ -77,6 +79,3 @@ Bạn có thể cân nhắc một vài yếu tố sau đây khi đưa ra quyết
 7. Trên tab **Hạng mục**, hãy chọn những hạng mục dự án bạn muốn đưa vào dòng mẫu chi phí.
 8. Trên tab **Chung**, hãy chọn xem có đưa dòng này vào phép tính phần trăm hoàn thành hay không.
 9. Chọn phương pháp phần trăm hoàn thành bạn muốn dùng khi tính toán tỷ lệ phần trăm hoàn thành.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Quản lý nhiều khách hàng trên một hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992097"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643199"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Quản lý nhiều khách hàng trên một hợp đồng dự án
 
@@ -45,6 +47,3 @@ Bạn có thể tạo, cập nhật hoặc xóa một khách hàng trên hợp �
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán trong lưới này. Khi tổng các tỷ lệ phần trăm thanh toán không bằng 100 phần trăm, lỗi sẽ xảy ra. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán, hãy làm mới trang **Hợp đồng dự án** để loại bỏ lỗi đó.
 
 Bạn cũng có thể chọn **Phân phối đồng đều** trên lưới con khách hàng trên hợp đồng dự án. Tỷ lệ thanh toán được phân bổ đều cho tất cả khách hàng trên hợp đồng dự án. Nếu có bất kỳ hệ số làm tròn nào, hệ số này sẽ được thêm cho khách hàng làm tròn. Một trong những khách hàng trên hợp đồng sẽ luôn có cờ **Làm tròn** đặt thành **Có**. Khách hàng đó là khách hàng làm tròn. Thông thường, khách hàng làm tròn cũng là khách hàng chính của hợp đồng, nhưng điều đó không bắt buộc.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

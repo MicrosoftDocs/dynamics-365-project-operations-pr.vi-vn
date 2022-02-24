@@ -2,22 +2,24 @@
 title: Quản lý nhiều khách hàng trên hợp đồng dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên hợp đồng dự án.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001772"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181343"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Quản lý nhiều khách hàng trên hợp đồng dự án - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Hợp đồng dự án trong Dynamics 365 Project Operations hỗ trợ trường hợp một thỏa thuận theo hợp đồng liên quan đến nhiều khách hàng đang cấp vốn cho thỏa thuận. Tab **Tóm tắt** trên trang **Hợp đồng dự án** bao gồm trường **Khách hàng**. Trường này xác định khách hàng chính của thỏa thuận. Các khách hàng khác của thỏa thuận có thể được thiết lập trên tab **Khách hàng** của trang **Hợp đồng dự án**.
+Hợp đồng dự án trong Dynamics 365 Project Operations hỗ trợ trường hợp một thỏa thuận theo hợp đồng liên quan đến nhiều khách hàng đang trả tiền cho thỏa thuận. Tab **Tóm tắt** trên trang **Hợp đồng dự án** bao gồm trường **Khách hàng**. Trường này xác định khách hàng chính của thỏa thuận. Các khách hàng khác của thỏa thuận có thể được thiết lập trên tab **Khách hàng** của trang **Hợp đồng dự án**.
 
 Tất cả các khách hàng theo hợp đồng được liệt kê trên hợp đồng dự án đều mặc định là khách hàng trong phần mô tả hợp đồng của bất kỳ mô tả hợp đồng dựa trên dự án mới nào được tạo cho hợp đồng dự án. Các mô tả hợp đồng dựa trên dự án hiện có không kế thừa khách hàng mới theo hợp đồng khi hồ sơ mới được tạo.
 
@@ -50,6 +52,3 @@ Bạn có thể tạo, cập nhật hoặc xóa một khách hàng trên hợp �
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán bằng cách sử dụng trải nghiệm chỉnh sửa lưới nội dòng. Khi tổng các tỷ lệ phần trăm thanh toán không bằng 100 phần trăm, bạn sẽ nhận được thông báo lỗi. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán, hãy làm mới trang để loại bỏ lỗi nói trên.
 
 Bạn cũng có thể chọn **Phân phối đồng đều** trên lưới con hiển thị **Khách hàng trên hợp đồng** để phân bổ đồng đều các phần thanh toán cho tất cả các khách hàng trên hợp đồng. Nếu có hệ số làm tròn, hệ số này sẽ được thêm cho khách hàng làm tròn. Một trong số khách hàng trên hợp đồng sẽ luôn được gắn thẻ là khách hàng **làm tròn**, nghĩa là hồ sơ của khách hàng trên hợp đồng đó có cờ làm tròn được đặt thành **Có**. Thông thường, đây là khách hàng chính của hợp đồng, nhưng điều đó cũng có thể được thay đổi.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

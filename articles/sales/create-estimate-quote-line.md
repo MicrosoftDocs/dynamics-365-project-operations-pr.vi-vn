@@ -2,9 +2,11 @@
 title: Tạo giá trị ước tính trên một dòng báo giá
 description: Chủ đề này cung cấp thông tin về cách tạo ước tính trên dòng báo giá cho một dự án.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996462"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122954"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Tạo giá trị ước tính trên một dòng báo giá
 
@@ -28,7 +30,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Trên báo giá dựa trên dự án, bạn có thể sử dụng thực thể chi tiết dòng Báo giá để ước tính công việc cần thiết nhằm cung cấp một dự án. Sau đó, bạn có thể chia sẻ ước tính đó với khách hàng.
 
-Các dòng báo giá dựa trên dự án không cần phải có bất kỳ chi tiết dòng báo giá nào. Ngoài ra, chúng có thể có nhiều chi tiết dòng báo giá. Chi tiết dòng báo giá được sử dụng để ước tính thời gian, chi phí, hoặc lệ phí. Dynamics 365 Project Operations không cho phép ước tính vật tư trên chi tiết dòng báo giá. Chúng được gọi là các lớp giao dịch. Ước tính số tiền thuế cũng có thể được nhập vào một lớp giao dịch.
+Các dòng báo giá dựa trên dự án không cần phải có bất kỳ chi tiết dòng báo giá nào. Ngoài ra, chúng có thể có nhiều chi tiết dòng báo giá. Chi tiết dòng báo giá được sử dụng để ước tính thời gian, chi phí, hoặc lệ phí. Hoạt động Dự án trên Dynamics 365 không cho phép các ước tính vật tư trên chi tiết dòng báo giá. Chúng được gọi là các lớp giao dịch. Ước tính số tiền thuế cũng có thể được nhập vào một lớp giao dịch.
 
 Ngoài các lớp giao dịch, chi tiết dòng báo giá còn có một loại giao dịch. Có hai loại giao dịch đối với chi tiết dòng báo giá là **Chi phí** và **Hợp đồng dự án**.
 
@@ -86,6 +88,3 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

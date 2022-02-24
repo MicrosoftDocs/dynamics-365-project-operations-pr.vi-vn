@@ -2,9 +2,11 @@
 title: Phương thức phân bổ đặt trước
 description: Chủ đề này cung cấp thông tin về cách thức hoạt động của phương thức phân bổ đặt trước trong Hoạt động Dự án.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121514"
 ---
 # <a name="booking-allocation-methods"></a>Phương thức phân bổ đặt trước
 
@@ -79,6 +81,3 @@ Tổng kết lại, các phương pháp phân bổ sau sẽ dẫn tới quá t�
 - Giờ phân phối đồng đều
 
 Khi sử dụng một trong ba phương pháp phân bổ này, bạn sẽ không được thông báo khi nguồn lực bị quá tải đăng ký. Để khắc phục việc quá tải đăng ký, bạn sẽ cần sử dụng bảng Lịch trình.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

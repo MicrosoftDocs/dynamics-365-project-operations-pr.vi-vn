@@ -1,23 +1,25 @@
 ---
-title: Quản lý tồn đọng lập hóa đơn dự án
-description: Chủ đề này cung cấp thông tin về các dạng xem khác nhau có thể sử dụng khi quản lý mục tồn đọng lập hóa đơn trên các dự án.
+title: Quản lý công việc lập hóa đơn còn tồn đọng - bản đơn giản
+description: Chủ đề này cung cấp thông tin về các dạng xem khác nhau hiện có mà bạn có thể sử dụng khi quản lý công việc lập hóa đơn còn tồn đọng.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988317"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176997"
 ---
-# <a name="manage-project-billing-backlog"></a>Quản lý tồn đọng lập hóa đơn dự án 
+# <a name="manage-the-billing-backlog---lite"></a>Quản lý công việc lập hóa đơn còn tồn đọng - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations có các chế độ xem chuyên biệt để giúp quản lý hóa đơn tồn đọng. Để quản lý công việc lập hóa đơn còn tồn đọng, hãy chọn các liên kết trong khu vực **Bán hàng**, phía dưới phần **Thanh toán**. 
+Dynamics 365 Project Operations có các dạng xem chuyên biệt để giúp quản lý công việc lập hóa đơn còn tồn đọng. Để quản lý công việc lập hóa đơn còn tồn đọng, hãy chọn các liên kết trong khu vực **Bán hàng**, phía dưới phần **Thanh toán**. 
 
 Hiện có các dạng xem sau đây:
 
@@ -58,6 +60,3 @@ Bạn không thể đánh dấu các giao dịch bán hàng thực tế chưa th
 Nếu phần mô tả hợp đồng với nhiều khách hàng có phương thức thanh toán theo thời gian và vật tư, thì khi thời gian và chi phí được phê duyệt, một giao dịch bán hàng thực tế chưa thanh toán sẽ được tạo cho từng khách hàng trên phần mô tả hợp đồng theo tỷ lệ phần trăm thanh toán được xác định cho từng khách hàng đó. Ở dạng xem **Tồn đọng thanh toán cho thời gian và vật tư**, bạn sẽ thấy các giao dịch bán hàng thực tế chưa thanh toán cho từng khách hàng cụ thể này. Mỗi bản ghi giá trị thực tế doanh số chưa lập hóa đơn này có thể được đánh dấu riêng biệt là **Đã sẵn sàng để lập hóa đơn** ở dạng xem này.
 
 Một giao dịch bán hàng thực tế chưa thanh toán có trên hóa đơn nháp sẽ hiển thị trong dạng xem này với trạng thái thanh toán là **Đã tạo hóa đơn cho khách hàng**. Khi hóa đơn nháp được xác nhận, trạng thái thanh toán trên bản ghi này được cập nhật thành **Đã đăng hóa đơn khách hàng**. Không cập nhật giá trị trạng thái này bằng mã tùy chỉnh. Project Operations không hoạt động chính xác khi các giá trị trạng thái này được cập nhật bằng mã tùy chỉnh.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

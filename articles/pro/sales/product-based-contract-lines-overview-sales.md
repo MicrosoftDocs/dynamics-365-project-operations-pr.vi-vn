@@ -2,17 +2,18 @@
 title: Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 description: Chủ đề này cung cấp thông tin về mô tả hợp đồng dựa trên sản phẩm.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272684"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 

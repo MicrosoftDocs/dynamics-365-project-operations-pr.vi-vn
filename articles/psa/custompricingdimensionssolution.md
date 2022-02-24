@@ -2,10 +2,12 @@
 title: Tạo giải pháp tùy chỉnh cho thông số định giá
 description: Chủ đề này giải thích cách tạo giải pháp tùy chỉnh khi tạo thông số định giá tùy chỉnh.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995292"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144665"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Tạo giải pháp tùy chỉnh cho thông số định giá
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995292"
 1. Chọn **Cài đặt** > **Giải pháp** rồi chọn **Mới**. 
 2. Đặt tên giải pháp, **\<your organization name> kích thước giá**, nhập thông tin yêu cầu còn lại, sau đó chọn **Lưu**.
 
-> ![Tạo giải pháp tùy chỉnh cho kích thước giá.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Tạo giải pháp tùy chỉnh cho kích thước giá](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Thêm tất cả các thực thể cần thiết và các thành phần liên quan vào giải pháp Thông số định giá
 Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải pháp giá của bạn. Hoàn thành các bước trong quy trình này để thực hiện một số thay đổi sơ đồ quan trọng trong giải pháp giá để các thực thể trở thành kích thước giá mới.
@@ -54,7 +56,7 @@ Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải p
 - Giá Vai trò 
 - Mục nhập Thời gian 
 
-> ![Thêm các thực thể hiện có vào giải pháp kích thước giá.](media/Existing-entities-to-PD-solution.png)
+> ![Thêm các thực thể hiện có vào giải pháp kích thước giá](media/Existing-entities-to-PD-solution.png)
 
 > ![Chọn thành phần giải pháp.](media/Dimension-Components.png)
 
@@ -63,9 +65,6 @@ Bạn sẽ cần thêm các thực thể Project Service sau đây vào giải p
 
 4. Khi được nhắc đưa vào tất cả các thực thể phụ thuộc cho các thực thể đã chọn, hãy chọn **Không**.
 
-> ![Không bao gồm tất cả thành phần liên quan.](media/Do-not-include-required.png)
+> ![Không bao gồm tất cả thành phần liên quan](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

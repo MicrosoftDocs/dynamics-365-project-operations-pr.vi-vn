@@ -2,6 +2,8 @@
 title: Nhóm đơn vị và đơn vị
 description: Chủ đề này cung cấp thông tin về nhóm đơn vị đo và đơn vị đo.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987597"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145609"
 ---
 # <a name="unit-groups-and-units"></a>Nhóm đơn vị và đơn vị
 
@@ -44,7 +46,7 @@ Ví dụ: trong nhóm đơn vị đo **Thời gian**, nếu bạn thiết lập 
 
 Hình ảnh sau đây minh họa một thiết lập ví dụ cho đơn vị **Ngày**, trong đó trường **Số lượng** hiển thị số giờ trong một ngày và **Tuần**, trong đó trường **Số lượng** hiển thị số ngày trong một tuần.
 
-> ![Nhóm đơn vị đo: Trang thông tin.](media/advanced-2.png)
+> ![Nhóm đơn vị đo: Trang thông tin](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Sử dụng đơn vị và nhóm đơn vị đo
 
@@ -84,9 +86,9 @@ Ví dụ sau cho thấy cách PSA sử dụng nhóm đơn vị đo, đơn vị v
     - **Đơn vị thời gian mặc định**: Ngày 
     - **Tiền tệ**: GBP
 
-| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
+| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
 |-----------|------------|------|---------------------|---------|
-| Nhà phát triển | Thời gian       | Ngày  | Contoso Anh          | 800 GBP |
+| Nhà phát triển | Time       | Day  | Contoso Hoa Kỳ          | 800 GBP |
 
 ### <a name="time-entry"></a>Mục nhập thời gian
 
@@ -110,6 +112,3 @@ Không. Ước tính lịch trình hiện bị giới hạn ở giờ và không
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Có thể chỉnh sửa, xóa và thêm đơn vị cũng như nhóm đơn vị đo không?
 Có chứ. Trừ trường hợp nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**, có thể xóa hoặc chỉnh sửa tất cả các đơn vị, đồng thời có thể thêm đơn vị mới. Trong PSA, không thể xóa nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**. Tuy nhiên, có thể cập nhật các đơn vị này bằng một văn bản đã dịch cho trường **Tên**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

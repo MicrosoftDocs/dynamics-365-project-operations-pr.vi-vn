@@ -2,6 +2,8 @@
 title: Lịch trình dự án
 description: Chủ đề này cung cấp thông tin về cách tạo lịch trình.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998442"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148444"
 ---
 # <a name="project-schedules"></a>Lịch trình dự án 
 
@@ -94,7 +96,7 @@ Bạn hoàn toàn có thể truy cập lưới và dùng lưới **Lịch trình
 
 Tên nhiệm vụ mô tả công việc phải hoàn thành. Trong PSA, các thuộc tính có liên quan đến một nhiệm vụ mô tả lịch trình của nhiệm vụ và các yêu cầu bố trí nhân viên của nhiệm vụ đó.
 
-> ![Thuộc tính nhiệm vụ.](media/project-2.png)
+> ![Thuộc tính nhiệm vụ](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Thuộc tính lịch trình
 
@@ -147,6 +149,3 @@ Theo mặc định, nếu nhiệm vụ nút lá không có nhiệm vụ tiếp t
 ### <a name="manual-scheduling"></a>Lên lịch thủ công
 
 Nếu quy tắc của lập lịch tự động không đáp ứng các yêu cầu của bạn, thì bạn có thể đặt chế độ nhiệm vụ cho nhiệm vụ thành **Đã lập lịch theo cách thủ công**. Cài đặt này sẽ ngăn công cụ lập lịch không tính toán giá trị của các thuộc tính lập lịch khác. Bất kể chế độ nhiệm vụ, nếu đặt nhiệm vụ tiếp trước trên các nhiệm vụ, bạn sẽ luôn làm ảnh hưởng đến ngày bắt đầu của nhiệm vụ phụ thuộc.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

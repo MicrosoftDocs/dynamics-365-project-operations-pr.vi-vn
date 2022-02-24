@@ -2,9 +2,11 @@
 title: Sản phẩm
 description: Chủ đề này cung cấp thông tin về danh mục sản phẩm mà bạn có thể sử dụng để cung cấp thông tin cho khách hàng về các sản phẩm và giá mà tổ chức của bạn cung cấp.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986877"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121289"
 ---
 # <a name="products"></a>Sản phẩm
 
@@ -122,6 +124,3 @@ Ví dụ, nếu có các thuộc tính sau đây:
 - **SKU sản phẩm** 
 
 Các thuộc tính **Sô người dùng** và **Số tháng** có thể được gắn cờ ở dạng yếu tố số lượng bằng cách chỉnh sửa các thuộc tính của mô tả sản phẩm. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

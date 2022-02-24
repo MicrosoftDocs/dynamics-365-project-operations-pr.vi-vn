@@ -2,6 +2,8 @@
 title: Tạo các mục danh mục sản phẩm
 description: Làm cách nào để tạo mục danh mục sản phẩm trong Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995382"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144709"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Tạo mục danh mục sản phẩm (Project Service)
 
@@ -31,10 +33,7 @@ ms.locfileid: "6995382"
 
 Nếu bạn muốn bao gồm các sản phẩm, chẳng hạn như giấy phép phần mềm, trên báo giá dự án và ước tính, bạn cần thêm từng sản phẩm vào danh mục sản phẩm trong danh mục sản phẩm.  
   
- Để biết thêm thông tin về việc thêm sản phẩm vào danh mục sản phẩm, hãy xem [Tạo sản phẩm (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
+ Để biết thêm thông tin về việc thêm sản phẩm vào danh mục sản phẩm, hãy xem [Tạo sản phẩm (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Xem thêm  
  [Đặt cấu hình Project Service](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Đóng cơ hội
 description: Chủ đề này cung cấp thông tin về cách đóng cơ hội dự án.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128759"
 ---
 # <a name="close-an-opportunity"></a>Đóng cơ hội
 
@@ -21,7 +23,4 @@ Có thể đóng cơ hội dự án ở trạng thái Được hoặc Mất. H�
 
 Bạn sẽ không được phép đóng cơ hội nếu có bất kỳ báo giá hiện hoạt nào liên quan đến nó. Bạn có thể đóng tất cả báo giá hiện hoạt và báo giá nháp liên quan đến một cơ hội cùng một lúc. Sau đó, bạn sẽ được phép đóng cơ hội.
 
-Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).

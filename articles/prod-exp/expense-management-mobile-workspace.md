@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001502"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993667"
 ---
 # <a name="expense-management-mobile-workspace"></a>Không gian làm việc quản lý chi phí trên thiết bị di động
 
@@ -100,7 +100,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 5. Sau khi bạn đăng nhập, không gian làm việc có sẵn cho công ty của bạn sẽ được hiển thị. Lưu ý rằng nếu quản trị viên hệ thống của bạn phát hành không gian làm việc mới sau đó, bạn sẽ phải làm mới danh sách không gian làm việc di động.
 
 
-[![Kéo để làm mới.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Kéo để làm mới](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Chụp ảnh biên lai bằng cách sử dụng không gian làm việc di động Quản lý chi phí
 

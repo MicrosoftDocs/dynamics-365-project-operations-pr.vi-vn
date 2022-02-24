@@ -2,6 +2,8 @@
 title: Sử dụng Trình bổ sung của Project Service để hoạch định công việc của bạn trong Microsoft Project | MicrosoftDocs
 description: Chủ đề này cung cấp thông tin về cách thêm, cấu hình và sử dụng phần bổ trợ Microsoft Project cho Microsoft Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005327"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146014"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Sử dụng Trình bổ sung Project Service Automation để lập kế hoạch công việc của bạn trong Microsoft Project
 
@@ -229,6 +231,3 @@ Bảng sau trình bày cách đồng bộ hóa dữ liệu giữa Project Servic
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: Tổng quan về lập hóa đơn liên công ty
 description: Chủ đề này cung cấp thông tin và ví dụ về cách lập hóa đơn liên công ty cho các dự án.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005417"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595579"
 ---
 # <a name="intercompany-invoicing-overview"></a>Tổng quan về lập hóa đơn liên công ty
 
@@ -20,9 +21,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Tổ chức của bạn có thể có nhiều bộ phận, công ty con và pháp nhân khác chuyển sản phẩm và dịch vụ cho nhau trong các dự án. Pháp nhân cung cấp sản phẩm hoặc dịch vụ được gọi là *pháp nhân cho thuê*. Pháp nhân nhận sản phẩm hoặc dịch vụ được gọi là *pháp nhân đi thuê*.
 
-Hình sau đây minh họa một tình huống điển hình trong đó hai pháp nhân, Contoso Robotics USA (pháp nhân đi vay) và Contoso Robotics UK (pháp nhân cho vay) chia sẻ nguồn lực để thực hiện một dự án cho khách hàng Adventure works. Đối với tình huống này, Contoso Robotics USA là đơn vị ký hợp đồng thực hiện công việc cho Adventure Works.
+Hình sau minh họa trường hợp thường gặp, đó là khi Contoso Robotics USA (pháp nhân đi thuê) và Contoso Robotics UK (pháp nhân cho thuê) chia sẻ nguồn lực để thực hiện dự án cho khách hàng Adventure Works. Trong tình huống này, Contoso Robotics USA đã ký hợp đồng thực hiện công việc cho Adventure Works.
 
-![Lập hóa đơn liên công ty.](./media/IntercompanyScenario.png) 
+![Lập hóa đơn liên công ty](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations dùng quy trình sau để xử lý các giao dịch liên công ty:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations dùng quy trình sau để xử lý các giao d�
 
 Sơ đồ sau minh họa quy trình lập hóa đơn liên công ty vì quy trình này có liên quan đến các sự kiện kế toán và những lần đăng dự kiến vào sổ cái chung.
 
-![Quy trình liên công ty.](./media/IntercompanyFlow.png)
+![Quy trình liên công ty](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Tài nguyên bổ sung
 
-- [Đặt cấu hình quy trình lập hóa đơn liên công ty](configure-intercompany-invoicing.md)
+- [Đặt cấu hình hoạt động lập hóa đơn liên công ty](configure-intercompany-invoicing.md)
 - [Ghi lại giao dịch liên công ty](create-intercompany-transactions.md)
 - [Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Sử dụng loại giao dịch làm thông số định giá
 description: Chủ đề này cung cấp thông tin về cách sử dụng loại giao dịch làm thông số định giá.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988901"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150784"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Sử dụng loại giao dịch làm thông số định giá
 
@@ -51,6 +53,3 @@ Bảng sau đây cung cấp danh sách toàn diện các biểu mẫu và dạng
 2. Trên trang **Thông số**, trên tab **Thông số định giá dựa trên số lượng**, lưu ý rằng lưới trên tab hiển thị các bản ghi trong thực thể **Thông số định giá**.
 3. Thêm **loại giao dịch** vào danh sách này và đặt các trường **Áp dụng cho chi phí** và **Áp dụng cho doanh số** thành **Có**.
 4. Trong trường **Loại thông số**, hãy chọn **Dựa trên số lượng**, sau đó chọn mức ưu tiên cho **loại giao dịch** liên quan đến chi phí và doanh số.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

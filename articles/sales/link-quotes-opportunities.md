@@ -2,16 +2,18 @@
 title: Tạo báo giá của dự án từ cơ hội
 description: Chủ đề này cung cấp thông tin về cách tạo báo giá của dự án từ cơ hội.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999657"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118139"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Tạo báo giá của dự án từ cơ hội
 
@@ -54,6 +56,3 @@ Báo giá hiện có có thể được liên kết với Cơ hội. Hoàn thàn
    Khi bạn chuyển một cơ hội sang giai đoạn này, bạn có thể chọn báo giá này từ danh sách các báo giá được liên kết với cơ hội này. Việc chọn báo giá này cho thấy rằng bạn đang tiếp tục với báo giá.
 
    Tất cả báo giá khác được liên kết với Cơ hội sẽ vẫn có sẵn và hiện hoạt cho đến khi bạn giành được một trong số các báo giá đó. Bạn có thể chuyển quy trình bán hàng trở lại giai đoạn trước đó là giai đoạn **Định tính** rồi chọn một báo giá khác để tiếp tục.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

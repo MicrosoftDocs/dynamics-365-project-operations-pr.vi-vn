@@ -1,100 +1,39 @@
 ---
-title: Xác nhận hóa đơn ước giá dựa trên dự án
-description: Chủ đề này cung cấp thông tin về việc xác nhận hóa đơn ước giá dựa trên dự án.
+title: Xác nhận hóa đơn ước giá
+description: Chủ đề này cung cấp thông tin về việc xác nhận hóa đơn ước giá.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 88dccb63247fe6937240921de7bc7a30a3737dad3f62c6c441d732c046aaddc3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985887"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128129"
 ---
-# <a name="confirm-a-proforma-project-based-invoice"></a>Xác nhận hóa đơn ước giá dựa trên dự án
+# <a name="confirm-a-proforma-invoice"></a>Xác nhận hóa đơn ước giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Sau khi hóa đơn ước giá được xác nhận, trạng thái của hóa đơn dự án được cập nhật thành **Đã xác nhận**. Khi hóa đơn được xác nhận, mục đó sẽ trở thành dạng chỉ đọc. Từ giờ trở đi, chỉ có thể sửa hóa đơn nếu có bất kỳ sự sửa đổi hoặc ghi có nào do khách hàng thực hiện.
+Sau khi hóa đơn ước giá được xác nhận, trạng thái của hóa đơn dự án được cập nhật thành **Đã xác nhận**. Khi hóa đơn được xác nhận, mục đó sẽ trở thành dạng chỉ đọc. Sau này, hóa đơn chỉ có thể được hiệu chỉnh nếu có bất kỳ sự chỉnh sửa hoặc ghi có nào do khách hàng thực hiện hoặc khi hóa đơn được đánh dấu là đã thanh toán.
 
 Bảng sau liệt kê các giá trị thực tế được hệ thống tạo. Các giá trị thực tế này được tạo ra khi một số hoạt động nhất định được thực hiện trên hóa đơn dự án nháp trước khi mục đó được xác nhận.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="216" valign="top">
+            <td width="416" valign="top">
                 <p>
                     <strong>Kịch bản</strong>
                 </p>
             </td>
-            <td width="808" valign="top">
+            <td width="608" valign="top">
                 <p>
                     <strong>Giá trị thực tế được tạo khi xác nhận</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Lập hóa đơn khoản tạm ứng hoặc trả trước </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế doanh số được lập hóa đơn thuộc loại <strong>Khoản trả trước</strong> được tạo ra cho số tiền tạm ứng hoặc trả trước.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế của doanh số chưa lập hóa đơn có số tiền đặt cọc hoặc tạm ứng âm được dùng để đối chiếu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Sau khi điều hòa đầy đủ khoản trả trước hoặc tạm ứng trên hóa đơn.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Khoản đảo ngược doanh số chưa lập hóa đơn của số tiền trả trước hoặc tạm ứng đã tạo để điều hòa. Số tiền này là số dương vì nó có tác dụng bù cho giá trị âm được tạo ra khi khoản trả trước hoặc tạm ứng được lập hóa đơn.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Một giá trị thực tế doanh số đã lập hóa đơn cho số tiền trên hóa đơn này.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Sau khi điều hòa một phần khoản trả trước hoặc tạm ứng trên hóa đơn.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Khoản đảo ngược doanh số chưa lập hóa đơn của số tiền trả trước hoặc tạm ứng đã tạo để điều hòa. Số tiền này là số dương vì nó có tác dụng bù cho giá trị âm được tạo ra khi khoản trả trước hoặc tạm ứng được lập hóa đơn.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Một giá trị thực tế doanh số đã lập hóa đơn cho số tiền trên hóa đơn này.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Một giá trị thực tế doanh số chưa lập hóa đơn, có giá trị âm của số tiền trả trước hoặc tạm ứng sẽ được sử dụng để điều hòa trong các hóa đơn sau này.
                 </p>
             </td>
         </tr>
@@ -132,14 +71,14 @@ Một khoản đảo ngược doanh số chưa lập hóa đơn cho số giờ v
         <tr>
             <td width="408" valign="top">
                 <p>
-Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số giờ và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số và giá trị thực tế doanh số đã lập hóa đơn tương đương.
+Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số giờ và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Giá trị thực tế mới của doanh số bán hàng chưa lập hóa đơn. Đây là giá trị không phải chịu phí tổn cho số giờ và số tiền còn lại sau khi trừ đi các số liệu đã sửa trên chi tiết mô tả hóa đơn đã chỉnh sửa, khoản đảo ngược giá trị thực tế của doanh số và giá trị thực tế của doanh số được lập hóa đơn tương đương.
+Giá trị thực tế doanh số chưa lập hóa đơn mới, không thể tính phí cho số giờ và số tiền còn lại sau khi trừ số liệu đã hiệu chỉnh trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
                 </p>
             </td>
         </tr>
@@ -196,7 +135,7 @@ Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượn
         <tr>
             <td width="408" valign="top">
                 <p>
-Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
+Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương. 
                 </p>
             </td>
         </tr>
@@ -216,70 +155,6 @@ Lập hóa đơn cho một giao dịch chi phí đã được sửa để tăng 
             <td width="408" valign="top">
                 <p>
 Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền khi phê duyệt chi phí ban đầu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương. 
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Lập hóa đơn cho một giao dịch về vật tư mà không có bất kỳ chỉnh sửa nào trên hóa đơn dự thảo.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế của doanh số được lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Lập hóa đơn cho một giao dịch về vật tư đã được chỉnh sửa để giảm số lượng.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt thời gian ban đầu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế doanh số chưa lập hóa đơn mới, có thể tính phí cho số lượng và số tiền trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Giá trị thực tế doanh số chưa lập hóa đơn mới, không thể tính phí cho số lượng và số tiền còn lại sau khi trừ số liệu đã hiệu chỉnh trên chi tiết mô tả hóa đơn đã sửa, khoản đảo ngược của giá trị thực tế doanh số chưa lập hóa đơn và giá trị thực tế doanh số đã lập hóa đơn tương đương.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Lập hóa đơn cho một giao dịch về vật tư đã được chỉnh sửa để tăng số lượng.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Một khoản đảo ngược doanh số chưa lập hóa đơn cho số lượng và số tiền trên bản phê duyệt sử dụng vật tư ban đầu.
                 </p>
             </td>
         </tr>
@@ -321,8 +196,5 @@ Giá trị thực tế doanh số đã lập hóa đơn cho số tiền mốc tr
                 </p>
             </td>
         </tr>
-       
     </tbody>
 </table>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

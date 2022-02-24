@@ -2,9 +2,11 @@
 title: Quản lý việc ủy nhiệm chi phí
 description: Người dùng đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác trong tổ chức.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8294e4c51c08298937f2a4d4b271470d2f30e80a043e72aa874aa91306ac6712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e3504a89f598c9acf3925e8b27930724ef2d3a5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271514"
 ---
 # <a name="manage-expense-delegation"></a>Quản lý việc ủy nhiệm chi phí
 

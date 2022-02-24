@@ -2,16 +2,18 @@
 title: Theo dõi chi phí dự án
 description: Chủ đề này cung cấp thông tin về cách Project Operations theo dõi tiến độ dựa trên chi phí nhân công và mức chi tiêu cho một dự án.
 author: rumant
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d37df64db1808722b7851c952c20be731aa2d670fe066c02ef90386712487407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987822"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711100"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Theo dõi chi phí nhân công của dự án
 

@@ -1,23 +1,23 @@
 ---
-title: Tạo và cập nhật dự án
+title: Cập nhật dự án
 description: Chủ đề này cung cấp thông tin về cách cập nhật dự án trong Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678375"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993397"
 ---
-# <a name="create-and-update-a-project"></a>Tạo và cập nhật dự án
+# <a name="update-a-project"></a>Cập nhật dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Sau đây là tóm tắt về các trường có thể được cập nhật trên một dự án sau khi nó đã được tạo. Điều này cũng bao gồm bất kỳ ngụ ý áp dụng nào dựa trên các bản cập nhật này.
+Dưới đây là thông tin tóm tắt về các trường có thể được cập nhật trên một dự án sau khi được tạo và mọi chỉ báo có thể áp dụng được của các bản cập nhật.
 
 ## <a name="project-detail-fields"></a>Các trường chi tiết dự án
 
@@ -25,8 +25,8 @@ Sau đây là tóm tắt về các trường có thể được cập nhật tr�
 - **Mô tả**: Thông tin tổng quan về dự án.
 - **Khách hàng**: Công ty mà dự án sẽ được chuyển giao.
 - **Mẫu lịch**: Giờ làm việc của dự án. Khi trường được thay đổi, toàn bộ lịch trình sẽ được tính toán lại.
-- **Tiền tệ**: Đơn vị tiền tệ cho dự án. Giá trị mặc định cho trường này dựa trên đơn vị tiền tệ được xác định trong đơn vị hợp đồng. Khi đơn vị hợp đồng được cập nhật, trường cũng được cập nhật.
-- **Đơn vị ký hợp đồng**: Đơn vị tổ chức đại diện cho nhóm hoặc bộ phận của công ty có trách nhiệm chính là giành được hợp đồng bán hàng và quản lý việc cung cấp công việc cũng như dịch vụ cho khách hàng.  Khi đơn vị tổ chức của người quản lý dự án không được xác định, trường này mặc định là giá trị được xác định trong các tham số dự án.
+- **Tiền tệ**: Đơn vị tiền tệ cho dự án. Trường này mặc định dựa trên đơn vị tiền tệ được xác định trong đơn vị ký hợp đồng. Khi đơn vị hợp đồng được cập nhật, trường cũng được cập nhật.
+- **Đơn vị ký hợp đồng**: Đơn vị tổ chức đại diện cho nhóm hoặc bộ phận của công ty có trách nhiệm chính là giành được hợp đồng bán hàng và quản lý việc cung cấp công việc cũng như dịch vụ cho khách hàng. 
 - **Quản lý dự án** : Thành viên nhóm dự án, người có thẩm quyền xem xét và phê duyệt các mục nhập thời gian và chi phí.
 
 ## <a name="estimate-fields"></a>Trường ước tính

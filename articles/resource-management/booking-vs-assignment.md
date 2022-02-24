@@ -2,16 +2,18 @@
 title: Mục đặt trước và mục chỉ định
 description: Chủ đề này cung cấp thông tin về sự khác biệt giữa đặt trước nguồn lực và chỉ định nguồn lực.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008477"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841198"
 ---
 # <a name="bookings-vs-assignments"></a>Mục đặt trước và mục chỉ định
 
@@ -24,6 +26,3 @@ Khác với các lượt đăng ký, nhiệm vụ là cam kết về nguồn l�
 Thông thường, tổng số lượt đăng ký cho một nguồn lực sẽ bằng tổng các nhiệm vụ của một hoặc nhiều tác vụ được chỉ định cho nguồn lực đó. Tuy nhiên, Project Operations không đảm bảo sự thống nhất này. Dạng xem **Điều hòa** cho Người quản lý dự án thấy các vị trí mà lượt đăng ký và nhiệm vụ của nguồn lực không thống nhất với nhau.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

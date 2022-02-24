@@ -1,25 +1,29 @@
 ---
-title: Thiết lập chế độ tự động tạo hóa đơn
-description: Chủ đề này cung cấp thông tin về cách thiết lập và định cấu hình chế độ tự động tạo hóa đơn ước giá.
+title: Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
+description: Chủ đề này cung cấp thông tin về việc đặt cấu hình hoạt động tạo tự động hóa đơn ước giá.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997542"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176592"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Thiết lập chế độ tự động tạo hóa đơn 
+# <a name="configure-automatic-invoice-creation---lite"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động - bản đơn giản
  
-_**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_
+_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bạn có thể đặt cấu hình hoạt động tạo hóa đơn tự động trong Dynamics 365 Project Operations. Hệ thống tạo một hóa đơn ước giá nháp dựa trên lịch hóa đơn cho từng hợp đồng dự án và mục mô tả hợp đồng. Lịch trình hóa đơn được đặt cấu hình ở cấp độ mô tả hợp đồng. Mỗi mục mô tả trên hợp đồng có thể có một lịch trình hóa đơn riêng biệt hoặc cùng một lịch trình hóa đơn có thể được áp dụng cho mọi mục mô tả của hợp đồng.
+Bạn có thể đặt cấu hình việc tạo hóa đơn tự động trong Dynamics 365 Project Operations. Hệ thống tạo một hóa đơn ước giá nháp dựa trên lịch hóa đơn cho từng hợp đồng dự án và mục mô tả hợp đồng. Lịch trình hóa đơn được đặt cấu hình ở cấp độ mô tả hợp đồng. Mỗi mục mô tả trên hợp đồng có thể có một lịch trình hóa đơn riêng biệt hoặc cùng một lịch trình hóa đơn có thể được áp dụng cho mọi mục mô tả của hợp đồng.
 
-Khi bạn tạo hóa đơn, hệ thống luôn tạo ít nhất một hóa đơn cho mỗi hợp đồng dự án. Trong một số trường hợp, có thể có nhiều hóa đơn được tạo. Chẳng hạn, nếu hợp đồng có nhiều khách hàng thì số lượng hóa đơn được tạo sẽ bằng với số lượng khách hàng có giao dịch có thể tính phí cần lập hóa đơn trên hợp đồng dự án đó.
+Khi bạn tạo hóa đơn, hệ thống luôn tạo ít nhất một hóa đơn cho mỗi hợp đồng dự án. Trong một số trường hợp, có thể có nhiều hóa đơn được tạo.
+
+Chẳng hạn, nếu hợp đồng có nhiều khách hàng thì số lượng hóa đơn được tạo sẽ bằng với số lượng khách hàng có giao dịch có thể tính phí cần lập hóa đơn trên hợp đồng dự án đó.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Tìm hiểu cách xác định các giao dịch sẽ được đưa vào hóa đơn 
 
@@ -87,6 +91,3 @@ Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp l�
 
 > [!NOTE]
 > Hoạt động lập hóa đơn theo lô trong Project Operations chỉ chạy cho các mục mô tả hợp đồng dự án được đặt cấu hình theo lịch trình hóa đơn. Mô tả hợp đồng với phương thức thanh toán giá cố định phải được định cấu hình các mốc. Mô tả hợp đồng dự án với phương thức thanh toán theo thời gian và vật tư cần thiết lập lịch trình lập hóa đơn theo ngày.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

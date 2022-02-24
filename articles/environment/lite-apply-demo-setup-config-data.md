@@ -2,16 +2,18 @@
 title: Áp dụng dữ liệu cấu hình và thiết lập bản demo – bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách áp dụng dữ liệu cấu hình và thiết lập demo cho Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993312"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089145"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Áp dụng dữ liệu cấu hình và thiết lập bản demo cho Project Operations – bản đơn giản 
 
@@ -26,36 +28,36 @@ Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Co
 
 ## <a name="instructions"></a>Hướng dẫn
 
-1. Tải [Gói dữ liệu chính](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip) xuống. 
-2. Điều hướng đến thư mục *ProjOpsSampleSetupData - CE only CMT* và chạy tệp thực thi *DataMigrationUtility*.
+1. Tải [Gói dữ liệu chính](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip) xuống. 
+2. Chuyển đến thư mục *ProjOpsDemoDataSetupAndMaster - Integrated CMT* rồi chạy tệp thực thi là *DataMigrationUtility*.
 3. Trên trang 1 của Trình hướng dẫn di chuyển cấu hình (CMT) Common Data Service, hãy chọn **Nhập dữ liệu** và sau đó chọn **Tiếp tục**.
 
-    ![Di chuyển cấu hình.](./media/1ConfigurationMigration.png)
+    ![Di chuyển cấu hình](./media/1ConfigurationMigration.png)
 
 4. Trên trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
 5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
 6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn, sau đó chọn **Đăng nhập**.
 
-   ![Đăng nhập cấu hình.](./media/2ConfigurationSignin.png)
+   ![Đăng nhập cấu hình](./media/2ConfigurationSignin.png)
 
 7. Trên trang 3, từ danh sách Tổ chức trên Đối tượng thuê, hãy chọn tổ chức bạn muốn nhập dữ liệu demo vào rồi chọn **Đăng nhập**.
-8. Trên trang 4, hãy chọn tệp zip *SampleSetupAndConfigData* ở thư mục được giải nén *ProjOpsSampleSetupData - CE only CMT*.
+8. Trên trang 4, hãy chọn tệp zip là *MasterAndSetupData* từ thư mục đã giải nén là *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-   ![Tệp Zip.](./media/3ZipFile.png)
+   ![Tệp Zip](./media/3ZipFile.png)
 
-   ![Chọn một tệp.](./media/4SelectAFile.png)
+   ![Chọn tệp](./media/4SelectAFile.png)
 
 9. Sau khi chọn tệp zip, hãy chọn **Nhập dữ liệu**.
 
-   ![Nhập dữ liệu.](./media/5ImportData.png)
+   ![Nhập dữ liệu](./media/5ImportData.png)
 
 10. Quá trình nhập sẽ chạy trong khoảng hai mười phút tùy thuộc vào tốc độ mạng của bạn. Sau khi hoàn tất, hãy thoát khỏi CMT Wizard. 
-11. Kiểm tra tổ chức của bạn để tìm dữ liệu trong 18 thực thể sau:
+11. Kiểm tra tổ chức của bạn để tìm dữ liệu trong 20 thực thể sau:
 
     -   Tiền tệ
     -   Tài khoản
     -   Đơn vị tổ chức
-    -   Liên hệ
+    -   Liên hệ
     -   Đơn vị
     -   Nhóm đơn vị
     -   Bảng giá
@@ -69,9 +71,6 @@ Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Co
     -   Đặc tính
     -   Nguồn lực có thể đăng ký
     -   LK thể loại nguồn lực có thể đăng ký trước
-    -   Đặc điểm Nguồn lực có thể đặt trước
+    -   Đặc tính Nguồn lực có thể đăng ký trước
 
-    ![Hoàn thành quá trình nhập.](./media/6CompleteImport.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Hoàn thành quá trình nhập](./media/6CompleteImport.png)

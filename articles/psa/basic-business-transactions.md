@@ -2,6 +2,8 @@
 title: Giao dịch kinh doanh
 description: Chủ đề này cung cấp thông tin về các giao dịch kinh doanh.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987552"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149929"
 ---
 # <a name="business-transactions"></a>Giao dịch kinh doanh
 
@@ -88,7 +90,7 @@ Các thực thể nguồn gốc giao dịch và kết nối giao dịch kết h�
 
 Ví dụ sau đây trình bày hoạt động xử lý thông thường các mục nhập thời gian trong vòng đời dự án PSA.
 
-> ![Xử lý mục nhập thời gian trong vòng đời Project Service.](media/basic-guide-17.png)
+> ![Xử lý mục nhập thời gian trong vòng đời Project Service](media/basic-guide-17.png)
  
 1. Gửi một mục nhập thời gian sẽ tạo ra hai dòng nhật ký kế toán: một cho chi phí và một cho doanh số chưa lập hóa đơn.
 2. Việc phê duyệt mục nhập thời gian sẽ tạo ra hai thực tế: một cho chi phí và một cho doanh số chưa lập hóa đơn.
@@ -147,6 +149,3 @@ Bảng sau hiển thị các bản ghi trong thực thể kết nối giao dịc
 | Chỉn sửa hóa đơn nháp       | GUID giao dịch dòng hóa đơn | Thay thế          | msdyn_invoicelinetransaction | GUID doanh số đã lập hóa đơn            | Gốc           | msdyn_actual       |
 | Xác nhận sửa hóa đơn     | GUID đảo ngược doanh số đã lập hóa đơn    | Đảo ngược          | msdyn_actual                 | GUID doanh số đã lập hóa đơn            | Gốc           | msdyn_actual       |
 | GUID thực tế doanh số chưa lập hóa đơn mới | Thay thế                     | msdyn_actual       | GUID doanh số đã lập hóa đơn            | Gốc                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

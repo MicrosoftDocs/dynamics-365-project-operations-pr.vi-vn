@@ -2,22 +2,24 @@
 title: Kéo dài mục nhập thời gian
 description: Chủ đề này cung cấp thông tin về cách các nhà phát triển có thể mở rộng kiểm soát mục nhập thời gian.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993357"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124664"
 ---
 # <a name="extending-time-entries"></a>Kéo dài mục nhập thời gian
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations bao gồm một kiểm soát tùy chỉnh nhập giờ có thể mở rộng. Điều khiển này bao gồm những tính năng sau đây:
+Dynamics 365 Project Operations bao gồm điều khiển tùy chỉnh mục nhập thời gian có thể mở rộng. Điều khiển này bao gồm những tính năng sau đây:
 
 - Nhập thời gian theo chiều ngang trong một tuần
 - Tổng số theo ngày, hàng hoặc tuần
@@ -142,6 +144,3 @@ Sử dụng các mục xác thực phần bổ trợ đối với mọi mục x�
 
 ### <a name="copying-time-entries"></a>Sao chép mục nhập thời gian
 Sử dụng dạng xem **Sao chép cột mục nhập thời gian** để xác định danh sách các trường sẽ sao chép trong quá trình nhập thời gian. **Ngày** và **Khoảng thời gian** là các trường bắt buộc và không nên bị loại bỏ khỏi dạng xem.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

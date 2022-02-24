@@ -2,10 +2,12 @@
 title: Thêm biểu mẫu thực thể tuỳ chỉnh mới (Project Service Automation 2.x)
 description: Chủ đề này cung cấp thông tin về cách thêm biểu mẫu thực thể tùy chỉnh cho cơ hội, báo giá, đơn đặt hàng hoặc hóa đơn trong Dynamics 365 Project Service Automation 2.x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995247"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144619"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Thêm biểu mẫu thực thể tuỳ chỉnh mới (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Hãy làm theo các bước sau để tạo phiên bản tùy chỉnh của bi�
     - Xuất biểu mẫu **Thông tin dự án của tôi** dưới dạng giải pháp không được quản lý, sau đó tra cứu giá trị **formId** trong tệp customization.xml của giải pháp xuất.
     - Mở biểu mẫu **Thông tin dự án của tôi** trong công cụ biên tập biểu mẫu, sau đó tìm mã định danh duy nhất (GUID) bên cạnh thông số **fromId** trong URL như hiển thị trong hình minh họa sau đây.
 
-    ![Giá trị formId của biểu mẫu mới trong URL.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Giá trị formId của biểu mẫu mới trong URL](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Tạo một ánh xạ **msdyn\_ordertype** cho giá trị **formId** bằng cách chỉnh sửa tài nguyên web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Loại bỏ mã khỏi nguồn, thay bằng mã sau đây.
 
@@ -94,6 +96,3 @@ Hãy làm theo các bước sau để tạo phiên bản tùy chỉnh của bi�
     ```
 
 6. Lưu và xuất bản các mục tùy chỉnh.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

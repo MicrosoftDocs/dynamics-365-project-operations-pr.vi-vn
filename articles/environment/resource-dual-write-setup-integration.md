@@ -2,17 +2,19 @@
 title: Tích hợp dữ liệu cấu hình và thiết lập Project Operations
 description: Chủ đề này cung cấp thông tin về thiết lập và đặt cấu hình bản đồ ghi kép của Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986562"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5939066"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Tích hợp dữ liệu cấu hình và thiết lập Project Operations
 
@@ -24,7 +26,7 @@ Chủ đề này cung cấp thông tin về tích hợp ghi kép Project Operati
 
 Các hợp đồng dự án, mô tả hợp đồng và các dự án được tạo trong Dataverse và đồng bộ hóa với ứng dụng Finance and Operations cho kế toán bổ sung. Bản ghi trong các thực thể này chỉ có thể được tạo và xóa trong Dataverse. Tuy nhiên, các thuộc tính kế toán như giá trị mặc định của nhóm thuế bán hàng và kích thước tài chính có thể được thêm vào các bản ghi này trong ứng dụng Finance and Operations.
 
-  ![Khái niệm về tích hợp hợp đồng dự án.](./media/1ProjectContract.jpg)
+  ![Khái niệm về tích hợp hợp đồng dự án](./media/1ProjectContract.jpg)
 
 Khách hàng tiềm năng, cơ hội và báo giá của hoạt động bán hàng được theo dõi trong Dataverse và không đồng bộ hóa với ứng dụng Finance and Operations vì không có kế toán xuôi tuyến được liên kết với hoạt động này.
 
@@ -51,7 +53,7 @@ Kế toán viên của dự án có thể đánh giá mô tả hợp đồng d�
 
 Mô tả hợp đồng dự án sử dụng phương pháp thanh toán giá cố định được lập hóa đơn thông qua các mốc thanh toán. Các mốc thanh toán được đồng bộ hóa để dự báo các giao dịch trên tài khoản trong ứng dụng Finance and Operations bằng cách sử dụng bản đồ bảng **Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Tích hợp mốc thanh toán.](./media/2Milestones.jpg)
+  ![Tích hợp mốc thanh toán](./media/2Milestones.jpg)
 
 Kế toán viên có thể đánh giá các giao dịch trên tài khoản và điều chỉnh các thuộc tính kế toán cho các giao dịch đó bằng cách chuyển đến **Quản lý dự án và kế toán** > **Hợp đồng dự án** > **Duy trì** > **Giao dịch trên tài khoản** hoặc **Quản lý dự án và kế toán** > **Tất cả các dự án** > **Duy trì** > **Giao dịch trên tài khoản**.
 
@@ -61,13 +63,13 @@ Trong lần đầu tiên tạo mốc thanh toán cho mô tả hợp đồng dự
 
 Các nhiệm vụ dự án được đồng bộ hóa với ứng dụng Finance and Operations thông qua bản đồ bảng **Nhiệm vụ dự án (msdyn\_projecttasks)** chỉ dùng cho mục đích tham khảo. Các thao tác tạo, cập nhật và xóa không được hỗ trợ thông qua ứng dụng Finance and Operations.
 
-  ![Tích hợp nhiệm vụ dự án.](./media/3Tasks.jpg)
+  ![Tích hợp nhiệm vụ dự án](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Nguồn lực dự án
 
 Các thực thể **Vai trò nguồn lực dự án** được đồng bộ hóa với ứng dụng Finance and Operations bằng bản đồ bảng **Vai trò nguồn lực dự án cho tất cả các công ty (bookableresourcecategories)** chỉ dùng cho mục đích tham khảo. Do vai trò tài nguyên trong Dataverse không dành riêng cho công ty, hệ thống sẽ tự động tạo các bản ghi vai trò nguồn lực cụ thể của công ty tương ứng trong ứng dụng Finance and Operations cho tất cả các pháp nhân được bao gồm trong phạm vi tích hợp ghi kép.
 
-![Tích hợp vai trò nguồn lực.](./media/5Resources.jpg)
+![Tích hợp vai trò nguồn lực](./media/5Resources.jpg)
 
 Nguồn lực dự án trong Project Operations được duy trì trong Dataverse và không được đồng bộ hóa với ứng dụng Finance and Operations.
 
@@ -75,6 +77,6 @@ Nguồn lực dự án trong Project Operations được duy trì trong Datavers
 
 Các danh mục giao dịch được duy trì trong Dataverse và được đồng bộ hóa với ứng dụng Finance and Operations bằng bản đồ bảng **Danh mục giao dịch dự án (msdyn\_transactioncategories)**. Sau khi bản ghi danh mục giao dịch được đồng bộ hóa, hệ thống sẽ tự động tạo bốn bản ghi danh mục được chia sẻ. Mỗi bản ghi tương ứng với một loại giao dịch trong ứng dụng Finance and Operations và liên kết chúng với bản ghi danh mục giao dịch.
 
-![Tích hợp danh mục giao dịch.](./media/4TransactionCategories.jpg)
+![Tích hợp danh mục giao dịch](./media/4TransactionCategories.jpg)
 
 Việc sử dụng các danh mục giao dịch cho các giá trị ước tính và thực tế yêu cầu kế toán viên của dự án hoặc quản trị viên hệ thống phải tạo các danh mục dự án tương ứng trong mọi pháp nhân. Để biết thêm thông tin, hãy xem [Đặt cấu hình danh mục dự án](../project-accounting/configure-project-categories.md).

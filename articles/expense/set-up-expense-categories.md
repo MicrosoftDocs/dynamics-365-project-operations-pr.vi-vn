@@ -2,16 +2,18 @@
 title: Thiết lập danh mục chi phí
 description: Chủ đề này cung cấp thông tin về cách thiết lập danh mục chi phí và danh mục chia sẻ cho báo cáo chi phí.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993132"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123809"
 ---
 # <a name="set-up-expense-categories"></a>Thiết lập danh mục chi phí
 
@@ -59,6 +61,3 @@ Trước khi bạn có thể bắt đầu quá trình thiết lập, các quyế
 
     - Có bất kỳ danh mục phụ nào bị loại trừ khỏi việc thu hồi thuế không?
     - Nhóm thuế bán hàng của các danh mục phụ là gì?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

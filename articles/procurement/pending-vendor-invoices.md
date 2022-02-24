@@ -2,17 +2,17 @@
 title: Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách ghi lại các hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547315"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993845"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -45,5 +45,4 @@ Hóa đơn của nhà cung cấp đang chờ xử lý có thể được ghi l�
     - Số dư của nhà cung cấp.
     - Số tiền thuế bán hàng.
     - Chi phí đối với dự án được ghi nhận vào tài khoản tính hợp mua sắm.
-    - Chi phí thực tế của dự án giao dịch trong Dataverse.  Giao dịch này được tiếp tục xử lý bằng [Nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Việc đăng nhật ký này sẽ chuyển số tiền từ tài khoản tích hợp mua sắm sang tài khoản chi phí dự án. 
-    - Các giao dịch mua được thanh toán cho khách hàng của dự án bằng cách sử dụng phương thức thanh toán theo thời gian và vật liệu. Ngoài ra, các giao dịch bán hàng chưa lập hóa đơn được tạo cho các giao dịch mua trong Dataverse. Bảng giá sản phẩm trong Dataverse được sử dụng cho giá bán và số tiền cho giao dịch bán hàng chưa lập hóa đơn.
+    - Giao dịch thực tế của dự án tại Dataverse. Giao dịch này được tiếp tục xử lý bằng [Nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Việc đăng nhật ký này sẽ chuyển số tiền từ tài khoản tích hợp mua sắm sang tài khoản chi phí dự án.

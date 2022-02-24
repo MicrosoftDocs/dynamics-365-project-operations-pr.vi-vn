@@ -2,9 +2,11 @@
 title: Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
 description: Chủ đề này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ cho các thông số định giá.
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988812"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147094"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
 
@@ -42,30 +44,27 @@ Các bước sau đây giải thích cho bạn quy trình đăng ký phần bổ
 1. Mở **PluginRegistrationTool** và kết nối với phiên bản trực tuyến của bạn.
 2. Bấm vào **Tìm kiếm** và tìm kiếm phần bổ trợ để được cập nhật.
 
- ![Ảnh chụp màn hình về cây tìm kiếm.](media/PRT-1.png)
+ ![Ảnh chụp màn hình về cây tìm kiếm](media/PRT-1.png)
 
 3. Sau khi tìm thấy phần bổ trợ, hãy chọn phần bổ trợ đó rồi bấm vào **Chọn trên biểu mẫu chính**.
 
 4. Chọn bước của phần bổ trợ sẽ được cập nhật, bấm chuột phải rồi chọn **Cập nhật**.
 
- ![Ảnh chụp màn hình về phần bổ trợ sẽ được cập nhật.](media/PRT-2.png)
+ ![Ảnh chụp màn hình về phần bổ trợ sẽ được cập nhật](media/PRT-2.png)
  
 5. Trong cửa sổ cập nhật, hãy bấm vào dấu ba chấm (**...**) trong các thuộc tính lọc.
 
- ![Ảnh chụp màn hình về Cập nhật thông tin cấu hình bước hiện có.](media/PRT-3.png)
+ ![Ảnh chụp màn hình về Cập nhật thông tin cấu hình bước hiện có](media/PRT-3.png)
  
 6. Chọn hộp kiểm thuộc tính định giá.
 
- ![Ảnh chụp màn hình minh họa thao tác lựa chọn hộp kiểm cho thuộc tính định giá.](media/PRT-4.png)
+ ![Ảnh chụp màn hình minh họa thao tác lựa chọn hộp kiểm cho thuộc tính định giá](media/PRT-4.png)
 
 7. Bấm **OK** để đóng trang rồi chọn **Cập nhật bước**.
 
- ![Ảnh chụp màn hình hiển thị nút “Cập nhật bước”.](media/PRT-5.png)
+ ![Ảnh chụp màn hình hiển thị nút “Cập nhật bước”](media/PRT-5.png)
  
 8. Lặp lại quá trình này cho phần bổ trợ thứ hai **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.
 
 9. Đóng công cụ đăng ký phần bổ trợ.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Sao chép báo giá dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách sao chép báo giá dựa trên dự án trong Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992187"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181838"
 ---
 # <a name="copy-project-based-quotes"></a>Sao chép báo giá dựa trên dự án
 
@@ -43,6 +45,3 @@ Khi bạn chọn **OK** trên trang hộp thoại, hệ thống tạo một bả
 > - Tham chiếu dự án trên các mô tả báo giá dựa trên dự án – Thông tin ngân sách khách hàng
 >
 >Vì thông tin này rất cụ thể cho từng báo giá, các trường và bản ghi này không được sao chép. Các mô tả báo giá cho các dự án và sản phẩm, ước tính về chi tiết mô tả báo giá và các giá trị không vượt quá mức báo giá được sao chép. Giá và tỷ lệ chi phí mặc định phụ thuộc vào tùy chọn **Sao chép giá** được chọn trên trang hộp thoại **Sao chép tham số**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

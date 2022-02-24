@@ -2,16 +2,18 @@
 title: Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
 description: Chủ đề này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ đối với các thông số định giá.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988362"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643244"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
 
@@ -50,6 +52,3 @@ Hoàn tất các bước sau để cập nhật và đăng ký lại các phần
 7. Chọn **OK** để đóng trang rồi chọn **Bước cập nhật**.
 8. Lặp lại các bước từ 2-7 cho phần bổ trợ thứ hai **PreOperationQuoteLineDetail**. Đối với phần bổ trợ này, bạn cần cập nhật bước **Update of msdyn_quotelinetransaction**.
 9. Đóng **PluginRegistrationTool**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

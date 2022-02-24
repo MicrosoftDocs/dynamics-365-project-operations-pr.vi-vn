@@ -2,6 +2,8 @@
 title: Xem bảng thông tin và báo cáo
 description: Làm cách nào để xem bảng điều khiển và báo cáo trong Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: de1c83730b9c45f6a38e4bd4538b6f9cb5cee44f701db0bd395069cf8336d080
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: efc03adf2bad942386731a6189828802aa468d42
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987147"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144124"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Xem bảng điều khiển và báo cáo (Project Service)
 
@@ -47,6 +49,3 @@ Bảng thông tin và báo cáo cho bạn biết vị thế công việc của b
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

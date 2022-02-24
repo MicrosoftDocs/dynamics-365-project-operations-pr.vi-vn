@@ -2,9 +2,11 @@
 title: Xác định chính sách chi phí
 description: Bạn có thể xác định các chính sách chi phí mà nhân viên của bạn phải tuân theo khi nhập và gửi báo cáo chi phí cũng như tiêu chuẩn đi lại.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128444"
 ---
 # <a name="define-expense-policies"></a>Xác định chính sách chi phí
 
@@ -51,6 +53,3 @@ Dưới đây là một số gợi ý có thể hỗ trợ bạn khi tạo các 
 ## <a name="when-to-evaluate-policies"></a>Thời điểm đánh giá chính sách
 
 Trong các tham số quản lý chi phí, bạn có thể chọn để đánh giá các chính sách quản lý chi phí khi một dòng được lưu hoặc khi báo cáo chi phí được gửi. Nếu bạn chọn đánh giá vào thời điểm lưu dòng, người dùng sẽ sớm thấy được những gì mình cần làm để hoàn thành báo cáo chi phí của mình cùng một lúc. Nếu không, bạn có thể trì hoãn việc đánh giá chính sách và tiết kiệm thời gian bằng cách xác thực vào lúc cuối, trong khi gửi lên quy trình làm việc.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

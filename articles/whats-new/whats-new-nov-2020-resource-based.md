@@ -2,16 +2,18 @@
 title: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho
 description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations tháng 11 năm 2020 cho tình huống dựa trên nguồn lực/hàng không trữ kho.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007982"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367292"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho
 
@@ -65,7 +67,4 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | Kế toán dự án  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Khi bật tính năng này, không thể có Nhiều mô tả hợp đồng nếu không tích hợp CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.

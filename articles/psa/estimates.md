@@ -2,6 +2,8 @@
 title: Ước tính
 description: Chủ đề này cung cấp thông tin về ước tính trong Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992412"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151459"
 ---
 # <a name="estimates"></a>Ước tính
 
@@ -83,27 +85,24 @@ Nếu bạn thêm một trường tùy chỉnh vào chi tiết dòng báo giá v
 1. Mở PluginRegistrationTool và kết nối với phiên bản trực tuyến của bạn.
 2. Chọn **Tìm kiếm**, và tìm kiếm phần bổ trợ để cập nhật.
 
-    ![Hộp thoại Cây tìm kiếm.](media/basic-guide-19.png)
+    ![Hộp thoại Cây tìm kiếm](media/basic-guide-19.png)
 
 3. Chọn phần bổ trợ, sau đó, trên trang chính, chọn **Chọn**.
 4. Chọn bước trong phần bổ trợ để cập nhật, nhấp chuột phải, sau đó chọn **Cập nhật**.
 
-    ![Chọn một bước trong phần bổ trợ.](media/basic-guide-20.png)
+    ![Chọn một bước trong phần bổ trợ](media/basic-guide-20.png)
 
 5. Trong hộp thoại **Cập nhật bước hiện tại**, trong trường **Lọc thuộc tính**, chọn nút dấu chấm lửng (**...**):
  
-    ![Hộp thoại cập nhật bước hiện có.](media/basic-guide-21.png)
+    ![Hộp thoại cập nhật bước hiện có](media/basic-guide-21.png)
 
 6. Trong hộp thoại **Chọn thuộc tính**, chọn các hộp kiểm cho thuộc tính tùy chỉnh.
 
-    ![Hộp thoại Chọn thuộc tính.](media/basic-guide-22.png)
+    ![Hộp thoại Chọn thuộc tính](media/basic-guide-22.png)
 
 7. Chọn **OK** để đóng hộp thoại, và sau đó chọn **Bước cập nhật**.
  
-    ![Nút Bước cập nhật.](media/basic-guide-23.png)
+    ![Nút Bước cập nhật](media/basic-guide-23.png)
 
 8. Lặp lại các bước từ 1 đến 7 cho phần bổ trợ thứ hai.
 9. Đóng PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
