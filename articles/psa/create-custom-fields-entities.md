@@ -2,12 +2,10 @@
 title: Tạo các trường và thực thể tùy chỉnh
 description: Chủ đề này giải thích cách tạo bộ tùy chọn và thực thể trong giải pháp của riêng bạn trong nền tảng Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144889"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992457"
 ---
 # <a name="create-custom-fields-and-entities"></a>Tạo các trường và thực thể tùy chỉnh 
 
@@ -45,7 +43,7 @@ Kích thước giá có thể là một bộ tùy chọn hoặc một thực th�
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Thực thể**.
 3. Nhấp vào **Mới** để tạo một thực thể mới gọi là **Chức vụ tiêu chuẩn**. Nhập các thông tin cần thiết còn lại, sau đó nhấp vào **Lưu**.
 
-> ![Định nghĩa thực thể chức vụ tiêu chuẩn](media/Standard-Title-entity-definition.png)
+> ![Định nghĩa thực thể chức vụ tiêu chuẩn.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Kích thước dựa trên bộ tùy chọn 
@@ -56,9 +54,9 @@ Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn. Sử dụ
 2. Trong Solution Explorer, trên ngăn điều hướng bên trái, chọn **Bộ tùy chọn**. 
 3. Nhấp vào **Mới** để tạo bộ tùy chọn mới, nhập thông tin yêu cầu còn lại, và sau đó nhấp vào **Lưu**.
 
-> ![Kích thước giá dựa trên bộ tùy chọn gọi là Vị trí làm việc của nguồn lực ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kích thước giá dựa trên bộ tùy chọn gọi là Vị trí làm việc của nguồn lực.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Kích thước giá dựa trên bộ tùy chọn gọi là Số giờ làm việc của nguồn lực ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Kích thước giá dựa trên bộ tùy chọn gọi là Số giờ làm việc của nguồn lực.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Tạo dữ liệu cho kích thước dựa trên thực thể
@@ -70,6 +68,9 @@ Bạn có thể tạo dữ liệu cho kích thước dựa trên thực thể th
 3. Đóng biểu mẫu. 
 4. Lặp lại bước 1-3 để tạo một chức vụ tiêu chuẩn khác cho "Kỹ sư hệ thống cao cấp".
 
-> ![Dữ liệu mẫu cho thực thể chức vụ tiêu chuẩn ](media/ST-data.png)
+> ![Dữ liệu mẫu cho thực thể Chức vụ tiêu chuẩn.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

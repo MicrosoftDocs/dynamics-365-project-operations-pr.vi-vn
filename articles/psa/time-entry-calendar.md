@@ -2,8 +2,6 @@
 title: Lịch mục nhập thời gian
 description: Chủ đề này cung cấp thông tin về cách sử dụng lịch mục nhập thời gian.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996777"
 ---
 # <a name="time-entry-calendar"></a>Lịch mục nhập thời gian
 
@@ -42,3 +40,6 @@ Lịch không hỗ trợ hành động đối với các mục riêng lẻ trên
 ## <a name="extensibility"></a>Khả năng mở rộng
 
 Trên trang **Mục nhập thời gian** có lưới mục nhập thời gian, bạn có thể thêm các trường tùy chỉnh, thiết lập trường tra cứu và tạo dạng xem tùy chỉnh. Bạn cũng có thể thiết lập logic kinh doanh tùy chỉnh dựa trên các giá trị được chọn hoặc nhập vào các trường tùy chỉnh.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

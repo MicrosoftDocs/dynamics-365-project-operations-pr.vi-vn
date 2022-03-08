@@ -2,18 +2,16 @@
 title: Sao chép hợp đồng dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách sao chép hợp đồng dự án trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181433"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006047"
 ---
 # <a name="copy-project-contracts---lite"></a>Sao chép hợp đồng dự án - bản đơn giản
 
@@ -45,3 +43,6 @@ Thông tin sau không được sao chép từ **Hợp đồng nguồn** sang **H
   - Thông tin về ngân sách của khách hàng
 
 Vì đây là thông tin cụ thể cho từng hợp đồng, nên các trường và bản ghi này không được sao chép. Các mục mô tả hợp đồng cho các dự án và sản phẩm, giá trị ước tính trên thông tin chi tiết mô tả hợp đồng và các giá trị không vượt quá ở cấp độ hợp đồng sẽ được sao chép. Giá và tỷ lệ chi phí được lấy mặc định theo phần lựa chọn ở trường **Sao chép giá** trên trang hộp thoại **Sao chép tham số**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

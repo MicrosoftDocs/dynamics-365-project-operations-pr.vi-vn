@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987732"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Làm thế nào để tôi gán nguồn lực có thể đăng ký được cho một nhiệm vụ trong ứng dụng web (ứng dụng Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Với phương pháp này bạn có thể thêm nguồn lực cho nhóm dự án
 3.  Chọn các ngày **Bắt đầu** và ngày **Kết thúc**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ảnh chụp màn hình thêm thành viên nhóm](media/FAQ-Resources-to-Tasks2-1.png "Ảnh chụp màn hình thêm thành viên nhóm")
+    > ![Ảnh chụp màn hình thêm thành viên nhóm.](media/FAQ-Resources-to-Tasks2-1.png "Ảnh chụp màn hình thêm thành viên nhóm")
  
 4.  Chọn một trong các phương pháp phân bổ sau để đăng ký nguồn lực:
     - **Năng lực đầy đủ** đăng ký năng lực đầy đủ của nguồn lực theo các ngày bắt đầu và kết thúc đã được chỉ định.
@@ -63,12 +63,12 @@ Với phương pháp này bạn có thể thêm nguồn lực cho nhóm dự án
     3. Chọn **OK**. Thành viên nhóm hiện được gán cho nhiệm vụ.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ảnh chụp màn hình thêm tài nguyên với WBS](media/FAQ-Resources-to-Tasks2-2.png "Ảnh chụp màn hình thêm tài nguyên với WBS")
+    > ![Ảnh chụp màn hình thêm tài nguyên với WBS.](media/FAQ-Resources-to-Tasks2-2.png "Ảnh chụp màn hình thêm tài nguyên với WBS")
  
 Trên lưới điện thành viên nhóm, bạn sẽ thấy sự tổng hợp của số giờ đã được gán của nguồn lực dưới phần Số giờ được gán. Số giờ đó sẽ ít hơn hoặc bằng với số giờ đã được đăng ký cho nguồn lực. 
 
 > [!div class="mx-imgBorder"] 
-> ![Ảnh chụp màn hình số giờ được chỉ định cho một tài nguyên](media/FAQ-Resources-to-Tasks2-3.png "Ảnh chụp màn hình số giờ được chỉ định cho một tài nguyên")
+> ![Ảnh chụp màn hình số giờ được chỉ định cho một tài nguyên.](media/FAQ-Resources-to-Tasks2-3.png "Ảnh chụp màn hình số giờ được chỉ định cho một tài nguyên")
  
 Nếu nhiệm vụ mà bạn đang cố gán cho nguồn lực bắt đầu sau ngày kết thúc của đăng ký nguồn lực, nguồn lực sẽ không hiện lên trong danh sách thả xuống.
 
@@ -92,22 +92,22 @@ Phương pháp này đảm bảo nguồn lực có đủ đăng ký cho nhiệm 
 4. Chọn **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Ảnh chụp màn hình dùng WBS để thêm tài nguyên](media/FAQ-Resources-to-Tasks2-4.png "Ảnh chụp màn hình dùng WBS để thêm tài nguyên")
+    > ![Ảnh chụp màn hình dùng WBS để thêm tài nguyên.](media/FAQ-Resources-to-Tasks2-4.png "Ảnh chụp màn hình dùng WBS để thêm tài nguyên")
  
 Khi bạn hoàn thành việc gán vai trò cho nhiệm vụ trong WBS, chọn **Tạo nhóm dự án**. Project Service tạo số thành viên nhóm chung tối thiểu dựa trên vai trò, tạo nguồn lực đơn vị tổ chức, và lịch dự án bằng cách tập hợp các phân công nhiệm vụ.
 
 > [!div class="mx-imgBorder"] 
-> ![Ảnh chụp màn hình tạo nhóm dự án](media/FAQ-Resources-to-Tasks2-5.png "Ảnh chụp màn hình tạo nhóm dự án")
+> ![Ảnh chụp màn hình tạo nhóm dự án.](media/FAQ-Resources-to-Tasks2-5.png "Ảnh chụp màn hình tạo nhóm dự án")
  
 Trên lưới Thành viên nhóm, bạn sẽ thấy các nguồn lực của loại Nguồn lực chung với tên vị trí và vai trò. Nếu hai nguồn lực cần cho vai trò để hoàn thành công việc, tính năng Tạo nhóm sẽ tạo hai thành viên nhóm và dùng tên vị trí để phân biệt.
 
 > [!div class="mx-imgBorder"] 
-> ![Ảnh chụp màn hình thêm hai tài nguyên chung](media/FAQ-Resources-to-Tasks2-6.png "Ảnh chụp màn hình thêm hai tài nguyên chung")
+> ![Ảnh chụp màn hình thêm hai tài nguyên chung.](media/FAQ-Resources-to-Tasks2-6.png "Ảnh chụp màn hình thêm hai tài nguyên chung")
  
 Bạn có thể mở yêu cầu nguồn lực hỗ trợ cho thành viên nhóm chung bằng cách chon liên kết ở dưới Yêu cầu Nguồn lực.
 
 > [!div class="mx-imgBorder"] 
-> ![Ảnh chụp màn hình mở yêu cầu nguồn lực hỗ trợ](media/FAQ-Resources-to-Tasks2-7.png "Ảnh chụp màn hình mở yêu cầu nguồn lực hỗ trợ")
+> ![Ảnh chụp màn hình mở yêu cầu nguồn lực hỗ trợ.](media/FAQ-Resources-to-Tasks2-7.png "Ảnh chụp màn hình mở yêu cầu nguồn lực hỗ trợ")
 
 Chọn **Đăng ký** đối với nguồn lực chung và sau đó bạn có thể dùng bảng lịch trình để tìm và đăng ký nguồn lực thực. Bạn cũng có thể gửi yêu cầu hoàn thành bởi người quản lý nguồn lực bằng cách chọn **Gửi yêu cầu**.
 

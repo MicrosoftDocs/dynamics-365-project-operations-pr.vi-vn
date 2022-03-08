@@ -1,29 +1,29 @@
 ---
-title: Thiết đặt hợp đồng dự án - bản đơn giản
+title: Trường hợp đồng dự án và thông tin
 description: Chủ đề này cung cấp thông tin về các trường ảnh hưởng đến mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663935"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088161"
 ---
-# <a name="header-details-for-project-contracts"></a>Chi tiết của tiêu đề cho các hợp đồng dự án
+# <a name="project-contract-fields-and-information"></a>Trường hợp đồng dự án và thông tin 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Chủ đề này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
-Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
+Bảng sau liệt kê các trường thông tin tóm tắt trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ đơn bán hàng trong Dynamics 365 Sales.
 
-| Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
+| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
 | Loại | Tab **Tóm tắt** (ẩn) | Đây là trường bộ tùy chọn có các tùy chọn sau:</br>- **Dựa trên công việc** (Chỉ khả dụng khi Project Operations được cài đặt)</br>- **Dựa trên mục** (Chỉ khả dụng khi Project Operations và Sales được cài đặt)</br>- **Dựa trên bảo trì dịch vụ** (Khả dụng khi Dynamics 365 Field Service được cài đặt) | Trong Project Operations, giá trị của trường này mặc định là **Dựa trên công việc** và phân loại hợp đồng là hợp đồng dựa trên dự án. Hợp đồng phải dựa trên dự án để kích hoạt tất cả các tiện ích và chức năng dành riêng cho dự án. |
 | Khách hàng Tiềm năng | Tab **Tóm tắt** | Tham chiếu đến bản ghi công ty hoặc tài khoản của khách hàng. Khi hợp đồng được tạo từ một báo giá, trường này được sao chép từ trường tương ứng trên bản ghi báo giá. | Đơn vị tiền tệ trên hợp đồng dự án được mặc định dựa trên đơn vị tiền tệ của khách hàng. Có thể thay đổi đơn vị tiền tệ trước khi lưu hợp đồng. |
@@ -36,7 +36,7 @@ Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng c
 
 Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của hợp đồng dự án.
 
-| Trường | Vị trí | Nội dung mô tả |
+| Trường | Vị trí | Mức độ liên quan, mục đích và hướng dẫn |
 | --- | --- | --- |
 | Giá trị hợp đồng | Hợp đồng tổng thể | Tổng giá trị của Hợp đồng dự án. |
 | Số tiền Đã lập hóa đơn thanh toán | Hợp đồng tổng thể | Tổng số tiền trên tất cả các hóa đơn đối với hợp đồng này. |
@@ -57,6 +57,3 @@ Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của h�
 | Chi phí phát sinh | Dòng dựa trên sản phẩm | Tổng của tất cả các chi phí thực tế được ghi lại cho mô tả hợp đồng dựa trên sản phẩm. |
 | Lãi gộp | Mô tả dựa trên dự án | Số tiền được lập hóa đơn - Chi phí phát sinh cho đến ngày/Số tiền được lập hóa đơn |
 | Lợi nhuận Dự kiến | Dòng dựa trên sản phẩm | (Giá trị mô tả hợp đồng - Chi phí ước tính cho mô tả hợp đồng)/Giá trị mô tả hợp đồng |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

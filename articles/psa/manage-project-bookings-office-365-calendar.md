@@ -2,8 +2,6 @@
 title: Quản lý dự án và thông tin đăng ký trong lịch Office 365 của bạn
 description: Cách quản lý dự án và thông tin đăng ký trong lịch Office 365 của bạn
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144484"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985460"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Quản lý dự án và thông tin đăng ký trong lịch (Project Service) của bạn
 
@@ -52,7 +50,7 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 - Bạn cần phải có thông tin đăng nhập của Quản trị viên hệ thống hoặc Quản trị viên toàn cầu [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Quản trị viên của bạn sẽ cần đặt cấu hình máy chủ email và mỗi người dùng sẽ phải đặt cấu hình hộp thư của họ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Thiết lập xử lý email thông qua đồng bộ hóa phía máy chủ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Quản trị viên của bạn sẽ cần đặt cấu hình máy chủ email và mỗi người dùng sẽ phải đặt cấu hình hộp thư của họ. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Thiết lập xử lý email thông qua đồng bộ hóa phía máy chủ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Bật đồng bộ hóa cho tổ chức của bạn (tác vụ của quản trị viên)  
   
@@ -91,3 +89,6 @@ Xem cuộc hẹn cá nhân, đặt chỗ công việc dự án và chỉ định
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

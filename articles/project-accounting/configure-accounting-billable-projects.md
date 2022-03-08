@@ -2,18 +2,16 @@
 title: Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 description: Chủ đề này cung cấp thông tin về các tùy chọn kế toán cho những dự án có thể lập hóa đơn.
 author: sigitac
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
-ms.translationtype: HT
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858679"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991062"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
 
@@ -103,23 +101,23 @@ Hoàn thành các bước sau để tạo hồ sơ doanh thu và chi phí dự �
 
 Thời gian và vật tư – không có WIP
 
-![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - không có WIP](media/time-material-no-wip.png)
+![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - không có WIP.](media/time-material-no-wip.png)
 
 Thời gian và vật tư – WIP (doanh thu)
 
-![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - WIP](media/time-material-with-wip.png)
+![Hồ sơ doanh thu và chi phí: Thời gian và vật tư - WIP.](media/time-material-with-wip.png)
 
 Giá cố định – Không có WIP
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - không có WIP](media/fixed-price-no-wip.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - không có WIP.](media/fixed-price-no-wip.png)
 
 Giá cố định – hợp đồng đã hoàn thành
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - hợp đồng đã hoàn thành](media/fixed-price-completed-contract.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - hợp đồng đã hoàn thành.](media/fixed-price-completed-contract.png)
 
 Giá cố định – phần trăm hoàn thành
 
-![Hồ sơ doanh thu và chi phí: Giá cố định - phần trăm hoàn thành](media/fixed-price-completed-percentage.png)
+![Hồ sơ doanh thu và chi phí: Giá cố định - phần trăm hoàn thành.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Ví dụ về sự kiện kế toán cho hồ sơ doanh thu và chi phí dự án mẫu.

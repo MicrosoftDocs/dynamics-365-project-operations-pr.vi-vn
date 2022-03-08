@@ -2,8 +2,6 @@
 title: Báo giá và mô tả báo giá
 description: Chủ đề này cung cấp thông tin về báo giá và mô tả báo giá.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995472"
 ---
 # <a name="quotes-and-quote-lines"></a>Báo giá và mô tả báo giá
 
@@ -86,7 +84,7 @@ Các tổ chức dịch vụ chuyên nghiệp thường báo giá và lập hóa
 
 Một hoặc nhiều trong các phân loại giao dịch này có thể liên kết với mỗi dòng báo giá. Sau khi thắng một báo giá, ánh xạ giữa phân loại giao dịch và dòng báo giá được chuyển tới dòng hợp đồng.
  
-> ![Ảnh chụp màn hình của các loại giao dịch ánh xạ tới dòng báo giá và hợp đồng](media/basic-guide-5.png)
+> ![Ảnh chụp màn hình của các loại giao dịch ánh xạ tới dòng báo giá và hợp đồng.](media/basic-guide-5.png)
   
 Ví dụ: báo giá có thể chứa hai dòng báo giá sau đây: 
 - Công việc tư vấn sử dụng một phương thức thanh toán thời gian và vật tư, trong đó áp dụng phân loại giao dịch thời gian và phí. Ví dụ: tất cả giao dịch thời gian và phí cho dự án ví dụ **Triển khai Dynamics AX** được lập hóa đơn cho khách hàng dựa trên thời gian và vật tư sử dụng. 
@@ -131,3 +129,6 @@ Tần suất hóa đơn là một thực thể lưu trữ các giá trị thuộ
 - Để tạo các mốc lập hóa đơn được chia bằng nhau, hãy chọn một tần suất hóa đơn, nhập ngày bắt đầu lập hóa đơn trên một dòng báo giá và chọn **Ngày hoàn thành yêu cầu** cho báo giá trong phần **Tóm tắt** của tiêu đề báo giá. Sau đó chọn **Tạo mốc định kỳ** để tạo các mốc chia đều dựa trên tần suất hóa đơn đã chọn. 
 - Để tạo một cột mốc thanh toán trọn gói, hãy tạo ra một mốc, sau đó nhập giá trị dòng báo giá làm số lượng cột mốc.
 - Để tạo các cột mốc lập hóa đơn dựa trên các tác vụ cụ thể trong kế hoạch dự án, hãy tạo một cột mốc và ánh xạ tới thành phần lịch biểu của dự án trong giao diện người dùng cột mốc thanh toán.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

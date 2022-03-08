@@ -2,11 +2,9 @@
 title: Tạo thực thể và trường tùy chỉnh làm thông số định giá
 description: Hoàn tất các bước sau bất kỳ lúc nào bạn muốn tạo bộ tùy chọn hoặc thực thể tùy chỉnh.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642839"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003662"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Tạo thực thể và trường tùy chỉnh làm thông số định giá
 
@@ -46,7 +44,7 @@ Kích thước giá có thể là một bộ tùy chọn hoặc một thực th�
 3. Chọn **Mới** để tạo một thực thể mới gọi là **Chức vụ tiêu chuẩn**. 
 4. Nhập các thông tin cần thiết còn lại, sau đó chọn **Lưu**.
 
-> ![Định nghĩa thực thể chức vụ tiêu chuẩn](media/Standard-Title-entity-definition.png)
+> ![Định nghĩa thực thể chức vụ tiêu chuẩn.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Kích thước dựa trên bộ tùy chọn 
 Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn. 
@@ -56,11 +54,11 @@ Bạn có thể tạo hai kích thước dựa trên bộ tùy chọn.
 
 Hình sau mang đến cái nhìn tổng quan về thông số **Vị trí làm việc của nguồn lực**. 
 
-> ![Kích thước giá dựa trên bộ tùy chọn gọi là Vị trí làm việc của nguồn lực](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kích thước giá dựa trên bộ tùy chọn gọi là Vị trí làm việc của nguồn lực.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Hình sau mang đến cái nhìn tổng quan về thông số **Giờ làm việc của nguồn lực**. 
 
-> ![Kích thước giá dựa trên bộ tùy chọn gọi là Số giờ làm việc của nguồn lực](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Kích thước giá dựa trên bộ tùy chọn gọi là Số giờ làm việc của nguồn lực.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Chọn **Chế độ Cài đặt** > **Giải pháp**, rồi nhấp đúp vào **\<your organization name> kích thước giá**. 
 2. Trong Trình khám phá giải pháp, trên ngăn điều hướng bên trái, chọn **Bộ tùy chọn**. 
@@ -76,4 +74,7 @@ Bạn có thể tạo dữ liệu cho kích thước dựa trên thực thể th
 4. Đóng trang. 
 5. Lặp lại bước 1-3 để tạo một chức vụ tiêu chuẩn khác cho "Kỹ sư hệ thống cao cấp".
 
-> ![Dữ liệu mẫu cho thực thể Chức vụ tiêu chuẩn](media/ST-data.png)
+> ![Dữ liệu mẫu cho thực thể Chức vụ tiêu chuẩn.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Chuyển ngân sách dự án vào cuối năm tài chính
 description: Bài viết này cung cấp thông tin về cách chuyển số tiền ngân sách còn lại sang các năm trong tương lai và tạo chi tiết sổ đăng ký ngân sách.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087241"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Chuyển ngân sách dự án vào cuối năm tài chính
 
@@ -96,6 +98,3 @@ Khi xử lý số tiền ngân sách còn lại, bạn có thể tạo các giao
 5. Đối với mỗi dự án mà bạn muốn xử lý, hãy chọn tùy chọn ở đầu dòng cho dự án. 
 6. Chọn **Xử lý** để chuyển số tiền ngân sách còn lại cho các dự án đã chọn sang năm tài chính đã chọn.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

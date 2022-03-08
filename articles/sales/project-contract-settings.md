@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663890"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181171"
 ---
-# <a name="header-details-for-project-based-contracts"></a>Chi tiết của tiêu đề cho các hợp đồng dựa trên dự án
+# <a name="project-contract-settings"></a>Thiết đặt hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 Chủ đề này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
-Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
+Bảng sau liệt kê các trường thông tin tóm tắt trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ đơn bán hàng trong Dynamics 365 Sales.
 
 | Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
@@ -58,6 +58,3 @@ Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của h�
 | Chi phí phát sinh | Dòng dựa trên sản phẩm | Tổng của tất cả các chi phí thực tế được ghi lại cho mô tả hợp đồng dựa trên sản phẩm. |
 | Lãi gộp | Mô tả dựa trên dự án | Số tiền được lập hóa đơn - Chi phí phát sinh cho đến ngày/Số tiền được lập hóa đơn |
 | Lợi nhuận Dự kiến | Dòng dựa trên sản phẩm | (Giá trị mô tả hợp đồng - Chi phí ước tính cho mô tả hợp đồng)/Giá trị mô tả hợp đồng |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

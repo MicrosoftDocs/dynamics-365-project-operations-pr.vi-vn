@@ -2,8 +2,6 @@
 title: Dự án và ước tính doanh số
 description: Chủ đề này cung cấp thông tin về cách tận dụng lịch trình và ước tính trong quá trình bán hàng.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148399"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998437"
 ---
 # <a name="sales-estimates-and-projects"></a>Dự án và ước tính doanh số
 
@@ -54,3 +52,6 @@ Bạn có thể xác định nhân công công việc và ước tính lịch tr
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Nhập ước tính từ dự án vào báo giá
 
 Sau khi xác định ước tính dự án, bạn có thể nhập các ước tính đó vào mô tả báo giá. Trên trang **Chi tiết mô tả báo giá**, hãy chọn **Nhập từ ước tính** trên ruy băng để tóm tắt ước tính dự án theo loại giao dịch, vai trò hoặc cấp nhiệm vụ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

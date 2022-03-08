@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663754"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642164"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Các khái niệm duy nhất cho Hợp đồng dựa trên dự án
+# <a name="project-contracts---key-concepts"></a>Hợp đồng dự án - Khái niệm chính
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
@@ -88,6 +88,3 @@ Lịch trình hóa đơn là dữ liệu cụ thể cho từng mục mô tả h�
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Các thay đổi so với đơn hàng Dynamics 365 Sales
 
 Hợp đồng trong Project Operations được xây dựng dựa trên Đơn hàng trong Dynamics 365 Sales. Tuy nhiên, có một số điểm khác biệt quan trọng về chức năng. Hợp đồng có biểu mẫu, thành phần giao diện người dùng, quy tắc công việc, phần bổ trợ lô-gic kinh doanh và tập lệnh phía máy khách riêng, khác hẳn với những dữ liệu trong Đơn hàng. Vì vậy, bạn không được sử dụng đơn hàng Sales và hợp đồng Project Operations hoán đổi cho nhau.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948490"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643010"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -92,12 +92,9 @@ Tạo dự án LCS mới như được mô tả trong chủ đề [Bắt đầu 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Triển khai môi trường demo Finance với Project Operations kịch bản dựa trên nguồn lực/hàng không nhập kho
 
-Làm theo hướng dẫn trong chủ đề [Cung cấp môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước. 
+Làm theo hướng dẫn trong chủ đề [Cung cấp môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Cài đặt dữ liệu cấu hình và thiết lập CDS
 
 Cài đặt dữ liệu cấu hình và thiết lập CDS như được mô tả trong chủ đề [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service](resource-apply-pro-setup-config-data.md).
 Chỉ hoàn thành bước này sau khi môi trường demo Tài chính được triển khai và dữ liệu demo trong FO đã sẵn sàng.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

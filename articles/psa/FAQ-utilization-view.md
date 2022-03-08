@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992860"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007172"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Xem mức sử dụng có thể tính phí cho các nguồn lực
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992860"
  
 **Dạng xem thời gian làm việc** trên trang **Thời gian làm việc của nguồn lực trong Project Service** hiển thị thời gian làm việc có thể tính phí cho mỗi nguồn lực có thể đặt lịch. Vì dạng xem dựa trên bảng lịch trình, do đó, bạn sẽ tìm thấy nhiều chức năng tương tự.
 
-> ![Ảnh chụp màn hình của Dạng xem Thời gian làm việc](media/FAQ-utilization-1.png)
+> ![Ảnh chụp màn hình của Dạng xem Thời gian làm việc.](media/FAQ-utilization-1.png)
  
 
 Thời gian làm việc có thể tính phí được tính như sau:
@@ -48,7 +48,7 @@ Thời gian làm việc mục tiêu có thể được đặt trên vai trò m�
 2. Chọn một nguồn lực để mở bản ghi. 
 3. Trên tab **Project Service**, bạn có thể đặt thời gian làm việc mục tiêu của nguồn lực.
 
-> ![Ảnh chụp màn hình thao tác sử dụng tab Project Service để đặt thời gian làm việc mục tiêu](media/FAQ-utilization-2.png)
+> ![Ảnh chụp màn hình thao tác sử dụng tab Project Service để đặt thời gian làm việc mục tiêu.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Đặt thời gian làm việc mục tiêu trên một vai trò
 
@@ -56,7 +56,7 @@ Thời gian làm việc mục tiêu có thể được đặt trên vai trò m�
 2. Chọn một vai trò và mở bản ghi. 
 3. Đặt thời gian làm việc mục tiêu cho vai trò.
 
-> ![Ảnh chụp màn hình khi sử dụng Vai trò Nguồn lực để đặt thời gian làm việc mục tiêu](media/FAQ-utilization-3.png)
+> ![Ảnh chụp màn hình khi sử dụng Vai trò Nguồn lực để đặt thời gian làm việc mục tiêu.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Tính thời gian làm việc có thể tính phí cho một nguồn lực
 

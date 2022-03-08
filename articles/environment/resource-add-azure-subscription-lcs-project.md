@@ -2,18 +2,16 @@
 title: Thêm gói đăng ký Azure vào dự án LCS
 description: Chủ đề này cung cấp thông tin về cách kết nối gói đăng ký Azure của bạn với dự án LCS.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986697"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
 
@@ -25,35 +23,35 @@ Môi trường được lưu trữ trên đám mây phải được triển khai
 
 1. Trong dự án LCS, trong phần **Môi trường**, hãy chọn **cài đặt Microsoft Azure**.
 
-![Thiết đặt Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Thiết đặt Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Trên trang **Thiết đặt dự án**, trên tab **Trình kết nối Azure**, hãy chọn **Cho phép**. Thao tác này cho phép các môi trường được triển khai cho dự án này.
 
-![Trình kết nối Azure](./media/2AzureConnectors.png)
+![Trình kết nối Azure.](./media/2AzureConnectors.png)
 
 3. Chọn **Cho phép** một lần nữa để cung cấp sự đồng ý của quản trị viên.
 
-![Cấp sự đồng ý của quản trị viên](./media/3GrantAdminConsent.png)
+![Cấp sự đồng ý của quản trị viên.](./media/3GrantAdminConsent.png)
 
 4. Chấp nhận yêu cầu quyền.
 
-![Chấp nhận yêu cầu quyền](./media/4AcceptPermissionRequest.png)
+![Chấp nhận yêu cầu quyền.](./media/4AcceptPermissionRequest.png)
 
 Sự định quyền hiện đã hoàn tất. 
 
-![Định quyền thành công](./media/5AuthorizationComplete.png)
+![Định quyền thành công.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Cung cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure của bạn
 
 1. Chuyển đến [thanh toán Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) rồi chọn gói đăng ký của bạn. Dịch vụ triển khai Dynamics cần truy cập vào gói đăng ký này để có thể triển khai các môi trường.
 
-![Thông tin chi tiết về Đăng ký Azure](./media/6AzureSubscription.png)
+![Chi tiết gói đăng ký Azure.](./media/6AzureSubscription.png)
 
 2. Chọn **Kiểm soát truy cập (IAM)** trong ngăn điều hướng, sau đó chọn **Thêm gán vai trò**.
 3. Trong thanh trượt ở bên phải, hãy chọn **Vai trò người đóng góp** và trong danh sách được cung cấp, hãy tìm và chọn **Dịch vụ triển khai Dynamics**. 
 4. Chọn **Lưu**.
 
-![Quyền truy cập vào gói đăng ký](./media/7SubscriptionAccess.png)
+![Quyền truy cập vào gói đăng ký.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Thêm trình kết nối gói đăng ký vào dự án LCS
 

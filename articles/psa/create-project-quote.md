@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cdf3a9cbc1df0b2c4630f142fb1643b35919b21e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06b84e155a60c574855d5a2509d16d67b8bceea4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149434"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285194"
 ---
 # <a name="create-a-project-quote-project-service"></a>Tạo báo giá dự án (Project Service)
 
@@ -55,3 +55,6 @@ Tạo báo giá giống với tạo cơ hội. Trong khi cơ hội dành cho th�
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Khách hàng](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

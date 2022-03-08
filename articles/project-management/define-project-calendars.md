@@ -1,9 +1,9 @@
 ---
 title: Xác định lịch dự án
-description: Chủ đề này cung cấp thông tin về cách áp dụng mẫu lịch cho dự án để theo dõi tiến độ dự án.
+description: Chủ đề này cung cấp thông tin về việc sử dụng lịch dự án để theo dõi tiến độ dự án.
 author: ruhercul
 manager: AnnBe
-ms.date: 02/05/2021
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,49 +17,38 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981326"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286994"
 ---
 # <a name="define-project-calendars"></a>Xác định lịch dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Để tạo và quản lý dự án, bạn cần phải áp dụng mẫu lịch cho dự án. Mẫu lịch xác định các thuộc tính sau của dự án:
+Để tạo lịch trình dự án, bạn tạo mẫu lịch dự án xác định số giờ làm việc mỗi ngày và thời gian đóng cửa. Để tạo mẫu lịch dự án, bạn liên kết công việc với trường **Mẫu lịch** cho dự án. Làm theo các bước sau để tạo mẫu công việc.
 
-- Giờ làm việc, bao gồm thời gian bắt đầu và kết thúc
-- Ngày làm việc
-- Trường hợp ngoại lệ của lịch, chẳng hạn như những ngày không làm việc
+1. Trong ngăn điều hướng bên trái, hãy chọn **Nguồn lực**. 
+2. Trên trang danh sách **Nguồn lực**, hãy mở bản ghi người dùng rồi chọn **Hiển thị giờ làm việc**.
 
-Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch được xác định trong cài đặt tổ chức của bạn.
+  > [!NOTE]
+  > Đảm bảo rằng bạn cho phép cửa sổ bật lên trên trang trình duyệt. Điều này cho phép bạn xem giờ làm việc đã đặt cho nguồn lực.
+  
+3. Trên tab **Xem hàng tháng**, hãy chọn **Thiết lập**. Danh sách ba tùy chọn xuất hiện: 
 
-> [!NOTE]
-> Nếu bạn thay đổi mẫu lịch, những thay đổi đó sẽ không ảnh hưởng đến giờ làm việc của dự án. Để thay đổi giờ làm việc của dự án, bạn cần áp dụng mẫu mới.
+  - Lịch hàng tuần mới
+  - Lịch hoạt động cho một ngày
+  - Thời gian Rảnh
 
-Để tạo mẫu lịch cho tổ chức của bạn, có hai yêu cầu chính:
-
-- Xác định giờ làm việc mong muốn của mẫu bằng cách sử dụng nguồn lực có thể đặt trước mới hoặc hiện có.
-- Tạo mẫu lịch mới và liên kết mẫu với nguồn lực có thể đặt trước.
-
-**Xác định số giờ làm việc của mẫu**
-
-1. Truy cập vào **Nguồn lực** \> **Nguồn lực**.
-2. Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.
-3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.
-
-**Tạo mẫu lịch mới**
-
-1. Chuyển đến phần **Cài đặt** \> **Mẫu lịch**.
-2. Chọn **Mới** rồi nhập tên, mô tả và nguồn lực mẫu.
-
-> [!NOTE]
-> Khi nguồn lực được tham chiếu trong mẫu lịch, bản sao lịch của nguồn lực được liên kết với mẫu lịch. Nếu giờ làm việc của mẫu đã sao chép thay đổi, những thay đổi đó sẽ không ảnh hưởng đến mẫu lịch.
+4. Chọn **Lịch trình hàng tuần mới** rồi đặt tùy chọn cho lịch trình nguồn lực này. Bạn có thể đặt lịch trình hàng tuần định kỳ, tham số giờ hàng ngày, thời gian đóng cửa và hơn thế nữa.
+5. Để đặt phạm vi ngày, hãy chọn **Lưu** rồi chọn **Đóng**. 
+6. Quay lại trang danh sách **Nguồn lực** rồi chọn nguồn lực mà bạn đặt giờ làm việc. 
+7. Chọn **Đặt lịch ở dạng** để đặt mẫu công việc. 
+8. Trong hộp thoại **Mẫu công việc**, hãy nhập tên cho mẫu công việc rồi chọn **Áp dụng**. 
 
 Bạn hiện có thể liên kết mẫu công việc với mẫu lịch dự án.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

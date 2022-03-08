@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087265"
 ---
 # <a name="expense-report-distributions"></a>Phân phối trên báo cáo chi phí
+
+[!include [banner](../includes/banner.md)]
 
 Khi nhập chi phí trên báo cáo chi phí, bạn có thể phân bổ chi phí cho nhiều dự án, thông số tài chính hoặc tài khoản trong tổ chức của mình.
 
@@ -37,6 +39,3 @@ Bởi vì Nancy đã làm việc cho 2 dự án riêng biệt ở Frankfurt, nê
 |Khách sạn         |725 EUR              |557 EUR                        |168 EUR                          |
 |Bữa ăn         |346 EUR              |284 EUR                        |62 EUR                           |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

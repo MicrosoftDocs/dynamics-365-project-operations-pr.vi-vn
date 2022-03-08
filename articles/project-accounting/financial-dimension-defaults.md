@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642389"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287399"
 ---
 # <a name="financial-dimension-defaults"></a>Giá trị mặc định cho thông số tài chính
 
@@ -62,3 +62,6 @@ Dự án được tạo và duy trì trong CDS. Các thuộc tính kế toán c�
 4. Đặt các giá trị mặc định cho thông số tài chính. Lưu ý rằng các thông số tài chính lấy giá trị mặc định từ tài khoản khách hàng. Nếu dự án được liên kết với phần mô tả hợp đồng có nhiều khách hàng trong hợp đồng dự án, thì khách hàng chính được sử dụng làm thông số tài chính mặc định.
 
 Các thông số tài chính mặc định của dự án được sử dụng để đặt các giá trị mặc định về thời gian, chi phí và phí giao dịch cho dòng nhật ký kế toán trong **Nhật ký tích hợp Project Operations** và trên các dòng mô tả hóa đơn dự án có liên quan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

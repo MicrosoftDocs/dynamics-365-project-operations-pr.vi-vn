@@ -2,8 +2,6 @@
 title: Hướng dẫn sử dụng cho Trung tâm nguồn lực dự án
 description: Hướng dẫn của người dùng cuối về Project Resource Hub cho Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987282"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Hướng dẫn sử dụng cho Project Resource Hub
 
@@ -54,28 +52,28 @@ Trước khi có thể bắt đầu sử dụng ứng dụng Trung tâm nguồn 
 1.  Khi đăng nhập trên ứng dụng di động, bạn sẽ thấy trang MyApps với một danh sách các ứng dụng mà bạn truy cập. 
 2.  Chọn **Hub Nguồn lực Dự án**.
 
-![Chọn ứng dụng](media/chooseApp_1.png "Chọn ứng dụng")
+![Chọn ứng dụng.](media/chooseApp_1.png "Chọn ứng dụng")
 
 **Thanh điều hướng**
 
-Sử dụng thanh điều hướng để đến khu vực làm việc của bạn, tạo bản ghi mới, tìm kiếm hoặc thực hiện các nhiệm vụ khác.Dynamics 365 for mobile Để truy cập thêm lệnh, hãy nhấn vào ![Thêm nút](media/MoreButton.png "Nút Thêm")
+Sử dụng thanh điều hướng để đến khu vực làm việc của bạn, tạo bản ghi mới, tìm kiếm hoặc thực hiện các nhiệm vụ khác.Dynamics 365 for mobile Để truy nhập các lệnh khác, hãy nhấn vào ![nút Thêm.](media/MoreButton.png "Nút Thêm")
 
-![Thanh điều hướng](media/NavBar_2.png "Thanh điều hướng")
+![Thanh điều hướng.](media/NavBar_2.png "Thanh điều hướng")
 
 **Bản ghi ưa thích và mới dùng gần đây**
 
 Ưa chuộng và sử dụng mới phần cung cấp truy cập nhanh vào các hồ sơ, lượt xem và biểu đồ. 
 
-- Để truy cập vào các phần này, hãy gõ nhẹ vào nút **Menu** ![nút Menu](media/MenuButton.png "Nút Menu") trên thanh điều hướng, sau đó gõ nhẹ vào nút **Ưa thích và gần đây** nút ![Ưa thích](media/FavButton.png "Nút Yêu thích").
+- Để truy cập các phần này, hãy nhấn vào nút **Menu**![Nút Menu.](media/MenuButton.png "Nút Menu") trên thanh điều hướng, sau đó nhấn vào **Yêu thích và Gần đây** nút ![Yêu thích](media/FavButton.png "Nút Yêu thích").
 
 - Để ghim một mục làm ưa thích, từ danh sách các mục **Mới dùng gần đây**, gõ nhẹ vào ghim. Điều này sẽ ghim và di chuyển mục vào Ưa thích.
 
-  ![Các mục Yêu thích và Gần đây](media/Favs_3.png "Các mục Yêu thích và Gần đây")
+  ![Các mục Yêu thích và Gần đây.](media/Favs_3.png "Các mục Yêu thích và Gần đây")
  
 ## <a name="enter-time"></a>Nhập thời gian
 Nhập giờ của bạn ít nhất hàng tuần—hoặc theo tần số người quản lý của bạn yêu cầu-để đảm bảo khách hàng của bạn được lập hóa đơn và bạn được thanh toán chính xác.
 
-1. Nhấn vào ![nút Menu](media/MenuButton.png "Nút Menu"), sau đó nhấn vào **Mục nhập Thời gian**. Thao tác này sẽ hiển thị lịch của bạn.
+1. Nhấn vào nút menu ![Nút menu.](media/MenuButton.png "Nút Menu") rồi sau đó nhấn vào **Mục nhập thời gian**. Thao tác này sẽ hiển thị lịch của bạn.
 
 2. Để xem lịch của bạn cho tuần trước hoặc tuần sau, nhấn vào nút **Trước** hoặc **Tiếp theo**. Nhấn vào **Hôm nay** để quay lại tuần hiện tại.
 

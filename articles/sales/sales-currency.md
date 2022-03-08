@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7368dc5d4901e8083f15b0174b7cc58a6b6dbd91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277499"
 ---
 # <a name="currency"></a>Tiền tệ
 
@@ -71,3 +71,6 @@ Trước khi bạn bắt đầu quy trình này, hãy xác minh rằng vai trò 
 
 > [!IMPORTANT]
 >  Bạn không thể xóa loại tiền tệ mà các hồ sơ khác đang sử dụng; bạn chỉ có thể hủy kích hoạt loại tiền tệ đó. Việc hủy kích hoạt hồ sơ tiền tệ sẽ không xóa thông tin tiền tệ được lưu trữ trong các hồ sơ hiện có, chẳng hạn như cơ hội hoặc đơn hàng. Tuy nhiên, bạn sẽ không thể chọn loại tiền tệ đã hủy kích hoạt cho các giao dịch mới.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

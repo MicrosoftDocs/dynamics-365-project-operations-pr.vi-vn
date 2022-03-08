@@ -2,18 +2,16 @@
 title: Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992052"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
 
@@ -44,3 +42,6 @@ Bảng sau hiển thị các trường trên bản ghi khách hàng nhận mô t
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán chia tách nội tuyến. Khi tỷ lệ phần trăm thanh toán chia tách không có tổng bằng 100% thì lỗi sẽ xảy ra. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán chia tách, hãy làm mới trang mô tả báo giá để xóa lỗi.
 
 Sử dụng hành động phân bổ đồng đều trên lưới con của khách hàng nhận mô tả báo giá để phân bổ phần tách thanh toán cho tất cả khách hàng nhận mô tả báo giá. Nếu có hệ số làm tròn, yếu tố đó sẽ được thêm vào khách hàng làm tròn. Một trong những khách hàng nhận mô tả báo giá luôn được gắn thẻ là khách hàng làm tròn, có nghĩa là bản ghi khách hàng nhận mô tả báo giá có cờ làm tròn được đặt thành **Đúng**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

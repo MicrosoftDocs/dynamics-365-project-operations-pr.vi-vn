@@ -2,17 +2,19 @@
 title: Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách ghi lại các hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
+manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7a706f419443dcdf92ce3b247d719943272907d0
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993845"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880698"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
 

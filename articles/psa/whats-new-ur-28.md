@@ -2,8 +2,6 @@
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 28, V3
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 28, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c50d6bdc033836e1259a2fd12b78015280d8093
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fed18ba292943f53965ee518afb5cbb13427ca60f32451edb49f67e6f10d24fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150649"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994977"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 28, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
 Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi đối với bản phát hành cập nhật 28 của Project Service Automation V3. Phiên bản này có số bản dựng là V3.10.46.32 và thường ra mắt rộng rãi thông qua bản tự cập nhật vào tháng 1 năm 2021.
 
@@ -55,3 +53,6 @@ Các vấn đề sau đã được khắc phục:
 - Hệ thống sẽ tạo một ngoại lệ tham chiếu rỗng khi phần bổ trợ **GetEstimatesForProject** được gọi.
 - **Đánh dấu là sẵn sàng lập hóa đơn** trên lưới mốc chỉ cập nhật một phần các thuộc tính, ngoại trừ thuộc tính **Trạng thái hóa đơn** đã được cập nhật.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

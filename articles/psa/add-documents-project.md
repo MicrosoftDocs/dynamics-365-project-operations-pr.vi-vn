@@ -3,7 +3,7 @@ title: Thêm văn bản vào dự án
 description: Các bước để thêm tài liệu vào dự án trong Project Service
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 373e6e6f41b8877c6a8a69f56c22edc9499d0c1a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8702222207301c530476bf2aafc6ce78d3475550
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146059"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087101"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Thêm tài liệu vào dự án (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

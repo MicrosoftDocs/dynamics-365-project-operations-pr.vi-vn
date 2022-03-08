@@ -2,8 +2,6 @@
 title: Hướng dẫn của Quản lý Khách hàng
 description: Hướng dẫn của người quản lý khách hàng cho Project Service mà trải qua quy trình bán hàng và thực hiện hợp đồng cho các khách hàng dựa trên dự án
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 57b9d6d391d4babda6e4f67f3f49798b70876aa8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146105"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014727"
 ---
 # <a name="account-manager-guide-project-service"></a>Hướng dẫn cho quản lý khách hàng (Project Service)
 
@@ -48,3 +46,6 @@ Các chức năng [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)   
  [Hướng dẫn của Quản lý Nguồn lực](../psa/resource-manager-guide.md)   
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

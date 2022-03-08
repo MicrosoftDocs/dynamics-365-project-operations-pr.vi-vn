@@ -2,18 +2,16 @@
 title: Đóng cơ hội
 description: Chủ đề này cung cấp thông tin về cách đóng cơ hội dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af01a729723f61ea11d161861554ec9e6b93b811
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128759"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013737"
 ---
 # <a name="close-an-opportunity"></a>Đóng cơ hội
 
@@ -23,4 +21,7 @@ Có thể đóng cơ hội dự án ở trạng thái Được hoặc Mất. H�
 
 Bạn sẽ không được phép đóng cơ hội nếu có bất kỳ báo giá hiện hoạt nào liên quan đến nó. Bạn có thể đóng tất cả báo giá hiện hoạt và báo giá nháp liên quan đến một cơ hội cùng một lúc. Sau đó, bạn sẽ được phép đóng cơ hội.
 
-Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Để biết thêm thông tin tổng quát về việc đóng cơ hội, hãy xem [Đóng một cơ hội ở trạng thái được hoặc mất](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

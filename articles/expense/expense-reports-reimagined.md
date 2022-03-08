@@ -1,12 +1,12 @@
 ---
 title: Báo cáo chi phí được xây dựng lại
-description: Chủ đề này giải thích trải nghiệm được thiết kế lại đối với mục nhập báo cáo chi phí.
+description: Chủ đề này cung cấp thông tin về trải nghiệm được thiết kế lại và xây dựng lại cho mục nhập báo cáo chi phí.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/26/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
-ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5717721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087174"
 ---
 # <a name="expense-reports-reimagined"></a>Báo cáo chi phí được xây dựng lại
 
@@ -41,11 +41,15 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để đơn gi�
 - Không có mục menu hiện có nào cho báo cáo chi phí (trang hiện có) hoặc các trường báo cáo chi phí bị xóa.
 - Quy trình làm việc và mọi mục phê duyệt vẫn đưa bạn đến trang báo cáo chi phí hiện có.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
+## <a name="getting-started-video-for-new-users"></a>Video hướng dẫn dành cho người dùng mới
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
+
+Video [Trải nghiệm chi phí trong Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (hiển thị bên trên) được bao gồm trong danh sách phát [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) có sẵn trên YouTube.
 
 ## <a name="new-features"></a>Tính năng mới
 
-| Tính năng mới | Mô tả |
+| Tính năng mới | Nội dung mô tả |
 |---|----|
 | Khả năng hiển thị trường chi phí | Trang thiết lập mới cho phép bạn chỉ định trường nào nên tắt cho tổ chức, trường nào bắt buộc và trường nào được khuyến nghị. |
 | Trường bắt buộc | Cấu hình đơn giản mới cho phép bạn thực hiện một số trường bắt buộc mà không cần phải sử dụng khung chính sách. |
@@ -55,22 +59,22 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để đơn gi�
 | Giảm số lượng tin nhắn trong thanh tin nhắn| Số lượng tin nhắn Infolog đã giảm và một nỗ lực đã được thực hiện để ngăn các tin nhắn trùng lặp xuất hiện trong nhiều trường hợp. |
 | Được nhóm cùng các thao tác chung | Giao diện đã được dọn dẹp với việc bổ sung nút thao tác mới cho hầu hết các hành động cấp dòng phổ biến và thêm nút dấu chấm lửng (...) cho tiêu đề và các thao tác ít thường xuyên khác. |
 | Không gian làm việc mới để tăng khả năng hiển thị | Một không gian làm việc mới hợp nhất các tính năng và liên kết cho phép người dùng di chuyển đến các khu vực khác nhau. |
-| Thêm các chi phí và biên lai hiện có trong quá trình tạo chi phí | Khi tạo báo cáo chi phí, bạn có thể thêm tất cả các khoản chi phí hoặc chọn các khoản chi phí không kèm theo. Chi phí không kèm theo là chi phí được nhập từ nguồn cấp dữ liệu thẻ tín dụng của công ty hoặc chi phí được người dùng tạo theo cách thủ công nhưng chưa được kèm theo báo cáo chi phí.|
+| Thêm các chi phí và biên lai hiện có trong quá trình tạo chi phí | Khi tạo báo cáo chi phí, bạn có thể thêm tất cả hoặc các khoản chi phí và biên lai đã chọn. |
 | Bộ tính toán tỷ giá hối đoái | Một bộ tính toán tỷ giá hối đoái được thêm vào cho phép bạn tính toán tỷ giá hối đoái cho các giao dịch thanh toán bằng nhiều loại tiền. |
 | Lưu và thêm các mô tả chi phí mới | Các nút **Lưu** và **Mới** có sẵn khi chi phí mới được nhập, nhằm giúp bạn nhanh chóng nhập mô tả chi phí. |
 | Khả năng hiển thị tốt hơn thành các mô tả chia nhỏ và được chia thành từng khoản mục | Các dòng được chia nhỏ và chia thành từng khoản mục được thêm trực tiếp vào danh sách chi phí để tăng khả năng hiển thị và giúp bạn dễ dàng xác định xem có bất kỳ sai sót nào hay không. |
 | Hiển thị biên lai trong quá trình chia thành từng khoản mục | Biên lai có thể được hiển thị trong quá trình chia thành từng khoản mục. |
-| Lựa chọn tạm ứng tiền mặt | Chọn một hoặc nhiều khoản tạm ứng tiền mặt để thực hiện một giao dịch chi phí duy nhất. |
-| Số dư khoản tạm ứng tiền mặt | Xem xét số dư tạm ứng tiền mặt theo thời gian thực khi bạn tạo bút toán chi phí so với các khoản tạm ứng tiền mặt đã được phê duyệt và đã thanh toán. |
 
 Bản phát hành ban đầu tập trung vào các kịch bản nhập chi phí. Mọi kịch bản phê duyệt hoặc đánh giá báo cáo chi phí sẽ tiếp tục sử dụng trang mục nhập chi phí hiện có.
 
-Các tính năng sau không được hỗ trợ trên Không gian làm việc chi phí được thiết kế lại:
+Các tính năng sau đây có trên trang hiện có nhưng chưa có trên trang mới. Các tính năng này sẽ được giới thiệu lại trong một số bản phát hành tiếp theo:
 
+- Phê duyệt
+- Các phê duyệt khoản phải trả và khả năng chỉnh sửa kế toán
+- Nhiều điểm nhập
 - Tích hợp yêu cầu đi lại
+- Thực thể dữ liệu để hiển thị trường chi phí
 - Mục nhập chi phí công tác phí
+- Quy trình làm việc cấp dòng
 - Hỗ trợ người phê duyệt tạm thời
-- Khả năng xem lịch sử quy trình làm việc
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Thông tin phân khoản nâng cao

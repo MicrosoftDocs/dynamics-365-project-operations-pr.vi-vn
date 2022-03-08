@@ -2,18 +2,16 @@
 title: Quản lý khách hàng tiềm năng - bản đơn giản
 description: Chủ đề này cung cấp thông tin về quản lý khách hàng tiềm năng dựa trên dự án (dự án).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 67480459478ffb8a157a2943af919dc63721b779
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272864"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994747"
 ---
 # <a name="manage-leads---lite"></a>Quản lý khách hàng tiềm năng - bản đơn giản
 
@@ -55,7 +53,7 @@ Khách hàng tiềm năng có giá trị **Loại** được đặt thành **D�
 - Bản ghi người liên hệ được liên kết với tài khoản dựa trên các giá trị trong các trường **Tên** và **Họ** trên khách hàng tiềm năng.
 - Cơ hội dựa trên dự án có trường **Loại** được đặt thành **Dựa trên công việc**.
 
-Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem [Định tính hoặc chuyển đổi khách hàng tiềm năng](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Để biết thêm thông tin chi tiết về khách hàng tiềm năng đủ điều kiện, hãy xem [Định tính hoặc chuyển đổi khách hàng tiềm năng](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Dòng quy trình công việc cho các thỏa thuận dựa trên dự án
 

@@ -2,18 +2,16 @@
 title: Đặt cấu hình các tham số quản lý chi phí
 description: Chủ đề này mô tả các tham số kiểm soát hành vi chung trong Quản lý chi phí.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121064"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007802"
 ---
 # <a name="configure-expense-management-parameters"></a>Đặt cấu hình các tham số quản lý chi phí
 
@@ -83,3 +81,6 @@ Chủ đề này mô tả các tham số kiểm soát hành vi chung trong Quả
 | Hiển thị chứng thực chống tham nhũng   | Chọn tùy chọn này để hiển thị văn bản chống tham nhũng khi tạo báo cáo chi phí. Khi đó, các danh mục chi phí cụ thể có thể được kích hoạt và yêu cầu phải chọn chứng thực chống tham nhũng trên báo cáo chi phí. Ví dụ: danh mục quà tặng liên quan đến chi phí chính thức của chính phủ có thể yêu cầu nhân viên xác nhận rằng chi phí đó đáp ứng chính sách của công ty liên quan đến các quan chức chính phủ. |
 | Thông điệp chống tham nhũng dành cho người gửi | Nhập văn bản sẽ được hiển thị cho nhân viên đang tạo báo cáo chi phí. Để nhập văn bản theo ngôn ngữ cụ thể sẽ được hiển thị, dựa trên ngôn ngữ người dùng, hãy chọn **Bản dịch**. |
 | Thông điệp chống tham nhũng dành cho người phê duyệt  | Nhập văn bản sẽ được hiển thị cho người phê duyệt khi tạo báo cáo chi phí. Để nhập văn bản theo ngôn ngữ cụ thể sẽ được hiển thị, dựa trên ngôn ngữ người dùng, hãy chọn **Bản dịch**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

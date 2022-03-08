@@ -2,18 +2,16 @@
 title: Tạo mục tạm ứng đột xuất trên hợp đồng
 description: Chủ đề này cung cấp thông tin về việc tạo khoản tạm ứng trên hợp đồng khi cần.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999162"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Tạo mục tạm ứng đột xuất trên hợp đồng
 
@@ -39,3 +37,6 @@ Hoàn tất các bước sau để lập hóa đơn tạm ứng cho khách hàng
     | **Trạng thái hóa đơn** | Đây là cài đặt tùy chọn cho biết liệu khoản tạm ứng này có được thêm vào hóa đơn nháp lập cho khách hàng này hay không. Các giá trị có thể có bao gồm:</br>- **Chưa sẵn sàng để lập hóa đơn**</br>- **Đã sẵn sàng để lập hóa đơn** | Khi một khoản tạm ứng hoặc trả trước được đánh dấu là **Sẵn sàng để lập hóa đơn**, khoản đó sẽ được thêm vào dưới dạng một dòng thời gian trên hóa đơn nháp. Chỉ khoản tạm ứng đã được lập hóa đơn đầy đủ mới có thể được dùng để đối chiếu với chi phí dự án cho kỳ hóa đơn tiếp theo. |
 
 4. Chọn **Lưu và đóng** trên hộp thoại tạo nhanh để ghi lại khoản tạm ứng hoặc khoản trả trước đó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

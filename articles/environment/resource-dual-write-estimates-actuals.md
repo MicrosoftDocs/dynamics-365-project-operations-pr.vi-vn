@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006317"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000057"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Ước tính dự án và tích hợp thực tế
 
@@ -30,7 +30,7 @@ Tạo giá trị ước tính yêu cầu cấu hình kế toán hợp lệ cho d
 
 Ước tính lao động được tạo bởi Người quản lý dự án hoặc Người quản lý nguồn lực, cũng là người chỉ định một nguồn lực chung hoặc được đặt tên cho nhiệm vụ dự án. Có thể đánh giá hồ sơ chỉ định nguồn lực trên tab **Chỉ định nguồn lực** trên trang **Chi tiết dự án** trong Dataverse. Hồ sơ chỉ định nguồn lực trong Dataverse tạo bản ghi dự báo giờ trong ứng dụng Finance and Operations bằng **Thực thể tích hợp Project Operations cho ước tính giờ (msdyn\_resourceassignments)**.
 
-   ![Tích hợp ước tính lao động.](./Media/DW4LaborEstimates.png)
+   ![Tích hợp ước tính lao động](./Media/DW4LaborEstimates.png)
 
 Tính năng ghi kép đồng bộ hóa các hồ sơ chỉ định nguồn lực vào bảng tách chuyển (**ProjCDSEstimHoursImport**) rồi sử dụng logic nghiệp vụ để tạo và cập nhật các bản ghi dự báo giờ (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Kế toán viên của dự án đánh giá các bản ghi giờ dự báo đư�
 
 Ước tính chi phí được tạo ra bởi Người quản lý dự án trên tab **Ước tính chi phí** trên trang **Chi tiết dự án** trong Dataverse. Hồ sơ ước tính chi phí được lưu trữ trong thực thể **Mô tả ước tính** trong Dataverse. Các bản ghi ước tính này có lớp giao dịch, **Chi phí** và được đồng bộ hóa với hồ sơ dự báo chi phí trong ứng dụng Finance and Operations bằng **Thực thể tích hợp Project Operations để ước tính chi phí (msdyn\_estimatelines)**.
 
-   ![Tích hợp ước tính chi phí.](./Media/DW4ExpenseEstimates.png)
+   ![Tích hợp ước tính chi phí](./Media/DW4ExpenseEstimates.png)
 
 Tính năng ghi kép đồng bộ hóa các bản ghi ước tính chi phí vào bảng tách chuyển, **(ProjCDSEstimateExpenseImport)** rồi sử dụng logic nghiệp vụ để tạo và cập nhật các bản ghi dự báo giờ (**ProjForecastCost**). Mô tả ước tính lưu trữ hồ sơ ước tính bán hàng và ước tính chi phí riêng biệt. Logic kinh doanh trong ứng dụng Finance and Operations điền một bản ghi dự báo Chi phí duy nhất bằng cách sử dụng chi tiết này trong bảng tách chuyển.
 
@@ -50,7 +50,7 @@ Kế toán viên của dự án có thể đánh giá các bản ghi dự báo c
 
 Ước tính vật tư được tạo ra bởi Người quản lý dự án trên tab **Ước tính vật tư** trên trang **Chi tiết dự án** trong Dataverse. Hồ sơ ước tính vật tư được lưu trữ trong thực thể **Mô tả ước tính** trong Dataverse. Các bản ghi ước tính này có lớp giao dịch, **Vật tư** và được đồng bộ hóa với hồ sơ dự báo sản phẩm trong ứng dụng Finance and Operations bằng **Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines)**.
 
-   ![Tích hợp ước tính vật tư.](./Media/DW4MaterialEstimates.png)
+   ![Tích hợp ước tính vật tư](./Media/DW4MaterialEstimates.png)
 
 Tính năng ghi kép đồng bộ hóa các bản ghi ước tính vật tư vào bảng tách chuyển **ProjForecastSalesImpor** rồi sử dụng logic nghiệp vụ để tạo và cập nhật các bản ghi dự báo sản phẩm (**ForecastSales**). Mô tả ước tính lưu trữ hồ sơ ước tính bán hàng và ước tính chi phí riêng biệt. Logic kinh doanh trong ứng dụng Finance and Operations điền một bản ghi dự báo Sản phẩm duy nhất bằng cách sử dụng chi tiết này trong bảng tách chuyển.
 
@@ -60,7 +60,7 @@ Kế toán viên của dự án có thể đánh giá các bản ghi dự báo s
 
 Giá trị thực tế của dự án được tạo trong Dataverse, dựa trên thời gian, chi phí, vật tư và hoạt động thanh toán. Tất cả các thuộc tính hoạt động của những giao dịch này bao gồm số lượng, giá vốn, giá bán và dự án được ghi lại trong thực thể Dataverse. Để biết thêm thông tin, hãy xem [Giá trị thực tế](../actuals/actuals-overview.md). Hồ sơ giá trị thực tế được đồng bộ hóa với ứng dụng Finance and Operations bằng bản đồ bảng ghi kép **Giá trị tích hợp thực tế của Project Operations (msdyn\_actuals)** để hạch toán xuôi tuyến.
 
-   ![Tích hợp giá trị thực tế.](./Media/DW4Actuals.png)
+   ![Tích hợp giá trị thực tế](./Media/DW4Actuals.png)
 
 Sơ đồ bảng **Giá trị tích hợp thực tế của Project Operations** đồng bộ hóa tất cả các bản ghi từ thực thể **Giá trị thực tế** trong Dataverse, với thuộc tính **Bỏ qua đồng bộ hóa (chỉ sử dụng nội bộ)** đặt thành **Sai**. Giá trị thuộc tính này được đặt tự động trong Dataverse khi bản ghi được tạo. Ví dụ trong đó thuộc tính này được đặt thành **Đúng**:
 

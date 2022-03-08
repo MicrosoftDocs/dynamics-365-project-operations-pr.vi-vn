@@ -2,18 +2,16 @@
 title: Bảng giá mặc định
 description: Chủ đề này cung cấp thông tin về bảng giá vốn và bảng giá bán hàng mặc định trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989892"
 ---
 # <a name="default-price-lists"></a>Bảng giá mặc định
 
@@ -21,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="sales-price-lists"></a>Bảng giá bán hàng
 
-Mọi báo giá và hợp đồng dự án trong Dynamics 365 Project Operations đều có một bảng giá bán hàng mặc định. 
+Mọi báo giá dự án và hợp đồng trong Dynamics 365 Project Operations chứa một bảng giá bán hàng mặc định. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Bảng giá mặc định trên báo giá dự án
 Hệ thống hoàn tất quá trình sau để xác định bảng giá nào được đặt mặc định trên báo giá dự án:
@@ -57,3 +55,6 @@ Bảng giá vốn không được đặt mặc định cho bất kỳ thực th�
 5. Tiếp theo, hệ thống sẽ xem xét khoảng ngày hiệu lực của các bảng giá khớp với ngày của dòng ước tính hoặc thực tế đến. 
 6. Nếu có nhiều bảng giá có hiệu lực đối với ngày trên dòng ước tính hoặc thực tế đến, thì bảng giá được tạo gần đây nhất sẽ được chọn.
 7. Nếu không có bảng giá vốn nào được đính kèm với tham số dự án khớp với đơn vị tiền tệ và ngày có hiệu lực, thì hệ thống sẽ đặt mặc định tỷ lệ chi phí thành không (0) trên dòng ước tính hoặc thực tế đến.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

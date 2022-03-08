@@ -2,18 +2,16 @@
 title: Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 description: Chủ đề này sẽ giải thích cách áp dụng dữ liệu demo từ Project Operations cho môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365264"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000192"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 
@@ -79,3 +77,6 @@ Quá trình này mất vài phút để hoàn thành. Bạn sẽ nhận được
 18. Đóng phiên máy tính từ xa và sử dụng trang **Môi trường chi tiết** LCS để đăng nhập vào môi trường để xác nhận rằng môi trường đang hoạt động như mong đợi.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

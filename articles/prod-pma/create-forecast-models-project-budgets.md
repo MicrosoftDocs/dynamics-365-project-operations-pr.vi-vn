@@ -2,11 +2,9 @@
 title: Tạo mô hình dự báo cho ngân sách dự án
 description: Chủ đề này mô tả cách tạo mô hình dự báo cho ngân sách còn lại.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: c4467bc1c687b028f1cce8280c3cf0b5ef492b6fd1a024d49f001ce5ff8a34cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271064"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986022"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Tạo mô hình dự báo cho ngân sách dự án 
 

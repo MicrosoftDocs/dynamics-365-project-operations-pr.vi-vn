@@ -2,18 +2,16 @@
 title: Sử dụng Thể loại giao dịch làm thông số định giá
 description: Chủ đề này cung cấp thông tin về cách sử dụng trường Thể loại giao dịch làm thông số định giá.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996147"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Sử dụng Thể loại giao dịch làm thông số định giá
 
@@ -50,3 +48,6 @@ Bảng sau liệt kê tất cả mọi biểu mẫu và dạng xem sẵn dùng, 
 2. Trên trang **Tham số**, trên tab **Thông số định giá dựa trên số tiền**, hãy xác minh rằng lưới này hiển thị các bản ghi trong thực thể **Thông số định giá**.
 3. Thêm **Thể loại giao dịch** vào danh sách này rồi đặt các trường **Áp dụng cho chi phí** và **Áp dụng cho doanh số** thành **Có**.
 4. Trong trường **Loại thông số**, hãy chọn **Dựa trên số tiền**, sau đó chọn mức ưu tiên cho **Thể loại giao dịch** có liên quan đến chi phí và doanh số.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

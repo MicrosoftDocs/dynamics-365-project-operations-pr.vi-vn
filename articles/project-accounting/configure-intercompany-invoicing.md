@@ -2,18 +2,16 @@
 title: Đặt cấu hình hóa đơn liên công ty
 description: Chủ đề này cung cấp thông tin và ví dụ về cách thiết lập cấu hình hóa đơn liên công ty cho các dự án.
 author: sigitac
-manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 9894a405403d4faeb2f02387b03c77a40a6cea3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595582"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001182"
 ---
 # <a name="configure-intercompany-invoicing"></a>Đặt cấu hình hóa đơn liên công ty
 
@@ -23,9 +21,9 @@ Hãy hoàn thành các bước sau để thiết lập hóa đơn liên công ty
 
 ## <a name="example-configure-intercompany-invoicing"></a>Ví dụ: Đặt cấu hình hóa đơn liên công ty
 
-Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Contoso Robotics UK (GBPM) là pháp nhân cho thuê. 
+Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi vay và Contoso Robotics UK (GBPM) là pháp nhân cho vay. 
 
-1. **Đặt cấu hình kế toán liên công ty giữa các pháp nhân**. Mỗi cặp pháp nhân đi thuê và cho thuê phải được đặt cấu hình trên Sổ cái chung của trang [Kế toán liên công ty](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Đặt cấu hình kế toán liên công ty giữa các pháp nhân**. Mỗi cặp pháp nhân đi thuê và cho thuê phải được đặt cấu hình trên Sổ cái chung của trang [Kế toán liên công ty](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. Trong Dynamics 365 Finance, hãy đi tới **Sổ cái chung** > **Thiết lập đăng** > **Kế toán liên công ty**. Tạo một bản ghi chứa những thông tin sau:
 
@@ -39,7 +37,7 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
      3. Mở rộng **Tên**, lọc bản ghi theo **Loại** rồi chọn **Pháp nhân**. 
      4. Tìm và chọn bản ghi khách hàng cho **Contoso Robotics USA (USPM)**.
      5. Chọn **Dùng kết quả khớp**. 
-     6. Chọn nhóm khách hàng rồi lưu bản ghi.
+     6. Chọn nhóm khách hàng **50 – Khách hàng liên công ty** rồi lưu bản ghi.
      7. Chọn pháp nhân **USPM**.
      8. Đi đến **Khoản phải trả** > **Nhà cung cấp** > **Tất cả nhà cung cấp**. Tạo bản ghi mới cho pháp nhân **GBPM**.
      9. Mở rộng **Tên**, lọc bản ghi theo **Loại** rồi chọn **Pháp nhân**. 
@@ -47,7 +45,7 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
      11. Chọn **Dùng kết quả khớp**, chọn nhóm nhà cung cấp rồi lưu bản ghi.
      12. Trong bản ghi nhà cung cấp, hãy chọn **Chung** > **Thiết lập** > **Liên công ty**.
      13. Trên tab **Quan hệ giao dịch**, hãy đặt **Đang hoạt động** thành **Có**.
-     14. Chọn **GBPM** là công ty nhà cung cấp, sau đó trong phần **Bản ghi tài khoản của tôi**, hãy chọn bản ghi khách hàng mà bạn vừa tạo trước đó trong quy trình.
+     14. Đặt trường **Công ty khách hàng** thành **GBPM** và trong phần **Hồ sơ tài khoản của tôi**, hãy chọn hồ sơ khách hàng mà bạn đã tạo trước đó trong quy trình.
 
 3. **Cài đặt các tùy chọn liên công ty trong phần quản lý dự án và các tham số kế toán**. 
 
@@ -59,7 +57,7 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
     6. Trong nhóm **Khi cho thuê nguồn lực**, hãy chọn **...** > **Mới**. 
     7. Trong lưới này, hãy chọn những thông tin sau:
 
-          - **Pháp nhân đi thuê** = **GBPM**
+          - **Pháp nhân đi thuê** = **USPM**
           - **Tích lũy doanh thu** = **Có**
           - **Danh mục chấm công mặc định** = **Mặc định – Giờ**
           - **Danh mục chi phí mặc định** = **Mặc định – chi phí**
@@ -71,33 +69,36 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
      3. Trên tab **Tài khoản chi phí**, trong phần **Loại tài khoản sổ cái**, hãy chọn **Chi phí liên công ty**. Tạo một bản ghi mới chứa những thông tin sau:
       
         - **Pháp nhân cho thuê** = **GBPM**
-        - **Tài khoản chính** = Chọn tài khoản chính cho chi phí liên công ty
+        - **Tài khoản chính** = Chọn tài khoản chính cho chi phí liên công ty. Thiết lập này là bắt buộc. Thiết lập này được sử dụng cho các dòng liên công ty trong Tài chính, nhưng không sử dụng cho các dòng liên công ty liên quan đến dự án. Lựa chọn này không có tác động xuôi tuyến. 
         
      4. Chọn pháp nhân cho thuê là **GBPM**. 
      5. Đi tới **Quản lý dự án và kế toán** > **Thiết lập** > **Đăng** > **Thiết lập đăng trên Sổ cái**. 
      6. Trên tab **Tài khoản doanh thu**, trong phần **Loại tài khoản sổ cái**, hãy chọn **Doanh thu liên công ty**. Tạo một bản ghi mới chứa những thông tin sau:
 
         - **Pháp nhân đi thuê** = **USPM**
-        - **Tài khoản chính** = Chọn tài khoản chính cho doanh thu liên công ty 
+        - **Tài khoản chính** = Chọn tài khoản chính cho doanh thu liên công ty. Thiết lập này là bắt buộc. Thiết lập này được sử dụng cho các dòng liên công ty trong Tài chính, nhưng không sử dụng cho các dòng liên công ty liên quan đến dự án. Lựa chọn này không có tác động xuôi tuyến. 
 
 5. **Thiết lập giá chuyển nhượng lao động**. Giá chuyển nhượng lao động được đặt cấu hình trong Project Operations trên Dataverse. Đặt cấu hình [tỷ lệ chi phí lao động](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) và [tỷ lệ hóa đơn lao động](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) cho hóa đơn liên công ty. Giá chuyển nhượng không hỗ trợ các giao dịch chi phí liên công ty. Giá bán đơn vị liên tổ chức sẽ luôn có cùng giá trị như giá chi phí đơn vị cung ứng nguồn lực.
 
-      Giá nguồn lực nhà phát triển của Contoso Robotics UK là 88 GBP mỗi giờ. Contoso Robotics UK sẽ thu Contoso Robotics USA 120 USD cho mỗi giờ nguồn lực này làm việc với các dự án US. Contoso Robotics USA sẽ thu khách hàng Adventure Works 200 USD khi nguồn lực nhà phát triển của Contoso Robotics UK hoàn thành công việc.
+      Chi phí nguồn lực của nhà phát triển trong Contoso Robotics UK là 88 GBP mỗi giờ. Contoso Robotics UK sẽ lập hóa đơn 120 USD cho Contoso Robotics USA 120 USD với mỗi giờ nguồn lực này hoạt động trên các dự án tại Hoa Kỳ. Contoso Robotics USA sẽ lập hóa đơn 200 USD cho khách hàng Adventure Works với công việc do nguồn lực nhà phát triển Contoso Robotics UK thực hiện.
 
-      1. Trong Project Operations trên Dataverse, hãy đi tới **Bán hàng** > **Bảng giá**. Tạo bảng chi phí mới có tên **tỷ lệ chi phí Contoso Robotics UK.** 
+      1. Trong Project Operations trên Dataverse, hãy đi tới **Bán hàng** > **Bảng giá**. Tạo một bảng giá chi phí mới được gọi là **Tỷ lệ chi phí Contoso Robotics UK.** 
       2. Trong bảng chi phí, hãy tạo một bản ghi chứa những thông tin sau:
          - **Vai trò** = **Nhà phát triển**
          - **Chi phí** = **88 GBP**
-      3. Chuyển đến phần **Cài đặt** > **Đơn vị tổ chức** rồi đính kèm bảng chi phí này vào đơn vị tổ chức **Contoso Robotics UK**.
-      4. Đi tới **Bán hàng** > **Bảng giá**. Tạo bảng chi phí có tên **Tỷ lệ chi phí Contoso Robotics USA**. 
+      3. Chuyển đến phần **Cài đặt** > **Đơn vị tổ chức** và đính kèm bảng giá chi phí này vào đơn vị tổ chức của **Contoso Robotics UK**.
+      4. Đi tới **Bán hàng** > **Bảng giá**. Tạo một bảng giá chi phí mới được gọi là **Tỷ lệ chi phí Contoso Robotics USA**. 
       5. Trong bảng chi phí, hãy tạo một bản ghi chứa những thông tin sau:
-          - **Vài trò** = **Nhà phát triển**
-          - **Công ty cung ứng nguồn lực** = **Contoso Robotics UK**
+          - **Vai trò** = **Nhà phát triển**
+          - **Công ty cung cấp nguồn lực** = **Contoso Robotics UK**
           - **Chi phí** = **120 USD**
-      6. Chuyển đến phần **Cài đặt** > **Đơn vị tổ chức** rồi đính kèm bảng chi phí **tỷ lệ chi phí Contoso Robotics USA** vào đơn vị tổ chức **Contoso Robotics USA**.
+      6. Chuyển đến phần **Cài đặt** > **Đơn vị tổ chức** và đính kèm bảng giá chi phí **tỷ lệ chi phí Contoso Robotics USA** vào đơn vị tổ chức của **Contoso Robotics USA**.
       7. Đi tới **Bán hàng** > **Bảng giá**. Tạo bảng giá bán hàng có tên **Tỷ lệ hóa đơn Adventure Works**. 
       8. Trong bảng giá bán, hãy tạo một bản ghi chữa những thông tin sau:
-          - **Vài trò** = **Nhà phát triển**
-          - **Công ty cung ứng nguồn lực** = **Contoso Robotics UK**
+          - **Vai trò** = **Nhà phát triển**
+          - **Công ty cung cấp nguồn lực** = **Contoso Robotics UK**
           - **Mức thu** = **200 USD**
       9. Chuyển đến **Bán hàng** > **Hợp đồng dự án** rồi đính kèm bảng giá **tỷ lệ hóa đơn Adventure Works** vào bảng giá dự án Adventure Works của hợp đồng dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

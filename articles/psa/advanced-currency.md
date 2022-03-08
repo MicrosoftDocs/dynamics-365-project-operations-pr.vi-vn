@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145699"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291735"
 ---
 # <a name="multiple-currency-scenarios"></a>Tình huống nhiều loại tiền tệ
 
@@ -105,3 +105,6 @@ Dynamics 365 tự động xử lý cuốn chiếu các số tiền bằng nhiề
 | Chi phí           | Bán hàng chưa lập hóa đơn   | 17 tháng 6 | Đức  | Thuê xe           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Để tính tổng giá trị bán hàng chưa thanh toán trên dự án, bạn có thể tạo trường cuốn chiếu cho trường **Số tiền** trên tất cả doanh thu bán hàng chưa lập hóa đơn liên quan. Trường tổng số là một cấu trúc của Dynamics 365 cho phép tạo các công thức nhanh trên bản ghi liên quan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

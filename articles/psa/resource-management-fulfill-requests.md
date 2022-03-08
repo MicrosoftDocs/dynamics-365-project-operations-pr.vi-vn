@@ -2,8 +2,6 @@
 title: Thực hiện yêu cầu nguồn lực
 description: Chủ đề này cung cấp thông tin về cách thực hiện yêu cầu nguồn lực.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147634"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998032"
 ---
 # <a name="fulfilling-resource-requests"></a>Thực hiện yêu cầu nguồn lực
 
@@ -46,3 +44,6 @@ Trợ lý lập lịch biểu xuất hiện và được lọc theo yêu cầu. 
 > ![Nguồn lực đã chọn](media/Resource-Management-image61.png)
 
 Thành viên nhóm chung được thay thế bằng nguồn lực được đăng ký chắc chắn trên nhóm dự án và phân công nhiệm vụ trong lịch trình dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

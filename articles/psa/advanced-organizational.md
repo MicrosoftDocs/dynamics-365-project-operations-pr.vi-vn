@@ -2,8 +2,6 @@
 title: Đơn vị tổ chức
 description: Chủ đề này cung cấp thông tin về các đơn vị tổ chức trong Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145655"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005102"
 ---
 # <a name="organizational-units"></a>Đơn vị tổ chức 
 
@@ -55,7 +53,7 @@ Ngoài ra, còn có một thuộc tính cho đơn vị tổ chức trên thực 
 - **Đơn vị ký hợp đồng** – Đơn vị tổ chức đại diện cho nhóm hoặc bộ phận của công ty có trách nhiệm chính là giành được hợp đồng bán hàng và quản lý việc cung cấp công việc cũng như dịch vụ cho khách hàng. Đơn vị ký hợp đồng được xác định trong trường **Đơn vị ký hợp đồng** ở phần tiêu đề của trang **Cơ hội**, **Báo giá**, **Hợp đồng dự án** và **Dự án**.
 - **Đơn vị cấp nguồn lực** – Đơn vị tổ chức chứa một nguồn lực hoặc được chỉ định một nguồn lực. Đơn vị tổ chức này có thể cung cấp nguồn lực cho một số vai trò trên báo cáo công việc (SOW) và các dự án mà đơn vị ký hợp đồng sở hữu.
 
-> ![Đơn vị ký hợp đồng và đơn vị cấp nguồn lực](media/advanced-1.png)
+> ![Đơn vị ký hợp đồng và đơn vị cấp nguồn lực.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Câu hỏi thường gặp về đơn vị tổ chức
 
@@ -79,14 +77,14 @@ Khi bạn triển khai Dynamics 365, hãy tối ưu hóa ủy quyền bảo mậ
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Ví dụ về đơn vị tổ chức và đơn vị kinh doanh
 
-Contoso, Ltd. sử dụng rất nhiều công nghệ của Microsoft. Đức và Cúc đều là các nhà phát triển C\# nhưng Cúc ở Hoa Kỳ còn Đức lại ở Ấn Độ. Hầu hết các cam kết dự án yêu cầu tài nguyên từ Contoso Ấn Độ và Contoso Mỹ, còn Đức và Cúc yêu cầu cùng một mức độ truy cập bảo mật cho các dự án trong khu vực thực hành này. Tuy nhiên, chi phí của các nhà phát triển từ Contoso Ấn độ có sự chênh lệch đáng kể so với chi phí của các nhà phát triển từ Contoso Hoa Kỳ.
+Contoso, Ltd. sử dụng rất nhiều công nghệ của Microsoft. Đức và Cúc đều là các nhà phát triển C\# nhưng Cúc ở Hoa Kỳ còn Đức lại ở Ấn Độ. Hầu hết các hoạt động tương tác trong dự án đòi hỏi có nguồn lực từ Contoso Ấn Độ và Contoso Hoa Kỳ, còn Prakash và Tricia phải có cùng một mức độ truy nhập bảo mật đối với các dự án trong khu vực thực hành này. Tuy nhiên, chi phí cho nhà phát triển ở Contoso Ấn Độ có sự chênh lệch đáng kể với chi phí cho nhà phát triển ở Contoso Hoa Kỳ.
 
 Đây là một cách tối ưu để thiết kế cho trường hợp này bằng cách sử dụng Dynamics 365 và PSA.
 
 1. Tạo thực hành công nghệ của Microsoft dưới dạng một đơn vị kinh doanh rồi liên kết Đức và Cúc với nó. Bằng cách này, bạn giúp đảm bảo rằng cả hai nhân viên đều có cùng mức độ truy cập bảo mật vào bất kỳ dự án nào trong khu vực thực hành đó. Cả hai đều sẽ có thể kiểm tra tiến độ và báo cáo thời gian, chi phí, và Cập Nhật nhiệm vụ. 
 2. Tạo hai đơn vị tổ chức để đảm bảo rằng chi phí cho dự án được phản ánh chính xác. 
-3. Liên kết Cúc với Contoso Hoa Kỳ và liên kết Đức với Contoso Ấn Độ.
-4. Gán danh sách giá chi phí phù hợp cho cả hai đơn vị tổ chức. Theo cách này, bạn giúp đảm bảo rằng các chi phí được ghi lại trên dự án cho Đức và Cúc phản ánh chính xác sự khác biệt về chi phí giữa Contoso Mỹ và Contoso Ấn Độ.
+3. Liên kết Tricia với Contoso Hoa Kỳ và liên kết Prakash với Contoso Ấn Độ.
+4. Gán danh sách giá chi phí phù hợp cho cả hai đơn vị tổ chức. Theo cách này, bạn sẽ bảo đảm rằng các chi phí được ghi lại trên dự án cho Prakash và Tricia phản ánh chính xác sự khác biệt về chi phí giữa Contoso Hoa Kỳ và Contoso Ấn Độ.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Có phải là đơn vị tổ chức liên quan đến lãnh thổ bán hàng trong Dynamics 365 không?
 
@@ -98,9 +96,9 @@ Không có hiệp hội hoặc mối quan hệ giữa lãnh thổ bán hàng và
 
 Contoso, Ltd. có hai trung tâm phát triển: Contoso Hoa Kỳ và Contoso Ấn Độ. Chi phí tài nguyên giữa hai trung tâm phát triển chênh lệch rất lớn.
 
-Contoso bán các dịch vụ CNTT tại nhiều thị trường quốc tế như Mỹ Latinh, Bắc Mỹ, Châu Á-Thái Bình Dương, Tây Âu và Trung Đông. Mức phí cho các vai trò dự án tương tự có thể khác nhau khá lớn trên các thị trường này.
+Contoso bán các dịch vụ CNTT tại nhiều thị trường quốc tế, như: Mỹ Latinh, Bắc Mỹ, châu Á – Thái Bình Dương, Tây Âu và Trung Đông. Mức phí cho các vai trò dự án tương tự có thể khác nhau khá lớn trên các thị trường này.
 
-Contoso Hoa Kỳ và Contoso Ấn Độ phải được thiết lập là đơn vị tổ chức và mỗi đơn vị tổ chức phải có danh sách giá chi phí riêng. Cần thiết lập Châu Á-Thái Bình Dương, Mỹ Latinh, Bắc Mỹ, Tây Âu và Trung Đông là lãnh thổ bán hàng, và mỗi lãnh thổ bán hàng cần có danh sách giá bán hàng riêng.
+Contoso Hoa Kỳ và Contoso Ấn Độ phải được thiết lập là đơn vị tổ chức và mỗi đơn vị tổ chức phải có bảng giá vốn riêng. Cần thiết lập Châu Á-Thái Bình Dương, Mỹ Latinh, Bắc Mỹ, Tây Âu và Trung Đông là lãnh thổ bán hàng, và mỗi lãnh thổ bán hàng cần có danh sách giá bán hàng riêng.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Tại sao có hạn chế về liên kết các danh sách giá với các đơn vị tổ chức? 
 
@@ -136,7 +134,7 @@ Ví dụ sau cho thấy một phân cấp điển hình:
     - Tư vấn kỹ thuật
     - Tư vấn chức năng 
     
-**Contoso US**
+**Contoso Hoa Kỳ**
 
  - Phương pháp SAP 
 
@@ -149,14 +147,14 @@ Ví dụ sau cho thấy một phân cấp điển hình:
     - Tư vấn chức năng 
  
 Nếu hệ thống phân cấp của bạn tương tự, bạn phải thiết lập nó như là một danh sách phẳng, như được hiển thị ở đây:
-- Contoso Ấn Độ - Phương pháp SAP - Tư vấn kỹ thuật 
-- Contoso Ấn Độ - Phương pháp SAP - Tư vấn chức năng       
-- Contoso Ấn Độ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng 
-- Contoso Ấn Độ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng 
-- Contoso Hoa Kỳ - Phương pháp SAP - Tư vấn kỹ thuật  
-- Contoso Hoa Kỳ - Phương pháp SAP - Tư vấn chức năng  
-- Contoso Hoa Kỳ - Phương pháp Công nghệ Microsoft - Tư vấn kỹ thuật 
-- Contoso Hoa Kỳ - Phương pháp Công nghệ Microsoft - Tư vấn chức năng
+- Contoso Ấn Độ – Phương pháp SAP – Tư vấn kỹ thuật 
+- Contoso Ấn Độ – Phương pháp SAP – Tư vấn chức năng       
+- Contoso Ấn Độ – Phương pháp công nghệ Microsoft – Tư vấn chức năng 
+- Contoso Ấn Độ – Phương pháp công nghệ Microsoft – Tư vấn chức năng 
+- Contoso Hoa Kỳ – Phương pháp SAP – Tư vấn kỹ thuật  
+- Contoso Hoa Kỳ – Phương pháp SAP – Tư vấn chức năng  
+- Contoso Hoa Kỳ – Phương pháp công nghệ Microsoft – Tư vấn kỹ thuật 
+- Contoso Hoa Kỳ – Phương pháp công nghệ Microsoft – Tư vấn chức năng
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Chúng tôi là một công ty dịch vụ chuyên nghiệp nhỏ, hoạt động chỉ như một bộ phận. Làm thế nào chúng tôi có thể tận dụng khái niệm đơn vị tổ chức trong phiên bản hiện tại của PSA?
 
@@ -167,3 +165,6 @@ Nếu công ty của bạn hoạt động như một đơn vị có một bảng
 Khi một dự án được tạo, đơn vị hợp đồng mặc định của dự án sẽ dựa trên người dùng tạo ra nó. Người dùng đó cũng là người quản lý dự án mặc định. Nếu dự án được ánh xạ tới một thực thể bán hàng như một báo giá hoặc hợp đồng dự án, thì đơn vị ký kết dự án dựa trên các tổ chức bán hàng. Trong trường hợp này, ước tính dự án có thể được tính toán lại, vì bảng giá chi phí được sử dụng để tính toán chi phí ước tính sẽ thay đổi nếu đơn vị ký hợp đồng thay đổi. Bảng giá bán được sử dụng để tính toán ước tính bán hàng sẽ thay đổi để chúng đồng bộ với danh sách giá dự án trên báo giá.
 
 Các trường **Đơn vị hợp đồng** và **Tiền tệ** trên dự án không chỉnh sửa được vì chúng phải đồng bộ với các giá trị trên thực thể bán hàng (báo giá hoặc hợp đồng dự án) mà dự án được ánh xạ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

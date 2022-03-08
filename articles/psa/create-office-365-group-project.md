@@ -3,7 +3,7 @@ title: Tạo Office 365 Group cho một dự án
 description: Cách tạo Office 365 Group trong Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 080b00e03597b0e81f09926fcac0093136a4565b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144799"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087113"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Tạo Office 365 Group cho một dự án (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

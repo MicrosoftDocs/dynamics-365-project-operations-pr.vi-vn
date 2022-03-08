@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121514"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280064"
 ---
 # <a name="booking-allocation-methods"></a>Phương thức phân bổ đặt trước
 
@@ -81,3 +81,6 @@ Tổng kết lại, các phương pháp phân bổ sau sẽ dẫn tới quá t�
 - Giờ phân phối đồng đều
 
 Khi sử dụng một trong ba phương pháp phân bổ này, bạn sẽ không được thông báo khi nguồn lực bị quá tải đăng ký. Để khắc phục việc quá tải đăng ký, bạn sẽ cần sử dụng bảng Lịch trình.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

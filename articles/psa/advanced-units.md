@@ -2,8 +2,6 @@
 title: Nhóm đơn vị và đơn vị
 description: Chủ đề này cung cấp thông tin về nhóm đơn vị đo và đơn vị đo.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145609"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009597"
 ---
 # <a name="unit-groups-and-units"></a>Nhóm đơn vị và đơn vị
 
@@ -86,9 +84,9 @@ Ví dụ sau cho thấy cách PSA sử dụng nhóm đơn vị đo, đơn vị v
     - **Đơn vị thời gian mặc định**: Ngày 
     - **Tiền tệ**: GBP
 
-| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
+| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
 |-----------|------------|------|---------------------|---------|
-| Nhà phát triển | Time       | Day  | Contoso Hoa Kỳ          | 800 GBP |
+| Nhà phát triển | Thời gian       | Ngày  | Contoso Anh          | 800 GBP |
 
 ### <a name="time-entry"></a>Mục nhập thời gian
 
@@ -112,3 +110,6 @@ Không. Ước tính lịch trình hiện bị giới hạn ở giờ và không
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Có thể chỉnh sửa, xóa và thêm đơn vị cũng như nhóm đơn vị đo không?
 Có chứ. Trừ trường hợp nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**, có thể xóa hoặc chỉnh sửa tất cả các đơn vị, đồng thời có thể thêm đơn vị mới. Trong PSA, không thể xóa nhóm đơn vị đo **Thời gian** và đơn vị **Giờ**. Tuy nhiên, có thể cập nhật các đơn vị này bằng một văn bản đã dịch cho trường **Tên**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

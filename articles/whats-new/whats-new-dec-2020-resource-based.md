@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
+ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727906"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700706"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Những điểm mới tháng 12 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
 
@@ -24,8 +24,6 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 
 - Project Operations trên môi trường Dataverse phiên bản 4.5.0.134
 - Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.15
-
-Để biết thêm thông tin về cách cập nhật bản phát hành này, hãy xem [Cập nhật Project Operations trong môi trường Tài chính](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 Sau đây là các tính năng có trong bản phát hành này:

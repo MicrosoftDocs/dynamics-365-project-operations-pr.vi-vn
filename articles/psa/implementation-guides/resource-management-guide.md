@@ -2,8 +2,6 @@
 title: Hướng dẫn quản lý nguồn lực
 description: Chủ đề này cung cấp liên kết đến thông tin về quản lý nguồn lực trong Project Service Automation
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b78d6771807b77e2f314cb297fd3563e235bbf53756673fc480df09e9b84dbbf
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149074"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985258"
 ---
 # <a name="resource-management-guide"></a>Hướng dẫn quản lý nguồn lực
 
@@ -44,3 +42,6 @@ Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội d
 
 > [!NOTE]
 > Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

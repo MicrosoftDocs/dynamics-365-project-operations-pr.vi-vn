@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6f4f12a962cb570e8b83d8ee7a01fc0cc2c6155
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131774"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287129"
 ---
 # <a name="create-resource-assignments"></a>Tạo nội dung phân công nguồn lực
 
@@ -42,3 +42,6 @@ Bạn có thể dùng hộp tìm kiếm trong **Bộ chọn nguồn lực** đ�
 1. Từ lưới nhiệm vụ, bảng hoặc dòng thời gian, hãy điều hướng đến ô **Đã phân công cho**.
 2. Trong hộp tìm kiếm, bắt đầu nhập tên. Kết quả tìm kiếm cho tên được hiện thị trong **Bộ chọn nguồn lực** trong phần **Các nguồn lực khác**.
 3. Chọn nguồn lực mà bạn muốn gán cho nhiệm vụ hoặc chọn tên của nguồn lực trong **Các nguồn lực nhóm khác**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

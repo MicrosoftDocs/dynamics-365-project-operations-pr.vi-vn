@@ -2,8 +2,6 @@
 title: Lên lịch dự án với cấu trúc phân tích công việc
 description: Làm cách nào để lên lịch dự án bằng cấu trúc phân tích công việc trong Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 027bcbc8995ed39af78c7ff9b1028f401c3b0d4d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149839"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008607"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Lên lịch dự án bằng cấu trúc phân tích công việc (Project Service)
 
@@ -152,3 +150,6 @@ Bạn sẽ sử dụng các loại nhiệm vụ sau khi tạo cấu trúc phân 
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của quản lý dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

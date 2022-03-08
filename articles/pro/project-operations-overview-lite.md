@@ -2,24 +2,22 @@
 title: Tổng quan về triển khai Lite
 description: Chủ đề này cung cấp thông tin về việc triển khai Lite của Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365670"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003837"
 ---
-# <a name="lite-deployment-overview"></a>Tổng quan về triển khai Lite
+# <a name="lite-deployment-overview"></a>Tổng quan về quá trình triển khai bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Loại hình triển khai Lite của Dynamics 365 Project Operations có các tính năng sau cho những công ty dựa trên dự án:
+Loại hình triển khai Lite của Dynamics 365 Project Operations có các khả năng sau đối với dự án dựa trên công ty:
 
 - Lập kế hoạch dự án bằng Microsoft Project dành cho web
 - Định giá và chi phí đa chiều cho nguồn lực lao động
@@ -37,3 +35,6 @@ Sử dụng loại hình triển khai này nếu điều bạn kỳ vọng ở P
 - Một hệ thống tích hợp giúp quản lý các dự án nội bộ và dự án phải thanh toán đối với các vấn đề liên quan đến lịch trình và tài chính, từ bán hàng cho đến lập hóa đơn của dự án.
 - Hoạch định nguồn lực doanh nghiệp bên thứ ba (Hệ thống kế toán tài chính/ERP để tích hợp với Project Operations).
 - Một hệ thống bên thứ ba để xử lý các khoản thuế bán hàng, tỷ giá hối đoái, hoàn trả chi phí và chi phí không thuộc dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

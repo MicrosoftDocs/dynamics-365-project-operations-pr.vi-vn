@@ -2,18 +2,16 @@
 title: Thiết đặt cơ hội - bản đơn giản
 description: Chủ đề này cung cấp thông tin về các giao dịch dựa trên dự án và các mô tả cơ hội dựa trên dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
-ms.translationtype: HT
+ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663845"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994482"
 ---
 # <a name="header-details-for-project-opportunities"></a>Chi tiết của tiêu đề cho các cơ hội dự án
 
@@ -33,7 +31,7 @@ Bảng sau đây bao gồm các trường trong cơ hội dựa trên dự án c
 | Người quản lý khách hàng | Tab tổng quát | Tên của Người quản lý tài khoản cho cơ hội dựa trên dự án này. | Người quản lý tài khoản chịu trách nhiệm quản lý mối quan hệ với khách hàng thông qua việc hoàn thành dự án này. Dựa trên bản ghi tài nguyên có thể đặt trước liên kết với Người quản lý tài khoản, đơn vị ký hợp đồng được mặc định. |
 | Đơn vị Hợp đồng | Tab tổng quát | Đơn vị tổ chức chịu trách nhiệm bàn giao dự án hoặc các dự án liên quan đến thỏa thuận này. | Đơn vị ký hợp đồng là bộ phận của công ty sẽ hoàn thành dự án khi thỏa thuận được chốt. Mỗi đơn vị ký hợp đồng đều có một loại tiền tệ và đơn vị tiền tệ này được sử dụng để báo cáo chi phí ước tính và thực tế phát sinh trong dự án. |
 
-Đối với tất cả các trường và phần khác trên tab **Tóm tắt** của cơ hội, hãy xem [Tạo hoặc chỉnh sửa cơ hội (Bán hàng và Trung tâm bán hàng)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Đối với tất cả các trường và phần khác trên tab **Tóm tắt** của cơ hội, hãy xem [Tạo hoặc chỉnh sửa cơ hội (Bán hàng và Trung tâm bán hàng)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

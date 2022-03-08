@@ -2,22 +2,20 @@
 title: Làm việc với phần mô tả hợp đồng dựa trên dự án
 description: Chủ đề này cung cấp thông tin về phần mô tả hợp đồng dựa trên dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181748"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011532"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Làm việc với phần mô tả hợp đồng dựa trên dự án
 
-Phần mô tả hợp đồng dựa trên dự án trong Dynamics 365 Project Operations được thiết kế để duy trì sự phù hợp giữa số liệu ước tính và thanh toán cho các thành phần công việc cụ thể theo dự án cho một cam kết. Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:
+Mô tả hợp đồng theo dự án trong Dynamics 365 Project Operations được thiết kế để ghi lại ước tính và thỏa thuận thanh toán cho các thành phần cụ thể của dự án theo cam kết. Cấu trúc của phần mô tả hợp đồng dựa trên dự án được mở rộng cho các ước tính và kịch bản thanh toán của dự án với các khái niệm sau:
 
 - Phương thức thanh toán
 - Ánh xạ dự án và nhiệm vụ
@@ -57,3 +55,6 @@ Quy tắc: Một dự án và một lớp giao dịch nhất định chỉ có t
 | C1       | CL2           | Kỳ 1      | No           | Có             | No          | Hợp lệ           | Thời gian và các khoản phí của dự án P1 được đưa vào CL1. Chi phí của dự án P1 được đưa vào CL2. </br>   Những số liệu đưa vào từng mô tả hợp đồng không bị chồng chéo, do đó hợp lệ.  |
 | C1       | CL1           | Kỳ 1      | Có          | Có             | Có         | Không hợp lệ       | Vi phạm quy tắc. Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào phần mô tả của 2 hợp đồng.                                                                                               |
 | CL2      | CL2           | Kỳ 1      | Có          | Có             | Có         | Không hợp lệ       | Vi phạm quy tắc. Thời gian, chi phí và các khoản phí của dự án P1 được đưa vào phần mô tả của 2 hợp đồng.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

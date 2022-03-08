@@ -2,24 +2,22 @@
 title: Quản lý các đơn vị phức tạp như mỗi người dùng, mỗi tháng cho các mô tả báo giá dựa trên sản phẩm - bản đơn giản
 description: Chủ đề này cung cấp thông tin về việc quản lý các đơn vị phức tạp cho mô tả báo giá dựa trên sản phẩm.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989802"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Quản lý các đơn vị phức tạp như mỗi người dùng, mỗi tháng cho các mô tả báo giá dựa trên sản phẩm - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations sử dụng các yếu tố số lượng để hỗ trợ việc bán các sản phẩm dựa trên đăng ký. Đối với các sản phẩm dựa trên đăng ký, số lượng trên báo giá hoặc mô tả hợp đồng dự án được thể hiện ở dạng số tháng người dùng.
+Dynamics 365 Project Operations sử dụng các yếu tố số lượng để hỗ trợ bán các sản phẩm dựa trên đăng ký. Đối với các sản phẩm dựa trên đăng ký, số lượng trên báo giá hoặc mô tả hợp đồng dự án được thể hiện ở dạng số tháng người dùng.
 
 Thông thường, giá phần mềm đăng ký được lưu trữ trong danh mục ở dạng giá cho mỗi người dùng mỗi tháng. Trong quá trình bán hàng, giá trên mô tả báo giá thường là giá trên mỗi người dùng, mỗi tháng được đại lý bán hàng CNTT thương lượng và giảm giá. Mỗi thỏa thuận có một số lượng người dùng khác nhau và số lượng tháng đăng ký khác nhau. Số lượng được dùng để tính toán mô tả báo giá là sản phẩm của số lượng người dùng và số lượng tháng đăng ký.
 
@@ -45,3 +43,6 @@ Bạn có thể gắn cờ **Số người dùng** và **Số tháng** có thể
 6. Lưu và đóng biểu mẫu. Lặp lại các bước này cho tất cả các thuộc tính để tính toán số lượng cho mô tả báo giá dựa trên sản phẩm.
 
 Khi bạn tạo mô tả báo giá dựa trên sản phẩm cho một sản phẩm, số lượng của mô tả báo giá sẽ bị khóa. Số lượng sẽ được tính dưới dạng tích số của các giá trị thuộc tính mà bạn nhập cho mô tả báo giá đó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289845"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service 
 
@@ -134,3 +134,6 @@ Trước khi đặt cấu hình dữ liệu trong Common Data Service (CDS), b�
 13. Chọn **Lưu**. 
 
 ![Đã cập nhật tham số dự án](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Lên lịch các nguồn lực cho dự án
 description: Làm cách nào để lên lịch nguồn lực cho dự án trong Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150469"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998172"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Lên lịch nguồn lực cho dự án (Project Service)
 
@@ -35,7 +33,7 @@ Bạn có thể kiểm tra nguồn lực sẵn có để có được một cái
   
 Bảng lịch trình hiển thị danh sách các nguồn lực và tính sẵn có của nguồn lực. Chọn một dạng xem để hiển thị tính sẵn có theo **Giờ**, **Ngày**, **Tuần** hoặc **Tháng**.  
   
-Trước khi sử dụng bảng lịch trình, bạn cần thiết lập bảng đó. Để biết thêm thông tin, hãy xem phần [Đặt cấu hình bảng lịch trình (Field Service hoặc Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Trước khi sử dụng bảng lịch trình, bạn cần thiết lập bảng đó. Để biết thêm thông tin, hãy xem phần [Đặt cấu hình bảng lịch trình (Field Service hoặc Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính sẵn có của nguồn lực, hãy xem phần [Xem tính sẵn có của nguồn lực](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Nếu bạn đang sử dụng phiên bản cũ, để tìm hiểu về tính s�
   
 ### <a name="additional-resources"></a>Tài nguyên bổ sung  
  [Hướng dẫn của người quản lý nguồn lực](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

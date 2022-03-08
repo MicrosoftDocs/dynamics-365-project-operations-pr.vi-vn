@@ -2,19 +2,17 @@
 title: Thay thế bảng giá bán hàng của dự án
 description: Chủ đề này cung cấp thông tin về cách tạo bảng giá bán hàng tùy chỉnh.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009602"
 ---
 # <a name="override-project-sales-price-lists"></a>Thay thế bảng giá bán hàng của dự án
 
@@ -52,3 +50,6 @@ Bạn có thể sử dụng từng bảng giá đó và cập nhật giá nhân 
 Trên hợp đồng dự án, giá dự án luôn được đặt mặc định dưới dạng bảng giá tùy chỉnh với tên hợp đồng và dấu ngày giờ tạo được thêm vào tên. Điều này cũng đúng cho dù hợp đồng được tạo khi đã có báo giá hay hợp đồng được tạo từ đầu. Nếu cần, bạn có thể loại bỏ liên kết này khỏi bảng giá tùy chỉnh và liên kết bảng giá chuẩn với hợp đồng dự án.
 
 Khi bạn liên kết một bảng giá chuẩn với bảng giá dự án trên báo giá hoặc hợp đồng, bất kỳ thay đổi nào được thực hiện đối với giá trong bảng giá đó sẽ ảnh hưởng đến tất cả báo giá và hợp đồng sử dụng bảng giá đó.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

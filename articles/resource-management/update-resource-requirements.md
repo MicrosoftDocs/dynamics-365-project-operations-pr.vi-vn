@@ -2,18 +2,16 @@
 title: Chỉnh sửa yêu cầu nguồn lực
 description: Chủ đề này cung cấp thông tin về cách cập nhật thông tin yêu cầu nguồn lực.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999792"
 ---
 # <a name="edit-a-resource-requirement"></a>Chỉnh sửa yêu cầu nguồn lực
 
@@ -37,3 +35,5 @@ Với tư cách là người quản lý Dự án, hãy hoàn thành các bước
 ## <a name="edit-resource-assignment-contours"></a>Chỉnh sửa đường cong gán nguồn lực
 
 Ngoài việc chỉnh sửa thông tin chi tiết của các yêu cầu nguồn lực, người quản lý Dự án có thể cập nhật các đường cong riêng của yêu cầu nguồn lực bằng cách sử dụng chức năng **Chỉ định mẫu**. Sau khi chọn **Chỉ định mẫu**, một trang sẽ mở và bạn có thể xem các đường cong theo thang thời gian tính bằng ngày, tuần hoặc tháng. Mỗi đường cong có thể được điều chỉnh về thời gian bắt đầu, thời gian kết thúc và tổng nhân công trong một khoảng thời gian nhất định.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

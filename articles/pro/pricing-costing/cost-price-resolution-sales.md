@@ -1,22 +1,22 @@
 ---
-title: Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án
-description: Chủ đề này cung cấp thông tin về cách giải quyết giá vốn trên giá trị thực tế và ước tính của dự án.
+title: Xử lý giá vốn cho các ước tính và thực tế - bản đơn giản
+description: Chủ đề này cung cấp thông tin về cách giải quyết giá vốn trên các giá trị ước tính và thực tế.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274575"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án 
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Xử lý giá vốn cho các ước tính và thực tế - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -36,12 +36,6 @@ Sau khi bảng giá vốn được giải quyết, các trường **Vai trò** v
 Mục mô tả ước tính cho Chi phí đề cập đến thông tin chi tiết mô tả hợp đồng và báo giá cho các chi phí và mục mô tả ước tính chi phí trên một dự án.
 
 Sau khi bảng giá vốn được giải quyết, hệ thống dùng kết hợp các trường **Thể loại** và **Đơn vị** trên mục mô tả ước tính chi phí để so khớp với các dòng **Giá cả Thể loại** trong bảng giá vốn đã giải quyết. Nếu hệ thống tìm thấy một mô tả giá theo danh mục có tỷ lệ chi phí cho tổ hợp trường **Danh mục** và **Đơn vị**, thì tỷ lệ chi phí đó sẽ được lấy mặc định. Nếu hệ thống không thể khớp với giá trị **Thể loại** và **Đơn vị** hoặc nếu có thể tìm thấy dòng giá cả thể loại phù hợp nhưng phương pháp định giá không phải là **Đơn giá**, thì tỷ lệ chi phí mặc định bằng không (0).
-
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Giải quyết tỷ lệ chi phí trên dòng giá trị thực tế và giá trị ước tính cho Vật tư
-
-Các dòng giá trị ước tính cho Vật tư đề cập đến chi tiết mô tả báo giá và hợp đồng cho vật tư và dòng giá trị ước tính cho vật tư trong một dự án.
-
-Sau khi xử lý bảng giá vốn, hệ thống sử dụng kết hợp các trường **Sản phẩm** và **Đơn vị** trên dòng ước tính để có giá trị ước tính cho vật tư khớp với các dòng **Hạng mục trong bảng giá** trên bảng giá đã xử lý. Nếu hệ thống tìm thấy một dòng giá sản phẩm có tỷ lệ chi phí cho tổ hợp trường **Sản phẩm** và **Đơn vị**, tỷ lệ chi phí được đặt thành mặc định. Nếu hệ thống không thể khớp các giá trị **Sản phẩm** và **Đơn vị** hoặc nếu có thể tìm thấy một dòng hạng mục trong bảng giá phù hợp nhưng phương pháp đặt giá dựa trên Chi phí chuẩn hoặc Chi phí hiện tại và không dựa trên cả hai chi phí này đều được xác định trên sản phẩm, thì chi phí đơn vị sẽ mặc định bằng 0.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

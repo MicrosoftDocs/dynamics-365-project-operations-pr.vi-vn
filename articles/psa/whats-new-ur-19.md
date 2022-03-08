@@ -2,8 +2,6 @@
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 19, V3
 description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 19, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993672"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Phát hành bản cập nhật Project Service Automation 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
 Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho PSA V3, Bản phát hành cập nhật 19. Phiên bản này có số bản dựng là V3.10.30.41 và thường có sẵn thông qua bản tự cập nhật vào tháng 5 năm 2020.
 
@@ -66,3 +64,6 @@ Các vấn đề sau đã được khắc phục:
 - Khách hàng có thể gặp hiệu suất xuống cấp khi tạo dự án vì **GetBookableResourceIdFromUser** truy xuất tất cả các cột của nguồn lực có thể đặt trước thay vì chỉ truy xuất ID chính.
 - Thực thể **Loại giao dịch** thiếu phần bổ trợ cập nhật xác thực trước để ngăn người dùng nhập **Đơn vị** và **Nhóm đơn vị** không hợp lệ cho các loại giao dịch.
 - Bước **Loại bỏ** không hoạt động để nhập mục nhập thời gian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Quản lý đề xuất hóa đơn dự án
 description: Chủ đề này cung cấp chi tiết về quy trình xử lý hóa đơn dành cho khách hàng với Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989937"
 ---
 # <a name="manage-project-invoice-proposals"></a>Quản lý đề xuất hóa đơn dự án
 
@@ -80,7 +78,8 @@ Các giá trị **Nhóm thuế bán hàng** và **Nhóm thuế bán hàng theo m
     - **Khách hàng**: sẽ luôn mặc định nhóm thuế bán hàng thanh toán được lấy từ khách hàng.
     - **Tìm kiếm** sẽ tìm kiếm trên tất cả các thực thể trong danh sách này và chọn giá trị có sẵn đầu tiên. Việc tìm kiếm bắt đầu từ thực thể **Dự án**, rồi đến thực thể **Hợp đồng dự án**, sau đó là thực thể **Khách hàng**.
 
-- **Nhóm thuế bán hàng theo mặt hàng có mốc giá cố định** được dùng để lấy giá trị mặc định cho trường **Nhóm thuế bán hàng**.
+- **Nhóm thuế bán hàng đối với sản phẩm có mốc giá cố định** được sử dụng làm giá trị mặc định trong trường **Nhóm thuế bán sản phẩm** cho mốc thanh toán. Kế toán viên có thể xem xét và sửa đổi giá trị này trên trang **Giao dịch trên tài khoản**. Hệ thống sử dụng giá trị từ giao dịch trên tài khoản khi tạo dòng đề xuất hóa đơn dự án.
+ 
 
 ### <a name="financial-dimensions"></a>Các lĩnh vực tài chính
 
@@ -132,7 +131,7 @@ Trang **Định dạng đề xuất hóa đơn** cho phép các giao dịch nhó
 
 Tính năng Quản lý in dùng các tệp báo cáo khác nhau để in, chỉ định đích và tùy chỉnh văn bản chân trang cho hóa đơn. Bạn có thể thiết lập Quản lý in ở cấp mô-đun, tuy nhiên, những cài đặt này có thể được ghi đè cho một khách hàng, hợp đồng hoặc đề xuất hóa đơn cụ thể. Để truy cập chức năng này trên trang **Đề xuất hóa đơn dự án**, chọn **In** > **Quản lý in**.
 
-Thiết lập quản lý in được hiển thị ở chế độ xem dạng cây, trong đó mỗi cấp độ nút hiển thị các tài liệu có sẵn để điều chỉnh. Bạn có thể chỉ định các bản in tùy chỉnh ở cấp độ mô-đun, khách hàng, hợp đồng hoặc tài liệu đề xuất hóa đơn. Để sửa đổi bản in tài liệu gốc, hãy mở rộng nút mong muốn và chọn **Mục ban đầu**. Trong trường **Định dạng báo cáo**, chọn định dạng báo cáo sẽ được dùng để in. Bạn có thể dùng các định dạng báo cáo tùy chỉnh bằng cách sử dụng [Khung quản lý tài liệu kinh doanh](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Thiết lập quản lý in được hiển thị ở chế độ xem dạng cây, trong đó mỗi cấp độ nút hiển thị các tài liệu có sẵn để điều chỉnh. Bạn có thể chỉ định các bản in tùy chỉnh ở cấp độ mô-đun, khách hàng, hợp đồng hoặc tài liệu đề xuất hóa đơn. Để sửa đổi bản in tài liệu gốc, hãy mở rộng nút mong muốn và chọn **Mục ban đầu**. Trong trường **Định dạng báo cáo**, chọn định dạng báo cáo sẽ được dùng để in. Bạn có thể dùng các định dạng báo cáo tùy chỉnh bằng cách sử dụng [Khung quản lý tài liệu kinh doanh](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Đăng đề xuất hóa đơn
 
@@ -143,3 +142,6 @@ Sau khi hóa đơn đã được xem xét và chỉnh sửa, các dòng đề xu
 Ngoài trang **Đề xuất hóa đơn**, bạn cũng có thể đăng đề xuất hóa đơn bằng cách chạy công việc định kỳ là **Đăng đề xuất hóa đơn**. Để tìm công việc này, hãy truy cập vào **Quản lý dự án và kế toán** > **Định kỳ** > **Hóa đơn dự án** > **Đăng đề xuất hóa đơn**.
 
 Trang này hiển thị tất cả các đề xuất hóa đơn đã sẵn sàng để đăng. Bạn có thể lên lịch đăng các đề xuất hóa đơn bằng cách chọn **Hàng loạt**. Đặt **Tham số xử lý hàng loạt** thành **Có** và đặt lặp lại quá trình xử lý hàng loạt bằng cách chọn **Lặp lại**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

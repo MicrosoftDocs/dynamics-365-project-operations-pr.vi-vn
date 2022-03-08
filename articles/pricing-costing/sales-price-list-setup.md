@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 05b1c13540e902975eee7379276cf394d9fc5743
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275474"
 ---
 # <a name="set-up-a-sales-price-list"></a>Thiết lập bảng giá bán hàng
 
@@ -59,3 +59,6 @@ Trên hợp đồng dự án, thứ tự ưu tiên sau đây được sử dụn
 Khi một bảng giá dự án được nhập theo mặc định, hệ thống sẽ xác thực rằng loại tiền tệ khớp với tiền tệ của khách hàng và các bảng giá mặc định đã nhập có bối cảnh **Bán hàng**.
 
 Bạn có thể liên kết nhiều bảng giá dự án với các thực thể khách hàng, cơ hội, báo giá và hợp đồng dự án. Khả năng này hỗ trợ giá mặc định theo ngày cho một hợp đồng dự án dài, nơi bạn có thể yêu cầu nhiều bảng giá để tính đến khả năng cập nhật giá do lạm phát. Tuy nhiên, nếu bảng giá mà bạn liên kết với thực thể khách hàng, cơ hội, báo giá hoặc hợp đồng dự án có ngày hiệu lực chồng chéo, thì giá mặc định có thể không chính xác. Do đó, bạn phải đảm bảo rằng bảng giá dự án có ngày hiệu lực chồng chéo không liên kết với những thực thể đó.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

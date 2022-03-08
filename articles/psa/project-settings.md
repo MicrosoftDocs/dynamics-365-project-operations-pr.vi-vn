@@ -2,8 +2,6 @@
 title: Thiết đặt dự án
 description: Chủ đề này cung cấp thông tin về thiết đặt quản lý dự án.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996957"
 ---
 # <a name="project-settings"></a>Thiết đặt dự án
 
@@ -45,11 +43,11 @@ Sử dụng các thiết đặt sau để truy cập vào các tính năng hoạ
   
 3. Trên tab **Xem hàng tháng**, hãy bấm vào **Thiết lập**. Danh sách ba tùy chọn xuất hiện: 
 
-  - Lịch trình hàng tuần mới
-  - Lịch trình công việc cho một ngày
-  - Thời gian rảnh
+  - Lịch hàng tuần mới
+  - Lịch hoạt động cho một ngày
+  - Thời gian Rảnh
 
-> ![Thiết lập tùy chọn](media/project-13.png)
+> ![Thiết lập tùy chọn.](media/project-13.png)
 
 4. Chọn **Lịch trình hàng tuần mới** rồi đặt tùy chọn cho lịch trình nguồn lực này. Bạn có thể đặt lịch trình hàng tuần định kỳ, tham số giờ hàng ngày, thời gian đóng cửa và hơn thế nữa.
 5. Để đặt phạm vi ngày, hãy chọn **Lưu** rồi bấm vào **Đóng**. 
@@ -68,3 +66,6 @@ Mỗi tổ chức phải thiết lập các vai trò này trên trang **Loại n
 ## <a name="price-lists"></a>Bảng giá
 
 Bảng giá cho phép bạn đặt chi phí và giá bán hàng cho vai trò nguồn lực, loại chi phí, sản phẩm và các yếu tố khác trong tổ chức. Trước khi đặt ước tính tài chính cho công việc phải được giao cho dự án, bạn nên tạo bảng giá bán hàng và chi phí hỗ trợ. Trong phần tham số, bạn cũng nên thiết lập một bảng giá bán hàng và chi phí mặc định áp dụng cho tất cả dự án được tạo trong tổ chức. Trên trang **Tham số dự án hiện hoạt**, hãy đảm bảo bạn thiết lập bảng giá bán hàng và chi phí mặc định.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

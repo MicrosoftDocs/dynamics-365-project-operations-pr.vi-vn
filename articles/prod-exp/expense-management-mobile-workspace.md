@@ -2,8 +2,12 @@
 title: Không gian làm việc quản lý chi phí trên thiết bị di động
 description: Chủ đề này cung cấp thông tin về Không gian làm việc di động Quản lý chi phí. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ.
 author: suvaidya
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -13,14 +17,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087267"
 ---
 # <a name="expense-management-mobile-workspace"></a>Không gian làm việc quản lý chi phí trên thiết bị di động
+
+[!include [banner](../includes/banner.md)]
 
 Chủ đề này cung cấp thông tin về Không gian làm việc di động **Quản lý chi phí**. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
 
@@ -54,7 +60,7 @@ Bạn cũng có thể sử dụng các tính năng sau:
 Các điều kiện tiên quyết khác nhau, dựa trên phiên bản đã được triển khai cho tổ chức của bạn.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Điều kiện tiên quyết nếu bạn sử dụng Dynamics 365 Finance 
-Nếu Finance đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải phát hành không gian làm việc di động **Quản lý chi phí**. Để biết thông tin hướng dẫn, hãy xem [Phát hành không gian làm việc trên thiết bị di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Nếu Finance đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải phát hành không gian làm việc di động **Quản lý chi phí**. Để biết thông tin hướng dẫn, hãy xem [Phát hành không gian làm việc trên thiết bị di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Các điều kiện tiên quyết nếu bạn sử dụng phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi
 Nếu phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi đã được triển khai cho tổ chức của bạn thì quản trị viên hệ thống phải hoàn thành các điều kiện tiên quyết sau. 
@@ -73,16 +79,16 @@ Nếu phiên bản 1611 với bản cập nhật nền tảng từ 3 trở đi �
 <td>Quản trị viên hệ thống</td>
 <td>KB 4019015 là bản cập nhật X++ hoặc bản vá lỗi siêu dữ liệu có chứa không gian làm việc di động <strong>Quản lý thời gian</strong>. Để triển khai KB 4019015, quản trị viên hệ thống của bạn phải làm theo các bước sau.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Tải xuống bản sửa lỗi siêu dữ liệu từ Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ExpenseMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Tải xuống bản sửa lỗi siêu dữ liệu từ Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Cài đặt bản sửa lỗi siêu dữ liệu</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Tạo một gói có thể triển khai</a> chứa mô hình <strong>ApplicationSuite</strong> và <strong>ExpenseMobile</strong>, sau đó tải gói có thể triển khai lên LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Áp dụng gói có thể triển khai</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Phát hành không gian làm việc di động <strong>Quản lý chi phí</strong>.</td>
 <td>Quản trị viên hệ thống</td>
-<td>Xem <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</td>
+<td>Xem <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Phát hành không gian làm việc di động</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -124,11 +130,11 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Nhập chi phí một cách nhanh chóng bằng cách sử dụng không gian làm việc di động Quản lý chi phí
 1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
 2. Chọn **Nhập chi phí nhanh chóng**.
-3. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
+3. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
 4. Nhập ngày giao dịch của chi phí.
 5. Tùy chọn: Nhập người bán về chi phí.
 6. Nhập khoản chi phí.
-7. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
+7. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
 8. Chọn **Chụp ảnh** hoặc **Chọn hình ảnh**.
 9. Làm theo một trong các bước sau:
 
@@ -159,11 +165,11 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 7. Chọn một hoặc nhiều chi phí trong danh sách.
 8. Chọn **Xong**.
 9. Để thêm một chi phí mới vào báo cáo chi phí, hãy chọn **Chi phí mới**.
-10. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
+10. Chọn thể loại chi phí. Bạn xem danh sách các thể loại chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại của bạn không có trong danh sách, hãy chọn **tìm kiếm trực tuyến**. Tìm kiếm theo thể loại chi phí hoặc chuyển sang tìm kiếm theo loại chi phí.
 11. Tùy chọn: Nhập người bán về chi phí.
 12. Nhập ngày giao dịch của chi phí.
 13. Nhập khoản chi phí.
-14. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
+14. Chọn đơn vị tiền tệ của chi phí. Bạn xem danh sách các mã tiền tệ được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 400 đơn vị tiền tệ được tải lên nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đơn vị tiền tệ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo đơn vị tiền tệ hoặc chuyển sang tìm kiếm theo tên.
 15. Chọn **Xong**.
 16. Để thêm các chi tiết khác vào chi phí, hãy chọn **Thêm chi tiết khác**. Các trường có sẵn phụ thuộc vào cài đặt định cấu hình quản lý chi phí cho công ty của bạn.
 17. Nếu chính sách của công ty yêu cầu biên lai cho chi phí, hãy chọn **Biên lai** rồi sau đó làm theo các bước sau:
@@ -209,12 +215,12 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 
         - Nếu bạn đã chọn **Khách hàng trước đây** thì hãy làm theo các bước sau:
 
-            1. Chọn một hoặc nhiều khách hàng trước đây trong danh sách. Bạn sẽ thấy danh sách những khách trước đây mà bạn đã thêm vào báo cáo chi phí trước đó đã được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu khách hàng trước đây của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tổ chức, quốc gia hoặc chức vụ.
+            1. Chọn một hoặc nhiều khách hàng trước đây trong danh sách. Bạn sẽ thấy danh sách những khách trước đây mà bạn đã thêm vào báo cáo chi phí trước đó đã được tải vào ứng dụng của bạn để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu khách hàng trước đây của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo tổ chức, quốc gia hoặc chức vụ.
             2. Chọn **Xong**.
 
         - Nếu bạn đã chọn **Đồng nghiệp**, hãy làm theo các bước sau:
 
-            1. Chọn một hoặc nhiều đồng nghiệp trong danh sách. Bạn nhìn thấy danh sách đồng nghiệp được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đồng nghiệp của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo công ty hoặc chức vụ.
+            1. Chọn một hoặc nhiều đồng nghiệp trong danh sách. Bạn nhìn thấy danh sách đồng nghiệp được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu đồng nghiệp của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên hoặc chuyển sang tìm kiếm theo công ty hoặc chức vụ.
             2. Chọn **Xong**.
 
     3. Chọn nút **Quay lại** để quay lại phần chi tiết chi phí.
@@ -223,7 +229,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 
     1. Chọn ngày đầu tiên để ghi lại từng khoản.
     2. Chọn **Thêm thông tin ghi lại từng khoản**.
-    3. Chọn thể loại nhỏ để ghi lại từng khoản chi phí. Bạn nhìn thấy danh sách các thể loại phụ của chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại phụ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên thể loại phụ của chi phí.
+    3. Chọn thể loại nhỏ để ghi lại từng khoản chi phí. Bạn nhìn thấy danh sách các thể loại phụ của chi phí được tải vào ứng dụng để sử dụng ngoại tuyến. Theo mặc định, 50 mục được tải, nhưng nhà phát triển có thể thay đổi con số này. Để biết thêm thông tin, nhà phát triển xem [Nền tảng di động](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Nếu thể loại phụ của bạn không có trong danh sách, hãy chọn **Tìm kiếm** để tìm kiếm trực tuyến. Tìm kiếm theo tên thể loại phụ của chi phí.
     4. Nhập số tiền giao dịch cho từng khoản mục.
     5. Chỉnh sửa ngày giao dịch nếu được yêu cầu.
     6. Chọn **Xong**.
@@ -236,6 +242,3 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 22. Chọn **Gửi**.
 23. Nhập bất kỳ nhận xét nào dành cho người phê duyệt.
 24. Chọn **Xong**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

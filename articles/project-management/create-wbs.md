@@ -2,18 +2,16 @@
 title: Tạo cấu trúc phân tích công việc
 description: Chủ đề này giải thích cách tạo cấu trúc phân tích công việc (WBS) bao gồm bộ điều khiển cơ bản trong giao diện lập lịch mới.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841421"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005727"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -93,6 +91,8 @@ Bảng sau đây hiển thị các thuộc tính lịch trình bổ sung.
 | Tên | Tên của nhiệm vụ. |
 | ID | ID của nhiệm vụ trong cấu trúc phân tích công việc. |
 
+Với tư cách là quản trị viên, bạn có thể xác định các trường tùy chỉnh trên thực thể nhiệm vụ. Tuy nhiên, các trường không thể được hiển thị trên lưới lịch biểu. Để xem các trường tùy chỉnh của bạn, hãy thêm chúng vào trang chi tiết **Nhiệm vụ dự án**.
+
 ## <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 
 Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc chọn **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.
@@ -116,3 +116,6 @@ Chế độ nhiệm vụ không ảnh hưởng đến các thông tin cập nh�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Trợ năng và phím tắt
 
 Bạn hoàn toàn có thể truy cập lưới và dùng lưới **Lịch trình** với các trình đọc màn hình như Trình tường thuật, JAWS hoặc NVDA. Bạn có thể di chuyển qua vùng lưới bằng cách dùng các phím mũi tên (như trong Microsoft Excel), dùng phím Tab để cải thiện thông qua các yếu tố giao diện người dùng mang tính tương tác, dùng phím Mũi tên xuống, phím Enter hoặc Dấu cách để chọn hoặc mở các menu thả xuống.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Tham số quản lý chi phí
 description: Các tham số sau kiểm soát hành vi trong phần Quản lý chi phí.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -14,15 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 41d78726f6d0aa6b5e647dbb359824950cb6ca72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4087152"
 ---
 # <a name="expense-management-parameters"></a>Tham số quản lý chi phí
 
+[!include [banner](../includes/banner.md)]
+
+-----------------------------
 
 Các tham số này kiểm soát hành vi chung trong phần Quản lý chi phí.
 
@@ -87,6 +92,3 @@ Các tham số này kiểm soát hành vi chung trong phần Quản lý chi phí
 | <strong>Thông điệp chống tham nhũng dành cho người gửi</strong> |                                                                                             Nhập nội dung sẽ được hiển thị cho nhân viên khi tạo báo cáo chi phí mới. Bấm vào nút <strong>Bản dịch</strong> để nhập nội dung bằng ngôn ngữ cụ thể sẽ được hiển thị dựa trên ngôn ngữ người dùng.                                                                                             |
 | <strong>Thông điệp chống tham nhũng dành cho người phê duyệt</strong>  |                                                                                             Nhập nội dung sẽ được hiển thị cho người phê duyệt khi tạo báo cáo chi phí mới. Bấm vào nút <strong>Bản dịch</strong> để nhập nội dung bằng ngôn ngữ cụ thể sẽ được hiển thị dựa trên ngôn ngữ người dùng.                                                                                             |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

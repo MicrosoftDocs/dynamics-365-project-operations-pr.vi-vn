@@ -2,18 +2,16 @@
 title: Hóa đơn hiệu chỉnh của dự án
 description: Chủ đề này cung cấp thông tin về cách tạo và xác nhận các hóa đơn hiệu chỉnh trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
-ms.translationtype: HT
+ms.openlocfilehash: cec77f22dd52e15c9fb61b7acc0bd3e633f119b96d7958af021e4dce977140a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866617"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009557"
 ---
 # <a name="corrective-project-invoices"></a>Hóa đơn hiệu chỉnh của dự án
 

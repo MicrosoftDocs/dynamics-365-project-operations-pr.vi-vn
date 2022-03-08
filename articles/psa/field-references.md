@@ -2,12 +2,10 @@
 title: Thêm các trường tùy chỉnh vào thực thể thiết lập giá và thực thể giao dịch
 description: Chủ đề này cung cấp thông tin về việc thêm các trường tùy chỉnh cho các thực thể giao dịch và thiết lập giá.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148489"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985798"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Thêm các trường tùy chỉnh vào thực thể thiết lập giá và thực thể giao dịch 
 
@@ -49,7 +47,7 @@ Khi kích thước giá tùy chỉnh là dựa trên bộ tùy chọn, hãy thê
 > [!IMPORTANT]
 > Khi bạn thêm một trường vào nhiều thực thể, hãy sử dụng cùng một tên trường trên tất cả các tổ chức. 
 
-> ![Thêm vị trí làm việc của nguồn lực vào giá theo vai trò](media/RWL-Field.png)
+> ![Thêm vị trí làm việc của nguồn lực vào giá theo vai trò.](media/RWL-Field.png)
 
 Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính của nỗ lực công việc cần thiết để hoàn tất công việc **Tại địa phương** và **Tại chỗ**, trong **Giờ làm việc** và **Giờ làm thêm** được dùng để ước tính giá trị của Báo giá/Dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** sẽ được thêm vào thực thể ước tính, **Chi tiết về dòng báo giá**, **Chi tiết về dòng hợp đồng**, **Nhiệm vụ dự án**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 
@@ -61,7 +59,7 @@ Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính 
 6. Lặp lại các bước 1-5 để thêm trường này vào các thực thể **Chi tiết dòng hợp đồng dự án**, **Nhiệm vụ dự án**, **Thành viên nhóm dự án** và **Dòng ước tính**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
 
-> ![Thêm vị trí làm việc của nguồn lực vào dòng ước tính](media/RWL-Default-Value.png)
+> ![Thêm vị trí làm việc của nguồn lực vào dòng ước tính.](media/RWL-Default-Value.png)
 
 
 Đối với giao hàng và lập hóa đơn, công việc đã hoàn thành phải có giá chính xác để chọn liệu công việc đó được thực hiện **Tại địa phương** hay **Tại chỗ** và liệu công việc được thực hiện trong **Giờ làm việc** hay **Ngoài giờ làm việc** trên Thực tế dự án. Các trường **Vị trí làm việc của nguồn lực** và **Số giờ làm việc của nguồn lực** phải được thêm vào **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký**.
@@ -74,7 +72,7 @@ Trong giai đoạn bán hàng và ước tính cho một dự án, ước tính 
 6. Lặp lại bước 1-5 để thêm trường này vào các thực thể **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 7. Lặp lại bước 1-6 cho bộ tùy chọn **Số giờ làm việc của nguồn lực**. 
 
-> ![Thêm vị trí làm việc của nguồn lực vào mục nhập thời gian](media/RWL-time-entry.png)
+> ![Thêm vị trí làm việc của nguồn lực vào mục nhập thời gian.](media/RWL-time-entry.png)
 
 Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiết cho các kích thước tùy chỉnh dựa trên bộ tùy chọn.
 
@@ -87,7 +85,7 @@ Khi kích thước giá tùy chỉnh là một thực thể, bạn sẽ thêm m�
 3. Mở rộng thực thể **Chức vụ tiêu chuẩn** và chọn **Mối quan hệ 1:N**.
 4. Nhấp vào **Mới** để tạo mối quan hệ 1:N mới gọi là **Chức vụ tiêu chuẩn cho nguồn lực có thể đặt lịch**. Nhập các thông tin cần thiết, sau đó nhấp vào **Lưu**.
 
-> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu vào tài nguyên có thể đặt lịch](media/ST-BR.png)
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu vào tài nguyên có thể đặt lịch.](media/ST-BR.png)
 
 Bạn cũng cần thêm Chức vụ tiêu chuẩn vào các thực thể Giá Project Service, **Giá theo vai trò** và **Tăng giá theo vai trò**. Bạn cũng có thể hoàn tất việc này bằng cách sử dụng mối quan hệ 1:N giữa các thực thể **Chức vụ tiêu chuẩn** và **Giá theo vai trò** và các thực thể **Chức vụ tiêu chuẩn** và **Tăng giá theo vai trò**.
 
@@ -106,13 +104,13 @@ Trong các giai đoạn bán hàng và dự toán cho dự án, để định gi
 
 5. Lặp lại các bước 1-5 để tạo mối quan hệ 1:N từ **Chức vụ tiêu chuẩn** thành **Chi tiết dòng báo giá**, **Chi tiết dòng hợp đồng dự án**, **Nhiệm vụ dự án**, **Thành viên nhóm hợp đồng** và **Dòng ước tính**.
 
-> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho dòng ước tính](media/ST-Estimate-Line.png)
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho dòng ước tính.](media/ST-Estimate-Line.png)
 
 Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thành bởi mỗi chức vụ tiêu chuẩn phải được định giá chính xác trên Thực tế dự án. Điều này có nghĩa là cần có mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 
 6. Lặp lại các bước 1-6 để tạo mối quan hệ 1:N từ các thực thể **Chức vụ tiêu chuẩn** cho **Mục nhập thời gian**, **Thực tế**, **Chi tiết dòng hóa đơn** và **Dòng nhật ký kế toán**.
 
-> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho mục nhập thời gian](media/ST-Mapping.png)
+> ![Thêm chức vụ tiêu chuẩn làm trường tham chiếu cho mục nhập thời gian.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Thiết lập giá trị kích thước mặc định bằng cách sử dụng các tính năng ánh xạ của nền tảng
 Đối với Mục nhập thời gian, việc để hệ thống mặc định chức vụ tiêu chuẩn trên Mục nhập thời gian từ Nguồn lực có thể đặt lịch đang ghi mục nhập thời gian rất hữu ích. Sử dụng các bước sau để thêm ánh xạ trường trên mối quan hệ 1:N từ **Tài nguyên có thể đặt lịch** thành **Mục nhập thời gian**.
@@ -122,7 +120,7 @@ Trong giai đoạn gửi và lập hóa đơn, công việc được hoàn thàn
 3. Nhấp đúp vào **Tài nguyên có thể đặt lịch cho mục nhập thời gian**. Trên trang **Mối quan hệ**, nhấp vào **Sử dụng ánh xạ trường**. 
 4. Nhấp vào **Mới** để tạo ánh xạ trường mới giữa trường **Chức vụ tiêu chuẩn** trên thực thể **Nguồn lực có thể đặt lịch** thành trường tham chiếu **Chức vụ tiêu chuẩn** trên thực thể **Mục nhập thời gian**. 
 
-> ![Thiết lập ánh xạ trường để cho phép mặc định chức vụ tiêu chuẩn từ nguồn lực có thể đặt lịch vào mục nhập thời gian](media/ST-Mapping2.png)
+> ![Thiết lập ánh xạ trường để cho phép mặc định chức vụ tiêu chuẩn từ nguồn lực có thể đặt lịch vào mục nhập thời gian.](media/ST-Mapping2.png)
 
 
 Thao tác này sẽ hoàn tất các thay đổi với giản đồ cần thiết cho các kích thước tùy chỉnh dựa trên thực thể.
@@ -150,3 +148,6 @@ Bảng sau đây cung cấp một danh sách toàn diện các biểu mẫu và 
 |  Thực tế|• Thông tin<br>• Thực tế hiện hoạt|• Dạng xem liên kết thực tế|
 
 Trường tùy chỉnh cũng có thể cần được thêm vào các quy tắc kinh doanh tùy thuộc vào những gì bạn đã xác định. Một ví dụ sẵn dùng là đối với quy tắc công việc **Khả năng chỉnh sửa mục nhập thời gian dựa trên trạng thái**. Quy tắc này xác định các trường cần bị khóa khi mục nhập thời gian ở trạng thái không thể chỉnh sửa như **Đã phê duyệt**. Thêm các trường vào quy tắc công việc này để không thể chỉnh sửa các trường khi mục nhập thời gian ở trạng thái không phải **Bản nháp** hoặc **Đã trả lại**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

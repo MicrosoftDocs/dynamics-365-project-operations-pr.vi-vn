@@ -2,18 +2,16 @@
 title: Chế độ lập lịch trình
 description: Chủ đề này cung cấp thông tin về chế độ lập lịch trình.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981461"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116733"
 ---
 # <a name="scheduling-modes"></a>Chế độ lập lịch trình
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations cung cấp khả năng cho các tổ chức đ�
 Có ba chế độ lập lịch trình có sẵn trong Project Operations:
 
   - Khoảng thời gian cố định (đây là chế độ mặc định)
-  - Công việc cố định
+  - Nỗ lực cố định (*Công việc*)
   - Đơn vị cố định
 
 Các giá trị bị định nghĩa của một chế độ lập lịch trình cụ thể tác động được xác định theo công thức sau:
 
-  Nỗ lực (*Công việc*) = Khoảng thời gian x Đơn vị
+  Nỗ lực = Khoảng thời gian x Đơn vị
 
 Khi xác định chế độ lập lịch trình của dự án, bạn đang thiết lập một trong những giá trị này, sau đó không thể thay đổi được. Duy trì giá trị này là một hằng số sẽ đặt ưu tiên cho giá trị đó, điều này sẽ thông báo cho hệ thống không thay đổi giá trị này khi hai giá trị khác thay đổi. Bảng sau đây cung cấp thông tin về tác động của việc chọn một chế độ cụ thể.
 

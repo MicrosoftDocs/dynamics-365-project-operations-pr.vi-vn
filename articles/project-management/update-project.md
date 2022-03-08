@@ -2,16 +2,18 @@
 title: Cập nhật dự án
 description: Chủ đề này cung cấp thông tin về cách cập nhật dự án trong Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 27444b072bdf7de55d6b38c30c1ea5fe66ed46ac
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993397"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286409"
 ---
 # <a name="update-a-project"></a>Cập nhật dự án
 

@@ -2,11 +2,9 @@
 title: Chụp biên nhận bằng OCR
 description: Chủ đề này cung cấp thông tin về quy trình xử lý nhận dạng ký tự quang học (OCR) cho biên lai.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499877"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798066"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Chụp biên nhận bằng OCR
 
@@ -54,7 +52,7 @@ Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung q
 
 ## <a name="installation"></a>Cài đặt
 
-Để sử dụng các tính năng về chi phí nâng cao này, hãy cài đặt trình bổ sung Dịch vụ quản lý chi phí cho Microsoft Dynamics 365 Finance và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
+Để sử dụng các khả năng chi phí nâng cao này, hãy cài đặt phần bổ trợ Dịch vụ Quản lý Chi phí cho Microsoft Dynamics 365 Finance và bật các tính năng trong trường hợp của bạn. Bạn có thể truy cập bổ trợ từ dự án của mình trong Microsoft Dynamics Dịch vụ Vòng đời (LCS).
 
 1. Đăng nhập vào LCS và mở môi trường mong muốn.
 2. Chuyển tới **Chi tiết đầy đủ**.
@@ -75,7 +73,7 @@ Khi bạn bật các tính năng này, các tác vụ sau sẽ diễn ra:
 - Một mục menu mới để hiển thị trường chi phí được thêm vào.
 - Bạn vẫn có thể mở trang **Báo cáo chi phí** trước bằng cách chuyển tới **Quản lý chi phí> Chi phí của tôi > Báo cáo chi phí**.
 - Quy trình làm việc và mọi mục phê duyệt vẫn đưa bạn đến trang báo cáo chi phí hiện có.
-- Biên lai sẽ được xử lý thông qua Microsoft Azure Cognitive Services và siêu dữ liệu sẽ được trích xuất và thêm vào.
+- Biên nhận sẽ được xử lý thông qua Dịch vụ nhận thức Microsoft Azure và siêu dữ liệu sẽ được trích xuất và thêm vào.
 - Một tùy chọn được thêm vào, cho phép bạn tạo báo cáo chi phí bao gồm các biên lai chưa đính kèm đã được so khớp.
 - Một tùy chọn được thêm vào báo cáo chi phí, cho phép bạn tạo dòng chi phí từ biên lai hoặc thử so khớp biên lai hiện có với dòng chi phí hiện có.
 
@@ -87,7 +85,18 @@ Không, Microsoft đã xây dựng một mô hình máy học chung cho dịch v
 
 **Tính năng này được cung cấp và xử lý ở đâu?**
 
-Hiện tại, có Hoa Kỳ được hỗ trợ.
+Tính khả dụng của tính năng này ở các khu vực khác nhau được liệt kê trong bảng sau. Nếu khu vực của bạn hiện không được hỗ trợ, hãy gửi yêu cầu để ưu tiên tính khả dụng của dịch vụ OCR trong khu vực của bạn. 
+
+| Khu vực | Hỗ trợ                         |
+|--------|-----------------------------------|
+| Hoa Kỳ    | Có                               |
+| CAN    | Có                               |
+| Vương quốc Anh     | Có                               |
+| AUS    | Có                               |
+| EU     | Một phần nào đó. Biên lai chỉ bằng tiếng Anh. |
+| Châu Á   | No                                |
+| Nhật Bản  | No                                |
+| Châu phi | No                                |
 
 **Biên lai của tôi sẽ chuyển tới đâu?**
 

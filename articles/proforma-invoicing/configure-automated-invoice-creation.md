@@ -2,18 +2,16 @@
 title: Đặt cấu hình hoạt động tạo hóa đơn tự động
 description: Chủ đề này cung cấp thông tin về cách thức đặt cấu hình để hệ thống tự động tạo hóa đơn.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122459"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992682"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Đặt cấu hình hoạt động tạo hóa đơn tự động
 
@@ -45,3 +43,6 @@ Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp l�
 
 > [!NOTE]
 > Việc lập hóa đơn theo lô chỉ chạy cho các dòng hợp đồng dự án được định cấu hình theo lịch trình hóa đơn. Mô tả hợp đồng với phương thức thanh toán giá cố định phải được định cấu hình các mốc. Mô tả hợp đồng dự án với phương thức thanh toán theo thời gian và vật tư cần thiết lập lịch trình lập hóa đơn theo ngày. Điều này cũng áp dụng cho mô tả hợp đồng dựa trên dự án.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

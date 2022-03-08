@@ -2,18 +2,16 @@
 title: Lập hóa đơn khoản trả trước hoặc khoản tạm ứng
 description: Chủ đề này cung cấp thông tin về cách lập hóa đơn khoản trả trước hoặc khoản tạm ứng trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 238b55e906fb66415cf46d3abc8827d85c174dd7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596218"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004017"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
 
@@ -51,3 +49,6 @@ Bạn có thể thấy mục này trong lưới **Khoản trả trước và t�
 | Số tiền đã dùng | Lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn dự án**  | Trường chỉ đọc này cung cấp giá trị đã tính toán bao gồm số tiền đã sử dụng của khoản trả trước hoặc tạm ứng. | Trường này có thể được hiển thị cho khách hàng trên hóa đơn đã in để cho biết số tiền đã sử dụng trong khoản trả trước hoặc tạm ứng này. |
 | Số tiền Cộng thêm | Lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn dự án**  | Trường có thể sửa này cung cấp số tiền của khoản trả trước hoặc tạm ứng hiện được sử dụng trên hóa đơn dự án này. Số tiền này không thể nhiều hơn số tiền có sẵn trong khoản tạm ứng. Hệ thống tự động tính toán mục này dưới dạng hiệu số giữa các giá trị trường **Số tiền** và **Số tiền đã sử dụng** trên lưới. Bạn có thể giảm giá trị này để không sử dụng hết số tiền hiện có, nhưng bạn không thể tăng số tiền vượt quá mức hiện có. | Trường này có thể được hiển thị cho khách hàng trên hóa đơn đã in để cho biết số tiền trong khoản trả trước hoặc tạm ứng này hiện được dùng trên hóa đơn. |
 | Số dư trong khoản trả trước. | Lưới **Khoản trả trước và tạm ứng đã áp dụng** trên trang **Hóa đơn dự án**  | Trường chỉ đọc này cung cấp số tiền còn lại trong khoản trả trước hoặc tiền tạm ứng sau khi hóa đơn được xác nhận. | Trường này có thể được hiển thị cho khách hàng trên hóa đơn đã in để cho biết số tiền còn lại trong khoản trả trước hoặc tạm ứng này sau khi hóa đơn được xác nhận và thanh toán. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

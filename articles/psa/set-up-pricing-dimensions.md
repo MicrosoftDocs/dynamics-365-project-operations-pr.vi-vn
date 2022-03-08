@@ -2,12 +2,10 @@
 title: Thiết lập trường tùy chỉnh làm thông số định giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập thông số định giá tùy chỉnh.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150379"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002357"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá 
 
@@ -43,11 +41,11 @@ Chủ đề này cung cấp thông tin về cách thiết lập thông số đ�
 - Được tạo dưới dạng trường trong các thực thể **Giá theo vai trò** và **Tăng Giá theo vai trò**. Để biết thêm thông tin về cách thực hiện, hãy xem phần [Thêm trường tùy chỉnh vào các thực thể giao dịch và thiết lập giá](field-references.md).
 - Tạo dưới dạng hàng trong bảng **Thông số định giá**. Ví dụ: thêm các hàng thông số định giá như hiển thị trong đồ thị sau. 
 
-![Hàng thông số định giá dựa trên số tiền](media/Amt-based-PD.png)
+![Hàng thông số định giá dựa trên số tiền.](media/Amt-based-PD.png)
 
 Lưu ý rằng số giờ Làm việc của nguồn lực (**msdyn_resourceworkhours**) đã được thêm vào dưới dạng thông số dựa trên mức tăng và đã được thêm vào lưới trên tab **Thông số định giá dựa trên mức tăng**.
 
-![Hàng thông số định giá dựa trên mức tăng](media/Markup-based-PD.png)
+![Hàng thông số định giá dựa trên mức tăng.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Mọi thay đổi với dữ liệu thông số định giá trong bảng này, dù là hiện có hay mới, chỉ được truyền đến logic kinh doanh định giá Project Service sau khi làm mới bộ đệm ẩn. Thời gian làm mới bộ đệm ẩn có thể mất đến 10 phút. Cho phép khoảng thời gian đó để xem các thay đổi trong logic giá mặc định phải bắt nguồn từ những thay đổi với dữ liệu Thông số định giá.
@@ -73,12 +71,12 @@ Có hai loại thông số định giá:
   
 | Vai trò        | Đơn vị tổ chức    |Vị trí làm việc      |Tiêu đề chuẩn      |Giờ làm việc của nguồn lực      |  Tăng giá|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
-|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
-|             | Contoso US   |Cục bộ             |                    |Làm thêm                 |20     |
+|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
+|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
+|             | Contoso Hoa Kỳ   |Cục bộ             |                    |Làm thêm                 |20     |
 
 
-Nếu một nguồn lực từ Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở, họ ghi 8 giờ làm việc bình thường và 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá Project Service sẽ sử dụng giá cơ sở là 100 cho 8 giờ để thành 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
+Nếu một nguồn lực ở Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở và người đó ghi 8 giờ làm việc bình thường, 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá của Project Service sẽ sử dụng giá cơ sở là 100 cho 8 giờ để ghi lại 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
 
 ### <a name="applicable-to-cost"></a>Áp dụng cho chi phí 
 Nếu được đặt thành **Có**, thì tùy chọn này chỉ ra rằng giá trị thông số từ ngữ cảnh đầu vào sẽ được dùng để khớp với **Giá theo vai trò** và **Mức tăng Giá theo vai trò** khi truy xuất chi phí và mức tăng giá.
@@ -94,3 +92,6 @@ Việc đặt ra ưu tiên thông số sẽ giúp tính năng định giá Proje
 
 - **Ưu tiên về chi phí**: Giá trị ưu tiên chi phí của một thông số sẽ chỉ ra trọng số của thông số đó khi so khớp trong quá trình thiết lập giá chi phí. Giá trị **Ưu tiên chi phí** phải là duy nhất trên các thông số **Áp dụng cho chi phí**.
 - **Ưu tiên về doanh số**: Giá trị ưu tiên doanh số của một thông số sẽ chỉ ra trọng số của thông số đó khi so khớp trong quá trình thiết lập giá bán hàng hoặc tỷ suất hóa đơn. Giá trị **Ưu tiên doanh số** phải là duy nhất trên các thông số **Áp dụng cho doanh số**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

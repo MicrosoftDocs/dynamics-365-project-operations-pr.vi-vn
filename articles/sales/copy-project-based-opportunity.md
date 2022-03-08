@@ -2,18 +2,16 @@
 title: Sao chép cơ hội dựa trên dự án
 description: Chủ đề này cung cấp thông tin về việc sao chép cơ hội dựa trên dự án trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181716"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999747"
 ---
 # <a name="copy-project-based-opportunities"></a>Sao chép cơ hội dựa trên dự án
 
@@ -34,3 +32,6 @@ Cơ hội dự án có thể được sao chép dễ dàng để tạo cơ hội
     | Sao chép giá | Giá trị Có/Không cho biết liệu giá trên cơ hội có được sao chép từ cơ hội nguồn hay không. | Nếu là **Có**, thì bảng giá được sao chép từ cơ hội nguồn sang cơ hội mục tiêu. Nếu bạn chọn **Không**, thì bảng giá được lấy mặc định dựa trên bảng giá mới nhất đã được thiết lập. |
 
 3. Chọn **OK**. Hệ thống tạo một bản sao cơ hội dự án dựa trên các tham số đã chọn và cơ hội dự án mới được mở ra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

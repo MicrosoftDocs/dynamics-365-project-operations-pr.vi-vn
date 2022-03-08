@@ -2,18 +2,16 @@
 title: Tổng quan về quy trình lập hóa đơn
 description: Chủ đề này trình bày tổng quan về quy trình lập hóa đơn trong Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001542"
 ---
 # <a name="invoicing-process-overview"></a>Tổng quan về quy trình lập hóa đơn
 
@@ -30,3 +28,6 @@ Người quản lý dự án có thể xem xét các giao dịch bán hàng chư
 Bạn có thể [tạo thủ công hóa đơn ước giá](../proforma-invoicing/create-manual-proforma-invoice.md) hoặc sử dụng một [quy trình định kỳ](../proforma-invoicing/configure-automated-invoice-creation.md). Người quản lý dự án có thể [điều chỉnh bản nháp hóa đơn ước giá](../proforma-invoicing/manage-proforma-invoice.md) khi cần rồi xác nhận hóa đơn.
 
 Hóa đơn ước giá đã xác nhận được gửi đến mô-đun **Quản lý dự án và kế toán** trong phần Finance. Kế toán dự án định dạng và cập nhật đề xuất hóa đơn dự án, sau đó đăng và in tài liệu đó. Các hóa đơn dự án đã đăng được ghi cả trong Sổ cái chung lẫn sổ cái phụ của Khách hàng và Dự án.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

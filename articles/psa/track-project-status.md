@@ -2,8 +2,6 @@
 title: Theo dõi trạng thái của dự án
 description: Làm cách nào để theo dõi tình trạng dự án trong Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9c8b594d468016264d0b4d9745597a35f55e50e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149614"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996732"
 ---
 # <a name="track-a-projects-status-project-service"></a>Theo dõi tình trạng dự án (Project Service)
 
@@ -58,3 +56,6 @@ Về khía cạnh tiến độ cam kết, các giai đoạn dự án sẽ cập 
 
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn của Quản lý Dự án](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

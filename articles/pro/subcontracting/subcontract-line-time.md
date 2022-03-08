@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547270"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323892"
 ---
 # <a name="subcontract-lines-for-time"></a>Mô tả hợp đồng phụ cho thời gian
 
@@ -30,22 +30,23 @@ Một hợp đồng phụ trong Dynamics 365 Project Operations có thể có m�
 
   Bảng sau cung cấp thông tin về các trường trên trang **Mô tả hợp đồng phụ** và trang **Tạo nhanh**.
 
-| **Trường** | **Mô tả** | **Tác động chức năng** |
-| --- | --- | --- |
-| Tên | Tên của mô tả hợp đồng phụ để giúp xác định. | Đây sẽ được hiển thị là cột đầu tiên trong tất cả các tra cứu dựa trên các mô tả hợp đồng phụ. |
-| Mô tả | Mô tả ngắn gọn về các dịch vụ đang được mua trên mục mô tả hợp đồng phụ. |Không có |
-| Loại mô tả |   Trường này có giá trị mặc định là **Dựa trên số lượng**.| Không có |
-| Phương thức thanh toán | Đây là bộ tùy chọn đại diện cho hai mô hình hợp đồng chính được Project Operations hỗ trợ: **Giá cố định** và **Thời gian và Vật liệu**. | Dựa trên phương thức thanh toán đã chọn, một lịch biểu hóa đơn dựa trên mốc thời gian được cung cấp cho các mô tả hợp đồng phụ với phương thức thanh toán Giá cố định. |
-| Lớp giao dịch | Giá trị mặc định là **Thời gian**. | Điều này cho thấy rằng mô tả hợp đồng phụ đang được sử dụng để ghi lại việc mua thời gian của nhà thầu phụ. |
-| Vai trò | Chọn vai trò của các nguồn lực hợp đồng phụ có thời gian được mua. | Vai trò được thực hiện bởi các nguồn lực của hợp đồng phụ xác định chi phí mua hàng. |
-| Ngày bắt đầu được yêu cầu | Nhập ngày mà các nguồn lực của nhà thầu phụ được yêu cầu để bắt đầu hoạt động. | Điều này được sử dụng để chọn một bảng giá dự án từ các bảng giá dự án kèm theo hợp đồng phụ. Chi phí của vai trò trên mô tả thầu phụ lấy từ bảng giá đó. |
-| Ngày kết thúc được yêu cầu | Nhập ngày kết thúc phân công nguồn lực của nhà thầu phụ. | Điều này sẽ được sử dụng để hiển thị các cảnh báo khi người quản lý dự án rút ra từ khả năng cho các yêu cầu nguồn lực xảy ra sau ngày này. |
-| Số lượng đã đặt hàng | Nhập số giờ của vai trò được mua từ nhà cung cấp. | Điều này sẽ được sử dụng để hiển thị cảnh báo khi một người quản lý dự án đang sử dụng quá mức năng lực này cho các yêu cầu nguồn lực. |
-| nhóm đơn vị đo | Giá trị mặc định là **Nhóm đơn vị đo thời gian**, không thể thay đổi. | Không có|
-| Đơn vị | Giá trị mặc định cho trường này là đơn vị giờ cơ bản từ **Nhóm đơn vị đo thời gian**. Bạn có thể thay đổi giá trị này để mua bất kỳ đơn vị nào trong **Nhóm đơn vị đo thời gian**, chẳng hạn như ngày hoặc tuần. | Sự kết hợp của **Vai trò** và **Đơn vị** sẽ được sử dụng làm mặc định hoặc được tính cho đơn giá cho mô tả hợp đồng phụ. |
-| Đơn giá | Đơn giá mặc định sử dụng kết hợp **Vai trò** và **Đơn vị** từ bảng giá dự án áp dụng cho ngày **Bắt đầu được yêu cầu** của mô tả hợp đồng phụ. | Khi bảng giá dự án áp dụng có giá được lập theo đơn vị khác với đơn vị trên mô tả hợp đồng phụ, hệ thống sẽ sử dụng quy đổi đơn vị để tính theo đơn giá. |
-| Tổng con |    Đây là trường chỉ đọc được tính là Số lượng x Đơn giá, nếu cả giá trị số lượng và đơn giá đều được nhập. Nếu một trong hai hoặc cả hai trường số lượng, đơn giá đều trống, thì bạn có thể nhập giá trị vào trường này. | Không có|
-| Thuế doanh thu |   Nhập số tiền thuế bán hàng. |Không có |
-| Tổng số tiền | Tổng số tiền của mô tả hợp đồng phụ bao gồm thuế. Trường này được tính là Tổng phụ + Thuế bán hàng.|Không có |
+| **Trường** | **Mô tả** |
+| --- | --- |
+| Tên | Tên của mô tả hợp đồng phụ. |
+| Mô tả | Mô tả ngắn gọn về các dịch vụ đang được mua trên mục mô tả hợp đồng phụ. | 
+| Loại mô tả | Trường này là một giá trị mặc định.  |
+| Phương thức thanh toán | Chọn phương thức thanh toán. Dựa trên phương thức thanh toán của mô tả hợp đồng phụ được tham chiếu, lịch trình hóa đơn dựa trên cột mốc có sẵn cho phương thức thanh toán theo Giá cố định. |
+| Lớp giao dịch | Trường này là một giá trị mặc định cho biết mô tả hợp đồng phụ có đang được sử dụng để ghi lại việc mua thời gian của nhà thầu phụ hay không. |
+| Vai trò | Vai trò của các nguồn lực của hợp đồng phụ có thời gian được mua. Vai trò được giao cho các nguồn lực của hợp đồng phụ quyết định chi phí mua hàng. |
+| Ngày bắt đầu được yêu cầu | Ngày mà các nguồn lực của nhà thầu phụ được yêu cầu để bắt đầu hoạt động. Ngày yêu cầu được sử dụng để chọn một bảng giá dự án từ các bảng giá dự án kèm theo hợp đồng phụ. Khi đó, chi phí của vai trò trên mô tả hợp đồng phụ được mặc định từ bảng giá đó. |
+| Ngày kết thúc được yêu cầu | Ngày kết thúc công việc của nguồn lực của nhà thầu phụ. Ngày này được sử dụng để hiển thị cảnh báo khi Người quản lý dự án rút ra từ năng lực này đối với các yêu cầu nguồn lực xảy ra sau ngày này. |
+| Số lượng đã đặt hàng | Số giờ của Vai trò được mua từ nhà cung cấp. Giá trị này được sử dụng để hiển thị cảnh báo khi Người quản lý dự án rút ra quá mức từ năng lực này đối với các yêu cầu nguồn lực. |
+| nhóm đơn vị đo | Giá trị trường này mặc định cho nhóm Đơn vị thời gian và không thể thay đổi.  |
+| Đơn vị | Trường này mặc định là đơn vị giờ cơ sở từ nhóm Đơn vị thời gian. Bạn có thể thay đổi giá trị này để mua bất kỳ đơn vị nào trong nhóm Đơn vị thời gian, chẳng hạn như ngày hoặc tuần. Sự kết hợp giữa Vai trò và Đơn vị được sử dụng để tính đơn giá cho mô tả hợp đồng phụ. |
+| Đơn giá | Đơn giá đặt mặc định từ kết hợp Vai trò và Đơn vị từ bảng giá dự án áp dụng cho ngày bắt đầu được yêu cầu của mô tả hợp đồng phụ. Khi bảng giá dự án áp dụng có giá được lập theo đơn vị khác với đơn vị trên mô tả hợp đồng phụ, hệ thống sẽ sử dụng quy đổi đơn vị để tính theo đơn giá. |
+| Tổng con | Đây là trường chỉ đọc được tự động tính là **Số lượng x Đơn giá** nếu cả giá trị số lượng và đơn giá được nhập. Nếu một trong hai hoặc cả hai trường số lượng, đơn giá đều trống, thì bạn có thể nhập giá trị vào trường này. |
+| Thuế doanh thu |  Nhập số tiền thuế bán hàng. |
+| Tổng số tiền | Tổng số tiền của mô tả hợp đồng phụ sau khi bao gồm thuế. |
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

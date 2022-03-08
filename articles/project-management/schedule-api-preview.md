@@ -2,22 +2,23 @@
 title: Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 description: Chủ đề này cung cấp thông tin và các mẫu để sử dụng API lịch trình dự án.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487711"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008792"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-
+> [!IMPORTANT] 
+> Một số hoặc tất cả chức năng được ghi chú trong chủ đề này khả dụng như một phần của bản phát hành xem trước. Nội dung và chức năng có thể thay đổi. 
 
 ## <a name="scheduling-entities"></a>Thực thể lập lịch trình
 

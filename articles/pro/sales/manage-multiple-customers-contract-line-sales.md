@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9dfaa766f3d6064bb84dcd1b032e0e279b1b9cdf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273269"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án - bản đơn giản
 
@@ -43,3 +43,6 @@ Dưới đây là các trường trên hồ sơ khách hàng trong phần mô t�
 Bạn có thể chỉnh sửa tỷ lệ phần trăm thanh toán trong lưới. Khi tổng các tỷ lệ phần trăm thanh toán không bằng 100 phần trăm, sẽ xảy ra lỗi. Sau khi bạn chỉnh sửa tỷ lệ phần trăm thanh toán, hãy làm mới trang để loại bỏ lỗi đó.
 
 Bạn cũng có thể chọn **Phân phối đồng đều** trên lưới con hiển thị khách hàng trong phần mô tả hợp đồng. Thao tác này phân bổ đồng đều các phần thanh toán cho tất cả khách hàng trong phần mô tả hợp đồng. Nếu có bất kỳ hệ số làm tròn nào, hệ số này sẽ được thêm cho khách hàng làm tròn. Một khách hàng trong phần mô tả hợp đồng sẽ luôn được gắn thẻ là khách hàng **Làm tròn** với cờ **Làm tròn** được đặt thành **Có**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

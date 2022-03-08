@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147679"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283259"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Làm việc với mô hình dữ liệu Project Service Automation
 
@@ -87,7 +87,7 @@ Thực thể **Dự án** và các thực thể liên quan dành riêng cho PSA.
 
 ## <a name="reporting-on-resources"></a>Báo cáo về nguồn lực
 
-Nguồn lực dự án dùng các thực thể **Nguồn lực có thể đăng ký** từ Universal Resource Scheduling (URS) được chia sẻ bằng các ứng dụng khác, chẳng hạn như Microsoft Dynamics 365 Field Service. Dưới đây là danh sách các thực thể mà bạn có thể phải dùng khi báo cáo về các nguồn lực dự án:
+Nguồn lực dự án sử dụng các thực thể **Nguồn lực có thể đăng ký** từ Universal Resource Scheduling (URS) được chia sẻ với các ứng dụng khác, chẳng hạn như Microsoft Dynamics 365 Field Service. Dưới đây là danh sách các thực thể mà bạn có thể phải dùng khi báo cáo về các nguồn lực dự án:
 
 - **Nguồn lực có thể đăng ký** – Thực thể này đại diện cho người dùng, liên hệ, nguồn lực chung, tài khoản, nhóm hoặc thiết bị dùng trên nhóm dự án.
 - **Đặc điểm nguồn lực có thể đăng ký** – Thực thể này bao gồm kỹ năng, chứng nhận hoặc thông tin giáo dục của nguồn lực. Các đặc điểm có thể có giá trị xếp hạng được xác định bởi mô hình xếp hạng.
@@ -123,3 +123,6 @@ Khi đang làm việc với thực thể **Thực tế**, bạn phải hiểu gi
 Thực thể **Nguồn gốc giao dịch** ghi lại nguồn gốc của bản ghi **Thực tế** và các bản ghi thực thể **Kết nối giao dịch** ghi lại các bản ghi cho bản ghi **Thực tế**. Ngoài ra, bản ghi **Thực tế** chứa tham chiếu dự án, hợp đồng dự án (đơn hàng), nguồn lực có thể đăng ký và khách hàng.
 
 ![Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế](media/PS-Reporting-image6.png "Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

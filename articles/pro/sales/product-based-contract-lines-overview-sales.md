@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272684"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177897"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bạn có thể tạo mô tả báo giá dựa trên sản phẩm trong Dynamics 365 Project Operations. Mô tả hợp đồng dựa trên sản phẩm có thể là mô tả được tạo thủ công hoặc các mục từ danh mục sản phẩm.
+Bạn có thể tạo các mô tả hợp đồng dựa trên sản phẩm trong Dynamics 365 Project Operations. Mô tả hợp đồng dựa trên sản phẩm có thể là mô tả được tạo thủ công hoặc các mục từ danh mục sản phẩm.
 
 ## <a name="product-catalog"></a>Danh mục sản phẩm
 
@@ -46,6 +46,3 @@ Nếu mô tả hợp đồng dựa trên danh mục sản phẩm, bạn có th�
 Nếu bạn đặt trường **Giá** thành **Ghi đè giá**, giá mặc định không được đặt. Nhập giá cho sản phẩm trên mô tả hợp đồng. Nếu bạn đặt trường thành **Sử dụng mặc định**, giá bán mặc định được sử dụng và không thể chỉnh sửa trường.
 
 Sau khi bạn cài đặt Project Operations, giá bán hàng mặc định được nhập trên mô tả dựa trên sản phẩm trên hợp đồng. Sau đó, trường **Giá** được đặt thành **Thay thế giá** để bạn có thể chỉnh sửa giá mặc định trên mô tả hợp đồng. Đây là giá trị ghi đè dành riêng cho Project Operations đối với hành vi mô tả dựa trên sản phẩm trong Dynamics 365 Sales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

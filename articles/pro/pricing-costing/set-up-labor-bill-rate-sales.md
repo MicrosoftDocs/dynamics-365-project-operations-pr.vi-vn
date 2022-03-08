@@ -2,24 +2,22 @@
 title: Thiết lập tỷ lệ hóa đơn lao động – bản đơn giản
 description: Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ thanh toán nhân công trong Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007622"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Thiết lập tỷ lệ hóa đơn lao động – bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Mỗi bảng giá có một tập hợp giá theo vai trò hoặc giá nhân công, hiệu quả cho ngữ cảnh và ngày hiệu quả có trên tiêu đề bảng giá. Tỷ giá hóa đơn cho thời gian trong Dynamics 365 Project Operations chỉ có thể được thiết lập bằng một đơn vị tiền tệ, là đơn vị tiền tệ trên tiêu đề Bảng giá.
+Mỗi bảng giá có một tập hợp giá theo vai trò hoặc giá nhân công, hiệu quả cho ngữ cảnh và ngày hiệu quả có trên tiêu đề bảng giá. Tỷ lệ hóa đơn cho thời gian trong Dynamics 365 Project Operations chỉ có thể được thiết lập bằng một đơn vị tiền tệ, đó là đơn vị tiền tệ trên tiêu đề Bảng giá.
 
 1. Để thiết lập tỷ lệ hóa đơn nhân công cho một bảng giá bán hàng, hãy tạo một bảng giá dựa trên tiêu đề bảng giá. 
 2. Trên tab **Giá theo vai trò**, trong lưới con, hãy chọn **+ Giá theo vai trò mới**. 
@@ -55,3 +53,6 @@ Ví dụ: một nhà phát triển từ Fabrikam Ấn Độ đang làm việc tr
     | Nhà phát triển | Fabrikam Hoa Kỳ | 150 USD |
 
 3. Đính kèm bảng giá bán hàng, **Tỷ lệ thanh toán Fabrikam Hoa Kỳ** vào bảng giá dự án của hợp đồng dự án hoặc vào một tài khoản nhất định.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

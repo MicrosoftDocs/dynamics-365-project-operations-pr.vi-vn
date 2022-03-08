@@ -2,18 +2,16 @@
 title: Nhật ký tích hợp trong Project Operations
 description: Chủ đề này cung cấp thông tin về cách làm việc với Nhật ký tích hợp trong Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987957"
 ---
 # <a name="integration-journal-in-project-operations"></a>Nhật ký tích hợp trong Project Operations
 
@@ -21,14 +19,14 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Các mục nhập thời gian và chi phí tạo ra các giao dịch **Thực tế** thể hiện quan điểm hoạt động của công việc đã hoàn thành dựa trên một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Nhân viên kế toán có thể thực hiện các hoạt động này bằng cách sử dụng nhật ký **Tích hợp Project Operations** (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Nhật ký** > nhật ký **Tích hợp Project Operations**).
 
-![Luồng nhật ký tích hợp](./media/IntegrationJournal.png)
+![Luồng nhật ký tích hợp.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Tạo bản ghi trong nhật ký Tích hợp Project Operations
 
 Các bản ghi trong nhật ký Tích hợp Project Operations được tạo bằng quy trình định kỳ **Nhập từ bảng tách chuyển**. Bạn có thể chạy quy trình này bằng cách đi tới **Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Định kỳ** > **Tích hợp Project Operations** > **Nhập từ bảng tách chuyển**. Bạn có thể chạy quy trình này theo cách tương tác hoặc đặt cấu hình quy trình để chạy trong nền khi cần.
 
 Khi quy trình định kỳ chạy, bất kỳ giao dịch thực tế nào chưa được thêm vào nhật ký Tích hợp Project Operations đều được tìm thấy. Một dòng nhật ký kế toán cho mỗi giao dịch thực tế sẽ được tạo.
-Hệ thống nhóm các dòng nhật ký kế toán thành các nhật ký riêng dựa trên giá trị được chọn trong trường **Đơn vị kỳ trên nhật ký Tích hợp Project Operations** (**Tài chính** > **Quản lý dự án và kế toán** > **Thiết lập** > **Các tham số quản lý dự án và kế toán**, **Project Operations trên tab Dynamics 365 Customer Engagement**). Các giá trị có thể có cho trường này bao gồm:
+Hệ thống nhóm các dòng nhật ký kế toán thành các nhật ký riêng dựa trên giá trị được chọn trong trường **Đơn vị kỳ trên nhật ký Tích hợp Project Operations** (**Finance** > **Quản lý dự án và kế toán** > **Thiết lập** > **Các tham số quản lý dự án và kế toán**, **Project Operations trên tab Dynamics 365 Customer Engagement**). Các giá trị có thể có cho trường này bao gồm:
 
   - **Ngày**: Các giá trị thực tế được nhóm theo ngày giao dịch. Một nhật ký riêng được tạo cho mỗi ngày.
   - **Tháng**: Các giao dịch thực tế được nhóm theo tháng. Một nhật ký riêng được tạo cho mỗi tháng.

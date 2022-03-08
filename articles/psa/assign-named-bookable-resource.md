@@ -2,8 +2,6 @@
 title: Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ
 description: Chủ đề này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho nhóm dự án và chỉ định nhiệm vụ cho nguồn lực.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998667"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ 
 
@@ -36,35 +34,38 @@ Bạn có thể thêm nguồn lực được đặt tên vào nhóm dự án c�
 1. Trong Project Service Automation, truy cập **Dự án**, sau đó chọn mở dự án mà bạn đặt lịch.
 2. Trên trang **Dự án**, trên tab **Nhóm**, nhấp vào **Mới**. 
 
-![Thêm thành viên nhóm từ tab Nhóm](media/RM-how-to-1.png)
+![Thêm thành viên nhóm từ tab Nhóm.](media/RM-how-to-1.png)
 
 3. Trong hộp thoại **Tạo nhanh thành viên nhóm dự án**, chọn nguồn lực có thể đặt lịch. Trường **Vai trò** sẽ điền bằng vai trò mặc định của nguồn lực nếu họ được chỉ định. Bạn có thể thay đổi vai trò này nếu cần. 
 4. Chọn ngày bắt đầu và kết thúc mà nguồn lực sẽ cần và chọn phương pháp phân bổ năng lực của nguồn lực. 
 5. Nếu bạn muốn thành viên nhóm là người phê duyệt dự án, chọn **Có** trong trường **Người phê duyệt dự án**. Điều này có nghĩa là thành viên nhóm có thể phê duyệt các mục nhập thời gian và chi phí đã gửi cho dự án này. 
 6. Bấm vào **Lưu**.
 
-![Thêm thành viên nhóm trên biểu mẫu tạo nhanh](media/RM-how-to-2.png)
+![Thêm thành viên nhóm trên biểu mẫu tạo nhanh.](media/RM-how-to-2.png)
 
 
 Bây giờ bạn có thể gán nguồn lực đã đặt cho các nhiệm vụ dự án. Trên trang **Dự án**, nhấp và tab **Lên lịch** để gán nhiệm vụ cho tài nguyên mới. Bộ chọn nguồn lực được khởi chạy từ trường **Nguồn lực** trong lưới nhiệm vụ sẽ hiển thị các thành viên nhóm mà bạn có thể chọn.
 
-![Chỉ định thành viên nhóm cho nhiệm vụ trên tab lịch trình](media/RM-how-to-3.png)
+![Chỉ định thành viên nhóm cho nhiệm vụ trên tab lịch trình.](media/RM-how-to-3.png)
 
 Trong phiên bản 3 của Project Service Automation (PSA), việc đặt lịch nguồn lực và gán nhiệm vụ không ghép đôi chặt chẽ với nhau. Điều này có nghĩa là khi bạn sử dụng bộ chọn nguồn lực trong lịch trình, bạn có thể gán nhiệm vụ cho các thành viên trong nhóm trong nhiều giờ hơn so với đặt lịch của họ trên dự án.
 Bạn có thể thấy sự khác biệt giữa đặt lịch và phân công thành viên nhóm trên tab **Nhóm** hoặc tab **Hợp nhất nguồn lực**. Bạn cũng có thể hợp nhất sự khác biệt giữa các đặt chỗ và phân công cho các nguồn lực ở mức chi tiết hơn.
 
-![Tab hợp nhất nguồn lực](media/RM-how-to-4.png)
+![Tab hợp nhất nguồn lực.](media/RM-how-to-4.png)
 
 Bạn cũng có thể sử dụng bộ chọn nguồn lực trên tab **Lên lịch** để tìm kiếm và chọn các nguồn lực có thể đặt lịch không phải là một phần của nhóm dự án. Chúng được hiển thị trong bộ chọn nguồn lực dưới dạng **Nguồn lực khác**.
 
-![Phân công nhiệm vụ cho một nguồn lực không phải thành viên nhóm](media/RM-how-to-5.png)
+![Phân công nhiệm vụ cho một nguồn lực không phải thành viên nhóm.](media/RM-how-to-5.png)
 
 Khi bạn thực hiện việc này, nguồn lực đó sẽ được thêm vào nhóm dự án và phân công tác vụ, nhưng không tạo đặt lịch.
 
-![Thành viên nhóm được phân công và không có đặt lịch](media/RM-how-to-6.png)
+![Thành viên nhóm được phân công và không có đặt lịch.](media/RM-how-to-6.png)
 
 Bạn có thể sử dụng khả năng đặt lịch mở rộng của tab **Hợp nhất** hoặc **Bảng lịch trình** để đặt lịch năng lực của nguồn lực cho dự án.
 
-![Mở rộng các đặt lịch cho một thành viên nhóm trên tab hợp nhất nguồn lực](media/RM-how-to-7.png)
+![Mở rộng các đặt lịch cho một thành viên nhóm trên tab hợp nhất nguồn lực.](media/RM-how-to-7.png)
 
 Sau khi một thành viên nhóm được đặt lịch trên dự án của bạn, bạn có thể sử dụng duy trì đặt phòng hoặc sử dụng Bảng lịch trình để trực tiếp quản lý đặt lịch của họ.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

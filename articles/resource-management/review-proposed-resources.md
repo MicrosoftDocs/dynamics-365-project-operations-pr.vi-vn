@@ -2,11 +2,9 @@
 title: Đánh giá nguồn lực được đề xuất
 description: Chủ đề này cung cấp thông tin về cách đề xuất các nguồn lực dự án.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a9d3f7b9194b29859ee1479fea8158067e22e819e8f190ef1659e14b7c0cd6b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998037"
 ---
 # <a name="review-proposed-resources"></a>Đánh giá nguồn lực được đề xuất
 
@@ -58,7 +56,10 @@ Bảng lịch trình dùng màu và bóng để hiển thị đăng ký, trạng
 
 Nếu một mũi tên trỏ sang phải xuất hiện bên cạnh nguồn lực riêng có thể đăng ký trên Bảng lịch trình, thì nguồn lực có thể được mở rộng để hiển thị chi tiết của công việc mà nguồn lực được đăng ký.
 
-Do Dynamics 365 Project Operations sử dụng công cụ Universal Resource Scheduling, nếu bạn cũng đã cài Dynamics 365 Field Service, bạn có thể xem chi tiết về đăng ký nguồn lực cho dự án, lệnh sản xuất và mọi thực thể khác mà bạn đã mở rộng lịch trình đến đó.
+Vì Dynamics 365 Project Operations dùng công cụ Universal Resource Scheduling, nếu bạn cũng có Dynamics 365 Field Service được cài đặt, bạn có thể xem chi tiết của đăng ký nguồn lực cho dự án, lệnh sản xuất và mọi thực thể khác mà bạn đã mở rộng lập lịch đến.
 
 Để xem thêm chi tiết về nguồn lực riêng, hãy bấm chuột phải để mở thẻ nguồn lực.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

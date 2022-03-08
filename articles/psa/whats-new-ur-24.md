@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 956dcd2a06fad1eec488ad81bec2de4bd0550e82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146734"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948941"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Phát hành bản cập nhật Project Service Automation 24, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
 Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 24. Phiên bản này có số bản dựng là V 3.10.42.43 và thường có sẵn thông qua bản tự cập nhật vào tháng 10 năm 2020.
 
@@ -81,3 +81,6 @@ Các vấn đề sau đã được khắc phục:
 - Nút **Làm mới giá trị thực tế** tính toán không chính xác các nhiệm vụ tóm tắt.
 - Phần bổ trợ Microsoft Project: Khắc phục lỗi tham chiếu rỗng nếu bất kỳ thành viên nào trong nhóm có đơn vị cung ứng nguồn lực trống.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Quản lý việc ủy nhiệm
 description: Chủ đề này cung cấp thông tin về cách người đại diện chi phí có thể tạo và quản lý báo cáo chi phí cho một nhân viên khác.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122729"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997812"
 ---
 # <a name="manage-delegation"></a>Quản lý việc ủy nhiệm
 Người đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác.
@@ -39,3 +37,6 @@ Nếu phím quản lý tính năng **Bật trang danh sách người đại di�
 Người đại diện có thể nhanh chóng lọc và tìm kiếm các báo cáo chi phí hiện có do họ đại diện. Người đại diện cũng có thể nhanh chóng tạo một báo cáo chi phí mới cho những người dùng khác bằng cách chọn **Báo cáo chi phí mới**.
 
 Người đại diện có thể tạo và quản lý báo cáo chi phí cho các nhân viên khác bằng cách chuyển đến **Quản lý chi phí** > **Chi phí của tôi** > **Báo cáo chi phí** rồi chọn **Mở chi phí của người dùng khác**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

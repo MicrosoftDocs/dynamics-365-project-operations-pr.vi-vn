@@ -2,11 +2,9 @@
 title: Quản lý năng lực của nguồn lực
 description: Chủ đề này cung cấp thông tin về việc thiết lập năng lực cho nguồn lực dự án.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270659"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007442"
 ---
 # <a name="manage-resource-competencies"></a>Quản lý năng lực của nguồn lực
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270659"
 
 Năng lực của nguồn lực là một phần thiết yếu trong quản lý nguồn lực. Năng lực có thể được sử dụng làm cơ sở để xác định các nguồn lực có sự cân bằng chính xác về kỹ năng, giáo dục, chứng nhận và kinh nghiệm dự án. Bạn nên thiết lập thông tin này cho từng nguồn lực và cập nhật nó một cách thường xuyên. Bằng cách này, bạn có thể tối đa hóa khả năng khi các năng lực của nguồn lực cụ thể được khớp trong quá trình phân công nguồn lực dự án.
 
-[![Ví dụ về kỹ năng, chứng chỉ, học vấn và kinh nghiệm dự án](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Ví dụ về kỹ năng, chứng chỉ, học vấn và kinh nghiệm dự án.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Các quy trình sau đây giải thích cách thiết lập một số năng lực cho nguồn lực.
 
