@@ -2,8 +2,6 @@
 title: Câu hỏi thường gặp về quản lý nguồn lực
 description: Chủ đề này cung cấp câu trả lời cho các câu hỏi thường gặp về quản lý nguồn lực.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144394"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002402"
 ---
 # <a name="resource-management-faq"></a>Câu hỏi thường gặp về quản lý nguồn lực
 
@@ -54,3 +52,6 @@ Chỉ có các loại nguồn lực **Người dùng** và **Liên hệ** đư�
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Sự khác biệt giữa phân công và đăng ký là gì?
 
 Phân công là phân công nguồn lực cho các nhiệm vụ dự án trong lịch trình dự án. Các nguồn lực có thể là các nguồn lực thật hoặc chung. Đăng ký là việc phân bổ nguồn lực cho dự án theo cách chắc chắn hoặc không chắc chắn. Đăng ký chắc chắn chiếm năng lực của nguồn lực. Đối với các nguồn lực thực, tốt nhất là đăng ký và phân công nên nhất quán vì không khác nhau. Tuy nhiên, PSA không thực thi thỏa thuận này. Dạng xem Điều hòa hiển thị cho người quản lý dự án nơi đăng ký và phân công của nguồn lực không nhất quán.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

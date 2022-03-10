@@ -2,11 +2,9 @@
 title: Đặt cấu hình việc lập hóa đơn dự án liên công ty
 description: Chủ đề này trình bày cách thiết lập việc lập hóa đơn dự án giữa hai công ty trong tổ chức của bạn.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087167"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989442"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Đặt cấu hình việc lập hóa đơn dự án liên công ty
 
@@ -64,3 +62,6 @@ Chủ đề này trình bày cách thiết lập việc lập hóa đơn dự á
 32. Nhập số vào trường **Định giá**.
 33. Chọn **Lưu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

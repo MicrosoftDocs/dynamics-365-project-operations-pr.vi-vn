@@ -2,18 +2,17 @@
 title: Tổng quan về trợ lý lịch trình
 description: Chủ đề này cung cấp thông tin về cách làm việc với Trợ lý lịch trình để đặt nguồn lực.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990252"
 ---
 # <a name="schedule-assistant-overview"></a>Tổng quan về trợ lý lịch trình
 
@@ -25,7 +24,7 @@ Sau khi các nguồn lực phù hợp được xác định, Người quản lý
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
-Trợ lý lịch trình là một phần của giải pháp Universal Resource Scheduling. Giải pháp này được bao gồm và cài đặt với Dynamics 365 Project Operations, Dynamics 365 Field Service và Dynamics 365 Customer Service.
+Trợ lý lịch trình là một phần của giải pháp Universal Resource Scheduling. Giải pháp này được bao gồm và cài đặt với Dynamics 365 Project Operations,Dynamics 365 Field Service và Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Khớp yêu cầu và nguồn lực
 
@@ -57,3 +56,6 @@ Ngăn bộ lọc hiển thị các tùy chọn liên quan đến công việc, b
 -   Công ty cung cấp nguồn lực
 -   Loại nguồn lực
 -   Nguồn lực ưu tiên
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

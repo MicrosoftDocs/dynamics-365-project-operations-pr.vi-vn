@@ -2,8 +2,6 @@
 title: Tạo mẫu giờ làm việc
 description: Chủ đề này mô tả cách tạo mẫu giờ làm việc trong Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
-ms.translationtype: HT
+ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981281"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987417"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Tạo mẫu giờ làm việc (Project Service)
 
@@ -51,7 +49,7 @@ Mẫu lịch được áp dụng cho dự án là bản sao của mẫu lịch �
 
 1. Truy cập vào **Nguồn lực** \> **Nguồn lực**.
 2. Tạo nguồn lực mới để tham chiếu trong mẫu lịch hoặc chọn một nguồn lực hiện có.
-3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) để định cấu hình các quy tắc lịch.
+3. Chọn tab **Giờ làm việc** của nguồn lực và hoàn thành các hướng dẫn trong [Đặt giờ làm việc cho một nguồn lực](/dynamics365/field-service/set-work-hours-resource.md) để định cấu hình các quy tắc lịch.
 
 **Tạo mẫu lịch mới**
 

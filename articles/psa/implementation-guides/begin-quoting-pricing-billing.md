@@ -2,8 +2,6 @@
 title: Hướng dẫn cơ bản về báo giá, định giá và lập hóa đơn
 description: Chủ đề này cung cấp liên kết đến thông tin về trích dẫn, định giá và thanh toán cơ bản trong Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 986b073e7ee13b88f8516f92220b1e313a083bc0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985617"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Hướng dẫn cơ bản về báo giá, định giá và lập hóa đơn
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,3 +50,6 @@ Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội d
 
 > [!NOTE]
 > Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

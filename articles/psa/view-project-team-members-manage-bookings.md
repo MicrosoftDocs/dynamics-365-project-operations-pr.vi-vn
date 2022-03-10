@@ -2,8 +2,6 @@
 title: Xem các thành viên nhóm dự án và quản lý đặt chỗ
 description: Làm cách nào để xem thành viên nhóm dự án và quản lý việc đăng ký trong Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d831418e1d9409622874f11d9c222dc26414797b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 02146a54fc69203bbfdbbe1493ee3414094d6183a770646cfefd908ea34e8f8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004562"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Xem thành viên nhóm dự án và quản lý việc đăng ký (Project Service)
 

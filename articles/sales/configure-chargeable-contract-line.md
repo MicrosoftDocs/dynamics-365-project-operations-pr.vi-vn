@@ -1,21 +1,19 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của mục mô tả hợp đồng dựa trên dự án
+title: Đặt cấu hình các thành phần phải chịu phí tổn của mô tả hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về các thành phần bao gồm, thành phần có thể tính phí và không thể tính phí trên mục mô tả hợp đồng.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087045"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004067"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Đặt cấu hình các thành phần có thể tính phí của mục mô tả hợp đồng dựa trên dự án
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Đặt cấu hình các thành phần phải chịu phí tổn của mô tả hợp đồng dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
@@ -35,13 +33,13 @@ Khả năng tính phí được xác định trên các danh mục giao dịch c
 
 Một vai trò có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng dựa trên dự án cụ thể.
 
-Trên tab **Vai trò có thể tính phí** của mục mô tả hợp đồng dựa trên dự án, ở lưới con **Danh mục có thể tính phí**, trong trường **Loại thanh toán**, hãy cập nhật loại thanh toán cho vai trò.
+Ở tab **Các vai trò có thể tính phí** của mô tả hợp đồng dựa trên dự án, trên lưới con **Thể loại có thể tính phí**, trong trường **Loại thanh toán**, hãy cập nhật loại thanh toán cho một vai trò.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Cập nhật danh mục giao dịch thành dạng có thể tính phí hoặc không thể tính phí
 
 Một danh mục giao dịch có thể là dạng có thể tính phí hoặc không thể tính phí trên một mục mô tả hợp đồng dựa trên dự án cụ thể.
 
-Trên tab **Danh mục có thể tính phí** của mục mô tả hợp đồng dựa trên dự án, ở lưới con **Danh mục có thể tính phí**, trong trường **Loại thanh toán**, hãy cập nhật loại thanh toán cho giao dịch.
+Ở tab **Thể loại có thể tính phí** của mô tả hợp đồng dựa trên dự án, trên lưới con **Thể loại có thể tính phí**, trong trường **Loại thanh toán**, hãy cập nhật loại thanh toán cho một giao dịch.
 
 ### <a name="resolve-chargeability"></a>Giải quyết khả năng tính phí
 
@@ -58,3 +56,6 @@ Giá trị ước tính hoặc thực tế được tạo cho chi phí sẽ ch�
 | No | Có | Không thể đặt | Không thể tính phí | Thanh toán theo giá trị thời gian thực tế: Không khả dụng </br>Loại thanh toán trên giá trị chi phí thực tế: Không thể tính phí |
 | Có | No | Có thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Có thể tính phí </br>Loại thanh toán trên giá trị chi phí thực tế: Không khả dụng |
 | Có | No | Không thể tính phí | Không thể đặt | Thanh toán theo giá trị thời gian thực tế: Không thể tính phí </br> Loại thanh toán trên giá trị chi phí thực tế: Không khả dụng |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

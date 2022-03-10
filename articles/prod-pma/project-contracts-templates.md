@@ -2,11 +2,9 @@
 title: Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance
 description: Chủ đề này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các hợp đồng dự án và dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764845"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001097"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance 
 
@@ -44,7 +42,7 @@ Giải pháp tích hợp Project Service Automation sang Finance sử dụng tí
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Mẫu và nhiệm vụ
 
@@ -109,8 +107,8 @@ Khi áp dụng giải pháp tích hợp Project Service Automation với Finance
 ## <a name="prerequisites-and-mapping-setup"></a>Điều kiện tiên quyết và thiết lập ánh xạ
 
 - Trước khi quá trình đồng bộ hóa hợp đồng dự án và dự án có thể xảy ra, bạn phải đồng bộ hóa các tài khoản.
-- Trong bộ kết nối của bạn, hãy thêm ánh xạ trường khóa tích hợp cho **msdyn\_organizationalunits** đến **msdyn\_name \[Name\]**. Trước tiên, bạn có thể cần thêm một dự án vào bộ kết nối. Để biết thêm thông tin, hãy xem [Tích hợp dữ liệu vào Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Trong bộ kết nối của bạn, hãy thêm ánh xạ trường khóa tích hợp cho **msdyn\_projects** đến **msdynce\_projectnumber \[Project Number\]**. Trước tiên, bạn có thể cần thêm một dự án vào bộ kết nối. Để biết thêm thông tin, hãy xem [Tích hợp dữ liệu vào Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Trong bộ kết nối của bạn, hãy thêm ánh xạ trường khóa tích hợp cho **msdyn\_organizationalunits** đến **msdyn\_name \[Name\]**. Trước tiên, bạn có thể cần thêm một dự án vào bộ kết nối. Để biết thêm thông tin, hãy xem [Tích hợp dữ liệu vào Common Data Service for Apps](/powerapps/administrator/data-integrator).
+- Trong bộ kết nối của bạn, hãy thêm ánh xạ trường khóa tích hợp cho **msdyn\_projects** đến **msdynce\_projectnumber \[Project Number\]**. Trước tiên, bạn có thể cần thêm một dự án vào bộ kết nối. Để biết thêm thông tin, hãy xem [Tích hợp dữ liệu vào Common Data Service for Apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** cho các hợp đồng dự án và dự án có thể được cập nhật thành một giá trị khác hoặc loại bỏ khỏi ánh xạ. Giá trị mẫu mặc định là **Project Service Automation**.
 - Ánh xạ **PaymentTerms** phải được cập nhật để phản ánh các điều khoản thanh toán hợp lệ trong Finance. Bạn cũng có thể loại bỏ ánh xạ khỏi nhiệm vụ dự án. Ánh xạ giá trị mặc định có các giá trị mặc định cho dữ liệu demo. Bảng sau đây cho thấy các giá trị trong Project Service Automation.
 
@@ -131,7 +129,7 @@ Sử dụng Microsoft Power Query dành cho Excel để lọc dữ liệu nếu 
 Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sau:
 
 - Mẫu Dự án và hợp đồng (PSA sang Fin và Ops) có bộ lọc mặc định chỉ bao gồm đơn đặt hàng thuộc loại **Mục công việc (msdyn\_ordertype = 192350001)**. Bộ lọc này giúp đảm bảo rằng hợp đồng dự án không được tạo cho đơn đặt hàng trong Finance. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm bộ lọc này.
-- Tạo bộ lọc Power Query chỉ bao gồm các tổ chức hợp đồng sẽ được đồng bộ hóa với pháp nhân của bộ kết nối tích hợp. Ví dụ: các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso US phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso Global phải được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
+- Tạo bộ lọc Power Query chỉ bao gồm các tổ chức hợp đồng sẽ được đồng bộ hóa với pháp nhân của bộ kết nối tích hợp. Ví dụ: hợp đồng dự án mà bạn ký với đơn vị tổ chức hợp đồng của Contoso Hoa Kỳ cần phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn ký với đơn vị tổ chức hợp đồng của Contoso Global nên được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
 
 ## <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu
 
@@ -142,14 +140,17 @@ Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sa
 
 Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 
-[![Ánh xạ mẫu hợp đồng dự án](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Ánh xạ mẫu hợp đồng dự án.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Ánh xạ mẫu dự án](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Ánh xạ mẫu dự án.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Ánh xạ mẫu mô tả hợp đồng dự án](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Ánh xạ mẫu mô tả hợp đồng dự án.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Ánh xạ mẫu mốc thời gian mô tả hợp đồng dự án](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Ánh xạ mẫu mốc thời gian mô tả hợp đồng dự án.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Ánh xạ mốc thời gian mô tả hợp đồng dự án trong Dự án và Hợp đồng (PSA 3.x sang Dynamics) - mẫu v2:
 
-[![Ánh xạ mốc thời gian mô tả hợp đồng dự án với phiên bản 2 mẫu](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Ánh xạ mốc thời gian mô tả hợp đồng dự án với phiên bản 2 mẫu.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

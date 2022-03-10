@@ -2,10 +2,9 @@
 title: Dynamics 365 Project Service Automation là gì?
 description: Giới thiệu và tổng quan về Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000287"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation là gì?
 
@@ -47,10 +46,10 @@ Ngoài ra, để giúp bạn giám sát và kiểm soát chi phí cho công vi�
 ## <a name="whats-new-in-psa"></a>Nội dung mới trong PSA
 Nhóm rất hào hứng được thông báo về những cập nhật mới nhất của chúng tôi! Từ những điểm cải tiến về giao diện người dùng đến việc sửa lỗi và bổ sung các tính năng và khả năng mới quan trọng. Chúng tôi luôn lắng nghe ý kiến của bạn.
 
-Hãy xem [Ghi chú phát hành ngày 19 tháng 10](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) để biết những điểm cải tiến và bổ sung mới nhất của chúng tôi.
+Hãy xem [Ghi chú phát hành ngày 19 tháng 10](/dynamics365-release-plan/2019wave2/index) để biết những điểm cải tiến và bổ sung mới nhất của chúng tôi.
 
 ### <a name="in-development"></a>Đang phát triển
-Để xem những điều chúng tôi đã hoạch định trong tương lai gần, hãy xem [Dynamics 365: kế hoạch phát hành đợt 1 năm 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Để xem những điều chúng tôi đã hoạch định trong tương lai gần, hãy xem [Dynamics 365: kế hoạch phát hành đợt 1 năm 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Nhận trợ giúp với phiên bản PSA 3.x
 Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai? Tìm hiểu các hướng dẫn có thể tải xuống này.
@@ -80,9 +79,12 @@ Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai?
 
  [Bạch thư (phiên bản ứng dụng 2.x hoặc 1.x)](../psa/white-papers.md)
 
- [Ghi chú dành cho nhà phát triển (phiên bản ứng dụng 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Ghi chú dành cho nhà phát triển (ứng dụng phiên bản 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Xem video tổng quan 2 phút
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

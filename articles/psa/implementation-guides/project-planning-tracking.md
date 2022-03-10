@@ -2,8 +2,6 @@
 title: Hoạch định và theo dõi dự án
 description: Chủ đề này cung cấp liên kết đến thông tin về hoạch định và theo dõi trong Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dfd05f7f22d0f339bd2437bbd47009e92ebb72a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985482"
 ---
 # <a name="project-planning-and-tracking"></a>Hoạch định và theo dõi dự án
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -43,3 +43,6 @@ Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội d
 
 > [!NOTE]
 > Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: Mô hình bảo mật
 description: Chủ đề này cung cấp thông tin về mô hình bảo mật trong Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086993"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991512"
 ---
 # <a name="security-model"></a>Mô hình bảo mật
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Microsoft Dynamics 365 Project Operations chứa một mô hình bảo mật duy nhất cho phép mô hình bảo mật kinh doanh dựa trên vai trò hợp tác với Microsoft Office Groups. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations chứa mô hình bảo mật độc đáo, tạo điều kiện cho mô hình bảo mật doanh nghiệp dựa trên vai trò phối hợp với Microsoft Office Groups. 
 
 
 ## <a name="security-roles"></a>Vai trò bảo mật
@@ -56,9 +56,9 @@ Groups cho phép các quyền của dự án và các tạo tác hỗ trợ cộ
 
 Project Operations không tạo ra một nhóm thông qua hành động ngầm và chỉ thực hiện thông qua hành động rõ ràng của các nhóm thúc ép.
 
-Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn cho những người được đặt là một phần của nhóm bảo mật của môi trường. Để biết thêm thông tin, xem [Kiểm soát quyền truy cập người dùng vào môi trường: nhóm bảo mật và giấy phép](/power-platform/admin/control-user-access).
 
-![Chế độ nhóm](./media/groupsmode.png)
+![Chế độ nhóm.](./media/groupsmode.png)
 
 1. Dự án được tạo và do thuộc sở hữu của Người dùng tạo.
 2. Chủ dự án được cập nhật vào nhóm.
@@ -68,7 +68,7 @@ Tìm kiếm thành viên nhóm trong **Quản lý nhóm**, được giới hạn
 ## <a name="deployment-recommendation"></a>Đề xuất triển khai
 Khi mô hình cộng tác nhóm Office phát triển, chức năng sẽ được thêm vào để cung cấp khả năng kiểm soát chi tiết hơn theo thời gian. Các khách hàng triển khai Project Operations ngày nay được khuyến khích tập trung vào Mô hình bảo mật Microsoft Dynamics 365.
 
-Để biết thêm thông tin, hãy xem [Bảo mật trong Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Để biết thêm thông tin, hãy xem [Bảo mật trong Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations và bảo mật Microsoft Dynamics 365 Finance
 Project Operations bao gồm các vai trò sau:
@@ -76,6 +76,9 @@ Project Operations bao gồm các vai trò sau:
 - Người quản lý dự án
 - Kế toán dự án
 
-Để biết thêm thông tin về vai trò bảo mật trong Finance, hãy xem [Bảo mật dựa trên vai trò](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Để biết thêm thông tin về vai trò bảo mật trong Finance, hãy xem [Bảo mật dựa trên vai trò](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: Tổng quan về giá trị thực tế
 description: Chủ đề này cung cấp thông tin về thực tế dự án.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,20 +17,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992502"
 ---
 # <a name="actuals-overview"></a>Tổng quan về giá trị thực tế
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Thực tế là lượng công việc đã hoàn thành trên một dự án. Có thể truy nguyên thực tế dự án theo tài liệu nguồn. Các tài liệu nguồn đó bao gồm mục nhập thời gian, chi phí và nhật ký cũng như hóa đơn.
 
-![Cách truy nguyên thực tế dự án theo tài liệu nguồn](media/basic-guide-18.png)
+![Cách truy nguyên thực tế dự án theo tài liệu nguồn.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Gửi mục nhập thời gian
 
@@ -328,3 +329,6 @@ PSA ghi lại các giao dịch tài chính xảy ra trong một dự án. Các g
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

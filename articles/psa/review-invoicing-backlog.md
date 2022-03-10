@@ -2,8 +2,6 @@
 title: Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về cách xem lại các tồn đọng về thời gian, chi phí và sản phẩm, cũng như cách đánh dấu các mục này là sẵn sàng để lập hóa đơn.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006992"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ Doanh số chưa lập hóa đơn thực tế thể hiện tồn đọng lập h
 
 Để xem lại tồn đọng lập hóa đơn cho thời gian và tài liệu, hãy chuyển đến **Doanh số** \> **Lập hóa đơn** \> **Tồn đọng lập hóa đơn thời gian và tài liệu**. Chọn tất cả doanh số thực tế chưa lập hóa đơn đã sẵn sàng được lập hóa đơn rồi chọn **Sẵn sàng lập hóa đơn**. Trạng thái lập hóa đơn của các mục thực tế này được thay đổi thành **Sẵn sàng lập hóa đơn**.
 
-![Tồn đọng lập hóa đơn thời gian và tài liệu](media/TMBacklog.png)
+![Tồn đọng Thanh toán Thời gian và Vật liệu.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Đánh giá tồn đọng lập hóa đơn sản phẩm
 
@@ -48,7 +48,7 @@ Trong PSA, khi hợp đồng dự án có mô tả sản phẩm dựa trên hợ
 
 Để đánh giá tồn đọng lập hóa đơn cho sản phẩm, hãy chuyển đến **Doanh số** \> **Lập hóa đơn** \> **Tồn đọng lập hóa đơn sản phẩm**. Chọn tất cả mô tả hợp đồng dựa trên sản phẩm đã sẵn sàng được lập hóa đơn rồi chọn **Sẵn sàng lập hóa đơn**. Trạng thái lập hóa đơn của những nội dung mô tả này được thay đổi thành **Sẵn sàng lập hóa đơn**.
 
-![Tồn đọng lập hóa đơn sản phẩm](media/ProductBacklog.png)
+![Tồn đọng Thanh toán Sản phẩm.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Đánh giá các mốc lập hóa đơn đối với hợp đồng cố định giá
 
@@ -56,4 +56,7 @@ Mỗi nội dung mô tả hợp đồng dự án có một phương thức lập
 
 Để xem lại các cột mốc lập hóa đơn, hãy chuyển đến **Doanh số** \> **Lập hóa đơn** \> **Mốc giá cố định**. Chọn tất cả doanh số thực tế chưa lập hóa đơn đã sẵn sàng được lập hóa đơn rồi chọn **Sẵn sàng lập hóa đơn**. Trạng thái lập hóa đơn của các mốc này được thay đổi thành **Sẵn sàng lập hóa đơn**.
 
-![Mốc giá cố định](media/FPBacklog.png)
+![Mốc Giá Cố định.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Tạo mục nhập thời gian
 description: Chủ đề này cung cấp thông tin về cách tạo mục nhập thời gian.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990432"
 ---
 # <a name="create-time-entries"></a>Tạo mục nhập thời gian
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -68,3 +68,6 @@ Bạn có thể nhập dữ liệu từ các mục đặt trước và chỉ đ�
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Nhóm theo, sắp xếp, tìm kiếm và lọc khả năng
 
 Bạn có thể nhóm và lọc các mục nhập thời gian theo các thứ nguyên được chỉ định trong các cột. Trong trường **Nhóm theo**, hãy chọn thông số cần sử dụng để lọc các mục nhập thời gian. Bạn cũng có thể sắp xếp các bản ghi mục nhập thời gian theo thứ tự tăng dần hoặc giảm dần bằng cách sử dụng mũi tên sắp xếp trên các tiêu đề cột. Ngoài ra, bạn có thể hiển thị hoặc ẩn các mục nhập bằng cách chọn nút **Lọc** trên tiêu đề cột, rồi sau đó, trong hộp **Tìm kiếm**, nhập văn bản sẽ được sử dụng để tìm kiếm mục nhập thời gian theo tên dự án, nhiệm vụ dự án, mục nhập thời gian hoặc nguồn lực.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Tính năng mới kể từ tháng 11 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
 description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations Lite tháng 11 năm 2020 - từ thỏa thuận đến lập hóa đơn ước giá.
 author: sigitac
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272099"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003302"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Tính năng mới kể từ tháng 11 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
 

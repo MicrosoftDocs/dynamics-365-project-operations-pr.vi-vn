@@ -2,8 +2,6 @@
 title: Lập lịch trình thời gian vắng mặt
 description: Làm cách nào để lên lịch thời gian vắng mặt trong Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984672"
 ---
 # <a name="schedule-time-off-project-service"></a>Lên lịch thời gian vắng mặt (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -55,3 +55,6 @@ Lên lịch thời gian nghỉ hoặc vắng mặt theo cách tương tự như 
   
 ### <a name="see-also"></a>Xem thêm  
  [Hướng dẫn về Thời gian, Chi phí và Cộng tác](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

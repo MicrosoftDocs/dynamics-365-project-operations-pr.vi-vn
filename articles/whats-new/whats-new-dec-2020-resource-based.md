@@ -2,19 +2,17 @@
 title: Những điểm mới tháng 12 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
 description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations tháng 12 năm 2020 cho tình huống dựa trên nguồn lực/hàng không trữ kho.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
-ms.translationtype: HT
+ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700706"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984897"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Những điểm mới tháng 12 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
 
@@ -24,6 +22,8 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 
 - Project Operations trên môi trường Dataverse phiên bản 4.5.0.134
 - Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.15
+
+Để biết thêm thông tin về cách cập nhật bản phát hành này, hãy xem [Cập nhật Project Operations trong môi trường Tài chính](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 Sau đây là các tính năng có trong bản phát hành này:
@@ -106,4 +106,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 | Đi lại và chi tiêu                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Quy trình tự động đăng báo cáo chi tiêu hoàn tất nhưng hóa đơn lại không được đăng                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

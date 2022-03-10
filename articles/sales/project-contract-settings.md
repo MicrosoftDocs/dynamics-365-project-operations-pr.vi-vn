@@ -2,26 +2,24 @@
 title: Thiết đặt hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về các trường ảnh hưởng đến các mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996327"
 ---
-# <a name="project-contract-settings"></a>Thiết đặt hợp đồng dự án
+# <a name="header-details-for-project-based-contracts"></a>Chi tiết của tiêu đề cho các hợp đồng dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 Chủ đề này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
-Bảng sau liệt kê các trường thông tin tóm tắt trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ đơn bán hàng trong Dynamics 365 Sales.
+Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
 
 | Trường | Vị trí | Nội dung mô tả | Tác động xuôi tuyến |
 | --- | --- | --- | --- |
@@ -58,3 +56,6 @@ Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của h�
 | Chi phí phát sinh | Dòng dựa trên sản phẩm | Tổng của tất cả các chi phí thực tế được ghi lại cho mô tả hợp đồng dựa trên sản phẩm. |
 | Lãi gộp | Mô tả dựa trên dự án | Số tiền được lập hóa đơn - Chi phí phát sinh cho đến ngày/Số tiền được lập hóa đơn |
 | Lợi nhuận Dự kiến | Dòng dựa trên sản phẩm | (Giá trị mô tả hợp đồng - Chi phí ước tính cho mô tả hợp đồng)/Giá trị mô tả hợp đồng |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

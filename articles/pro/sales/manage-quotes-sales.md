@@ -2,18 +2,16 @@
 title: Quản lý báo giá dự án
 description: Chủ đề này cung cấp thông tin về các báo giá dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272954"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001547"
 ---
 # <a name="manage-project-quotes"></a>Quản lý báo giá dự án
 

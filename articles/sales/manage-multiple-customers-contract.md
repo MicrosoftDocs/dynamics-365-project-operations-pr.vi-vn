@@ -2,18 +2,16 @@
 title: Quản lý nhiều khách hàng trên một hợp đồng dự án
 description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277994"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992097"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Quản lý nhiều khách hàng trên một hợp đồng dự án
 

@@ -2,24 +2,24 @@
 title: Hợp đồng dự án - Khái niệm chính - bản đơn giản
 description: Chủ đề này cung cấp thông tin về các khái niệm chính trong hợp đồng dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177087"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991467"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>Hợp đồng dự án - Khái niệm chính - bản đơn giản
+# <a name="concepts-unique-to-project-contracts"></a>Các khái niệm duy nhất cho Hợp đồng dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này cung cấp những khái niệm chính mà bạn cần biết trước khi bắt đầu sử dụng Hợp đồng dự án trong Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Chủ đề này cung cấp những khái nhiệm chính cần lưu ý trước khi sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Đơn vị Hợp đồng
 
@@ -91,3 +91,6 @@ Hợp đồng Project Operations được xây dựng dựa trên hợp đồng 
 - Hợp đồng Project Operations có biểu mẫu, thành phần giao diện người dùng, quy tắc công việc, phần bổ trợ lô-gic kinh doanh và tập lệnh phía máy khách riêng, khác hẳn với những dữ liệu trong hợp đồng Sales.
 
 Vì vậy, bạn không nên sử dụng hợp đồng Sales và hợp đồng Project hoán đổi cho nhau.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

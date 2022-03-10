@@ -2,8 +2,6 @@
 title: Làm việc với mô hình dữ liệu Project Service Automation
 description: Chủ đề này cung cấp thông tin về cách làm việc với mô hình dữ liệu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283259"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002447"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Làm việc với mô hình dữ liệu Project Service Automation
 
@@ -55,7 +53,7 @@ PSA cũng thêm các thực thể liên quan đến báo giá mới vào mô hì
 
 Các thực thể khác mà PSA thêm vào báo giá là **Bảng giá dự án mô tả báo giá**, **Loại nguồn lực mô tả báo giá** và **Loại giao dịch mô tả báo giá**.
 
-![Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án](media/PS-Reporting-image2.png "Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án")
+![Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án.](media/PS-Reporting-image2.png "Sơ đồ hiển thị báo giá, dòng báo giá và các mối quan hệ của dự án")
 
 ## <a name="reporting-on-project-contracts"></a>Báo cáo về hợp đồng dự án
 
@@ -71,7 +69,7 @@ PSA cũng thêm một số các thực thể được thiết kế dành cho h�
 
 Các thực thể khác mà PSA thêm vào hợp đồng là **Bảng giá dự án mô tả hợp đồng dự án**, **Loại nguồn lực mô tả hợp đồng dự án** và **Loại giao dịch mô tả hợp đồng dự án**.
 
-![Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án](media/PS-Reporting-image3.png "Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án")
+![Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án.](media/PS-Reporting-image3.png "Sơ đồ hiển thị đơn hàng, mô tả đơn hàng và các mối quan hệ của dự án")
 
 ## <a name="reporting-on-projects"></a>Báo cáo về dự án
 
@@ -83,7 +81,7 @@ Thực thể **Dự án** và các thực thể liên quan dành riêng cho PSA.
 - **Yêu cầu nguồn lực** – Thực thể này chứa yêu cầu cho mọi thành viên nhóm nguồn lực chung.
 - **Ước tính** và **Mô tả ước tính** – Các thực thể này có mối quan hệ tiêu đề/mô tả và chứa ước tính chi phí cho dự án. Ước tính nhiệm vụ được lưu trữ trên thực thể **Ước tính nguồn lực**.
 
-![Sơ đồ hiển thị yêu cầu nguồn lực và các mối quan hệ của dự án](media/PS-Reporting-image4.png "Sơ đồ hiển thị yêu cầu nguồn lực và các mối quan hệ của dự án")
+![Sơ đồ hiển thị yêu cầu nguồn lực và các mối quan hệ của dự án.](media/PS-Reporting-image4.png "Sơ đồ hiển thị yêu cầu nguồn lực và các mối quan hệ của dự án")
 
 ## <a name="reporting-on-resources"></a>Báo cáo về nguồn lực
 
@@ -94,7 +92,7 @@ Nguồn lực dự án sử dụng các thực thể **Nguồn lực có thể �
 - **Loại nguồn lực có thể đăng ký** – Thực thể này đại diện cho vai trò của nguồn lực có thể đăng ký.
 - **Đăng ký nguồn lực có thể đăng ký** – Thực thể này đại diện cho thời gian đã đăng ký trên dự án cho nguồn lực. Mỗi đăng ký có thực thể mô tả và thực thể tiêu đề. Mỗi mô tả có trạng thái biểu thị trạng thái của đăng ký.
 
-![Sơ đồ hiển thị các mối quan hệ đặc điểm nguồn lực có thể đặt trước](media/PS-Reporting-image5.png "Sơ đồ hiển thị các mối quan hệ đặc điểm nguồn lực có thể đặt trước")
+![Sơ đồ hiển thị các mối quan hệ đặc điểm nguồn lực có thể đặt trước.](media/PS-Reporting-image5.png "Sơ đồ hiển thị các mối quan hệ đặc điểm nguồn lực có thể đặt trước")
 
 ## <a name="reporting-on-actual-transactions"></a>Báo cáo về giao dịch thực tế
 
@@ -122,7 +120,7 @@ Khi đang làm việc với thực thể **Thực tế**, bạn phải hiểu gi
 
 Thực thể **Nguồn gốc giao dịch** ghi lại nguồn gốc của bản ghi **Thực tế** và các bản ghi thực thể **Kết nối giao dịch** ghi lại các bản ghi cho bản ghi **Thực tế**. Ngoài ra, bản ghi **Thực tế** chứa tham chiếu dự án, hợp đồng dự án (đơn hàng), nguồn lực có thể đăng ký và khách hàng.
 
-![Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế](media/PS-Reporting-image6.png "Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế")
+![Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế.](media/PS-Reporting-image6.png "Sơ đồ thể hiện kết nối giao dịch, nguồn gốc và các mối quan hệ thực tế")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

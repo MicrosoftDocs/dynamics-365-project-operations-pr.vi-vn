@@ -2,18 +2,16 @@
 title: Đáp ứng các yêu về nguồn lực chung
 description: Chủ đề này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho một yêu cầu nguồn lực chung.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008297"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Đáp ứng các yêu về nguồn lực chung
 
@@ -39,3 +37,6 @@ Yêu cầu này là cho 120 giờ kỹ thuật robot trong năm ngày, trong đ�
 Sự khác biệt chính trong trường hợp này là nguồn lực chung vẫn còn trên nhóm được chỉ định nhiệm vụ và các thành viên nhóm nguồn lực được đặt tên không được chỉ định là một phần của vị trí. Người quản lý dự án có thể gán công việc phù hợp với các nguồn lực được đặt tên. Dạng xem **Hợp nhất** có thể hỗ trợ người quản lý dự án trong việc chia các đặt lịch cho nhiều nguồn lực cho phân công nhiệm vụ. Điều này không được thực hiện tự động bởi vì trong bất kỳ trường hợp nào phức tạp hơn ví dụ đơn giản ở trên, chẳng hạn như nơi bạn có một yêu cầu gồm nhiều nhiệm vụ hoặc ý định về cách thức người quản lý dự án muốn chỉ định, mà hệ thống cần tính đến. Vì hệ thống không thể hiểu được ý định, nên các giả định có thể sẽ khác ý định và có thể xảy ra kết quả không chính xác hoặc không dự đoán được. Kết quả dự đoán được đó là nguồn lực chung vẫn được gán cho đến khi ngời quản lý dự án cố ý tạo phân công với sự trợ giúp của dạng xem **Hợp nhất**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

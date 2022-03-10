@@ -2,11 +2,9 @@
 title: Thiết lập quy trình làm việc Quản lý chi phí
 description: Bạn có thể thiết lập một quy trình làm việc để xem xét và phê duyệt các tài liệu về chi phí và đi lại.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001277"
 ---
 # <a name="set-up-expense-management-workflows"></a>Thiết lập quy trình làm việc Quản lý chi phí
 
@@ -50,3 +48,6 @@ Bảng sau liệt kê các loại quy trình làm việc mà bạn có thể t�
 |      <strong>Yêu cầu tạm ứng tiền mặt</strong>      |         Tạo quy trình làm việc phê duyệt cho yêu cầu tạm ứng tiền mặt.          |
 |        <strong>Hoàn thuế GTGT</strong>        | Tạo quy trình làm việc phê duyệt cho việc hoàn thuế giá trị gia tăng (VAT).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

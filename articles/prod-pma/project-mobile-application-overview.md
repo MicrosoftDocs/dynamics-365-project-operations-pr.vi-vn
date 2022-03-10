@@ -2,28 +2,26 @@
 title: Tổng quan về ứng dụng dự án dành cho thiết bị di động
 description: Chủ đề này cung cấp thông tin chung về các ứng dụng liên quan đến thời gian của dự án cho Microsoft Dynamics 365 Project Timesheet, Mục nhập thời gian dự án và Bảng chấm công/Bảng chấm công của tôi trên thiết bị di động.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005687"
 ---
 # <a name="project-mobile-applications-overview"></a>Tổng quan về ứng dụng dự án dành cho thiết bị di động
 
@@ -49,3 +47,6 @@ Bảng chấm công của tôi (Được tối ưu hóa cho thiết bị di đ�
 - [Mục nhập thời gian dự án]( project-time-entry-mobile-workspace.md)
 - [Bảng chấm công dự án trên thiết bị di động](Mobile-timesheets.md)
 - [Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

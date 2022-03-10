@@ -2,8 +2,6 @@
 title: Sách trắng cho Project Service Automation
 description: Bộ sưu tập bạch thư cho Project Service
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34018fb918b3d97d4f44b2f9b6f4296f38afa0ac
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004202"
 ---
 # <a name="white-papers-for-project-service"></a>Bạch thư cho Project Service
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Các sách trắng này được thiết kế để cung cấp thông tin chuyên sâu cho project service automation [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
@@ -43,3 +43,6 @@ Các sách trắng này được thiết kế để cung cấp thông tin chuyê
 
 ### <a name="see-also"></a>Xem thêm
  [Tổng quan về Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

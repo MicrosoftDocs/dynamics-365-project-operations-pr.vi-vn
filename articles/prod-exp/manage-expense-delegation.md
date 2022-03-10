@@ -2,11 +2,9 @@
 title: Quản lý việc ủy nhiệm chi phí
 description: Người dùng đại diện chi phí có thể tạo và quản lý các báo cáo chi phí cho một nhân viên khác trong tổ chức.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: 8294e4c51c08298937f2a4d4b271470d2f30e80a043e72aa874aa91306ac6712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960813"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001187"
 ---
 # <a name="manage-expense-delegation"></a>Quản lý việc ủy nhiệm chi phí
 
@@ -41,3 +39,6 @@ Khi bật phím quản lý tính năng **Bật trang danh sách đại diện ch
 Người dùng đại diện có thể nhanh chóng lọc và tìm kiếm các báo cáo chi phí hiện được ủy nhiệm cho họ. Họ cũng có thể tạo một báo cáo chi phí mới cho những người dùng khác bằng cách chọn **Báo cáo chi phí mới**.
 
 Người dùng đại diện cũng có thể tạo và quản lý báo cáo chi phí cho các nhân viên khác bằng cách truy cập vào **Quản lý chi phí** > **Chi phí của tôi** > **Báo cáo chi phí** và chọn **Mở chi phí của người dùng khác**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Hướng dẫn báo cáo
 description: Chủ đề này cung cấp liên kết đến thông tin về báo cáo.
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976c06f4b16bd969eba0ae06ccdd735256aeb044
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: dbfcbc724842a0c2dd507da63b45608f3a18b9eae489f72e2ec0bd50f9fd2f24
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985438"
 ---
 # <a name="reporting-guide"></a>Hướng dẫn báo cáo
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,3 +39,6 @@ Liên kết PDF trước đây trong chủ đề này đã bị xóa và nội d
 
 > [!NOTE]
 > Chủ đề này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

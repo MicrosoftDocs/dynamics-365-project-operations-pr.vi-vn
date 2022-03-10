@@ -2,18 +2,16 @@
 title: Quản lý cơ hội dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách làm việc với các cơ hội có liên quan đến dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
-ms.translationtype: HT
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088163"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991917"
 ---
 # <a name="manage-project-based-opportunities"></a>Quản lý cơ hội dựa trên dự án
 
@@ -21,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Các công ty dựa trên dự án thường sắp xếp các hoạt động giao hàng của mình ở nhiều quốc gia và khu vực địa lý. Chi phí thực hiện dự án và giao hàng có thể thay đổi tùy theo khu vực địa lý hoặc bộ phận quản lý việc giao hàng. Ở chiều ngược lại, điều này cũng có thể ảnh hưởng đến lợi nhuận của thỏa thuận. Việc cung cấp dịch vụ dựa trên dự án thường tiêu tốn một lượng lớn thời gian của nguồn nhân lực, cùng với những khoản chi phí đáng kể cho việc đi lại, chi phí vật liệu và các chi phí khác.
 
-Cơ hội dựa trên dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng sang Dynamics 365 Sales. Chủ đề cung cấp thông tin chi tiết về các trường và lô-gic kinh doanh khác nhau có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
+Các cơ hội theo dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng cho Dynamics 365 Sales. Chủ đề cung cấp thông tin chi tiết về các trường và lô-gic kinh doanh khác nhau có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
 
 ## <a name="view-all-project-based-opportunities"></a>Xem tất cả các cơ hội dựa trên dự án
 
@@ -64,4 +62,7 @@ Quy trình bán hàng Cơ hội trong Project Operations là phần mở rộng 
 >
 > Nếu thỏa thuận dựa trên dự án của bạn bắt đầu với Cơ hội, thì quy trình bán hàng Cơ hội sẽ được ưu tiên.
 
-Bạn có thể sửa dòng quy trình công việc cho sản phẩm hoặc tạo dòng quy trình công việc của riêng mình để theo dõi quy trình bán hàng khi cần. Để biết thêm thông tin về dòng quy trình công việc, hãy xem [Tổng quan về dòng quy trình công việc](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Bạn có thể sửa dòng quy trình công việc cho sản phẩm hoặc tạo dòng quy trình công việc của riêng mình để theo dõi quy trình bán hàng khi cần. Để biết thêm thông tin về dòng quy trình công việc, hãy xem [Tổng quan về dòng quy trình công việc](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

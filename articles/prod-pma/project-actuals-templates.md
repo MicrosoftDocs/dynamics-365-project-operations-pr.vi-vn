@@ -2,11 +2,9 @@
 title: Đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Project Service Automation vào nhật ký tích hợp dự án để đăng trong Finance and Operations
 description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Microsoft Dynamics 365 Project Service Automation sang Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289710"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988137"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Project Service Automation vào nhật ký tích hợp dự án để đăng trong Finance and Operations
 
@@ -44,7 +42,7 @@ Giải pháp tích hợp Project Service Automation sang Finance sử dụng tí
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Luồng dữ liệu cho phần tích hợp Project Service Automation với Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Giá trị thực tế trong dự án từ Project Service Automation
 
@@ -95,9 +93,9 @@ Trong mẫu giá trị thực tế trong dự án, bạn phải sử dụng Micr
 
 Các hình sau đây minh họa một ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Project Service Automation sang Finance.
 
-[![Ánh xạ mẫu - Thực tế](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Ánh xạ mẫu - Thực tế.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Ánh xạ mẫu - Kết nối giao dịch](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Ánh xạ mẫu - Kết nối giao dịch.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Nhập từ bảng dàn sau khi tích hợp từ Project Service Automation
 
@@ -137,9 +135,9 @@ Trong mẫu cập nhật giá trị thực tế trong dự án, bạn phải s�
 
 Các hình sau đây minh họa các ví dụ về việc ánh xạ nhiệm vụ mẫu trong Tích hợp dữ liệu. Tùy chọn ánh xạ hiển thị thông tin trường sẽ được đồng bộ hóa từ Finance sang Project Service Automation.
 
-[![Ánh xạ mẫu - Cập nhật giá trị thực tế](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Ánh xạ mẫu - Cập nhật giá trị thực tế.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Ánh xạ mẫu - Cập nhật giao dịch](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Ánh xạ mẫu - Cập nhật giao dịch.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

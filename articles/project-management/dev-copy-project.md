@@ -2,18 +2,16 @@
 title: Phát triển mẫu dự án với chức năng Sao chép dự án
 description: Chủ đề này cung cấp thông tin về cách tạo mẫu dự án bằng hành động tùy chỉnh Sao chép dự án.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5045035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989305"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Phát triển mẫu dự án với chức năng Sao chép dự án
 
@@ -44,7 +42,7 @@ Có ba tham số đầu vào:
 - **{"clearTeamsAndAssignments":true}**: Hành vi mặc định cho Dự án dành cho web, sẽ loại bỏ tất cả các mục chỉ định và thành viên nhóm.
 - **{"removeNamedResources":true}** Hành vi mặc định cho Project Operations, sẽ hoàn nguyên các mục chỉ định thành tài nguyên chung.
 
-Để biết thêm các giá trị mặc định trên hành động, hãy xem [Sử dụng hành động Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Để biết thêm các giá trị mặc định trên hành động, hãy xem [Sử dụng hành động Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Chỉ định các trường sẽ sao chép 
 Khi **Sao chép dự án** được gọi, hành động này sẽ xem xét mục **Sao chép cột dự án** của dạng xem dự án để xác định những trường nào sẽ được sao chép trong quá trình sao chép dự án.
@@ -112,3 +110,6 @@ Ví dụ sau đây cho thấy cách gọi hành động tùy chỉnh **CopyProje
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

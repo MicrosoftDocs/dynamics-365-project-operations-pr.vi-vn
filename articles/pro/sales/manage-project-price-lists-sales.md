@@ -1,27 +1,25 @@
 ---
 title: Quản lý bảng giá dự án trên báo giá dự án
-description: Chủ đề này cung cấp thông tin về cách làm việc với bảng giá dự án trên báo giá. (Sales)
+description: Chủ đề này cung cấp thông tin về cách làm việc với bảng giá dự án trên báo giá.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4087031"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001637"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Quản lý bảng giá dự án trên báo giá dự án (Bán hàng)
+# <a name="manage-project-price-lists-on-project-quotes"></a>Quản lý bảng giá dự án trên báo giá dự án 
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Báo giá dự án được thiết kế để hỗ trợ nhiều bảng giá bán hàng hiệu quả theo ngày. Với Dynamics 365 Project Operations, một thực thể liên kết mới có tên **Bảng giá dự án** được thêm vào. Thực thể này có mối quan hệ 1 - nhiều với báo giá dự án.
+Báo giá dự án được thiết kế để hỗ trợ nhiều bảng giá bán hàng hiệu quả theo ngày. Với Dynamics 365 Project Operations, một thực thể mới được liên kết gọi là **Bảng giá dự án** sẽ được thêm vào. Thực thể này có mối quan hệ 1 - nhiều với báo giá dự án.
 
-Bảng giá dự án được sử dụng để định giá các giao dịch thời gian và chi phí trên một dự án. Khi một báo giá có một hoặc nhiều bảng giá dự án, những bảng giá này được sử dụng để định giá ước tính thời gian và chi phí, cũng như giá trị thực tế cho các dự án được liên kết với báo giá thông qua mô tả báo giá.
+Bảng giá dự án được dùng để định giá các giao dịch về thời gian, vật tư và chi phí cho một dự án. Khi báo giá có một hoặc nhiều bảng giá dự án, các bảng giá này sẽ được dùng để định giá cho các số liệu ước tính và thực tế về thời gian, vật tư, chi phí của các dự án liên quan đến báo giá thông qua mục mô tả báo giá.
 
 Khi không có bảng giá dự án trên báo giá dự án, bạn sẽ nhận được thông báo cảnh báo. Thông báo nói rằng vì không có bảng giá dự án, công việc và chi phí dự án ước tính và thực tế của bạn sẽ không được định giá. Thay vào đó, chúng sẽ có giá bằng không (0) cho các giá trị bán hàng.
 
@@ -67,3 +65,6 @@ Sau khi bạn có bảng giá dự án mặc định cho tổ chức và dành r
 
 1. Trên **Báo giá dự án**, trên tab **Bảng giá dự án**, hãy xác minh trên lưới con là không có bản ghi bảng giá cụ thể nào được chọn.
 2. Chọn **Tạo nội dung định giá tùy chỉnh**. Thao tác này sẽ tạo bản sao của tất cả các bảng giá tiêu chuẩn hiện được liên kết với báo giá và liên kết các bản sao này với báo giá. Các liên kết hiện có với bảng giá tiêu chuẩn sẽ bị loại bỏ. Sau đó, nhân viên bán hàng có thể bắt đầu chỉnh sửa giá trên các bản sao này. Các mức giá thay đổi này sẽ chỉ áp dụng cho báo giá dự án này.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Xác định lịch nguồn lực
 description: Chủ đề này cung cấp thông tin về cách xác định lịch giờ làm việc cho các nguồn lực trong Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123944"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990342"
 ---
 # <a name="define-resource-calendars"></a>Xác định lịch nguồn lực
 
@@ -43,3 +41,6 @@ Mỗi nguồn lực có thể đặt trước làm việc trong một dự án p
 2. Từ dạng xem lưới, hãy chọn tối đa 25 **Nguồn lực có thể đặt trước** để cập nhật.
 3. Chọn **Đặt lịch** và một hộp thoại sẽ nhắc bạn với danh sách các mẫu giờ làm việc có sẵn.
 4. Chọn mẫu mà bạn muốn dùng, sau đó chọn **Áp dụng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

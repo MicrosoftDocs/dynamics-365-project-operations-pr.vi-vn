@@ -2,18 +2,16 @@
 title: Mô tả cơ hội dựa trên dự án
 description: Chủ đề này cung cấp thông tin về cách làm việc với mô tả cơ hội dựa trên dự án.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181973"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996372"
 ---
 # <a name="project-based-opportunity-lines"></a>Mô tả cơ hội dựa trên dự án
 
@@ -33,3 +31,6 @@ Dưới đây là các trường trên mô tả cơ hội dựa trên dự án:
 | Tên | Tab tổng quát | Đây là trường văn bản có thể chỉnh sửa dùng để cung cấp thông tin nhận dạng ngắn gọn cho mục mô tả này | Giá trị này được đưa sang mô tả báo giá khi bạn tạo báo giá từ cơ hội này |
 | Ngân sách Khách hàng | Tab tổng quát | Trường đơn vị tiền tệ có thể chỉnh sửa này dùng để theo dõi số tiền mà khách hàng sẵn sàng chi cho mục mô tả này. | Giá trị này được đưa sang trường tương ứng trên mô tả báo giá khi bạn tạo báo giá từ cơ hội này |
 | Phương thức Thanh toán | Tab tổng quát | Trường có thể chỉnh sửa này có các giá trị sau đây:</br>- Thời gian và vật tư</br>- Giá cố định | Giá trị này được đưa sang trường tương ứng trên mô tả báo giá khi bạn tạo báo giá từ cơ hội này. Sau khi mô tả báo giá được tạo, trường bị khóa và không thay đổi được. Gán giá trị trường này càng chính xác càng tốt. Nếu bạn cần thay đổi giá trị của trường này trên mô tả báo giá, hãy xóa và tạo lại mô tả báo giá. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
