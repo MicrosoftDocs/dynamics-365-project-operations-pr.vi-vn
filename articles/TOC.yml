@@ -58,10 +58,18 @@
               href: environment/resource-dual-write-expense.md
             - name: Tích hợp hóa đơn của nhà cung cấp
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Dỡ cài đặt Dynamics 365 Project Operations
+        - name: Gỡ cài đặt Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Có gì mới
       items:
+        - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Tháng 4 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Tiền tệ
               href: sales/sales-currency.md
+            - name: Đơn vị tổ chức
+              href: sales/OrgUnits.md
         - name: Quản lý khách hàng tiềm năng của dự án
           href: sales/manage-leads.md
         - name: Quản lý cơ hội dự án
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Theo dõi doanh thu nhân công của dự án
               href: project-management/project-sales-tracking.md
-            - name: Cập nhật giá trị ước tính lúc hoàn thành
-              href: project-management/update-completed-estimate.md
         - name: Thành viên nhóm dự án
           items:
             - name: Tổng quan về thành viên nhóm dự án
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Sử dụng các API lịch trình dự án
               href: project-management/schedule-api-preview.md
+            - name: Sử dụng các API lịch trình dự án bằng Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Hiệu suất API lịch trình dự án
               href: project-management/project-schedule-api-performance.md
             - name: Nhật ký lên lịch dự án
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Tạm ứng tiền mặt
           href: expense/cash-advance.md
-        - name: Công nhật
-          href: expense/per-diems.md
+        - name: Chi phí công nhật
+          href: expense/per-diem-expenses.md
         - name: Ứng dụng Chi phí dành cho thiết bị di động
           href: expense/expense-using-mobile.md
         - name: Quản lý tài chính
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Các bộ phê duyệt
           href: approvals/approval-sets.md
+        - name: Hủy phê duyệt đối với các mục nhập đã được phê duyệt trước đó
+          href: approvals/cancelapproval.md
+        - name: Thu hồi các mục nhập được phê duyệt trước đây
+          href: approvals/recall-cancel.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
     - name: Số liệu thực tế
       items:
+        - name: Giao dịch kinh doanh trong Project Operations
+          href: actuals/businesstransactions.md
         - name: Tổng quan về số liệu thực tế
           href: actuals/actuals-overview.md
-        - name: Liên kết số liệu thực tế với hồ sơ gốc
+        - name: Nguồn gốc giao dịch – Liên kết số liệu thực tế với nguồn
           href: actuals/linkingactuals.md
-        - name: Nhật ký sửa chữa
+        - name: Kết nối giao dịch – Liên kết số liệu thực tế của các loại giao dịch khác nhau
+          href: actuals/connectingactuals.md
+        - name: Nhật ký
           items:
+            - name: Tạo và xác nhận Bút toán
+              href: actuals/create-confirm-entry-journals.md
             - name: Tạo và xác nhận Nhật ký sửa chữa
               href: actuals/create-confirm-correction-journals.md
     - name: Thu mua
       items:
         - name: Đặt cấu hình vật liệu không trữ kho và hóa đơn của nhà cung cấp đang chờ xử lý
           href: procurement/configure-materials-nonstocked.md
-        - name: Thu mua vật liệu không trữ kho cho các dự án sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
+        - name: Định cấu hình danh mục mua sắm cho các dự án
+          href: procurement/configure-procurement-categories.md
+        - name: Thu mua hàng hóa và dịch vụ cho các dự án sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
           href: procurement/pending-vendor-invoices.md
-        - name: Đặt mua vật liệu không trữ kho cho các dự án sử dụng đơn đặt hàng cho dự án
+        - name: Đặt mua hàng hóa và dịch vụ cho các dự án sử dụng đơn đặt hàng cho dự án
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Giữ chân nhà cung cấp
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Quản lý ước tính doanh thu
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Cấu hình nâng cao
+      items:
+        - name: Di chuyển các mốc thanh toán được lập hóa đơn đầy đủ trong quá trình chuyển đổi
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Nâng cấp
+      items:
+        - name: Các cân nhắc về nâng cấp cho Phê duyệt hiện đại
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Ứng dụng Project Operations
+      items:
+        - name: Ứng dụng thành viên nhóm Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Khắc phục sự cố
       items:
         - name: Quy trình bán hàng trong dự án
@@ -562,6 +596,14 @@
       items:
         - name: Quyền truy cập sớm đợt 2 năm 2021 tính năng mới – triển khai bản đơn giản
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Tính năng mới kể từ tháng 5 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Tính năng mới kể từ tháng 4 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Tính năng mới kể từ tháng 3 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Tính năng mới kể từ tháng 2 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Tính năng mới kể từ tháng 12 năm 2021 – triển khai bản đơn giản
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Tính năng mới kể từ tháng 11 năm 2021 – triển khai bản đơn giản
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Tiền tệ
               href: sales/sales-currency.md
+            - name: Đơn vị tổ chức
+              href: sales/OrgUnits.md
         - name: Quản lý khách hàng tiềm năng của dự án
           href: pro/sales/managing-leads-sales.md
         - name: Quản lý cơ hội dự án
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Theo dõi doanh thu nhân công của dự án
               href: project-management/project-sales-tracking.md
-            - name: Cập nhật giá trị ước tính lúc hoàn thành
-              href: project-management/update-completed-estimate.md
         - name: Thành viên nhóm dự án
           items:
             - name: Tổng quan về thành viên nhóm dự án
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Sử dụng các API lịch trình dự án
               href: project-management/schedule-api-preview.md
+            - name: Sử dụng các API lịch trình dự án bằng Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Hiệu suất API lịch trình dự án
               href: project-management/project-schedule-api-performance.md
     - name: Quản lý nguồn lực
@@ -886,13 +930,11 @@
           items:
             - name: Tổng quan về thời gian làm việc của nguồn lực
               href: resource-management/resource-utilization-overview.md
-    - name: Quản lý hợp đồng phụ trong Project Operations
+    - name: Quản lý hợp đồng phụ
       items:
         - name: Quản lý hợp đồng phụ trong Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Giao thầu phụ trong Quyền truy cập sớm tháng 10 năm 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Các khái niệm chính trong giao thầu phụ
+        - name: Các khái niệm chính trong hợp đồng phụ
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Quản lý nhà cung cấp và bảng giá dự án
           href: pro/subcontracting/vendors-purchase-price-lists.md
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Chuyển đổi trạng thái trên một hợp đồng phụ
           href: pro/subcontracting/subcon-states.md
+    - name: Hóa đơn của nhà cung cấp trong dự án
+      items:
+        - name: Lập hóa đơn cho nhà cung cấp – Khái niệm và tạo
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Chi tiết tiêu đề cho hóa đơn của nhà cung cấp
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Dòng hóa đơn của nhà cung cấp trong dự án cho thời gian
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Dòng hóa đơn của nhà cung cấp trong dự án cho sản phẩm
+          href: pro/subcontracting/vi-line-material.md
+        - name: Dòng hóa đơn của nhà cung cấp trong dự án cho các mốc
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Dòng hóa đơn của nhà cung cấp cho các hạng mục chi phí
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Xác minh các hóa đơn của nhà cung cấp bằng số liệu thực tế đã được phê duyệt
+          href: pro/subcontracting/VI-Verification.md
+        - name: Hủy hóa đơn của nhà cung cấp trong dự án
+          href: pro/subcontracting/cancel-vi.md
+        - name: Xác nhận hóa đơn của nhà cung cấp trong dự án
+          href: pro/subcontracting/confirm-vi.md
+        - name: Chuyển đổi trạng thái trên hóa đơn của nhà cung cấp
+          href: pro/subcontracting/vi-state-model.md
     - name: Thời gian
       items:
         - name: Tổng quan về thời gian
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Các bộ phê duyệt
           href: approvals/approval-sets.md
+        - name: Hủy phê duyệt đối với các mục nhập đã được phê duyệt trước đó
+          href: approvals/cancelapproval.md
+        - name: Thu hồi các mục nhập được phê duyệt trước đây
+          href: approvals/recall-cancel.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
               href: approvals/dev-notes-approvals.md
     - name: Số liệu thực tế
       items:
+        - name: Giao dịch kinh doanh trong Project Operations
+          href: actuals/businesstransactions.md
         - name: Tổng quan về số liệu thực tế
           href: actuals/actuals-overview.md
-        - name: Liên kết số liệu thực tế với hồ sơ gốc
+        - name: Nguồn gốc giao dịch – Liên kết số liệu thực tế với nguồn
           href: actuals/linkingactuals.md
-        - name: Nhật ký sửa chữa
+        - name: Kết nối giao dịch – Liên kết số liệu thực tế của các loại giao dịch khác nhau
+          href: actuals/connectingactuals.md
+        - name: Nhật ký
           items:
+            - name: Tạo và xác nhận Bút toán
+              href: actuals/create-confirm-entry-journals.md
             - name: Tạo và xác nhận Nhật ký sửa chữa
               href: actuals/create-confirm-correction-journals.md
     - name: Lập hóa đơn ước giá
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Đặt cấu hình hoạt động tạo hóa đơn dự án tự động
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Nâng cấp
+      items:
+        - name: Các cân nhắc về nâng cấp cho Phê duyệt hiện đại
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Ứng dụng Project Operations
+      items:
+        - name: Ứng dụng thành viên nhóm Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
   items:
     - name: Có gì mới
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Tổng quan về quản lý dự án và kế toán
       href: prod-pma/overview-project-management-accounting.md
-    - name: Lập hóa đơn liên công ty
-      href: prod-pma/intercompany-invoicing.md
-    - name: Đặt cấu hình việc lập hóa đơn dự án liên công ty
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Đặt cấu hình chi phí tiêu chuẩn cho nhân công và chi phí
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Tạo và áp dụng các điều khoản lưu giữ thanh toán của nhà cung cấp
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Thiết lập và sử dụng các khoản thanh toán của nhà cung cấp trả khi được trả tiền
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Tích lũy chi phí dự án trên biên lai mua hàng
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Lập hóa đơn dự án
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Hiệu suất của đề xuất hóa đơn dự án
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Hợp đồng dự án
-      href: prod-pma/project-contracts.md
-    - name: Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Dự báo và ngân sách dự án
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Tạo mô hình dự báo cho ngân sách dự án
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Chuyển ngân sách dự án khi kết thúc năm tài chính
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Đơn bán hàng trong dự án
-      href: prod-pma/project-sales-orders.md
-    - name: Đơn đặt hàng cho dự án
-      href: prod-pma/project-purchase-orders.md
-    - name: Báo giá dự án
-      href: prod-pma/project-quotations.md
-    - name: 'Xác nhận, cập nhật và gửi báo giá dự án'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Chuyển báo giá cho một dự án
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Nguồn lực dự án
+    - name: Quy trình bán hàng trong dự án
+      items:
+        - name: Báo giá dự án
+          href: prod-pma/project-quotations.md
+        - name: 'Xác nhận, cập nhật và gửi báo giá dự án'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Chuyển báo giá cho một dự án
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Hợp đồng dự án
+          href: prod-pma/project-contracts.md
+        - name: Cấp quyền dự án
+          href: prod-pma/project-grants.md
+    - name: Định giá và chi phí
+      items:
+        - name: Đặt cấu hình chi phí tiêu chuẩn cho nhân công và chi phí
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Quản lý dự án
+      items:
+        - name: Tổng quan về cấu trúc phân tích công việc
+          href: prod-pma/work-breakdown-structures.md
+        - name: Tích hợp Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Tổng quan về ứng dụng dành cho thiết bị di động Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Không gian làm việc di động mục nhập thời gian dự án
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Ứng dụng dành cho thiết bị di động Bảng chấm công dự án
+          href: prod-pma/project-timesheet.md
+        - name: Bảng chấm công dự án trên thiết bị di động
+          href: prod-pma/mobile-timesheets.md
+        - name: Triển khai các trường tùy chỉnh cho ứng dụng dành cho thiết bị di động Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Quản lý nguồn lực
       items:
         - name: Tổng quan về nguồn lực dự án
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Thực hiện nguồn lực cho nguồn lực theo kế hoạch
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Nhận các mặt hàng theo đơn đặt hàng từ yêu cầu mặt hàng
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Cấu trúc phân tích công việc
+    - name: Ngân sách và dự báo dự án
       items:
-        - name: Tổng quan về cấu trúc phân tích công việc
-          href: prod-pma/work-breakdown-structures.md
-        - name: Tích hợp Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Tổng quan về ứng dụng dành cho thiết bị di động Project
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Không gian làm việc di động mục nhập thời gian dự án
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Ứng dụng dành cho thiết bị di động Bảng chấm công dự án
-          href: prod-pma/project-timesheet.md
-        - name: Bảng chấm công dự án trên thiết bị di động
-          href: prod-pma/mobile-timesheets.md
-        - name: Triển khai các trường tùy chỉnh cho ứng dụng dành cho thiết bị di động Bảng chấm công dự án
-          href: prod-pma/custom-fields-mobile.md
-    - name: Cấp quyền dự án
-      href: prod-pma/project-grants.md
-    - name: Loại bỏ ước tính dự án
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Dự báo và ngân sách dự án
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Tạo mô hình dự báo cho ngân sách dự án
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Chuyển ngân sách dự án khi kết thúc năm tài chính
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Thời gian
+      items:
+        - name: Đặt giá trị mặc định cho thứ nguyên tài chính cho các mục nhập thời gian của dự án
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Chi phí
+      items:
+        - name: Tổng quan về chi phí
+          href: expense/expense-overview.md
+        - name: Trải nghiệm chi phí mới
+          items:
+            - name: Báo cáo chi phí được xây dựng lại
+              href: expense/expense-reports-reimagined.md
+            - name: Chụp biên nhận bằng OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Cấu hình và thiết lập
+          items:
+            - name: Thiết lập chính sách
+              href: expense/set-up-policies.md
+            - name: Thiết lập quy trình làm việc
+              href: expense/set-up-workflows.md
+            - name: Quản lý việc ủy nhiệm
+              href: expense/manage-delegation.md
+            - name: Đặt cấu hình các tham số quản lý Chi phí
+              href: expense/configure-expense-management-parameters.md
+            - name: Thiết lập phần tích hợp thẻ tín dụng
+              href: expense/set-up-credit-card-integration.md
+            - name: Thiết lập danh mục chi phí
+              href: expense/set-up-expense-categories.md
+            - name: Thiết lập khoảng cách bằng cách sử dụng các bậc tỷ lệ khoảng cách
+              href: expense/set-up-mileage.md
+        - name: Phân loại thành các khoản chi phí
+          href: prod-exp/expense-itemization.md
+        - name: Chi phí cá nhân
+          href: expense/personal-expenses-expense-report.md
+        - name: Chi phí liên công ty
+          href: prod-exp/intercompany-expense.md
+        - name: Tạo báo cáo chi phí
+          items:
+            - name: Phân phối trên báo cáo chi phí
+              href: expense/distributions-expense-report.md
+        - name: Phê duyệt báo cáo chi phí
+          items:
+            - name: Báo cáo chi phí và nhiều người phê duyệt
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Đăng báo cáo chi phí
+          href: expense/posting-expense-reports.md
+        - name: Tiêu chuẩn đi lại
+          href: expense/travel-requisition.md
+        - name: Tạm ứng tiền mặt
+          href: expense/cash-advance.md
+        - name: Chi phí công nhật
+          href: expense/per-diem-expenses.md
+        - name: Ứng dụng Chi phí dành cho thiết bị di động
+          href: expense/expense-using-mobile.md
+        - name: Quản lý tài chính
+          items:
+            - name: Hoàn thuế VAT
+              href: expense/vat-recovery.md
+    - name: Thu mua
+      items:
+        - name: Đơn đặt hàng cho dự án
+          href: prod-pma/project-purchase-orders.md
+        - name: Tích lũy chi phí dự án trên biên lai mua hàng
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Nhận các mặt hàng theo đơn đặt hàng từ yêu cầu mặt hàng
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Thiết lập và sử dụng các khoản thanh toán của nhà cung cấp trả khi được trả tiền
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Tạo và áp dụng các điều khoản lưu giữ thanh toán của nhà cung cấp
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Lập hóa đơn dự án
+      items:
+        - name: Lập hóa đơn dự án
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Hiệu suất của đề xuất hóa đơn dự án
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Đơn bán hàng trong dự án
+          href: prod-pma/project-sales-orders.md
+        - name: Yêu cầu về hạng mục đối với hợp đồng dự án với nhiều nguồn tài trợ
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Lập hóa đơn liên công ty
+      items:
+        - name: Lập hóa đơn liên công ty
+          href: prod-pma/intercompany-invoicing.md
+        - name: Đặt cấu hình việc lập hóa đơn dự án liên công ty
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Ghi nhận doanh thu
+      items:
+        - name: Loại bỏ ước tính dự án
+          href: prod-pma/eliminate-project-estimate.md
 - name: Quản lý chi phí
   items:
     - name: Tổng quan về quản lý chi phí
@@ -1148,6 +1304,16 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Nâng cấp từ Project Service Automation lên Project Operations - bản đơn giản
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Các thay đổi về tính năng từ Project Service Automation sang Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Bản nâng cấp Project Service Automation (ứng dụng phiên bản 3.x)
       items:
         - name: Bản nâng cấp Project Service Automation
