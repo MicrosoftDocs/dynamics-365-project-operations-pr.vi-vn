@@ -3,16 +3,15 @@ title: Tổng quan về các mô tả báo giá dựa trên sản phẩm - bản
 description: Chủ đề này cung cấp thông tin về cách làm việc với mô tả báo giá dựa trên sản phẩm.
 author: rumant
 ms.date: 10/30/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003347"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574985"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Tổng quan về các mô tả báo giá dựa trên sản phẩm - bản đơn giản
 

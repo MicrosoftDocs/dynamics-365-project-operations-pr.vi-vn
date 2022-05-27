@@ -4,20 +4,20 @@ description: Nhóm Office cho phép bạn chia sẻ dự án với các thành v
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 76a5b94780c4467c5e423bb6048e91d9efcde6d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003167"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574503"
 ---
 # <a name="collaboration-with-office-groups"></a>Cộng tác với Nhóm Office
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Nhóm Office cho phép bạn chia sẻ dự án với các thành viên nhóm khác trong Common Data Service. Khi bạn thêm người dùng vào nhóm, quyền sở hữu dự án sẽ chuyển sang nhóm. Tất cả người dùng sẽ có quyền chỉnh sửa đối với dự án. Người dùng cũng có thể xem dự án nếu quản trị viên đã cấp đặc quyền. Những người dùng này sẽ không được hiển thị trong nhóm.
 

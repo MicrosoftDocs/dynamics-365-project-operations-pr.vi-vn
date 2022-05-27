@@ -1,33 +1,33 @@
 ---
-title: Tính toán chi phí
+title: Phân loại thành các khoản chi phí
 description: Chủ đề này giải thích cách tối thiểu hóa chi phí bằng cách sử dụng không gian làm việc Chi phí được mô phỏng lại.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944163"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574548"
 ---
-# <a name="expense-itemization"></a>Tính toán chi phí
+# <a name="expense-itemization"></a>Phân loại thành các khoản chi phí
 
 [!include [banner](../includes/banner.md)]
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Các tổ chức thường yêu cầu nhân viên cung cấp bảng phân tích chi tiết các chi phí phát sinh trong quá trình đi du lịch. Ví dụ, một foo khách sạn có thể chứa một số dòng chia thành từng mục cho giá phòng, thuế, bãi đậu xe và các chi phí linh tinh khác phát sinh mỗi ngày trong suốt thời gian lưu trú. Hoặc chi phí bữa ăn có thể yêu cầu bạn cung cấp bảng phân tích chi tiết hơn cho bữa sáng, bữa trưa hoặc bữa tối. Bất kể nhu cầu của tổ chức là gì, mỗi danh mục chi phí có thể được thiết lập để phản ánh các danh mục phụ hoặc các mục hàng tạo nên một khoản chi phí. Mặc dù việc chia thành từng khoản luôn được hỗ trợ trong **Quản lý chi tiêu**, các **Chi phí mô phỏng lại** không gian làm việc cho phép chia mục hiệu quả hơn khi tính năng, **Khả năng thành các khoản chi phí định kỳ một cách nhanh chóng** được kích hoạt.  
+Các tổ chức thường yêu cầu nhân viên cung cấp bảng phân tích chi tiết các chi phí phát sinh trong quá trình đi du lịch. Ví dụ, một foo khách sạn có thể chứa một số dòng chia thành từng mục cho giá phòng, thuế, bãi đậu xe và các chi phí linh tinh khác phát sinh mỗi ngày trong suốt thời gian lưu trú. Hoặc chi phí bữa ăn có thể yêu cầu bạn cung cấp bảng phân tích chi tiết hơn cho bữa sáng, bữa trưa hoặc bữa tối. Bất kể nhu cầu của tổ chức là gì, mỗi danh mục chi phí có thể được thiết lập để phản ánh các danh mục phụ hoặc các mục hàng tạo nên một khoản chi phí. Mặc dù việc chia thành từng khoản luôn được hỗ trợ trong **Quản lý chi tiêu**, các **Chi phí mô phỏng lại** không gian làm việc cho phép chia mục hiệu quả hơn khi tính năng, **Khả năng lập thành các khoản chi phí định kỳ một cách nhanh chóng** được kích hoạt.  
 
 ## <a name="enable-quick-itemization"></a>Bật tính năng chia thành từng khoản nhanh 
 
-Bạn có thể dùng **Khả năng thành các khoản chi phí định kỳ một cách nhanh chóng** tính năng ghi lại các khoản chi phí định kỳ một cách nhanh chóng trong khi tránh phải nhập các chi phí hàng ngày mỗi lần trong suốt thời gian lưu trú. Hoàn thành các bước sau để kích hoạt tính năng chia thành từng khoản nhanh chóng.
+Bạn có thể dùng **Khả năng lập thành các khoản chi phí định kỳ một cách nhanh chóng** tính năng ghi lại các khoản chi phí định kỳ một cách nhanh chóng trong khi tránh phải nhập các chi phí hàng ngày mỗi lần trong suốt thời gian lưu trú. Hoàn thành các bước sau để kích hoạt tính năng chia thành từng khoản nhanh chóng.
 
 1. Đi đến **Quản lý tính năng** không gian làm việc và trong danh sách các tính năng, định vị và chọn, **Báo cáo chi phí được mô phỏng lại**. 
 2. Chọn **Bật ngay**. 
-3. Trong danh sách tính năng, hãy tìm và chọn, **Khả năng thành các khoản chi phí định kỳ một cách nhanh chóng**.
+3. Trong danh sách tính năng, hãy tìm và chọn, **Khả năng lập thành các khoản chi phí định kỳ một cách nhanh chóng**.
 4. Chọn **Bật ngay**. 
 
 ## <a name="itemization-grid"></a>Lưới lặp lại 

@@ -2,16 +2,16 @@
 title: Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
 description: Chủ đề này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn nháp.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999342"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575100"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
 
@@ -27,12 +27,21 @@ Nhóm thuế bán hàng lập hóa đơn mặc định và nhóm thuế bán hà
 
 ## <a name="adjust-financial-dimensions"></a>Điều chỉnh các thông số tài chính
 
+### <a name="header-dimensions"></a>Kích thước tiêu đề
+
+Theo mặc định, các thứ nguyên tài chính hóa đơn được lấy từ các bản ghi giao dịch dự án chưa được lập hóa đơn đang được lập hóa đơn. Tuy nhiên, cài đặt hệ thống cho phép bạn sử dụng các thứ nguyên tài chính trên tiêu đề của các đề xuất hóa đơn dự án để đăng số dư của khách hàng. Để bật chức năng này, hãy chọn **Cho phép cập nhật kích thước dự án cho các khoản phải thu** trên **Tài chính** tab của **Quản lý dự án và các thông số kế toán** trang.
+
+Kích thước tài chính trên tiêu đề hóa đơn có thể được chỉnh sửa trước khi hóa đơn được đăng. Trên **Đề xuất hóa đơn dự án** trang, chuyển sang **Tiêu đề** xem, sau đó chỉnh sửa các giá trị trên **Kích thước tài chính** chuyển hướng.
+
+Các **Tiêu đề** chế độ xem chỉ khả dụng sau khi quản trị viên hệ thống bật **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Header và Lines** tính năng trong **Quản lý tính năng** không gian làm việc. Tính năng này yêu cầu bản cập nhật Finance 10.0.25 trở lên.
+
+### <a name="line-dimensions"></a>Kích thước dòng
+
 Các thông số tài chính không thể được chỉnh sửa trực tiếp trên dòng đề xuất hóa đơn dự án. Thay vào đó, hãy làm theo các bước sau để điều chỉnh các thông số tài chính trên một đề xuất hóa đơn dự án.
 
 1. Trên đề xuất hóa đơn dự án, hãy chọn **Xóa hết** để loại bỏ các dòng đề xuất hóa đơn dự án.
 
-    > [!NOTE]
-    > Nút **Xóa hết** chỉ khả dụng sau khi quản trị viên hệ thống bật tính năng **Xóa các dòng đề xuất hóa đơn khi sử dụng Project Operations cho các tình huống dựa trên tài nguyên/không có kho** trong không gian làm việc **Quản lý tính năng**.
+    Nút **Xóa hết** chỉ khả dụng sau khi quản trị viên hệ thống bật tính năng **Xóa các dòng đề xuất hóa đơn khi sử dụng Project Operations cho các tình huống dựa trên tài nguyên/không có kho** trong không gian làm việc **Quản lý tính năng**.
 
 2. Điều chỉn các thông số tài chính:
 

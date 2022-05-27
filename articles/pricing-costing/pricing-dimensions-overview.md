@@ -3,17 +3,16 @@ title: Tổng quan về thông số định giá
 description: Chủ đề này cung cấp thông tin về cách thiết lập thông số giá tùy chỉnh trong Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001997"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579286"
 ---
 # <a name="pricing-dimensions-overview"></a>Tổng quan về thông số định giá
 
@@ -58,18 +57,18 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 
 **Tỷ lệ hóa đơn mẫu**
 
-| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ------------|-------------|----------|----------:|----------|
-| Nhà phát triển   | Contoso Hoa Kỳ  |Giờ | 200|Giải pháp USD     |
-| Nhà phát triển   | Contoso Ấn Độ |Giờ|   112|Giải pháp USD     |
+| Nhà phát triển   | Contoso US  |Hour | 200|Giải pháp USD     |
+| Nhà phát triển   | Đàm Ấn Độ |Hour|   112|Giải pháp USD     |
 
 
 **Tỷ lệ chi phí mẫu**
 
-| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso Hoa Kỳ  |Giờ | 145|Giải pháp USD     |
-| My company_Band2 | Contoso Ấn Độ |Giờ|   67|Giải pháp USD     |
+| My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
+| My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

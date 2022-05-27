@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách gỡ cài đặt 
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783669"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575882"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Gỡ cài đặt Dynamics 365 Project Operations 
 
@@ -35,8 +35,8 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
     | 6 | ProjectServiceCore_Patch                           | Không có ghi chú bổ sung.                                                                         |
     | 7 | ProjectServiceCore                                 | Không có ghi chú bổ sung.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Nếu không tìm thấy, hãy bỏ qua giải pháp này.                                                            |
-    | 9 | FieldServiceCommon                                 | Cần thiết để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Cần thiết để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Bắt buộc để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Bắt buộc để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Bắt buộc với Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Bắt buộc với Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Bắt buộc với Dynamics 365 Field Service.                                                     |

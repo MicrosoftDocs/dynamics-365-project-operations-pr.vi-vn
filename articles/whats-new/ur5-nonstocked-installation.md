@@ -1,25 +1,25 @@
 ---
 title: Cập nhật Project Operations trong môi trường Tài chính
-description: Chủ đề này cung cấp thông tin về cách cập nhật Project Operations trong môi trường Dynamics 365 Finance.
+description: Chủ đề này cung cấp thông tin về cách cập nhật Hoạt động dự án trong môi trường Dynamics 365 Finance của bạn.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986787"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579976"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Cập nhật Project Operations trong môi trường Tài chính
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 
-Chủ đề này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
+Chủ đề này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance của bạn. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
 
 - [Nhập gói vào dự án thử nghiệm](#import)
 - [Áp dụng bản cập nhật](#apply)
@@ -119,7 +119,7 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
 4. Trên trang **Phiên bản sơ đồ bảng**, hãy áp dụng phiên bản mới của bảng cho từng thực thể trong số 3 thực thể.
 5. Trên trang **Ghi kép**, hãy chọn chạy để khởi động lại sơ đồ.
 6. Từ danh sách sơ đồ, hãy chọn **Sổ cái (msdyn_ledgers)** ánh xạ với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. 
-7. Trong trường **Đối tượng chính cho đồng bộ hóa ban đầu**, hãy chọn **ứng dụng Finance and Operations** rồi chọn **Chạy**.
+7. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng Tài chính và Hoạt động** và sau đó chọn **Chạy**.
  
  ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
  

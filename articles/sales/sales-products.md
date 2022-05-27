@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986877"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574134"
 ---
 # <a name="products"></a>Sản phẩm
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Sản phẩm là xương sống của doanh nghiệp của bạn. Danh mục sản phẩm trong Dynamics 365 Sales Professional là tập hợp các sản phẩm và thông tin giá cả. Giúp đại diện bán hàng của bạn dễ dàng tăng doanh thu hơn bằng cách nhanh chóng tạo ra một danh mục sản phẩm.
+Sản phẩm là xương sống của doanh nghiệp của bạn. Danh mục sản phẩm trong Dynamics 365 Sales Professional là tập hợp các sản phẩm và thông tin về giá. Giúp đại diện bán hàng của bạn dễ dàng tăng doanh thu hơn bằng cách nhanh chóng tạo ra một danh mục sản phẩm.
 
 ## <a name="add-a-product"></a>Thêm sản phẩm
 
-1.  Đảm bảo rằng bạn có vai trò Chuyên gia Quản lý Bán hàng hoặc Quản trị viên Hệ thống để có thể thêm sản phẩm trong Dynamics 365 Sales Professional.
+1.  Đảm bảo rằng bạn có vai trò Người quản lý Sales Professional hoặc Quản trị viên hệ thống để có thể thêm sản phẩm trong Dynamics 365 Sales Professional.
 2.  Trong sơ đồ trang web, trong **Thiết lập**, hãy chọn **Sản phẩm**.
 3.  Chọn **Thêm sản phẩm** và điền thông tin sau đây:
 

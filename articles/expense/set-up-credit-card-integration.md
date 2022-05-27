@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826282"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577109"
 ---
 # <a name="set-up-credit-card-integration"></a>Thiết lập phần tích hợp thẻ tín dụng
 
@@ -35,7 +35,7 @@ Các giao dịch thẻ tín dụng liên quan đến chi phí có thể được
 3. Trong trường **Định dạng dữ liệu nguồn**, chọn định dạng của tệp chứa giao dịch thẻ tín dụng để nhập.
 4. Chọn **Tải lên** rồi tìm và chọn tệp để nhập.
 5. Sau khi tệp đã được tải lên, hãy xác thực quá trình ánh xạ tệp giao dịch thẻ tín dụng và các cột của thực thể dữ liệu giao dịch thẻ tín dụng bằng cách chọn liên kết **Xem bản đồ** trên ngăn xếp. Nếu có lỗi ánh xạ hoặc nếu bạn phải thay đổi ánh xạ, hãy thực hiện các thay đổi về ánh xạ trong tab **Trực quan hóa ánh xạ** hoặc tab **Chi tiết ánh xạ**.
-6. Để tự động hóa các giao dịch thẻ tín dụng, hãy chọn **Tạo tác vụ dữ liệu định kỳ**. Sau đó, bạn có thể đặt mức lặp lại để xác định tần suất nhập giao dịch thẻ tín dụng. Khi bạn hoàn thành, hãy chọn **VÂNG**.
+6. Để tự động hóa các giao dịch thẻ tín dụng, hãy chọn **Tạo tác vụ dữ liệu định kỳ**. Sau đó, bạn có thể đặt mức lặp lại để xác định tần suất nhập giao dịch thẻ tín dụng. Khi bạn hoàn thành, hãy chọn **ĐƯỢC RỒI**.
 7. Để nhập tệp đã chọn ngay bây giờ, hãy chọn **Nhập**.
 8. Nếu xảy ra lỗi trong quá trình nhập, bạn có thể xem nhật ký thực thi hoặc dữ liệu phân đoạn để xem các lỗi mà bạn phải sửa để giúp đảm bảo nhập thành công.
 
@@ -61,7 +61,7 @@ Chọn một hoặc nhiều giao dịch thẻ tín dụng, sau đó chọn **Ch�
 Ba tùy chọn có sẵn để lưu trữ số thẻ tín dụng. Số thẻ tín dụng được lưu trữ trên **Các thông số quản lý chi phí** trang.
 
 - **Ngăn nhập số thẻ** - Số thẻ tín dụng không được lưu trữ.
-- **Số thẻ băm (lưu trữ bốn chữ số cuối cùng)** - Bốn chữ số cuối của số thẻ tín dụng được lưu trữ dưới dạng mã hóa.
-- **Lưu trữ số thẻ** - Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu của ngành thẻ thanh toán (PCI) (DSS). Do đó, để tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
+- **Số thẻ băm (lưu trữ bốn chữ số cuối cùng)** - Bốn chữ số cuối của số thẻ tín dụng được lưu trữ ở định dạng mã hóa.
+- **Lưu trữ số thẻ** - Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu của ngành thẻ thanh toán (PCI) (DSS). Do đó, để giữ cho tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

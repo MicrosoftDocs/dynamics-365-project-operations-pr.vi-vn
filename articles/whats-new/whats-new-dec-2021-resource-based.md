@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: HT
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943049"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579838"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 12 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943049"
 
 Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
-- Hoạt động dự án trong một Dataverse phiên bản môi trường 4.27.0.195, 4.27.0.242
-- Quản lý dự án và kế toán trong một Dynamics 365 Finance phiên bản môi trường 10.0.23
+- Hoạt động dự án trong một Dataverse phiên bản môi trường 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -32,7 +32,7 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 
 Không có bản cập nhật nào cho bản đồ ghi kép Project Operations trong bản phát hành này. Để biết danh sách hiện tại và các phiên bản của bản đồ ghi kép Project Operations, hãy xem [Phiên bản bản đồ ghi kép Project Operations](../environment/resource-dual-write-maps.md).
 
-Luôn chạy phiên bản mới nhất của bản đồ trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố Ghi kép.
 
@@ -42,13 +42,13 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 
 | **Lĩnh vực tính năng** | **Số tham chiếu** | **Cập nhật chất lượng** |
 | --- | --- | --- |
-| Hoạch định và theo dõi dự án | 2392596 | Lập lịch API hiện cho phép cập nhật **Nỗ lực còn lại**, **lực đã hoàn thành**, và **% Hoàn chỉnh** lĩnh vực. |
+| Hoạch định và theo dõi dự án | 2392596 | Lập lịch API hiện cho phép cập nhật **Nỗ lực còn lại**, **lực đã hoàn thành**, và **% Hoàn thành** lĩnh vực. |
 | Hoạch định và theo dõi dự án | 2478497 | Các **Số hoạt động** và **ID công việc** các trường cho API lịch biểu có thể để trống trên đầu vào vì hệ thống sẽ điền chúng bằng cách đánh số tự động.|
 | Thời gian và Chi phí | 2468135 | Số lần thử phê duyệt lại giảm từ năm xuống còn ba. |
 | Thời gian và Chi phí | 2468188 | Đã khắc phục sự cố với văn bản nhật ký vượt quá độ dài tối đa trong **notetext** thuộc tính của **Chú thích** thực thể. |
 | Định giá và thanh toán | 2488698 | Thông báo lỗi cập nhật xảy ra khi thiết lập môi trường thiếu bản ghi thực thể Sổ cái được điền từ Tài chính. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trên Dynamics 365 Finance
 
 | **Lĩnh vực tính năng** | **Số tham chiếu** | **Cập nhật chất lượng** |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Quản lý dự án và kế toán | [599568](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D599568&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225600986%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=IudfEjWmkNeiTsWmR%2Fu2oR0CnnCkffAshvqZJuF76q8%3D&amp;reserved=0) | Ước tính đường thẳng được tính toán không chính xác. |
 | Quản lý dự án và kế toán | [602728](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D602728&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227094434%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=Q2%2BveFHlGrzg4QHtqcgeqjyZSQkmpr%2Fku7oObKHMB9g%3D&amp;reserved=0) | Vấn đề đăng đối với doanh thu được lập hóa đơn của dự án trong các trường hợp trả trước được áp dụng dẫn đến các giao dịch trên chứng từ không được cân bằng. |
 | Quản lý dự án và kế toán | [610906](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D610906&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227134259%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=xDBnz10T71GmOZt78ooFK3SYvmTLoC5fj1OftYNYDpY%3D&amp;reserved=0) | Cải tiến hiệu suất để tích hợp với tài liệu hướng dẫn Hoạt động dự án. |
-| Quản lý dự án và kế toán | [618670](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D618670&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227203949%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=PqvHsTGLcQ3bYbUlzYABYhl7J9v2zbnjcOgm%2FTvXB20%3D&amp;reserved=0) | Người dùng không thể lập hóa đơn nếu các giao dịch chi phí theo giờ được đăng với **Không bao giờ sổ cái** hoặc là **Không có sổ cái**. |
+| Quản lý dự án và kế toán | [618670](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D618670&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227203949%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=PqvHsTGLcQ3bYbUlzYABYhl7J9v2zbnjcOgm%2FTvXB20%3D&amp;reserved=0) | Người dùng không thể lập hóa đơn nếu các giao dịch chi phí theo giờ được đăng với **Không bao giờ sổ cái** hoặc **Không có sổ cái**. |
 | Quản lý dự án và kế toán | [623818](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D623818&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919227303517%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=LAfdEiuKG8DoGk8O48MRLuaKYDINhCyMAtrlpGvVAw0%3D&amp;reserved=0) | Các công việc hàng loạt không thành công nếu một trong các bài đăng tạp chí bị lỗi và các tạp chí còn lại không được xử lý.  |
 | Đi lại và chi tiêu | [575378](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D575378&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225451644%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=3tW0ngQqcz8pdNFY8FVuFlsgv3l73HMgeQTLbzIAAOg%3D&amp;reserved=0) | Trạng thái phê duyệt cho các chi phí không đính kèm có thể được thay đổi. |
 | Đi lại và chi tiêu | [592997](https://nam06.safelinks.protection.outlook.com/?url=https:%2F%2Ffix.lcs.dynamics.com%2FIssue%2FDetails%2F?bugId%3D592997&amp;data=04%7C01%7Cjespers%40microsoft.com%7Cc1d2484c411149f3a93708d9a8583e14%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637725919225521336%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=0leQsokHcl2NLqePFXC6%2BuH1V5UNRWUIPx0wTUaB4vg%3D&amp;reserved=0) | Báo cáo chi phí được gửi đến quy trình làm việc cho phép bạn tạo các dòng chi phí mới. |

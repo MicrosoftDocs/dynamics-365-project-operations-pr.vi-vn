@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984897"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579884"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Những điểm mới tháng 12 năm 2020 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dataverse phiên bản 4.5.0.134
-- Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.15
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.15
 
 Để biết thêm thông tin về cách cập nhật bản phát hành này, hãy xem [Cập nhật Project Operations trong môi trường Tài chính](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 | Hoạch định và theo dõi dự án | 2057197          | Chưa hỗ trợ khả năng sao chép dòng ước tính có tham chiếu nhiệm vụ                                                                                                     |
 | Hoạch định và theo dõi dự án | 2060687          | Cảnh báo về múi giờ sẽ biến mất sau một khoảng thời gian nhất định                                                                                                      |
 | Quản lý nguồn lực           | 1832887          | ID hạng mục Nguồn lực mặc định phải ở trạng thái tĩnh để đảm bảo rằng dữ liệu khả lặp sẽ tải cho các môi trường Dataverse và Tài chính                                                 |
-| Thời gian và chi tiêu              | 2081793          | **Tên hạng mục chi tiêu** phải được ánh xạ đến trường **Mô tả hạng mục chi tiêu** trong các ứng dụng Finance and Operations                                                  |
+| Thời gian và chi tiêu              | 2081793          | **Tên hạng mục chi phí** phải được ánh xạ tới **Mô tả danh mục chi phí** trong ứng dụng Tài chính và Hoạt động                                                  |
 | Thời gian và chi tiêu              | 2034882          | Nút **Mới** hiển thị 2 lần trên thanh lệnh của các mục thời gian khi cài đặt Dynamics 365 Field Service                                          |
 | Thời gian và chi tiêu              | 2056028          | Cập nhật trang **Chỉnh sửa thời gian** để bao gồm dòng thời gian                                                                                                              |
 | Thời gian và chi tiêu              | 1983747          | Sơ đồ mục thời gian hiển thị thêm dữ liệu                                                                                                                   |
@@ -106,7 +106,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 | Đi lại và chi tiêu                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Quy trình tự động đăng báo cáo chi tiêu hoàn tất nhưng hóa đơn lại không được đăng                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

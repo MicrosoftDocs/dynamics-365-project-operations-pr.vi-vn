@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818332"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576066"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Có gì mới hoặc thay đổi trong Hoạt động dự án, tháng 10 năm 2021 đối với các kịch bản dựa trên sản xuất / tồn kho
 
@@ -30,7 +30,7 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | Các **Ngăn chặn việc đóng dự án nếu tồn tại các giao dịch đang mở** chức năng không hoạt động. |
 | Quản lý dự án và kế toán | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | Phân loại thanh toán trên hóa đơn văn bản miễn phí không tự động điền vào các thứ nguyên từ các dự án khi chức năng đó được bật. |
 | Quản lý dự án và kế toán | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | Trong các trường hợp không liên công ty, WIP và số tiền doanh thu tích lũy không được hoàn nguyên chính xác khi hóa đơn dự án được đăng. |
-| Quản lý dự án và kế toán | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Giá trị ghi nợ và ghi có được chuyển đổi khi bổ trợ Microsoft Excel được sử dụng với tạp chí chi phí Dự án và **Loại tài khoản bù đắp** trường được đặt thành **Dự án**. |
+| Quản lý dự án và kế toán | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Giá trị ghi nợ và ghi có được chuyển đổi khi Microsoft Excel bổ trợ được sử dụng với tạp chí chi phí Dự án và **Loại tài khoản bù đắp** trường được đặt thành **Dự định**. |
 | Quản lý dự án và kế toán | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | Số tiền được đăng trong các giao dịch dự án được phóng đại trên đơn đặt hàng mua dự án bao gồm các mặt hàng được dự trữ và có số thuế không được khấu trừ khi **UseTax** Chấm điểm. |
 | Quản lý dự án và kế toán | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | Hệ thống phân chia số tiền giữa các báo cáo lãi lỗ của dự án và các báo cáo WIP của dự án. |
 | Quản lý dự án và kế toán | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | Khoảng không quảng cáo trên tay không chính xác sau khi yêu cầu của mặt hàng trả lại một phần được điều chỉnh. |
@@ -50,12 +50,12 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [597679](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597679) | Đã xảy ra lỗi khi bạn cố gắng phê duyệt bảng chấm công từ **TSLine** quy trình làm việc và có chính sách về bảng chấm công cho Thứ Bảy và Chủ Nhật. |
 | Quản lý dự án và kế toán | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Loại mục dự án số dư đầu kỳ được loại trừ khỏi **Tóm tắt giao dịch đề xuất hóa đơn** khi tổng số hóa đơn của đề xuất hóa đơn được tính toán. |
 | Quản lý dự án và kế toán | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Nếu chi phí tiêu thụ trên một đơn đặt hàng sản xuất dự án là 0 (không), thì lỗi sau sẽ xảy ra khi bạn cố gắng ước tính: "Đã cố gắng chia cho không." |
-| Quản lý dự án và kế toán | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Ứng dụng Project Timesheet dành cho thiết bị di động cho Android ngừng phản hồi. Vấn đề liên quan đến **TimeEntryDataManager ArgumentNullException**. |
-| Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Tạp chí tích hợp Hoạt động Dự án không thành công khi bạn đăng nó, vì tài khoản thiếu thứ nguyên. Tuy nhiên, tài khoản thiếu thứ nguyên không phải là tài khoản mà bạn đang đăng. |
+| Quản lý dự án và kế toán | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Ứng dụng Project Timesheet dành cho thiết bị di động dành cho Android ngừng phản hồi. Vấn đề liên quan đến **TimeEntryDataManager ArgumentNullException**. |
+| Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Tạp chí tích hợp Hoạt động Dự án không thành công khi bạn đăng nó, vì tài khoản thiếu thứ nguyên. Tuy nhiên, tài khoản thiếu thứ nguyên không phải là tài khoản mà bạn đang đăng lên. |
 | Quản lý dự án và kế toán | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | Các **Ngày đến** bộ lọc trong tìm kiếm không bị xóa khi nó bị xóa khỏi **Lựa chọn** hộp thoại trên **Đăng chi phí** trang. |
-| Quản lý dự án và kế toán | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Đặt lại tất cả phân phối** không thành công và hiển thị lỗi cho các bảng chấm công được tạo cho một dự án của **Chỉ thời gian** kiểu. |
-| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự án** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
-| Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động Dự án Dataverse. |
+| Quản lý dự án và kế toán | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Đặt lại tất cả phân phối** không thành công và hiển thị lỗi cho các bảng chấm công được tạo cho một dự án của **Chỉ thời gian** gõ phím. |
+| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự định** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
+| Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động dự án Dataverse. |
 | Quản lý dự án và kế toán | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | Đối với các giao dịch điều chỉnh dự án liên công ty, có vấn đề ở công ty đích. |
 | Quản lý dự án và kế toán | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Chi phí cam kết cho một dự án tính toán sai số lượng và giá vốn nếu đơn đặt hàng được xử lý bởi **Đơn đặt hàng quá trình cuối năm** trên Sổ cái. |
 | Quản lý dự án và kế toán | [581454](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581454) | Khi đơn đặt hàng sản xuất dự án có đơn đặt hàng chất lượng được báo cáo là đã hoàn thành, lỗi sau sẽ xảy ra: "Không có giao dịch ảo nào được đánh dấu bằng giao dịch hàng tồn kho." |
@@ -72,7 +72,7 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [613418](https://fix.lcs.dynamics.com/Issue/Details/?bugId=613418) | Giá vốn của các yêu cầu mặt hàng được cập nhật với giá mua của các đơn đặt hàng mua tổng hợp. |
 | Quản lý dự án và kế toán | [614145](https://fix.lcs.dynamics.com/Issue/Details/?bugId=614145) | Chi phí đã đăng không chính xác sau khi giá mua được cập nhật và thông số **Kích hoạt quản lý thay đổi** được kích hoạt. |
 | Đi lại và chi tiêu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Tất cả chi phí của người dùng có thể được nhìn thấy khi bạn tìm kiếm một danh mục trong ứng dụng Expense dành cho thiết bị di động. |
-| Đi lại và chi tiêu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Số tiền không chính xác về giao dịch của nhà cung cấp và giao dịch thuế bán hàng được tính từ một khoản chi phí được tạo ra từ giao dịch thẻ tín dụng. |
+| Đi lại và chi tiêu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Số tiền không chính xác trong các giao dịch của nhà cung cấp và các giao dịch thuế bán hàng được tính từ một khoản chi phí được tạo ra từ giao dịch thẻ tín dụng. |
 | Đi lại và chi tiêu | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Thông báo cảnh báo không liên quan được hiển thị khi bạn làm mới các trang báo cáo chi phí. |
 | Đi lại và chi tiêu | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Người phê duyệt tạm thời sai được sử dụng khi bạn xóa người phê duyệt tạm thời và sau đó gửi lại thông qua quy trình làm việc. |
 | Đi lại và chi tiêu | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Một lỗi đăng xảy ra liên quan đến thiết lập số dặm. |
@@ -80,6 +80,6 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Microsoft Dynamics Dịch vụ vòng đời (LCS) và sử dụng công cụ tìm kiếm Sự cố để xem các bản cập nhật quy định theo kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia hoặc khu vực, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và sử dụng công cụ tìm kiếm Vấn đề để xem các bản cập nhật quy định theo kế hoạch. Tìm kiếm sự cố cho phép bạn tìm kiếm theo quốc gia hoặc khu vực, loại tính năng và bản phát hành.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

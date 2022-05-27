@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về các báo giá dự án
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579608"
 ---
 # <a name="manage-project-quotes"></a>Quản lý báo giá dự án
 
@@ -31,6 +31,9 @@ Danh sách tất cả báo giá dự án có trên trang danh sách **Báo giá*
 2. Sử dụng **Bộ chuyển dạng xem** để chọn các chế độ đã lọc khác của báo giá. Sử dụng tiêu chí bộ lọc tùy chỉnh, bạn có thể định cấu hình các dạng xem và tùy chọn điều hướng của riêng mình.
 
 Có thể tạo hoặc xóa báo giá khỏi trang danh sách này hoặc các trang chi tiết.
+
+ > [!NOTE]
+ > Không thể xóa các trích dẫn có dự án, nhiệm vụ, ước tính, tạp chí và / hoặc thực tế liên quan đến chúng. Ngoài ra, khi một câu trích dẫn bị đóng là Won hoặc Mất, nó sẽ không thể bị xóa hoặc sửa đổi được nữa. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Thiết lập chi phí và tỷ lệ doanh số cho vật tư
 description: Chủ đề này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ doanh số cho vật tư được dùng cho các dự án.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999207"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576894"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Thiết lập chi phí và tỷ lệ doanh số cho vật tư
 
@@ -25,6 +25,9 @@ Bạn có thể thiết lập chi phí và giá bán cho sản phẩm trong Dyna
 2. Trên **Các hạng mục trong bảng giá**, trong menu lưới phụ, hãy chọn **Hạng mục trong bảng giá mới**. 
 3. Trên trang **Tạo nhanh**, hãy nhập sản phẩm và đơn vị mà bạn đang tạo giá mới.
 
-Để biết thêm thông tin về cách xác định giá cho các mục trong danh mục, hãy xem [Thiết lập giá cho các sản phẩm](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) và [Độ chính xác thập phân trong đơn vị tiền tệ và giá](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Để biết thêm thông tin về cách xác định giá cho các mục trong danh mục, hãy xem [Xác định giá sản phẩm bằng bảng giá và các mục trong bảng giá](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) và [Độ chính xác thập phân về đơn vị tiền tệ và giá cả](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations không hỗ trợ tất cả các phương pháp định giá cho các sản phẩm với tư cách là Bán hàng Dynamics 365. Phương pháp định giá duy nhất được hỗ trợ cho các sản phẩm được sử dụng trong các dự án là *Lượng ngoại tệ*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

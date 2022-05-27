@@ -1,19 +1,19 @@
 ---
-title: Nhân sự cho một dự án với công nhân hợp đồng và năng lực của hợp đồng phụ
+title: Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
 description: Chủ đề này giải thích cách các yêu cầu của dự án có thể được nhân viên sử dụng nhân viên hợp đồng hoặc năng lực hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7e9a0ca08f472999138589f31ca820b733b6303e
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903816"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574668"
 ---
-# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Nhân sự cho một dự án với công nhân hợp đồng và năng lực của hợp đồng phụ
+# <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -36,7 +36,7 @@ Các thành viên trong nhóm dự án chung có thể được biên chế cùn
 > [!NOTE]
 > Không phải lúc nào cũng có thể cập nhật thành viên nhóm dự án với tham chiếu dòng thầu phụ và hợp đồng phụ trong quá trình đặt trước nếu nguồn lực được chỉ định cho nhiều dòng hợp đồng phụ. Nếu hệ thống không thể cập nhật thành viên nhóm dự án với dòng hợp đồng phụ và hợp đồng phụ, thì hãy mở hồ sơ thành viên nhóm dự án và cập nhật thủ công các trường này để ước tính chi phí tài chính phản ánh chính xác chi phí nhà thầu phụ.
 
-## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Tìm kiếm và yêu cầu nguồn nhân viên với bất kỳ nhân viên hợp đồng nào
+## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Tìm kiếm và các yêu cầu về nguồn nhân viên với bất kỳ nhân viên hợp đồng nào
 
 Để tìm kiếm và các yêu cầu về nguồn nhân viên với bất kỳ nhân viên hợp đồng nào, hãy làm theo các bước sau:
 

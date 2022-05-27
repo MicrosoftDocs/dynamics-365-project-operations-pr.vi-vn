@@ -4,20 +4,20 @@ description: Chủ đề này cung cấp thông tin về cách đăng ký và tr
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323442"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575836"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Chủ đề này giải thích cách đăng ký ưu đãi dùng thử và triển khai môi trường Project Operations cho các kịch bản dựa trên tài nguyên/không có kho.
 
@@ -40,16 +40,16 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
   Bạn sẽ thấy ưu đãi xác nhận đã được đổi thành công.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance bản dùng thử ở dạng xem trước
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance bản dùng thử xem trước
 
 Đi đến [Bản dùng thử xem trước Dynamics 365 for Finance](https://aka.ms/trypoche) và thực hiện lại các bước từ phần trước với ưu đãi, Đăng ký môi trường lưu trữ đám mây.  
 
 ## <a name="assign-licenses"></a>Gán giấy phép
 
 > [!IMPORTANT]
-> Bạn sẽ cần quyền truy nhập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
+> Bạn sẽ cần quyền truy cập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
 
-1. Chuyển đến [Trung tâm quản trị Microsoft 365](https://portal.office.com/) để gán giấy phép cho người dùng của bạn.
+1. Đi đến [Microsoft 365 trung tâm quản trị](https://portal.office.com/) để chuyển nhượng giấy phép cho người dùng của bạn.
 
 2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
 

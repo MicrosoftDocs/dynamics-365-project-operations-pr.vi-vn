@@ -3,16 +3,15 @@ title: Tổng quan về quy trình bán hàng
 description: Chủ đề này cung cấp thông tin về các quy trình bán hàng cơ bản.
 author: rumant
 ms.date: 10/29/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e99035798f775de5cd59724a9fe0d7ea6de40034
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991872"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578504"
 ---
 # <a name="sales-process-overview"></a>Tổng quan về quy trình bán hàng
 
