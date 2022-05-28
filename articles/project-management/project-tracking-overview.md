@@ -2,17 +2,16 @@
 title: Theo dõi công số dự án
 description: Chủ đề này cung cấp thông tin về cách theo dõi công số dự án và tiến độ công việc.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993987"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593822"
 ---
 # <a name="project-effort-tracking"></a>Theo dõi công số dự án
 
@@ -46,7 +45,8 @@ Có thể lên kế hoạch lại nhân công cho các nhiệm vụ tóm tắt h
 - EAC mới trên mỗi nhiệm vụ riêng xuống các nhiệm vụ nút lá được tính toán. 
 - Các nhiệm vụ con bị ảnh hưởng xuống các nút lá có công số còn lại và tỷ lệ phần trăm tiến trình được tính toán lại dựa trên giá trị EAC. Điều này dẫn đến dự kiến mới cho chênh lệch nhân công của nhiệm vụ. 
 - EAC của nhiệm vụ tóm tắt đến các nút gốc được tính toán lại.
-
+- Nỗ lực đã được phê duyệt đối với một nhiệm vụ tóm tắt là tổng nỗ lực đã được phê duyệt đối với tất cả các nhiệm vụ con cộng với nỗ lực đã được phê duyệt đối với nhiệm vụ tóm tắt.
+- Nỗ lực còn lại đối với nhiệm vụ tóm tắt là tổng nỗ lực còn lại trên tất cả các nhiệm vụ con trừ đi nỗ lực đã được phê duyệt đối với nhiệm vụ tóm tắt.
 
 ## <a name="project-status-summary"></a>Tóm tắt trạng thái dự án
 

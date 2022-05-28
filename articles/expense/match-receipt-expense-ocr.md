@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798066"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596306"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Chụp biên nhận bằng OCR
 
@@ -52,7 +52,7 @@ Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung q
 
 ## <a name="installation"></a>Cài đặt
 
-Để sử dụng các khả năng chi phí nâng cao này, hãy cài đặt phần bổ trợ Dịch vụ Quản lý Chi phí cho Microsoft Dynamics 365 Finance và bật các tính năng trong trường hợp của bạn. Bạn có thể truy cập bổ trợ từ dự án của mình trong Microsoft Dynamics Dịch vụ Vòng đời (LCS).
+Để sử dụng các khả năng chi phí nâng cao này, hãy cài đặt phần bổ trợ Dịch vụ Quản lý Chi phí cho Microsoft Dynamics 365 Finance, và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Đăng nhập vào LCS và mở môi trường mong muốn.
 2. Chuyển tới **Chi tiết đầy đủ**.
@@ -73,7 +73,7 @@ Khi bạn bật các tính năng này, các tác vụ sau sẽ diễn ra:
 - Một mục menu mới để hiển thị trường chi phí được thêm vào.
 - Bạn vẫn có thể mở trang **Báo cáo chi phí** trước bằng cách chuyển tới **Quản lý chi phí> Chi phí của tôi > Báo cáo chi phí**.
 - Quy trình làm việc và mọi mục phê duyệt vẫn đưa bạn đến trang báo cáo chi phí hiện có.
-- Biên nhận sẽ được xử lý thông qua Dịch vụ nhận thức Microsoft Azure và siêu dữ liệu sẽ được trích xuất và thêm vào.
+- Biên lai sẽ được xử lý thông qua Microsoft Azure Cognitive Services và siêu dữ liệu sẽ được trích xuất và thêm vào.
 - Một tùy chọn được thêm vào, cho phép bạn tạo báo cáo chi phí bao gồm các biên lai chưa đính kèm đã được so khớp.
 - Một tùy chọn được thêm vào báo cáo chi phí, cho phép bạn tạo dòng chi phí từ biên lai hoặc thử so khớp biên lai hiện có với dòng chi phí hiện có.
 

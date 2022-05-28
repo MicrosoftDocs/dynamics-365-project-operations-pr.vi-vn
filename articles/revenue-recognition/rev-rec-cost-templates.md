@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách tạo và sử d�
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993582"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594236"
 ---
 # <a name="set-up-cost-templates"></a>Thiết lập mẫu chi phí
 
@@ -56,7 +56,7 @@ Bạn có thể cân nhắc một vài yếu tố sau đây khi đưa ra quyết
 ## <a name="create-cost-templates"></a>Tạo mẫu chi phí
 Để tạo mẫu chi phí, hãy làm theo các bước sau:
 
-1. Để truy cập vào mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Thiết lập** > **Ước tính** > **Mẫu chi phí**.
+1. Để truy cập các mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy chuyển đến **Quản lý dự án và kế toán** > **Cài đặt** > **Ước tính** > **Mẫu chi phí**.
 2. Chọn **Mới** để tạo mẫu chi phí mới. Nhập tên và mô tả.
 3. Cung cấp ID dòng chi phí cho từng loại giao dịch.
 4. Chọn một phương pháp hoàn thành làm mặc định:

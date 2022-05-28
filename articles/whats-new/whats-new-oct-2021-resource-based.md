@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753318"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598514"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753318"
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
    - Project Operations trong môi trường Microsoft Dataverse phiên bản 4.25.0.91
-   - Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.21
+   - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -49,7 +49,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Định giá và thanh toán | 2338357 | Đơn vị tiền tệ trên nhật ký sử dụng vật liệu phải mặc định từ đơn vị tiền tệ của dự án khi dự án được chọn. |
 | Thời gian và chi phí | 2414777 | Việc hủy bỏ phê duyệt khi mục chi phí hoặc thời gian có nhiều hơn một phê duyệt dự án liên quan phải có thể thực hiện được. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trên Dynamics 365 Finance
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |

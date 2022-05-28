@@ -4,14 +4,14 @@ description: Chủ đề này giải thích cách tạo cấu trúc phân tích 
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928641"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597824"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -124,7 +124,7 @@ Bạn nên biết những hạn chế sau nếu bạn đang sử dụng cấu tr
 |----------------------------------------------------|----------------------|
 | Tổng số nhiệm vụ tối đa cho một dự án                  | 500                  |
 | Tổng khoảng thời gian tối đa cho một dự án               | 3650 ngày (10 năm) |
-| Tổng số tài nguyên tối đa cho một dự án              | 150                  |
+| Tổng số tài nguyên tối đa cho một dự án              | 300                  |
 | Tổng số liên kết tối đa (chỉ dành cho người kế nhiệm) cho một dự án | 600                  |
 | Tổng số trường tùy chỉnh tối đa cho một dự án          | 10                   |
 | Các mục trong danh sách kiểm tra tối đa cho mỗi nhiệm vụ                   | 20                   |

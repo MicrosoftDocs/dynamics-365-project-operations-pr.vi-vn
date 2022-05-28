@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008837"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594972"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Có gì mới hoặc thay đổi trong Project Operations tháng 12 năm 2020 cho tình huống dựa trên hàng dự trữ/sản xuất
 
@@ -20,7 +20,7 @@ _Áp dụng cho: Project Operations cho tình huống dựa trên hàng trữ kh
 
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-  - Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.15
+  - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.15
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -139,7 +139,7 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các bản cập nhật theo quy định cho Dynamics 365 Finance, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật quy định cho Dynamics 365 Finance, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

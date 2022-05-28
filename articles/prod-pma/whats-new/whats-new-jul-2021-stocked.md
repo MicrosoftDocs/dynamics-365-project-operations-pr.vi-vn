@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992727"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597088"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Tính năng mới hoặc thay đổi trong Project Operations, tháng 7 năm 2021 cho các kịch bản dựa trên hàng trữ kho/sản xuất
 
@@ -20,7 +20,7 @@ _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng tr�
 
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-- Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.20
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.20
  
 ### <a name="quality-updates"></a>Bản cập nhật chất lượng
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | Đi lại và chi tiêu                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Công cụ **Đặt lại trạng thái tài liệu chi phí** sẽ đặt lại trạng thái báo cáo chi phí thành **Bản nháp** nếu không tìm thấy quy trình làm việc. 
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Lifecycle Services (LCS) và xem các bản cập nhật quy định theo kế hoạch bằng cách sử dụng công cụ tìm kiếm Sự cố. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Lifecycle Services (LCS) và xem các bản cập nhật quy định theo kế hoạch bằng cách sử dụng công cụ tìm kiếm Sự cố. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

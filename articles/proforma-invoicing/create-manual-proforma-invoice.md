@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995652"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600078"
 ---
 # <a name="proforma-invoices"></a>Hóa đơn ước giá
 
@@ -82,6 +82,9 @@ Khi bạn tạo một hóa đơn dự án nháp, tất cả giao dịch bán hà
 - Chỉnh sửa và điều chỉnh loại thanh toán và số lượng.
 
 Chọn **Xác nhận** để xác nhận hóa đơn. Hành động Xác nhận là hành động một chiều. khi bạn chọn **Xác nhận**, hệ thống đặt hóa đơn ở chế độ chỉ đọc và tạo doanh số bán hàng thực tế đã lập hóa đơn từ mỗi chi tiết mô tả hóa đơn cho mỗi mô tả hóa đơn. Nếu chi tiết mô tả hóa đơn tham chiếu doanh số bán hàng thực tế chưa lập hóa đơn, thì hệ thống cũng đảo ngược doanh số bán hàng thực tế chưa lập hóa đơn đó. (Mọi chi tiết mô tả hóa đơn được tạo từ mục nhập thời gian hoặc chi phí sẽ tham chiếu doanh số bán hàng thực tế chưa được lập hóa đơn). Các hệ thống tích hợp sổ cái chung có thể dùng đảo ngược này để đảo ngược công việc dự án đang tiến hành (WIP) cho mục đích kế toán.
+
+> [!NOTE]
+> Không thể chỉnh sửa hoặc xóa các hóa đơn chiếu lệ đã xác nhận và các bản ghi liên quan như dòng hóa đơn và dòng hóa đơn. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Sửa hóa đơn đã xác nhận
 

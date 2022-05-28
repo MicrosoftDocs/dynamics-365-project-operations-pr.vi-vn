@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901522"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598744"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 38, V3
 
@@ -54,5 +55,5 @@ Các vấn đề sau đã được khắc phục.
 - **Thực hiện hợp đồng** và **Chi phí thực tế của dự án** giá trị không khớp khi các tài nguyên có thể đặt trước có các đơn vị hợp đồng và đơn vị tiền tệ khác nhau gửi các mục thời gian.
 - Quy trình làm việc tùy chỉnh để tự động xác nhận hóa đơn không thành công khi hóa đơn được nhập dưới dạng giải pháp được quản lý. Thông báo sau được hiển thị: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Thông báo: Trạng thái hóa đơn không hợp lệ."
 - Khi nào **Nguồn gốc** được chọn làm tùy chọn tóm tắt và dự án có các ước tính từ hỗn hợp các lớp giao dịch (ví dụ: kết hợp ước tính thời gian, chi phí và vật liệu), hệ thống sẽ tóm tắt giữa các lớp giao dịch dưới dạng một dòng phí duy nhất.
-- Trong các tình huống mà dòng chi phí được thêm vào trước khi dòng hợp đồng được liên kết với một dự án, giá chính xác không được nhập làm giá trị mặc định trong **Cập nhật giá** cánh đồng.
+- Trong các tình huống mà dòng chi phí được thêm vào trước khi dòng hợp đồng được liên kết với một dự án, giá chính xác không được nhập làm giá trị mặc định trong **Cập nhật giá** đồng ruộng.
 - Số tiền bán hàng âm không được phép vào **Dự định** và **Nhiệm vụ** các thực thể.

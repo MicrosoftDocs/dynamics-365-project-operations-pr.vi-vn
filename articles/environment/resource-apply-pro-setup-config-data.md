@@ -4,26 +4,26 @@ description: Chủ đề này cung cấp thông tin về cách thiết lập và
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986652"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594742"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service 
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
 Trước khi bắt đầu đặt cấu hình dữ liệu trong Common Data Service (CDS), bạn phải đáp ứng được các điều kiện tiên quyết sau:
 
-1.  Cung phép cho môi trường CDS và môi trường Dynamics 365 Finance cho Project Operations.
+1.  Cung cấp môi trường CDS và môi trường Dynamics 365 Finance cho Hoạt động dự án.
 2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với môi trường CDS. Điều này có nghĩa là thực thể **Công ty** trong CDS có các hồ sơ công ty sau:
   - THPM
   - USPM
@@ -37,7 +37,7 @@ Trước khi bắt đầu đặt cấu hình dữ liệu trong Common Data Servi
 
 ![Di chuyển cấu hình.](./media/1ConfigurationMigration.png)
 
-4. Trên trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
+4. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
 5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
 6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn rồi chọn **Đăng nhập**.
 

@@ -1,25 +1,25 @@
 ---
-title: Ước tính chi phí của các nhiệm vụ tài nguyên được hợp đồng phụ
+title: Ước tính chi phí của các nhiệm vụ nguồn lực trong hợp đồng phụ
 description: Chủ đề này giải thích một số cách Microsoft Dynamics 365 Project Operations tính toán ước tính chi phí của các phân công tài nguyên được thầu phụ.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09a2a86ea0e97376939d5bff6df9177747818ebb
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903807"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596720"
 ---
-# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Ước tính chi phí của các nhiệm vụ tài nguyên được hợp đồng phụ
+# <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Ước tính chi phí của các nhiệm vụ nguồn lực trong hợp đồng phụ
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Việc phân công nhiệm vụ của các thành viên trong nhóm dự án được ký hợp đồng phụ được tính bằng cách sử dụng **Mua hàng** bảng giá kèm theo hợp đồng phụ trên hồ sơ thành viên đội liên quan. Điều này khác với cách tính chi phí của các nhiệm vụ tài nguyên của nhân viên trong đó các nhiệm vụ phân công tài nguyên của nhân viên được tính bằng cách sử dụng **Phí tổn** bảng giá kèm theo đơn giá thầu của dự án. 
+Việc phân công nhiệm vụ của các thành viên trong nhóm dự án được ký hợp đồng phụ được tính bằng cách sử dụng **Mua** bảng giá kèm theo hợp đồng phụ trên hồ sơ thành viên đội liên quan. Điều này khác với cách tính chi phí của các nhiệm vụ tài nguyên của nhân viên trong đó các nhiệm vụ phân công tài nguyên của nhân viên được tính bằng cách sử dụng **Phí tổn** bảng giá kèm theo đơn giá thầu của dự án. 
 
 Đối với các thành viên nhóm dự án chung được ký hợp đồng phụ, các nhiệm vụ được tính giá bằng cách sử dụng thiết lập giá dựa trên vai trò trong bảng giá mua kèm theo hợp đồng phụ. Giá mua cũng có thể được thiết lập cụ thể cho từng tài nguyên. Các mức giá dành riêng cho tài nguyên này sẽ được ưu tiên khi chi phí phân công nhiệm vụ của các thành viên nhóm dự án được nêu tên là công nhân hợp đồng. 
 
@@ -34,7 +34,7 @@ Có thể tạo nhiệm vụ cho nhà thầu phụ theo hai cách:
 - Sử dụng **Đội** chuyển hướng.
 
 ### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Tạo nhiệm vụ tài nguyên bằng cách sử dụng tab Nhiệm vụ
-Sử dụng **Tài nguyên** danh sách trong **Nhiệm vụ** cho một nhiệm vụ cụ thể, bạn có thể tạo một phân công nhiệm vụ cho một tài nguyên đã đặt tên hoặc một tài nguyên chung. Nếu bạn chọn một tài nguyên được đặt tên từ **Tài nguyên được chỉ định** thả xuống nhiệm vụ và tài nguyên này là nhân viên hợp đồng, tài nguyên đã đặt tên được chỉ định cho nhiệm vụ và bản ghi thành viên nhóm dự án tương ứng được tạo với loại công nhân được đặt thành **Nhân viên hợp đồng** và **Hiệu lực** đặt thành **Không hợp lệ**. Bước tiếp theo, bạn sẽ cần mở hồ sơ thành viên nhóm dự án và chọn hợp đồng phụ và dòng hợp đồng phụ. Thao tác này sẽ cập nhật phân công nhiệm vụ để có tham chiếu đến hợp đồng phụ và dòng hợp đồng phụ và cũng sẽ cập nhật trạng thái thành viên trong nhóm lên **Có giá trị**.
+Sử dụng **Tài nguyên** danh sách trong **Nhiệm vụ** cho một nhiệm vụ cụ thể, bạn có thể tạo một phân công nhiệm vụ cho một tài nguyên đã đặt tên hoặc một tài nguyên chung. Nếu bạn chọn một tài nguyên được đặt tên từ **Tài nguyên được chỉ định** thả xuống nhiệm vụ và tài nguyên này là nhân viên hợp đồng, tài nguyên đã đặt tên được chỉ định cho nhiệm vụ và bản ghi thành viên nhóm dự án tương ứng được tạo với loại công nhân được đặt thành **Nhân viên hợp đồng** và **Hiệu lực** đặt thành **Không hợp lệ**. Bước tiếp theo, bạn sẽ cần mở hồ sơ thành viên nhóm dự án và chọn hợp đồng phụ và dòng hợp đồng phụ. Thao tác này sẽ cập nhật phân công nhiệm vụ để có tham chiếu đến hợp đồng phụ và dòng hợp đồng phụ, đồng thời cũng sẽ cập nhật trạng thái thành viên trong nhóm lên **Có giá trị**.
 
 Nếu bạn chọn tạo một thành viên nhóm chung từ **Tài nguyên được chỉ định** thả xuống nhiệm vụ, **Tạo thành viên nhóm chung** hộp thoại sẽ cho phép bạn chọn một hợp đồng phụ và dòng hợp đồng phụ. Khi tài nguyên chung được chỉ định cho nhiệm vụ và bản ghi thành viên nhóm dự án tương ứng được tạo, bạn sẽ nhận thấy rằng bản ghi thành viên nhóm dự án được tạo với loại công nhân được đặt thành **Nhân viên hợp đồng** và **Hiệu lực** đặt thành **Có giá trị**.
 

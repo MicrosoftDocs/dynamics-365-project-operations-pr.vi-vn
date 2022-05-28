@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928687"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594880"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Chủ đề này cung cấp thông tin về cách cung cấp môi trường Dynamics 365 Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
 
@@ -34,7 +34,7 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Cung cấp môi trường Project Operations
 
-1. Mở Dynamics 365 Finance mới [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) hoặc triển khai [môi trường sản xuất/hộp cát](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Mở Dynamics 365 Finance mới [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) hoặc [hộp cát / môi trường sản xuất](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) triển khai. 
 2. Tìm hiểu trình hướng dẫn **Cung cấp môi trường**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Bạn có thể cần áp dụng các bản cập nhật chất lượng cho mô
 
     ![Áp dụng giải pháp.](./media/13ApplySolutions.png)
 
-5. Chọn cả 2 giải pháp là Bản đồ thực thể ghi kép **Dynamics 365 Finance and Operations** và **Bản đồ thực thể ghi kép Dynamics 365 Project Operations** rồi chọn **Áp dụng**.
+5. Chọn cả hai giải pháp, **Dynamics 365 Finance and Operations Bản đồ đối tượng ghi kép** và **Dynamics 365 Project Operations Bản đồ thực thể ghi kép**, và sau đó chọn **Nộp đơn**.
 
     ![Xác nhận giải pháp.](./media/14ConfirmSolutions.png)
 

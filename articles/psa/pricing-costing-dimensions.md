@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998487"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593638"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Trang chủ tham số giá và chi phí
 
@@ -64,18 +65,18 @@ Ví dụ sau cho thấy tỷ lệ hóa đơn được thiết lập dựa trên 
 
 **Tỷ lệ hóa đơn mẫu**
 
-| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Vai trò        | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ------------|-------------|----------|----------:|----------|
-| Nhà phát triển   | Contoso Hoa Kỳ  |Giờ | 200|Giải pháp USD     |
-| Nhà phát triển   | Contoso Ấn Độ |Giờ|   112|Giải pháp USD     |
+| Nhà phát triển   | Contoso US  |Hour | 200|Giải pháp USD     |
+| Nhà phát triển   | Đàm Ấn Độ |Hour|   112|Giải pháp USD     |
 
 
 **Tỷ lệ chi phí mẫu**
 
-| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
+| Mức lương     | Đơn vị tổ chức    |Đơn vị      |Giá      |Tiền tệ  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso Hoa Kỳ  |Giờ | 145|Giải pháp USD     |
-| My company_Band2 | Contoso Ấn Độ |Giờ|   67|Giải pháp USD     |
+| My company_Band1 | Contoso US  |Hour | 145|Giải pháp USD     |
+| My company_Band2 | Đàm Ấn Độ |Hour|   67|Giải pháp USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

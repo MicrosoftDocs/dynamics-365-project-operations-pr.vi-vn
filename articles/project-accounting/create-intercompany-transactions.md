@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách tạo giao dịch
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005507"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600020"
 ---
 # <a name="create-intercompany-transactions"></a>Tạo giao dịch liên công ty
 
@@ -30,14 +30,14 @@ Khi một giao dịch liên công ty được phê duyệt, những giao dịch 
 
 **Đơn vị tổ chức** sẽ quyết định tiền tệ và giá cả của giao dịch bán hàng đơn vị liên tổ chức, chi phí và chi phí của đơn vị cung ứng nguồn lực. Đây là điều bạn cần lưu ý khi quyết định cấu trúc của công ty và các đơn vị tổ chức khi triển khai.
 
-Khi tạo cơ hội, báo giá, hợp đồng dự án và các bản ghi của dự án, hệ thống sẽ xác minh rằng tiền tệ của đơn vị hợp đồng khớp với tiền tệ kế toán của công ty hợp đồng. Nếu khác, những bản ghi này sẽ không được tạo. Bạn có thể thiết lập tiền tệ của đơn vị tổ chức trong Dynamics 365 Project Operations bằng cách đi tới **Dataverse** > **Cài đặt** > **Đơn vị tổ chức**. Bạn có thể thiết lập tiền tệ kế toán của công ty trong Dynamics 365 Finance bằng cách đi tới **Sổ cái chung** > **Thiết lập sổ cái** > **Sổ cái**. Tiền tệ sẽ được đồng bộ với môi trường Dataverse thông qua bản đồ Ghi kép sổ cái.
+Khi tạo cơ hội, báo giá, hợp đồng dự án và các bản ghi của dự án, hệ thống sẽ xác minh rằng tiền tệ của đơn vị hợp đồng khớp với tiền tệ kế toán của công ty hợp đồng. Nếu khác, những bản ghi này sẽ không được tạo. Bạn có thể thiết lập tiền tệ của đơn vị tổ chức trong Dynamics 365 Project Operations bằng cách đi tới **Dataverse** > **Cài đặt** > **Đơn vị tổ chức**. Đơn vị tiền tệ kế toán của một công ty được xác định bằng Dynamics 365 Finance bằng cách chuyển đến **Sổ cái** > **Thiết lập sổ cái** > **Sổ cái**. Tiền tệ sẽ được đồng bộ với môi trường Dataverse thông qua bản đồ Ghi kép sổ cái.
 
 Hệ thống sẽ tạo giá trị thực cho chi phí của đơn vị cung ứng nguồn lực hoặc lần bán của đơn vị liên tổ chức trong các trường hợp sau:
 
   - Khi đơn vị cung ứng nguồn lực khác với đơn vị hợp đồng
   - Khi công ty cung ứng nguồn lực khác với công ty hợp đồng
 
-Tuy nhiên, chỉ những giao dịch có công ty cung ứng nguồn lực khác với công ty hợp đồng thì mới được chuyển sang môi trường Dynamics 365 Finance để tiến hành hoạt động kế toán bổ sung.
+Tuy nhiên, chỉ các giao dịch có công ty cung ứng khác với công ty ký hợp đồng mới được chuyển sang môi trường Dynamics 365 Finance để hạch toán bổ sung.
 
 Hoạt động kế toán đối với giá trị thực của dự án sẽ được ghi lại trong nhật ký tích hợp Project Operations của phần Tài chính. Hệ thống sẽ tạo các dòng nhật ký sau.
 
@@ -60,7 +60,7 @@ Molly Clark, nhà phát triển được GBPM thuê có 10 giờ làm việc cho
     4. Đặt tiền tệ thành **USD**.
     5. Lưu bản ghi.
 3. Đi tới **Bán hàng** > **Hợp đồng dự án** rồi tạo hợp đồng dự án mới cho Adventure Works.
-    1. Đặt công ty sở hữu thành **USPM** và đơn vị ký hợp đồng thành **Contoso Robotics US**.
+    1. Đặt công ty sở hữu thành **USPM** và đơn vị hợp đồng thành **Contoso Robotics US**.
     2. Chọn Adventure Works làm khách hàng.
     3. Chọn bảng giá sản phẩm và lưu bản ghi.
     4. Trên tab **Dòng hợp đồng**, hãy tạo một dòng hợp đồng mới. Đặt tên bất kỳ, sau đó chọn **Thời gian và tài liệu** làm phương thức thanh toán.

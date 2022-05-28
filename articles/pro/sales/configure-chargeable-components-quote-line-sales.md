@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách thiết lập cá
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ec8a999142fd9960c79ef981e499ae840642e57b269c83d201d2db006179de09
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c9bd23f4e78e3ea5ae8f74ff1a4829a11f91929
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996012"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598422"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá 
 

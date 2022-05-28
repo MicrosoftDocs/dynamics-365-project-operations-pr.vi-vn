@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f8f23c1f32d94a514de9ae40bd07b3d8063824c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004922"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593711"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Bật các tính năng ứng dụng Project Finder Mobile (Project Service)
 
@@ -47,11 +48,11 @@ Nguồn lực của bạn có thể sử dụng ứng dụng Project Finder Mobi
   
 4. Đặt **Cho phép cập nhật kỹ năng theo nguồn lực** thành **Có**.  
   
-   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Đây là một cài đặt toàn cầu. Người quản lý dự án có thể đặt có hiển thị từng dự án trên trang **Nhóm Dự án** của dự án đó hay không.  
   
-   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService&#95; Dự án có thể chia sẻ.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Thông báo qua email  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] gửi email liên quan đến yêu cầu về nguồn lực cho những người nhận sau đây vào những thời điểm sau đây:  
