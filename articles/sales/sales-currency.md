@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: a20b4518954cce755555b95cc7fd9e6efb1a7322
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999612"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591844"
 ---
 # <a name="currency"></a>Tiền tệ
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Loại tiền tệ quyết định giá sản phẩm trong danh mục sản phẩm và chi phí giao dịch, chẳng hạn như các đơn đặt hàng. Nếu khách hàng của bạn nằm rải rác trên nhiều vùng địa lý, hãy thêm loại tiền tệ của họ để quản lý các giao dịch của bạn. Thêm các loại tiền tệ phù hợp nhất cho nhu cầu kinh doanh hiện tại và trong tương lai của bạn.  
 

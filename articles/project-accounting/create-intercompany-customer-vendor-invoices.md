@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách tạo hóa đơn 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989303"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591522"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
 
@@ -27,7 +27,7 @@ Dùng quy trình này để tạo thủ công hóa đơn khách hàng liên côn
 
 Các bước sau đây cần phải được thực hiện trong pháp nhân cho vay. 
 
-1. Trong Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Hóa đơn dự án** > **Hóa đơn khách hàng liên công ty**. Trong trang danh sách **Hóa đơn khách hàng liên công ty**, trên Ngăn hành động, hãy chọn **Mới**.
+1. Trong Dynamics 365 Finance, hãy truy cập **Quản lý dự án và kế toán** > **Hóa đơn dự án** > **Hóa đơn khách hàng liên công ty**. Trong trang danh sách **Hóa đơn khách hàng liên công ty**, trên Ngăn hành động, hãy chọn **Mới**.
 2. Trên trang **Tạo hóa đơn liên công ty**, trong trường **Pháp nhân**, hãy chọn một pháp nhân đi thuê.
 3. Không bắt buộc: Nhập hợp đồng dự án và mã số dự án cụ thể.
 4. Thu hẹp phạm vi tìm kiếm bằng cách chọn khoảng ngày. Nhập ngày cụ thể trong các trường **Ngày bắt đầu** và **Ngày kết thúc**. Kết quả tìm kiếm sẽ chỉ hiển thị những giao dịch liên công ty được đăng trong khoảng ngày này.

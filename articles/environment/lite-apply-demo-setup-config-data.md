@@ -4,20 +4,20 @@ description: Chủ đề này cung cấp thông tin về cách áp dụng dữ l
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993312"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587014"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Áp dụng dữ liệu cấu hình và thiết lập bản demo cho Project Operations – bản đơn giản 
 
 _**Triển khai Lite – từ thỏa thuận đến lập hóa đơn ước giá_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
@@ -32,7 +32,7 @@ Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Co
 
     ![Di chuyển cấu hình.](./media/1ConfigurationMigration.png)
 
-4. Trên trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
+4. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
 5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
 6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn, sau đó chọn **Đăng nhập**.
 

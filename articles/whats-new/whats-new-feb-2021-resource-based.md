@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986832"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589038"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dataverse 4.7.0.95
-- Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.16 
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.16 
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -46,12 +46,12 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance 
 
-Để biết thêm thông tin về hoạt động quản lý và kế toán dự án trong Dynamics 365 Finance, hãy xem [Có gì mới tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho](whats-new-jan-2021-resource-based.md).
+Để biết thêm thông tin về quản lý dự án và kế toán trong Dynamics 365 Finance, hãy xem [Có gì mới Tháng 1 năm 2021 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,19 +1,19 @@
 ---
-title: Hợp đồng phụ các thành viên trong nhóm dự án
+title: Thành viên nhóm dự án hợp đồng phụ
 description: Chủ đề này giải thích cách ký hợp đồng phụ với các thành viên nhóm dự án trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903808"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587888"
 ---
-# <a name="subcontracting-project-team-members"></a>Hợp đồng phụ các thành viên trong nhóm dự án
+# <a name="subcontracting-project-team-members"></a>Thành viên nhóm dự án hợp đồng phụ
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -22,16 +22,16 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 Trong Microsoft Dynamics 365 Project Operations, bạn có thể chọn hợp đồng phụ với các thành viên trong nhóm dự án không có quản lý hoặc có nhân viên.
 
 - Các thành viên trong nhóm dự án chưa được phân bổ có một nguồn lực chung được chỉ định.
-- Các thành viên trong nhóm có nhân viên được chỉ định một tài nguyên được đặt tên.
+- Các thành viên trong nhóm có nhân viên được chỉ định một tài nguyên đã đặt tên.
 
-Khi bạn liên kết một thành viên trong nhóm dự án với một dòng hợp đồng phụ, bất kỳ nhiệm vụ nào được giao cho các nhiệm vụ mà thành viên đó có sẽ được hoàn thành dựa trên bảng giá mua kèm theo hợp đồng phụ.  Trên **Ước tính** tab trên **Chi tiết dự án** trang, chọn **Cập nhật giá** để xem giá cập nhật và / hoặc chi phí do quyết định ký hợp đồng phụ. 
+Khi bạn liên kết một thành viên trong nhóm dự án với một dòng hợp đồng phụ, mọi sự phân công cho các nhiệm vụ mà thành viên trong nhóm có sẽ được hoàn thành dựa trên bảng giá mua kèm theo hợp đồng phụ.  Trên **Ước tính** tab trên **Chi tiết dự án** trang, chọn **Cập nhật giá** để xem giá cập nhật và / hoặc chi phí do quyết định ký hợp đồng phụ. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Ký hợp đồng phụ với một thành viên nhóm dự án không được quản lý
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Hợp đồng phụ với một thành viên trong nhóm dự án không được quản lý
 Các **Thông tin chi tiết về thành viên trong nhóm** trang có các trường dòng hợp đồng phụ và hợp đồng phụ cho phép người quản lý dự án thể hiện cách họ muốn thu hút năng lực cần thiết từ hợp đồng phụ. Để ký hợp đồng phụ với một thành viên trong nhóm dự án làm tài nguyên chung, hãy làm theo các bước sau:
 
 1.  Chọn một hợp đồng phụ trên **Chi tiết thành viên nhóm** trang.
 
-2.  Bạn chỉ có thể chọn các hợp đồng phụ với **Bản thảo** hoặc là **Đã xác nhận** trạng thái. **Đã đóng cửa** hoặc là **Đã hủy** hợp đồng phụ không thể được chọn. 
+2.  Bạn chỉ có thể chọn các hợp đồng phụ với **Bản thảo** hoặc **Đã xác nhận** tình trạng. **Đã đóng cửa** hoặc **Đã hủy** hợp đồng phụ không thể được chọn. 
 
 3.  Các **Dòng hợp đồng phụ** trường sẽ hiển thị sau khi bạn chọn hợp đồng phụ.
 
@@ -46,7 +46,7 @@ Giống như các thành viên trong nhóm chung chung hoặc không bị phân 
 
 1.  Đảm bảo rằng tài nguyên được đặt tên được thiết lập như một loại tài nguyên có thể đặt trước của nhân viên hợp đồng. Ngoài ra, hãy đảm bảo rằng **Người bán** trường trên tài nguyên có thể đặt trước khớp với nhà cung cấp trên hợp đồng phụ mà bạn đang chọn. 
 
-2.  Bạn chỉ có thể chọn các hợp đồng phụ trong **Bản thảo** hoặc là **Đã xác nhận** trạng thái. **Đã đóng cửa** hoặc là **Đã hủy** hợp đồng phụ không thể được chọn. 
+2.  Bạn chỉ có thể chọn các hợp đồng phụ trong **Bản thảo** hoặc **Đã xác nhận** tình trạng. **Đã đóng cửa** hoặc **Đã hủy** hợp đồng phụ không thể được chọn. 
 
 3.  Các **Dòng hợp đồng phụ** trường sẽ hiển thị sau khi bạn chọn hợp đồng phụ.
 

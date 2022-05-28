@@ -3,15 +3,15 @@ title: Quản lý hợp đồng phụ trong Project Operations
 description: Chủ đề này cung cấp thông tin tổng quan về toàn bộ quy trình quản lý hợp đồng phụ thường gặp trong các tổ chức dựa trên dự án.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323622"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593040"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Quản lý hợp đồng phụ trong Project Operations
 
@@ -46,7 +46,7 @@ Mô tả hợp đồng phụ có thể dựa trên số lượng hoặc dựa tr
 
 Khi một mô tả hợp đồng phụ **dựa trên số lượng**, thì số lượng được mua dựa trên mô tả hợp đồng phụ về thời gian, chi phí hoặc vật liệu có thể được sử dụng cho bất kỳ dự án nào.
 
-Khi mô tả hợp đồng phụ **dựa trên công việc**, thì mô tả hợp đồng phụ ánh xạ tới phần nội dung công việc được thể hiện bằng một nút trong kế hoạch dự án. Giá trị của mô tả hợp đồng phụ là tổng của tất cả các thành phần được yêu cầu để cung cấp nội dung công việc đó. Chúng được mô hình hóa dưới dạng chi tiết mô tả hợp đồng phụ và có thể là tập hợp thời gian, chi phí hoặc vật liệu. Đối với mô tả hợp đồng phụ dựa trên công việc, mô tả hợp đồng phụ cũng dành riêng cho một dự án duy nhất.
+Khi mô tả hợp đồng phụ **dựa trên công việc**, thì mô tả hợp đồng phụ ánh xạ tới phần nội dung công việc được thể hiện bằng một nút trong kế hoạch dự án. Giá trị của mô tả hợp đồng phụ là tổng của tất cả các thành phần được yêu cầu để cung cấp nội dung công việc đó. Chúng được mô hình hóa dưới dạng chi tiết mô tả hợp đồng phụ và có thể là tập hợp thời gian, chi phí hoặc vật liệu. Đối với mô tả hợp đồng phụ dựa trên công việc, mô tả hợp đồng phụ cũng dành riêng cho một dự án duy nhất. Các loại hợp đồng phụ này không được Hoạt động Dự án hỗ trợ.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

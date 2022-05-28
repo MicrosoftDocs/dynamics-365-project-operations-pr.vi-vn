@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005597"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589636"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Tính năng mới hoặc đã thay đổi trong Project Operations kể từ tháng 4 năm 2021 cho các kịch bản dựa trên vật tư tồn kho/sản xuất
 
@@ -20,7 +20,7 @@ _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng tr�
 
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-- Quản lý dự án và kế toán trong các môi trường Dynamics 365 Finance phiên bản 10.0.18
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.18
  
 ### <a name="quality-updates"></a>Bản cập nhật chất lượng
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dy
 | Đi lại và chi tiêu                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Khi danh mục chi phí là một danh mục phi dự án, các kích thước tài chính được chọn trên trang **Chi phí** sẽ không được sao chép vào báo cáo chi phí.                                          |
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng Finance and Operations, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

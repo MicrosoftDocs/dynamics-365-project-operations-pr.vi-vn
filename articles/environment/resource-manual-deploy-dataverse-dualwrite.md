@@ -4,14 +4,14 @@ description: Chủ đề này giải thích cách triển khai ứng dụng Proj
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986472"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591246"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Triển khai ứng dụng Project Operations Dataverse theo cách thủ công có hỗ trợ ghi kép
 
@@ -37,7 +37,7 @@ Quá trình triển khai Project Operations trong Dataverse để hỗ trợ ghi
 3. Chọn loại môi trường. Nếu bạn đã đăng ký nhận ưu đãi dùng thử, hãy chọn **Bản dùng thử (dựa trên đăng ký)**.
 4. Xác nhận khu vực triển khai.
 5. Bật tùy chọn **Tạo cơ sở dữ liệu cho môi trường này**. 
-6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho ứng dụng Finance and Operations của bạn.
+6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho các ứng dụng Tài chính và Hoạt động của bạn.
 7. Bật tùy chọn **Ứng dụng Dynamics 365** và xác nhận rằng trường **Tự động triển khai những ứng dụng này** được đặt thành **Không có**.
 8. Thêm một nhóm bảo mật, nếu một nhóm bảo mật được yêu cầu.
 9. Chọn **Lưu** để tạo môi trường.
@@ -62,4 +62,4 @@ Bạn chỉ có thể hoàn thành quy trình này nếu đã hoàn thành các 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Liên kết các môi trường của bạn
 
-Sau khi môi trường Dataverse được triển khai, bạn có thể thiết lập liên kết trong ứng dụng Finance and Operations. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Sau Dataverse được triển khai, bạn có thể thiết lập liên kết trong ứng dụng Tài chính và Hoạt động của mình. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

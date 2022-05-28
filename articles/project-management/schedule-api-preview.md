@@ -2,16 +2,16 @@
 title: Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 description: Chủ đề này cung cấp thông tin và các mẫu để sử dụng API lịch trình dự án.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487711"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592074"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 
@@ -42,7 +42,7 @@ OperationSet là một mẫu đơn vị công việc có thể được sử d�
 
 Sau đây là danh sách các API lịch trình Dự án hiện tại.
 
-- **msdyn_CreateProjectV1**: API này có thể được dùng để tạo một dự án. Nhóm dự án và dự án mặc định được tạo ngay lập tức.
+- **msdyn_CreateProjectV1**: API này có thể được dùng để tạo một dự án. Dự án và nhóm dự án mặc định được tạo ngay lập tức.
 - **msdyn_CreateTeamMemberV1**: API này có thể được dùng để tạo một thành viên trong nhóm dự án. Hồ sơ thành viên trong nhóm được tạo ngay lập tức.
 - **msdyn_CreateOperationSetV1**: API này có thể được dùng để lập lịch trình một số yêu cầu phải được thực hiện trong một giao dịch.
 - **msdyn_PSSCreateV1**: API này có thể được dùng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo.
@@ -56,14 +56,14 @@ Bởi vì bản ghi có cả **CreateProjectV1** và **CreateTeamMemberV1** đư
 
 ## <a name="supported-operations"></a>Thao tác được hỗ trợ
 
-| Thực thể lập lịch trình | Tạo | Update | Delete | Những điều quan trọng cần cân nhắc |
+| Thực thể lập lịch trình | Tạo | Cập nhật | Xoá | Những điều quan trọng cần cân nhắc |
 | --- | --- | --- | --- | --- |
-Nhiệm vụ dự án | Có | Có | Có | Không có |
-| Quan hệ phụ thuộc nhiệm vụ dự án | Có | Có | | Bản ghi quan hệ phụ thuộc nhiệm vụ dự án không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. |
-| Công việc giao cho nguồn lực | Có | Có | | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. |
-| Nhóm dự án | Không áp dụng | Không áp dụng | Không áp dụng | Nhóm mặc định được tạo bằng cách sử dụng API **CreateProjectV1**. |
+Nhiệm vụ dự án | Có | Có | Có | Các **Phát triển**, **·**, và **Nỗ lực** các trường có thể được chỉnh sửa trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.  |
+| Quan hệ phụ thuộc nhiệm vụ dự án | Có |  | Có | Bản ghi quan hệ phụ thuộc nhiệm vụ dự án không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. |
+| Công việc giao cho nguồn lực | Có | Có | | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, bản ghi cũ có thể bị xóa và bản ghi mới có thể được tạo. |
+| Nhóm dự án | Có | Có | Có | Nhóm mặc định được tạo bằng cách sử dụng **CreateProjectV1** API. Hỗ trợ tạo và xóa nhóm dự án đã được thêm vào trong Bản phát hành cập nhật 16. |
 | Thành viên nhóm dự án | Có | Có | Có | Đối với thao tác tạo, hãy sử dụng API **CreateTeamMemberV1**. |
-| Dự án | Có | Có | Không áp dụng | Không hỗ trợ thao tác với các trường sau: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** và **Duration**. |
+| Dự án | Có | Có |  | Không hỗ trợ thao tác với các trường sau: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** và **Duration**. |
 
 Các API này có thể được gọi ra với các đối tượng thực thể bao gồm các trường tùy chỉnh.
 
@@ -71,196 +71,207 @@ Thuộc tính ID là không bắt buộc. Nếu được cung cấp, hệ thốn
 
 ## <a name="restricted-fields"></a>Các trường bị hạn chế
 
-Các bảng sau xác định các trường bị hạn chế trong **Tạo** và **Chỉnh sửa**.
+Các bảng sau xác định các trường bị hạn chế **Tạo ra** và **Biên tập**.
 
 ### <a name="project-task"></a>Nhiệm vụ dự án
 
-| **Tên lô-gic**                       | **Có thể tạo** | **Có thể chỉnh sửa**     |
+| Tên lô-gic                           | Có thể tạo     | Có thể chỉnh sửa         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | không             | không               |
-| msdyn_actualcost_base                  | không             | không               |
-| msdyn_actualend                        | không             | không               |
-| msdyn_actualsales                      | không             | không               |
-| msdyn_actualsales_base                 | không             | không               |
-| msdyn_actualstart                      | không             | không               |
-| msdyn_costatcompleteestimate           | không             | không               |
-| msdyn_costatcompleteestimate_base      | không             | không               |
-| msdyn_costconsumptionpercentage        | không             | không               |
-| msdyn_effortcompleted                  | không             | không               |
-| msdyn_effortestimateatcomplete         | không             | không               |
-| msdyn_iscritical                       | không             | không               |
-| msdyn_iscriticalname                   | không             | không               |
-| msdyn_ismanual                         | không             | không               |
-| msdyn_ismanualname                     | không             | không               |
-| msdyn_ismilestone                      | không             | không               |
-| msdyn_ismilestonename                  | không             | không               |
-| msdyn_LinkStatus                       | không             | không               |
-| msdyn_linkstatusname                   | không             | không               |
-| msdyn_msprojectclientid                | không             | không               |
-| msdyn_plannedcost                      | không             | không               |
-| msdyn_plannedcost_base                 | không             | không               |
-| msdyn_plannedsales                     | không             | không               |
-| msdyn_plannedsales_base                | không             | không               |
-| msdyn_pluginprocessingdata             | không             | không               |
-| msdyn_progress                         | không             | không (có cho P4W) |
-| msdyn_remainingcost                    | không             | không               |
-| msdyn_remainingcost_base               | không             | không               |
-| msdyn_remainingsales                   | không             | không               |
-| msdyn_remainingsales_base              | không             | không               |
-| msdyn_requestedhours                   | không             | không               |
-| msdyn_resourcecategory                 | không             | không               |
-| msdyn_resourcecategoryname             | không             | không               |
-| msdyn_resourceorganizationalunitid     | không             | không               |
-| msdyn_resourceorganizationalunitidname | không             | không               |
-| msdyn_salesconsumptionpercentage       | không             | không               |
-| msdyn_salesestimateatcomplete          | không             | không               |
-| msdyn_salesestimateatcomplete_base     | không             | không               |
-| msdyn_salesvariance                    | không             | không               |
-| msdyn_salesvariance_base               | không             | không               |
-| msdyn_scheduleddurationminutes         | không             | không               |
-| msdyn_scheduledend                     | không             | không               |
-| msdyn_scheduledstart                   | không             | không               |
-| msdyn_schedulevariance                 | không             | không               |
-| msdyn_skipupdateestimateline           | không             | không               |
-| msdyn_skipupdateestimatelinename       | không             | không               |
-| msdyn_summary                          | không             | không               |
-| msdyn_varianceofcost                   | không             | không               |
-| msdyn_varianceofcost_base              | không             | không               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Không (có cho Dự án)             | Không (có cho Dự án)               |
+| msdyn_effortremaining                  | Không (có cho Dự án)              | Không (có cho Dự án)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Không (có cho Dự án)             | Không (có cho Dự án) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Quan hệ phụ thuộc nhiệm vụ dự án
 
-| **Tên lô-gic**              | **Có thể tạo** | **Có thể chỉnh sửa** |
+| Tên lô-gic                  | Có thể tạo     | Có thể chỉnh sửa     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | không             | không           |
-| msdyn_linktypename            | không             | không           |
-| msdyn_predecessortask         | có            | không           |
-| msdyn_predecessortaskname     | có            | không           |
-| msdyn_project                 | có            | không           |
-| msdyn_projectname             | có            | không           |
-| msdyn_projecttaskdependencyid | có            | không           |
-| msdyn_successortask           | có            | không           |
-| msdyn_successortaskname       | có            | không           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Có            | No           |
+| msdyn_predecessortaskname     | Có            | No           |
+| msdyn_project                 | Có            | No           |
+| msdyn_projectname             | Có            | No           |
+| msdyn_projecttaskdependencyid | Có            | No           |
+| msdyn_successortask           | Có            | No           |
+| msdyn_successortaskname       | Có            | No           |
 
 ### <a name="resource-assignment"></a>Công việc giao cho nguồn lực
 
-| **Tên lô-gic**             | **Có thể tạo** | **Có thể chỉnh sửa** |
+| Tên lô-gic                 | Có thể tạo     | Có thể chỉnh sửa     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | có            | không           |
-| msdyn_bookableresourceidname | có            | không           |
-| msdyn_bookingstatusid        | không             | không           |
-| msdyn_bookingstatusidname    | không             | không           |
-| msdyn_committype             | không             | không           |
-| msdyn_committypename         | không             | không           |
-| msdyn_effort                 | không             | không           |
-| msdyn_effortcompleted        | không             | không           |
-| msdyn_effortremaining        | không             | không           |
-| msdyn_finish                 | không             | không           |
-| msdyn_plannedcost            | không             | không           |
-| msdyn_plannedcost_base       | không             | không           |
-| msdyn_plannedcostcontour     | không             | không           |
-| msdyn_plannedsales           | không             | không           |
-| msdyn_plannedsales_base      | không             | không           |
-| msdyn_plannedsalescontour    | không             | không           |
-| msdyn_plannedwork            | không             | không           |
-| msdyn_projectid              | có            | không           |
-| msdyn_projectidname          | không             | không           |
-| msdyn_projectteamid          | không             | không           |
-| msdyn_projectteamidname      | không             | không           |
-| msdyn_start                  | không             | không           |
-| msdyn_taskid                 | không             | không           |
-| msdyn_taskidname             | không             | không           |
-| msdyn_userresourceid         | không             | không           |
+| msdyn_bookableresourceid     | Có            | No           |
+| msdyn_bookableresourceidname | Có            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Có            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Thành viên nhóm dự án
 
-| **Tên lô-gic**                                 | **Có thể tạo** | **Có thể chỉnh sửa** |
+| Tên lô-gic                                     | Có thể tạo     | Có thể chỉnh sửa     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | không             | không           |
-| msdyn_creategenericteammemberwithrequirementname | không             | không           |
-| msdyn_deletestatus                               | không             | không           |
-| msdyn_deletestatusname                           | không             | không           |
-| msdyn_effort                                     | không             | không           |
-| msdyn_effortcompleted                            | không             | không           |
-| msdyn_effortremaining                            | không             | không           |
-| msdyn_finish                                     | không             | không           |
-| msdyn_hardbookedhours                            | không             | không           |
-| msdyn_hours                                      | không             | không           |
-| msdyn_markedfordeletiontimer                     | không             | không           |
-| msdyn_markedfordeletiontimestamp                 | không             | không           |
-| msdyn_msprojectclientid                          | không             | không           |
-| msdyn_percentage                                 | không             | không           |
-| msdyn_requiredhours                              | không             | không           |
-| msdyn_softbookedhours                            | không             | không           |
-| msdyn_start                                      | không             | không           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Dự án
 
-| **Tên lô-gic**                       | **Có thể tạo** | **Có thể chỉnh sửa** |
+| Tên lô-gic                           | Có thể tạo     | Có thể chỉnh sửa     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | không             | không           |
-| msdyn_actualexpensecost_base           | không             | không           |
-| msdyn_actuallaborcost                  | không             | không           |
-| msdyn_actuallaborcost_base             | không             | không           |
-| msdyn_actualsales                      | không             | không           |
-| msdyn_actualsales_base                 | không             | không           |
-| msdyn_contractlineproject              | có            | không           |
-| msdyn_contractorganizationalunitid     | có            | không           |
-| msdyn_contractorganizationalunitidname | có            | không           |
-| msdyn_costconsumption                  | không             | không           |
-| msdyn_costestimateatcomplete           | không             | không           |
-| msdyn_costestimateatcomplete_base      | không             | không           |
-| msdyn_costvariance                     | không             | không           |
-| msdyn_costvariance_base                | không             | không           |
-| msdyn_duration                         | không             | không           |
-| msdyn_effort                           | không             | không           |
-| msdyn_effortcompleted                  | không             | không           |
-| msdyn_effortestimateatcompleteeac      | không             | không           |
-| msdyn_effortremaining                  | không             | không           |
-| msdyn_finish                           | có            | có          |
-| msdyn_globalrevisiontoken              | không             | không           |
-| msdyn_islinkedtomsprojectclient        | không             | không           |
-| msdyn_islinkedtomsprojectclientname    | không             | không           |
-| msdyn_linkeddocumenturl                | không             | không           |
-| msdyn_msprojectdocument                | không             | không           |
-| msdyn_msprojectdocumentname            | không             | không           |
-| msdyn_plannedexpensecost               | không             | không           |
-| msdyn_plannedexpensecost_base          | không             | không           |
-| msdyn_plannedlaborcost                 | không             | không           |
-| msdyn_plannedlaborcost_base            | không             | không           |
-| msdyn_plannedsales                     | không             | không           |
-| msdyn_plannedsales_base                | không             | không           |
-| msdyn_progress                         | không             | không           |
-| msdyn_remainingcost                    | không             | không           |
-| msdyn_remainingcost_base               | không             | không           |
-| msdyn_remainingsales                   | không             | không           |
-| msdyn_remainingsales_base              | không             | không           |
-| msdyn_replaylogheader                  | không             | không           |
-| msdyn_salesconsumption                 | không             | không           |
-| msdyn_salesestimateatcompleteeac       | không             | không           |
-| msdyn_salesestimateatcompleteeac_base  | không             | không           |
-| msdyn_salesvariance                    | không             | không           |
-| msdyn_salesvariance_base               | không             | không           |
-| msdyn_scheduleperformance              | không             | không           |
-| msdyn_scheduleperformancename          | không             | không           |
-| msdyn_schedulevariance                 | không             | không           |
-| msdyn_taskearlieststart                | không             | không           |
-| msdyn_teamsize                         | không             | không           |
-| msdyn_teamsize_date                    | không             | không           |
-| msdyn_teamsize_state                   | không             | không           |
-| msdyn_totalactualcost                  | không             | không           |
-| msdyn_totalactualcost_base             | không             | không           |
-| msdyn_totalplannedcost                 | không             | không           |
-| msdyn_totalplannedcost_base            | không             | không           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Có            | No           |
+| msdyn_contractorganizationalunitid     | Có            | No           |
+| msdyn_contractorganizationalunitidname | Có            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Có            | Có          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Nhóm dự án
+
+| Tên lô-gic          | Có thể tạo      | Có thể chỉnh sửa     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Có             | No           |
+| msdyn_name            | Có             | Có          |
+| msdyn_project         | Có             | No           |
+| msdyn_projectbucketid | Có             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Các giới hạn và vấn đề đã biết
 Sau đây là danh sách các giới hạn và vấn đề đã biết:
 
-- API lịch trình dự án chỉ có thể được sử dụng bởi **Người dùng có Giấy phép dự án của Microsoft.** Những đối tượng sau không thể sử dụng API lịch trình:
+- API lịch trình dự án chỉ có thể được sử dụng bởi **Người dùng có Giấy phép Dự án của Microsoft**. Những đối tượng sau không thể sử dụng API lịch trình:
+
     - Người dùng ứng dụng
     - Người dùng hệ thống
     - Người dùng tích hợp
     - Những người dùng khác không có giấy phép bắt buộc
+
 - Mỗi **OperationSet** chỉ có thể có tối đa 100 thao tác.
 - Mỗi người dùng chỉ có tối đa 10 **OperationSets** đang mở.
 - Project Operations hiện hỗ trợ tổng cộng tối đa 500 nhiệm vụ trên một dự án.
@@ -269,8 +280,8 @@ Sau đây là danh sách các giới hạn và vấn đề đã biết:
 
 ## <a name="error-handling"></a>Xử lý lỗi
 
-   - Để xem lại các lỗi được tạo từ Bộ hoạt động, hãy chuyển đến phần **Cài đặt** \> **Tích hợp lịch biểu** \> **Bộ hoạt động**.
-   - Để xem lại các lỗi được tạo ra từ Dịch vụ lịch trình dự án, hãy truy cập **Cài đặt** \> **Tích hợp lịch trình** \> **Nhật ký lỗi PSS**.
+- Để xem lại các lỗi được tạo từ Bộ hoạt động, hãy chuyển đến phần **Cài đặt** \> **Tích hợp lịch biểu** \> **Bộ hoạt động**.
+- Để xem lại các lỗi được tạo ra từ Dịch vụ lịch trình dự án, hãy truy cập **Cài đặt** \> **Tích hợp lịch trình** \> **Nhật ký lỗi PSS**.
 
 ## <a name="sample-scenario"></a>Kịch bản mẫu
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

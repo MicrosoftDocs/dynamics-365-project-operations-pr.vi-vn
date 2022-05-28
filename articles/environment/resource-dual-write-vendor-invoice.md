@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986517"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591201"
 ---
 # <a name="vendor-invoice-integration"></a>Tích hợp hóa đơn của nhà cung cấp
 
@@ -34,7 +34,7 @@ Trong Project Operations, các hóa đơn của nhà cung cấp liên quan đế
      > [!NOTE]
      > Chi tiết hóa đơn của nhà cung cấp trong Dataverse không thể chỉnh sửa.
 
-Sổ cái thuế, sổ cái nhà cung cấp và các bài đăng tài chính khác được ghi nhận là có thể áp dụng trong Dynamics 365 Finance khi hóa đơn của nhà cung cấp được đăng.
+Công ty bảo lãnh phụ thuế, công ty bảo lãnh phụ của nhà cung cấp và các tin đăng tài chính khác được ghi lại là có thể áp dụng trong Dynamics 365 Finance khi hóa đơn của nhà cung cấp được đăng.
 
 ![Tích hợp hóa đơn của nhà cung cấp.](media/DW7VendorInvoice.png)
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005149"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590188"
 ---
 # <a name="multiple-currency-scenarios"></a>Tình huống nhiều loại tiền tệ
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 có hai khái niệm tiền tệ:
 - **Tiền tệ giao dịch** - Tiền tệ tham gia vào một giao dịch. 
 - **Tiền cơ sở** - Tiền tệ của phiên bản Dynamics 365. Tiền tệ này được thiết lập khi một phiên bản Dynamics 365 được cung cấp. Không thể thay đổi tiền tệ này.
 
-Ví dụ: Contoso Hoa Kỳ bán 100 chiếc áo phông cho một khách hàng ở Vương quốc Anh với giá 15 Pound Sterling (GBP) mỗi chiếc. Bảng sau hiển thị cách giao dịch này được ghi lại trong thực thể sản phẩm đặt hàng.
+Ví dụ: Contoso Mỹ đã bán 100 chiếc áo thun cho một khách hàng ở Anh với giá 15 ounds Sterling (GBP) mỗi chiếc. Bảng sau hiển thị cách giao dịch này được ghi lại trong thực thể sản phẩm đặt hàng.
 
 | Sản phẩm | Số lượng | Đơn giá | Tiền tệ | Tổng số | Tỷ giá | Giá mỗi đơn vị (Cơ sở)| Số tiền (Gốc)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +67,14 @@ PSA mở rộng khái niệm về tiền tệ giao dịch cho chi phí và bán 
 
 ## <a name="multiple-currency-scenario"></a>Tình huống nhiều loại tiền tệ
 
-Phần này mô tả một ví dụ về một dự án được Contoso Anh cung cấp cho một khách hàng tên là Fabrikam ở Nhật Bản. Đây là cách các kịch bản đã được thiết lập:
+Phần này mô tả một ví dụ về một dự án Contoso Anh cung cấp cho khách hàng có tên là Fabrikam, Nhật Bản. Đây là cách các kịch bản đã được thiết lập:
 
 1. GBP và yên Nhật (JPY) được thiết lập trong **Cài đặt** \> **Quản lý doanh nghiệp** \> **Tiền tệ**. 
 2. Tài khoản khách hàng được đặt tên là **Fabrikam - Nhật Bản** được thiết lập và JPY được chọn là loại tiền tệ trên tài khoản.
-3. Đơn vị tổ chức tên là **Contoso Anh** được thiết lập và GBP được chọn làm đơn vị tiền tệ.
-4. Hợp đồng dự án được tạo, trong đó **Contoso Anh** được chỉ định là đơn vị ký hợp đồng và **Fabrikam – Nhật Bản** được chỉ định là khách hàng.
+3. Đơn vị tổ chức có tên **Contoso Anh** được thiết lập và GBP được chọn là loại tiền tệ.
+4. Hợp đồng dự án được tạo, trong đó **Contoso Anh** được chỉ định là đơn vị hợp đồng và **Fabrikam - Nhật Bản** được chỉ định là khách hàng.
 5. Các dòng hợp đồng dự án được tạo, dựa trên bố trí lập hóa đơn cho nhiều lớp giao dịch khác nhau trên dự án, chẳng hạn như lập hóa đơn cho thời gian so với chi phí.
-6. Một dự án được tạo, trong đó **Contoso Anh** được chỉ định là đơn vị ký hợp đồng. Dự án này được tạo và ánh xạ tới dòng hợp đồng dự án.
+6. Một dự án được tạo, trong đó **Contoso Anh** được chỉ định là đơn vị hợp đồng. Dự án này được tạo và ánh xạ tới dòng hợp đồng dự án.
 
 
 Trong quá trình ước tính sử dụng chi tiết dòng báo giá, chi tiết dòng hợp đồng dự án hoặc trên dòng ước tính của lịch trình, hai hồ sơ luôn được tạo trong thực thể. Một bản ghi dành cho chi phí và bản ghi còn lại dành cho bán hàng.

@@ -1,24 +1,24 @@
 ---
 title: Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
-description: Chủ đề này sẽ giải thích cách áp dụng dữ liệu demo từ Project Operations cho môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
+description: Chủ đề này giải thích cách áp dụng dữ liệu demo từ Hoạt động dự án vào môi trường Dynamics 365 Finance được lưu trữ trên nền tảng đám mây.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009692"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588992"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 > [!IMPORTANT]
-> Chủ đề này chỉ có thể áp dụng cho Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong chủ đề này **TRƯỚC** khi bạn áp dụng các bản cập nhật chất lượng cho môi trường.
+> Chủ đề này chỉ có thể áp dụng Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong chủ đề này **TRƯỚC** khi bạn áp dụng các bản cập nhật chất lượng cho môi trường.
 
 1. Trong dự án LCS của bạn, hãy mở trang **Chi tiết môi trường**. Lưu ý rằng trang này bao gồm các chi tiết cần thiết để kết nối với môi trường bằng cách sử dụng Giao thức Máy tính Từ xa (RDP).
 
@@ -76,7 +76,7 @@ Quá trình này mất vài phút để hoàn thành. Bạn sẽ nhận được
 
 18. Đóng phiên máy tính từ xa và sử dụng trang **Môi trường chi tiết** LCS để đăng nhập vào môi trường để xác nhận rằng môi trường đang hoạt động như mong đợi.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Tài chính và Hoạt động.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

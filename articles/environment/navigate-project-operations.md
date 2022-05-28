@@ -4,25 +4,25 @@ description: Chủ đề này cung cấp thông tin về cách truy cập vào P
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994617"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591890"
 ---
 # <a name="navigate-project-operations"></a>Điều hướng Project Operations
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không trữ kho bao gồm hai thành phần: 
 
  - **Project Operations trên môi trường Common Data Service (CDS)**: Thành phần này bao gồm các khả năng và quy trình từ cơ hội đến lập hóa đơn ước giá. 
- - **Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance**: Thành phần này bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. 
+ - **Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance** : Thành phần này bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. 
 
 Sau khi bạn cấp phép cho Project Operations như mô tả trong chủ đề này, trang **Chi tiết môi trường** của Lifecycle Services (LCS) cung cấp khả năng truy cập dễ dàng vào cả hai thành phần của Lifecycle Services (LCS).  
 

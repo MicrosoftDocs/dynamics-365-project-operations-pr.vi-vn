@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002357"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591936"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá 
 
@@ -71,12 +72,12 @@ Có hai loại thông số định giá:
   
 | Vai trò        | Đơn vị tổ chức    |Vị trí làm việc      |Tiêu đề chuẩn      |Giờ làm việc của nguồn lực      |  Tăng giá|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
-|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
-|             | Contoso Hoa Kỳ   |Cục bộ             |                    |Làm thêm                 |20     |
+|             | Contoso Ấn Độ|Tại Cơ sở            |                    |Làm thêm                 |15     |
+|             | Contoso Ấn Độ|Cục bộ             |                    |Làm thêm                 |10     |
+|             | Contoso US   |Cục bộ             |                    |Làm thêm                 |20     |
 
 
-Nếu một nguồn lực ở Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở và người đó ghi 8 giờ làm việc bình thường, 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá của Project Service sẽ sử dụng giá cơ sở là 100 cho 8 giờ để ghi lại 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
+Nếu một nguồn lực từ Contoso Ấn Độ có giá cơ sở là 100 USD đang làm việc tại cơ sở, họ ghi 8 giờ làm việc bình thường và 2 giờ làm thêm vào mục nhập thời gian, thì công cụ định giá Project Service sẽ sử dụng giá cơ sở là 100 cho 8 giờ để thành 800 USD. Đối với 2 giờ làm thêm, mức tăng giá 15% sẽ được áp dụng cho giá cơ sở 100 để có đơn giá là 115 USD và sẽ ghi lại tổng chi phí là 230 USD.
 
 ### <a name="applicable-to-cost"></a>Áp dụng cho chi phí 
 Nếu được đặt thành **Có**, thì tùy chọn này chỉ ra rằng giá trị thông số từ ngữ cảnh đầu vào sẽ được dùng để khớp với **Giá theo vai trò** và **Mức tăng Giá theo vai trò** khi truy xuất chi phí và mức tăng giá.
