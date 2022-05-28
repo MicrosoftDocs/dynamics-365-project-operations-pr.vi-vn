@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp chi tiết về quy trình xử lý hó
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989937"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585634"
 ---
 # <a name="manage-project-invoice-proposals"></a>Quản lý đề xuất hóa đơn dự án
 
@@ -22,7 +22,7 @@ Bộ phận thanh toán của bạn có thể xử lý đề xuất hóa đơn d
   - Người quản lý dự án xác nhận hóa đơn ước giá trong Microsoft Dataverse.
   - Tất cả các giao dịch bán hàng chưa được thanh toán theo thời gian và vật tư có trong hóa đơn ước giá đều được đăng bằng nhật ký Tích hợp Dynamics 365 **Project Operations**.
 
-Hãy thực hiện các bước sau để hoàn thành đề xuất hóa đơn dự án trong Dynamics 365 Finance.
+Sử dụng các bước sau để hoàn thành đề xuất hóa đơn dự án trong Dynamics 365 Finance.
 
 1. Xem lại thông tin thanh toán cho các giao dịch thời gian và vật tư và đăng nhật ký **Tích hợp Project Operations**.
 2. Xem lại thông tin thanh toán để biết các mốc thanh toán theo giá cố định.

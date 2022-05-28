@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594642"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583730"
 ---
 # <a name="set-up-vendor-retention"></a>Thiết lập tỷ lệ giữ chân nhà cung cấp
 
@@ -22,7 +22,7 @@ Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ giữ 
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Thiết lập tài khoản giữ chân nhà cung cấp trong Sổ cái chung
 
-1. Trong Dynamics 365 Finance, chuyển đến **Sổ cái chung** > **Thiết lập vào sổ cái** > **Tài khoản cho các giao dịch tự động**.
+1. Trong Dynamics 365 Finance, hãy truy cập **Sổ cái** > **Thiết lập đăng bài** > **Tài khoản cho các giao dịch tự động**.
 2. Thêm một mô tả mới.
 3. Trong trường **Loại vào sổ cái**, chọn **Giữ chân nhà cung cấp**.
 4. Chọn tài khoản chính để vào sổ cái tỷ lệ giữ chân nhà cung cấp.

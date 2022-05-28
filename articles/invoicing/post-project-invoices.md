@@ -3,16 +3,15 @@ title: Tổng quan về quy trình lập hóa đơn
 description: Chủ đề này trình bày tổng quan về quy trình lập hóa đơn trong Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003797"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582736"
 ---
 # <a name="invoicing-process-overview"></a>Tổng quan về quy trình lập hóa đơn
 
@@ -22,7 +21,7 @@ Project Operations cho tình huống dựa trên nguồn lực/hàng không nh�
 
 ![Sơ đồ quy trình lập hóa đơn.](./media/invoicing-flow.png)
 
-Mô tả hợp đồng dự án xác định phương thức thanh toán cho các giao dịch dự án liên kết. Khi người quản lý Dự án phê duyệt các giao dịch thời gian và chi phí, hệ thống sẽ ghi lại các giao dịch vào thực thể **Thực tế dự án** và gửi thông tin đến mô-đun **Quản lý dự án và kế toán** trong Dynamics 365 Finance. Sau đó, kế toán dự án sẽ xem xét và đăng các hồ sơ bằng cách sử dụng [nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Nhật ký này bao gồm các chi tiết kế toán quan trọng cho thực tế dự án, chẳng hạn như thanh toán, nhóm thuế bán hàng, nhóm thuế bán hàng của mặt hàng thanh toán và các thông số tài chính.
+Mô tả hợp đồng dự án xác định phương thức thanh toán cho các giao dịch dự án liên kết. Khi người quản lý Dự án phê duyệt các giao dịch thời gian và chi phí, hệ thống sẽ ghi lại các giao dịch trong **Thực tế dự án** thực thể và gửi thông tin đến **Quản lý dự án và kế toán** mô-đun trong Dynamics 365 Finance. Sau đó, kế toán dự án sẽ xem xét và đăng các hồ sơ bằng cách sử dụng [nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Nhật ký này bao gồm các chi tiết kế toán quan trọng cho thực tế dự án, chẳng hạn như thanh toán, nhóm thuế bán hàng, nhóm thuế bán hàng của mặt hàng thanh toán và các thông số tài chính.
 
 Người quản lý dự án có thể xem xét các giao dịch bán hàng chưa lập hóa đơn bằng cách dùng phương pháp thanh toán theo thời gian và vật tư trong [Tồn đọng lập hóa đơn thời gian và tài liệu](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) và phương pháp thanh toán giá theo cố định trong [Mốc giá cố định](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Các dạng xem này cho phép bạn lọc và chọn các giao dịch cần có trong chu kỳ thanh toán tiếp theo và sau đó đánh dấu chúng là **Đã sẵn sàng để lập hóa đơn**.
 

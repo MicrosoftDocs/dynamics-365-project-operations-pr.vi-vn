@@ -4,16 +4,16 @@ description: Chủ đề này cung cấp thông tin về tạm ứng tiền mặ
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988542"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585726"
 ---
 # <a name="cash-advance"></a>Tạm ứng tiền mặt
 
@@ -66,7 +66,7 @@ Trước khi gửi báo cáo chi phí, bạn có thể chọn khoản tạm ứn
  
  Khi các tính năng này được bật:
  
-  - Bạn có thể thêm một hoặc nhiều khoản ứng trước tiền mặt cho mỗi dòng chi phí.
+  - Bạn có thể thêm một hoặc nhiều khoản tạm ứng tiền mặt cho mỗi dòng chi phí.
   - Số dư khả dụng của khoản tạm ứng tiền mặt được hiển thị trong thời gian thực khi lưu báo cáo chi phí. Điều này cho phép bạn xử lý các giao dịch chi phí và quay lại giao dịch tiền mặt cùng một lúc.
   - Bạn có thể chọn nhiều khoản ứng trước tiền mặt cho một giao dịch chi phí.
   - Dữ liệu đối chiếu khoản ứng trước tiền mặt được cung cấp bằng cách sử dụng truy vấn. 

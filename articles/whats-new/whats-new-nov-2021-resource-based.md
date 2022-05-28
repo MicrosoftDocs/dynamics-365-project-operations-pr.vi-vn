@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942911"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584898"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -21,7 +21,7 @@ ms.locfileid: "7942911"
 Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Quản lý dự án và kế toán trong một Dynamics 365 Finance phiên bản môi trường 10.0.22
+- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -33,7 +33,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 
 Không có bản cập nhật nào cho bản đồ ghi kép Project Operations trong bản phát hành này. Để biết danh sách hiện tại và các phiên bản của bản đồ ghi kép Project Operations, hãy xem [Phiên bản bản đồ ghi kép Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Luôn chạy phiên bản mới nhất của bản đồ trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố Ghi kép.
 
@@ -57,7 +57,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Thời gian và Chi phí | 2471503 | Xóa tập hợp phê duyệt đã có bảy ngày. |
 | Định giá và thanh toán | 2480687 | Tham chiếu dòng trích dẫn không được xóa khi cột mốc dòng trích dẫn được tạo. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong lĩnh vực tài chính
+### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong tài chính
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Quản lý dự án và kế toán | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Việc tạo ước tính sau khi bạn đăng đề xuất hóa đơn chặn các dòng sửa chữa khỏi quá trình nhập. |
 | Quản lý dự án và kế toán | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Không thể sửa đổi hồ sơ cột mốc đã lập hóa đơn đầy đủ. |
 | Đi lại và chi tiêu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Tất cả các báo cáo chi phí đều hiển thị khi bạn tìm kiếm một danh mục trong ứng dụng Chi phí dành cho thiết bị di động. |
-| Đi lại và chi tiêu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Số tiền không chính xác về giao dịch của nhà cung cấp và giao dịch thuế bán hàng được tính từ một khoản chi phí được tạo ra từ giao dịch thẻ tín dụng. |
+| Đi lại và chi tiêu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Số tiền không chính xác trong giao dịch của nhà cung cấp và giao dịch thuế bán hàng được tính từ một khoản chi phí được tạo ra từ giao dịch thẻ tín dụng. |
 | Đi lại và chi tiêu | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Một cảnh báo không liên quan xảy ra khi bạn làm mới **Báo cáo chi tiêu** trang. |
 | Đi lại và chi tiêu | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Người phê duyệt tạm thời sai được sử dụng khi bạn xóa người phê duyệt tạm thời và sau đó gửi lại báo cáo chi phí thông qua quy trình làm việc. |
 | Đi lại và chi tiêu | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Một lỗi đăng liên quan đến thiết lập số dặm xảy ra. |

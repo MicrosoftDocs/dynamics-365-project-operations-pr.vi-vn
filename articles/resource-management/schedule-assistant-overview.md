@@ -3,16 +3,15 @@ title: Tổng quan về trợ lý lịch trình
 description: Chủ đề này cung cấp thông tin về cách làm việc với Trợ lý lịch trình để đặt nguồn lực.
 author: ruhercul
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d2146e959119a78a27927b9e694474b3f04579fe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990252"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585956"
 ---
 # <a name="schedule-assistant-overview"></a>Tổng quan về trợ lý lịch trình
 

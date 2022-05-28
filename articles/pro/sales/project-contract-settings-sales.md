@@ -2,16 +2,16 @@
 title: Thiết đặt hợp đồng dự án - bản đơn giản
 description: Chủ đề này cung cấp thông tin về các trường ảnh hưởng đến mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995967"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586416"
 ---
 # <a name="header-details-for-project-contracts"></a>Chi tiết của tiêu đề cho các hợp đồng dự án
 
@@ -32,12 +32,15 @@ Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng c
 | Giới hạn không vượt quá | Tab **Tóm tắt** | Trường này cho biết giới hạn đã thương lượng về giá trị cuối cùng mà khách hàng đã đồng ý cho thỏa thuận này. | Giới hạn này được đánh giá trong quá trình thực hiện và có thể áp dụng cho tất cả các mục mô tả và dự án liên quan đến thỏa thuận này. |
 | Ngày giao hàng đã yêu cầu | Tab **Tóm tắt** | Khi hợp đồng được tạo từ một báo giá dự án, trường này được sao chép từ trường tương ứng trên báo giá dự án. | Ngày này được sử dụng làm ngày kết thúc để tạo lịch trình hóa đơn. |
 
-Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của hợp đồng dự án.
+Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của hợp đồng dự án. 
 
-| Trường | Vị trí | Nội dung mô tả |
+>[!NOTE]
+>Tất cả số tiền trên **Thực hiện hợp đồng** tab được biểu thị bằng đơn vị tiền tệ mặc định của môi trường.
+
+| Trường | Vị trí | Description |
 | --- | --- | --- |
-| Giá trị hợp đồng | Hợp đồng tổng thể | Tổng giá trị của Hợp đồng dự án. |
-| Số tiền Đã lập hóa đơn thanh toán | Hợp đồng tổng thể | Tổng số tiền trên tất cả các hóa đơn đối với hợp đồng này. |
+| Giá trị hợp đồng | Hợp đồng tổng thể | Tổng giá trị của hợp đồng dự án.|
+| Số tiền Đã lập hóa đơn thanh toán | Hợp đồng tổng thể | Tổng số tiền trên tất cả các hóa đơn đối với hợp đồng này.|
 | Chi phí phát sinh | Hợp đồng tổng thể | Tổng của tất cả các chi phí thực tế được ghi lại trên tất cả các dự án được ánh xạ đến hợp đồng. |
 | Lãi gộp | Hợp đồng tổng thể | Số tiền được lập hóa đơn - Chi phí phát sinh cho đến ngày/Số tiền được lập hóa đơn |
 | Lợi nhuận Dự kiến | Hợp đồng tổng thể | (Giá trị hợp đồng - Chi phí ước tính)/Giá trị hợp đồng Chi phí ước tính = Tổng của tất cả các chi phí ước tính trên tất cả các dự án được ánh xạ trong hợp đồng.|

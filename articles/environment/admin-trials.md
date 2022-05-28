@@ -2,22 +2,22 @@
 title: Đăng ký bản dùng thử Project Operations
 description: Chủ đề này cung cấp thông tin về cách triển khai một bản dùng thử của Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901643"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584300"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Đăng ký bản dùng thử Project Operations 
 
 _**Áp dụng đối với:** Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho, triển khai Lite - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Chủ đề này giải thích cách đăng ký nhận ưu đãi dành cho đối tác xem trước và triển khai môi trường Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ Bảng sau đây phác thảo các chi tiết của ưu đãi dùng thử mới.
 | Sử dụng ưu đãi                    | Một lần cho mỗi đối tượng thuê                          |
 | Thời hạn ưu đãi               | 30 ngày                             |
 | Số lần đổi cho mỗi đối tượng thuê       | 1                                            |
-| Số người dùng              | 25                                           |
 | Phần mở rộng                    | 1 phần mở rộng, 30 ngày               |
 | Số lượng môi trường dùng thử | 3                                            |
 
@@ -87,7 +86,7 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
  
   Khi quá trình cấp phép hoàn tất, trạng thái môi trường của bạn là **Sẵn sàng**. Quá trình cấp phép môi trường bao gồm việc triển khai dữ liệu demo.
  
-4.  Chọn URL Microsoft Dataverse tương ứng và URL ứng dụng Finance and Operations để xác thực việc triển khai.
+4.  Chọn tương ứng Microsoft Dataverse URL và URL ứng dụng Tài chính và Hoạt động để xác thực việc triển khai.
 
 ## <a name="configuring-dual-write"></a>Đặt cấu hình ghi kép
 - Để định cấu hình vai trò bảo mật cho ghi kép, hãy xem [Cập nhật cài đặt bảo mật về Hoạt động dự án trong Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
 
 ## <a name="assign-licenses"></a>Gán giấy phép
 
-Bạn sẽ cần quyền truy nhập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
+Bạn sẽ cần quyền truy cập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
 
-1. Chuyển tới [Trung tâm quản trị Microsoft 365](https://portal.office.com/) để gán giấy phép cho người dùng của bạn.
+1. Đi đến [Microsoft 365 trung tâm quản trị](https://portal.office.com/) để chuyển nhượng giấy phép cho người dùng của bạn.
 
    ![Trang chủ trung tâm quản trị](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Các tài nguyên sau cung cấp hướng dẫn hữu ích khi bạn bắt đầ
 
 ## <a name="frequently-asked-questions"></a>Các câu hỏi thường gặp
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Nếu tôi cần có ALM hoặc ELM cho môi trường ứng dụng Finance and Operations của mình thì sao?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Điều gì sẽ xảy ra nếu tôi yêu cầu ALM hoặc ELM cho môi trường ứng dụng Tài chính và Hoạt động của mình?
 
 - Đối với các đối tác yêu cầu khả năng quản lý vòng đời môi trường đầy đủ, hãy xem [Yêu cầu Giấy phép Hộp cát Đối tác](https://experience.dynamics.com/requestlicense) để xem lại ưu đãi mới dành cho đối tác. 
 - Đối với các đối tác tìm kiếm thêm thông tin về Quyền sử dụng nội bộ, hãy xem [Lợi ích phần mềm và đám mây Quyền sử dụng nội bộ (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Các tài nguyên sau cung cấp hướng dẫn hữu ích khi bạn bắt đầ
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Tôi có thể gia hạn thời gian dùng thử của mình hơn 30 ngày không?
 Để gia hạn thời gian dùng thử của bạn, hãy hoàn thành các bước sau.
 
-1. Trong Trung tâm quản trị **Microsoft 365**, hãy chuyển đến phần **Thanh toán** > **Sản phẩm của bạn**.
+1. Bên trong **Microsoft 365 Trung tâm quản trị**, đi đến **Thanh toán** > **Sản phẩm của bạn**.
 2. Chọn **Dynamics 365 Project Operations (CE) - Bản dùng thử xem trước**.
 3. Bên dưới **Ngày hết hạn**, chọn **Ngày gia hạn**.
 

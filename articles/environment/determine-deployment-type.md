@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin nhằm giúp bạn xác đ�
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994662"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584162"
 ---
 # <a name="determine-your-deployment-type"></a>Xác định kiểu triển khai của bạn
 
@@ -25,7 +25,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Khách hàng hiện tại của Dynamics đang sử dụng Dynamics 365 Project Service Automation
 Project Operations bao gồm các khả năng đi kèm với Project Service Automation. Đường dẫn nâng cấp sẽ ra mắt những khách hàng này trong bản phát hành đợt 1 năm 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Khách hàng hiện tại của Dynamics 365 Finance sử dụng kế toán và quản lý dự án 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Khách hàng hiện tại của Dynamics 365 Finance sử dụng Quản lý dự án và kế toán 
 
 Các khách hàng hiện tại của Finance sử dụng tính năng Kế toán và quản lý dự án vẫn có thể tiếp tục sử dụng tính năng này như cũ. Xem [Project Operations dành cho kịch bản dựa trên hàng nhập kho/lệnh sản xuất](#pma).
 
@@ -42,7 +42,7 @@ Project Operations hỗ trợ nhiều tùy chọn triển khai để phù hợp 
 - [Project Operations dành cho tình huống dựa trên nguồn lực/hàng không trữ kho](#integrated)
 - [Project Operations dành cho tình huống dựa trên hàng trữ kho/lệnh sản xuất](#pma)
 
-Project Operations hỗ trợ các kịch bản dựa trên hàng nhập kho/lệnh sản xuất và các kịch bản dựa trên hàng không nhập kho/nguồn lực trên cùng một môi trường thông qua các cấu hình cấp pháp nhân. Ví dụ: Contoso có thể sử dụng các khả năng của lệnh sản xuất/vật liệu tồn kho tại cơ sở sản xuất ở Hoa Kỳ của họ (Pháp nhân = Contoso Manufacturing United States). Contoso có thể sử dụng các khả năng dựa trên nguồn lực/vật tư không tồn kho trong cơ sở dịch vụ Contoso Robotics Arms ở Vương quốc Anh (Pháp nhân = Contoso Robotics United Kingdom).
+Project Operations hỗ trợ các kịch bản dựa trên hàng nhập kho/lệnh sản xuất và các kịch bản dựa trên hàng không nhập kho/nguồn lực trên cùng một môi trường thông qua các cấu hình cấp pháp nhân. Chẳng hạn, Contoso có thể sử dụng các khả năng trữ kho/lệnh sản xuất ở cơ sở sản xuất của họ tại Hoa Kỳ (Pháp nhân = Contoso Manufacturing United States). Contoso có thể sử dụng các khả năng dựa trên tài nguyên/không trữ kho trong cơ sở dịch vụ của Contoso tại Robotics Arms ở Vương quốc Anh (Pháp nhân = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
 

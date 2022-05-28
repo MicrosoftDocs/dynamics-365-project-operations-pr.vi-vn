@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987597"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580390"
 ---
 # <a name="unit-groups-and-units"></a>Nhóm đơn vị và đơn vị
 
@@ -84,9 +85,9 @@ Ví dụ sau cho thấy cách PSA sử dụng nhóm đơn vị đo, đơn vị v
     - **Đơn vị thời gian mặc định**: Ngày 
     - **Tiền tệ**: GBP
 
-| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
+| Vai trò      | Nhóm đơn vị đo | Đơn vị | Đơn vị tổ chức | Giá   |
 |-----------|------------|------|---------------------|---------|
-| Nhà phát triển | Thời gian       | Ngày  | Contoso Anh          | 800 GBP |
+| Nhà phát triển | Time       | Day  | Contoso Hoa Kỳ          | 800 GBP |
 
 ### <a name="time-entry"></a>Mục nhập thời gian
 

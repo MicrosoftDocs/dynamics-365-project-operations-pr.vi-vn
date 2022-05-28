@@ -4,26 +4,26 @@ description: Chủ đề này cung cấp thông tin về các khái niệm chín
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986967"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582966"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Các khái niệm duy nhất cho Hợp đồng dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Chủ đề này cung cấp những khái nhiệm chính cần lưu ý trước khi sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Công ty sở hữu
 
-Công ty sở hữu là pháp nhân ở mô-đun **Quản lý dự án và kế toán** cho Project Operations từ Dynamics 365 Finance. Công ty sở hữu đại diện cho pháp nhân sẽ chịu trách nhiệm đối với chi phí và doanh thu tích lũy từ một thỏa thuận.
+Công ty sở hữu là pháp nhân từ **Quản lý dự án và kế toán** mô-đun cho Hoạt động Dự án từ Dynamics 365 Finance. Công ty sở hữu đại diện cho pháp nhân sẽ chịu trách nhiệm đối với chi phí và doanh thu tích lũy từ một thỏa thuận.
 
 ## <a name="contracting-unit"></a>Đơn vị Hợp đồng
 

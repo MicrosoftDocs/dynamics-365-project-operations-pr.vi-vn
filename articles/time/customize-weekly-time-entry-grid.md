@@ -2,16 +2,16 @@
 title: Kéo dài mục nhập thời gian
 description: Chủ đề này cung cấp thông tin về cách các nhà phát triển có thể mở rộng kiểm soát mục nhập thời gian.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993357"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583012"
 ---
 # <a name="extending-time-entries"></a>Kéo dài mục nhập thời gian
 
@@ -43,7 +43,7 @@ Mục nhập thời gian là thực thể lõi được sử dụng trong nhiề
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Mục nhập thời gian và thực thể Nguồn thời gian
-Mỗi mục nhập thời gian được liên kết với một bản ghi nguồn thời gian. Bản ghi này xác định cách thức và ứng dụng nào sẽ xử lý mục nhập thời gian.
+Mỗi mục nhập thời gian được liên kết với một bản ghi nguồn thời gian. Bản ghi này xác định ứng dụng nào nên xử lý mục nhập thời gian và cách thức.
 
 Các mục nhập thời gian luôn là một khối thời gian liền kề có liên kết bắt đầu, kết thúc và khoảng thời gian.
 
@@ -55,7 +55,7 @@ Logic sẽ tự động cập nhật bản ghi mục nhập thời gian trong c�
     - **msdyn_end**
     - **msdyn_duration**
 
-- Các trường **msdyn_start** và **msdyn_end** phân biệt múi giờ.
+- Các **msdyn_start** và **msdyn_end** các trường nhận biết múi giờ.
 - Mục nhập thời gian được tạo chỉ với **msdyn_date** và **msdyn_duration** được chỉ định sẽ bắt đầu lúc nửa đêm. Các trường **msdyn_start** và **msdyn_end** sẽ cập nhật tương ứng.
 
 #### <a name="time-entry-types"></a>Loại mục nhập thời gian
@@ -72,73 +72,63 @@ Bản ghi mục nhập thời gian có một loại liên kết xác định hà
 |Kỳ nghỉ   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Tùy chỉnh bộ điều khiển mục nhập Thời gian hằng tuần
 Các nhà phát triển có thể thêm các trường và tra cứu bổ sung cho các thực thể khác, đồng thời triển khai các quy tắc kinh doanh tùy chỉnh để hỗ trợ các tình huống kinh doanh của họ.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Thêm các trường tùy chỉnh có mục tra cứu cho thực thể khác
 Có 3 bước chính để thêm trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần.
 
-1. Thêm trường tùy chỉnh vào hộp thoại tạo nhanh.
+1. Thêm trường tùy chỉnh vào **Tạo nhanh** hộp thoại.
 2. Cấu hình lưới để hiển thị trường tùy chỉnh.
-3. Thêm trường tùy chỉnh vào dòng tác vụ sửa hàng hoặc dòng tác vụ sửa ô.
+3. Thêm trường tùy chỉnh vào **Hàng sửa** hoặc **Mục nhập thời gian** trang, nếu thích hợp.
 
-Bảo đảm rằng trường mới có các mục xác thực bắt buộc trong dòng tác vụ sửa hàng hoặc ô. Trong bước này, hãy khóa trường dựa trên trạng thái mục nhập thời gian.
+Đảm bảo rằng trường mới có các xác thực bắt buộc trên **Hàng sửa** hoặc **Mục nhập thời gian** trang. Là một phần của nhiệm vụ này, hãy khóa trường, dựa trên trạng thái của mục nhập thời gian.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Thêm trường tùy chỉnh vào hộp thoại tạo nhanh
-Thêm trường tùy chỉnh vào hộp thoại **Tạo nhanh mục nhập thời gian**. Sau đó, khi mục nhập thời gian được thêm, người dùng có thể nhập giá trị bằng cách chọn **Mới**.
+Khi bạn thêm trường tùy chỉnh vào **Mục nhập thời gian** lưới và sau đó tạo các mục thời gian trực tiếp trong lưới, trường tùy chỉnh cho các mục đó sẽ tự động được đặt sao cho khớp với hàng. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Thêm trường tùy chỉnh vào hộp thoại Tạo nhanh
+Thêm trường tùy chỉnh vào **Tạo nhanh: Tạo mục nhập thời gian** hộp thoại. Sau đó, người dùng có thể nhập một giá trị khi họ thêm các mục nhập thời gian bằng cách chọn **Mới**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Cấu hình lưới để hiển thị trường tùy chỉnh
-Có 2 cách để thêm trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần:
+Có hai cách để thêm trường tùy chỉnh vào **Mục nhập thời gian hàng tuần** lưới điện.
 
-  - Tùy chỉnh chế độ xem và thêm trường tùy chỉnh
-  - Tạo mục nhập thời gian tùy chỉnh mặc định mới 
+- Tùy chỉnh **Mục thời gian hàng tuần của tôi** xem và thêm trường tùy chỉnh vào đó. Bạn có thể chỉ định vị trí và kích thước của trường tùy chỉnh trong lưới bằng cách chỉnh sửa các thuộc tính trong dạng xem.
+- Tạo một dạng xem mục nhập thời gian tùy chỉnh mới và đặt nó làm dạng xem mặc định. Chế độ xem này phải chứa **Sự miêu tả** và **Bình luận bên ngoài** ngoài các cột mà bạn muốn lưới bao gồm. Bạn có thể chỉ định vị trí, kích thước và thứ tự sắp xếp mặc định của lưới bằng cách chỉnh sửa các thuộc tính trong dạng xem. Tiếp theo, cấu hình bộ kiểm soát tùy chỉnh cho dạng xem này để trở thành bộ kiểm soát **Lưới mục nhập thời gian**. Thêm điều khiển vào dạng xem và chọn nó cho **Web**, **thoại**, và **Máy tính bảng**. Tiếp theo, định cấu hình các thông số cho **Mục nhập thời gian hàng tuần** lưới điện. Đặt **Ngày bắt đầu** lĩnh vực để **msdyn\_ ngày tháng**, đặt **Khoảng thời gian** lĩnh vực để **msdyn\_ khoảng thời gian** và đặt **Tình trạng** lĩnh vực để **msdyn\_ entrystatus**. Các **Danh sách trạng thái chỉ đọc** trường được đặt thành **192350002 (Được chấp thuận)**, **(đã đệ trình)**, hoặc **192350004 (Đã yêu cầu thu hồi)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Thêm trường tùy chỉnh vào trang chỉnh sửa thích hợp
+Bạn có thể tìm thấy các trang được sử dụng để chỉnh sửa mục nhập thời gian hoặc một hàng mục nhập thời gian trong **Các hình thức**. Các **Chỉnh sửa mục nhập** nút trong lưới mở ra **Chỉnh sửa mục nhập** trang và **Chỉnh sửa hàng** nút mở **Hàng sửa** trang. Bạn có thể chỉnh sửa các trang này để chúng bao gồm các trường tùy chỉnh.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Tùy chỉnh chế độ xem và thêm trường tùy chỉnh
+Cả hai tùy chọn đều loại bỏ một số tính năng lọc ngoài hộp trên **Dự định** và **Nhiệm vụ dự án** các thực thể, để tất cả các chế độ xem tra cứu cho các thực thể đều có thể nhìn thấy được. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
 
-Tùy chỉnh dạng xem **Mục nhập thời gian hằng tuần của tôi** và thêm trường tùy chỉnh vào đó. Bạn có thể chọn vị trí và kích cỡ của trường tùy chỉnh trong lưới bằng cách sửa các thuộc tính trong dạng xem.
+Bạn phải xác định trang thích hợp cho trường tùy chỉnh. Rất có thể, nếu bạn đã thêm trường vào lưới, trường đó sẽ chuyển sang **Hàng sửa** trang được sử dụng cho các trường áp dụng cho toàn bộ hàng mục thời gian. Nếu trường tùy chỉnh có một giá trị duy nhất trong hàng mỗi ngày (ví dụ: nếu đó là trường tùy chỉnh cho thời gian kết thúc), thì nó sẽ chuyển sang **Mục nhập thời gian** trang.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Tạo mục nhập thời gian tùy chỉnh mặc định mới
-
-dạng xem này sẽ chứa các trường **Mô tả** và **Nhận xét bên ngoài**, ngoài các cột mà bạn muốn có trong lưới. 
-
-1. Chọn vị trí, kích thước và thứ tự sắp xếp mặc định cho lưới bằng cách chỉnh sửa các thuộc tính đó trong dạng xem. 
-2. Cấu hình bộ kiểm soát tùy chỉnh cho dạng xem này để trở thành bộ kiểm soát **Lưới mục nhập thời gian**. 
-3. Thêm bộ kiểm soát này vào dạng xem và chọn cho web, điện thoại và máy tính bảng. 
-4. Cấu hình các thông số cho lưới mục nhập thời gian hàng tuần. 
-5. Đặt trường **Ngày bắt đầu** thành **msdyn_date**, đặt trường **Khoảng thời gian** thành **msdyn_duration** và đặt trường **Trạng thái** thành **msdyn_entrystatus**. 
-6. Đối với dạng xem mặc định, trường **Danh sách trạng thái chỉ đọc** được đặt thành **192350002,192350003,192350004**. Trường **Dòng tác vụ sửa hàng** được đặt thành **msdyn_timeentryrowedit**. Trường **Dòng tác vụ sửa ô** được đặt thành **msdyn_timeentryedit**. 
-7. Bạn có thể tùy chỉnh các trường này để thêm hoặc xóa trạng thái chỉ đọc hoặc sử dụng trải nghiệm dựa trên nhiệm vụ khác (TBX) để chỉnh sửa hàng hoặc ô editing. Các trường này giờ bị ràng buộc với giá trị tĩnh.
-
-
-> [!NOTE] 
-> Cả hai tùy chọn đều sẽ loại bỏ một số bộ lọc dùng ngay cho các thực thể **Dự án** và **Nhiệm vụ dự án**, để tất cả các dạng xem tra cứu cho các thực thể này sẽ được hiển thị. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
-
-Xác định dòng tác vụ phù hợp cho trường tùy chỉnh. Nếu bạn đã thêm trường vào lưới, thì trường đó sẽ chuyển vào dòng tác vụ sửa hàng được dùng cho các trường áp dụng cho toàn bộ hàng mục nhập thời gian. Nếu trường tùy chỉnh có giá trị duy nhất mỗi ngày, chẳng hạn như trường tùy chỉnh cho **Thời gian kết thúc**, thì trường đó sẽ chuyển vào luồng nhiệm vụ chỉnh sửa ô.
-
-Để thêm trường tùy chỉnh vào một luồng nhiệm vụ, hãy kéo thành phần **Trường** vào vị trí thích hợp trên trang, sau đó đặt thuộc tính cho trường đó. Đặt thuộc tính **Nguồn** thành **Mục nhập thời gian** và đặt thuộc tính **Trường dữ liệu** thành trường tùy chỉnh. Thuộc tính **Trường** chỉ định tên hiển thị trên trang TBX. Chọn **Áp dụng** để lưu các thay đổi của bạn vào trường, sau đó chọn **Cập nhật** để lưu các thay đổi của bạn vào trang.
-
-Để sử dụng trang TBX tùy chỉnh mới, hãy tạo một quy trình mới. Đặt danh mục thành **Luồng quy trình công việc**, đặt thực thể thành **Mục nhập thời gian** và đặt loại quy trình công việc thành **Chạy quy trình dưới dạng luồng nhiệm vụ**. Trong phần **Thuộc tính**, phải đặt thuộc tính **Tên trang** thành tên hiển thị cho trang. Thêm tất cả các trường liên quan vào trang TBX. Lưu và kích hoạt quy trình. Cập nhật thuộc tính điều khiển tùy chỉnh cho dòng tác vụ liên quan thành giá trị **Tên** trên quy trình.
+Để thêm trường tùy chỉnh vào một trang, hãy kéo **Đồng ruộng** vào vị trí thích hợp trên trang, rồi đặt các thuộc tính của nó.
 
 ### <a name="add-new-option-set-values"></a>Thêm các giá trị bộ tùy chọn mới
-Để thêm các giá trị bộ tùy chọn vào một trường dùng ngay, hãy mở trang sửa cho trường đó và trong **Loại**, hãy chọn **Sửa** bên cạnh bộ tùy chọn. Thêm tùy chọn mới có nhãn và màu tùy chỉnh. Nếu bạn muốn thêm trạng thái mục nhập thời gian mới, thì trường dùng ngay phải được đặt tên là **Trạng thái mục nhập** chứ không phải là **Trạng thái**.
+Để thêm giá trị bộ tùy chọn vào trường bên ngoài, hãy làm theo các bước sau.
+
+1. Mở trang chỉnh sửa cho trường, sau đó, trong **Gõ phím**, lựa chọn **Biên tập** bên cạnh bộ tùy chọn.
+2. Thêm tùy chọn mới có nhãn và màu tùy chỉnh. Nếu bạn muốn thêm một trạng thái nhập thời gian mới, trường ngoài hộp được đặt tên **Trạng thái đầu vào**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Chỉ định trạng thái mục nhập thời gian mới là chỉ đọc
-Để chỉ định trạng thái mục nhập thời gian mới thành chỉ đọc, hãy thêm giá trị mục nhập thời gian mới vào thuộc tính **Danh sách trạng thái chỉ đọc**. Phần có thể chỉnh sửa của lưới mục nhập thời gian sẽ bị khóa cho các hàng có trạng thái mới.
-Tiếp theo, hãy thêm các quy tắc công việc để khóa tất cả các trường trên trang TBX **Chỉnh sửa hàng mục nhập thời gian** và **Chỉnh sửa mục nhập thời gian**. Bạn có thể truy cập các quy tắc công việc cho những trang này bằng cách mở công cụ biên tập dòng quy trình công việc cho trang rồi chọn **Quy tắc công việcBusiness Rules**. Sau đó, bạn có thể thêm trạng thái mới vào điều kiện trong các quy tắc kinh doanh hiện có hoặc có thể thêm quy tắc công việc mới cho trạng thái mới.
+Để chỉ định trạng thái mục nhập thời gian mới thành chỉ đọc, hãy thêm giá trị mục nhập thời gian mới vào thuộc tính **Danh sách trạng thái chỉ đọc**. Đảm bảo thêm số chứ không phải nhãn. Giờ đây, phần có thể chỉnh sửa của lưới mục nhập thời gian sẽ bị khóa đối với các hàng có trạng thái mới. Để thiết lập **Danh sách trạng thái chỉ đọc** tài sản khác nhau cho khác nhau **Thời gian nhập cảnh** lượt xem, thêm **Mục nhập thời gian** lưới trong một chế độ xem **Kiểm soát tùy chỉnh** và định cấu hình các thông số sao cho phù hợp.
+
+Tiếp theo, thêm các quy tắc kinh doanh để khóa tất cả các trường trên **Hàng sửa** và **Mục nhập thời gian** các trang. Để truy cập các quy tắc kinh doanh cho các trang này, hãy mở công cụ biên tập biểu mẫu cho mỗi trang, sau đó chọn **Quy tắc kinh doanh**. Sau đó, bạn có thể thêm trạng thái mới vào điều kiện trong các quy tắc kinh doanh hiện có hoặc có thể thêm quy tắc công việc mới cho trạng thái mới.
 
 ### <a name="add-custom-validation-rules"></a>Thêm quy tắc xác thực tùy chỉnh
-Có hai loại quy tắc xác thực mà bạn có thể thêm cho trải nghiệm lưới mục nhập thời gian hằng tuần:
+Bạn có thể thêm hai loại quy tắc xác thực cho **Mục nhập thời gian hàng tuần** trải nghiệm lưới:
 
-- Các quy tắc công việc phía khách hàng hoạt động trong hộp thoại tạo nhanh và trên các trang TBX.
-- Xác thực phần bổ trợ phía máy chủ áp dụng cho tất cả bản cập nhật mục nhập thời gian.
+- Các quy tắc kinh doanh phía khách hàng hoạt động trên các trang
+- Xác thực trình cắm phía máy chủ áp dụng cho các bản cập nhật mục nhập mọi lúc
 
-#### <a name="business-rules"></a>Quy tắc kinh doanh
-Sử dụng quy tắc công việc để khóa và mở khóa các trường, nhập giá trị mặc định vào trường và xác định các quy tắc xác thực chỉ yêu cầu thông tin từ bản ghi mục nhập thời gian hiện tại. Bạn có thể truy cập các quy tắc công việc cho trang TBX bằng cách mở công cụ biên tập dòng quy trình công việc cho trang rồi chọn **Quy tắc công việc**. Sau đó, bạn có thể chỉnh sửa quy tắc công việc hiện có hoặc thêm quy tắc kinh doanh mới. Để có các quy tắc xác thực mang tính tùy chỉnh hơn, bạn có thể sử dụng quy tắc công việc để chạy JavaScript.
+#### <a name="client-side-business-rules"></a>Quy tắc kinh doanh phía khách hàng
+Sử dụng quy tắc công việc để khóa và mở khóa các trường, nhập giá trị mặc định vào trường và xác định các quy tắc xác thực chỉ yêu cầu thông tin từ bản ghi mục nhập thời gian hiện tại. Để truy cập các quy tắc kinh doanh cho một trang, hãy mở công cụ biên tập biểu mẫu, sau đó chọn **Nội quy kinh doanh**. Sau đó, bạn có thể chỉnh sửa quy tắc công việc hiện có hoặc thêm quy tắc kinh doanh mới.
 
-#### <a name="plug-in-validations"></a>Xác thực bổ trợ
-Sử dụng các mục xác thực phần bổ trợ đối với mọi mục xác thực yêu cầu có nhiều thông tin bối cảnh hơn mức có sẵn trong một bản ghi mục nhập thời gian hoặc đối với bất kỳ mục xác thực nào mà bạn muốn chạy trên các phần cập nhật nội tuyến trong lưới. Để hoàn tất quy trình xác thực, hãy tạo một phần bổ trợ trên thực thể **Mục nhập thời gian**.
+#### <a name="server-side-plug-in-validations"></a>Xác thực trình cắm phía máy chủ
+Bạn nên sử dụng xác thực trình cắm cho bất kỳ xác thực nào yêu cầu nhiều ngữ cảnh hơn khả dụng trong một bản ghi mục nhập thời gian duy nhất. Bạn cũng nên sử dụng chúng cho bất kỳ xác thực nào mà bạn muốn chạy trên các bản cập nhật nội tuyến trong lưới. Để hoàn tất quá trình xác thực, hãy tạo một trình cắm tùy chỉnh trên **Thời gian nhập cảnh** thực thể.
+
+### <a name="limits"></a>Giới hạn
+Hiện tại, **Mục nhập thời gian** lưới có giới hạn kích thước là 500 hàng. Nếu có nhiều hơn 500 hàng, các hàng thừa sẽ không được hiển thị. Không có cách nào để tăng giới hạn kích thước này.
 
 ### <a name="copying-time-entries"></a>Sao chép mục nhập thời gian
 Sử dụng dạng xem **Sao chép cột mục nhập thời gian** để xác định danh sách các trường sẽ sao chép trong quá trình nhập thời gian. **Ngày** và **Khoảng thời gian** là các trường bắt buộc và không nên bị loại bỏ khỏi dạng xem.

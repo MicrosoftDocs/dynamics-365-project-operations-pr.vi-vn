@@ -4,29 +4,29 @@ description: Chủ đề này cung cấp thông tin về cách làm việc với
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987957"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582460"
 ---
 # <a name="integration-journal-in-project-operations"></a>Nhật ký tích hợp trong Project Operations
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Các mục nhập thời gian và chi phí tạo ra các giao dịch **Thực tế** thể hiện quan điểm hoạt động của công việc đã hoàn thành dựa trên một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Nhân viên kế toán có thể thực hiện các hoạt động này bằng cách sử dụng nhật ký **Tích hợp Project Operations** (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Nhật ký** > nhật ký **Tích hợp Project Operations**).
+Các mục nhập thời gian và chi phí tạo ra các giao dịch **Thực tế** thể hiện quan điểm hoạt động của công việc đã hoàn thành dựa trên một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Kế toán có thể thực hiện các hoạt động này bằng cách sử dụng **Tích hợp hoạt động dự án** tạp chí (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Tạp chí** > **Tích hợp hoạt động dự án** tạp chí.
 
 ![Luồng nhật ký tích hợp.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Tạo bản ghi trong nhật ký Tích hợp Project Operations
 
-Các bản ghi trong nhật ký Tích hợp Project Operations được tạo bằng quy trình định kỳ **Nhập từ bảng tách chuyển**. Bạn có thể chạy quy trình này bằng cách đi tới **Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Định kỳ** > **Tích hợp Project Operations** > **Nhập từ bảng tách chuyển**. Bạn có thể chạy quy trình này theo cách tương tác hoặc đặt cấu hình quy trình để chạy trong nền khi cần.
+Các bản ghi trong nhật ký Tích hợp Project Operations được tạo bằng quy trình định kỳ **Nhập từ bảng tách chuyển**. Bạn có thể chạy quá trình này bằng cách đi tới **Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Định kỳ** > **Tích hợp hoạt động dự án** > **Nhập từ bảng dàn**. Bạn có thể chạy quy trình này theo cách tương tác hoặc đặt cấu hình quy trình để chạy trong nền khi cần.
 
 Khi quy trình định kỳ chạy, bất kỳ giao dịch thực tế nào chưa được thêm vào nhật ký Tích hợp Project Operations đều được tìm thấy. Một dòng nhật ký kế toán cho mỗi giao dịch thực tế sẽ được tạo.
-Hệ thống nhóm các dòng nhật ký kế toán thành các nhật ký riêng dựa trên giá trị được chọn trong trường **Đơn vị kỳ trên nhật ký Tích hợp Project Operations** (**Finance** > **Quản lý dự án và kế toán** > **Thiết lập** > **Các tham số quản lý dự án và kế toán**, **Project Operations trên tab Dynamics 365 Customer Engagement**). Các giá trị có thể có cho trường này bao gồm:
+Hệ thống nhóm các dòng tạp chí thành các tạp chí riêng biệt dựa trên giá trị được chọn trong **Đơn vị kỳ trên tạp chí Tích hợp Hoạt động Dự án** đồng ruộng (**Tài chính** > **Quản lý dự án và kế toán** > **Cài đặt** > **Các thông số kế toán và quản lý dự án**, **động Dự án trên Dynamics 365 Customer Engagement** chuyển hướng). Các giá trị có thể có cho trường này bao gồm:
 
   - **Ngày**: Các giá trị thực tế được nhóm theo ngày giao dịch. Một nhật ký riêng được tạo cho mỗi ngày.
   - **Tháng**: Các giao dịch thực tế được nhóm theo tháng. Một nhật ký riêng được tạo cho mỗi tháng.
@@ -40,10 +40,10 @@ Các dòng nhật ký kế toán được tạo dựa trên giao dịch thực t
   - Trường **Chứng từ** cho thấy số chứng từ của mọi giao dịch thực tế. Dãy số chứng từ được xác định trên tab **Dãy số**, trên trang **Các tham số quản lý dự án và kế toán**. Mỗi dòng được chỉ định một số mới. Sau khi chứng từ được đăng, bạn có thể xem chi phí và giao dịch bán hàng chưa được thanh toán có liên quan như thế nào bằng cách chọn **Chứng từ liên quan** trên trang **Giao dịch chứng từ**.
   - Trường **Thể loại** đại diện cho một giao dịch của dự án và là trường mặc định dựa trên thể loại giao dịch của giao dịch thực tế trong dự án có liên quan.
     - Nếu **Thể loại giao dịch** được đặt trong Giao dịch thực tế của dự án và một **Thể loại dự án** có liên quan tồn tại trong một pháp nhân nhất định, thì thể loại mặc định là thể loại dự án này.
-    - Nếu **Thể loại giao dịch** không được đặt trong Giao dịch thực tế của dự án, hệ thống sử dụng giá trị trong trường **Thể loại dự án mặc định** trên tab **Project Operations trên Dynamics 365 Customer Engagement** trên trang **Các tham số quản lý dự án và kế toán**.
+    - Nếu **Loại giao dịch** không được đặt trong thực tế Dự án, hệ thống sử dụng giá trị trong **Danh mục dự án mặc định** lĩnh vực trên **Hoạt động Dự án trên Dynamics 365 Customer Engagement** tab trên **Các thông số kế toán và quản lý dự án** trang.
   - Trường **Nguồn** đại diện cho nguồn lực dự án liên quan đến giao dịch này. Nguồn lực được dùng làm tham chiếu trong các đề xuất hóa đơn của Dự án cho khách hàng.
-  - Trường **Tỷ giá hối đoái** là trường mặc định từ **Tỷ giá hối đoái ngoại tệ** được đặt trong Dynamics 365 Finance. Nếu không thiết lập tỷ giá hối đoái, quy trình định kỳ **Nhập từ bảng tách chuyển** sẽ không thêm bản ghi vào nhật ký và một thông báo lỗi sẽ được thêm vào nhật ký thực hiện công việc.
-  - Trường **Thuộc tính mô tả** đại diện cho loại hình thanh toán trong các Giao dịch thực tế của dự án. Việc ánh xạ thuộc tính mô tả và loại hình thanh toán được xác định trên tab **Project Operations trên Dynamics 365 Customer Engagement** trên trang **Tham số quản lý dự án và kế toán**.
+  - Các **Tỷ giá** trường mặc định từ **Tỷ giá hối đoái** đặt trong Dynamics 365 Finance. Nếu không thiết lập tỷ giá hối đoái, quy trình định kỳ **Nhập từ bảng tách chuyển** sẽ không thêm bản ghi vào nhật ký và một thông báo lỗi sẽ được thêm vào nhật ký thực hiện công việc.
+  - Trường **Thuộc tính mô tả** đại diện cho loại hình thanh toán trong các Giao dịch thực tế của dự án. Thuộc tính dòng và ánh xạ loại thanh toán được xác định trên **Hoạt động Dự án trên Dynamics 365 Customer Engagement** tab trên **Các thông số kế toán và quản lý dự án** trang.
 
 Chỉ các thuộc tính kế toán sau mới được cập nhật trong các dòng nhật ký kế toán trên Project Operations:
 

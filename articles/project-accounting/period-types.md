@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp thông tin về cách thiết lập lo�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998802"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580482"
 ---
 # <a name="period-types"></a>Loại chu kỳ
 
@@ -22,7 +22,7 @@ Loại chu kỳ xác định tần suất ước tính doanh thu của dự án.
 ## <a name="create-and-work-with-period-types"></a>Tạo và làm việc với các loại chu kỳ
 Để tạo và làm việc với các loại chu kỳ, hãy hoàn thành các bước sau:
 
-1. Trong môi trường Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Thiết lập** > **Ước tính** > **Loại chu kỳ**.
+1. Trong môi trường Dynamics 365 Finance của bạn, hãy truy cập **Quản lý dự án và kế toán** > **Cài đặt** > **Ước tính** > **Các loại thời kỳ**.
 2. Chọn **Mới** để tạo loại chu kỳ mới. Nhập tên và mô tả.
 3. Trong trường **Tần suất**, hãy chọn một giá trị:
 

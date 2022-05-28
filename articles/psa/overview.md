@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000287"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580206"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation là gì?
 
@@ -42,14 +43,6 @@ ms.locfileid: "7000287"
 - ...và hơn thế nữa
 
 Ngoài ra, để giúp bạn giám sát và kiểm soát chi phí cho công việc dựa trên dự án, các tư vấn viên cá nhân dễ dàng nhập và theo dõi thời gian cũng như chi phí dự án cả trên di động lẫn trên trình duyệt web.
-
-## <a name="whats-new-in-psa"></a>Nội dung mới trong PSA
-Nhóm rất hào hứng được thông báo về những cập nhật mới nhất của chúng tôi! Từ những điểm cải tiến về giao diện người dùng đến việc sửa lỗi và bổ sung các tính năng và khả năng mới quan trọng. Chúng tôi luôn lắng nghe ý kiến của bạn.
-
-Hãy xem [Ghi chú phát hành ngày 19 tháng 10](/dynamics365-release-plan/2019wave2/index) để biết những điểm cải tiến và bổ sung mới nhất của chúng tôi.
-
-### <a name="in-development"></a>Đang phát triển
-Để xem những điều chúng tôi đã hoạch định trong tương lai gần, hãy xem [Dynamics 365: kế hoạch phát hành đợt 1 năm 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Nhận trợ giúp với phiên bản PSA 3.x
 Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai? Tìm hiểu các hướng dẫn có thể tải xuống này.
@@ -80,10 +73,6 @@ Tìm kiếm nguồn lực để trợ giúp việc hoạch định triển khai?
  [Bạch thư (phiên bản ứng dụng 2.x hoặc 1.x)](../psa/white-papers.md)
 
  [Ghi chú dành cho nhà phát triển (ứng dụng phiên bản 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Xem video tổng quan 2 phút
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 
