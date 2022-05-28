@@ -3,25 +3,23 @@ title: Tổng quan về quản lý dự án và kế toán
 description: Chức năng quản lý dự án và kế toán có thể được sử dụng trong nhiều ngành để cung cấp dịch vụ, sản xuất sản phẩm hoặc đạt được kết quả.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007532"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683610"
 ---
 # <a name="project-management-and-accounting-overview"></a>Tổng quan về quản lý dự án và kế toán
 
@@ -248,7 +246,7 @@ Bảng sau đây mô tả các phương pháp tính toán chi phí hoàn thành 
 <tbody>
 <tr class="odd">
 <td>Tổng chi phí – thực tế</td>
-<td>Chi phí ước tính phải được nhập thủ công. Sau bạn nhập dữ liệu vào cột <strong>Tổng chi phí</strong> hoặc <strong>Tổng số lượng</strong> trên trang <strong>Ước tính chi phí</strong>, chi phí thực tế sẽ được trừ vào tổng số do người dùng nhập. Kết quả thu được chính là chi phí hoàn thành dự án. Thông thường, tiến trình chi tiêu không được theo dõi dựa trên, chẳng hạn, số lần lưu trú khách sạn và các bữa ăn được ghi lại trong mỗi kỳ. Thay vào đó, việc theo dõi thường dựa trên sự so sánh với tổng số giờ ước tính. Phương pháp này không yêu cầu có mô hình dự báo và tổng chi phí hoặc tổng số lượng có thể thay đổi thủ công. Khi giá trị được nhập vào <strong>Tổng chi phí</strong> hoặc <strong>Tổng số lượng</strong>, Finance sẽ so sánh giá trị này với các giao dịch thực tế được đăng trong kỳ, sau đó giảm giá trị ở cột <strong>Số lượng cần hoàn thành</strong> hoặc <strong>Chi phí hoàn thành</strong>.</td>
+<td>Chi phí ước tính phải được nhập thủ công. Sau bạn nhập dữ liệu vào cột <strong>Tổng chi phí</strong> hoặc <strong>Tổng số lượng</strong> trên trang <strong>Ước tính chi phí</strong>, chi phí thực tế sẽ được trừ vào tổng số do người dùng nhập. Kết quả thu được chính là chi phí hoàn thành dự án. Thông thường, tiến độ của chi phí không&#39; t được theo dõi, ví dụ, dựa trên số lần lưu trú tại khách sạn và các bữa ăn được ghi lại trong mỗi kỳ. Thay vào đó, việc theo dõi thường dựa trên sự so sánh với tổng số giờ ước tính. Cách tiếp cận này không&#39; t yêu cầu mô hình dự báo và tổng chi phí hoặc tổng số lượng có thể được thay đổi theo cách thủ công. Khi giá trị được nhập vào <strong>Tổng chi phí</strong> hoặc <strong>Tổng số lượng</strong>, Finance sẽ so sánh giá trị này với các giao dịch thực tế được đăng trong kỳ, sau đó giảm giá trị ở cột <strong>Số lượng cần hoàn thành</strong> hoặc <strong>Chi phí hoàn thành</strong>.</td>
 </tr>
 <tr class="even">
 <td>Tổng ngân sách – thực tế</td>

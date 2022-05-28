@@ -3,7 +3,7 @@ title: Nâng cấp từ Tự động hóa dịch vụ dự án lên Vận hành 
 description: Chủ đề này cung cấp tổng quan về quá trình nâng cấp từ Microsoft Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7954305"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626749"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nâng cấp từ Tự động hóa dịch vụ dự án lên Vận hành dự án
 
@@ -28,7 +29,7 @@ Chúng tôi vui mừng thông báo giai đoạn đầu tiên trong ba giai đo�
 
 Chương trình nâng cấp sẽ được chia thành ba giai đoạn.
 
-| Nâng cấp giao hàng | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3 (Làn sóng tháng 4 năm 2022) |
+| Nâng cấp giao hàng | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Không phụ thuộc vào cấu trúc phân chia công việc (WBS) cho các dự án | : heavy_check_mark: | : heavy_check_mark: | : heavy_check_mark: |
 | WBS trong các giới hạn được hỗ trợ hiện tại của Hoạt động Dự án | | : heavy_check_mark: | : heavy_check_mark: |
@@ -38,11 +39,11 @@ Chương trình nâng cấp sẽ được chia thành ba giai đoạn.
 
 Là một phần của quá trình nâng cấp, chúng tôi đã thêm nhật ký nâng cấp vào sơ đồ trang web, để quản trị viên có thể chẩn đoán lỗi dễ dàng hơn. Ngoài giao diện mới, các quy tắc xác thực mới sẽ được thêm vào để đảm bảo tính toàn vẹn của dữ liệu sau khi nâng cấp. Các xác nhận sau sẽ được thêm vào quá trình nâng cấp.
 
-| Xác thực | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3 (Làn sóng tháng 4 năm 2022) |
+| Xác thực | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS sẽ được xác thực chống lại các vi phạm toàn vẹn dữ liệu phổ biến (ví dụ: gán tài nguyên được liên kết với cùng một nhiệm vụ mẹ nhưng có các dự án mẹ khác nhau). | | : heavy_check_mark: | : heavy_check_mark: |
 | WBS sẽ được xác thực dựa trên [giới hạn đã biết của Dự án cho Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | : heavy_check_mark: | : heavy_check_mark: |
-| WBS sẽ được xác nhận theo các giới hạn đã biết của máy khách Project desktop. | | : heavy_check_mark: | : heavy_check_mark: |
+| WBS sẽ được xác nhận theo các giới hạn đã biết của máy khách Project desktop. | |  | : heavy_check_mark: |
 | Các tài nguyên có thể đặt trước và lịch dự án sẽ được đánh giá dựa trên các ngoại lệ quy tắc lịch không tương thích phổ biến. | | : heavy_check_mark: | : heavy_check_mark: |
 
 Trong giai đoạn 2, những khách hàng nâng cấp lên Hoạt động dự án sẽ được nâng cấp các dự án hiện có của họ lên trải nghiệm chỉ đọc để lập kế hoạch dự án. Trong trải nghiệm chỉ đọc này, WBS đầy đủ sẽ hiển thị trong lưới theo dõi. Để chỉnh sửa WBS, người quản lý dự án có thể chọn **Đổi** trên chính **Dự án** trang. Sau đó, một quy trình nền sẽ cập nhật dự án để hỗ trợ trải nghiệm lập lịch dự án mới từ Project cho Web. Giai đoạn này thích hợp cho những khách hàng có dự án phù hợp với [các giới hạn đã biết của Dự án cho Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Trong giai đoạn 3, hỗ trợ cho máy khách Project desktop sẽ được b
 - Môi trường đích không được chứa bất kỳ bản ghi nào trong **msdyn_projecttask** thực thể.
 - Giấy phép Hoạt động Dự án hợp lệ phải được chỉ định cho tất cả người dùng đang hoạt động của khách hàng. 
 - Khách hàng phải xác thực quy trình nâng cấp trong ít nhất một môi trường phi sản xuất có tập dữ liệu đại diện phù hợp với dữ liệu sản xuất.
-- Môi trường đích phải được cập nhật lên Bản phát hành cập nhật tự động hóa dịch vụ dự án 38 trở lên.
+- Môi trường đích phải được cập nhật lên Bản phát hành cập nhật tự động hóa dịch vụ dự án 41 (3.10.62.162) hoặc mới hơn.
 
 Các điều kiện tiên quyết cho giai đoạn 2 và giai đoạn 3 sẽ được cập nhật theo cách tiếp cận ngày khả dụng chung.
 
@@ -72,14 +73,14 @@ Dưới đây là một số điều cần chú ý:
 
 - Nhập có thể không thành công vì thiếu phụ thuộc. Nói cách khác, các trường tham chiếu tùy chỉnh hoặc các thành phần khác đã bị loại bỏ trong Hoạt động dự án. Trong trường hợp này, hãy loại bỏ những phụ thuộc này khỏi môi trường phát triển.
 - Nếu các giải pháp không được quản lý và quản lý của bạn bao gồm các thành phần không được tùy chỉnh, hãy xóa các thành phần đó khỏi giải pháp. Ví dụ: khi bạn tùy chỉnh **Dự định** thực thể, chỉ thêm tiêu đề thực thể vào giải pháp của bạn. Đừng thêm tất cả các trường. Nếu trước đó bạn đã thêm tất cả các thành phần con, bạn có thể phải tạo một giải pháp mới theo cách thủ công và thêm các thành phần có liên quan vào nó.
-- Các biểu mẫu và dạng xem có thể không xuất hiện như mong đợi. Trong một số trường hợp, nếu bạn đã tùy chỉnh bất kỳ biểu mẫu hoặc chế độ xem có sẵn nào, thì các tùy chỉnh có thể ngăn các bản cập nhật mới trong Hoạt động dự án có hiệu lực. Để xác định những vấn đề này, chúng tôi khuyên bạn nên thực hiện đánh giá song song việc cài đặt hoàn thiện Hoạt động dự án và cài đặt Hoạt động dự án bao gồm các tùy chỉnh của bạn. So sánh các biểu mẫu được sử dụng phổ biến nhất trong doanh nghiệp của bạn để xác nhận rằng phiên bản biểu mẫu của bạn vẫn có ý nghĩa và không thiếu điều gì đó từ phiên bản sạch của biểu mẫu. Thực hiện cùng một loại đánh giá song song cho bất kỳ chế độ xem nào bạn đã tùy chỉnh.
+- Biểu mẫu và dạng xem có thể không xuất hiện như mong đợi. Trong một số trường hợp, nếu bạn đã tùy chỉnh bất kỳ biểu mẫu hoặc chế độ xem có sẵn nào, thì các tùy chỉnh có thể ngăn các bản cập nhật mới trong Hoạt động dự án có hiệu lực. Để xác định những vấn đề này, chúng tôi khuyên bạn nên thực hiện đánh giá song song việc cài đặt hoàn thiện Hoạt động dự án và cài đặt Hoạt động dự án bao gồm các tùy chỉnh của bạn. So sánh các biểu mẫu được sử dụng phổ biến nhất trong doanh nghiệp của bạn để xác nhận rằng phiên bản biểu mẫu của bạn vẫn có ý nghĩa và không thiếu điều gì đó từ phiên bản sạch của biểu mẫu. Thực hiện cùng một loại đánh giá song song cho bất kỳ chế độ xem nào bạn đã tùy chỉnh.
 - Logic nghiệp vụ có thể không thành công trong thời gian chạy. Vì các tham chiếu đến các trường trong trình cắm của bạn không được xác thực tại thời điểm nhập, logic nghiệp vụ có thể không thành công do các tham chiếu đến các trường không còn tồn tại và bạn có thể nhận được thông báo lỗi tương tự như ví dụ sau: "'Dự án" thực thể không chứa thuộc tính Name = 'msdyn_plannedhours' và NameMapping = 'Logical'. " Trong trường hợp này, hãy sửa đổi các tùy chỉnh của bạn để chúng sử dụng các trường mới. Nếu bạn sử dụng các lớp proxy được tạo tự động và tham chiếu kiểu mạnh trong logic trình cắm của mình, hãy xem xét việc tạo lại các proxy đó từ một bản cài đặt sạch. Bằng cách này, bạn có thể dễ dàng xác định tất cả các vị trí mà trình cắm của bạn phụ thuộc vào các trường không dùng nữa.
 
 Sau khi bạn cập nhật các tùy chỉnh của mình để nhập Hoạt động dự án một cách rõ ràng, hãy chuyển sang các bước tiếp theo.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Kiểm tra end-to-end trong môi trường thấp hơn
+## <a name="end-to-end-testing-in-development-environments"></a>Kiểm tra end-to-end trong môi trường phát triển
 
-### <a name="run-the-upgrade-in-production"></a>Chạy nâng cấp trong sản xuất
+### <a name="initiate-upgrade"></a>Bắt đầu nâng cấp 
 
 1. Bên trong Power Platform trung tâm quản trị, tìm và chọn môi trường của bạn. Sau đó, trong các ứng dụng, hãy tìm và chọn **Dynamics 365 Project Operations**.
 2. Lựa chọn **Cài đặt** để bắt đầu nâng cấp. Các Power Platform trung tâm quản trị sẽ trình bày cài đặt này như một cài đặt mới. Tuy nhiên, sự hiện diện của phiên bản Project Service Automation trước đó sẽ được phát hiện và cài đặt hiện có sẽ được nâng cấp.
@@ -90,9 +91,13 @@ Sau khi bạn cập nhật các tùy chỉnh của mình để nhập Hoạt đ�
     > Tùy thuộc vào lượng dữ liệu trong môi trường, quá trình nâng cấp có thể mất vài giờ. Nhóm cốt lõi đang quản lý việc nâng cấp nên lập kế hoạch phù hợp và chạy nâng cấp trong giờ không phải làm việc. Trong một số trường hợp, nếu khối lượng dữ liệu lớn, bản nâng cấp nên được chạy vào cuối tuần. Quyết định về việc lên lịch phải dựa trên kết quả thử nghiệm trong môi trường thấp hơn.
 
 3. Nâng cấp các giải pháp tùy chỉnh khi thích hợp. Tại thời điểm này, hãy triển khai bất kỳ thay đổi nào bạn đã thực hiện đối với các tùy chỉnh của mình trong [Kiểm tra và cấu trúc lại các tùy chỉnh](#testing-and-refactoring-customizations) phần của chủ đề này.
-4. Đi đến **Cài đặt** \> **Các giải pháp** và chọn gỡ cài đặt **Hoạt động dự án Các thành phần không được chấp nhận** giải pháp.
+4. Đi đến **Cài đặt** \> **Các giải pháp** và chọn gỡ cài đặt **Hoạt động dự án Các thành phần không được chấp nhận** sự hòa tan.
 
     Giải pháp này là giải pháp tạm thời giữ mô hình dữ liệu hiện có và các thành phần có trong quá trình nâng cấp. Bằng cách loại bỏ giải pháp này, bạn loại bỏ tất cả các trường và thành phần không còn được sử dụng. Bằng cách này, bạn sẽ giúp đơn giản hóa giao diện và làm cho việc tích hợp và mở rộng dễ dàng hơn.
+    
+### <a name="validate-common-scenarios"></a>Xác thực các tình huống phổ biến
+
+Khi bạn xác thực các tùy chỉnh cụ thể của mình, chúng tôi khuyên bạn cũng nên xem xét các quy trình kinh doanh được hỗ trợ trên các ứng dụng. Các quy trình kinh doanh này bao gồm, nhưng không giới hạn ở, việc tạo ra các thực thể bán hàng như báo giá và hợp đồng, cũng như tạo các dự án bao gồm WBS và phê duyệt các thực tế.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Những thay đổi lớn giữa Tự động hóa dịch vụ dự án và Vận hành dự án
 
@@ -114,12 +119,12 @@ Là một phần của việc tiếp tục đầu tư vào Hoạt động Dự �
 
 ## <a name="frequently-asked-questions"></a>Các câu hỏi thường gặp
 
-### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Những kiểu triển khai nào hiện được hỗ trợ để nâng cấp?
+### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Những loại triển khai nào hiện được hỗ trợ để nâng cấp?
 
 | Nguồn                                                 | Mục tiêu                                                    | Trạng thái                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Triển khai Project Operations Lite                        | Hỗ trợ               |
-| Dynamics 365 Finance Quản lý dự án và Kế toán | Triển khai Project Operations Lite                        | Hiện không được hỗ trợ |
+| Dynamics 365 Finance Quản lý và Kế toán Dự án | Triển khai Project Operations Lite                        | Hiện không được hỗ trợ |
 | Quản lý dự án tài chính và kế toán              | Project Operations dành cho tình huống dựa trên nguồn lực/hàng không trữ kho     | Hiện không được hỗ trợ |
 | Quản lý dự án tài chính và kế toán              | Project Operations dành cho tình huống dựa trên hàng trữ kho/lệnh sản xuất | Hiện không được hỗ trợ |
 | Tự động hóa dịch vụ dự án 3.x                         | Project Operations dành cho tình huống dựa trên nguồn lực/hàng không trữ kho     | Hiện không được hỗ trợ |

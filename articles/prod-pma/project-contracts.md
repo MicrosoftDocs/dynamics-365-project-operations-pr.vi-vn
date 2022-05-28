@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001052"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683518"
 ---
 # <a name="project-contracts"></a>Hợp đồng dự án
 
@@ -45,7 +44,7 @@ Một số hợp đồng dự án quy định rằng nhiều bên chia sẻ trá
 -   Một dự án xây đường được hai thành phố đồng cấp vốn.
 -   Một dự án xây cầu nhận được khoản trợ cấp của chính phủ và một tập đoàn tư nhân.
 
-Trong Dynamics 365 Finance, bạn có thể tách hóa đơn cho một giao dịch hoặc toàn bộ dự án cho nhiều khách hàng, đơn vị tài trợ hoặc tổ chức. 
+Trong Dynamics 365 Finance, bạn có thể chia nhỏ thanh toán cho một giao dịch hoặc toàn bộ dự án cho nhiều khách hàng, khoản tài trợ hoặc tổ chức. 
 
 Trong dự án có nhiều nhà tài trợ, tất cả các bên góp tiền tài trợ cho một dự án tài trợ nâng cao sẽ được gọi là nguồn tiền. Sau khi khách hàng, tổ chức hoặc đơn vị tài trợ được xác định là nguồn tiền, nguồn này có thể được chỉ định cho một hoặc nhiều quy tắc cấp vốn. Quy tắc cấp vốn có các tiêu chí xác định cách thức phân bổ phí cho các nguồn tiền khác nhau trong một dự án. 
 

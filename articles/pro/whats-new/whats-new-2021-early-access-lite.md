@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323937"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723702"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Quyền truy cập sớm đợt 2 năm 2021 có gì mới - Triển khai Project Operations bản đơn giản
 
@@ -26,7 +26,7 @@ Bản phát hành chỉ được áp dụng khi một môi trường [đã chọ
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-[Quản lý hợp đồng phụ](../subcontracting/subcontracting_EA_scope.md) - Tính năng này cung cấp khả năng hiển thị và kiểm soát tốt hơn đối với tất cả các khía cạnh của công việc trong một dự án. Bản xem trước của quản lý hợp đồng phụ bao gồm các năng lực sau:
+[Quản lý hợp đồng phụ](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Tính năng này cung cấp khả năng hiển thị và kiểm soát tốt hơn đối với tất cả các khía cạnh của công việc trong một dự án. Bản xem trước của quản lý hợp đồng phụ bao gồm các năng lực sau:
 
   - Người quản lý dự án có thể tạo một hợp đồng phụ với một nhà cung cấp. Theo mặc định, bảng giá được đính kèm với hồ sơ nhà cung cấp được sử dụng cho hợp đồng phụ. Tài khoản nhà cung cấp có kiểu quan hệ là **Nhà cung cấp** hoặc **Nhà cung ứng**.
   - Người quản lý dự án có thể lặp lại tất cả các giao dịch mua dưới dạng mục hàng trên hợp đồng phụ. Mô tả hợp đồng phụ có thể là về thời gian, chi phí hoặc sản phẩm. Lớp giao dịch của mô tả hợp đồng phụ sẽ xác định mô tả đó dùng để làm gì.

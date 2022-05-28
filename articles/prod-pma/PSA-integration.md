@@ -1,33 +1,31 @@
 ---
 title: Tổng quan về Project Service Automation
-description: Chủ đề này cung cấp thông tin về giải pháp tích hợp Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
+description: Chủ đề này cung cấp thông tin về Dynamics 365 Project Service Automation sang giải pháp tích hợp Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005912"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685588"
 ---
 # <a name="project-service-automation-overview"></a>Tổng quan về Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Giải pháp tích hợp Project Service Automation sang Finance sử dụng tính năng Tích hợp dữ liệu để đồng bộ hóa dữ liệu giữa các phiên bản của Dynamics 365 Finance và Dynamics 365 Project Service Automation qua Common Data Service. Mẫu tích hợp có sẵn với tính năng Tích hợp dữ liệu cho phép dòng dữ liệu về dự án, hợp đồng dự án, mô tả hợp đồng dự án, mốc thời gian mô tả hợp đồng dự án, nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ và ước tính chi phí từ Project Service Automation sang Finance.
+
+Giải pháp tích hợp Tự động hóa Dịch vụ Dự án với Tài chính sử dụng tính năng Tích hợp dữ liệu để đồng bộ hóa dữ liệu giữa các phiên bản của Dynamics 365 Finance và Dynamics 365 Project Service Automation qua Common Data Service. Mẫu tích hợp có sẵn với tính năng Tích hợp dữ liệu cho phép dòng dữ liệu về dự án, hợp đồng dự án, mô tả hợp đồng dự án, mốc thời gian mô tả hợp đồng dự án, nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ và ước tính chi phí từ Project Service Automation sang Finance.
 
 > [!NOTE]
 > - Nếu đang sử dụng phiên bản 7.3.0, bạn phải cài đặt KB 4074835. Sau đó, bạn sẽ có thể tích hợp các dự án giá cố định.

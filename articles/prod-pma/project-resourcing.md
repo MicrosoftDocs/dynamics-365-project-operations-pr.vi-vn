@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007352"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684898"
 ---
 # <a name="project-resourcing-home-page"></a>Trang chủ về nguồn lực dự án
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007352"
 
 Chủ đề này cung cấp thông tin về nguồn lực dự án.
 
-Một thách thức đối với các nhà quản lý dự án và quản lý nguồn lực trong giai đoạn lập kế hoạch dự án là phân bổ nguồn lực, nơi họ phải xác định và dành nguồn lực chính xác để làm việc trong một dự án. Trong Dynamics 365 Finance, khả năng cung ứng nguồn lực cho dự án cho phép bạn xác định các vai trò được coi là nguồn lực tạm thời có thể được dành cho một hoạt động thuê cụ thể hoặc một phần của hoạt động thuê đó. Loại nguồn lực này cho phép các nhà quản lý dự án và quản lý nguồn lực hoàn thành các nhiệm vụ sau:
+Một thách thức đối với các nhà quản lý dự án và quản lý nguồn lực trong giai đoạn lập kế hoạch dự án là phân bổ nguồn lực, nơi họ phải xác định và dành nguồn lực chính xác để làm việc trong một dự án. Trong Dynamics 365 Finance, khả năng nguồn lực cho các dự án cho phép bạn xác định các vai trò được coi là tài nguyên tạm thời có thể được dành riêng cho một cam kết cụ thể hoặc một phần của một cam kết. Loại nguồn lực này cho phép các nhà quản lý dự án và quản lý nguồn lực hoàn thành các nhiệm vụ sau:
 
 - Xác định vai trò có các năng lực cần thiết để dễ dàng khớp các nguồn lực.
 - Sử dụng các vai trò để xác định lịch trình tham gia ban đầu dựa trên các nguồn lực dành riêng.

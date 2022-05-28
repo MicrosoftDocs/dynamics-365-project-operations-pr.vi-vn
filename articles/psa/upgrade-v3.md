@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000107"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601780"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Nội dung cần cân nhắc khi nâng cấp - PSA phiên bản 2.x hoặc 1.x lên phiên bản 3
 
@@ -81,15 +82,15 @@ Trước khi bạn bắt đầu nâng cấp, bạn nên tạo lại nhóm cho t�
 
 Đối với các nhiệm vụ được gán cho thành viên nhóm chung được tạo bằng tính năng **Tạo nhóm**, việc nâng cấp sẽ rời khỏi nguồn lực chung của nhóm và không gán cho thành viên nhóm chung đó. Bạn nên tạo yêu cầu nguồn lực cho thành viên nhóm chung sau khi nâng cấp nhưng trước khi bạn đặt hoặc gửi yêu cầu nguồn lực. Điều này sẽ bảo vệ mọi nội dung gán đơn vị tổ chức cho thành viên nhóm chung khác với đơn vị tổ chức hợp đồng của dự án.
 
-Chẳng hạn, trong dự án Project Z, đơn vị tổ chức hợp đồng là Contoso Hoa Kỳ. Theo kế hoạch dự án, các nhiệm vụ kiểm tra ở giai đoạn Thực hiện được chỉ định cho vai trò Tư vấn kỹ thuật và đơn vị tổ chức đã chỉ định là Contoso Ấn Độ.
+Ví dụ: trong dự án Project Z, đơn vị tổ chức hợp đồng là Contoso Hoa Kỳ. Trong kế hoạch dự án, các nhiệm vụ kiểm tra trong giai đoạn thực hiện đã được chỉ định vai trò Tư vấn kỹ thuật và đơn vị tổ chức đã chỉ định là Contoso India.
 
 ![Chỉ định tổ chức trong giai đoạn thực hiện.](media/org-unit-assignment-09.png)
 
-Sau giai đoạn thực hiện, nhiệm vụ kiểm tra phần tích hợp được chỉ định cho vai trò Tư vấn kỹ thuật, nhưng tổ chức được thiết lập là Contoso Hoa Kỳ.  
+Sau giai đoạn thực hiện, nhiệm vụ kiểm tra tích hợp được gán cho vai trò Tư vấn kỹ thuật, nhưng tổ chức được đặt thành Contoso Hoa Kỳ.  
 
 ![Chỉ định tổ chức nhiệm vụ kiểm tra tích hợp.](media/org-unit-generate-team-10.png)
 
-Khi bạn tạo một nhóm cho dự án, hai thành viên nhóm chung sẽ được tạo do các đơn vị tổ chức khác nhau trong tác vụ. Tư vấn kỹ thuật 1 sẽ được chỉ định các nhiệm vụ của Contoso Ấn Độ và Tư vấn kỹ thuật 2 sẽ được giao nhiệm vụ của Contoso Hoa Kỳ.  
+Khi bạn tạo một nhóm cho dự án, hai thành viên nhóm chung sẽ được tạo do các đơn vị tổ chức khác nhau trong tác vụ. Tư vấn kỹ thuật 1 sẽ được gán các nhiệm vụ của Contoso Ấn Độ và Tư vấn kỹ thuật 2 sẽ có nhiệm vụ của Contoso Hoa Kỳ.  
 
 ![Thành viên nhóm chung đã tạo.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Bạn có thể xem đơn vị tổ chức trên dạng xem ước tính.
  
 Khi nâng cấp xong, đơn vị tổ chức trên nhiệm vụ dòng tương ứng với thành viên nhóm chung được thêm vào thành viên nhóm chung và tác vụ dòng bị xóa. Do đó, trước khi nâng cấp, bạn nên tạo hoặc tạo lại nhóm trên mỗi dự án chứa các nguồn lực chung.
 
-Đối với các nhiệm vụ được chỉ định vai trò với đơn vị tổ chức khác với đơn vị tổ chức của dự án hợp đồng, và nhóm chưa được tạo, việc nâng cấp sẽ tạo một thành viên nhóm chung cho vai trò, nhưng sẽ sử dụng đơn vị hợp đồng của dự án cho đơn vị tổ chức của thành viên dự án. Quay lại ví dụ với Project Z, đơn vị tổ chức hợp đồng Contoso Hoa Kỳ và các nhiệm vụ kiểm tra trong giai đoạn Thực hiện theo kế hoạch dự án đã được chỉ định cho vai trò Tư vấn kỹ thuật, với đơn vị tổ chức được chỉ định là Contoso Ấn Độ. Nhiệm vụ kiểm tra tích hợp được hoàn thành sau giai đoạn Thực hiện đã được gán vai trò Tư vấn kỹ thuật. Đơn vị tổ chức là Contoso Hoa Kỳ và chưa có nhóm nào được tạo. Việc nâng cấp sẽ tạo một thành viên nhóm chung: một Tư vấn kỹ thuật được chỉ định theo giờ cho cả ba nhiệm vụ và đơn vị tổ chức là Contoso Hoa Kỳ – đơn vị tổ chức ký hợp đồng của dự án.   
+Đối với các nhiệm vụ được chỉ định vai trò với đơn vị tổ chức khác với đơn vị tổ chức của dự án hợp đồng, và nhóm chưa được tạo, việc nâng cấp sẽ tạo một thành viên nhóm chung cho vai trò, nhưng sẽ sử dụng đơn vị hợp đồng của dự án cho đơn vị tổ chức của thành viên dự án. Quay lại ví dụ với Dự án Z, đơn vị tổ chức đang ký hợp đồng là Contoso Hoa Kỳ và các nhiệm vụ kiểm tra kế hoạch dự án trong giai đoạn Triển khai đã được gán vai trò Tư vấn viên kỹ thuật với đơn vị tổ chức được gán cho Contoso Ấn Độ. Nhiệm vụ kiểm tra tích hợp được hoàn thành sau giai đoạn Thực hiện đã được gán vai trò Tư vấn kỹ thuật. Đơn vị tổ chức là Contoso Hoa Kỳ và nhóm chưa được tạo. Việc nâng cấp sẽ tạo một thành viên nhóm chung, Một nhà tư vấn kỹ thuật có giờ được chỉ định của tất cả ba nhiệm vụ và đơn vị tổ chức của Contoso Hoa Kỳ, đơn vị của dự án ký kết hợp đồng.   
  
 Việc thay đổi giá trị mặc định của các đơn vị tổ chức thuê ngoài trên các thành viên nhóm chưa tạo là lý do chúng tôi khuyên bạn tạo hoặc tạo lại nhóm trên mỗi dự án có nguồn lực chung trước khi nâng cấp để gán đơn vị không bị mất.
 

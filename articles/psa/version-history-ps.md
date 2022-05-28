@@ -2,8 +2,8 @@
 title: Lịch trình của bản cập nhật cho Project Service 3.x
 description: Chủ đề này cung cấp thông tin về các bản phát hành có sẵn và sắp tới của Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
-ms.reviewer: kfend
+ms.date: 03/28/2022
+ms.reviewer: johnmichalak
 ms.prod: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
+ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
 ms.translationtype: HT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940960"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8732912"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Lịch trình của bản cập nhật cho Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7940960"
 
 | Giải pháp  | Phiên bản mới nhất |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation    | 3.10.74.200 |
 | Phần bổ trợ trên máy tính cho Project Service Automation                | 3.60          |
 
 Để biết thông tin về các bản cập nhật khác cho Project Service, hãy xem [Kế hoạch phát hành Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,31 @@ ms.locfileid: "7940960"
 | Trạm  | Khu vực | Phiên bản hiện tại | Phiên bản tiếp theo |  Ngày đã lên lịch
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Trạm 1</strong> | |  |  | |
-| | <i>Bản phát hành đầu tiên</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 14 tháng 1 năm 2022
+| | <i>Bản phát hành đầu tiên</i> | [3.10.74.200](whats-new-ur43.md) | TBD | Ngày 27 tháng 5 năm 2022
 |<strong>Trạm 2</strong> | |  |  | |
-| | <i>Nam Mỹ</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Ca-na-đa</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Ấn Độ</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Pháp</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Nam Phi</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Đức</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
-| | <i>Thụy Sĩ</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | Ngày 21 tháng 1 năm 2022
+| | <i>Nam Mỹ</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Ca-na-đa</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Ấn Độ</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Pháp</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Nam Phi</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Đức</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Thụy Sĩ</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Hàn Quốc</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
+| | <i>Na-uy</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 tháng 6 năm 2022
 |<strong>Trạm 3</strong> | |  |  | |
-| | <i>Nhật Bản</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 tháng 1 năm 2022
-| | <i>Châu Á Thái Bình Dương</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 tháng 1 năm 2022
-| | <i>Anh</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 tháng 1 năm 2022
-| | <i>Châu Đại Dương</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 tháng 1 năm 2022
-| | <i>Các Tiểu Vương quốc Ả Rập Thống nhất</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 tháng 1 năm 2022
+| | <i>Nhật Bản</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 13 tháng 5 năm 2022
+| | <i>Châu Á Thái Bình Dương</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 13 tháng 5 năm 2022
+| | <i>Anh</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 13 tháng 5 năm 2022
+| | <i>Châu Đại Dương</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 13 tháng 5 năm 2022
+| | <i>Các Tiểu Vương quốc Ả Rập Thống nhất</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 13 tháng 5 năm 2022
 |<strong>Trạm 4</strong> | |  |  | |
-| | <i>Châu Âu</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 tháng 1 năm 2022
+| | <i>Châu Âu</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 tháng 5 năm 2022
 |<strong>Trạm 5</strong> | |  |  | |
-| | <i>Bắc Mỹ</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | Ngày 14 tháng 1 năm 2022
+| | <i>Bắc Mỹ</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 29 tháng 5 năm 2022
 |<strong>Trạm 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | Ngày 14 tháng 1 năm 2022
-| | <i>Nhóm quy mô chuyên biệt</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | Ngày 21 tháng 1 năm 2022
+| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | Ngày 29 tháng 5 năm 2022
+| | <i>Nhóm quy mô chuyên biệt</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 tháng 6 năm 2022
+
 
 
 

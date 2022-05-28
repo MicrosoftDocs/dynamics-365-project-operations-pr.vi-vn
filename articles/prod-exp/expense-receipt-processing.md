@@ -1,24 +1,23 @@
 ---
 title: Xử lý biên lai chi phí
-description: Chủ đề này cung cấp thông tin về quy trình xử lý nhận dạng ký tự quang học (OCR) cho biên lai. Tính năng này được thiết kế để cải thiện trải nghiệm người dùng khi tạo báo cáo chi phí trong Microsoft Dynamics 365 Finance.
+description: Chủ đề này cung cấp thông tin về quy trình xử lý nhận dạng ký tự quang học (OCR) cho biên lai. Tính năng này được thiết kế để cải thiện trải nghiệm người dùng khi báo cáo chi phí được tạo trong Microsoft Dynamics 365 Tài chính.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001412"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684346"
 ---
 # <a name="expense-receipt-processing"></a>Xử lý biên lai chi phí
 
@@ -51,7 +50,7 @@ Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung q
 
 Tính năng này hoạt động kết hợp với tính năng **Báo cáo chi phí được xây dựng lại** để mang đến trải nghiệm chi phí đơn giản hơn. Tính năng này chỉ khả dụng cho môi trường Cấp 2 trở lên, tức là Hộp cát và Sản xuất.
 
-Để sử dụng các tính năng về chi phí nâng cao này, hãy cài đặt trình bổ sung Dịch vụ quản lý chi phí cho Microsoft Dynamics 365 Finance và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
+Để sử dụng các khả năng chi phí nâng cao này, hãy cài đặt phần bổ trợ Dịch vụ Quản lý Chi phí cho Microsoft Dynamics 365 Finance, và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Đăng nhập vào LCS và mở môi trường mong muốn.
 2. Chuyển tới **Chi tiết đầy đủ**.

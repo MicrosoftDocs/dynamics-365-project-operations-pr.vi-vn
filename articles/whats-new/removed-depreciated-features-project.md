@@ -2,17 +2,17 @@
 title: Các tính năng đã bị xóa hoặc không dùng nữa trong Dynamics 365 Project Operations
 description: Chủ đề này mô tả các tính năng đã bị xóa hoặc được lên kế hoạch xóa khỏi Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
-ms.translationtype: HT
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903813"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601596"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Các tính năng đã bị xóa hoặc không dùng nữa trong Dynamics 365 Project Operations
 
@@ -26,9 +26,51 @@ Chủ đề này mô tả các tính năng đã bị xóa hoặc được lên k
 Danh sách này giúp bạn cân nhắc những tính năng cần xóa và không dùng nữa cho kế hoạch của riêng mình.
 
 > [!NOTE]
-> Thông tin chi tiết về các đối tượng trong Finance and Operations ứng dụng có thể được tìm thấy trong [**Các báo cáo tham khảo kỹ thuật**](/dynamics/s-e/global/axtechrefrep_61). Bạn có thể so sánh các phiên bản khác nhau của các báo cáo này để tìm hiểu về các đối tượng đã thay đổi hoặc bị loại bỏ trong mỗi phiên bản của Finance and Operations ứng dụng.
+> Thông tin chi tiết về các đối tượng trong ứng dụng Tài chính và Hoạt động có thể được tìm thấy trong [**Các báo cáo tham khảo kỹ thuật**](/dynamics/s-e/global/axtechrefrep_61). Bạn có thể so sánh các phiên bản khác nhau của các báo cáo này để tìm hiểu về các đối tượng đã thay đổi hoặc bị xóa trong mỗi phiên bản của ứng dụng Tài chính và Hoạt động.
 
-## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Các tính năng bị xóa hoặc không được dùng nữa trong bản phát hành Project Operations vào tháng 12 năm 2021
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Các tính năng bị xóa hoặc không được dùng nữa trong bản phát hành Project Operations vào tháng 3 năm 2022
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Quản lý dự án và kế toán Tham số "Luôn tạo giao dịch điều chỉnh"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Lý do không dùng nữa/xóa** | Các giao dịch điều chỉnh được yêu cầu cho các mục đích kiểm toán. Sau khi không dùng nữa, thông số này sẽ bị ẩn. Hệ thống sẽ luôn tạo các giao dịch điều chỉnh, giống như hiện tại khi thông số được đặt thành **Đúng**. |
+| **Được thay thế bởi một tính năng khác?** | No |
+| **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
+| **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |
+| **Trạng thái** | Không dùng nữa: Đến ngày 1 tháng 3 năm 2023, chúng tôi sẽ ẩn thông số và thay đổi hành vi hệ thống để các giao dịch điều chỉnh luôn được tạo. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Quản lý dự án và kế toán tham số "Sử dụng ngày điều chỉnh làm ngày dự án mới"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Lý do không dùng nữa/xóa** | Thông số này ban đầu được sử dụng để cho phép điều chỉnh khi kỳ tài chính bị đóng. Tuy nhiên, nó không còn bắt buộc nữa, vì ngày kế toán của giao dịch có thể được thay đổi thành ngày đầu tiên của khoảng thời gian mở, nếu nó được định cấu hình. Ngày dự án không được thay đổi, vì nó đại diện cho ngày giao dịch xảy ra. |
+| **Được thay thế bởi một tính năng khác?** | No |
+| **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
+| **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |
+| **Trạng thái** | Không dùng nữa: Đến ngày 1 tháng 3 năm 2023, chúng tôi sẽ ẩn tham số và thay đổi hành vi hệ thống để ngày dự án không bao giờ bị thay đổi khi điều chỉnh. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Quy trình công việc yêu cầu tài nguyên trong Hoạt động dự án cho các tình huống có hàng / dựa trên sản xuất
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Lý do không dùng nữa/xóa** | Không được chấp nhận vì hạn chế về số lượng sử dụng và giao dịch thấp. |
+| **Được thay thế bởi một tính năng khác?** | No |
+| **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
+| **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |
+| **Trạng thái** | Không được chấp nhận: Trước ngày 1 tháng 3 năm 2023, chúng tôi sẽ vô hiệu hóa tùy chọn yêu cầu tài nguyên cho dự án bằng cách sử dụng quy trình làm việc. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Trang đề xuất hóa đơn dự án không có chế độ xem Tiêu đề và Dòng
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Lý do không dùng nữa/xóa** | Không được chấp nhận vì các cải tiến đối với trang đã được giới thiệu cùng với **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Đầu trang và Dòng** phím tính năng. |
+| **Được thay thế bởi một tính năng khác?** | Có |
+| **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
+| **Tùy chọn triển khai** | Điều hành dự án cho các kịch bản sản xuất / tồn kho; Hoạt động dự án cho các tình huống tài nguyên / không có hàng |
+| **Trạng thái** | Không được dùng nữa: Trước ngày 1 tháng 3 năm 2023, chúng tôi sẽ tắt trang cũ hơn (cũ hơn) và bật **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Đầu trang và Dòng** phím tính năng theo mặc định. |
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Các tính năng đã bị xóa hoặc không dùng nữa trong bản phát hành Project Operations vào tháng 12 năm 2021
 
 ### <a name="collaboration-workspaces"></a>Không gian làm việc cộng tác
 
@@ -36,7 +78,7 @@ Danh sách này giúp bạn cân nhắc những tính năng cần xóa và khôn
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Lý do khấu hao / loại bỏ** | Không được chấp nhận do mức sử dụng thấp. Khách hàng sử dụng Hoạt động dự án cho các tình huống tài nguyên / không có hàng có thể tận dụng [Cộng tác với các Nhóm văn phòng](../project-management/collaboration-groups.md). |
+| **Lý do không dùng nữa/xóa** | Không được chấp nhận do mức sử dụng thấp. Khách hàng sử dụng Hoạt động dự án cho các tình huống tài nguyên / không có hàng có thể tận dụng [Cộng tác với các Nhóm văn phòng](../project-management/collaboration-groups.md). |
 | **Được thay thế bởi một tính năng khác?** | No |
 | **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng  |
 | **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |

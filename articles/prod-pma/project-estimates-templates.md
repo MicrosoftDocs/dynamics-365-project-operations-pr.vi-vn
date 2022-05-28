@@ -1,32 +1,31 @@
 ---
-title: Đồng bộ hóa ước tính dự án trực tiếp từ Project Service Automation sang Finance and Operations
-description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các ước tính giờ dự án và ước tính chi phí dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
+title: Đồng bộ hóa các dự toán dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
+description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa ước tính giờ dự án và ước tính chi phí dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988227"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684622"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa ước tính dự án trực tiếp từ Project Service Automation sang Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các dự toán dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các ước tính giờ dự án và ước tính chi phí dự án trực tiếp từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
+Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa ước tính giờ dự án và ước tính chi phí dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.
@@ -70,7 +69,7 @@ Trước khi đồng bộ hóa ước tính giờ dự án có thể xảy ra, b
 
 ### <a name="power-query"></a>Power Query
 
-Trong mẫu ước tính giờ dự án, bạn phải sử dụng Microsoft Power Query dành cho Excel để hoàn thành các nhiệm vụ sau:
+Trong mẫu ước tính giờ dự án, bạn phải sử dụng Microsoft Power Query để Excel hoàn thành các tác vụ này:
 
 - Thiết lập ID mô hình dự báo mặc định sẽ được sử dụng khi tùy chọn tích hợp tạo dự báo giờ mới.
 - Lọc ra bất kỳ bản ghi nguồn lực cụ thể nào trong nhiệm vụ sẽ không tích hợp được vào dự báo giờ.
@@ -81,7 +80,7 @@ Trong mẫu ước tính giờ dự án, bạn phải sử dụng Microsoft Powe
 Để cập nhật ID mô hình dự báo mặc định trong mẫu, hãy bấm vào mũi tên **Bản đồ** để mở phần ánh xạ. Sau đó, chọn liên kết **Truy vấn nâng cao và lọc**.
 
 - Nếu bạn đang sử dụng mẫu Ước tính giờ dự án mặc định (PSA sang Fin and Ops) mặc định, hãy chọn **Điều kiện đã chèn** trong danh sách **Các bước được áp dụng**. Trong mục nhập **Hàm**, thay **O\_forecast** bằng tên của ID mô hình dự đoán sẽ dùng với tùy chọn tích hợp. Mẫu mặc định có ID mô hình dự báo từ dữ liệu demo.
-- Nếu bạn đang tạo một mẫu mới, bạn phải thêm cột này. Trong Power Query, chọn **Thêm cột điều kiện** và nhập tên của cột mới, như **ID mô hình**. Nhập điều kiện cho cột, trong đó, nếu nhiệm vụ dự án không phải là null, thì \<enter the forecast model ID\>; nếu không thì nhập null.
+- Nếu bạn đang tạo một mẫu mới, bạn phải thêm cột này. Trong Power Query, lựa chọn **Thêm cột có điều kiện** và nhập tên cho cột mới, chẳng hạn như **ModelID**. Nhập điều kiện cho cột, trong đó, nếu nhiệm vụ dự án không phải là null, thì \<enter the forecast model ID\>; nếu không thì nhập null.
 
 #### <a name="filter-out-resource-specific-records"></a>Lọc ra các bản ghi dành riêng cho nguồn lực
 
@@ -141,8 +140,8 @@ Mẫu ước tính chi phí dự án (PSA sang Fin và Ops) có bộ lọc mặc
 
 Để cập nhật ID mô hình dự báo mặc định trong mẫu, hãy chọn nhiệm vụ **Ước tính chi phí** rồi nhấp vào mũi tên **Bản đồ** để mở ánh xạ. Chọn liên kết **Truy vấn nâng cao và lọc**.
 
-- Nếu bạn đang sử dụng mẫu Ước tính chi phí dự án (PSA sang Fin and Ops) mặc định, thì trong Power Query, trước tiên hãy chọn **Điều kiện đã chèn** ở phần **Các bước được áp dụng**. Trong mục nhập **Hàm**, thay **O\_forecast** bằng tên của ID mô hình dự đoán sẽ dùng với tùy chọn tích hợp. Mẫu mặc định có ID mô hình dự báo từ dữ liệu demo.
-- Nếu bạn đang tạo một mẫu mới, bạn phải thêm cột này. Trong Power Query, chọn **Thêm cột điều kiện** và nhập tên của cột mới, như **ID mô hình**. Nhập điều kiện cho cột, trong đó, nếu ID dòng ước tính không phải là null, thì \<enter the forecast model ID\>; nếu không thì nhập null.
+- Nếu bạn đang sử dụng mẫu ước tính chi phí Dự án (PSA to Fin và Ops) mặc định, trong Power Query, chọn cái đầu tiên **Điều kiện đã chèn** từ **Các bước áp dụng** tiết diện. Trong mục nhập **Hàm**, thay **O\_forecast** bằng tên của ID mô hình dự đoán sẽ dùng với tùy chọn tích hợp. Mẫu mặc định có ID mô hình dự báo từ dữ liệu demo.
+- Nếu bạn đang tạo một mẫu mới, bạn phải thêm cột này. Trong Power Query, lựa chọn **Thêm cột có điều kiện** và nhập tên cho cột mới, chẳng hạn như **ModelID**. Nhập điều kiện cho cột, trong đó, nếu ID dòng ước tính không phải là null, thì \<enter the forecast model ID\>; nếu không thì nhập null.
 
 #### <a name="transform-the-billing-types"></a>Chuyển đổi các loại thanh toán
 

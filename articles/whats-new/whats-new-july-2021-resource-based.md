@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008072"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600906"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
 
@@ -80,7 +80,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Chung                       | 2253682              | Không nên cài đặt giải pháp ghi kép Project Operations khi lõi ghi kép được cài đặt trong môi trường không có giải pháp điều phối ghi kép.                                                |
 | Chung                       | 2316420              | Việc cung cấp dịch vụ dự án cốt lõi không thành công nếu đơn vị kinh doanh của người dùng ứng dụng bị thay đổi.                                                                                                                     |
 | Chung                       | 2376405              | Đã khắc phục sự cố cập nhật theo nhà xuất bản (Bản cập nhật chất lượng có sẵn trong phiên bản 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trên Dynamics 365 Finance
 
 | Lĩnh vực tính năng                      | Số tham chiếu | Cập nhật chất lượng                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

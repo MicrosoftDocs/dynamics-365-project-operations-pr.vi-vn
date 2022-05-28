@@ -3,16 +3,15 @@ title: Tổng quan về ghi nhận doanh thu
 description: Chủ đề này cung cấp thông tin về ghi nhận doanh thu trong Project Operations.
 author: sigitac
 ms.date: 11/16/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988677"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601458"
 ---
 # <a name="revenue-recognition-overview"></a>Tổng quan về ghi nhận doanh thu
 

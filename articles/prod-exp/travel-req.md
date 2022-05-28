@@ -3,24 +3,22 @@ title: Tổng quan về tiêu chuẩn đi lại
 description: Chủ đề này cung cấp thông tin về các tiêu chuẩn đi lại. Bản tiêu chuẩn đi lại làm căn cứ tài liệu cho chi phí đi lại theo kế hoạch.
 author: saraschi2
 ms.date: 02/23/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: cd4502459214f010a800dece74285b721642cd8e
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988182"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685575"
 ---
 # <a name="travel-requisitions-overview"></a>Tổng quan về tiêu chuẩn đi lại
 

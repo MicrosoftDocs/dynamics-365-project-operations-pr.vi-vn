@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989577"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683978"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Không gian làm việc di động mục nhập thời gian dự án
 
@@ -83,7 +82,7 @@ Nếu phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi �
 
 ## <a name="download-and-install-the-mobile-app"></a>Tải xuống và cài đặt ứng dụng dành cho thiết bị di động
 
-Tải xuống và cài đặt ứng dụng dành cho thiết bị di động Finance and Operations:
+Tải xuống và cài đặt ứng dụng di động Tài chính và Hoạt động:
 
 -   [Đối với điện thoại Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Đối với iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76706fd8ced58063b05bc8ebe4b25c1dddbf0890e72e9c7194d17ff2937dc8ca
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986067"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683012"
 ---
 # <a name="vat-recovery"></a>Hoàn thuế GTGT 
 
@@ -39,25 +38,25 @@ Sau khi xong các điều kiện tiên quyết, nhân viên sẽ thực hiện t
 4. Gửi dữ liệu hoàn thuế VAT cho nhà cung cấp bên thứ ba để nộp tờ khai hoàn thuế quốc tế.
 5. Xử lý chi phí hoàn thuế GTGT trong nước.
 
-Các phần sau đây cung cấp các ví dụ cho thấy cách thức hoàn thành từng bước của nhân viên Contoso.
+Các phần sau đây đưa ra ví dụ về cách nhân viên Contoso hoàn thành từng bước.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Trên báo cáo chi phí, hãy nhập thông tin thuế về các giao dịch thẻ tín dụng để xác định các khoản hoàn thuế VAT đủ điều kiện
 
-Nancy, một đại diện bán hàng của Contoso làm việc tại Hoa Kỳ, vừa trở về sau một chuyến công tác bán hàng ở Vương quốc Anh. Trong chuyến đi, cô ấy phát sinh một số chi phí thẻ tín dụng cá nhân cho các bữa ăn. Nancy hiện phải tạo một báo cáo chi phí để đối chiếu các khoản chi của mình.
+Nancy, một đại diện bán hàng của Contoso có trụ sở tại Hoa Kỳ, vừa trở về sau một chuyến đi bán hàng đến Vương quốc Anh. Trong chuyến đi, cô ấy phát sinh một số chi phí thẻ tín dụng cá nhân cho các bữa ăn. Nancy hiện phải tạo một báo cáo chi phí để đối chiếu các khoản chi của mình.
 
 Khi Nancy nhập thông tin trên báo cáo chi phí của mình, cô chọn **Vương quốc Anh** trong trường **Quốc gia/khu vực** trên trang **Chỉnh sửa báo cáo chi phí**. Sau đó, danh sách các nhóm thuế bán hàng được lọc để chỉ hiển thị những nhóm áp dụng cho Vương quốc Anh. Linh chọn nhóm thuế bán hàng **Vương quốc Anh 001** rồi chọn nhóm thuế bán hàng **Bữa ăn**. Sau đó, Nancy thêm một giao dịch mới cho cơ sở lưu trú. Vì chỉ có một nhóm thuế bán hàng và một mục nhóm thuế bán hàng cho cơ sở lưu trú tại Vương quốc Anh, nên thông tin này sẽ tự động được điền vào báo cáo chi phí của Nancy.
 
-Theo chính sách của Contoso, tất cả các chi phí phải có hóa đơn tương ứng. Do đó, khi Nancy lưu báo cáo chi phí, cô nhận được một thông báo cho biết cô phải đính kèm biên lai cho mỗi giao dịch đã liệt kê trên báo cáo chi phí của mình. Linh xác minh rằng cô đã đính kèm hình ảnh kỹ thuật số của mỗi biên lai giao dịch vào báo cáo chi phí của mình rồi gửi báo cáo để được phê duyệt. Sau đó, cô gửi biên lai giấy cho nhóm xử lý của văn phòng hỗ trợ. Nhóm này sẽ gửi dữ liệu hoàn thuế GTGT cho nhà cung cấp bên thứ ba để nộp các tờ khai hoàn thuế GTGT quốc tế cho Contoso.
+Theo chính sách Contoso, tất cả các chi phí phải có hóa đơn trùng khớp. Do đó, khi Nancy lưu báo cáo chi phí, cô nhận được một thông báo cho biết cô phải đính kèm biên lai cho mỗi giao dịch đã liệt kê trên báo cáo chi phí của mình. Linh xác minh rằng cô đã đính kèm hình ảnh kỹ thuật số của mỗi biên lai giao dịch vào báo cáo chi phí của mình rồi gửi báo cáo để được phê duyệt. Sau đó, cô gửi biên lai giấy cho nhóm xử lý của văn phòng hỗ trợ. Nhóm này sẽ gửi dữ liệu hoàn thuế VAT cho nhà cung cấp bên thứ ba nộp các tờ khai thu hồi VAT quốc tế cho Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Đảm bảo rằng tất cả thông tin thuế đã hoàn tất, sau đó đăng báo cáo chi phí
 
-April, điều phối viên Tài khoản phải trả cho Contoso, phải nhập mọi thông tin thuế còn thiếu trong báo cáo chi phí trước khi báo cáo có thể được đăng. Cô mở **Chi tiết báo cáo chi phí** và xem báo cáo chi phí đã được phê duyệt của Linh. Sau đó, April mở báo cáo chi phí để xem chi tiết các giao dịch. Cô ấy thấy rằng Linh đã không nhập nhóm thuế bán hàng cho một trong các giao dịch. Vì thông tin này không được cung cấp, April không thể đăng báo cáo chi phí. Do đó, April xem trang **Cấu hình thuế** trong Quản lý chi phí rồi tìm nhóm thuế bán hàng thích hợp cho quốc gia/khu vực và loại giao dịch. Giờ đây, April có thể đăng báo cáo chi phí lên sổ cái.
+April, điều phối viên các khoản phải trả cho Contoso, phải nhập mọi thông tin thuế còn thiếu trong báo cáo chi phí trước khi có thể đăng báo cáo. Cô mở **Chi tiết báo cáo chi phí** và xem báo cáo chi phí đã được phê duyệt của Linh. Sau đó, April mở báo cáo chi phí để xem chi tiết các giao dịch. Cô ấy thấy rằng Linh đã không nhập nhóm thuế bán hàng cho một trong các giao dịch. Vì thông tin này không được cung cấp, April không thể đăng báo cáo chi phí. Do đó, April xem trang **Cấu hình thuế** trong Quản lý chi phí rồi tìm nhóm thuế bán hàng thích hợp cho quốc gia/khu vực và loại giao dịch. Giờ đây, April có thể đăng báo cáo chi phí lên sổ cái.
 
 Khi April đăng báo cáo chi phí, một hạng mục công việc có thể thu hồi VAT được tạo. Mục công việc này được gán cho một thành viên của nhóm xử lý của văn phòng hỗ trợ. April nhận được thông báo xác nhận rằng việc đăng đã thành công. Thông báo này cũng nêu số lượng giao dịch VAT đã được xác định để hoàn thuế.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Xử lý các chi phí đủ điều kiện để thu hồi thuế GTGT quốc tế
 
-Arnie, một thành viên nhóm xử lý hỗ trợ của Contoso, chịu trách nhiệm xác nhận rằng tất cả các thông tin cần thiết cho việc hoàn thuế GTGT đều đã được đưa vào báo cáo chi phí. Anh mở trang **Hoàn thuế chi phí** rồi chọn báo cáo chi phí mà Linh đã gửi. Arnie xác minh rằng tất cả các biên lai bắt buộc đã được đính kèm và đã nhập đúng nhóm thuế bán hàng và mục mã số thuế bán hàng.
+Arnie, một thành viên của nhóm xử lý tại văn phòng của Contoso, chịu trách nhiệm xác nhận rằng tất cả các thông tin cần thiết để thu hồi VAT đều được đưa vào báo cáo chi phí. Anh mở trang **Hoàn thuế chi phí** rồi chọn báo cáo chi phí mà Linh đã gửi. Arnie xác minh rằng tất cả các biên lai bắt buộc đã được đính kèm và đã nhập đúng nhóm thuế bán hàng và mục mã số thuế bán hàng.
 
 Khi Arnie nhận được biên lai giấy từ Nancy, anh xác minh chúng với biên lai kỹ thuật số và sau đó thay đổi trạng thái của báo cáo chi phí thành **Sẵn sàng phục hồi**.
 

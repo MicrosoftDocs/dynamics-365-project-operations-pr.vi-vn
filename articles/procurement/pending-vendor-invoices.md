@@ -1,46 +1,42 @@
 ---
-title: Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
+title: Mua vật liệu không tồn kho hoặc danh mục mua sắm bằng cách sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
 description: Chủ đề này giải thích cách ghi lại các hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547315"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612683"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Mua vật liệu không tồn kho hoặc danh mục mua sắm bằng cách sử dụng hóa đơn của nhà cung cấp đang chờ xử lý
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Khi công ty mua vật tư không tồn kho cho một dự án, chi phí có thể được ghi nhận ngay lập tức đối với dự án. 
+Khi một công ty mua vật liệu không tồn kho hoặc các hạng mục mua sắm cho một dự án, chi phí có thể được ghi nhận ngay lập tức đối với dự án. 
 
-Ví dụ, Contoso Robotics US đang thực hiện một dự án đổi mới thiết bị và cần giấy phép phần mềm. Nhà cung cấp bên thứ ba sẽ cấp các giấy phép này.  Khi sử dụng Dynamics 365 Finance, nhân viên ghi chép khoản phải trả ghi lại tài liệu hóa đơn của nhà cung cấp đang chờ xử lý và chỉ định chi phí giấy phép trực tiếp vào dự án đổi mới thiết bị. 
+Ví dụ, Contoso Robotics US đang thực hiện một dự án đổi mới thiết bị và cần giấy phép phần mềm. Nhà cung cấp bên thứ ba sẽ cấp các giấy phép này.  Sử dụng Dynamics 365 Finance, nhân viên Kế toán khoản phải trả ghi lại tài liệu hóa đơn của nhà cung cấp đang chờ xử lý và phân bổ chi phí giấy phép trực tiếp cho dự án đổi mới thiết bị. 
 
 > [!IMPORTANT]
-> Trước khi bạn sử dụng chức năng được mô tả trong chủ đề này, hãy đánh giá và áp dụng các cấu hình cần thiết. Để biết thêm thông tin, hãy xem [Kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](configure-materials-nonstocked.md). 
+> Trước khi bạn sử dụng chức năng được mô tả trong chủ đề này, hãy đánh giá và áp dụng các cấu hình cần thiết. Để biết thêm thông tin, hãy xem [Cho phép vật liệu không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](configure-materials-nonstocked.md) và [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Đăng hóa đơn của nhà cung cấp đang chờ xử lý liên quan đến dự án 
 
 Hóa đơn của nhà cung cấp đang chờ xử lý có thể được ghi lại trên trang **Hóa đơn của nhà cung cấp đang chờ xử lý** (**Khoản phải trả** > **Hóa đơn** > **Hóa đơn của nhà cung cấp đang chờ xử lý**). Hoàn thành các bước sau để đăng hóa đơn của nhà cung cấp đang chờ xử lý liên quan đến dự án:
 
-1. Chuyển đến **Khoản phải trả** > **Hóa đơn** rồi chọn **Mới**. 
-2. Trong trường **Tài khoản hóa đơn**, hãy chọn một nhà cung cấp và trong trường **Mã số**, nhập mã nhận dạng hóa đơn của nhà cung cấp.
-3. Thêm một dòng vào hóa đơn của nhà cung cấp và trong trường **Số sản phẩm**, chọn sản phẩm không tồn kho được mua từ nhà cung cấp. 
-
-    > [!NOTE]
-    > Không thể ghi các dòng hóa đơn của nhà cung cấp dựa trên danh mục mua sắm đối với dự án. 
-    
-5. Thêm số lượng đã mua. Hệ thống sẽ điền đơn giá dựa trên cấu hình giá của sản phẩm không tồn kho. 
-6. Xác minh tổng số tiền và các chi tiết cần thiết khác trên dòng.
-7. Trên chi tiết mô tả, trên tab **Dự án**, hãy chọn ID của dự án mà sản phẩm này sẽ được ghi vào.
-8. Theo tùy chọn, hãy chọn số hoạt động và cập nhật danh mục dự án cũng như thuộc tính dòng.
-9. Đăng hóa đơn của nhà cung cấp đang chờ xử lý. Khi hóa đơn được đăng, hệ thống ghi lại:
+1. Đi đến **Các khoản phải trả** > **Hóa đơn** và chọn **Mới mẻ**. 
+1. Bên trong **Tài khoản hóa đơn**, chọn một nhà cung cấp, sau đó, trong **Con số**, nhập nhận dạng hóa đơn của nhà cung cấp.
+1. Thêm một dòng vào hóa đơn của nhà cung cấp, sau đó, trong **Số mặt hàng**, chọn mặt hàng không còn hàng đã được mua từ nhà cung cấp. Ngoài ra, trong **Hạng mục mua sắm**, chọn danh mục mua sắm đã được mua từ nhà cung cấp.   
+1. Thêm số lượng đã được mua. Hệ thống điền đơn giá, dựa trên cấu hình giá mặt hàng không tồn kho. 
+1. Xác minh tổng số tiền và các chi tiết cần thiết khác trên dòng.
+1. Trong chi tiết dòng, trên **Dự định**, chọn ID của dự án mà mục này sẽ được ghi vào.
+1. Tùy chọn: Chọn số hoạt động và cập nhật danh mục dự án và thuộc tính dòng.
+1. Đăng hóa đơn nhà cung cấp đang chờ xử lý. Khi hóa đơn được đăng, hệ thống ghi lại các thông tin sau:
     
     - Số dư của nhà cung cấp.
     - Số tiền thuế bán hàng.

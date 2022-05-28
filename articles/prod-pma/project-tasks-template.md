@@ -1,32 +1,31 @@
 ---
-title: Đồng bộ hóa nhiệm vụ dự án trực tiếp từ Project Service Automation sang Finance and Operations
-description: Chủ đề này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các nhiệm vụ dự án từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
+title: Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
+description: Chủ đề này mô tả mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992817"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683336"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa nhiệm vụ dự án trực tiếp từ Project Service Automation sang Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các nhiệm vụ dự án từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
+Chủ đề này mô tả mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.
@@ -68,11 +67,11 @@ Trước khi quá trình đồng bộ hóa nhiệm vụ dự án có thể xảy
 
 ## <a name="power-query"></a>Power Query
 
-Bạn phải sử dụng Microsoft Power Query dành cho Excel để lọc dữ liệu nếu điều kiện sau được đáp ứng:
+Bạn phải sử dụng Microsoft Power Query để Excel lọc dữ liệu nếu điều kiện này được đáp ứng:
 
 - Bạn có bản ghi dành riêng cho nguồn lực trong nhiệm vụ dự án.
 
-Nếu bạn phải sử dụng Power Query, hãy làm theo hướng dẫn sau:
+Nếu bạn phải sử dụng Power Query, hãy làm theo hướng dẫn này:
 
 - Mẫu Nhiệm vụ dự án (PSA sang Fin và Ops) có bộ lọc mặc định loại trừ các bản ghi dành riêng cho nguồn lực khỏi nhiệm vụ dự án bằng cách thiết lập bộ lọc trên **IsLineTask** thành **False**. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm bộ lọc này.
 

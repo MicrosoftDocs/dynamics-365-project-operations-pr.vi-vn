@@ -1,32 +1,31 @@
 ---
-title: Đồng bộ hóa danh mục chi phí của dự án giữa Finance and Operations và Project Service Automation
-description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Finance và Dynamics 365 Project Service Automation.
+title: Đồng bộ hóa các hạng mục chi phí dự án giữa Tài chính và Vận hành và Tự động hóa Dịch vụ Dự án
+description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Tài chính và Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001142"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685496"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa danh mục chi phí của dự án giữa Finance and Operations và Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa các hạng mục chi phí dự án giữa Tài chính và Vận hành và Tự động hóa Dịch vụ Dự án
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
+Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.
@@ -81,10 +80,10 @@ Các danh mục chi phí của dự án được quản lý trong Finance và đ
 
 ### <a name="power-query"></a>Power Query
 
-Khi đồng bộ hóa với Project Service Automation, bạn phải sử dụng Microsoft Power Query dành cho Excel để thiết lập loại thanh toán trên danh mục giao dịch. Mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA) cung cấp một cột và tùy chọn ánh xạ mặc định. Nếu bạn tạo mẫu của riêng mình, thì bạn phải thêm cột có điều kiện trong Power Query. Làm theo các bước sau.
+Khi đồng bộ hóa với Tự động hóa dịch vụ dự án, bạn phải sử dụng Microsoft Power Query cho Excel để đặt loại thanh toán trên danh mục giao dịch. Mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA) cung cấp một cột và tùy chọn ánh xạ mặc định. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm một cột có điều kiện vào Power Query. Làm theo các bước sau.
 
 1. Bấm vào mũi tên để mở mục ánh xạ nhiệm vụ danh mục chi phí của dự án trong mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA).
-2. Bấm vào liên kết **Truy vấn nâng cao và lọc** để mở Power Query.
+2. Nhấn vào **Truy vấn và Lọc trước** liên kết để mở Power Query.
 2. Chọn **Thêm cột có điều kiện**.
 3. Nhập tên cho cột mới, chẳng hạn như **Loại lập hóa đơn**.
 4. Nhập điều kiện sau: **nếu CATEGORYID không rỗng thì phải là giá trị 19235001, nếu không thì là rỗng**.

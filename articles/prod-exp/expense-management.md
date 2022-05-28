@@ -3,25 +3,23 @@ title: Tổng quan về quản lý chi phí
 description: Chủ đề này cung cấp thông tin chung về phần Quản lý chi phí và các liên kết đến tài nguyên bổ sung. Bạn có thể sử dụng phần Quản lý chi phí để tạo một quy trình làm việc tích hợp nơi bạn có thể lưu trữ thông tin phương thức thanh toán, nhập các giao dịch thẻ tín dụng và theo dõi số tiền mà nhân viên chi khi họ phát sinh chi phí cho doanh nghiệp của bạn.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001457"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684852"
 ---
 # <a name="expense-management-overview"></a>Tổng quan về quản lý chi phí
 
@@ -45,7 +43,7 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để mang đ�
 
 ### <a name="blogs"></a>Blog
 
-Bạn có thể tìm thấy các ý kiến, tin tức và thông tin khác trên [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Finance and Operations – Blog tài chính ](https://community.dynamics.com/365/financeandoperations/b/financials).
+Bạn có thể tìm thấy ý kiến, tin tức và thông tin khác trên [Microsoft Dynamics Blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Tài chính và Hoạt động - Blog tài chính](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog cộng đồng đối tác Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) là nơi các Đối tác Microsoft Dynamics có thể tìm hiểu những nội dung mới và thịnh hành trong Hoạt động MBS.
 

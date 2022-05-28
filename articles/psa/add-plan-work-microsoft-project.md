@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005327"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727984"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Sử dụng Trình bổ sung Project Service Automation để lập kế hoạch công việc của bạn trong Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005327"
 ## <a name="download-and-install-the-add-in"></a>Tải xuống và cài đặt trình bổ sung  
  Chuẩn bị sẵn sàng thông tin đăng nhập [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] của bạn. Bạn sẽ cần thông tin này để kết nối từ [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] đến [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Từ Trung tâm tải xuống, hãy tải xuống phần bổ trợ cho phiên bản Project Service được hỗ trợ, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) hoặc [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Từ Trung tâm tải xuống, hãy tải xuống phần bổ trợ cho phiên bản Project Service được hỗ trợ, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) hoặc [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Bấm vào liên kết tải xuống.  
 
@@ -87,9 +88,8 @@ Khi bạn hoàn tất lập kế hoạch dự án, bước tiếp theo là nhậ
 
 Dự án sẽ được nhập vào [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Quy trình tạo nhóm và định giá sẽ được áp dụng. Khi mở dự án trong [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], bạn sẽ thấy nhóm, ước tính dự án và cấu trúc phân tích công việc đã được tạo. Bảng sau hiển thị nơi để tìm thấy các kết quả:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Dự án | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Biểu đồ Gantt**   | Nhập vào màn hình [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Cấu trúc Phân tích Công việc**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Trang tính Nguồn lực** |   Nhập vào màn hình [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Mức sử dụng**    |    Nhập vào màn hình [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Ước tính dự án**.     |

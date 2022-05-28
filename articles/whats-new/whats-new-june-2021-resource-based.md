@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679235"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600814"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dynamics 365 Dataverse phiên bản 4.11.0.156 hoặc 4.11.0.164.
-- Quản lý dự án và kế toán trong môi trường ứng dụng Finance and Operations phiên bản 10.0.19.
+- Quản lý dự án và kế toán trong môi trường ứng dụng Tài chính và Hoạt động phiên bản 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -38,7 +38,7 @@ Không có bản cập nhật nào cho bản đồ ghi kép Project Operations t
 
 Để biết danh sách hiện tại và các phiên bản của bản đồ ghi kép Project Operations, hãy xem [Phiên bản bản đồ ghi kép Project Operations](../environment/resource-dual-write-maps.md).
 
-Bạn hãy luôn chạy phiên bản mới nhất của bản đồ trong môi trường của bạn và kích hoạt tất cả các bản đồ bảng liên quan trong quá trình cập nhật giải pháp Dataverse của Project Operations và phiên bản giải pháp ứng dụng Finance and Operations. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản đang hoạt động của bản đồ trên trang **Ghi kép** trong cột **Phiên bản**. Kích hoạt phiên bản mới của bản đồ bằng cách chọn **Các phiên bản bản đồ bảng**, chọn phiên bản mới nhất, sau đó lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp ứng dụng Tài chính và Hoạt động. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản đang hoạt động của bản đồ trên trang **Ghi kép** trong cột **Phiên bản**. Kích hoạt phiên bản mới của bản đồ bằng cách chọn **Các phiên bản bản đồ bảng**, chọn phiên bản mới nhất, sau đó lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong phần [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) trong hướng dẫn khắc phục sự cố Ghi kép.
 
@@ -62,7 +62,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Thời gian và Chi phí | 2194431 | Lưới **Mục nhập thời gian** phải tuân thủ đầu tuần như đã thiết lập trong **Cài đặt hệ thống**. |
 | Thời gian và Chi phí | 2277311 | Sau khi bạn xóa giá trị trong một ô trong lưới **Mục nhập thời gian**, con trỏ vẫn ở trong lưới. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Quản lý dự án và kế toán trên Dynamics 365 Finance
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |

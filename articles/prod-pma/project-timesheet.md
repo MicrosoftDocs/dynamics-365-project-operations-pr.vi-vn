@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997227"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683247"
 ---
 # <a name="project-timesheet-mobile-application"></a>Ứng dụng di động bảng chấm công dự án
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997227"
 
 ## <a name="overview"></a>Tổng quan
 
-Ứng dụng di động Microsoft Dynamics 365 Project Timesheet cho phép người dùng gửi và phê duyệt bảng chấm công cho các dự án trên thiết bị di động của họ (iPhone hoặc Android). Ứng dụng di động này hiển thị chức năng bảng chấm công nằm trong khu vực Quản lý dự án và kế toán của Dynamics 365 Finance, cải thiện năng suất và hiệu quả của người dùng, cũng như cho phép nhập và phê duyệt bảng chấm công dự án kịp thời.
+Ứng dụng di động Microsoft Dynamics 365 Project Timesheet cho phép người dùng gửi và phê duyệt bảng chấm công cho các dự án trên thiết bị di động của họ (iPhone hoặc Android). Ứng dụng dành cho thiết bị di động này hiển thị chức năng bảng chấm công nằm trong khu vực quản lý dự án và kế toán của Dynamics 365 Finance, cải thiện năng suất và hiệu quả của người dùng, cũng như cho phép nhập và phê duyệt bảng chấm công dự án kịp thời.
 
 ## <a name="download-and-install-the-mobile-app"></a>Tải xuống và cài đặt ứng dụng dành cho thiết bị di động
 

@@ -4,14 +4,14 @@ description: Chủ đề này cung cấp danh sách các bản đồ ghi kép c�
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
-ms.translationtype: HT
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547135"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612790"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Các phiên bản bản đồ ghi kép Project Operations
 
@@ -25,12 +25,12 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 
 | Bản đồ bảng | Đồng bộ ban đầu |
 | --- | --- |
-| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Bản cái cho đồng bộ hóa ban đầu là ứng dụng Finance and Operations. |
+| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Chủ để đồng bộ hóa ban đầu là ứng dụng Tài chính và Hoạt động. |
 | Pháp nhân (cdm_companies) | Không bắt buộc. Hệ thống tự động điền thực thể này khi các môi trường được liên kết bằng tính năng ghi kép. |
 | Khách hàng V3 (tài khoản) | Không cần phải cung cấp. |
 | Nhà cung cấp V2 (msdyn_vendors) | Không cần phải cung cấp. |
 
-1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Trong trường **Bản cái để đồng bộ hóa ban đầu**, hãy chọn **ứng dụng Finance and Operations** cho cả bản đồ sổ cái và tất cả các bản đồ điều kiện tiên quyết. Chọn **Chạy**.
+1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng Tài chính và Hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
 
 ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 
 Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho một giải pháp Project Operations. Các phiên bản ánh xạ ghi kép được liệt kê từ bản cập nhật Project Operations tháng 5 năm 2021, phiên bản 4.10.0.186.
 
-| **Bản đồ thực thể** | **Phiên bản mới nhất** | **Đồng bộ ban đầu** |
-| --- | --- | --- |
-| Thực thể tích hợp cho các mối quan hệ giao dịch dự án (msdyn\_transactionconnections) | 1.0.0.0 | Không cần phải cung cấp. |
-| Tiêu đề hợp đồng dự án (đơn đặt hàng) | 1.0.0.1 | Không cần phải cung cấp. |
-| Mô tả hợp đồng dự án (salesorderdetails) | 1.0.0.0 | Không cần phải cung cấp. |
-| Nguồn tài trợ dự án (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Không cần phải cung cấp. |
-| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Không cần phải cung cấp. |
-| Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. |
-| Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.14 | Không cần phải cung cấp. |
-| Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. |
-| Thực thể tích hợp Project Operations để dự toán chi phí (msdyn_estimatelines) | 1.0.0.2 | Không cần phải cung cấp. |
-| Thực thể tích hợp Project Operations để ước tính giờ (msdyn_resourceassignments) | 1.0.0.5 | Không cần phải cung cấp. |
-| Thực thể xuất danh mục chi phí dự án tích hợp của Project Operations (msdyn_expensecategories) | 1.0.0.1 | Không cần phải cung cấp. |
-| Thực thể xuất chi phí dự án tích hợp của Project Operations (msdyn_expenses) | 1.0.0.2 | Không cần phải cung cấp. |
-| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Không cần phải cung cấp. |
-| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Không cần phải cung cấp. |
-| Vai trò nguồn lực dự án cho tất cả các công ty (bookableresourcecategories) | 1.0.0.1 | Yêu cầu đồng bộ hóa ban đầu cho sơ đồ bảng để đồng bộ hóa vai trò nguồn lực của Người quản lý dự án và thành viên Nhóm được điền trong môi trường Dynamics 365 Dataverse trong quá trình cung cấp. Dataverse là nguồn chính cho quá trình đồng bộ hóa ban đầu. |
-| Nhiệm vụ dự án (msdyn_projecttasks) | 1.0.0.4 | Không cần phải cung cấp. |
-| Danh mục giao dịch dự án (msdyn_transactioncategories) | 1.0.0.0 | Không cần phải cung cấp. |
-| Dự án V2 (msdyn_projects) | 1.0.0.2 | Không cần phải cung cấp. |
+| Bản đồ thực thể | Phiên bản mới nhất | Đồng bộ ban đầu | Phiên bản Dynamics 365 Finance bắt buộc |
+| --- | --- | --- | --- |
+| Thực thể tích hợp cho các mối quan hệ giao dịch dự án (msdyn\_transactionconnections) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Tiêu đề hợp đồng dự án (đơn đặt hàng) | 1.0.0.1 | Không cần phải cung cấp. ||
+| Mô tả hợp đồng dự án (salesorderdetails) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Nguồn tài trợ dự án (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Không cần phải cung cấp. ||
+| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. ||
+| Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.14 | Không cần phải cung cấp. ||
+| Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. ||
+| Thực thể tích hợp Project Operations để dự toán chi phí (msdyn_estimatelines) | 1.0.0.2 | Không cần phải cung cấp. ||
+| Thực thể tích hợp Project Operations để ước tính giờ (msdyn_resourceassignments) | 1.0.0.5 | Không cần phải cung cấp. ||
+| Thực thể xuất danh mục chi phí dự án tích hợp của Project Operations (msdyn_expensecategories) | 1.0.0.1 | Không cần phải cung cấp. ||
+| Thực thể xuất chi phí dự án tích hợp của Project Operations (msdyn_expenses) | 1.0.0.3 | Không cần phải cung cấp. ||
+| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Không cần phải cung cấp. | 10.0.26 trở lên |
+| Vai trò nguồn lực dự án cho tất cả các công ty (bookableresourcecategories) | 1.0.0.1 | Yêu cầu đồng bộ hóa ban đầu cho sơ đồ bảng để đồng bộ hóa vai trò nguồn lực của Người quản lý dự án và thành viên Nhóm được điền trong môi trường Dynamics 365 Dataverse trong quá trình cung cấp. Dataverse là nguồn chính cho quá trình đồng bộ hóa ban đầu. ||
+| Nhiệm vụ dự án (msdyn_projecttasks) | 1.0.0.4 | Không cần phải cung cấp. ||
+| Danh mục giao dịch dự án (msdyn_transactioncategories) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Dự án V2 (msdyn_projects) | 1.0.0.2 | Không cần phải cung cấp. ||
 
 Hoàn thành các bước sau để chạy các bản đồ được liệt kê.
 
