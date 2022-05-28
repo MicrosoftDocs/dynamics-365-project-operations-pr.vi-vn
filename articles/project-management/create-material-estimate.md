@@ -4,20 +4,20 @@ description: Chủ đề này cung cấp thông tin về việc xác định ho�
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992637"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737328"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Dự toán tài chính về vật tư cho dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations cho phép Người quản lý dự án xác định chi phí vật tư dựa trên dự án cho từng dự án hoặc nhiệm vụ. Mỗi ước tính vật tư có thể được liên kết với một nhiệm vụ cụ thể của dự án. Các khoản chi phí được phân thành các thể loại chi phí khác nhau, được xác định ở cấp độ tổ chức. Giá và chi phí cho từng thể loại chi phí được xác định trong bảng giá. 
+Dynamics 365 Project Operations cho phép Người quản lý dự án xác định chi phí vật tư dựa trên dự án cho từng dự án hoặc nhiệm vụ. Mỗi ước tính vật tư có thể được liên kết với một nhiệm vụ cụ thể của dự án. Vật liệu được sử dụng cho các dự án có thể là sản phẩm viết sẵn hoặc sản phẩm từ danh mục sản phẩm. Đối với mỗi sự kết hợp của một sản phẩm và một đơn vị, một mức giá có thể được xác định trong bảng giá dự án để bán và bảng giá dự án cho chi phí.  
 
 Hoàn thành các bước sau để xem, thêm hoặc xóa giá trị ước tính về vật tư của dự án.
 
