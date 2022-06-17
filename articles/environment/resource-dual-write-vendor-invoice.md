@@ -1,18 +1,18 @@
 ---
 title: Tích hợp hóa đơn của nhà cung cấp
-description: Chủ đề này cung cấp thông tin về tích hợp hóa đơn của nhà cung cấp trong Project Operations.
+description: Bài viết này cung cấp thông tin về tích hợp hóa đơn của nhà cung cấp trong Hoạt động dự án.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912082"
 ---
 # <a name="vendor-invoice-integration"></a>Tích hợp hóa đơn của nhà cung cấp
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Hoạt động mua sắm liên quan đến dự án trong Dynamics 365 Project Operations có thể được ghi lại bằng cách chuyển đến **Tài khoản phải trả** > **Hóa đơn** > **Hóa đơn của nhà cung cấp đang chờ xử lý** và sử dụng tài liệu hóa đơn của nhà cung cấp đang chờ xử lý. Để biết thêm thông tin, hãy xem [Mua vật tư không tồn kho bằng hóa đơn của nhà cung cấp đang chờ xử lý](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Trước khi bạn sử dụng chức năng được mô tả trong chủ đề này, hãy đánh giá và áp dụng các cấu hình cần thiết. Để biết thêm thông tin, hãy xem [Kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](../procurement/configure-materials-nonstocked.md).
+> Trước khi bạn sử dụng chức năng được mô tả trong bài viết này, hãy xem xét và áp dụng các cấu hình cần thiết. Để biết thêm thông tin, hãy xem [Kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](../procurement/configure-materials-nonstocked.md).
 
 Trong Project Operations, các hóa đơn của nhà cung cấp liên quan đến dự án được đăng bằng các quy tắc đặc biệt:
 
@@ -34,7 +34,7 @@ Trong Project Operations, các hóa đơn của nhà cung cấp liên quan đế
      > [!NOTE]
      > Chi tiết hóa đơn của nhà cung cấp trong Dataverse không thể chỉnh sửa.
 
-Công ty bảo lãnh phụ thuế, công ty bảo lãnh phụ của nhà cung cấp và các tin đăng tài chính khác được ghi lại là có thể áp dụng trong Dynamics 365 Finance khi hóa đơn của nhà cung cấp được đăng.
+Công ty bảo lãnh phụ thuế, công ty bảo lãnh phụ của nhà cung cấp và các thông tin đăng tải về tài chính khác được ghi lại là có thể áp dụng trong Dynamics 365 Finance khi hóa đơn của nhà cung cấp được đăng.
 
 ![Tích hợp hóa đơn của nhà cung cấp.](media/DW7VendorInvoice.png)
 

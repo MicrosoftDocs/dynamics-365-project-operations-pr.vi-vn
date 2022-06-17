@@ -1,24 +1,24 @@
 ---
 title: Quyền truy cập sớm đợt 2 năm 2021 có gì mới - Triển khai Project Operations bản đơn giản
-description: Chủ đề này cung cấp thông tin về các tính năng có trong bản phát hành truy cập sớm vào năm 2021 đợt 2 của triển khai bản đơn giản Project Operations.
+description: Bài viết này cung cấp thông tin về các tính năng có trong bản phát hành truy cập sớm làn sóng 2 năm 2021 của triển khai Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924134"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Quyền truy cập sớm đợt 2 năm 2021 có gì mới - Triển khai Project Operations bản đơn giản
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.23.0.4
 

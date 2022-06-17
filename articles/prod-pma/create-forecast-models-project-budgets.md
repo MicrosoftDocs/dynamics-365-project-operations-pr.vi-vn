@@ -1,6 +1,6 @@
 ---
 title: Tạo mô hình dự báo cho ngân sách dự án
-description: Chủ đề này mô tả cách tạo mô hình dự báo cho ngân sách còn lại.
+description: Bài viết này mô tả cách tạo mô hình dự báo cho các ngân sách còn lại.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916728"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Tạo mô hình dự báo cho ngân sách dự án 
 
 [!include [banner](../includes/banner.md)]
 
-Chủ đề này mô tả cách tạo mô hình dự báo cho ngân sách còn lại. Một dự án được kiểm soát ngân sách sẽ sử dụng hai loại ngân sách: ngân sách ban đầu và ngân sách còn lại. Khi tạo ngân sách dự án, bạn phải chỉ định mô hình dự báo ngân sách ban đầu và ngân sách còn lại đã được tạo ở trang **Mô hình dự báo**. Ngân sách dự án dựa trên mô hình đã chỉ định sẽ được tạo khi bạn cam kết ngân sách dự án.
+Bài viết này mô tả cách tạo mô hình dự báo cho các ngân sách còn lại. Một dự án được kiểm soát ngân sách sẽ sử dụng hai loại ngân sách: ngân sách ban đầu và ngân sách còn lại. Khi tạo ngân sách dự án, bạn phải chỉ định mô hình dự báo ngân sách ban đầu và ngân sách còn lại đã được tạo ở trang **Mô hình dự báo**. Ngân sách dự án dựa trên mô hình đã chỉ định sẽ được tạo khi bạn cam kết ngân sách dự án.
 
 > [!NOTE]
 > Mô hình dự báo dùng để kiểm soát ngân sách không được có mô hình con và không được dùng làm mô hình con.

@@ -1,6 +1,6 @@
 ---
-title: Chi phí công tác phí
-description: Chủ đề này cung cấp thông tin về cách làm việc với chi phí công tác phí.
+title: Chi phí công nhật
+description: Bài báo này cung cấp thông tin về cách làm việc với chi phí công tác phí.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923214"
 ---
-# <a name="per-diem-expenses"></a>Chi phí công tác phí
+# <a name="per-diem-expenses"></a>Chi phí công nhật
 
 > [!IMPORTANT] 
-> Chức năng được mô tả trong chủ đề này có sẵn cho người dùng được nhắm mục tiêu như một phần của bản phát hành xem trước.
+> Chức năng được mô tả trong bài viết này có sẵn cho người dùng được nhắm mục tiêu như một phần của bản phát hành xem trước.
 
 Thanh toán công tác phí là một khoản trợ cấp hàng ngày cố định, được xác định trước mà một công ty trả cho nhân viên của mình để đi ở (khách sạn), ăn uống và các chi phí phát sinh mà những nhân viên đó phải chịu khi họ đi công tác. Công ty trả khoản phụ cấp này cho người lao động thay vì thanh toán chi phí đi lại thực tế. Nhân viên có thể sử dụng **Sự cố / Khác** phụ cấp công tác phí để trang trải tiền boa, phục vụ phòng, giặt là hoặc giặt hấp cho các cuộc họp kinh doanh quan trọng. Mức công tác phí có thể thay đổi, tùy thuộc vào việc người sử dụng lao động chọn hoàn trả cho chi phí ăn ở và ăn uống kết hợp, hay chỉ cho chi phí ăn uống và các chi phí phát sinh.
 
@@ -35,16 +35,16 @@ Công tác phí được tính bằng tổng phụ cấp được cung cấp m�
 
 Để định cấu hình chi phí công tác phí, hãy làm theo các bước sau.
 
-1. Đi đến **Quản lý chi tiêu** \> **Cài đặt** \> **Chung** \> **Các thông số quản lý chi phí**.
+1. Đi đến **Quản lý chi tiêu** \> **Thành lập** \> **Chung** \> **Các thông số quản lý chi phí**.
 2. Trên **Công tác phí** tab, trong **Tính toán giảm bữa ăn theo**, chọn cách tính công tác phí:
 
     - **Loại bữa ăn cho mỗi chuyến đi** - Tính công tác phí dựa trên loại bữa ăn được nhập (bữa sáng, bữa trưa hoặc bữa tối) và mức giảm tiền ăn được quy định cho từng loại bữa ăn để được hỗ trợ công tác phí trong suốt thời gian của chuyến đi.
     - **Loại bữa ăn mỗi ngày** - Tính công tác phí dựa trên loại suất ăn được nhập và mức giảm tiền ăn được quy định cụ thể cho từng loại suất ăn để được hỗ trợ công tác phí mỗi ngày.
     - **Số bữa ăn trong ngày** - Tính công tác phí dựa trên số suất ăn được nhập trong ngày và mức giảm suất ăn của số suất ăn được cung cấp mỗi ngày.
 
-3. Đi đến **Quản lý chi tiêu** \> **Cài đặt** \> **Tính toán và mã** \> **Địa điểm công tác phí**.
+3. Đi đến **Quản lý chi tiêu** \> **Thành lập** \> **Tính toán và mã** \> **Địa điểm công tác phí**.
 4. Thêm các địa điểm có thể sử dụng công tác phí.
-5. Đối với mỗi vị trí mà bạn thêm, trên **Công tác phí cho mỗi**, chọn tỷ lệ công tác phí và đơn vị tiền tệ hợp lệ giữa ngày bắt đầu và ngày kết thúc cụ thể cho chỗ ở, bữa ăn và các chi phí khác. Để định cấu hình tỷ giá công tác phí và đơn vị tiền tệ, hãy truy cập **Quản lý chi tiêu** \> **Cài đặt** \> **Tính toán và mã** \> **Công tác phí cho mỗi**.
+5. Đối với mỗi vị trí bạn thêm, trên **Công tác phí cho mỗi**, chọn tỷ lệ công tác phí và đơn vị tiền tệ hợp lệ giữa ngày bắt đầu và ngày kết thúc cụ thể cho chỗ ở, bữa ăn và các chi phí khác. Để định cấu hình tỷ giá công tác phí và đơn vị tiền tệ, hãy truy cập **Quản lý chi tiêu** \> **Thành lập** \> **Tính toán và mã** \> **Công tác phí cho mỗi**.
 
 ## <a name="per-diems-in-the-reimagined-expense-interface"></a>Công tác phí trong giao diện chi phí được mô phỏng lại
 
@@ -63,7 +63,7 @@ Phần này cung cấp các ví dụ cho ba trường hợp cấu hình. Đối 
 
 1. Đi đến **Không gian làm việc** \> **Quản lý chi tiêu**.
 2. Lựa chọn **Báo cáo chi phí mới** hoặc chọn một báo cáo chi phí hiện có.
-3. Thêm một khoản chi phí mới. Bên trong **Danh mục** trường, chọn **Công tác phí**. Chọn địa điểm, ngày bắt đầu và ngày kết thúc chuyến đi của bạn. Công tác phí cho chỗ ở, ăn uống và các chi phí phát sinh (chi phí khác) được tính dựa trên phụ cấp hàng ngày được quy định cho địa điểm đã chọn.
+3. Thêm một khoản chi phí mới. Bên trong **Loại** trường, chọn **Công tác phí**. Chọn địa điểm, ngày bắt đầu và ngày kết thúc chuyến đi của bạn. Công tác phí cho chỗ ở, ăn uống và các chi phí phát sinh (chi phí khác) được tính dựa trên phụ cấp hàng ngày được quy định cho địa điểm đã chọn.
 
     Ví dụ, bạn chọn **Redmond (Mỹ)** như vị trí. Trợ cấp hàng ngày cho vị trí đó là 150 đô la Mỹ (150 USD) cho chỗ ở, USD 75 cho bữa ăn và USD 5 cho các chi phí phát sinh. Ngày bắt đầu là ngày 10 tháng Giêng và ngày kết thúc là ngày 14 tháng Giêng. Do đó, khoảng thời gian đã chọn là năm ngày khi cấu hình được chọn là các ngày theo lịch với thời gian và thời gian đã chọn bắt đầu và kết thúc lúc 12:00 sáng vào ngày bắt đầu và ngày kết thúc. Dưới đây là các tính toán:
 
@@ -84,7 +84,7 @@ Trong ví dụ này, mức giảm bữa ăn là 30 phần trăm cho bữa sáng,
 
 ### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Ví dụ 2: Công tác phí trong đó mức giảm tiền ăn dựa trên loại bữa ăn trong ngày
 
-Trong ví dụ này, mức giảm bữa ăn là 30 phần trăm cho bữa sáng, 30 phần trăm cho bữa trưa và 40 phần trăm cho bữa tối. Trên **Các thông số quản lý chi phí** trang, **Tính toán giảm bữa ăn theo** trường được đặt thành **Loại bữa ăn mỗi ngày**. Trong trường hợp này, trong **Bữa ăn** lưới trong **Chỉnh sửa chi phí** hộp thoại, bạn xóa các hộp kiểm để cho biết bữa ăn nào đã được cung cấp cho bạn trong chuyến đi của bạn.
+Trong ví dụ này, mức giảm bữa ăn là 30 phần trăm cho bữa sáng, 30 phần trăm cho bữa trưa và 40 phần trăm cho bữa tối. Trên **Các thông số quản lý chi phí** trang, **Tính toán giảm bữa ăn theo** trường được đặt thành **Loại bữa ăn mỗi ngày**. Trong trường hợp này, trong **Bữa ăn** lưới trong **Chỉnh sửa chi phí** hộp thoại, bạn xóa hộp kiểm để cho biết bữa ăn nào đã được cung cấp cho bạn trong chuyến đi của bạn.
 
 Ví dụ: đây là các tính toán nếu bữa sáng được cung cấp cho ba ngày đầu tiên của chuyến đi:
 

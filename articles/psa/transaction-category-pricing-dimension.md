@@ -1,6 +1,6 @@
 ---
 title: Sử dụng loại giao dịch làm thông số định giá
-description: Chủ đề này cung cấp thông tin về cách sử dụng loại giao dịch làm thông số định giá.
+description: Bài viết này cung cấp thông tin về việc sử dụng danh mục giao dịch làm thứ nguyên định giá.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915762"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Sử dụng loại giao dịch làm thông số định giá
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Chủ đề này trình bày cách sử dụng loại giao dịch làm thông số định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thông số định giá mới cho tổ chức của mình, hãy hoàn tất quy trình trong chủ đề [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md).
+Bài viết này cho biết cách sử dụng danh mục giao dịch làm thứ nguyên định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thứ nguyên đặt giá mới cho tổ chức của mình, hãy hoàn tất các thủ tục trong [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md) bài báo.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Thêm loại giao dịch vào biểu mẫu và chế độ xem
 Để làm cho loại giao dịch hiển thị trong giao diện người dùng trong giải pháp thông số định giá, bạn cần tìm hiểu tất cả các biểu mẫu và chế độ xem của các thực thể chính và thêm các trường này vào biểu mẫu cũng như chế độ xem của các thực thể đó.

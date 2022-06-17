@@ -1,19 +1,19 @@
 ---
-title: Lập hóa đơn cho nhà cung cấp - Khái niệm và sáng tạo
-description: Chủ đề này mô tả khái niệm về hóa đơn của nhà cung cấp, các tình huống sử dụng và cách tạo hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
+title: Lập hóa đơn cho nhà cung cấp – Khái niệm và tạo
+description: Bài viết này mô tả khái niệm về hóa đơn của nhà cung cấp, các tình huống sử dụng và cách tạo hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911484"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Lập hóa đơn cho nhà cung cấp - Khái niệm và sáng tạo
+# <a name="vendor-invoicing---concept-and-creation"></a>Lập hóa đơn cho nhà cung cấp – Khái niệm và tạo
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 Lập hóa đơn cho nhà cung cấp trong Microsoft Dynamics 365 Project Operations có thể được sử dụng để ghi lại chi phí từ việc cung cấp dịch vụ và / hoặc vật liệu cho một dự án của các nhà cung cấp.
 
-Khi các dịch vụ và / hoặc vật liệu được ký hợp đồng phụ cho một nhà cung cấp, một hợp đồng phụ thể hiện thỏa thuận hợp đồng với nhà cung cấp đó. Khi nhà cung cấp cung cấp các dịch vụ, hoặc các vật liệu được nhận và sử dụng cho các nhiệm vụ của dự án, chi phí sẽ được ghi nhận vào dự án. Định kỳ, nhà cung cấp gửi các hóa đơn đã được xác minh và khớp với các chi phí được ghi nhận trên dự án. Sau khi quá trình xác minh hoàn tất, hóa đơn của nhà cung cấp được xác nhận và phát hành để thanh toán.
+Khi các dịch vụ và / hoặc vật liệu được ký hợp đồng phụ cho một nhà cung cấp, một hợp đồng phụ thể hiện thỏa thuận hợp đồng với nhà cung cấp đó. Khi nhà cung cấp cung cấp các dịch vụ hoặc các vật liệu được nhận và sử dụng cho các nhiệm vụ của dự án, chi phí sẽ được ghi nhận vào dự án. Định kỳ, nhà cung cấp gửi các hóa đơn đã được xác minh và khớp với các chi phí được ghi nhận trên dự án. Sau khi quá trình xác minh hoàn tất, hóa đơn của nhà cung cấp được xác nhận và phát hành để thanh toán.
 
 ## <a name="scenarios-for-use"></a>Các tình huống sử dụng
 
@@ -29,7 +29,7 @@ Hóa đơn của nhà cung cấp trong Hoạt động Dự án có thể đượ
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Khách hàng sử dụng toàn bộ trải nghiệm hợp đồng phụ
 
-Trải nghiệm hóa đơn của nhà cung cấp cung cấp một cách để xác minh và khớp các mục thời gian, sử dụng vật liệu và các mục chi phí tham chiếu các thành phần được hợp đồng phụ với các dòng hóa đơn của nhà cung cấp. Quy trình này có thể được sử dụng để xác minh tính chính xác của các dòng hóa đơn của nhà cung cấp. Sau khi quá trình xác minh hoàn tất và hóa đơn của nhà cung cấp được xác nhận, ứng dụng sẽ đảo ngược các thực tế đã được ghi lại theo nhật ký sử dụng vật liệu, chi phí và thời gian đã được phê duyệt, đồng thời tạo các thực tế chi phí mới bằng cách sử dụng các dòng hóa đơn của nhà cung cấp.
+Trải nghiệm hóa đơn của nhà cung cấp cung cấp một cách để xác minh và khớp các mục thời gian, sử dụng vật liệu và các mục chi phí tham chiếu các thành phần được hợp đồng phụ với các dòng hóa đơn của nhà cung cấp. Quy trình này có thể được sử dụng để xác minh tính chính xác của các dòng hóa đơn của nhà cung cấp. Sau khi quá trình xác minh hoàn tất và hóa đơn của nhà cung cấp được xác nhận, ứng dụng sẽ đảo ngược các thực tế đã được ghi lại trong nhật ký sử dụng vật liệu, chi phí và thời gian đã được phê duyệt, đồng thời tạo các thực tế chi phí mới bằng cách sử dụng các dòng hóa đơn của nhà cung cấp.
 
 ### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Khách hàng không sử dụng toàn bộ trải nghiệm thầu phụ nhưng muốn có cái nhìn thống nhất về chi phí của các dự án trong Hoạt động dự án
 
@@ -45,7 +45,7 @@ Hóa đơn của nhà cung cấp có thể được tạo theo hai cách:
 ### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Tạo từ trang danh sách hóa đơn của nhà cung cấp hoặc trang chi tiết
 
 1. Đi đến **Thu mua** \> **Hóa đơn của nhà cung cấp**.
-2. Trên trang danh sách hóa đơn của nhà cung cấp hoặc trang chi tiết cho một hóa đơn của nhà cung cấp, hãy chọn **Mới mẻ** để tạo một hóa đơn nhà cung cấp mới.
+2. Trên trang danh sách hóa đơn của nhà cung cấp hoặc trang chi tiết cho một hóa đơn của nhà cung cấp, hãy chọn **Mới** để tạo một hóa đơn nhà cung cấp mới.
 
 Hóa đơn của nhà cung cấp được tạo theo cách này cũng có thể tham chiếu đến hợp đồng phụ.
 
@@ -67,7 +67,7 @@ Các trường sau đây và các bản ghi liên quan sẽ được sao chép t
 - Đơn vị ký hợp đồng.
 - Điều khoản thanh toán.
 
-Đối với dòng hợp đồng phụ Thời gian và vật chất, các trường sau đây và các bản ghi liên quan sẽ được sao chép từ dòng hợp đồng phụ sang dòng hóa đơn của nhà cung cấp:
+Đối với dòng hợp đồng phụ thời gian và vật chất, các trường sau đây và các bản ghi liên quan sẽ được sao chép từ dòng hợp đồng phụ sang dòng hóa đơn của nhà cung cấp:
 
 - Hợp đồng phụ và tham chiếu dòng hợp đồng phụ
 - Lớp giao dịch

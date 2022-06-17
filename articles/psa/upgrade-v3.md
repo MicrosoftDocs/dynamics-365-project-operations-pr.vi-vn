@@ -1,6 +1,6 @@
 ---
 title: Cân nhắc nâng cấp - Microsoft Dynamics 365 Project Service Automation phiên bản 2.x hoặc 1.x lên phiên bản 3
-description: Chủ đề này cung cấp thông tin về những nội dung cần cân nhắc bạn phải thực hiện khi nâng cấp từ Project Service Automation phiên bản 2.x hoặc 1.x lên phiên bản 3.
+description: Bài viết này cung cấp thông tin về những cân nhắc bạn phải thực hiện khi nâng cấp từ Tự động hóa dịch vụ dự án phiên bản 2.x hoặc 1.x lên phiên bản 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918936"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Nội dung cần cân nhắc khi nâng cấp - PSA phiên bản 2.x hoặc 1.x lên phiên bản 3
 
@@ -40,7 +40,7 @@ Trong Project Service Automation phiên bản 2 và phiên bản 1, nội dung g
 
 Trong phiên bản 3 của Project Service Automation, sơ đồ cơ sở của việc gán nguồn lực có thể đặt trước đã thay đổi. Nhiệm vụ dòng không còn dùng nữa và có mối liên hệ trực tiếp 1:1 giữa nhiệm vụ trong **Thực thể nhiệm vụ** và thành viên nhóm trong thực thể **Gán tài nguyên**. Các nhiệm vụ được gán cho một thành viên nhóm dự án hiện được lưu trữ trực tiếp trong thực thể Gán tài nguyên.  
 
-Những thay đổi này ảnh hưởng đến việc nâng cấp bất kỳ dự án hiện có nào có nội dung gán nguồn lực cho nguồn lực có tên có thể đặt và nguồn lực chung cho một nhóm dự án. Chủ đề này cung cấp thông tin cần cân nhắc mà bạn phải xem xét cho dự án của mình khi nâng cấp lên phiên bản 3. 
+Những thay đổi này ảnh hưởng đến việc nâng cấp bất kỳ dự án hiện có nào có nội dung gán nguồn lực cho nguồn lực có tên có thể đặt và nguồn lực chung cho một nhóm dự án. Bài viết này cung cấp những lưu ý mà bạn sẽ cần tính đến cho các dự án của mình khi nâng cấp lên phiên bản 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Nhiệm vụ được gán cho các nguồn được đặt tên
 Sử dụng thực thể nhiệm vụ cơ bản, các nhiệm vụ trong phiên bản 2 và phiên bản 1 cho phép thành viên nhóm mô tả vai trò chứ không phải là vai trò đã xác định mặc định của họ. Ví dụ: Đặng Ngoan, người theo mặc định được gán vai trò Người quản lý chương trình, có thể được gán cho một nhiệm vụ có vai trò là Nhà phát triển. Trong phiên bản 3, vai trò của một thành viên nhóm được đặt tên luôn là mặc định, cũng như mọi nhiệm vụ mà Đặng Ngoan được gán để sử dụng vai trò mặc định của Ngoan là Người quản lý chương trình.

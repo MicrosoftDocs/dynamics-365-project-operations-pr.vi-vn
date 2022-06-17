@@ -1,6 +1,6 @@
 ---
 title: Không gian làm việc di động mục nhập thời gian dự án
-description: Chủ đề này cung cấp thông tin về Không gian làm việc di động mục nhập thời gian dự án. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
+description: Bài viết này cung cấp thông tin về không gian làm việc di động mục nhập thời gian Dự án. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919580"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Không gian làm việc di động mục nhập thời gian dự án
 
 [!include [banner](../includes/banner.md)]
 
-Chủ đề này cung cấp thông tin về Không gian làm việc di động **mục nhập thời gian dự án**. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
+Bài viết này cung cấp thông tin về **Mục nhập thời gian dự án** không gian làm việc di động. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
 
 Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops. 
 

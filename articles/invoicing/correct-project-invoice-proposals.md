@@ -1,17 +1,17 @@
 ---
 title: Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
-description: Chủ đề này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn nháp.
+description: Bài viết này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn dự thảo.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921236"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
 
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 *Chi tiết hoạt động* đối với các hóa đơn dự án được quản lý dự án duy trì trên hóa đơn ước giá. Những chi tiết này bao gồm quyết định về giờ giấc, chi phí, vật liệu hoặc các mốc quan trọng phải lập hóa đơn, mức giá và việc áp dụng số tiền tạm ứng và trả trước. Sau khi xác nhận hóa đơn ước giá ban đầu, bạn có thể điều chỉnh chi tiết hoạt động bằng cách tạo và xác nhận [hóa đơn ước giá hiệu chỉnh](../proforma-invoicing/corrective-invoices.md).
 
-*Chi tiết kế toán* đối với các hóa đơn dự án được duy trì trong một tài liệu hóa đơn giao cho khách hàng. Những chi tiết này bao gồm cách tính thuế bán hàng và các thông số tài chính được áp dụng cho hóa đơn. Chủ đề này cung cấp chi tiết về cách điều chỉnh các chi tiết kế toán này trên một đề xuất hóa đơn nháp.
+*Chi tiết kế toán* đối với các hóa đơn dự án được duy trì trong một tài liệu hóa đơn giao cho khách hàng. Những chi tiết này bao gồm cách tính thuế bán hàng và các thông số tài chính được áp dụng cho hóa đơn. Bài viết này cung cấp chi tiết về cách các chi tiết kế toán này có thể được điều chỉnh trên một đề xuất hóa đơn dự án.
 
 ## <a name="adjust-sales-tax"></a>Điều chỉnh thuế bán hàng
 
@@ -29,11 +29,11 @@ Nhóm thuế bán hàng lập hóa đơn mặc định và nhóm thuế bán hà
 
 ### <a name="header-dimensions"></a>Kích thước tiêu đề
 
-Theo mặc định, các thứ nguyên tài chính hóa đơn được lấy từ các bản ghi giao dịch dự án chưa được lập hóa đơn đang được lập hóa đơn. Tuy nhiên, cài đặt hệ thống cho phép bạn sử dụng các thứ nguyên tài chính trên tiêu đề của các đề xuất hóa đơn dự án để đăng số dư của khách hàng. Để bật chức năng này, hãy chọn **Cho phép cập nhật kích thước dự án cho các khoản phải thu** trên **Tài chính** tab của **Quản lý dự án và các thông số kế toán** trang.
+Theo mặc định, các thứ nguyên tài chính hóa đơn được lấy từ các bản ghi giao dịch dự án chưa được lập hóa đơn đang được lập hóa đơn. Tuy nhiên, cài đặt hệ thống cho phép bạn sử dụng các thứ nguyên tài chính trên tiêu đề của các đề xuất hóa đơn dự án để đăng số dư của khách hàng. Để bật chức năng này, hãy chọn **Cho phép cập nhật kích thước dự án cho các khoản phải thu** trên **Tài chính** tab của **Các thông số kế toán và quản lý dự án** trang.
 
 Kích thước tài chính trên tiêu đề hóa đơn có thể được chỉnh sửa trước khi hóa đơn được đăng. Trên **Đề xuất hóa đơn dự án** trang, chuyển sang **Tiêu đề** xem, sau đó chỉnh sửa các giá trị trên **Kích thước tài chính** chuyển hướng.
 
-Các **Tiêu đề** chế độ xem chỉ khả dụng sau khi quản trị viên hệ thống bật **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Header và Lines** tính năng trong **Quản lý tính năng** không gian làm việc. Tính năng này yêu cầu bản cập nhật Finance 10.0.25 trở lên.
+Các **Tiêu đề** chế độ xem chỉ khả dụng sau khi quản trị viên hệ thống bật **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Đầu trang và Dòng** tính năng trong **Quản lý tính năng** không gian làm việc. Tính năng này yêu cầu bản cập nhật Finance 10.0.25 trở lên.
 
 ### <a name="line-dimensions"></a>Kích thước dòng
 

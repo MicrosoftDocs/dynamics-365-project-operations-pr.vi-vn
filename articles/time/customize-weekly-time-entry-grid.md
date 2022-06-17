@@ -1,17 +1,17 @@
 ---
 title: Kéo dài mục nhập thời gian
-description: Chủ đề này cung cấp thông tin về cách các nhà phát triển có thể mở rộng kiểm soát mục nhập thời gian.
+description: Bài viết này cung cấp thông tin về cách các nhà phát triển có thể mở rộng kiểm soát mục nhập thời gian.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914796"
 ---
 # <a name="extending-time-entries"></a>Kéo dài mục nhập thời gian
 
@@ -93,12 +93,12 @@ Thêm trường tùy chỉnh vào **Tạo nhanh: Tạo mục nhập thời gian*
 Có hai cách để thêm trường tùy chỉnh vào **Mục nhập thời gian hàng tuần** lưới điện.
 
 - Tùy chỉnh **Mục thời gian hàng tuần của tôi** xem và thêm trường tùy chỉnh vào đó. Bạn có thể chỉ định vị trí và kích thước của trường tùy chỉnh trong lưới bằng cách chỉnh sửa các thuộc tính trong dạng xem.
-- Tạo một dạng xem mục nhập thời gian tùy chỉnh mới và đặt nó làm dạng xem mặc định. Chế độ xem này phải chứa **Sự miêu tả** và **Bình luận bên ngoài** ngoài các cột mà bạn muốn lưới bao gồm. Bạn có thể chỉ định vị trí, kích thước và thứ tự sắp xếp mặc định của lưới bằng cách chỉnh sửa các thuộc tính trong dạng xem. Tiếp theo, cấu hình bộ kiểm soát tùy chỉnh cho dạng xem này để trở thành bộ kiểm soát **Lưới mục nhập thời gian**. Thêm điều khiển vào dạng xem và chọn nó cho **Web**, **thoại**, và **Máy tính bảng**. Tiếp theo, định cấu hình các thông số cho **Mục nhập thời gian hàng tuần** lưới điện. Đặt **Ngày bắt đầu** lĩnh vực để **msdyn\_ ngày tháng**, đặt **Khoảng thời gian** lĩnh vực để **msdyn\_ khoảng thời gian** và đặt **Tình trạng** lĩnh vực để **msdyn\_ entrystatus**. Các **Danh sách trạng thái chỉ đọc** trường được đặt thành **192350002 (Được chấp thuận)**, **(đã đệ trình)**, hoặc **192350004 (Đã yêu cầu thu hồi)**.
+- Tạo một dạng xem mục nhập thời gian tùy chỉnh mới và đặt nó làm dạng xem mặc định. Chế độ xem này phải chứa **Sự mô tả** và **Bình luận bên ngoài** ngoài các cột mà bạn muốn lưới bao gồm. Bạn có thể chỉ định vị trí, kích thước và thứ tự sắp xếp mặc định của lưới bằng cách chỉnh sửa các thuộc tính trong dạng xem. Tiếp theo, cấu hình bộ kiểm soát tùy chỉnh cho dạng xem này để trở thành bộ kiểm soát **Lưới mục nhập thời gian**. Thêm điều khiển vào dạng xem và chọn nó cho **Web**, **thoại**, và **Máy tính bảng**. Tiếp theo, định cấu hình các thông số cho **Mục nhập thời gian hàng tuần** lưới điện. Đặt **Ngày bắt đầu** lĩnh vực để **msdyn\_ ngày**, đặt **Khoảng thời gian** lĩnh vực để **msdyn\_ khoảng thời gian** và đặt **Trạng thái** lĩnh vực để **msdyn\_ entrystatus**. Các **Danh sách trạng thái chỉ đọc** trường được đặt thành **192350002 (Được chấp thuận)**, **(đã đệ trình)**, hoặc **192350004 (Đã yêu cầu thu hồi)**.
 
 ### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Thêm trường tùy chỉnh vào trang chỉnh sửa thích hợp
 Bạn có thể tìm thấy các trang được sử dụng để chỉnh sửa mục nhập thời gian hoặc một hàng mục nhập thời gian trong **Các hình thức**. Các **Chỉnh sửa mục nhập** nút trong lưới mở ra **Chỉnh sửa mục nhập** trang và **Chỉnh sửa hàng** nút mở **Hàng sửa** trang. Bạn có thể chỉnh sửa các trang này để chúng bao gồm các trường tùy chỉnh.
 
-Cả hai tùy chọn đều loại bỏ một số tính năng lọc ngoài hộp trên **Dự định** và **Nhiệm vụ dự án** các thực thể, để tất cả các chế độ xem tra cứu cho các thực thể đều có thể nhìn thấy được. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
+Cả hai tùy chọn đều loại bỏ một số tính năng lọc ngoài hộp trên **Dự án** và **Nhiệm vụ dự án** các thực thể, để tất cả các chế độ xem tra cứu cho các thực thể đều có thể nhìn thấy được. Ban đầu, chỉ có dạng xem tra cứu phù hợp mới hiển thị.
 
 Bạn phải xác định trang thích hợp cho trường tùy chỉnh. Rất có thể, nếu bạn đã thêm trường vào lưới, trường đó sẽ chuyển sang **Hàng sửa** trang được sử dụng cho các trường áp dụng cho toàn bộ hàng mục thời gian. Nếu trường tùy chỉnh có một giá trị duy nhất trong hàng mỗi ngày (ví dụ: nếu đó là trường tùy chỉnh cho thời gian kết thúc), thì nó sẽ chuyển sang **Mục nhập thời gian** trang.
 
@@ -107,7 +107,7 @@ Bạn phải xác định trang thích hợp cho trường tùy chỉnh. Rất c
 ### <a name="add-new-option-set-values"></a>Thêm các giá trị bộ tùy chọn mới
 Để thêm giá trị bộ tùy chọn vào trường bên ngoài, hãy làm theo các bước sau.
 
-1. Mở trang chỉnh sửa cho trường, sau đó, trong **Gõ phím**, lựa chọn **Biên tập** bên cạnh bộ tùy chọn.
+1. Mở trang chỉnh sửa cho trường, sau đó, trong **Loại hình**, lựa chọn **Chỉnh sửa** bên cạnh bộ tùy chọn.
 2. Thêm tùy chọn mới có nhãn và màu tùy chỉnh. Nếu bạn muốn thêm một trạng thái nhập thời gian mới, trường ngoài hộp được đặt tên **Trạng thái đầu vào**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Chỉ định trạng thái mục nhập thời gian mới là chỉ đọc

@@ -1,24 +1,24 @@
 ---
 title: Có gì mới vào tháng 12 năm 2021 - Triển khai Project Operations Lite
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 12 năm 2021.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 12 năm 2021.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914106"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Có gì mới vào tháng 12 năm 2021 - Triển khai Project Operations Lite
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.27.0.195, 4.27.0.242, 4.27.0.244
 
@@ -28,7 +28,7 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 ### <a name="subcontract-management"></a>Quản lý hợp đồng phụ 
 
 - [Hợp đồng phụ các thành viên trong nhóm dự án](../subcontracting/subcontracting-project-team-members.md) : Người quản lý dự án có thể tạo các thành viên nhóm có tên hoặc chung chung với các hợp đồng phụ và các dòng hợp đồng phụ để tác động đến việc lập nhân viên và ước tính.
-- [Các tùy chọn hợp đồng phụ cho các thành viên trong nhóm dự án](../subcontracting/subcon-options.md) : Khi đưa ra lựa chọn nhân sự cho các thành viên nhóm dự án có tên hoặc chung chung, người quản lý dự án có thể xem xét các hợp đồng phụ hiện có hoặc tạo các hợp đồng phụ mới cho một hoặc nhiều thành viên trong nhóm dự án. 
+- [Các lựa chọn hợp đồng phụ cho các thành viên trong nhóm dự án](../subcontracting/subcon-options.md) : Khi đưa ra lựa chọn nhân sự cho các thành viên nhóm dự án có tên hoặc chung chung, người quản lý dự án có thể xem xét các hợp đồng phụ hiện có hoặc tạo các hợp đồng phụ mới cho một hoặc nhiều thành viên trong nhóm dự án. 
 - [Ước tính chi phí của các nhiệm vụ tài nguyên được hợp đồng phụ](../subcontracting/costing-subcon-ra.md) : Việc ước tính chi phí dự án sẽ tính đến việc phân công nguồn lực theo hợp đồng phụ và sẽ tính chi phí cho chúng bằng cách sử dụng bảng giá mua liên quan đến các hợp đồng phụ. 
 - [Định cấu hình Bảng lịch trình để hiển thị công nhân hợp đồng và năng lực của nhà thầu phụ](../subcontracting/configure-sb-subcon.md) : Bảng lịch trình trong Hoạt động dự án giờ đây có thể được định cấu hình để tìm kiếm và đề xuất loại tài nguyên có thể đặt trước và năng lực được hợp đồng phụ của nhân viên theo hợp đồng cùng với nhân viên. Cấu hình này có thể được áp dụng khi tìm kiếm tài nguyên trong bối cảnh nhân sự cho một yêu cầu dự án cụ thể hoặc khi tìm kiếm bên ngoài ngữ cảnh của một yêu cầu dự án.
 - [Nhân sự cho một dự án với công nhân hợp đồng và năng lực của hợp đồng phụ](../subcontracting/staffing-cw.md) : Các nhân viên hợp đồng hiện có thể được đặt trước trên các dự án tận dụng kinh nghiệm của bảng tiến độ.
@@ -45,5 +45,5 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | --- | --- | --- |
 | Hoạch định và theo dõi dự án | 2392596 | Lập lịch API hiện cho phép cập nhật **Nỗ lực còn lại**, **lực đã hoàn thành**, và **% Hoàn thành** lĩnh vực. |
 | Hoạch định và theo dõi dự án | 2478497 | Lập lịch các API **Số hoạt động** và **ID công việc** Các trường có thể để trống trên đầu vào vì hệ thống sẽ điền chúng bằng cách đánh số tự động.|
-| Thời gian và Chi phí | 2468135 | Số lần thử phê duyệt lại giảm từ năm xuống còn ba. |
+| Thời gian và Chi phí | 2468135 | Số lần thử lại phê duyệt giảm từ năm xuống còn ba. |
 | Thời gian và Chi phí | 2468188 | Đã khắc phục sự cố với văn bản nhật ký vượt quá độ dài tối đa trong **notetext** thuộc tính của **chú thích** thực thể. |

@@ -1,24 +1,24 @@
 ---
-title: Có gì mới Tháng 11 năm 2021 - Triển khai Project Operations Lite
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 11 năm 2021.
+title: Có gì mới vào tháng 11 năm 2021 - Triển khai Project Operations Lite
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 11 năm 2021.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913830"
 ---
-# <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Có gì mới Tháng 11 năm 2021 - Triển khai Project Operations Lite
+# <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Có gì mới vào tháng 11 năm 2021 - Triển khai Project Operations Lite
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   

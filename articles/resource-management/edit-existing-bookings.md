@@ -1,24 +1,24 @@
 ---
 title: Chỉnh sửa mục đăng ký
-description: Chủ đề này cung cấp thông tin về cách cập nhật và thực hiện các thay đổi đối với mục đăng ký.
+description: Bài viết này cung cấp thông tin về cách cập nhật và thực hiện các thay đổi đối với đặt chỗ.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915256"
 ---
 # <a name="edit-bookings"></a>Chỉnh sửa mục Đăng ký
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Khi có các thay đổi trên một dự án, bạn cần cập nhật cả các đăng ký hiện có, có nhiều cách để thực hiện thay đổi. Chủ đề này trình bày cách cập nhật và thực hiện các thay đổi đối với mục đăng ký.
+Khi có các thay đổi trên một dự án, bạn cần cập nhật cả các đăng ký hiện có, có nhiều cách để thực hiện thay đổi. Bài viết này trình bày cách cập nhật và thực hiện các thay đổi đối với đặt chỗ.
 
 ## <a name="resource-reconciliation"></a>Điều hòa nguồn lực
 

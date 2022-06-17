@@ -1,6 +1,6 @@
 ---
-title: Đơn vị và nhóm đơn vị
-description: Chủ đề này cung cấp thông tin về cách tạo các đơn vị và nhóm đơn vị trong Dynamics 365 Project Operations.
+title: Đơn vị và nhóm đơn vị đo
+description: Bài viết này cung cấp thông tin về cách tạo đơn vị và nhóm đơn vị trong Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921466"
 ---
 # <a name="units-and-unit-groups"></a>Đơn vị và nhóm đơn vị đo
 
@@ -28,7 +28,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Đơn vị là số lượng hoặc phép đo mà bạn bán sản phẩm hoặc dịch vụ của mình. Ví dụ: nếu bán vật tư làm vườn, bạn có thể bán hạt giống theo đơn vị gói, hộp và ngăn. Một nhóm đơn vị là một bộ sưu tập của các đơn vị khác nhau.
 
-Để hoàn thành các bước trong chủ đề này, hãy đảm bảo rằng bạn đã được chỉ định vào vai trò Quản trị viên hệ thống hoặc Người quản lý Sales Professional hoặc có các quyền tương đương.
+Để hoàn thành các bước trong bài viết này, hãy đảm bảo rằng bạn đã được chỉ định vai trò Quản trị viên hệ thống hoặc Người quản lý chuyên gia bán hàng hoặc có các quyền tương đương.
 
 ## <a name="create-a-unit-group"></a>Tạo nhóm đơn vị đo
 

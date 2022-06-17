@@ -1,17 +1,17 @@
 ---
 title: Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
-description: Chủ đề này giải thích cách các yêu cầu của dự án có thể được nhân viên sử dụng nhân viên hợp đồng hoặc năng lực hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
+description: Bài viết này giải thích cách các yêu cầu dự án có thể được nhân viên sử dụng nhân viên hợp đồng hoặc năng lực hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922110"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
 
@@ -34,7 +34,7 @@ Các thành viên trong nhóm dự án chung có thể được biên chế cùn
 7. Một thành viên trong nhóm dự án được tạo và cập nhật với các tham chiếu dòng hợp đồng phụ và hợp đồng phụ. Đi đến **Dự toán dự án** và chọn **Cập nhật giá** để xem chi phí cập nhật của việc phân công tài nguyên. 
 
 > [!NOTE]
-> Không phải lúc nào cũng có thể cập nhật thành viên nhóm dự án với tham chiếu dòng thầu phụ và hợp đồng phụ trong quá trình đặt trước nếu nguồn lực được chỉ định cho nhiều dòng hợp đồng phụ. Nếu hệ thống không thể cập nhật thành viên nhóm dự án với dòng hợp đồng phụ và hợp đồng phụ, thì hãy mở hồ sơ thành viên nhóm dự án và cập nhật thủ công các trường này để ước tính chi phí tài chính phản ánh chính xác chi phí nhà thầu phụ.
+> Có thể không phải lúc nào cũng có thể cập nhật thành viên nhóm dự án với tham chiếu dòng thầu phụ và hợp đồng phụ trong quá trình đặt trước nếu nguồn lực được chỉ định cho nhiều dòng hợp đồng phụ. Nếu hệ thống không thể cập nhật thành viên nhóm dự án với dòng hợp đồng phụ và hợp đồng phụ, thì hãy mở hồ sơ thành viên nhóm dự án và cập nhật thủ công các trường này để ước tính chi phí tài chính phản ánh chính xác chi phí nhà thầu phụ.
 
 ## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Tìm kiếm và các yêu cầu về nguồn nhân viên với bất kỳ nhân viên hợp đồng nào
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920684"
 ---
 # <a name="work-breakdown-structures-overview"></a>Tổng quan về cấu trúc phân tích công việc
 
@@ -35,7 +35,7 @@ Mức độ chi tiết trong WBS phụ thuộc vào mức độ chính xác đư
 
 Ngược lại, dự án trong các ngành như truyền thông và quảng cáo, phần mềm và cơ sở hạ tầng CNTT thường mang tính đặc thù, đồng thời hiệu suất tương quan với kinh nghiệm và năng lực của cá nhân thực hiện nhiệm vụ. Do đó, các ngành này sử dụng WBS để nhận được ước lượng về quy mô của dự án, chứ không phải để theo dõi chi tiết tiến độ của dự án đó. 
 
-Xây dựng WBS là một quá trình chuyên sâu thường được thực hiện trong một thời gian dài, đòi hỏi sự cộng tác và cung cấp thông tin từ nhiều người. Chủ đề này mô tả cách bạn có thể sử dụng các cải tiến của WBS để đáp ứng yêu cầu của mình về ước tính và theo dõi.
+Xây dựng WBS là một quá trình chuyên sâu thường được thực hiện trong một thời gian dài, đòi hỏi sự cộng tác và cung cấp thông tin từ nhiều người. Bài viết này mô tả cách bạn có thể sử dụng các cải tiến của WBS để đáp ứng các yêu cầu của bạn về ước tính và theo dõi.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Điều kiện tiên quyết để tạo WBS
 Để tạo WBS, bạn phải có khả năng tạo lịch trình làm việc và ước tính chi phí công việc.
@@ -166,7 +166,7 @@ Finance có ba dạng xem cho WBS của dự án: dạng xem Lập kế hoạch,
 
 ### <a name="planning-view"></a>Dạng xem Lập kế hoạch
 
-Dạng xem Lập kế hoạch hiển thị ước tính theo kế hoạch hoặc cơ sở của thông tin lịch trình và chi phí. Mặc dù không có tính năng nào để theo dõi phiên bản và đường cơ sở cho WBS dự án, các giá trị trong dạng xem này nhằm đại diện cho phiên bản đường cơ sở. Các phần ước tính Lịch trình và ước tính Chi phí của chủ đề này mô tả dạng xem này và cách dùng nó để tạo WBS.
+Dạng xem Lập kế hoạch hiển thị ước tính theo kế hoạch hoặc cơ sở của thông tin lịch trình và chi phí. Mặc dù không có tính năng nào để theo dõi phiên bản và đường cơ sở cho WBS dự án, các giá trị trong dạng xem này nhằm đại diện cho phiên bản đường cơ sở. Các phần Ước tính lịch trình và Ước tính chi phí của bài viết này mô tả chế độ xem này và cách nó được sử dụng để tạo một WBS.
 
 ### <a name="effort-tracking-view"></a>Dạng xem theo dõi nhân công
 

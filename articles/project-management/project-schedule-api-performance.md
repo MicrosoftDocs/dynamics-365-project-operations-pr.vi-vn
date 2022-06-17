@@ -1,28 +1,28 @@
 ---
 title: Hiệu suất API lịch trình Dự án
-description: Chủ đề này cung cấp thông tin về điểm chuẩn hiệu suất của các API lịch trình Dự án và xác định các phương pháp hay nhất để sử dụng tối ưu.
+description: Bài viết này cung cấp thông tin về điểm chuẩn hiệu suất của các API lịch trình Dự án và xác định các phương pháp hay nhất để sử dụng tối ưu.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911208"
 ---
 # <a name="project-schedule-api-performance"></a>Hiệu suất API lịch trình Dự án
 
 _**Áp dụng cho:** Project Operations cho các kịch bản dựa trên nguồn lực/không trữ kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá, Project for the web_
 
-Chủ đề này cung cấp thông tin về điểm chuẩn hiệu suất của các giao diện lập trình ứng dụng (API) theo lịch trình Dự án và xác định các phương pháp hay nhất để tối ưu hóa việc sử dụng.
+Bài viết này cung cấp thông tin về điểm chuẩn hiệu suất của các giao diện lập trình ứng dụng (API) theo lịch dự án và xác định các phương pháp hay nhất để tối ưu hóa việc sử dụng.
 
 ## <a name="project-scheduling-service"></a>Dịch vụ lập lịch dự án
 Dịch vụ lập lịch dự án là một dịch vụ nhiều đối tượng thuê chạy trong Microsoft Azure. Nó được thiết kế để cải thiện sự tương tác bằng cách cung cấp trải nghiệm nhanh chóng và linh hoạt khi người dùng làm việc trong các dự án. Cải tiến này đạt được bằng cách chấp nhận các yêu cầu thay đổi, xử lý chúng và sau đó trả lại kết quả ngay lập tức. Dịch vụ không đồng bộ vẫn tồn tại đến Dataverse và không chặn người dùng thực hiện các thao tác khác.
 
-Các API lịch trình dự án dựa vào Dịch vụ lập lịch dự án để chạy các yêu cầu được mô tả chi tiết hơn trong các phần sau của chủ đề này.
+Các API lịch trình dự án dựa vào Dịch vụ lập lịch dự án để chạy các yêu cầu được mô tả chi tiết hơn trong các phần sau của bài viết này.
 
 Các API lịch trình dự án được thiết kế để hoạt động với các thực thể cấu trúc phân tích công việc (WBS) sau đây:
 

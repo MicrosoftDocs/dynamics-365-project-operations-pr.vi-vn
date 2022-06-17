@@ -1,24 +1,24 @@
 ---
 title: Tích hợp dữ liệu cấu hình và thiết lập Project Operations
-description: Chủ đề này cung cấp thông tin về thiết lập và đặt cấu hình bản đồ ghi kép của Project Operations.
+description: Bài viết này cung cấp thông tin về cách thiết lập và cấu hình bản đồ ghi kép Hoạt động Dự án.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914566"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Tích hợp dữ liệu cấu hình và thiết lập Project Operations
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này cung cấp thông tin về tích hợp ghi kép Project Operations để cho thực thể thiết lập và cấu hình.
+Bài viết này cung cấp thông tin về tích hợp ghi kép Hoạt động dự án cho các thực thể thiết lập và cấu hình.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Hợp đồng dự án, mô tả hợp đồng và dự án
 
@@ -30,12 +30,12 @@ Khách hàng tiềm năng, cơ hội và báo giá hoạt động bán hàng đ�
 
 Chức năng hợp đồng dự án trong Dataverse tạo hồ sơ hợp đồng dự án trong ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Tiêu đề hợp đồng dự án (đơn hàng bán)** bảng sơ đồ. Lưu hợp đồng dự án trong Dataverse cũng bắt đầu tạo bản ghi thực thể khách hàng hợp đồng dự án. Hồ sơ này được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Nguồn vốn dự án (msdyn\_ projectcontractssplitbillingrules)** bảng sơ đồ. Bản đồ này cũng đồng bộ hóa các hoạt động bổ sung, cập nhật và xóa của khách hàng trong hợp đồng dự án. Tỷ lệ thanh toán phân chia giữa các khách hàng hợp đồng dự án chỉ được nắm vững trong Dataverse và không được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động.
 
-Sau khi hợp đồng dự án được tạo trong Dataverse, kế toán dự án có thể cập nhật các thuộc tính kế toán cho hợp đồng dự án này trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Hợp đồng dự án** > **Thiết lập** > **Hiển thị kế toán mặc định**. Kế toán có thể xem xét các thuộc tính hợp đồng dự án hoạt động, chẳng hạn như ngày giao hàng được yêu cầu và số tiền hợp đồng bằng cách chọn ID hợp đồng dự án trong ứng dụng Tài chính và Hoạt động để mở hồ sơ hợp đồng dự án liên quan trong Dataverse.
+Sau khi hợp đồng dự án được tạo trong Dataverse, kế toán dự án có thể cập nhật các thuộc tính kế toán cho hợp đồng dự án này trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Hợp đồng dự án** > **Cài đặt** > **Hiển thị kế toán mặc định**. Kế toán có thể xem xét các thuộc tính hợp đồng dự án hoạt động, chẳng hạn như ngày giao hàng được yêu cầu và số tiền hợp đồng bằng cách chọn ID hợp đồng dự án trong ứng dụng Tài chính và Hoạt động để mở hồ sơ hợp đồng dự án liên quan trong Dataverse.
 
 Thực thể dự án được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Dự án V2 (msdyn\_ dự án)** bảng sơ đồ. Kế toán viên của dự án có thể:
 
   - Xem lại các dự án trong ứng dụng Tài chính và Hoạt động bằng cách đi tới **Quản lý dự án và kế toán** > **Tất cả các dự án**. 
-  - Cập nhật các thuộc tính kế toán cho dự án trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Tất cả các dự án** > **Thiết lập** > **Hiển thị kế toán mặc định**.  
+  - Cập nhật các thuộc tính kế toán cho dự án trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Tất cả các dự án** > **Cài đặt** > **Hiển thị kế toán mặc định**.  
   - Xem lại các thuộc tính của dự án hoạt động, chẳng hạn như ngày bắt đầu và ngày kết thúc ước tính, bằng cách chọn ID dự án trong ứng dụng Tài chính và Hoạt động để mở hồ sơ dự án liên quan trong Dataverse.
 
 Một dự án được liên kết với hợp đồng dự án thông qua thực thể **Mô tả hợp đồng dự án**.
@@ -45,7 +45,7 @@ Các dòng hợp đồng dự án trong Dataverse tạo quy tắc thanh toán h�
   - Mô tả hợp đồng dự án có phương thức thanh toán theo thời gian và vật tư tạo ra quy tắc thanh toán về thời gian và loại vật tư.
   - Mô tả hợp đồng có phương thức thanh toán giá cố định tạo ra một quy tắc thanh toán quan trọng.
 
-Kế toán dự án có thể xem xét các dòng hợp đồng dự án trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Hợp đồng dự án** > **Thiết lập** > **Hiển thị kế toán mặc định** và xem xét các chi tiết về **Dòng hợp đồng** chuyển hướng. Kế toán cũng có thể đặt các kích thước tài chính mặc định cho các dòng hợp đồng theo phương pháp thanh toán theo giá cố định trên tab này.
+Kế toán dự án có thể xem xét các dòng hợp đồng dự án trong ứng dụng Tài chính và Hoạt động bằng cách truy cập **Quản lý dự án và kế toán** > **Hợp đồng dự án** > **Cài đặt** > **Hiển thị kế toán mặc định** và xem xét các chi tiết về **Dòng hợp đồng** chuyển hướng. Kế toán cũng có thể đặt các kích thước tài chính mặc định cho các dòng hợp đồng theo phương pháp thanh toán theo giá cố định trên tab này.
 
 ## <a name="billing-milestones"></a>Mốc thanh toán
 
@@ -73,7 +73,7 @@ Nguồn lực dự án trong Hoạt động dự án được duy trì trong Dat
 
 ### <a name="transaction-categories"></a>Danh mục giao dịch
 
-Danh mục giao dịch được duy trì trong Dataverse và được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Các hạng mục giao dịch dự án (msdyn\_ các thể loại giao dịch)** bảng sơ đồ. Sau khi bản ghi danh mục giao dịch được đồng bộ hóa, hệ thống sẽ tự động tạo bốn bản ghi danh mục được chia sẻ. Mỗi bản ghi tương ứng với một loại giao dịch trong ứng dụng Tài chính và Hoạt động và liên kết chúng với bản ghi danh mục giao dịch.
+Các danh mục giao dịch được duy trì trong Dataverse và được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Các hạng mục giao dịch dự án (msdyn\_ các thể loại giao dịch)** bảng sơ đồ. Sau khi bản ghi danh mục giao dịch được đồng bộ hóa, hệ thống sẽ tự động tạo bốn bản ghi danh mục được chia sẻ. Mỗi bản ghi tương ứng với một loại giao dịch trong ứng dụng Tài chính và Hoạt động và liên kết chúng với bản ghi danh mục giao dịch.
 
 ![Tích hợp danh mục giao dịch.](./media/4TransactionCategories.jpg)
 

@@ -1,17 +1,17 @@
 ---
 title: Đặt cấu hình Bảng lịch trình để hiển thị nhân viên hợp đồng và năng lực của hợp đồng phụ
-description: Chủ đề này mô tả cách định cấu hình Bảng lịch biểu trong Microsoft Dynamics 365 Project Operations để hiển thị năng lực nguồn lực theo hợp đồng phụ khi nhân sự yêu cầu nguồn lực của dự án.
+description: Bài viết này mô tả cách định cấu hình Bảng lịch biểu trong Microsoft Dynamics 365 Project Operations để hiển thị năng lực nguồn lực theo hợp đồng phụ khi nhân sự yêu cầu nguồn lực của dự án.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919856"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Đặt cấu hình Bảng lịch trình để hiển thị nhân viên hợp đồng và năng lực của hợp đồng phụ 
 
@@ -58,8 +58,8 @@ Truy vấn được sử dụng để tìm kiếm cũng phải được cập nh
 2. Mở **Cài đặt chung** tab và cuộn đến **Các thiết lập khác**.
 3. Trong danh sách cài đặt trong phần này, hãy cập nhật **Bố cục bộ lọc** đến **Bố cục bộ lọc mặc định cho Project Operations Lite**.
 4. Cập nhật **Truy vấn Truy vấn Tài nguyên** đến **Truy vấn tài nguyên truy xuất mặc định cho Project Operations Lite**.
-5. Mở **Các loại lịch biểu** tab và đi đến **Dự định**.
-6. Trong cài đặt cho **Dự định**, cập nhật **Lên lịch hỗ trợ truy xuất truy vấn tài nguyên** đến **Truy vấn tài nguyên truy xuất mặc định cho Project Operations Lite** và cập nhật **Lên lịch truy vấn giới hạn truy xuất hỗ trợ** đến **Truy vấn Ràng buộc Truy xuất Mặc định cho Project Operations Lite**.
+5. Mở **Các loại lịch biểu** tab và đi đến **Dự án**.
+6. Trong cài đặt cho **Dự án**, cập nhật **Lên lịch Hỗ trợ Truy xuất Truy vấn Tài nguyên** đến **Truy vấn tài nguyên truy xuất mặc định cho Project Operations Lite** và cập nhật **Lên lịch truy vấn các ràng buộc hỗ trợ truy xuất** đến **Truy vấn Ràng buộc Truy xuất Mặc định cho Project Operations Lite**.
 
 ![Cập nhật cài đặt Bảng lịch trình để tìm kiếm tài nguyên dựa trên yêu cầu](../media/SASettings.png)  
 

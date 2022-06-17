@@ -1,6 +1,6 @@
 ---
 title: Hủy kích hoạt bảng giá
-description: Chủ đề này giải thích cách hủy kích hoạt hoặc loại bỏ các bảng giá cũ hoặc không dùng đến.
+description: Bài viết này giải thích cách hủy kích hoạt hoặc xóa các bảng giá cũ hoặc không được sử dụng.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ab790764f7a99118fd42bc76934105389173ff88
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56bd498d2cb892bdf0c7514d0918e3873098b8d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924410"
 ---
 # <a name="deactivate-price-lists"></a>Hủy kích hoạt bảng giá 
 

@@ -1,18 +1,18 @@
 ---
 title: Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
-description: Chủ đề này giải thích cách kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
+description: Bài viết này giải thích cách kích hoạt vật liệu không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913784"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Chạy Bản đồ ghi kép cho vật tư không tồn kho và tích hợp hóa đơn của nhà cung cấp
 
-Phần này cung cấp thông tin về các bản đồ cụ thể cần thiết cho vật tư không tồn kho và hóa đơn của nhà cung cấp. Xác minh rằng các bản đồ điều kiện tiên quyết được liệt kê trong chủ đề [Cung cấp một môi trường mới](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) đang chạy trên môi trường của bạn.
+Phần này cung cấp thông tin về các bản đồ cụ thể cần thiết cho vật tư không tồn kho và hóa đơn của nhà cung cấp. Xác minh rằng các bản đồ điều kiện tiên quyết được liệt kê trong [Cung cấp một môi trường mới](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) đang chạy trên môi trường của bạn.
 
 1. Chuyển đến Lifecycle Services (LCS), điều hướng đến dự án LCS của bạn và truy cập vào trang **Chi tiết môi trường**.
 2. Trong phần **Thông tin môi trường Common Data Service**, hãy chọn **Liên kết tới CDS for Apps**. Sau khi bạn chọn liên kết, bạn sẽ được chuyển hướng đến danh sách các thực thể trong ánh xạ.

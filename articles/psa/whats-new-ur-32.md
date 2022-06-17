@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 32, V3
-description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 32, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Bản phát hành bản cập nhật tự động hóa dịch vụ dự án 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912910"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 32, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580114"
 
 Chúng tôi vui mừng được công bố bản cập nhật mới nhất cho ứng dụng Microsoft Dynamics 365 Project Service Automation. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập trang giải pháp trực tuyến Trung tâm quản trị cho Dynamics 365 và cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 32. Phiên bản này có số bản dựng là V3.10.53.108 và được phát hành rộng rãi thông qua bản tự cập nhật vào tháng 6 năm 2021.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Tự động hóa dịch vụ dự án V3, Bản phát hành bản cập nhật 32. Phiên bản này có số bản dựng là V3.10.53.108 và được phát hành rộng rãi thông qua bản tự cập nhật vào tháng 6 năm 2021.
 
 ## <a name="update-release-32"></a>Phát hành bản cập nhật 32
 

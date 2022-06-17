@@ -1,6 +1,6 @@
 ---
 title: Trang chủ hoạch định dự án
-description: Chủ đề này cung cấp thông tin về việc hoạch định dự án.
+description: Bài báo này cung cấp thông tin về lập kế hoạch dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919120"
 ---
 # <a name="project-planning-home-page"></a>Trang chủ hoạch định dự án
 
@@ -43,7 +43,7 @@ Các công cụ quản lý dự án trong PSA giúp bạn dễ dàng chạy các
 - Dự báo yêu cầu nguồn lực cho dự án đang trong quy trình bán hàng.
 - Cung cấp thành công dự án bằng theo dõi tiến độ và mức sử dụng chi phí.
 
-Các chủ đề sau cung cấp thông tin sẽ giúp người quản lý dự án ước tính công việc, ước tính chi phí dự án và yêu cầu nguồn lực dự báo bằng cách sử dụng các công cụ được hỗ trợ trong PSA:
+Các bài viết sau cung cấp thông tin sẽ giúp các nhà quản lý dự án ước tính công việc, ước tính chi phí dự án và dự báo các yêu cầu về nguồn lực bằng cách sử dụng các công cụ được hỗ trợ trong PSA:
 
 - [Tạo lịch trình](project-creating.md)
 - [Ước tính chi phí và doanh thu dự án](project-estimating.md)

@@ -1,25 +1,25 @@
 ---
 title: Triển khai ứng dụng Project Operations Dataverse theo cách thủ công có hỗ trợ ghi kép
-description: Chủ đề này giải thích cách triển khai ứng dụng Project Operations Dataverse để hỗ trợ ghi kép.
+description: Bài viết này giải thích cách triển khai các Hoạt động Dự án theo cách thủ công Dataverse ứng dụng để nó hỗ trợ ghi kép.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912036"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Triển khai ứng dụng Project Operations Dataverse theo cách thủ công có hỗ trợ ghi kép
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này giải thích cách triển khai Microsoft Dynamics 365 Project Operations theo cách thủ công trong Microsoft Dataverse để hỗ trợ ghi kép. Project Operations phát hiện cấu hình của môi trường và bổ sung hỗ trợ bổ sung cho tính năng ghi kép nếu các điều kiện tiên quyết được đáp ứng.
+Bài viết này giải thích cách triển khai thủ công Microsoft Dynamics 365 Project Operations Trong Microsoft Dataverse để nó hỗ trợ ghi kép. Project Operations phát hiện cấu hình của môi trường và bổ sung hỗ trợ bổ sung cho tính năng ghi kép nếu các điều kiện tiên quyết được đáp ứng.
 
-Trong quá trình triển khai thông qua Microsoft Dynamics Lifecycle Services (LCS), nếu bạn đã làm theo hướng dẫn trong chủ đề này, bạn có thể bỏ qua việc triển khai tích hợp Microsoft Power Platform (trước đây được gọi là môi trường Common Data Service).
+Trong quá trình triển khai thông qua Microsoft Dynamics Dịch vụ vòng đời (LCS), nếu bạn đã làm theo hướng dẫn trong bài viết này, bạn có thể bỏ qua việc triển khai Microsoft Power Platform tích hợp (trước đây được gọi là Common Data Service Môi trường).
 
 Quá trình triển khai Project Operations trong Dataverse để hỗ trợ ghi kép có bốn bước chính:
 

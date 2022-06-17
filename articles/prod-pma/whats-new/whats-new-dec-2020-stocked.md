@@ -1,24 +1,24 @@
 ---
 title: Tính năng mới tháng 12 năm 2020 – Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations tháng 12 năm 2020 cho tình huống dựa trên hàng trữ kho/sản xuất.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 12 năm 2020 của Hoạt động dự án cho các kịch bản dựa trên sản xuất / tồn kho.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911392"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Có gì mới hoặc thay đổi trong Project Operations tháng 12 năm 2020 cho tình huống dựa trên hàng dự trữ/sản xuất
 
 _Áp dụng cho: Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
   - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.15
 

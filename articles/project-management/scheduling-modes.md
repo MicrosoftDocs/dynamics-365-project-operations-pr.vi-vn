@@ -1,17 +1,17 @@
 ---
 title: Chế độ lập lịch trình
-description: Chủ đề này cung cấp thông tin về chế độ lập lịch trình.
+description: Bài viết này cung cấp thông tin về các chế độ lập lịch.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923674"
 ---
 # <a name="scheduling-modes"></a>Chế độ lập lịch trình
 
@@ -38,7 +38,7 @@ Khi xác định chế độ lập lịch trình của dự án, bạn đang thi
 | Nhiệm vụ nỗ lực cố định    | Khoảng thời gian được tính toán lại. | Các đơn vị được tính toán lại.    | Khoảng thời gian được tính toán lại. |
 | Nhiệm vụ khoảng thời gian cố định  | Nỗ lực được tính toán lại.   | Nỗ lực được tính toán lại.    | Các đơn vị được tính toán lại.   |
 
-Để biết thêm thông tin về tác động của một chế độ nhất định, hãy xem [Thay đổi loại nhiệm vụ để lập lịch chính xác hơn](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Trong chủ đề này, thuật ngữ **Công việc** được sử dụng thay cho **Nỗ lực**.
+Để biết thêm thông tin về tác động của một chế độ nhất định, hãy xem [Thay đổi loại nhiệm vụ để lập lịch chính xác hơn](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Trong bài báo, thuật ngữ **Công việc** được sử dụng thay vì **Cố gắng**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Thay đổi chế độ lập lịch trình của tổ chức
 

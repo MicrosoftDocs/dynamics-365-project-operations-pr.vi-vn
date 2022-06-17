@@ -1,25 +1,25 @@
 ---
 title: Khắc phục sự cố khi làm việc trong lưới Tác vụ
-description: Chủ đề này cung cấp thông tin khắc phục sự cố cần thiết khi làm việc trong lưới Tác vụ.
+description: Bài viết này cung cấp thông tin khắc phục sự cố cần thiết khi làm việc trong lưới Tác vụ.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911070"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Khắc phục sự cố khi làm việc trong lưới Tác vụ 
 
 
 _**Áp dụng cho:** Project Operations cho các kịch bản dựa trên nguồn lực/không trữ kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá, Project for the web_
 
-Lưới Nhiệm vụ được Dynamics 365 Project Operations tận dụng là một iframe được tổ chức bên trong Microsoft Dataverse. Do việc sử dụng này, các yêu cầu cụ thể phải được đáp ứng để đảm bảo xác thực và ủy quyền hoạt động chính xác. Chủ đề này phác thảo các vấn đề chung có thể ảnh hưởng đến khả năng kết xuất lưới điện hoặc quản lý các tác vụ trong cấu trúc phân tích công việc (WBS).
+Lưới Nhiệm vụ được Dynamics 365 Project Operations tận dụng là một iframe được tổ chức bên trong Microsoft Dataverse. Do việc sử dụng này, các yêu cầu cụ thể phải được đáp ứng để đảm bảo xác thực và ủy quyền hoạt động chính xác. Bài viết này nêu ra các vấn đề phổ biến có thể ảnh hưởng đến khả năng kết xuất lưới hoặc quản lý các tác vụ trong cấu trúc phân tích công việc (WBS).
 
 Các sự cố thường gặp bao gồm:
 
@@ -72,7 +72,7 @@ Project Operations yêu cầu tham số dự án tham chiếu đến Điểm cu�
 4. Xóa trường khỏi trang **Tham số dự án**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Giảm thiểu 3: đăng nhập vào project.microsoft.com
-Trong của bạn Microsoft Edge trình duyệt, mở tab mới, truy cập project.microsoft.com và đăng nhập bằng vai trò người dùng mà bạn đang sử dụng để truy cập Hoạt động dự án.
+Trong của bạn Microsoft Edge trình duyệt, mở tab mới, truy cập project.microsoft.com và đăng nhập bằng cách sử dụng vai trò người dùng mà bạn đang sử dụng để truy cập Hoạt động dự án.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Sự cố: Dự án không tải và giao diện người dùng bị kẹt trên vòng quay
 

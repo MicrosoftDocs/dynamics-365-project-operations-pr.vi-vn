@@ -1,21 +1,21 @@
 ---
-title: Đăng ký gói xem trước - bản đơn giản
-description: Chủ đề này cung cấp thông tin về cách đăng ký và triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá.
+title: Đăng ký gói xem trước – bản đơn giản
+description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai triển khai Project Operations lite - đối phó với lập hóa đơn chiếu lệ.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921282"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Đăng ký gói xem trước – bản đơn giản 
 
-Chủ đề này giải thích cách đăng ký ưu đãi dùng thử và triển khai ưu đãi - triển khai bản đơn giản Dynamics 365 Project Operations cho lập hóa đơn ước giá.
+Bài viết này giải thích cách đăng ký ưu đãi dùng thử và triển khai Dynamics 365 Project Operations triển khai lite - đối phó với lập hóa đơn chiếu lệ.
 
 > [!NOTE]
 > Quá trình này sẽ thay đổi trong các phiên bản sắp tới của Project Operations.
@@ -50,7 +50,7 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
 ## <a name="create-a-new-dataverse-environment"></a>Tạo môi trường Dataverse mới
 
-1. Cung cấp môi trường triển khai Project Operations Dataverse mới bằng cách làm theo các hướng dẫn trong chủ đề [Mô hình triển khai Dataverse](lite-deployment.md). Khi bạn chọn loại môi trường, hãy bảo đảm sử dụng **Bản dùng thử (Dựa trên gói đăng ký)**.
+1. Cung cấp Hoạt động Dự án mới Dataverse môi trường triển khai bằng cách làm theo hướng dẫn trong bài viết, [Dataverse mô hình triển khai](lite-deployment.md). Khi bạn chọn loại môi trường, hãy bảo đảm sử dụng **Bản dùng thử (Dựa trên gói đăng ký)**.
 
   ![Môi trường mới.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Cài đặt cấu hình CDS và thiết lập dữ liệu demo
 
-Cài đặt cấu hình CDS và thiết lập dữ liệu demo bằng cách làm theo các hướng dẫn trong chủ đề [Áp dụng dữ liệu cấu hình và thiết lập demo](lite-apply-demo-setup-config-data.md).
+Cài đặt cấu hình CDS và thiết lập dữ liệu demo theo hướng dẫn trong bài viết, [Áp dụng dữ liệu cấu hình và thiết lập demo](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

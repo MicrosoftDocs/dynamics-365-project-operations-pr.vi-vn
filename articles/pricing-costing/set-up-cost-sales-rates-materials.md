@@ -1,17 +1,17 @@
 ---
 title: Thiết lập chi phí và tỷ lệ doanh số cho vật tư
-description: Chủ đề này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ doanh số cho vật tư được dùng cho các dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ bán hàng cho vật liệu được sử dụng cho các dự án.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0a7d84c2dcaa228e06add2f3cb06a530b29e0e35
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911806"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Thiết lập chi phí và tỷ lệ doanh số cho vật tư
 

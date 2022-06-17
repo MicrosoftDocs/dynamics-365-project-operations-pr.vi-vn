@@ -1,17 +1,17 @@
 ---
 title: Theo dõi doanh số dự án
-description: Chủ đề này cung cấp thông tin về cách Project Operations theo dõi tiến độ dựa trên doanh thu nhân công của một dự án.
+description: Bài viết này cung cấp thông tin về cách Hoạt động dự án theo dõi tiến độ dựa trên doanh thu lao động trong một dự án.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fff5fa6b12dddd780eb6bf77edca85a3a0c0629c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ce61acf95ee5e9ac10047406c9d4a5c9b1f92aad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911300"
 ---
 # <a name="project-sales-tracking"></a>Theo dõi doanh số dự án
 

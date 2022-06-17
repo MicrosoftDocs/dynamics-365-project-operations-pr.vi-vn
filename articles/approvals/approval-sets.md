@@ -1,17 +1,17 @@
 ---
 title: Các bộ phê duyệt
-description: Chủ đề này giải thích cách làm việc với các bộ phê duyệt, yêu cầu và tập hợp con các thao tác đó.
+description: Bài viết này giải thích cách làm việc với các tập hợp phê duyệt, yêu cầu và tập hợp con của các hoạt động đó.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918108"
 ---
 # <a name="approval-sets"></a>Các bộ phê duyệt
 
@@ -26,7 +26,7 @@ Các mục phê duyệt được xếp hàng đợi để xử lý sẽ xuất h
 
 Trường **Thời gian tồn tại của bộ phê duyệt** ghi lại số lần thử còn lại để xử lý bộ phê duyệt trước khi mục này được đánh dấu là không thành công.
 
-Các tập hợp phê duyệt được xử lý thông qua kích hoạt định kỳ dựa trên **Dòng chảy đám mây** được đặt tên **Dịch vụ Dự án - Lập lịch trình Định kỳ Bộ Phê duyệt Dự án**. Điều này được tìm thấy trong **Sự hòa tan** được đặt tên **Hoạt động Dự án**. 
+Các tập hợp phê duyệt được xử lý thông qua kích hoạt định kỳ dựa trên **Dòng chảy đám mây** được đặt tên **Dịch vụ Dự án - Lập lịch trình Định kỳ Bộ Phê duyệt Dự án**. Điều này được tìm thấy trong **Dung dịch** được đặt tên **Hoạt động Dự án**. 
 
 Đảm bảo rằng quy trình được kích hoạt bằng cách hoàn thành các bước sau.
 
@@ -35,8 +35,8 @@ Các tập hợp phê duyệt được xử lý thông qua kích hoạt định 
 3. Lựa chọn **Các giải pháp** để liệt kê các giải pháp được cài đặt trong môi trường.
 4. Trong danh sách giải pháp, hãy chọn **Hoạt động dự án**.
 5. Thay đổi bộ lọc từ **Tất cả các** đến **Dòng chảy trên đám mây**.
-6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** lưu lượng được đặt thành **Trên**. Nếu không, hãy chọn luồng, sau đó chọn **Bật**.
-7. Xác minh rằng quá trình xử lý diễn ra sau mỗi năm phút bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** khu vực trong Hoạt động dự án của bạn Dataverse môi trường.
+6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** lưu lượng được đặt thành **Trên**. Nếu không, hãy chọn luồng, rồi chọn **Bật**.
+7. Xác minh rằng quá trình xử lý diễn ra sau mỗi năm phút bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** khu vực trong Hoạt động dự án của bạn Dataverse Môi trường.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Mục phê duyệt và bộ phê duyệt không thành công
 Dạng xem **Phê duyệt không thành công** liệt kê tất cả các phê duyệt yêu cầu sự can thiệp của người dùng. Hãy mở nhật ký bộ phê duyệt được liên kết để xác định nguyên nhân của sự thất bại.

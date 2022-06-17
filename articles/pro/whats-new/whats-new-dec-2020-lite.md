@@ -1,24 +1,24 @@
 ---
 title: Tính năng mới kể từ tháng 12 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations Lite tháng 12 năm 2020 - từ thỏa thuận đến lập hóa đơn ước giá.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 12 năm 2020 của triển khai Project Operations Lite - đối phó với lập hóa đơn chiếu lệ.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924088"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Tính năng mới kể từ tháng 12 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.5.0.134 
 

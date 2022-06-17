@@ -1,6 +1,6 @@
 ---
 title: Nâng cấp thông tin cân nhắc cho cấu trúc phân tích công việc
-description: Chủ đề này cung cấp thông tin về cách nâng cấp cấu trúc phân tích công việc từ Project Service Automation 2.x lên 3.x.
+description: Bài viết này cung cấp thông tin về việc nâng cấp cấu trúc phân tích công việc từ Tự động hóa dịch vụ dự án 2.x lên 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913140"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Nâng cấp thông tin cân nhắc cho cấu trúc phân tích công việc
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Chủ đề này cung cấp thông tin về cách nâng cấp cấu trúc phân tích công việc từ Project Service Automation 2.x lên 3.x. Chủ đề này xác định trạng thái ổn định của một dự án trong Project Service Automation (PSA) được yêu cầu để nâng cấp thành công. Cũng có thông tin về các điều kiện chặn phổ biến sẽ khiến không nâng cấp được. Để biết thêm thông tin về cách xác định nhiệm vụ dự án và các chức năng trong lịch trình dự án, hãy xem [Lịch biểu dự án](project-creating.md).
+Bài viết này cung cấp thông tin về việc nâng cấp cấu trúc phân tích công việc từ Tự động hóa dịch vụ dự án 2.x lên 3.x. Bài viết này xác định trạng thái khỏe mạnh của một dự án trong Tự động hóa dịch vụ dự án (PSA) được yêu cầu để nâng cấp thành công. Cũng có thông tin về các điều kiện chặn phổ biến sẽ khiến không nâng cấp được. Để biết thêm thông tin về cách xác định nhiệm vụ dự án và các chức năng trong lịch trình dự án, hãy xem [Lịch biểu dự án](project-creating.md).
 
 ## <a name="key-entities"></a>Các thực thể chính
 Đối với một cấu trúc phân tích công việc chính xác đã được tải với các nguồn lực, cần có các thực thể sau:

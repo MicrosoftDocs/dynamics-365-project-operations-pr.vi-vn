@@ -1,6 +1,6 @@
 ---
 title: Thiết lập phần tích hợp thẻ tín dụng
-description: Chủ đề này giải thích cách làm việc với các giao dịch thẻ tín dụng liên quan đến chi phí.
+description: Bài viết này giải thích cách làm việc với các giao dịch thẻ tín dụng liên quan đến chi phí.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4d32754548af67bdd5b9f7345f6363bd6193b36d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924521"
 ---
 # <a name="set-up-credit-card-integration"></a>Thiết lập phần tích hợp thẻ tín dụng
 
@@ -61,7 +61,7 @@ Chọn một hoặc nhiều giao dịch thẻ tín dụng, sau đó chọn **Ch�
 Ba tùy chọn có sẵn để lưu trữ số thẻ tín dụng. Số thẻ tín dụng được lưu trữ trên **Các thông số quản lý chi phí** trang.
 
 - **Ngăn nhập số thẻ** - Số thẻ tín dụng không được lưu trữ.
-- **Số thẻ băm (lưu trữ bốn chữ số cuối cùng)** - Bốn chữ số cuối của số thẻ tín dụng được lưu trữ ở định dạng mã hóa.
-- **Lưu trữ số thẻ** - Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu của ngành thẻ thanh toán (PCI) (DSS). Do đó, để giữ cho tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
+- **Số thẻ băm (lưu trữ bốn chữ số cuối cùng)** - Bốn chữ số cuối của số thẻ tín dụng được lưu trữ dưới dạng mã hóa.
+- **Lưu trữ số thẻ** - Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu của ngành thẻ thanh toán (PCI) (DSS). Do đó, để tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

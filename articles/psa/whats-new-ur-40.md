@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 40, V3
-description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Bản phát hành cập nhật 40, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Cập nhật Bản phát hành 40, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 25f375ce648eb7d233f6433739832caee351830d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca7f340b8d544b183aa0390ac3c11a38f536ed0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912818"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-40-v3"></a>Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 40, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588670"
 
 Chúng tôi vui mừng được công bố bản cập nhật mới nhất cho ứng dụng Microsoft Dynamics 365 Project Service Automation. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập trang giải pháp trực tuyến Trung tâm quản trị cho Dynamics 365 và cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation, Bản phát hành cập nhật 40, V3. Phiên bản này có số bản dựng là V3.10.61.61 và thường có sẵn thông qua bản tự cập nhật vào tháng 2 năm 2022.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Bản phát hành cập nhật tự động hóa dịch vụ dự án 40, V3. Phiên bản này có số bản dựng là V3.10.61.61 và thường có sẵn thông qua bản tự cập nhật vào tháng 2 năm 2022.
 
 ## <a name="update-release-40"></a>Phát hành bản cập nhật 40
 
@@ -46,4 +46,4 @@ Các vấn đề sau đã được khắc phục.
 **Bán hàng**
 
 - Khi bạn cập nhật ước tính chi phí hoặc doanh số bằng cách sử dụng các trình cắm bổ sung, bạn không được phép gửi các tải trọng JSON không hợp lệ ra bên ngoài giao diện người dùng.
-- Khi bạn cập nhật các dòng trích dẫn bằng cách sử dụng chế độ xem nhanh, bạn được phép kích hoạt các báo giá.
+- Khi bạn cập nhật các dòng trích dẫn bằng cách sử dụng chế độ xem nhanh, bạn được phép kích hoạt các dòng trích dẫn.

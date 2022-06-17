@@ -1,33 +1,33 @@
 ---
 title: Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
-description: Chủ đề này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ đối với các thông số định giá.
+description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920040"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
 
-Chủ đề này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ đối với các thông số định giá.
+Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
 
 > [!NOTE]
-> Chủ đề này chỉ áp dụng cho báo giá và hợp đồng có trong Dynamics 365 Project Operations.
+> Bài viết này chỉ áp dụng cho các tính năng báo giá và hợp đồng trong Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
-Trước khi hoàn tất các bước trong chủ đề này, bạn phải hoàn thành xong các quy trình trong các chủ đề sau đây:
+Trước khi bạn hoàn thành các bước trong bài viết này, bạn phải hoàn thành các thủ tục trong các bài viết sau:
 
   - [Tạo thực thể và trường tùy chỉnh](create-custom-fields-entities-pricing-dimensions.md) 
   - [Thêm trường tùy chỉnh vào thực thể giao dịch và thiết lập giá ](add-custom-fields-price-setup-transactional-entities.md)
   - [Thiết lập trường tùy chỉnh làm thông số định giá](set-up-custom-fields-pricing-dimensions.md). 
   
-Nếu bạn chưa hoàn thành các quy trình đó, hãy hoàn thành rồi trở lại chủ đề này.
+Nếu bạn chưa hoàn thành các thủ tục đó, hãy hoàn thành chúng và sau đó quay lại bài viết này.
 
 ## <a name="register-a-plug-in"></a>Đăng ký phần bổ trợ
 Khi chi tiết của dòng báo giá được tạo trên trang **Dòng báo giá** cho một dòng báo giá dự án, hệ thống sẽ tạo 2 dòng ước tính. Một dòng là mặt chi phí của ước tính và dòng còn lại là mặt doanh số. Điều này tương tự cho các mô tả hợp đồng.

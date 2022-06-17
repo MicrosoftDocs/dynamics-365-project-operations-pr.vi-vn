@@ -1,22 +1,22 @@
 ---
 title: Tích hợp hóa đơn của dự án
-description: Chủ đề này cung cấp thông tin về tích hợp ghi kép của Project Operations đối với hóa đơn của khách hàng.
+description: Bài viết này cung cấp thông tin về tích hợp ghi kép Hoạt động dự án để lập hóa đơn cho khách hàng.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912128"
 ---
 # <a name="project-invoice-integration"></a>Tích hợp hóa đơn của dự án
 
-Chủ đề này cung cấp thông tin về tích hợp ghi kép của Project Operations đối với hóa đơn của khách hàng.
+Bài viết này cung cấp thông tin về tích hợp ghi kép Hoạt động dự án để lập hóa đơn cho khách hàng.
 
 Trong Project Operations, Người quản lý dự án quản lý tồn đọng thanh toán của dự án và tạo hóa đơn ước giá cho khách hàng trong Microsoft Dataverse. Dựa trên hóa đơn ước giá này, nhân viên Kế toán khoản phải thu hoặc Kế toán viên của dự án lập hóa đơn giao cho khách hàng. Tích hợp ghi kép đảm bảo rằng các chi tiết hóa đơn chiếu lệ được đồng bộ hóa với các ứng dụng Tài chính và Hoạt động. Sau khi hóa đơn giao cho khách hàng được đăng, hệ thống sẽ cập nhật các giá trị thực tế dự án có liên quan trong Dataverse với chi tiết kế toán. Hình ảnh dưới đây cung cấp tổng quan khái niệm cấp cao về quá trình tích hợp này.
 

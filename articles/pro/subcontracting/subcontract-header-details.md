@@ -1,17 +1,17 @@
 ---
 title: Chi tiết tiêu đề cho các hợp đồng phụ
-description: Chủ đề này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Project Operations.
+description: Bài viết này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Hoạt động dự án.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914198"
 ---
 # <a name="header-details-for-subcontracts"></a>Chi tiết tiêu đề cho các hợp đồng phụ
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598192"
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Dynamics 365 Project Operations.
+Bài viết này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Dynamics 365 Project Operations.
 
 Khi Người quản lý dự án lập kế hoạch và thực hiện các dự án, họ có thể thuê các nhà thầu phụ cũng như mua các sản phẩm và dịch vụ từ các nhà cung cấp. Khi Người quản lý dự án cần mua sản phẩm hoặc dịch vụ, họ có thể tạo hợp đồng phụ trong Project Operations.
 

@@ -1,24 +1,24 @@
 ---
 title: Có gì mới Tháng 3 năm 2022 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 3 năm 2022 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 3 năm 2022 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910932"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới Tháng 3 năm 2022 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
 *Áp dụng cho: Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho*
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.30.0.99
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.25
@@ -53,9 +53,9 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Định giá và thanh toán | 2541660 | **Xác thực việc tạo đơn hàng bán hàng** trong tính năng ghi kép chỉ dành cho các đơn đặt hàng dựa trên dự án. |
 | Định giá và thanh toán | 2552745 | Thuế không được phân chia giữa những khách hàng đã thiết lập các quy tắc thanh toán riêng lẻ. |
 | Định giá và thanh toán | 2558859 | Thông báo lỗi được cải thiện khi thiết lập thứ nguyên đặt giá. |
-| Định giá và thanh toán | 2558933 | **Nhập từ Dự toán Dự án** thất bại khi **msdyn\_ dự định** được thêm vào làm thứ nguyên định giá. |
+| Định giá và thanh toán | 2558933 | **Nhập từ Dự toán Dự án** thất bại khi **msdyn\_ dự án** được thêm vào làm thứ nguyên định giá. |
 | Định giá và thanh toán | 2559101 | Việc xóa thông số dự án không bị chặn và gây ra sự cố. |
-|   Quản lý cơ hội | 2570390 | Trình cắm ghi kép buộc loại tài khoản dựa trên báo giá, đơn đặt hàng và cơ hội **Khách hàng**, ngay cả khi loại tài khoản đó không chính xác. |
+|   Quản lý cơ hội | 2570390 | Trình cắm ghi kép buộc loại tài khoản dựa trên báo giá, đơn đặt hàng và cơ hội **khách hàng**, ngay cả khi loại tài khoản đó không chính xác. |
 | Định giá và thanh toán | 2586097 | Các thực tế về chi phí được lập hóa đơn chia nhỏ không bị đảo ngược khi một dự án bị xóa khỏi dòng hợp đồng dự án. |
 | Định giá và thanh toán | 2589619 | Thuế đối với tài liệu ghi vào được tuyên truyền đến các thực tế bán hàng chưa lập hóa đơn và hóa đơn. |
 |   Quản lý cơ hội | 2594015 | Một báo giá không thể được đóng là giành cho những khách hàng có **Net60** điều khoản thanh toán. |
@@ -83,19 +83,19 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Đi lại và chi tiêu | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | Các **Đăng chi phí** nút không hoạt động chính xác trong Hoạt động dự án cho các tình huống tài nguyên / không có sẵn. |
 | Đi lại và chi tiêu | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | Có một vấn đề với **Tỷ lệ mỗi dặm** cho một báo cáo chi phí số dặm bao gồm hành khách. |
 | Đi lại và chi tiêu | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Tỷ lệ số dặm chi phí cho nhân viên không được tính tổng chính xác khi hai loại xe khác nhau được sử dụng trong **Các bậc tỷ lệ dặm bay** danh mục chi phí. |
-| Đi lại và chi tiêu | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Tra cứu **Dự định** trường trên dòng yêu cầu du lịch không trả về danh sách chính xác các dự án. |
+| Đi lại và chi tiêu | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | Tra cứu **Dự án** trường trên dòng yêu cầu du lịch không trả về danh sách chính xác các dự án. |
 | Đi lại và chi tiêu | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Số dặm được đánh giá** hiển thị cảnh báo trên các báo cáo chi phí. |
 | Đi lại và chi tiêu | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Dịch vụ nhận dạng ký tự quang học (OCR) của biên lai không hoạt động do có sự cố với URL của dịch vụ OCR chi phí. |
-| Đi lại và chi tiêu | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Khi mà **Khả năng lập thành các khoản chi phí định kỳ một cách nhanh chóng** tính năng được kích hoạt, số tiền trên các dòng thành khoản trên báo cáo chi phí thay đổi số tiền mỗi khi **Lặp lại** trang được mở. |
+| Đi lại và chi tiêu | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Khi mà **Khả năng thành các khoản chi phí định kỳ một cách nhanh chóng** tính năng được bật, số tiền trên các dòng thành khoản trên báo cáo chi phí thay đổi số tiền mỗi khi **Lặp lại** trang được mở. |
 | Đi lại và chi tiêu | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Bạn không thể xóa báo cáo chi phí khi danh sách tạm thời có nhiều hơn một người phê duyệt. |
 
 ## <a name="removed-and-deprecated-features"></a>Các tính năng đã bị xóa và không dùng nữa
 
-Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) chủ đề mô tả các tính năng đã bị xóa hoặc không được dùng nữa đối với Dynamics 365 Project Operations.
+Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) bài viết mô tả các tính năng đã bị xóa hoặc không được dùng nữa đối với Dynamics 365 Project Operations.
 
 - Tính năng đã xóa không còn khả dụng trong sản phẩm.
 - Một tính năng không dùng nữa không được phát triển tích cực và có thể bị xóa trong bản cập nhật trong tương lai.
 
-Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) chủ đề 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.
+Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.
 
 Đối với các thay đổi vi phạm chỉ ảnh hưởng đến thời gian biên dịch, nhưng tương thích nhị phân với hộp cát và môi trường sản xuất, thời gian ngừng sử dụng sẽ dưới 12 tháng. Thông thường, những thay đổi này là các cập nhật chức năng phải được thực hiện cho trình biên dịch.

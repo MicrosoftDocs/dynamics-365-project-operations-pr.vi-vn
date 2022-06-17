@@ -1,6 +1,6 @@
 ---
 title: Tùy chỉnh mục nhập thời gian hàng tuần
-description: Chủ đề này cung cấp thông tin về cách triển khai các quy tắc kinh doanh tùy chỉnh hỗ trợ cách thức của một tổ chức.
+description: Bài viết này cung cấp thông tin về cách triển khai các quy tắc kinh doanh tùy chỉnh hỗ trợ thực tiễn của tổ chức.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918982"
 ---
 # <a name="customize-weekly-time-entry"></a>Tùy chỉnh mục nhập thời gian hàng tuần 
 
@@ -46,9 +46,9 @@ Phần **Thông số** hiển thị, như tiêu đề cột, tất cả các th�
 - Loại
 - Trạng thái mục nhập
 
-Phần **Thông số** không cho phép chỉnh sửa nội tuyến. Phần này được hỗ trợ bởi một dạng xem cho phép thêm các trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần. Để biết thông tin về cách thêm trường tùy chỉnh, hãy xem phần "Khả năng mở rộng" sau trong chủ đề này.
+Phần **Thông số** không cho phép chỉnh sửa nội tuyến. Phần này được hỗ trợ bởi một dạng xem cho phép thêm các trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần. Để biết thông tin về cách thêm trường tùy chỉnh, hãy xem phần "Khả năng mở rộng" ở phần sau của bài viết này.
 
-### <a name="duration"></a>Khoảng thời gian
+### <a name="duration"></a>Thời lượng
 Phần Thời gian hiển thị các ngày trong tuần dưới dạng tiêu đề cột. Phần này cho phép chỉnh sửa nội tuyến. Sau khi hàng mục nhập thời gian được tạo có các thông số phù hợp, người dùng có thể nhanh chóng nhập nội tuyến khoảng thời gian mà họ đã dành cho các thông số đó.
 
 ## <a name="create-a-new-time-entry"></a>Tạo mục nhập thời gian mới

@@ -1,17 +1,17 @@
 ---
 title: Phát triển mẫu dự án với chức năng Sao chép dự án
-description: Chủ đề này cung cấp thông tin về cách tạo mẫu dự án bằng hành động tùy chỉnh Sao chép dự án.
+description: Bài viết này cung cấp thông tin về cách tạo các mẫu dự án bằng hành động tùy chỉnh Copy Project.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923858"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Phát triển mẫu dự án với chức năng Sao chép dự án
 
@@ -43,8 +43,8 @@ Bảng sau đây cung cấp tóm tắt về ba tham số.
 
 | Tham số                | Loại             | Giá_trị                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **ĐÚNG VẬY** hoặc **SAI** |
-| ClearTeamsAndAssignments | Boolean          | **ĐÚNG VẬY** hoặc **SAI** |
+| ReplaceNamedResources    | Boolean          | **ĐÚNG VẬY** hoặc **Sai** |
+| ClearTeamsAndAssignments | Boolean          | **ĐÚNG VẬY** hoặc **Sai** |
 | SourceProject            | Tham chiếu thực thể | Dự án nguồn    |
 | Mục tiêu                   | Tham chiếu thực thể | Dự án mục tiêu    |
 
@@ -58,7 +58,7 @@ Các xác nhận sau đây được thực hiện.
 2. Hệ thống xác nhận rằng dự án mục tiêu hợp lệ để sao chép bằng cách xác minh các điều kiện sau:
 
     - Không có hoạt động nào trước đó trong dự án (bao gồm cả việc lựa chọn **Nhiệm vụ**), và dự án mới được tạo.
-    - Không có bản sao trước đó, không có lần nhập nào được yêu cầu đối với dự án này và dự án không có **Thất bại** tình trạng.
+    - Không có bản sao trước đó, không có lần nhập nào được yêu cầu đối với dự án này và dự án không có **Thất bại** trạng thái.
 
 3. Thao tác không được gọi bằng cách sử dụng HTTP.
 

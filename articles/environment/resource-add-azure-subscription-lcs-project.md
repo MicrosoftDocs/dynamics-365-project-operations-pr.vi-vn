@@ -1,23 +1,23 @@
 ---
 title: Thêm gói đăng ký Azure vào dự án LCS
-description: Chủ đề này cung cấp thông tin về cách kết nối gói đăng ký Azure của bạn với dự án LCS.
+description: Bài viết này cung cấp thông tin về cách kết nối đăng ký Azure của bạn với một dự án LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912174"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Môi trường được lưu trữ trên đám mây phải được triển khai bằng cách sử dụng đăng ký Azure hiện có. Chủ đề này sẽ giải thích cách kết nối gói đăng ký Azure hiện có của bạn với dự án LCS. 
+Môi trường được lưu trữ trên đám mây phải được triển khai bằng cách sử dụng đăng ký Azure hiện có. Bài viết này giải thích cách kết nối đăng ký Azure hiện có của bạn với một dự án LCS. 
 
 ## <a name="grant-admin-consent"></a>Cấp sự đồng ý của quản trị viên
 
@@ -59,7 +59,7 @@ Sự định quyền hiện đã hoàn tất.
 2. Nhập ID đăng ký Azure của bạn. Bạn có thể tìm thấy ID đăng ký Azure của mình trong [Cổng thông tin Azure](https://ms.portal.azure.com/), ở phần  **Cài đặt**  ở phía dưới bên trái của màn hình.
 3. Trong trường **Đặt cấu hình để sử dụng Azure Resource Manager**, hãy chọn **Có**.
 4. Đảm bảo Miền của đối tượng thuê AAD đăng ký của Azure khớp với đăng ký Azure sở hữu miền mà bạn đang sử dụng rồi chọn **Tiếp theo**.
-5. Trên màn hình **Thiết lập Microsoft Azure**, hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cấp quyền truy cập vào Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong chủ đề này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
+5. Trên màn hình **Thiết lập Microsoft Azure**, hãy chọn **Tiếp theo** để xác nhận. Nếu bạn gặp lỗi trên màn hình này, hãy quay lại phần [Cung cấp quyền truy cập Dịch vụ triển khai Dynamics cho đăng ký Azure](#provide) trong bài viết này và đảm bảo rằng bạn đã hoàn thành tất cả các bước.
 6. Tải Chứng chỉ quản lý Azure xuống một thư mục cục bộ trên máy tính của bạn. Yêu cầu quản trị viên đăng ký Azure của bạn tải chứng chỉ lên Cổng quản lý của Azure bằng cách chọn đăng ký rồi chuyển đến phần **Cài đặt** > **Chứng chỉ quản lý**. Chứng chỉ này cho phép LCS thay mặt bạn để giao tiếp với Azure. Bạn có thể bỏ qua bước này nếu người dùng của bạn có quyền truy cập vào đăng ký.
 7. Chọn  **Tiếp theo**.
 8. Chọn vùng Azure để triển khai và chọn một trung tâm dữ liệu gần nơi bạn định sử dụng hệ thống này.

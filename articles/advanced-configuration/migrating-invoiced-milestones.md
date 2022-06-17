@@ -1,17 +1,17 @@
 ---
 title: Di chuyển các mốc thanh toán được lập hóa đơn đầy đủ tại thời điểm cắt
-description: Chủ đề này giải thích cách di chuyển các mốc thanh toán giá cố định đã được lập hóa đơn cho khách hàng đối với các hợp đồng dự án mở trước ngày hoạt động.
+description: Bài viết này giải thích cách di chuyển các mốc thanh toán giá cố định đã được lập hóa đơn cho khách hàng đối với các hợp đồng dự án đang mở trước ngày hoạt động.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912266"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Di chuyển các mốc thanh toán được lập hóa đơn đầy đủ tại thời điểm cắt
 
@@ -40,7 +40,7 @@ Contoso sẽ phát trực tiếp với Microsoft Dynamics 365 Project Operations
 2. Dừng lại và làm mới **Các mốc quan trọng của dòng hợp đồng tích hợp Hoạt động dự án** (**msdyn\_ hợp đồng**) bản đồ ghi kép. 
 
     1. Đi đến **Quản lý dữ liệu** \> **Viết kép**, chọn bản đồ và mở chi tiết của nó. 
-    2. Lựa chọn **Ngừng lại** và đợi cho đến khi hệ thống dừng bản đồ. 
+    2. Lựa chọn **Dừng lại** và đợi cho đến khi hệ thống dừng bản đồ. 
     3. Lựa chọn **Làm mới bảng**.
 
 3. Thêm ánh xạ cho trạng thái giao dịch.
@@ -54,16 +54,16 @@ Contoso sẽ phát trực tiếp với Microsoft Dynamics 365 Project Operations
     7. Bên trong **Biến đổi kiểu** trường, chọn **Bản đồ giá trị**.
     8. Lựa chọn **Thêm ánh xạ giá trị**.
     9. Trong trường bên trái, hãy nhập **4**. Trong trường bên phải, hãy nhập **192350001**. 
-    10. Lựa chọn **Cứu**, và sau đó đóng hộp thoại.
+    10. Lựa chọn **Tiết kiệm**, và sau đó đóng hộp thoại.
 
 4. Lựa chọn **Lưu thành** để lưu phiên bản của bản đồ ghi kép. 
 5. Bên trong **Thêm bảng** ngăn, trong **Nhà xuất bản** trường, chọn **Nhà xuất bản mặc định**.
 6. Bên trong **Phiên bản** trường, nhập phiên bản.
-7. Bên trong **Sự miêu tả**, hãy nhập ghi chú về phiên bản cắt này của bản đồ. 
+7. Bên trong **Sự mô tả**, hãy nhập ghi chú về phiên bản cắt này của bản đồ. 
 8. Chọn **Lưu.**
 9. Bắt đầu bản đồ.
 
-### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Di chuyển các mốc đã lập hóa đơn sang Dataverse môi trường
+### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Di chuyển các mốc đã lập hóa đơn sang Dataverse Môi trường
 
 1. Trong hoạt động dự án Dataverse môi trường, tạo các cột mốc có trạng thái hóa đơn là **Sẵn sàng cho việc lập hóa đơn**. Tại thời điểm này, đừng di chuyển bất kỳ cột mốc nào chưa được lập hóa đơn.
 
@@ -79,16 +79,16 @@ Contoso sẽ phát trực tiếp với Microsoft Dynamics 365 Project Operations
     Để dừng bản đồ, hãy làm theo các bước sau:
 
     1. Trong Tài chính, hãy chuyển đến **Quản lý dữ liệu** \> **Viết kép**, chọn một bản đồ và mở chi tiết của nó.
-    2. Lựa chọn **Ngừng lại** và đợi cho đến khi hệ thống dừng bản đồ.
+    2. Lựa chọn **Dừng lại** và đợi cho đến khi hệ thống dừng bản đồ.
 
 3. Trong hoạt động dự án Dataverse môi trường, tạo và xác nhận hóa đơn chiếu lệ cho các mốc thanh toán. 
 
     1. Trong sơ đồ trang web, hãy chuyển đến các hợp đồng dự án, chọn các hợp đồng, sau đó chọn **Tạo hóa đơn**.
     2. Sau khi các hóa đơn được tạo, hãy mở chúng từ **Hóa đơn** trong sơ đồ trang web, sau đó chọn **Xác nhận**.
 
-    Bước này tạo các bản ghi được yêu cầu trong Dataverse môi trường. Tuy nhiên, nó không ảnh hưởng đến tài chính và các khoản phải thu, vì các bản đồ ghi kép được liệt kê trước đó đã bị dừng.
+    Bước này tạo các bản ghi được yêu cầu trong Dataverse Môi trường. Tuy nhiên, nó không ảnh hưởng đến tài chính và các khoản phải thu, vì các bản đồ ghi kép được liệt kê trước đây đã bị dừng.
 
-4. Sau khi tất cả các hóa đơn chiếu lệ được xác nhận, hãy trả tất cả các bản đồ viết kép về trạng thái ban đầu.
+4. Sau khi tất cả các hóa đơn chiếu lệ được xác nhận, hãy trả tất cả các bản đồ ghi kép về trạng thái ban đầu.
 
     1. Cập nhật phiên bản của **Các mốc quan trọng của dòng hợp đồng tích hợp Hoạt động dự án** (**msdyn\_ hợp đồng**) bản đồ ghi kép trở lại bản gốc. 
     2. Chọn bản đồ ghi kép trong danh sách bản đồ, chọn **Phiên bản bản đồ bảng**, và sau đó chọn phiên bản gốc của sơ đồ bảng.
@@ -99,4 +99,4 @@ Contoso sẽ phát trực tiếp với Microsoft Dynamics 365 Project Operations
         - Giá trị tích hợp thực tế của Project Operations (msdyn\_actuals)
         - Đề xuất hóa đơn dự án V2 (hóa đơn)
 
-Các mốc quan trọng hiện đã được di chuyển và hệ thống đã sẵn sàng cho các bước tiếp theo trong hoạt động chuyển đổi.
+Các mốc hiện đã được di chuyển và hệ thống đã sẵn sàng cho các bước tiếp theo trong hoạt động chuyển đổi.

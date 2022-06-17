@@ -1,6 +1,6 @@
 ---
 title: Trang chủ báo cáo
-description: Chủ đề này cung cấp thông tin về báo cáo trong Dynamics 365 Project Service Automation.
+description: Bài viết này cung cấp thông tin về báo cáo trong Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921696"
 ---
 # <a name="reporting-home-page"></a>Trang chủ báo cáo
 
@@ -47,7 +47,7 @@ Microsoft Power BI và Dynamics 365 mang lại cho bạn một cách hiệu qu�
 
 
 ## <a name="additional-resources"></a>Tài nguyên bổ sung
-Để biết thêm thông tin về báo cáo trong PSA, hãy xem các chủ đề sau:
+Để biết thêm thông tin về báo cáo trong PSA, hãy xem các bài viết sau:
 
 - [Làm việc với mô hình dữ liệu Project Service](reports-working-project-service-data-model.md)
 - [Bảng thông tin](reports-dashboards.md)

@@ -1,6 +1,6 @@
 ---
 title: Thiết lập trường tùy chỉnh làm thông số định giá
-description: Chủ đề này cung cấp thông tin về cách thiết lập thông số định giá tùy chỉnh.
+description: Bài viết này cung cấp thông tin về cách thiết lập thứ nguyên đặt giá tùy chỉnh.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922623"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Thiết lập trường tùy chỉnh làm thông số định giá 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Trước khi bắt đầu, chủ đề này giả định rằng bạn đã hoàn tất quy trình trong các chủ đề, [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md) và [Thêm các trường tùy chỉnh vào thực thể thiết lập và giao dịch giá](field-references.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại chủ đề này. 
+Trước khi bạn bắt đầu, bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md) và [Thêm các trường tùy chỉnh vào các thực thể thiết lập giá và giao dịch](field-references.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này. 
 
-Chủ đề này cung cấp thông tin về cách thiết lập thông số định giá tùy chỉnh. Trong giao diện web Project Service, trên trang **Tham số**, tab **Thông số định giá dựa trên số lượng** hiển thị các bản ghi trong thực thể thông số định giá. Theo mặc định, quá trình cài đặt Project Service tạo ra 2 hàng trong lưới trên tab này:
+Bài viết này cung cấp thông tin về cách thiết lập thứ nguyên đặt giá tùy chỉnh. Trong giao diện web Project Service, trên trang **Tham số**, tab **Thông số định giá dựa trên số lượng** hiển thị các bản ghi trong thực thể thông số định giá. Theo mặc định, quá trình cài đặt Project Service tạo ra 2 hàng trong lưới trên tab này:
 
 - **msdyn_resourcecategory** (Vai trò)
 - **msdyn_OrganizationalUnit** (Đơn vị tổ chức)

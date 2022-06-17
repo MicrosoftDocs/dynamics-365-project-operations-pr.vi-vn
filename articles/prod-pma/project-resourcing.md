@@ -1,6 +1,6 @@
 ---
 title: Trang chủ về nguồn lực dự án
-description: Chủ đề này cung cấp thông tin về nguồn lực dự án.
+description: Bài viết này cung cấp thông tin về nguồn cung ứng dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924042"
 ---
 # <a name="project-resourcing-home-page"></a>Trang chủ về nguồn lực dự án
 
 [!include [banner](../includes/banner.md)]
 
-Chủ đề này cung cấp thông tin về nguồn lực dự án.
+Bài viết này cung cấp thông tin về nguồn cung ứng dự án.
 
 Một thách thức đối với các nhà quản lý dự án và quản lý nguồn lực trong giai đoạn lập kế hoạch dự án là phân bổ nguồn lực, nơi họ phải xác định và dành nguồn lực chính xác để làm việc trong một dự án. Trong Dynamics 365 Finance, khả năng nguồn lực cho các dự án cho phép bạn xác định các vai trò được coi là tài nguyên tạm thời có thể được dành riêng cho một cam kết cụ thể hoặc một phần của một cam kết. Loại nguồn lực này cho phép các nhà quản lý dự án và quản lý nguồn lực hoàn thành các nhiệm vụ sau:
 
@@ -41,7 +41,7 @@ Một thách thức đối với các nhà quản lý dự án và quản lý ng
 
 Khi tiến hành lập kế hoạch dự án, có thể thay thế các nguồn lực theo kế hoạch bằng nguồn lực có biên chế. Người quản lý dự án cũng có thể quay lại và cập nhật dự trữ nguồn lực trong bất kỳ giai đoạn nào của dự án.
 
-Các chủ đề sau đây cung cấp thông tin về các nhiệm vụ cần phải hoàn thành khi bạn đang thực hiện các dự án nguồn lực.
+Các bài viết sau đây cung cấp thông tin về các nhiệm vụ cần phải hoàn thành khi bạn đang thực hiện các dự án nguồn lực.
 
 - [Thiết lập nguồn lực dự án](set-up-project-resources.md)
 - [Quản lý năng lực của nguồn lực](manage-resource-competencies.md)

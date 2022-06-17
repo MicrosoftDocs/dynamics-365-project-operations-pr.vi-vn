@@ -1,22 +1,22 @@
 ---
 title: Có gì mới tháng 2 năm 2021 – Project Operations bản triển khai giản đơn
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong bản triển khai giản đơn Project Operations phát hành vào tháng 2 năm 2021.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 2 năm 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914060"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Có gì mới tháng 2 năm 2021 – Project Operations bản triển khai giản đơn
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.7.0.95
 

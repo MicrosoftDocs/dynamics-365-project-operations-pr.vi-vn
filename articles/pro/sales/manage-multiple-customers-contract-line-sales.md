@@ -1,17 +1,17 @@
 ---
 title: Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án.
+description: Bài viết này cung cấp thông tin về việc quản lý nhiều khách hàng trên các dòng hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 565ae4d2c639b3933c0a05c04f27367ef16fece7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922156"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án - bản đơn giản
 

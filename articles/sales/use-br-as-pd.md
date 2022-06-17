@@ -1,26 +1,26 @@
 ---
 title: Dùng nguồn lực đăng ký được làm thông số định giá
-description: Chủ đề này cung cấp thông tin về cách dùng nguồn lực đăng ký được làm thông số định giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng tài nguyên có thể đặt trước làm thứ nguyên định giá.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914842"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Dùng nguồn lực đăng ký được làm thông số định giá
 
  _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_ 
 
-Chủ đề này cung cấp thông tin về cách dùng nguồn lực đăng ký được làm thông số định giá. Nếu chiến lược của bạn là thiết lập giá cả sao cho mỗi nguồn lực đăng ký được phải có một mức giá hoặc chi phí cụ thể, thì hãy dùng nguồn lực đăng ký được làm thông số định giá.
+Bài viết này cung cấp thông tin về cách sử dụng tài nguyên có thể đặt trước làm thứ nguyên định giá. Nếu chiến lược của bạn là thiết lập giá cả sao cho mỗi nguồn lực đăng ký được phải có một mức giá hoặc chi phí cụ thể, thì hãy dùng nguồn lực đăng ký được làm thông số định giá.
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
-Trước khi hoàn thành các quy trình trong chủ đề này, bạn phải có một giải pháp thông số định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Trước khi hoàn tất các thủ tục trong bài viết này, bạn phải có giải pháp thứ nguyên định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Thêm trường Nguồn lực đăng ký được vào các biểu mẫu và dạng xem
 Để trường **Nguồn lực đăng ký được** hiển thị trong giải pháp thông số định giá, bạn phải thêm trường này vào tất cả biểu mẫu và dạng xem như một thực thể.

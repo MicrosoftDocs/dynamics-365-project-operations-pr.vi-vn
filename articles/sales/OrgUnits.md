@@ -1,6 +1,6 @@
 ---
 title: Đơn vị tổ chức
-description: Chủ đề này mô tả khái niệm đơn vị tổ chức và giải thích cách tạo và duy trì các đơn vị tổ chức trong Microsoft Dynamics 365 Project Operations.
+description: Bài viết này mô tả khái niệm đơn vị tổ chức và giải thích cách tạo và duy trì các đơn vị tổ chức trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921650"
 ---
 # <a name="organizational-units-overview"></a>Tổng quan về đơn vị tổ chức
 
@@ -166,9 +166,9 @@ Các **Đơn vị ký kết** và **Tiền tệ** các trường của dự án 
 1. Đi đến **Cài đặt \> Đơn vị tổ chức**.
 2. Chọn **Mới**.
 3. Bên trong **Chung** khu vực, trong **Tên**, hãy nhập tên cho đơn vị tổ chức. Sau đó đặt các trường khác theo yêu cầu.
-4. Lựa chọn **Cứu** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa nó.
-5. Ở dưới **Bảng giá chi phí**, chọn dấu cộng (**+**) để thêm bảng giá. Bạn chỉ có thể thêm danh sách giá có **Phí tổn** bối cảnh ở đây.
+4. Lựa chọn **Tiết kiệm** để tạo bản ghi để bạn có thể tiếp tục chỉnh sửa nó.
+5. Dưới **Bảng giá chi phí**, chọn dấu cộng (**+**) để thêm bảng giá. Bạn chỉ có thể thêm danh sách giá có **Phí tổn** bối cảnh ở đây.
 6. Bên trong **Tên** trường, chọn **Tìm kiếm** và chọn một danh sách giá mà bạn muốn cung cấp cho đơn vị tổ chức. Tiếp tục bổ sung bảng giá theo yêu cầu.
-7. Khi bạn đã hoàn tất việc thêm danh sách giá, hãy chọn **Cứu** ở góc dưới bên phải của trang.
+7. Khi bạn đã hoàn tất việc thêm danh sách giá, hãy chọn **Tiết kiệm** ở góc dưới bên phải của trang.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

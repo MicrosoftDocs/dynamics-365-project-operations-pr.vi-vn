@@ -1,30 +1,30 @@
 ---
 title: Có gì mới vào tháng 2 năm 2022 - Triển khai Project Operations Lite
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản triển khai Project Operations lite vào tháng 2 năm 2022.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite tháng 2 năm 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922846"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Có gì mới vào tháng 2 năm 2022 - Triển khai Project Operations Lite
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-Kể từ phiên bản này, bạn có thể thêm tối đa 300 thành viên trong nhóm vào một dự án. Trước đây, giới hạn về số lượng thành viên trong nhóm là 150. Để biết thêm thông tin, hãy xem [Các giới hạn của dự án](../../project-management/create-wbs.md#project-limitations).
+Kể từ bản phát hành này, bạn có thể thêm tối đa 300 thành viên trong nhóm vào một dự án. Trước đây, giới hạn về số lượng thành viên trong nhóm là 150. Để biết thêm thông tin, hãy xem [Các giới hạn của dự án](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 

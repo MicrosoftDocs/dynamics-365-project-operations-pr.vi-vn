@@ -1,25 +1,25 @@
 ---
 title: Cập nhật Project Operations trong môi trường Tài chính
-description: Chủ đề này cung cấp thông tin về cách cập nhật Hoạt động dự án trong môi trường Dynamics 365 Finance của bạn.
+description: Bài viết này cung cấp thông tin về cách cập nhật Hoạt động dự án trong môi trường Dynamics 365 Finance của bạn.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912496"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Cập nhật Project Operations trong môi trường Tài chính
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 
-Chủ đề này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance của bạn. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
+Bài viết này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance của bạn. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
 
 - [Nhập gói vào dự án thử nghiệm](#import)
 - [Áp dụng bản cập nhật](#apply)

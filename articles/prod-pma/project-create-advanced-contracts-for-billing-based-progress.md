@@ -1,6 +1,6 @@
 ---
 title: Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
-description: Chủ đề này giải thích cách tạo hợp đồng dự án để bạn có thể tạo hóa đơn cho khách hàng, dựa trên phần trăm công việc đã hoàn thành.
+description: Bài viết này giải thích cách tạo hợp đồng dự án để bạn có thể tạo hóa đơn cho khách hàng, dựa trên phần trăm công việc đã hoàn thành.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913692"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Tạo hợp đồng nâng cao để thanh toán dựa trên tiến độ
 [!include [banner](../includes/banner.md)]
 
-Chủ đề này giải thích cách tạo hợp đồng dự án để bạn có thể tạo hóa đơn cho khách hàng, dựa trên phần trăm công việc đã hoàn thành. Số tiền trong hóa đơn được tính toán tự động cho các hạng mục ngân sách của công việc mà bạn thiết lập cho một dự án. Thời gian lập hóa đơn được đặt khi bạn thương lượng hợp đồng dự án với khách hàng.
+Bài viết này giải thích cách tạo hợp đồng dự án để bạn có thể tạo hóa đơn cho khách hàng, dựa trên phần trăm công việc đã hoàn thành. Số tiền trong hóa đơn được tính toán tự động cho các hạng mục ngân sách của công việc mà bạn thiết lập cho một dự án. Thời gian lập hóa đơn được đặt khi bạn thương lượng hợp đồng dự án với khách hàng.
 
-Sử dụng các quy trình trong chủ đề này để thiết lập một hợp đồng, một dự án liên quan và các quy tắc thanh toán để tính toán số tiền trên hóa đơn cho các hạng mục ngân sách của công việc mà bạn thiết lập cho dự án.
+Sử dụng các quy trình trong bài viết này để thiết lập một hợp đồng, một dự án liên quan và các quy tắc thanh toán để tính toán số tiền trên hóa đơn cho các hạng mục ngân sách của công việc mà bạn thiết lập cho dự án.
 
 Sau khi tạo hợp đồng và dự án, bạn có thể thiết lập các chi tiết của dự án. Ví dụ: bạn có thể xác định các hoạt động và chỉ định nhân viên cho dự án.
 

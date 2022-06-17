@@ -1,17 +1,17 @@
 ---
 title: Nhập số liệu ước tính cho dự án vào phần mô tả báo giá dựa trên dự án - bản đơn giản
-description: Chủ đề này cung cấp thông tin về cách nhập giá trị ước tính từ dự án vào mục mô tả báo giá.
+description: Bài viết này cung cấp thông tin về cách nhập dự toán từ một dự án vào dòng báo giá.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c676011660cd06e49996c137f7e9dca0ef2e491
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917326"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Nhập ước tính cho dự án vào mô tả báo giá dựa trên dự án 
 

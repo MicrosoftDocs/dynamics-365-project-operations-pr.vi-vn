@@ -1,24 +1,24 @@
 ---
 title: Các tính năng đã bị xóa hoặc không dùng nữa trong Dynamics 365 Project Operations
-description: Chủ đề này mô tả các tính năng đã bị xóa hoặc được lên kế hoạch xóa khỏi Dynamics 365 Project Operations.
+description: Bài viết này mô tả các tính năng đã bị xóa hoặc được lên kế hoạch xóa khỏi Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921512"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Các tính năng đã bị xóa hoặc không dùng nữa trong Dynamics 365 Project Operations
 
 _**Áp dụng đối với:** Project Operations cho tình huống dựa trên nguồn lực/hàng không nhập kho, triển khai Lite - từ thỏa thuận đến lập hóa đơn ước giá và Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Chủ đề này mô tả các tính năng đã bị xóa hoặc được lên kế hoạch xóa khỏi Dynamics 365 Project Operations.
+Bài viết này mô tả các tính năng đã bị xóa hoặc được lên kế hoạch xóa khỏi Dynamics 365 Project Operations.
 
 - Tính năng *đã xóa* không còn khả dụng trong sản phẩm.
 - Tính năng *không dùng nữa* không ở trong giai đoạn phát triển tích cực và có thể bị xóa khỏi bản cập nhật trong tương lai.
@@ -34,7 +34,7 @@ Danh sách này giúp bạn cân nhắc những tính năng cần xóa và khôn
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Lý do không dùng nữa/xóa** | Các giao dịch điều chỉnh được yêu cầu cho các mục đích kiểm toán. Sau khi không dùng nữa, thông số này sẽ bị ẩn. Hệ thống sẽ luôn tạo các giao dịch điều chỉnh, giống như hiện tại khi thông số được đặt thành **Đúng**. |
+| **Lý do không dùng nữa/xóa** | Các giao dịch điều chỉnh là bắt buộc cho các mục đích kiểm toán. Sau khi không dùng nữa, thông số này sẽ bị ẩn. Hệ thống sẽ luôn tạo các giao dịch điều chỉnh, giống như hiện tại khi thông số được đặt thành **Đúng**. |
 | **Được thay thế bởi một tính năng khác?** | No |
 | **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
 | **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |
@@ -44,7 +44,7 @@ Danh sách này giúp bạn cân nhắc những tính năng cần xóa và khôn
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Lý do không dùng nữa/xóa** | Thông số này ban đầu được sử dụng để cho phép điều chỉnh khi kỳ tài chính bị đóng. Tuy nhiên, nó không còn bắt buộc nữa, vì ngày kế toán của giao dịch có thể được thay đổi thành ngày đầu tiên của khoảng thời gian mở, nếu nó được định cấu hình. Ngày dự án không được thay đổi, vì nó đại diện cho ngày giao dịch xảy ra. |
+| **Lý do không dùng nữa/xóa** | Thông số này ban đầu được sử dụng để cho phép điều chỉnh khi kỳ tài chính bị đóng. Tuy nhiên, nó không còn bắt buộc nữa, vì ngày kế toán của giao dịch có thể được thay đổi thành ngày đầu tiên của khoảng thời gian mở, nếu nó được định cấu hình. Ngày của dự án không được thay đổi, vì nó đại diện cho ngày mà giao dịch xảy ra. |
 | **Được thay thế bởi một tính năng khác?** | No |
 | **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
 | **Tùy chọn triển khai** | Hoạt động dự án cho các kịch bản sản xuất / tồn kho |
@@ -64,7 +64,7 @@ Danh sách này giúp bạn cân nhắc những tính năng cần xóa và khôn
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Lý do không dùng nữa/xóa** | Không được chấp nhận vì các cải tiến đối với trang đã được giới thiệu cùng với **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Đầu trang và Dòng** phím tính năng. |
+| **Lý do không dùng nữa/xóa** | Không được chấp nhận vì những cải tiến đối với trang đã được giới thiệu cùng với **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Header và Lines** phím tính năng. |
 | **Được thay thế bởi một tính năng khác?** | Có |
 | **Lĩnh vực sản phẩm bị ảnh hưởng** | Ứng dụng |
 | **Tùy chọn triển khai** | Điều hành dự án cho các kịch bản sản xuất / tồn kho; Hoạt động dự án cho các tình huống tài nguyên / không có hàng |
@@ -74,7 +74,7 @@ Danh sách này giúp bạn cân nhắc những tính năng cần xóa và khôn
 
 ### <a name="collaboration-workspaces"></a>Không gian làm việc cộng tác
 
-[Tạo hoặc liên kết đến một không gian làm việc cộng tác (Dự án)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
+[Tạo hoặc liên kết đến không gian làm việc cộng tác (Dự án)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
 
 | &nbsp; | &nbsp; |
 |--------|--------|

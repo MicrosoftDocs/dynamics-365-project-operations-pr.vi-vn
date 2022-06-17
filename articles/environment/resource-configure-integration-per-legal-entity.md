@@ -1,23 +1,23 @@
 ---
 title: Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân
-description: Chủ đề này cung cấp thông tin về cách thiết lập tích hợp theo pháp nhân trong Project Operations.
+description: Bài viết này cung cấp thông tin về cách thiết lập tích hợp của pháp nhân trong Hoạt động dự án.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914704"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Đặt cấu hình tích hợp Project Operations cho mỗi pháp nhân 
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này sẽ hướng dẫn bạn qua các bước cần thiết để định cấu hình Dynamics 365 Project Operations mỗi pháp nhân.
+Bài viết này hướng dẫn bạn các bước cần thiết để cấu hình Dynamics 365 Project Operations mỗi pháp nhân.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Bật các phím tính năng trong Dynamics 365 Finance
 
@@ -36,7 +36,7 @@ Hoàn thành các bước sau để bật các tính năng cần thiết.
 
 Bạn có thể bật Hoạt động dự án trên Dynamics 365 Customer Engagement ở cấp pháp nhân. Bạn có thể có một pháp nhân hợp pháp sử dụng Hoạt động dự án trên Dynamics 365 Customer Engagement cho các tình huống dựa trên tài nguyên / không có kho. Trong cùng một môi trường, bạn có thể có một pháp nhân khác sử dụng Project Operations cho các kịch bản trữ kho/lệnh sản xuất.
 
-1. Trong Dynamics 365 Finance, hãy truy cập **Quản lý dự án và kế toán** > **Cài đặt** > **Quản lý dự án toàn cầu và các thông số kế toán**.
+1. Trong Dynamics 365 Finance, hãy truy cập **Quản lý dự án và kế toán** > **Thành lập** > **Quản lý dự án toàn cầu và các thông số kế toán**.
 2. Trong danh sách các pháp nhân hiện có, hãy chọn các pháp nhân có nhiều dòng hợp đồng và Hoạt động dự án trên các tính năng Dynamics 365 Customer Engagement sẽ được bật. Bỏ chọn các pháp nhân sẽ sử dụng Project Operations cho các kịch bản trữ kho/lệnh sản xuất.
 
 > [!NOTE]

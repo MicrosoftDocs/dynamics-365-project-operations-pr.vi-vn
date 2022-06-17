@@ -1,17 +1,17 @@
 ---
 title: Hành vi trên giao diện người dùng của mục nhập thời gian
-description: Chủ đề này cung cấp thông tin về hành vi trên giao diện người dùng của mục nhập thời gian.
+description: Bài viết này cung cấp thông tin về hoạt động của giao diện người dùng cho Mục nhập thời gian.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918200"
 ---
 # <a name="time-entry-ui-behavior"></a>Hành vi trên giao diện người dùng của mục nhập thời gian
 

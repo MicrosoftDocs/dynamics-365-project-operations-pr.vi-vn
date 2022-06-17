@@ -1,24 +1,24 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Project Operations kể từ tháng 3 năm 2021 cho các kịch bản dựa trên vật tư tồn kho/sản xuất
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Project Operations phát hành vào tháng 3 năm 2021 cho các kịch bản dựa trên sản xuất/vật tư tồn kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 3 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên sản xuất / tồn kho.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911346"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Tính năng mới hoặc đã thay đổi trong Project Operations kể từ tháng 3 năm 2021 cho các kịch bản dựa trên vật tư tồn kho/sản xuất
 
 _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.17
 

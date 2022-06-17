@@ -1,6 +1,6 @@
 ---
 title: Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
-description: Chủ đề này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ cho các thông số định giá.
+description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913232"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Nếu đang không dùng tính năng Báo giá và Hợp đồng của Project Service Automation (PSA), bạn có thể bỏ qua chủ đề này.
+> Nếu bạn không sử dụng các tính năng Báo giá và Hợp đồng Tự động hóa Dịch vụ Dự án (PSA), bạn có thể bỏ qua bài viết này.
 
-Chủ đề này giả định rằng bạn đã hoàn tất quy trình trong các chủ đề [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md), [Thêm các trường tùy chỉnh vào thực thể thiết lập và giao dịch giá](field-references.md) và [Thiết lập trường tùy chỉnh làm thông số định giá](set-up-pricing-dimensions.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại chủ đề này.
+Bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md),[Thêm các trường tùy chỉnh vào các thực thể thiết lập giá và giao dịch](field-references.md), và [Thiết lập các trường tùy chỉnh làm thứ nguyên đặt giá](set-up-pricing-dimensions.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này.
 
 Khi chi tiết mô tả báo giá được tạo trên trang **Mô tả báo giá** cho chi tiết báo giá dự án, hệ thống sẽ tạo 2 mô tả ước tính trong nền -- một mô tả cho chi phí ước tính và một mô tả cho doanh số. Điều này tương tự cho các mô tả hợp đồng.
 

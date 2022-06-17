@@ -1,24 +1,24 @@
 ---
 title: Ước tính dự án và tích hợp thực tế
-description: Chủ đề này cung cấp thông tin về tích hợp ghi kép Project Operations cho các giá trị ước tính và thực tế dự án.
+description: Bài viết này cung cấp thông tin về tích hợp ghi kép Hoạt động dự án cho các ước tính và thực tế của dự án.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914612"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Ước tính dự án và tích hợp thực tế
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này cung cấp thông tin về tích hợp ghi kép Project Operations cho các giá trị ước tính và thực tế dự án.
+Bài viết này cung cấp thông tin về tích hợp ghi kép Hoạt động dự án cho các ước tính và thực tế của dự án.
 
 ## <a name="project-estimates"></a>Ước tính dự án
 
@@ -38,7 +38,7 @@ Kế toán dự án xem xét các bản ghi giờ dự báo được tạo trong
 
 ## <a name="expense-estimates"></a>Ước tính chi phí
 
-Ước tính chi phí được tạo ra bởi Người quản lý dự án trên tab **Ước tính chi phí** trên trang **Chi tiết dự án** trong Dataverse. Hồ sơ ước tính chi phí được lưu trữ trong thực thể **Mô tả ước tính** trong Dataverse. Các bản ghi ước tính này có lớp giao dịch, **Chi phí** và được đồng bộ hóa với các bản ghi dự báo chi phí trong ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Thực thể tích hợp Hoạt động Dự án để ước tính chi phí (msdyn\_ đường ước tính)**.
+Ước tính chi phí được tạo ra bởi Người quản lý dự án trên tab **Ước tính chi phí** trên trang **Chi tiết dự án** trong Dataverse. Hồ sơ ước tính chi phí được lưu trữ trong thực thể **Mô tả ước tính** trong Dataverse. Các bản ghi ước tính này có lớp giao dịch, **Chi phí** và được đồng bộ hóa với hồ sơ dự báo chi phí trong ứng dụng Tài chính và Hoạt động bằng cách sử dụng **Thực thể tích hợp Hoạt động Dự án để ước tính chi phí (msdyn\_ đường ước tính)**.
 
    ![Tích hợp ước tính chi phí.](./Media/DW4ExpenseEstimates.png)
 

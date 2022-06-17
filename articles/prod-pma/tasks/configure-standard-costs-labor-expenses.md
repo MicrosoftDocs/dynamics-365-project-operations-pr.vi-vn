@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình chi phí tiêu chuẩn cho nhân công và chi phí
-description: Chủ đề này giải thích cách thiết lập chi phí tiêu chuẩn cho nhân công và chi phí cho dự án.
+description: Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho lao động và chi phí cho một dự án.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919564"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Đặt cấu hình chi phí tiêu chuẩn cho nhân công và chi phí
 
 [!include [banner](../../includes/banner.md)]
 
-Chủ đề này giải thích cách thiết lập chi phí tiêu chuẩn cho nhân công và chi phí cho dự án. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
+Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho lao động và chi phí cho một dự án. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 
 1. Ở ngăn điều hướng, chuyển tới **Mô-đun > Quản lý dự án và kế toán > Thiết lập> Giá > Giá vốn (giờ)**.
 2. Chọn **Mới**.

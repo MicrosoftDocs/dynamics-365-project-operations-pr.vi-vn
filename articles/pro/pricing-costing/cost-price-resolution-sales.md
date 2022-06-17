@@ -1,18 +1,18 @@
 ---
 title: Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án
-description: Chủ đề này cung cấp thông tin về cách giải quyết giá vốn trên giá trị thực tế và ước tính của dự án.
+description: Bài viết này cung cấp thông tin về cách giải quyết giá chi phí trên thực tế và ước tính dự án.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 94aa1a62ad17fdeb3da8499585ac704b5db75701
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917556"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án 
 

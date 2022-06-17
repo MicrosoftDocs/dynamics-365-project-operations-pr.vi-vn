@@ -1,6 +1,6 @@
 ---
 title: Chỉnh sửa hàng loạt dữ liệu thực tế được tạo bởi các mục nhập thời gian và chi phí đã phê duyệt
-description: Chủ đề này giải thích cách quản trị viên có thể thực hiện chỉnh sửa từng phần hoặc hàng loạt đối với các mục nhập thời gian hoặc chi phí đã phê duyệt trước đó nếu chưa hoàn tất thanh toán.
+description: Bài viết này giải thích cách quản trị viên có thể thực hiện các chỉnh sửa đơn lẻ hoặc hàng loạt đối với các mục nhập thời gian hoặc chi phí đã được phê duyệt trước đó nếu việc thanh toán chưa hoàn tất.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916315"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Chỉnh sửa hàng loạt dữ liệu thực tế được tạo bởi các mục nhập thời gian và chi phí đã phê duyệt
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683388"
 
 Đôi khi, một mục nhập thời gian hoặc chi phí có thể bị nhập sai. Ví dụ: tư vấn viên có thể chọn sai ngày khi tạo mục nhập thời gian hoặc họ có thể đổi chỗ các số khi nhập chi phí. Nếu tư vấn viên không thể cập nhật các mục nhập đã gửi, thì quản trị viên có thể trực tiếp chỉnh sửa mục nhập đó cho dự án.
 
-Để hoàn thành các quy trình trong chủ đề này, bạn sẽ cần các quyền của Quản trị viên.
+Để hoàn thành các thủ tục trong bài viết này, bạn sẽ cần quyền Quản trị viên.
 
 ## <a name="correct-approved-time-entries"></a>Chỉnh sửa mục nhập thời gian đã phê duyệt     
 

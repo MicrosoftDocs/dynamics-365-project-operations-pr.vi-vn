@@ -1,17 +1,17 @@
 ---
 title: Sử dụng Thể loại giao dịch làm thông số định giá
-description: Chủ đề này cung cấp thông tin về cách sử dụng trường Thể loại giao dịch làm thông số định giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng trường Danh mục giao dịch làm thứ nguyên đặt giá.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911735"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Sử dụng Thể loại giao dịch làm thông số định giá
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591154"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Chủ đề này giải thích cách dùng trường **Thể loại giao dịch** làm thông số định giá. 
+Bài viết này giải thích cách sử dụng **Loại giao dịch** trường làm thứ nguyên định giá. 
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
-Trước khi hoàn thành các quy trình trong chủ đề này, bạn phải có một giải pháp thông số định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh dưới dạng thông số định giá](create-custom-fields-entities-pricing-dimensions.md).
+Trước khi hoàn tất các thủ tục trong bài viết này, bạn phải có giải pháp thứ nguyên định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh dưới dạng thông số định giá](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Thêm trường Thể loại giao dịch vào các biểu mẫu và dạng xem
 Để trường **Thể loại giao dịch** hiển thị trong giải pháp thông số định giá, bạn phải thêm trường này vào tất cả biểu mẫu và dạng xem như một thực thể.

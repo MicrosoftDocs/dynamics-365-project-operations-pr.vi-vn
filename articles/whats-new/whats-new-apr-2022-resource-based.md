@@ -1,31 +1,31 @@
 ---
-title: Có gì mới Tháng 4 năm 2022 - Hoạt động Dự án cho các tình huống dựa trên tài nguyên / không có kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 4 năm 2022 của Microsoft Dynamics 365 Project Operations cho các kịch bản dựa trên tài nguyên / không có hàng.
+title: Có gì mới Tháng 4 năm 2022 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 4 năm 2022 của Microsoft Dynamics 365 Project Operations cho các kịch bản dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912404"
 ---
-# <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới Tháng 4 năm 2022 - Hoạt động Dự án cho các tình huống dựa trên tài nguyên / không có kho
+# <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới Tháng 4 năm 2022 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.41.0.45
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.26
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-Danh mục mua sắm có thể được sử dụng trong các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý. Để biết thêm thông tin, hãy xem [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md).
+Danh mục mua sắm có thể được sử dụng trong các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý. Để biết thêm thông tin, hãy xem [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Cập nhật về bản đồ ghi kép của Project Operations
 
@@ -58,4 +58,4 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Quản lý dự án và kế toán trong Dynamics 365 Finance
 
-Để biết thông tin về các bản sửa lỗi có trong bản cập nhật này, hãy đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và xem [KB bài báo](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Để biết thông tin về các bản sửa lỗi có trong bản cập nhật này, hãy đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và xem [KB bài viết](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).

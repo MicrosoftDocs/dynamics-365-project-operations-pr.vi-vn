@@ -1,23 +1,23 @@
 ---
 title: Phương pháp Chi phí hoàn thành
-description: Chủ đề này sẽ trình bày thông tin về phương pháp tính toán chi phí cần để hoàn thành dự án.
+description: Bài viết này cung cấp thông tin về các phương pháp được sử dụng để tính toán chi phí để hoàn thành một dự án.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920316"
 ---
 # <a name="cost-to-complete-methods"></a>Phương pháp Chi phí hoàn thành
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này sẽ trình bày thông tin về phương pháp tính toán chi phí cần để hoàn thành dự án. Bạn có thể dùng nhiều phương pháp để tính chi phí hoàn thành dự án. 
+Bài viết này cung cấp thông tin về các phương pháp được sử dụng để tính toán chi phí để hoàn thành một dự án. Bạn có thể dùng nhiều phương pháp để tính chi phí hoàn thành dự án. 
 
 Khi ước tính dự án, trên trang **Tạo ước tính**, trong trường **Phương pháp Chi phí hoàn thành**, bạn có thể chọn một trong các phương pháp chi phí hoàn thành sau đây.
 

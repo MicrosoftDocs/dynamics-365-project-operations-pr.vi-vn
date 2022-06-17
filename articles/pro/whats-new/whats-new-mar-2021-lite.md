@@ -1,25 +1,25 @@
 ---
 title: Tính năng mới tháng 3 năm 2021 - triển khai Project Operations lite
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong bản triển khai giản đơn Project Operations phát hành vào tháng 3 năm 2021.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 3 năm 2021.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913922"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Tính năng mới tháng 3 năm 2021 - triển khai Project Operations lite
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
 - Project Operations trên môi trường Dataverse phiên bản 4.8.0.91 
 

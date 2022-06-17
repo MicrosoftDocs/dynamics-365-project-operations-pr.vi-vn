@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919258"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Đặt cấu hình các thiết đặt cho tham số bổ sung (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592364"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Sau khi đã đặt cấu hình các hạng mục trong chủ đề trước, bạn cần đặt tham số dự án bổ sung để sử dụng cho các dự án của mình. Khi cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] lần đầu tiên, bạn đã tạo cài đặt tham số để tạo tất cả các bản ghi đầu tiên cần thiết cho [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] để hoạt động. Giờ là lúc quay lại và đặt cấu hình các trường bổ sung cho thiết đặt này.  
+Khi bạn đã định cấu hình các mục trong các bài viết trước, bạn cần thiết lập các thông số dự án bổ sung để sử dụng cho các dự án của mình. Khi cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] lần đầu tiên, bạn đã tạo cài đặt tham số để tạo tất cả các bản ghi đầu tiên cần thiết cho [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] để hoạt động. Giờ là lúc quay lại và đặt cấu hình các trường bổ sung cho thiết đặt này.  
   
  Bạn sẽ cần đặt cấu hình các cài đặt sau đây:  
   

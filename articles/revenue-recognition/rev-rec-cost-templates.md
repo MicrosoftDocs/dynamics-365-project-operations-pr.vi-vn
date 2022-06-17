@@ -1,24 +1,24 @@
 ---
 title: Thiết lập mẫu chi phí
-description: Chủ đề này cung cấp thông tin về cách tạo và sử dụng mẫu chi phí trong Project Operations.
+description: Bài viết này cung cấp thông tin về cách tạo và sử dụng các mẫu chi phí trong Hoạt động Dự án.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918430"
 ---
 # <a name="set-up-cost-templates"></a>Thiết lập mẫu chi phí
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 
-Chủ đề này cung cấp thông tin về cách tạo và sử dụng mẫu chi phí trong Project Operations. Mẫu chi phí giúp xác định:
+Bài viết này cung cấp thông tin về cách tạo và sử dụng các mẫu chi phí trong Hoạt động Dự án. Mẫu chi phí giúp xác định:
 
 - Thể loại dự án của các giao dịch thực tế và dự báo cần đưa vào trong phép tính phần trăm hoàn thành dự án. Giá trị phần trăm-hoàn thành sau đó sẽ được dùng để tính toán mức doanh thu đã ghi nhận.
 - Có thể sửa đổi tỷ lệ phần trăm hoàn thành trong phép tính toán tự động hay không.
@@ -56,7 +56,7 @@ Bạn có thể cân nhắc một vài yếu tố sau đây khi đưa ra quyết
 ## <a name="create-cost-templates"></a>Tạo mẫu chi phí
 Để tạo mẫu chi phí, hãy làm theo các bước sau:
 
-1. Để truy cập các mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy chuyển đến **Quản lý dự án và kế toán** > **Cài đặt** > **Ước tính** > **Mẫu chi phí**.
+1. Để truy cập các mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy chuyển đến **Quản lý dự án và kế toán** > **Thành lập** > **Ước tính** > **Mẫu chi phí**.
 2. Chọn **Mới** để tạo mẫu chi phí mới. Nhập tên và mô tả.
 3. Cung cấp ID dòng chi phí cho từng loại giao dịch.
 4. Chọn một phương pháp hoàn thành làm mặc định:

@@ -1,24 +1,24 @@
 ---
 title: Tích hợp quản lý chi phí
-description: Chủ đề này cung cấp thông tin về tích hợp báo cáo chi phí trong Project Operations bằng tính năng ghi kép.
+description: Bài viết này cung cấp thông tin về tích hợp báo cáo chi phí trong Hoạt động dự án bằng cách sử dụng tính năng ghi kép.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924640"
 ---
 # <a name="expense-management-integration"></a>Tích hợp quản lý chi phí
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này cung cấp thông tin về báo cáo chi phí trong Project Operations [triển khai chi phí đầy đủ](../expense/expense-overview.md) bằng tính năng ghi kép.
+Bài viết này cung cấp thông tin về tích hợp báo cáo chi phí trong Hoạt động dự án [triển khai toàn bộ chi phí](../expense/expense-overview.md) sử dụng ghi kép.
 
 ## <a name="expense-categories"></a>Danh mục chi phí
 

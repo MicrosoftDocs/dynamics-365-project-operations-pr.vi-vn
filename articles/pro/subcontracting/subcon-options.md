@@ -1,17 +1,17 @@
 ---
 title: Tùy chọn hợp đồng phụ cho thành viên nhóm dự án
-description: Chủ đề này giải thích các tùy chọn hợp đồng phụ cho các thành viên nhóm dự án trong Microsoft Dynamics 365 Project Operations.
+description: Bài viết này giải thích các tùy chọn hợp đồng phụ cho các thành viên nhóm dự án trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88a76ccf73a4b6cfa13a67b50130b007f244d831
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919810"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Tùy chọn hợp đồng phụ cho thành viên nhóm dự án
 
@@ -37,12 +37,12 @@ Không có tùy chọn hợp đồng phụ nào có sẵn cho những điều sa
 
 1. Chọn một hoặc nhiều bản ghi thành viên nhóm dự án trong đó tài nguyên là tài nguyên chung.
 2. Đảm bảo rằng không có hồ sơ thành viên nhóm dự án nào được chọn đã được ký hợp đồng phụ. 
-3. Lựa chọn **Tùy chọn hợp đồng phụ** trên lưới phụ thành viên nhóm dự án. Các **Tùy chọn hợp đồng phụ** hộp thoại mở ra. 
+3. Lựa chọn **Tùy chọn hợp đồng phụ** trên lưới thành viên nhóm dự án phụ. Các **Tùy chọn hợp đồng phụ** hộp thoại mở ra. 
 4. Nếu bạn chỉ chọn một bản ghi thành viên nhóm dự án ở bước 1, thì các tùy chọn sau sẽ khả dụng:
     - Tạo các dòng hợp đồng phụ mới. 
     - Dự phòng trước hợp đồng phụ hiện có Nếu bạn đã chọn nhiều bản ghi thành viên nhóm dự án ở bước 1, thì tùy chọn duy nhất có sẵn là tạo một dòng hợp đồng phụ mới.
 5. Tùy chọn đặt trước đối với dòng hợp đồng phụ hiện có cho phép bạn chọn một hợp đồng phụ và dòng hợp đồng phụ mà bạn muốn đặt trước. Khi chọn dòng hợp đồng phụ để dự trữ năng lực, bạn nên đảm bảo rằng dòng hợp đồng phụ được chọn là phù hợp với thời gian và vai trò cần thiết của thành viên nhóm dự án phù hợp với vai trò đã được mua trên dòng hợp đồng phụ.
-6. Khi bạn chọn tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án, hệ thống sẽ cho phép bạn chọn hợp đồng phụ mà bạn muốn tạo các dòng này. Hợp đồng phụ mà bạn chọn để tạo các dòng mới phải nằm trong **Bản thảo** tình trạng. Với tùy chọn này để tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án đã chọn, hệ thống sẽ tạo một dòng hợp đồng phụ theo thời gian cho mỗi thành viên trong nhóm dự án. Vai trò, giờ và ngày tháng sẽ được sao chép từ thành viên nhóm dự án vào từng dòng hợp đồng phụ được tạo. 
+6. Khi bạn chọn tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án, hệ thống sẽ cho phép bạn chọn hợp đồng phụ mà bạn muốn tạo các dòng này. Hợp đồng phụ mà bạn chọn để tạo các dòng mới phải nằm trong **Bản thảo** trạng thái. Với tùy chọn này để tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án đã chọn, hệ thống sẽ tạo một dòng hợp đồng phụ theo thời gian cho mỗi thành viên trong nhóm dự án. Vai trò, giờ và ngày tháng sẽ được sao chép từ thành viên nhóm dự án vào từng dòng hợp đồng phụ được tạo. 
 7. Khi một thành viên trong nhóm chung được liên kết với hợp đồng phụ và dòng hợp đồng phụ, **Loại công nhân** trường trên hàng thành viên nhóm chung sẽ được cập nhật thành **Nhân viên hợp đồng** và **Hiệu lực hợp đồng phụ** giá trị sẽ được đặt thành **Có giá trị**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Hợp đồng phụ với một thành viên trong nhóm dự án có nhân sự
@@ -51,7 +51,7 @@ Giống như các thành viên trong nhóm chung chung hoặc không bị phân 
 
 1. Chọn một hoặc nhiều bản ghi thành viên nhóm dự án trong đó tài nguyên là nhân viên hợp đồng được đặt tên.
 2. Đảm bảo rằng không có hồ sơ thành viên nhóm dự án nào được chọn đã được ký hợp đồng phụ. 
-3. Lựa chọn **Tùy chọn hợp đồng phụ** trên lưới phụ thành viên nhóm dự án. Các **Tùy chọn hợp đồng phụ** hộp thoại mở ra. 
+3. Lựa chọn **Tùy chọn hợp đồng phụ** trên lưới thành viên nhóm dự án phụ. Các **Tùy chọn hợp đồng phụ** hộp thoại mở ra. 
 4. Nếu bạn chỉ chọn một bản ghi thành viên nhóm dự án ở bước 1, thì các tùy chọn sau sẽ khả dụng:
       - Tạo các dòng hợp đồng phụ mới.
       - Bảo lưu trước một hợp đồng phụ hiện có.
@@ -61,7 +61,7 @@ Giống như các thành viên trong nhóm chung chung hoặc không bị phân 
       - Vai trò được yêu cầu đối với thành viên nhóm dự án phù hợp với vai trò đã được mua trên dây chuyền hợp đồng phụ. 
       - Nhà cung cấp mà nhân viên hợp đồng được liên kết giống với nhà cung cấp trong hợp đồng phụ.
 6. Khi bạn chọn tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án, hệ thống sẽ cho phép bạn chọn hợp đồng phụ mà bạn muốn tạo các dòng này. Với tùy chọn này, bạn nên đảm bảo rằng nhà cung cấp mà nhân viên hợp đồng thuộc về giống với nhà cung cấp trên hợp đồng phụ. 
-7. Hợp đồng phụ mà bạn chọn để tạo các dòng mới phải nằm trong **Bản thảo** tình trạng. Với tùy chọn này để tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án đã chọn, hệ thống sẽ tạo một dòng hợp đồng phụ theo thời gian cho mỗi thành viên trong nhóm dự án. Vai trò, giờ và ngày tháng sẽ được sao chép từ thành viên nhóm dự án vào từng dòng hợp đồng phụ được tạo.  
+7. Hợp đồng phụ mà bạn chọn để tạo các dòng mới phải nằm trong **Bản thảo** trạng thái. Với tùy chọn này để tạo các dòng hợp đồng phụ mới cho các thành viên trong nhóm dự án đã chọn, hệ thống sẽ tạo một dòng hợp đồng phụ theo thời gian cho mỗi thành viên trong nhóm dự án. Vai trò, giờ và ngày tháng sẽ được sao chép từ thành viên nhóm dự án vào từng dòng hợp đồng phụ được tạo.  
 8. Khi một thành viên trong nhóm có tên được liên kết với hợp đồng phụ và dòng hợp đồng phụ, **Loại công nhân** trường trên hàng thành viên nhóm đã đặt tên sẽ được cập nhật thành **Nhân viên hợp đồng** và **Hiệu lực hợp đồng phụ** giá trị sẽ được đặt thành **Có giá trị**.
 
 ## <a name="re-costing-subcontractor-assignments"></a>Định giá lại chi phí giao cho nhà thầu phụ

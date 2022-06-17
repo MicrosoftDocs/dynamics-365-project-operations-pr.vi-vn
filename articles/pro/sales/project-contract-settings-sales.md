@@ -1,23 +1,23 @@
 ---
 title: Thiết đặt hợp đồng dự án - bản đơn giản
-description: Chủ đề này cung cấp thông tin về các trường ảnh hưởng đến mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
+description: Bài viết này cung cấp thông tin về các trường ảnh hưởng đến các dòng hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917096"
 ---
 # <a name="header-details-for-project-contracts"></a>Chi tiết của tiêu đề cho các hợp đồng dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
+Bài viết này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các cài đặt ảnh hưởng đến tất cả các dòng hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
 Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
 

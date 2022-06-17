@@ -1,24 +1,24 @@
 ---
 title: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Project Operations phát hành vào tháng 4 năm 2021 cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 4 năm 2021 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912450"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
+Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
 
 - Project Operations trên môi trường Dataverse phiên bản 4.9.0.221
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.17

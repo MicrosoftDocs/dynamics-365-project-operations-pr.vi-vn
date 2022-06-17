@@ -1,6 +1,6 @@
 ---
 title: Ước tính doanh số và chi phí khi một nguồn lực có thể đăng ký đảm nhận nhiều vai trò của dự án
-description: Chủ đề này cung cấp thông tin về cách dùng các chiều giá cả để hỗ trợ ước tính giá và chi phí đối với một nguồn lực đảm nhận nhiều vai trò của dự án.
+description: Bài viết này cung cấp thông tin về cách các thứ nguyên định giá có thể được sử dụng để hỗ trợ định giá và chi phí cho một tài nguyên thực hiện nhiều vai trò trong một dự án.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916176"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Ước tính doanh số và chi phí khi một nguồn lực có thể đăng ký đảm nhận nhiều vai trò của dự án 
 
