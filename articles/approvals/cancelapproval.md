@@ -1,17 +1,17 @@
 ---
 title: Hủy phê duyệt các mục đã được phê duyệt trước đó
-description: Chủ đề này giải thích cách người quản lý dự án có thể hủy bỏ việc phê duyệt các mục sử dụng thời gian, chi phí hoặc vật liệu đã được phê duyệt trước đó.
+description: Bài viết này giải thích cách người quản lý dự án có thể hủy bỏ việc phê duyệt các mục sử dụng thời gian, chi phí hoặc vật liệu đã được phê duyệt trước đó.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930482"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>Hủy phê duyệt các mục đã được phê duyệt trước đó
 
@@ -29,7 +29,7 @@ Thực hiện theo các bước sau để hủy phê duyệt mục sử dụng t
 > [!IMPORTANT]
 > Bạn không thể hủy phê duyệt mục sử dụng thời gian, chi phí và nguyên liệu đã được phê duyệt trước đó đã được lập hóa đơn cho khách hàng. Nếu bạn cố gắng, bạn sẽ nhận được một thông báo cho biết rằng không thể hủy phê duyệt vì nó đã được lập hóa đơn. Trong trường hợp này, bạn chỉ có thể hủy phê duyệt nếu một hóa đơn điều chỉnh được sử dụng để phát hành một khoản tín dụng đầy đủ hoặc hoàn lại tiền cho khách hàng trên hóa đơn gốc.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Tác động của việc hủy phê duyệt mục nhập đã được phê duyệt trước đó
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Tác động của việc hủy phê duyệt một mục đã được phê duyệt trước đó
 
 Khi hủy bỏ một chấp thuận, bạn sẽ tác động đến cả tài chính và vận hành.
 

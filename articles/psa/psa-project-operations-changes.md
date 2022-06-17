@@ -1,6 +1,6 @@
 ---
-title: Các tính năng thay đổi từ Tự động hóa dịch vụ dự án sang Vận hành dự án
-description: Chủ đề này cung cấp tổng quan về các thay đổi tính năng từ Tự động hóa dịch vụ dự án sang Dynamics 365 Project Operations.
+title: Các thay đổi về tính năng từ Project Service Automation sang Project Operations
+description: Bài viết này cung cấp tổng quan về các thay đổi tính năng từ Tự động hóa dịch vụ dự án sang Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925376"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Các tính năng thay đổi từ Tự động hóa dịch vụ dự án sang Vận hành dự án
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Các thay đổi về tính năng từ Project Service Automation sang Project Operations
 
-Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations Lite sẽ được phân phối trong ba giai đoạn. Chủ đề này cung cấp thông tin về những thay đổi lớn mà bạn có thể thấy khi nâng cấp hoàn tất.
+Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations Lite sẽ được phân phối trong ba giai đoạn. Bài viết này cung cấp thông tin về những thay đổi lớn mà bạn có thể thấy khi nâng cấp hoàn tất.
 
 | Nâng cấp giao hàng | Giai đoạn 1 <br>(Tháng 1 năm 2022) | Giai đoạn 2 <br>(Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
 |------------------|------------------------|---------------------------|---------------------------|
@@ -35,7 +35,7 @@ Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 
 
 ## <a name="project-management"></a>Quản lý dự án
 
-Những thay đổi đáng kể nhất trong trải nghiệm người dùng sẽ nằm trong lĩnh vực lập kế hoạch dự án. Hoạt động dự án áp dụng trải nghiệm hiện đại mới để quản lý cấu trúc phân tích công việc (WBS) bằng cách tận dụng các khả năng lập lịch trình được cung cấp bởi [Dự án cho Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Những thay đổi đáng kể nhất trong trải nghiệm người dùng sẽ nằm trong lĩnh vực lập kế hoạch dự án. Hoạt động dự án áp dụng trải nghiệm hiện đại mới để quản lý cấu trúc phân tích công việc (WBS) bằng cách tận dụng các khả năng lập kế hoạch được cung cấp bởi [Dự án cho Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Sự khác biệt trong trải nghiệm lập lịch trình
 
@@ -62,13 +62,13 @@ Bảng sau đây tóm tắt sự khác biệt về lịch trình giữa Tự đ�
 | Bảng xem để phân phối dự án không thác nước  | : heavy_check_mark:   | &nbsp; |
 | Chế độ xem dòng thời gian - Biểu đồ Gantt tương tác được sử dụng để trực quan hóa và chỉnh sửa WBS   | : heavy_check_mark:  | &nbsp; |
 | Phím tắt - Sử dụng phím tắt cho các thao tác phổ biến, chẳng hạn như thụt lề hoặc chèn  | : heavy_check_mark:  |  &nbsp; |
-| Hoàn tác đa cấp - Thực hiện phân tích điều gì sẽ xảy ra để hiểu đầy đủ tác động của các thay đổi bằng cách đảo ngược và áp dụng lại toàn bộ tập hợp các thao tác | : heavy_check_mark: | &nbsp; |
+| Hoàn tác nhiều cấp - Thực hiện phân tích điều gì xảy ra để hiểu đầy đủ tác động của các thay đổi bằng cách đảo ngược và áp dụng lại toàn bộ tập hợp hoạt động | : heavy_check_mark: | &nbsp; |
 | Cắt / Sao chép / Dán - Hợp tác phát triển theo lịch trình bằng cách sao chép và dán chi tiết lịch trình giữa các ứng dụng  | : heavy_check_mark: | &nbsp; |
 | Danh sách kiểm tra công việc - Thêm tối đa 20 mục danh sách kiểm tra cho một công việc   | : heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Lập kế hoạch dự án
 
-Các **Dự định** trang trong Hoạt động dự án có một số khác biệt đáng kể so với **Dự định** trong Tự động hóa dịch vụ dự án.
+Các **Dự án** trang trong Hoạt động dự án có một số khác biệt đáng kể so với **Dự án** trong Tự động hóa dịch vụ dự án.
 
 Các hành động sau đã bị xóa khỏi **Dự án** trang như một phần của nâng cấp Giai đoạn 1:
 
@@ -76,12 +76,12 @@ Các hành động sau đã bị xóa khỏi **Dự án** trang như một phầ
   - **Tạo Mẫu**
   - **Hủy liên kết khỏi MS Project**
 
-Các **Dự định** trong Hoạt động Dự án bao gồm các tab mới sau đây.
+Các **Dự án** trong Hoạt động Dự án bao gồm các tab mới sau đây.
 
 - **Ước tính vật liệu**
 - **Thiết lập thanh toán theo tác vụ**
 
-Các **Tình trạng** tab đã bị xóa và **Tình trạng** trường bây giờ là trên **Tóm lược** với chế độ lập lịch của dự án.
+Các **Trạng thái** tab đã bị xóa và **Trạng thái** trường bây giờ là trên **Bản tóm tắt** với chế độ lập lịch của dự án.
 
    ![Cập nhật trang Dự án.](media/projectform.png)
 

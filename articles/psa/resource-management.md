@@ -1,6 +1,6 @@
 ---
 title: Trang chủ về cung cấp nguồn lực cho dự án
-description: Chủ đề này cung cấp thông tin về các khả năng quản lý nguồn lực trong Project Service Automation (PSA) cho Dynamics 365.
+description: Bài viết này cung cấp thông tin về khả năng quản lý tài nguyên trong Tự động hóa dịch vụ dự án (PSA) cho Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925284"
 ---
 # <a name="resourcing-projects-home-page"></a>Trang chủ về cung cấp nguồn lực cho dự án
 
@@ -46,7 +46,7 @@ Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên d
 - Duy trì kho lưu trữ kỹ năng và mức độ thành thạo.
 
 
-Bạn có thể bố trí nhân viên cho dự án bằng nhóm nguồn lực chung hoặc có tên trong PSA. Bạn có thể dùng nhiều phương pháp khác nhau để thêm và phân công các thành viên nhóm và để quản ký đăng ký cũng như phân công của bạn. Để biết thêm thông tin, hãy xem các chủ đề sau:
+Bạn có thể bố trí nhân viên cho dự án bằng nhóm nguồn lực chung hoặc có tên trong PSA. Bạn có thể dùng nhiều phương pháp khác nhau để thêm và phân công các thành viên nhóm và để quản ký đăng ký cũng như phân công của bạn. Để biết thêm thông tin, hãy xem các bài viết sau:
 
 - [Đăng ký các nguồn lực có tên có thể đăng ký cho nhóm dự án và phân công nhiệm vụ cho họ](assign-named-bookable-resource.md)
 - [Phân công nhiệm vụ cho nguồn lực chung có thể đăng ký và tạo yêu cầu nguồn lực](assign-generic-bookable-resource.md)

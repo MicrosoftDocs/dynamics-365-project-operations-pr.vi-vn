@@ -1,17 +1,17 @@
 ---
 title: Quản lý cơ hội dựa trên dự án
-description: Chủ đề này cung cấp thông tin về cách làm việc với các cơ hội có liên quan đến dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với các cơ hội có liên quan đến các dự án.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933242"
 ---
 # <a name="manage-project-based-opportunities"></a>Quản lý cơ hội dựa trên dự án
 
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Các công ty dựa trên dự án thường sắp xếp các hoạt động giao hàng của mình ở nhiều quốc gia và khu vực địa lý. Chi phí thực hiện dự án và giao hàng có thể thay đổi tùy theo khu vực địa lý hoặc bộ phận quản lý việc giao hàng. Ở chiều ngược lại, điều này cũng có thể ảnh hưởng đến lợi nhuận của thỏa thuận. Việc cung cấp dịch vụ dựa trên dự án thường tiêu tốn một lượng lớn thời gian của nguồn nhân lực, cùng với những khoản chi phí đáng kể cho việc đi lại, chi phí vật liệu và các chi phí khác.
 
-Các cơ hội theo dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng cho Dynamics 365 Sales. Chủ đề cung cấp thông tin chi tiết về các trường và lô-gic kinh doanh khác nhau có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
+Các cơ hội theo dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng cho Dynamics 365 Sales. Bài báo cung cấp thông tin chi tiết về các lĩnh vực khác nhau và logic kinh doanh có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
 
 ## <a name="view-all-project-based-opportunities"></a>Xem tất cả các cơ hội dựa trên dự án
 

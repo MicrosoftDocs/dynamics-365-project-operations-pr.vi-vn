@@ -1,6 +1,6 @@
 ---
 title: Làm việc với mô hình dữ liệu Project Service Automation
-description: Chủ đề này cung cấp thông tin về cách làm việc với mô hình dữ liệu.
+description: Bài viết này cung cấp thông tin về cách làm việc với mô hình dữ liệu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926710"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Làm việc với mô hình dữ liệu Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587566"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation mở rộng các thực thể ứng dụng khác và giới thiệu các thực thể của riêng mình trong mô hình dữ liệu Common Data Service. Chủ đề này mô tả một số thực thể mà bạn sẽ gặp phải trong các trường hợp báo cáo PSA điển hình.
+Dynamics 365 Project Service Automation mở rộng các thực thể ứng dụng khác và giới thiệu các thực thể của riêng mình trong mô hình dữ liệu Common Data Service. Bài viết này mô tả một số thực thể mà bạn sẽ gặp trong các tình huống báo cáo PSA điển hình.
 
 ## <a name="reporting-on-opportunities"></a>Báo cáo về cơ hội
 

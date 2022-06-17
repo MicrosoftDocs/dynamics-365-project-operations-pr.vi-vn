@@ -1,17 +1,17 @@
 ---
 title: Dòng báo giá dựa trên sản phẩm chi phí
-description: Chủ đề này cung cấp thông tin về cách áp dụng giá vốn vào mô tả báo giá dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về việc áp dụng giá vốn cho dòng báo giá dựa trên sản phẩm.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932598"
 ---
 # <a name="costing-product-based-quote-lines"></a>Dòng báo giá dựa trên sản phẩm chi phí
 

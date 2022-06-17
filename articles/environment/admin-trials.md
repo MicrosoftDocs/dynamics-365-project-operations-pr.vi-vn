@@ -1,17 +1,17 @@
 ---
 title: Đăng ký bản dùng thử Project Operations
-description: Chủ đề này cung cấp thông tin về cách triển khai một bản dùng thử của Dynamics 365 Project Operations.
+description: Bài viết này cung cấp thông tin về cách triển khai phiên bản dùng thử của Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584300"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959728"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Đăng ký bản dùng thử Project Operations 
 
@@ -19,9 +19,9 @@ _**Áp dụng đối với:** Project Operations cho tình huống dựa trên n
 
 
 
-Chủ đề này giải thích cách đăng ký nhận ưu đãi dành cho đối tác xem trước và triển khai môi trường Dynamics 365 Project Operations.
+Bài viết này giải thích cách đăng ký ưu đãi của đối tác xem trước và triển khai Dynamics 365 Project Operations Môi trường.
 
-Với bản dùng thử Project Operations mới, bạn có thể tự động triển khai bất kỳ tình huống triển khai nào trong ba trường hợp triển khai được hỗ trợ bằng cách hoàn thành bảng câu hỏi đề xuất phương pháp triển khai tốt nhất. Chủ đề này cung cấp thông tin về cách thức:
+Với bản dùng thử Project Operations mới, bạn có thể tự động triển khai bất kỳ tình huống triển khai nào trong ba trường hợp triển khai được hỗ trợ bằng cách hoàn thành bảng câu hỏi đề xuất phương pháp triển khai tốt nhất. Bài viết này cung cấp thông tin về cách:
 
 - Đổi ưu đãi dùng thử của bạn.
 - Bắt đầu cấp phép.
@@ -89,7 +89,8 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
 4.  Chọn tương ứng Microsoft Dataverse URL và URL ứng dụng Tài chính và Hoạt động để xác thực việc triển khai.
 
 ## <a name="configuring-dual-write"></a>Đặt cấu hình ghi kép
-- Để định cấu hình vai trò bảo mật cho ghi kép, hãy xem [Cập nhật cài đặt bảo mật về Hoạt động dự án trong Dataverse](resource-provision-new-environment.md).
+- Để định cấu hình vai trò bảo mật cho ghi kép, hãy xem [Cập nhật cài đặt bảo mật về Hoạt động dự án trong Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Để truy cập cấu hình ghi kép, hãy điều hướng đến phiên bản Tài chính và Hoạt động, sau đó điều hướng đến **Quản lý dữ liệu** > **Viết kép**.
 - Để định cấu hình bản đồ ghi kép, hãy xem [Chạy bản đồ ghi kép Hoạt động Dự án](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Gán giấy phép

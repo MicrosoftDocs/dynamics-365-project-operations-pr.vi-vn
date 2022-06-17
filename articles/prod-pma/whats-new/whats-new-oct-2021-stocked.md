@@ -1,24 +1,24 @@
 ---
 title: Có gì mới hoặc thay đổi trong Hoạt động dự án, tháng 10 năm 2021 đối với các kịch bản dựa trên sản xuất / tồn kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 10 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên sản xuất / tồn kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 10 năm 2021 của Hoạt động dự án cho các tình huống dựa trên sản xuất / tồn kho.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933702"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Có gì mới hoặc thay đổi trong Hoạt động dự án, tháng 10 năm 2021 đối với các kịch bản dựa trên sản xuất / tồn kho
 
 _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.22
  
@@ -30,7 +30,7 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | Các **Ngăn chặn việc đóng dự án nếu tồn tại các giao dịch đang mở** chức năng không hoạt động. |
 | Quản lý dự án và kế toán | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | Phân loại thanh toán trên hóa đơn văn bản miễn phí không tự động điền vào các thứ nguyên từ các dự án khi chức năng đó được bật. |
 | Quản lý dự án và kế toán | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | Trong các trường hợp không liên công ty, WIP và số tiền doanh thu tích lũy không được hoàn nguyên chính xác khi hóa đơn dự án được đăng. |
-| Quản lý dự án và kế toán | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Giá trị ghi nợ và ghi có được chuyển đổi khi Microsoft Excel bổ trợ được sử dụng với tạp chí chi phí Dự án và **Loại tài khoản bù đắp** trường được đặt thành **Dự định**. |
+| Quản lý dự án và kế toán | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Giá trị ghi nợ và tín dụng được chuyển đổi khi Microsoft Excel bổ trợ được sử dụng với tạp chí chi phí Dự án và **Loại tài khoản bù đắp** trường được đặt thành **Dự án**. |
 | Quản lý dự án và kế toán | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | Số tiền được đăng trong các giao dịch dự án được phóng đại trên đơn đặt hàng mua dự án bao gồm các mặt hàng được dự trữ và có số thuế không được khấu trừ khi **UseTax** Chấm điểm. |
 | Quản lý dự án và kế toán | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | Hệ thống phân chia số tiền giữa các báo cáo lãi lỗ của dự án và các báo cáo WIP của dự án. |
 | Quản lý dự án và kế toán | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | Khoảng không quảng cáo trên tay không chính xác sau khi yêu cầu của mặt hàng trả lại một phần được điều chỉnh. |
@@ -51,10 +51,10 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Loại mục dự án số dư đầu kỳ được loại trừ khỏi **Tóm tắt giao dịch đề xuất hóa đơn** khi tổng số hóa đơn của đề xuất hóa đơn được tính toán. |
 | Quản lý dự án và kế toán | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Nếu chi phí tiêu thụ trên một đơn đặt hàng sản xuất dự án là 0 (không), thì lỗi sau sẽ xảy ra khi bạn cố gắng ước tính: "Đã cố gắng chia cho không." |
 | Quản lý dự án và kế toán | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Ứng dụng Project Timesheet dành cho thiết bị di động dành cho Android ngừng phản hồi. Vấn đề liên quan đến **TimeEntryDataManager ArgumentNullException**. |
-| Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Tạp chí tích hợp Hoạt động Dự án không thành công khi bạn đăng nó, vì tài khoản thiếu thứ nguyên. Tuy nhiên, tài khoản thiếu thứ nguyên không phải là tài khoản mà bạn đang đăng lên. |
+| Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Tạp chí tích hợp Hoạt động Dự án không thành công khi bạn đăng nó, vì tài khoản thiếu thứ nguyên. Tuy nhiên, tài khoản thiếu thứ nguyên không phải là tài khoản mà bạn đang đăng. |
 | Quản lý dự án và kế toán | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | Các **Ngày đến** bộ lọc trong tìm kiếm không bị xóa khi nó bị xóa khỏi **Lựa chọn** hộp thoại trên **Đăng chi phí** trang. |
-| Quản lý dự án và kế toán | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Đặt lại tất cả phân phối** không thành công và hiển thị lỗi cho các bảng chấm công được tạo cho một dự án của **Chỉ thời gian** gõ phím. |
-| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự định** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
+| Quản lý dự án và kế toán | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Đặt lại tất cả phân phối** không thành công và hiển thị lỗi cho bảng chấm công được tạo cho một dự án của **Chỉ thời gian** loại hình. |
+| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự án** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
 | Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động dự án Dataverse. |
 | Quản lý dự án và kế toán | [546467](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546467) | Đối với các giao dịch điều chỉnh dự án liên công ty, có vấn đề ở công ty đích. |
 | Quản lý dự án và kế toán | [563579](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563579) | Chi phí cam kết cho một dự án tính toán sai số lượng và giá vốn nếu đơn đặt hàng được xử lý bởi **Đơn đặt hàng quá trình cuối năm** trên Sổ cái. |
@@ -62,8 +62,8 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Quản lý dự án và kế toán | [596408](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596408) | Khi một hóa đơn Tài khoản phải trả liên quan đến dự án được đăng, lỗi sau xảy ra: "Văn bản liệt kê Dự án - chi phí - hạng mục không tồn tại." |
 | Quản lý dự án và kế toán | [597237](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597237) | Chi phí gián tiếp tăng gấp đôi khi bạn tích lũy doanh thu theo cách thủ công. |
 | Quản lý dự án và kế toán | [601198](https://fix.lcs.dynamics.com/Issue/Details/?bugId=601198) | Tích lũy doanh thu và đăng WIP không tạo ra giao dịch. |
-| Quản lý dự án và kế toán | [602095](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602095) | Không thể kích hoạt giá đang chờ xử lý cho một khoản mục chi phí tiêu chuẩn khi tồn tại một đơn đặt hàng mua dự án đã nhận. |
-| Quản lý dự án và kế toán | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Giá trị được đảo ngược WIP từ một lần đăng hóa đơn khác với giá trị WIP đã đăng ban đầu từ một mục thời gian. |
+| Quản lý dự án và kế toán | [602095](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602095) | Không thể kích hoạt giá đang chờ xử lý cho một khoản mục chi phí tiêu chuẩn khi tồn tại một đơn đặt hàng dự án đã nhận. |
+| Quản lý dự án và kế toán | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Giá trị WIP được đảo ngược từ lần đăng hóa đơn khác với giá trị WIP được đăng ban đầu từ lần nhập thời gian. |
 | Quản lý dự án và kế toán | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Có một vấn đề đăng đối với doanh thu được lập hóa đơn của dự án trong các trường hợp trả trước được áp dụng khi các giao dịch trên chứng từ không có số dư. |
 | Quản lý dự án và kế toán | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Việc tạo ước tính sau khi đề xuất hóa đơn được đăng sẽ chặn việc nhập các dòng điều chỉnh trong Hoạt động dự án. |
 | Quản lý dự án và kế toán | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Không thể sửa đổi hồ sơ cột mốc đã lập hóa đơn đầy đủ. |
@@ -80,6 +80,6 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và sử dụng công cụ tìm kiếm Vấn đề để xem các bản cập nhật quy định theo kế hoạch. Tìm kiếm sự cố cho phép bạn tìm kiếm theo quốc gia hoặc khu vực, loại tính năng và bản phát hành.
+Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và sử dụng công cụ tìm kiếm Vấn đề để xem các bản cập nhật quy định theo kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia hoặc khu vực, loại tính năng và bản phát hành.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

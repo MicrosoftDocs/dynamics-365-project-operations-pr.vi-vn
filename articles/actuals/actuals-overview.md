@@ -1,6 +1,6 @@
 ---
-title: Thực tế
-description: Chủ đề này cung cấp thông tin về cách làm việc với giá trị thực tế trong Microsoft Dynamics 365 Project Operations.
+title: Doanh thu thực tế
+description: Bài viết này cung cấp thông tin về cách làm việc với thực tế trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924824"
 ---
 # <a name="actuals"></a>Thực tế
 
@@ -33,7 +33,7 @@ Giá trị thực tế đại diện cho tiến độ tài chính và lịch tr�
 
 Hoạt động Dự án ghi lại các giao dịch tài chính xảy ra trong vòng đời tham gia dự án dưới dạng thực tế. Việc tạo ra các thực tế tại các sự kiện khác nhau trong vòng đời khác nhau, tùy thuộc vào việc tham gia vào dự án sử dụng mô hình thanh toán thời gian và vật liệu hay mô hình thanh toán giá cố định và liệu nó đang trong giai đoạn bán hàng trước hay là một dự án nội bộ.
 
-Các chủ đề sau giải thích tác động trên bảng Thực tế tại các sự kiện khác nhau cho các biến thể khác nhau:
+Các bài viết sau giải thích tác động đến bảng Thực tế tại các sự kiện khác nhau cho các biến thể khác nhau:
 
 - [Thực tế tác động trong thời gian và tương tác vật liệu](ActualsonTM.md)
 - [Thực tế tác động đến tương tác giá cố định](ActualonFP.md)

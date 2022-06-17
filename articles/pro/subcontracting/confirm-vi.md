@@ -1,19 +1,19 @@
 ---
-title: Xác nhận hóa đơn của nhà cung cấp dự án
-description: Chủ đề này giải thích cách xác nhận hóa đơn của nhà cung cấp dự án trong Microsoft Dynamics 365 Project Operations và tác động tài chính của việc xác nhận hóa đơn của nhà cung cấp dự án.
+title: Xác nhận hóa đơn của nhà cung cấp trong dự án
+description: Bài viết này giải thích cách xác nhận hóa đơn của nhà cung cấp dự án trong Microsoft Dynamics 365 Project Operations và tác động tài chính của việc xác nhận hóa đơn của nhà cung cấp dự án.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932460"
 ---
-# <a name="confirm-a-project-vendor-invoice"></a>Xác nhận hóa đơn của nhà cung cấp dự án
+# <a name="confirm-a-project-vendor-invoice"></a>Xác nhận hóa đơn của nhà cung cấp trong dự án
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,7 +21,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 Sau khi bạn đã xác minh tất cả các dòng trên hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations, bạn có thể sử dụng hành động Xác nhận để xác nhận hóa đơn của nhà cung cấp.
 
-Khi bạn chọn **Xác nhận** trên hóa đơn của nhà cung cấp, hành vi sau đây xảy ra:
+Khi bạn chọn **Xác nhận** trên hóa đơn của nhà cung cấp, hành vi sau xảy ra:
 
 1. Trạng thái của hóa đơn nhà cung cấp được cập nhật thành **Đã xác nhận**.
 2. Hóa đơn của nhà cung cấp đã xác nhận và các bản ghi liên quan của nó trở thành chỉ đọc và không thể chỉnh sửa hoặc xóa.

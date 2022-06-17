@@ -1,17 +1,17 @@
 ---
 title: Duy trì thành viên nhóm
-description: Chủ đề này cung cấp thông tin về cách đặt nguồn lực có tên cho nhóm dự án và phân công tác vụ.
+description: Bài viết này cung cấp thông tin về việc đặt trước các tài nguyên được đặt tên cho các nhóm dự án và phân công chúng cho các nhiệm vụ.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933472"
 ---
 # <a name="maintain-team-members"></a>Duy trì thành viên nhóm
 

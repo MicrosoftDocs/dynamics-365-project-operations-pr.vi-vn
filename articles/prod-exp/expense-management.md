@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về quản lý chi phí
-description: Chủ đề này cung cấp thông tin chung về phần Quản lý chi phí và các liên kết đến tài nguyên bổ sung. Bạn có thể sử dụng phần Quản lý chi phí để tạo một quy trình làm việc tích hợp nơi bạn có thể lưu trữ thông tin phương thức thanh toán, nhập các giao dịch thẻ tín dụng và theo dõi số tiền mà nhân viên chi khi họ phát sinh chi phí cho doanh nghiệp của bạn.
+description: Bài viết này cung cấp thông tin chung về quản lý Chi phí và các liên kết đến các tài nguyên bổ sung. Bạn có thể sử dụng phần Quản lý chi phí để tạo một quy trình làm việc tích hợp nơi bạn có thể lưu trữ thông tin phương thức thanh toán, nhập các giao dịch thẻ tín dụng và theo dõi số tiền mà nhân viên chi khi họ phát sinh chi phí cho doanh nghiệp của bạn.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934070"
 ---
 # <a name="expense-management-overview"></a>Tổng quan về quản lý chi phí
 

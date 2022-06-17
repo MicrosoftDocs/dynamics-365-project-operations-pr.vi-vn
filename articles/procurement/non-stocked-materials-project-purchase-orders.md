@@ -1,18 +1,18 @@
 ---
 title: Đặt mua vật liệu không trữ kho cho dự án sử dụng đơn đặt hàng cho dự án
-description: Chủ đề này giải thích cách bạn có thể đặt mua vật liệu không trữ kho cho dự án sử dụng đơn đặt hàng cho dự án.
+description: Bài viết này giải thích cách bạn có thể đặt mua vật liệu không tồn kho cho một dự án bằng cách sử dụng lệnh mua dự án.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: fe24faa143869af2396f3b0f28aae31417cadda7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929838"
 ---
 # <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Đặt hàng danh mục mua sắm hoặc vật liệu không tồn kho cho một dự án bằng cách sử dụng đơn đặt hàng mua dự án
 
@@ -27,7 +27,7 @@ Hoàn thành các bước sau để bật chức năng đặt hàng dự án.
 2. Trong danh sách tính năng hãy tìm và chọn tính năng **Bật đơn đặt hàng cho dự án trên Project Operations cho các tình huống dựa trên nguồn lực/không có hàng**.
 3. Chọn **Bật**.
 4. Đặt cấu hình nguyên liệu không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý như được mô tả trong [Đặt cấu hình nguyên liệu không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý](configure-materials-nonstocked.md).
-5. Định cấu hình các danh mục mua sắm như được mô tả trong [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md).
+5. Định cấu hình các danh mục mua sắm như được mô tả trong [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Tạo đơn đặt hàng cho dự án từ danh sách đơn đặt hàng cho dự án
 
@@ -38,7 +38,7 @@ Hoàn thành các bước sau để bật chức năng đặt hàng dự án.
 5. Nhập số mặt hàng hoặc danh mục mua sắm, số lượng, đơn vị, đơn giá và các thông tin khác nếu thích hợp.
 
     > [!NOTE]
-    > Chỉ các danh mục mua sắm, mặt hàng không tồn kho và dịch vụ mới có thể được sử dụng với đơn đặt hàng dự án. Các mặt hàng còn hàng không được hỗ trợ.
+    > Chỉ các danh mục mua sắm, mặt hàng không tồn kho và dịch vụ mới có thể được sử dụng với các đơn đặt hàng dự án. Các mặt hàng còn hàng không được hỗ trợ.
 
 6. Tiếp tục thêm các mặt hàng hoặc danh mục mua sắm theo yêu cầu, và xác nhận đơn đặt hàng.
 

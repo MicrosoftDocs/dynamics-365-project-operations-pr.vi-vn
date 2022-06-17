@@ -1,6 +1,6 @@
 ---
 title: Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
-description: Chủ đề này mô tả mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+description: Bài viết này mô tả mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các tác vụ dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931172"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến Tài chính và Vận hành
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+Bài viết này mô tả mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các tác vụ dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.

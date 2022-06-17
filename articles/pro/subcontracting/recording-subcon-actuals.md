@@ -1,17 +1,17 @@
 ---
 title: Ghi lại thời gian, chi phí và mức sử dụng vật liệu cho các thành phần trong hợp đồng phụ
-description: Chủ đề này giải thích cách Microsoft theo dõi việc sử dụng thời gian, chi phí và vật liệu trên các dự án từ các thành phần được ký hợp đồng phụ Dynamics 365 Project Operations.
+description: Bài viết này giải thích cách Microsoft theo dõi việc sử dụng thời gian, chi phí và vật liệu trên các dự án từ các thành phần được ký hợp đồng phụ Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927676"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Ghi lại thời gian, chi phí và việc sử dụng vật liệu trong các dự án cho các thành phần được thầu phụ
 
@@ -19,15 +19,15 @@ ms.locfileid: "8599250"
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này giải thích cách Microsoft theo dõi việc sử dụng thời gian, chi phí và vật liệu trên các dự án từ các thành phần được ký hợp đồng phụ Dynamics 365 Project Operations.
+Bài viết này giải thích cách Microsoft theo dõi việc sử dụng thời gian, chi phí và vật liệu trên các dự án từ các thành phần được ký hợp đồng phụ Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Tốn thời gian của nhà thầu phụ trong các dự án
-Trong Hoạt động Dự án, nhân viên hợp đồng có thể ghi lại thời gian trên các dự án theo cách tương tự như nhân viên. Khi nhập thời gian vào các dự án và / hoặc nhiệm vụ của dự án, nhân viên hợp đồng có thể chọn một hợp đồng phụ và dây chuyền hợp đồng phụ cụ thể.
+Trong Hoạt động Dự án, nhân viên hợp đồng có thể ghi lại thời gian trên các dự án theo cách tương tự như nhân viên. Khi bắt đầu thời gian cho các dự án và / hoặc nhiệm vụ dự án, nhân viên hợp đồng có thể chọn một hợp đồng phụ và dây chuyền hợp đồng phụ cụ thể.
 
 Khi thời gian do nhân viên hợp đồng đệ trình được chấp thuận, chi phí dự án được ghi nhận bằng cách sử dụng tỷ lệ chi phí đơn vị được thiết lập cho nguồn nhân viên hợp đồng đó trong **Giá vai trò** phần bảng giá mua trên hợp đồng phụ.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Định phí cho các chi phí thầu phụ cho các dự án
-Khi nhập chi phí phát sinh cho các dự án, bạn có thể chọn dòng hợp đồng phụ và hợp đồng phụ trên mục nhập chi phí. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Định phí chi phí thầu phụ cho các dự án
+Khi nhập chi phí phát sinh cho các dự án, bạn có thể chọn một hợp đồng phụ và dòng hợp đồng phụ trên mục nhập chi phí. 
 
 Khi mục nhập chi phí này được đệ trình và phê duyệt, chi phí sẽ được ghi nhận vào dự án dựa trên đơn giá được thiết lập cho loại giao dịch đó trong **Giá loại** phần bảng giá mua trên hợp đồng phụ.
 

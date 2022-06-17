@@ -1,6 +1,6 @@
 ---
 title: Tạo giải pháp tùy chỉnh cho thông số định giá
-description: Chủ đề này giải thích cách tạo giải pháp tùy chỉnh khi tạo thông số định giá tùy chỉnh.
+description: Bài viết này giải thích cách tạo giải pháp tùy chỉnh khi tạo thứ nguyên đặt giá tùy chỉnh.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7a15c5fc45ada4394dcb8e3dc2b477cb2a0bb8c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0df6728634b169c8a1a128aba1555d79fee5719f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929056"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Tạo giải pháp tùy chỉnh cho thông số định giá
 

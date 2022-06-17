@@ -1,17 +1,17 @@
 ---
 title: Chi tiết tiêu đề cho hóa đơn của nhà cung cấp
-description: Chủ đề này giải thích chức năng được cung cấp trên tiêu đề hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
+description: Bài viết này giải thích chức năng được cung cấp trên tiêu đề hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929884"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Chi tiết tiêu đề cho hóa đơn của nhà cung cấp
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575606"
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này giải thích chức năng được cung cấp trên tiêu đề hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
+Bài viết này giải thích chức năng được cung cấp trên tiêu đề hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations.
 
 Khi người quản lý dự án lập kế hoạch và thực hiện dự án, họ có thể thuê các nhà thầu phụ và mua các sản phẩm và dịch vụ từ các nhà cung cấp. Trong quá trình thực hiện dự án, chi phí phát sinh từ các dịch vụ, vật liệu và các hạng mục chi phí được đấu thầu theo hợp đồng phụ với các nhà cung cấp. Các nhà cung cấp lập hóa đơn các chi phí này cho các dự án bằng cách tạo các hóa đơn của nhà cung cấp.
 

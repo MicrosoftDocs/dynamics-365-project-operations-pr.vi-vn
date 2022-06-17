@@ -1,17 +1,17 @@
 ---
 title: Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
-description: Chủ đề này cung cấp thông tin và các mẫu để sử dụng API lịch trình dự án.
+description: Bài viết này cung cấp thông tin và các mẫu để sử dụng API lịch trình Dự án.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929240"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 
@@ -58,7 +58,7 @@ Bởi vì bản ghi có cả **CreateProjectV1** và **CreateTeamMemberV1** đư
 
 | Thực thể lập lịch trình | Tạo | Cập nhật | Xoá | Những điều quan trọng cần cân nhắc |
 | --- | --- | --- | --- | --- |
-Nhiệm vụ dự án | Có | Có | Có | Các **Phát triển**, **·**, và **Nỗ lực** các trường có thể được chỉnh sửa trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.  |
+Nhiệm vụ dự án | Có | Có | Có | Các **Tiến triển**, **·**, và **Nỗ lực** Các trường có thể được chỉnh sửa trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.  |
 | Quan hệ phụ thuộc nhiệm vụ dự án | Có |  | Có | Bản ghi quan hệ phụ thuộc nhiệm vụ dự án không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. |
 | Công việc giao cho nguồn lực | Có | Có | | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, bản ghi cũ có thể bị xóa và bản ghi mới có thể được tạo. |
 | Nhóm dự án | Có | Có | Có | Nhóm mặc định được tạo bằng cách sử dụng **CreateProjectV1** API. Hỗ trợ tạo và xóa nhóm dự án đã được thêm vào trong Bản phát hành cập nhật 16. |
@@ -71,7 +71,7 @@ Thuộc tính ID là không bắt buộc. Nếu được cung cấp, hệ thốn
 
 ## <a name="restricted-fields"></a>Các trường bị hạn chế
 
-Các bảng sau xác định các trường bị hạn chế **Tạo ra** và **Biên tập**.
+Các bảng sau xác định các trường bị hạn chế **Tạo ra** và **Chỉnh sửa**.
 
 ### <a name="project-task"></a>Nhiệm vụ dự án
 

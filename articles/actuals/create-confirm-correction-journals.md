@@ -1,6 +1,6 @@
 ---
 title: Tạo và xác nhận nhật ký Chỉnh sửa
-description: Chủ đề này cung cấp thông tin về cách tạo và xác nhận nhật ký chỉnh sửa.
+description: Bài viết này cung cấp thông tin về cách tạo và xác nhận một nhật ký sửa chữa.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928090"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Tạo và xác nhận nhật ký Chỉnh sửa
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Đôi khi, mục nhập thời gian hoặc chi phí có thể được nhập không chính xác. Ví dụ, một nhà tư vấn có thể chọn sai ngày khi họ tạo mục nhập thời gian hoặc họ có thể chọn sai dự án khi nhập chi phí. Nếu một nhà tư vấn không thể cập nhật các mục đã gửi, một quản trị viên phụ có thể trực tiếp chỉnh sửa các thông số kỹ thuật cho một dự án.
+Đôi khi, mục nhập thời gian hoặc chi phí có thể được nhập không chính xác. Ví dụ, một nhà tư vấn có thể chọn sai ngày khi họ tạo mục nhập thời gian hoặc họ có thể chọn sai dự án khi nhập chi phí. Nếu một nhà tư vấn không thể cập nhật các mục đã gửi, một quản trị viên phụ có thể trực tiếp sửa các thông số kỹ thuật cho một dự án.
 
 ## <a name="correct-approved-time-entries"></a>Chỉnh sửa mục nhập thời gian đã phê duyệt     
 
@@ -82,17 +82,17 @@ Hoàn thành các bước sau để chỉnh sửa một hoặc nhiều mục nh�
 
 Hoàn thành các bước sau để sửa một hoặc nhiều mục nhật ký sử dụng vật liệu.
 
-1. Bên trong **Bán hàng** khu vực, trong ngăn điều hướng bên trái, bên dưới **Giao dịch**, lựa chọn **Thực tế**.
+1. Bên trong **Việc bán hàng** khu vực, trong ngăn điều hướng bên trái, bên dưới **Giao dịch**, lựa chọn **Thực tế**.
 
 2. Bên trong **Thực tế** danh sách, sử dụng bộ lọc cột để chọn **Vật chất** lớp giao dịch, để chỉ hiển thị các hướng dẫn thực tế cho vật liệu. Sử dụng các bộ lọc cột khác để hạn chế hơn nữa các thực tế được hiển thị. Sau khi bạn có thể tìm thấy tập hợp các hành động mong muốn, hãy chọn các hành động đó, sau đó chọn **Các mục nhập chính xác**. Một nhật ký sửa chữa mới được tạo tự động và **Hiệu chỉnh vật liệu** loại được chỉ định.
 
-3. Trên **Tạp chí Mới** trang, trong **Sự miêu tả**, hãy nhập mô tả cho việc sửa chữa. Sau đó, trên **Hiệu chỉnh vật liệu** tab, trong **Giá trị mới cho vật liệu**, chọn các trường dữ liệu để sửa cho các dòng nguyên liệu đã chọn. Ví dụ: bạn có thể chỉ định vật liệu cho một dự án khác, hoặc sửa sản phẩm, ngày vật liệu hoặc hợp đồng phụ.
+3. Trên **Tạp chí Mới** trang, trong **Sự mô tả**, hãy nhập mô tả cho việc sửa chữa. Sau đó, trên **Hiệu chỉnh vật liệu** tab, trong **Giá trị mới cho vật liệu**, chọn các trường dữ liệu để sửa cho các dòng nguyên liệu đã chọn. Ví dụ: bạn có thể chỉ định vật liệu cho một dự án khác, hoặc sửa sản phẩm, ngày vật liệu hoặc hợp đồng phụ.
 
 4. Chọn **Xem trước**. Sau đó, trong hộp thoại, hãy chọn **ĐƯỢC RỒI**.
 
 5. Trên **Dòng nhật ký** tab, xác minh các sửa chữa. Bạn có thể xem danh sách các thao tác ban đầu có liên quan đến các mục nhập vật liệu đã chọn đã được đảo ngược và các dòng tương ứng đã được chỉnh sửa đã được tạo.
 
-6. Nếu các giá trị chỉnh sửa xuất hiện như mong đợi, hãy chọn **Xác nhận**. Sau đó, trong hộp thoại, hãy chọn **ĐƯỢC RỒI**. Nếu các giá trị không như mong đợi, hãy chọn **Hủy bỏ** để trở lại **Thực tế** danh sách. Sau đó, lặp lại các bước từ 2 đến 5.
+6. Nếu các giá trị chỉnh sửa xuất hiện như mong đợi, hãy chọn **Xác nhận**. Sau đó, trong hộp thoại, hãy chọn **ĐƯỢC RỒI**. Nếu các giá trị không như mong đợi, hãy chọn **Hủy bỏ** để trở lại **Thực tế** danh sách. Sau đó lặp lại các bước từ 2 đến 5.
 
 7. Sau khi bạn xác nhận nhật ký sửa chữa, hãy quay lại dự án hoặc các dự án mà bạn đã cập nhật để xem các thay đổi của bạn.
 

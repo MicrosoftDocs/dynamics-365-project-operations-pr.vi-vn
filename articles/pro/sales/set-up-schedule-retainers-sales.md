@@ -1,17 +1,17 @@
 ---
 title: Thiết lập lịch trình khoản duy trì
-description: Chủ đề này cung cấp thông tin về cách thiết lập một lịch trình tiền tạm ứng trong Project Operations.
+description: Bài viết này cung cấp thông tin về cách thiết lập lịch trình lưu giữ trong Hoạt động dự án.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1c48f04aa47d50c9f3ab46031ef0d6cd68619d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 077961d2f649754149315438252970609c246555
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927768"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Thiết lập lịch trình khoản duy trì
 

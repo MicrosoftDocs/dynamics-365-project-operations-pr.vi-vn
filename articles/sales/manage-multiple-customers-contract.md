@@ -1,21 +1,21 @@
 ---
 title: Quản lý nhiều khách hàng trên một hợp đồng dự án
-description: Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928366"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Quản lý nhiều khách hàng trên một hợp đồng dự án
 
-Chủ đề này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án. Bạn có thể dùng hợp đồng dự án khi thỏa thuận theo hợp đồng của nhiều khách hàng là cần thiết để cấp vốn cho một giao dịch. Trên trang **Hợp đồng dự án**, tab **Tóm tắt** bao gồm những thông tin về khách hàng chính của một giao dịch. Những khách hàng khác tham gia vào giao dịch có thể được thêm vào tab **Khách hàng**.
+Bài viết này cung cấp thông tin về cách quản lý nhiều khách hàng trên một hợp đồng dự án. Bạn có thể dùng hợp đồng dự án khi thỏa thuận theo hợp đồng của nhiều khách hàng là cần thiết để cấp vốn cho một giao dịch. Trên trang **Hợp đồng dự án**, tab **Tóm tắt** bao gồm những thông tin về khách hàng chính của một giao dịch. Những khách hàng khác tham gia vào giao dịch có thể được thêm vào tab **Khách hàng**.
 
 Tất cả các khách hàng trên hợp đồng ở tab **Khách hàng** của hợp đồng dự án đều mặc định là khách hàng trong phần mô tả hợp đồng của bất kỳ mô tả hợp đồng mới nào dựa trên dự án được tạo cho hợp đồng dự án. Mọi dòng hợp đồng hiện có dựa trên dự án sẽ không thừa hưởng hồ sơ khách hàng mới theo hợp đồng được tạo sau này.
 

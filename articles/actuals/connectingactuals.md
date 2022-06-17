@@ -1,19 +1,19 @@
 ---
-title: Kết nối giao dịch - Liên kết các thực tế của các loại giao dịch khác nhau
-description: Chủ đề này giải thích cách kết nối giao dịch được sử dụng để liên kết các thực tế thuộc các loại khác nhau nhằm giúp theo dõi khả năng sinh lời, tồn đọng thanh toán và tính toán doanh thu đã lập hóa đơn so với chưa lập hóa đơn.
+title: Kết nối giao dịch – Liên kết số liệu thực tế của các loại giao dịch khác nhau
+description: Bài viết này giải thích cách kết nối giao dịch được sử dụng để liên kết các thực tế thuộc các loại khác nhau nhằm giúp theo dõi khả năng sinh lời, tồn đọng thanh toán và tính toán doanh thu đã lập hóa đơn so với chưa lập hóa đơn.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926112"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Kết nối giao dịch - Liên kết các thực tế của các loại giao dịch khác nhau
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Kết nối giao dịch – Liên kết số liệu thực tế của các loại giao dịch khác nhau
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -32,7 +32,7 @@ Việc xử lý các mục thời gian trong vòng đời dự án Hoạt độn
 
 Mỗi sự kiện trong quy trình xử lý sẽ kích hoạt việc tạo các bản ghi trong **Kết nối giao dịch** bàn. Điều này giúp xây dựng dấu vết về mối quan hệ giữa các bản ghi được tạo qua mục nhập thời gian, dòng nhật ký, thực tế và chi tiết dòng hóa đơn.
 
-Bảng sau đây cho thấy các bản ghi trong **Kết nối giao dịch** thực thể cho quy trình công việc trước đó.
+Bảng sau đây cho thấy các bản ghi trong **Kết nối giao dịch** thực thể cho quy trình làm việc trước đó.
 
 |Sự kiện                   |Giao dịch 1                 |Vai trò giao dịch 1 |Loại giao dịch 1       |Giao dịch 2          |Vai trò giao dịch 2 |Loại giao dịch 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|

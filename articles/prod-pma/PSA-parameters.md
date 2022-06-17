@@ -1,6 +1,6 @@
 ---
 title: Tham số tích hợp Project Service Automation
-description: Chủ đề này giải thích cách định cấu hình cách nhập dữ liệu mặc định khi bạn tích hợp Microsoft Dynamics 365 for Project Service Automation với Microsoft Dynamics 365 Tài chính.
+description: Bài viết này giải thích cách định cấu hình cách nhập dữ liệu mặc định khi bạn tích hợp Microsoft Dynamics 365 for Project Service Automation với Microsoft Dynamics 365 Tài chính.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a4abeb2960981196ed1d7c453e7daa0558e326ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932322"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Tham số tích hợp Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Trên **Các thông số tích hợp Tự động hóa Dịch vụ Dự án**, bạn có thể định cấu hình cách nhập dữ liệu mặc định khi bạn tích hợp Dynamics 365 Project Service Automation với Dynamics 365 Finance. Để các dự án được đồng bộ hóa thành công từ Project Service Automation sang Finance, bạn phải thiết lập các trường sau đây.
+Trên **Các tham số tích hợp Tự động hóa Dịch vụ Dự án**, bạn có thể định cấu hình cách nhập dữ liệu mặc định khi bạn tích hợp Dynamics 365 Project Service Automation với Dynamics 365 Finance. Để các dự án được đồng bộ hóa thành công từ Project Service Automation sang Finance, bạn phải thiết lập các trường sau đây.
 
 Để mở trang **Tham số tích hợp Project Service Automation**, hãy đi đến **Quản lý dự án và kế toán** \> **Thiết lập** \> **Tham số tích hợp Dynamics 365 for Project Service Automation**. 
 

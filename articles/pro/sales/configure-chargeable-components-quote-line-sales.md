@@ -1,17 +1,17 @@
 ---
-title: Đặt cấu hình các thành phần có thể tính phí của mục mô tả báo giá
-description: Chủ đề này cung cấp thông tin về cách thiết lập các thành phần có thể tính phí và không thể tính phí trên mục mô tả báo giá dựa trên dự án.
+title: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá
+description: Bài viết này cung cấp thông tin về cách thiết lập các thành phần có thể tính phí và không tính phí trên dòng báo giá dựa trên dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3c9bd23f4e78e3ea5ae8f74ff1a4829a11f91929
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930068"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá 
 

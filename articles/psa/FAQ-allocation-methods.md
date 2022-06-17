@@ -1,6 +1,6 @@
 ---
 title: Phương thức phân bổ đặt trước trong Project Service Automation
-description: Chủ đề này cung cấp thông tin về các cách phân bổ đặt chỗ khác nhau.
+description: Bài viết này cung cấp thông tin về các cách khác nhau mà bạn có thể đặt trước phân bổ.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929194"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Phương thức phân bổ đặt trước trong Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Cho dù bạn thêm một thành viên nhóm trực tiếp vào một dự án trên tab **Nhóm** hay đăng ký một nguồn lực cho một dự án hoặc yêu cầu từ bảng Lịch trình, bạn có thể sử dụng một vài phương pháp phân bổ đăng ký khác nhau. Chủ đề này giải thích cách mỗi phương pháp hoạt động và phương pháp nào có thể dẫn tới quá tải nguồn lực.
+Cho dù bạn thêm một thành viên nhóm trực tiếp vào một dự án trên tab **Nhóm** hay đăng ký một nguồn lực cho một dự án hoặc yêu cầu từ bảng Lịch trình, bạn có thể sử dụng một vài phương pháp phân bổ đăng ký khác nhau. Bài viết này giải thích cách hoạt động của từng phương pháp và những phương pháp nào có thể dẫn đến tài nguyên đặt trước quá nhiều.
 
 ## <a name="full-capacity"></a>Năng lực đầy đủ 
 Phương pháp Năng lực đầy đủ sẽ đăng ký năng lực đầy đủ của nguồn lực theo các ngày bắt đầu và kết thúc đã được chỉ định. Ví dụ: nếu một nguồn lực có lịch được sắp xếp làm việc 8 giờ một ngày, 5 ngày một tuần; lịch này có ngày bắt đầu và kết thúc kéo dài trong 5 ngày làm việc sẽ được đăng ký dưới dạng nguồn lực 40 giờ. Việc đăng ký được hoàn thành mà không phải chú ý tới năng lực còn lại của nguồn lực. Nếu một nguồn lực đã được đăng ký trên dự án khác trùng với khung thời gian đó, thì 40 giờ sẽ được đăng ký dưới dạng số giờ bổ sung, như vậy có khả năng dẫn tới việc quá tải đăng ký.

@@ -1,17 +1,17 @@
 ---
 title: Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service
-description: Chủ đề này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Project Operations.
+description: Bài viết này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Hoạt động dự án.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928044"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service 
 

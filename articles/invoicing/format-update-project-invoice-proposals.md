@@ -1,17 +1,17 @@
 ---
 title: Quản lý đề xuất hóa đơn dự án
-description: Chủ đề này cung cấp chi tiết về quy trình xử lý hóa đơn dành cho khách hàng với Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
+description: Bài viết này cung cấp thông tin chi tiết về việc xử lý hóa đơn giao cho khách hàng với Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef6003499f1372a51d7d1606db6f5bf9722a369d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927860"
 ---
 # <a name="manage-project-invoice-proposals"></a>Quản lý đề xuất hóa đơn dự án
 

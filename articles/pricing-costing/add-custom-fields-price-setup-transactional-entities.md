@@ -1,6 +1,6 @@
 ---
 title: Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
-description: Chủ đề này cung cấp thông tin về cách thêm các thêm trường tùy chỉnh bắt buộc vào các thực thể cũng như biểu mẫu và dạng xem.
+description: Bài viết này cung cấp thông tin về cách thêm các tham chiếu trường tùy chỉnh bắt buộc vào các thực thể cũng như các biểu mẫu và dạng xem.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926066"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này giả định rằng bạn đã hoàn tất các quy trình trong chủ đề, [Tạo trường và thực thể tùy chỉnh để được sử dụng là kích thước giá](create-custom-fields-entities-pricing-dimensions.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại chủ đề này. 
+Bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh để được sử dụng làm thứ nguyên đặt giá](create-custom-fields-entities-pricing-dimensions.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này. 
 
-Trong chủ đề này, các quy trình sẽ hiển thị cho bạn cách thêm tham chiếu trường tùy chỉnh bắt buộc vào các thực thể và vào các thành phần giao diện người dùng (UI) như biểu mẫu và dạng xem.
+Trong bài viết này, các thủ tục sẽ chỉ cho bạn cách thêm các tham chiếu trường tùy chỉnh bắt buộc vào các thực thể và vào các phần tử giao diện người dùng (UI) như biểu mẫu và dạng xem.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Thêm các trường kích thước giá tùy chỉnh 
 Sau khi các trường và thực thể tùy chỉnh được tạo, bước tiếp theo là thiết lập giá và thực thể giao dịch với sự cân nhắc đến bất kỳ thực thể tùy chỉnh hay bộ tùy chọn nào bằng cách tạo các trường tham chiếu. Tùy thuộc vào việc danh sách kích thước giá bao gồm các kích thước của bộ tùy chỉnh hay kích thước thực thể hay cả hai, chỉ làm theo các bước trong **Kích thước giá tùy chỉnh dựa trên bộ tùy chọn** hoặc **Kích thước giá tùy chỉnh dựa trên thực thể** hoặc cả hai.

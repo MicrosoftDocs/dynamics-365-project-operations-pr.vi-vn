@@ -1,23 +1,23 @@
 ---
 title: Theo dõi công số dự án
-description: Chủ đề này cung cấp thông tin về cách theo dõi công số dự án và tiến độ công việc.
+description: Bài viết này cung cấp thông tin về cách theo dõi nỗ lực của dự án và tiến độ công việc.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929286"
 ---
 # <a name="project-effort-tracking"></a>Theo dõi công số dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Chủ đề này cho biết cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
+Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Bài viết này chỉ ra cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
 
 ## <a name="effort-tracking-view"></a>Dạng xem theo dõi nhân công
 

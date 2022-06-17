@@ -1,17 +1,17 @@
 ---
 title: Tổng quan về chế độ quản lý nguồn lực
-description: Chủ đề này cung cấp thông tin về chức năng Quản lý nguồn lực trong Dynamics 365 Project Operations.
+description: Bài viết này cung cấp thông tin về chức năng quản lý tài nguyên trong Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928458"
 ---
 # <a name="resource-management-modes-overview"></a>Tổng quan về chế độ quản lý nguồn lực
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations hỗ trợ 2 chế độ để bạn thực hi�
 
 ![Chế độ kết hợp.](./media/resource-management-hybrid.png)
 
-Ngoài quy trình ở Chế độ trung tâm được hỗ trợ, hãy xem các chủ đề sau để quản lý tất cả các quy trình đặt trước được hỗ trợ khác trong Chế độ kết hợp:
+Ngoài quy trình ở chế độ Trung tâm được hỗ trợ, hãy xem các bài viết sau để quản lý tất cả các quy trình đặt phòng được hỗ trợ khác ở chế độ Kết hợp:
 
 Đặt trước nguồn lực trực tiếp cho dự án:
 - [Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ](/dynamics365/project-service/assign-named-bookable-resource)

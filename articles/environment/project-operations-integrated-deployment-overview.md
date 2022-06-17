@@ -1,17 +1,17 @@
 ---
 title: Tổng quan về triển khai Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho
-description: Chủ đề này cung cấp thông tin về loại hình triển khai, Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
+description: Bài viết này cung cấp thông tin về kiểu triển khai, Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có sẵn.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931586"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Tổng quan về triển khai Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho
 

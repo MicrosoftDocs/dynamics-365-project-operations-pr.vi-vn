@@ -1,18 +1,18 @@
 ---
 title: Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý
-description: Chủ đề này mô tả cách định cấu hình các danh mục mua sắm có thể được sử dụng với các đơn đặt hàng mua dự án và hóa đơn của nhà cung cấp đang chờ xử lý.
+description: Bài viết này mô tả cách định cấu hình danh mục mua sắm có thể được sử dụng với các đơn đặt hàng mua dự án và hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927446"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý
 
@@ -22,7 +22,7 @@ Các chuyên gia mua hàng có thể tạo và duy trì danh mục các mặt h�
 
 ## <a name="minimum-version-requirements"></a>Yêu cầu phiên bản tối thiểu
 
-Các phiên bản sau được yêu cầu sử dụng danh mục mua sắm với đơn đặt hàng mua dự án cho Microsoft Dynamics 365 Project Operations tình huống không có hàng / dựa trên tài nguyên:
+Các phiên bản sau được yêu cầu để sử dụng danh mục mua sắm với đơn đặt hàng mua dự án cho Microsoft Dynamics 365 Project Operations tình huống không có hàng / dựa trên tài nguyên:
 
 - Hoạt động dự án Dataverse phiên bản giải pháp 4.41.0.45 trở lên
 - Môi trường Tài chính và Hoạt động phiên bản 10.0.26 trở lên
@@ -33,7 +33,7 @@ Các phiên bản sau được yêu cầu sử dụng danh mục mua sắm với
 
 ## <a name="enable-the-feature-key-for-procurement-categories"></a>Bật khóa tính năng cho các danh mục mua sắm
 
-Thực hiện theo các bước sau để bật chức năng sử dụng danh mục mua sắm với các đơn đặt hàng mua dự án.
+Thực hiện theo các bước sau để bật chức năng sử dụng danh mục mua sắm với đơn đặt hàng mua dự án.
 
 1. Trong Dynamics 365 Finance, hãy mở **Quản lý tính năng** không gian làm việc.
 1. Trong danh sách tính năng, hãy tìm **Sử dụng các danh mục mua sắm trong Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có hàng** tính năng, và sau đó chọn **Cho phép**.
@@ -47,9 +47,9 @@ Thực hiện theo các bước sau để ánh xạ các danh mục dự án th�
 
 1. Đi đến **Mua sắm và tìm nguồn cung ứng \> Các hạng mục mua sắm**.
 1. Lựa chọn **Chỉnh sửa phân cấp danh mục**.
-1. Chọn nút phân cấp danh mục mong muốn, sau đó trên **Chỉ định các hạng mục dự án**, liên kết nút với danh mục dự án từ **Thời gian**, Chi phí **, hoặc **, Dự án hạng mục** danh mục (nghĩa là, **Thời gian mặc định** hoặc **Chi phí mặc định** thể loại).
+1. Chọn nút phân cấp danh mục mong muốn, sau đó trên **Chỉ định các hạng mục dự án**, liên kết nút với danh mục dự án từ **Thời gian**, **phí**, hoặc, **Dự án hạng mục** danh mục (nghĩa là, **Thời gian mặc định** hoặc **Chi phí mặc định** thể loại).
 1. Chọn **Lưu.**
 1. Đóng trang.
 
 > [!NOTE]
-> Ánh xạ danh mục mua sắm sang danh mục dự án là tùy chọn. Nếu một danh mục mua sắm không được ánh xạ, hệ thống sẽ sử dụng giá trị được đặt trong **Mục** lĩnh vực trong **Danh mục dự án mặc định** phần trên **Hoạt động dự án trên Dynamics 365 Sự tham gia của khách hàng** tab của **Các thông số kế toán và quản lý dự án** trang.
+> Ánh xạ danh mục mua sắm sang danh mục dự án là tùy chọn. Nếu một danh mục mua sắm không được ánh xạ, hệ thống sẽ sử dụng giá trị được đặt trong **Mục** lĩnh vực trong **Danh mục dự án mặc định** phần trên **Hoạt động dự án trên Dynamics 365 Sự tham gia của khách hàng** tab của **Quản lý dự án và các thông số kế toán** trang.

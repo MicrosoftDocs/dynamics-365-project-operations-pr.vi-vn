@@ -1,18 +1,18 @@
 ---
 title: Cung cấp môi trường mới
-description: Chủ đề này cung cấp thông tin về cách cung cấp môi trường Project Operations mới.
+description: Bài viết này cung cấp thông tin về cách cung cấp một môi trường Hoạt động Dự án mới.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931632"
 ---
 # <a name="provision-a-new-environment"></a>Cung cấp môi trường mới
 
@@ -20,7 +20,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 
-Chủ đề này cung cấp thông tin về cách cung cấp môi trường Dynamics 365 Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
+Bài viết này cung cấp thông tin về cách cung cấp một Dynamics 365 Project Operations môi trường cho các kịch bản dựa trên tài nguyên / không có kho.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Bật quy trình tự động cung cấp Project Operations trong dự án LCS
 
@@ -117,7 +117,7 @@ Bạn có thể cần áp dụng các bản cập nhật chất lượng cho mô
 
     ![Áp dụng giải pháp.](./media/13ApplySolutions.png)
 
-5. Chọn cả hai giải pháp, **Dynamics 365 Finance and Operations Bản đồ đối tượng ghi kép** và **Dynamics 365 Project Operations Bản đồ thực thể ghi kép**, và sau đó chọn **Nộp đơn**.
+5. Chọn cả hai giải pháp, **Dynamics 365 Finance and Operations Bản đồ đối tượng ghi kép** và **Dynamics 365 Project Operations Bản đồ thực thể ghi kép**, và sau đó chọn **Ứng dụng**.
 
     ![Xác nhận giải pháp.](./media/14ConfirmSolutions.png)
 

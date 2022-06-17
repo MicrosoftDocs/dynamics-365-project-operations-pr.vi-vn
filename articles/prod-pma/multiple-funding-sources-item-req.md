@@ -1,23 +1,23 @@
 ---
-title: Yêu cầu hạng mục đối với các hợp đồng dự án với nhiều nguồn tài trợ
-description: Chủ đề này cung cấp thông tin về cách định cấu hình và sử dụng các yêu cầu của mặt hàng với nhiều nguồn tài trợ.
+title: Yêu cầu về hạng mục đối với hợp đồng dự án với nhiều nguồn tài trợ
+description: Bài viết này cung cấp thông tin về cách định cấu hình và sử dụng các yêu cầu của mặt hàng với nhiều nguồn tài trợ.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931218"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Yêu cầu hạng mục đối với các hợp đồng dự án với nhiều nguồn tài trợ
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Yêu cầu về hạng mục đối với hợp đồng dự án với nhiều nguồn tài trợ
 
 _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Một số thỏa thuận hợp đồng cho các sản phẩm được phân phối dựa trên dự án có thể yêu cầu nhiều nguồn tài trợ. Chủ đề này giải thích cách chọn và cấu hình các nguồn tài trợ mong muốn khi cần có nhiều nguồn cho một dự án hoặc hợp đồng dự án.
+Một số thỏa thuận hợp đồng cho các sản phẩm được phân phối dựa trên dự án có thể yêu cầu nhiều nguồn tài trợ. Bài viết này giải thích cách chọn và cấu hình các nguồn tài trợ mong muốn khi cần có nhiều nguồn cho một dự án hoặc hợp đồng dự án.
 
 ## <a name="terminology"></a>Thuật ngữ
 
@@ -61,7 +61,7 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 1. Tạo bản ghi yêu cầu mặt hàng mới.
 
     - Theo mặc định, **Tài khoản hóa đơn** trường trong bản ghi được đặt thành tài khoản hóa đơn được đặt cho dự án. Bạn có thể thay đổi giá trị của **Tài khoản hóa đơn** và sau đó lưu bản ghi. Sau khi bản ghi được lưu, bạn không còn có thể cập nhật **Tài khoản hóa đơn** giá trị. Nếu bạn phải cập nhật **Tài khoản hóa đơn** giá trị cho yêu cầu mặt hàng, xóa yêu cầu mặt hàng hiện có, sau đó tạo một yêu cầu mới có giá trị mong muốn.
-    - Theo mặc định, **Khách hàng** trường cho yêu cầu mặt hàng được đặt dựa trên **Khách hàng mặc định** giá trị được đặt trên **Các thông số kế toán và quản lý dự án** trang.
+    - Theo mặc định, **khách hàng** trường cho yêu cầu mặt hàng được đặt dựa trên **Khách hàng mặc định** giá trị được đặt trên **Các thông số kế toán và quản lý dự án** trang.
 
     Khi bản ghi yêu cầu mặt hàng được lưu, hệ thống sẽ liên kết nó với **Yêu cầu mặt hàng đơn đặt hàng** bản ghi tiêu đề. Nếu không có tiêu đề đơn đặt hàng mở nào có tài khoản hóa đơn đã chọn, hệ thống sẽ tạo một tài khoản và liên kết dòng yêu cầu mặt hàng với tài khoản đó.
 
@@ -75,7 +75,7 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 1. Đi đến **Quản lý dự án và kế toán** \> **Dự án** \> **Tất cả các dự án** và chọn bản ghi dự án.
 1. Trên **Kế hoạch** tab, chọn **Dự báo mặt hàng**.
 1. Tạo một bản ghi dự báo mặt hàng mới.
-1. Tùy chọn: Trên **Dự định** tab, trong **Nguồn tài trợ** trường, chọn tài khoản hóa đơn mong muốn.
+1. Tùy chọn: Trên **Dự án** tab, trong **Nguồn tài trợ** trường, chọn tài khoản hóa đơn mong muốn.
 1. Lựa chọn **Tạo yêu cầu mặt hàng**, và xác nhận thông báo mà bạn nhận được.
 
     > [!NOTE]

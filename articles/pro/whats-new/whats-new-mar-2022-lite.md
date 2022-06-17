@@ -1,30 +1,30 @@
 ---
-title: Có gì mới Tháng 3 năm 2022 - Triển khai Project Operations Lite
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản triển khai Project Operations lite tháng 3 năm 2022.
+title: Có gì mới vào tháng 3 năm 2022 - Triển khai Project Operations Lite
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản triển khai Project Operations lite tháng 3 năm 2022.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934254"
 ---
-# <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Có gì mới Tháng 3 năm 2022 - Triển khai Project Operations Lite
+# <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Có gì mới vào tháng 3 năm 2022 - Triển khai Project Operations Lite
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.30.0.99
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-- Hợp đồng phụ: Tạo hóa đơn của nhà cung cấp và trải nghiệm đối sánh
+- Hợp đồng phụ: Tạo hóa đơn cho nhà cung cấp và trải nghiệm đối sánh
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -38,9 +38,9 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 | Định giá và thanh toán | 2541660 | **Xác thực việc tạo đơn hàng bán hàng** trong tính năng ghi kép chỉ dành cho các đơn đặt hàng dựa trên dự án. |
 | Định giá và thanh toán | 2552745 | Thuế không được phân chia giữa những khách hàng đã thiết lập các quy tắc thanh toán riêng lẻ. |
 | Định giá và thanh toán | 2558859 | Thông báo lỗi được cải thiện khi thiết lập thứ nguyên đặt giá. |
-| Định giá và thanh toán | 2558933 | **Nhập từ Dự toán Dự án** thất bại khi **msdyn\_ dự định** được thêm vào làm thứ nguyên định giá. |
+| Định giá và thanh toán | 2558933 | **Nhập từ Dự toán Dự án** thất bại khi **msdyn\_ dự án** được thêm vào làm thứ nguyên định giá. |
 | Định giá và thanh toán | 2559101 | Việc xóa thông số dự án không bị chặn và gây ra sự cố. |
-|   Quản lý cơ hội | 2570390 | Trình cắm ghi kép buộc loại tài khoản dựa trên báo giá, đơn đặt hàng và cơ hội **Khách hàng**, ngay cả khi loại tài khoản đó không chính xác. |
+|   Quản lý cơ hội | 2570390 | Trình cắm ghi kép buộc loại tài khoản dựa trên báo giá, đơn đặt hàng và cơ hội **khách hàng**, ngay cả khi loại tài khoản đó không chính xác. |
 | Định giá và thanh toán | 2586097 | Các thực tế về chi phí được lập hóa đơn chia nhỏ không bị đảo ngược khi một dự án bị xóa khỏi dòng hợp đồng dự án. |
 | Định giá và thanh toán | 2589619 | Thuế đối với tài liệu ghi vào được tuyên truyền đến các thực tế bán hàng chưa lập hóa đơn và hóa đơn. |
 |   Quản lý cơ hội | 2594015 | Một báo giá không thể được đóng là giành cho những khách hàng có **Net60** điều khoản thanh toán. |
@@ -51,9 +51,9 @@ Chủ đề này áp dụng cho các thành phần và phiên bản sau của Mi
 
 ## <a name="removed-and-deprecated-features"></a>Các tính năng đã bị xóa và không dùng nữa
 
-Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](../../whats-new/removed-depreciated-features-project.md) chủ đề mô tả các tính năng đã bị xóa hoặc không được dùng nữa Dynamics 365 Project Operations.
+Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](../../whats-new/removed-depreciated-features-project.md) bài viết mô tả các tính năng đã bị xóa hoặc không được dùng nữa Dynamics 365 Project Operations.
 
 - Tính năng đã xóa không còn khả dụng trong sản phẩm.
 - Một tính năng không dùng nữa không được phát triển tích cực và có thể bị xóa trong bản cập nhật trong tương lai.
 
-Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](../../whats-new/removed-depreciated-features-project.md) chủ đề 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.
+Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](../../whats-new/removed-depreciated-features-project.md) 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.

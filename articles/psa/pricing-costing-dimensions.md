@@ -1,6 +1,6 @@
 ---
 title: Trang chủ tham số giá và chi phí
-description: Chủ đề này cung cấp tổng quan về tham số giá.
+description: Bài viết này cung cấp tổng quan về các thứ nguyên đặt giá.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925468"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Trang chủ tham số giá và chi phí
 
@@ -47,7 +47,7 @@ PSA vận chuyển với một bộ tham số giá mặc định. Bạn có th�
 > [!IMPORTANT]
 > Nếu bạn đã dùng các trường sẵn dùng của vai trò và đơn vị tổ chức ở dạng tham số giá trước phiên bản 3 của PSA, thì sẽ không có thay đổi nào có thể quan sát được. Bạn có thể tiếp tục sử dụng Project Service như bình thường. 
 
-Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh. Để biết thêm thông tin, hãy xem các chủ đề sau, tuy nhiên lưu ý rằng bạn phải hoàn tất các quy trình theo thứ tự liệt kê dưới đây:
+Nếu cần giá hoặc chi phí cho nguồn lực của mình bằng các thuộc tính bổ sung, bạn có thể tạo các trường, thực thể và tham số tùy chỉnh. Để biết thêm thông tin, hãy xem các bài viết sau, tuy nhiên lưu ý rằng bạn phải hoàn thành các thủ tục theo thứ tự được liệt kê bên dưới:
 
 - [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md)
 - [Thêm các trường tùy chỉnh vào thực thể thiết lập và giao dịch](field-references.md)

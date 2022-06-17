@@ -1,17 +1,17 @@
 ---
 title: Điều hướng Project Operations
-description: Chủ đề này cung cấp thông tin về cách truy cập vào Project Operations từ Lifecycle Services.
+description: Bài viết này cung cấp thông tin về cách truy cập Hoạt động của Dự án từ Dịch vụ Vòng đời.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931678"
 ---
 # <a name="navigate-project-operations"></a>Điều hướng Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations cho các cho tình huống dựa trên nguồn l
  - **Project Operations trên môi trường Common Data Service (CDS)**: Thành phần này bao gồm các khả năng và quy trình từ cơ hội đến lập hóa đơn ước giá. 
  - **Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance** : Thành phần này bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. 
 
-Sau khi bạn cấp phép cho Project Operations như mô tả trong chủ đề này, trang **Chi tiết môi trường** của Lifecycle Services (LCS) cung cấp khả năng truy cập dễ dàng vào cả hai thành phần của Lifecycle Services (LCS).  
+Sau khi bạn cung cấp Hoạt động Dự án như được mô tả trong bài viết này, Dịch vụ Vòng đời (LCS) **Chi tiết môi trường** trang này cung cấp khả năng truy cập dễ dàng vào cả hai thành phần của Hoạt động Dự án.  
 
 Sử dụng tên môi trường trong phần **Tên môi trường Common Data Service** chuyển đến Project Operations trên môi trường CDS. 
 

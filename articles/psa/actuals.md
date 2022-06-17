@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về giá trị thực tế
-description: Chủ đề này cung cấp thông tin về thực tế dự án.
+description: Bài báo này cung cấp thông tin về thực tế dự án.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7ab2638d82eb5ba928d95ca6a524a1566f21e1ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 35282e6c51fff28dbbb0a5a7de760788416ed0e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929102"
 ---
 # <a name="actuals-overview"></a>Tổng quan về giá trị thực tế
 

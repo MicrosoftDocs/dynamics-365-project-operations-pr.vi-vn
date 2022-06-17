@@ -1,6 +1,6 @@
 ---
 title: Đơn đặt hàng dự án cho dự án thời gian và vật tư
-description: Chủ đề này giải thích cách tạo đơn đặt hàng dự án đối với dự án thời gian và vật tư.
+description: Bài viết này giải thích cách tạo đơn đặt hàng bán hàng dựa trên dự án cho các dự án thời gian và vật chất.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933840"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Đơn đặt hàng dự án cho dự án thời gian và vật tư
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả cách tạo đơn đặt hàng cho một dự án. Đơn đặt hàng chỉ có thể được tạo cho các dự án loại **thời gian và vật tư**.
+Bài viết này mô tả cách tạo đơn đặt hàng bán hàng cho một dự án. Đơn đặt hàng chỉ có thể được tạo cho các dự án loại **thời gian và vật tư**.
 
 Nếu một dự án thời gian và vật tư có nhiều nguồn tài trợ trong hợp đồng dự án, bạn phải bật tham số **Cho phép đơn đặt hàng đối với các dự án có nhiều nguồn tài trợ** trên trang **Tham số quản lý dự án và kế toán**. 
 

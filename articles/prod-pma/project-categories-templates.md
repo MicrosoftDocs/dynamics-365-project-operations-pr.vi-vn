@@ -1,6 +1,6 @@
 ---
 title: Đồng bộ hóa các hạng mục chi phí dự án giữa Tài chính và Vận hành và Tự động hóa Dịch vụ Dự án
-description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Tài chính và Dynamics 365 Project Service Automation.
+description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Tài chính và Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927262"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa các hạng mục chi phí dự án giữa Tài chính và Vận hành và Tự động hóa Dịch vụ Dự án
 
 [!include[banner](../includes/banner.md)]
 
-Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
+Bài viết này mô tả các mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.

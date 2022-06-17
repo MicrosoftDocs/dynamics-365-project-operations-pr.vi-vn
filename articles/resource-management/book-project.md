@@ -1,17 +1,17 @@
 ---
 title: Đặt trước cho dự án
-description: Chủ đề này cung cấp thông tin về cách đăng ký nguồn lực cho một dự án.
+description: Bài viết này cung cấp thông tin về việc đăng ký tài nguyên cho một dự án.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca9d722eae595af7a81c2b4684729d7658ed012
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928550"
 ---
 # <a name="book-to-a-project"></a>Đặt trước cho dự án
 
@@ -55,7 +55,7 @@ Khi người quản lý nguồn lực cần đăng ký nguồn lực trực ti�
     - Thời lượng
    
    > [!NOTE]
-   > Hiện tại,Dynamics 365 Project Operations không hỗ trợ bảng lịch trình.   
+   > Hiện nay,Dynamics 365 Project Operations không hỗ trợ bảng lịch trình.   
 
 ## <a name="book-from-the-project-form"></a>Đăng ký từ biểu mẫu Dự án
 

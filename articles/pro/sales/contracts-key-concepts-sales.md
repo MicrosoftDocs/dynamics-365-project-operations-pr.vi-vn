@@ -1,17 +1,17 @@
 ---
 title: Hợp đồng dự án - Khái niệm chính - bản đơn giản
-description: Chủ đề này cung cấp thông tin về các khái niệm chính trong hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về các khái niệm chính của hợp đồng dự án.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932690"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Các khái niệm duy nhất cho Hợp đồng dự án
 
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 
 
-Chủ đề này cung cấp những khái nhiệm chính cần lưu ý trước khi sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
+Bài viết này cung cấp các khái niệm chính cần biết trước khi bạn bắt đầu sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Đơn vị Hợp đồng
 

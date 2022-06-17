@@ -1,6 +1,6 @@
 ---
 title: Xem báo cáo chi phí từ Sổ cái hoặc Thu mua và tìm nguồn cung ứng
-description: Chủ đề này giải thích cách xem báo cáo chi phí ban đầu mà một giao dịch đã xuất hiện.
+description: Bài viết này giải thích cách xem báo cáo chi phí ban đầu mà một giao dịch đã xuất hiện.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303bfff8b0e329bc47fb8df72939cf1266e9f1d7
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e17e34702f39cd8651899b3e0b68b7809bf10d86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929641"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Xem báo cáo chi phí từ Sổ cái hoặc Thu mua và tìm nguồn cung ứng
 

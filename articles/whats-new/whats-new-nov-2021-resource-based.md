@@ -1,24 +1,24 @@
 ---
-title: Có gì mới vào tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 11 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
+title: Có gì mới tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 11 năm 2021 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932920"
 ---
-# <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
+# <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới tháng 11 năm 2021 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
 *Áp dụng cho: Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho*
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.22
@@ -57,7 +57,7 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Thời gian và Chi phí | 2471503 | Xóa tập hợp phê duyệt đã có bảy ngày. |
 | Định giá và thanh toán | 2480687 | Tham chiếu dòng trích dẫn không được xóa khi cột mốc dòng trích dẫn được tạo. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong tài chính
+### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong lĩnh vực tài chính
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
@@ -66,12 +66,12 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Quản lý dự án và kế toán | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Các điều khoản thanh toán trên hóa đơn dự án không hoạt động như mong đợi. |
 | Quản lý dự án và kế toán | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Khi việc lưu giữ nhà cung cấp được giải phóng, việc đăng phiếu thưởng có các dòng bổ sung không chính xác. |
 | Quản lý dự án và kế toán | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Khi tạp chí tích hợp Hoạt động Dự án được đăng, nó không thành công do thiếu thứ nguyên cho một tài khoản không được đăng lên. |
-| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự định** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
+| Quản lý dự án và kế toán | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Các **Dự án** không thể chỉnh sửa tab trên hóa đơn của nhà cung cấp đang chờ xử lý khi danh mục mua sắm được chỉ định cho mặt hàng. |
 | Quản lý dự án và kế toán | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Ngăn điều hướng bị thiếu nếu bạn chưa đăng nhập vào Hoạt động dự án Dataverse. |
 | Quản lý dự án và kế toán | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Khi bạn đăng doanh thu từ hóa đơn dự án trong trường hợp lưu giữ áp dụng, một vấn đề xảy ra do các giao dịch trên chứng từ không có số dư. |
 | Quản lý dự án và kế toán | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Việc tạo ước tính sau khi bạn đăng đề xuất hóa đơn chặn các dòng sửa chữa khỏi quá trình nhập. |
 | Quản lý dự án và kế toán | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Không thể sửa đổi hồ sơ cột mốc đã lập hóa đơn đầy đủ. |
-| Đi lại và chi tiêu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Tất cả các báo cáo chi phí đều hiển thị khi bạn tìm kiếm một danh mục trong ứng dụng Chi phí dành cho thiết bị di động. |
+| Đi lại và chi tiêu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Tất cả các báo cáo chi phí đều hiển thị khi bạn tìm kiếm một danh mục trong ứng dụng Chi phí trên thiết bị di động. |
 | Đi lại và chi tiêu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Số tiền không chính xác trong giao dịch của nhà cung cấp và giao dịch thuế bán hàng được tính từ một khoản chi phí được tạo ra từ giao dịch thẻ tín dụng. |
 | Đi lại và chi tiêu | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Một cảnh báo không liên quan xảy ra khi bạn làm mới **Báo cáo chi tiêu** trang. |
 | Đi lại và chi tiêu | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Người phê duyệt tạm thời sai được sử dụng khi bạn xóa người phê duyệt tạm thời và sau đó gửi lại báo cáo chi phí thông qua quy trình làm việc. |

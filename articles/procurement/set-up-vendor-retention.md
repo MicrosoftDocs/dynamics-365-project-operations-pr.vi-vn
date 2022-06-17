@@ -1,24 +1,24 @@
 ---
 title: Thiết lập tỷ lệ giữ chân nhà cung cấp
-description: Chủ đề này giải thích cách thiết lập tỷ lệ giữ chân nhà cung cấp.
+description: Bài viết này giải thích cách thiết lập tỷ lệ giữ chân nhà cung cấp.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929792"
 ---
 # <a name="set-up-vendor-retention"></a>Thiết lập tỷ lệ giữ chân nhà cung cấp
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Chủ đề này cung cấp thông tin về cách thiết lập tỷ lệ giữ chân nhà cung cấp.
+Bài viết này cung cấp thông tin về cách thiết lập tỷ lệ giữ chân nhà cung cấp.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Thiết lập tài khoản giữ chân nhà cung cấp trong Sổ cái chung
 

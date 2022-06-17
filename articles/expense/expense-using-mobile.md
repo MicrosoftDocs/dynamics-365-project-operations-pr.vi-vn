@@ -1,6 +1,6 @@
 ---
 title: Ứng dụng Chi phí dành cho thiết bị di động
-description: Chủ đề này cung cấp thông tin về Không gian làm việc di động Quản lý chi phí.
+description: Bài viết này cung cấp thông tin về không gian làm việc di động Quản lý chi phí.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930252"
 ---
 # <a name="mobile-expense-app"></a>Ứng dụng Chi phí dành cho thiết bị di động
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Chủ đề này cung cấp thông tin về Không gian làm việc di động **Quản lý chi phí**. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
+Bài viết này cung cấp thông tin về **Quản lý chi tiêu** không gian làm việc di động. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
 
 Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops.
 

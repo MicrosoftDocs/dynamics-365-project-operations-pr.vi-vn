@@ -1,6 +1,6 @@
 ---
 title: Thay đổi thực thể, kiểm soát và giao diện người dùng (Project Service Automation 3.x)
-description: Chủ đề này mô tả các thay đổi giả pháp cho Microsoft Dynamics Project Service Automation 3.x.
+description: Bài viết này mô tả các thay đổi giải pháp cho Microsoft Dynamics Tự động hóa dịch vụ dự án 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926894"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Thay đổi thực thể, kiểm soát và giao diện người dùng (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Với việc phát hành Microsoft Dynamics Project Service Automation (PSA) 3.x, nhiều thay đổi đã được thực hiện cho các thực thể, kiểm soát, dạng xem và giao diện người dùng. Chủ đề này cung cấp thông tin quan trọng về các thay đổi quan trọng sau:
+Với việc phát hành Microsoft Dynamics Project Service Automation (PSA) 3.x, nhiều thay đổi đã được thực hiện cho các thực thể, kiểm soát, dạng xem và giao diện người dùng. Bài viết này cung cấp thông tin về những thay đổi quan trọng này.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Mối quan hệ chính-phụ cho thực thể tài liệu bán hàng, dòng tài liệu bán hàng, chi tiết dòng tài liệu bán hàng
 Trong phiên bản Dynamics 365 Project Service Automation (PSA) phát hành trước phiên bản 3.0, một số mối quan hệ giữa các thực thể tài liệu bán hàng, dòng tài liệu bán hàng và chi tiết dòng tài liệu kinh doanh được thực hiện thông qua các trường chuỗi sẽ giữ một đại diện chuỗi của GUID của thực thể liên quan. Điều này là do những hạn chế về nền tảng yêu cầu mã tùy chỉnh chính phía máy chủ và máy khách của giải pháp để làm cho các mối quan hệ đó hoạt động tương tự như các mối quan hệ thực thể Dynamics CRM điển hình và để làm cho các trường chuỗi hoạt động như trường tra cứu.

@@ -1,31 +1,31 @@
 ---
 title: Có gì mới tháng 2 năm 2022 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
-description: Chủ đề này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 2 năm 2022 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 2 năm 2022 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có sẵn.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933012"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới tháng 2 năm 2022 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
 *Áp dụng cho: Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho*
 
-Chủ đề này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
 
 - Hoạt động dự án trong một Dataverse phiên bản môi trường 4.28.0.120
 - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.24
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-- Kể từ phiên bản này, bạn có thể thêm tối đa 300 thành viên trong nhóm vào một dự án. Trước đây, giới hạn về số lượng thành viên trong nhóm là 150. Để biết thêm thông tin, hãy xem [Các giới hạn của dự án](../project-management/create-wbs.md#project-limitations).
+- Kể từ bản phát hành này, bạn có thể thêm tối đa 300 thành viên trong nhóm vào một dự án. Trước đây, giới hạn về số lượng thành viên trong nhóm là 150. Để biết thêm thông tin, hãy xem [Các giới hạn của dự án](../project-management/create-wbs.md#project-limitations).
 
 ## <a name="project-operations-dual-write-map-updates"></a>Bản cập nhật bản đồ ghi kép Hoạt động Dự án
 
@@ -67,20 +67,20 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Quản lý dự án và kế toán | [624423](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624423) | Chi phí đã đăng không chính xác sau khi giá mua được cập nhật và **Kích hoạt quản lý thay đổi** được kích hoạt.|
 | Quản lý dự án và kế toán | [628386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=628386) | Ước tính đăng tải cho một dự án giá cố định sử dụng đơn vị tiền tệ và số tiền không chính xác trong chứng từ ước tính, ngay cả khi **Bật đơn vị tiền tệ của hợp đồng dự án để tính toán ước tính** tính năng được kích hoạt. |
 | Quản lý dự án và kế toán | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulation\_ Sự mở rộng** không nên thực hiện cuộc gọi để bật theo dõi thay đổi mà không bắt các ngoại lệ cho các thực thể có khóa cấu hình chưa được bật. |
-| Quản lý dự án và kế toán | [623818](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623818) | Công việc hàng loạt được khắc phục khi nhiều tạp chí nâng cao được đăng và lỗi xảy ra. |
+| Quản lý dự án và kế toán | [623818](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623818) | Công việc hàng loạt được sửa khi nhiều tạp chí nâng cao được đăng và lỗi xảy ra. |
 | Đi lại và chi tiêu | [616805](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616805) | Do một vấn đề quyết toán liên quan đến các khoản tạm ứng tiền mặt trên báo cáo chi phí, nên số thuế không được bao gồm như một phần của khoản tạm ứng tiền mặt. |
 | Đi lại và chi tiêu | [616959](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616959) | Thông tin thuế bán hàng không được bao gồm trên **Chi phí - Đã đăng giao dịch** báo cáo. |
-| Đi lại và chi tiêu | [618943](https://fix.lcs.dynamics.com/Issue/Details/?bugId=618943) | Các **Biên lai bắt buộc** vi phạm chính sách chi phí hiển thị không chính xác cảnh báo trên báo cáo chi phí. |
+| Đi lại và chi tiêu | [618943](https://fix.lcs.dynamics.com/Issue/Details/?bugId=618943) | Các **Biên lai bắt buộc** vi phạm chính sách chi phí hiển thị không chính xác cảnh báo trên các báo cáo chi phí. |
 | Đi lại và chi tiêu | [633470](https://fix.lcs.dynamics.com/Issue/Details/?bugId=633470) | Một giao dịch dự án không bao gồm thuế bán hàng không thu hồi được trong tổng số tiền bán hàng khi giao dịch là kết quả của chi phí dặm bay. |
 | Đi lại và chi tiêu | [642979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642979) | Khi một dòng được chia thành từng khoản có thuế, bạn không thể thay đổi ngày của dòng thành khoản và xảy ra lỗi trạng thái tài liệu nguồn. |
 
 ## <a name="removed-and-deprecated-features"></a>Các tính năng đã bị xóa và không dùng nữa
 
-Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) chủ đề mô tả các tính năng đã bị xóa hoặc không được dùng nữa đối với Dynamics 365 Project Operations.
+Các [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) bài viết mô tả các tính năng đã bị xóa hoặc không được dùng nữa đối với Dynamics 365 Project Operations.
 
 - Tính năng đã xóa không còn khả dụng trong sản phẩm.
 - Một tính năng không dùng nữa không được phát triển tích cực và có thể bị xóa trong bản cập nhật trong tương lai.
 
-Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) chủ đề 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.
+Thông báo ngừng sử dụng sẽ xuất hiện trong [Các tính năng bị xóa hoặc không dùng nữa trong Hoạt động dự án](removed-depreciated-features-project.md) 12 tháng trước khi bất kỳ tính năng nào bị xóa khỏi sản phẩm.
 
 Đối với các thay đổi vi phạm chỉ ảnh hưởng đến thời gian biên dịch, nhưng tương thích nhị phân với hộp cát và môi trường sản xuất, thời gian ngừng sử dụng sẽ dưới 12 tháng. Thông thường, những thay đổi này là các cập nhật chức năng phải được thực hiện cho trình biên dịch.

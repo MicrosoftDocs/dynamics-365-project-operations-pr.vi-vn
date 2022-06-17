@@ -1,19 +1,19 @@
 ---
-title: Gọi lại các mục đã được phê duyệt trước đó
-description: Chủ đề này giải thích cách một thành viên trong nhóm dự án có thể yêu cầu thu hồi hồ sơ sử dụng vật liệu, chi phí và thời gian đã được đệ trình và phê duyệt trước đó cũng như cách người quản lý dự án có thể phê duyệt hoặc từ chối yêu cầu thu hồi.
+title: Thu hồi các mục nhập được phê duyệt trước đây
+description: Bài viết này giải thích cách một thành viên trong nhóm dự án có thể yêu cầu thu hồi hồ sơ sử dụng vật liệu, chi phí và thời gian đã được đệ trình và phê duyệt trước đó cũng như cách người quản lý dự án có thể phê duyệt hoặc từ chối yêu cầu thu hồi.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930390"
 ---
-# <a name="recall-previously-approved-entries"></a>Gọi lại các mục đã được phê duyệt trước đó
+# <a name="recall-previously-approved-entries"></a>Thu hồi các mục nhập được phê duyệt trước đây
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -29,7 +29,7 @@ Thực hiện theo các bước sau để yêu cầu thu hồi các mục sử d
 1. Thực hiện theo một trong các bước sau, tùy thuộc vào loại mục nhập mà bạn muốn gọi lại:
 
     - Đối với các mục thời gian, hãy truy cập **Dự án** \> **Công việc của tôi** \> **Thời gian nhập cảnh**, và chọn tất cả các mục thời gian cho sự kết hợp cụ thể giữa một dự án và một nhiệm vụ. Ngoài ra, trong lưới, chọn các ô riêng lẻ cho thời gian vào một ngày cụ thể cho một dự án cụ thể.
-    - Đối với các mục nhập chi phí, hãy chuyển đến **Dự án** \> **Công việc của tôi** \> **Chi phí**, và chọn hàng cho mục nhập chi phí để gọi lại.
+    - Đối với các mục chi phí, hãy chuyển đến **Dự án** \> **Công việc của tôi** \> **Chi phí**, và chọn hàng cho mục nhập chi phí để gọi lại.
     - Đối với các mục sử dụng vật liệu, hãy truy cập **Dự án** \> **Công việc của tôi** \> **Nhật ký sử dụng vật liệu**, và chọn hàng cho mục sử dụng vật liệu để gọi lại.
 
 2. Chọn **Thu hồi**. Một hộp thoại xác nhận sẽ xuất hiện. Nếu các mục sử dụng thời gian, chi phí hoặc vật liệu đã chọn đã được phê duyệt, bạn sẽ được nhắc nhập lý do thu hồi.
@@ -60,7 +60,7 @@ Khi phê duyệt được thu hồi sẽ gây tác động tài chính và vận
 
 ### <a name="operational-impact"></a>Tác động đến vận hành
 
-Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Trả lại** hoặc **Từ chối**, tùy thuộc vào việc đó là một mục nhập thời gian hay nhập chi phí hoặc sử dụng vật liệu.
+Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Trả lại** hoặc **Phế phẩm**, tùy thuộc vào việc đó là một mục nhập thời gian hay nhập chi phí hoặc sử dụng vật liệu.
 
 Thành viên nhóm dự án có thể xem các mục nhập, chỉnh sửa và sau đó gửi lại các mục nhập hoặc xóa hoàn toàn các mục nhập.
 

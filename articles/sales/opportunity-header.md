@@ -1,17 +1,17 @@
 ---
 title: Tiêu đề/tóm tắt Cơ hội
-description: Chủ đề này cung cấp thông tin về các thỏa thuận dựa trên dự án và mô tả cơ hội dựa trên dự án.
+description: Bài viết này cung cấp thông tin về các giao dịch dựa trên dự án và các dòng cơ hội dựa trên dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 376d963cd45d3a71311118c799ac6764285add87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928156"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Chi tiết của tiêu đề cho các cơ hội dựa trên dự án
 

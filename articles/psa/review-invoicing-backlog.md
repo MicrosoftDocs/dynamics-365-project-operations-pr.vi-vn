@@ -1,6 +1,6 @@
 ---
 title: Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
-description: Chủ đề này cung cấp thông tin về cách xem lại các tồn đọng về thời gian, chi phí và sản phẩm, cũng như cách đánh dấu các mục này là sẵn sàng để lập hóa đơn.
+description: Bài viết này cung cấp thông tin về cách xem xét tồn đọng thời gian, chi phí và sản phẩm cũng như cách đánh dấu chúng là đã sẵn sàng để lập hóa đơn.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928918"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600584"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Khi một giao dịch sẵn sàng tạo và xử lý hóa đơn, thì giao dịch đó sẽ được đánh dấu là **Sẵn sàng lập hóa đơn**. Chủ đề này mô tả các loại giao dịch có thể được tạo.
+Khi một giao dịch sẵn sàng tạo và xử lý hóa đơn, thì giao dịch đó sẽ được đánh dấu là **Sẵn sàng lập hóa đơn**. Bài viết này mô tả các loại giao dịch có thể được tạo.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Xem lại tồn đọng về lập hóa đơn theo thời gian và tài liệu
 

@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 30, V3
-description: Chủ đề này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 30, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Bản phát hành bản cập nhật tự động hóa dịch vụ dự án 30, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f99d2df3f9f6c0752109c39132c2401e0130d5df
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: ad00b126a13e18a5de47df335aea06b9690efa13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925100"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 30, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8723567"
 
 Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho trang giải pháp trực tuyến Dynamics 365 để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Chủ đề này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 30. Phiên bản này có số bản dựng là V3.10.51.61 và thường có sẵn thông qua bản tự cập nhật vào tháng 4 năm 2021.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Tự động hóa dịch vụ dự án V3, Bản phát hành cập nhật 30. Phiên bản này có số bản dựng là V3.10.51.61 và thường có sẵn thông qua bản tự cập nhật vào tháng 4 năm 2021.
 
 ## <a name="update-release-30"></a>Phát hành bản cập nhật 30
 

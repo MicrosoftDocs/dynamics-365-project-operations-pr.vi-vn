@@ -1,6 +1,6 @@
 ---
 title: Lập hóa đơn trong Project Service Automation
-description: Chủ đề này cung cấp thông tin về việc lập hóa đơn.
+description: Bài viết này cung cấp thông tin về lập hóa đơn.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926848"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Lập hóa đơn trong Project Service Automation
 
@@ -94,7 +94,7 @@ Sau khi **ProcessRunner** chạy xong, quy trình này gọi **ProcessRunCaller*
 Công việc xử lý lô cho việc tạo hóa đơn là công việc lặp lại. Nếu quy trình lô này chạy nhiều lần, thì nhiều trường hợp công việc được tạo và gây ra lỗi. Do đó, bạn chỉ nên bắt đầu quy trình lô một lần và bắt đầu lại chỉ khi quy trình này dừng chạy.
 
 > [!NOTE]
-> Tính năng lập hóa đơn hàng loạt trong Project Service Automation chỉ hoạt động đối với mô tả hợp đồng dự án được định cấu hình theo lịch trình hóa đơn. Mô tả hợp đồng với phương thức thanh toán giá cố định phải được định cấu hình các mốc. Mô tả hợp đồng dự án với phương thức thanh toán theo thời gian và vật tư cần thiết lập lịch trình lập hóa đơn theo ngày. Thông tin về việc thiết lập tần suất lập hóa đơn trong bối cảnh của dự án dựa trên mô tả báo giá có trong chủ đề [Báo giá và mô tả báo giá](basic-quote-lines.md#invoice-schedule). Điều này cũng áp dụng cho mô tả hợp đồng dựa trên dự án.      
+> Tính năng lập hóa đơn hàng loạt trong Project Service Automation chỉ hoạt động đối với mô tả hợp đồng dự án được định cấu hình theo lịch trình hóa đơn. Mô tả hợp đồng với phương thức thanh toán giá cố định phải được định cấu hình các mốc. Mô tả hợp đồng dự án với phương thức thanh toán theo thời gian và vật tư cần thiết lập lịch trình lập hóa đơn theo ngày. Thông tin về việc thiết lập tần suất lập hóa đơn trong bối cảnh của một dự án dựa trên dòng báo giá, được cung cấp trong bài viết, [Dấu ngoặc kép và dòng trích dẫn](basic-quote-lines.md#invoice-schedule). Điều này cũng áp dụng cho mô tả hợp đồng dựa trên dự án.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Chỉnh sửa hóa đơn PSA nháp
 

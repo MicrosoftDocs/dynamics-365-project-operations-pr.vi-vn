@@ -1,17 +1,17 @@
 ---
 title: Cân nhắc nâng cấp đối với Phê duyệt hiện đại
-description: Chủ đề bao gồm các điểm mà quản trị viên nên xem xét khi họ bật chức năng Phê duyệt hiện đại.
+description: Bài viết đề cập đến những điểm mà quản trị viên nên xem xét khi họ bật chức năng Phê duyệt hiện đại.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931770"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Cân nhắc nâng cấp đối với Phê duyệt hiện đại 
 
@@ -23,7 +23,7 @@ Là một phần của thay đổi này, các thay đổi trạng thái để ph
 
 ## <a name="before-you-upgrade"></a>Trước khi bạn nâng cấp
 
-Trước khi bạn nâng cấp lên Phê duyệt hiện đại, hãy đảm bảo rằng bạn không có phê duyệt nào đang chờ xử lý. Phê duyệt hiện đại không sử dụng **Chưa giải quyết** tình trạng. Do đó, mọi phê duyệt vẫn được đánh dấu là **Chưa giải quyết** sau khi nâng cấp sẽ không được xử lý.
+Trước khi bạn nâng cấp lên Phê duyệt hiện đại, hãy đảm bảo rằng bạn không có phê duyệt nào đang chờ xử lý. Phê duyệt hiện đại không sử dụng **Chưa giải quyết** trạng thái. Do đó, bất kỳ phê duyệt nào vẫn được đánh dấu là **Chưa giải quyết** sau khi nâng cấp sẽ không được xử lý.
 
 ## <a name="after-you-upgrade"></a>Sau khi bạn nâng cấp
 
@@ -34,8 +34,8 @@ Sau khi bạn nâng cấp lên Phê duyệt hiện đại, quản trị viên ph
 3. Lựa chọn **Các giải pháp** để liệt kê các giải pháp được cài đặt trong môi trường.
 4. Trong danh sách giải pháp, hãy chọn **Hoạt động dự án** hoặc **Dịch vụ dự án**.
 5. Thay đổi bộ lọc từ **Tất cả các** đến **Dòng chảy trên đám mây**.
-6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** tùy chọn được đặt thành **Trên**. Nếu không, hãy chọn luồng, sau đó chọn **Bật**.
-7. Xác minh rằng quá trình xử lý đang diễn ra sau mỗi năm phút bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** khu vực.
+6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** tùy chọn được đặt thành **Trên**. Nếu không, hãy chọn luồng, rồi chọn **Bật**.
+7. Xác minh rằng quá trình xử lý đang diễn ra sau mỗi năm phút bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** diện tích.
 
 ## <a name="short-term-rollback"></a>Hoàn vốn ngắn hạn
 
