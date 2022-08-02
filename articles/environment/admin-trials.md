@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959728"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029326"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Đăng ký bản dùng thử Project Operations 
 
@@ -86,11 +86,11 @@ Trước khi bạn bắt đầu, hãy đăng nhập vào trình duyệt bằng t
  
   Khi quá trình cấp phép hoàn tất, trạng thái môi trường của bạn là **Sẵn sàng**. Quá trình cấp phép môi trường bao gồm việc triển khai dữ liệu demo.
  
-4.  Chọn tương ứng Microsoft Dataverse URL và URL ứng dụng Tài chính và Hoạt động để xác thực việc triển khai.
+4.  Chọn tương ứng Microsoft Dataverse URL và các URL ứng dụng tài chính và hoạt động để xác thực việc triển khai.
 
 ## <a name="configuring-dual-write"></a>Đặt cấu hình ghi kép
 - Để định cấu hình vai trò bảo mật cho ghi kép, hãy xem [Cập nhật cài đặt bảo mật về Hoạt động dự án trong Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Để truy cập cấu hình ghi kép, hãy điều hướng đến phiên bản Tài chính và Hoạt động, sau đó điều hướng đến **Quản lý dữ liệu** > **Viết kép**.
+- Để truy cập cấu hình ghi kép, Điều hướng đến phiên bản tài chính và hoạt động, sau đó điều hướng đến **Quản lý dữ liệu** > **Viết kép**.
 - Để định cấu hình bản đồ ghi kép, hãy xem [Chạy bản đồ ghi kép Hoạt động Dự án](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Gán giấy phép
@@ -117,7 +117,7 @@ Các tài nguyên sau cung cấp hướng dẫn hữu ích khi bạn bắt đầ
 
 ## <a name="frequently-asked-questions"></a>Các câu hỏi thường gặp
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Điều gì sẽ xảy ra nếu tôi yêu cầu ALM hoặc ELM cho môi trường ứng dụng Tài chính và Hoạt động của mình?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Điều gì sẽ xảy ra nếu tôi yêu cầu ALM hoặc ELM cho môi trường ứng dụng tài chính và hoạt động của mình?
 
 - Đối với các đối tác yêu cầu khả năng quản lý vòng đời môi trường đầy đủ, hãy xem [Yêu cầu Giấy phép Hộp cát Đối tác](https://experience.dynamics.com/requestlicense) để xem lại ưu đãi mới dành cho đối tác. 
 - Đối với các đối tác tìm kiếm thêm thông tin về Quyền sử dụng nội bộ, hãy xem [Lợi ích phần mềm và đám mây Quyền sử dụng nội bộ (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

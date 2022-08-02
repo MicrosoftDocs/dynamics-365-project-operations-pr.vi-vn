@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922800"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028821"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Tổng quan về việc triển khai Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
 
@@ -22,10 +22,10 @@ Loại hình triển khai này mang lại các khả năng sau cho các công ty
 
 - Lập kế hoạch dự án bằng cách sử dụng [Cấu trúc phân tích công việc](work-breakdown-structures.md)
 - Mua và tiêu thụ hàng tồn kho cho các dự án
-- Quản lý bán hàng dựa trên dự án bằng cách sử dụng **Bán hàng và marketing** mô-đun trong ứng dụng Dynamics 365 Finance and Operations
-- Định giá dự án và chi phí bằng cách sử dụng cấu hình tỷ lệ chi phí và tỷ lệ hóa đơn trong ứng dụng Tài chính và Hoạt động
-- Quản lý tài nguyên cho các dự án trong ứng dụng Tài chính và Hoạt động
-- Theo dõi tiến độ dự án và thời gian trong ứng dụng Tài chính và Hoạt động
+- Quản lý bán hàng dựa trên dự án bằng cách sử dụng **Bán hàng và marketing** mô-đun trong ứng dụng tài chính và hoạt động Dynamics 365
+- Định giá dự án và chi phí bằng cách sử dụng cấu hình tỷ lệ chi phí và tỷ lệ hóa đơn trong các ứng dụng tài chính và hoạt động
+- Quản lý tài nguyên cho các dự án trong ứng dụng tài chính và hoạt động
+- Tiến độ dự án và theo dõi thời gian trong ứng dụng tài chính và hoạt động
 - Giải pháp quản lý chi phí cơ bản đối với các chi phí thuộc dự án và không thuộc dự án có ghi lại biên nhận bằng cách sử dụng các tính năng OCR
 - Lập hóa đơn bằng cách sử dụng hệ thống liên quan đến thuế bán hàng cấp doanh nghiệp và tỷ giá hối đoái có hiệu lực theo ngày
 - Các nhóm dự án có thể đặt cấu hình cho các khoản cộng dồn và hoạt động kế toán WIP

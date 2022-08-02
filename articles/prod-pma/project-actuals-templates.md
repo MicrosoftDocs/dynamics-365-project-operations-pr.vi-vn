@@ -1,6 +1,6 @@
 ---
-title: Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong Tài chính và Hoạt động
-description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các thực tế dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation đến Tài chính và Hoạt động.
+title: Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong tài chính và hoạt động
+description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các thực tế dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tài chính và hoạt động.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929516"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029004"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong Tài chính và Hoạt động
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong tài chính và hoạt động
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Giải pháp tích hợp Project Service Automation sang Finance sử dụng tí
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu để tích hợp Tự động hóa Dịch vụ Dự án với Tài chính và Hoạt động.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Luồng dữ liệu để tích hợp Tự động hóa Dịch vụ Dự án với tài chính và hoạt động.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Giá trị thực tế trong dự án từ Project Service Automation
 

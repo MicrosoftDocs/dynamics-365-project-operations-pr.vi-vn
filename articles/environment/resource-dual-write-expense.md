@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924640"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029238"
 ---
 # <a name="expense-management-integration"></a>Tích hợp quản lý chi phí
 
@@ -22,19 +22,19 @@ Bài viết này cung cấp thông tin về tích hợp báo cáo chi phí trong
 
 ## <a name="expense-categories"></a>Danh mục chi phí
 
-Khi triển khai toàn bộ chi phí, các danh mục chi phí được tạo và duy trì trong ứng dụng Tài chính và Hoạt động. Để tạo danh mục chi phí mới, hãy hoàn thành các bước sau:
+Khi triển khai toàn bộ chi phí, các danh mục chi phí được tạo và duy trì trong các ứng dụng tài chính và hoạt động. Để tạo danh mục chi phí mới, hãy hoàn thành các bước sau:
 
-1. Trong Microsoft Dataverse, hãy tạo danh mục **Giao dịch**. Tích hợp ghi kép sẽ đồng bộ hóa danh mục giao dịch này với các ứng dụng Tài chính và Hoạt động. Để biết thêm thông tin, hãy xem [Đặt cấu hình danh mục dự án](/dynamics365/project-operations/project-accounting/configure-project-categories) và [Thiết lập Project Operations và tích hợp dữ liệu cấu hình](resource-dual-write-setup-integration.md). Kết quả của sự tích hợp này, hệ thống tạo ra bốn bản ghi danh mục được chia sẻ trong ứng dụng Tài chính và Hoạt động.
+1. Trong Microsoft Dataverse, hãy tạo danh mục **Giao dịch**. Tích hợp ghi kép sẽ đồng bộ hóa danh mục giao dịch này với các ứng dụng tài chính và hoạt động. Để biết thêm thông tin, hãy xem [Đặt cấu hình danh mục dự án](/dynamics365/project-operations/project-accounting/configure-project-categories) và [Thiết lập Project Operations và tích hợp dữ liệu cấu hình](resource-dual-write-setup-integration.md). Kết quả của sự tích hợp này, hệ thống tạo ra bốn bản ghi danh mục được chia sẻ trong các ứng dụng tài chính và hoạt động.
 2. Trong Tài chính, hãy chuyển đến **Quản lý chi phí** > **Thiết lập** > **Danh mục được chia sẻ** và chọn một danh mục được chia sẻ với lớp giao dịch **Chi phí**. Đặt thông số **Có thể được sử dụng trong Chi phí** thành **Đúng** và xác định loại chi phí sẽ sử dụng.
 3. Sử dụng bản ghi danh mục được chia sẻ này, tạo một danh mục chi phí mới bằng cách chuyển đến phần **Quản lý chi phí** > **Thiết lập** > **Danh mục chi phí** rồi chọn **Mới**. Khi bản ghi được lưu, tính năng ghi kép sử dụng sơ đồ bảng, **Thực thể xuất danh mục dự án tích hợp của Project Operations (msdyn\_expensecategories)** để đồng bộ hóa bản ghi này với Dataverse.
 
   ![Tích hợp danh mục chi phí.](./media/DW6ExpenseCategories.png)
 
-Các danh mục chi phí trong ứng dụng Tài chính và Hoạt động là dành riêng cho công ty hoặc pháp nhân. Có các bản ghi riêng biệt, tương ứng với pháp nhân cụ thể trong Dataverse. Khi người quản lý dự án ước tính chi phí, họ không thể chọn danh mục chi phí được tạo cho một dự án thuộc sở hữu của công ty khác thay cho công ty sở hữu dự án mà họ đang thực hiện. 
+Các danh mục chi phí trong ứng dụng tài chính và hoạt động là dành riêng cho công ty hoặc pháp nhân. Có các bản ghi riêng biệt, tương ứng với pháp nhân cụ thể trong Dataverse. Khi người quản lý dự án ước tính chi phí, họ không thể chọn danh mục chi phí được tạo cho một dự án thuộc sở hữu của công ty khác thay cho công ty sở hữu dự án mà họ đang thực hiện. 
 
 ## <a name="expense-reports"></a>Báo cáo chi phí
 
-Báo cáo chi phí được tạo và phê duyệt trong ứng dụng Tài chính và Hoạt động. Để biết thêm thông tin, hãy xem [Tạo và xử lý các báo cáo chi phí trong Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Sau khi Người quản lý dự án phê duyệt, báo cáo chi phí sẽ được đăng lên sổ cái. Trong Project Operations, các mô tả báo cáo chi phí liên quan đến dự án được đăng bằng các quy tắc đặc biệt:
+Báo cáo chi phí được tạo và phê duyệt trong các ứng dụng tài chính và hoạt động. Để biết thêm thông tin, hãy xem [Tạo và xử lý các báo cáo chi phí trong Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Sau khi Người quản lý dự án phê duyệt, báo cáo chi phí sẽ được đăng lên sổ cái. Trong Project Operations, các mô tả báo cáo chi phí liên quan đến dự án được đăng bằng các quy tắc đặc biệt:
 
   - Chi phí liên quan đến dự án (bao gồm cả thuế không thu hồi được) không được ghi ngay vào tài khoản chi phí dự án trong sổ cái, mà thay vào đó được đăng vào tài khoản tích hợp chi phí. Tài khoản này được đặt cấu hình trong **Quản lý dự án và kế toán** > **Thiết lập** > **Quản lý dự án và thông số kế toán**, tab **Project Operations trên Dynamics 365 Customer Engagement**.
   - Tính năng ghi kép đồng bộ hóa Dataverse bằng bản đồ bảng **Thực thể xuất chi phí dự án tích hợp trong Project Operations (msdyn\_expenses)**.

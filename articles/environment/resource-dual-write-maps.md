@@ -2,16 +2,16 @@
 title: Các phiên bản bản đồ ghi kép Project Operations
 description: Bài viết này cung cấp danh sách các bản đồ viết kép cần thiết Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959716"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112455"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Các phiên bản bản đồ ghi kép Project Operations
 
@@ -25,12 +25,12 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 
 | Bản đồ bảng | Đồng bộ ban đầu |
 | --- | --- |
-| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Chủ để đồng bộ hóa ban đầu là ứng dụng Tài chính và Hoạt động. |
+| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Master cho đồng bộ hóa ban đầu là ứng dụng tài chính và hoạt động. |
 | Pháp nhân (cdm_companies) | Không bắt buộc. Hệ thống tự động điền thực thể này khi các môi trường được liên kết bằng tính năng ghi kép. |
 | Khách hàng V3 (tài khoản) | Không cần phải cung cấp. |
 | Nhà cung cấp V2 (msdyn_vendors) | Không cần phải cung cấp. |
 
-1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng Tài chính và Hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
+1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng tài chính và hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
 
 ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho m�
 | Tiêu đề hợp đồng dự án (đơn đặt hàng) | 1.0.0.1 | Không cần phải cung cấp. ||
 | Mô tả hợp đồng dự án (salesorderdetails) | 1.0.0.0 | Không cần phải cung cấp. ||
 | Nguồn tài trợ dự án (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Không cần phải cung cấp. ||
-| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Bảng tích hợp dự án để ước tính vật liệu (msdyn\_ đường ước tính) | 1.0.0.0 | Không cần phải cung cấp. ||
 | Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. ||
 | Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.14 | Không cần phải cung cấp. ||
 | Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. ||

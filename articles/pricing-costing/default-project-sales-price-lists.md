@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917740"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036437"
 ---
 # <a name="default-price-lists"></a>Bảng giá mặc định
 
@@ -25,7 +25,7 @@ Mọi báo giá dự án và hợp đồng trong Dynamics 365 Project Operations
 Hệ thống hoàn tất quá trình sau để xác định bảng giá nào được đặt mặc định trên báo giá dự án:
 
 1. Hệ thống xem xét các bảng giá được đính kèm với bảng giá dự án của tài khoản. 
-2. Nếu có các bảng giá dự án được đính kèm với bản ghi tài khoản, thì hệ thống sẽ xem xét các bảng giá bán hàng đính kèm với tham số dự án khớp với đơn vị tiền tệ trong báo giá dự án.
+2. Nếu không có các bảng giá dự án kèm theo hồ sơ tài khoản, hệ thống sẽ tra cứu các bảng giá bán kèm theo thông số dự án phù hợp với đồng tiền báo giá dự án.
 3. Tiếp theo, hệ thống kiểm tra khoảng ngày hiệu lực của các bảng giá khớp với phạm vi ngày của báo giá dự án. Cụ thể là ngày tạo báo giá.
 4. Nếu có nhiều bảng giá có hiệu lực đối với ngày của báo giá dự án, thì tất cả các bảng giá đó đều được đặt mặc định trên báo giá dự án.
 5. Nếu không có bảng giá nào có hiệu lực đối với ngày của báo giá dự án, thì sẽ không có bảng giá dự án mặc định nào trên báo giá dự án. Một thông báo cảnh báo sẽ xuất hiện trên báo giá dự án. Thông báo cho biết các giá trị thực tế và ước tính trên dự án sẽ không được định giá vì không có bảng giá dự án nào được đính kèm.

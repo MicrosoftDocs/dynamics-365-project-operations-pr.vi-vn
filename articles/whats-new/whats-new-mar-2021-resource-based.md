@@ -1,18 +1,18 @@
 ---
 title: Tính năng mới tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 3 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có sẵn.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 3 năm 2021 của Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932966"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028444"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tính năng mới tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -48,7 +48,7 @@ Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operati
 
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật quy định cho các ứng dụng tài chính và hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Một cách khác để tìm hiểu về các chi tiết cập nhật quy định là đăng nhập vào Lifecycle Services (LCS) và dùng công cụ tìm kiếm sự cố để xem các chi tiết cập nhật quy định đã lên kế hoạch. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934070"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029372"
 ---
 # <a name="expense-management-overview"></a>Tổng quan về quản lý chi phí
 
@@ -43,7 +43,7 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để mang đ�
 
 ### <a name="blogs"></a>Blog
 
-Bạn có thể tìm thấy ý kiến, tin tức và thông tin khác trên [Microsoft Dynamics Blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Tài chính và Hoạt động - Blog tài chính](https://community.dynamics.com/365/financeandoperations/b/financials).
+Bạn có thể tìm thấy ý kiến, tin tức và thông tin khác trên [Microsoft Dynamics Blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Finance - Blog tài chính](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog cộng đồng đối tác Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) là nơi các Đối tác Microsoft Dynamics có thể tìm hiểu những nội dung mới và thịnh hành trong Hoạt động MBS.
 

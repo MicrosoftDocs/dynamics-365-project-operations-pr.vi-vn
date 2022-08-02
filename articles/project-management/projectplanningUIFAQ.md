@@ -2,24 +2,24 @@
 title: Khắc phục sự cố khi làm việc trong lưới Tác vụ
 description: Bài viết này cung cấp thông tin khắc phục sự cố cần thiết khi làm việc trong lưới Tác vụ.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911070"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188258"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Khắc phục sự cố khi làm việc trong lưới Tác vụ 
 
 
 _**Áp dụng cho:** Project Operations cho các kịch bản dựa trên nguồn lực/không trữ kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá, Project for the web_
 
-Lưới Nhiệm vụ được Dynamics 365 Project Operations tận dụng là một iframe được tổ chức bên trong Microsoft Dataverse. Do việc sử dụng này, các yêu cầu cụ thể phải được đáp ứng để đảm bảo xác thực và ủy quyền hoạt động chính xác. Bài viết này nêu ra các vấn đề phổ biến có thể ảnh hưởng đến khả năng kết xuất lưới hoặc quản lý các tác vụ trong cấu trúc phân tích công việc (WBS).
+Lưới tác vụ được sử dụng bởi Dynamics 365 Project Operations là một iframe được lưu trữ bên trong Microsoft Dataverse. Kết quả của việc sử dụng này, các yêu cầu cụ thể phải được đáp ứng để đảm bảo xác thực và ủy quyền hoạt động chính xác. Bài viết này phác thảo các vấn đề phổ biến có thể ảnh hưởng đến khả năng kết xuất lưới hoặc quản lý các tác vụ trong cấu trúc phân tích công việc (WBS).
 
 Các sự cố thường gặp bao gồm:
 
@@ -32,7 +32,7 @@ Các sự cố thường gặp bao gồm:
 
 ### <a name="mitigation-1-enable-cookies"></a>Giảm nhẹ 1: Bật cookie
 
-Project Operations yêu cầu bật cookie của bên thứ ba để hiển thị cấu trúc phân tích công việc. Khi cookie của bên thứ ba không được bật, thay vì thấy các nhiệm vụ, bạn sẽ thấy trang trống khi chọn tab **Nhiệm vụ** trên trang **Dự án**.
+Project Operations yêu cầu bật cookie của bên thứ ba để hiển thị cấu trúc phân tích công việc. Khi cookie của bên thứ ba không được bật, thay vì nhìn thấy các tác vụ, bạn sẽ thấy một trang trống khi bạn chọn **Nhiệm vụ** tab trên **Dự án** trang.
 
 Đối với Microsoft Edge hoặc trình duyệt Google Chrome, các quy trình sau đây trình bày cách cập nhật cài đặt trình duyệt của bạn để bật cookie của bên thứ ba.
 
@@ -60,7 +60,7 @@ Project Operations yêu cầu bật cookie của bên thứ ba để hiển th�
 Project Operations yêu cầu tham số dự án tham chiếu đến Điểm cuối PEX. Điểm cuối này được yêu cầu để giao tiếp với dịch vụ được sử dụng để hiển thị cấu trúc phân tích công việc. Nếu tham số không được bật, bạn sẽ nhận được lỗi "Tham số dự án không hợp lệ". Để cập nhật Điểm cuối PEX, hãy hoàn thành các bước sau.
 
 1. Thêm trường **Điểm cuối PEX** vào trang **Tham số dự án**.
-2. Xác định loại sản phẩm mà bạn đang sử dụng. Giá trị này được sử dụng khi PEX Endpoint được đặt. Khi truy xuất, loại sản phẩm đã được xác định trong PEX Endpoint. Giữ nguyên giá trị đó.
+2. Xác định loại sản phẩm bạn đang sử dụng. Giá trị này được sử dụng khi PEX Endpoint được đặt. Khi truy xuất, loại sản phẩm đã được xác định trong PEX Endpoint. Giữ nguyên giá trị đó.
 3. Cập nhật trường này với giá trị sau: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Bảng sau cung cấp tham số loại sẽ được sử dụng dựa trên loại sản phẩm.
 
       | **Loại sản phẩm**                     | **Nhập tham số** |
@@ -72,11 +72,14 @@ Project Operations yêu cầu tham số dự án tham chiếu đến Điểm cu�
 4. Xóa trường khỏi trang **Tham số dự án**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Giảm thiểu 3: đăng nhập vào project.microsoft.com
-Trong của bạn Microsoft Edge trình duyệt, mở tab mới, truy cập project.microsoft.com và đăng nhập bằng cách sử dụng vai trò người dùng mà bạn đang sử dụng để truy cập Hoạt động dự án.
+
+Trong trình duyệt của bạn, mở một tab mới, truy cập project.microsoft.com và đăng nhập với vai trò người dùng mà bạn đang sử dụng để truy cập Hoạt động của Dự án. Điều quan trọng là chỉ một người dùng đăng nhập vào sản phẩm của Microsoft trong trình duyệt. Thông báo lỗi "login.microsoftonline.com từ chối kết nối" thường xảy ra nhất khi có nhiều người dùng đăng nhập, như thể hiện trong hình minh họa sau.
+
+![Chọn một trang đăng nhập tài khoản hiển thị rằng hai người dùng đã đăng nhập.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Sự cố: Dự án không tải và giao diện người dùng bị kẹt trên vòng quay
 
-Đối với mục đích xác thực, cửa sổ bật lên phải được bật để lưới Nhiệm vụ tải. Nếu không bật cửa sổ bật lên, màn hình sẽ bị kẹt trên vòng quay tải. Hình ảnh sau đây cho thấy URL có nhãn bật lên bị chặn trong thanh địa chỉ, dẫn đến việc vòng quay bị kẹt khi cố tải trang. 
+Đối với mục đích xác thực, cửa sổ bật lên phải được bật để lưới Nhiệm vụ tải. Nếu không bật cửa sổ bật lên, màn hình sẽ bị kẹt trên vòng quay tải. Hình ảnh sau đây cho thấy URL có nhãn bật lên bị chặn trong thanh địa chỉ, điều này dẫn đến việc trục quay bị kẹt khi cố tải trang. 
 
    ![Bị mắc kẹt trong vòng quay và chặn cửa sổ bật lên.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Ngoài ra, bạn có thể hoàn thành các bước sau.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Sự cố 3: Quản lý các đặc quyền cho Project for the Web
 
-Project Operations dựa vào một dịch vụ lập lịch bên ngoài. Dịch vụ yêu cầu người dùng có một số vai trò được chỉ định cho phép họ đọc và ghi vào các thực thể liên quan đến WBS. Các thực thể này bao gồm nhiệm vụ dự án, phân công nguồn lực và mức phụ thuộc nhiệm vụ. Nếu người dùng không thể hiển thị WBS khi họ điều hướng đến tab **Nhiệm vụ**, có thể là do **Dự án** vì chưa bật **Project Operations**. Người dùng có thể nhận được lỗi vai trò bảo mật hoặc lỗi liên quan đến từ chối quyền truy cập.
+Project Operations dựa vào một dịch vụ lập lịch bên ngoài. Dịch vụ yêu cầu người dùng có một số vai trò được chỉ định cho phép họ đọc và ghi vào các thực thể liên quan đến WBS. Các thực thể này bao gồm nhiệm vụ dự án, phân công nguồn lực và mức phụ thuộc nhiệm vụ. Nếu người dùng không thể hiển thị WBS khi họ điều hướng đến **Nhiệm vụ** tab, có thể là vì **Dự án** vì **Hoạt động dự án** chưa được kích hoạt. Người dùng có thể nhận được lỗi vai trò bảo mật hoặc lỗi liên quan đến từ chối quyền truy cập.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Giảm nhẹ 1: Xác thực vai trò bảo mật của người dùng ứng dụng và người dùng cuối
 

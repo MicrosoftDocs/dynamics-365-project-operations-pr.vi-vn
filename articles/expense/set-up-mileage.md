@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930160"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064304"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Thiết lập khoảng cách bằng cách sử dụng các bậc tỷ lệ khoảng cách
 
@@ -50,5 +50,15 @@ Tính năng **Tính toán số tiền khoảng cách cho nhiều bậc khoảng 
 
 Sau khi bạn kích hoạt tính năng này, hãy đặt lại các bậc khoảng cách để phản ánh chính xác giá trị của trường **Số lượng**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Bật tính năng tính tổng Dặm theo năm tài chính
+
+Các **Tính tổng số dặm theo năm tài chính** tính năng này cho phép cài đặt mới trong các thông số Quản lý chi phí thực hiện các phép tính tổng số dặm theo năm tài chính thay vì năm dương lịch. Hãy hoàn thành các bước sau để kích hoạt tính năng này.
+
+1. Chuyển đến **Không gian làm việc** > **Quản lý tính năng**.
+1. Trong danh sách, tìm và chọn **Tính tổng số dặm theo năm tài chính**, và sau đó chọn **Kích hoạt ngay bây giờ**.
+1. Đi đến **Quản lý chi tiêu** > **Thành lập** > **Chung** > **Các thông số quản lý chi phí**.
+1. Trên **Các thông số quản lý chi phí** trang, định vị và kích hoạt **Sử dụng năm tài chính cho tổng số dặm**.
+
+Sau khi bạn kích hoạt **Sử dụng năm tài chính cho tổng số dặm**, tổng số dặm được tính bằng năm tài chính.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

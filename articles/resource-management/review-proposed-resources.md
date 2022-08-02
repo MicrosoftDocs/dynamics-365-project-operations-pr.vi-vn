@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924870"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9184001"
 ---
 # <a name="review-proposed-resources"></a>Đánh giá nguồn lực được đề xuất
 
@@ -40,8 +40,8 @@ Người quản lý nguồn lực có thể đề xuất nguồn lực với ng�
     Các bản cập nhật trạng thái sau xảy ra:
 
     - Trên trang **Lên lịch hỗ trợ**, chỉ báo trạng thái được cập nhật để biểu thị rằng đăng ký được đề xuất và không được đăng ký chắc chắn.
-    - Trên yêu cầu nguồn lực, trạng thái này được thay đổi thành **Cần đánh giá**.
-    - Trên tab **Nhóm** của dự án này, giá trị **Trạng thái yêu cầu** của thành viên nhóm chung được thay đổi thành **Cần đánh giá**.
+    - Đối với yêu cầu tài nguyên, người đánh giá yêu cầu phải thay đổi trạng thái thành **Cần Xem xét**.
+    - Trên **Đội** tab của dự án, thành viên nhóm chung **Tình trạng yêu cầu** giá trị được tự động thay đổi thành **Cần Xem xét**.
 
 Người quản lý dự án có thể chấp nhận hoặc từ chối đề xuất.
 

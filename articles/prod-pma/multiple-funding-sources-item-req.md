@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931218"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028514"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Yêu cầu về hạng mục đối với hợp đồng dự án với nhiều nguồn tài trợ
 
@@ -33,8 +33,8 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 
 ### <a name="prerequisites"></a>Điều kiện tiên quyết
 
-- Microsoft Dynamics 365 Tài chính và Hoạt động **phiên bản 10.0.27 trở lên** bắt buộc phải sử dụng các yêu cầu mặt hàng có nhiều tài khoản hóa đơn.
-- Quản trị viên hệ thống của bạn phải bật **Cho phép các yêu cầu về Mặt hàng với nhiều nguồn tài trợ cho Hoạt động dự án trong các tình huống có sẵn / dựa trên sản xuất** tính năng trong **Quản lý tính năng** không gian làm việc.
+- Microsoft Dynamics 365 Tài chính **phiên bản 10.0.27 trở lên** bắt buộc phải sử dụng các yêu cầu mặt hàng có nhiều tài khoản hóa đơn.
+- Quản trị viên hệ thống của bạn phải bật **Cho phép các yêu cầu về Mặt hàng với nhiều nguồn tài trợ cho Hoạt động dự án trong các kịch bản có sẵn / dựa trên sản xuất** tính năng trong **Quản lý tính năng** không gian làm việc.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Thiết lập quy tắc mặc định tài khoản hóa đơn
 
@@ -42,7 +42,7 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 
 1. Đi đến **Kế toán và quản lý dự án** \> **Thiết lập** \> **Tham số quản lý dự án và kế toán**.
 1. Trên **Chung** tab, trong **Đơn đặt hàng bán hàng và yêu cầu mặt hàng** phần, thiết lập **Cho phép các dự án có nhiều nguồn tài trợ** tùy chọn để **Đúng**.
-1. Bên trong **Khách hàng mặc định**, chỉ định nơi khách hàng giao dự án theo yêu cầu hạng mục xuất phát theo mặc định:
+1. Bên trong **Khách hàng mặc định**, chỉ định nơi khách hàng giao dự án theo yêu cầu hạng mục đến từ mặc định:
 
     - **Từ nguồn tài trợ** - Khách hàng giao dự án mặc định đến từ nguồn tài trợ. Nếu nhiều nguồn tài trợ được liên kết với hợp đồng dự án, thì nguồn vốn đầu tiên trong danh sách sẽ được sử dụng.
     - **Từ dự án** - Khách hàng giao dự án mặc định đến từ khách hàng được chọn trong **Tài khoản hồ sơ dự án** đồng ruộng.
@@ -60,10 +60,10 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 1. Trên **Kế hoạch** tab, chọn **Yêu cầu mặt hàng**.
 1. Tạo bản ghi yêu cầu mặt hàng mới.
 
-    - Theo mặc định, **Tài khoản hóa đơn** trường trong bản ghi được đặt thành tài khoản hóa đơn được đặt cho dự án. Bạn có thể thay đổi giá trị của **Tài khoản hóa đơn** và sau đó lưu bản ghi. Sau khi bản ghi được lưu, bạn không còn có thể cập nhật **Tài khoản hóa đơn** giá trị. Nếu bạn phải cập nhật **Tài khoản hóa đơn** giá trị cho yêu cầu mặt hàng, xóa yêu cầu mặt hàng hiện có, sau đó tạo một yêu cầu mới có giá trị mong muốn.
-    - Theo mặc định, **khách hàng** trường cho yêu cầu mặt hàng được đặt dựa trên **Khách hàng mặc định** giá trị được đặt trên **Các thông số kế toán và quản lý dự án** trang.
+    - Theo mặc định, **Tài khoản hóa đơn** trường trong bản ghi được đặt thành tài khoản hóa đơn được đặt cho dự án. Bạn có thể thay đổi giá trị của **Tài khoản hóa đơn** trường và sau đó lưu bản ghi. Sau khi bản ghi được lưu, bạn không còn có thể cập nhật **Tài khoản hóa đơn** giá trị. Nếu bạn phải cập nhật **Tài khoản hóa đơn** giá trị cho yêu cầu mặt hàng, xóa yêu cầu mặt hàng hiện có, sau đó tạo một yêu cầu mới có giá trị mong muốn.
+    - Theo mặc định, **khách hàng** trường cho yêu cầu mặt hàng được đặt dựa trên **Khách hàng mặc định** giá trị được đặt trên **Quản lý dự án và các thông số kế toán** trang.
 
-    Khi bản ghi yêu cầu mặt hàng được lưu, hệ thống sẽ liên kết nó với **Yêu cầu mặt hàng đơn đặt hàng** bản ghi tiêu đề. Nếu không có tiêu đề đơn đặt hàng mở nào có tài khoản hóa đơn đã chọn, hệ thống sẽ tạo một tài khoản và liên kết dòng yêu cầu mặt hàng với tài khoản đó.
+    Khi bản ghi yêu cầu mặt hàng được lưu, hệ thống sẽ liên kết nó với **Yêu cầu mặt hàng đơn đặt hàng** bản ghi tiêu đề. Nếu không có tiêu đề đơn hàng bán mở nào có tài khoản hóa đơn đã chọn, hệ thống sẽ tạo một tài khoản và liên kết dòng yêu cầu mặt hàng với tài khoản đó.
 
 > [!NOTE]
 > Các yêu cầu về mặt hàng luôn được lập hóa đơn đầy đủ vào tài khoản hóa đơn được thiết lập trong hồ sơ. Hệ thống hiện không hỗ trợ các quy tắc phân bổ tài trợ có yêu cầu về mặt hàng và nó sẽ không phân chia việc đăng tải dựa trên thiết lập các quy tắc phân bổ tài trợ.
@@ -75,7 +75,7 @@ Contoso đã giành được hợp đồng gia hạn thiết bị với hai khá
 1. Đi đến **Quản lý dự án và kế toán** \> **Dự án** \> **Tất cả các dự án** và chọn bản ghi dự án.
 1. Trên **Kế hoạch** tab, chọn **Dự báo mặt hàng**.
 1. Tạo một bản ghi dự báo mặt hàng mới.
-1. Tùy chọn: Trên **Dự án** tab, trong **Nguồn tài trợ** trường, chọn tài khoản hóa đơn mong muốn.
+1. Tùy chọn: Trên **Dự án** tab, trong **Nguồn tài trợ**, chọn tài khoản hóa đơn mong muốn.
 1. Lựa chọn **Tạo yêu cầu mặt hàng**, và xác nhận thông báo mà bạn nhận được.
 
     > [!NOTE]

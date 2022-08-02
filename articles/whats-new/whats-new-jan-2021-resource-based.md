@@ -1,18 +1,18 @@
 ---
 title: Có gì mới tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 1 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 1 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4b335503139964d9d0747f9ce7addc033a512f30
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910702"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029624"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
 
@@ -86,7 +86,7 @@ Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operati
 
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các cập nhật quy định cho các ứng dụng Tài chính và Hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật quy định cho các ứng dụng tài chính và hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

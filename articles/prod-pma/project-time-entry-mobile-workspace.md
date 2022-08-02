@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919580"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029694"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Không gian làm việc di động mục nhập thời gian dự án
 
@@ -82,7 +82,7 @@ Nếu phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi �
 
 ## <a name="download-and-install-the-mobile-app"></a>Tải xuống và cài đặt ứng dụng dành cho thiết bị di động
 
-Tải xuống và cài đặt ứng dụng di động Tài chính và Hoạt động:
+Tải xuống và cài đặt ứng dụng di động tài chính và hoạt động:
 
 -   [Đối với điện thoại Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Đối với iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

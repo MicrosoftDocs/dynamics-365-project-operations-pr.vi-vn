@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912036"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028590"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Triển khai ứng dụng Project Operations Dataverse theo cách thủ công có hỗ trợ ghi kép
 
@@ -37,7 +37,7 @@ Quá trình triển khai Project Operations trong Dataverse để hỗ trợ ghi
 3. Chọn loại môi trường. Nếu bạn đã đăng ký nhận ưu đãi dùng thử, hãy chọn **Bản dùng thử (dựa trên đăng ký)**.
 4. Xác nhận khu vực triển khai.
 5. Bật tùy chọn **Tạo cơ sở dữ liệu cho môi trường này**. 
-6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho các ứng dụng Tài chính và Hoạt động của bạn.
+6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho các ứng dụng tài chính và hoạt động của bạn.
 7. Bật tùy chọn **Ứng dụng Dynamics 365** và xác nhận rằng trường **Tự động triển khai những ứng dụng này** được đặt thành **Không có**.
 8. Thêm một nhóm bảo mật, nếu một nhóm bảo mật được yêu cầu.
 9. Chọn **Lưu** để tạo môi trường.
@@ -62,4 +62,4 @@ Bạn chỉ có thể hoàn thành quy trình này nếu đã hoàn thành các 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Liên kết các môi trường của bạn
 
-Sau Dataverse được triển khai, bạn có thể thiết lập liên kết trong ứng dụng Tài chính và Hoạt động của mình. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Sau Dataverse được triển khai, bạn có thể thiết lập liên kết trong các ứng dụng tài chính và hoạt động của mình. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

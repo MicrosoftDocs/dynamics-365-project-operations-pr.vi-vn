@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912404"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110910"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới Tháng 4 năm 2022 - Hoạt động Dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -25,7 +25,7 @@ Bài viết này áp dụng cho các thành phần và phiên bản sau của Mi
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
-Danh mục mua sắm có thể được sử dụng trong các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý. Để biết thêm thông tin, hãy xem [Sử dụng các danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn của nhà cung cấp đang chờ xử lý](configure-procurement-categories.md).
+Danh mục mua sắm có thể được sử dụng trong các đơn đặt hàng dự án và các hóa đơn của nhà cung cấp đang chờ xử lý. Để biết thêm thông tin, hãy xem [Sử dụng danh mục mua sắm với các đơn đặt hàng dự án và hóa đơn nhà cung cấp đang chờ xử lý](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Cập nhật về bản đồ ghi kép của Project Operations
 
@@ -37,7 +37,7 @@ Bảng sau đây cho thấy các bản đồ viết kép đã được sửa đ�
 
 Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố Ghi kép.
+Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của Hướng dẫn khắc phục sự cố ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -47,9 +47,9 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | ------------ | ---------------- | -------------- |
 | Thời gian và chi phí | 2573900 | Các **Phê duyệt hiện đại** tính năng phải được bật theo mặc định. |
 | Định giá và thanh toán | 2603313 | Đã sửa lỗi bản ghi trùng lặp ngăn dòng báo giá và hợp đồng có sản phẩm được thêm vào. |
-| Triển khai và cấu hình | 2611368 | Khách hàng phải có thể thêm tối đa năm thực thể tùy chỉnh vào giải pháp bằng cách sử dụng trình thiết kế ứng dụng hiện đại. |
+| Đợt triển khai và Cấu hình | 2611368 | Khách hàng phải có thể thêm tối đa năm thực thể tùy chỉnh vào giải pháp bằng cách sử dụng trình thiết kế ứng dụng hiện đại. |
 | Thời gian và chi phí | 2628285 | Đã khắc phục sự cố ảnh hưởng đến khả năng đặt danh mục tài nguyên chính xác trong quá trình nhập mục nhập thời gian. |
-|   Quản lý cơ hội| 2628815 | Cập nhật giới hạn ký tự của mô tả chi tiết dòng trích dẫn để khớp với giới hạn ký tự của chủ đề nhiệm vụ, để quá trình nhập thành công đối với các nhiệm vụ có chủ đề dài hơn 100 ký tự. |
+|   Quản lý cơ hội| 2628815 | Cập nhật giới hạn ký tự của mô tả chi tiết dòng trích dẫn để khớp với giới hạn ký tự của chủ đề nhiệm vụ, để quá trình nhập thành công đối với các nhiệm vụ trong đó chủ đề dài hơn 100 ký tự. |
 | Thời gian và chi phí| 2629547 | Các **Gửi bởi** lĩnh vực phê duyệt dự án phải trỏ đến người dùng đã gửi hồ sơ. |
 | Thời gian và chi phí| 2629865 | Các **Sao chép danh mục** trường trên các nhiệm vụ khi các dự án được sao chép. |
 | Thời gian và chi phí| 2636463 | Đã sửa các bộ lọc về phê duyệt trong các biểu mẫu phê duyệt hiện đại. |

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912496"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030061"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Cập nhật Project Operations trong môi trường Tài chính
 
@@ -119,7 +119,7 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
 4. Trên trang **Phiên bản sơ đồ bảng**, hãy áp dụng phiên bản mới của bảng cho từng thực thể trong số 3 thực thể.
 5. Trên trang **Ghi kép**, hãy chọn chạy để khởi động lại sơ đồ.
 6. Từ danh sách sơ đồ, hãy chọn **Sổ cái (msdyn_ledgers)** ánh xạ với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. 
-7. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng Tài chính và Hoạt động** và sau đó chọn **Chạy**.
+7. Bên trong **Master để đồng bộ hóa ban đầu** lĩnh vực, chọn **Ứng dụng tài chính và hoạt động** và sau đó chọn **Chạy**.
  
  ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
  
