@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Có gì mới
       items:
-        - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: Tháng 4 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Tệp lưu trữ
+          items:
+            - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: Tháng 4 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Quy trình bán hàng trong dự án
       items:
         - name: Tổng quan về quy trình bán hàng trong dự án
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Tổng quan về số liệu thực tế
           href: actuals/actuals-overview.md
+        - name: Tác động của số liệu thực tế trong một thỏa thuận dựa trên thời gian và vật liệu
+          href: actuals/ActualsonTM.md
+        - name: Tác động của số liệu thực tế trong một thỏa thuận dựa trên giá cố định
+          href: actuals/ActualonFP.md
+        - name: Tác động của số liệu thực tế trong giai đoạn trước khi bán hàng của một thỏa thuận
+          href: actuals/ActualonPreSales.md
+        - name: Tác động của số liệu thực tế đối với một dự án nội bộ
+          href: actuals/ActualonInternal.md
         - name: Nguồn gốc giao dịch – Liên kết số liệu thực tế với nguồn
           href: actuals/linkingactuals.md
         - name: Kết nối giao dịch – Liên kết số liệu thực tế của các loại giao dịch khác nhau
@@ -513,9 +527,11 @@
             - name: Xác nhận hóa đơn ước giá dựa trên dự án
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Tạo hóa đơn hiệu chỉnh dựa trên dự án
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Đặt cấu hình quy trình tự động tạo hóa đơn dựa trên dự án
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Hóa đơn hiệu chỉnh dựa trên dự án
+              href: proforma-invoicing/corrective-invoices.md
         - name: Lập hóa đơn cho khách hàng
           items:
             - name: Quản lý đề xuất hóa đơn dự án
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Có gì mới
       items:
-        - name: Quyền truy cập sớm đợt 2 năm 2021 tính năng mới – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Tính năng mới kể từ tháng 5 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Tính năng mới kể từ tháng 4 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Tính năng mới kể từ tháng 3 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Tính năng mới kể từ tháng 2 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Tính năng mới kể từ tháng 12 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Tính năng mới kể từ tháng 11 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Tính năng mới kể từ tháng 10 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Tính năng mới kể từ tháng 9 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: +Tính năng mới kể từ tháng 8 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Tính năng mới kể từ tháng 7 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Tính năng mới kể từ tháng 6 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Tính năng mới kể từ tháng 5 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Tính năng mới kể từ tháng 4 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Tính năng mới kể từ tháng 3 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Tính năng mới kể từ tháng 2 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Tính năng mới kể từ tháng 1 năm 2021 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Tính năng mới kể từ tháng 12 năm 2020 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Tính năng mới kể từ tháng 11 năm 2020 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Tính năng mới kể từ tháng 7 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Tệp lưu trữ
+          items:
+            - name: Tính năng mới kể từ tháng 6 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Quyền truy cập sớm đợt 2 năm 2021 tính năng mới – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Tính năng mới kể từ tháng 5 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Tính năng mới kể từ tháng 4 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Tính năng mới kể từ tháng 3 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Tính năng mới kể từ tháng 2 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Tính năng mới kể từ tháng 12 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Tính năng mới kể từ tháng 11 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Tính năng mới kể từ tháng 10 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Tính năng mới kể từ tháng 9 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: +Tính năng mới kể từ tháng 8 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Tính năng mới kể từ tháng 7 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Tính năng mới kể từ tháng 6 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Tính năng mới kể từ tháng 5 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Tính năng mới kể từ tháng 4 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Tính năng mới kể từ tháng 3 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Tính năng mới kể từ tháng 2 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Tính năng mới kể từ tháng 1 năm 2021 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Tính năng mới kể từ tháng 12 năm 2020 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Tính năng mới kể từ tháng 11 năm 2020 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Quy trình bán hàng trong dự án
       items:
         - name: Tổng quan về quy trình bán hàng trong dự án
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
   items:
+    - name: Bắt đầu
+      items:
+        - name: Đặt cấu hình Tích hợp dữ liệu
+          items:
+            - name: Tổng quan về Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Tham số tích hợp Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Đồng bộ hóa số liệu thực tế của dự án trực tiếp từ Project Service Automation sang nhật ký tích hợp dự án để ghi sổ trong tài chính và hoạt động
+              href: prod-pma/project-actuals-templates.md
+            - name: Đồng bộ hóa số liệu ước tính của dự án trực tiếp từ Project Service Automation sang tài chính và hoạt động
+              href: prod-pma/project-estimates-templates.md
+            - name: Đồng bộ hóa danh mục chi phí của dự án giữa tài chính và hoạt động với Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Đồng bộ hóa nhiệm vụ của dự án trực tiếp từ Project Service Automation sang tài chính và hoạt động
+              href: prod-pma/project-tasks-template.md
+        - name: Triển khai môi trường
+          items:
+            - name: Cập nhật Project Operations trong môi trường Finance
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Có gì mới
       items:
-        - name: Tính năng mới kể từ tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: Tính năng mới kể từ tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: Tính năng mới kể từ tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Tệp lưu trữ
+          items:
+            - name: Tính năng mới kể từ tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: Tính năng mới kể từ tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: Tính năng mới kể từ tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Tổng quan về quản lý dự án và kế toán
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Không gian làm việc di động mục nhập thời gian dự án
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Ứng dụng dành cho thiết bị di động Bảng chấm công dự án
+        - name: Ứng dụng dành cho thiết bị di động Project Timesheet
           href: prod-pma/project-timesheet.md
         - name: Bảng chấm công dự án trên thiết bị di động
           href: prod-pma/mobile-timesheets.md
+        - name: Đổi tên hoặc sửa đổi giai đoạn dự án
+          href: prod-pma/tasks/rename-project.md
         - name: Triển khai các trường tùy chỉnh cho ứng dụng dành cho thiết bị di động Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Quản lý nguồn lực
@@ -1150,6 +1202,8 @@
       items:
         - name: Dự báo và ngân sách dự án
           href: prod-pma/project-forecasts-budgets.md
+        - name: Phân bổ ngân sách dự án hoặc sửa đổi ngân sách giữa các kỳ
+          href: prod-pma/tasks/allocate-project.md
         - name: Tạo mô hình dự báo cho ngân sách dự án
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Chuyển ngân sách dự án khi kết thúc năm tài chính
@@ -1246,6 +1300,10 @@
       items:
         - name: Loại bỏ ước tính dự án
           href: prod-pma/eliminate-project-estimate.md
+    - name: Khu vực công
+      items:
+        - name: Truy vấn về Lịch trình chi tiêu của Giải thưởng Liên bang
+          href: prod-pma/project-sefa-inquiry.md
 - name: Quản lý chi phí
   items:
     - name: Tổng quan về quản lý chi phí
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Quản lý việc ủy nhiệm
           href: expense/manage-delegation.md
+        - name: Đặt cấu hình quản lý chi phí
+          href: prod-exp/plan-expense-management.md
         - name: Đặt cấu hình các tham số quản lý Chi phí
           href: expense/configure-expense-management-parameters.md
         - name: Thiết lập phần tích hợp thẻ tín dụng
@@ -1278,10 +1338,14 @@
       items:
         - name: Phân phối trên báo cáo chi phí
           href: expense/distributions-expense-report.md
+        - name: Nhập và duy trì các giao dịch thẻ tín dụng
+          href: prod-exp/import-credit-card.md
     - name: Phê duyệt báo cáo chi phí
       items:
         - name: Báo cáo chi phí và nhiều người phê duyệt
           href: expense/expense-reports-multiple-approvers.md
+        - name: Quản lý việc ủy nhiệm chi phí
+          href: prod-exp/manage-expense-delegation.md
     - name: Đăng báo cáo chi phí
       href: expense/posting-expense-reports.md
     - name: Tiêu chuẩn đi lại
@@ -1296,6 +1360,8 @@
       items:
         - name: Hoàn thuế VAT
           href: expense/vat-recovery.md
+        - name: Xem báo cáo chi phí từ Sổ cái chung hoặc Thu mua và tìm nguồn cung ứng
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 42, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 23, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 21, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 20, V3'
           href: psa/whats-new-ur-20.md
