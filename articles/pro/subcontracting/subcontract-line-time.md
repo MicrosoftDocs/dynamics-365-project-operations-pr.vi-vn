@@ -1,21 +1,19 @@
 ---
 title: Mô tả hợp đồng phụ cho thời gian
-description: Bài viết này giải thích cách ghi các dòng hợp đồng phụ cho thời gian và ghi lại việc mua thời gian từ các nhà cung cấp.
+description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho thời gian và ghi lại việc mua thời gian từ các nhà cung cấp.
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0295ddd1b36eef9289110c4fe7b51397d81320d6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925974"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262127"
 ---
 # <a name="subcontract-lines-for-time"></a>Mô tả hợp đồng phụ cho thời gian
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

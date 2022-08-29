@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028912"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317014"
 ---
 # <a name="project-mobile-applications-overview"></a>Tổng quan về ứng dụng dự án dành cho thiết bị di động
 
@@ -33,7 +33,7 @@ Ba ứng dụng di động có liên quan đến thời gian dự án có sẵn 
 
 ## <a name="project-time-entry-workspace"></a>Không gian làm việc Mục nhập thời gian dự án
 
-Không gian làm việc Mục nhập thời gian dự án cho phép người dùng nhập và tiết kiệm thời gian cho một dự án. Tuy nhiên, nó không cho phép người dùng gửi hoặc phê duyệt bảng chấm công của dự án. Nó chỉ có thể được sử dụng để nhập thời gian. Không gian làm việc di động này được thiết kế để sử dụng cùng với ứng dụng di động về tài chính và hoạt động.
+Không gian làm việc Mục nhập thời gian dự án cho phép người dùng nhập và tiết kiệm thời gian cho một dự án. Tuy nhiên, nó không cho phép người dùng gửi hoặc phê duyệt bảng chấm công của dự án. Nó chỉ có thể được sử dụng để nhập thời gian. Không gian làm việc di động này được thiết kế để được sử dụng cùng với ứng dụng di động tài chính và hoạt động.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Bảng chấm công của tôi/Bảng chấm công để xem lại
 
@@ -42,9 +42,8 @@ Bảng chấm công của tôi (Được tối ưu hóa cho thiết bị di đ�
 ## <a name="for-more-information"></a>Để biết thêm thông tin
 
 - [Ứng dụng di động bảng chấm công dự án](project-timesheet.md)
-- [Mục nhập thời gian dự án]( project-time-entry-mobile-workspace.md)
+- [Mục nhập thời gian dự án](project-time-entry-mobile-workspace.md)
 - [Bảng chấm công dự án trên thiết bị di động](Mobile-timesheets.md)
 - [Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

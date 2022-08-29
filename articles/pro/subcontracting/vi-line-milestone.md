@@ -6,22 +6,20 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f066c2ac7377a989a92a9ae2e9a732d3c979a0db
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931356"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261055"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Dòng hóa đơn của nhà cung cấp trong dự án cho các mốc
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Hóa đơn của nhà cung cấp trong Microsoft Dynamics 365 Project Operations có thể có các dòng hóa đơn của nhà cung cấp cho các mốc quan trọng được xác định trên một dòng hợp đồng phụ. Người quản lý dự án có thể sử dụng các dòng hóa đơn của nhà cung cấp cho các mốc quan trọng để ghi lại chi phí dịch vụ được mua sắm dưới dạng chi phí dựa trên mốc phát sinh trên các dịch vụ hoặc sản phẩm được mua sắm cho dự án.
 
-Các dòng hóa đơn của nhà cung cấp cho các mốc quan trọng phải luôn tham chiếu đến dòng hợp đồng phụ có phương pháp thanh toán Giá cố định. Khi dòng hóa đơn của nhà cung cấp cho các mốc quan trọng tham chiếu đến dòng hợp đồng phụ, người quản lý dự án sẽ có thể đối sánh và xác minh các chi phí cơ bản về thời gian, chi phí hoặc vật liệu liên quan đến dòng hợp đồng phụ đó so với mốc đang được nhà cung cấp lập hóa đơn.
+Các dòng hóa đơn của nhà cung cấp cho các mốc quan trọng phải luôn tham chiếu đến dòng hợp đồng phụ có phương pháp thanh toán Giá cố định. Khi dòng hóa đơn của nhà cung cấp cho các mốc quan trọng tham chiếu đến dòng hợp đồng phụ, người quản lý dự án sẽ có thể đối sánh và xác minh các chi phí cơ bản về thời gian, chi phí hoặc vật liệu tham chiếu đến dòng hợp đồng phụ đó so với mốc đang được nhà cung cấp lập hóa đơn.
 
 Bảng sau cung cấp thông tin về các trường trên các dòng hóa đơn của nhà cung cấp cho các mốc quan trọng.
 
@@ -35,7 +33,7 @@ Bảng sau cung cấp thông tin về các trường trên các dòng hóa đơn
 | Lớp giao dịch | Lựa chọn **Cột mốc** để ghi lại hóa đơn của nhà cung cấp cho một mốc hoàn thành đã được xác định trên dòng hợp đồng phụ. | Không có |
 | Mốc | Chọn cột mốc được xác định trên dòng hợp đồng phụ có liên quan được đánh dấu là **Sẵn sàng lập hóa đơn**. | Các mốc của dòng hợp đồng phụ có trạng thái **Sẵn sàng xuất hóa đơn** có thể được chọn trên một dòng hóa đơn của nhà cung cấp. |
 | Dự án | Tên của dự án mà các dịch vụ đang được lập hóa đơn đã được sử dụng. | Trường này là bắt buộc và không được để trống. |
-| Tác vụ | Tên của nhiệm vụ dự án mà các dịch vụ đang được lập hóa đơn đã được sử dụng. Trường này chỉ có sẵn nếu một dự án được chọn. Lựa chọn nhiệm vụ dự án là tùy chọn. | Nếu trường này được để trống, người quản lý dự án có thể đối sánh dòng hóa đơn của nhà cung cấp với loại giao dịch trên dòng hợp đồng phụ có liên quan được ghi lại trên bất kỳ nhiệm vụ nào của dự án. Nếu dòng hóa đơn của nhà cung cấp không tham chiếu đến dòng hợp đồng phụ và trường này để trống, thì giá thực tế được tạo bởi dòng hóa đơn của nhà cung cấp sẽ không được liên kết với bất kỳ hướng dẫn bán hàng chưa lập hóa đơn nào. Trong trường hợp này, nếu thanh toán dựa trên nhiệm vụ được thiết lập, chi phí có thể không được lập hóa đơn cho khách hàng cuối cùng. |
+| Tác vụ | Tên của nhiệm vụ dự án mà các dịch vụ đang được lập hóa đơn đã được sử dụng. Trường này chỉ có sẵn nếu một dự án được chọn. Lựa chọn nhiệm vụ dự án là tùy chọn. | Nếu trường này được để trống, người quản lý dự án có thể đối sánh dòng hóa đơn của nhà cung cấp với loại giao dịch trên dòng hợp đồng phụ có liên quan được ghi lại trên bất kỳ nhiệm vụ nào của dự án. Nếu dòng hóa đơn của nhà cung cấp không tham chiếu đến dòng hợp đồng phụ và trường này để trống, thì chi phí thực tế được tạo bởi dòng hóa đơn của nhà cung cấp sẽ không được liên kết với bất kỳ hướng dẫn bán hàng chưa lập hóa đơn nào. Trong trường hợp này, nếu thanh toán dựa trên nhiệm vụ được thiết lập, chi phí có thể không được lập hóa đơn cho khách hàng cuối cùng. |
 | Số tiền mốc | Nhập giá trị của mốc được xác định trên dòng hợp đồng phụ đã sẵn sàng để lập hóa đơn. | Không có |
 | Thuế bán hàng | Nhập số tiền thuế bán hàng. | Không có |
 | Tổng cộng | Tổng số tiền của dòng hóa đơn của nhà cung cấp, bao gồm cả thuế. Trường này được tính là *Số tiền quan trọng* + *Thuế doanh thu*. | Không có |

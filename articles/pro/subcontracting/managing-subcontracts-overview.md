@@ -1,21 +1,20 @@
 ---
 title: Quản lý hợp đồng phụ trong Project Operations
-description: Bài viết này cung cấp tổng quan về quy trình quản lý hợp đồng phụ end-to-end thường trong các tổ chức dựa trên dự án.
+description: Bài viết này cung cấp một cái nhìn tổng quan về quy trình quản lý hợp đồng phụ end-to-end thường trong các tổ chức dựa trên dự án.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911531"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261234"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Quản lý hợp đồng phụ trong Project Operations
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

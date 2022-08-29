@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929240"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230342"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
 
@@ -45,9 +45,9 @@ Sau đây là danh sách các API lịch trình Dự án hiện tại.
 - **msdyn_CreateProjectV1**: API này có thể được dùng để tạo một dự án. Dự án và nhóm dự án mặc định được tạo ngay lập tức.
 - **msdyn_CreateTeamMemberV1**: API này có thể được dùng để tạo một thành viên trong nhóm dự án. Hồ sơ thành viên trong nhóm được tạo ngay lập tức.
 - **msdyn_CreateOperationSetV1**: API này có thể được dùng để lập lịch trình một số yêu cầu phải được thực hiện trong một giao dịch.
-- **msdyn_PSSCreateV1**: API này có thể được dùng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo.
-- **msdyn_PSSUpdateV1**: API này có thể được dùng để cập nhật một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động cập nhật.
-- **msdyn_PSSDeleteV1**: API này có thể được dùng để xóa một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động xóa.
+- **msdyn_PssCreateV1** : API này có thể được sử dụng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo.
+- **msdyn_PssUpdateV1** : API này có thể được sử dụng để cập nhật một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động cập nhật.
+- **msdyn_PssDeleteV1** : API này có thể được sử dụng để xóa một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động xóa.
 - **msdyn_ExecuteOperationSetV1**: API này được dùng để thực thi tất cả các thao tác trong nhóm thao tác nhất định.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Sử dụng API lịch trình dự án với OperationSet
@@ -58,7 +58,7 @@ Bởi vì bản ghi có cả **CreateProjectV1** và **CreateTeamMemberV1** đư
 
 | Thực thể lập lịch trình | Tạo | Cập nhật | Xoá | Những điều quan trọng cần cân nhắc |
 | --- | --- | --- | --- | --- |
-Nhiệm vụ dự án | Có | Có | Có | Các **Tiến triển**, **·**, và **Nỗ lực** Các trường có thể được chỉnh sửa trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.  |
+Nhiệm vụ dự án | Có | Có | Có | Các **Tiến triển**, **lực**, và **Nỗ lực** có thể chỉnh sửa các trường trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.  |
 | Quan hệ phụ thuộc nhiệm vụ dự án | Có |  | Có | Bản ghi quan hệ phụ thuộc nhiệm vụ dự án không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. |
 | Công việc giao cho nguồn lực | Có | Có | | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, bản ghi cũ có thể bị xóa và bản ghi mới có thể được tạo. |
 | Nhóm dự án | Có | Có | Có | Nhóm mặc định được tạo bằng cách sử dụng **CreateProjectV1** API. Hỗ trợ tạo và xóa nhóm dự án đã được thêm vào trong Bản phát hành cập nhật 16. |
@@ -71,7 +71,7 @@ Thuộc tính ID là không bắt buộc. Nếu được cung cấp, hệ thốn
 
 ## <a name="restricted-fields"></a>Các trường bị hạn chế
 
-Các bảng sau xác định các trường bị hạn chế **Tạo ra** và **Chỉnh sửa**.
+Các bảng sau đây xác định các trường bị hạn chế **Tạo ra** và **Chỉnh sửa**.
 
 ### <a name="project-task"></a>Nhiệm vụ dự án
 

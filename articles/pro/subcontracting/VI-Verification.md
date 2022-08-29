@@ -6,16 +6,14 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
-ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
+ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9204201"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261773"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Xác minh các hóa đơn của nhà cung cấp bằng số liệu thực tế đã được phê duyệt
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -37,7 +35,7 @@ Các **Tình trạng xác minh** trên một dòng hóa đơn của nhà cung c�
 
 Các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Chưa bắt đầu** có thể được chỉnh sửa.
 
-Các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Trong tiến trình** không còn có thể được chỉnh sửa. Đối với dòng hóa đơn của nhà cung cấp tham chiếu đến hợp đồng phụ, trạng thái xác minh sẽ tự động được đặt thành **Trong tiến trình** ngay sau khi chi phí thực tế đầu tiên được khớp với dòng hóa đơn của nhà cung cấp.
+Các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Trong tiến trình** không còn có thể được chỉnh sửa. Đối với dòng hóa đơn của nhà cung cấp tham chiếu đến hợp đồng phụ, trạng thái xác minh được tự động đặt thành **Trong tiến trình** ngay sau khi chi phí thực tế đầu tiên được khớp với dòng hóa đơn của nhà cung cấp.
 
 Các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Hoàn thành** không còn có thể được chỉnh sửa. Khi tất cả các dòng trên hóa đơn của nhà cung cấp có trạng thái xác minh này, hóa đơn của nhà cung cấp có thể được xác nhận.
 
@@ -46,7 +44,7 @@ Các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Ho
 Việc so khớp các thực tế về chi phí giúp cho quá trình xác minh trên một dòng hóa đơn của nhà cung cấp. Để khớp các thực tế chi phí với một dòng hóa đơn của nhà cung cấp, hãy làm theo các bước sau.
 
 1. Mở dòng hóa đơn của nhà cung cấp và chọn **Chi phí thực tế chưa từng có** chuyển hướng. Một lưới hiển thị danh sách các thực tế chi phí tham chiếu đến cùng một dòng hợp đồng phụ với dòng hóa đơn của nhà cung cấp.
-2. Chọn một hoặc nhiều thực tế chi phí, sau đó chọn **Cuộc thi đấu** trên thanh công cụ phía trên lưới. Hệ thống xác nhận rằng các thực tế chi phí đã chọn có thể khớp với nhau. Sau khi xác thực được thông qua, các chi phí thực tế được liên kết với dòng hóa đơn của nhà cung cấp.
+2. Chọn một hoặc nhiều chi phí thực tế, sau đó chọn **Cuộc thi đấu** trên thanh công cụ phía trên lưới. Hệ thống xác nhận rằng các thực tế chi phí đã chọn có thể khớp với nhau. Sau khi xác thực được thông qua, các chi phí thực tế được liên kết với dòng hóa đơn của nhà cung cấp.
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Tiêu chí xác thực được sử dụng để liên kết các thực tế chi phí với các dòng hóa đơn của nhà cung cấp
 
@@ -68,9 +66,9 @@ Trong quá trình đối sánh, liên kết giữa chi phí thực tế và dòn
 
 ## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Khớp các thực tế chi phí từ một dòng hóa đơn của nhà cung cấp
 
-Việc so khớp các thực tế về chi phí cũng có thể giúp thực hiện quá trình xác minh trên hóa đơn của nhà cung cấp bằng cách cho phép xóa các liên kết đã thiết lập trước đó. Chỉ có thể so khớp thực tế chi phí từ các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Trong tiến trình**. Để bỏ khớp các thực tế chi phí khỏi dòng hóa đơn của nhà cung cấp, hãy làm theo các bước sau.
+Việc so khớp các thực tế về chi phí cũng có thể giúp thực hiện quá trình xác minh trên hóa đơn của nhà cung cấp bằng cách cho phép xóa các liên kết đã thiết lập trước đó. Thực tế chi phí chỉ có thể được so khớp từ các dòng hóa đơn của nhà cung cấp có trạng thái xác minh là **Trong tiến trình**. Để bỏ khớp các thực tế chi phí khỏi dòng hóa đơn của nhà cung cấp, hãy làm theo các bước sau.
 
 1. Mở dòng hóa đơn của nhà cung cấp và chọn **Thực tế chi phí phù hợp** chuyển hướng. Lưới hiển thị danh sách các thực tế chi phí tham chiếu đến dòng hóa đơn của nhà cung cấp.
-2. Chọn một hoặc nhiều thực tế chi phí, sau đó chọn **Hủy Kết Nối** trên thanh công cụ phía trên lưới.
+2. Chọn một hoặc nhiều chi phí thực tế, sau đó chọn **Hủy Kết Nối** trên thanh công cụ phía trên lưới.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

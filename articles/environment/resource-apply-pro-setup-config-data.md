@@ -1,17 +1,17 @@
 ---
-title: Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service
+title: Thiết lập và áp dụng dữ liệu cấu hình trong Microsoft Dataverse
 description: Bài viết này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Hoạt động dự án.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928044"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230278"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service 
 
@@ -21,10 +21,10 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
-Trước khi bắt đầu đặt cấu hình dữ liệu trong Common Data Service (CDS), bạn phải đáp ứng được các điều kiện tiên quyết sau:
+Trước khi bạn bắt đầu định cấu hình dữ liệu trong Microsoft Dataverse, các điều kiện tiên quyết sau phải được đáp ứng:
 
-1.  Cung cấp môi trường CDS và môi trường Dynamics 365 Finance cho Hoạt động dự án.
-2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với môi trường CDS. Điều này có nghĩa là thực thể **Công ty** trong CDS có các hồ sơ công ty sau:
+1.  Điều khoản a Dataverse và môi trường Dynamics 365 Finance cho Hoạt động dự án.
+2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với Dataverse Môi trường. Điều này có nghĩa là **Công ty** thực thể trong Dataverse có hồ sơ công ty sau:
   - THPM
   - USPM
   - GBPM
