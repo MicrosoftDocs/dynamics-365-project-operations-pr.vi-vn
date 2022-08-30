@@ -58,14 +58,16 @@
               href: environment/resource-dual-write-expense.md
             - name: Tích hợp hóa đơn của nhà cung cấp
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Gỡ cài đặt Dynamics 365 Project Operations
+        - name: Dỡ cài đặt Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Có gì mới
       items:
-        - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-july-2022-resource-based.md
-        - name: Tệp lưu trữ
+        - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Lưu trữ
           items:
+            - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -384,6 +386,42 @@
           items:
             - name: Tổng quan về thời gian làm việc của nguồn lực
               href: resource-management/resource-utilization-overview.md
+    - name: Quản lý hợp đồng phụ
+      items:
+        - name: Quản lý hợp đồng phụ trong Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Các khái niệm chính trong hợp đồng phụ
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Quản lý nhà cung cấp và bảng giá dự án
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Nhà thầu phụ là nguồn lực có thể đặt trước
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Chi tiết của tiêu đề cho Hợp đồng phụ
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Mô tả hợp đồng phụ cho thời gian
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Mô tả hợp đồng phụ cho các hạng mục chi phí
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Mô tả hợp đồng phụ cho sản phẩm
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Nguồn lực mô tả hợp đồng phụ
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Dấu mốc mô tả hợp đồng phụ
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Thành viên nhóm dự án hợp đồng phụ
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Tùy chọn hợp đồng phụ cho thành viên nhóm dự án
+          href: pro/subcontracting/subcon-options.md
+        - name: Ước tính chi phí của các nhiệm vụ nguồn lực trong hợp đồng phụ
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Đặt cấu hình Bảng lịch trình để hiển thị nhân viên hợp đồng và năng lực của hợp đồng phụ
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bô trí nhân sự cho một dự án với nhân viên hợp đồng và năng lực của hợp đồng phụ
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Ghi lại thời gian, chi phí và mức sử dụng vật liệu cho các thành phần trong hợp đồng phụ'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Chuyển đổi trạng thái trên một hợp đồng phụ
+          href: pro/subcontracting/subcon-states.md
     - name: Thời gian
       items:
         - name: Tổng quan về thời gian
@@ -580,6 +618,8 @@
       items:
         - name: Di chuyển các mốc thanh toán được lập hóa đơn đầy đủ trong quá trình chuyển đổi
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Đồng bộ hóa Trạng thái dự án để ngăn nhập dữ liệu vào các dự án đã đóng
+          href: advanced-configuration/sync-project-status.md
     - name: Nâng cấp
       items:
         - name: Các cân nhắc về nâng cấp cho Phê duyệt hiện đại
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: Có gì mới
       items:
-        - name: Tính năng mới kể từ tháng 7 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-july-2022-lite.md
-        - name: Tệp lưu trữ
+        - name: Tính năng mới kể từ tháng 8 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Lưu trữ
           items:
+            - name: Tính năng mới kể từ tháng 7 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Tính năng mới kể từ tháng 6 năm 2022 – triển khai bản đơn giản
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: Quyền truy cập sớm đợt 2 năm 2021 tính năng mới – triển khai bản đơn giản
+            - name: Tính năng mới trong quyền truy cập sớm đợt 2 năm 2021 – triển khai bản đơn giản
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Tính năng mới kể từ tháng 5 năm 2022 – triển khai bản đơn giản
               href: pro/whats-new/whats-new-may-2022-lite.md
@@ -1116,7 +1158,7 @@
       items:
         - name: Tính năng mới kể từ tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
           href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Tệp lưu trữ
+        - name: Lưu trữ
           items:
             - name: Tính năng mới kể từ tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
