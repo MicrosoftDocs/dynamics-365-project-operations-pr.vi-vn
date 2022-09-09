@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295905"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409982"
 ---
 # <a name="project-operations-updates"></a>Các bản cập nhật của Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations gồm 2 thành phần:
 
 | Project Operations trên môi trường Dataverse | Quản lý dự án và kế toán trong môi trường ứng dụng tài chính và hoạt động | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Đối với kịch bản Tài nguyên hoạt động dự án / không có sẵn, chúng tôi khuyên bạn nên sử dụng phiên bản Điều phối viết kép 2.3.1.15 hoặc cao hơn.
 
@@ -47,24 +47,24 @@ Các bản cập nhật của Project Operations trên môi trường Dataverse 
 | Trạm | Khu vực | Số hiệu phiên bản hiện tại | Bản cập nhật tự động cho phần triển khai Lite | Bản cập nhật tự động cho phần triển khai Nguồn lực/hàng không nhập kho | Số hiệu phiên bản tiếp theo | Phiên bản tiếp theo được phát hành rộng rãi |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Trạm 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bản phát hành đầu tiên         |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 26 tháng 8 năm 2022       |
+|   &nbsp;  | Bản phát hành đầu tiên         |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022      |
 | Trạm 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nam Mỹ         |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
-|   &nbsp;  | Ca-na-đa                |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
-|   &nbsp;  | Ấn Độ                 |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
-|   &nbsp;  | Pháp                |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
-|   &nbsp;  | Nam Phi          |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
-|   &nbsp;  | Thụy Sĩ           |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | Ngày 02 tháng 9 năm 2022       |
+|   &nbsp;  | Nam Mỹ         |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Ca-na-đa                |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Ấn Độ                 |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Pháp                |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Nam Phi          |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Thụy Sĩ           |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD                 | 09 tháng 9 năm 2022       |
 | Trạm 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nhật Bản                 |  4.44.0.22      | Hoàn tất      | Hoàn tất       | 4.45.0.53                 | Ngày 19 tháng 8 năm 2022       |
-|   &nbsp;  | Châu Á Thái Bình Dương          |  4.44.0.22      | Hoàn tất      | Hoàn tất       | 4.45.0.53                 | Ngày 19 tháng 8 năm 2022       |
-|   &nbsp;  | Đảo Anh         |  4.44.0.22      | Hoàn tất      | Hoàn tất       | 4.45.0.53                 | Ngày 19 tháng 8 năm 2022       |
-|   &nbsp;  | Châu Đại Dương               |  4.44.0.22      | Hoàn tất      | Hoàn tất       | 4.45.0.53                 | Ngày 19 tháng 8 năm 2022       |
-|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.44.0.22      | Hoàn tất      | Hoàn tất       | 4.45.0.53                 | Ngày 19 tháng 8 năm 2022       |
+|   &nbsp;  | Nhật Bản                 |  4.45.0.53      | Hoàn tất      | Hoàn tất       | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Châu Á Thái Bình Dương          |  4.45.0.53      | Hoàn tất      | Hoàn tất       | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Đảo Anh         |  4.45.0.53      | Hoàn tất      | Hoàn tất       | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Châu Đại Dương               |  4.45.0.53      | Hoàn tất      | Hoàn tất       | TBD                 | 09 tháng 9 năm 2022       |
+|   &nbsp;  | Các Tiểu Vương quốc Ả Rập Thống nhất  |  4.45.0.53      | Hoàn tất      | Hoàn tất       | TBD                 | 09 tháng 9 năm 2022       |
 | Trạm 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Châu Âu                |  4.44.0.22      | Hoàn tất           | Hoàn tất            | 4.45.0.53           | Ngày 26 tháng 8 năm 2022       |
+|   &nbsp;  | Châu Âu                |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD           | Ngày 16 tháng 9 năm 2022       |
 | Trạm 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Bắc Mỹ         |  4.44.0.22      | Hoàn tất           | Hoàn tất            | 4.45.0.53           | Ngày 02 tháng 9 năm 2022       |
+|   &nbsp;  | Bắc Mỹ         |  4.45.0.53      | Hoàn tất           | Hoàn tất            | TBD           | Ngày 16 tháng 9 năm 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Lịch phát hành cho Quản lý dự án và kế toán trong môi trường ứng dụng tài chính và hoạt động
 

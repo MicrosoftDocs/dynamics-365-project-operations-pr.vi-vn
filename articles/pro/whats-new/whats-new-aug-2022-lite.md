@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321431"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403930"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>Có gì mới vào tháng 8 năm 2022 - Triển khai Project Operations Lite
 
@@ -27,3 +27,7 @@ Bài viết này áp dụng cho các thành phần và phiên bản sau của Mi
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
 |   Quản lý cơ hội | 2762089 | Xử lý lỗi khi đóng hợp đồng coi như bị mất nếu tính năng tự động lưu bị tắt trong tổ chức.|
+|Hoạch định và theo dõi dự án | 2767841 | Cập nhật từ xa Thực thể dự án Tạo hoặc Cập nhật kịch bản.|
+|Định giá và thanh toán | 2771072 | Xử lý ngoại lệ tham chiếu rỗng trong khi trích dẫn chiến thắng.|
+|Định giá và thanh toán | 2844181 |Không thành công trong việc lấy id tương quan và chặn tạo hóa đơn.|
+|Định giá và thanh toán | 2852836 | Các hướng dẫn sử dụng liên công ty bị thiếu đối với Chi phí liên công ty được tạo và phê duyệt trong CE.|

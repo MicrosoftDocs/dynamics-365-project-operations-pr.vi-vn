@@ -6,18 +6,18 @@ ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afec082c680596e8dcb8ec0b350b4bb7853c49ff
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916360"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404468"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Sử dụng các API lịch trình dự án bằng Power Automate
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này mô tả quy trình mẫu chỉ ra cách tạo một kế hoạch dự án hoàn chỉnh bằng cách sử dụng Microsoft Power Automate, cách tạo Nhóm hoạt động và cách cập nhật một thực thể. Ví dụ minh họa cách tạo dự án, thành viên nhóm dự án, Bộ hoạt động, nhiệm vụ dự án và phân công tài nguyên. Bài viết này cũng giải thích cách cập nhật một thực thể và thực hiện một Nhóm hoạt động.
+Bài viết này mô tả quy trình mẫu cho biết cách tạo một kế hoạch dự án hoàn chỉnh bằng cách sử dụng Microsoft Power Automate, cách tạo Nhóm hoạt động và cách cập nhật một thực thể. Ví dụ minh họa cách tạo dự án, thành viên nhóm dự án, Bộ hoạt động, nhiệm vụ dự án và phân công tài nguyên. Bài viết này cũng giải thích cách cập nhật một thực thể và thực hiện một Nhóm hoạt động.
 
 Sau đây là danh sách đầy đủ các bước được ghi lại trong quy trình mẫu trong bài viết này:
 
@@ -40,7 +40,7 @@ Sau đây là danh sách đầy đủ các bước được ghi lại trong quy 
 
 ## <a name="assumptions"></a>Giả định
 
-Bài viết này giả định rằng bạn có kiến thức cơ bản về Dataverse nền tảng, các luồng đám mây và Giao diện lập trình ứng dụng theo lịch trình dự án (API). Để biết thêm thông tin, hãy xem [Người giới thiệu](#references) phần sau của bài viết này.
+Bài viết này giả định rằng bạn có kiến thức cơ bản về Dataverse nền tảng, các luồng đám mây và Giao diện Lập trình Ứng dụng Lịch trình Dự án (API). Để biết thêm thông tin, hãy xem [Người giới thiệu](#references) phần sau của bài viết này.
 
 ## <a name="create-a-flow"></a>Tạo một dòng
 
@@ -58,13 +58,13 @@ Làm theo các bước sau để tạo [dòng nhận biết giải pháp](/power
 
 1. Trong ngăn dẫn hướng, hãy chọn **Các giải pháp**.
 2. Trên **Các giải pháp** trang, chọn **Giải pháp mới**.
-3. Bên trong **Giải pháp mới** hộp thoại, đặt các trường bắt buộc, sau đó chọn **Tạo ra**.
+3. Bên trong **Giải pháp mới** hộp thoại, đặt các trường bắt buộc, rồi chọn **Tạo ra**.
 
 ## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a> Bước 1: Tạo một PowerApps Kích hoạt
 
 1. Trên **Các giải pháp** trang, chọn giải pháp mà bạn đã tạo, sau đó chọn **Mới**.
 2. Trong ngăn bên trái, hãy chọn **Mây trôi** \> **Tự động hóa** \> **Dòng chảy của đám mây** \> **Lập tức**.
-3. Bên trong **Tên luồng** trường, nhập **Lập lịch trình trình diễn API**.
+3. Bên trong **Tên luồng** trường, nhập **Lên lịch Luồng trình diễn API**.
 4. Bên trong **Chọn cách kích hoạt luồng này** danh sách, chọn **Power Apps**. Khi bạn tạo một Power Apps kích hoạt, logic là tùy thuộc vào bạn với tư cách là tác giả. Trong bài viết này, hãy để trống các tham số đầu vào cho mục đích thử nghiệm.
 5. Chọn **Tạo**.
 
@@ -72,7 +72,7 @@ Làm theo các bước sau để tạo [dòng nhận biết giải pháp](/power
 
 Làm theo các bước sau để tạo một dự án mẫu.
 
-1. Trong quy trình bạn đã tạo, hãy chọn **Bước mới**.
+1. Trong luồng bạn đã tạo, hãy chọn **Bước mới**.
 
     ![Thêm một bước mới.](media/newstep.png)
 
@@ -87,7 +87,7 @@ Làm theo các bước sau để tạo một dự án mẫu.
 4. Đổi tên bước **Tạo dự án**.
 5. Bên trong **Tên hành động** trường, chọn **msdyn\_ CreateProjectV1**.
 6. Bên dưới **msdyn\_ môn học** trường, chọn **Thêm nội dung động**.
-7. Trên **Biểu hiện** tab, trong trường chức năng, hãy nhập **Tên dự án - utcNow ()**.
+7. Trên **Biểu hiện**, trong trường chức năng, hãy nhập **Tên dự án - utcNow ()**.
 8. Chọn **OK**.
 
 ## <a name="step-3-initialize-a-variable-for-the-team-member"></a><a id="3"></a> Bước 3: Khởi tạo một biến cho thành viên trong nhóm
@@ -105,7 +105,7 @@ Làm theo các bước sau để tạo một dự án mẫu.
 1. Trong luồng, hãy chọn **Bước mới**.
 2. Bên trong **Chọn một hoạt động** hộp thoại, trong trường tìm kiếm, hãy nhập **thực hiện hành động không ràng buộc**. Sau đó, trên **Hành động**, chọn thao tác trong danh sách kết quả.
 3. Trong bước mới, hãy chọn dấu chấm lửng (**...**), rồi chọn **Đổi tên**.
-4. Đổi tên bước **Tạo thành viên trong nhóm**.
+4. Đổi tên bước **Tạo thành viên nhóm**.
 5. Cho **Tên hành động** trường, chọn **TeamMemberAction** bên trong **Nội dung động** hộp thoại.
 6. Bên trong **Tham số hành động**, nhập thông tin tham số sau.
 
@@ -120,10 +120,10 @@ Làm theo các bước sau để tạo một dự án mẫu.
     } 
     ```
 
-    Đây là giải thích về các tham số:
+    Dưới đây là giải thích về các tham số:
 
     - **\@\@ odata.type** - Tên thực thể. Ví dụ, nhập **"Microsoft.Dynamics.CRM.msdyn\_ nhóm dự án"**.
-    - **msdyn\_ projectteamid** - Khóa chính của ID nhóm dự án. Giá trị là một biểu thức định danh duy nhất trên toàn cầu (GUID).   ID được tạo từ tab biểu thức.
+    - **msdyn\_ projectteamid** - Khóa chính của ID nhóm dự án. Giá trị là một biểu thức nhận dạng duy nhất trên toàn cầu (GUID).   ID được tạo từ tab biểu thức.
 
     - **msdyn\_ dự án\@ odata.bind** - Mã dự án của dự án sở hữu. Giá trị sẽ là nội dung động đến từ phản hồi của bước "Tạo dự án". Đảm bảo rằng bạn nhập đường dẫn đầy đủ và thêm nội dung động vào giữa các dấu ngoặc đơn. Dấu ngoặc kép là bắt buộc. Ví dụ, nhập **"/ msdyn\_ dự án (THÊM NỘI DUNG NĂNG ĐỘNG) "**.
     - **msdyn\_ Tên** - Tên của thành viên trong nhóm. Ví dụ, nhập **"Lịch trìnhAPIDemoTM1"**.
@@ -206,7 +206,7 @@ Làm theo các bước sau để tạo nhiệm vụ dự án có ID duy nhất t
 3. Trong bước này, hãy chọn dấu chấm lửng (**...**), rồi chọn **Đổi tên**.
 4. Đổi tên bước **Tạo nhiệm vụ dự án**.
 5. Bên trong **Tên hành động** trường, chọn **msdyn\_ PssCreateV1**.
-6. Bên trong **Thực thể**, hãy nhập thông tin tham số sau.
+6. Bên trong **Thực thể**, nhập thông tin tham số sau.
 
     ```
     {
@@ -222,7 +222,7 @@ Làm theo các bước sau để tạo nhiệm vụ dự án có ID duy nhất t
     }
     ```
 
-    Đây là giải thích về các tham số:
+    Dưới đây là giải thích về các tham số:
 
     - **\@\@ odata.type** - Tên thực thể. Ví dụ, nhập **"Microsoft.Dynamics.CRM.msdyn\_ projecttask "**.
     - **msdyn\_ projecttaskid** - ID duy nhất của nhiệm vụ. Giá trị phải được đặt thành một biến động từ **msdyn\_ projecttaskid**.
@@ -243,11 +243,11 @@ Làm theo các bước sau để tạo nhiệm vụ dự án có ID duy nhất t
 3. Trong bước này, hãy chọn dấu chấm lửng (**...**), rồi chọn **Đổi tên**.
 4. Đổi tên bước **Tạo bài tập**.
 5. Bên trong **Tên hành động** trường, chọn **msdyn\_ PssCreateV1**.
-6. Bên trong **Thực thể**, hãy nhập thông tin tham số sau.
+6. Bên trong **Thực thể**, nhập thông tin tham số sau.
 
     ```
     {
-        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
         "msdyn_resourceassignmentid": "@{guid()}",
         "msdyn_name": "ScheduleAPIDemoAssign1",
         "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",
@@ -272,7 +272,7 @@ Làm theo các bước sau để tạo nhiệm vụ dự án có ID duy nhất t
 3. Trong bước này, hãy chọn dấu chấm lửng (**...**), rồi chọn **Đổi tên**.
 4. Đổi tên bước **Đổi tên Nhiệm vụ Dự án**.
 5. Bên trong **Tên hành động** trường, chọn **msdyn\_ PssUpdateV1**.
-6. Bên trong **Thực thể**, hãy nhập thông tin tham số sau.
+6. Bên trong **Thực thể**, nhập thông tin tham số sau.
 
     ```
     {
@@ -290,8 +290,8 @@ Làm theo các bước sau để tạo nhiệm vụ dự án có ID duy nhất t
 2. Bên trong **Chọn một hoạt động** hộp thoại, trong trường tìm kiếm, hãy nhập **thực hiện hành động không ràng buộc**. Sau đó, trên **Hành động**, chọn thao tác trong danh sách kết quả.
 3. Trong bước này, hãy chọn dấu chấm lửng (**...**), rồi chọn **Đổi tên**.
 4. Đổi tên bước **Thực thi Bộ hoạt động**.
-5. Bên trong **Tên hành động** trường, chọn **msdyn\_ ExecuteOperationSetV1**.
-6. Cho **OperationSetId** trường, chọn **msdyn\_ CreateOperationSetV1Response OperationSetId** bên trong **Nội dung Dynamid** hộp thoại.
+5. Bên trong **Tên hành động** lĩnh vực, chọn **msdyn\_ ExecuteOperationSetV1**.
+6. Cho **OperationSetId** lĩnh vực, chọn **msdyn\_ CreateOperationSetV1Response OperationSetId** bên trong **Nội dung Dynamid** hộp thoại.
 
 ## <a name="references"></a>Tham chiếu
 

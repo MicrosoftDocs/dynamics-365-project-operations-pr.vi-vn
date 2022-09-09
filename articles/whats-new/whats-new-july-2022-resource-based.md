@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183950"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403978"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 7 năm 2022 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -29,7 +29,7 @@ Không có bản cập nhật nào cho bản đồ ghi kép Project Operations t
 
 Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của Hướng dẫn khắc phục sự cố ghi kép.
+Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -45,8 +45,14 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Định giá và thanh toán | 2675880 | Ngăn một dự án được liên kết với một dòng hợp đồng không dựa trên công việc. |
 | Định giá và thanh toán | 2664396 | Nếu một danh sách báo giá được lưu mà không có báo giá, thì phải có lỗi thông báo rằng báo giá không được để trống. |
 | Định giá và thanh toán | 2184019 | Các **Thanh toán Dựa trên Nhiệm vụ** tab sẽ không được hiển thị cho các dự án không có hợp đồng hỗ trợ hoặc báo giá. |
+| Thời gian và Chi phí | 2754459 | Khi luồng đám mây lập lịch định kỳ không hoạt động, hãy hiển thị biểu ngữ và bỏ qua xử lý không đồng bộ. |
+| Định giá và thanh toán | 2724391 | Ngoại lệ sai được đưa ra khi quy tắc thanh toán tách hợp đồng dự án thiếu giá trị khách hàng. |
+| Định giá và thanh toán | 2708638 | Bản ghi không được tìm thấy trong khi tìm kiếm bằng cách sử dụng tìm kiếm lưới trong Sử dụng Vật liệu và Phê duyệt Sử dụng Vật liệu.|
+| Định giá và thanh toán | 2686977 | Ngăn chặn xác thực cho dòng hóa đơn trong quá trình tạo hóa đơn. |
+| Định giá và thanh toán | 2683032 | Việc sao chép các vai trò và danh mục có thể tính phí không vượt quá 5000 bản ghi.|
+| Định giá và thanh toán | 2673363 | % Tiêu hao Chi phí trên Dự án bị hỏng khi tồn tại cả ước tính Nỗ lực và Chi phí và thực tế cho một dự án. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong lĩnh vực tài chính
+### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong tài chính
 
 Để biết thông tin về các bản sửa lỗi có trong bản cập nhật này, hãy đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời (LCS) và xem [KB bài báo](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
 
@@ -56,16 +62,16 @@ Bảng sau liệt kê các tính năng được bật theo mặc định trong p
 
 | Tên tính năng | Ngày kích hoạt | Đã thêm tính năng | Trạng thái tính năng | Mô-đun |
 | --- | --- | --- |--- |--- |
-| Cho phép điều chỉnh giao dịch theo giờ dựa trên sự thay đổi trong phân bổ quy tắc cấp vốn | 16 tháng 9 năm 2022 | Ngày 7 tháng 10 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Tính năng đảo ngược hóa đơn thanh toán trước đơn đặt hàng dự án | 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Xóa các dòng đề xuất hóa đơn khi sử dụng Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho | 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Điều chỉnh kế toán trên một giao dịch dự án đã đăng | 16 tháng 9 năm 2022 | Ngày 10 tháng 5 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Bật thiết lập kế toán mặc định cho dự án | 16 tháng 9 năm 2022 | Tháng 19 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Cho phép nhiều mô tả hợp đồng cho một dự án | 16 tháng 9 năm 2022 | Ngày 29 tháng 6 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Đặt các tạp chí trong Giờ Dự án ở chế độ chỉ đọc nếu trạng thái phê duyệt hiện tại không cho phép chỉnh sửa | 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Bật đồng bộ hóa dòng bán hàng từ dòng mua khi dòng mua được cập nhật và thông số quản lý thay đổi đơn đặt hàng được bật | 16 tháng 9 năm 2022 | Ngày 7 tháng 10 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Bật Hoạt động Dự án trên Dynamics 365 Customer Engagement | 16 tháng 9 năm 2022 | Ngày 29 tháng 6 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
-| Tính năng điều chỉnh đảo ngược giao dịch dự án | 16 tháng 9 năm 2022 | Ngày 13 tháng 7 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Cho phép điều chỉnh giao dịch theo giờ dựa trên sự thay đổi trong phân bổ quy tắc cấp vốn | Ngày 16 tháng 9 năm 2022 | Ngày 7 tháng 10 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Tính năng đảo ngược hóa đơn thanh toán trước đơn đặt hàng dự án | Ngày 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Xóa các dòng đề xuất hóa đơn khi sử dụng Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho | Ngày 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Điều chỉnh kế toán trên một giao dịch dự án đã đăng | Ngày 16 tháng 9 năm 2022 | Ngày 10 tháng 5 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Bật thiết lập kế toán mặc định cho dự án | Ngày 16 tháng 9 năm 2022 | Tháng 19 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Cho phép nhiều mô tả hợp đồng cho một dự án | Ngày 16 tháng 9 năm 2022 | Ngày 29 tháng 6 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Đặt các tạp chí trong Giờ Dự án ở chế độ chỉ đọc nếu trạng thái phê duyệt hiện tại không cho phép chỉnh sửa | Ngày 16 tháng 9 năm 2022 | Ngày 6 tháng 10 năm 2021 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Bật đồng bộ hóa dòng bán hàng từ dòng mua khi dòng mua được cập nhật và thông số quản lý thay đổi đơn đặt hàng được bật | Ngày 16 tháng 9 năm 2022 | Ngày 7 tháng 10 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Bật Hoạt động Dự án trên Dynamics 365 Customer Engagement | Ngày 16 tháng 9 năm 2022 | Ngày 29 tháng 6 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
+| Tính năng điều chỉnh đảo ngược giao dịch dự án | Ngày 16 tháng 9 năm 2022 | Ngày 13 tháng 7 năm 2020 | Bật theo mặc định | Quản lý dự án và kế toán |
 
 ## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Các tính năng trở thành bắt buộc trong bản phát hành sắp tới
 
@@ -73,7 +79,7 @@ Bảng sau liệt kê các tính năng bắt buộc từ phiên bản 10.0.29 tr
 
 | Tên tính năng | Ngày kích hoạt | Đã thêm tính năng | Trạng thái tính năng | Mô-đun |
 | --- | --- | --- | --- | --- |
-| Tính giá trị cam kết trên nguồn vốn mà không làm tròn tỷ giá hối đoái | 16 tháng 9 năm 2022 | Ngày 14 tháng 6 năm 2020 | Bắt buộc | Quản lý dự án và kế toán |
-| Cho phép đăng điều chỉnh dự án với cùng một tài khoản sổ cái như giao dịch ban đầu | 16 tháng 9 năm 2022 | Ngày 14 tháng 6 năm 2020 | Bắt buộc | Quản lý dự án và kế toán |
-| Hợp đồng dự án chi tiết số tiền cam kết | 16 tháng 9 năm 2022 | Ngày 31 tháng 8 năm 2019 | Bắt buộc | Quản lý dự án và kế toán |
-| Cho phép sắp xếp theo tài nguyên trong quá trình tạo đề xuất hóa đơn dự án | 16 tháng 9 năm 2022 | Ngày 31 tháng 8 năm 2019 | Bắt buộc | Quản lý dự án và kế toán |
+| Tính giá trị cam kết trên nguồn vốn mà không làm tròn tỷ giá hối đoái | Ngày 16 tháng 9 năm 2022 | Ngày 14 tháng 6 năm 2020 | Bắt buộc | Quản lý dự án và kế toán |
+| Cho phép đăng điều chỉnh dự án với cùng một tài khoản sổ cái như giao dịch ban đầu | Ngày 16 tháng 9 năm 2022 | Ngày 14 tháng 6 năm 2020 | Bắt buộc | Quản lý dự án và kế toán |
+| Hợp đồng dự án chi tiết số tiền cam kết | Ngày 16 tháng 9 năm 2022 | 31 tháng 8, 2019 | Bắt buộc | Quản lý dự án và kế toán |
+| Cho phép sắp xếp theo tài nguyên trong quá trình tạo đề xuất hóa đơn dự án | Ngày 16 tháng 9 năm 2022 | 31 tháng 8, 2019 | Bắt buộc | Quản lý dự án và kế toán |

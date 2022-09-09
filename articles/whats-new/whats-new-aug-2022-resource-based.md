@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348122"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403883"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới tháng 8 năm 2022 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -29,7 +29,7 @@ Không có bản cập nhật nào cho bản đồ ghi kép Project Operations t
 
 Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của Hướng dẫn khắc phục sự cố ghi kép.
+Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -38,6 +38,11 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
 |   Quản lý cơ hội | 2762089 | Xử lý lỗi khi đóng hợp đồng coi như bị mất nếu tính năng tự động lưu bị tắt trong tổ chức.|
+|Hoạch định và theo dõi dự án | 2767841 | Cập nhật từ xa Thực thể dự án Tạo hoặc Cập nhật kịch bản.|
+|Định giá và thanh toán | 2771072 | Xử lý ngoại lệ tham chiếu rỗng trong khi trích dẫn chiến thắng.|
+|Định giá và thanh toán | 2844181 |Không thành công trong việc lấy id tương quan và chặn tạo hóa đơn.|
+|Định giá và thanh toán | 2852836 | Các hướng dẫn sử dụng liên công ty bị thiếu đối với Chi phí liên công ty được tạo và phê duyệt trong CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong tài chính
 
