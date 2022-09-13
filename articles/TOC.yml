@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Sao chép báo giá dự án
               href: sales/lose-quote.md
+            - name: Kích hoạt và sửa đổi báo giá dự án
+              href: sales/activation-and-revision.md
             - name: Đóng báo giá dự án
               href: sales/win-quote.md
         - name: Quản lý hợp đồng dự án
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Tạo lịch trình hóa đơn trên phần mô tả hợp đồng dựa theo dự án
                   href: sales/invoice-schedules-contract-line.md
+            - name: Sao chép hợp đồng dựa trên dự án
+              href: sales/copy-project-based-contracts-sales.md
             - name: Xác nhận hợp đồng dự án
               href: pro/sales/confirm-contract-sales.md
             - name: Khoản ứng trước và khoản đặt cọc
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Thay thế bảng giá bán dự án
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Giải quyết giá vốn cho ước tính và thực tế
+            - name: Xác định giá vốn cho phần ước tính và thực tế
               href: pricing-costing/cost-price-resolution.md
-            - name: Giải quyết giá bán hàng cho ước tính và thực tế
+            - name: Xác định giá bán hàng cho phần ước tính và thực tế
               href: pricing-costing/sales-price-resolution.md
             - name: Sao chép bảng giá
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Sao chép báo giá dựa trên dự án
               href: sales/lose-quote.md
+            - name: Kích hoạt và sửa đổi báo giá dự án
+              href: sales/activation-and-revision.md
             - name: Đóng báo giá dựa trên dự án
               href: pro/sales/win-quote-sales.md
         - name: Quản lý hợp đồng dựa trên dự án
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Thay thế bảng giá bán dự án
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Giải quyết giá vốn cho số liệu thực tế và ước tính của dự án
+            - name: Xác định giá vốn cho số liệu thực tế và ước tính của dự án
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Giải quyết giá bán hàng cho số liệu thực tế và ước tính của dự án
+            - name: Xác định giá bán hàng cho số liệu thực tế và ước tính của dự án
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Sao chép bảng giá
               href: pricing-costing/copy-price-lists.md
