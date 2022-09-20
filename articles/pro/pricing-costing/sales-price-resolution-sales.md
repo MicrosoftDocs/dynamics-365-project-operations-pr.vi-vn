@@ -1,23 +1,23 @@
 ---
-title: Xác định giá bán cho các ước tính và thực tế của dự án
+title: Xác định giá bán hàng cho số liệu thực tế và ước tính của dự án
 description: Bài viết này cung cấp thông tin về cách xác định giá bán cho các ước tính và thực tế của dự án.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410170"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475211"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Xác định giá bán cho các ước tính và thực tế của dự án
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Xác định giá bán hàng cho số liệu thực tế và ước tính của dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Để xác định giá bán trên ước tính và thực tế trong Microsoft Dynamics 365 Project Operations, trước tiên hệ thống sử dụng ngày và đơn vị tiền tệ trong ước tính đến hoặc ngữ cảnh thực tế để xác định bảng giá bán hàng. Trong ngữ cảnh thực tế cụ thể, hệ thống sử dụng **Ngày Giao dịch** trường để xác định bảng giá có thể áp dụng. Sau khi bảng giá bán hàng được xác định, hệ thống sẽ xác định tỷ lệ bán hàng hoặc hóa đơn.
+Để xác định giá bán trên ước tính và thực tế trong Microsoft Dynamics 365 Project Operations, trước tiên hệ thống sử dụng ngày và đơn vị tiền tệ trong ước tính đến hoặc ngữ cảnh thực tế để xác định bảng giá bán hàng. Trong ngữ cảnh thực tế cụ thể, hệ thống sử dụng **Ngày Giao dịch** trường để xác định bảng giá có thể áp dụng. Các **Ngày Giao dịch** giá trị của ước tính đến hoặc thực tế được so sánh với **Bắt đầu hiệu quả (Không phụ thuộc vào múi giờ)** và **Kết thúc có hiệu lực (Không phụ thuộc vào múi giờ)** các giá trị trên bảng giá. Sau khi bảng giá bán hàng được xác định, hệ thống sẽ xác định tỷ lệ bán hàng hoặc hóa đơn.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Xác định tỷ lệ bán hàng trên các dòng thực tế và ước tính cho Thời gian
 
@@ -25,11 +25,11 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 - Trích dẫn chi tiết dòng cho **Thời gian**.
 - Chi tiết dòng hợp đồng cho **Thời gian**.
-- Phân công tài nguyên trong một dự án.
+- Phân công tài nguyên trên một dự án.
 
 Bối cảnh thực tế cho **Thời gian** đề cập đến:
 
-- Nhập và sửa dòng tạp chí cho **Thời gian**.
+- Dòng tạp chí Entry and Correction cho **Thời gian**.
 - Các dòng nhật ký được tạo khi gửi một mục thời gian.
 - Chi tiết dòng hóa đơn cho **Thời gian**. 
 
@@ -48,11 +48,11 @@ Sau khi xác định được bảng giá bán hàng, hệ thống sẽ hoàn t�
 
 - Trích dẫn chi tiết dòng cho **Chi phí**.
 - Chi tiết dòng hợp đồng cho **Chi phí**.
-- Dòng dự toán chi phí trên một dự án.
+- Các dòng dự toán chi phí trên một dự án.
 
 Bối cảnh thực tế cho **Chi phí** đề cập đến:
 
-- Nhập và sửa dòng tạp chí cho **Chi phí**.
+- Dòng tạp chí Entry and Correction cho **Chi phí**.
 - Các dòng nhật ký được tạo khi gửi một mục chi phí.
 - Chi tiết dòng hóa đơn cho **Chi phí**. 
 
@@ -79,7 +79,7 @@ Sau khi xác định được bảng giá bán hàng, hệ thống hoàn tất c
 
 - Trích dẫn chi tiết dòng cho **Vật chất**.
 - Chi tiết dòng hợp đồng cho **Vật chất**.
-- Các đường ước tính vật liệu trên một dự án.
+- Các đường dự toán vật liệu trên một công trình.
 
 Bối cảnh thực tế cho **Vật chất** đề cập đến:
 

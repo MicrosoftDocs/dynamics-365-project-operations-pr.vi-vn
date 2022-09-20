@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410197"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475282"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Xác định tỷ lệ chi phí cho các ước tính và thực tế của dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Để xác định bảng giá chi phí và tỷ lệ chi phí trong ước tính và bối cảnh thực tế, hệ thống sử dụng thông tin trong **Ngày**, **tệ**, và **Đơn vị ký kết** các lĩnh vực của dự án liên quan.
+Để xác định tỷ lệ chi phí trên ước tính và thực tế trong Microsoft Dynamics 365 Project Operations, hệ thống đầu tiên sử dụng ngày và đơn vị tiền tệ trong ước tính đến hoặc ngữ cảnh thực tế để xác định bảng giá chi phí. Trong ngữ cảnh thực tế cụ thể, hệ thống sử dụng **Ngày Giao dịch** trường để xác định bảng giá có thể áp dụng. Các **Ngày Giao dịch** giá trị của ước tính đến hoặc thực tế được so sánh với **Bắt đầu hiệu quả (Không phụ thuộc vào múi giờ)** và **Kết thúc có hiệu lực (Không phụ thuộc vào múi giờ)** các giá trị trên bảng giá. Sau khi bảng giá vốn được xác định, hệ thống xác định giá vốn. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Xác định tỷ lệ chi phí trong ước tính và bối cảnh thực tế cho Thời gian
 
@@ -26,16 +26,16 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 - Trích dẫn chi tiết dòng cho **Thời gian**.
 - Chi tiết dòng hợp đồng cho **Thời gian**.
-- Phân công tài nguyên trong một dự án.
+- Phân công tài nguyên trên một dự án.
 
 Bối cảnh thực tế cho **Thời gian** đề cập đến:
 
-- Nhập và sửa dòng tạp chí cho **Thời gian**.
+- Dòng tạp chí Entry and Correction cho **Thời gian**.
 - Các dòng nhật ký được tạo khi gửi một mục thời gian.
 
 Sau khi xác định được bảng giá vốn, hệ thống hoàn thành các bước sau để nhập giá vốn mặc định.
 
-1. Hệ thống phù hợp với sự kết hợp của **Vai diễn** và **Đơn vị cung ứng** các trường trong ngữ cảnh ước tính hoặc thực tế cho **Thời gian** chống lại các đường giá vai trò trên bảng giá. Kết hợp này giả định rằng bạn đang sử dụng các thứ nguyên định giá tiêu chuẩn cho chi phí lao động. Nếu bạn đã định cấu hình hệ thống để khớp với các trường khác với hoặc ngoài **Vai diễn** và **Đơn vị cung ứng**, một tổ hợp khác được sử dụng để truy xuất đường giá phù hợp với vai trò.
+1. Hệ thống phù hợp với sự kết hợp của **Vai diễn** và **Đơn vị cung ứng** các trường trong ngữ cảnh ước tính hoặc thực tế cho **Thời gian** chống lại các đường giá vai trò trên bảng giá. Kết hợp này giả định rằng bạn đang sử dụng các thứ nguyên định giá tiêu chuẩn cho chi phí lao động. Nếu bạn đã định cấu hình hệ thống để khớp với các trường khác với hoặc ngoài **Vai diễn** và **Đơn vị cung ứng**, một tổ hợp khác được sử dụng để truy xuất đường giá vai trò phù hợp.
 1. Nếu hệ thống tìm thấy một đường giá vai trò có tỷ lệ chi phí cho **Vai diễn** và **Đơn vị cung ứng** kết hợp, tỷ lệ chi phí đó được sử dụng làm tỷ lệ chi phí mặc định.
 1. Nếu hệ thống không thể khớp với **Vai diễn** và **Đơn vị cung ứng** giá trị, nó truy xuất các đường giá vai trò có các giá trị phù hợp cho **Vai diễn** trường trừ các giá trị rỗng cho **Đơn vị cung ứng** đồng ruộng. Sau khi hệ thống có một bản ghi giá vai trò phù hợp, tỷ lệ chi phí từ bản ghi đó sẽ được sử dụng làm tỷ lệ chi phí mặc định.
 
@@ -52,7 +52,7 @@ Sau khi xác định được bảng giá vốn, hệ thống hoàn thành các 
 
 Bối cảnh thực tế cho **Chi phí** đề cập đến:
 
-- Nhập và sửa dòng tạp chí cho **Chi phí**.
+- Dòng tạp chí Entry and Correction cho **Chi phí**.
 - Các dòng nhật ký được tạo khi gửi một mục chi phí.
 
 Sau khi xác định được bảng giá vốn, hệ thống hoàn thành các bước sau để nhập giá vốn mặc định.

@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230295"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446062"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nâng cấp từ Tự động hóa dịch vụ dự án lên Vận hành dự án
 
-Chúng tôi vui mừng thông báo giai đoạn đầu tiên trong ba giai đoạn nâng cấp từ Microsoft Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations. Bài viết này cung cấp một cái nhìn tổng quan cho những khách hàng đang dấn thân vào hành trình thú vị này. Các bài viết trong tương lai sẽ bao gồm các cân nhắc của nhà phát triển và thông tin chi tiết về các cải tiến của tính năng. Họ sẽ không chỉ cung cấp hướng dẫn để giúp bạn chuẩn bị cho việc nâng cấp lên Hoạt động dự án mà còn giải thích những gì bạn có thể mong đợi sau khi nâng cấp.
+Chúng tôi vui mừng thông báo giai đoạn đầu tiên trong ba giai đoạn nâng cấp từ Microsoft Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations. Bài viết này cung cấp một cái nhìn tổng quan cho những khách hàng đang dấn thân vào hành trình thú vị này. Các bài viết trong tương lai sẽ bao gồm các cân nhắc của nhà phát triển và chi tiết về các cải tiến của tính năng. Họ sẽ không chỉ cung cấp hướng dẫn để giúp bạn chuẩn bị cho việc nâng cấp lên Hoạt động dự án mà còn giải thích những gì bạn có thể mong đợi sau khi nâng cấp.
 
 Chương trình nâng cấp sẽ được chia thành ba giai đoạn.
 
-| Nâng cấp giao hàng | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
+| Nâng cấp giao hàng | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (tháng 11 năm 2022) | Giai đoạn 3 (Làn sóng tháng 4 năm 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Không phụ thuộc vào cấu trúc phân tích công việc (WBS) cho các dự án | : heavy_check_mark: | : heavy_check_mark: | : heavy_check_mark: |
 | WBS trong giới hạn được hỗ trợ hiện tại của Hoạt động dự án | | : heavy_check_mark: | : heavy_check_mark: |
@@ -39,16 +39,16 @@ Chương trình nâng cấp sẽ được chia thành ba giai đoạn.
 
 Là một phần của quá trình nâng cấp, chúng tôi đã thêm nhật ký nâng cấp vào sơ đồ trang web, để quản trị viên có thể chẩn đoán lỗi dễ dàng hơn. Ngoài giao diện mới, các quy tắc xác thực mới sẽ được thêm vào để đảm bảo tính toàn vẹn của dữ liệu sau khi nâng cấp. Các xác nhận sau sẽ được thêm vào quá trình nâng cấp.
 
-| Xác thực | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
+| Xác thực | Giai đoạn 1 (tháng 1 năm 2022) | Giai đoạn 2 (tháng 11 năm 2022) | Giai đoạn 3  |
 |-------------|------------------------|---------------------------|---------------------------|
-| WBS sẽ được xác thực để chống lại các vi phạm toàn vẹn dữ liệu phổ biến (ví dụ: gán tài nguyên được liên kết với cùng một nhiệm vụ mẹ nhưng có các dự án mẹ khác nhau). | | : heavy_check_mark: | : heavy_check_mark: |
+| WBS sẽ được xác thực chống lại các vi phạm toàn vẹn dữ liệu phổ biến (ví dụ: gán tài nguyên được liên kết với cùng một nhiệm vụ mẹ nhưng có các dự án mẹ khác nhau). | | : heavy_check_mark: | : heavy_check_mark: |
 | WBS sẽ được xác nhận dựa trên [giới hạn đã biết của Dự án cho Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | : heavy_check_mark: | : heavy_check_mark: |
 | WBS sẽ được xác nhận theo các giới hạn đã biết của máy khách Project desktop. | |  | : heavy_check_mark: |
 | Các tài nguyên có thể đặt trước và lịch dự án sẽ được đánh giá dựa trên các ngoại lệ quy tắc lịch không tương thích phổ biến. | | : heavy_check_mark: | : heavy_check_mark: |
 
 Trong giai đoạn 2, những khách hàng nâng cấp lên Hoạt động dự án sẽ được nâng cấp các dự án hiện có của họ lên trải nghiệm chỉ đọc để lập kế hoạch dự án. Trong trải nghiệm chỉ đọc này, WBS đầy đủ sẽ hiển thị trong lưới theo dõi. Để chỉnh sửa WBS, người quản lý dự án có thể chọn **Chuyển thành** trên chính **Dự án** trang. Sau đó, một quy trình nền sẽ cập nhật dự án để nó hỗ trợ trải nghiệm lập lịch dự án mới từ Project cho Web. Giai đoạn này thích hợp cho những khách hàng có dự án phù hợp với [các giới hạn đã biết của Dự án cho Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-Trong giai đoạn 3, hỗ trợ cho máy khách Project desktop sẽ được bổ sung, vì lợi ích của những khách hàng muốn tiếp tục chỉnh sửa dự án của họ từ ứng dụng đó. Tuy nhiên, nếu các dự án hiện có được chuyển đổi sang Dự án mới cho trải nghiệm Web, quyền truy cập vào phần bổ trợ sẽ bị vô hiệu hóa cho mỗi dự án được chuyển đổi.
+Trong giai đoạn 3, hỗ trợ cho máy khách Project desktop sẽ được bổ sung, vì lợi ích của những khách hàng muốn tiếp tục chỉnh sửa dự án của họ từ ứng dụng đó. Tuy nhiên, nếu các dự án hiện có được chuyển đổi thành Dự án mới cho trải nghiệm Web, quyền truy cập vào phần bổ trợ sẽ bị vô hiệu hóa cho mỗi dự án được chuyển đổi.
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
@@ -73,7 +73,7 @@ Dưới đây là một số điều cần chú ý:
 
 - Nhập có thể không thành công vì thiếu phụ thuộc. Nói cách khác, các trường tham chiếu tùy chỉnh hoặc các thành phần khác đã bị loại bỏ trong Hoạt động dự án. Trong trường hợp này, hãy loại bỏ những phụ thuộc này khỏi môi trường phát triển.
 - Nếu các giải pháp không được quản lý và quản lý của bạn bao gồm các thành phần không được tùy chỉnh, hãy xóa các thành phần đó khỏi giải pháp. Ví dụ: khi bạn tùy chỉnh **Dự án** thực thể, chỉ thêm tiêu đề thực thể vào giải pháp của bạn. Đừng thêm tất cả các trường. Nếu trước đó bạn đã thêm tất cả các thành phần con, bạn có thể phải tạo một giải pháp mới theo cách thủ công và thêm các thành phần có liên quan vào nó.
-- Biểu mẫu và chế độ xem có thể không xuất hiện như mong đợi. Trong một số trường hợp, nếu bạn đã tùy chỉnh bất kỳ biểu mẫu hoặc dạng xem có sẵn nào, các tùy chỉnh có thể ngăn các cập nhật mới trong Hoạt động dự án có hiệu lực. Để xác định những vấn đề này, chúng tôi khuyên bạn nên thực hiện đánh giá song song việc cài đặt hoàn thiện Hoạt động dự án và cài đặt Hoạt động dự án bao gồm các tùy chỉnh của bạn. So sánh các biểu mẫu được sử dụng phổ biến nhất trong doanh nghiệp của bạn để xác nhận rằng phiên bản biểu mẫu của bạn vẫn có ý nghĩa và không thiếu điều gì đó từ phiên bản sạch của biểu mẫu. Thực hiện cùng một loại đánh giá song song cho bất kỳ chế độ xem nào mà bạn đã tùy chỉnh.
+- Biểu mẫu và chế độ xem có thể không xuất hiện như mong đợi. Trong một số trường hợp, nếu bạn đã tùy chỉnh bất kỳ biểu mẫu hoặc dạng xem có sẵn nào, các tùy chỉnh có thể ngăn các cập nhật mới trong Hoạt động dự án có hiệu lực. Để xác định những vấn đề này, chúng tôi khuyên bạn nên thực hiện đánh giá song song việc cài đặt hoàn thiện Hoạt động dự án và cài đặt Hoạt động dự án bao gồm các tùy chỉnh của bạn. So sánh các biểu mẫu được sử dụng phổ biến nhất trong doanh nghiệp của bạn để xác nhận rằng phiên bản biểu mẫu của bạn vẫn có ý nghĩa và không thiếu điều gì đó từ phiên bản sạch của biểu mẫu. Thực hiện cùng một loại đánh giá song song cho bất kỳ chế độ xem nào bạn đã tùy chỉnh.
 - Logic nghiệp vụ có thể không thành công trong thời gian chạy. Vì các tham chiếu đến các trường trong trình cắm của bạn không được xác thực tại thời điểm nhập, logic nghiệp vụ có thể không thành công do các tham chiếu đến các trường không còn tồn tại và bạn có thể nhận được thông báo lỗi tương tự như ví dụ sau: "'Dự án" thực thể không chứa thuộc tính Name = 'msdyn_plannedhours' và NameMapping = 'Logical'. " Trong trường hợp này, hãy sửa đổi các tùy chỉnh của bạn để chúng sử dụng các trường mới. Nếu bạn sử dụng các lớp proxy được tạo tự động và các tham chiếu kiểu mạnh trong logic trình cắm của mình, hãy xem xét việc tạo lại các proxy đó từ một bản cài đặt sạch. Bằng cách này, bạn có thể dễ dàng xác định tất cả các vị trí mà trình cắm của bạn phụ thuộc vào các trường không dùng nữa.
 
 Sau khi bạn cập nhật các tùy chỉnh của mình để nhập Hoạt động dự án một cách rõ ràng, hãy chuyển sang các bước tiếp theo.
@@ -97,7 +97,7 @@ Sau khi bạn cập nhật các tùy chỉnh của mình để nhập Hoạt đ�
     
 ### <a name="validate-common-scenarios"></a>Xác thực các tình huống phổ biến
 
-Khi bạn xác thực các tùy chỉnh cụ thể của mình, chúng tôi khuyên bạn cũng nên xem xét các quy trình kinh doanh được hỗ trợ trên các ứng dụng. Các quy trình kinh doanh này bao gồm, nhưng không giới hạn, việc tạo ra các thực thể bán hàng như báo giá và hợp đồng cũng như tạo các dự án bao gồm WBS và phê duyệt các thực tế.
+Khi bạn xác thực các tùy chỉnh cụ thể của mình, chúng tôi khuyên bạn cũng nên xem xét các quy trình kinh doanh được hỗ trợ trên các ứng dụng. Các quy trình kinh doanh này bao gồm, nhưng không giới hạn, việc tạo ra các thực thể bán hàng như báo giá và hợp đồng, cũng như tạo các dự án bao gồm WBS và phê duyệt các thực tế.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Những thay đổi lớn giữa Tự động hóa dịch vụ dự án và Vận hành dự án
 

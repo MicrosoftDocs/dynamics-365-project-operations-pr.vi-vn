@@ -1,68 +1,95 @@
 ---
-title: Giải quyết giá bán cho ước tính và thực tế
-description: Bài viết này cung cấp thông tin về cách giải quyết tỷ lệ bán hàng cho ước tính và thực tế.
+title: Xác định giá bán cho các ước tính và thực tế dựa trên dự án
+description: Bài viết này cung cấp thông tin về cách xác định giá bán cho các ước tính và thực tế dựa trên dự án.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911852"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475396"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Giải quyết giá bán cho ước tính và thực tế
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Xác định giá bán cho các ước tính và thực tế dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Khi giá bán trên ước tính và thực tế được giải quyết trong Dynamics 365 Project Operations, hệ thống trước tiên sử dụng ngày và đơn vị tiền tệ của báo giá dự án hoặc hợp đồng liên quan để giải quyết bảng giá bán hàng. Sau khi giải quyết xong bảng giá bán hàng, hệ thống sẽ giải quyết tỷ giá bán hàng hoặc hóa đơn.
+Để xác định giá bán trên ước tính và thực tế trong Microsoft Dynamics 365 Project Operations, trước tiên hệ thống sử dụng ngày và đơn vị tiền tệ trong ước tính đến hoặc ngữ cảnh thực tế để xác định bảng giá bán hàng. Trong ngữ cảnh thực tế cụ thể, hệ thống sử dụng **Ngày Giao dịch** trường để xác định bảng giá có thể áp dụng. Các **Ngày Giao dịch** giá trị của ước tính đến hoặc thực tế được so sánh với **Bắt đầu hiệu quả (Không phụ thuộc vào múi giờ)** và **Kết thúc có hiệu lực (Không phụ thuộc vào múi giờ)** các giá trị trên bảng giá. Sau khi bảng giá bán hàng được xác định, hệ thống sẽ xác định tỷ lệ bán hàng hoặc hóa đơn.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Giải quyết tỷ lệ bán hàng trên mô tả thực tế và ước tính cho thời gian
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Xác định tỷ lệ bán hàng trên các dòng thực tế và ước tính cho Thời gian
 
-Trong Project Operations, các mô tả ước tính cho thời gian được sử dụng để biểu thị chi tiết mô tả báo giá và mô tả hợp đồng cho thời gian và các phân bổ nguồn lực trong dự án.
+Ước tính ngữ cảnh cho **Thời gian** đề cập đến:
 
-Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất các bước sau để mặc định tỷ giá hóa đơn.
+- Trích dẫn chi tiết dòng cho **Thời gian**.
+- Chi tiết dòng hợp đồng cho **Thời gian**.
+- Phân công tài nguyên trên một dự án.
 
-1. Hệ thống sử dụng các trường **Vai trò**, **Công ty cung cấp nguồn lực** và **Đơn vị cung cấp nguồn lực** trên dòng ước tính cho thời gian, để khớp với các dòng giá vai trò trong bảng giá đã giải quyết. Trùng khớp này giả định rằng các thông số giá có sẵn cho tỷ lệ hóa đơn đang được sử dụng. Nếu bạn đã định cấu hình giá dựa trên bất kỳ trường nào khác thay vì hoặc ngoài **Vai trò**, **Công ty cung cấp nguồn lực** và **Đơn vị cung cấp nguồn lực**, thì đó là sự kết hợp sẽ được sử dụng để truy xuất dòng giá vai trò phù hợp.
-2. Nếu hệ thống tìm thấy một dòng giá vai trò có tỷ lệ thanh toán cho kết hợp trường **Vai trò**, **Công ty cung cấp nguồn lực** và **Đơn vị cung cấp nguồn lực**, sau đó tỷ lệ hóa đơn đó được đặt mặc định.
-3. Nếu hệ thống không thể khớp với các giá trị trường **Vai trò**, **Công ty cung cấp nguồn lực** và **Đơn vị cung cấp nguồn lực**, sau đó hệ thống truy xuất các dòng giá vai trò có vai trò phù hợp nhưng giá trị null của **Đơn vị nguồn lực**. Sau khi tìm thấy một bản ghi giá theo vai trò phù hợp, hệ thống sẽ mặc định tỷ lệ hóa đơn từ bản ghi đó. Giá trị trùng khớp này giả định một cấu hình có sẵn cho mức độ ưu tiên tương đối của **Vai trò** và **Đơn vị nguồn lực** là thông số giá bán hàng.
+Bối cảnh thực tế cho **Thời gian** đề cập đến:
+
+- Dòng tạp chí Entry and Correction cho **Thời gian**.
+- Các dòng nhật ký được tạo khi gửi một mục thời gian.
+- Chi tiết dòng hóa đơn cho **Thời gian**. 
+
+Sau khi xác định được bảng giá bán hàng, hệ thống sẽ hoàn tất các bước sau để nhập giá hóa đơn mặc định.
+
+1. Hệ thống phù hợp với sự kết hợp của **Vai diễn**, **ty cung cấp dịch vụ**, và **Đơn vị cung ứng** các trường trong ngữ cảnh ước tính hoặc thực tế cho **Thời gian** chống lại các đường giá vai trò trên bảng giá. Sự phù hợp này giả định rằng bạn đang sử dụng các thứ nguyên đặt giá ngoài hộp cho giá hóa đơn. Nếu bạn đã định cấu hình giá để nó dựa trên các trường khác ngoài hoặc ngoài **Vai diễn**, **ty cung cấp dịch vụ**, và **Đơn vị cung ứng**, tổ hợp các trường đó được sử dụng để truy xuất đường giá phù hợp với vai trò.
+1. Nếu hệ thống tìm thấy một dòng giá vai trò có tỷ lệ thanh toán cho **Vai diễn**, **ty cung cấp dịch vụ**, và **Đơn vị cung ứng** kết hợp, tỷ giá hóa đơn đó được sử dụng làm tỷ giá hóa đơn mặc định.
 
 > [!NOTE]
-> Nếu bạn đã định cấu hình mức độ ưu tiên khác của **Vai trò**, **Công ty cung cấp nguồn lực** và **Đơn vị cung cấp nguồn lực** hoặc nếu bạn có các thông số khác có mức độ ưu tiên cao hơn, hành vi này sẽ thay đổi tương ứng. Hệ thống truy xuất các bản ghi giá vai trò với các giá trị phù hợp của từng giá trị thông số giá theo thứ tự ưu tiên với các hàng có giá trị rỗng cho các thông số đến sau cùng.
+> Nếu bạn định cấu hình một mức độ ưu tiên khác của **Vai diễn**, **ty cung cấp dịch vụ**, và **Đơn vị cung ứng** hoặc nếu bạn có các thứ nguyên khác có mức độ ưu tiên cao hơn, hành vi trước đó sẽ thay đổi tương ứng. Hệ thống truy xuất bản ghi giá vai trò có giá trị phù hợp với từng giá trị thứ nguyên đặt giá theo thứ tự ưu tiên. Các hàng có giá trị null cho các thứ nguyên đó đứng cuối cùng.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Giải quyết tỷ lệ bán hàng trên mô tả thực tế và ước tính cho chi phí
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Xác định tỷ lệ bán hàng trên các dòng thực tế và ước tính Chi phí
 
-Trong Project Operations, các mô tả ước tính cho chi phí được sử dụng để biểu thị chi tiết mô tả báo giá và mô tả hợp đồng cho chi phí và mô tả ước tính chi phí trong dự án.
+Ước tính ngữ cảnh cho **Chi phí** đề cập đến:
 
-Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất các bước sau để mặc định đơn giá bán.
+- Trích dẫn chi tiết dòng cho **Chi phí**.
+- Chi tiết dòng hợp đồng cho **Chi phí**.
+- Các dòng dự toán chi phí trên một dự án.
 
-1. Hệ thống sử dụng kết hợp trường **Danh mục** và **Đơn vị** trên mô tả ước tính cho chi phí để đối chiếu với mô tả giá theo danh mục trong bảng giá đã giải quyết.
-2. Nếu hệ thống tìm thấy một mô tả giá theo danh mục có tỷ lệ bán hàng cho kết hợp trường **Danh mục** và **Đơn vị**, thì tỷ lệ bán hàng đó sẽ được đặt mặc định.
-3. Nếu hệ thống tìm thấy mô tả giá theo danh mục phù hợp, phương pháp định giá có thể được sử dụng để đặt mặc định giá bán. Bảng sau đây cho thấy hành vi mặc định giá chi phí trong Project Operations.
+Bối cảnh thực tế cho **Chi phí** đề cập đến:
 
-    | Ngữ cảnh | Phương pháp định giá | Giá được đặt mặc định |
+- Dòng tạp chí Entry and Correction cho **Chi phí**.
+- Các dòng nhật ký được tạo khi gửi một mục chi phí.
+- Chi tiết dòng hóa đơn cho **Chi phí**. 
+
+Sau khi xác định được bảng giá bán hàng, hệ thống hoàn tất các bước sau để nhập đơn giá bán hàng mặc định.
+
+1. Hệ thống phù hợp với sự kết hợp của **Loại** và **Đơn vị** các trường trên dòng ước tính cho **Chi phí** so với các dòng giá thể loại trên bảng giá.
+1. Nếu hệ thống tìm thấy dòng giá danh mục có tỷ lệ bán hàng cho **Loại** và **Đơn vị** kết hợp, tỷ lệ bán hàng đó được sử dụng làm tỷ lệ bán hàng mặc định.
+1. Nếu hệ thống tìm thấy đường giá danh mục phù hợp, thì phương pháp đặt giá có thể được sử dụng để nhập giá bán mặc định. Bảng sau đây cho thấy hành vi mặc định đối với giá chi phí trong Hoạt động dự án.
+
+    | Ngữ cảnh | Phương pháp định giá | Giá mặc định |
     | --- | --- | --- |
-    | Ước tính | Đơn giá | Dựa trên mô tả giá theo danh mục |
-    | &nbsp; | Tại mức chi phí | 0.00 |
-    | &nbsp; | Tăng cao hơn chi phí | 0.00 |
-    | Thực tế | Đơn giá | Dựa trên mô tả giá theo danh mục |
-    | &nbsp; | Tại mức chi phí | Dựa trên chi phí thực tế liên quan |
-    | &nbsp; | Tăng cao hơn chi phí | Bằng cách áp dụng mức tăng như được xác định bởi dòng giá danh mục trên tỷ lệ chi phí đơn vị của chi phí thực tế liên quan |
+    | Ước tính | Đơn giá | Dựa trên dòng giá danh mục. |
+    |        | Tại mức chi phí | 0.00 |
+    |        | Tăng cao hơn chi phí | 0.00 |
+    | Thực tế | Đơn giá | Dựa trên dòng giá danh mục. |
+    |        | Tại mức chi phí | Căn cứ vào chi phí thực tế có liên quan. |
+    |        | Tăng cao hơn chi phí | Một đánh dấu được áp dụng, như được xác định bởi đường giá danh mục, cho tỷ lệ chi phí đơn vị của chi phí thực tế có liên quan. |
 
-4. Nếu hệ thống không thể đối chiếu các giá trị trường **Danh mục** và **Đơn vị**, thì tỷ lệ bán hàng được đặt mặc định về không (0).
+1. Nếu hệ thống không thể khớp với **Loại** và **Đơn vị** giá trị, tỷ lệ bán hàng được đặt thành **0** (không) theo mặc định.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Giải quyết tỷ lệ doanh thu trên dòng giá trị thực tế và giá trị ước tính cho vật tư
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Xác định tỷ lệ bán hàng trên các dòng thực tế và ước tính cho Vật liệu
 
-Trong Project Operations, các dòng giá trị ước tính cho vật tư được dùng để biểu thị chi tiết mô tả báo giá và hợp đồng cho vật tư và dòng giá trị ước tính cho vật tư trong dự án.
+Ước tính ngữ cảnh cho **Vật chất** đề cập đến:
 
-Sau khi giải quyết bảng giá bán hàng, hệ thống sẽ hoàn tất các bước sau để mặc định đơn giá bán.
+- Trích dẫn chi tiết dòng cho **Vật chất**.
+- Chi tiết dòng hợp đồng cho **Vật chất**.
+- Các đường dự toán vật liệu trên một công trình.
 
-1. Hệ thống sử dụng kết hợp trường **Sản phẩm** và **Đơn vị** trên dòng ước tính cho vật tư để khớp các dòng hạng mục trong bảng giá trong bảng giá đã được giải quyết.
-2. Nếu hệ thống tìm thấy một dòng hạng mục trong bảng giá có tỷ lệ doanh số cho tổ hợp trường **Sản phẩm** và **Đơn vị** và phương pháp định giá là **Số tiền theo loại tiền**, thì giá bán sẽ được nêu rõ trên dòng bảng giá được sử dụng.
-3. Nếu các giá trị của trường **Sản phẩm** và **Đơn vị** không khớp, thì tỷ lệ doanh số mặc định là 0.
+Bối cảnh thực tế cho **Vật chất** đề cập đến:
 
+- Nhập và sửa dòng tạp chí cho **Vật chất**.
+- Các dòng nhật ký được tạo khi gửi nhật ký sử dụng Nguyên liệu.
+- Chi tiết dòng hóa đơn cho **Vật chất**. 
 
+Sau khi xác định được bảng giá bán hàng, hệ thống hoàn tất các bước sau để nhập đơn giá bán hàng mặc định.
+
+1. Hệ thống phù hợp với sự kết hợp của **Sản phẩm** và **Đơn vị** các trường trên dòng ước tính cho **Vật chất** so với các dòng mục của bảng giá trên bảng giá.
+1. Nếu hệ thống tìm thấy một dòng mục trong danh sách giá có tỷ lệ bán hàng cho **Sản phẩm** và **Đơn vị** kết hợp và nếu phương pháp định giá là **Lượng ngoại tệ**, giá bán được chỉ định trên dòng bảng giá được sử dụng. 
+1. Nếu **Sản phẩm** và **Đơn vị** các giá trị trường không khớp hoặc nếu phương pháp đặt giá khác với **Lượng ngoại tệ**, tỷ lệ bán hàng được đặt thành **0** (không) theo mặc định. Hành vi này xảy ra bởi vì Hoạt động Dự án chỉ hỗ trợ **Lượng ngoại tệ** phương pháp định giá cho các vật liệu được sử dụng trong một dự án.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

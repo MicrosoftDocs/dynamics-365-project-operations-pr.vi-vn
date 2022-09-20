@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925376"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459953"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Các thay đổi về tính năng từ Project Service Automation sang Project Operations
 
-Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations Lite sẽ được phân phối trong ba giai đoạn. Bài viết này cung cấp thông tin về những thay đổi lớn mà bạn có thể thấy khi nâng cấp hoàn tất.
+Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations Lite sẽ được phân phối trong ba giai đoạn. Bài viết này cung cấp thông tin về những thay đổi chính mà bạn có thể thấy khi nâng cấp hoàn tất.
 
-| Nâng cấp giao hàng | Giai đoạn 1 <br>(Tháng 1 năm 2022) | Giai đoạn 2 <br>(Làn sóng tháng 4 năm 2022) | Giai đoạn 3  |
+| Nâng cấp giao hàng | Giai đoạn 1 <br>(Tháng 1 năm 2022) | Giai đoạn 2 <br>(Tháng 11 năm 2022) | Giai đoạn 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Không phụ thuộc vào cấu trúc phân chia công việc (WBS) cho các dự án. | : heavy_check_mark: | : heavy_check_mark: | : heavy_check_mark: |
 | WBS được bao gồm trong các giới hạn được hỗ trợ hiện tại của Hoạt động Dự án. | &nbsp; | : heavy_check_mark: | : heavy_check_mark: |
@@ -35,7 +35,7 @@ Việc nâng cấp từ Dynamics 365 Project Service Automation đến Dynamics 
 
 ## <a name="project-management"></a>Quản lý dự án
 
-Những thay đổi đáng kể nhất trong trải nghiệm người dùng sẽ nằm trong lĩnh vực lập kế hoạch dự án. Hoạt động dự án áp dụng trải nghiệm hiện đại mới để quản lý cấu trúc phân tích công việc (WBS) bằng cách tận dụng các khả năng lập kế hoạch được cung cấp bởi [Dự án cho Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Những thay đổi đáng kể nhất trong trải nghiệm người dùng sẽ nằm trong lĩnh vực lập kế hoạch dự án. Hoạt động dự án áp dụng trải nghiệm hiện đại mới để quản lý cấu trúc phân tích công việc (WBS) bằng cách tận dụng các khả năng lập lịch trình được cung cấp bởi [Dự án cho Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Sự khác biệt trong trải nghiệm lập lịch trình
 
@@ -62,7 +62,7 @@ Bảng sau đây tóm tắt sự khác biệt về lịch trình giữa Tự đ�
 | Bảng xem để phân phối dự án không thác nước  | : heavy_check_mark:   | &nbsp; |
 | Chế độ xem dòng thời gian - Biểu đồ Gantt tương tác được sử dụng để trực quan hóa và chỉnh sửa WBS   | : heavy_check_mark:  | &nbsp; |
 | Phím tắt - Sử dụng phím tắt cho các thao tác phổ biến, chẳng hạn như thụt lề hoặc chèn  | : heavy_check_mark:  |  &nbsp; |
-| Hoàn tác nhiều cấp - Thực hiện phân tích điều gì xảy ra để hiểu đầy đủ tác động của các thay đổi bằng cách đảo ngược và áp dụng lại toàn bộ tập hợp hoạt động | : heavy_check_mark: | &nbsp; |
+| Hoàn tác đa cấp - Thực hiện phân tích điều gì xảy ra để hiểu đầy đủ tác động của các thay đổi bằng cách đảo ngược và áp dụng lại toàn bộ tập hợp các thao tác | : heavy_check_mark: | &nbsp; |
 | Cắt / Sao chép / Dán - Hợp tác phát triển theo lịch trình bằng cách sao chép và dán chi tiết lịch trình giữa các ứng dụng  | : heavy_check_mark: | &nbsp; |
 | Danh sách kiểm tra công việc - Thêm tối đa 20 mục danh sách kiểm tra cho một công việc   | : heavy_check_mark: | &nbsp; |
 
@@ -81,7 +81,7 @@ Các **Dự án** trong Hoạt động Dự án bao gồm các tab mới sau đ�
 - **Ước tính vật liệu**
 - **Thiết lập thanh toán theo tác vụ**
 
-Các **Trạng thái** tab đã bị xóa và **Trạng thái** trường bây giờ là trên **Bản tóm tắt** với chế độ lập lịch của dự án.
+Các **Trạng thái** tab đã bị xóa và **Trạng thái** trường bây giờ là trên **Bản tóm tắt** tab với chế độ lập lịch của dự án.
 
    ![Cập nhật trang Dự án.](media/projectform.png)
 
@@ -127,7 +127,7 @@ Sau khi nâng cấp lên Hoạt động dự án, bạn phải sử dụng API l
 | Bộ chứa Dự án          | msdyn_projectbucket         |
 | Thành viên Nhóm Dự án     | msdyn_projectteam           |
 
-Nếu bạn hiện có các tùy chỉnh liên quan đến các thực thể này, hãy xem [Sử dụng các API lịch trình của Dự án để thực hiện các hoạt động với các thực thể Lập lịch](../project-management/schedule-api-preview.md) để được hướng dẫn thực hiện.
+Nếu bạn hiện có các tùy chỉnh liên quan đến các thực thể này, hãy xem [Sử dụng các API lịch trình Dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu](../project-management/schedule-api-preview.md) để được hướng dẫn thực hiện.
 
 ## <a name="data-model-changes"></a>Thay đổi mô hình dữ liệu
 
@@ -172,9 +172,9 @@ Các trường sau đây đã được thêm vào.
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Thành viên nhóm dự án mà thành viên nhóm dự án này đã được sao chép từ đó. |
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Cho biết có tạo yêu cầu tài nguyên cho một thành viên nhóm chung mới được tạo hay không.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Trạng thái xóa của thành viên trong nhóm để theo dõi xem có một yêu cầu xóa được gửi đến dịch vụ lập lịch Dự án hay không và liệu nó có gửi lại phản hồi thành công trong khoảng thời gian dự kiến hay không. |
+| msdyn_projectteam | msdyn_deletestatus                           | Trạng thái xóa của thành viên trong nhóm để theo dõi nếu có một yêu cầu xóa được gửi đến dịch vụ lập lịch Dự án và liệu nó có gửi phản hồi thành công trong khoảng thời gian dự kiến hay không. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Theo dõi nỗ lực hoàn thành của thành viên trong nhóm trong các nhiệm vụ của họ. |
-| msdyn_projectteam | msdyn_effortremaining                        | Theo dõi nỗ lực chưa hoàn thành của thành viên trong nhóm về các nhiệm vụ của họ. |
+| msdyn_projectteam | msdyn_effortremaining                        | Theo dõi nỗ lực chưa hoàn thành của thành viên trong nhóm về các bài tập của họ. |
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | Khoảng thời gian chờ đợi từ khi thành viên trong nhóm gửi yêu cầu xóa tới dịch vụ lập lịch Dự án cho đến khi thành viên trong nhóm thực sự bị xóa vào Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Dấu thời gian để ghi lại khi yêu cầu xóa thành viên trong nhóm được gửi đến dịch vụ lập lịch dự án. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Hiển thị thành viên nhóm dự án mà thành viên nhóm dự án này đã được sao chép từ đó.  |
@@ -185,7 +185,7 @@ Hoạt động dự án không cung cấp hỗ trợ cho các mẫu dự án. Tu
 
 ## <a name="desktop-add-in-support"></a>Hỗ trợ bổ trợ cho máy tính để bàn
 
-Hỗ trợ cho phần bổ trợ Microsoft Project Desktop sẽ không khả dụng trong 2 giai đoạn đầu tiên của quá trình nâng cấp. Trong Giai đoạn 3, những khách hàng có dự án lớn hơn giới hạn được hỗ trợ hiện tại của Dự án cho Web sẽ có thể sử dụng phần bổ trợ dành cho máy tính để bàn.
+Hỗ trợ cho phần bổ trợ Microsoft Project Desktop sẽ không khả dụng trong 2 giai đoạn đầu tiên của quá trình nâng cấp. Trong Giai đoạn 3, những khách hàng có dự án lớn hơn giới hạn được hỗ trợ hiện tại của Dự án cho Web sẽ có thể sử dụng tiện ích bổ sung dành cho máy tính để bàn.
 
 ## <a name="editing-resource-assignment-contours"></a>Chỉnh sửa đường bao phân công tài nguyên
 
@@ -195,11 +195,11 @@ Khả năng chỉnh sửa đường bao phân bổ tài nguyên sẽ khả dụn
 
 Các tính năng mới sau đây đã được thêm vào Hoạt động Dự án. Các tính năng này có bản chất bổ sung và không ảnh hưởng đến mô hình dữ liệu Tự động hóa dịch vụ dự án.
 
-- [Ghi lại việc sử dụng tài liệu trên các dự án và nhiệm vụ dự án](../material/material-usage-log.md)
+- [Ghi lại việc sử dụng tài liệu cho các dự án và nhiệm vụ dự án](../material/material-usage-log.md)
 - [Quản lý hợp đồng phụ](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Hợp đồng dựa trên tiền tạm ứng và giữ lại](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Hợp đồng không vượt quá trạng thái và xác nhận](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Thanh toán dựa trên nhiệm vụ](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Thanh toán dựa trên công việc](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## <a name="deprecated-components"></a>Các thành phần không được dùng nữa
 

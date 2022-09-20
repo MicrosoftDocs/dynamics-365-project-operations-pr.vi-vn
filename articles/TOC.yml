@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Thay thế bảng giá bán dự án
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Thiết lập Ngày bắt đầu có hiệu lực thay thế cho các mức giá cụ thể trong bảng giá
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Xác định giá vốn cho phần ước tính và thực tế
               href: pricing-costing/cost-price-resolution.md
             - name: Xác định giá bán hàng cho phần ước tính và thực tế
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Đặt mua hàng hóa và dịch vụ cho các dự án sử dụng đơn đặt hàng cho dự án
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Hóa đơn của nhà cung cấp cho các hợp đồng phụ trong Dataverse
+          items:
+            - name: Tạo hóa đơn của nhà cung cấp
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Xác minh các hóa đơn của nhà cung cấp bằng số liệu thực tế đã được phê duyệt
+              href: pro/subcontracting/VI-Verification.md
+            - name: Xác nhận các hóa đơn của nhà cung cấp trong dự án
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Giữ chân nhà cung cấp
           items:
             - name: Tổng quan về giữ chân nhà cung cấp
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Thay thế bảng giá bán dự án
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Thiết lập Ngày bắt đầu có hiệu lực thay thế cho các mức giá cụ thể trong bảng giá
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Xác định giá vốn cho số liệu thực tế và ước tính của dự án
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Xác định giá bán hàng cho số liệu thực tế và ước tính của dự án
