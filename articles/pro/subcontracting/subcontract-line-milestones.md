@@ -2,20 +2,20 @@
 title: Cột mốc mô tả hợp đồng phụ
 description: Bài viết này giải thích cách tạo và duy trì lịch hóa đơn dựa trên cột mốc cho hợp đồng phụ với nhà cung cấp.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261820"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522491"
 ---
 # <a name="subcontract-line-milestones"></a>Cột mốc mô tả hợp đồng phụ
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Trong Dynamics 365 Project Operations, một phần mô tả hợp đồng phụ có phương thức thanh toán giá cố định có thể chỉ định lịch hóa đơn dựa trên cột mốc với nhà cung cấp.
 

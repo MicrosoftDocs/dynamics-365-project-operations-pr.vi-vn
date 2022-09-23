@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029238"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528052"
 ---
 # <a name="expense-management-integration"></a>Tích hợp quản lý chi phí
 
@@ -30,11 +30,11 @@ Khi triển khai toàn bộ chi phí, các danh mục chi phí được tạo v�
 
   ![Tích hợp danh mục chi phí.](./media/DW6ExpenseCategories.png)
 
-Các danh mục chi phí trong ứng dụng tài chính và hoạt động là dành riêng cho công ty hoặc pháp nhân. Có các bản ghi riêng biệt, tương ứng với pháp nhân cụ thể trong Dataverse. Khi người quản lý dự án ước tính chi phí, họ không thể chọn danh mục chi phí được tạo cho một dự án thuộc sở hữu của công ty khác thay cho công ty sở hữu dự án mà họ đang thực hiện. 
+Các danh mục chi phí trong ứng dụng tài chính và hoạt động là dành riêng cho công ty hoặc pháp nhân cụ thể. Có các bản ghi riêng biệt, tương ứng với pháp nhân cụ thể trong Dataverse. Khi người quản lý dự án ước tính chi phí, họ không thể chọn danh mục chi phí được tạo cho một dự án thuộc sở hữu của công ty khác thay cho công ty sở hữu dự án mà họ đang thực hiện. 
 
 ## <a name="expense-reports"></a>Báo cáo chi phí
 
-Báo cáo chi phí được tạo và phê duyệt trong các ứng dụng tài chính và hoạt động. Để biết thêm thông tin, hãy xem [Tạo và xử lý các báo cáo chi phí trong Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Sau khi Người quản lý dự án phê duyệt, báo cáo chi phí sẽ được đăng lên sổ cái. Trong Project Operations, các mô tả báo cáo chi phí liên quan đến dự án được đăng bằng các quy tắc đặc biệt:
+Báo cáo chi phí được tạo và phê duyệt trong các ứng dụng tài chính và hoạt động. Để biết thêm thông tin, hãy xem [Tạo và xử lý các báo cáo chi phí trong Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Sau khi Người quản lý dự án phê duyệt, báo cáo chi phí sẽ được đăng lên sổ cái. Trong Project Operations, các mô tả báo cáo chi phí liên quan đến dự án được đăng bằng các quy tắc đặc biệt:
 
   - Chi phí liên quan đến dự án (bao gồm cả thuế không thu hồi được) không được ghi ngay vào tài khoản chi phí dự án trong sổ cái, mà thay vào đó được đăng vào tài khoản tích hợp chi phí. Tài khoản này được đặt cấu hình trong **Quản lý dự án và kế toán** > **Thiết lập** > **Quản lý dự án và thông số kế toán**, tab **Project Operations trên Dynamics 365 Customer Engagement**.
   - Tính năng ghi kép đồng bộ hóa Dataverse bằng bản đồ bảng **Thực thể xuất chi phí dự án tích hợp trong Project Operations (msdyn\_expenses)**.

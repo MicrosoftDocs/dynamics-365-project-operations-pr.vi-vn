@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918108"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524943"
 ---
 # <a name="approval-sets"></a>Các bộ phê duyệt
 
@@ -35,8 +35,8 @@ Các tập hợp phê duyệt được xử lý thông qua kích hoạt định 
 3. Lựa chọn **Các giải pháp** để liệt kê các giải pháp được cài đặt trong môi trường.
 4. Trong danh sách giải pháp, hãy chọn **Hoạt động dự án**.
 5. Thay đổi bộ lọc từ **Tất cả các** đến **Dòng chảy trên đám mây**.
-6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** lưu lượng được đặt thành **Trên**. Nếu không, hãy chọn luồng, rồi chọn **Bật**.
-7. Xác minh rằng quá trình xử lý diễn ra sau mỗi năm phút bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** khu vực trong Hoạt động dự án của bạn Dataverse Môi trường.
+6. Xác minh rằng **Dịch vụ dự án - Lập kế hoạch định kỳ Bộ phê duyệt dự án** lưu lượng được đặt thành **Trên**. Nếu không, hãy chọn luồng, sau đó chọn **Bật**.
+7. Xác minh rằng quá trình xử lý diễn ra 5 phút một lần bằng cách xem xét **Công việc hệ thống** danh sách trong **Cài đặt** khu vực trong Hoạt động dự án của bạn Dataverse Môi trường.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Mục phê duyệt và bộ phê duyệt không thành công
 Dạng xem **Phê duyệt không thành công** liệt kê tất cả các phê duyệt yêu cầu sự can thiệp của người dùng. Hãy mở nhật ký bộ phê duyệt được liên kết để xác định nguyên nhân của sự thất bại.
@@ -45,14 +45,9 @@ Thao tác chọn **Thử lại** sẽ tăng số lần trong thời gian tồn t
 ## <a name="configure-approval-sets"></a>Đặt cấu hình bộ phê duyệt
 
 ### <a name="enable-the-approval-sets-feature"></a>Bật tính năng Bộ phê duyệt
-Trước khi bạn bật tính năng Bộ phê duyệt, hãy xác minh rằng không có mục phê duyệt nào hiện đang được xử lý.
+Trước khi bạn bật tính năng Bộ phê duyệt, hãy xác minh rằng không có mục phê duyệt nào hiện đang được xử lý. Sau khi tính năng này được kích hoạt, nó không thể bị vô hiệu hóa.
 
 - Chuyển đến trang **Thông số dự án** và chọn **Kiểm soát tính năng** > **Bật phê duyệt hiện đại**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Tắt tính năng Bộ phê duyệt
-Trước khi bạn tắt tính năng Bộ phê duyệt, hãy xác minh rằng không có mục phê duyệt nào hiện đang được xử lý.
-
-- Chuyển đến trang **Thông số dự án** và chọn **Kiểm soát tính năng** > **Tắt phê duyệt hiện đại**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Định cấu hình ngưỡng không đồng bộ 
 Khi các bộ phê duyệt được tạo, quá trình xử lý sẽ chuyển sang nền khi số lượng bản ghi đã chọn để phê duyệt vượt quá ngưỡng được chỉ định. Sử dụng trường **Ngưỡng không đồng thời** để đặt cấu hình khi nào hoạt động xử lý phê duyệt nên chạy đồng bộ hoặc không đồng bộ. Chọn một trong các giá trị sau:

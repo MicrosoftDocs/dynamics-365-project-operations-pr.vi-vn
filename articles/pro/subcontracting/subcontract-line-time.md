@@ -2,20 +2,20 @@
 title: Mô tả hợp đồng phụ cho thời gian
 description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho thời gian và ghi lại việc mua thời gian từ các nhà cung cấp.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262127"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522259"
 ---
 # <a name="subcontract-lines-for-time"></a>Mô tả hợp đồng phụ cho thời gian
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Một hợp đồng phụ trong Dynamics 365 Project Operations có thể có mô tả hợp đồng phụ về thời gian. Các mô tả hợp đồng phụ về thời gian cho phép Người quản lý dự án mua thời gian nguồn lực của nhà cung cấp để sắp xếp nhân viên thực hiện các nhiệm vụ dự án và các yêu cầu về nguồn lực.
 

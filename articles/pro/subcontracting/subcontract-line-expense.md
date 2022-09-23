@@ -2,20 +2,20 @@
 title: Mô tả hợp đồng phụ cho các hạng mục chi phí
 description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho chi phí và sử dụng các trường để ghi lại thời gian mua từ các nhà cung cấp.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261867"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522634"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Mô tả hợp đồng phụ cho các hạng mục chi phí
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Một hợp đồng phụ trong Dynamics 365 Project Operations có thể có một dòng cho các loại chi phí. Mô tả hợp đồng phụ cho các hạng mục chi phí cho phép Người quản lý dự án mua các hạng mục dịch vụ hoặc sản phẩm từ các nhà cung cấp mà họ có thể tính phí cho một dự án.
 

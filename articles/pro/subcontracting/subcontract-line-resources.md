@@ -2,20 +2,20 @@
 title: Nguồn lực mô tả hợp đồng phụ
 description: Bài viết này giải thích cách chỉ định các tài nguyên chuyên dụng được nhà cung cấp cung cấp cho một dòng hợp đồng phụ cụ thể theo thời gian.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261491"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522399"
 ---
 # <a name="subcontract-line-resources"></a>Nguồn lực mô tả hợp đồng phụ
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Trong Dynamics 365 Project Operations, nhà cung cấp có thể chỉ định nguồn lực sẽ được sử dụng để cung cấp năng lực nguồn lực đang được mua trên mô tả hợp đồng phụ cho thời gian.
 

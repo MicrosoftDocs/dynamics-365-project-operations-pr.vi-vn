@@ -2,22 +2,22 @@
 title: Nhật ký tích hợp trong Project Operations
 description: Bài viết này cung cấp thông tin về cách làm việc với tạp chí Tích hợp trong Hoạt động Dự án.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106301"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541104"
 ---
 # <a name="integration-journal-in-project-operations"></a>Nhật ký tích hợp trong Project Operations
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Các mục nhập thời gian, chi phí, phí và vật liệu tạo ra **Thật sự** các giao dịch đại diện cho quan điểm hoạt động của công việc đã hoàn thành so với một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Kế toán viên có thể thực hiện các hoạt động này bằng cách sử dụng **Tích hợp hoạt động dự án** tạp chí (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Tạp chí** > **Tích hợp hoạt động dự án** tạp chí.
+Các mục nhập thời gian, chi phí, phí và vật liệu tạo ra **Thật sự** các giao dịch đại diện cho quan điểm hoạt động của công việc đã hoàn thành so với một dự án. Dynamics 365 Project Operations cung cấp cho nhân viên kế toán một công cụ để đánh giá các giao dịch và điều chỉnh các thuộc tính kế toán khi cần. Sau khi đánh giá và điều chỉnh xong, các giao dịch được đăng lên Sổ cái dự án và Sổ cái. Kế toán có thể thực hiện các hoạt động này bằng cách sử dụng **Tích hợp hoạt động dự án** tạp chí (**Dynamics 365 Finance** > **Quản lý dự án và kế toán** > **Tạp chí** > **Tích hợp hoạt động dự án** tạp chí.
 
 ![Luồng nhật ký tích hợp.](./media/IntegrationJournal.png)
 
@@ -40,9 +40,9 @@ Các dòng nhật ký kế toán được tạo dựa trên giao dịch thực t
   - Trường **Chứng từ** cho thấy số chứng từ của mọi giao dịch thực tế. Dãy số chứng từ được xác định trên tab **Dãy số**, trên trang **Các tham số quản lý dự án và kế toán**. Mỗi dòng được chỉ định một số mới. Sau khi chứng từ được đăng, bạn có thể xem chi phí và giao dịch bán hàng chưa được thanh toán có liên quan như thế nào bằng cách chọn **Chứng từ liên quan** trên trang **Giao dịch chứng từ**.
   - Trường **Thể loại** đại diện cho một giao dịch của dự án và là trường mặc định dựa trên thể loại giao dịch của giao dịch thực tế trong dự án có liên quan.
     - Nếu **Thể loại giao dịch** được đặt trong Giao dịch thực tế của dự án và một **Thể loại dự án** có liên quan tồn tại trong một pháp nhân nhất định, thì thể loại mặc định là thể loại dự án này.
-    - Nếu **Loại giao dịch** không được đặt trong thực tế Dự án, hệ thống sử dụng giá trị trong **Danh mục dự án mặc định** lĩnh vực trên **Hoạt động Dự án trên Dynamics 365 Customer Engagement** tab trên **Quản lý dự án và các thông số kế toán** trang.
+    - Nếu **Loại giao dịch** không được đặt trong Project thực tế, hệ thống sử dụng giá trị trong **Danh mục dự án mặc định** lĩnh vực trên **Hoạt động Dự án trên Dynamics 365 Customer Engagement** tab trên **Quản lý dự án và các thông số kế toán** trang.
   - Trường **Nguồn** đại diện cho nguồn lực dự án liên quan đến giao dịch này. Nguồn lực được dùng làm tham chiếu trong các đề xuất hóa đơn của Dự án cho khách hàng.
-  - Các **Tỷ giá** trường mặc định từ **Tỷ giá hối đoái** được đặt trong Dynamics 365 Finance. Nếu không thiết lập tỷ giá hối đoái, quy trình định kỳ **Nhập từ bảng tách chuyển** sẽ không thêm bản ghi vào nhật ký và một thông báo lỗi sẽ được thêm vào nhật ký thực hiện công việc.
+  - Các **Tỷ giá** trường mặc định từ **Tỷ giá hối đoái** đặt trong Dynamics 365 Finance. Nếu không thiết lập tỷ giá hối đoái, quy trình định kỳ **Nhập từ bảng tách chuyển** sẽ không thêm bản ghi vào nhật ký và một thông báo lỗi sẽ được thêm vào nhật ký thực hiện công việc.
   - Trường **Thuộc tính mô tả** đại diện cho loại hình thanh toán trong các Giao dịch thực tế của dự án. Thuộc tính dòng và ánh xạ loại thanh toán được xác định trên **Hoạt động Dự án trên Dynamics 365 Customer Engagement** tab trên **Quản lý dự án và các thông số kế toán** trang.
 
 Chỉ các thuộc tính kế toán sau mới được cập nhật trong các dòng nhật ký kế toán trên Project Operations:
@@ -58,13 +58,19 @@ Khi bạn đăng Nhật ký tích hợp, một sổ cái phụ của dự án v�
 
 Tạp chí tích hợp Hoạt động Dự án đã chọn có thể được đăng bằng cách sử dụng **Bưu kiện** trên trang tạp chí tích hợp Hoạt động Dự án. Tất cả các tạp chí có thể được đăng tự động bằng cách chạy một quy trình tại **Định kỳ** > **Tích hợp hoạt động dự án** > **Đăng tạp chí tích hợp Hoạt động Dự án**.
 
-Việc đăng có thể được thực hiện tương tác hoặc theo đợt. Lưu ý rằng tất cả các tạp chí có hơn 100 dòng sẽ tự động được đăng trong một đợt. Để có hiệu suất tốt hơn khi các tạp chí có nhiều dòng được đăng trong một đợt, hãy bật **Đăng nhật ký tích hợp Hoạt động Dự án bằng cách sử dụng nhiều nhiệm vụ hàng loạt** tính năng trong **Quản lý tính năng** không gian làm việc. 
+Việc đăng bài có thể được thực hiện tương tác hoặc theo đợt. Lưu ý rằng tất cả các tạp chí có hơn 100 dòng sẽ tự động được đăng trong một đợt. Để có hiệu suất tốt hơn khi các tạp chí có nhiều dòng được đăng trong một đợt, hãy bật **Đăng nhật ký tích hợp Hoạt động Dự án bằng cách sử dụng nhiều nhiệm vụ hàng loạt** tính năng trong **Quản lý tính năng** không gian làm việc. 
 
 #### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Chuyển tất cả các dòng có lỗi đăng sang một tạp chí mới
 
 > [!NOTE]
 > Để sử dụng khả năng này, hãy bật **Chuyển tất cả các dòng có lỗi đăng sang một tạp chí tích hợp Hoạt động Dự án mới** tính năng trong **Quản lý tính năng** không gian làm việc.
 
-Trong quá trình đăng lên tạp chí tích hợp Hoạt động Dự án, hệ thống sẽ xác nhận mọi dòng trong tạp chí. Hệ thống đăng tất cả các dòng không có lỗi và tạo nhật ký mới cho tất cả các dòng có lỗi đăng. Để xem lại các tạp chí có dòng lỗi đăng, hãy truy cập **Quản lý dự án và kế toán** > **Tạp chí** > **Tạp chí tích hợp Hoạt động Dự án** và lọc các tạp chí bằng cách sử dụng **Tạp chí gốc** đồng ruộng.
+Tính năng này giúp cải thiện trải nghiệm với tạp chí tích hợp Hoạt động Dự án. Khi nó được bật, các vấn đề về thời gian ghi kép và các vấn đề thiết lập không còn ngăn các tạp chí hợp lệ được đăng. Trong quá trình đăng lên tạp chí tích hợp Hoạt động Dự án, hệ thống sẽ xác nhận mọi dòng trong tạp chí. Nó đăng tất cả các dòng không có lỗi và tạo một tạp chí mới cho tất cả các dòng có lỗi đăng.
+
+Để xem lại các tạp chí có dòng lỗi đăng, hãy truy cập **Quản lý dự án và kế toán** \> **Tạp chí** \> **Tạp chí tích hợp Hoạt động Dự án** và lọc danh sách các tạp chí bằng cách sử dụng **Tạp chí gốc** đồng ruộng. Hình minh họa sau đây cho thấy một ví dụ trong đó các tạp chí trên **Tạp chí tích hợp Hoạt động Dự án** trang đã được lọc theo cách này.
+
+![Tạp chí gốc hiển thị trên trang tạp chí tích hợp Hoạt động Dự án.](./media/transferLines-originalJournal.png)
+
+Nếu một công việc hàng loạt định kỳ được định cấu hình để đăng tạp chí tích hợp, việc đăng sẽ được thực hiện lại và các tạp chí sẽ được đăng nếu vấn đề về thời gian đã được khắc phục. Mọi tạp chí còn lại nên được điều tra thủ công bằng cách xem lại nhật ký và thực hiện bất kỳ hành động bắt buộc nào.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

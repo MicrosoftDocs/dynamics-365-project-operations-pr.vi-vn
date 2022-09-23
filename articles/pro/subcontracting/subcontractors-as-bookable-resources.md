@@ -2,20 +2,20 @@
 title: Thiết lập nhà thầu phụ làm nguồn lực có thể đặt trước
 description: Bài viết này giải thích cách thiết lập và duy trì tài nguyên nhà thầu phụ được tạo từ người dùng và địa chỉ liên hệ trong hệ thống để chúng có thể được liên kết với hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261350"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522728"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Thiết lập nhà thầu phụ làm nguồn lực có thể đặt trước
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Hãy làm theo các bước sau để thiết lập nhà thầu phụ làm tài nguyên có thể đặt trước trong Microsoft Dynamics 365 Project Operations.
 

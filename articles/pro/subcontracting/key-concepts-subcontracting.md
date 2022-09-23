@@ -2,21 +2,21 @@
 title: Các khái niệm chính trong hợp đồng phụ
 description: Bài viết này giải thích một số khái niệm chính áp dụng cho hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262196"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522775"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Các khái niệm chính trong hợp đồng phụ
 
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 Bài viết giải thích một số khái niệm chính mà bạn nên biết trước khi bắt đầu sử dụng chức năng hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 
