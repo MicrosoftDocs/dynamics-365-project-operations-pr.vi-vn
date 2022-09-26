@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Thu hồi các mục nhập được phê duyệt trước đây
           href: approvals/recall-cancel.md
+        - name: Bảo mật và phê duyệt
+          href: approvals/approvals-security.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
@@ -560,23 +562,25 @@
               href: procurement/vendor-retention-overview.md
             - name: Thiết lập tỷ lệ giữ chân nhà cung cấp
               href: procurement/set-up-vendor-retention.md
+            - name: Trả tiền khi đã nhận được tiền thanh toán
+              href: procurement/Pay-when-paid.md
     - name: Lập hóa đơn
       items:
         - name: Tổng quan về quy trình lập hóa đơn
           href: invoicing/post-project-invoices.md
-        - name: Lập hóa đơn ước giá
+        - name: Lập hóa đơn chiếu lệ
           items:
             - name: Quản lý tồn đọng lập hóa đơn dựa trên dự án
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Quản lý trạng thái không được vượt quá và các mục xác thực
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Hóa đơn ước giá dựa trên dự án
+            - name: Hóa đơn chiếu lệ dựa trên dự án
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Quản lý hóa đơn ước giá dựa trên dự án
+            - name: Quản lý hóa đơn chiếu lệ dựa trên dự án
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Lập hóa đơn khoản đặt cọc hoặc khoản ứng trước
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Xác nhận hóa đơn ước giá dựa trên dự án
+            - name: Xác nhận hóa đơn chiếu lệ dựa trên dự án
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Tạo hóa đơn hiệu chỉnh dựa trên dự án
               href: pro/proforma-invoicing/corrective-invoices-sales.md
@@ -648,7 +652,7 @@
           items:
             - name: 'Lỗi không khớp đơn vị tiền tệ khi tạo dự án, hợp đồng, báo giá hoặc nguồn lực có thể đặt trước'
               href: troubleshooting/project-sales-process/currency-mismatch-error.md
-- name: Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá
+- name: Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn chiếu lệ
   items:
     - name: Bắt đầu
       items:
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Thu hồi các mục nhập được phê duyệt trước đây
           href: approvals/recall-cancel.md
+        - name: Bảo mật và phê duyệt
+          href: approvals/approvals-security.md
         - name: Ghi chú dành cho nhà phát triển
           items:
             - name: Ghi chú dành cho nhà phát triển đối với Phê duyệt
@@ -1122,19 +1128,19 @@
               href: actuals/create-confirm-entry-journals.md
             - name: Tạo và xác nhận Nhật ký sửa chữa
               href: actuals/create-confirm-correction-journals.md
-    - name: Lập hóa đơn ước giá
+    - name: Lập hóa đơn chiếu lệ
       items:
         - name: Quản lý tồn đọng lập hóa đơn dự án
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Quản lý trạng thái không được vượt quá và các mục xác thực
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Hóa đơn ước giá dự án
+        - name: Hóa đơn chiếu lệ theo dự án
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-        - name: Quản lý hóa đơn ước giá dự án
+        - name: Quản lý hóa đơn chiếu lệ theo dự án
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
         - name: Lập hóa đơn khoản đặt cọc hoặc khoản ứng trước
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Xác nhận hóa đơn ước giá dự án
+        - name: Xác nhận hóa đơn chiếu lệ theo dự án
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
         - name: Tạo hóa đơn hiệu chỉnh của dự án
           href: pro/proforma-invoicing/corrective-invoices-sales.md
