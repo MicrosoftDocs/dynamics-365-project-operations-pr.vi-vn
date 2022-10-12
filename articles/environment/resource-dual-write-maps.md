@@ -1,17 +1,17 @@
 ---
 title: Các phiên bản bản đồ ghi kép Project Operations
-description: Bài viết này cung cấp danh sách các bản đồ viết kép cần thiết Dynamics 365 Project Operations.
+description: Bài viết này cung cấp danh sách các bản đồ viết kép được yêu cầu Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112455"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621108"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Các phiên bản bản đồ ghi kép Project Operations
 
@@ -30,7 +30,7 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 | Khách hàng V3 (tài khoản) | Không cần phải cung cấp. |
 | Nhà cung cấp V2 (msdyn_vendors) | Không cần phải cung cấp. |
 
-1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Master để đồng bộ hóa ban đầu** trường, chọn **Ứng dụng tài chính và hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
+1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Chính cho đồng bộ hóa ban đầu** trường, chọn **Ứng dụng tài chính và hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
 
 ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
 
@@ -48,14 +48,14 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho m�
 | Nguồn tài trợ dự án (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Không cần phải cung cấp. ||
 | Bảng tích hợp dự án để ước tính vật liệu (msdyn\_ đường ước tính) | 1.0.0.0 | Không cần phải cung cấp. ||
 | Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. ||
-| Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.14 | Không cần phải cung cấp. ||
+| Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.15 | Không cần phải cung cấp. |10.0.29 trở lên|
 | Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. ||
 | Thực thể tích hợp Project Operations để dự toán chi phí (msdyn_estimatelines) | 1.0.0.2 | Không cần phải cung cấp. ||
 | Thực thể tích hợp Project Operations để ước tính giờ (msdyn_resourceassignments) | 1.0.0.5 | Không cần phải cung cấp. ||
 | Thực thể xuất danh mục chi phí dự án tích hợp của Project Operations (msdyn_expensecategories) | 1.0.0.1 | Không cần phải cung cấp. ||
 | Thực thể xuất chi phí dự án tích hợp của Project Operations (msdyn_expenses) | 1.0.0.3 | Không cần phải cung cấp. ||
-| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Không cần phải cung cấp. |10.0.26 trở lên|
-| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Không cần phải cung cấp. | 10.0.26 trở lên |
+| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | Không cần phải cung cấp. |10.0.29 trở lên|
+| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Không cần phải cung cấp. | 10.0.29 trở lên |
 | Vai trò nguồn lực dự án cho tất cả các công ty (bookableresourcecategories) | 1.0.0.1 | Yêu cầu đồng bộ hóa ban đầu cho sơ đồ bảng để đồng bộ hóa vai trò nguồn lực của Người quản lý dự án và thành viên Nhóm được điền trong môi trường Dynamics 365 Dataverse trong quá trình cung cấp. Dataverse là nguồn chính cho quá trình đồng bộ hóa ban đầu. ||
 | Nhiệm vụ dự án (msdyn_projecttasks) | 1.0.0.4 | Không cần phải cung cấp. ||
 | Danh mục giao dịch dự án (msdyn_transactioncategories) | 1.0.0.0 | Không cần phải cung cấp. ||

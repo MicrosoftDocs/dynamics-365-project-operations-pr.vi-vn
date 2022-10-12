@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Có gì mới
       items:
-        - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-aug-2022-resource-based.md
-        - name: Lưu trữ
+        - name: Tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Lưu trữ
           items:
+            - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Có gì mới
       items:
-        - name: Tính năng mới kể từ tháng 8 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-aug-2022-lite.md
-        - name: Lưu trữ
+        - name: Tính năng mới kể từ tháng 9 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Lưu trữ
           items:
+            - name: Tính năng mới kể từ tháng 8 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Tính năng mới kể từ tháng 7 năm 2022 – triển khai bản đơn giản
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Tính năng mới kể từ tháng 6 năm 2022 – triển khai bản đơn giản
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Có gì mới
       items:
-        - name: Tính năng mới kể từ tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Lưu trữ
+        - name: Tính năng mới kể từ tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Lưu trữ
           items:
+            - name: Tính năng mới kể từ tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Tính năng mới kể từ tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Tính năng mới kể từ tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
@@ -1436,6 +1442,10 @@
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Tính năng mới hoặc điểm thay đổi trong Bản phát hành cập nhật 43, V3'
