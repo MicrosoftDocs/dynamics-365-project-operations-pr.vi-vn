@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Tính năng mới hoặc điểm thay đổi trong Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Nâng cấp Project Service Automation (phiên bản ứng dụng Project Operations bản đơn giản 4.x)
+      items:
+        - name: Nâng cấp từ Project Service Automation lên Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Các thay đổi về tính năng từ Project Service Automation sang Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Quy trình chuyển đổi lên lịch dự án từ Project Service Automation sang Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Hoạch định việc triển khai của bạn (phiên bản ứng dụng 3.x)
       items:
         - name: Cài đặt dữ liệu mẫu
