@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621373"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634832"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Có gì mới vào tháng 9 năm 2022 - Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho
 
@@ -34,7 +34,8 @@ Bài viết này áp dụng cho các thành phần và phiên bản sau của Mi
 | Thời gian và Chi phí | **Người phê duyệt toàn cầu**<br>Tính năng này cho phép nhà cung cấp phần mềm độc lập (ISV) và phê duyệt tập trung, bất kể trạng thái của dự án hoặc thành viên nhóm trong dự án. | [Bảo mật và phê duyệt](/dynamics365/project-operations/approvals/approvals-security) |
 | Quản lý chi phí | **Khả năng đăng trách nhiệm pháp lý chi phí bằng đơn vị tiền tệ của nhà cung cấp**<br>Tính năng này cho phép đăng báo cáo chi phí bằng đơn vị tiền tệ của nhà cung cấp cho phương thức thanh toán bằng tiền mặt. | [Khả năng đăng trách nhiệm pháp lý chi phí bằng đơn vị tiền tệ của nhà cung cấp](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Mua sắm dự án | **Thanh toán khi thanh toán của nhà cung cấp đã thanh toán**<br>Tính năng này cho phép sử dụng tính năng Thanh toán khi được thanh toán (PWP) với các môi trường không phải của Hoạt động dự án. Nó cho phép các khoản thanh toán của nhà cung cấp bị chặn / giữ lại, dựa trên các điều khoản lưu giữ, cho đến khi nhận được khoản thanh toán từ khách hàng. | [Thanh toán khi thanh toán của nhà cung cấp đã thanh toán](/dynamics365/project-operations/procurement/pay-when-paid) |
-| Mua sắm dự án | **Yêu cầu mua dự án**<br>Tính năng này cho phép người dùng tạo đơn đặt hàng liên quan đến dự án trong các pháp nhân hợp pháp có bật Hoạt động dự án trên Dynamics 365 Customer Engagement tích hợp. Đơn đặt hàng mua dự án có thể được sử dụng để ghi lại hoạt động mua sắm vật tư không tồn kho đối với dự án của nhân vật bộ phận Mua sắm. Đơn đặt hàng mua dự án sẽ không được đồng bộ hóa với Dataverse. Tuy nhiên, bạn có thể sử dụng một thực thể ảo để hiển thị các dòng lệnh mua Dự án trong Dataverse để biết thông tin người quản lý dự án. Chi phí hóa đơn nhà cung cấp liên quan đến dự án được tích hợp với thực thể Thực tế dự án trong Dataverse. Chi phí dự án được ghi vào sổ cái phụ của Dự án bằng cách sử dụng tạp chí Tích hợp Hoạt động Dự án. | |
+| Mua sắm dự án | **Yêu cầu mua dự án**<br>Tính năng này cho phép người dùng tạo các đơn đặt hàng liên quan đến dự án trong các pháp nhân nơi Hoạt động dự án trên Dynamics 365 Customer Engagement tích hợp được bật. Đơn đặt hàng mua dự án có thể được sử dụng để ghi lại hoạt động mua sắm vật tư không tồn kho đối với dự án của nhân vật bộ phận Mua sắm. Đơn đặt hàng mua dự án sẽ không được đồng bộ hóa với Dataverse. Tuy nhiên, bạn có thể sử dụng một thực thể ảo để hiển thị các dòng lệnh mua Dự án trong Dataverse để biết thông tin người quản lý dự án. Chi phí hóa đơn nhà cung cấp liên quan đến dự án được tích hợp với thực thể Thực tế dự án trong Dataverse. Chi phí dự án được ghi vào sổ cái phụ của Dự án bằng cách sử dụng tạp chí Tích hợp Hoạt động Dự án. | |
+|Hoạch định và theo dõi dự án|**Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu** </br> </br>API chỉnh sửa đường bao phân công tài nguyên cho phép các nhà phát triển chỉ định theo chương trình nỗ lực của người được giao nhiệm vụ trong bất kỳ phạm vi ngày nào được hỗ trợ để lập kế hoạch nỗ lực theo từng giai đoạn thời gian chi tiết hơn.|[Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Cập nhật về bản đồ ghi kép của Project Operations
 
@@ -48,7 +49,7 @@ Bảng sau đây cho thấy các bản đồ viết kép đã được sửa đ�
 
 Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse giải pháp và phiên bản giải pháp Tài chính. Một số tính năng và khả năng có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu bạn đã tùy chỉnh sơ đồ bảng ngoài hộp, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của Hướng dẫn khắc phục sự cố ghi kép.
+Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) phần của hướng dẫn khắc phục sự cố ghi kép.
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
@@ -66,11 +67,11 @@ Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hư�
 
 ### <a name="project-management-and-accounting-in-finance"></a>Quản lý dự án và kế toán trong lĩnh vực tài chính
 
-Để biết thông tin về các bản sửa lỗi có trong bản cập nhật này, hãy đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời và xem [KB bài báo](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+Để biết thông tin về các bản sửa lỗi có trong bản cập nhật này, hãy đăng nhập vào Microsoft Dynamics Dịch vụ Vòng đời và xem [KB bài viết](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ## <a name="features-turned-on-by-default-in-upcoming-release"></a>Các tính năng được bật theo mặc định trong bản phát hành sắp tới
 
-Bảng sau liệt kê các tính năng được bật theo mặc định trong phiên bản 10.0.30. Hầu hết các tính năng đã được tự động bật có thể được tắt trong [Quản lý tính năng](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Trong tương lai, một số tính năng đã được bật tự động có thể bị xóa khỏi Quản lý tính năng và trở thành tính năng bắt buộc. Thay đổi này đảm bảo rằng khách hàng đang sử dụng chức năng hiện tại, để các cải tiến có thể xây dựng dựa trên chức năng hiện tại khi chúng được thêm vào. Các tính năng sẽ không bao giờ được bật tự động trong vòng chưa đầy một năm, trừ khi chúng được xác định là cần thiết.
+Bảng sau liệt kê các tính năng được bật theo mặc định trong phiên bản 10.0.30. Hầu hết các tính năng đã được bật tự động có thể được tắt trong [Quản lý tính năng](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Trong tương lai, một số tính năng đã được bật tự động có thể bị xóa khỏi Quản lý tính năng và trở thành tính năng bắt buộc. Thay đổi này đảm bảo rằng khách hàng đang sử dụng chức năng hiện tại, để các cải tiến có thể xây dựng dựa trên chức năng hiện tại khi chúng được thêm vào. Các tính năng sẽ không bao giờ được bật tự động trong vòng chưa đầy một năm, trừ khi chúng được xác định là cần thiết.
 
 | Tên tính năng | Ngày kích hoạt | Đã thêm tính năng | Trạng thái tính năng | Mô-đun |
 | --- | --- | --- |--- |--- |

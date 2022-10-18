@@ -1,9 +1,9 @@
 ---
-title: Các thay đổi về tính năng của Tự động hóa dịch vụ dự án sang Hoạt động dự án
+title: Tự động hóa dịch vụ dự án sang hoạt động dự án quy trình chuyển đổi lập kế hoạch dự án
 description: Bài viết này cung cấp tổng quan về các thay đổi tính năng đối với Microsoft Dynamics 365 Project Service Automation đến Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621364"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642595"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Các thay đổi về tính năng của Tự động hóa dịch vụ dự án sang Hoạt động dự án
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Tự động hóa dịch vụ dự án sang hoạt động dự án quy trình chuyển đổi lập kế hoạch dự án
 
 Sau khi một dự án đã được nâng cấp thành công từ Microsoft Dynamics 365 Project Service Automation 3.X đến Dynamics 365 Project Operations Lite, không thể chỉnh sửa các tác vụ dự án trong cấu trúc phân tích công việc của lưới tác vụ (WBS). Khách hàng sẽ có thể xem lại các WBS trong lưới theo dõi nơi các trường mới đã được thêm vào để cung cấp tất cả các chi tiết liên quan đến nhiệm vụ. Đối với các dự án yêu cầu chỉnh sửa WBS, bạn có thể chuyển đổi một cách chọn lọc các dự án đủ điều kiện sang Dự án mới để có trải nghiệm lập lịch trình web.
 
@@ -84,4 +84,4 @@ Nhìn thấy [Tạo cấu trúc phân tích công việc: Hạn chế của dự
 
 ### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Tôi có thể mong đợi những thay đổi đối với ước tính chi phí và doanh số bán hàng của mình không?
 
-Trong một số trường hợp hiếm hoi, các đường bao phân bổ tài nguyên được tính toán lại hoặc khi chúng nằm trong ranh giới ngày khác với dự án nguồn, bạn có thể thấy sự khác biệt về doanh số và ước tính chi phí. Là một phần của quá trình nâng cấp, khách hàng phải kiểm tra một bộ dự án mẫu đại diện để họ có thể hiểu được bất kỳ sự thay đổi lịch trình tiềm năng nào.
+Trong một số trường hợp hiếm hoi, khi đường bao phân bổ tài nguyên được tính toán lại hoặc khi chúng nằm trong ranh giới ngày khác với dự án nguồn, bạn có thể thấy sự khác biệt về doanh số bán hàng và ước tính chi phí. Là một phần của quá trình nâng cấp, khách hàng phải kiểm tra một bộ dự án mẫu đại diện để họ có thể hiểu được bất kỳ thay đổi lịch trình tiềm năng nào.

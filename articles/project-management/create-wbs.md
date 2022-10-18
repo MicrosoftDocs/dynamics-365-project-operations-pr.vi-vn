@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932092"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655215"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tạo cấu trúc phân tích công việc (WBS)
 
@@ -63,7 +63,7 @@ Khi được thụt lề, một nhiệm vụ sẽ trở thành một nhiệm v�
 
 ### <a name="move-tasks-up-and-down"></a>Di chuyển nhiệm vụ lên và xuống
 
-Có thể chuyển nhiệm vụ đến bất kỳ cấp nào trong cấu trúc phân tích công việc theo một trong hai cách:
+Nhiệm vụ có thể được chuyển đến bất kỳ cấp độ nào trong cấu trúc phân tích công việc theo một trong hai cách:
 
 - Chọn thêm một nhiệm vụ và kéo đến vị trí mong muốn.
 - Chọn một hoặc nhiều nhiệm vụ, nhấp chuột phải và chọn **Cắt**, chọn ô đích trong lịch trình, sau đó bấm chuột phải và chọn **Dán**.
@@ -112,6 +112,18 @@ Trường **Thể loại** giữ giá trị cho biết loại công việc rộn
 Bạn có thể sử dụng lịch trình trong Project Operations để tạo mối quan hệ tiếp trước giữa các nhiệm vụ. Trường **Tiếp trước** dùng một hoặc nhiều giá trị cho biết các nhiệm vụ mà một nhiệm vụ phụ thuộc vào. Khi các giá trị tiếp trước được gán cho một nhiệm vụ, thì nhiệm vụ chỉ có thể bắt đầu sau khi tất cả các nhiệm vụ tiếp trước được hoàn thành. Do sự phụ thuộc, ngày bắt đầu nhiệm vụ theo kế hoạch được đặt lại thành ngày các nhiệm vụ tiếp trước được hoàn thành.
 
 Chế độ nhiệm vụ không ảnh hưởng đến các thông tin cập nhật được thực hiện với ngày bắt đầu và ngày kết thúc của nhiệm vụ tiếp trước/phụ thuộc.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Hiểu tác động của thời lượng, lịch tài nguyên và lịch dự án đối với nhiệm vụ
+Thời lượng của nhiệm vụ được định nghĩa là số giờ làm việc giữa thời gian bắt đầu của ngày bắt đầu và thời gian kết thúc của ngày kết thúc nhiệm vụ.   Dự án cho web xác định các đơn vị đo thời lượng như sau:
+
+| **Đo lường thời lượng** | **Số lượng**|
+|----------------------------------------------------|----------------------|
+| Giờ mỗi ngày | 8 |
+| Giờ mỗi tuần |  40 |
+| Số ngày mỗi tháng |  20 |
+
+Các nhiệm vụ chưa được giao được lên lịch bằng cách sử dụng lịch của dự án. Tuy nhiên, khi chỉ định tài nguyên ban đầu, việc lập lịch của một nhiệm vụ được cập nhật để nó tuân theo lịch của tài nguyên. Những thay đổi tiếp theo đối với một nhiệm vụ có sự phân công sẽ được điều chỉnh bởi [chế độ lập lịch trình](scheduling-modes.md) của dự án. Để tìm hiểu thêm về ảnh hưởng của lịch đối với công việc, hãy xem [Lịch tài nguyên trong Dự án cho web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) và [Thời gian bắt đầu tác vụ và dự án của bạn!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Trợ năng và phím tắt
 
