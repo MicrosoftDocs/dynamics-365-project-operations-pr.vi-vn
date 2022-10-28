@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525417"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709424"
 ---
 # <a name="security-and-approvals"></a>Bảo mật và phê duyệt
 
@@ -33,6 +33,6 @@ Bạn phải có **Người phê duyệt dự án** vai trò bảo mật để p
 > [!NOTE]
 > Các [Bộ phê duyệt](approval-sets.md) tính năng này phải được bật trước khi bạn có thể sử dụng chức năng Quản trị viên trình duyệt dự án.
 
-Các **Quản trị viên người phê duyệt dự án** vai trò bảo mật cho phép người dùng bỏ qua các chính sách và cho phép phê duyệt các mục nhập trên tất cả các dự án. Việc chỉ định vai trò này sẽ bỏ qua logic xác thực yêu cầu tư cách thành viên nhóm và được đánh dấu là người phê duyệt. Bạn phải có quyền truy cập vào các thực thể liên quan có liên quan, chẳng hạn như **Dự án**. Quyền truy cập đó có thể được chỉ định bởi người có **Quản lý dự án** vai diễn.
+Các **Quản trị viên người phê duyệt dự án** vai trò bảo mật cho phép người dùng bỏ qua các chính sách và cho phép phê duyệt các mục nhập trên tất cả các dự án. Việc chỉ định vai trò này sẽ bỏ qua logic xác thực yêu cầu tư cách thành viên nhóm và được đánh dấu là người phê duyệt. Bạn phải có quyền truy cập vào các bảng liên quan có liên quan, chẳng hạn như **Dự án**, thông qua các vai trò bảo mật được chỉ định cho bạn.
 
 Ngữ cảnh người dùng SYSTEM bỏ qua xác thực theo cách giống như Quản trị viên trình duyệt dự án vai trò bảo mật.

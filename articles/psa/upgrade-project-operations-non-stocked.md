@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9687002"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709471"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nâng cấp từ Project Service Automation lên Project Operations
 
@@ -70,7 +70,7 @@ Các điều kiện tiên quyết cho Giai đoạn 3 sẽ được cập nhật 
 
 ## <a name="licensing"></a>Cấp phép
 
-Nếu bạn có giấy phép hoạt động cho Tự động hóa dịch vụ dự án, bạn có thể cài đặt và sử dụng Hoạt động dự án, bao gồm tất cả các khả năng của Tự động hóa dịch vụ dự án và hơn thế nữa. Sau đó, bạn có thể kiểm tra khả năng của Hoạt động dự án trong một môi trường riêng biệt trong khi bạn tiếp tục sử dụng Tự động hóa dịch vụ dự án trong sản xuất. Sau khi giấy phép Tự động hóa Dịch vụ Dự án của bạn hết hạn, bạn sẽ phải chuyển sang Hoạt động Dự án. Khi lập kế hoạch chuyển đổi này, bạn phải tính đến thực tế là giấy phép Hoạt động Dự án không bao gồm giấy phép Tự động hóa Dịch vụ Dự án.
+Nếu bạn có giấy phép hoạt động cho Tự động hóa dịch vụ dự án, bạn có thể cài đặt và sử dụng Hoạt động dự án, bao gồm tất cả các khả năng của Tự động hóa dịch vụ dự án và hơn thế nữa. Bằng cách này, bạn có thể kiểm tra khả năng của Hoạt động dự án trong khi bạn tiếp tục sử dụng Tự động hóa dịch vụ dự án trong sản xuất. Sau khi giấy phép Tự động hóa Dịch vụ Dự án của bạn hết hạn, bạn sẽ phải chuyển sang Hoạt động Dự án. Khi lập kế hoạch chuyển đổi này, bạn phải tính đến thực tế là giấy phép Hoạt động Dự án không bao gồm giấy phép Tự động hóa Dịch vụ Dự án. Những khách hàng có tình huống họ đã triển khai Tự động hóa dịch vụ dự án và cần tiếp tục sử dụng hoặc tăng giấy phép cho PSA trong khi họ định chuyển sang Hoạt động dự án, có thể yêu cầu giấy phép PSA tạm thời dựa trên giấy phép Hoạt động dự án đã mua. Một giấy phép Tự động hóa Dịch vụ Dự án sẽ được cấp cho một giấy phép Hoạt động Dự án. Giấy phép PSA tạm thời có thể được yêu cầu bằng cách sử dụng liên kết này: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Kiểm tra và cấu trúc lại các tùy chỉnh
 
@@ -81,7 +81,7 @@ Dưới đây là một số điều cần chú ý:
 - Nhập có thể không thành công vì thiếu phụ thuộc. Nói cách khác, các trường tham chiếu tùy chỉnh hoặc các thành phần khác đã bị loại bỏ trong Hoạt động dự án. Trong trường hợp này, hãy loại bỏ những phụ thuộc này khỏi môi trường phát triển.
 - Nếu các giải pháp không được quản lý và quản lý của bạn bao gồm các thành phần không được tùy chỉnh, hãy xóa các thành phần đó khỏi giải pháp. Ví dụ: khi bạn tùy chỉnh **Dự án** thực thể, chỉ thêm tiêu đề thực thể vào giải pháp của bạn. Đừng thêm tất cả các trường. Nếu trước đây bạn đã thêm tất cả các thành phần con, bạn có thể phải tạo một giải pháp mới theo cách thủ công và thêm các thành phần có liên quan vào nó.
 - Biểu mẫu và chế độ xem có thể không xuất hiện như mong đợi. Trong một số trường hợp, nếu bạn đã tùy chỉnh bất kỳ biểu mẫu hoặc chế độ xem có sẵn nào, các tùy chỉnh có thể ngăn các cập nhật mới trong Hoạt động dự án có hiệu lực. Để xác định những vấn đề này, chúng tôi khuyên bạn nên thực hiện đánh giá song song việc cài đặt hoàn thiện Hoạt động dự án và cài đặt Hoạt động dự án bao gồm các tùy chỉnh của bạn. So sánh các biểu mẫu được sử dụng phổ biến nhất trong doanh nghiệp của bạn để xác nhận rằng phiên bản biểu mẫu của bạn vẫn có ý nghĩa và không thiếu điều gì đó từ phiên bản sạch của biểu mẫu. Thực hiện cùng một loại đánh giá song song cho bất kỳ chế độ xem nào mà bạn đã tùy chỉnh.
-- Logic nghiệp vụ có thể không thành công trong thời gian chạy. Vì các tham chiếu đến các trường trong trình cắm của bạn không được xác thực tại thời điểm nhập, logic nghiệp vụ có thể không thành công do các tham chiếu đến các trường không còn tồn tại và bạn có thể nhận được thông báo lỗi tương tự như ví dụ sau: "'Dự án' thực thể không chứa thuộc tính Name = 'msdyn_plannedhours' và NameMapping = 'Logical'. " Trong trường hợp này, hãy sửa đổi các tùy chỉnh của bạn để chúng sử dụng các trường mới. Nếu bạn sử dụng các lớp proxy được tạo tự động và các tham chiếu kiểu mạnh trong logic trình cắm của mình, hãy xem xét việc tạo lại các proxy đó từ một bản cài đặt sạch. Bằng cách này, bạn có thể dễ dàng xác định tất cả các vị trí mà trình cắm của bạn phụ thuộc vào các trường không dùng nữa.
+- Logic nghiệp vụ có thể không thành công trong thời gian chạy. Vì các tham chiếu đến các trường trong trình cắm của bạn không được xác thực tại thời điểm nhập, logic nghiệp vụ có thể không thành công do các tham chiếu đến các trường không còn tồn tại và bạn có thể nhận được thông báo lỗi tương tự như ví dụ sau: "'Dự án" thực thể không chứa thuộc tính Name = 'msdyn_plannedhours' và NameMapping = 'Logical'. " Trong trường hợp này, hãy sửa đổi các tùy chỉnh của bạn để chúng sử dụng các trường mới. Nếu bạn sử dụng các lớp proxy được tạo tự động và các tham chiếu kiểu mạnh trong logic trình cắm của mình, hãy xem xét việc tạo lại các proxy đó từ một bản cài đặt sạch. Bằng cách này, bạn có thể dễ dàng xác định tất cả các vị trí mà trình cắm của bạn phụ thuộc vào các trường không dùng nữa.
 
 Sau khi bạn cập nhật các tùy chỉnh của mình để nhập Hoạt động dự án một cách rõ ràng, hãy chuyển sang các bước tiếp theo.
 
