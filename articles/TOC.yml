@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Làm cách nào để tùy chỉnh dòng quy trình công việc ở Các giai đoạn dự án?
               href: psa/FAQ-customize-bpf.md
-            - name: Nội dung cần cân nhắc khi nâng cấp đối với cấu trúc phân tích công việc
-              href: psa/upgrade-considerations-tasks.md
         - name: Sách trắng
           href: psa/white-papers.md
         - name: Hướng dẫn cho quản trị viên
