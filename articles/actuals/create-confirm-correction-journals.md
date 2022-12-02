@@ -1,6 +1,6 @@
 ---
 title: Tạo và xác nhận nhật ký Chỉnh sửa
-description: Bài viết này cung cấp thông tin về cách tạo và xác nhận một nhật ký sửa chữa.
+description: Bài viết này cung cấp thông tin về cách tạo và xác nhận nhật ký chỉnh sửa.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928090"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Đôi khi, mục nhập thời gian hoặc chi phí có thể được nhập không chính xác. Ví dụ, một nhà tư vấn có thể chọn sai ngày khi họ tạo mục nhập thời gian hoặc họ có thể chọn sai dự án khi nhập chi phí. Nếu một nhà tư vấn không thể cập nhật các mục đã gửi, một quản trị viên phụ có thể trực tiếp sửa các thông số kỹ thuật cho một dự án.
+Đôi khi, một mục nhập thời gian hoặc chi phí có thể bị nhập sai. Ví dụ: tư vấn viên có thể chọn sai ngày khi tạo mục nhập thời gian hoặc họ có thể chọn nhầm dự án khi nhập một khoản chi phí. Nếu tư vấn viên không thể cập nhật các mục nhập đã gửi, một quản trị viên phụ trợ có thể trực tiếp chỉnh sửa các số liệu thực tế cho một dự án.
 
 ## <a name="correct-approved-time-entries"></a>Chỉnh sửa mục nhập thời gian đã phê duyệt     
 
@@ -73,30 +73,30 @@ Hoàn thành các bước sau để chỉnh sửa một hoặc nhiều mục nh�
 
 6. Nếu các giá trị chỉnh sửa xuất hiện như mong đợi, hãy chọn **Xác nhận**. Trong hộp thoại, hãy chọn **OK.** Nếu các giá trị không hiển thị như mong đợi, hãy chọn **Hủy** để quay lại danh sách **Chi phí Đã phê duyệt**. Lặp lại các bước từ 2 đến 5. 
 
-7. Sau khi bạn xác nhận nhật ký sửa chữa, hãy quay lại dự án hoặc các dự án mà bạn đã cập nhật để xem các thay đổi của bạn.
+7. Sau khi bạn xác nhận nhật ký chỉnh sửa, hãy trở lại dự án hoặc các dự án mà bạn đã cập nhật để xem các thay đổi mà bạn đã thực hiện.
 
-8. Trên trang dự án, trên **Thực tế** tab, xem lại **Chế độ xem được liên kết thực tế** danh sách. Các mục nhập ban đầu và mục nhập đã chỉnh sửa đều được liệt kê.
+8. Trên trang dự án, trên tab **Dữ liệu thực tế**, hãy xem lại danh sách **Dạng xem Liên kết Thực tế**. Các mục nhập ban đầu và mục nhập đã chỉnh sửa đều được liệt kê.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Chính xác nhật ký sử dụng vật liệu đã được phê duyệt
+## <a name="correct-approved-material-usage-logs"></a>Sửa nhật ký sử dụng vật tư đã phê duyệt
 
-Hoàn thành các bước sau để sửa một hoặc nhiều mục nhật ký sử dụng vật liệu.
+Hoàn thành các bước sau để chỉnh sửa một hoặc nhiều mục nhập nhật ký sử dụng vật tư.
 
-1. Bên trong **Việc bán hàng** khu vực, trong ngăn điều hướng bên trái, bên dưới **Giao dịch**, lựa chọn **Thực tế**.
+1. Trong vùng **Bán hàng**, trong ngăn điều hướng bên trái, trong phần **Giao dịch**, hãy chọn **Thực tế**.
 
-2. Bên trong **Thực tế** danh sách, sử dụng bộ lọc cột để chọn **Vật chất** lớp giao dịch, để chỉ hiển thị các hướng dẫn thực tế cho vật liệu. Sử dụng các bộ lọc cột khác để hạn chế hơn nữa các thực tế được hiển thị. Sau khi bạn có thể tìm thấy tập hợp các hành động mong muốn, hãy chọn các hành động đó, sau đó chọn **Các mục nhập chính xác**. Một nhật ký sửa chữa mới được tạo tự động và **Hiệu chỉnh vật liệu** loại được chỉ định.
+2. Trong danh sách **Thực tế**, sử dụng bộ lọc cột để chọn lớp giao dịch **Vật tư** sao cho chỉ các số liệu thực tế cho vật tư được hiển thị. Sử dụng các bộ lọc cột khác để hạn chế hơn nữa các số liệu thực tế được hiển thị. Sau khi bạn có thể tìm thấy bộ các số liệu thực tế mong muốn, hãy chọn số liệu thực tế, sau đó chọn **Sửa mục nhập**. Hệ thống tự động tạo một nhật ký chỉnh sửa mới và loại **Chỉnh sửa vật tư** được chỉ định.
 
-3. Trên **Tạp chí Mới** trang, trong **Sự mô tả**, hãy nhập mô tả cho việc sửa chữa. Sau đó, trên **Hiệu chỉnh vật liệu** tab, trong **Giá trị mới cho vật liệu**, chọn các trường dữ liệu để sửa cho các dòng nguyên liệu đã chọn. Ví dụ: bạn có thể chỉ định vật liệu cho một dự án khác, hoặc sửa sản phẩm, ngày vật liệu hoặc hợp đồng phụ.
+3. Trên trang **Nhật ký mới**, trong trường **Mô tả**, nhập mô tả của nhật ký để chỉnh sửa. Sau đó, trên tab **Chỉnh sửa vật tư**, trong phần **Giá trị mới cho vật tư**, chọn các trường dữ liệu để sửa cho các mô tả vật tư đã chọn. Ví dụ: bạn có thể chỉ định vật tư cho một dự án khác hoặc sửa sản phẩm, ngày vật tư hoặc hợp đồng phụ.
 
-4. Chọn **Xem trước**. Sau đó, trong hộp thoại, hãy chọn **ĐƯỢC RỒI**.
+4. Chọn **Xem trước**. Sau đó, trong hộp thoại, hãy chọn **OK**.
 
-5. Trên **Dòng nhật ký** tab, xác minh các sửa chữa. Bạn có thể xem danh sách các thao tác ban đầu có liên quan đến các mục nhập vật liệu đã chọn đã được đảo ngược và các dòng tương ứng đã được chỉnh sửa đã được tạo.
+5. Trên tab **Dòng nhật ký kế toán**, xác minh các chi tiết chỉnh sửa. Bạn có thể xem danh sách dữ liệu thực tế ban đầu có liên quan đến các mục nhập vật tư bạn chọn đã bị hủy bỏ và các dòng tương ứng đã chỉnh sửa được tạo.
 
-6. Nếu các giá trị chỉnh sửa xuất hiện như mong đợi, hãy chọn **Xác nhận**. Sau đó, trong hộp thoại, hãy chọn **ĐƯỢC RỒI**. Nếu các giá trị không như mong đợi, hãy chọn **Hủy bỏ** để trở lại **Thực tế** danh sách. Sau đó lặp lại các bước từ 2 đến 5.
+6. Nếu các giá trị chỉnh sửa xuất hiện như mong đợi, hãy chọn **Xác nhận**. Sau đó, trong hộp thoại, hãy chọn **OK**. Nếu các giá trị không hiển thị như mong đợi, hãy chọn **Hủy** để quay lại danh sách **Thực tế**. Sau đó, lặp lại các bước từ 2 đến 5.
 
-7. Sau khi bạn xác nhận nhật ký sửa chữa, hãy quay lại dự án hoặc các dự án mà bạn đã cập nhật để xem các thay đổi của bạn.
+7. Sau khi bạn xác nhận nhật ký chỉnh sửa, hãy trở lại dự án hoặc các dự án mà bạn đã cập nhật để xem các thay đổi mà bạn đã thực hiện.
 
-8. Trên trang dự án, trên **Thực tế** tab, xem lại **Chế độ xem được liên kết thực tế** danh sách. Các mục nhập ban đầu và mục nhập đã chỉnh sửa đều được liệt kê.
+8. Trên trang dự án, trên tab **Dữ liệu thực tế**, hãy xem lại danh sách **Dạng xem Liên kết Thực tế**. Các mục nhập ban đầu và mục nhập đã chỉnh sửa đều được liệt kê.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

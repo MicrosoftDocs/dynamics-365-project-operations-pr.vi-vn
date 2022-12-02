@@ -1,6 +1,6 @@
 ---
 title: Trang chủ về nguồn lực dự án
-description: Bài viết này cung cấp thông tin về nguồn cung ứng dự án.
+description: Bài viết này cung cấp thông tin về nguồn lực dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924042"
 
 [!include [banner](../includes/banner.md)]
 
-Bài viết này cung cấp thông tin về nguồn cung ứng dự án.
+Bài viết này cung cấp thông tin về nguồn lực dự án.
 
-Một thách thức đối với các nhà quản lý dự án và quản lý nguồn lực trong giai đoạn lập kế hoạch dự án là phân bổ nguồn lực, nơi họ phải xác định và dành nguồn lực chính xác để làm việc trong một dự án. Trong Dynamics 365 Finance, khả năng nguồn lực cho các dự án cho phép bạn xác định các vai trò được coi là tài nguyên tạm thời có thể được dành riêng cho một cam kết cụ thể hoặc một phần của một cam kết. Loại nguồn lực này cho phép các nhà quản lý dự án và quản lý nguồn lực hoàn thành các nhiệm vụ sau:
+Một thách thức đối với các nhà quản lý dự án và quản lý nguồn lực trong giai đoạn lập kế hoạch dự án là phân bổ nguồn lực, nơi họ phải xác định và dành nguồn lực chính xác để làm việc trong một dự án. Trong Dynamics 365 Finance, khả năng cung ứng nguồn lực cho dự án cho phép bạn xác định các vai trò được coi là nguồn lực tạm thời có thể được dành cho một hoạt động thuê cụ thể hoặc một phần của hoạt động thuê đó. Loại nguồn lực này cho phép các nhà quản lý dự án và quản lý nguồn lực hoàn thành các nhiệm vụ sau:
 
 - Xác định vai trò có các năng lực cần thiết để dễ dàng khớp các nguồn lực.
 - Sử dụng các vai trò để xác định lịch trình tham gia ban đầu dựa trên các nguồn lực dành riêng.

@@ -1,6 +1,6 @@
 ---
 title: Quản lý nhiều khách hàng trên một báo giá dự án
-description: Bài viết này cung cấp thông tin về cách làm việc với các báo giá liên quan đến nhiều khách hàng sẽ tài trợ cho dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc trên các báo giá liên quan đến nhiều khách hàng sẽ tài trợ cho dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

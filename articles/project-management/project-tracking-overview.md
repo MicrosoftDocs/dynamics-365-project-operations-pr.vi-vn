@@ -1,6 +1,6 @@
 ---
 title: Theo dõi công số dự án
-description: Bài viết này cung cấp thông tin về cách theo dõi nỗ lực của dự án và tiến độ công việc.
+description: Bài viết này cung cấp thông tin về cách theo dõi công số dự án và tiến độ công việc.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929286"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Bài viết này chỉ ra cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
+Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Bài viết này cho biết cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
 
 ## <a name="effort-tracking-view"></a>Dạng xem theo dõi nhân công
 
@@ -45,8 +45,8 @@ Có thể lên kế hoạch lại nhân công cho các nhiệm vụ tóm tắt h
 - EAC mới trên mỗi nhiệm vụ riêng xuống các nhiệm vụ nút lá được tính toán. 
 - Các nhiệm vụ con bị ảnh hưởng xuống các nút lá có công số còn lại và tỷ lệ phần trăm tiến trình được tính toán lại dựa trên giá trị EAC. Điều này dẫn đến dự kiến mới cho chênh lệch nhân công của nhiệm vụ. 
 - EAC của nhiệm vụ tóm tắt đến các nút gốc được tính toán lại.
-- Nỗ lực đã được phê duyệt đối với một nhiệm vụ tóm tắt là tổng nỗ lực đã được phê duyệt đối với tất cả các nhiệm vụ con cộng với nỗ lực đã được phê duyệt đối với nhiệm vụ tóm tắt.
-- Nỗ lực còn lại đối với nhiệm vụ tóm tắt là tổng nỗ lực còn lại trên tất cả các nhiệm vụ con trừ đi nỗ lực đã được phê duyệt đối với nhiệm vụ tóm tắt.
+- Nỗ lực đã phê duyệt trên một nhiệm vụ tóm tắt là tổng nỗ lực đã phê duyệt trên tất cả các nhiệm vụ con cộng với nỗ lực đã phê duyệt trên nhiệm vụ tóm tắt.
+- Nỗ lực còn lại một nhiệm vụ tóm tắt là tổng nỗ lực còn lại trên tất cả các nhiệm vụ con trừ đi nỗ lực đã phê duyệt trên nhiệm vụ tóm tắt.
 
 ## <a name="project-status-summary"></a>Tóm tắt trạng thái dự án
 

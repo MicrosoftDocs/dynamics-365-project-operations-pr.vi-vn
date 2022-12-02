@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về quy trình lập hóa đơn
-description: Bài viết này cung cấp tổng quan về quy trình lập hóa đơn trong Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có hàng.
+description: Bài viết này trình bày tổng quan về quy trình lập hóa đơn trong Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations cho tình huống dựa trên nguồn lực/hàng không nh�
 
 ![Sơ đồ quy trình lập hóa đơn.](./media/invoicing-flow.png)
 
-Mô tả hợp đồng dự án xác định phương thức thanh toán cho các giao dịch dự án liên kết. Khi người quản lý Dự án phê duyệt các giao dịch thời gian và chi phí, hệ thống sẽ ghi lại các giao dịch trong **Thực tế dự án** thực thể và gửi thông tin đến **Quản lý dự án và kế toán** mô-đun trong Dynamics 365 Finance. Sau đó, kế toán dự án sẽ xem xét và đăng các hồ sơ bằng cách sử dụng [nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Nhật ký này bao gồm các chi tiết kế toán quan trọng cho thực tế dự án, chẳng hạn như thanh toán, nhóm thuế bán hàng, nhóm thuế bán hàng của mặt hàng thanh toán và các thông số tài chính.
+Mô tả hợp đồng dự án xác định phương thức thanh toán cho các giao dịch dự án liên kết. Khi người quản lý Dự án phê duyệt các giao dịch thời gian và chi phí, hệ thống sẽ ghi lại các giao dịch vào thực thể **Thực tế dự án** và gửi thông tin đến mô-đun **Quản lý dự án và kế toán** trong Dynamics 365 Finance. Sau đó, kế toán dự án sẽ xem xét và đăng các hồ sơ bằng cách sử dụng [nhật ký Tích hợp Project Operations](../project-accounting/project-operations-integration-journal.md). Nhật ký này bao gồm các chi tiết kế toán quan trọng cho thực tế dự án, chẳng hạn như thanh toán, nhóm thuế bán hàng, nhóm thuế bán hàng của mặt hàng thanh toán và các thông số tài chính.
 
 Người quản lý dự án có thể xem xét các giao dịch bán hàng chưa lập hóa đơn bằng cách dùng phương pháp thanh toán theo thời gian và vật tư trong [Tồn đọng lập hóa đơn thời gian và tài liệu](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) và phương pháp thanh toán giá theo cố định trong [Mốc giá cố định](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Các dạng xem này cho phép bạn lọc và chọn các giao dịch cần có trong chu kỳ thanh toán tiếp theo và sau đó đánh dấu chúng là **Đã sẵn sàng để lập hóa đơn**.
 

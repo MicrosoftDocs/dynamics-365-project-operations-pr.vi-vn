@@ -70,7 +70,7 @@ Khi mô hình cộng tác nhóm Office phát triển, chức năng sẽ được
 
 Để biết thêm thông tin, hãy xem [Bảo mật trong Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Hoạt động dự án và Microsoft Dynamics 365 Bảo mật tài chính
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations và bảo mật Microsoft Microsoft Dynamics 365 Finance
 Project Operations bao gồm các vai trò sau:
 
 - Người quản lý dự án

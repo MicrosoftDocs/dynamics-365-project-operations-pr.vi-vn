@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình hoạt động kế toán cho dự án có thể tính phí
-description: Bài viết này cung cấp thông tin về các tùy chọn kế toán cho các dự án có thể lập hóa đơn.
+description: Bài viết này cung cấp thông tin về các tùy chọn kế toán cho những dự án có thể lập hóa đơn.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

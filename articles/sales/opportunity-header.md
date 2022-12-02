@@ -1,6 +1,6 @@
 ---
 title: Tiêu đề/tóm tắt Cơ hội
-description: Bài viết này cung cấp thông tin về các giao dịch dựa trên dự án và các dòng cơ hội dựa trên dự án.
+description: Bài viết này cung cấp thông tin về các thỏa thuận dựa trên dự án và mô tả cơ hội dựa trên dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

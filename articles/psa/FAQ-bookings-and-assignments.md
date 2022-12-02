@@ -1,6 +1,6 @@
 ---
 title: Đặt lịch nguồn lực và các họ liên kết với phân công nhiệm vụ
-description: Bài viết này cung cấp thông tin về cách quản lý các tài nguyên đã đặt tên, đặt trước tài nguyên và phân công nhiệm vụ cũng như cách chúng liên quan với nhau.
+description: Bài viết này cung cấp thông tin về cách quản lý nguồn lực được đặt tên, đặt lịch nguồn lực và phân công nhiệm vụ cũng như cách chúng liên quan đến nhau.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

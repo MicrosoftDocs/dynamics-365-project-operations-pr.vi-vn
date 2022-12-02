@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới kể từ tháng 11 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 11 năm 2020 của triển khai Project Operations Lite - đối phó với lập hóa đơn chiếu lệ.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations Lite tháng 11 năm 2020 - từ thỏa thuận đến lập hóa đơn ước giá.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

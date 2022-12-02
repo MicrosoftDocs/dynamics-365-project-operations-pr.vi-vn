@@ -1,6 +1,6 @@
 ---
 title: Giá danh mục sản phẩm
-description: Bài viết này cung cấp thông tin về cách hoạt động của định giá danh mục sản phẩm trong Dynamics 365 Project Service Automation (PSA).
+description: Bài viết này cung cấp thông tin về cách giá danh mục sản phẩm hoạt động trong Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

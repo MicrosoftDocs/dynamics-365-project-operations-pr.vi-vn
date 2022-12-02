@@ -1,6 +1,6 @@
 ---
 title: Mô tả cơ hội dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về các đường cơ hội dựa trên dự án. (Dự án)
+description: Bài viết này cung cấp thông tin về mô tả cơ hội dựa trên dự án. (Dự án)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

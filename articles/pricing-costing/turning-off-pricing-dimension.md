@@ -1,6 +1,6 @@
 ---
 title: Tắt thông số định giá
-description: Bài viết này cung cấp thông tin về cách tắt thứ nguyên đặt giá.
+description: Bài viết này cung cấp thông tin về cách tắt thông số định giá.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

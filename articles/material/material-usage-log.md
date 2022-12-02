@@ -1,6 +1,6 @@
 ---
 title: Ghi lại hoạt động sử dụng vật tư của dự án và nhiệm vụ dự án
-description: Bài viết này cung cấp thông tin về cách ghi nhật ký sử dụng vật liệu đối với các dự án và nhiệm vụ dự án.
+description: Bài viết này cung cấp thông tin về cách ghi nhật ký sử dụng vật tư đối với dự án và nhiệm vụ của dự án.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

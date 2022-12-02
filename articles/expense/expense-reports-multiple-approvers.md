@@ -1,6 +1,6 @@
 ---
 title: Báo cáo chi phí và nhiều người phê duyệt
-description: Bài viết này cung cấp thông tin về các báo cáo chi phí cần có sự chấp thuận của nhiều người.
+description: Bài viết này cung cấp thông tin về các báo cáo chi phí cần hai người trở lên phê duyệt.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

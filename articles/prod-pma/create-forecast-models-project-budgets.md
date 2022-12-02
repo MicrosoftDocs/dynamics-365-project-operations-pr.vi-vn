@@ -1,6 +1,6 @@
 ---
 title: Tạo mô hình dự báo cho ngân sách dự án
-description: Bài viết này mô tả cách tạo mô hình dự báo cho các ngân sách còn lại.
+description: Bài viết này mô tả cách tạo mô hình dự báo cho ngân sách còn lại.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916728"
 
 [!include [banner](../includes/banner.md)]
 
-Bài viết này mô tả cách tạo mô hình dự báo cho các ngân sách còn lại. Một dự án được kiểm soát ngân sách sẽ sử dụng hai loại ngân sách: ngân sách ban đầu và ngân sách còn lại. Khi tạo ngân sách dự án, bạn phải chỉ định mô hình dự báo ngân sách ban đầu và ngân sách còn lại đã được tạo ở trang **Mô hình dự báo**. Ngân sách dự án dựa trên mô hình đã chỉ định sẽ được tạo khi bạn cam kết ngân sách dự án.
+Bài viết này mô tả cách tạo mô hình dự báo cho ngân sách còn lại. Một dự án được kiểm soát ngân sách sẽ sử dụng hai loại ngân sách: ngân sách ban đầu và ngân sách còn lại. Khi tạo ngân sách dự án, bạn phải chỉ định mô hình dự báo ngân sách ban đầu và ngân sách còn lại đã được tạo ở trang **Mô hình dự báo**. Ngân sách dự án dựa trên mô hình đã chỉ định sẽ được tạo khi bạn cam kết ngân sách dự án.
 
 > [!NOTE]
 > Mô hình dự báo dùng để kiểm soát ngân sách không được có mô hình con và không được dùng làm mô hình con.

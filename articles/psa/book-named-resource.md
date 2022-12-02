@@ -1,6 +1,6 @@
 ---
 title: Đặt nguồn lực có tên từ yêu cầu nguồn lực
-description: Bài viết này cung cấp thông tin về đặt chỗ các tài nguyên có tên cho một yêu cầu tài nguyên chung.
+description: Bài viết này cung cấp thông tin về đặt lịch nguồn lực có tên cho một yêu cầu nguồn lực chung.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

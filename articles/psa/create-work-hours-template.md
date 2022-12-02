@@ -1,6 +1,6 @@
 ---
 title: Tạo mẫu giờ làm việc
-description: Bài viết này mô tả cách tạo mẫu giờ làm việc trong Dịch vụ Dự án.
+description: Bài viết này mô tả cách tạo mẫu giờ làm việc trong Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

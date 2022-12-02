@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới kể từ tháng 12 năm 2020 – triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 12 năm 2020 của triển khai Project Operations Lite - đối phó với lập hóa đơn chiếu lệ.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations Lite tháng 12 năm 2020 - từ thỏa thuận đến lập hóa đơn ước giá.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924088"
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.5.0.134 
 

@@ -1,6 +1,6 @@
 ---
-title: Có gì mới vào tháng 4 năm 2022 - Triển khai Project Operations Lite
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 4 năm 2022 của Microsoft Dynamics 365 Project Operations triển khai lite.
+title: Tính năng mới kể từ tháng 4 năm 2022 – Triển khai Project Operations bản đơn giản
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Microsoft Dynamics 365 Project Operations phát hành vào tháng 4 năm 2022.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -14,25 +14,25 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927492"
 ---
-# <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Có gì mới vào tháng 4 năm 2022 - Triển khai Project Operations Lite
+# <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Tính năng mới kể từ tháng 4 năm 2022 – Triển khai Project Operations bản đơn giản
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này áp dụng cho các thành phần và phiên bản sau của Microsoft Dynamics 365 Project Operations:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Microsoft Dynamics 365 Project Operations:
 
-- Hoạt động dự án trong một Dataverse phiên bản môi trường 4.41.0.45
+- Project Operations trong môi trường Dataverse phiên bản 4.41.0.45
 
 ## <a name="quality-updates"></a>Bản cập nhật chất lượng
 
 | Lĩnh vực tính năng | Số tham chiếu | Cập nhật chất lượng |
 | --- | --- | --- |
-| Thời gian và chi phí | 2573900 | Các **Phê duyệt hiện đại** tính năng phải được bật theo mặc định. |
-| Định giá và thanh toán | 2603313 | Đã sửa lỗi bản ghi trùng lặp ngăn dòng báo giá và hợp đồng có sản phẩm được thêm vào. |
-| Triển khai và cấu hình | 2611368 | Khách hàng phải có thể thêm tối đa năm thực thể tùy chỉnh vào giải pháp bằng cách sử dụng trình thiết kế ứng dụng hiện đại. |
-| Thời gian và chi phí | 2628285 | Đã khắc phục sự cố ảnh hưởng đến khả năng đặt danh mục tài nguyên chính xác trong quá trình nhập mục nhập thời gian. |
-|   Quản lý cơ hội| 2628815 | Cập nhật giới hạn ký tự của mô tả chi tiết dòng trích dẫn để khớp với giới hạn ký tự của chủ đề nhiệm vụ, để quá trình nhập thành công đối với các nhiệm vụ có chủ đề dài hơn 100 ký tự. |
-| Thời gian và chi phí| 2629547 | Các **Gửi bởi** lĩnh vực phê duyệt dự án phải trỏ đến người dùng đã gửi hồ sơ. |
-| Thời gian và chi phí| 2629865 | Các **Sao chép danh mục** trường trên các nhiệm vụ khi các dự án được sao chép. |
+| Thời gian và chi phí | 2573900 | Tính năng **Phê duyệt hiện đại** phải được bật theo mặc định. |
+| Định giá và thanh toán | 2603313 | Đã sửa lỗi bản ghi trùng lặp ngăn mô tả báo giá và hợp đồng có sản phẩm được thêm vào. |
+| Đợt triển khai và Cấu hình | 2611368 | Khách hàng phải có thể thêm tối đa năm thực thể tùy chỉnh vào giải pháp bằng cách sử dụng công cụ thiết kế ứng dụng hiện đại. |
+| Thời gian và chi phí | 2628285 | Đã khắc phục sự cố ảnh hưởng đến khả năng đặt danh mục nguồn lực chính xác trong quá trình nhập mục nhập thời gian. |
+|   Quản lý cơ hội| 2628815 | Cập nhật giới hạn ký tự của mô tả chi tiết dòng báo giá để khớp với giới hạn ký tự của chủ đề nhiệm vụ, sao cho quá trình nhập thành công đối với các nhiệm vụ trong đó chủ đề dài hơn 100 ký tự. |
+| Thời gian và chi phí| 2629547 | Trường **Người gửi** trong các phê duyệt dự án phải trỏ đến người dùng đã gửi bản ghi. |
+| Thời gian và chi phí| 2629865 | Trường **Sao chép danh mục** trên các nhiệm vụ khi dự án được sao chép. |
 | Thời gian và chi phí| 2636463 | Đã sửa các bộ lọc về phê duyệt trong các biểu mẫu phê duyệt hiện đại. |
 | Hoạch định và theo dõi dự án | 2648300 | Đã khắc phục sự cố ngăn không cho thay đổi chủ sở hữu dự án. |
-| Định giá và thanh toán | 2563000 | Không được phép sử dụng các dòng nhật ký cho giao dịch bán chưa lập hóa đơn mà đơn vị tiền tệ khác với đơn vị tiền tệ của hợp đồng. |
+| Định giá và thanh toán | 2563000 | Dòng nhật ký kế toán cho doanh thu chưa lập hóa đơn trong đó đơn vị tiền tệ khác với đơn vị tiền tệ hợp đồng phải không được cho phép. |

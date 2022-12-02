@@ -1,6 +1,6 @@
 ---
 title: Giao dịch kinh doanh
-description: Bài báo này cung cấp thông tin về các giao dịch kinh doanh.
+description: Bài viết này cung cấp thông tin về các giao dịch kinh doanh.
 author: rumant
 ms.custom:
 - dyn365-projectservice

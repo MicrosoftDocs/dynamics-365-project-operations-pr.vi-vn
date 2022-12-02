@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về ghi nhận doanh thu
-description: Bài viết này cung cấp thông tin về việc ghi nhận doanh thu trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về ghi nhận doanh thu trong Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926296"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Trong Dynamics 365 Project Operations, các nguyên tắc ghi nhận doanh thu sẽ khác nhau theo phương thức thanh toán đã chọn cho dự án hoặc theo tỷ lệ dự án. Bài viết này cung cấp thông tin về việc ghi nhận doanh thu trong Hoạt động Dự án.
+Trong Dynamics 365 Project Operations, các nguyên tắc ghi nhận doanh thu sẽ khác nhau theo phương thức thanh toán đã chọn cho dự án hoặc theo tỷ lệ dự án. Bài viết này cung cấp thông tin về ghi nhận doanh thu trong Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Kế toán giao dịch bằng phương pháp thanh toán theo thời gian và vật tư
 

@@ -1,6 +1,6 @@
 ---
 title: Đóng cơ hội
-description: Bài viết này cung cấp thông tin về việc đóng một cơ hội dự án.
+description: Bài viết này cung cấp thông tin về cách đóng cơ hội dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Xác định kỹ năng và độ thành thạo
-description: Bài viết này cung cấp thông tin về cách thiết lập mô hình thành thạo để xếp hạng tài nguyên.
+description: Bài viết này cung cấp thông tin về cách thiết lập mô hình mức độ thành thạo để đánh giá các nguồn lực.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

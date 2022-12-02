@@ -1,6 +1,6 @@
 ---
 title: Hủy kích hoạt bảng giá
-description: Bài viết này giải thích cách hủy kích hoạt hoặc xóa các bảng giá cũ hoặc không được sử dụng.
+description: Bài viết này giải thích cách hủy kích hoạt hoặc loại bỏ các bảng giá cũ hoặc không dùng đến.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

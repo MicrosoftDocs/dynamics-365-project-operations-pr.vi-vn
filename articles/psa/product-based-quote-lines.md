@@ -1,6 +1,6 @@
 ---
 title: Mô tả báo giá dựa trên sản phẩm
-description: Bài viết này cung cấp thông tin về các dòng báo giá dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về mô tả báo giá dựa trên sản phẩm.
 author: rumant
 ms.custom:
 - dyn365-projectservice

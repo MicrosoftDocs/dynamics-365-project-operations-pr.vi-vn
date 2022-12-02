@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về chi phí
-description: Bài viết này cung cấp thông tin về chức năng Chi phí trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về chức năng Chi phí trong Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Nhập giá trị ước tính cho một dự án vào mục mô tả báo giá dự án
-description: Bài viết này cung cấp thông tin về cách nhập ước tính từ một dự án vào dòng báo giá dự án.
+description: Bài viết này cung cấp thông tin về cách nhập giá trị ước tính từ một dự án vào mục mô tả báo giá dự án.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

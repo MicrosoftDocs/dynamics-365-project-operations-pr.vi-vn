@@ -1,6 +1,6 @@
 ---
 title: Thêm trường tùy chỉnh theo yêu cầu vào thực thể giao dịch và thiết lập giá
-description: Bài viết này cung cấp thông tin về cách thêm các tham chiếu trường tùy chỉnh bắt buộc vào các thực thể cũng như các biểu mẫu và dạng xem.
+description: Bài viết này cung cấp thông tin về cách thêm các thêm trường tùy chỉnh bắt buộc vào các thực thể cũng như biểu mẫu và dạng xem.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926066"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh để được sử dụng làm thứ nguyên đặt giá](create-custom-fields-entities-pricing-dimensions.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này. 
+Bài viết này giả định rằng bạn đã hoàn tất các quy trình trong bài viết, [Tạo trường và thực thể tùy chỉnh để được sử dụng là kích thước giá](create-custom-fields-entities-pricing-dimensions.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại bài viết này. 
 
-Trong bài viết này, các thủ tục sẽ chỉ cho bạn cách thêm các tham chiếu trường tùy chỉnh bắt buộc vào các thực thể và vào các phần tử giao diện người dùng (UI) như biểu mẫu và dạng xem.
+Trong bài viết này, các quy trình sẽ hiển thị cho bạn cách thêm tham chiếu trường tùy chỉnh bắt buộc vào các thực thể và vào các thành phần giao diện người dùng (UI) như biểu mẫu và dạng xem.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Thêm các trường kích thước giá tùy chỉnh 
 Sau khi các trường và thực thể tùy chỉnh được tạo, bước tiếp theo là thiết lập giá và thực thể giao dịch với sự cân nhắc đến bất kỳ thực thể tùy chỉnh hay bộ tùy chọn nào bằng cách tạo các trường tham chiếu. Tùy thuộc vào việc danh sách kích thước giá bao gồm các kích thước của bộ tùy chỉnh hay kích thước thực thể hay cả hai, chỉ làm theo các bước trong **Kích thước giá tùy chỉnh dựa trên bộ tùy chọn** hoặc **Kích thước giá tùy chỉnh dựa trên thực thể** hoặc cả hai.

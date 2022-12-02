@@ -1,6 +1,6 @@
 ---
 title: Phân công nhiệm vụ và nhóm dự án cho nguồn lực có thể đặt lịch chung
-description: Bài viết này cung cấp thông tin về cách đặt tài nguyên chung cho các nhiệm vụ và nhóm dự án.
+description: Bài viết này cung cấp thông tin về cách đặt nguồn lực chung cho nhóm dự án và nhiệm vụ.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

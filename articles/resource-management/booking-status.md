@@ -1,6 +1,6 @@
 ---
 title: Trạng thái đặt trước
-description: Bài viết này cung cấp liên kết đến thông tin về cách thiết lập trạng thái đặt chỗ cho Hoạt động dự án.
+description: Bài viết này cung cấp đường liên kết đến thông tin về cách thiết lập trạng thái đăng ký dành cho Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

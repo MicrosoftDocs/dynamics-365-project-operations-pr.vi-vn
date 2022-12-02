@@ -1,6 +1,6 @@
 ---
 title: Trang chủ nâng cấp
-description: Bài viết này cho biết nơi để tìm thông tin quan trọng về các tính năng mới và đã thay đổi trong Dynamics 365 Project Service Automation và quá trình nâng cấp lên phiên bản mới nhất.
+description: Bài viết này cho biết nơi tìm thông tin quan trọng về các tính năng mới và đã thay đổi trong Dynamics 365 Project Service Automation và quá trình nâng cấp lên phiên bản mới nhất.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Trước đây, nếu khách hàng đã có bản thể hiện PSA phiên bản 
 Trước khi bắt đầu quá trình nâng cấp, bạn nên hoàn thành các nhiệm vụ sau:
 
 - Xác minh xem cả Dynamics 365 Field Service và Project Service Automation có được cài đặt trên phiên bản đã xác định hay chưa. Nếu cả hai giải pháp đã được cài đặt, bạn nên dự định nâng cấp cả hai trước khi tiếp tục sử dụng phiên bản này như bình thường.
-- Xem kỹ các bài viết sau. Nhận biết và hiểu về thay đổi giữa các phiên bản sẽ giúp bạn trong quá trình nâng cấp. Các bài viết này cung cấp thông tin về những thay đổi lớn trong PSA, cùng với những cân nhắc và khuyến nghị để lập kế hoạch nâng cấp lên phiên bản 3.x.
+- Cẩn thận xem xét những bài viết sau. Nhận biết và hiểu về thay đổi giữa các phiên bản sẽ giúp bạn trong quá trình nâng cấp. Những bài viết này cung cấp thông tin về những thay đổi chính trong PSA, cùng với những thông tin cần cân nhắc và đề xuất về kế hoạch nâng cấp lên phiên bản 3.x.
 
     - [Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3](whats-new-changed-v3.md)
     - [Những điểm cần cân nhắc khi nâng cấp - Project Service Automation phiên bản 2.x hoặc 1.x lên phiên bản 3](upgrade-v3.md)
 
 - Nâng cấp phiên bản hộp cát để đánh giá các thay đổi trong quá trình thực hiện trước khi bạn nâng cấp phiên bản sản xuất.
 
-Sau khi bạn đã xem lại các bài viết đã được đề cập trước đó và sẵn sàng nâng cấp lên phiên bản PSA 3.x hoặc phiên bản dựa trên UCI, hãy gửi yêu cầu đến bộ phận hỗ trợ của Microsoft để cung cấp bản nâng cấp từ Trung tâm quản trị. Trong yêu cầu của bạn, hãy cung cấp thông tin chi tiết về phiên bản.
+Sau khi bạn đã xem lại các bài viết được đề cập trước đây và đã sẵn sàng nâng cấp lên PSA phiên bản 3.x hoặc phiên bản dựa trên UCI, hãy gửi yêu cầu cho đội ngũ hỗ trợ của Microsoft để cung cấp bản nâng cấp từ Trung tâm quản trị. Trong yêu cầu của bạn, hãy cung cấp thông tin chi tiết về phiên bản.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Các phiên bản PSA khác (PSA phiên bản 2.x) là phiên bản mới tạo
 

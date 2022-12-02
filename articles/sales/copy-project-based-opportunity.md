@@ -1,6 +1,6 @@
 ---
 title: Sao chép cơ hội dựa trên dự án
-description: Bài viết này cung cấp thông tin về việc sao chép các cơ hội dựa trên dự án trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về việc sao chép cơ hội dựa trên dự án trong Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

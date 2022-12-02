@@ -1,6 +1,6 @@
 ---
 title: Các bộ phê duyệt trong Project Service Automation
-description: Bài viết này cung cấp thông tin về tập hợp phê duyệt, yêu cầu và tập hợp con của các hoạt động đó.
+description: Bài viết này cung cấp thông tin về bộ phê duyệt, yêu cầu và tập hợp con của các thao tác đó.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

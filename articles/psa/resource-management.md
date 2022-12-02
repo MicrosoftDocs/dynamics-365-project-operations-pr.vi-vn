@@ -1,6 +1,6 @@
 ---
 title: Trang chủ về cung cấp nguồn lực cho dự án
-description: Bài viết này cung cấp thông tin về khả năng quản lý tài nguyên trong Tự động hóa dịch vụ dự án (PSA) cho Dynamics 365.
+description: Bài viết này cung cấp thông tin về các khả năng quản lý nguồn lực trong Project Service Automation (PSA) cho Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Cập nhật các thuộc tính phần bổ trợ để bao gồm thông số định giá mới
-description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
+description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ cho các thông số định giá.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913232"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Nếu bạn không sử dụng các tính năng Báo giá và Hợp đồng Tự động hóa Dịch vụ Dự án (PSA), bạn có thể bỏ qua bài viết này.
+> Nếu đang không dùng tính năng Báo giá và Hợp đồng của Project Service Automation (PSA), bạn có thể bỏ qua bài viết này.
 
-Bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md),[Thêm các trường tùy chỉnh vào các thực thể thiết lập giá và giao dịch](field-references.md), và [Thiết lập các trường tùy chỉnh làm thứ nguyên đặt giá](set-up-pricing-dimensions.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này.
+Bài viết này giả định rằng bạn đã hoàn tất quy trình trong các bài viết [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md), [Thêm các trường tùy chỉnh vào thực thể thiết lập và giao dịch giá](field-references.md) và [Thiết lập trường tùy chỉnh làm thông số định giá](set-up-pricing-dimensions.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại bài viết này.
 
 Khi chi tiết mô tả báo giá được tạo trên trang **Mô tả báo giá** cho chi tiết báo giá dự án, hệ thống sẽ tạo 2 mô tả ước tính trong nền -- một mô tả cho chi phí ước tính và một mô tả cho doanh số. Điều này tương tự cho các mô tả hợp đồng.
 

@@ -31,7 +31,7 @@ ms.locfileid: "8926710"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation mở rộng các thực thể ứng dụng khác và giới thiệu các thực thể của riêng mình trong mô hình dữ liệu Common Data Service. Bài viết này mô tả một số thực thể mà bạn sẽ gặp trong các tình huống báo cáo PSA điển hình.
+Dynamics 365 Project Service Automation mở rộng các thực thể ứng dụng khác và giới thiệu các thực thể của riêng mình trong mô hình dữ liệu Common Data Service. Bài viết này mô tả một số thực thể mà bạn sẽ gặp phải trong các trường hợp báo cáo PSA điển hình.
 
 ## <a name="reporting-on-opportunities"></a>Báo cáo về cơ hội
 

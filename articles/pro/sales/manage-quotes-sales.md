@@ -1,6 +1,6 @@
 ---
 title: Quản lý báo giá dự án
-description: Bài viết này cung cấp thông tin về báo giá dự án.
+description: Bài viết này cung cấp thông tin về các báo giá dự án.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Danh sách tất cả báo giá dự án có trên trang danh sách **Báo giá*
 Có thể tạo hoặc xóa báo giá khỏi trang danh sách này hoặc các trang chi tiết.
 
  > [!NOTE]
- > Không thể xóa các trích dẫn có dự án, nhiệm vụ, ước tính, tạp chí và / hoặc thực tế liên quan đến chúng. Ngoài ra, khi một câu trích dẫn bị đóng là Won hoặc Mất, nó sẽ không thể bị xóa hoặc sửa đổi được nữa. 
+ > Không thể xóa các báo giá có dự án, nhiệm vụ, ước tính, nhật ký và/hoặc giá trị thực tế liên quan đến chúng. Ngoài ra, khi một báo giá được đóng dưới dạng Đã giành hoặc Đã mất, nó không thể bị xóa hoặc sửa đổi được nữa. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

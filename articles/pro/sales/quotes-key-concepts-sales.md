@@ -1,6 +1,6 @@
 ---
 title: Báo giá - Khái niệm chính - bản đơn giản
-description: Bài viết này cung cấp thông tin về cách sử dụng báo giá dự án trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách sử dụng báo giá dự án trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Chi phí và doanh thu dự án
-description: Bài viết này cung cấp thông tin về ước tính chi phí và doanh thu của dự án.
+description: Bài viết này cung cấp thông tin về ước tính chi phí và doanh thu dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Xem mức sử dụng có thể tính phí cho các nguồn lực
-description: Bài viết này cung cấp thông tin về chế độ xem sử dụng tài nguyên.
+description: Bài viết này cung cấp thông tin về cách xem mức sử dụng nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

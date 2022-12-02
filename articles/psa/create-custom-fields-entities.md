@@ -1,6 +1,6 @@
 ---
 title: Tạo các trường và thực thể tùy chỉnh
-description: Bài viết này giải thích cách tạo các tập hợp tùy chọn và thực thể trong giải pháp của riêng bạn trong Power Apps nền tảng.
+description: Bài viết này giải thích cách tạo bộ tùy chọn và thực thể trong giải pháp của riêng bạn trong nền tảng Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926940"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Hoàn tất các bước sau bất kỳ lúc nào bạn muốn tạo bộ tùy chọn hoặc thực thể tùy chỉnh trên nền tảng Power Apps.  
-Các thủ tục trong bài viết này nên được hoàn thành bằng cách sử dụng giao diện web của Tự động hóa dịch vụ dự án (PSA).
+Các quy trình trong bài viết này sẽ được hoàn thành bằng cách sử dụng giao diện web của Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Bạn nên thực hiện tất cả thay đổi kích thước giá tùy chỉnh trong một giải pháp riêng. Cách làm quan trọng này sẽ giúp bạn có thể thoải mái cập nhật hay loại bỏ các thay đổi khi cần, giúp sử dụng lại công việc và dễ chuyển các thay đổ này sang phiên bản khác. Sau khi bạn thực hiện tất cả các thay đổi cần thiết, hãy xuất giải pháp này dưới dạng **Giải pháp được quản lý** và nhập nó vào các phiên bản khác để tái sử dụng thiết lập giá của bạn.

@@ -1,6 +1,6 @@
 ---
 title: Đặt lịch một nguồn lực
-description: Bài viết này cung cấp thông tin về cách lên lịch dự kiến hoặc các thành viên trong nhóm dự án sách mềm.
+description: Bài viết này cung cấp thông tin về cách lên lịch trình dự định hoặc đặt lịch các thành viên thuộc nhóm dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

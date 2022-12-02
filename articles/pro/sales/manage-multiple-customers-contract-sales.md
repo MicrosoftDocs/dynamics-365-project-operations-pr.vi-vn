@@ -1,6 +1,6 @@
 ---
 title: Quản lý nhiều khách hàng trên hợp đồng dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về việc quản lý nhiều khách hàng trên các hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về cách quản lý nhiều khách hàng trên hợp đồng dự án.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

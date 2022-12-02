@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về thông số định giá
-description: Bài viết này cung cấp thông tin về các thứ nguyên đặt giá trong Dynamics 365 Project Operations.
+description: Bài viết này cung cấp thông tin về cách thiết lập thông số giá tùy chỉnh trong Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview

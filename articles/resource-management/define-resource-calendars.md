@@ -1,6 +1,6 @@
 ---
 title: Xác định lịch nguồn lực
-description: Bài viết này cung cấp thông tin về cách xác định lịch giờ làm việc cho các tài nguyên trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách xác định lịch giờ làm việc cho các nguồn lực trong Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

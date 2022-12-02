@@ -1,6 +1,6 @@
 ---
 title: Theo dõi doanh số dự án
-description: Bài viết này cung cấp thông tin về cách Hoạt động dự án theo dõi tiến độ dựa trên doanh thu lao động trong một dự án.
+description: Bài viết này cung cấp thông tin về cách Project Operations theo dõi tiến độ dựa trên doanh thu nhân công của một dự án.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

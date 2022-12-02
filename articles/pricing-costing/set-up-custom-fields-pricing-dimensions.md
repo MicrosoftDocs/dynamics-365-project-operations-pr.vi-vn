@@ -1,6 +1,6 @@
 ---
 title: Thiết lập trường tùy chỉnh làm thông số định giá
-description: Bài viết này cung cấp thông tin về cách thiết lập thứ nguyên đặt giá bằng cách sử dụng các trường tùy chỉnh.
+description: Bài viết này cung cấp thông tin về cách thiết lập thông số định giá bằng các trường tùy chỉnh.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917602"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Trước khi bạn bắt đầu, bài viết này giả định rằng bạn đã hoàn thành các thủ tục trong bài viết, [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities-pricing-dimensions.md) và [Thêm các trường tùy chỉnh bắt buộc vào các thực thể thiết lập giá và giao dịch](add-custom-fields-price-setup-transactional-entities.md). Nếu bạn chưa hoàn thành các thủ tục đó, hãy quay lại và hoàn thành chúng rồi quay lại bài viết này. 
+Trước khi bắt đầu, bài viết này giả định rằng bạn đã hoàn tất quy trình trong các bài viết, [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities-pricing-dimensions.md) và [Thêm các trường tùy chỉnh bắt buộc vào thực thể thiết lập giá và giao dịch](add-custom-fields-price-setup-transactional-entities.md). Nếu bạn chưa hoàn thành các quy trình đó, hãy quay lại và hoàn thành chúng rồi trở lại bài viết này. 
 
-Bài viết này cung cấp thông tin về cách thiết lập thứ nguyên đặt giá tùy chỉnh. Trên trang **Tham số**, tab **Thông số định giá dựa trên số lượng** hiển thị các bản ghi trong thực thể thông số định giá. Theo mặc định, có hai hàng trong lưới trên tab này:
+Bài viết này cung cấp thông tin về cách thiết lập thông số định giá tùy chỉnh. Trên trang **Tham số**, tab **Thông số định giá dựa trên số lượng** hiển thị các bản ghi trong thực thể thông số định giá. Theo mặc định, có hai hàng trong lưới trên tab này:
 
 - **msdyn_resourcecategory** (Vai trò)
 - **msdyn_OrganizationalUnit** (Đơn vị tổ chức)

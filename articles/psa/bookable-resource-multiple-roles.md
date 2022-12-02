@@ -1,6 +1,6 @@
 ---
 title: Ước tính doanh số và chi phí khi một nguồn lực có thể đăng ký đảm nhận nhiều vai trò của dự án
-description: Bài viết này cung cấp thông tin về cách các thứ nguyên định giá có thể được sử dụng để hỗ trợ định giá và chi phí cho một tài nguyên thực hiện nhiều vai trò trong một dự án.
+description: Bài viết này cung cấp thông tin về cách dùng các chiều giá cả để hỗ trợ ước tính giá và chi phí đối với một nguồn lực đảm nhận nhiều vai trò của dự án.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Chỉnh sửa hàng loạt dữ liệu thực tế được tạo bởi các mục nhập thời gian và chi phí đã phê duyệt
-description: Bài viết này giải thích cách quản trị viên có thể thực hiện các chỉnh sửa đơn lẻ hoặc hàng loạt đối với các mục nhập thời gian hoặc chi phí đã được phê duyệt trước đó nếu việc thanh toán chưa hoàn tất.
+description: Bài viết này giải thích cách quản trị viên có thể thực hiện chỉnh sửa từng phần hoặc hàng loạt đối với các mục nhập thời gian hoặc chi phí đã phê duyệt trước đó nếu chưa hoàn tất thanh toán.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916315"
 
 Đôi khi, một mục nhập thời gian hoặc chi phí có thể bị nhập sai. Ví dụ: tư vấn viên có thể chọn sai ngày khi tạo mục nhập thời gian hoặc họ có thể đổi chỗ các số khi nhập chi phí. Nếu tư vấn viên không thể cập nhật các mục nhập đã gửi, thì quản trị viên có thể trực tiếp chỉnh sửa mục nhập đó cho dự án.
 
-Để hoàn thành các thủ tục trong bài viết này, bạn sẽ cần quyền Quản trị viên.
+Để hoàn thành các quy trình trong bài viết này, bạn sẽ cần các quyền của Quản trị viên.
 
 ## <a name="correct-approved-time-entries"></a>Chỉnh sửa mục nhập thời gian đã phê duyệt     
 

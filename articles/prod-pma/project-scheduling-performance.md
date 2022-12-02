@@ -1,6 +1,6 @@
 ---
 title: Hiệu suất lập kế hoạch nguồn lực dự án
-description: Bài viết này cung cấp thông tin về cách cải thiện hiệu suất của lập lịch tài nguyên cho một số lượng lớn các dự án.
+description: Bài viết này cung cấp thông tin về cách cải thiện hiệu suất lập kế hoạch nguồn lực cho một số lượng lớn các dự án.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

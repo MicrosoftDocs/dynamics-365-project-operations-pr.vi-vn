@@ -1,6 +1,6 @@
 ---
 title: Mô tả cơ hội dựa trên sản phẩm - bản đơn giản
-description: Bài viết này cung cấp thông tin về các mục hàng cơ hội dựa trên sản phẩm trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về mục mô tả cơ hội dựa trên sản phẩm trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

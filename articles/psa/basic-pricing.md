@@ -1,6 +1,6 @@
 ---
 title: Định giá dự án
-description: Bài viết này cung cấp thông tin về cách hoạt động của giá cả Dynamics 365 Project Service Automation.
+description: Bài viết này cung cấp thông tin về cách định giá hoạt động trong Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

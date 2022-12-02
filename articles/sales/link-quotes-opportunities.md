@@ -1,6 +1,6 @@
 ---
 title: Tạo báo giá của dự án từ cơ hội
-description: Bài viết này cung cấp thông tin về việc tạo báo giá dự án từ một cơ hội.
+description: Bài viết này cung cấp thông tin về cách tạo báo giá của dự án từ cơ hội.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

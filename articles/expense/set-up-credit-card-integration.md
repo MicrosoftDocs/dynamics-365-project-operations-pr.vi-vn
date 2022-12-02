@@ -30,12 +30,12 @@ Các giao dịch thẻ tín dụng liên quan đến chi phí có thể được
 
 Để nhập giao dịch thẻ tín dụng, hãy làm theo các bước sau:
 
-1. Trên trang **Giao dịch thẻ tín dụng**, chọn **Nhập giao dịch**. Nếu bạn đang mở quản lý dữ liệu lần đầu tiên, hệ thống phải cập nhật danh sách các thực thể dữ liệu trước khi bạn có thể tiếp tục.
+1. Trên trang **Giao dịch thẻ tín dụng**, chọn **Nhập giao dịch**. Nếu bạn mở tác vụ quản lý dữ liệu lần đầu tiên, hệ thống phải cập nhật danh sách các thực thể dữ liệu trước khi bạn có thể tiếp tục.
 2. Trong trường **Tên**, hãy nhập một thông tin mô tả duy nhất cho công việc nhập.
 3. Trong trường **Định dạng dữ liệu nguồn**, chọn định dạng của tệp chứa giao dịch thẻ tín dụng để nhập.
 4. Chọn **Tải lên** rồi tìm và chọn tệp để nhập.
 5. Sau khi tệp đã được tải lên, hãy xác thực quá trình ánh xạ tệp giao dịch thẻ tín dụng và các cột của thực thể dữ liệu giao dịch thẻ tín dụng bằng cách chọn liên kết **Xem bản đồ** trên ngăn xếp. Nếu có lỗi ánh xạ hoặc nếu bạn phải thay đổi ánh xạ, hãy thực hiện các thay đổi về ánh xạ trong tab **Trực quan hóa ánh xạ** hoặc tab **Chi tiết ánh xạ**.
-6. Để tự động hóa các giao dịch thẻ tín dụng, hãy chọn **Tạo tác vụ dữ liệu định kỳ**. Sau đó, bạn có thể đặt mức lặp lại để xác định tần suất nhập giao dịch thẻ tín dụng. Khi bạn hoàn thành, hãy chọn **ĐƯỢC RỒI**.
+6. Để tự động hóa các giao dịch thẻ tín dụng, hãy chọn **Tạo tác vụ dữ liệu định kỳ**. Sau đó, bạn có thể đặt mức lặp lại để xác định tần suất nhập giao dịch thẻ tín dụng. Sau khi hoàn tất, hãy chọn **OK**.
 7. Để nhập tệp đã chọn ngay bây giờ, hãy chọn **Nhập**.
 8. Nếu xảy ra lỗi trong quá trình nhập, bạn có thể xem nhật ký thực thi hoặc dữ liệu phân đoạn để xem các lỗi mà bạn phải sửa để giúp đảm bảo nhập thành công.
 
@@ -44,7 +44,7 @@ Các giao dịch thẻ tín dụng liên quan đến chi phí có thể được
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Chỉ định lại giao dịch thẻ tín dụng cho nhân viên bị chấm dứt hồ sơ
 
-Sau khi hồ sơ nhân viên bị chấm dứt, tài khoản Dịch vụ miền Active Directory (AD DS) của nhân viên sẽ bị vô hiệu hóa. Tuy nhiên, có thể có các giao dịch thẻ tín dụng đang hoạt động vẫn phải được chi tiêu và hoàn trả. Trên trang **Giao dịch thẻ tín dụng**, bạn có thể chỉ định lại nhân viên cho bất kỳ giao dịch thẻ tín dụng nào mà nhân viên được liên kết đã bị chấm dứt.
+Sau khi hồ sơ nhân viên bị chấm dứt, tài khoản Dịch vụ miền Active Directory (AD DS) của nhân viên đó sẽ bị vô hiệu hóa. Tuy nhiên, có thể có các giao dịch thẻ tín dụng đang hoạt động vẫn phải được chi tiêu và hoàn trả. Trên trang **Giao dịch thẻ tín dụng**, bạn có thể chỉ định lại nhân viên cho bất kỳ giao dịch thẻ tín dụng nào mà nhân viên được liên kết đã bị chấm dứt.
 
 Chọn một hoặc nhiều giao dịch thẻ tín dụng, sau đó chọn **Chỉ định lại giao dịch**. Sau đó, bạn có thể chọn một nhân viên khác để chỉ định giao dịch thẻ tín dụng. Sau khi chỉ định lại giao dịch thẻ tín dụng, bạn có thể chọn các giao dịch đó cho báo cáo chi phí và được thanh toán theo quy trình hoàn trả báo cáo chi phí thông thường.
 
@@ -58,10 +58,10 @@ Chọn một hoặc nhiều giao dịch thẻ tín dụng, sau đó chọn **Ch�
 
 ## <a name="storing-credit-card-numbers"></a>Lưu trữ số thẻ tín dụng
 
-Ba tùy chọn có sẵn để lưu trữ số thẻ tín dụng. Số thẻ tín dụng được lưu trữ trên **Các thông số quản lý chi phí** trang.
+Ba tùy chọn có sẵn để lưu trữ số thẻ tín dụng. Số thẻ tín dụng được lưu trữ trên trang **Tham số quản lý chi phí**.
 
-- **Ngăn nhập số thẻ** - Số thẻ tín dụng không được lưu trữ.
-- **Số thẻ băm (lưu trữ bốn chữ số cuối cùng)** - Bốn chữ số cuối của số thẻ tín dụng được lưu trữ dưới dạng mã hóa.
-- **Lưu trữ số thẻ** - Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu của ngành thẻ thanh toán (PCI) (DSS). Do đó, để tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
+- **Ngăn nhập số thẻ** – Số thẻ tín dụng không được lưu trữ.
+- **Băm số thẻ (lưu trữ bốn chữ số cuối cùng)** – Bốn chữ số cuối của số thẻ tín dụng được lưu trữ ở định dạng mã hóa.
+- **Lưu trữ số thẻ** – Số thẻ tín dụng được lưu trữ ở định dạng không mã hóa. Tùy chọn này không tuân thủ Tiêu chuẩn bảo mật dữ liệu (DSS) của ngành thẻ thanh toán (PCI). Do đó, để giữ cho tổ chức của họ tuân thủ các quy định của PCI DSS, quản trị viên của tổ chức nên chọn không lưu trữ số thẻ tín dụng hoặc lưu trữ số thẻ băm.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

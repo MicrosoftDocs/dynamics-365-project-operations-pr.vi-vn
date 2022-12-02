@@ -1,6 +1,6 @@
 ---
 title: Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai Hoạt động dự án cho các tình huống dựa trên nguồn cung cấp / không có hàng.
+description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 
-Bài viết này giải thích cách đăng ký ưu đãi dùng thử và triển khai môi trường Hoạt động dự án cho các tình huống dựa trên tài nguyên / không có kho.
+Bài viết này giải thích cách đăng ký ưu đãi dùng thử và triển khai môi trường Project Operations cho các kịch bản dựa trên tài nguyên/không có kho.
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 - Người dùng triển khai bản xem trước phải có quyền quản trị viên toàn cầu đối với đối tượng thuê Azure. Bạn có thể tạo đối tượng thuê trong lần đổi ưu đãi đầu tiên. 
@@ -40,7 +40,7 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
   Bạn sẽ thấy ưu đãi xác nhận đã được đổi thành công.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Bản dùng thử xem trước Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Bản dùng thử ở dạng xem trước Dynamics 365 Finance
 
 Đi đến [Bản dùng thử xem trước Dynamics 365 for Finance](https://aka.ms/trypoche) và thực hiện lại các bước từ phần trước với ưu đãi, Đăng ký môi trường lưu trữ đám mây.  
 
@@ -49,7 +49,7 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 > [!IMPORTANT]
 > Bạn sẽ cần quyền truy cập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
 
-1. Đi đến [Microsoft 365 trung tâm quản trị](https://portal.office.com/) để chuyển nhượng giấy phép cho người dùng của bạn.
+1. Chuyển đến trung tâm quản trị [Microsoft 365](https://portal.office.com/) để gán giấy phép cho người dùng của bạn.
 
 2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
 
@@ -60,19 +60,19 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
 ## <a name="start-a-new-project-in-lcs"></a>Bắt đầu một dự án mới trong LCS
 
-Tạo một dự án LCS mới như được mô tả trong bài viết, [Bắt đầu một dự án mới trong LCS](create-lcs-project.md)
+Tạo dự án LCS mới như được mô tả trong bài viết [Bắt đầu dự án mới trong LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Thêm gói đăng ký Azure vào dự án LCS
 
-Để hoàn thành tác vụ này, hãy làm theo các bước trong bài viết, [Thêm đăng ký Azure vào dự án LCS](resource-add-azure-subscription-lcs-project.md).
+Để hoàn thành nhiệm vụ này, hãy làm theo các bước trong bài viết [Thêm đăng ký Azure vào dự án LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Triển khai môi trường demo Finance với Project Operations kịch bản dựa trên nguồn lực/hàng không nhập kho
 
-Làm theo hướng dẫn trong bài viết, [Cung cấp một môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước. 
+Làm theo hướng dẫn trong bài viết [Cung cấp môi trường mới](resource-provision-new-environment.md) để hoàn thành việc triển khai. Sử dụng loại triển khai [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) để xem trước. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Cài đặt dữ liệu cấu hình và thiết lập CDS
 
-Cài đặt dữ liệu cấu hình và thiết lập CDS như được mô tả trong bài viết, [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service](resource-apply-pro-setup-config-data.md).
+Cài đặt dữ liệu cấu hình và thiết lập CDS như được mô tả trong bài viết [Thiết lập và áp dụng dữ liệu cấu hình trong Common Data Service](resource-apply-pro-setup-config-data.md).
 Chỉ hoàn thành bước này sau khi môi trường demo Finance được triển khai và dữ liệu demo đã sẵn sàng.
 
 

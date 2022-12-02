@@ -1,6 +1,6 @@
 ---
 title: Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
-description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
+description: Bài viết này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ đối với các thông số định giá.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920040"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Cập nhật thuộc tính phần bổ trợ với các thông số định giá mới
 
-Bài viết này cung cấp thông tin về cách cập nhật thuộc tính trình cắm cho các thứ nguyên đặt giá.
+Bài viết này cung cấp thông tin về cách cập nhật thuộc tính phần bổ trợ đối với các thông số định giá.
 
 > [!NOTE]
-> Bài viết này chỉ áp dụng cho các tính năng báo giá và hợp đồng trong Dynamics 365 Project Operations.
+> Bài viết này chỉ áp dụng cho báo giá và hợp đồng có trong Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
-Trước khi bạn hoàn thành các bước trong bài viết này, bạn phải hoàn thành các thủ tục trong các bài viết sau:
+Trước khi hoàn tất các bước trong bài viết này, bạn phải hoàn thành xong các quy trình trong các bài viết sau đây:
 
   - [Tạo thực thể và trường tùy chỉnh](create-custom-fields-entities-pricing-dimensions.md) 
   - [Thêm trường tùy chỉnh vào thực thể giao dịch và thiết lập giá ](add-custom-fields-price-setup-transactional-entities.md)
   - [Thiết lập trường tùy chỉnh làm thông số định giá](set-up-custom-fields-pricing-dimensions.md). 
   
-Nếu bạn chưa hoàn thành các thủ tục đó, hãy hoàn thành chúng và sau đó quay lại bài viết này.
+Nếu bạn chưa hoàn thành các quy trình đó, hãy hoàn thành rồi trở lại bài viết này.
 
 ## <a name="register-a-plug-in"></a>Đăng ký phần bổ trợ
 Khi chi tiết của dòng báo giá được tạo trên trang **Dòng báo giá** cho một dòng báo giá dự án, hệ thống sẽ tạo 2 dòng ước tính. Một dòng là mặt chi phí của ước tính và dòng còn lại là mặt doanh số. Điều này tương tự cho các mô tả hợp đồng.

@@ -1,6 +1,6 @@
 ---
 title: Xác nhận hóa đơn ước giá dự án
-description: Bài viết này cung cấp thông tin về việc xác nhận hóa đơn dự án chiếu lệ trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về việc xác nhận hóa đơn ước giá của dự án trong Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

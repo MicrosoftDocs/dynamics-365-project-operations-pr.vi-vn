@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới tháng 3 năm 2021 - triển khai Project Operations lite
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản triển khai Project Operations lite vào tháng 3 năm 2021.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong bản triển khai giản đơn Project Operations phát hành vào tháng 3 năm 2021.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8913922"
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dataverse phiên bản 4.8.0.91 
 

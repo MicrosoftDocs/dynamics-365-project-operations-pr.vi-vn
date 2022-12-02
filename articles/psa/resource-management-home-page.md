@@ -1,6 +1,6 @@
 ---
 title: Trang chủ quản lý nguồn lực
-description: Bài viết này cung cấp thông tin về cách quản lý tài nguyên.
+description: Bài viết này cung cấp thông tin về cách quản lý nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913278"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên dịch vụ. Khả năng tìm và đăng ký đúng nguồn lực khi bạn cần và tiếp tục sử dụng các nguồn lực đó, giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng. Các bài viết sau đây tập trung vào khả năng quản lý tài nguyên của Dynamics 365 Project Service Automation:
+Nguồn lực là tài sản quan trọng nhất của tổ chức dựa trên dịch vụ. Khả năng tìm và đăng ký đúng nguồn lực khi bạn cần và tiếp tục sử dụng các nguồn lực đó, giúp các tổ chức đạt mục tiêu doanh thu và mục tiêu hài lòng của khách hàng. Các bài viết sau đây tập trung vào các khả năng quản lý nguồn lực của Dynamics 365 Project Service Automation:
 
 - [Quản lý nguồn lực](manage-resources.md)
 - [Khái niệm chính](reports-key-concepts.md)

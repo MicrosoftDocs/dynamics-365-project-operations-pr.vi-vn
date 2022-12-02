@@ -1,6 +1,6 @@
 ---
 title: Thiết lập chế độ tự động tạo hóa đơn
-description: Bài viết này cung cấp thông tin về cách thiết lập và định cấu hình tự động tạo hóa đơn chiếu lệ.
+description: Bài viết này cung cấp thông tin về cách thiết lập và định cấu hình chế độ tự động tạo hóa đơn ước giá.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

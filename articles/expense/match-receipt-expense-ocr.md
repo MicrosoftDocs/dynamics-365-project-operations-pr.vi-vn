@@ -1,6 +1,6 @@
 ---
 title: Chụp biên nhận bằng OCR
-description: Bài viết này cung cấp thông tin về xử lý nhận dạng ký tự quang học (OCR) cho biên lai.
+description: Bài viết này cung cấp thông tin về quy trình xử lý nhận dạng ký tự quang học (OCR) cho biên lai.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Quy trình nhập chi phí đã được nâng cao thông qua việc bổ sung q
 
 ## <a name="installation"></a>Cài đặt
 
-Để sử dụng các khả năng chi phí nâng cao này, hãy cài đặt phần bổ trợ Dịch vụ Quản lý Chi phí cho Microsoft Dynamics 365 Finance, và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
+Để sử dụng các tính năng về chi phí nâng cao này, hãy cài đặt trình bổ sung Dịch vụ quản lý chi phí cho Microsoft Dynamics 365 Finance và bật các tính năng trong phiên bản của bạn. Bạn có thể truy cập vào trình bổ sung từ dự án của mình trong Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Đăng nhập vào LCS và mở môi trường mong muốn.
 2. Chuyển tới **Chi tiết đầy đủ**.
@@ -89,14 +89,14 @@ Tính khả dụng của tính năng này ở các khu vực khác nhau được
 
 | Khu vực | Hỗ trợ                         |
 |--------|-----------------------------------|
-| Hoa Kỳ    | Có                               |
+| USA    | Có                               |
 | CAN    | Có                               |
 | Vương quốc Anh     | Có                               |
 | AUS    | Có                               |
-| EU     | Một phần nào đó. Biên lai chỉ bằng tiếng Anh. |
+| EU     | Một phần. Chỉ biên lai tiếng Anh. |
 | Châu Á   | No                                |
 | Nhật Bản  | No                                |
-| Châu phi | No                                |
+| Châu Phi | No                                |
 
 **Biên lai của tôi sẽ chuyển tới đâu?**
 

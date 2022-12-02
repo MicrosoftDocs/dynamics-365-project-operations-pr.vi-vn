@@ -1,6 +1,6 @@
 ---
 title: Các khái niệm chính về quản lý nguồn lực
-description: Bài viết này cung cấp thông tin về khả năng quản lý tài nguyên trong Microsoft Dynamics Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về chức năng quản lý nguồn lực trong Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

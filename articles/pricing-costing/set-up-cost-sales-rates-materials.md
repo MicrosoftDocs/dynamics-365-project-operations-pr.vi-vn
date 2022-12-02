@@ -1,6 +1,6 @@
 ---
 title: Thiết lập chi phí và tỷ lệ doanh số cho vật tư
-description: Bài viết này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ bán hàng cho vật liệu được sử dụng cho các dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập chi phí và tỷ lệ doanh số cho vật tư được dùng cho các dự án.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Bạn có thể thiết lập chi phí và giá bán cho sản phẩm trong Dyna
 2. Trên **Các hạng mục trong bảng giá**, trong menu lưới phụ, hãy chọn **Hạng mục trong bảng giá mới**. 
 3. Trên trang **Tạo nhanh**, hãy nhập sản phẩm và đơn vị mà bạn đang tạo giá mới.
 
-Để biết thêm thông tin về cách xác định giá cho các mục trong danh mục, hãy xem [Xác định giá sản phẩm bằng bảng giá và các mục trong bảng giá](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) và [Độ chính xác thập phân về đơn vị tiền tệ và giá cả](/dynamics365/sales/decimal-precision-currency-pricing).
+Để biết thêm thông tin về cách xác định giá cho các mục trong danh mục, hãy xem [Định giá sản phẩm bằng bảng giá và mục bảng giá](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) và [Độ chính xác thập phân trong đơn vị tiền tệ và giá](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations không hỗ trợ tất cả các phương pháp định giá cho các sản phẩm với tư cách là Bán hàng Dynamics 365. Phương pháp định giá duy nhất được hỗ trợ cho các sản phẩm được sử dụng trong các dự án là *Lượng ngoại tệ*.
+> Dynamics 365 Project Operations không hỗ trợ tất cả các phương pháp định giá cho các sản phẩm dưới dạng Dynamics 365 Sales. Phương pháp định giá duy nhất được hỗ trợ cho các sản phẩm được sử dụng trong các dự án là *Số tiền theo loại tiền*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,7 +44,7 @@ Một số hợp đồng dự án quy định rằng nhiều bên chia sẻ trá
 -   Một dự án xây đường được hai thành phố đồng cấp vốn.
 -   Một dự án xây cầu nhận được khoản trợ cấp của chính phủ và một tập đoàn tư nhân.
 
-Trong Dynamics 365 Finance, bạn có thể chia nhỏ thanh toán cho một giao dịch hoặc toàn bộ dự án cho nhiều khách hàng, khoản tài trợ hoặc tổ chức. 
+Trong Dynamics 365 Finance, bạn có thể tách hóa đơn cho một giao dịch hoặc toàn bộ dự án cho nhiều khách hàng, đơn vị tài trợ hoặc tổ chức. 
 
 Trong dự án có nhiều nhà tài trợ, tất cả các bên góp tiền tài trợ cho một dự án tài trợ nâng cao sẽ được gọi là nguồn tiền. Sau khi khách hàng, tổ chức hoặc đơn vị tài trợ được xác định là nguồn tiền, nguồn này có thể được chỉ định cho một hoặc nhiều quy tắc cấp vốn. Quy tắc cấp vốn có các tiêu chí xác định cách thức phân bổ phí cho các nguồn tiền khác nhau trong một dự án. 
 

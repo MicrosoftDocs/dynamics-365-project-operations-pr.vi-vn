@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3
-description: Bài viết này cung cấp thông tin về những gì mới và thay đổi trong Project Service Automation phiên bản 3.
+description: Bài viết này cung cấp thông tin về tính năng mới và đã thay đổi trong Project Service Automation phiên bản 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926618"
 
 
 
-Bài viết này cung cấp thông tin về những thay đổi đối với giao diện người dùng (UI), chức năng và thuật ngữ trong Tự động hóa dịch vụ dự án giữa phiên bản 2 hoặc phiên bản 1 và phiên bản 3.
+Bài viết này cung cấp thông tin về các thay đổi đối với giao diện người dùng (UI), chức năng và thuật ngữ trong Project Service Automation giữa phiên bản 2 hoặc phiên bản 1 và phiên bản 3.
 
 ## <a name="project-scheduling"></a>Lên lịch dự án
 Lịch trình dự án, còn được gọi là Cấu trúc phân tích công việc (WBS) trong các phiên bản trước, đã được đổi tên thành Lịch trình và có thể truy cập bằng cách bấm vào tab **Lịch trình**. 
@@ -150,7 +150,7 @@ Khi bạn có các nhiệm vụ cho một nguồn lực mà không đặt trư�
 Phần này cung cấp thông tin về thay đổi đối với thời gian, chi phí và hoạt động phê duyệt trong phiên bản 3 của Project Service Automation. Nằm trong giải pháp Dynamics 365 Project Service Automation, tính năng **Mục nhập thời gian** đã được làm mới để sử dụng khung Giao diện hợp nhất. Điều này mang lại một giao diện người dùng nhất quán, thống nhất và tuân theo các nguyên tắc thiết kế phản hồi để tối ưu hóa trải nghiệm xem trên mọi kích thước màn hình hoặc thiết bị. 
 
 ### <a name="landing-page"></a>Trang đích
-Trải nghiệm mục nhập thời gian tùy chỉnh không thể mở rộng đã không được dùng nữa trong phiên bản 3. Thay vào đó, hiện có một trải nghiệm lưới tự nhiên có thể mở rộng và truy cập. Bạn có thể truy cập chức năng mục nhập thời gian bằng cách sử dụng sơ đồ trang web ở bên trái. Với thay đổi này, bạn sẽ không thể nhập thời gian cho một tuần vào cùng một thời điểm nữa. Thay vào đó, bạn cần tạo một mục nhập thời gian cho từng ngày trong lưới. Sau khi một vài mục thời gian đã được tạo, người dùng có thể tạo hàng loạt mục thời gian với **Sao chép** chức năng được giải thích ở phần sau của bài viết này. 
+Trải nghiệm mục nhập thời gian tùy chỉnh không thể mở rộng đã không được dùng nữa trong phiên bản 3. Thay vào đó, hiện có một trải nghiệm lưới tự nhiên có thể mở rộng và truy cập. Bạn có thể truy cập chức năng mục nhập thời gian bằng cách sử dụng sơ đồ trang web ở bên trái. Với thay đổi này, bạn sẽ không thể nhập thời gian cho một tuần vào cùng một thời điểm nữa. Thay vào đó, bạn cần tạo một mục nhập thời gian cho từng ngày trong lưới. Sau khi một vài mục nhập thời gian đã được tạo, người dùng có thể tạo hàng loạt mục nhập thời gian bằng chức năng **Sao chép** được giải thích ở phần sau của bài viết này. 
 
 ![Trang đích mục nhập thời gian.](media/time-entry-landing-page-07.png)
  

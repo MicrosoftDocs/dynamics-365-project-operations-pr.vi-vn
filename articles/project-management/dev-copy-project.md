@@ -1,6 +1,6 @@
 ---
 title: Phát triển mẫu dự án với chức năng Sao chép dự án
-description: Bài viết này cung cấp thông tin về cách tạo các mẫu dự án bằng hành động tùy chỉnh Copy Project.
+description: Bài viết này cung cấp thông tin về cách tạo mẫu dự án bằng hành động tùy chỉnh Sao chép dự án.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Khi bạn chọn **Sao chép dự án**, trạng thái của dự án mục tiê
 
 ### <a name="name"></a>Tên 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Tham số đầu vào
 
 Có ba tham số đầu vào:
 
-- **ReplaceNamedResources** hoặc **ClearTeamsAndAssignments** - Chỉ đặt một trong các tùy chọn. Đừng đặt cả hai.
+- **ReplaceNamedResources** hoặc **ClearTeamsAndAssignments** – Chỉ đặt một trong các tùy chọn. Không đặt cả hai.
 
-    - **\{"ReplaceNamedResources": true\}** - Hành vi mặc định cho Hoạt động Dự án. Mọi tài nguyên được đặt tên đều được thay thế bằng tài nguyên chung.
-    - **\{"ClearTeamsAndAssignments": true\}** - Hành vi mặc định cho Dự án cho Web. Tất cả các nhiệm vụ và thành viên trong nhóm đều bị xóa.
+    - **\{"ReplaceNamedResources":true\}** – Hành vi mặc định cho Project Operations. Bất kỳ nguồn lực có tên được thay thế bằng nguồn lực chung.
+    - **\{"ClearTeamsAndAssignments":true\}** – Hành vi mặc định cho Project for the Web. Tất cả các phân công và thành viên nhóm đều bị xóa.
 
-- **SourceProject** - Tham chiếu thực thể của dự án nguồn để sao chép từ đó. Tham số này không được rỗng.
-- **Mục tiêu** - Tham chiếu thực thể của dự án mục tiêu để sao chép vào. Tham số này không được rỗng.
+- **SourceProject** – Tham chiếu thực thể của dự án nguồn để sao chép từ đó. Tham số này không được là null.
+- **Target** – Tham chiếu thực thể của dự án địch để sao chép vào đó. Tham số này không được là null.
 
-Bảng sau đây cung cấp tóm tắt về ba tham số.
+Bảng dưới đây đưa ra sự tóm tắt về ba tham số.
 
 | Tham số                | Loại             | Giá_trị                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **ĐÚNG VẬY** hoặc **Sai** |
-| ClearTeamsAndAssignments | Boolean          | **ĐÚNG VẬY** hoặc **Sai** |
+| ReplaceNamedResources    | Boolean          | **True** hoặc **False** |
+| ClearTeamsAndAssignments | Boolean          | **True** hoặc **False** |
 | SourceProject            | Tham chiếu thực thể | Dự án nguồn    |
-| Mục tiêu                   | Tham chiếu thực thể | Dự án mục tiêu    |
+| Mục tiêu                   | Tham chiếu thực thể | Dự án đích    |
 
-Để biết thêm các mặc định về hành động, hãy xem [Sử dụng các hành động API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Để biết thêm các giá trị mặc định trên hành động, hãy xem [Sử dụng hành động Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### <a name="validations"></a>Xác thực
 
-Các xác nhận sau đây được thực hiện.
+Các xác thực sau được thực hiện.
 
-1. Null kiểm tra và truy xuất nguồn và dự án đích để xác nhận sự tồn tại của cả hai dự án trong tổ chức.
-2. Hệ thống xác nhận rằng dự án mục tiêu hợp lệ để sao chép bằng cách xác minh các điều kiện sau:
+1. Kiểm tra và truy xuất rỗng các dự án nguồn và đích để xác nhận sự tồn tại của cả hai dự án trong tổ chức.
+2. Hệ thống xác thực rằng dự án đích hợp lệ để sao chép bằng cách xác minh các điều kiện sau:
 
-    - Không có hoạt động nào trước đó trong dự án (bao gồm cả việc lựa chọn **Nhiệm vụ**), và dự án mới được tạo.
-    - Không có bản sao trước đó, không có lần nhập nào được yêu cầu đối với dự án này và dự án không có **Thất bại** trạng thái.
+    - Không có hoạt động nào trước đó trong dự án (bao gồm cả việc chọn tab **Nhiệm vụ**), và dự án mới được tạo.
+    - Không có bản sao nào trước đó, không có lần nhập nào được yêu cầu đối với dự án này và dự án không có trạng thái **Không thành công**.
 
 3. Thao tác không được gọi bằng cách sử dụng HTTP.
 
@@ -68,7 +68,7 @@ Khi **Sao chép dự án** được gọi, hành động này sẽ xem xét mụ
 
 ### <a name="example"></a>Ví dụ:
 
-Ví dụ sau đây cho thấy cách gọi **CopyProjectV3** hành động tùy chỉnh với **removeNamedResources** bộ tham số.
+Ví dụ sau đây cho thấy cách gọi hành động tùy chỉnh **CopyProjectV3** bằng tham số **removeNamedResources**.
 
 ```C#
 {

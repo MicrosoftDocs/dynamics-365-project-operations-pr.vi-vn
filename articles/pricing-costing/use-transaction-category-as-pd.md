@@ -1,6 +1,6 @@
 ---
 title: Sử dụng Thể loại giao dịch làm thông số định giá
-description: Bài viết này cung cấp thông tin về cách sử dụng trường Danh mục giao dịch làm thứ nguyên đặt giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng trường Thể loại giao dịch làm thông số định giá.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911735"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Bài viết này giải thích cách sử dụng **Loại giao dịch** trường làm thứ nguyên định giá. 
+Bài viết này giải thích cách dùng trường **Thể loại giao dịch** làm thông số định giá. 
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
-Trước khi hoàn tất các thủ tục trong bài viết này, bạn phải có giải pháp thứ nguyên định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh dưới dạng thông số định giá](create-custom-fields-entities-pricing-dimensions.md).
+Trước khi hoàn thành các quy trình trong bài viết này, bạn phải có một giải pháp thông số định giá mới cho tổ chức của mình. Nếu chưa tạo giải pháp như vậy, hãy xem [Tạo các trường và thực thể tùy chỉnh dưới dạng thông số định giá](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Thêm trường Thể loại giao dịch vào các biểu mẫu và dạng xem
 Để trường **Thể loại giao dịch** hiển thị trong giải pháp thông số định giá, bạn phải thêm trường này vào tất cả biểu mẫu và dạng xem như một thực thể.

@@ -1,6 +1,6 @@
 ---
 title: Quản lý hợp đồng dự án
-description: Bài viết này cung cấp thông tin về việc xem các hợp đồng dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách xem các hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Trang danh sách **Hợp đồng** hiển thị danh sách tất cả các hợp
 Các hợp đồng có thể được tạo hoặc xóa khỏi trang danh sách này hay các trang chi tiết.
 
 > [!NOTE]
-> Không thể xóa các hợp đồng có dự án, nhiệm vụ, ước tính, tạp chí và / hoặc thực tế liên quan đến chúng. 
+> Không thể xóa các hợp đồng có dự án, nhiệm vụ, ước tính, nhật ký và/hoặc giá trị thực tế liên quan đến chúng. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

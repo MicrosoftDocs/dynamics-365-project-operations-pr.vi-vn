@@ -1,6 +1,6 @@
 ---
 title: Thêm thành viên nhóm từ lưới Thành viên nhóm
-description: Bài viết này cung cấp thông tin về cách bạn có thể quản lý tài nguyên thành viên trong nhóm.
+description: Bài viết này cung cấp thông tin về cách bạn có thể quản lý nguồn lực thành viên nhóm.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

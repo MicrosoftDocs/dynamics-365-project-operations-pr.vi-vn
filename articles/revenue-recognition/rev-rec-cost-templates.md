@@ -1,6 +1,6 @@
 ---
 title: Thiết lập mẫu chi phí
-description: Bài viết này cung cấp thông tin về cách tạo và sử dụng các mẫu chi phí trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách tạo và sử dụng mẫu chi phí trong Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918430"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 
-Bài viết này cung cấp thông tin về cách tạo và sử dụng các mẫu chi phí trong Hoạt động Dự án. Mẫu chi phí giúp xác định:
+Bài viết này cung cấp thông tin về cách tạo và sử dụng mẫu chi phí trong Project Operations. Mẫu chi phí giúp xác định:
 
 - Thể loại dự án của các giao dịch thực tế và dự báo cần đưa vào trong phép tính phần trăm hoàn thành dự án. Giá trị phần trăm-hoàn thành sau đó sẽ được dùng để tính toán mức doanh thu đã ghi nhận.
 - Có thể sửa đổi tỷ lệ phần trăm hoàn thành trong phép tính toán tự động hay không.
@@ -56,7 +56,7 @@ Bạn có thể cân nhắc một vài yếu tố sau đây khi đưa ra quyết
 ## <a name="create-cost-templates"></a>Tạo mẫu chi phí
 Để tạo mẫu chi phí, hãy làm theo các bước sau:
 
-1. Để truy cập các mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy chuyển đến **Quản lý dự án và kế toán** > **Thành lập** > **Ước tính** > **Mẫu chi phí**.
+1. Để truy cập vào mẫu chi phí, trong môi trường Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Thiết lập** > **Ước tính** > **Mẫu chi phí**.
 2. Chọn **Mới** để tạo mẫu chi phí mới. Nhập tên và mô tả.
 3. Cung cấp ID dòng chi phí cho từng loại giao dịch.
 4. Chọn một phương pháp hoàn thành làm mặc định:

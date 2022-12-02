@@ -1,6 +1,6 @@
 ---
 title: Tạo thực thể và trường tùy chỉnh làm thông số định giá
-description: Bài viết này cung cấp thông tin về cách tạo nhóm hoặc thực thể tùy chọn.
+description: Bài viết này cung cấp thông tin về cách tạo bộ tùy chọn hoặc thực thể tùy chỉnh.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Truy vấn về Lịch trình chi tiêu của Giải thưởng Liên bang
-description: Bài viết này cung cấp thông tin về Lịch trình Chi tiêu của cuộc điều tra Giải thưởng Liên bang.
+description: Bài viết này cung cấp thông tin về truy vấn Lịch trình chi tiêu của Giải thưởng Liên bang.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

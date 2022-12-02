@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình chi phí tiêu chuẩn cho nhân công và chi phí
-description: Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho lao động và chi phí cho một dự án.
+description: Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho nhân công và chi phí cho dự án.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919564"
 
 [!include [banner](../../includes/banner.md)]
 
-Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho lao động và chi phí cho một dự án. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
+Bài viết này giải thích cách thiết lập chi phí tiêu chuẩn cho nhân công và chi phí cho dự án. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 
 1. Ở ngăn điều hướng, chuyển tới **Mô-đun > Quản lý dự án và kế toán > Thiết lập> Giá > Giá vốn (giờ)**.
 2. Chọn **Mới**.

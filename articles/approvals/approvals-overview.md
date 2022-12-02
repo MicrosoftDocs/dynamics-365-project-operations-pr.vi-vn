@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về phê duyệt
-description: Bài viết này cung cấp thông tin về cách làm việc với các phê duyệt trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với các mục phê duyệt trong Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

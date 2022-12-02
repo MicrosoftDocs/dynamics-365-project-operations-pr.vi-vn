@@ -1,6 +1,6 @@
 ---
 title: Tình huống nhiều loại tiền tệ (phiên bản 3.x)
-description: Bài viết này cung cấp thông tin về các trường hợp đa tiền tệ.
+description: Bài viết này cung cấp thông tin về các trường hợp nhiều loại tiền tệ.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Hiệu suất của đề xuất hóa đơn dự án
-description: Bài viết này cung cấp thông tin về các cải tiến hiệu suất đối với các đề xuất hóa đơn dự án.
+description: Bài viết này cung cấp thông tin về việc cải thiện hiệu suất cho các đề xuất hóa đơn của dự án.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

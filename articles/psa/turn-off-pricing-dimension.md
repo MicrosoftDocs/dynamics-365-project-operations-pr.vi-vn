@@ -1,6 +1,6 @@
 ---
 title: Tắt thông số định giá
-description: Bài viết này trình bày cách thiết lập thứ nguyên giá trong giải pháp Dịch vụ Dự án.
+description: Bài viết này cho biết cách thiết lập thông số định giá trong giải pháp Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Quản lý năng lực của nguồn lực
-description: Bài viết này cung cấp thông tin về việc thiết lập năng lực cho các nguồn lực của dự án.
+description: Bài viết này cung cấp thông tin về việc thiết lập năng lực cho nguồn lực dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

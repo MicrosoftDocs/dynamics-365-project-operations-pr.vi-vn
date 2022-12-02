@@ -1,6 +1,6 @@
 ---
 title: Ghi chú của nhà phát triển dành cho giai đoạn Phê duyệt
-description: Bài viết này cung cấp thông tin bổ sung cho nhà phát triển về cách làm việc với các phê duyệt.
+description: Bài viết này cung cấp thông tin bổ sung của nhà phát triển về cách xử lý giai đoạn phê duyệt.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

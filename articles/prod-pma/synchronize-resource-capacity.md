@@ -1,6 +1,6 @@
 ---
 title: Đồng bộ hóa năng lực của nguồn lực
-description: Bài viết này cung cấp thông tin về cách đồng bộ hóa dung lượng của tài nguyên trên các lịch và dự án.
+description: Bài viết này cung cấp thông tin về cách đồng bộ hóa năng lực của nguồn lực trên lịch và dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

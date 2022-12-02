@@ -1,6 +1,6 @@
 ---
 title: Tại sao tôi không thể xóa bản ghi khỏi thực thể thực tế?
-description: Bài viết này cung cấp thông tin về lý do tại sao bạn không thể xóa bản ghi khỏi thực thể thực tế.
+description: Bài viết này cung cấp thông tin về lý do tại sao bạn không thể xóa các bản ghi khỏi thực thể thực tế.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

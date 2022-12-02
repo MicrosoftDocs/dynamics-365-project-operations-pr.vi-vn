@@ -1,6 +1,6 @@
 ---
 title: Tạo mục tạm ứng đột xuất trên hợp đồng
-description: Bài viết này cung cấp thông tin về việc tạo tạm ứng hợp đồng khi cần thiết.
+description: Bài viết này cung cấp thông tin về việc tạo khoản tạm ứng trên hợp đồng khi cần.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình việc lập hóa đơn dự án liên công ty
-description: Bài viết này chỉ ra cách thiết lập lập hóa đơn dự án giữa hai công ty trong tổ chức của bạn.
+description: Bài viết này trình bày cách thiết lập việc lập hóa đơn dự án giữa hai công ty trong tổ chức của bạn.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916636"
 
 [!include [banner](../../includes/banner.md)]
 
-Bài viết này chỉ ra cách thiết lập lập hóa đơn dự án giữa hai công ty trong tổ chức của bạn. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
+Bài viết này trình bày cách thiết lập việc lập hóa đơn dự án giữa hai công ty trong tổ chức của bạn. Nhiệm vụ này sử dụng tập hợp dữ liệu USSI.
 
 1. Ở ngăn điều hướng, chuyển tới **Mô-đun > Tài khoản phải trả > Nhà cung cấp > Tất cả nhà cung cấp**.
 2. Trong danh sách **Tất cả nhà cung cấp**, tìm và chọn bản ghi mong muốn.

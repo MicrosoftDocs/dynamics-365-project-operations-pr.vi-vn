@@ -1,6 +1,6 @@
 ---
 title: Lập hóa đơn khoản tạm ứng hoặc khoản trả trước
-description: Bài viết này cung cấp thông tin về cách lập hóa đơn cho người giữ lại hoặc tạm ứng trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách lập hóa đơn khoản trả trước hoặc khoản tạm ứng trong Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

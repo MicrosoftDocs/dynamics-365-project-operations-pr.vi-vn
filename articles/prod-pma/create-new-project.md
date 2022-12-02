@@ -1,6 +1,6 @@
 ---
 title: Tạo dự án mới
-description: Bài viết này cung cấp thông tin về cách tạo một dự án mới.
+description: Bài viết này cung cấp thông tin về cách tạo dự án mới.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Chỉnh sửa mục đăng ký
-description: Bài viết này cung cấp thông tin về cách cập nhật và thực hiện các thay đổi đối với đặt chỗ.
+description: Bài viết này cung cấp thông tin về cách cập nhật và thực hiện các thay đổi đối với mục đăng ký.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915256"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Khi có các thay đổi trên một dự án, bạn cần cập nhật cả các đăng ký hiện có, có nhiều cách để thực hiện thay đổi. Bài viết này trình bày cách cập nhật và thực hiện các thay đổi đối với đặt chỗ.
+Khi có các thay đổi trên một dự án, bạn cần cập nhật cả các đăng ký hiện có, có nhiều cách để thực hiện thay đổi. Bài viết này trình bày cách cập nhật và thực hiện các thay đổi đối với mục đăng ký.
 
 ## <a name="resource-reconciliation"></a>Điều hòa nguồn lực
 

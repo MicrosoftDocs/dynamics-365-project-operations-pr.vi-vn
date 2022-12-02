@@ -35,8 +35,8 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
     | 6 | ProjectServiceCore_Patch                           | Không có ghi chú bổ sung.                                                                         |
     | 7 | ProjectServiceCore                                 | Không có ghi chú bổ sung.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Nếu không tìm thấy, hãy bỏ qua giải pháp này.                                                            |
-    | 9 | FieldServiceCommon                                 | Bắt buộc để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Bắt buộc để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Cần thiết để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Cần thiết để ghi kép với Dynamics 365 Finance hoặc Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Bắt buộc với Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Bắt buộc với Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Bắt buộc với Dynamics 365 Field Service.                                                     |

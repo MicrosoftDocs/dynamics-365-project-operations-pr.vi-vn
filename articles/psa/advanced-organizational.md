@@ -24,7 +24,7 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927124"
 ---
-# <a name="about-organizational-units"></a>Về đơn vị tổ chức 
+# <a name="about-organizational-units"></a>Giới thiệu về đơn vị tổ chức 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

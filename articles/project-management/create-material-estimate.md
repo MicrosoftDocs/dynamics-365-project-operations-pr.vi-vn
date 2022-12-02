@@ -1,6 +1,6 @@
 ---
 title: Dự toán tài chính về vật tư cho dự án
-description: Bài viết này cung cấp thông tin về việc xác định hoặc ước tính vật liệu dựa trên dự án.
+description: Bài viết này cung cấp thông tin về việc xác định hoặc ước tính các vật tư dựa trên dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925744"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Dynamics 365 Project Operations cho phép Người quản lý dự án xác định chi phí vật tư dựa trên dự án cho từng dự án hoặc nhiệm vụ. Mỗi ước tính vật tư có thể được liên kết với một nhiệm vụ cụ thể của dự án. Vật liệu được sử dụng cho các dự án có thể là sản phẩm viết sẵn hoặc sản phẩm từ danh mục sản phẩm. Đối với mỗi sự kết hợp của một sản phẩm và một đơn vị, một mức giá có thể được xác định trong bảng giá dự án để bán và bảng giá dự án cho chi phí.  
+Dynamics 365 Project Operations cho phép Người quản lý dự án xác định chi phí vật tư dựa trên dự án cho từng dự án hoặc nhiệm vụ. Mỗi ước tính vật tư có thể được liên kết với một nhiệm vụ cụ thể của dự án. Vật liệu được sử dụng cho các dự án có thể là sản phẩm chọn thêm hoặc sản phẩm từ danh mục sản phẩm. Đối với mỗi kết hợp của một sản phẩm và một đơn vị, một mức giá có thể được xác định trong doanh số và bảng giá dự án cho chi phí.  
 
 Hoàn thành các bước sau để xem, thêm hoặc xóa giá trị ước tính về vật tư của dự án.
 

@@ -1,6 +1,6 @@
 ---
 title: Quản lý mục tồn đọng lập hóa đơn
-description: Bài viết này cung cấp thông tin về cách xem và làm việc với nhật ký thanh toán trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách xem và làm việc với mục tồn đọng lập hóa đơn trong Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

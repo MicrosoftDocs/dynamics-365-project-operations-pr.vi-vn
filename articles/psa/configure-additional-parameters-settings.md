@@ -30,7 +30,7 @@ ms.locfileid: "8919258"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Khi bạn đã định cấu hình các mục trong các bài viết trước, bạn cần thiết lập các thông số dự án bổ sung để sử dụng cho các dự án của mình. Khi cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] lần đầu tiên, bạn đã tạo cài đặt tham số để tạo tất cả các bản ghi đầu tiên cần thiết cho [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] để hoạt động. Giờ là lúc quay lại và đặt cấu hình các trường bổ sung cho thiết đặt này.  
+Sau khi đã đặt cấu hình các hạng mục trong bài viết trước, bạn cần đặt tham số dự án bổ sung để sử dụng cho các dự án của mình. Khi cài đặt [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] lần đầu tiên, bạn đã tạo cài đặt tham số để tạo tất cả các bản ghi đầu tiên cần thiết cho [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] để hoạt động. Giờ là lúc quay lại và đặt cấu hình các trường bổ sung cho thiết đặt này.  
   
  Bạn sẽ cần đặt cấu hình các cài đặt sau đây:  
   

@@ -1,6 +1,6 @@
 ---
 title: Chỉnh sửa kế toán trên các đề xuất hóa đơn dự án nháp
-description: Bài viết này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn dự thảo.
+description: Bài viết này giải thích cách điều chỉnh thông tin liên quan đến kế toán trên một đề xuất hóa đơn nháp.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 *Chi tiết hoạt động* đối với các hóa đơn dự án được quản lý dự án duy trì trên hóa đơn ước giá. Những chi tiết này bao gồm quyết định về giờ giấc, chi phí, vật liệu hoặc các mốc quan trọng phải lập hóa đơn, mức giá và việc áp dụng số tiền tạm ứng và trả trước. Sau khi xác nhận hóa đơn ước giá ban đầu, bạn có thể điều chỉnh chi tiết hoạt động bằng cách tạo và xác nhận [hóa đơn ước giá hiệu chỉnh](../proforma-invoicing/corrective-invoices.md).
 
-*Chi tiết kế toán* đối với các hóa đơn dự án được duy trì trong một tài liệu hóa đơn giao cho khách hàng. Những chi tiết này bao gồm cách tính thuế bán hàng và các thông số tài chính được áp dụng cho hóa đơn. Bài viết này cung cấp chi tiết về cách các chi tiết kế toán này có thể được điều chỉnh trên một đề xuất hóa đơn dự án.
+*Chi tiết kế toán* đối với các hóa đơn dự án được duy trì trong một tài liệu hóa đơn giao cho khách hàng. Những chi tiết này bao gồm cách tính thuế bán hàng và các thông số tài chính được áp dụng cho hóa đơn. Bài viết này cung cấp chi tiết về cách điều chỉnh các chi tiết kế toán này trên một đề xuất hóa đơn nháp.
 
 ## <a name="adjust-sales-tax"></a>Điều chỉnh thuế bán hàng
 
@@ -27,15 +27,15 @@ Nhóm thuế bán hàng lập hóa đơn mặc định và nhóm thuế bán hà
 
 ## <a name="adjust-financial-dimensions"></a>Điều chỉnh các thông số tài chính
 
-### <a name="header-dimensions"></a>Kích thước tiêu đề
+### <a name="header-dimensions"></a>Thứ nguyên tiêu đề
 
-Theo mặc định, các thứ nguyên tài chính hóa đơn được lấy từ các bản ghi giao dịch dự án chưa được lập hóa đơn đang được lập hóa đơn. Tuy nhiên, cài đặt hệ thống cho phép bạn sử dụng các thứ nguyên tài chính trên tiêu đề của các đề xuất hóa đơn dự án để đăng số dư của khách hàng. Để bật chức năng này, hãy chọn **Cho phép cập nhật kích thước dự án cho các khoản phải thu** trên **Tài chính** tab của **Các thông số kế toán và quản lý dự án** trang.
+Theo mặc định, các thứ nguyên tài chính hóa đơn được lấy từ các bản ghi giao dịch dự án chưa lập hóa đơn đang được lập hóa đơn. Tuy nhiên, cài đặt hệ thống cho phép bạn sử dụng các thứ nguyên tài chính trên tiêu đề của các đề xuất hóa đơn dự án để đăng số dư của khách hàng. Để bật chức năng này, hãy chọn **Cho phép cập nhật thứ nguyên dự án cho khoản phải thu** trên tab **Tài chính** của trang **Các tham số quản lý dự án và kế toán**.
 
-Kích thước tài chính trên tiêu đề hóa đơn có thể được chỉnh sửa trước khi hóa đơn được đăng. Trên **Đề xuất hóa đơn dự án** trang, chuyển sang **Tiêu đề** xem, sau đó chỉnh sửa các giá trị trên **Kích thước tài chính** chuyển hướng.
+Thứ nguyên tài chính trên tiêu đề hóa đơn có thể được chỉnh sửa trước khi hóa đơn được đăng. Trên trang **Đề xuất hóa đơn dự án**, chuyển sang dạng xem **Tiêu đề** rồi chỉnh sửa các giá trị trên tab **Thứ nguyên tài chính**.
 
-Các **Tiêu đề** chế độ xem chỉ khả dụng sau khi quản trị viên hệ thống bật **Sử dụng đề xuất hóa đơn Dự án và các biểu mẫu nhật ký hóa đơn với chế độ xem Đầu trang và Dòng** tính năng trong **Quản lý tính năng** không gian làm việc. Tính năng này yêu cầu bản cập nhật Finance 10.0.25 trở lên.
+Dạng xem **Tiêu đề** chỉ có sẵn sau khi quản trị viên hệ thống bật tính năng **Sử dụng đề xuất hóa đơn Dự án và biểu mẫu nhật ký hóa đơn với dạng xem Tiêu đề và Dòng** trong không gian làm việc **Quản lý tính năng**. Tính năng này yêu cầu bản cập nhật Finance 10.0.25 trở lên.
 
-### <a name="line-dimensions"></a>Kích thước dòng
+### <a name="line-dimensions"></a>Thứ nguyên dòng
 
 Các thông số tài chính không thể được chỉnh sửa trực tiếp trên dòng đề xuất hóa đơn dự án. Thay vào đó, hãy làm theo các bước sau để điều chỉnh các thông số tài chính trên một đề xuất hóa đơn dự án.
 

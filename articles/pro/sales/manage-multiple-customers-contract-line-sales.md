@@ -1,6 +1,6 @@
 ---
 title: Quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về việc quản lý nhiều khách hàng trên các dòng hợp đồng dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách quản lý nhiều khách hàng trong phần mô tả hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

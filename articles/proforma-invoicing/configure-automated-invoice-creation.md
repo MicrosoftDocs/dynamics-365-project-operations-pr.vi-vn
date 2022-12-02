@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình hoạt động tạo hóa đơn tự động
-description: Bài viết này cung cấp thông tin về cách cấu hình hệ thống tạo hóa đơn tự động.
+description: Bài viết này cung cấp thông tin về cách thức đặt cấu hình để hệ thống tự động tạo hóa đơn.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Quyền truy cập sớm đợt 2 năm 2021 có gì mới - Triển khai Project Operations bản đơn giản
-description: Bài viết này cung cấp thông tin về các tính năng có trong bản phát hành truy cập sớm làn sóng 2 năm 2021 của triển khai Project Operations lite.
+description: Bài viết này cung cấp thông tin về các tính năng có trong bản phát hành truy cập sớm vào năm 2021 đợt 2 của triển khai bản đơn giản Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924134"
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.23.0.4
 

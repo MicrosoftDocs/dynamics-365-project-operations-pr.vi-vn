@@ -1,6 +1,6 @@
 ---
 title: Thiết lập tỷ lệ hóa đơn lao động
-description: Bài viết này cung cấp thông tin về cách thiết lập mức thanh toán lao động trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập tỷ lệ thanh toán nhân công trong Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

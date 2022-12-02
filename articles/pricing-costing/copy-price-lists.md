@@ -1,6 +1,6 @@
 ---
 title: Sao chép bảng giá
-description: Bài viết này cung cấp thông tin về cách sao chép bảng giá trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách sao chép bảng giá trong Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

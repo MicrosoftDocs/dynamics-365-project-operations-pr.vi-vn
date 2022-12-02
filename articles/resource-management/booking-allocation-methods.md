@@ -1,6 +1,6 @@
 ---
 title: Phương thức phân bổ đặt trước
-description: Bài viết này cung cấp thông tin về cách thức hoạt động của các phương pháp phân bổ đặt chỗ trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách thức hoạt động của phương thức phân bổ đặt trước Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912772"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Cho dù bạn thêm một thành viên nhóm trực tiếp vào một dự án trên tab **Nhóm** hay đăng ký một nguồn lực cho một dự án hoặc yêu cầu từ bảng Lịch trình, bạn có thể sử dụng một vài phương pháp phân bổ đăng ký khác nhau. Bài viết này giải thích cách hoạt động của từng phương pháp và những phương pháp nào có thể dẫn đến tài nguyên đặt trước quá nhiều.
+Cho dù bạn thêm một thành viên nhóm trực tiếp vào một dự án trên tab **Nhóm** hay đăng ký một nguồn lực cho một dự án hoặc yêu cầu từ bảng Lịch trình, bạn có thể sử dụng một vài phương pháp phân bổ đăng ký khác nhau. Bài viết này giải thích cách mỗi phương pháp hoạt động và phương pháp nào có thể dẫn tới quá tải nguồn lực.
 
 ## <a name="booking-allocation-methods"></a>Phương thức phân bổ đặt trước
 

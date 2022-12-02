@@ -1,6 +1,6 @@
 ---
 title: Báo giá - Các khái niệm chính
-description: Bài viết này cung cấp thông tin về báo giá dự án và báo giá bán hàng có sẵn trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về các báo giá dự án và báo giá bán hàng được cung cấp trong Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Trong Dynamics 365 Project Operations, có hai loại báo giá: báo giá dự 
 - **Các trường và khái niệm**: Báo giá bán hàng không bao gồm một số trường và khái niệm có trong báo giá dự án. Các trường này bao gồm **Đơn vị ký hợp đồng**, **Người quản lý tài khoản** và **Tên người thanh toán**.  
 - **Loại**: Báo giá bán hàng và báo giá dự án cũng được xác định theo một trường dựa trên bộ tùy chọn tên là **Loại**. Đối với báo giá bán hàng, trường này có giá trị **Dựa trên mục hàng**. Đối với báo giá dự án, nó có giá trị **Dựa trên công việc**.
 
-Bài viết này tập trung vào các chi tiết của báo giá dự án.
+Bài viết này sẽ tập trung vào các chi tiết của báo giá dự án.
 
 Một báo giá dự án trong Project Operations có thể có nhiều mục hàng hoặc dòng mô tả báo giá. Trong thực tế, một báo giá dự án có hai lưới cho các mục hàng. Một lưới là dành cho các mô tả dựa trên dự án cho phép các ước tính chi tiết. Lưới còn lại là dành cho các mô tả dựa trên sản phẩm sử dụng một đơn giá và phương pháp dựa trên số lượng đơn giản.
 

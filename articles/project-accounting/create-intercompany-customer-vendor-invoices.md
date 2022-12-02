@@ -1,6 +1,6 @@
 ---
 title: Lập hóa đơn cho nhà cung cấp và khách hàng liên công ty
-description: Bài viết này cung cấp thông tin về cách tạo hóa đơn nhà cung cấp và khách hàng liên công ty.
+description: Bài viết này cung cấp thông tin về cách tạo hóa đơn khách hàng liên công ty và hóa đơn nhà cung cấp.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Dùng quy trình này để tạo thủ công hóa đơn khách hàng liên côn
 
 Các bước sau đây cần phải được thực hiện trong pháp nhân cho vay. 
 
-1. Trong Dynamics 365 Finance, hãy truy cập **Quản lý dự án và kế toán** > **Hóa đơn dự án** > **Hóa đơn khách hàng liên công ty**. Trong trang danh sách **Hóa đơn khách hàng liên công ty**, trên Ngăn hành động, hãy chọn **Mới**.
+1. Trong Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Hóa đơn dự án** > **Hóa đơn khách hàng liên công ty**. Trong trang danh sách **Hóa đơn khách hàng liên công ty**, trên Ngăn hành động, hãy chọn **Mới**.
 2. Trên trang **Tạo hóa đơn liên công ty**, trong trường **Pháp nhân**, hãy chọn một pháp nhân đi thuê.
 3. Không bắt buộc: Nhập hợp đồng dự án và mã số dự án cụ thể.
 4. Thu hẹp phạm vi tìm kiếm bằng cách chọn khoảng ngày. Nhập ngày cụ thể trong các trường **Ngày bắt đầu** và **Ngày kết thúc**. Kết quả tìm kiếm sẽ chỉ hiển thị những giao dịch liên công ty được đăng trong khoảng ngày này.

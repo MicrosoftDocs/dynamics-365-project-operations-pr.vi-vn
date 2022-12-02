@@ -1,6 +1,6 @@
 ---
 title: Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về việc tạo lịch hóa đơn và các mốc quan trọng cho các dòng báo giá.
+description: Bài viết này cung cấp thông tin về việc tạo lịch trình hóa đơn và các mốc quan trọng cho mô tả báo giá.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

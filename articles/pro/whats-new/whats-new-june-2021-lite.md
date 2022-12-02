@@ -1,6 +1,6 @@
 ---
 title: Thông tin mới trong tháng 6 năm 2021 - Triển khai bản đơn giản Project Operations
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản triển khai Project Operations lite vào tháng 6 năm 2021.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 6 năm 2021 của triển khai bản đơn giản Project Operations.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913968"
 
 _Áp dụng cho: Bản triển khai giản đơn - từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
   - Project Operations trên môi trường Dataverse phiên bản 4.11.0.156 hoặc 4.11.0.164.
 

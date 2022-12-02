@@ -1,6 +1,6 @@
 ---
 title: Quản lý khách hàng tiềm năng - bản đơn giản
-description: Bài viết này cung cấp thông tin về cách quản lý khách hàng tiềm năng dựa trên dự án (chuyên nghiệp).
+description: Bài viết này cung cấp thông tin về quản lý khách hàng tiềm năng dựa trên dự án (dự án).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

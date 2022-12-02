@@ -1,6 +1,6 @@
 ---
 title: Quản lý ước tính doanh thu
-description: Bài viết này cung cấp thông tin về cách làm việc với ước tính doanh thu cho các dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với các phép ước tính doanh thu cho dự án.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928504"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bạn có thể tạo, tính toán, đăng, đảo ngược hoặc loại bỏ các phép ước tính doanh thu. Bạn có thể thực hiện theo cách thủ công hoặc dùng quy trình định kỳ. Bài viết này cung cấp thông tin về cách làm việc với ước tính doanh thu cho các dự án.
+Bạn có thể tạo, tính toán, đăng, đảo ngược hoặc loại bỏ các phép ước tính doanh thu. Bạn có thể thực hiện theo cách thủ công hoặc dùng quy trình định kỳ. Bài viết này cung cấp thông tin về cách làm việc với các phép ước tính doanh thu cho dự án.
 
 ### <a name="manage-revenue-estimates-manually"></a>Quản lý các phép ước tính doanh thu theo cách thủ công
 

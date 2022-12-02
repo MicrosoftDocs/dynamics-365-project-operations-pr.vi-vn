@@ -1,6 +1,6 @@
 ---
 title: Mục đặt trước và mục chỉ định
-description: Bài viết này cung cấp thông tin về sự khác biệt giữa đặt trước tài nguyên và ấn định tài nguyên.
+description: Bài viết này cung cấp thông tin về sự khác biệt giữa đặt trước nguồn lực và chỉ định nguồn lực.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

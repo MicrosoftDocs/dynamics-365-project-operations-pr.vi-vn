@@ -1,6 +1,6 @@
 ---
 title: Phương pháp Chi phí hoàn thành
-description: Bài viết này cung cấp thông tin về các phương pháp được sử dụng để tính toán chi phí để hoàn thành một dự án.
+description: Bài viết này sẽ trình bày thông tin về phương pháp tính toán chi phí cần để hoàn thành dự án.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920316"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này cung cấp thông tin về các phương pháp được sử dụng để tính toán chi phí để hoàn thành một dự án. Bạn có thể dùng nhiều phương pháp để tính chi phí hoàn thành dự án. 
+Bài viết này sẽ trình bày thông tin về phương pháp tính toán chi phí cần để hoàn thành dự án. Bạn có thể dùng nhiều phương pháp để tính chi phí hoàn thành dự án. 
 
 Khi ước tính dự án, trên trang **Tạo ước tính**, trong trường **Phương pháp Chi phí hoàn thành**, bạn có thể chọn một trong các phương pháp chi phí hoàn thành sau đây.
 

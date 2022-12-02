@@ -1,6 +1,6 @@
 ---
 title: Nhập giá trị ước tính vào mục mô tả hợp đồng dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách nhập dự toán từ một dự án vào dòng hợp đồng.
+description: Bài viết này cung cấp thông tin về cách nhập giá trị ước tính từ dự án vào mục mô tả hợp đồng.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý
-description: Bài viết này giải thích cách kích hoạt vật liệu không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
+description: Bài viết này giải thích cách kích hoạt vật tư không tồn kho và hóa đơn của nhà cung cấp đang chờ xử lý.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Chạy Bản đồ ghi kép cho vật tư không tồn kho và tích hợp hóa đơn của nhà cung cấp
 
-Phần này cung cấp thông tin về các bản đồ cụ thể cần thiết cho vật tư không tồn kho và hóa đơn của nhà cung cấp. Xác minh rằng các bản đồ điều kiện tiên quyết được liệt kê trong [Cung cấp một môi trường mới](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) đang chạy trên môi trường của bạn.
+Phần này cung cấp thông tin về các bản đồ cụ thể cần thiết cho vật tư không tồn kho và hóa đơn của nhà cung cấp. Xác minh rằng các bản đồ điều kiện tiên quyết được liệt kê trong bài viết [Cung cấp một môi trường mới](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) đang chạy trên môi trường của bạn.
 
 1. Chuyển đến Lifecycle Services (LCS), điều hướng đến dự án LCS của bạn và truy cập vào trang **Chi tiết môi trường**.
 2. Trong phần **Thông tin môi trường Common Data Service**, hãy chọn **Liên kết tới CDS for Apps**. Sau khi bạn chọn liên kết, bạn sẽ được chuyển hướng đến danh sách các thực thể trong ánh xạ.

@@ -1,6 +1,6 @@
 ---
 title: Xem lại tồn đọng về vấn đề lập hóa đơn đối với các dự án và hợp đồng dự án
-description: Bài viết này cung cấp thông tin về cách xem xét tồn đọng thời gian, chi phí và sản phẩm cũng như cách đánh dấu chúng là đã sẵn sàng để lập hóa đơn.
+description: Bài viết này cung cấp thông tin về cách xem lại các tồn đọng về thời gian, chi phí và sản phẩm, cũng như cách đánh dấu các mục này là sẵn sàng để lập hóa đơn.
 author: rumant
 ms.custom: ''
 ms.author: rumant

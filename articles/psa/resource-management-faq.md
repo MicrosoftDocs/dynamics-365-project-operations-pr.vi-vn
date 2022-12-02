@@ -1,6 +1,6 @@
 ---
 title: Câu hỏi thường gặp về quản lý nguồn lực
-description: Bài viết này cung cấp câu trả lời cho các câu hỏi thường gặp về quản lý tài nguyên.
+description: Bài viết này cung cấp câu trả lời cho các câu hỏi thường gặp về quản lý nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

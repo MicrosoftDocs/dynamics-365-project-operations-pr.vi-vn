@@ -1,6 +1,6 @@
 ---
 title: Xác định kiểu triển khai của bạn
-description: Bài viết này cung cấp thông tin để giúp bạn xác định loại triển khai chính xác của hoạt động Dự án cho công ty của bạn.
+description: Bài viết này cung cấp thông tin nhằm giúp bạn xác định đúng loại triển khai Project Operations cho công ty của bạn.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Khách hàng hiện tại của Dynamics đang sử dụng Dynamics 365 Project Service Automation
 Project Operations bao gồm các khả năng đi kèm với Project Service Automation. Đường dẫn nâng cấp sẽ ra mắt những khách hàng này trong bản phát hành đợt 1 năm 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Khách hàng hiện tại của Dynamics 365 Finance sử dụng Quản lý dự án và kế toán 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Khách hàng hiện tại của Dynamics 365 Finance sử dụng kế toán và quản lý dự án 
 
 Các khách hàng hiện tại của Finance sử dụng tính năng Kế toán và quản lý dự án vẫn có thể tiếp tục sử dụng tính năng này như cũ. Xem [Project Operations dành cho kịch bản dựa trên hàng nhập kho/lệnh sản xuất](#pma).
 

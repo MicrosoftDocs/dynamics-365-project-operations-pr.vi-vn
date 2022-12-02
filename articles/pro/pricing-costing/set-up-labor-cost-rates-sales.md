@@ -1,6 +1,6 @@
 ---
 title: Thiết lập tỷ lệ chi phí lao động – bản đơn giản
-description: Bài viết này cung cấp thông tin về cách thiết lập mức chi phí cho nhân công trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập tỷ lệ chi phí cho nhân công trong Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

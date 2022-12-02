@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới kể từ tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 8 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 8 năm 2021 của Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912312"
 
 *Áp dụng cho: Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho*
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
    - Project Operations trong môi trường Microsoft Dataverse phiên bản 4.13.0.152.
-   - Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.20.
+   - Quản lý dự án và kế toán trong môi trường ứng dụng Dynamics 365 Finance phiên bản 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 

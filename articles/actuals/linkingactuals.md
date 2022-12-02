@@ -1,6 +1,6 @@
 ---
-title: Nguồn gốc giao dịch - Liên kết thực tế với nguồn của chúng
-description: Bài viết này giải thích cách sử dụng khái niệm nguồn gốc giao dịch để liên kết thực tế với bản ghi nguồn gốc, chẳng hạn như mục nhập thời gian, mục nhập chi phí hoặc nhật ký sử dụng vật liệu.
+title: Nguồn gốc giao dịch – Liên kết số liệu thực tế với nguồn
+description: Bài viết này giải thích cách khái niệm nguồn giao dịch được sử dụng để liên kết giá trị thực tế với bản ghi nguồn, chẳng hạn như mục nhập thời gian, mục nhập chi phí hoặc nhật ký sử dụng vật tư.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921328"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Nguồn gốc giao dịch - Liên kết thực tế với nguồn của chúng
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Nguồn gốc giao dịch – Liên kết số liệu thực tế với nguồn
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bản ghi nguồn gốc giao dịch được tạo để liên kết thực tế với nguồn của chúng, chẳng hạn như mục thời gian, mục chi phí, nhật ký sử dụng vật liệu và hóa đơn dự án.
+Bản ghi nguồn giao dịch được tạo để liên kết số liệu thực tế với nguồn của chúng, chẳng hạn như mục nhập thời gian, mục nhập chi phí, nhật ký sử dụng vật tư và hóa đơn dự án.
 
 Ví dụ sau đây trình bày hoạt động xử lý thông thường các mục nhập thời gian trong vòng đời dự án Project Operations.
 
-> ![Thời gian xử lý phụ thuộc vào Hoạt động của Dự án.](media/basic-guide-17.png)
+> ![Xử lý các mục nhập thời gian trong Project Operations.](media/basic-guide-17.png)
  
-1. Việc nộp một mục nhập thời gian sẽ tạo ra hai dòng nhật ký: một dòng cho chi phí và một cho doanh thu chưa lập hóa đơn.
-2. Sự chấp thuận cuối cùng đối với mục nhập thời gian khiến hai thực tế được tạo ra: một cho chi phí và một cho doanh số bán hàng chưa lập hóa đơn.
+1. Gửi một mục nhập thời gian sẽ tạo ra hai dòng nhật ký kế toán: một cho chi phí và một cho doanh số chưa lập hóa đơn.
+2. Việc phê duyệt mục nhập thời gian sẽ tạo ra hai thực tế: một cho chi phí và một cho doanh số chưa lập hóa đơn.
 3. Khi người dùng tạo một hóa đơn dự án, giao dịch dòng hóa đơn được tạo bằng cách sử dụng dữ liệu từ thực tế doanh số chưa lập hóa đơn.
 4. Khi hóa đơn được xác nhận, hai thực tế mới được tạo ra: một đảo ngược doanh số chưa lập hóa đơn và thực tế doanh số đã lập hóa đơn.
 
-Mỗi sự kiện trong quy trình xử lý này sẽ kích hoạt việc tạo các bản ghi trong thực thể gốc Giao dịch để giúp xây dựng dấu vết về mối quan hệ giữa các bản ghi này được tạo qua mục nhập thời gian, dòng nhật ký, thực tế và chi tiết dòng hóa đơn.
+Mỗi sự kiện trong quy trình làm việc xử lý này sẽ kích hoạt việc tạo các bản ghi trong thực thể Nguồn giao dịch để để giúp xây dựng một dấu vết của mối quan hệ giữa các hồ sơ được tạo ra trên mục nhập thời gian, dòng nhật ký kế toán, số liệu thực tế và chi tiết mô tả hóa đơn.
 
 Bảng sau hiển thị các bản ghi trong thực thể nguồn gốc giao dịch cho luồng công việc trước đó.
 
@@ -70,8 +70,8 @@ Bảng sau hiển thị các bản ghi trong thực thể nguồn gốc giao d�
 | GUID hóa đơn sửa chữa      | Hóa đơn                  | GUID thực tế doanh số chưa lập hóa đơn mới    | Thực tế                            |                          |
 
 
-Hình minh họa sau đây cho thấy các liên kết được tạo giữa thực tế và nguồn của chúng tại các sự kiện khác nhau bằng cách sử dụng ví dụ về các mục thời gian trong Hoạt động dự án.
+Hình minh họa sau đây cho thấy các liên kết được tạo ra giữa các loại số liệu thực tế khác nhau và nguồn của chúng tại các sự kiện khác nhau bằng cách sử dụng ví dụ về mục nhập thời gian trong Project Operations.
 
-> ![Cách các thực tế được liên kết với các bản ghi nguồn trong Hoạt động Dự án.](media/TransactionOrigins.png)
+> ![Cách các số liệu thực tế được liên kết tới bản ghi nguồn trong Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

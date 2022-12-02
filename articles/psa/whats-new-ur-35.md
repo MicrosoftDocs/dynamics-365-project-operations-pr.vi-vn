@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 35, V3
-description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Cập nhật Bản phát hành 35, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Bản phát hành cập nhật 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8912864"
 
 Chúng tôi vui mừng được công bố bản cập nhật mới nhất cho ứng dụng Microsoft Dynamics 365 Project Service Automation. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập trang giải pháp trực tuyến Trung tâm quản trị cho Dynamics 365 và cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Bản phát hành bản cập nhật tự động hóa dịch vụ dự án 35, V3. Phiên bản này có số bản dựng là V3.10.56.110 và thường có sẵn thông qua bản tự cập nhật vào tháng 9 năm 2021.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation, Bản phát hành cập nhật 35, V3. Phiên bản này có số bản dựng là V3.10.56.110 và thường có sẵn thông qua bản tự cập nhật vào tháng 9 năm 2021.
 
 ## <a name="update-release-35"></a>Bản phát hành cập nhật 35
 

@@ -1,6 +1,6 @@
 ---
 title: Thu hồi thuế GTGT trong quản lý chi phí
-description: Bài viết này giải thích cách nhận tiền hoàn lại cho các giao dịch đủ điều kiện về thuế giá trị gia tăng (VAT).
+description: Bài viết giải thích cách nhận tiền hoàn lại cho các giao dịch đủ điều kiện về thuế giá trị gia tăng (VAT).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

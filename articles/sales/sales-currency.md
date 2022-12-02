@@ -1,6 +1,6 @@
 ---
 title: Tiền tệ
-description: Bài viết này cung cấp thông tin về cách thêm và loại bỏ các loại tiền tệ trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách thêm và loại bỏ các loại tiền tệ trong Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

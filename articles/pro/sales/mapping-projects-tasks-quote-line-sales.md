@@ -1,6 +1,6 @@
 ---
 title: Ánh xạ dự án và tác vụ với mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách ánh xạ các dự án và nhiệm vụ thành một dòng nhiệm vụ dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách ánh xạ các dự án và tác vụ thành một mô tả tác vụ dựa trên dự án.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình các thành phần có thể tính phí của một dòng mô tả báo giá theo dự án
-description: Bài viết này cung cấp thông tin về các thành phần được bao gồm, có thể tính phí và không tính phí trên các dòng báo giá dựa trên dự án.
+description: Bài viết này cung cấp thông tin về các thành phần được bao gồm, có thể tính phí và không thể tính phí trên các dòng mô tả báo giá theo dự án.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

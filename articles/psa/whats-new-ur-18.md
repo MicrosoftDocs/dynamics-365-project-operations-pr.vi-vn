@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 18, V3
-description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Bản phát hành cập nhật tự động hóa dịch vụ dự án 18, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có trong Bản phát hành cập nhật Project Service Automation 18, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8918890"
 
 Chúng tôi vui mừng thông báo bản cập nhật mới nhất dành cho ứng dụng Project Service Automation của Dynamics 365. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản phát hành này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập vào Trung tâm quản trị cho Dynamics 365 trực tuyến, rồi chuyển đến trang giải pháp để cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Tự động hóa dịch vụ dự án V3, Bản phát hành cập nhật 18. Phiên bản này có số bản dựng là V3.10.8.12 và thường có sẵn thông qua bản tự cập nhật vào tháng 4 năm 2020.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation V3, Bản phát hành cập nhật 18. Phiên bản này có số bản dựng là V3.10.8.12 và thường có sẵn thông qua bản tự cập nhật vào tháng 4 năm 2020.
 
 ## <a name="update-release-18"></a>Phát hành bản cập nhật 18
 

@@ -1,6 +1,6 @@
 ---
 title: Dự án ước tính doanh thu giá cố định
-description: Bài viết này cung cấp thông tin về doanh thu giá cố định trong các dự án.
+description: Bài viết này cung cấp thông tin về doanh thu giá cố định trong dự án.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Khi bạn tạo một dòng hợp đồng với những thuộc tính sau trong 
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Xem xét dự án ước tính doanh thu theo giá cố định
 Để xem xét dự án ước tính doanh thu theo giá cố định, hãy hoàn tất các bước sau:
 
-1. Trong môi trường Dynamics 365 Finance, hãy truy cập **Quản lý dự án và kế toán** > **Dự án** > **Dự toán doanh thu theo giá cố định**.
+1. Trong môi trường Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Dự án** > **Dự án ước tính doanh thu theo giá cố định**.
 2. Chọn dự án bạn muốn xem rồi bấm đúp vào **ID dự án ước tính** để mở bản ghi và xem xét chi tiết dự án.
 3. Mở rộng tab **Dự án**. Bạn sẽ thấy một dự án trong lưới **Dự án đã chọn**. Hệ thống sẽ dùng dự án này làm dự án mặc định vì đó là dự án liên kết với dòng hợp đồng dự án. 
 4. Để thay đổi mối liên kết này, hãy chọn các dự án bổ sung rồi thêm chúng vào lưới **Dự án đã chọn**. Nếu có nhiều dự án được chọn trong lưới này, mức phần trăm hoàn thành dự án và ước tính doanh thu sẽ được tính toán cùng lúc cho tất cả dự án đã chọn.

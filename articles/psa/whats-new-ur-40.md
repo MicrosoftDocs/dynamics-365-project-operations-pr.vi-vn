@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Bản phát hành cập nhật Project Service Automation 40, V3
-description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Cập nhật Bản phát hành 40, V3.
+description: Bài viết này liệt kê các tính năng và bản sửa lỗi có sẵn trong Microsoft Dynamics 365 Project Service Automation Bản phát hành cập nhật 40, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -29,12 +29,12 @@ ms.locfileid: "8912818"
 
 Chúng tôi vui mừng được công bố bản cập nhật mới nhất cho ứng dụng Microsoft Dynamics 365 Project Service Automation. Bản phát hành này bao gồm một số cải tiến quan trọng về chất lượng, hiệu suất và khả năng sử dụng. Bản này tương thích với Dynamics 365 9.x. Để cập nhật lên bản phát hành này, hãy truy cập trang giải pháp trực tuyến Trung tâm quản trị cho Dynamics 365 và cài đặt bản cập nhật. Để biết thêm thông tin, hãy xem [Cài đặt, cập nhật hoặc xóa giải pháp ưu tiên](/power-platform/admin/install-remove-preferred-solution).
 
-Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc được thay đổi cho Bản phát hành cập nhật tự động hóa dịch vụ dự án 40, V3. Phiên bản này có số bản dựng là V3.10.61.61 và thường có sẵn thông qua bản tự cập nhật vào tháng 2 năm 2022.
+Bài viết này liệt kê các tính năng và bản sửa lỗi mới hoặc đã thay đổi cho Project Service Automation, Bản phát hành cập nhật 40, V3. Phiên bản này có số bản dựng là V3.10.61.61 và thường ra mắt rộng rãi thông qua bản tự cập nhật vào tháng 2 năm 2022.
 
 ## <a name="update-release-40"></a>Phát hành bản cập nhật 40
 
 ### <a name="features"></a>Tính năng
-Giai đoạn 1 của quá trình nâng cấp từ Tự động hóa dịch vụ dự án lên Vận hành dự án - Lite sẽ được phát hành vào tháng 2 năm 2022 cho tất cả khách hàng. Để kiểm tra tính đủ điều kiện, hãy xem [Nâng cấp từ Tự động hóa dịch vụ dự án lên Vận hành dự án](upgrade-project-operations-non-stocked.md). Nếu ứng dụng không xuất hiện trong phiên bản của bạn trong Power Platform Trung tâm quản trị, liên hệ với bộ phận hỗ trợ và yêu cầu bật chuyến bay cho môi trường của bạn. Yêu cầu của bạn phải bao gồm danh sách ID môi trường mà chuyến bay cần được kích hoạt.
+Giai đoạn 1 của việc nâng cấp từ Project Service Automation lên Project Operations- Lite sẽ được phát hành vào tháng 2 năm 2022 cho tất cả khách hàng. Để kiểm tra tính đủ điều kiện, hãy xem [Nâng cấp từ Project Service Automation lên Project Operations](upgrade-project-operations-non-stocked.md). Nếu ứng dụng không xuất hiện trong phiên bản của bạn trong Trung tâm quản trị Power Platform, hãy liên hệ với bộ phận hỗ trợ và yêu cầu bật tính năng này cho môi trường của bạn. Yêu cầu của bạn phải bao gồm danh sách ID môi trường mà tính năng cần được kích hoạt.
 
 ### <a name="bug-fixes"></a>Sửa lỗi
 
@@ -45,5 +45,5 @@ Các vấn đề sau đã được khắc phục.
 
 **Bán hàng**
 
-- Khi bạn cập nhật ước tính chi phí hoặc doanh số bằng cách sử dụng các trình cắm bổ sung, bạn không được phép gửi các tải trọng JSON không hợp lệ ra bên ngoài giao diện người dùng.
-- Khi bạn cập nhật các dòng trích dẫn bằng cách sử dụng chế độ xem nhanh, bạn được phép kích hoạt các dòng trích dẫn.
+- Khi bạn cập nhật ước tính chi phí hoặc doanh số bằng cách sử dụng phần bổ trợ sẵn có, bạn không được phép gửi các tải trọng JSON không hợp lệ bên ngoài giao diện người dùng.
+- Khi bạn cập nhật mô tả báo giá bằng dạng xem nhanh, bạn được phép kích hoạt báo giá.

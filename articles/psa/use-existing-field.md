@@ -1,6 +1,6 @@
 ---
 title: Sử dụng trường hiện có trong Project Service làm thông số định giá
-description: Bài viết này cung cấp thông tin về việc sử dụng các trường Dịch vụ dự án hiện có làm thứ nguyên định giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng trường Project Service hiện có làm thông số định giá.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

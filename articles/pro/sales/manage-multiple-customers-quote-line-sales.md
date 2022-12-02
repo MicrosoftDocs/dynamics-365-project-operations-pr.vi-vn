@@ -1,6 +1,6 @@
 ---
 title: Quản lý nhiều khách hàng trên các mô tả báo giá dựa trên dự án - bản đơn giản
-description: Bài viết này mô tả cách quản lý nhiều khách hàng trên các dòng báo giá dựa trên dự án.
+description: Bài viết này mô tả cách quản lý nhiều khách hàng trên dòng báo giá dựa trên dự án.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

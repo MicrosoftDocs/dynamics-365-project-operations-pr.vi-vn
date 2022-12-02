@@ -17,7 +17,7 @@ ms.locfileid: "8911208"
 
 _**Áp dụng cho:** Project Operations cho các kịch bản dựa trên nguồn lực/không trữ kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá, Project for the web_
 
-Bài viết này cung cấp thông tin về điểm chuẩn hiệu suất của các giao diện lập trình ứng dụng (API) theo lịch dự án và xác định các phương pháp hay nhất để tối ưu hóa việc sử dụng.
+Bài viết này cung cấp thông tin về điểm chuẩn hiệu suất của các giao diện lập trình ứng dụng (API) theo lịch trình Dự án và xác định các phương pháp hay nhất để tối ưu hóa việc sử dụng.
 
 ## <a name="project-scheduling-service"></a>Dịch vụ lập lịch dự án
 Dịch vụ lập lịch dự án là một dịch vụ nhiều đối tượng thuê chạy trong Microsoft Azure. Nó được thiết kế để cải thiện sự tương tác bằng cách cung cấp trải nghiệm nhanh chóng và linh hoạt khi người dùng làm việc trong các dự án. Cải tiến này đạt được bằng cách chấp nhận các yêu cầu thay đổi, xử lý chúng và sau đó trả lại kết quả ngay lập tức. Dịch vụ không đồng bộ vẫn tồn tại đến Dataverse và không chặn người dùng thực hiện các thao tác khác.

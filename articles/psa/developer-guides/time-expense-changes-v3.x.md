@@ -1,6 +1,6 @@
 ---
 title: Các thay đổi về thời gian và chi phí (Project Service Automation 3.x)
-description: Bài viết này cung cấp thông tin về các thay đổi giải pháp cho Thời gian và Chi phí.
+description: Bài viết này cung cấp thông tin về các thay đổi với giải pháp cho Thời gian và chi phí.
 author: makk
 ms.custom:
 - dyn365-projectservice

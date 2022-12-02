@@ -1,6 +1,6 @@
 ---
 title: Trang chủ phát triển (Project Service Automation 3.x)
-description: Bài viết này cung cấp các liên kết đến các bài báo cung cấp thông tin phát triển cho Dynamics 365 Project Service Automation (PSA) phiên bản 3.x.
+description: Bài viết này cung cấp liên kết đến bài viết chứa thông tin phát triển cho phiên bản Dynamics 365 Project Service Automation (PSA) 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8929010"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x cung cấp các tính năng mới, thực hiện các khả năng nền tảng mới và cải tiến các tính năng hiện có trong các lĩnh vực khác nhau. Các bài viết sau cung cấp thêm thông tin về những thay đổi được thực hiện trong phiên bản mới nhất của PSA:
+Dynamics 365 Project Service Automation 3.x cung cấp các tính năng mới, thực hiện các khả năng nền tảng mới và cải tiến các tính năng hiện có trong các lĩnh vực khác nhau. Các bài viết sau cung cấp thêm thông tin về các thay đổi được thực hiện trong phiên bản mới nhất của PSA:
 
 - [Thay đổi thực thể, kiểm soát và giao diện người dùng (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Các thay đổi về thời gian và chi phí (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

@@ -1,6 +1,6 @@
 ---
 title: Hợp đồng dự án - Khái niệm chính
-description: Bài viết này cung cấp thông tin về các khái niệm chính của hợp đồng dự án trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về các khái niệm chính của hợp đồng dự án trong Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 
-Bài viết này cung cấp các khái niệm chính cần biết trước khi bạn bắt đầu sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
+Bài viết này cung cấp những khái nhiệm chính cần lưu ý trước khi sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Công ty sở hữu
 
-Công ty sở hữu là pháp nhân từ **Quản lý dự án và kế toán** mô-đun cho Hoạt động Dự án từ Dynamics 365 Finance. Công ty sở hữu đại diện cho pháp nhân sẽ chịu trách nhiệm đối với chi phí và doanh thu tích lũy từ một thỏa thuận.
+Công ty sở hữu là pháp nhân ở mô-đun **Quản lý dự án và kế toán** cho Project Operations từ Dynamics 365 Finance. Công ty sở hữu đại diện cho pháp nhân sẽ chịu trách nhiệm đối với chi phí và doanh thu tích lũy từ một thỏa thuận.
 
 ## <a name="contracting-unit"></a>Đơn vị Hợp đồng
 

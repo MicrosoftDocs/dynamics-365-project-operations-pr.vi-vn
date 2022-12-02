@@ -1,6 +1,6 @@
 ---
 title: Xác nhận hóa đơn ước giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về việc xác nhận hóa đơn dựa trên dự án chiếu lệ.
+description: Bài viết này cung cấp thông tin về việc xác nhận hóa đơn ước giá dựa trên dự án.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

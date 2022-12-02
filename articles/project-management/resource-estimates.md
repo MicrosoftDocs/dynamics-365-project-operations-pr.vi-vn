@@ -1,6 +1,6 @@
 ---
 title: Dự toán tài chính về thời gian nguồn lực cho dự án
-description: Bài viết này cung cấp thông tin về cách tính các ước tính tài chính cho thời gian.
+description: Bài viết này cung cấp thông tin về cách tính các dự toán tài chính cho thời gian.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

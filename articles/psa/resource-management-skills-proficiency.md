@@ -1,6 +1,6 @@
 ---
 title: Các mô hình kỹ năng và mức độ thành thạo
-description: Bài viết này cung cấp thông tin về cách sử dụng các kỹ năng và mô hình thành thạo.
+description: Bài viết này cung cấp thông tin về cách sử dụng các mô hình kỹ năng và mức độ thành thạo.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

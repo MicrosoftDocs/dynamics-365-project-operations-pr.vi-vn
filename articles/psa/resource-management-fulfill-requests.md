@@ -1,6 +1,6 @@
 ---
 title: Thực hiện yêu cầu nguồn lực
-description: Bài viết này cung cấp thông tin về cách đáp ứng các yêu cầu về tài nguyên.
+description: Bài viết này cung cấp thông tin về cách thực hiện yêu cầu nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

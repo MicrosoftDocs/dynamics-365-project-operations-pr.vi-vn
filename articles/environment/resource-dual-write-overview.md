@@ -1,6 +1,6 @@
 ---
 title: Tích hợp ghi kép của Project Operations
-description: Bài viết này cung cấp tổng quan về tích hợp ghi kép Hoạt động dự án.
+description: Bài viết này cung cấp tổng quan về tích hợp ghi kép của Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927998"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Các hoạt động dự án sử dụng [khả năng ghi kép](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) để đồng bộ hóa dữ liệu trên Microsoft Dataverse và Dynamics 365 Finance.
+Project Operations sử dụng [tính năng ghi kép](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) để đồng bộ hóa dữ liệu trên Microsoft Dataverse và Dynamics 365 Finance.
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa như một phần của tích hợp này giữa Dataverse và Tài chính.
 

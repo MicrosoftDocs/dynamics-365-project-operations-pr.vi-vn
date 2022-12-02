@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về trợ lý lịch trình
-description: Bài viết này cung cấp thông tin về cách làm việc với Trợ lý lịch biểu để đặt trước tài nguyên.
+description: Bài viết này cung cấp thông tin về cách làm việc với Trợ lý lịch trình để đặt nguồn lực.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

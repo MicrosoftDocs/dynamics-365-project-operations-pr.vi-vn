@@ -1,6 +1,6 @@
 ---
 title: Nhập số liệu ước tính vào phần mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về cách nhập các ước tính tài chính từ một dự án vào một dòng hợp đồng.
+description: Bài viết này cung cấp thông tin về việc nhập giá trị ước tính tài chính từ dự án vào mục mô tả hợp đồng.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

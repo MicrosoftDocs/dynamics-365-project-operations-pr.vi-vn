@@ -1,6 +1,6 @@
 ---
 title: Sử dụng loại giao dịch làm thông số định giá
-description: Bài viết này cung cấp thông tin về việc sử dụng danh mục giao dịch làm thứ nguyên định giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng loại giao dịch làm thông số định giá.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915762"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bài viết này cho biết cách sử dụng danh mục giao dịch làm thứ nguyên định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thứ nguyên đặt giá mới cho tổ chức của mình, hãy hoàn tất các thủ tục trong [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md) bài báo.
+Bài viết này trình bày cách sử dụng loại giao dịch làm thông số định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thông số định giá mới cho tổ chức của mình, hãy hoàn tất quy trình trong bài viết [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Thêm loại giao dịch vào biểu mẫu và chế độ xem
 Để làm cho loại giao dịch hiển thị trong giao diện người dùng trong giải pháp thông số định giá, bạn cần tìm hiểu tất cả các biểu mẫu và chế độ xem của các thực thể chính và thêm các trường này vào biểu mẫu cũng như chế độ xem của các thực thể đó.

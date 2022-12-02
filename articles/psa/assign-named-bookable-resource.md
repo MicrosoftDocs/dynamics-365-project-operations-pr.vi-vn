@@ -1,6 +1,6 @@
 ---
 title: Đặt trước nguồn lực có thể đặt lịch có tên cho nhóm dự án và chỉ định nhiệm vụ
-description: Bài viết này cung cấp thông tin về cách đặt tài nguyên đã đặt tên cho các nhóm dự án và phân công chúng cho các nhiệm vụ.
+description: Bài viết này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho nhóm dự án và chỉ định nhiệm vụ cho nguồn lực.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

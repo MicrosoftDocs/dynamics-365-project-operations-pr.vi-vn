@@ -48,11 +48,11 @@ Nguồn lực của bạn có thể sử dụng ứng dụng Project Finder Mobi
   
 4. Đặt **Cho phép cập nhật kỹ năng theo nguồn lực** thành **Có**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Đây là một cài đặt toàn cầu. Người quản lý dự án có thể đặt có hiển thị từng dự án trên trang **Nhóm Dự án** của dự án đó hay không.  
   
-   ![ProjectService&#95; Dự án có thể chia sẻ.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Thông báo qua email  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] gửi email liên quan đến yêu cầu về nguồn lực cho những người nhận sau đây vào những thời điểm sau đây:  

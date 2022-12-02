@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về giá trị thực tế
-description: Bài báo này cung cấp thông tin về thực tế dự án.
+description: Bài viết này cung cấp thông tin về thực tế dự án.
 author: rumant
 ms.custom:
 - dyn365-projectservice

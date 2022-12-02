@@ -1,6 +1,6 @@
 ---
 title: Thiết lập bảng giá
-description: Bài viết này cung cấp thông tin về cách thiết lập bảng giá vốn và giá bán.
+description: Bài viết này cung cấp thông tin về cách thiết lập bảng giá vốn và bảng giá bán hàng.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

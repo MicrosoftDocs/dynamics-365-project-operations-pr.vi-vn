@@ -1,6 +1,6 @@
 ---
 title: Thành viên nhóm dự án
-description: Bài viết này cung cấp thông tin về cách làm việc với thông tin thành viên nhóm dự án, thuộc tính và lập lịch.
+description: Bài viết này cung cấp thông tin về cách làm việc với thông tin thành viên nhóm dự án, thuộc tính và lập lịch trình.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

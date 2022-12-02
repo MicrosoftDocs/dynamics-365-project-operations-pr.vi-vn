@@ -1,6 +1,6 @@
 ---
 title: Xác định các yêu cầu về nguồn lực
-description: Bài viết này cung cấp thông tin về việc xác định thông tin yêu cầu tài nguyên.
+description: Bài viết này cung cấp thông tin về cách xác định thông tin yêu cầu nguồn lực.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

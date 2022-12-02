@@ -1,6 +1,6 @@
 ---
 title: Dự báo và ngân sách dự án
-description: Microsoft Dynamics 365 Finance cung cấp dự báo dự án và ngân sách dự án để quản lý và kiểm soát các dự án của bạn.
+description: Microsoft Dynamics 365 Finance cung cấp tính năng dự báo và ngân sách dự án để quản lý và kiểm soát dự án của bạn.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Tùy chỉnh mục nhập thời gian hàng tuần
-description: Bài viết này cung cấp thông tin về cách triển khai các quy tắc kinh doanh tùy chỉnh hỗ trợ thực tiễn của tổ chức.
+description: Bài viết này cung cấp thông tin về cách triển khai các quy tắc kinh doanh tùy chỉnh hỗ trợ cách thức của một tổ chức.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Phần **Thông số** hiển thị, như tiêu đề cột, tất cả các th�
 - Loại
 - Trạng thái mục nhập
 
-Phần **Thông số** không cho phép chỉnh sửa nội tuyến. Phần này được hỗ trợ bởi một dạng xem cho phép thêm các trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần. Để biết thông tin về cách thêm trường tùy chỉnh, hãy xem phần "Khả năng mở rộng" ở phần sau của bài viết này.
+Phần **Thông số** không cho phép chỉnh sửa nội tuyến. Phần này được hỗ trợ bởi một dạng xem cho phép thêm các trường tùy chỉnh vào lưới mục nhập thời gian hàng tuần. Để biết thông tin về cách thêm trường tùy chỉnh, hãy xem phần "Khả năng mở rộng" sau trong bài viết này.
 
 ### <a name="duration"></a>Thời lượng
 Phần Thời gian hiển thị các ngày trong tuần dưới dạng tiêu đề cột. Phần này cho phép chỉnh sửa nội tuyến. Sau khi hàng mục nhập thời gian được tạo có các thông số phù hợp, người dùng có thể nhanh chóng nhập nội tuyến khoảng thời gian mà họ đã dành cho các thông số đó.

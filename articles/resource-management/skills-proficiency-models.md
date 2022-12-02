@@ -1,6 +1,6 @@
 ---
 title: Kỹ năng và chứng chỉ
-description: Bài viết này cung cấp thông tin về việc thêm các đặc điểm kỹ năng và chứng chỉ vào tài nguyên.
+description: Bài viết này cung cấp thông tin về cách thêm các đặc tính của chứng chỉ và kỹ năng vào nguồn lực.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

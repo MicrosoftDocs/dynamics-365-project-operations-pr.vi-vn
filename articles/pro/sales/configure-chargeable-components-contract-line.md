@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách thêm các thành phần có thể tính phí vào các dòng hợp đồng trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách thêm các thành phần có thể tính phí vào mục mô tả hợp đồng trong Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Đăng ký không chắc chắn yêu cầu
-description: Bài viết này cung cấp thông tin về cách yêu cầu sách mềm.
+description: Bài viết này cung cấp thông tin về cách đăng ký không chắc chắn yêu cầu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

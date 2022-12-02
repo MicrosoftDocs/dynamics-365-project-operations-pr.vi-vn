@@ -1,6 +1,6 @@
 ---
 title: Tiêu chuẩn đi lại
-description: Bài viết này cung cấp thông tin về điều kiện đi lại.
+description: Bài viết này cung cấp thông tin về các tiêu chuẩn đi lại.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

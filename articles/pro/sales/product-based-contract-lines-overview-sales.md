@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về mô tả hợp đồng dựa trên sản phẩm - bản đơn giản
-description: Bài viết này cung cấp thông tin về các dòng hợp đồng dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về mô tả hợp đồng dựa trên sản phẩm.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

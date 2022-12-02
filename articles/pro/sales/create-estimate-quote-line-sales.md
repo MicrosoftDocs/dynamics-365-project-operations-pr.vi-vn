@@ -1,6 +1,6 @@
 ---
 title: Ước tính mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách tạo ước tính trên dòng báo giá dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách tạo ước tính trên mô tả báo giá dựa trên dự án.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

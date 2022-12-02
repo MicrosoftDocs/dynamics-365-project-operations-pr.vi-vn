@@ -1,6 +1,6 @@
 ---
 title: Trang chủ hoạch định dự án
-description: Bài báo này cung cấp thông tin về lập kế hoạch dự án.
+description: Bài viết này cung cấp thông tin về việc hoạch định dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Các công cụ quản lý dự án trong PSA giúp bạn dễ dàng chạy các
 - Dự báo yêu cầu nguồn lực cho dự án đang trong quy trình bán hàng.
 - Cung cấp thành công dự án bằng theo dõi tiến độ và mức sử dụng chi phí.
 
-Các bài viết sau cung cấp thông tin sẽ giúp các nhà quản lý dự án ước tính công việc, ước tính chi phí dự án và dự báo các yêu cầu về nguồn lực bằng cách sử dụng các công cụ được hỗ trợ trong PSA:
+Các bài viết sau cung cấp thông tin sẽ giúp người quản lý dự án ước tính công việc, ước tính chi phí dự án và yêu cầu nguồn lực dự báo bằng cách sử dụng các công cụ được hỗ trợ trong PSA:
 
 - [Tạo lịch trình](project-creating.md)
 - [Ước tính chi phí và doanh thu dự án](project-estimating.md)

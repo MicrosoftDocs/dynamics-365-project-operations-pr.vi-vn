@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về thời gian làm việc của nguồn lực
-description: Bài viết này cung cấp thông tin về việc sử dụng tài nguyên trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách sử dụng nguồn lực trong Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Số liệu ước tính cho phần mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về ước tính dây chuyền hợp đồng dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách đưa ra ước tính trong phần mô tả hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

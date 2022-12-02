@@ -1,6 +1,6 @@
 ---
 title: Điều hòa đăng ký và phân công
-description: Bài viết này cung cấp thông tin về thực tế.
+description: Bài viết này cung cấp thông tin về số liệu thực tế.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Quản lý bảng giá dự án trên hợp đồng dự án
-description: Bài viết này cung cấp thông tin về quản lý bảng giá dự án trên hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về cách quản lý bảng giá dự án trên hợp đồng dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

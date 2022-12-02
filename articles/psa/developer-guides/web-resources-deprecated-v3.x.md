@@ -1,6 +1,6 @@
 ---
 title: Các tài nguyên web không dùng nữa trong Project Service Automation 3.x
-description: Bài viết này mô tả các tài nguyên web không còn được sử dụng trong Dynamics 365 Project Service Automation 3.0.
+description: Bài viết này mô tả các tài nguyên web không còn dùng nữa trong Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

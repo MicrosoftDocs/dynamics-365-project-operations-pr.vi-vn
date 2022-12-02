@@ -1,6 +1,6 @@
 ---
 title: Thiết lập và sử dụng các khoản thanh toán của nhà cung cấp trả khi được trả tiền
-description: Bài viết này giải thích cách tạo điều khoản thanh toán khi thanh toán (PWP) để bạn có thể giải phóng các khoản thanh toán một phần của nhà cung cấp, dựa trên các khoản thanh toán của khách hàng.
+description: Bài viết này giải thích cách tạo các điều khoản trả khi được trả tiền (PWP) để bạn có thể giải phóng một phần khoản thanh toán cho nhà cung cấp, dựa trên các khoản thanh toán của khách hàng.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Thiết đặt hợp đồng dự án
-description: Bài viết này cung cấp thông tin về các trường ảnh hưởng đến các dòng hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
+description: Bài viết này cung cấp thông tin về các trường ảnh hưởng đến các mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921604"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các cài đặt ảnh hưởng đến tất cả các dòng hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
+Bài viết này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
 Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
 

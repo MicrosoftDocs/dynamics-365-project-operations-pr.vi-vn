@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn cơ bản về báo giá, định giá và lập hóa đơn
-description: Bài viết này cung cấp các liên kết đến thông tin về báo giá, định giá và thanh toán cơ bản trong Tự động hóa dịch vụ dự án.
+description: Bài viết này cung cấp liên kết đến thông tin về trích dẫn, định giá và thanh toán cơ bản trong Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -50,7 +50,7 @@ Liên kết PDF trước đây trong bài viết này đã bị xóa và nội d
 - [Ghi thực tế](../advanced-actuals.md)
 
 > [!NOTE]
-> Bài viết này sẽ bị xóa trong một bản cập nhật tài liệu trong tương lai. 
+> Bài viết này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

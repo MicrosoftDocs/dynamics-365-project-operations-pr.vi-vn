@@ -1,6 +1,6 @@
 ---
 title: Sử dụng tài nguyên có thể đặt lịch làm phương diện giá
-description: Bài viết này cung cấp thông tin về cách sử dụng tài nguyên có thể đặt trước làm thứ nguyên định giá.
+description: Bài viết này cung cấp thông tin về cách sử dụng nguồn lực có thể đặt lịch làm phương diện định giá.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916130"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bài viết này cung cấp thông tin về cách sử dụng tài nguyên có thể đặt trước làm thứ nguyên định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thứ nguyên đặt giá mới cho tổ chức của mình, hãy hoàn tất các thủ tục trong [Tạo các trường và thực thể tùy chỉnh](create-custom-fields-entities.md) bài báo.
+Bài viết này cung cấp thông tin về cách sử dụng nguồn lực có thể đặt lịch làm phương diện định giá. Trước khi bạn bắt đầu, nếu chưa tạo giải pháp thông số định giá, bạn cần tạo một giải pháp mới. Nếu đã có giải pháp cho thông số định giá, bạn có thể thay đổi giải pháp đó. Nếu bạn chưa tạo giải pháp thông số định giá mới cho tổ chức của mình, hãy hoàn tất quy trình trong bài viết [Tạo trường và thực thể tùy chỉnh](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Thêm nguồn lực có thể đặt lịch vào biểu mẫu và dạng xem
 Để làm cho các trường hiển thị trong giao diện người dùng trong giải pháp phương diện định giá, bạn sẽ cần tìm hiểu tất cả các biểu mẫu và chế độ xem của các thực thể Project Service chính và thêm các trường này vào biểu mẫu cũng dạng xem của các thực thể đó.

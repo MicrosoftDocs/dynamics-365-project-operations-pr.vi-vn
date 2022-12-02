@@ -1,6 +1,6 @@
 ---
 title: Quản lý nguồn lực
-description: Bài viết này cung cấp thông tin về cách bạn có thể quản lý tài nguyên.
+description: Bài viết này cung cấp thông tin về cách bạn có thể quản lý nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

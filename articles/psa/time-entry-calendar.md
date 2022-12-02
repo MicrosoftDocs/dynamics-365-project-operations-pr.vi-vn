@@ -1,6 +1,6 @@
 ---
 title: Lịch mục nhập thời gian
-description: Bài viết này cung cấp thông tin về cách sử dụng lịch nhập thời gian.
+description: Bài viết này cung cấp thông tin về cách sử dụng lịch mục nhập thời gian.
 author: rumant
 ms.custom:
 - dyn365-projectservice

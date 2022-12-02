@@ -1,6 +1,6 @@
 ---
 title: Chấp nhận hoặc từ chối nguồn lực dự án đề xuất
-description: Bài viết này cung cấp thông tin về cách phê duyệt hoặc từ chối một nguồn dự án được đề xuất.
+description: Bài viết này cung cấp thông tin về cách phê duyệt hoặc từ chối nguồn lực dự án đề xuất.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916222"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Bài viết này cung cấp thông tin về cách phê duyệt hoặc từ chối một nguồn dự án được đề xuất.
+Bài viết này cung cấp thông tin về cách phê duyệt hoặc từ chối nguồn lực dự án đề xuất.
 
 Khi người quản lý nguồn lực đề xuất tài nguyên được đặt tên để điền vào yêu cầu nguồn lực cho một dự án, trường **Trạng thái yêu cầu** cho thành viên nhóm chung sẽ được cập nhật thành **Cần đánh giá**. Yêu cầu sẽ được gửi đến người quản lý dự án để phê duyệt hoặc từ chối.
 

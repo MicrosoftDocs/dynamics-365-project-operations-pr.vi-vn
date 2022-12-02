@@ -1,6 +1,6 @@
 ---
 title: Hóa đơn ước giá
-description: Bài viết này cung cấp thông tin về hóa đơn chiếu lệ trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về hóa đơn ước giá trong Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Khi bạn tạo một hóa đơn dự án nháp, tất cả giao dịch bán hà
 Chọn **Xác nhận** để xác nhận hóa đơn. Hành động Xác nhận là hành động một chiều. khi bạn chọn **Xác nhận**, hệ thống đặt hóa đơn ở chế độ chỉ đọc và tạo doanh số bán hàng thực tế đã lập hóa đơn từ mỗi chi tiết mô tả hóa đơn cho mỗi mô tả hóa đơn. Nếu chi tiết mô tả hóa đơn tham chiếu doanh số bán hàng thực tế chưa lập hóa đơn, thì hệ thống cũng đảo ngược doanh số bán hàng thực tế chưa lập hóa đơn đó. (Mọi chi tiết mô tả hóa đơn được tạo từ mục nhập thời gian hoặc chi phí sẽ tham chiếu doanh số bán hàng thực tế chưa được lập hóa đơn). Các hệ thống tích hợp sổ cái chung có thể dùng đảo ngược này để đảo ngược công việc dự án đang tiến hành (WIP) cho mục đích kế toán.
 
 > [!NOTE]
-> Không thể chỉnh sửa hoặc xóa các hóa đơn chiếu lệ đã xác nhận và các bản ghi liên quan như dòng hóa đơn và dòng hóa đơn. 
+> Không thể chỉnh sửa hoặc xóa các hóa đơn ước giá đã xác nhận và các bản ghi liên quan như mô tả hóa đơn và chi tiết mô tả hóa đơn. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Sửa hóa đơn đã xác nhận
 

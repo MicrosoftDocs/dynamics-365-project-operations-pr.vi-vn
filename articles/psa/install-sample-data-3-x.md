@@ -1,6 +1,6 @@
 ---
 title: Cài đặt dữ liệu mẫu
-description: Bài viết này cung cấp thông tin về cách cài đặt dữ liệu mẫu trong Tự động hóa dịch vụ dự án.
+description: Bài viết này cung cấp thông tin về việc cài đặt dữ liệu mẫu trong Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

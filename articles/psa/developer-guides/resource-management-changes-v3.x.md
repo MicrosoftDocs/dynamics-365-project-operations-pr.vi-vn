@@ -1,6 +1,6 @@
 ---
 title: Thay đổi quản lý nguồn lực (Project Service Automation 3.x)
-description: Bài viết này cung cấp thông tin về những thay đổi đối với khu vực quản lý Tài nguyên.
+description: Bài viết này cung cấp thông tin về các thay đổi cho Khu vực quản lý nguồn lực.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916038"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Các phần của bài viết này cung cấp thông tin về những thay đổi đã được thực hiện đối với khu vực quản lý Tài nguyên của Dynamics 365 Project Service Automation phiên bản 3.x.
+Các phần của bài viết này cung cấp thông tin về những thay đổi đã được thực hiện cho Khu vực quản lý nguồn lực của phiên bản Dynamics 365 Project Service Automation 3.x.
 
 ## <a name="project-estimates"></a>Ước tính dự án
 

@@ -1,6 +1,6 @@
 ---
 title: Phân tích báo giá dự án
-description: Bài báo này cung cấp thông tin về phân tích báo giá dự án.
+description: Bài viết này cung cấp thông tin về phân tích báo giá dự án.
 author: rumant
 ms.custom:
 - dyn365-projectservice

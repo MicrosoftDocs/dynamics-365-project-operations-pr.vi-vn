@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình hóa đơn liên công ty
-description: Bài viết này cung cấp thông tin và ví dụ về cách định cấu hình lập hóa đơn liên công ty cho các dự án.
+description: Bài viết này cung cấp thông tin và ví dụ về cách thiết lập cấu hình hóa đơn liên công ty cho các dự án.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Trong ví dụ sau, Contoso Robotics USA (USPM) là pháp nhân đi thuê và Co
 
 1. **Đặt cấu hình kế toán liên công ty giữa các pháp nhân**. Mỗi cặp pháp nhân đi thuê và cho thuê phải được đặt cấu hình trên Sổ cái chung của trang [Kế toán liên công ty](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. Trong Dynamics 365 Finance, hãy truy cập **Sổ cái** > **Thiết lập đăng bài** > **Kế toán liên công ty**. Tạo một bản ghi chứa những thông tin sau:
+    1. Trong Dynamics 365 Finance, hãy đi tới **Sổ cái chung** > **Thiết lập đăng** > **Kế toán liên công ty**. Tạo một bản ghi chứa những thông tin sau:
 
         - **Công ty bắt nguồn** = **GBPM**
         - **Công ty đích** = **USPM**

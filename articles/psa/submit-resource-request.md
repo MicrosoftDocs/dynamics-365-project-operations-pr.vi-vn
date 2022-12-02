@@ -1,6 +1,6 @@
 ---
 title: Gửi yêu cầu nguồn lực
-description: Bài viết này cung cấp thông tin về việc gửi yêu cầu tài nguyên dự án.
+description: Bài viết này cung cấp thông tin về việc gửi yêu cầu cho một nguồn lực dự án.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

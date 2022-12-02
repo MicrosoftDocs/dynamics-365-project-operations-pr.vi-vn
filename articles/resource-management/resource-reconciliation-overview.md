@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về điều hòa nguồn lực
-description: Bài viết này cung cấp thông tin sẽ giúp bạn đảm bảo rằng việc sắp xếp và phân công tài nguyên cho các dự án là phù hợp.
+description: Bài viết này cung cấp thông tin để giúp bạn đảm bảo rằng các lượt đăng ký và chỉ định nguồn lực của dự án thống nhất với nhau.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

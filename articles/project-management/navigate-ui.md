@@ -1,6 +1,6 @@
 ---
 title: Điều hướng giao diện người dùng
-description: Bài viết này cung cấp thông tin về quản lý Dự án trong hoạt động Dự án Dynamics 365.
+description: Bài viết này cung cấp thông tin về Quản lý dự án trong Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Bảng giá sản phẩm
-description: Bài viết này cung cấp thông tin về các bảng giá trong định giá theo danh mục được sử dụng cho các báo giá và hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về bảng giá khi định giá theo danh mục, được sử dụng cho báo giá và hợp đồng dự án.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Xác định vai trò
-description: Bài viết này cung cấp một liên kết đến thông tin về cách thiết lập các danh mục tài nguyên có thể đặt trước.
+description: Bài viết này cung cấp đường liên kết đến thông tin về cách thiết lập danh mục nguồn lực đăng ký được.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

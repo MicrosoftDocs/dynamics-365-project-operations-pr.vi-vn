@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về giữ chân nhà cung cấp
-description: Bài viết này cung cấp tổng quan về khả năng giữ chân của nhà cung cấp.
+description: Bài viết này cung cấp một cái nhìn tổng quan về khả năng giữ chân nhà cung cấp.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

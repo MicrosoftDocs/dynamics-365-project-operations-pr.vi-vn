@@ -1,6 +1,6 @@
 ---
 title: Triển khai trường tùy chỉnh cho ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên iOS và Android
-description: Bài viết này cung cấp các mẫu phổ biến để sử dụng tiện ích mở rộng để triển khai các trường tùy chỉnh.
+description: Bài viết này cung cấp các mẫu hình phổ biến để sử dụng tiện ích mở rộng để triển khai trường tùy chỉnh.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,16 +26,16 @@ ms.locfileid: "8913738"
 
 [!include [banner](../includes/banner.md)]
 
-Bài viết này cung cấp các mẫu phổ biến để sử dụng tiện ích mở rộng để triển khai các trường tùy chỉnh. Các bài viết sau được đề cập:
+Bài viết này cung cấp các mẫu hình phổ biến để sử dụng tiện ích mở rộng để triển khai trường tùy chỉnh. Các bài viết sau đây được đề cập:
 
 - Các loại dữ liệu khác nhau mà khuôn khổ trường tùy chỉnh hỗ trợ
 - Cách hiển thị trường chỉ đọc hoặc trường có thể chỉnh sửa trên các mục nhập trong bảng chấm công và lưu giá trị do người dùng cung cấp trở lại cơ sở dữ liệu
 - Cách hiển thị trường chỉ đọc trong phần thông tin cơ bản về bảng chấm công
 - Cách tích hợp logic nghiệp vụ tùy chỉnh khác để nhập giá trị mặc định vào các trường và thực hiện xác thực bổ sung
 
-## <a name="audience"></a>Đối tượng
+## <a name="audience"></a>Khán giả
 
-Bài viết này dành cho các nhà phát triển đang tích hợp các trường tùy chỉnh của họ vào Microsoft Dynamics 365 Project Timesheet ứng dụng di động có sẵn cho Apple iOS và Google Android. Chúng tôi giả định là người đọc đã quen thuộc với chức năng phát triển X++ và bảng chấm công dự án.
+Bài viết này được biên soạn cho các nhà phát triển tích hợp trường tùy chỉnh của họ vào ứng dụng Microsoft Dynamics 365 Project Timesheet dành cho thiết bị di động trên Apple iOS và Google Android. Chúng tôi giả định là người đọc đã quen thuộc với chức năng phát triển X++ và bảng chấm công dự án.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Hợp đồng dữ liệu – lớp TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Thuộc tính **FieldBaseType** trên đối tượng **TsTimesheetCustom** xác
 
 - Nếu thuộc tính **stringOptions** được cung cấp trên đối tượng **TSTimesheetCustomField**, thì các phần tử danh sách đó là những giá trị duy nhất mà người dùng có thể chọn bằng các nút tùy chọn (nút radio).
 
-    Trong trường hợp này, trường chuỗi có thể đóng vai trò như một giá trị enum để người dùng nhập. Để lưu giá trị vào cơ sở dữ liệu dưới dạng enum, hãy ánh xạ thủ công giá trị chuỗi trở lại giá trị enum trước khi bạn lưu vào cơ sở dữ liệu bằng cách sử dụng chuỗi lệnh (xem phần "Sử dụng chuỗi lệnh trên lớp TSTimesheetEntryService để lưu mục nhập bảng chấm công từ ứng dụng quay lại cơ sở dữ liệu "phần sau của bài viết này để làm ví dụ).
+    Trong trường hợp này, trường chuỗi có thể đóng vai trò như một giá trị enum để người dùng nhập. Để lưu giá trị vào cơ sở dữ liệu dưới dạng enum, hãy ánh xạ thủ công giá trị chuỗi trở lại giá trị enum trước khi bạn lưu vào cơ sở dữ liệu bằng chuỗi lệnh (hãy xem ví dụ trong "Sử dụng chuỗi lệnh trên lớp TSTimesheetEntryService để lưu mục nhập bảng chấm công từ ứng dụng trở lại cơ sở dữ liệu" ở phần sau của bài viết này).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Thuộc tính này chỉ định nhãn được hiển thị bên cạnh trườ
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Danh sách chuỗi)
 
-Thuộc tính này chỉ áp dụng được khi **fieldBaseType** được đặt thành **Chuỗi**. Nếu **stringOptions** được đặt, thì các giá trị chuỗi có thể chọn thông qua nút tùy chọn (nút radio) sẽ được chỉ định bằng các chuỗi trong danh sách. Nếu không có chuỗi nào được cung cấp, mục nhập văn bản tự do trong trường chuỗi được phép (xem phần "Sử dụng chuỗi lệnh trên lớp TSTimesheetEntryService để lưu mục nhập bảng chấm công từ ứng dụng trở lại cơ sở dữ liệu" ở phần sau của bài viết này để làm ví dụ) .
+Thuộc tính này chỉ áp dụng được khi **fieldBaseType** được đặt thành **Chuỗi**. Nếu **stringOptions** được đặt, thì các giá trị chuỗi có thể chọn thông qua nút tùy chọn (nút radio) sẽ được chỉ định bằng các chuỗi trong danh sách. Nếu không có chuỗi nào được cung cấp, thì người dùng sẽ có thể nhập văn bản tự do trong trường chuỗi (xem "Sử dụng chuỗi lệnh trên lớp TSTimesheetEntryService để lưu mục nhập bảng chấm công từ ứng dụng trở lại cơ sở dữ liệu" ở phần sau của bài viết này).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

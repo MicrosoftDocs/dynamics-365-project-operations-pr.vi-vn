@@ -1,6 +1,6 @@
 ---
 title: Lịch trình dự án
-description: Bài viết này cung cấp thông tin về cách tạo lịch biểu.
+description: Bài viết này cung cấp thông tin về cách tạo lịch trình.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

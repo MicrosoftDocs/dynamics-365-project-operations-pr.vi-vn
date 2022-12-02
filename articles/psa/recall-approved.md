@@ -1,6 +1,6 @@
 ---
 title: Thu hồi các mục nhập thời gian hoặc chi phí đã được phê duyệt
-description: Bài viết này cung cấp thông tin về cách gọi lại giao dịch thời gian hoặc chi phí đã được phê duyệt trước đó.
+description: Bài viết này cung cấp thông tin về cách thu hồi giao dịch chi phí hoặc thời gian đã được phê duyệt trước đó.
 author: rumant
 ms.custom: ''
 ms.author: rumant

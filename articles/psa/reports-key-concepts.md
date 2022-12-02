@@ -1,6 +1,6 @@
 ---
 title: Khái niệm chính
-description: Bài viết này cung cấp thông tin về các khái niệm chính để quản lý tài nguyên trong Tự động hóa dịch vụ dự án.
+description: Bài viết này cung cấp thông tin về các khái niệm chính để quản lý nguồn lực trong Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

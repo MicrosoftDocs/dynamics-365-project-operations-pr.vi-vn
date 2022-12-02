@@ -1,6 +1,6 @@
 ---
 title: Các loại giai đoạn dự án
-description: Bài báo này cung cấp thông tin về các giai đoạn của dự án.
+description: Bài viết này cung cấp thông tin về các giai đoạn dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

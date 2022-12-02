@@ -1,6 +1,6 @@
 ---
 title: Tạo và áp dụng các điều khoản lưu giữ khoản thanh toán cho nhà cung cấp
-description: Bài viết này cung cấp thông tin về cách thiết lập và duy trì các điều khoản lưu giữ cho các khoản thanh toán của nhà cung cấp.
+description: Bài viết này cung cấp thông tin về cách thiết lập và duy trì các điều khoản lưu giữ đối với khoản thanh toán của nhà cung cấp.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

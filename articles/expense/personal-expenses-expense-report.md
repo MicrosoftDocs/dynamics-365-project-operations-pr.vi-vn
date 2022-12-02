@@ -1,6 +1,6 @@
 ---
 title: Làm việc với chi phí cá nhân trên báo cáo chi phí
-description: Bài viết này cung cấp thông tin về cách làm việc với các chi phí cá nhân mà nhân viên phát sinh khi đi công tác.
+description: Bài viết này cung cấp thông tin về cách làm việc với các chi phí cá nhân do nhân viên phát sinh khi đi công tác.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

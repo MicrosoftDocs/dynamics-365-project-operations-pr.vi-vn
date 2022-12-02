@@ -1,6 +1,6 @@
 ---
 title: Tạo lịch trình hóa đơn trên mục mô tả hợp đồng dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách tạo lịch hóa đơn và các mốc thời gian trên các dòng hợp đồng.
+description: Bài viết này cung cấp thông tin về cách tạo lịch trình hóa đơn và mốc trên mục mô tả hợp đồng.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

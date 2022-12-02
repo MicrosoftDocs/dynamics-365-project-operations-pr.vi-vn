@@ -1,6 +1,6 @@
 ---
 title: Chế độ lập lịch trình
-description: Bài viết này cung cấp thông tin về các chế độ lập lịch.
+description: Bài viết này cung cấp thông tin về chế độ lập lịch trình.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Khi xác định chế độ lập lịch trình của dự án, bạn đang thi
 | Nhiệm vụ nỗ lực cố định    | Khoảng thời gian được tính toán lại. | Các đơn vị được tính toán lại.    | Khoảng thời gian được tính toán lại. |
 | Nhiệm vụ khoảng thời gian cố định  | Nỗ lực được tính toán lại.   | Nỗ lực được tính toán lại.    | Các đơn vị được tính toán lại.   |
 
-Để biết thêm thông tin về tác động của một chế độ nhất định, hãy xem [Thay đổi loại nhiệm vụ để lập lịch chính xác hơn](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Trong bài báo, thuật ngữ **Công việc** được sử dụng thay vì **Cố gắng**.
+Để biết thêm thông tin về tác động của một chế độ nhất định, hãy xem [Thay đổi loại nhiệm vụ để lập lịch chính xác hơn](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Trong bài viết này, thuật ngữ **Công việc** được sử dụng thay cho **Nỗ lực**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Thay đổi chế độ lập lịch trình của tổ chức
 

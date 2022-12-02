@@ -1,6 +1,6 @@
 ---
 title: Tạo và cập nhật dự án
-description: Bài viết này cung cấp thông tin về việc cập nhật dự án Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách cập nhật dự án trong Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

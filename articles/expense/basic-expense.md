@@ -1,6 +1,6 @@
 ---
 title: Mục nhập chi phí (bản đơn giản)
-description: Bài viết này cung cấp thông tin về cách làm việc với mục nhập chi phí trong một triển khai nhỏ.
+description: Bài viết này cung cấp thông tin về cách làm việc với mục nhập chi phí trong một triển khai bản đơn giản.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

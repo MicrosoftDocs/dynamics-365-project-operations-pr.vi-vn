@@ -1,6 +1,6 @@
 ---
 title: Thay đổi thực thể, kiểm soát và giao diện người dùng (Project Service Automation 3.x)
-description: Bài viết này mô tả các thay đổi giải pháp cho Microsoft Dynamics Tự động hóa dịch vụ dự án 3.x.
+description: Bài viết này mô tả các thay đổi giả pháp cho Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926894"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Với việc phát hành Microsoft Dynamics Project Service Automation (PSA) 3.x, nhiều thay đổi đã được thực hiện cho các thực thể, kiểm soát, dạng xem và giao diện người dùng. Bài viết này cung cấp thông tin về những thay đổi quan trọng này.
+Với việc phát hành Microsoft Dynamics Project Service Automation (PSA) 3.x, nhiều thay đổi đã được thực hiện cho các thực thể, kiểm soát, dạng xem và giao diện người dùng. Bài viết này cung cấp thông tin quan trọng về các thay đổi quan trọng sau.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Mối quan hệ chính-phụ cho thực thể tài liệu bán hàng, dòng tài liệu bán hàng, chi tiết dòng tài liệu bán hàng
 Trong phiên bản Dynamics 365 Project Service Automation (PSA) phát hành trước phiên bản 3.0, một số mối quan hệ giữa các thực thể tài liệu bán hàng, dòng tài liệu bán hàng và chi tiết dòng tài liệu kinh doanh được thực hiện thông qua các trường chuỗi sẽ giữ một đại diện chuỗi của GUID của thực thể liên quan. Điều này là do những hạn chế về nền tảng yêu cầu mã tùy chỉnh chính phía máy chủ và máy khách của giải pháp để làm cho các mối quan hệ đó hoạt động tương tự như các mối quan hệ thực thể Dynamics CRM điển hình và để làm cho các trường chuỗi hoạt động như trường tra cứu.

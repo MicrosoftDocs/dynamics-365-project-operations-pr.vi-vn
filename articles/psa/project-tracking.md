@@ -1,6 +1,6 @@
 ---
 title: Tiến độ dự án và mức sử dụng chi phí
-description: Bài viết này cung cấp thông tin về việc theo dõi tiến độ dự án và chi phí tiêu thụ.
+description: Bài viết này cung cấp thông tin về cách theo dõi tiến độ dự án và mức sử dụng chi phí.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921788"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Bài viết này chỉ ra cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
+Sự cần thiết của việc theo dõi tiến độ đối với lịch trình thay đổi theo ngành. Một số ngành theo dõi ở cấp độ chi tiết, trong khi các ngành khác theo dõi ở cấp độ cao hơn. Bài viết này cho biết cách lập lịch để đáp ứng các yêu cầu của tổ chức bạn.
 
 ## <a name="effort-tracking-view"></a>Dạng xem theo dõi nhân công
 

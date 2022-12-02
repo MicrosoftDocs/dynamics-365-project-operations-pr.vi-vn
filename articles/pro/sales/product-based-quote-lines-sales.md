@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về các mô tả báo giá dựa trên sản phẩm - bản đơn giản
-description: Bài viết này cung cấp thông tin về cách làm việc với các dòng báo giá dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về cách làm việc với mô tả báo giá dựa trên sản phẩm.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

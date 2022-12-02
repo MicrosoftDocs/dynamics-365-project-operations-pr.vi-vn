@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình hoạt động kế toán cho dự án nội bộ
-description: Bài viết này cung cấp thông tin về cách thiết lập các thông lệ kế toán cho các dự án nội bộ trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập các hoạt động kế toán cho dự án nội bộ trong Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Đặt trước cho dự án
-description: Bài viết này cung cấp thông tin về việc đăng ký tài nguyên cho một dự án.
+description: Bài viết này cung cấp thông tin về cách đăng ký nguồn lực cho một dự án.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Khi người quản lý nguồn lực cần đăng ký nguồn lực trực ti�
     - Thời lượng
    
    > [!NOTE]
-   > Hiện nay,Dynamics 365 Project Operations không hỗ trợ bảng lịch trình.   
+   > Hiện tại , Dynamics 365 Project Operations không hỗ trợ bảng lịch trình.   
 
 ## <a name="book-from-the-project-form"></a>Đăng ký từ biểu mẫu Dự án
 

@@ -1,6 +1,6 @@
 ---
 title: Thiết lập lịch trình khoản duy trì
-description: Bài viết này cung cấp thông tin về cách thiết lập lịch trình lưu giữ trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập một lịch trình tiền tạm ứng trong Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

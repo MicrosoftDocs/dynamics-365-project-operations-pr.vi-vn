@@ -1,6 +1,6 @@
 ---
 title: Thêm biểu mẫu thực thể tuỳ chỉnh mới (Project Service Automation 2.x)
-description: Bài viết này cung cấp thông tin về cách thêm các biểu mẫu thực thể tùy chỉnh cho các cơ hội, báo giá, đơn đặt hàng hoặc hóa đơn trong Dynamics 365 Project Service Automation 2.x.
+description: Bài viết này cung cấp thông tin về cách thêm biểu mẫu thực thể tùy chỉnh cho cơ hội, báo giá, đơn đặt hàng hoặc hóa đơn trong Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

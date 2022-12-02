@@ -1,6 +1,6 @@
 ---
 title: Mô tả cơ hội dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách làm việc với các dòng cơ hội dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với mô tả cơ hội dựa trên dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Thiết đặt dự án
-description: Bài viết này cung cấp thông tin về cài đặt quản lý dự án.
+description: Bài viết này cung cấp thông tin về thiết đặt quản lý dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn quản lý nguồn lực
-description: Bài viết này cung cấp các liên kết đến thông tin về quản lý tài nguyên trong Tự động hóa dịch vụ dự án
+description: Bài viết này cung cấp liên kết đến thông tin về quản lý nguồn lực trong Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -42,7 +42,7 @@ Liên kết PDF trước đây trong bài viết này đã bị xóa và nội d
 - [Câu hỏi thường gặp về quản lý nguồn lực](../resource-management-faq.md)
 
 > [!NOTE]
-> Bài viết này sẽ bị xóa trong một bản cập nhật tài liệu trong tương lai. 
+> Bài viết này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

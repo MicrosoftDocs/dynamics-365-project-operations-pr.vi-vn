@@ -1,6 +1,6 @@
 ---
 title: Hành vi trên giao diện người dùng của mục nhập thời gian
-description: Bài viết này cung cấp thông tin về hoạt động của giao diện người dùng cho Mục nhập thời gian.
+description: Bài viết này cung cấp thông tin về hành vi trên giao diện người dùng của mục nhập thời gian.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Bảng điều khiển
-description: Bài viết này cung cấp thông tin về các trang tổng quan báo cáo được bao gồm trong Dynamics 365 Project Service Automation.
+description: Bài viết này cung cấp thông tin về bảng thông tin báo cáo trong Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

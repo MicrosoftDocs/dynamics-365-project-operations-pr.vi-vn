@@ -1,6 +1,6 @@
 ---
 title: Ước tính doanh số và chi phí khi một nguồn lực có thể đăng ký đảm nhận nhiều vai trò của dự án
-description: Bài viết này giải thích cách sử dụng thứ nguyên định giá để hỗ trợ ước tính giá và chi phí cho một tài nguyên đảm nhiệm nhiều vai trò trong một dự án.
+description: Bài viết này trình bày cách dùng các chiều giá cả để hỗ trợ ước tính giá và chi phí đối với một nguồn lực đảm nhận nhiều vai trò của dự án.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

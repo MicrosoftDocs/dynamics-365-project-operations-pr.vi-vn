@@ -1,6 +1,6 @@
 ---
 title: Theo dõi chi phí dự án
-description: Bài viết này cung cấp thông tin về cách Hoạt động dự án theo dõi tiến độ so với chi phí lao động và chi tiêu cho một dự án.
+description: Bài viết này cung cấp thông tin về cách Project Operations theo dõi tiến độ dựa trên chi phí nhân công và mức chi tiêu cho một dự án.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

@@ -26,7 +26,7 @@ ms.locfileid: "8685011"
 
 [!include [banner](../includes/banner.md)]
 
-Việc lập kế hoạch và duy trì lịch trình dự án có thể phức tạp, vì vậy người quản lý dự án cần sử dụng các công cụ giúp họ quản lý công việc này. Tích hợp với Microsoft Project Client cung cấp sự hỗ trợ để mở và quản lý cấu trúc phân tích công việc của dự án. Người quản lý dự án có thể xuất bản bất kỳ thay đổi nào trở lại cấu trúc phân tích công việc của dự án Dynamics 365 Finance.
+Việc lập kế hoạch và duy trì lịch trình dự án có thể phức tạp, vì vậy người quản lý dự án cần sử dụng các công cụ giúp họ quản lý công việc này. Tích hợp với Microsoft Project Client cung cấp sự hỗ trợ để mở và quản lý cấu trúc phân tích công việc của dự án. Người quản lý dự án có thể xuất bản bất kỳ thay đổi nào trở lại cấu trúc phân tích công việc dự án Dynamics 365 Finance.
 
 > [!NOTE]
 > Nếu bạn đang sử dụng bản cập nhật tháng 7 (phiên bản 10.0.4), bạn phải cài đặt KB 4054797 và 4055884.
@@ -39,7 +39,7 @@ Việc lập kế hoạch và duy trì lịch trình dự án có thể phức t
 •   Nhấp vào **Mở**, sau đó nhấp vào **Chạy** khi được nhắc.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Mở và chỉnh sửa cấu trúc phân tích công việc bản nháp hiện có trong Microsoft Project Client
-Nếu một dự án trong Dynamics 365 Finance đã tạo cấu trúc phân tích công việc, thì có thể mở cấu trúc phân tích công việc trong ứng dụng Microsoft Project Client nếu cấu trúc phân tích công việc ở trạng thái nháp. Để mở từ trang **Dự án**, nhấp vào liên kết **Mở trong Microsoft Project** từ tab **Kế hoạch**. Trang này cũng có thể được mở từ trong ứng dụng Microsoft Project Client bằng cách nhấp vào **Mở** trong tab **Microsoft Dynamics 365**. Chọn **Pháp nhân** và **Dự án** từ danh sách.
+Nếu một dự án trong Dynamics 365 Finance đã được tạo cấu trúc phân tích công việc, cấu trúc phân tích công việc đó có thể được mở trong ứng dụng Microsoft Project Client nếu cấu trúc phân tích công việc ở trạng thái bản nháp. Để mở từ trang **Dự án**, nhấp vào liên kết **Mở trong Microsoft Project** từ tab **Kế hoạch**. Trang này cũng có thể được mở từ trong ứng dụng Microsoft Project Client bằng cách nhấp vào **Mở** trong tab **Microsoft Dynamics 365**. Chọn **Pháp nhân** và **Dự án** từ danh sách.
 
 > [!NOTE]
 > Nếu bạn đang sử dụng Internet Explorer là trình duyệt của mình, bạn sẽ cần nhấp vào **Lưu** để mở thủ công từ vị trí tệp được tải xuống. Hoặc, nhấp vào **Lưu và mở** để mở tệp trong Microsoft Project Client. Không đổi tên tệp khi lưu.

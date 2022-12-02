@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về quản lý dự án
-description: Bài viết này cung cấp thông tin về quản lý Dự án trong Dynamics 365 Project Operations.
+description: Bài viết này cung cấp thông tin về quản lý dự án trong Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

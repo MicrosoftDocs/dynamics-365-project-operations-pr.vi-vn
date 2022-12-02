@@ -1,6 +1,6 @@
 ---
 title: Tạo lịch lập hóa đơn trên phần mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về việc tạo lịch và mốc hóa đơn.
+description: Bài viết này cung cấp thông tin về cách tạo lịch và mốc lập hóa đơn.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

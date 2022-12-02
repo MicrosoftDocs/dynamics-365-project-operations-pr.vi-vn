@@ -1,6 +1,6 @@
 ---
 title: Gán nguồn lực cho nhiệm vụ
-description: Bài viết này cung cấp thông tin về cách gán tài nguyên cho các tác vụ.
+description: Bài viết này cung cấp thông tin về cách gán tài nguyên cho công việc.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

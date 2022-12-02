@@ -1,6 +1,6 @@
 ---
 title: Tạo giải pháp cho thông số định giá tùy chỉnh
-description: Bài viết này cung cấp thông tin về cách tạo giải pháp cho thứ nguyên đặt giá tùy chỉnh.
+description: Bài viết này trình bày thông tin về cách tạo giải pháp cho các thông số giá cả tùy chỉnh.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

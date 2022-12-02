@@ -1,6 +1,6 @@
 ---
 title: Tạo giải pháp tùy chỉnh cho thông số định giá
-description: Bài viết này giải thích cách tạo giải pháp tùy chỉnh khi tạo thứ nguyên đặt giá tùy chỉnh.
+description: Bài viết này giải thích cách tạo giải pháp tùy chỉnh khi tạo thông số định giá tùy chỉnh.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

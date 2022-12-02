@@ -1,6 +1,6 @@
 ---
 title: Dùng Bảng lịch trình để đăng ký các nguồn lực dự án
-description: Bài viết này cung cấp thông tin về cách đặt tài nguyên.
+description: Bài viết này cung cấp thông tin về cách đăng ký các nguồn lực.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Project Service Automation phiên bản 3.x đợt 1 2020
-description: Bài viết này cung cấp thông tin về những điểm mới và thay đổi trong Tự động hóa dịch vụ dự án phiên bản 3 wave 1 2020.
+description: Bài viết này cung cấp thông tin về tính năng mới và đã thay đổi trong Project Service Automation phiên bản 3 đợt 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928642"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bài viết nêu bật những cân nhắc nâng cấp chính khi chuyển sang bản phát hành mới nhất của Tự động hóa dịch vụ dự án (PSA) phiên bản 3.x wave 1 2020.
+Bài viết nêu bật những thông tin cần cân nhắc chính khi nâng cấp khi chuyển sang bản phát hành mới nhất của Project Service Automation (PSA) phiên bản 3.x đợt 1 2020.
 
 ## <a name="time-entry"></a>Mục nhập thời gian
 Trải nghiệm mục nhập thời gian đã được gia hạn để cung cấp khả năng kéo dài mục nhập thời gian vào nhiều tình huống khách hàng hơn. Điều này bao gồm khả năng thêm các loại mục nhập, hiện điều khiển hành vi cụ thể dựa vào tên lược đồ trường **Cài đặt mục nhập thời gian**, hiển thị dưới dạng **Nguồn thời gian**. Một giải pháp mới, được gọi là Thời gian, Chi phí, Trạng thái và Phê duyệt (TESA) đã được thêm vào để hỗ trợ chức năng này.

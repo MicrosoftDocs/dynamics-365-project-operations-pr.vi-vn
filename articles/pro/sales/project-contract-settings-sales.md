@@ -1,6 +1,6 @@
 ---
 title: Thiết đặt hợp đồng dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về các trường ảnh hưởng đến các dòng hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
+description: Bài viết này cung cấp thông tin về các trường ảnh hưởng đến mô tả hợp đồng và thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917096"
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các cài đặt ảnh hưởng đến tất cả các dòng hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
+Bài viết này cung cấp thông tin về các trường áp dụng cho toàn bộ hợp đồng dự án bao gồm các thiết đặt ảnh hưởng đến tất cả mô tả hợp đồng. Thông tin về hợp đồng được tóm tắt trên tất cả các mục hàng để thúc đẩy KPI của hợp đồng dự án cũng được bao gồm.
 
 Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng cho Dynamics 365 Project Operations hoặc có một số thay đổi quan trọng về hành vi từ yêu cầu bán hàng trong Dynamics 365 Sales.
 
@@ -35,7 +35,7 @@ Bảng sau liệt kê các trường trên hợp đồng dự án dành riêng c
 Các KPI sau đây có sẵn trên tab **Hiệu suất hợp đồng** của hợp đồng dự án. 
 
 >[!NOTE]
->Tất cả số tiền trên **Thực hiện hợp đồng** tab được biểu thị bằng đơn vị tiền tệ mặc định của môi trường.
+>Tất cả số tiền trên tab **Hiệu suất hợp đồng** được thể hiện bằng đơn vị tiền tệ mặc định của môi trường.
 
 | Trường | Vị trí | Description |
 | --- | --- | --- |

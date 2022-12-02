@@ -1,6 +1,6 @@
 ---
 title: Đáp ứng các yêu về nguồn lực chung
-description: Bài viết này cung cấp thông tin về cách đặt trước các tài nguyên được đặt tên cho một yêu cầu tài nguyên chung.
+description: Bài viết này cung cấp thông tin về cách đặt trước nguồn lực được nêu tên cho một yêu cầu nguồn lực chung.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
