@@ -1,6 +1,6 @@
 ---
 title: Tạo nguồn lực
-description: Bài viết này cung cấp liên kết đến thông tin về cách tạo tài nguyên có thể đặt trước.
+description: Bài viết này cung cấp đường liên kết đến thông tin về cách tạo nguồn lực có thể đăng ký.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Bạn có thể tạo nguồn lực đăng ký được bằng Dynamics 365 Field Service để sử dụng trong môi trường Dynamics 365 Project Operations. Để tạo những nguồn lực này, hãy xem [Thiết lập nguồn lực đăng ký được](/dynamics365/field-service/set-up-bookable-resources).
 
-Hoạt động Dự án hỗ trợ các loại tài nguyên sau:
+Project Operations hỗ trợ các loại nguồn lực sau:
 - T.khoản
 - Liên hệ
 - Người dùng

@@ -1,6 +1,6 @@
 ---
 title: Đáp ứng nguồn lực cho nguồn lực theo kế hoạch
-description: Bài viết này cung cấp thông tin về các nguồn lực được lên kế hoạch cho một dự án.
+description: Bài viết này cung cấp thông tin về các nguồn lực đã lập kế hoạch cho một dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

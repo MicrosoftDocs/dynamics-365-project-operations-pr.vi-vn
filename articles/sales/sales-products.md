@@ -1,6 +1,6 @@
 ---
 title: Sản phẩm
-description: Bài viết này cung cấp thông tin về danh mục sản phẩm mà bạn có thể sử dụng để cung cấp thông tin cho khách hàng về các sản phẩm và giá cả mà tổ chức của bạn cung cấp.
+description: Bài viết này cung cấp thông tin về danh mục sản phẩm mà bạn có thể sử dụng để cung cấp thông tin cho khách hàng về các sản phẩm và giá mà tổ chức của bạn cung cấp.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

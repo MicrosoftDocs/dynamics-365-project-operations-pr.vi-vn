@@ -1,6 +1,6 @@
 ---
 title: Đề xuất nguồn lực dự án
-description: Bài báo này cung cấp thông tin về việc đề xuất các nguồn lực của dự án.
+description: Bài viết này cung cấp thông tin về cách đề xuất các nguồn lực dự án.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

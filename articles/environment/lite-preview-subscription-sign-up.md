@@ -1,6 +1,6 @@
 ---
 title: Đăng ký gói xem trước – bản đơn giản
-description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai triển khai Project Operations lite - đối phó với lập hóa đơn chiếu lệ.
+description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai Project Operations Lite – từ thỏa thuận đến lập hóa đơn ước giá.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410102"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Đăng ký gói xem trước – bản đơn giản 
 
-Bài viết này giải thích cách đăng ký ưu đãi dùng thử và triển khai Dynamics 365 Project Operations triển khai lite - đối phó với lập hóa đơn chiếu lệ.
+Bài viết này giải thích cách đăng ký ưu đãi dùng thử và triển khai ưu đãi - triển khai bản đơn giản Dynamics 365 Project Operations cho lập hóa đơn ước giá.
 
 > [!NOTE]
 > Quá trình này sẽ thay đổi trong các phiên bản sắp tới của Project Operations.
@@ -43,14 +43,14 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 > Bạn sẽ cần quyền truy cập quản trị vào Cổng thông tin Microsoft 365 của tổ chức bạn để hoàn thành các bước sau.
 
 
-1. Đi đến [Microsoft 365 trung tâm quản trị](https://portal.office.com/) để chuyển nhượng giấy phép cho người dùng của bạn.
+1. Chuyển đến trung tâm quản trị [Microsoft 365](https://portal.office.com/) để gán giấy phép cho người dùng của bạn.
 2. Trên trang **Người dùng đang hoạt động**, hãy chọn người dùng mà bạn muốn gán giấy phép.
 3. Xác minh rằng giấy phép **Dynamics 365 Project Operations** được chọn. 
 4. Chọn **Lưu thay đổi**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Tạo môi trường Dataverse mới
 
-1. Cung cấp Hoạt động Dự án mới Dataverse môi trường triển khai bằng cách làm theo hướng dẫn trong bài viết, [Dataverse mô hình triển khai](lite-deployment.md). Khi bạn chọn loại môi trường, hãy bảo đảm sử dụng **Bản dùng thử (Dựa trên gói đăng ký)**.
+1. Cung cấp môi trường triển khai Project Operations Dataverse mới bằng cách làm theo các hướng dẫn trong bài viết [Mô hình triển khai Dataverse](lite-deployment.md). Khi bạn chọn loại môi trường, hãy bảo đảm sử dụng **Bản dùng thử (Dựa trên gói đăng ký)**.
 
   ![Môi trường mới.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Trước khi bạn bắt đầu, hãy đảm bảo rằng bạn đăng nhập tr
 
 ## <a name="set-up-demo-data"></a>Thiết lập dữ liệu demo
 
-Thiết lập dữ liệu demo bằng cách làm theo hướng dẫn trong bài viết, [Áp dụng dữ liệu cấu hình và thiết lập demo](lite-apply-demo-setup-config-data.md).
+Thiết lập dữ liệu demo theo các hướng dẫn trong bài viết [Áp dụng dữ liệu cấu hình và thiết lập demo](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

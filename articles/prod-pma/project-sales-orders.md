@@ -1,6 +1,6 @@
 ---
 title: Đơn đặt hàng dự án cho dự án thời gian và vật tư
-description: Bài viết này giải thích cách tạo đơn đặt hàng bán hàng dựa trên dự án cho các dự án thời gian và vật chất.
+description: Bài viết này giải thích cách tạo đơn đặt hàng dự án đối với dự án thời gian và vật tư.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933840"
 
 [!include[banner](../includes/banner.md)]
 
-Bài viết này mô tả cách tạo đơn đặt hàng bán hàng cho một dự án. Đơn đặt hàng chỉ có thể được tạo cho các dự án loại **thời gian và vật tư**.
+Bài viết này mô tả cách tạo đơn đặt hàng cho một dự án. Đơn đặt hàng chỉ có thể được tạo cho các dự án loại **thời gian và vật tư**.
 
 Nếu một dự án thời gian và vật tư có nhiều nguồn tài trợ trong hợp đồng dự án, bạn phải bật tham số **Cho phép đơn đặt hàng đối với các dự án có nhiều nguồn tài trợ** trên trang **Tham số quản lý dự án và kế toán**. 
 

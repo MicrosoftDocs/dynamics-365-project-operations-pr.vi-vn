@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới kể từ tháng 11 năm 2020 – Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 11 năm 2020 của Hoạt động dự án cho các kịch bản dựa trên sản xuất có sẵn.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng được cung cấp trong lần triển khai bản phát hành Project Operations tháng 11 năm 2020 cho tình huống dựa trên hàng trữ kho/sản xuất.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng tr�
 
 ## <a name="regulatory-updates"></a>Bản cập nhật theo quy định
 
-Để biết thông tin về các bản cập nhật quy định cho các ứng dụng tài chính và hoạt động Dynamics 365, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng tài chính và hoạt động Dynamics 365, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

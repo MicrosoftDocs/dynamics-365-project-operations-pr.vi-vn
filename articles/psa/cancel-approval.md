@@ -1,6 +1,6 @@
 ---
 title: Huỷ mục nhập thời gian và chi phí đã được phê duyệt trước đó
-description: Bài viết này cung cấp thông tin về cách hủy giao dịch thời gian và chi phí dự án đã được phê duyệt.
+description: Bài viết này cung cấp thông tin về cách hủy giao dịch chi phí và thời gian dự án được phê duyệt.
 author: rumant
 ms.custom:
 - dyn365-projectservice

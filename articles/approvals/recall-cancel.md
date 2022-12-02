@@ -1,6 +1,6 @@
 ---
 title: Thu hồi các mục nhập được phê duyệt trước đây
-description: Bài viết này giải thích cách một thành viên trong nhóm dự án có thể yêu cầu thu hồi hồ sơ sử dụng vật liệu, chi phí và thời gian đã được đệ trình và phê duyệt trước đó cũng như cách người quản lý dự án có thể phê duyệt hoặc từ chối yêu cầu thu hồi.
+description: Bài viết này giải thích cách một thành viên nhóm dự án có thể yêu cầu thu hồi các bản ghi thời gian, chi phí và sử dụng vật tư được phi duyệt, cũng như cách người quản lý dự án có thể phê duyệt hoặc từ chối yêu cầu thu hồi.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930390"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Một thành viên trong nhóm dự án gửi mục nhập sử dụng thời gian, chi phí hoặc vật liệu có thể thu hồi mục nhập đó sau khi nó đã được phê duyệt. Quy trình thu hồi có hai bước chính:
+Thành viên nhóm dự án hoặc người khác gửi mục nhập thời gian, chi phí hoặc sử dụng vật tư có thể thu hồi mục nhập đó sau khi nó được phê duyệt. Quy trình thu hồi bao gồm hai bước chính:
 
 1. Người gửi yêu cầu thu hồi.
 2. Người phê duyệt phê duyệt yêu cầu thu hồi.
 
 ## <a name="request-a-recall"></a>Yêu cầu thu hồi
 
-Thực hiện theo các bước sau để yêu cầu thu hồi các mục sử dụng thời gian, chi phí hoặc vật liệu đã được phê duyệt.
+Làm theo các bước này để yêu cầu thu hồi mục nhập thời gian, chi phí hoặc sử dụng vật tư.
 
-1. Thực hiện theo một trong các bước sau, tùy thuộc vào loại mục nhập mà bạn muốn gọi lại:
+1. Thực hiện theo một trong các bước sau, tùy thuộc vào loại mục nhập mà bạn muốn thu hồi:
 
-    - Đối với các mục thời gian, hãy truy cập **Dự án** \> **Công việc của tôi** \> **Thời gian nhập cảnh**, và chọn tất cả các mục thời gian cho sự kết hợp cụ thể giữa một dự án và một nhiệm vụ. Ngoài ra, trong lưới, chọn các ô riêng lẻ cho thời gian vào một ngày cụ thể cho một dự án cụ thể.
-    - Đối với các mục chi phí, hãy chuyển đến **Dự án** \> **Công việc của tôi** \> **Chi phí**, và chọn hàng cho mục nhập chi phí để gọi lại.
-    - Đối với các mục sử dụng vật liệu, hãy truy cập **Dự án** \> **Công việc của tôi** \> **Nhật ký sử dụng vật liệu**, và chọn hàng cho mục sử dụng vật liệu để gọi lại.
+    - Đối với mục nhập thời gian, hãy chuyển tới **Dự án** \> **Công việc của tôi** \> **Mục nhập thời gian** và chọn tất cả mục nhập thời gian cho kết hợp dự án hoặc nhiệm vụ cụ thể. Ngoài ra, trong lưới, chọn các ô riêng lẻ cho thời gian vào một ngày cụ thể cho một dự án cụ thể.
+    - Đối với mục nhập chi phí, hãy chuyển tới **Dự án** \> **Công việc của tôi** \> **Chi phí** và chọn hàng mục nhập chi phí để thu hồi.
+    - Đối với mục nhập sử dụng vật tư, hãy chuyển tới **Dự án** \> **Công việc của tôi** \> **Nhật ký sử dụng vật liệu** và chọn hàng cho mục nhập sử dụng vật tư để thu hồi.
 
-2. Chọn **Thu hồi**. Một hộp thoại xác nhận sẽ xuất hiện. Nếu các mục sử dụng thời gian, chi phí hoặc vật liệu đã chọn đã được phê duyệt, bạn sẽ được nhắc nhập lý do thu hồi.
+2. Chọn **Thu hồi**. Một hộp thoại xác nhận sẽ xuất hiện. Nếu các mục nhập thời gian, chi phí hoặc sử dụng vật tư đã chọn đã được phê duyệt, bạn sẽ được nhắc nhập lý do để thu hồi.
 3. Nhập một lý do để thu hồi rồi chọn **OK** để xác nhận hoạt động. Hệ thống gửi người đã phê duyệt các mục nhập yêu cầu phê duyệt yêu cầu thu hồi.
 
 > [!IMPORTANT]
-> Bạn không thể tạo yêu cầu thu hồi cho mục sử dụng thời gian, chi phí hoặc nguyên liệu đã được phê duyệt đã được lập hóa đơn cho khách hàng. Nếu bạn cố gắng, bạn sẽ nhận được một thông báo cho biết rằng không thể gọi lại mục nhập sử dụng thời gian, chi phí hoặc nguyên vật liệu vì nó đã được lập hóa đơn. Trong trường hợp này, bạn chỉ có thể yêu cầu thu hồi mục nhập nếu một hóa đơn điều chỉnh được sử dụng để cấp đầy đủ tín dụng hoặc hoàn lại tiền cho khách hàng trên hóa đơn gốc.
+> Bạn không thể tạo yêu cầu thu hồi cho mục nhập sử dụng vật tư, chi phí hoặc thời gian đã phê duyệt đã được lập hóa đơn cho khách hàng. Nếu thử tạo, bạn sẽ nhận được thông báo cho biết rằng mục nhập thời gian, chi phí hoặc sử dụng vật tư không thể được thu hồi vì đã được lập hóa đơn. Trong trường hợp này, bạn chỉ có thể yêu cầu thu hồi mục nhập nếu một hóa đơn điều chỉnh được sử dụng để cập một khoản tín dụng hoặc hoàn tiền đầy đủ cho khách hàng trên hóa đơn gốc.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Phê duyệt hoặc từ chối yêu cầu thu hồi
 
@@ -52,7 +52,7 @@ Thực hiện theo các bước sau để phê duyệt hoặc từ chối yêu c
     Nếu bạn chọn **Từ chối**, yêu cầu thu hồi sẽ bị từ chối.
 
 > [!IMPORTANT]
-> Khi việc thu hồi được chấp thuận, cũng như khi được yêu cầu, hệ thống sẽ kiểm tra bất kỳ hoạt động lập hóa đơn nào trên các mục nhập thời gian, chi phí hoặc sử dụng vật liệu. Nếu mục nhập đã được lập hóa đơn hoặc nếu mục đó nằm trên hóa đơn nháp, người phê duyệt sẽ nhận được thông báo lỗi cho biết rằng thời gian hoặc chi phí không thể được chấp thuận để thu hồi vì nó đã được lập hóa đơn. Trong trường hợp này, người phê duyệt chỉ có thể chấp thuận việc thu hồi nếu một hóa đơn sửa chữa được sử dụng để phát hành tín dụng đầy đủ hoặc hoàn lại tiền cho khách hàng trên hóa đơn gốc.
+> Khi yêu cầu thu hồi được phê duyệt, giống như khi được yêu cầu, hệ thống sẽ kiểm tra mọi hoạt động lập hóa đơn trên các mục nhập thời gian, chi phí hoặc sử dụng vật tư. Nếu mục nhập đã được lập hóa đơn hoặc có trên hóa đơn dạng nháp, thì người phê duyệt sẽ nhận thông báo lỗi cho biết rằng thời gian hoặc chi phí không thể được phê duyệt để thu hồi vì đã được lập hóa đơn. Trong trường hợp này, người phê duyệt có thể phê duyệt yêu cầu thu hồi chỉ khi một hóa đơn điều chỉnh được sử dụng để cập một khoản tín dụng hoặc hoàn tiền đầy đủ cho khách hàng trên hóa đơn gốc.
 
 ## <a name="impact-of-a-recall-request"></a>Ảnh hưởng của yêu cầu thu hồi
 
@@ -60,9 +60,9 @@ Khi phê duyệt được thu hồi sẽ gây tác động tài chính và vận
 
 ### <a name="operational-impact"></a>Tác động đến vận hành
 
-Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Trả lại** hoặc **Phế phẩm**, tùy thuộc vào việc đó là một mục nhập thời gian hay nhập chi phí hoặc sử dụng vật liệu.
+Nếu yêu cầu thu hồi được phê duyệt, thì bản ghi phê duyệt được đánh dấu là **Bị từ chối**. Trạng thái của mục nhập được thay đổi thành **Đã trả lại** hoặc **Đã từ chối**, tùy thuộc vào mục nhập đó là thời, chi phí hay sử dụng vật liệu.
 
-Thành viên nhóm dự án có thể xem các mục nhập, chỉnh sửa và sau đó gửi lại các mục nhập hoặc xóa hoàn toàn các mục nhập.
+Thành viên nhóm dự án có thể xem các mục nhập, chỉnh sửa rồi gửi lại các mục nhập hoặc xóa toàn bộ mục nhập.
 
 Nếu yêu cầu thu hồi bị từ chối, mục nhập vẫn ở trạng thái **Đã phê duyệt** và thành viên nhóm dự án hoặc người phê duyệt cho dự án không thể chỉnh sửa.
 
@@ -79,14 +79,14 @@ Nếu yêu cầu thu hồi bị từ chối, thì không có ảnh hưởng tài
 
 ## <a name="changes-to-time-entry-records"></a>Các thay đổi đối với bản ghi mục nhập thời gian
 
-Hình minh họa sau đây cho thấy những thay đổi xảy ra đối với các mục thời gian đã được phê duyệt và các bản ghi phê duyệt tương ứng khi chúng được thu hồi.
+Hình minh họa sau hiển thị các thay đổi xảy ra đối với các mục nhập thời gian đã phê duyệt và bản ghi phê duyệt tương ứng khi chúng được thu hồi.
 
-![Chuyển đổi trạng thái nhập thời gian.](media/TimeEntryStateTransitions.png)
+![Chuyển đổi trạng thái mục nhập thời gian.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Các thay đổi đối với hồ sơ nhập chi phí và sử dụng nguyên vật liệu
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Các thay đổi đối với bản ghi mục nhập chi phí và sử dụng vật tư
 
-Hình minh họa sau đây cho thấy những thay đổi xảy ra đối với các bút toán sử dụng nguyên vật liệu và chi phí đã được phê duyệt và các hồ sơ phê duyệt tương ứng khi chúng được thu hồi.
+Hình minh họa sau hiển thị các thay đổi xảy ra đối với các mục nhập chi phí và sử dụng vật tư đã phê duyệt và bản ghi phê duyệt tương ứng khi chúng được thu hồi.
 
-![Chuyển đổi trạng thái đầu vào chi phí.](media/ExpenseEntryStateTransitions.png)
+![Giao dịch trạng thái mục nhập chi phí.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

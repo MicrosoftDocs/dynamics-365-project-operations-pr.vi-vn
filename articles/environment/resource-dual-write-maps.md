@@ -1,6 +1,6 @@
 ---
 title: Các phiên bản bản đồ ghi kép Project Operations
-description: Bài viết này cung cấp danh sách các bản đồ viết kép được yêu cầu Dynamics 365 Project Operations.
+description: Bài viết này cung cấp danh sách các bản đồ ghi kép cần thiết cho Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho gi
 
 | Bản đồ bảng | Đồng bộ ban đầu |
 | --- | --- |
-| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Master cho đồng bộ hóa ban đầu là ứng dụng tài chính và hoạt động. |
+| Sổ cái (msdyn_ledgers) | Yêu cầu đồng bộ ban đầu cho sơ đồ bảng và tất cả các điều kiện tiên quyết. Bản cái cho đồng bộ hóa ban đầu là ứng dụng tài chính và hoạt động. |
 | Pháp nhân (cdm_companies) | Không bắt buộc. Hệ thống tự động điền thực thể này khi các môi trường được liên kết bằng tính năng ghi kép. |
 | Khách hàng V3 (tài khoản) | Không cần phải cung cấp. |
 | Nhà cung cấp V2 (msdyn_vendors) | Không cần phải cung cấp. |
 
-1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Bên trong **Chính cho đồng bộ hóa ban đầu** trường, chọn **Ứng dụng tài chính và hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ tiên quyết. Chọn **Chạy**.
+1. Từ danh sách sơ đồ, hãy chọn bản đồ Sổ cái **(msdyn\_ledgers)** với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. Trong trường **Bản cái để đồng bộ hóa ban đầu**, hãy chọn **ứng dụng tài chính và hoạt động** cho cả bản đồ sổ cái và tất cả các bản đồ điều kiện tiên quyết. Chọn **Chạy**.
 
 ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Các bản đồ sau đây là điều kiện tiên quyết cần thiết cho m�
 | Tiêu đề hợp đồng dự án (đơn đặt hàng) | 1.0.0.1 | Không cần phải cung cấp. ||
 | Mô tả hợp đồng dự án (salesorderdetails) | 1.0.0.0 | Không cần phải cung cấp. ||
 | Nguồn tài trợ dự án (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Không cần phải cung cấp. ||
-| Bảng tích hợp dự án để ước tính vật liệu (msdyn\_ đường ước tính) | 1.0.0.0 | Không cần phải cung cấp. ||
+| Bảng tích hợp dự án để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Không cần phải cung cấp. ||
 | Đề xuất hóa đơn dự án V2 (hóa đơn) | 1.0.0.3 | Không cần phải cung cấp. ||
 | Giá trị tích hợp thực tế của Project Operations (msdyn_actuals) | 1.0.0.15 | Không cần phải cung cấp. |10.0.29 trở lên|
 | Các mốc quan trọng của mô tả hợp đồng tích hợp Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Không cần phải cung cấp. ||

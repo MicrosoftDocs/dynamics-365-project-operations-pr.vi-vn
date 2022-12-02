@@ -1,6 +1,6 @@
 ---
 title: Cung cấp môi trường mới
-description: Bài viết này cung cấp thông tin về cách cung cấp môi trường Hoạt động Dự án mới.
+description: Bài viết này cung cấp thông tin về cách cung cấp môi trường Project Operations mới.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 
-Bài viết này cung cấp thông tin về cách cung cấp Dynamics 365 Project Operations môi trường cho các kịch bản dựa trên tài nguyên / không có kho.
+Bài viết này cung cấp thông tin về cách cung cấp môi trường Dynamics 365 Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Bật quy trình tự động cung cấp Project Operations trong dự án LCS
 
@@ -34,7 +34,7 @@ Sử dụng các bước sau để bật quy trình tự động cung cấp Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Cung cấp môi trường Project Operations
 
-1. Mở Dynamics 365 Finance mới [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) hoặc [hộp cát / môi trường sản xuất](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) triển khai. 
+1. Mở [môi trường demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance mới hoặc triển khai [môi trường sản xuất/hộp cát](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Tìm hiểu trình hướng dẫn **Cung cấp môi trường**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Bạn có thể cần áp dụng các bản cập nhật chất lượng cho mô
 
     ![Áp dụng giải pháp.](./media/13ApplySolutions.png)
 
-5. Chọn cả hai giải pháp, **Dynamics 365 Finance Bản đồ đối tượng ghi kép** và **Dynamics 365 Project Operations Bản đồ thực thể ghi kép**, và sau đó chọn **Ứng dụng**.
+5. Chọn cả hai giải pháp, **Bản đồ thực thể ghi kép Dynamics 365 Finance** **Bản đồ thực thể ghi kép Dynamics 365 Project Operations**, và sau đó chọn **Áp dụng**.
 
     ![Xác nhận giải pháp.](./media/14ConfirmSolutions.png)
 

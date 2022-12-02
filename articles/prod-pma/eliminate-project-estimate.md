@@ -1,6 +1,6 @@
 ---
 title: Loại bỏ giá trị ước tính dự án
-description: Bài viết này cung cấp thông tin về việc loại bỏ ước tính dự án sau khi hoàn thành.
+description: Bài viết này cung cấp thông tin về việc loại bỏ giá trị ước tính dự án sau khi hoàn thành.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới kể từ tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành tháng 4 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Project Operations phát hành vào tháng 4 năm 2021 cho các kịch bản dựa trên nguồn lực/vật tư không tồn kho.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029280"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dataverse phiên bản 4.9.0.221
-- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.17
+- Quản lý dự án và kế toán trong môi trường ứng dụng Dynamics 365 Finance phiên bản 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 
@@ -42,13 +42,13 @@ Danh sách sau đây hiển thị các bản đồ ghi kép đã được sửa 
 | **Bản đồ thực thể** | **Phiên bản đã cập nhật** | **Nhận xét** |
 | --- | --- | --- |
 | Giá trị tích hợp thực tế của Project Operations (msdyn\_actuals) | 1.0.0.14 | Bản đồ được sửa đổi để đồng bộ hóa các giá trị thực tế của dự án vật tư. |
-| Thực thể tích hợp Project Operations để ước tính chi phí (msdyn\_estimateslines) | 1.0.0.2 | Đã thêm đồng bộ hóa dòng hợp đồng dự án vào các ứng dụng tài chính và hoạt động để hỗ trợ thanh toán dựa trên nhiệm vụ. |
-| Thực thể tích hợp Project Operations để ước tính giờ (msdyn\_resourceassignments) | 1.0.0.5 | Đã thêm đồng bộ hóa dòng hợp đồng dự án vào các ứng dụng tài chính và hoạt động để hỗ trợ thanh toán dựa trên nhiệm vụ. |
-| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Sơ đồ bảng mới để đồng bộ hóa các ước tính vật liệu từ Dataverse tài chính và các ứng dụng hoạt động. |
-| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Sơ đồ bảng mới để đồng bộ hóa các tiêu đề hóa đơn của nhà cung cấp từ các ứng dụng tài chính và hoạt động sang Dataverse. |
-| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Sơ đồ bảng mới để đồng bộ hóa các dòng hóa đơn của nhà cung cấp từ ứng dụng tài chính và hoạt động sang Dataverse. |
+| Thực thể tích hợp Project Operations để ước tính chi phí (msdyn\_estimateslines) | 1.0.0.2 | Mô tả hợp đồng dự án được thêm đã đồng bộ hóa với ứng dụng tài chính và hoạt động để hỗ trợ thanh toán dựa trên nhiệm vụ. |
+| Thực thể tích hợp Project Operations để ước tính giờ (msdyn\_resourceassignments) | 1.0.0.5 | Mô tả hợp đồng dự án được thêm đã đồng bộ hóa với ứng dụng tài chính và hoạt động để hỗ trợ thanh toán dựa trên nhiệm vụ. |
+| Bảng tích hợp Project Operations để ước tính vật tư (msdyn\_estimatelines) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa các ước tính vật tư từ Dataverse đến ứng dụng tài chính và hoạt động. |
+| Thực thể xuất hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa tiêu đề hóa đơn của nhà cung cấp từ ứng dụng tài chính và hoạt động đến Dataverse. |
+| Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Bản đồ bảng mới để đồng bộ hóa mô tả hóa đơn của nhà cung cấp từ ứng dụng tài chính và hoạt động đến Dataverse. |
 
-Bạn phải luôn chạy phiên bản bản đồ mới nhất trong môi trường của mình và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse phiên bản giải pháp tài chính và hoạt động. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Bạn có thể kích hoạt phiên bản mới của bản đồ bằng cách chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Bạn phải luôn chạy phiên bản bản đồ mới nhất trong môi trường của mình và bật tất cả các bản đồ bảng liên quan khi cập nhật giải pháp Project Operations Dataverse và phiên bản giải pháp tài chính và hoạt động. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể xem phiên bản hiện hoạt của bản đồ trong cột **Phiên bản** trên trang **Ghi kép**. Bạn có thể kích hoạt phiên bản mới của bản đồ bằng cách chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong phần [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của hướng dẫn khắc phục sự cố Ghi kép.
 

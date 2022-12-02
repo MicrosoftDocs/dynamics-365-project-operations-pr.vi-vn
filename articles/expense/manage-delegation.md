@@ -1,6 +1,6 @@
 ---
 title: Quản lý việc ủy nhiệm
-description: Bài viết này cung cấp thông tin về cách người ủy quyền chi phí có thể tạo và quản lý báo cáo chi phí cho một nhân viên khác.
+description: Bài viết này cung cấp thông tin về cách người đại diện chi phí có thể tạo và quản lý báo cáo chi phí cho một nhân viên khác.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

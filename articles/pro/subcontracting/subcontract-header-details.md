@@ -1,6 +1,6 @@
 ---
 title: Chi tiết tiêu đề cho các hợp đồng phụ
-description: Bài viết này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Hoạt động dự án.
+description: Bài viết này giải thích chức năng được cung cấp trên tiêu đề hợp đồng phụ trong Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

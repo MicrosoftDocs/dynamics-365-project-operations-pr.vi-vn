@@ -1,6 +1,6 @@
 ---
 title: Quản lý nhà cung cấp và bảng giá mua trong Project Operations
-description: Bài viết này cung cấp thông tin sẽ giúp bạn tạo và duy trì dữ liệu nhà cung cấp và bảng giá mua cho hợp đồng phụ.
+description: Bài viết này cung cấp những thông tin sẽ giúp bạn tạo và duy trì dữ liệu nhà cung cấp cũng như bảng giá mua cho hợp đồng phụ.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

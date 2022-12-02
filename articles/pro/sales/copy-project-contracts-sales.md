@@ -1,6 +1,6 @@
 ---
 title: Sao chép hợp đồng dự án
-description: Bài viết này cung cấp thông tin về việc sao chép hợp đồng dự án trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách sao chép hợp đồng dự án trong Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

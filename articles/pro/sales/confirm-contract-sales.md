@@ -1,6 +1,6 @@
 ---
 title: Xác nhận hợp đồng dự án
-description: Bài viết này cung cấp thông tin về cách xác nhận hợp đồng trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách xác nhận hợp đồng trong Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

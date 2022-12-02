@@ -1,6 +1,6 @@
 ---
 title: Giai đoạn dự án
-description: Bài viết này cung cấp thông tin về các giai đoạn của dự án có sẵn trong Microsoft Dynamics Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về các giai đoạn dự án được cung cấp trong Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Khi bạn liên kết một dự án với một báo giá hoặc tạo một d�
 
 ## <a name="plan"></a>Kế hoạch
 
-Khi bạn thắng báo giá liên kết với dự án, dự án được chuyển đến giai đoạn **Hợp đồng**, giai đoạn dự án được cập nhật thành **Kế hoạch**. Trong khi dự án đang ở **Kế hoạch** sân khấu, **Việc bán hàng** tab trên **Thực thể dự án** trang hiển thị chi tiết của hợp đồng.
+Khi bạn thắng báo giá liên kết với dự án, dự án được chuyển đến giai đoạn **Hợp đồng**, giai đoạn dự án được cập nhật thành **Kế hoạch**. Khi dự án trong giai đoạn **Kế hoạch**, tab **Bán hàng** trên trang **Thực thể dự án** hiển thị thông tin chi tiết về hợp đồng.
 
 ## <a name="deliver"></a>Chuyển giao
 

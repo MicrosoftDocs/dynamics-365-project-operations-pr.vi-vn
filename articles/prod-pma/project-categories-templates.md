@@ -1,6 +1,6 @@
 ---
-title: Đồng bộ hóa các hạng mục chi phí của dự án giữa tài chính và hoạt động và Tự động hóa dịch vụ dự án
-description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Tài chính và Dynamics 365 Project Service Automation.
+title: Đồng bộ hóa danh mục chi phí của dự án giữa tài chính và hoạt động với Project Service Automation
+description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa các danh mục chi phí của dự án giữa Microsoft Dynamics 365 Finance và Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028959"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa các hạng mục chi phí của dự án giữa tài chính và hoạt động và Tự động hóa dịch vụ dự án
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Đồng bộ hóa danh mục chi phí của dự án giữa tài chính và hoạt động với Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Bài viết này mô tả các mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
+Bài viết này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa các danh mục chi phí của dự án giữa Dynamics 365 Finance và Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.
@@ -80,10 +80,10 @@ Các danh mục chi phí của dự án được quản lý trong Finance và đ
 
 ### <a name="power-query"></a>Power Query
 
-Khi bạn đang đồng bộ hóa với Tự động hóa dịch vụ dự án, bạn phải sử dụng Microsoft Power Query cho Excel để đặt loại thanh toán trên danh mục giao dịch. Mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA) cung cấp một cột và tùy chọn ánh xạ mặc định. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm một cột có điều kiện vào Power Query. Làm theo các bước sau.
+Khi đồng bộ hóa với Project Service Automation, bạn phải sử dụng Microsoft Power Query dành cho Excel để thiết lập loại thanh toán trên danh mục giao dịch. Mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA) cung cấp một cột và tùy chọn ánh xạ mặc định. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm cột điều kiện này trong Power Query. Làm theo các bước sau.
 
 1. Bấm vào mũi tên để mở mục ánh xạ nhiệm vụ danh mục chi phí của dự án trong mẫu Danh mục giao dịch chi phí của dự án (Fin and Ops sang PSA).
-2. Nhấn vào **Truy vấn và Lọc trước** liên kết để mở Power Query.
+2. Bấm vào liên kết **Truy vấn nâng cao và lọc** để mở Power Query.
 2. Chọn **Thêm cột có điều kiện**.
 3. Nhập tên cho cột mới, chẳng hạn như **Loại lập hóa đơn**.
 4. Nhập điều kiện sau: **nếu CATEGORYID không rỗng thì phải là giá trị 19235001, nếu không thì là rỗng**.

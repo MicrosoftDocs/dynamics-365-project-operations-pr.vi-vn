@@ -1,6 +1,6 @@
 ---
 title: Khái niệm về dự toán tài chính
-description: Bài viết này cung cấp thông tin về ước tính tài chính của các dự án trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về dự toán tài chính của dự án trong Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

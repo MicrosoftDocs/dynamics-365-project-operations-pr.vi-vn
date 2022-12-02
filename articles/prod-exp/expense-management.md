@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về quản lý chi phí
-description: Bài viết này cung cấp thông tin chung về quản lý Chi phí và các liên kết đến các tài nguyên bổ sung. Bạn có thể sử dụng phần Quản lý chi phí để tạo một quy trình làm việc tích hợp nơi bạn có thể lưu trữ thông tin phương thức thanh toán, nhập các giao dịch thẻ tín dụng và theo dõi số tiền mà nhân viên chi khi họ phát sinh chi phí cho doanh nghiệp của bạn.
+description: Bài viết này cung cấp thông tin chung về phần Quản lý chi phí và các liên kết đến tài nguyên bổ sung. Bạn có thể sử dụng phần Quản lý chi phí để tạo một quy trình làm việc tích hợp nơi bạn có thể lưu trữ thông tin phương thức thanh toán, nhập các giao dịch thẻ tín dụng và theo dõi số tiền mà nhân viên chi khi họ phát sinh chi phí cho doanh nghiệp của bạn.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để mang đ�
 
 ### <a name="blogs"></a>Blog
 
-Bạn có thể tìm thấy ý kiến, tin tức và thông tin khác trên [Microsoft Dynamics Blog 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Finance - Blog tài chính](https://community.dynamics.com/365/financeandoperations/b/financials).
+Bạn có thể tìm thấy các ý kiến, tin tức và thông tin khác trên [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) và [Microsoft Dynamics 365 Finance – Blog tài chính](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog cộng đồng đối tác Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) là nơi các Đối tác Microsoft Dynamics có thể tìm hiểu những nội dung mới và thịnh hành trong Hoạt động MBS.
 

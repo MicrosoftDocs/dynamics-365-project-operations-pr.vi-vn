@@ -1,6 +1,6 @@
 ---
-title: Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong tài chính và hoạt động
-description: Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các thực tế dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tài chính và hoạt động.
+title: Đồng bộ hóa số liệu thực tế của dự án trực tiếp từ Project Service Automation sang nhật ký tích hợp dự án để ghi sổ trong tài chính và hoạt động
+description: Chủ đề này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Microsoft Dynamics 365 Project Service Automation sang tài chính và hoạt động.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029004"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa các thực tế dự án trực tiếp từ Tự động hóa dịch vụ dự án sang tạp chí tích hợp dự án để đăng trong tài chính và hoạt động
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Đồng bộ hóa số liệu thực tế của dự án trực tiếp từ Project Service Automation sang nhật ký tích hợp dự án để ghi sổ trong tài chính và hoạt động
 
 [!include[banner](../includes/banner.md)]
 
-Bài viết này mô tả các mẫu và nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các thực tế dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+Bài viết này mô tả các mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các giá trị thực tế trong dự án từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 
 Mẫu này đồng bộ hóa các giao dịch từ Project Service Automation sang một bảng dàn trong Finance. Sau khi quá trình đồng bộ hóa hoàn tất, bạn **phải** nhập dữ liệu từ bảng dàn vào nhật ký tích hợp.
 
@@ -41,7 +41,7 @@ Giải pháp tích hợp Project Service Automation sang Finance sử dụng tí
 
 Hình minh họa sau đây cho thấy cách dữ liệu được đồng bộ hóa giữa Project Service Automation và Finance.
 
-[![Luồng dữ liệu để tích hợp Tự động hóa Dịch vụ Dự án với tài chính và hoạt động.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Luồng dữ liệu cho phần tích hợp Project Service Automation với tài chính và hoạt động.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Giá trị thực tế trong dự án từ Project Service Automation
 
@@ -74,7 +74,7 @@ Trước khi việc đồng bộ hóa giá trị thực tế có thể thực hi
 
 ### <a name="power-query"></a>Power Query
 
-Trong mẫu hướng dẫn sử dụng dự án, bạn phải sử dụng Microsoft Power Query để Excel hoàn thành các tác vụ này:
+Trong mẫu giá trị thực tế trong dự án, bạn phải sử dụng Microsoft Power Query dành cho Excel để hoàn thành các nhiệm vụ sau:
 
 - Chuyển loại giao dịch trong Project Service Automation thành loại giao dịch chính xác trong Finance. Sự chuyển đổi này đã được xác định trong mẫu Giá trị thực tế trong dự án (PSA sang Fin and Ops).
 - Chuyển loại thanh toán trong Project Service Automation thành loại thanh toán chính xác trong Finance. Sự chuyển đổi này đã được xác định trong mẫu Giá trị thực tế trong dự án (PSA sang Fin and Ops). Sau đó, loại thanh toán này được ánh xạ với thuộc tính dòng, dựa trên cấu hình trên trang **Tham số tích hợp Project Service Automation**.
@@ -83,9 +83,9 @@ Trong mẫu hướng dẫn sử dụng dự án, bạn phải sử dụng Micros
 - Nếu các giá trị thời gian hoặc chi phí thực tế liên công ty sẽ không được đồng bộ hóa với Finance, thì bạn phải xóa cột có điều kiện được chèn gần đây nhất khỏi mẫu của bạn. Nếu không, có thể xảy ra lỗi tích hợp hoặc các giao dịch thực tế không chính xác có thể được nhập vào Finance.
 
 #### <a name="contract-organizational-unit"></a>Đơn vị tổ chức trong hợp đồng
-Để cập nhật cột có điều kiện đã chèn trong mẫu, hãy bấm vào mũi tên **Bản đồ** để mở phần ánh xạ. Chọn **Truy vấn và lọc nâng cao** liên kết để mở Power Query.
+Để cập nhật cột có điều kiện đã chèn trong mẫu, hãy bấm vào mũi tên **Bản đồ** để mở phần ánh xạ. Chọn liên kết **Truy vấn nâng cao và lọc** để mở Power Query.
 
-- Nếu bạn đang sử dụng mẫu hướng dẫn sử dụng Dự án (PSA to Fin và Ops) mặc định, trong Power Query, chọn cuối cùng **Điều kiện đã chèn** từ **Các bước áp dụng** tiết diện. Trong mục nhập **Hàm**, thay **USSI** bằng tên của pháp nhân sẽ dùng với phần tích hợp. Thêm các điều kiện bổ sung vào mục nhập **Hàm** theo như yêu cầu của bạn và cập nhật điều kiện **khác** từ **USMF** thành đúng pháp nhân.
+- Nếu bạn đang sử dụng mẫu Giá trị thực tế trong dự án (PSA sang Fin and Ops) mặc định, thì trong Power Query, hãy chọn **Điều kiện đã chèn** ở phần **Các bước được áp dụng**. Trong mục nhập **Hàm**, thay **USSI** bằng tên của pháp nhân sẽ dùng với phần tích hợp. Thêm các điều kiện bổ sung vào mục nhập **Hàm** theo như yêu cầu của bạn và cập nhật điều kiện **khác** từ **USMF** thành đúng pháp nhân.
 - Nếu bạn tạo mẫu mới, thì bạn phải thêm cột để hỗ trợ các mục thời gian và chi phí liên công ty. Chọn **Thêm cột có điều kiện** và nhập tên cho cột, chẳng hạn như **Pháp nhân**. Nhập điều kiện cho cột, trong đó, nếu **msdyn\_contractorganizationalunitid.msdyn\_name** là \<organizational unit\>, thì \<enter the legal entity\>; nếu không thì nhập null.
 
 ### <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu
@@ -125,7 +125,7 @@ Các giá trị thực tế trong dự án được quản lý trong Project Ser
 
 ### <a name="power-query"></a>Power Query
 
-Trong mẫu cập nhật thực tế dự án, bạn phải sử dụng Power Query để hoàn thành các nhiệm vụ này:
+Trong mẫu cập nhật giá trị thực tế trong dự án, bạn phải sử dụng Power Query để hoàn thành các nhiệm vụ sau:
 
 - Chuyển loại giao dịch trong Finance thành loại giao dịch chính xác trong Project Service Automation. Sự chuyển đổi này đã được xác định trong mẫu Cập nhật giá trị thực tế trong dự án (Fin Ops sang PSA).
 - Chuyển loại thanh toán trong Finance thành loại thanh toán chính xác trong Project Service Automation. Sự chuyển đổi này đã được xác định trong mẫu Cập nhật giá trị thực tế trong dự án (Fin Ops sang PSA).

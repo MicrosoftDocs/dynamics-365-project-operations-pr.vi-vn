@@ -1,6 +1,6 @@
 ---
 title: Ánh xạ dự án và nhiệm vụ với mô tả hợp đồng dựa trên dự án - bản đơn giản
-description: Bài viết này cung cấp thông tin về cách thêm và xóa các dự án và nhiệm vụ vào một dòng hợp đồng.
+description: Bài viết này cung cấp thông tin về cách thêm dự án và nhiệm vụ vào một mô tả hợp đồng cũng như cách xóa.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

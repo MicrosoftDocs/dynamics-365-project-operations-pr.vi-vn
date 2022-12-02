@@ -1,6 +1,6 @@
 ---
 title: Hóa đơn hiệu chỉnh của dự án
-description: Bài viết này cung cấp thông tin về cách tạo và xác nhận hóa đơn điều chỉnh trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách tạo và xác nhận các hóa đơn hiệu chỉnh trong Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

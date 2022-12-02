@@ -1,6 +1,6 @@
 ---
 title: Quản lý cơ hội dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách làm việc với các cơ hội có liên quan đến các dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với các cơ hội có liên quan đến dự án.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 Các công ty dựa trên dự án thường sắp xếp các hoạt động giao hàng của mình ở nhiều quốc gia và khu vực địa lý. Chi phí thực hiện dự án và giao hàng có thể thay đổi tùy theo khu vực địa lý hoặc bộ phận quản lý việc giao hàng. Ở chiều ngược lại, điều này cũng có thể ảnh hưởng đến lợi nhuận của thỏa thuận. Việc cung cấp dịch vụ dựa trên dự án thường tiêu tốn một lượng lớn thời gian của nguồn nhân lực, cùng với những khoản chi phí đáng kể cho việc đi lại, chi phí vật liệu và các chi phí khác.
 
-Các cơ hội theo dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng cho Dynamics 365 Sales. Bài báo cung cấp thông tin chi tiết về các lĩnh vực khác nhau và logic kinh doanh có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
+Các cơ hội theo dự án trong Dynamics 365 Project Operations được thiết kế với phần mở rộng cho Dynamics 365 Sales. Bài viết cung cấp thông tin chi tiết về các trường và lô-gic kinh doanh khác nhau có trong chức năng bổ sung được các công ty dựa trên dự án yêu cầu để quản lý các cơ hội dựa trên dự án.
 
 ## <a name="view-all-project-based-opportunities"></a>Xem tất cả các cơ hội dựa trên dự án
 

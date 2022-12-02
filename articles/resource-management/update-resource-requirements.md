@@ -1,6 +1,6 @@
 ---
 title: Chỉnh sửa yêu cầu nguồn lực
-description: Bài viết này cung cấp thông tin về cập nhật thông tin yêu cầu tài nguyên.
+description: Bài viết này cung cấp thông tin về cách cập nhật thông tin yêu cầu nguồn lực.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

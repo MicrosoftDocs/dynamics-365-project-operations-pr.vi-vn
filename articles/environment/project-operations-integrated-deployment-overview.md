@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về triển khai Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho
-description: Bài viết này cung cấp thông tin về kiểu triển khai, Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có sẵn.
+description: Bài viết này cung cấp thông tin về loại hình triển khai, Project Operations cho các tình huống dựa trên nguồn lực/hàng không trữ kho.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Loại hình triển khai, Dynamics 365 Project Operations cho các trường h�
 - Ghi nhận doanh thu dự án
 - Khả năng mở rộng thông qua Power Platform
 
-Loại triển khai này cung cấp phần mở rộng cho chức năng được cung cấp bởi Dynamics 365 Finance và Dynamics 365 Supply Chain Management các ứng dụng.
+Loại hình triển khai này giúp mở rộng chức năng được các ứng dụng Dynamics 365 Finance và Dynamics 365 Supply Chain Management cung cấp.
 
 Nên chọn loại hình triển khai này nếu điều kỳ vọng ở Project Operations là sử dụng toàn bộ vòng đời của dự án có các yêu cầu sau:
 

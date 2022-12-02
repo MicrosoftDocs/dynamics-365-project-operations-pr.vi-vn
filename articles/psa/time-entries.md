@@ -1,6 +1,6 @@
 ---
 title: Tạo mục nhập thời gian
-description: Bài viết này cung cấp thông tin về cách tạo các mục thời gian.
+description: Bài viết này cung cấp thông tin về cách tạo mục nhập thời gian.
 author: rumant
 ms.custom:
 - dyn365-projectservice

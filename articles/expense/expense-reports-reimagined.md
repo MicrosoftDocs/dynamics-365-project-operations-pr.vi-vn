@@ -1,6 +1,6 @@
 ---
-title: Báo cáo chi phí được mô phỏng lại (có video)
-description: Bài viết này giải thích trải nghiệm được thiết kế lại và hình dung lại đối với mục nhập báo cáo chi phí.
+title: Báo cáo chi phí được xây dựng lại (có chứa video)
+description: Bài viết này giải thích trải nghiệm được thiết kế lại đối với mục nhập báo cáo chi phí.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Mục nhập báo cáo chi phí đã được thiết kế lại để đơn gi�
 | Lưu và thêm các mô tả chi phí mới | Các nút **Lưu** và **Mới** có sẵn khi chi phí mới được nhập, nhằm giúp bạn nhanh chóng nhập mô tả chi phí. |
 | Khả năng hiển thị tốt hơn thành các mô tả chia nhỏ và được chia thành từng khoản mục | Các dòng được chia nhỏ và chia thành từng khoản mục được thêm trực tiếp vào danh sách chi phí để tăng khả năng hiển thị và giúp bạn dễ dàng xác định xem có bất kỳ sai sót nào hay không. |
 | Xem chi tiết danh mục con trong các dòng được chia thành từng mục | Các dòng được lặp lại của một khoản chi phí chính hiển thị các nhãn danh mục con trên báo cáo chi phí. Việc chia thành từng khoản cho phép bạn xem nhanh các chi tiết cụ thể.|
-|Lặp lại các chi phí định kỳ một cách nhanh chóng | Không gian làm việc chi phí được mô phỏng lại cung cấp khả năng tối ưu hóa chi phí định kỳ một cách nhanh chóng bằng cách thêm danh mục con, ngày bắt đầu và số lượng. Đại lượng đề cập đến số lần sạc được lặp lại trong một khoảng thời gian liên tục. |
+|Chia khoản chi phí định kỳ một cách nhanh chóng | Không gian làm việc chi phí được thiết kế lại cung cấp khả năng chia khoản chi phí định kỳ một cách nhanh chóng bằng cách thêm danh mục con, ngày bắt đầu và số lượng. Số lượng là số lần hoạt động nạp được lặp lại trong một khoảng thời gian liên tục. |
 | Hiển thị biên lai trong quá trình chia thành từng khoản mục | Biên lai có thể được hiển thị trong quá trình chia thành từng khoản mục. |
 | Lựa chọn tạm ứng tiền mặt | Chọn một hoặc nhiều khoản tạm ứng tiền mặt để thực hiện một giao dịch chi phí duy nhất. |
 | Số dư khoản tạm ứng tiền mặt | Xem xét số dư tạm ứng tiền mặt theo thời gian thực khi bạn tạo bút toán chi phí so với các khoản tạm ứng tiền mặt đã được phê duyệt và đã thanh toán. |

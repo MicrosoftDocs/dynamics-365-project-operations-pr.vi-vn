@@ -1,6 +1,6 @@
 ---
 title: Quản lý hợp đồng phụ trong Project Operations
-description: Bài viết này cung cấp một cái nhìn tổng quan về quy trình quản lý hợp đồng phụ end-to-end thường trong các tổ chức dựa trên dự án.
+description: Bài viết này cung cấp thông tin tổng quan về toàn bộ quy trình quản lý hợp đồng phụ thường gặp trong các tổ chức dựa trên dự án.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522352"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này cung cấp một cái nhìn tổng quan về quy trình quản lý hợp đồng phụ end-to-end trong các tổ chức dựa trên dự án. Giao thầu phụ đối với các dịch vụ thường tuân theo dòng quy trình công việc được hiển thị trong sơ đồ sau.
+Bài viết này cung cấp thông tin tổng quan về toàn bộ quy trình quản lý hợp đồng phụ trong các tổ chức dựa trên dự án. Giao thầu phụ đối với các dịch vụ thường tuân theo dòng quy trình công việc được hiển thị trong sơ đồ sau.
 
 ![Sòng quy trình giao thầu phụ](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Mô tả hợp đồng phụ có thể dựa trên số lượng hoặc dựa tr
 
 Khi một mô tả hợp đồng phụ **dựa trên số lượng**, thì số lượng được mua dựa trên mô tả hợp đồng phụ về thời gian, chi phí hoặc vật liệu có thể được sử dụng cho bất kỳ dự án nào.
 
-Khi mô tả hợp đồng phụ **dựa trên công việc**, thì mô tả hợp đồng phụ ánh xạ tới phần nội dung công việc được thể hiện bằng một nút trong kế hoạch dự án. Giá trị của mô tả hợp đồng phụ là tổng của tất cả các thành phần được yêu cầu để cung cấp nội dung công việc đó. Chúng được mô hình hóa dưới dạng chi tiết mô tả hợp đồng phụ và có thể là tập hợp thời gian, chi phí hoặc vật liệu. Đối với mô tả hợp đồng phụ dựa trên công việc, mô tả hợp đồng phụ cũng dành riêng cho một dự án duy nhất. Các loại hợp đồng phụ này không được Hoạt động Dự án hỗ trợ.
+Khi mô tả hợp đồng phụ **dựa trên công việc**, thì mô tả hợp đồng phụ ánh xạ tới phần nội dung công việc được thể hiện bằng một nút trong kế hoạch dự án. Giá trị của mô tả hợp đồng phụ là tổng của tất cả các thành phần được yêu cầu để cung cấp nội dung công việc đó. Chúng được mô hình hóa dưới dạng chi tiết mô tả hợp đồng phụ và có thể là tập hợp thời gian, chi phí hoặc vật liệu. Đối với mô tả hợp đồng phụ dựa trên công việc, mô tả hợp đồng phụ cũng dành riêng cho một dự án duy nhất. Các loại hợp đồng phụ này hiện không được hỗ trợ trong Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Ứng dụng Chi phí dành cho thiết bị di động
-description: Bài viết này cung cấp thông tin về không gian làm việc di động Quản lý chi phí.
+description: Bài viết này cung cấp thông tin về Không gian làm việc di động Quản lý chi phí.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930252"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết này cung cấp thông tin về **Quản lý chi tiêu** không gian làm việc di động. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
+Bài viết này cung cấp thông tin về không gian làm việc di động **Quản lý chi phí**. Không gian làm việc này cho phép người dùng chụp và tải lên biên lai để họ có thể đính kèm biên lai đó vào báo cáo chi phí sau này. Người dùng cũng có thể nhanh chóng tạo dòng chi phí bằng cách sử dụng biên lai đính kèm, đồng thời tạo và quản lý các báo cáo chi phí của họ. Ngoài ra, những người phê duyệt có thể sử dụng không gian làm việc di động **Quản lý chi phí** để xem các báo cáo chi phí được gán cho họ, và phê duyệt hoặc từ chối các báo cáo chi phí đó.
 
 Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops.
 
@@ -100,7 +100,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 
 10. Chọn **Xong**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Phê duyệt báo cáo chi phí bằng cách sử dụng không gian làm việc di động Quản lý chi phí
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Phê duyệt một báo cáo chi phí bằng cách sử dụng không gian làm việc di động Quản lý chi phí
 
 1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
 2. **Phê duyệt chi phí** hiển thị số lượng báo cáo chi phí được chỉ định cho bạn để phê duyệt. Số lượng được cập nhật khoảng 30 phút một lần. Chọn **Phê duyệt chi phí**.
@@ -113,7 +113,7 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 6. Nhập bất kỳ nhận xét nào cho hành động phê duyệt.
 7. Chọn **Xong**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Tạo báo cáo chi phí mới và gửi nó để phê duyệt bằng cách sử dụng không gian làm việc di động Quản lý chi phí
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Tạo một báo cáo chi phí mới và nộp báo cáo để phê duyệt bằng cách sử dụng không gian làm việc di động Quản lý chi phí
 
 1. Trên thiết bị di động của bạn, hãy mở không gian làm việc **Quản lý chi phí**.
 2. Chọn **Nhập chi phí**.
@@ -206,23 +206,23 @@ Tải xuống và cài đặt ứng dụng di động Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Tại sao ứng dụng di động Expense không nhập phương thức thanh toán theo mặc định?
 
-Các tổ chức có thể tùy chỉnh **Phương thức thanh toán mặc định** cài đặt cho từng danh mục chi phí khi nó được tạo. Ngoài ra, khi bạn thiết lập phương thức thanh toán, bạn có thể đặt **Phương thức thanh toán mặc định** lĩnh vực để **Chỉ nhập khẩu**.
+Các tổ chức có thể tùy chỉnh cài đặt **Phương thức thanh toán mặc định** cho từng loại chi phí khi nó được tạo. Ngoài ra, khi bạn thiết lập phương thức thanh toán, bạn có thể đặt trường **Phương thức thanh toán mặc định** thành **Chỉ nhập**.
 
-Khi nào **Chỉ nhập khẩu** được bật cho một phương thức thanh toán, phương thức thanh toán không được nhập theo mặc định. Nó sẽ trống trong danh mục chi phí nơi phương thức thanh toán này được thiết lập. Hành vi này nhất quán trong cả trải nghiệm web và trải nghiệm di động.
+Khi **Chỉ nhập** được bật cho một phương thức thanh toán, phương thức thanh toán không được nhập theo mặc định. Nó sẽ trống trong danh mục chi phí nơi phương thức thanh toán này được thiết lập. Hành vi này là nhất quán trong cả trải nghiệm web và trải nghiệm di động.
     
-Khi nào **Chỉ nhập khẩu** không được bật cho một phương thức thanh toán, giá trị đã đặt được nhập theo mặc định cho các danh mục chi phí nơi phương thức thanh toán này được thiết lập. Tuy nhiên, có một vấn đề đã biết là giá trị mặc định không được nhập vào ứng dụng di động Expense. Để giải quyết vấn đề này, hãy chọn phương thức thanh toán theo cách thủ công trước khi bạn lưu báo cáo chi phí. 
+Khi **Chỉ nhập** không được bật cho một phương thức thanh toán, giá trị đã đặt được nhập theo mặc định cho các danh mục chi phí nơi phương thức thanh toán này được thiết lập. Tuy nhiên, có một vấn đề đã biết khi giá trị mặc định không được nhập vào ứng dụng di động Expense. Để giải quyết vấn đề này, hãy chọn phương thức thanh toán theo cách thủ công trước khi bạn lưu báo cáo chi phí. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Tại sao tôi không thể thêm hoặc chỉnh sửa các thứ nguyên tài chính trong ứng dụng Expense dành cho thiết bị di động?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Tại sao tôi không thể thêm hoặc chỉnh sửa các thứ nguyên tài chính trong ứng dụng di động Expense?
 
-Nhập các thứ nguyên và phân phối không được hỗ trợ. Để khắc phục hạn chế này, bạn có thể đặt các trường này theo mặc định trong ứng dụng dành cho thiết bị di động bằng cách thiết lập các thứ nguyên tài chính mặc định cho mỗi dự án hoặc nhân viên.
+Việc nhập các thứ nguyên và phân bổ không được hỗ trợ. Để khắc phục hạn chế này, bạn có thể đặt các trường này theo mặc định trong ứng dụng dành cho thiết bị di động bằng cách thiết lập các thứ nguyên tài chính mặc định cho mỗi dự án hoặc nhân viên.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Tại sao đôi khi tôi thấy lỗi đồng bộ hóa trong ứng dụng Expense dành cho thiết bị di động?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Tại sao đôi khi tôi gặp lỗi đồng bộ hóa trong ứng dụng di động Expense?
 
-Nếu các dòng chi phí không đáp ứng các yêu cầu chính sách và người dùng gửi báo cáo chi phí mà không giải quyết cảnh báo chính sách, thì dữ liệu di động sẽ không được đồng bộ hóa với máy chủ và xảy ra lỗi đồng bộ hóa. Tất cả các báo cáo chi phí được gửi sau khi xảy ra lỗi đồng bộ hóa sẽ vẫn ở trạng thái không thành công và gây ra nhiều lỗi đồng bộ hóa hơn. Cách duy nhất để khắc phục tình trạng này là xóa thủ công các thông báo đồng bộ hóa. Vấn đề này đã được giải quyết bằng cách ngừng gửi báo cáo chi phí khi các cảnh báo chính sách chưa được giải quyết, để tránh các lỗi đồng bộ hóa.
+Nếu mô tả chi phí không đáp ứng các yêu cầu chính sách và người dùng gửi báo cáo chi phí mà không giải quyết cảnh báo chính sách, thì dữ liệu di động sẽ không được đồng bộ hóa với máy chủ và xảy ra lỗi đồng bộ hóa. Tất cả các báo cáo chi phí được gửi sau khi xảy ra lỗi đồng bộ hóa sẽ vẫn ở trạng thái không thành công và gây ra nhiều lỗi đồng bộ hóa hơn. Cách duy nhất để khắc phục tình trạng này là xóa thủ công các thông báo đồng bộ hóa. Vấn đề này đã được giải quyết bằng cách ngừng gửi báo cáo chi phí khi các cảnh báo chính sách chưa được giải quyết, để tránh các lỗi đồng bộ hóa.
 
 ### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Tại sao xác thực dự án và danh mục không được phản ánh chính xác trong ứng dụng di động Expense?
 
-Xác thực này hiện không được hỗ trợ. Tuy nhiên, hỗ trợ có thể được bổ sung trong tương lai. 
+Xác thực này hiện không được hỗ trợ. Tuy nhiên, có thể hỗ trợ trong tương lai. 
 
 ### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Những loại tài liệu nào được hỗ trợ trong ứng dụng di động Expense?
 

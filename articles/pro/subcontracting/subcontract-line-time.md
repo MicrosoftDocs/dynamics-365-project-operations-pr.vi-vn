@@ -1,6 +1,6 @@
 ---
 title: Mô tả hợp đồng phụ cho thời gian
-description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho thời gian và ghi lại việc mua thời gian từ các nhà cung cấp.
+description: Bài viết này giải thích cách ghi lại các mô tả hợp đồng phụ cho thời gian và ghi lại giao dịch mua thời gian từ các nhà cung cấp.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

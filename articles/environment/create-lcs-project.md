@@ -1,6 +1,6 @@
 ---
 title: Bắt đầu một dự án LCS mới
-description: Bài viết này cung cấp thông tin về cách tạo một dự án mới trong LCS cho môi trường Hoạt động Dự án của bạn.
+description: Bài viết này cung cấp thông tin về cách tạo một dự án mới trong LCS cho môi trường Project Operations của bạn.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Sử dụng Lifecycle Services (LCS) để quản lý môi trường Dynamics 36
   ![Chọn loại dự án LCS.](./media/create-lcs-1.png)
 
 5. Đặt tên dự án. 
-6. Lựa chọn **Tài chính và hoạt động** làm tên sản phẩm, đồng thời chọn ngành và phương pháp. 
+6. Chọn **Tài chính và hoạt động** làm tên sản phẩm, sau đó chọn ngành và phương pháp. 
 7. Chọn **Tạo**.
 
 ![Tạo Dự án.](./media/create-lcs-2.png)

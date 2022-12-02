@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình các tham số quản lý chi phí
-description: Bài viết này mô tả các tham số kiểm soát hành vi chung trong quản lý Chi phí.
+description: Bài viết này mô tả các tham số kiểm soát hành vi chung trong Quản lý chi phí.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931494"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này mô tả các tham số kiểm soát hành vi chung trong quản lý Chi phí.
+Bài viết này mô tả các tham số kiểm soát hành vi chung trong Quản lý chi phí.
 
 ## <a name="general"></a>Chung
 

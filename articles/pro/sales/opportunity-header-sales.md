@@ -1,6 +1,6 @@
 ---
 title: Thiết đặt cơ hội - bản đơn giản
-description: Bài viết này cung cấp thông tin về các giao dịch dựa trên dự án và các dòng cơ hội dựa trên dự án.
+description: Bài viết này cung cấp thông tin về các giao dịch dựa trên dự án và các mô tả cơ hội dựa trên dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

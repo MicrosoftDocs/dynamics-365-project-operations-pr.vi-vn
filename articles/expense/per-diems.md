@@ -1,6 +1,6 @@
 ---
 title: Công nhật
-description: Bài viết này cung cấp thông tin về các quy tắc công tác phí được sử dụng trong quản lý Chi phí.
+description: Bài viết này cung cấp thông tin về các quy tắc công tác phí được sử dụng trong Quản lý chi phí.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

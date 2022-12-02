@@ -22,12 +22,12 @@ Sau khi bạn đã xác minh tất cả các dòng trên hóa đơn của nhà c
 Khi bạn chọn **Xác nhận** trên hóa đơn của nhà cung cấp, hành vi sau đây xảy ra:
 
 1. Trạng thái của hóa đơn nhà cung cấp được cập nhật thành **Đã xác nhận**.
-2. Hóa đơn của nhà cung cấp đã xác nhận và các bản ghi liên quan của nó trở thành ở chế độ chỉ đọc và không thể chỉnh sửa hoặc xóa.
-3. Nếu bất kỳ thực hành chi phí nào tham chiếu đến dòng hóa đơn của nhà cung cấp như một phần của quy trình đối sánh, tất cả các thực tế về chi phí được liên kết với dòng hóa đơn của nhà cung cấp được tham chiếu sẽ bị đảo ngược.
-4. Thực tế chi phí mới được tạo bằng cách sử dụng thông tin trên dòng hóa đơn của nhà cung cấp.
-5. Sau khi hóa đơn của nhà cung cấp được xác nhận, bạn không còn có thể tạo nhật ký sửa chữa, thu hồi mục nhập thời gian xử lý hoặc hủy bỏ phê duyệt về thời gian, chi phí hoặc các thủ tục vật chất ban đầu đã được đảo ngược.
+2. Hóa đơn của nhà cung cấp đã xác nhận và các bản ghi liên quan của nó trở thành chỉ đọc và không thể chỉnh sửa hoặc xóa.
+3. Nếu bất kỳ chi phí thực tế nào tham chiếu đến mô tả hóa đơn của nhà cung cấp như một phần của quá trình khớp, tất cả các chi phí thực tế được liên kết với mô tả hóa đơn của nhà cung cấp đã tham chiếu sẽ được đảo ngược.
+4. Chi phí thực tế mới được tạo bằng cách sử dụng thông tin trên mô tả hóa đơn của nhà cung cấp.
+5. Sau khi hóa đơn của nhà cung cấp được xác nhận, bạn không thể tạo nhật ký chỉnh sửa, xử lý thu hồi mục nhập thời gian hoặc hủy phê duyệt về thời gian, chi phí hoặc vật tư thực tế ban đầu đã được đảo ngược.
 
 > [!NOTE]
-> Nếu bất kỳ dòng nào trên hóa đơn của nhà cung cấp có trạng thái xác minh khác với **Hoàn thành**, không thể xác nhận hóa đơn của nhà cung cấp.
+> Nếu bất kỳ mô tả nào trên hóa đơn của nhà cung cấp có trạng thái xác minh không phải là **Hoàn thành**, hóa đơn của nhà cung cấp không thể được xác nhận.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

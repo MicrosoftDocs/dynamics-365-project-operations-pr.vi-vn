@@ -1,6 +1,6 @@
 ---
 title: Giá trị mặc định cho thông số tài chính
-description: Bài viết này cung cấp thông tin về cách thiết lập các giá trị mặc định về thứ nguyên tài chính.
+description: Bài viết này cung cấp thông tin về cách thiết lập các giá trị mặc định cho thông số tài chính.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 
 
-Dynamics 365 Project Operations sử dụng [Kích thước tài chính](/dynamics365/finance/general-ledger/financial-dimensions) khuôn khổ trong Dynamics 365 Finance để cung cấp thêm thông tin chi tiết về các giao dịch sổ cái phụ và sổ cái chung của dự án.
+Dynamics 365 Project Operations sử dụng khung [thông số Tài chính](/dynamics365/finance/general-ledger/financial-dimensions) trong Dynamics 365 Finance để cung cấp thêm thông tin chi tiết về các giao dịch trong sổ cái phụ và sổ cái chung của dự án.
 
 Các thông số tài chính mặc định có thể được đặt theo khách hàng, nguồn tài trợ dự án, mốc, phần mô tả hợp đồng dự án hoặc dự án.
 

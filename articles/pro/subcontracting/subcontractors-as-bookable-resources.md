@@ -1,6 +1,6 @@
 ---
 title: Thiết lập nhà thầu phụ làm nguồn lực có thể đặt trước
-description: Bài viết này giải thích cách thiết lập và duy trì tài nguyên nhà thầu phụ được tạo từ người dùng và địa chỉ liên hệ trong hệ thống để chúng có thể được liên kết với hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
+description: Bài viết này giải thích cách thiết lập và duy trì nguồn lực nhà thầu phụ được tạo từ người dùng và địa chỉ liên hệ trong hệ thống để có thể liên kết họ với hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

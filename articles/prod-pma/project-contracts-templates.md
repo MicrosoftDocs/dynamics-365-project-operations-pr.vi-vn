@@ -1,6 +1,6 @@
 ---
 title: Đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Project Service Automation sang Finance
-description: Bài viết này mô tả mẫu và các nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+description: Bài viết này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các hợp đồng dự án và dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933886"
 
 
 
-Bài viết này mô tả mẫu và các nhiệm vụ cơ bản được sử dụng để đồng bộ hóa các hợp đồng dự án và dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+Bài viết này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các hợp đồng dự án và dự án trực tiếp từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 
 > [!NOTE] 
 > Nếu đang sử dụng Enterprise Edition 7.3.0, bạn phải cài đặt KB 4074835.
@@ -120,7 +120,7 @@ Khi áp dụng giải pháp tích hợp Project Service Automation với Finance
 
 ## <a name="power-query"></a>Power Query
 
-Sử dụng Microsoft Power Query để Excel lọc dữ liệu nếu các điều kiện sau được đáp ứng:
+Sử dụng Power Query dành cho Excel để lọc dữ liệu nếu các điều kiện sau được đáp ứng:
 
 - Bạn có đơn đặt hàng trong Dynamics 365 Sales.
 - Bạn có nhiều đơn vị tổ chức trong Project Service Automation và các đơn vị tổ chức này sẽ được ánh xạ tới nhiều pháp nhân trong Finance.
@@ -128,7 +128,7 @@ Sử dụng Microsoft Power Query để Excel lọc dữ liệu nếu các đi�
 Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc sau:
 
 - Mẫu Dự án và hợp đồng (PSA sang Fin và Ops) có bộ lọc mặc định chỉ bao gồm đơn đặt hàng thuộc loại **Mục công việc (msdyn\_ordertype = 192350001)**. Bộ lọc này giúp đảm bảo rằng hợp đồng dự án không được tạo cho đơn đặt hàng trong Finance. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm bộ lọc này.
-- Tạo một Power Query bộ lọc chỉ bao gồm các tổ chức hợp đồng nên được đồng bộ hóa với pháp nhân của tập hợp kết nối tích hợp. Ví dụ: các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso US phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso Global phải được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
+- Tạo bộ lọc Power Query chỉ bao gồm các tổ chức hợp đồng sẽ được đồng bộ hóa với pháp nhân của bộ kết nối tích hợp. Ví dụ: các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso US phải được đồng bộ hóa với pháp nhân USSI, nhưng các hợp đồng dự án mà bạn có với đơn vị tổ chức hợp đồng của Contoso Global phải được đồng bộ hóa với pháp nhân USMF. Nếu bạn không thêm bộ lọc này vào ánh xạ nhiệm vụ của mình, tất cả các hợp đồng dự án sẽ được đồng bộ hóa với pháp nhân được xác định cho bộ kết nối, bất kể đơn vị tổ chức hợp đồng là gì.
 
 ## <a name="template-mapping-in-data-integration"></a>Ánh xạ mẫu trong tích hợp dữ liệu
 

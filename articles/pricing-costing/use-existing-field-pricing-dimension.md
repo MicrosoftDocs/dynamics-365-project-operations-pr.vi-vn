@@ -1,6 +1,6 @@
 ---
 title: Trường Project Operations làm thông số định giá
-description: Bài viết này cung cấp thông tin sử dụng các trường làm thứ nguyên định giá trong Dynamics 365 Project Operations.
+description: Bài viết này cung cấp thông tin về cách sử dụng các trường làm tham số giá trong Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

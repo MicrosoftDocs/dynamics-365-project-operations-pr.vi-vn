@@ -1,6 +1,6 @@
 ---
 title: Tạo nội dung phân công nguồn lực
-description: Bài viết này cung cấp thông tin về cách tạo các phép gán tài nguyên chung và được đặt tên.
+description: Bài viết này cung cấp thông tin về cách tạo nội dung phân công nguồn lực chung và có tên.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: vi-VN
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933518"
@@ -18,7 +18,7 @@ ms.locfileid: "8933518"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
 
-Phân công nguồn lực là sự liên kết trực tiếp của một thành viên trong nhóm dự án với một nhiệm vụ nút lá. Bài viết này cung cấp thông tin về các cách khác nhau để chỉ định tài nguyên.
+Phân công nguồn lực là sự liên kết trực tiếp của một thành viên trong nhóm dự án với một nhiệm vụ nút lá. Bài viết này cung cấp thông tin về các cách khác nhau để gán nguồn lực.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Tạo thành viên nhóm chung bằng phân công nhiệm vụ
 

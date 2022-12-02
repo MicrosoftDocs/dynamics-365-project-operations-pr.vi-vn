@@ -1,6 +1,6 @@
 ---
 title: Mô tả hợp đồng phụ cho các hạng mục chi phí
-description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho chi phí và sử dụng các trường để ghi lại thời gian mua từ các nhà cung cấp.
+description: Bài viết này giải thích cách ghi lại các mô tả hợp đồng phụ cho chi phí và sử dụng các trường để ghi lại thời gian mua từ các nhà cung cấp.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sử dụng các API lịch trình dự án để thực hiện các hoạt động với các thực thể Lập lịch biểu
-description: Bài viết này cung cấp thông tin và các mẫu để sử dụng API lịch trình Dự án.
+description: Bài viết này cung cấp thông tin và các mẫu để sử dụng API lịch trình dự án.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -47,14 +47,14 @@ Sau đây là danh sách các API lịch trình Dự án hiện tại.
 
 | **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | API này được sử dụng để tạo một dự án. Dự án và nhóm dự án mặc định được tạo ngay lập tức.                         |
-| **msdyn_CreateTeamMemberV1**            | API này được sử dụng để tạo một thành viên trong nhóm dự án. Hồ sơ thành viên trong nhóm được tạo ngay lập tức.                                  |
-| **msdyn_CreateOperationSetV1**          | API này được sử dụng để lập lịch một số yêu cầu phải được thực hiện trong một giao dịch.                                        |
-| **msdyn_PssCreateV1**                   | API này được sử dụng để tạo một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo. |
-| **msdyn_PssUpdateV1**                   | API này được sử dụng để cập nhật một thực thể. Thực thể có thể là bất kỳ thực thể lập kế hoạch Dự án nào hỗ trợ hoạt động cập nhật  |
-| **msdyn_PssDeleteV1**                   | API này được sử dụng để xóa một thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động xóa. |
-| **msdyn_ExecuteOperationSetV1**         | API này được sử dụng để thực thi tất cả các hoạt động trong tập hợp hoạt động nhất định.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | API này được sử dụng để cập nhật đường bao công việc đã lên kế hoạch Phân công tài nguyên.                                                        |
+| **msdyn_CreateProjectV1**               | API này được sử dụng để tạo dự án. Nhóm dự án và dự án mặc định được tạo ngay lập tức.                         |
+| **msdyn_CreateTeamMemberV1**            | API này được sử dụng để tạo thành viên nhóm dự án. Hồ sơ thành viên trong nhóm được tạo ngay lập tức.                                  |
+| **msdyn_CreateOperationSetV1**          | API này được dùng để lập lịch trình một số yêu cầu phải được thực hiện trong một giao dịch.                                        |
+| **msdyn_PssCreateV1**                   | API này được sử dụng để tạo thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động tạo. |
+| **msdyn_PssUpdateV1**                   | API này được sử dụng để cập nhật thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động cập nhật  |
+| **msdyn_PssDeleteV1**                   | API này được sử dụng để xóa thực thể. Thực thể có thể là bất kỳ thực thể lập lịch trình Dự án nào hỗ trợ hoạt động xóa. |
+| **msdyn_ExecuteOperationSetV1**         | API này được dùng để thực thi tất cả các thao tác trong nhóm thao tác nhất định.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | API này được sử dụng để cập nhật đường viền công việc đã lên kế hoạch Phân công nguồn lực.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Bởi vì bản ghi có cả **CreateProjectV1** và **CreateTeamMemberV1** đư
 
 | **Thực thể lập lịch trình**   | **Tạo** | **Update** | **Delete** | **Những điều quan trọng cần cân nhắc**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nhiệm vụ dự án            | Có        | Có        | Có        | Các **Tiến triển**, **lực**, và **Nỗ lực** có thể chỉnh sửa các trường trong Dự án cho Web, nhưng không thể chỉnh sửa chúng trong Hoạt động Dự án.                                                                                                                                                                                             |
+| Nhiệm vụ dự án            | Có        | Có        | Có        | Các trường **Tiến trình**, **EffortCompleted** và **EffortRemaining** có thể được chỉnh sửa trong Project for the Web nhưng không thể chỉnh sửa trong Project Operations.                                                                                                                                                                                             |
 | Quan hệ phụ thuộc nhiệm vụ dự án | Có        | No         | Có        | Bản ghi quan hệ phụ thuộc nhiệm vụ dự án không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo.                                                                                                                                                                                                                                 |
-| Công việc giao cho nguồn lực     | Có        | Có\*      | Có        | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, bản ghi cũ có thể bị xóa và bản ghi mới có thể được tạo. Một API riêng biệt đã được cung cấp để cập nhật các đường bao Chỉ định tài nguyên. |
-| Nhóm dự án          | Có        | Có        | Có        | Nhóm mặc định được tạo bằng cách sử dụng **CreateProjectV1** API. Hỗ trợ tạo và xóa nhóm dự án đã được thêm vào trong Bản phát hành cập nhật 16.                                                                                                                                                                                                   |
+| Công việc giao cho nguồn lực     | Có        | Có\*      | Có        | Không hỗ trợ thao tác với các trường sau: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** và **PlannedWork**. Bản ghi việc được giao không được cập nhật. Thay vào đó, một bản ghi cũ có thể bị xóa và một bản ghi mới có thể được tạo. Một API riêng biệt đã được cung cấp để cập nhật các đường viền Phân công nguồn lực. |
+| Nhóm dự án          | Có        | Có        | Có        | Nhóm mặc định được tạo bằng cách sử dụng API **CreateProjectV1**. Hỗ trợ tạo và xóa bộ chứa dự án đã được thêm vào trong Bản phát hành cập nhật 16.                                                                                                                                                                                                   |
 | Thành viên nhóm dự án     | Có        | Có        | Có        | Đối với thao tác tạo, hãy sử dụng API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Dự án                 | Có        | Có        |            | Không hỗ trợ thao tác với các trường sau: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** và **Duration**.                                                                                       |
 | Danh sách kiểm tra dự án      | Có        | Có        | Có        |                                                                                                                                                                                                                                                                                                                                                         |
-| Nhãn dự án           | No         | Có        | No         | Tên nhãn có thể được thay đổi. Tính năng này chỉ có sẵn cho Dự án cho Web                                                                                                                                                                                                                                                                      |
-| Nhiệm vụ dự án để gắn nhãn   | Có        | No         | Có        | Tính năng này chỉ có sẵn cho Dự án cho Web                                                                                                                                                                                                                                                                                                  |
-| Phân đoạn nước rút trong dự án          | Có        | Có        | Có        | Các **Bắt đầu** trường phải có ngày sớm hơn **Kết thúc** đồng ruộng. Sprint cho cùng một dự án không được trùng lặp với nhau. Tính năng này chỉ có sẵn cho Dự án cho Web                                                                                                                                                                    |
+| Nhãn dự án           | No         | Có        | No         | Tên nhãn có thể được thay đổi. Tính năng này chỉ có sẵn trong Project for the Web                                                                                                                                                                                                                                                                      |
+| Nhiệm vụ dự án để gắn nhãn   | Có        | No         | Có        | Tính năng này chỉ có sẵn trong Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Phân đoạn nước rút trong dự án          | Có        | Có        | Có        | Trường **Bắt đầu** phải có ngày sớm hơn trường **Kết thúc**. Các phân đoạn nước rút cho cùng một dự án không được trùng lặp với nhau. Tính năng này chỉ có sẵn trong Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Thuộc tính ID là không bắt buộc. Nếu được cung cấp, hệ thốn
 
 Sau đây là danh sách các giới hạn và vấn đề đã biết:
 
--   API lịch trình dự án chỉ có thể được sử dụng bởi **Người dùng có Giấy phép Dự án của Microsoft**. Những đối tượng sau không thể sử dụng API lịch trình:
+-   API lịch trình dự án chỉ có thể được sử dụng bởi **Người dùng có Giấy phép Microsoft Project**. Những đối tượng sau không thể sử dụng API lịch trình:
     -   Người dùng ứng dụng
     -   Người dùng hệ thống
     -   Người dùng tích hợp
@@ -94,37 +94,37 @@ Sau đây là danh sách các giới hạn và vấn đề đã biết:
 -   Mỗi **OperationSet** chỉ có thể có tối đa 100 thao tác.
 -   Mỗi người dùng chỉ có tối đa 10 **OperationSets** đang mở.
 -   Project Operations hiện hỗ trợ tổng cộng tối đa 500 nhiệm vụ trên một dự án.
--   Mỗi thao tác Đường viền chỉ định tài nguyên cập nhật được tính là một thao tác đơn lẻ.
--   Mỗi danh sách các đường bao được cập nhật có thể chứa tối đa 100 lát thời gian.
+-   Mỗi thao tác Cập nhật đường viền phân công nguồn lực tính là một thao tác đơn lẻ.
+-   Mỗi danh sách các đường viền được cập nhật có thể chứa tối đa 100 lát cắt thời gian.
 -   Hiện không có nhật ký lỗi và trạng thái lỗi **OperationSet**.
--   Có tối đa 400 sprint cho mỗi dự án.
+-   Có tối đa 400 lát cắt cho mỗi dự án.
 -   [Giới hạn và ranh giới đối với các dự án và nhiệm vụ](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Các nhãn hiện chỉ có sẵn cho Dự án cho Web.
+-   Các nhãn hiện chỉ có sẵn trong Project for the Web.
 
 **Xử lý lỗi**
 
 -   Để xem lại các lỗi được tạo từ Bộ hoạt động, hãy chuyển đến phần **Cài đặt** \> **Tích hợp lịch biểu** \> **Bộ hoạt động**.
 -   Để xem lại các lỗi được tạo ra từ Dịch vụ lịch trình dự án, hãy truy cập **Cài đặt** \> **Tích hợp lịch trình** \> **Nhật ký lỗi PSS**.
 
-**Chỉnh sửa đường viền chỉ định tài nguyên**
+**Chỉnh sửa đường viền phân công nguồn lực**
 
-Không giống như tất cả các API lập lịch dự án khác cập nhật một thực thể, API đường bao phân bổ tài nguyên chỉ chịu trách nhiệm cập nhật cho một trường duy nhất, msdyn_plannedwork, trên một thực thể duy nhất, msydn_resourceassignment.
+Không giống như tất cả các API lập lịch dự án khác có thể cập nhật một thực thể, API đường viên phân công tài nguyên chỉ chịu trách nhiệm cập nhật cho một trường duy nhất, msdyn_plannedwork, trên một thực thể duy nhất, msydn_resourceassignment.
 
 Chế độ lịch trình đã cho là:
 
 -   **đơn vị cố định**
--   Lịch dự án là 9-5p là 9-5p, Thứ Hai, Thứ Ba, Thứ Năm, Thứ Sáu (KHÔNG LÀM VIỆC THỨ TƯ)
--   Và lịch tài nguyên là 9-1p PST từ Thứ Hai đến Thứ Sáu
+-   lịch dự án là 9-5p là 9-5pst, Thứ Hai, Thứ Ba, Thứ Năm, Thứ Sáu (KHÔNG LÀM VIỆC THỨ TƯ)
+-   và lịch nguồn lực là 9-1p PST từ Thứ Hai đến Thứ Sáu
 
-Nhiệm vụ này là trong một tuần, bốn giờ một ngày. Điều này là do lịch tài nguyên là từ 9-1 PST, hoặc bốn giờ một ngày.
+Phân công này là cho một tuần, bốn giờ một ngày. Điều này là do lịch nguồn lực từ 9-1 PST, hoặc bốn giờ một ngày.
 
 | &nbsp;     | Tác vụ | Ngày bắt đầu | Ngày kết thúc  | Số lượng | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 công nhân |  T1  | 13/6/2022  | 17/6/2022 | 20       | Tệp 4         | Tệp 4         | Tệp 4         | Tệp 4         | Tệp 4         |
+| nhân viên 9-1 |  T1  | 13/6/2022  | 17/6/2022 | 20       | Tệp 4         | Tệp 4         | Tệp 4         | Tệp 4         | Tệp 4         |
 
-Ví dụ: nếu bạn muốn nhân viên chỉ làm việc ba giờ mỗi ngày trong tuần này và cho phép một giờ cho các công việc khác.
+Ví dụ: nếu bạn muốn nhân viên chỉ làm việc ba giờ mỗi ngày trong tuần này và cho phép một giờ cho các nhiệm vụ khác.
 
-#### <a name="updatedcontours-sample-payload"></a>Tải trọng mẫu đã cập nhật:
+#### <a name="updatedcontours-sample-payload"></a>Tải trọng mẫu UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Ví dụ: nếu bạn muốn nhân viên chỉ làm việc ba giờ mỗi ngày 
 }]
 ```
 
-Đây là nhiệm vụ sau khi chạy API lịch biểu đường viền cập nhật.
+Đây là nhiệm vụ sau khi chạy API lình trình cập nhật đường viền.
 
 | &nbsp;     | Tác vụ | Ngày bắt đầu | Ngày kết thúc  | Số lượng | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 công nhân | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| nhân viên 9-1 | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Kịch bản mẫu**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Mẫu bổ sung
+** Các mẫu khác
 
 ```csharp
 #region Call actions --- Sample code ----

@@ -1,6 +1,6 @@
 ---
 title: Thiết lập nguồn lực dự án
-description: Bài viết này cung cấp thông tin về việc thiết lập hoặc yêu cầu tài nguyên dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập hoặc yêu cầu nguồn lực dự án.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

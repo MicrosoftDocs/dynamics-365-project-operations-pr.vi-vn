@@ -1,6 +1,6 @@
 ---
 title: Không gian làm việc di động mục nhập thời gian dự án
-description: Bài viết này cung cấp thông tin về không gian làm việc di động mục nhập thời gian Dự án. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
+description: Bài viết này cung cấp thông tin về Không gian làm việc di động mục nhập thời gian dự án. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029694"
 
 [!include [banner](../includes/banner.md)]
 
-Bài viết này cung cấp thông tin về **Mục nhập thời gian dự án** không gian làm việc di động. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
+Bài viết này cung cấp thông tin về Không gian làm việc di động **mục nhập thời gian dự án**. Không gian làm việc này cho phép người dùng tham gia và tiết kiệm thời gian cho một dự án bằng cách sử dụng thiết bị di động của họ.
 
 Không gian làm việc di động này được thiết kế để sử dụng với ứng dụng di động Dynamics 365 Unified Ops. 
 
@@ -82,7 +82,7 @@ Nếu phiên bản 1611 với bản cập nhật Nền tảng từ 3 trở đi �
 
 ## <a name="download-and-install-the-mobile-app"></a>Tải xuống và cài đặt ứng dụng dành cho thiết bị di động
 
-Tải xuống và cài đặt ứng dụng di động tài chính và hoạt động:
+Tải xuống và cài đặt ứng dụng tài chính và hoạt động dành cho thiết bị di động:
 
 -   [Đối với điện thoại Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Đối với iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

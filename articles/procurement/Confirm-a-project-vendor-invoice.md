@@ -1,5 +1,5 @@
 ---
-title: Xác nhận hóa đơn của nhà cung cấp dự án
+title: Xác nhận các hóa đơn của nhà cung cấp trong dự án
 description: Bài viết này giải thích cách xác nhận hóa đơn của nhà cung cấp dự án trong Microsoft Dynamics 365 Project Operations và mô tả tác động tài chính của việc xác nhận hóa đơn của nhà cung cấp dự án.
 author: suvaidya
 ms.date: 8/25/2022
@@ -13,24 +13,24 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475488"
 ---
-# <a name="confirm-project-vendor-invoices"></a>Xác nhận hóa đơn của nhà cung cấp dự án
+# <a name="confirm-project-vendor-invoices"></a>Xác nhận các hóa đơn của nhà cung cấp trong dự án
 
 _ **Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
-Khi mà **Cần xác nhận thủ công bởi PM** tham số được bật, hóa đơn của nhà cung cấp được tạo trong Microsoft Dataverse có **Bản thảo** trạng thái. Hóa đơn của nhà cung cấp được tạo theo cách này phải được xem xét và xác nhận theo cách thủ công. Khi mà **Cần xác nhận thủ công bởi PM** tham số bị vô hiệu hóa, hóa đơn của nhà cung cấp được tạo trong Dataverse được xác nhận tự động. Không có thêm hành động được yêu cầu. 
+Khi tham số **Bắt buộc phải có xác nhận thủ công của PM** được bật, các hóa đơn nhà cung cấp được tạo trong Microsoft Dataverse đều có trạng thái **Bản nháp**. Hóa đơn của nhà cung cấp được tạo theo cách này phải được xem xét và xác nhận theo cách thủ công. Khi tham số **Bắt buộc phải có xác nhận thủ công của PM** được tắt, các hóa đơn nhà cung cấp được tạo trong Dataverse được xác nhận tự động. Không yêu cầu thêm hành động nào. 
 
-Sau khi bạn đã xác minh tất cả các dòng trên hóa đơn của nhà cung cấp trong Dynamics 365 Project Operations, lựa chọn **Xác nhận** để xác nhận hóa đơn của nhà cung cấp.
+Sau khi bạn đã xác minh tất cả các dòng trên hóa đơn của nhà cung cấp trong Dynamics 365 Project Operations, hãy chọn **Xác nhận** để xác nhận hóa đơn của nhà cung cấp.
 
-Khi bạn chọn **Xác nhận** trên hóa đơn của nhà cung cấp, hành vi sau xảy ra:
+Khi bạn chọn **Xác nhận** trên hóa đơn của nhà cung cấp, hành vi sau đây xảy ra:
 
 1. Trạng thái của hóa đơn nhà cung cấp được cập nhật thành **Đã xác nhận**.
-1. Hóa đơn của nhà cung cấp đã xác nhận và các bản ghi liên quan của nó trở thành ở chế độ chỉ đọc và không thể chỉnh sửa hoặc xóa.
-1. Nếu bất kỳ thực hành chi phí nào tham chiếu đến dòng hóa đơn của nhà cung cấp như một phần của quy trình đối sánh, tất cả các thực tế về chi phí được liên kết với dòng hóa đơn của nhà cung cấp được tham chiếu sẽ bị đảo ngược.
-1. Thực tế chi phí mới được tạo bằng cách sử dụng thông tin trên dòng hóa đơn của nhà cung cấp.
-1. Bạn không còn có thể tạo nhật ký sửa chữa, ghi lại quy trình các mục thời gian, hoặc hủy bỏ việc phê duyệt các thủ tục thời gian, chi phí hoặc vật chất ban đầu đã bị đảo ngược.
-1. Trong Dynamics 365 Finance, **Chi phí dự án** giá trị được cập nhật bằng cách sử dụng tạp chí Tích hợp dự án và tài khoản tích hợp Mua sắm là *đảo ngược* sau khi tạp chí tích hợp Dự án được đăng.
+1. Hóa đơn của nhà cung cấp đã xác nhận và các bản ghi liên quan của nó trở thành chỉ đọc và không thể chỉnh sửa hoặc xóa.
+1. Nếu bất kỳ chi phí thực tế nào tham chiếu đến mô tả hóa đơn của nhà cung cấp như một phần của quá trình khớp, tất cả các chi phí thực tế được liên kết với mô tả hóa đơn của nhà cung cấp đã tham chiếu sẽ được đảo ngược.
+1. Chi phí thực tế mới được tạo bằng cách sử dụng thông tin trên mô tả hóa đơn của nhà cung cấp.
+1. Bạn không thể tạo nhật ký chỉnh sửa, xử lý thu hồi mục nhập thời gian hoặc hủy phê duyệt về thời gian, chi phí hoặc vật tư thực tế ban đầu đã được đảo ngược.
+1. Trong Dynamics 365 Finance, giá trị **Chi phí dự án** được cập nhật bằng cách sử dụng nhật ký Tích hợp dự án và Tài khoản tích hợp mua sắm được *đảo ngược* sau khi nhật ký Tích hợp dự án được đăng.
 
 > [!NOTE]
-> Nếu bất kỳ dòng nào trên hóa đơn của nhà cung cấp có trạng thái xác minh khác với **Hoàn thành**, không thể xác nhận hóa đơn của nhà cung cấp.
+> Nếu bất kỳ mô tả nào trên hóa đơn của nhà cung cấp có trạng thái xác minh không phải là **Hoàn thành**, hóa đơn của nhà cung cấp không thể được xác nhận.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

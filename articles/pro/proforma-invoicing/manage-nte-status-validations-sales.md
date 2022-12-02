@@ -1,6 +1,6 @@
 ---
 title: Quản lý trạng thái không được vượt quá và các mục xác thực
-description: Bài viết này cung cấp thông tin về các kiểm tra không vượt quá giới hạn được thực hiện trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về các hoạt động kiểm tra giới hạn không vượt quá được thực hiện trong Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

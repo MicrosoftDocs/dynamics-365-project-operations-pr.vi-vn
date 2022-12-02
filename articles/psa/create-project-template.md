@@ -35,21 +35,21 @@ Mẫu dự án tiết kiệm thời gian cho bạn nếu công ty của bạn th
 ## <a name="components-of-project-template"></a>Các thành phần của mẫu dự án
  Một mẫu dự án bao gồm ba thành phần:  
   
-- **Cấu trúc phân tích công việc**: Cấu trúc phân tích công việc trong một mẫu dự án có tập hợp các yếu tố giống như trong dự án. Bạn có thể tạo hệ thống phân cấp nhiệm vụ, liên kết các vai trò với nhiệm vụ, xác định các thuộc tính lịch trình, đặt các phần phụ thuộc và xem tất cả dữ liệu trong Gantt. Cấu trúc phân tích công việc trong các mẫu dự án cũng hỗ trợ các chế độ tác vụ cho từng tác vụ. Không có sự khác biệt giữa mẫu dự án và dự án khi tạo lịch trình làm việc.  
+- **Cấu trúc phân tích công việc**: Cấu trúc phân tích công việc trong một mẫu dự án có tập hợp các yếu tố giống như trong dự án. Bạn có thể tạo một hệ thống cấp bậc nhiệm vụ, liên kết vai trò với nhiệm vụ, xác định các thuộc tính lịch trình, thiết lập quan hệ phụ thuộc và xem tất cả dữ liệu trong Gantt. Cấu trúc phân tích công việc trong mẫu dự án cũng hỗ trợ chế độ nhiệm vụ cho mỗi nhiệm vụ. Tạo lịch trình công việc cho mẫu dự án và dự án là giống nhau.  
   
 - **Dự toán dự án**: Dự toán dự án trong các mẫu hoạt động giống như trong các dự án, ngoại trừ bảng giá để đặt mặc định chi phí và giá bán luôn là chi phí và bảng giá bán mặc định được xác định trong tham số [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Các tính năng còn lại giống với các tính năng trong một dự án.  
   
 - **Hình thành nhóm dự án**: Khi hình thành nhóm dự án cho mẫu dự án, bạn có thể đặt lịch một nguồn lực được nêu tên trong một mẫu. Bạn có thể sử dụng **Tạo Nhóm Dự án** trong cấu trúc phân tích công việc để tạo ra một tập hợp các nguồn lực chung. Bạn cũng có thể chỉ định các kỹ năng và mức độ thành thạo cần thiết cho nguồn lực chung. Bạn không thể thay thế nguồn lực chung bằng nguồn lực có thể đặt lịch trong mẫu dự án.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Tạo một mẫu dự án từ một dự án hiện có
-Bạn có thể tạo một mẫu dự án từ một dự án theo những cách sau:
+## <a name="create-a-project-template-from-an-existing-project"></a>Tạo mẫu dự án từ dự án hiện có
+Bạn có thể tạo một mẫu dự án từ một dự án theo những cách sau đây:
 
-- **Cấu trúc phân chia công việc** : Một cấu trúc phân tích công việc trong một mẫu có nguồn gốc từ một dự án sẽ sao chép tất cả các nhiệm vụ và phần phụ thuộc. Các nhiệm vụ được tạo sẽ dựa trên các thành viên nhóm chung được thêm vào nhóm dự án khi mẫu dự án được tạo.
-- **Dự toán dự án** : Khi một mẫu dự án được tạo từ một dự án hiện có, các ước tính từ dự án nguồn sẽ được sao chép vào mẫu dự án.
-- **Thành viên nhóm dự án** : Khi một mẫu được tạo từ một dự án hiện có, tất cả các thành viên trong nhóm được đặt tên sẽ được thay thế bằng tài nguyên chung của tổ chức. Tất cả các tên vị trí và vai trò được duy trì.
+- **Cấu trúc phân tích công việc**: Một cấu trúc phân tích công việc trong một mẫu có nguồn gốc từ một dự án sẽ sao chép tất cả các nhiệm vụ và yếu tố phụ thuộc. Các nhiệm vụ được tạo sẽ dựa trên các thành viên nhóm chung được thêm vào nhóm dự án khi mẫu dự án được tạo.
+- **Ước tính dự án**: Khi một mẫu dự án được tạo từ một dự án hiện có, các ước tính từ dự án nguồn sẽ được sao chép vào mẫu dự án.
+- **Thành viên nhóm dự án**: Khi một mẫu được tạo từ một dự án hiện có, tất cả các thành viên nhóm có tên sẽ được thay thế bằng nguồn lực chung của tổ chức. Tất cả các tên vị trí và vai trò được duy trì.
 
 ## <a name="create-a-project-from-a-template"></a>Tạo dự án từ mẫu  
- Bạn có thể tạo một dự án từ một mẫu theo những cách sau:  
+ Bạn có thể tạo một dự án từ mẫu theo các cách sau đây:  
   
 -   Khi tạo dự án từ báo giá, bạn có thể chọn một mẫu dự án trong biểu mẫu tạo nhanh dự án.  
   

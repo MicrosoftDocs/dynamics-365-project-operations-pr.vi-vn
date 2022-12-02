@@ -1,6 +1,6 @@
 ---
 title: Quản lý hóa đơn ước giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách quản lý và làm việc với hóa đơn dựa trên dự án proforma.
+description: Bài viết này cung cấp thông tin về cách quản lý và làm việc với các hóa đơn ước giá dựa trên dự án.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

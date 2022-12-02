@@ -1,6 +1,6 @@
 ---
 title: Áp dụng dữ liệu cấu hình và thiết lập bản demo – bản đơn giản
-description: Bài viết này cung cấp thông tin về cách áp dụng dữ liệu cấu hình và thiết lập demo cho Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách áp dụng dữ liệu cấu hình và thiết lập demo cho Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: vi-VN
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410068"
@@ -21,7 +21,7 @@ _**Triển khai Lite – từ thỏa thuận đến lập hóa đơn ước giá
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
-Trước khi bắt đầu cấu hình, bạn phải có Dataverse môi trường được cung cấp cho Dynamics 365 Project Operations.
+Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Dataverse cho Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Hướng dẫn

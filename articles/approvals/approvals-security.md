@@ -17,22 +17,22 @@ ms.locfileid: "9709424"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Microsoft Dynamics 365 Project Operations sử dụng hai vai trò bảo mật để cho phép phê duyệt các mục nhập thời gian, chi phí và vật chất:
+Microsoft Dynamics 365 Project Operations sử dụng hai vai trò bảo mật để cho phép phê duyệt các mục nhập thời gian, chi phí và vật tư:
 
 - Người phê duyệt Dự án
-- Quản trị viên người phê duyệt dự án
+- Quản trị viên phê duyệt dự án
 
 ## <a name="project-approver"></a>Người phê duyệt Dự án
 
-Bạn phải có **Người phê duyệt dự án** vai trò bảo mật để phê duyệt các mục nhập thời gian, chi phí và vật liệu của dự án. Bạn cũng phải có quyền truy cập vào các thực thể liên quan có liên quan, chẳng hạn như **Dự án**. Quyền truy cập đó có thể được chỉ định bởi người có **Quản lý dự án** vai diễn. Ngoài ra, bạn phải là thành viên trong nhóm của dự án và được đánh dấu là người phê duyệt.
+Bạn phải có vai trò bảo mật **Người phê duyệt dự án** để phê duyệt các mục nhập thời gian, chi phí và vật tư của dự án. Bạn cũng phải có quyền truy cập vào các thực thể liên quan, chẳng hạn như **Dự án**. Quyền truy cập đó có thể được chỉ định bởi người có vai trò **Người quản lý dự án**. Ngoài ra, bạn phải là thành viên nhóm của dự án và được đánh dấu là người phê duyệt.
 
-Để phê duyệt các mục không thuộc dự án, bạn phải là người quản lý của người gửi.
+Để phê duyệt các mục nhập không thuộc dự án, bạn phải là người quản lý của người gửi.
 
-## <a name="project-approver-admin"></a>Quản trị viên người phê duyệt dự án
+## <a name="project-approver-admin"></a>Quản trị viên phê duyệt dự án
 
 > [!NOTE]
-> Các [Bộ phê duyệt](approval-sets.md) tính năng này phải được bật trước khi bạn có thể sử dụng chức năng Quản trị viên trình duyệt dự án.
+> Tính năng [Bộ phê duyệt](approval-sets.md) phải được bật trước khi bạn có thể sử dụng chức năng Quản trị viên người phê duyệt dự án.
 
-Các **Quản trị viên người phê duyệt dự án** vai trò bảo mật cho phép người dùng bỏ qua các chính sách và cho phép phê duyệt các mục nhập trên tất cả các dự án. Việc chỉ định vai trò này sẽ bỏ qua logic xác thực yêu cầu tư cách thành viên nhóm và được đánh dấu là người phê duyệt. Bạn phải có quyền truy cập vào các bảng liên quan có liên quan, chẳng hạn như **Dự án**, thông qua các vai trò bảo mật được chỉ định cho bạn.
+Vai trò bảo mật **Quản trị viên người phê duyệt dự án** cho phép người dùng bỏ qua các chính sách và cho phép phê duyệt các mục nhập trên tất cả các dự án. Việc chỉ định vai trò này sẽ bỏ qua logic xác thực yêu cầu tư cách thành viên nhóm và được đánh dấu là người phê duyệt. Bạn phải có quyền truy cập vào các bảng có liên quan, chẳng hạn như **Dự án**, thông qua các vai trò bảo mật được chỉ định cho bạn.
 
-Ngữ cảnh người dùng SYSTEM bỏ qua xác thực theo cách giống như Quản trị viên trình duyệt dự án vai trò bảo mật.
+Bối cảnh người dùng SYSTEM bỏ qua các xác thực theo cách giống như vai trò bảo mật Quản trị viên người phê duyệt dự án.

@@ -1,6 +1,6 @@
 ---
 title: Duy trì thành viên nhóm
-description: Bài viết này cung cấp thông tin về việc đặt trước các tài nguyên được đặt tên cho các nhóm dự án và phân công chúng cho các nhiệm vụ.
+description: Bài viết này cung cấp thông tin về cách đặt nguồn lực có tên cho nhóm dự án và phân công tác vụ.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

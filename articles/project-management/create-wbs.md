@@ -1,6 +1,6 @@
 ---
 title: Tạo cấu trúc phân tích công việc
-description: Bài viết này giải thích cách tạo cấu trúc phân tích công việc (WBS) bao gồm các điều khiển cơ bản trong giao diện lập lịch mới.
+description: Bài viết này giải thích cách tạo cấu trúc phân tích công việc (WBS) bao gồm bộ điều khiển cơ bản trong giao diện lập lịch mới.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Khi được thụt lề, một nhiệm vụ sẽ trở thành một nhiệm v�
 
 ### <a name="move-tasks-up-and-down"></a>Di chuyển nhiệm vụ lên và xuống
 
-Nhiệm vụ có thể được chuyển đến bất kỳ cấp độ nào trong cấu trúc phân tích công việc theo một trong hai cách:
+Có thể chuyển nhiệm vụ đến bất kỳ cấp nào trong cấu trúc phân tích công việc theo một trong hai cách:
 
 - Chọn thêm một nhiệm vụ và kéo đến vị trí mong muốn.
 - Chọn một hoặc nhiều nhiệm vụ, nhấp chuột phải và chọn **Cắt**, chọn ô đích trong lịch trình, sau đó bấm chuột phải và chọn **Dán**.
@@ -95,11 +95,11 @@ Với tư cách là quản trị viên, bạn có thể xác định các trư�
 
 ## <a name="staffing-attributes"></a>Thuộc tính sắp xếp nhân viên
 
-Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc chọn **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.  Khi bạn tìm kiếm tài nguyên bằng bộ chọn tài nguyên trong lưới nhiệm vụ, chế độ xem bảng hoặc gantt, tìm kiếm sẽ trả về thành viên nhóm dự án hiện có hoặc tài nguyên có thể đặt trước đang hoạt động.
+Có thể truy cập các thuộc tính bố trí nhân viên thông qua trường **Nguồn lực** trong lịch trình. Bạn cũng có thể tìm kiếm nguồn lực hiện có hoặc chọn **Tạo** và trong khung **Tạo nhanh**, thêm thành viên nhóm dự án ở dạng nguồn lực mới.  Khi bạn tìm kiếm nguồn lực bằng bộ chọn nguồn lực trong lưới nhiệm vụ, dạng xem bảng hoặc gantt, tìm kiếm sẽ trả về thành viên nhóm dự án hiện có hoặc nguồn lực có thể đặt đang hoạt động.
 
 Các trường **Vai trò**, **Đơn vị nguồn lực** và **Tên vị trí** dùng để mô tả các yêu cầu bố trí nhân viên cho nhiệm vụ. Các thuộc tính bố trí nhân viên này cùng với lịch trình nhiệm vụ dùng để tìm các nguồn lực có sẵn để thực hiện nhiệm vụ này.
 
-   - **Vai diễn** : Chỉ định loại tài nguyên được yêu cầu để thực hiện tác vụ.,
+   - **Vai trò**: Chỉ định loại nguồn lực cần thiết để thực hiện nhiệm vụ này.
    - **Đơn vị nguồn lực**: Chỉ định đơn vị nên dùng để phân công nguồn lực cho nhiệm vụ. Các thuộc tính này ảnh hưởng đến ước tính chi phí và doanh thu cho nhiệm vụ nếu tỷ lệ hóa đơn và chi phí cho nguồn lực được đặt dựa trên các đơn vị nguồn lực.
    - **Tên vị trí**: Nhập tên cho nguồn chung dùng làm chỗ dành sẵn cho nguồn lực cuối cùng sẽ thực hiện công việc.
 
@@ -113,16 +113,16 @@ Bạn có thể sử dụng lịch trình trong Project Operations để tạo m
 
 Chế độ nhiệm vụ không ảnh hưởng đến các thông tin cập nhật được thực hiện với ngày bắt đầu và ngày kết thúc của nhiệm vụ tiếp trước/phụ thuộc.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Hiểu tác động của thời lượng, lịch tài nguyên và lịch dự án đối với nhiệm vụ
-Thời lượng của nhiệm vụ được định nghĩa là số giờ làm việc giữa thời gian bắt đầu của ngày bắt đầu và thời gian kết thúc của ngày kết thúc nhiệm vụ.   Dự án cho web xác định các đơn vị đo thời lượng như sau:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Hiểu tác động của thời lượng, lịch nguồn lực và lịch dự án đối với nhiệm vụ
+Thời lượng của nhiệm vụ được định nghĩa là số giờ làm việc giữa thời gian bắt đầu của ngày bắt đầu và thời gian kết thúc của ngày kết thúc nhiệm vụ.   Project for the Web xác định các đơn vị đo thời lượng như sau:
 
-| **Đo lường thời lượng** | **Số lượng**|
+| **Đơn vị đo thời lượng** | **Số lượng**|
 |----------------------------------------------------|----------------------|
 | Giờ mỗi ngày | 8 |
 | Giờ mỗi tuần |  40 |
-| Số ngày mỗi tháng |  20 |
+| Ngày mỗi tháng |  20 |
 
-Các nhiệm vụ chưa được giao được lên lịch bằng cách sử dụng lịch của dự án. Tuy nhiên, khi chỉ định tài nguyên ban đầu, việc lập lịch của một nhiệm vụ được cập nhật để nó tuân theo lịch của tài nguyên. Những thay đổi tiếp theo đối với một nhiệm vụ có sự phân công sẽ được điều chỉnh bởi [chế độ lập lịch trình](scheduling-modes.md) của dự án. Để tìm hiểu thêm về ảnh hưởng của lịch đối với công việc, hãy xem [Lịch tài nguyên trong Dự án cho web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) và [Thời gian bắt đầu tác vụ và dự án của bạn!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Các nhiệm vụ chưa phân công được lên lịch bằng cách sử dụng lịch của dự án. Tuy nhiên, khi chỉ định nguồn lực ban đầu, việc lập lịch của một nhiệm vụ được cập nhật để nó tuân theo lịch của nguồn lực. Những thay đổi tiếp theo đối với một nhiệm vụ có sự phân công sẽ được điều chỉnh bởi [chế độ lập lịch](scheduling-modes.md) của dự án. Để tìm hiểu thêm về ảnh hưởng của lịch đối với nhiệm vụ, hãy xem [Lịch nguồn lực trong Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) và [Thời gian bắt đầu nhiệm vụ và Dự án của bạn!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Trợ năng và phím tắt
@@ -139,7 +139,7 @@ Bạn nên biết những hạn chế sau nếu bạn đang sử dụng cấu tr
 | Tổng số tài nguyên tối đa cho một dự án              | 300                  |
 | Tổng số liên kết tối đa (chỉ dành cho người kế nhiệm) cho một dự án | 600                  |
 | Tổng số trường tùy chỉnh tối đa cho một dự án          | 10                   |
-| Các mục trong danh sách kiểm tra tối đa cho mỗi nhiệm vụ                   | 20                   |
+| Số mục trong danh sách kiểm tra tối đa cho mỗi nhiệm vụ                   | 20                   |
 
 **Giới hạn nhiệm vụ**
 

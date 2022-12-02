@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới từ tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 5 năm 2021 của Hoạt động dự án cho các kịch bản dựa trên tài nguyên / không có kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong bản phát hành Project Operations vào tháng 5 năm 2021 dành cho các kịch bản dựa trên nguồn lực/hàng không nhập kho.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9030015"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
 - Project Operations trên môi trường Dynamics 365 Dataverse phiên bản 4.10.0.186
 - Quản lý dự án và kế toán trong môi trường ứng dụng tài chính và hoạt động phiên bản 10.0.18
@@ -41,7 +41,7 @@ Danh sách sau đây hiển thị các bản đồ ghi kép đã được sửa 
 | Thực thể xuất mô tả hóa đơn nhà cung cấp của Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Bản cập nhật chất lượng |
 | Dự án V2 (msdyn\_projects) | 1.0.0.2 | Bản cập nhật chất lượng |
 
-Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật Hoạt động dự án của mình Dataverse phiên bản giải pháp ứng dụng giải pháp và tài chính và hoạt động. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể thấy phiên bản hiện hoạt của bản đồ ở cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Luôn chạy phiên bản bản đồ mới nhất trong môi trường của bạn và bật tất cả các bản đồ bảng liên quan khi bạn cập nhật phiên bản giải pháp Project Operations Dataverse và giải pháp ứng dụng tài chính và hoạt động. Một số tính năng và chức năng nhất định có thể không hoạt động chính xác nếu phiên bản mới nhất của bản đồ không được kích hoạt. Bạn có thể thấy phiên bản hiện hoạt của bản đồ ở cột **Phiên bản** trên trang **Ghi kép**. Để kích hoạt phiên bản mới của bản đồ, hãy chọn **Phiên bản bản đồ bảng**, chọn phiên bản mới nhất rồi lưu phiên bản đã chọn. Nếu đã tùy chỉnh sơ đồ bảng có sẵn, hãy áp dụng lại các thay đổi. Để biết thêm thông tin, hãy xem [Quản lý vòng đời áp dụng](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Nếu bạn gặp sự cố khi khởi động bản đồ, hãy làm theo hướng dẫn trong phần [Vấn đề thiếu cột trong bảng trên bản đồ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) của hướng dẫn khắc phục sự cố Ghi kép.
 

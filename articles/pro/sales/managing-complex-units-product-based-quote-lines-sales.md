@@ -1,6 +1,6 @@
 ---
 title: Quản lý các đơn vị phức tạp như mỗi người dùng, mỗi tháng cho các mô tả báo giá dựa trên sản phẩm - bản đơn giản
-description: Bài viết này cung cấp thông tin về việc quản lý các đơn vị phức tạp cho các dòng báo giá dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về việc quản lý các đơn vị phức tạp cho mô tả báo giá dựa trên sản phẩm.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

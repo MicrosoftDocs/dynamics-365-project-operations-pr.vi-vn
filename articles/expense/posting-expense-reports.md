@@ -30,15 +30,15 @@ Nếu các chi phí trên báo cáo chi phí được tính cho một công ty k
 
 Bạn cũng có thể đăng tất cả các báo cáo chi phí trong danh sách cùng một lúc. Chọn tất cả các báo cáo chi phí, sau đó chọn **Đăng**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Bật tính năng Khả năng ghi trách nhiệm pháp lý chi phí bằng đơn vị tiền tệ của nhà cung cấp cho tính năng phương thức thanh toán bằng tiền mặt
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Bật tính năng Khả năng đăng trách nhiệm chi phí bằng đơn vị tiền tệ của nhà cung cấp cho phương thức thanh toán bằng tiền mặt
 
-Các **Khả năng tính trách nhiệm pháp lý chi phí bằng đơn vị tiền tệ của nhà cung cấp đối với phương thức thanh toán bằng tiền mặt** tính năng này cho phép đăng báo cáo chi phí bằng đơn vị tiền tệ của nhà cung cấp cho phương thức thanh toán bằng tiền mặt.
+Tính năng **Khả năng đăng trách nhiệm chi phí bằng đơn vị tiền tệ của nhà cung cấp cho phương thức thanh toán bằng tiền mặt** cho phép đăng các báo cáo chi phí bằng đơn vị tiền mặt của nhà cung cấp cho phương thức thanh toán bằng tiền mặt.
 
 Hiện tại, khi bạn gửi chi phí tiền mặt, báo cáo chi phí sẽ được đăng theo đơn vị tiền tệ kế toán. Do sự chuyển đổi số tiền giữa đơn vị tiền tệ giao dịch, đơn vị tiền tệ kế toán và đơn vị tiền tệ của nhà cung cấp, một số tiền không chính xác sẽ được thanh toán cho nhà cung cấp nếu ngày giao dịch chi phí và ngày thanh toán thực tế có tỷ giá hối đoái khác nhau.
 
 Tính năng này sẽ đảm bảo rằng số dư của nhà cung cấp được ghi lại bằng đơn vị tiền tệ của nhà cung cấp khi báo cáo chi phí được đăng.
 
 1. Chuyển đến **Không gian làm việc** \> **Quản lý tính năng**.
-2. Trong danh sách, hãy tìm và chọn **Khả năng tính trách nhiệm pháp lý chi phí bằng đơn vị tiền tệ của nhà cung cấp đối với phương thức thanh toán bằng tiền mặt**, và sau đó chọn **Kích hoạt ngay bây giờ**.
+2. Trong danh sách, hãy tìm và chọn **Khả năng đăng trách nhiệm chi phí bằng đơn vị tiền tệ của nhà cung cấp cho phương thức thanh toán bằng tiền mặt**, sau đó chọn **Bật ngay**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

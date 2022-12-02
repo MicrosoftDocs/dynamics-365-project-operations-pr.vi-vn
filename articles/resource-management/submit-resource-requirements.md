@@ -1,6 +1,6 @@
 ---
 title: Gửi đề nghị nguồn lực
-description: Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng yêu cầu nguồn lực. Yêu cầu sau đó được gửi đến Người quản lý tài nguyên để thực hiện.
+description: Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng yêu cầu nguồn lực. Sau đó, yêu cầu này được gửi tới Người quản lý nguồn lực để thực hiện.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137207"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng yêu cầu nguồn lực. Yêu cầu sau đó được gửi đến Người quản lý tài nguyên để thực hiện.
+Bạn có thể gửi yêu cầu nguồn lực được tạo ra dưới dạng yêu cầu nguồn lực. Sau đó, yêu cầu này được gửi tới Người quản lý nguồn lực để thực hiện.
 
 1. Trong Dynamics 365 Project Operations, trên trang **Dự án**, chọn tab **Nhóm** để xem danh sách các nguồn lực có thể đăng ký. 
 2. Chọn nguồn lực chung có yêu cầu nguồn lực từ danh sách rồi nhấp vào **Gửi yêu cầu**.
 
 Trạng thái yêu cầu của thành viên nhóm chung sẽ thay đổi thành **Đã gửi**.
 
-Người nhận yêu cầu tài nguyên có khả năng thực hiện đầy đủ một phần yêu cầu bằng cách sử dụng một hoặc nhiều tài nguyên hoặc đáp ứng hoàn toàn yêu cầu tài nguyên.
+Người nhận yêu cầu nguồn lực có khả năng thực hiện một phần yêu cầu bằng cách sử dụng một hoặc nhiều nguồn lực hoặc đáp ứng hoàn toàn yêu cầu nguồn lực.
 
-Sau khi yêu cầu được thực hiện, một hoặc nhiều tài nguyên được đặt tên sẽ được thêm vào dự án với tư cách là thành viên nhóm dự án. Nếu yêu cầu tài nguyên được đáp ứng bởi một tài nguyên, thành viên nhóm chung được liên kết với yêu cầu tài nguyên sẽ bị xóa. 
+Sau khi yêu cầu được hoàn thành, một hoặc nhiều nguồn lực được đặt tên sẽ được thêm vào dự án với tư cách thành viên nhóm dự án. Nếu yêu cầu nguồn lực được đáp ứng bởi một nguồn lực, thành viên nhóm chung được liên kết với yêu cầu nguồn lực sẽ bị xóa. 
 
-Sau khi người nhận yêu cầu tài nguyên đã đề xuất tài nguyên và sẵn sàng để Người quản lý dự án xem xét tài nguyên đã được đề xuất, họ nên cập nhật trạng thái của yêu cầu tài nguyên để **Cần Xem xét**.
+Sau khi người nhận yêu cầu nguồn lực đã đề xuất các nguồn lực và sẵn sàng để Người quản lý dự án xem xét các nguồn lực đã được đề xuất, họ nên cập nhật trạng thái của yêu cầu nguồn lực thành **Cần xem xét**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

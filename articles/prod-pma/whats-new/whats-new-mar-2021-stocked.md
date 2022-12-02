@@ -1,6 +1,6 @@
 ---
 title: Tính năng mới hoặc đã thay đổi trong Project Operations kể từ tháng 3 năm 2021 cho các kịch bản dựa trên vật tư tồn kho/sản xuất
-description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có sẵn trong bản phát hành tháng 3 năm 2021 của Hoạt động dự án cho các tình huống dựa trên sản xuất / tồn kho.
+description: Bài viết này cung cấp thông tin về các bản cập nhật chất lượng có trong lần triển khai bản đơn giản của Project Operations phát hành vào tháng 3 năm 2021 cho các kịch bản dựa trên sản xuất/vật tư tồn kho.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028774"
 
 _**Áp dụng cho:** Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất_
 
-Bài viết này áp dụng cho những điều sau Dynamics 365 Project Operations các thành phần và phiên bản:
+Bài viết này áp dụng cho các phiên bản và thành phần sau của Dynamics 365 Project Operations:
 
-- Quản lý dự án và kế toán trong môi trường Dynamics 365 Finance phiên bản 10.0.17
+- Quản lý dự án và kế toán trong môi trường ứng dụng Dynamics 365 Finance phiên bản 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Các tính năng có trong bản phát hành này
 Sau đây là các tính năng có trong bản phát hành này:
@@ -121,7 +121,7 @@ Sau đây là các tính năng có trong bản phát hành này:
 | Quản lý dự án và kế toán | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Phương thức lớp cấu trúc phân tích công việc (WBS) cũ, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** không dùng nữa.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Bản cập nhật theo quy định
-Để biết thông tin về các bản cập nhật quy định cho các ứng dụng tài chính và hoạt động, hãy xem [Cập nhật quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
+Để biết thông tin về các bản cập nhật theo quy định cho ứng dụng tài chính và hoạt động, hãy xem [Bản cập nhật theo quy định](/dynamics365/finance/localizations/regulatory-updates). Bạn cũng có thể đăng nhập vào LCS và xem các bản cập nhật theo quy định đã lên kế hoạch bằng cách sử dụng Công cụ tìm kiếm vấn đề. Tìm kiếm vấn đề cho phép bạn tìm kiếm theo quốc gia, loại tính năng và bản phát hành.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

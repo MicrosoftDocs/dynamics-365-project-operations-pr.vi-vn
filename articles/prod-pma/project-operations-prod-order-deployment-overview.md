@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về việc triển khai Project Operations cho tình huống dựa trên hàng trữ kho/sản xuất
-description: Bài viết này cung cấp thông tin về kiểu triển khai, Hoạt động dự án cho các kịch bản dựa trên sản xuất / tồn kho.
+description: Bài viết này cung cấp thông tin về loại hình triển khai, Project Operations cho các tình huống dựa trên sản xuất/hàng trữ kho.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -22,21 +22,21 @@ Loại hình triển khai này mang lại các khả năng sau cho các công ty
 
 - Lập kế hoạch dự án bằng cách sử dụng [Cấu trúc phân tích công việc](work-breakdown-structures.md)
 - Mua và tiêu thụ hàng tồn kho cho các dự án
-- Quản lý bán hàng dựa trên dự án bằng cách sử dụng **Bán hàng và marketing** mô-đun trong ứng dụng tài chính và hoạt động Dynamics 365
-- Định giá dự án và chi phí bằng cách sử dụng cấu hình tỷ lệ chi phí và tỷ lệ hóa đơn trong các ứng dụng tài chính và hoạt động
-- Quản lý tài nguyên cho các dự án trong ứng dụng tài chính và hoạt động
-- Tiến độ dự án và theo dõi thời gian trong ứng dụng tài chính và hoạt động
+- Quản lý bán hàng dựa trên dự án bằng cách sử dụng mô-đun **Bán hàng và tiếp thị** trong ứng dụng tài chính và hoạt động Dynamics 365
+- Định giá dự án và chi phí bằng cách sử dụng cấu hình tỷ lệ hóa đơn và tỷ lệ chi phí trong ứng dụng tài chính và hoạt động
+- Quản lý nguồn lực của các dự án trong ứng dụng tài chính và hoạt động
+- Theo dõi thời gian và tiến độ của dự án trong ứng dụng tài chính và hoạt động
 - Giải pháp quản lý chi phí cơ bản đối với các chi phí thuộc dự án và không thuộc dự án có ghi lại biên nhận bằng cách sử dụng các tính năng OCR
 - Lập hóa đơn bằng cách sử dụng hệ thống liên quan đến thuế bán hàng cấp doanh nghiệp và tỷ giá hối đoái có hiệu lực theo ngày
 - Các nhóm dự án có thể đặt cấu hình cho các khoản cộng dồn và hoạt động kế toán WIP
 - Ghi nhận doanh thu dự án
 
-Loại triển khai này cũng cung cấp phần mở rộng cho chức năng được cung cấp bởi Dynamics 365 Finance và Dynamics 365 Supply Chain Management các ứng dụng.
+Loại hình triển khai này cũng giúp mở rộng chức năng được các ứng dụng Dynamics 365 Finance và Dynamics 365 Supply Chain Management cung cấp.
 
 Chọn loại hình triển khai này để sử dụng Dynamics 365 Project Operations trong toàn bộ vòng đời dự án, bao gồm cả những yêu cầu quan trọng sau:
 
 - Một Hệ thống quản lý dự án mở rộng quản lý các hạng mục đã kiểm kê và chi phí công việc/đơn đặt hàng sản xuất cho các dự án nội bộ và phải thanh toán đối với các vấn đề về lịch trình và tài chính.
-- Tổ chức đã có ứng dụng Sản xuất và Chuỗi cung ứng Dynamics 365 Finance hoặc Dynamics 365 và việc tích hợp các giao dịch dựa trên dự án sẽ đơn giản hóa nhu cầu truy cập và báo cáo dữ liệu.
+- Tổ chức đã có các ứng dụng Dynamics 365 Finance hoặc Dynamics 365 Supply Chain and Manufacturing và việc tích hợp các giao dịch dựa trên dự án sẽ đơn giản hóa nhu cầu truy cập và báo cáo dữ liệu.
 - Một Hệ thống quản lý chi phí đầy đủ chức năng, bao gồm việc thực thi chính sách và bồi hoàn để theo dõi các chi phí thuộc dự án và không thuộc dự án.
 - Một công cụ cho tỷ giá hối đoái và thuế bán hàng cấp doanh nghiệp để tạo hóa đơn dành cho khách hàng của dự án.
 - Hệ thống ghi nhận doanh thu và kế toán của dự án tuân thủ Tiêu chuẩn báo cáo tài chính quốc tế (IFRS).

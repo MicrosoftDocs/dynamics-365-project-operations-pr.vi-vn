@@ -1,6 +1,6 @@
 ---
 title: Hợp đồng dự án - Khái niệm chính - bản đơn giản
-description: Bài viết này cung cấp thông tin về các khái niệm chính của hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về các khái niệm chính trong hợp đồng dự án.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đ�
 
 
 
-Bài viết này cung cấp các khái niệm chính cần biết trước khi bạn bắt đầu sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
+Bài viết này cung cấp những khái nhiệm chính cần lưu ý trước khi sử dụng hợp đồng Dự án trong Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Đơn vị Hợp đồng
 

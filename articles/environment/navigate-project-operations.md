@@ -1,6 +1,6 @@
 ---
 title: Điều hướng Project Operations
-description: Bài viết này cung cấp thông tin về cách truy cập Hoạt động của Dự án từ Dịch vụ Vòng đời.
+description: Bài viết đề này cung cấp thông tin về cách truy cập vào Project Operations từ Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 Dynamics 365 Project Operations cho các cho tình huống dựa trên nguồn lực/hàng không trữ kho bao gồm hai thành phần: 
 
  - **Project Operations trên môi trường Common Data Service (CDS)**: Thành phần này bao gồm các khả năng và quy trình từ cơ hội đến lập hóa đơn ước giá. 
- - **Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance** : Thành phần này bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. 
+ - **Quản lý dự án và kế toán trên môi trường Dynamics 365 Finance**: Thành phần này bao gồm khả năng quản lý chi phí, kế toán dự án và ghi nhận doanh thu. 
 
-Sau khi bạn cung cấp Hoạt động Dự án như được mô tả trong bài viết này, Dịch vụ Vòng đời (LCS) **Chi tiết môi trường** trang này cung cấp khả năng truy cập dễ dàng vào cả hai thành phần của Hoạt động Dự án.  
+Sau khi bạn cấp phép cho Project Operations như mô tả trong bài viết này, trang **Chi tiết môi trường** của Lifecycle Services (LCS) cung cấp khả năng truy cập dễ dàng vào cả hai thành phần của Lifecycle Services (LCS).  
 
 Sử dụng tên môi trường trong phần **Tên môi trường Common Data Service** chuyển đến Project Operations trên môi trường CDS. 
 

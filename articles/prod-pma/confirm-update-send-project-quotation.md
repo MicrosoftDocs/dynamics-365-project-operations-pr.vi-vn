@@ -1,6 +1,6 @@
 ---
 title: Xác nhận, cập nhật và gửi báo giá dự án
-description: Bài viết này cung cấp thông tin về việc gửi báo giá cho khách hàng để xác nhận, sửa đổi dựa trên phản hồi và sau đó gửi lại báo giá.
+description: Bài viết này cung cấp thông tin về việc gửi báo giá cho khách hàng để xác nhận, sửa đổi dựa trên phản hồi rồi gửi lại báo giá.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

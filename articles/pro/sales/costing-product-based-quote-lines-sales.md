@@ -1,6 +1,6 @@
 ---
 title: Dòng báo giá dựa trên sản phẩm chi phí
-description: Bài viết này cung cấp thông tin về việc áp dụng giá vốn cho dòng báo giá dựa trên sản phẩm.
+description: Bài viết này cung cấp thông tin về cách áp dụng giá vốn vào mô tả báo giá dựa trên sản phẩm.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

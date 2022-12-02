@@ -1,6 +1,6 @@
 ---
 title: Chi phí liên công ty
-description: Bài viết này cung cấp thông tin về cách sử dụng chi phí liên công ty để ấn định chi phí của người lao động cho pháp nhân thực hiện công việc.
+description: Bài viết này cung cấp thông tin về cách sử dụng chi phí liên công ty để chỉ định chi phí của nhân viên cho pháp nhân yêu cầu thực hiện công việc.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

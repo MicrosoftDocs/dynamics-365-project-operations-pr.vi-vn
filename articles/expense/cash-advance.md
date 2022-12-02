@@ -1,6 +1,6 @@
 ---
 title: Tạm ứng tiền mặt
-description: Bài báo này cung cấp thông tin về ứng trước tiền mặt.
+description: Bài viết này cung cấp thông tin về tạm ứng tiền mặt.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Trước khi gửi báo cáo chi phí, bạn có thể chọn khoản tạm ứn
  
  Khi các tính năng này được bật:
  
-  - Bạn có thể thêm một hoặc nhiều khoản tạm ứng tiền mặt cho mỗi dòng chi phí.
+  - Bạn có thể thêm một hoặc nhiều khoản ứng trước tiền mặt cho mỗi dòng chi phí.
   - Số dư khả dụng của khoản tạm ứng tiền mặt được hiển thị trong thời gian thực khi lưu báo cáo chi phí. Điều này cho phép bạn xử lý các giao dịch chi phí và quay lại giao dịch tiền mặt cùng một lúc.
   - Bạn có thể chọn nhiều khoản ứng trước tiền mặt cho một giao dịch chi phí.
   - Dữ liệu đối chiếu khoản ứng trước tiền mặt được cung cấp bằng cách sử dụng truy vấn. 

@@ -18,7 +18,7 @@ ms.locfileid: "9522775"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Bài viết giải thích một số khái niệm chính mà bạn nên biết trước khi bắt đầu sử dụng chức năng hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
+Bài viết này giải thích một số khái niệm chính mà bạn cần biết trước khi bắt đầu sử dụng chức năng hợp đồng phụ trong Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Đơn vị ký hợp đồng trên hợp đồng phụ
 

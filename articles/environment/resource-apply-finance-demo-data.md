@@ -1,6 +1,6 @@
 ---
 title: Áp dụng dữ liệu minh họa cho môi trường Finance được lưu trữ trên đám mây
-description: Bài viết này giải thích cách áp dụng dữ liệu demo từ Hoạt động dự án cho Dynamics 365 Finance môi trường được lưu trữ trên đám mây.
+description: Bài viết này sẽ giải thích cách áp dụng dữ liệu demo từ Project Operations cho môi trường Dynamics 365 Finance được lưu trữ trên đám mây.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029923"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 > [!IMPORTANT]
-> Bài viết này chỉ có thể áp dụng Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong bài viết này **TRƯỚC** bạn áp dụng các bản cập nhật chất lượng cho môi trường.
+> Bài viết này chỉ có thể áp dụng cho Microsoft Microsoft Dynamics 365 Finance phiên bản 10.0.13 và chỉ có thể được thực hiện trên môi trường được lưu trữ trên đám mây. Hoàn thành các bước trong bài viết này **TRƯỚC** khi bạn áp dụng các bản cập nhật chất lượng cho môi trường.
 
 1. Trong dự án LCS của bạn, hãy mở trang **Chi tiết môi trường**. Lưu ý rằng trang này bao gồm các chi tiết cần thiết để kết nối với môi trường bằng cách sử dụng Giao thức Máy tính Từ xa (RDP).
 

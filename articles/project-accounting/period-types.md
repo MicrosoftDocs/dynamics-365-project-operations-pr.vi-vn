@@ -1,6 +1,6 @@
 ---
 title: Loại chu kỳ
-description: Bài viết này cung cấp thông tin về cách thiết lập các loại kỳ để ước tính doanh thu.
+description: Bài viết này cung cấp thông tin về cách thiết lập loại chu kỳ cho phép ước tính doanh thu.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930988"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Loại chu kỳ xác định tần suất ước tính doanh thu của dự án. Bài viết này cung cấp thông tin về cách thiết lập các loại kỳ để ước tính doanh thu. 
+Loại chu kỳ xác định tần suất ước tính doanh thu của dự án. Bài viết này cung cấp thông tin về cách thiết lập loại chu kỳ cho phép ước tính doanh thu. 
 
 ## <a name="create-and-work-with-period-types"></a>Tạo và làm việc với các loại chu kỳ
 Để tạo và làm việc với các loại chu kỳ, hãy hoàn thành các bước sau:
 
-1. Trong môi trường Dynamics 365 Finance của bạn, hãy truy cập **Quản lý dự án và kế toán** > **Thành lập** > **Ước tính** > **Các loại thời kỳ**.
+1. Trong môi trường Dynamics 365 Finance, hãy đi tới **Quản lý dự án và kế toán** > **Thiết lập** > **Ước tính** > **Loại chu kỳ**.
 2. Chọn **Mới** để tạo loại chu kỳ mới. Nhập tên và mô tả.
 3. Trong trường **Tần suất**, hãy chọn một giá trị:
 

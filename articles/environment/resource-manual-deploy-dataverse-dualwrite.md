@@ -1,6 +1,6 @@
 ---
 title: Triển khai ứng dụng Project Operations Dataverse theo cách thủ công có hỗ trợ ghi kép
-description: Bài viết này giải thích cách triển khai các Hoạt động Dự án theo cách thủ công Dataverse ứng dụng để nó hỗ trợ ghi kép.
+description: Bài viết này giải thích cách triển khai ứng dụng Project Operations Dataverse để hỗ trợ ghi kép.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028590"
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Bài viết này giải thích cách triển khai thủ công Microsoft Dynamics 365 Project Operations Trong Microsoft Dataverse để nó hỗ trợ ghi kép. Project Operations phát hiện cấu hình của môi trường và bổ sung hỗ trợ bổ sung cho tính năng ghi kép nếu các điều kiện tiên quyết được đáp ứng.
+Bài viết này giải thích cách triển khai Microsoft Dynamics 365 Project Operations theo cách thủ công trong Microsoft Dataverse để hỗ trợ ghi kép. Project Operations phát hiện cấu hình của môi trường và bổ sung hỗ trợ bổ sung cho tính năng ghi kép nếu các điều kiện tiên quyết được đáp ứng.
 
-Trong quá trình triển khai thông qua Microsoft Dynamics Dịch vụ vòng đời (LCS), nếu bạn đã làm theo hướng dẫn trong bài viết này, bạn có thể bỏ qua việc triển khai Microsoft Power Platform tích hợp (trước đây được gọi là Common Data Service Môi trường).
+Trong quá trình triển khai thông qua Microsoft Dynamics Lifecycle Services (LCS), nếu bạn đã làm theo hướng dẫn trong bài viết này, bạn có thể bỏ qua việc triển khai tích hợp Microsoft Power Platform (trước đây được gọi là môi trường Common Data Service).
 
 Quá trình triển khai Project Operations trong Dataverse để hỗ trợ ghi kép có bốn bước chính:
 
@@ -37,7 +37,7 @@ Quá trình triển khai Project Operations trong Dataverse để hỗ trợ ghi
 3. Chọn loại môi trường. Nếu bạn đã đăng ký nhận ưu đãi dùng thử, hãy chọn **Bản dùng thử (dựa trên đăng ký)**.
 4. Xác nhận khu vực triển khai.
 5. Bật tùy chọn **Tạo cơ sở dữ liệu cho môi trường này**. 
-6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho các ứng dụng tài chính và hoạt động của bạn.
+6. Xác nhận ngôn ngữ, sau đó xác nhận rằng đơn vị tiền tệ đó khớp với đơn vị tiền tệ cho ứng dụng tài chính và hoạt động của bạn.
 7. Bật tùy chọn **Ứng dụng Dynamics 365** và xác nhận rằng trường **Tự động triển khai những ứng dụng này** được đặt thành **Không có**.
 8. Thêm một nhóm bảo mật, nếu một nhóm bảo mật được yêu cầu.
 9. Chọn **Lưu** để tạo môi trường.
@@ -62,4 +62,4 @@ Bạn chỉ có thể hoàn thành quy trình này nếu đã hoàn thành các 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Liên kết các môi trường của bạn
 
-Sau Dataverse được triển khai, bạn có thể thiết lập liên kết trong các ứng dụng tài chính và hoạt động của mình. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Sau khi môi trường Dataverse được triển khai, bạn có thể thiết lập liên kết trong ứng dụng tài chính và hoạt động. Làm theo các bước trong [Sử dụng trình hướng dẫn ghi kép để liên kết các môi trường của bạn](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

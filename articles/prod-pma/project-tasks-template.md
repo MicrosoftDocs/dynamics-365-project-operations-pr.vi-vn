@@ -1,6 +1,6 @@
 ---
-title: Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến tài chính và hoạt động
-description: Bài viết này mô tả mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các tác vụ dự án trực tiếp từ Microsoft Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+title: Đồng bộ hóa nhiệm vụ của dự án trực tiếp từ Project Service Automation sang tài chính và hoạt động
+description: Bài viết này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các nhiệm vụ dự án từ Microsoft Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: vi-VN
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028452"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa các nhiệm vụ dự án trực tiếp từ Tự động hóa dịch vụ dự án đến tài chính và hoạt động
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Đồng bộ hóa nhiệm vụ của dự án trực tiếp từ Project Service Automation sang tài chính và hoạt động
 
 [!include[banner](../includes/banner.md)]
 
-Bài viết này mô tả mẫu và tác vụ cơ bản được sử dụng để đồng bộ hóa các tác vụ dự án trực tiếp từ Dynamics 365 Project Service Automation tới Dynamics 365 Finance.
+Bài viết này mô tả mẫu và nhiệm vụ cơ bản dùng để đồng bộ hóa trực tiếp các nhiệm vụ dự án từ Dynamics 365 Project Service Automation sang Dynamics 365 Finance.
 
 > [!NOTE]
 > - Tính năng tích hợp nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ, ước tính chi phí và khóa chức năng có sẵn trong phiên bản 8.0.
@@ -67,11 +67,11 @@ Trước khi quá trình đồng bộ hóa nhiệm vụ dự án có thể xảy
 
 ## <a name="power-query"></a>Power Query
 
-Bạn phải sử dụng Microsoft Power Query để Excel lọc dữ liệu nếu điều kiện này được đáp ứng:
+Bạn phải sử dụng Microsoft Power Query dành cho Excel để lọc dữ liệu nếu điều kiện sau được đáp ứng:
 
 - Bạn có bản ghi dành riêng cho nguồn lực trong nhiệm vụ dự án.
 
-Nếu bạn phải sử dụng Power Query, hãy làm theo hướng dẫn này:
+Nếu bạn phải sử dụng Power Query, hãy làm theo các nguyên tắc này:
 
 - Mẫu Nhiệm vụ dự án (PSA sang Fin và Ops) có bộ lọc mặc định loại trừ các bản ghi dành riêng cho nguồn lực khỏi nhiệm vụ dự án bằng cách thiết lập bộ lọc trên **IsLineTask** thành **False**. Nếu bạn tạo mẫu của riêng mình, bạn phải thêm bộ lọc này.
 

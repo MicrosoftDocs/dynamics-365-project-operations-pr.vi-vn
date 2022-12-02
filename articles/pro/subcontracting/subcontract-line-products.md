@@ -1,6 +1,6 @@
 ---
 title: Mô tả hợp đồng phụ cho sản phẩm
-description: Bài viết này giải thích cách ghi lại các dòng hợp đồng phụ cho các sản phẩm và sử dụng các trường khác nhau để ghi lại các giao dịch mua sản phẩm từ các nhà cung cấp.
+description: Bài viết này giải thích cách ghi lại các mô tả hợp đồng phụ cho sản phẩm và sử dụng các trường khác nhau để ghi lại các giao dịch mua sản phẩm từ các nhà cung cấp.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

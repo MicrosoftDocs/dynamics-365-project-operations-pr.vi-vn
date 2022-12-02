@@ -1,6 +1,6 @@
 ---
 title: Báo giá và mô tả báo giá
-description: Bài viết này cung cấp thông tin về báo giá và dòng trích dẫn.
+description: Bài viết này cung cấp thông tin về báo giá và mô tả báo giá.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ Trong Dynamics 365 Project Service Automation, có hai loại báo giá: báo gi
 - Báo giá hàng không bao gồm một số trường và khái niệm được bao gồm trong báo giá dự án có các trường. Các trường này bao gồm **Đơn vị ký hợp đồng**, **Người quản lý tài khoản** và **Tên người thanh toán**.  
 - Báo giá bán hàng và báo giá dự án cũng được xác định theo một trường dựa trên bộ tùy chọn tên là **Loại**. Đối với báo giá bán hàng, trường này có giá trị **Dựa trên mục hàng**. Đối với báo giá dự án, nó có giá trị **Dựa trên công việc**.
 
-Bài viết này sẽ tập trung vào chi tiết báo giá dự án.
+Bài viết này sẽ tập trung vào các chi tiết của báo giá dự án.
 
 Một báo giá dự án trong PSA có thể có nhiều mục hàng hoặc mô tả báo giá. Trong thực tế, một báo giá dự án có hai lưới cho các mục hàng. Một lưới là dành cho các mô tả dựa trên dự án cho phép các ước tính chi tiết. Lưới còn lại là dành cho các mô tả dựa trên sản phẩm sử dụng một đơn giá và phương pháp dựa trên số lượng đơn giản.
 

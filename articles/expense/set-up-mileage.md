@@ -1,6 +1,6 @@
 ---
 title: Thiết lập khoảng cách bằng cách sử dụng các bậc tỷ lệ khoảng cách
-description: Bài viết này cung cấp thông tin về tỷ lệ số dặm và các cấp tỷ lệ số dặm.
+description: Bài viết này cung cấp thông tin về tỷ lệ khoảng cách và các bậc tỷ lệ khoảng cách.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Tính năng **Tính toán số tiền khoảng cách cho nhiều bậc khoảng 
 
 Sau khi bạn kích hoạt tính năng này, hãy đặt lại các bậc khoảng cách để phản ánh chính xác giá trị của trường **Số lượng**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Bật tính năng tính tổng Dặm theo năm tài chính
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Bật tính năng Tính tổng số khoảng cách theo năm tài chính
 
-Các **Tính tổng số dặm theo năm tài chính** tính năng này cho phép cài đặt mới trong các thông số Quản lý chi phí thực hiện các phép tính tổng số dặm theo năm tài chính thay vì năm dương lịch. Hãy hoàn thành các bước sau để kích hoạt tính năng này.
+Tính năng **Tính tổng số khoảng cách theo năm tài chính** cho phép cài đặt mới trong các tham số Quản lý chi phí thực hiện các phép tính tổng số khoảng cách theo năm tài chính thay vì năm dương lịch. Hãy hoàn thành các bước sau để kích hoạt tính năng này.
 
 1. Chuyển đến **Không gian làm việc** > **Quản lý tính năng**.
-1. Trong danh sách, tìm và chọn **Tính tổng số dặm theo năm tài chính**, và sau đó chọn **Kích hoạt ngay bây giờ**.
-1. Đi đến **Quản lý chi tiêu** > **Thành lập** > **Chung** > **Các thông số quản lý chi phí**.
-1. Trên **Các thông số quản lý chi phí** trang, định vị và kích hoạt **Sử dụng năm tài chính cho tổng số dặm**.
+1. Trong danh sách, tìm và chọn **Tính tổng số khoảng cách theo năm tài chính**, và sau đó chọn **Bật ngay**.
+1. Đi đến **Quản lý chi phí** > **Thiết lập** > **Chung** > **Tham số quản lý chi phí**.
+1. Trên trang **Tham số quản lý chi phí** trang, tìm và bật **Sử dụng năm tài chính để tính tổng số khoảng cách**.
 
-Sau khi bạn kích hoạt **Sử dụng năm tài chính cho tổng số dặm**, tổng số dặm được tính bằng năm tài chính.
+Sau khi bạn bật **Sử dụng năm tài chính để tính tổng số khoảng cách**, tổng số khoảng cách được tính theo năm tài chính.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

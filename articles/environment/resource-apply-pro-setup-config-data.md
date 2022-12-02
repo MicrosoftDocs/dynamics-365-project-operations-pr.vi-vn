@@ -1,6 +1,6 @@
 ---
 title: Thiết lập và áp dụng dữ liệu cấu hình trong Microsoft Dataverse
-description: Bài viết này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách thiết lập và áp dụng dữ liệu cấu hình trong Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn l�
 
 ## <a name="prerequisites"></a>Điều kiện tiên quyết
 
-Trước khi bạn bắt đầu định cấu hình dữ liệu trong Microsoft Dataverse, các điều kiện tiên quyết sau phải được đáp ứng:
+Trước khi bắt đầu đặt cấu hình dữ liệu trong Microsoft Dataverse, bạn phải đáp ứng được các điều kiện tiên quyết sau:
 
-1.  Điều khoản a Dataverse và môi trường Dynamics 365 Finance cho Hoạt động dự án.
-2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với Dataverse Môi trường. Điều này có nghĩa là **Công ty** thực thể trong Dataverse có hồ sơ công ty sau:
+1.  Cung phép cho môi trường Dataverse và môi trường Dynamics 365 Finance cho Project Operations.
+2.  Thông tin pháp nhân từ Dynamics 365 Finance được chia sẻ với môi trường Dataverse. Điều này có nghĩa là thực thể **Công ty** trong Dataverse có các hồ sơ công ty sau:
   - THPM
   - USPM
   - GBPM

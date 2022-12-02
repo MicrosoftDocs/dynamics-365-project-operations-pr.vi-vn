@@ -1,6 +1,6 @@
 ---
 title: Nguồn lực mô tả hợp đồng phụ
-description: Bài viết này giải thích cách chỉ định các tài nguyên chuyên dụng được nhà cung cấp cung cấp cho một dòng hợp đồng phụ cụ thể theo thời gian.
+description: Bài viết này giải thích cách chỉ định các nguồn lực chuyên dụng được nhà cung cấp cung cấp cho mô tả hợp đồng phụ cụ thể theo thời gian.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

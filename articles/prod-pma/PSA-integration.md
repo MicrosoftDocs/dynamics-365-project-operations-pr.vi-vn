@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về Project Service Automation
-description: Bài viết này cung cấp thông tin về Dynamics 365 Project Service Automation sang giải pháp tích hợp Dynamics 365 Finance.
+description: Bài viết này cung cấp thông tin về giải pháp tích hợp Dynamics 365 Project Service Automation với Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929654"
 [!include[banner](../includes/banner.md)]
 
 
-Giải pháp tích hợp Tự động hóa Dịch vụ Dự án với Tài chính sử dụng tính năng Tích hợp dữ liệu để đồng bộ hóa dữ liệu giữa các phiên bản của Dynamics 365 Finance và Dynamics 365 Project Service Automation thông qua Common Data Service. Mẫu tích hợp có sẵn với tính năng Tích hợp dữ liệu cho phép dòng dữ liệu về dự án, hợp đồng dự án, mô tả hợp đồng dự án, mốc thời gian mô tả hợp đồng dự án, nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ và ước tính chi phí từ Project Service Automation sang Finance.
+Giải pháp tích hợp Project Service Automation sang Finance sử dụng tính năng Tích hợp dữ liệu để đồng bộ hóa dữ liệu giữa các phiên bản của Dynamics 365 Finance và Dynamics 365 Project Service Automation qua Common Data Service. Mẫu tích hợp có sẵn với tính năng Tích hợp dữ liệu cho phép dòng dữ liệu về dự án, hợp đồng dự án, mô tả hợp đồng dự án, mốc thời gian mô tả hợp đồng dự án, nhiệm vụ dự án, thể loại giao dịch chi phí, ước tính giờ và ước tính chi phí từ Project Service Automation sang Finance.
 
 > [!NOTE]
 > - Nếu đang sử dụng phiên bản 7.3.0, bạn phải cài đặt KB 4074835. Sau đó, bạn sẽ có thể tích hợp các dự án giá cố định.

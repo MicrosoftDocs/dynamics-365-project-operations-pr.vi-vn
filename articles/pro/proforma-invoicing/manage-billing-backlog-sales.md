@@ -1,6 +1,6 @@
 ---
 title: Quản lý tồn đọng lập hóa đơn dự án
-description: Bài viết này cung cấp thông tin về các chế độ xem khác nhau có sẵn để sử dụng khi quản lý tồn đọng thanh toán trên các dự án.
+description: Bài viết này cung cấp thông tin về các dạng xem khác nhau có thể sử dụng khi quản lý mục tồn đọng lập hóa đơn trên các dự án.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Hoạch định và theo dõi dự án
-description: Bài viết này cung cấp một liên kết đến thông tin về lập kế hoạch và theo dõi trong Tự động hóa dịch vụ dự án.
+description: Bài viết này cung cấp liên kết đến thông tin về hoạch định và theo dõi trong Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Liên kết PDF trước đây trong bài viết này đã bị xóa và nội d
 - [Thiết đặt dự án](../project-settings.md)
 
 > [!NOTE]
-> Bài viết này sẽ bị xóa trong một bản cập nhật tài liệu trong tương lai. 
+> Bài viết này sẽ bị xóa trong bản cập nhật tài liệu trong tương lai. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

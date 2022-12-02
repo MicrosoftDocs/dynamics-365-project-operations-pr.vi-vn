@@ -1,6 +1,6 @@
 ---
 title: Hóa đơn hiệu chỉnh dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách tạo và xác nhận hóa đơn dựa trên dự án đã sửa trong Hoạt động dự án.
+description: Bài viết này cung cấp thông tin về cách tạo và xác nhận các hóa đơn hiệu chỉnh dựa trên dự án trong Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

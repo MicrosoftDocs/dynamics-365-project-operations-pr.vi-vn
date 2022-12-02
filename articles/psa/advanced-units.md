@@ -1,6 +1,6 @@
 ---
 title: Nhóm đơn vị và đơn vị
-description: Bài viết này cung cấp thông tin về các nhóm đơn vị và đơn vị.
+description: Bài viết này cung cấp thông tin về nhóm đơn vị đo và đơn vị đo.
 author: rumant
 ms.custom:
 - dyn365-projectservice

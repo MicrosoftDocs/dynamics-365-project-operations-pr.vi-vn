@@ -1,6 +1,6 @@
 ---
 title: Cập nhật Project Operations trong môi trường Tài chính
-description: Bài viết này cung cấp thông tin về cách cập nhật Hoạt động dự án trong môi trường Dynamics 365 Finance của bạn.
+description: Bài viết này cung cấp thông tin về cách cập nhật Project Operations trong môi trường Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030061"
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 
-Bài viết này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance của bạn. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
+Bài viết này cung cấp thông tin về cách cập nhật Dynamics 365 Project Operations trong môi trường Dynamics 365 Finance. Bạn phải làm theo 3 quy trình để cập nhật Project Operations lên Bản cập nhật 5 (UR5):
 
 - [Nhập gói vào dự án thử nghiệm](#import)
 - [Áp dụng bản cập nhật](#apply)
@@ -119,7 +119,7 @@ Các chi tiết cập nhật sau đây đối với quyền bảo mật của th
 4. Trên trang **Phiên bản sơ đồ bảng**, hãy áp dụng phiên bản mới của bảng cho từng thực thể trong số 3 thực thể.
 5. Trên trang **Ghi kép**, hãy chọn chạy để khởi động lại sơ đồ.
 6. Từ danh sách sơ đồ, hãy chọn **Sổ cái (msdyn_ledgers)** ánh xạ với mọi yêu cầu tiên quyết rồi đánh dấu vào ô **Đồng bộ ban đầu**. 
-7. Bên trong **Master để đồng bộ hóa ban đầu** lĩnh vực, chọn **Ứng dụng tài chính và hoạt động** và sau đó chọn **Chạy**.
+7. Trong trường **Đối tượng chính cho đồng bộ hóa ban đầu**, hãy chọn **Ứng dụng tài chính và hoạt động** rồi chọn **Chạy**.
  
  ![Đồng bộ hóa sơ đồ sổ cái.](media/DW6.png)
  

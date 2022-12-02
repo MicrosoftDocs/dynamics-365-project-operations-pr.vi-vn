@@ -1,6 +1,6 @@
 ---
 title: Đặt cấu hình quản lý chi phí
-description: Bài viết này mô tả những cân nhắc và quyết định mà bạn phải thực hiện trong quá trình lập kế hoạch trước khi định cấu hình quản lý Chi phí trong Microsoft Dynamics 365 Tài chính.
+description: Bài viết này mô tả những cân nhắc và quyết định mà bạn phải thực hiện trong quá trình lập kế hoạch trước khi đặt cấu hình Quản lý chi phí trong Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934024"
 ---
 # <a name="configure-expense-management"></a>Đặt cấu hình quản lý chi phí
 
-Bài viết này mô tả những cân nhắc và quyết định mà bạn phải thực hiện trong quá trình lập kế hoạch trước khi định cấu hình quản lý Chi phí. Trong Quản lý chi phí, bạn có thể lưu trữ thông tin về phương thức thanh toán, tiêu chuẩn đi lại, báo cáo chi phí, chính sách, v.v.
+Bài viết này mô tả những cân nhắc và quyết định mà bạn phải thực hiện trong quá trình lập kế hoạch trước khi đặt cấu hình Quản lý chi phí. Trong Quản lý chi phí, bạn có thể lưu trữ thông tin về phương thức thanh toán, tiêu chuẩn đi lại, báo cáo chi phí, chính sách, v.v.
 
 Bởi vì nhiều quyết định mà bạn đưa ra khi lập kế hoạch cấu hình cho Quản lý chi phí dựa trên hệ thống cấp bậc và cấu trúc tài chính của tổ chức bạn, bạn phải tham khảo các tài liệu lập kế hoạch cho các lĩnh vực đó.
 

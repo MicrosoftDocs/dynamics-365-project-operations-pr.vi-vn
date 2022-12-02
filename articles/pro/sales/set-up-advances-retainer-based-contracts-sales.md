@@ -1,6 +1,6 @@
 ---
 title: Hợp đồng dựa trên tiền tạm ứng và giữ lại
-description: Bài viết này cung cấp thông tin về các mô hình hợp đồng dựa trên người giữ lại và những tiến bộ trong Hoạt động Dự án.
+description: Bài viết này cung cấp thông tin về các mô hình hợp đồng dựa trên tiền giữ lại và khoản tạm ứng trong Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về mô tả hợp đồng dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách làm việc với các dòng hợp đồng dựa trên dự án.
+description: Bài viết này cung cấp thông tin về cách làm việc với phần mô tả hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

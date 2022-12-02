@@ -45,17 +45,17 @@ ms.locfileid: "9621968"
 | Trạm  | Khu vực | Phiên bản hiện tại | Phiên bản tiếp theo |  Ngày đã lên lịch
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Trạm 1</strong> | |  |  | |
-| | <i>Bản phát hành đầu tiên</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07 tháng 10 năm 2022
+| | <i>Bản phát hành đầu tiên</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | Ngày 07 tháng 10 năm 2022
 |<strong>Trạm 2</strong> | |  |  | |
-| | <i>Nam Mỹ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Ca-na-đa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Ấn Độ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Pháp</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Nam Phi</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Đức</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Thụy Sĩ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Hàn Quốc</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
-| | <i>Na-uy</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 tháng 10 năm 2022
+| | <i>Nam Mỹ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Ca-na-đa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Ấn Độ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Pháp</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Nam Phi</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Đức</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Thụy Sĩ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Hàn Quốc</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
+| | <i>Na-uy</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 14 tháng 10 năm 2022
 |<strong>Trạm 3</strong> | |  |  | |
 | | <i>Nhật Bản</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 21 tháng 10 năm 2022
 | | <i>Châu Á Thái Bình Dương</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 21 tháng 10 năm 2022
@@ -65,10 +65,10 @@ ms.locfileid: "9621968"
 |<strong>Trạm 4</strong> | |  |  | |
 | | <i>Châu Âu</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 21 tháng 10 năm 2022
 |<strong>Trạm 5</strong> | |  |  | |
-| | <i>Bắc Mỹ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 tháng 11 năm 2022
+| | <i>Bắc Mỹ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 04 tháng 11 năm 2022
 |<strong>Trạm 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 02 tháng 11 năm 2022
-| | <i>Nhóm quy mô chuyên biệt</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 tháng 11 năm 2022
+| | <i>Nhóm quy mô chuyên biệt</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Ngày 11 tháng 11 năm 2022
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Tổng quan về mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về việc sử dụng các dòng trích dẫn dựa trên dự án cho công việc của dự án.
+description: Bài viết này cung cấp thông tin về việc sử dụng các mô tả báo giá dựa trên dự án cho công việc dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

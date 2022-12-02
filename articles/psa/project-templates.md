@@ -1,6 +1,6 @@
 ---
 title: Mẫu dự án
-description: Bài viết này cung cấp thông tin về cách sử dụng các mẫu dự án để thiết lập dự án nhanh chóng.
+description: Bài viết này cung cấp thông tin về cách sử dụng mẫu dự án để thiết lập dự án nhanh chóng.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

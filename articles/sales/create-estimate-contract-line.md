@@ -1,6 +1,6 @@
 ---
 title: Ước tính mô tả hợp đồng dự án
-description: Bài viết này cung cấp thông tin về ước tính trên một dòng hợp đồng dự án.
+description: Bài viết này cung cấp thông tin về các giá trị ước tính trên một mục mô tả hợp đồng dự án.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

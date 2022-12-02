@@ -1,6 +1,6 @@
 ---
 title: Đánh giá nguồn lực được đề xuất
-description: Bài viết này cung cấp thông tin về cách đề xuất các nguồn lực của dự án.
+description: Bài viết này cung cấp thông tin về cách đề xuất các nguồn lực dự án.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Người quản lý nguồn lực có thể đề xuất nguồn lực với ng�
     Các bản cập nhật trạng thái sau xảy ra:
 
     - Trên trang **Lên lịch hỗ trợ**, chỉ báo trạng thái được cập nhật để biểu thị rằng đăng ký được đề xuất và không được đăng ký chắc chắn.
-    - Đối với yêu cầu tài nguyên, người đánh giá yêu cầu phải thay đổi trạng thái thành **Cần Xem xét**.
-    - Trên **Đội** tab của dự án, thành viên nhóm chung **Tình trạng yêu cầu** giá trị được tự động thay đổi thành **Cần Xem xét**.
+    - Đối với yêu cầu nguồn lực, người đánh giá yêu cầu phải thay đổi trạng thái thành **Cần đánh giá**.
+    - Trên tab **Nhóm** của dự án này, giá trị **Trạng thái yêu cầu** của thành viên nhóm chung được tự động thay đổi thành **Cần đánh giá**.
 
 Người quản lý dự án có thể chấp nhận hoặc từ chối đề xuất.
 
