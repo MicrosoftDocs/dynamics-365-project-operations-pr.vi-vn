@@ -12,11 +12,11 @@
       items:
         - name: Các tính năng bị xóa hoặc không dùng nữa trong Project Operations
           href: whats-new/removed-depreciated-features-project.md
-- name: Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+- name: Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
   items:
     - name: Bắt đầu
       items:
-        - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+        - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
           href: environment/project-operations-integrated-deployment-overview.md
         - name: Đăng ký gói xem trước
           href: environment/resource-sign-up-preview-subscription.md
@@ -60,53 +60,57 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Dỡ cài đặt Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: Có gì mới
+    - name: Tính năng mới
       items:
-        - name: Tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Tháng 11 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Lưu trữ
           items:
-            - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 10 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+              href: whats-new/whats-new-sept-2022-resource-based.md
+            - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-aug-2022-resource-based.md
-            - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-june-2022-resource-based.md
-            - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-may-2022-resource-based.md
             - name: Tháng 4 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 12 năm 2021 – Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 11 năm 2021 – Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-nov-2021-resource-based.md
-            - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-oct-2021-resource-based.md
-            - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-sept-2021-resource-based.md
-            - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-august-2021-resource-based.md
-            - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-july-2021-resource-based.md
-            - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-june-2021-resource-based.md
-            - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-may-2021-resource-based.md
             - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-apr-2021-resource-based.md
-            - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-mar-2021-resource-based.md
-            - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-feb-2021-resource-based.md
-            - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-jan-2021-resource-based.md
-            - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-dec-2020-resource-based.md
-            - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
+            - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Quy trình bán hàng trong dự án
       items:
@@ -118,13 +122,13 @@
               href: sales/sales-products.md
             - name: Đơn vị và nhóm đơn vị đo
               href: sales/sales-units-unit-groups.md
-            - name: Tiền tệ
+            - name: Tiền tệ
               href: sales/sales-currency.md
             - name: Đơn vị tổ chức
               href: sales/OrgUnits.md
-        - name: Quản lý khách hàng tiềm năng của dự án
+        - name: Quản lý khách hàng tiềm năng dựa trên dự án
           href: sales/manage-leads.md
-        - name: Quản lý cơ hội dự án
+        - name: Quản lý cơ hội dựa trên dự án
           items:
             - name: Tổng quan về quản lý cơ hội dự án
               href: sales/manage-project-based-opportunities.md
@@ -132,75 +136,73 @@
               href: sales/opportunity-header.md
             - name: Mô tả cơ hội dựa trên dự án
               href: sales/project-based-lines.md
-            - name: Tạo báo giá dự án từ cơ hội
+            - name: Tạo báo giá từ cơ hội dự án
               href: sales/link-quotes-opportunities.md
-            - name: Sao chép cơ hội dựa trên dự án
+            - name: Sao chép cơ hội dự án
               href: sales/copy-project-based-opportunity.md
             - name: Đóng một cơ hội dự án
               href: sales/close-opportunity.md
-        - name: Quản lý báo giá dự án
+        - name: Quản lý báo giá dựa trên dự án
           items:
             - name: Tổng quan về quản lý báo giá dự án
               href: pro/sales/manage-quotes-sales.md
-            - name: Các khái niệm duy nhất cho báo giá dựa trên dự án
+            - name: Các khái niệm riêng của báo giá dựa trên dự án
               href: sales/quotes-key-concepts.md
             - name: Chi tiết của tiêu đề cho các báo giá dựa trên dự án
               href: sales/quote-values-budget-limits-contract.md
-            - name: Quản lý nhiều khách hàng trên một báo giá dự án
+            - name: Quản lý nhiều khách hàng trên một báo giá dựa trên dự án
               href: sales/manage-multiple-customers-quote.md
-            - name: Quản lý bảng giá dự án trên một báo giá
+            - name: Bảng giá dự án trên báo giá dự án
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Mô tả báo giá dựa trên dự án
               items:
-                - name: Tổng quan về mô tả báo giá dựa trên dự án
+                - name: Tổng quan về mô tả báo giá dự án
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Quản lý nhiều khách hàng trên mô tả báo giá dựa trên dự án
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Ánh xạ dự án và nhiệm vụ với mô tả báo giá dựa trên dự án
+                - name: Liên kết dự án và nhiệm vụ với mô tả báo giá dựa trên dự án
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Đặt cấu hình các thành phần có thể tính phí cho mô tả báo giá dựa trên dự án
+                - name: Cấu hình các thành phần có thể tính phí trên mô tả báo giá dự án
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Đặt cấu hình các thành phần có thể tính phí của một mô tả báo giá dự án
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Ước tính mô tả báo giá dự án
-                  href: sales/create-estimate-quote-line.md
-                - name: Nhập ước tính từ một dự án vào mô tả báo giá dựa trên dự án
-                  href: sales/import-estimate-quote-line.md
-                - name: Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Nhập giá trị ước tính từ dự án vào mô tả báo giá dự án
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Lịch trình hóa đơn cho mô tả báo giá dự án
                   href: sales/invoice-schedule-quote-line.md
             - name: Sao chép báo giá dự án
               href: sales/lose-quote.md
             - name: Kích hoạt và sửa đổi báo giá dự án
               href: sales/activation-and-revision.md
-            - name: Đóng báo giá dự án
+            - name: Đóng báo giá dựa trên dự án
               href: sales/win-quote.md
-        - name: Quản lý hợp đồng dự án
+        - name: Quản lý hợp đồng dựa trên dự án
           items:
-            - name: Tổng quan về quản lý hợp đồng dự án
+            - name: Quản lý hợp đồng dự án
               href: pro/sales/manage-contracts-sales.md
-            - name: Các khái niệm duy nhất cho hợp đồng dựa trên dự án
+            - name: Các khái niệm riêng của Hợp đồng dựa trên dự án
               href: sales/contracts-key-concepts.md
             - name: Chi tiết của tiêu đề cho các hợp đồng dựa trên dự án
               href: sales/project-contract-settings.md
-            - name: Quản lý bảng giá dự án trên hợp đồng dự án
+            - name: Quản lý bảng giá dự án trên hợp đồng dựa trên dự án
               href: sales/contracts-manage-project-price-lists.md
-            - name: Quản lý nhiều khách hàng trên một hợp đồng dự án
+            - name: Quản lý nhiều khách hàng trên hợp đồng dựa trên dự án
               href: sales/manage-multiple-customers-contract.md
             - name: Mô tả hợp đồng dựa trên dự án
               items:
-                - name: Tổng quan về mô tả hợp đồng dựa trên dự án
+                - name: Tổng quan về mô tả hợp đồng dự án
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Quản lý nhiều khách hàng trên mô tả hợp đồng dựa trên dự án
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Ánh xạ dự án và nhiệm vụ trên mô tả hợp đồng dự án
+                - name: Liên kết dự án và nhiệm vụ với mô tả hợp đồng dự án
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dự án
+                - name: Cấu hình các thành phần có thể tính phí của mô tả hợp đồng dự án
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Ước tính mô tả hợp đồng dự án
+                - name: Ước tính mô tả hợp đồng dựa trên dự án
                   href: sales/create-estimate-contract-line.md
-                - name: Nhập ước tính từ một dự án vào mô tả hợp đồng dựa trên dự án
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Tạo lịch trình hóa đơn trên phần mô tả hợp đồng dựa theo dự án
+                - name: Nhập giá trị ước tính từ dự án vào mô tả hợp đồng dự án
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Tạo lịch trình hóa đơn trên một mô tả hợp đồng dựa theo dự án
                   href: sales/invoice-schedules-contract-line.md
             - name: Sao chép hợp đồng dựa trên dự án
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Khoản ứng trước và khoản đặt cọc
               items:
-                - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc
+                - name: Hợp đồng dự án dựa trên khoản ứng trước và khoản đặt cọc
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Thiết lập lịch trình khoản đặt cọc
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng
+                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng dự án
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Định giá và chi phí
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Đồng bộ hóa Trạng thái dự án để ngăn nhập dữ liệu vào các dự án đã đóng
           href: advanced-configuration/sync-project-status.md
+        - name: Thiết lập chuyển đổi tiền tệ để tính giá bán từ các mức phí
+          href: advanced-configuration/currencyconversion.md
     - name: Nâng cấp
       items:
         - name: Các cân nhắc về nâng cấp cho Phê duyệt hiện đại
@@ -664,18 +668,22 @@
           href: pro/project-operations-overview-lite.md
         - name: Đăng ký gói xem trước – bản đơn giản
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Triển khai Project Operations – bản đơn giản
+        - name: Triển khai Project Operations – Bản đơn giản
           href: environment/lite-deployment.md
         - name: Áp dụng dữ liệu cấu hình và thiết lập minh họa – bản đơn giản
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Mô hình bảo mật
           href: environment/security-model.md
-    - name: Có gì mới
+    - name: Tính năng mới
       items:
-        - name: Tính năng mới kể từ tháng 9 năm 2022 – triển khai bản đơn giản
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Tính năng mới kể từ tháng 11 năm 2022 – triển khai bản đơn giản
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Lưu trữ
           items:
+            - name: Tính năng mới kể từ tháng 10 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Tính năng mới kể từ tháng 9 năm 2022 – triển khai bản đơn giản
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Tính năng mới kể từ tháng 8 năm 2022 – triển khai bản đơn giản
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Tính năng mới kể từ tháng 7 năm 2022 – triển khai bản đơn giản
@@ -730,7 +738,7 @@
               href: sales/sales-products.md
             - name: Đơn vị và nhóm đơn vị đo
               href: sales/sales-units-unit-groups.md
-            - name: Tiền tệ
+            - name: Tiền tệ
               href: sales/sales-currency.md
             - name: Đơn vị tổ chức
               href: sales/OrgUnits.md
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Tạo báo giá từ cơ hội dự án
               href: sales/link-quotes-opportunities.md
-            - name: Sao chép cơ hội dựa trên dự án
+            - name: Sao chép cơ hội dự án
               href: sales/copy-project-based-opportunity.md
             - name: Đóng một cơ hội dự án
               href: sales/close-opportunity.md
-        - name: Quản lý báo giá dựa trên dự án
+        - name: Quản lý báo giá dự án
           items:
-            - name: Tổng quan về báo giá dựa trên dự án
+            - name: Tổng quan về báo giá dự án
               href: pro/sales/manage-quotes-sales.md
-            - name: Các khái niệm duy nhất cho báo giá dự án
+            - name: Các khái niệm riêng của báo giá dự án
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Chi tiết của tiêu đề cho các báo giá dự án
+            - name: Chi tiết của tiêu đề cho báo giá dự án
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Nhiều khách hàng trên báo giá dự án
+            - name: Quản lý nhiều khách hàng trên các báo giá dự án
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Bảng giá dự án trên báo giá dự án
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Quản lý nhiều đơn vị phức tạp cho các mô tả báo giá dựa trên sản phẩm
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Mô tả báo giá dựa trên dự án
+            - name: Mô tả báo giá dự án
               items:
-                - name: Tổng quan về mô tả báo giá dựa trên dự án
+                - name: Tổng quan về mô tả báo giá dự án
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Quản lý nhiều khách hàng
+                - name: Quản lý nhiều khách hàng trên mô tả báo giá dự án
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Liên kết dự án và nhiệm vụ
+                - name: Liên kết dự án và nhiệm vụ với mô tả báo giá dựa trên dự án
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Đặt cấu hình các thành phần có thể tính phí
+                - name: Cấu hình các thành phần có thể tính phí trên mô tả báo giá dự án
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Ước tính mô tả báo giá dựa trên dự án
+                - name: Ước tính mô tả báo giá dự án
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Nhập ước tính từ một dự án
+                - name: Nhập giá trị ước tính từ dự án vào mô tả báo giá dự án
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Quản lý lịch trình hóa đơn
+                - name: Lịch trình hóa đơn cho mô tả báo giá dự án
                   href: sales/invoice-schedule-quote-line.md
-            - name: Sao chép báo giá dựa trên dự án
+            - name: Sao chép báo giá dự án
               href: sales/lose-quote.md
             - name: Kích hoạt và sửa đổi báo giá dự án
               href: sales/activation-and-revision.md
-            - name: Đóng báo giá dựa trên dự án
+            - name: Đóng báo giá dự án
               href: pro/sales/win-quote-sales.md
-        - name: Quản lý hợp đồng dựa trên dự án
+        - name: Quản lý hợp đồng dự án
           items:
-            - name: Tổng quan về hợp đồng dựa trên dự án
+            - name: Tổng quan về hợp đồng dự án
               href: pro/sales/manage-contracts-sales.md
-            - name: Các khái niệm duy nhất cho hợp đồng dự án
+            - name: Các khái niệm riêng của hợp đồng dự án
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Chi tiết của tiêu đề cho các hợp đồng dự án
               href: pro/sales/project-contract-settings-sales.md
-            - name: Nhiều khách hàng trên một hợp đồng dự án
+            - name: Quản lý nhiều khách hàng trên một hợp đồng dự án
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Bảng giá dự án trên hợp đồng dự án
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Quản lý nhiều đơn vị phức tạp cho các mô tả hợp đồng dựa trên sản phẩm
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Mô tả hợp đồng dựa trên dự án
+            - name: Mô tả hợp đồng dự án
               items:
-                - name: Tổng quan về mô tả hợp đồng dựa trên dự án
+                - name: Tổng quan về mô tả hợp đồng dự án
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Quản lý nhiều khách hàng trên một hợp đồng
+                - name: Quản lý nhiều khách hàng trên một hợp đồng dự án
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Liên kết dự án và nhiệm vụ với mô tả hợp đồng dự án
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Đặt cấu hình các thành phần có thể tính phí của mô tả hợp đồng dự án
+                - name: Cấu hình các thành phần có thể tính phí trên mô tả hợp đồng dự án
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Ước tính mô tả hợp đồng dựa trên dự án
+                - name: Ước tính mô tả hợp đồng dự án
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Nhập giá trị ước tính từ dự án vào mô tả hợp đồng dự án
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Quản lý lịch trình hóa đơn trên mô tả hợp đồng dự án
+                - name: Tạo lịch trình hóa đơn trên mô tả hợp đồng dự án
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Sao chép hợp đồng dự án
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Khoản ứng trước và khoản đặt cọc
               items:
-                - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc – bản đơn giản
+                - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Thiết lập lịch trình khoản đặt cọc – bản đơn giản
+                - name: Thiết lập lịch trình khoản đặt cọcThiết lập lịch trình khoản đặt cọc
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng – bản đơn giản
+                - name: Tạo khoản ứng trước cụ thể trên một hợp đồng dự án
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Định giá và chi phí
       items:
@@ -1186,12 +1194,14 @@
           items:
             - name: Cập nhật Project Operations trong môi trường Finance
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Có gì mới
+    - name: Tính năng mới
       items:
-        - name: Tính năng mới kể từ tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Tính năng mới kể từ tháng 10 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Lưu trữ
           items:
+            - name: Tính năng mới kể từ tháng 9 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Tính năng mới kể từ tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Tính năng mới kể từ tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên hàng trữ kho/sản xuất
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Tổng quan về quản lý dự án và kế toán
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Kế toán dự án
+      items:
+        - name: Tổng quan về quản lý dự án và kế toán
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Các điều chỉnh của dự án
+          href: project-accounting/project-adjustments.md
     - name: Quy trình bán hàng trong dự án
       items:
         - name: Báo giá dự án
@@ -1442,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Có gì mới
+    - name: Tính năng mới
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
