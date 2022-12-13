@@ -1,19 +1,19 @@
 ---
-title: Tạo lịch trình hóa đơn trên mục mô tả hợp đồng dựa trên dự án
+title: Tạo lịch trình hóa đơn trên mô tả hợp đồng dựa trên dự án
 description: Bài viết này cung cấp thông tin về cách tạo lịch trình hóa đơn và mốc trên mục mô tả hợp đồng.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afc6357b7b221b91674035ae3181ef84eed8d586
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8915026"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825124"
 ---
-# <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Tạo lịch trình hóa đơn trên mục mô tả hợp đồng dựa trên dự án 
+# <a name="create-invoice-schedules-on-a-project-based-contract-line"></a>Tạo lịch trình hóa đơn trên mô tả hợp đồng dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 

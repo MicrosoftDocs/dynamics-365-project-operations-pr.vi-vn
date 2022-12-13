@@ -1,32 +1,32 @@
 ---
-title: Số liệu ước tính cho phần mô tả hợp đồng dựa trên dự án - bản đơn giản
+title: Ước tính một dòng hợp đồng dự án
 description: Bài viết này cung cấp thông tin về cách đưa ra ước tính trong phần mô tả hợp đồng dựa trên dự án.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914428"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824794"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Số liệu ước tính cho phần mô tả hợp đồng dựa trên dự án - bản đơn giản
+# <a name="estimate-a-project-contract-line"></a>Ước tính mô tả hợp đồng dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Trong Dynamics 365 Project Operations, phần mô tả hợp đồng dựa trên dự án có các chi tiết giúp ước tính chi phí và doanh thu tiềm năng của công việc liên quan để cung cấp cho phần mô tả hợp đồng.
+Trong Dynamics 365 Project Operations, mô tả hợp đồng dự án có các chi tiết giúp ước tính chi phí và doanh thu tiềm năng của công việc liên quan để thực hiện mô tả hợp đồng.
 
-Để đưa ra số liệu ước tính trong phần hợp đồng dựa trên dự án, hãy chuyển đến tab **Chi tiết mô tả hợp đồng** trong phần **Mô tả hợp đồng** dựa trên dự án.  Có 2 cách để tạo số liệu ước tính trong phần mô tả hợp đồng dựa trên dự án, đó là:
+Để ước tính mô tả hợp đồng dự án, hãy chuyển đến tab **Chi tiết mô tả hợp đồng** trên Mô tả hợp đồng **dựa trên dự án**.  Có 2 cách để tạo số liệu ước tính trong phần mô tả hợp đồng dựa trên dự án, đó là:
 
    - Tạo trực tiếp số liệu ước tính trên phần mô tả hợp đồng bằng cách thêm các chi tiết mô tả hợp đồng theo cách thủ công.
    - Tạo một dự án và một kế hoạch dự án, sau đó liên kết dự án đó và các nhiệm vụ với phần mô tả hợp đồng của dự án. Thao tác này kích hoạt quy trình để bạn nhập số liệu ước tính của kế hoạch dự án vào phần mô tả hợp đồng dựa trên các thành phần có trong phần mô tả hợp đồng.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Tạo trực tiếp số liệu ước tính trong phần mô tả hợp đồng dựa trên dự án
 
-Để tạo giá trị ước tính ngay trên mục mô tả hợp đồng dựa trên dự án, hãy làm theo các bước sau:
+Để tạo ước tính trực tiếp trên mô tả hợp đồng dự án, hãy làm theo các bước sau:
 
 1. Chuyển đến phần mô tả hợp đồng và chọn tab **Chi tiết mô tả hợp đồng**. Các dòng bạn tạo trên tab này được tóm tắt và hiển thị dưới dạng **Giá trị hợp đồng** cho phần **Mô tả hợp đồng** này. 
 2. Trên lưới con **Chi tiết mô tả hợp đồng**, hãy chọn **Chi tiết mô tả hợp đồng mới**. Một thanh trượt tạo nhanh sẽ mở ra. Các trường sau đây có sẵn trên trang **Chi tiết mô tả hợp đồng**.

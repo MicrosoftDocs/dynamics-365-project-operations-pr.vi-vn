@@ -1,5 +1,5 @@
 ---
-title: Đóng báo giá - bản đơn giản
+title: Đóng báo giá dự án
 description: Bài viết này cung cấp thông tin về cách đóng báo giá trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916958"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826202"
 ---
-# <a name="close-a-quote---lite"></a>Đóng báo giá - bản đơn giản
+# <a name="close-project-quotes"></a>Đóng báo giá dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
@@ -30,7 +30,7 @@ Nếu báo giá được đính kèm với một cơ hội, bất kỳ báo giá
 
 Nếu có giá trị thực nào của thời gian trên một dự án trong khi vẫn đính kèm vào báo giá nháp, thì hệ thống sẽ chỉ ghi lại chi phí thời gian hoặc khoản chi tiêu. Sau khi một báo giá được đóng dưới dạng Đã giành được, ứng dụng sẽ cấu trúc lại chi phí bằng cách đảo ngược các giá trị chi phí thực tế cũ hơn và tạo lại giá trị chi phí thực tế mới. Ứng dụng sẽ xử lý các giá trị chi phí thực tế này dựa trên Phương thức thanh toán của mô tả hợp đồng dự án liên quan. Nếu các giá trị thực của chi phí tham chiếu một dòng mô tả về thời gian và nguyên vật liệu trên hợp đồng, các giá trị thực của giao dịch chưa lập hóa đơn sẽ được tạo khi báo giá bị đóng và hợp đồng dự án được tạo. Nếu các giá trị thực của chi phí tham chiếu một dòng mô tả về giá cố định trên hợp đồng, thì ứng dụng sẽ ngừng xử lý lại các giá trị thực của chi phí được dựa trên quy tắc phân tách hóa đơn dành cho khách hàng trong hợp đồng dự án.
 
-## <a name="closing-a-quote-as-lost"></a>Đóng báo giá dưới dạng đã mất:
+## <a name="closing-a-quote-as-lost"></a>Đóng một trích dẫn như bị mất
 
 Khi đóng báo giá dưới dạng Đã mất, trạng thái sẽ được chuyển sang Đã đóng và lý do dẫn đến trạng thái là Đã mất. Việc đóng báo giá làm cho báo giá dự án ở chế độ chỉ đọc. Vì không thể mở lại báo giá đã đóng, vì vậy trước khi bạn đóng báo giá, hộp thoại xác nhận sẽ xác nhận các thay đổi của bạn.
 

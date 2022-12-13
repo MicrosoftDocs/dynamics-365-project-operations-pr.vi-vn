@@ -1,23 +1,23 @@
 ---
-title: Quản lý nhiều khách hàng trên các mô tả báo giá dựa trên dự án - bản đơn giản
-description: Bài viết này mô tả cách quản lý nhiều khách hàng trên dòng báo giá dựa trên dự án.
+title: Quản lý nhiều khách hàng trên mô tả báo giá dự án
+description: Bài viết này mô tả cách quản lý nhiều khách hàng trên các mô tả báo giá dự án.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927814"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824465"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Quản lý nhiều khách hàng trên các mô tả báo giá dựa trên dự án - bản đơn giản
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Quản lý nhiều khách hàng trên mô tả báo giá dự án
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Các mô tả báo giá dựa trên dự án hỗ trợ các tình huống mà mỗi mô tả báo giá có một danh sách khách hàng đang trả tiền cho nó. Danh sách khách hàng trên mô tả báo giá theo dự án này có thể giống với danh sách khách hàng trên báo giá. Bạn cũng có thể thay đổi danh sách khách hàng cho khác đi. Khi chốt báo giá dự án, danh sách khách hàng trên mô tả báo giá dựa trên dự án được sao chép sang mô tả hợp đồng dựa trên dự án tương ứng để tạo hợp đồng dự án cuối cùng. Khách hàng trên báo giá dựa trên dự án được sao chép sang hợp đồng dự án.
+Mô tả báo giá dự án hỗ trợ các tình huống trong đó mỗi mô tả báo giá có một danh sách khách hàng đang trả tiền cho nó. Danh sách khách hàng trên mô tả báo giá theo dự án này có thể giống với danh sách khách hàng trên báo giá. Bạn cũng có thể thay đổi danh sách khách hàng cho khác đi. Khi chốt báo giá dự án, danh sách khách hàng trên mô tả báo giá dựa trên dự án được sao chép sang mô tả hợp đồng dựa trên dự án tương ứng để tạo hợp đồng dự án cuối cùng. Khách hàng trên báo giá dựa trên dự án được sao chép sang hợp đồng dự án.
 
 Khi bạn lập hóa đơn cho hợp đồng dự án cuối cùng, danh sách khách hàng trên mô tả hợp đồng dựa trên dự án sẽ được ưu tiên hơn danh sách trên hợp đồng dự án. Danh sách khách hàng trên hợp đồng dự án chỉ được sử dụng cho giá trị mặc định trên mô tả hợp đồng dự án mới.
 

@@ -1,19 +1,19 @@
 ---
-title: Sao chép cơ hội dựa trên dự án
+title: Sao chép cơ hội dự án
 description: Bài viết này cung cấp thông tin về việc sao chép cơ hội dựa trên dự án trong Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926158"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826155"
 ---
-# <a name="copy-project-based-opportunities"></a>Sao chép cơ hội dựa trên dự án
+# <a name="copy-project-opportunities"></a>Sao chép cơ hội dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

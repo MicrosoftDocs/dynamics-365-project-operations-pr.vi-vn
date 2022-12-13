@@ -1,19 +1,19 @@
 ---
-title: Tổng quan về các mô tả báo giá dựa trên sản phẩm - bản đơn giản
+title: Tổng quan về mô tả báo giá dựa trên sản phẩm
 description: Bài viết này cung cấp thông tin về cách làm việc với mô tả báo giá dựa trên sản phẩm.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914336"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826249"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Tổng quan về các mô tả báo giá dựa trên sản phẩm - bản đơn giản
+# <a name="product-based-quote-lines-overview"></a>Tổng quan về mô tả báo giá dựa trên sản phẩm
 
 _**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

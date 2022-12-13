@@ -1,19 +1,19 @@
 ---
-title: Sao chép báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách sao chép báo giá dựa trên dự án trong Project Operations.
+title: Sao chép báo giá dự án
+description: Bài viết này cung cấp thông tin về cách sao chép báo giá dự án trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914934"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825333"
 ---
-# <a name="copy-project-based-quotes"></a>Sao chép báo giá dựa trên dự án
+# <a name="copy-project-quotes"></a>Sao chép báo giá dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 

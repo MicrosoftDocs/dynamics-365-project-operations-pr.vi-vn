@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911668"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826108"
 ---
 # <a name="manage-project-quotes"></a>Quản lý báo giá dự án
 
@@ -23,7 +23,7 @@ Trong Dynamics 365 Project Operations, báo giá dự án nhằm tạo các đ�
   - Thông tin chi tiết mô tả báo giá xác định và ước tính công việc cho từng thành phần cấp cao hoặc mô tả báo giá. Các ước tính về lịch trình hoặc ngày và các khía cạnh tài chính của công việc gắn liền với mô tả báo giá đó.
   - Các mô hình thầu và thành phần phải thanh toán được thiết lập cho mỗi mô tả báo giá. Thiết lập này giúp ước tính mức chênh lệch doanh thu, chi tiêu và lợi nhuận cho từng mô tả báo giá và báo giá tổng thể.
 
-## <a name="view-all-project-based-quotes"></a>Xem tất cả báo giá dựa trên dự án
+## <a name="view-all-project-quotes"></a>Xem tất cả báo giá dự án
 
 Danh sách tất cả báo giá dự án có trên trang danh sách **Báo giá**. 
 

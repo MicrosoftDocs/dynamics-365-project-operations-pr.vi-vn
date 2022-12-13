@@ -1,31 +1,29 @@
 ---
-title: Quản lý khách hàng tiềm năng
+title: Quản lý khách hàng tiềm năng dựa trên dự án
 description: Bài viết này cung cấp thông tin về quản lý khách hàng tiềm năng dựa trên dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920224"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825826"
 ---
-# <a name="manage-leads"></a>Quản lý khách hàng tiềm năng
+# <a name="manage-project-based-leads"></a>Quản lý khách hàng tiềm năng dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
 Các khách hàng tiềm năng dựa trên dự án có thể được quản lý và định tính trong Project Operations. Quá trình quản lý khách hàng tiềm năng bao gồm việc tạo ra các khách hàng tiềm năng dựa trên công việc và định tính các khách hàng tiềm năng đó. 
 
-## <a name="project-sales-leads"></a>Mối khách hàng dự án
-
 Trong phần **Bán hàng**, trong ngăn điều hướng bên trái, hãy mở trang danh sách **Khách hàng tiềm năng** để xem danh sách tất cả các bản ghi khách hàng tiềm năng trong hệ thống. Danh sách khách hàng tiềm năng được hiển thị dựa trên công việc và bạn có thể tạo các loại khách hàng tiềm năng khác nếu bạn cũng có các ứng dụng Dynamics 365 Sales hoặc Dynamics 365 Field Service.
 
 Bạn có thể tạo chế độ đã lọc để chỉ xem các khách hàng tiềm năng dựa trên dự án bằng cách tạo bộ lọc trên giá trị **Loại**. Ví dụ: bạn có thể chọn chỉ hiển thị khách hàng tiềm năng dựa trên công việc.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Tạo khách hàng tiềm năng mới cho thỏa thuận dựa trên dự án
+## <a name="create-a-new-project-based-lead"></a>Tạo khách hàng tiềm năng mới dựa trên dự án 
 
 Khi khách hàng tiềm năng dựa trên dự án đủ điều kiện, cơ hội và tài khoản sẽ được tạo. Cơ hội dựa trên dự án là điểm khởi đầu cho các hoạt động theo đuổi doanh số trong giai đoạn Cơ hội. Các cơ hội dựa trên dự án có các khả năng độc đáo cần phải có để bán công việc của dự án. Những khả năng này bao gồm:
 

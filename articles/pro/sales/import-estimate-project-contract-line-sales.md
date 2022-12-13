@@ -1,21 +1,21 @@
 ---
-title: Nhập số liệu ước tính vào phần mô tả hợp đồng dựa trên dự án - bản đơn giản
+title: Nhập giá trị ước tính từ dự án vào mô tả hợp đồng dự án
 description: Bài viết này cung cấp thông tin về việc nhập giá trị ước tính tài chính từ dự án vào mục mô tả hợp đồng.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924226"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824701"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Nhập số liệu ước tính vào phần mô tả hợp đồng dựa trên dự án - bản đơn giản
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Nhập giá trị ước tính từ dự án vào mô tả hợp đồng dự án
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Triển khai rút gọn - xử lý hóa đơn chiếu lệ, Hoạt động dự án cho các tình huống dựa trên tài nguyên/không có hàng trong kho_ _
 
 Trong Dynamics 365 Project Operations, bạn có thể nhập ước tính từ một dự án vào mô tả hợp đồng theo dự án.
 

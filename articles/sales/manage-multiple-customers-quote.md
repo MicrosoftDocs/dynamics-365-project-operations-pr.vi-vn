@@ -1,23 +1,23 @@
 ---
-title: Quản lý nhiều khách hàng trên một báo giá dự án
+title: Quản lý nhiều khách hàng trên một báo giá dựa trên dự án
 description: Bài viết này cung cấp thông tin về cách làm việc trên các báo giá liên quan đến nhiều khách hàng sẽ tài trợ cho dự án.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928228"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825175"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Quản lý nhiều khách hàng trên một báo giá dự án
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Quản lý nhiều khách hàng trên một báo giá dựa trên dự án
 
-_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Báo giá dự án hỗ trợ tình huống mà đề xuất có liên quan đến nhiều khách hàng sẽ tài trợ cho thỏa thuận. Tab **Tóm tắt** của Báo giá có trường **Khách hàng tiềm năng** nhằm xác định khách hàng chính của thỏa thuận. Các khách hàng khác cho thỏa thuận có thể được thiết lập trên tab **Khách hàng** của báo giá dự án.
+Báo giá dựa trên dự án hỗ trợ kịch bản trong đó đề xuất liên quan đến nhiều khách hàng sẽ tài trợ cho thỏa thuận. Tab **Tóm tắt** của Báo giá có trường **Khách hàng tiềm năng** nhằm xác định khách hàng chính của thỏa thuận. Các khách hàng khác cho thỏa thuận có thể được thiết lập trên tab **Khách hàng** của báo giá dự án.
 
 Tất cả các khách hàng báo giá trên tab **Khách hàng** của báo giá dự án mặc định là khách hàng mô tả báo giá trên bất kỳ mô tả báo giá dựa trên dự án **mới** nào được tạo cho báo giá. Bất kỳ mô tả báo giá dựa trên dự án hiện có nào sẽ không kế thừa các bản ghi khách hàng báo giá mới được tạo sau chúng.
 

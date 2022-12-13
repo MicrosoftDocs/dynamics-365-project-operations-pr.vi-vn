@@ -1,21 +1,21 @@
 ---
-title: Ước tính mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách tạo ước tính trên mô tả báo giá dựa trên dự án.
+title: Ước tính mô tả báo giá dự án
+description: Bài viết này cung cấp thông tin về cách tạo ước tính trên mô tả báo giá dự án.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914382"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826014"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Ước tính mô tả báo giá dựa trên dự án
+# <a name="estimate-a-project-quote-line"></a>Ước tính mô tả báo giá dự án
 
-_**Áp dụng cho:** Triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
+_**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_
 
 Mô tả báo giá dựa trên dự án có thông tin chi tiết giúp ước tính chi phí và doanh thu tiềm năng của công việc liên quan để cung cấp mô tả báo giá.
 
@@ -24,7 +24,7 @@ Mô tả báo giá dựa trên dự án có thông tin chi tiết giúp ước t
 - Tạo giá trị ước tính theo cách thủ công ngay trên mục mô tả báo giá bằng cách sử dụng chi tiết mô tả báo giá. 
 - Tạo dự án và kế hoạch dự án, sau đó liên kết dự án và các nhiệm vụ trên dự án với mô tả báo giá. Quá trình nhập các ước tính về kế hoạch dự án vào mô tả báo giá dựa trên thông tin bạn cung cấp sẽ được kích hoạt.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Tạo giá trị ước tính trực tiếp trên mô tả báo giá dựa trên dự án
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Tạo ước tính trực tiếp trên mô tả báo giá dự án
 
 Để tạo ước tính trên mô tả báo giá dựa trên dự án, hãy chọn tab **Chi tiết mô tả báo giá**. Mục hàng mà bạn tạo trên tab này sẽ tóm tắt giá trị được báo giá cho mô tả báo giá này. 
 
@@ -68,8 +68,7 @@ Trên tab **Chi tiết mô tả báo giá**, chọn một hàng trong lưới đ
 
 Tính toán lợi nhuận sẽ chuyển đổi số tiền trên chi tiết mô tả báo giá cho chi phí và bán hàng thành tiền tệ cơ bản của môi trường để báo cáo tổng lợi nhuận ước tính trên báo giá.
 
-> [!GHI CHÚ
-> > Lỗi làm tròn theo đơn vị tiền tệ và thay đổi lợi nhuận có thể xảy ra do thiếu tỷ giá hối đoái thực tế theo ngày. Chỉ sử dụng các tính toán này trên các hợp đồng dự án vì đây là các ước tính và không áp dụng cho báo cáo thực tế theo luật định hoặc báo cáo khác đòi hỏi độ chính xác cao hơn khi làm tròn và biết rõ tính hiệu lực của ngày đối với tỷ giá hối đoái.
+> [!LƯU Ý Lỗi làm tròn tiền tệ và biên độ thay đổi có thể xảy ra do thiếu tỷ giá hối đoái có hiệu lực ngày. Chỉ sử dụng các tính toán này trên các hợp đồng dự án vì đây là các ước tính và không áp dụng cho báo cáo thực tế theo luật định hoặc báo cáo khác đòi hỏi độ chính xác cao hơn khi làm tròn và biết rõ tính hiệu lực của ngày đối với tỷ giá hối đoái.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

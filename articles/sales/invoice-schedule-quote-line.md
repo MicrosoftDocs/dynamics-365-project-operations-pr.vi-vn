@@ -1,27 +1,27 @@
 ---
-title: Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
+title: Lịch trình hóa đơn trên mô tả báo giá dự án
 description: Bài viết này cung cấp thông tin về việc tạo lịch trình hóa đơn và các mốc quan trọng cho mô tả báo giá.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918338"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825780"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Lịch trình hóa đơn cho mô tả báo giá dựa trên dự án
+# <a name="invoice-schedules-on-project-quote-lines"></a>Lịch trình hóa đơn trên mô tả báo giá dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Mô tả báo giá dựa trên dự án cung cấp khả năng thể hiện lịch trình hóa đơn. Đây là tùy chọn trong giai đoạn báo giá vì ứng dụng không hỗ trợ lập hóa đơn cho một dự án khi dự án được liên kết với mô tả báo giá. Việc lập hóa đơn chỉ được phép sau khi giành được báo giá. Tác động cuối cùng duy nhất của việc tạo lịch trình hóa đơn trong giai đoạn báo giá là lịch trình hóa đơn này được sao chép sang mô tả hợp đồng dựa trên dự án. Nếu không tạo lịch trình hóa đơn trong giai đoạn báo giá, bạn sẽ có thể làm như vậy trên mô tả hợp đồng dựa trên dự án.
+Mô tả báo giá dự án cung cấp khả năng thể hiện lịch trình hóa đơn. Đây là tùy chọn trong giai đoạn báo giá vì ứng dụng không hỗ trợ lập hóa đơn cho một dự án khi dự án được liên kết với mô tả báo giá. Việc lập hóa đơn chỉ được phép sau khi giành được báo giá. Tác động cuối cùng duy nhất của việc tạo lịch trình hóa đơn trong giai đoạn báo giá là lịch trình hóa đơn này được sao chép sang mô tả hợp đồng dựa trên dự án. Nếu không tạo lịch trình hóa đơn trong giai đoạn báo giá, bạn sẽ có thể làm như vậy trên mô tả hợp đồng dựa trên dự án.
 
 Nhìn chung, mục đích của lịch trình hóa đơn là cho phép tự động tạo các hóa đơn nháp cho một mô tả hợp đồng dựa trên dự án. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Tạo lịch trình hóa đơn theo thời gian và vật tư cho mô tả báo giá dựa trên dự án
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Tạo lịch trình hóa đơn thời gian và vật liệu cho mô tả báo giá dự án
 
 Khi phương thức thanh toán cho mô tả báo giá dựa trên dự án là thời gian và vật tư, hệ thống sẽ tạo lịch trình hóa đơn dựa trên ngày. Để tự động tạo lịch trình hóa đơn dựa trên ngày, hãy hoàn thành các bước sau.
 
@@ -36,7 +36,7 @@ Khi phương thức thanh toán cho mô tả báo giá dựa trên dự án là 
     - **Ngày kết thúc giao dịch** được đặt thành ngày trước **Ngày chạy hóa đơn**.
     - **Trạng thái chạy** được tự động đặt thành **Không chạy**. Khi công việc tạo hóa đơn tự động chạy trong một ngày chạy hóa đơn nhất định, nó sẽ cập nhật trường này thành **Chạy thành công** hoặc **Chạy không thành công**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Tạo lịch trình hóa đơn giá cố định cho mô tả báo giá dựa trên dự án
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Tạo lịch trình hóa đơn giá cố định cho mô tả báo giá dự án
 
 Khi mô tả báo giá dựa trên dự án có phương thức thanh toán **Cố định**, hệ thống sẽ tạo lịch trình hóa đơn dựa trên mốc thời gian. Hoàn thành các bước sau để tự động tạo lịch trình này cho một tập hợp các mốc thời gian cố định được phân bổ đều cho khoảng thời gian theo lịch.
 

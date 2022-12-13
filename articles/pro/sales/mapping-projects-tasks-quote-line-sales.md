@@ -1,23 +1,23 @@
 ---
-title: Ánh xạ dự án và tác vụ với mô tả báo giá dựa trên dự án
-description: Bài viết này cung cấp thông tin về cách ánh xạ các dự án và tác vụ thành một mô tả tác vụ dựa trên dự án.
+title: Ánh xạ dự án và nhiệm vụ tới mô tả báo giá dự án
+description: Bài viết này cung cấp thông tin về cách ánh xạ dự án và nhiệm vụ tới mô tả báo giá dự án.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917234"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824381"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Ánh xạ dự án và tác vụ với mô tả báo giá dựa trên dự án
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Ánh xạ dự án và nhiệm vụ tới mô tả báo giá dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho, triển khai bản đơn giản – từ thỏa thuận đến lập hóa đơn ước giá_
 
-Trên các mô tả báo giá dựa trên dự án, bạn có thể ánh xạ các nhiệm vụ cụ thể của một dự án đã được liên kết với mô tả báo giá.
+Trên các mô tả báo giá dự án, bạn có thể ánh xạ các nhiệm vụ cụ thể của một dự án đã được liên kết với một mô tả báo giá.
 
 Khi bạn ánh xạ các tác vụ với một mô tả báo giá, các mục sau đây bạn đã xác định trên mô tả báo giá sẽ chỉ áp dụng cho các tác vụ đó:
 

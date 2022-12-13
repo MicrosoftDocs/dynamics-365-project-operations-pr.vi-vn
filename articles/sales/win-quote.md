@@ -1,23 +1,23 @@
 ---
-title: Đóng báo giá
+title: Đóng báo giá dựa trên dự án
 description: Bài viết này cung cấp thông tin về cách đóng báo giá trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931908"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824244"
 ---
-# <a name="close-a-quote"></a>Đóng báo giá
+# <a name="close-project-based-quotes"></a>Đóng báo giá dựa trên dự án
 
 _**Áp dụng cho:** Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho_
 
-Báo giá dự án ở trạng thái Đã giành được hoặc Đã mất. Do các chức năng Kích hoạt và Xem lại không được hỗ trợ trên báo giá trong Microsoft Dynamics 365 Project Operations, bạn có thể đóng báo giá nháp.
+Bạn có thể đóng báo giá dự án khi **thắng** hoặc **thua**. 
 
 ## <a name="close-a-quote-as-won"></a>Đóng báo giá dưới dạng Đã giành được
 

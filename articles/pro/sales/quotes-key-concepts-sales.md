@@ -1,17 +1,17 @@
 ---
-title: Báo giá - Khái niệm chính - bản đơn giản
+title: Các khái niệm duy nhất cho Báo giá dự án
 description: Bài viết này cung cấp thông tin về cách sử dụng báo giá dự án trong Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917004"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825920"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Các khái niệm duy nhất cho Báo giá dự án
 
@@ -82,9 +82,13 @@ Lịch trình hóa đơn dành riêng cho từng mô tả báo giá và không b
 
 Báo giá Project Operations được xây dựng dựa trên báo giá Dynamics 365 Sales. Tuy nhiên, có một số khác biệt quan trọng về chức năng mà bạn cần lưu ý:
 
-- Các hành động **Sửa lại** và **Kích hoạt** không được hỗ trợ.
+
 - Báo giá Project Operations có hai loại mô tả khác nhau. Một cho dự án và một cho sản phẩm.
 - Báo giá Project Operations có biểu mẫu và thành phần giao diện người dùng riêng, quy tắc công việc, logic kinh doanh trong phần bổ trợ và kịch bản phía khách hàng khiến chúng trở nên riêng biệt so với báo giá Sales.
+- Báo giá bán hàng cho phép bạn đính kèm nhiều đơn hàng vào một báo giá bán hàng. Trong Project Operations, chỉ có thể đính kèm một hợp đồng dự án vào báo giá dự án.
+- Khi bạn giành được báo giá bán hàng, cơ hội liên quan có thể vẫn mở. Sau khi giành được một báo cáo dự án, cơ hội liên quan sẽ đóng lại.
+- Báo giá bán hàng không bao gồm một số trường và khái niệm có trong báo giá dự án. Các trường này bao gồm **Đơn vị ký hợp đồng**, **Người quản lý tài khoản** và **Tên người thanh toán**.  
+- **Loại**: Báo giá bán hàng và báo giá dự án cũng được xác định theo một trường dựa trên bộ tùy chọn tên là **Loại**. Đối với báo giá bán hàng, trường này có giá trị **Dựa trên mục hàng**. Đối với báo giá dự án, nó có giá trị **Dựa trên công việc**.
 
 Vì những lý do này, không nên sử dụng báo giá Sales và báo giá Project Operations thay thế cho nhau.
 

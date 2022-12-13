@@ -1,23 +1,23 @@
 ---
-title: Ánh xạ dự án và nhiệm vụ với mô tả hợp đồng dựa trên dự án - bản đơn giản
+title: Liên kết dự án và nhiệm vụ với mô tả hợp đồng dự án
 description: Bài viết này cung cấp thông tin về cách thêm dự án và nhiệm vụ vào một mô tả hợp đồng cũng như cách xóa.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932552"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825086"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Ánh xạ dự án và nhiệm vụ với mô tả hợp đồng dựa trên dự án 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Liên kết dự án và nhiệm vụ với mô tả hợp đồng dự án 
 
 _**Áp dụng cho:** Triển khai bản đơn giản - từ thỏa thuận đến lập hóa đơn ước giá, Project Operations cho các kịch bản dựa trên tài nguyên/không lưu kho_
 
-Trên các mô tả hợp đồng dựa trên dự án, bạn có thể ánh xạ các nhiệm vụ cụ thể trong một dự án vào mô tả hợp đồng.
+Trên các mô tả hợp đồng dự án, bạn có thể ánh xạ các nhiệm vụ cụ thể trong một dự án với mô tả hợp đồng.
 
 Khi bạn ánh xạ các nhiệm vụ cụ thể vào một mô tả hợp đồng, phương thức thanh toán, tùy chọn khả năng tính phí, Giới hạn không vượt quá và khách hàng được xác định trên mô tả hợp đồng sẽ chỉ áp dụng cho các nhiệm vụ cụ thể đó.
 
@@ -25,7 +25,7 @@ Nếu có trường hợp trong đó một giai đoạn của dự án, chẳng 
 
 Bạn có thể liên kết tất cả giai đoạn khác trong cấu trúc phân tích công việc (WBS) dự án của mình với mô tả hợp đồng dựa trên thời gian và vật tư.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Liên kết các nhiệm vụ với mô tả hợp đồng dựa trên dự án
+## <a name="associate-tasks-to-project-contract-lines"></a>Liên kết nhiệm vụ với mô tả hợp đồng dự án
 
 Bạn có thể liên kết các nhiệm vụ với mô tả hợp đồng từ tab **Nhiệm vụ phải thanh toán** trên trang **Mô tả hợp đồng** hoặc từ tab **Thanh toán nhiệm vụ** trên trang **Dự án**.
 

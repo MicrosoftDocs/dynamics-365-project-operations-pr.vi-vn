@@ -2,16 +2,16 @@
 title: Áp dụng dữ liệu cấu hình và thiết lập bản demo – bản đơn giản
 description: Bài viết này cung cấp thông tin về cách áp dụng dữ liệu cấu hình và thiết lập demo cho Project Operations.
 author: sigitac
-ms.date: 01/27/2021
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: HT
+ms.openlocfilehash: 8ac8c910ce2d91fa47df08e8fb6efb723c0dc5fa
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
+ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410068"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9811052"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Áp dụng dữ liệu cấu hình và thiết lập bản demo cho Project Operations – bản đơn giản 
 
@@ -26,31 +26,31 @@ Trước khi bắt đầu cấu hình, bạn phải cung cấp môi trường Da
 
 ## <a name="instructions"></a>Hướng dẫn
 
-1. Tải [Gói dữ liệu chính](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip) xuống. 
-2. Điều hướng đến thư mục *ProjOpsSampleSetupData - CE only CMT* và chạy tệp thực thi *DataMigrationUtility*.
-3. Trên trang 1 của Trình hướng dẫn di chuyển cấu hình (CMT) Common Data Service, hãy chọn **Nhập dữ liệu** và sau đó chọn **Tiếp tục**.
+1. Tải xuống [Gói dữ liệu thiết lập](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+1. Điều hướng đến thư mục *ProjOpsSampleSetupData - CE only CMT* và chạy tệp thực thi *DataMigrationUtility*.
+1. Trên trang 1 của Trình hướng dẫn di chuyển cấu hình (CMT) Common Data Service, hãy chọn **Nhập dữ liệu** và sau đó chọn **Tiếp tục**.
 
     ![Di chuyển cấu hình.](./media/1ConfigurationMigration.png)
 
-4. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
-5. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
-6. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn, sau đó chọn **Đăng nhập**.
+1. Trên Trang 2 của Trình hướng dẫn CMT, hãy chọn **Microsoft 365** làm **Loại triển khai**.
+1. Chọn **Hiển thị danh sách tổ chức khả dụng** và hộp kiểm **Hiển thị nâng cao**.
+1. Chọn khu vực của đối tượng thuê của bạn, nhập thông tin xác thực của bạn, sau đó chọn **Đăng nhập**.
 
    ![Đăng nhập cấu hình.](./media/2ConfigurationSignin.png)
 
-7. Trên trang 3, từ danh sách Tổ chức trên Đối tượng thuê, hãy chọn tổ chức bạn muốn nhập dữ liệu demo vào rồi chọn **Đăng nhập**.
-8. Trên trang 4, hãy chọn tệp zip *SampleSetupAndConfigData* ở thư mục được giải nén *ProjOpsSampleSetupData - CE only CMT*.
+1. Trên trang 3, từ danh sách Tổ chức trên Đối tượng thuê, hãy chọn tổ chức bạn muốn nhập dữ liệu demo vào rồi chọn **Đăng nhập**.
+1. Trên trang 4, hãy chọn tệp zip *SampleSetupAndConfigData* ở thư mục được giải nén *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Tệp Zip.](./media/3ZipFile.png)
 
    ![Chọn một tệp.](./media/4SelectAFile.png)
 
-9. Sau khi chọn tệp zip, hãy chọn **Nhập dữ liệu**.
+1. Sau khi chọn tệp zip, hãy chọn **Nhập dữ liệu**.
 
    ![Nhập dữ liệu.](./media/5ImportData.png)
 
-10. Quá trình nhập sẽ chạy trong khoảng hai mười phút tùy thuộc vào tốc độ mạng của bạn. Sau khi hoàn tất, hãy thoát khỏi CMT Wizard. 
-11. Kiểm tra tổ chức của bạn để tìm dữ liệu trong 18 thực thể sau:
+1. Quá trình nhập sẽ chạy trong khoảng hai mười phút tùy thuộc vào tốc độ mạng của bạn. Sau khi hoàn tất, hãy thoát khỏi CMT Wizard. 
+1. Kiểm tra tổ chức của bạn để tìm dữ liệu trong 18 thực thể sau:
 
     -   Tiền tệ
     -   Tài khoản
