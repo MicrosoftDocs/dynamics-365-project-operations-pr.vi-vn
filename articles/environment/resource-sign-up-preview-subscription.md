@@ -1,17 +1,17 @@
 ---
 title: Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
-description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho.
+description: Bài viết này cung cấp thông tin về cách đăng ký và triển khai Project Operations cho các tình huống dựa trên tài nguyên/không có hàng trong kho.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3164add153d77a52f85c2aac442dcf90baa24440
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: MT
 ms.contentlocale: vi-VN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920132"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9842042"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Đăng ký gói đăng ký xem trước Project Operations cho kịch bản dựa trên nguồn lực/hàng không nhập kho
 
