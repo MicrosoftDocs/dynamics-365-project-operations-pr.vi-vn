@@ -12,11 +12,11 @@
       items:
         - name: Các tính năng bị xóa hoặc không dùng nữa trong Project Operations
           href: whats-new/removed-depreciated-features-project.md
-- name: Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
+- name: Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
   items:
     - name: Bắt đầu
       items:
-        - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+        - name: Tổng quan về việc triển khai Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
           href: environment/project-operations-integrated-deployment-overview.md
         - name: Đăng ký gói xem trước
           href: environment/resource-sign-up-preview-subscription.md
@@ -72,45 +72,45 @@
               href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Tháng 8 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-aug-2022-resource-based.md
-            - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 7 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 6 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-june-2022-resource-based.md
-            - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 5 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-may-2022-resource-based.md
             - name: Tháng 4 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 3 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 2 năm 2022 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: Tháng 12 năm 2021 – Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 12 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: Tháng 11 năm 2021 – Project Operations cho kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 11 năm 2021 – Project Operations cho tình huống dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-nov-2021-resource-based.md
-            - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 10 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-oct-2021-resource-based.md
-            - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 9 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-sept-2021-resource-based.md
-            - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 8 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-august-2021-resource-based.md
-            - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 7 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-july-2021-resource-based.md
-            - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 6 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-june-2021-resource-based.md
-            - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 5 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-may-2021-resource-based.md
             - name: Tháng 4 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
               href: whats-new/whats-new-apr-2021-resource-based.md
-            - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 3 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-mar-2021-resource-based.md
-            - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 2 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-feb-2021-resource-based.md
-            - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 1 năm 2021 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-jan-2021-resource-based.md
-            - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 12 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-dec-2020-resource-based.md
-            - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không trữ kho
+            - name: Tháng 11 năm 2020 – Project Operations cho các kịch bản dựa trên nguồn lực/hàng không nhập kho
               href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Quy trình bán hàng trong dự án
       items:
@@ -738,7 +738,7 @@
               href: sales/sales-products.md
             - name: Đơn vị và nhóm đơn vị đo
               href: sales/sales-units-unit-groups.md
-            - name: Tiền tệ
+            - name: Tiền tệ
               href: sales/sales-currency.md
             - name: Đơn vị tổ chức
               href: sales/OrgUnits.md
@@ -846,7 +846,7 @@
               items:
                 - name: Hợp đồng dựa trên khoản ứng trước và khoản đặt cọc
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Thiết lập lịch trình khoản đặt cọcThiết lập lịch trình khoản đặt cọc
+                - name: Thiết lập lịch trình khoản đặt cọc
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Tạo khoản ứng trước cụ thể trên một hợp đồng dự án
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1456,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Tính năng mới
+    - name: Có gì mới
       items:
         - name: Lịch trình của Bản phát hành cập nhật cho Project Service 3.x
           href: psa/version-history-ps.md
